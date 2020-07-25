@@ -1,5 +1,7 @@
 ### Hi there 👋
-
+telegram: https://t.me/sahilrajput03
+twitter: https://twitter.com/freakstarrocks
+discord: username:- sahilrajput03#4631
 <!--
 **sahilrajput03/sahilrajput03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
