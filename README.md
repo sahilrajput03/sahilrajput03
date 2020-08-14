@@ -18,3 +18,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+- 💬 Do you know there's notifications in github ?
+
+[Click here to go to Github - Notifications](https://github.com/notifications)
