@@ -6,6 +6,8 @@ Twitter: [sahilrajput03](https://twitter.com/freakstarrocks)
 Discord's Username: sahilrajput03#4631
 
 Codesandboxes: https://codesandbox.io/u/sahilrajput03
+
+Codesandboxes: Tanner Linsley - https://codesandbox.io/u/tannerlinsley/sandboxes
 <!--
 **sahilrajput03/sahilrajput03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
