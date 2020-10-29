@@ -21,7 +21,7 @@ Telegram: [sahilrajput03](https://t.me/sahilrajput03)
 
 Twitter: [sahilrajput03](https://twitter.com/freakstarrocks)
 
-Discord's Username: sahilrajput03#4631
+Discord : sahilrajput03#4631
 
 Codesandboxes: https://codesandbox.io/u/sahilrajput03
 
