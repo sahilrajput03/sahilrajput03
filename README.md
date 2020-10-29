@@ -28,6 +28,5 @@ Discord : [sahilrajput03#4631](#)
 
 ### Codesandboxes
 
-[Me](https://codesandbox.io/u/sahilrajput03)
-
+[Sahil Rajput](https://codesandbox.io/u/sahilrajput03),
 [Tanner Linsley](https://codesandbox.io/u/tannerlinsley/sandboxes)
