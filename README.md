@@ -20,13 +20,14 @@
 
 [Liked Badges??](https://github.com/Ileriayo/markdown-badges)
 
-## Info 
-Telegram: [sahilrajput03](https://t.me/sahilrajput03)
+## Contact me
 
-Twitter: [sahilrajput03](https://twitter.com/freakstarrocks)
+Telegram: [sahilrajput03](https://t.me/sahilrajput03)
 
 Discord : sahilrajput03#4631
 
-Codesandboxes: https://codesandbox.io/u/sahilrajput03
+### Codesandboxes
 
-Codesandboxes: Tanner Linsley - https://codesandbox.io/u/tannerlinsley/sandboxes
+[Me](https://codesandbox.io/u/sahilrajput03)
+
+[Tanner Linsley](https://codesandbox.io/u/tannerlinsley/sandboxes)
