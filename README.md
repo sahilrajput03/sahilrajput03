@@ -18,7 +18,7 @@
 [<img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/sahilrajput03/)
 [<img src="https://img.shields.io/badge/sahilrajput03%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/>](#)
 
-[Badges Source](https://github.com/Ileriayo/markdown-badges)
+[Liked Badges??](https://github.com/Ileriayo/markdown-badges)
 
 ## Info 
 Telegram: [sahilrajput03](https://t.me/sahilrajput03)
