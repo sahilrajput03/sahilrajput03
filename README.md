@@ -24,7 +24,7 @@
 
 Telegram: [sahilrajput03](https://t.me/sahilrajput03)
 
-Discord : sahilrajput03#4631
+Discord : [sahilrajput03#4631](#)
 
 ### Codesandboxes
 
