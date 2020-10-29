@@ -31,9 +31,15 @@ Codesandboxes: Tanner Linsley - https://codesandbox.io/u/tannerlinsley/sandboxes
 
 <img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/sahilrajput03E%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/>
+<img src="https://img.shields.io/badge/sahilrajput03%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/>
 
+<img src="https://img.shields.io/badge/vercel%20-%23000000.svg?&style=for-the-badge&logo=vercel&logoColor=white"/>
 
+<img src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/docker%20-%230db7ed.svg?&style=for-the-badge&logo=docker&logoColor=white"/>
+
+[Badges](https://github.com/Ileriayo/markdown-badges)
 
 <!--
 **sahilrajput03/sahilrajput03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
