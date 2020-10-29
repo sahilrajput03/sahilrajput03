@@ -8,6 +8,9 @@ Discord's Username: sahilrajput03#4631
 Codesandboxes: https://codesandbox.io/u/sahilrajput03
 
 Codesandboxes: Tanner Linsley - https://codesandbox.io/u/tannerlinsley/sandboxes
+
+[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
+
 <!--
 **sahilrajput03/sahilrajput03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
