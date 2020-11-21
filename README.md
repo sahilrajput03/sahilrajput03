@@ -33,10 +33,10 @@ Discord : [sahilrajput03#4631](#)
 
 ### Packages published @ `npm.com`/`yarnpkg.com`
 
-[useStateM](https://www.npmjs.com/package/usestatem)
+- [useStateM](https://www.npmjs.com/package/usestatem)
 
-[useWhat](https://www.npmjs.com/package/usewhat)
+- [useWhat](https://www.npmjs.com/package/usewhat)
 
-[mongo-quick](https://www.npmjs.com/package/mongo-quick)
+- [mongo-quick](https://www.npmjs.com/package/mongo-quick)
 
 I'm a yarn fan though.
