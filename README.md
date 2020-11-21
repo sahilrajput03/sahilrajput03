@@ -33,9 +33,11 @@ Discord : [sahilrajput03#4631](#)
 
 ### Packages published @ `npm.com`/`yarnpkg.com`
 
+- [useWhat](https://www.npmjs.com/package/usewhat)
+
 - [useStateM](https://www.npmjs.com/package/usestatem)
 
-- [useWhat](https://www.npmjs.com/package/usewhat)
+- [useEffectAsync](http://npmjs.org/package/useeffectasync)
 
 - [mongo-quick](https://www.npmjs.com/package/mongo-quick)
 
