@@ -41,4 +41,6 @@ Discord : [sahilrajput03#4631](#)
 
 - [mongo-quick](https://www.npmjs.com/package/mongo-quick)
 
+- [r_global](http://npmjs.org/package/r_global)
+
 I'm a yarn fan though.
