@@ -43,4 +43,6 @@ Discord : [sahilrajput03#4631](#)
 
 - [r_global](http://npmjs.org/package/r_global)
 
+- [jsonbackend - A truly 'object' database server.](https://www.npmjs.com/package/jsonbackend)
+
 I'm a yarn fan though.
