@@ -43,6 +43,8 @@ Discord : [sahilrajput03#4631](#)
 
 - [r_global](http://npmjs.org/package/r_global)
 
-- [jsonbackend - A truly 'object' database server.](https://www.npmjs.com/package/jsonbackend)
+- [jsonbackend - A true 'object' database server.](https://www.npmjs.com/package/jsonbackend)
+
+- [react-fetch2](https://www.npmjs.com/package/react-fetch2)
 
 I'm a yarn fan though.
