@@ -37,14 +37,15 @@ Discord : [sahilrajput03#4631](#)
 
 - [useStateM](https://www.npmjs.com/package/usestatem)
 
-- [useEffectAsync](http://npmjs.org/package/useeffectasync)
-
 - [mongo-quick](https://www.npmjs.com/package/mongo-quick)
-
-- [r_global](http://npmjs.org/package/r_global)
 
 - [jsonbackend - A true 'object' database server.](https://www.npmjs.com/package/jsonbackend)
 
 - [react-fetch2](https://www.npmjs.com/package/react-fetch2)
+
+- [useEffectAsync](http://npmjs.org/package/useeffectasync)
+
+- [r_global](http://npmjs.org/package/r_global)
+
 
 I'm a yarn fan though.
