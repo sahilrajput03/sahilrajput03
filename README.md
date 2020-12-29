@@ -50,7 +50,7 @@ Discord : [sahilrajput03#4631](#)
 
 ### Services
 
-- [Axios playground](https://csb-nljvu.netlify.app/)
+- [Axios playground](http://axiosplayground.ml/)
 - [Json backendserver](https://jsonbackendserver.herokuapp.com/)
 
 I'm a yarn fan though.
