@@ -94,7 +94,6 @@ app.get("/posts/:id", (req, res) => {
   let id = parseInt(req.params.id);
   log("req.params", req.params);
   log("req.query", req.query);
-  // log("You sent ", id);
   res.send("You sent " + id);
 });
 
