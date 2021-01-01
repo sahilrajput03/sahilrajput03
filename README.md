@@ -58,3 +58,5 @@ I'm a yarn fan though.
 ## Coz I forget how codesandbox and github integrations work 
 
 [Link to Article docs](https://codesandbox.io/docs/git)
+
+[Massive different guides for importing to codesandbox directly](https://codesandbox.io/docs/importing#import-from-github)
