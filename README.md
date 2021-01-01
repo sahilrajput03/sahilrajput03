@@ -70,7 +70,7 @@ I'm a yarn fan though.
 
 ### Sending status code in express
 
-```
+```js
   Below two statements are semantically same in express.
   res.send('You sent ' + id, 201);
   res.status(201).send('You sent ' + id);
