@@ -64,4 +64,6 @@ I'm a yarn fan though.
 
 ## Express: `req.body` works only if you'll use `app.use(express.json())`
 
-[Link to section in docs](https://expressjs.com/en/api.html#req.body) : Coz you don't need bodyparser anymore starting with express v4.0.
+[Link to section in express docs](https://expressjs.com/en/api.html#req.body) : Coz you don't need bodyparser anymore starting with express v4.0.
+
+[Enable cors in express docs](https://expressjs.com/en/resources/middleware/cors.html#simple-usage-enable-all-cors-requests)
