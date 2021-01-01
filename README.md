@@ -91,7 +91,6 @@ axios.get("http://localhost:8080/posts/21", {
 
 app.get("/posts/:id", (req, res) => {
   log("correct route");
-  // app.get("/posts/:id&:pagesize&:pageoffset", (req, res) => {
   let id = parseInt(req.params.id);
   log("req.params", req.params);
   log("req.query", req.query);
