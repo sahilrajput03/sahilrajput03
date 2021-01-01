@@ -67,3 +67,11 @@ I'm a yarn fan though.
 [Link to section in express docs](https://expressjs.com/en/api.html#req.body) : Coz you don't need bodyparser anymore starting with express v4.0.
 
 [Enable cors in express docs](https://expressjs.com/en/resources/middleware/cors.html#simple-usage-enable-all-cors-requests)
+
+### Sending status code in express
+
+```
+  Below two statements are semantically same in express.
+  res.send('You sent ' + id, 201);
+  res.status(201).send('You sent ' + id);
+```
