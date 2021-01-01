@@ -103,3 +103,5 @@ app.get("/posts/:id", (req, res) => {
 //req.query { id: '20', pagesize: '21', pageoffset: '22' }
 
 ```
+
+Also browse this stackoverflow question - [Link](https://stackoverflow.com/questions/15128849/using-multiple-parameters-in-url-in-express).
