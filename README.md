@@ -60,3 +60,8 @@ I'm a yarn fan though.
 [Link to Article docs](https://codesandbox.io/docs/git)
 
 [Massive different guides for importing to codesandbox directly](https://codesandbox.io/docs/importing#import-from-github)
+
+
+## Express: `req.body` works only if you'll use `app.use(express.json())`
+
+[Link to section in docs](https://expressjs.com/en/api.html#req.body)
