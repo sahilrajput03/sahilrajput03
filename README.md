@@ -76,3 +76,32 @@ I'm a yarn fan though.
   res.status(201).send('You sent ' + id);
 ```
 [`res.send` in Express api docs](https://expressjs.com/en/api.html#res.send)
+
+
+- Express params and query property of req
+
+```
+axios.get("http://localhost:8080/posts/21", {
+    params: {
+      id: 20,
+      pagesize: 21,
+      pageoffset: 22,
+    },
+  });
+
+app.get("/posts/:id", (req, res) => {
+  log("correct route");
+  // app.get("/posts/:id&:pagesize&:pageoffset", (req, res) => {
+  let id = parseInt(req.params.id);
+  log("req.params", req.params);
+  log("req.query", req.query);
+  // log("You sent ", id);
+  res.send("You sent " + id);
+});
+
+//Output: 
+//correct route
+//req.params { id: '21' }
+//req.query { id: '20', pagesize: '21', pageoffset: '22' }
+
+```
