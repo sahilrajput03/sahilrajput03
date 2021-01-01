@@ -72,6 +72,7 @@ I'm a yarn fan though.
 
 ```js
   Below two statements are semantically same in express.
-  res.send('You sent ' + id, 201);
+  res.send('You sent ' + id, 201); // Deprecated though, and sends warning in terminal.
   res.status(201).send('You sent ' + id);
 ```
+[`res.send` in Express api docs](https://expressjs.com/en/api.html#res.send)
