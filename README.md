@@ -64,4 +64,4 @@ I'm a yarn fan though.
 
 ## Express: `req.body` works only if you'll use `app.use(express.json())`
 
-[Link to section in docs](https://expressjs.com/en/api.html#req.body)
+[Link to section in docs](https://expressjs.com/en/api.html#req.body) : Coz you don't need bodyparser anymore starting with express v4.0.
