@@ -80,6 +80,10 @@ I'm a yarn fan though.
 
 - Express params and query property of req
 
+Actual middleware splitted (url params)paramas > [Visit here](https://stackoverflow.com/a/15129057/10012446).
+
+But prefer (query) params on a single route like below:
+
 ```
 axios.get("http://localhost:8080/posts/21", {
     params: {
@@ -103,5 +107,3 @@ app.get("/posts/:id", (req, res) => {
 //req.query { id: '20', pagesize: '21', pageoffset: '22' }
 
 ```
-
-Also browse this stackoverflow question - [Link](https://stackoverflow.com/questions/15128849/using-multiple-parameters-in-url-in-express).
