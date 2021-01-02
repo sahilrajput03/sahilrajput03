@@ -107,3 +107,21 @@ app.get("/posts/:id", (req, res) => {
 //req.query { id: '20', pagesize: '21', pageoffset: '22' }
 
 ```
+
+#### Coolest approach of single post on different express route
+
+```
+app.get("/post", (req, res) => {
+  log("#route: /post");
+  log("req.query", req.query); // Here, req.query will have three keys, i.e., id, pagesize, pageoffset.
+  // axios.get("http://localhost:8080/post", {
+  //   params: {
+  //     id: 20,
+  //     pagesize: 21,
+  //     pageoffset: 22,
+  //   },
+  // })
+  res.send("You sent " + req.query.id);
+});
+```
+
