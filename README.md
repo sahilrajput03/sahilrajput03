@@ -56,8 +56,10 @@ Discord : [sahilrajput03#4631](#)
 - [Json backendserver](https://jsonbackendserver.herokuapp.com/)
 - [Graphql Playground - Query with power](https://abstraction.ml)
 
-I'm a yarn fan though.
-
 ## Codesandbox and github integrations work 
 
 [Link to Article docs](https://codesandbox.io/docs/git), [Massive different guides for importing to codesandbox directly](https://codesandbox.io/docs/importing#import-from-github)
+
+### Comments
+
+- I'm a yarn fan though.
