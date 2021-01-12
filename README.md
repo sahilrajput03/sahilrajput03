@@ -56,73 +56,8 @@ Discord : [sahilrajput03#4631](#)
 
 I'm a yarn fan though.
 
-## Coz I forget how codesandbox and github integrations work 
+## Codesandbox and github integrations work 
 
 [Link to Article docs](https://codesandbox.io/docs/git)
 
 [Massive different guides for importing to codesandbox directly](https://codesandbox.io/docs/importing#import-from-github)
-
-
-## Express: `req.body` works only if you'll use `app.use(express.json())`
-
-[Link to section in express docs](https://expressjs.com/en/api.html#req.body) : Coz you don't need bodyparser anymore starting with express v4.0.
-
-[Enable cors in express docs](https://expressjs.com/en/resources/middleware/cors.html#simple-usage-enable-all-cors-requests)
-
-### Sending status code in express
-
-```js
-  Below two statements are semantically same in express.
-  res.send('You sent ' + id, 201); // Deprecated though, and sends warning in terminal.
-  res.status(201).send('You sent ' + id);
-```
-[`res.send` in Express api docs](https://expressjs.com/en/api.html#res.send)
-
-
-- Express params and query property of req
-
-Actual middleware splitted (url params)paramas > [Visit here](https://stackoverflow.com/a/15129057/10012446).
-
-But prefer (query) params on a single route like below:
-
-```
-axios.get("http://localhost:8080/posts/21", {
-    params: {
-      id: 20,
-      pagesize: 21,
-      pageoffset: 22,
-    },
-  });
-
-app.get("/posts/:id", (req, res) => {
-  log("correct route");
-  let id = parseInt(req.params.id);
-  log("req.params", req.params);
-  log("req.query", req.query);
-  res.send("You sent " + id);
-});
-
-//Output: 
-//correct route
-//req.params { id: '21' }
-//req.query { id: '20', pagesize: '21', pageoffset: '22' }
-
-```
-
-#### Coolest approach of single post on different express route
-
-```
-app.get("/post", (req, res) => {
-  log("#route: /post");
-  log("req.query", req.query); // Here, req.query will have three keys, i.e., id, pagesize, pageoffset.
-  // axios.get("http://localhost:8080/post", {
-  //   params: {
-  //     id: 20,
-  //     pagesize: 21,
-  //     pageoffset: 22,
-  //   },
-  // })
-  res.send("You sent " + req.query.id);
-});
-```
-
