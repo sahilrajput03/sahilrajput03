@@ -47,6 +47,8 @@ Discord : [sahilrajput03#4631](#)
 
 - [r_global](http://npmjs.org/package/r_global)
 
+- [Pagelist React Component - Test/Create apps made easy](https://www.npmjs.com/package/pagelist-react)
+
 
 ### Services
 
