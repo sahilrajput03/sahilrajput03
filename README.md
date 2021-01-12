@@ -43,7 +43,7 @@ Discord : [sahilrajput03#4631](#)
 
 - [react-fetch2](https://www.npmjs.com/package/react-fetch2)
 
-- [useEffectAsync](http://npmjs.org/package/useeffectasync)
+- [useEffectFactory](https://www.npmjs.com/package/useeffect-factory)
 
 - [r_global](http://npmjs.org/package/r_global)
 
@@ -52,6 +52,7 @@ Discord : [sahilrajput03#4631](#)
 
 - [Axios playground](http://axiosplayground.ml/)
 - [Json backendserver](https://jsonbackendserver.herokuapp.com/)
+- [Graphql Playground - Query with power](https://abstraction.ml)
 
 I'm a yarn fan though.
 
