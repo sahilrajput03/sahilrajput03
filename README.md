@@ -56,6 +56,12 @@ Discord : [sahilrajput03#4631](#)
 - [Json backendserver](https://jsonbackendserver.herokuapp.com/)
 - [Graphql Playground - Query with power](https://abstraction.ml)
 
+## Blogs
+
+- [Jaadujinn.ml](https://jaadujinn.ml)
+
+- [Reverberate.ml](https://reverberate.ml)
+
 ## Codesandbox and github integrations work 
 
 [Link to Article docs](https://codesandbox.io/docs/git), [Massive different guides for importing to codesandbox directly](https://codesandbox.io/docs/importing#import-from-github)
