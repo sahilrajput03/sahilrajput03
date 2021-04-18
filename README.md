@@ -23,9 +23,12 @@
 
 ### Codesandboxes/Codepens/etc
 
-[Sahil Rajput @codesandbox](https://codesandbox.io/u/sahilrajput03),
+[Sahil Rajput @codesandbox](https://codesandbox.io/u/sahilrajput03)
+
 [Tanner Linsley @ codesandbox](https://codesandbox.io/u/tannerlinsley/sandboxes)
+
 [Kevin Powell @ codepen](https://codepen.io/kevinpowell)
+
 ### Packages published @ `npm.com`/`yarnpkg.com`
 
 - [useWhat](https://www.npmjs.com/package/usewhat)
