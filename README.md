@@ -21,17 +21,10 @@
 [<img alt="Discord" src="https://img.shields.io/badge/sahilrajput03%234631%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white" />](#)
 [Liked Badges??](https://github.com/Ileriayo/markdown-badges)
 
-
 ### Codesandboxes
 
 [Sahil Rajput](https://codesandbox.io/u/sahilrajput03),
 [Tanner Linsley](https://codesandbox.io/u/tannerlinsley/sandboxes)
-
-### Contact me
-
-Telegram: [sahilrajput03](https://t.me/sahilrajput03)
-
-Discord : [sahilrajput03#4631](#)
 
 ### Packages published @ `npm.com`/`yarnpkg.com`
 
