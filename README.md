@@ -21,11 +21,11 @@
 [<img alt="Discord" src="https://img.shields.io/badge/sahilrajput03%234631%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white" />](#)
 [Liked Badges??](https://github.com/Ileriayo/markdown-badges)
 
-### Codesandboxes
+### Codesandboxes/Codepens/etc
 
-[Sahil Rajput](https://codesandbox.io/u/sahilrajput03),
-[Tanner Linsley](https://codesandbox.io/u/tannerlinsley/sandboxes)
-
+[Sahil Rajput @codesandbox](https://codesandbox.io/u/sahilrajput03),
+[Tanner Linsley @ codesandbox](https://codesandbox.io/u/tannerlinsley/sandboxes)
+[Kevin Powell @ codepen](https://codepen.io/kevinpowell)
 ### Packages published @ `npm.com`/`yarnpkg.com`
 
 - [useWhat](https://www.npmjs.com/package/usewhat)
