@@ -67,7 +67,7 @@
 
 - [Docs](https://reverberate.ml/docs)
 
-- [Uses](https://reverberate.ml/uses) (Sofwares stck for windows 🛑︎ users)
+- [Uses](https://reverberate.ml/uses) (Sofwares stack for windows 🥝︎ users)
 
 ## Codesandbox and github integrations work 
 
