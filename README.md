@@ -69,6 +69,8 @@
 
 - [Uses](https://reverberate.ml/uses) (Sofwares stack for windows 🥝︎ users)
 
+- [Linux Setup 💓︎](github.com/sahilrajput03/my_bin)
+
 ## Codesandbox and github integrations work 
 
 [Link to Article docs](https://codesandbox.io/docs/git), [Massive different guides for importing to codesandbox directly](https://codesandbox.io/docs/importing#import-from-github)
