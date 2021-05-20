@@ -65,6 +65,10 @@
 
 - [SahilRaput.ml](https://sahilrajput.ml)
 
+- [Docs](https://reverberate.ml/docs)
+
+- [Uses](https://reverberate.ml/uses) (Sofwares stck for windows 🛑︎ users)
+
 ## Codesandbox and github integrations work 
 
 [Link to Article docs](https://codesandbox.io/docs/git), [Massive different guides for importing to codesandbox directly](https://codesandbox.io/docs/importing#import-from-github)
