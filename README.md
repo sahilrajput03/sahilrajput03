@@ -81,3 +81,4 @@
 - I'm a yarn fan though.
 - Use https://picsum.photos/ (https://unsplash.it/) for using placeholder images 🚀︎.
 - Use https://imgur.com/upload for hosting your gifs very fast🚀︎.
+- Software is like sex: it's better when it's free. - Linus Torvalds
