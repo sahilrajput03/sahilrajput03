@@ -2,7 +2,7 @@
 
 - 🤺︎ Find me on terminal via `npx sahilrajput03` command.
 
-(*You need to press y for first time though).
+*You need to press y for first time though.
 
 ### Techonologies 
 
