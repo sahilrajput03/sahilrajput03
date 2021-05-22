@@ -1,5 +1,7 @@
 #### Hi there 👋
 
+🤺︎ Find me on terminal via `npx sahilrajput03` command. (*You need to press y for first time though).
+
 ### Techonologies 
 
 <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
