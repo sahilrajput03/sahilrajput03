@@ -105,3 +105,7 @@ Ans. If the display of your parent container is flex , then yes, margin: auto au
     left: 50%;
 }
 ```
+
+## Practical example of both of above complementary usage
+
+src: https://codepen.io/sahil-blulabs/pen/jOmrGXg?editors=1010
