@@ -89,7 +89,13 @@
 - Software is like sex: it's better when it's free. - Linus Torvalds
 - Learning is a algorithm, you stop it, you're gonna see errors. ~unknown
 
-## Center element like a pro
+## Priority1: Center element using simple margin auto
+
+Q. Does margin auto center vertically?
+Ans. If the display of your parent container is flex , then yes, margin: auto auto (also known as margin: auto ) will work to center it both horizontally and vertically, regardless if it is an inline or block element.
+
+
+## Priority2:  Center element like a pro
 
 ```css
 .myElement{
@@ -99,8 +105,3 @@
     left: 50%;
 }
 ```
-
-## Center element using simple margin auto
-
-Q. Does margin auto center vertically?
-Ans. If the display of your parent container is flex , then yes, margin: auto auto (also known as margin: auto ) will work to center it both horizontally and vertically, regardless if it is an inline or block element.
