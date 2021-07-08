@@ -88,3 +88,14 @@
 - Use gist for sharing code blazing fast: https://gist.github.com/
 - Software is like sex: it's better when it's free. - Linus Torvalds
 - Learning is a algorithm, you stop it, you're gonna see errors. ~unknown
+
+## Center element like a pro
+
+```css
+.myElement{
+    position: absolute/relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+```
