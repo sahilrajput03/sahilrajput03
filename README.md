@@ -121,32 +121,6 @@ src: https://codepen.io/sahil-blulabs/pen/jOmrGXg?editors=1010
 }
 ```
 
-## Issue: `grid-gap: 0` is not working 
+## Issue: `grid-gap: 0` is not working ??
 
-See live @ [codepen](https://codepen.io/sahil-blulabs/pen/zYwKKwL?editors=1100).
-
-```html
-<style>
-  .my-grid{
-  display: grid;
-  grid-template-columns: auto auto;
-  margin: 0 auto;
-  grid-gap: 0;
-  border: 3px solid green;
-  
-  width: 600px;
-/*  ^^ THIS IS GOOD PRACTISE.  */
-  
-}
-.col{
-  border: 2px solid red;
-  width: 300px;
-/*  ^^ This is bad practise.  */
-}
-</style>
-
-<div class="my-grid">
-  <div class="col">I am col1.</div>
-  <div class="col">I am col2.</div>  
-</div>
-```
+See fix  at @ [codepen](https://codepen.io/sahil-blulabs/pen/zYwKKwL).
