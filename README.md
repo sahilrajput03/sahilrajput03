@@ -106,6 +106,15 @@ Ans. If the display of your parent container is flex , then yes, margin: auto au
 }
 ```
 
+## css selector
+
+```css
+p ~ ul {
+  background: #ff0000;
+/*This will apply to all ul's that are anywhere(not just next to it) after the p tag.*/
+}
+```
+
 ## Practical example of both of above complementary usage
 
 src: https://codepen.io/sahil-blulabs/pen/jOmrGXg?editors=1010
