@@ -8,7 +8,7 @@
 
 Copy data to clipboard, and in terminal use 
 
-`$ cat > myFile.txt` and now paste data in the terminal itself and press `ctrl+d` to save the file. Thats it 🤠︎.
+`$ cat > myFile.txt` and hit enter, and now paste data in the terminal itself and press `ctrl+d` to save the file. Thats it 🤠︎.
 
 ### Techonologies 
 
