@@ -4,6 +4,12 @@
 
 *You need to press y for first time though.
 
+## 🤠︎ Write data to a new/existing file directly with the terminal
+
+Copy data to clipboard, and in terminal use 
+
+`$ cat > myFile.txt` and now paste data in the terminal itself and press `ctrl+d` to save the file. Thats it 🤠︎.
+
 ### Techonologies 
 
 <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
