@@ -109,3 +109,14 @@ Ans. If the display of your parent container is flex , then yes, margin: auto au
 ## Practical example of both of above complementary usage
 
 src: https://codepen.io/sahil-blulabs/pen/jOmrGXg?editors=1010
+
+## What the heck is matrix in transition .?
+
+```
+.class1{
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  /*  1st/4th: scale(width{default: 1},height{default: 1})*/
+  /*2nd/3rd: skew(width, height) */
+  /* 5th/6th: movement(vertical, horizontal)  */
+}
+```
