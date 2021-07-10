@@ -143,3 +143,7 @@ src: https://codepen.io/sahil-blulabs/pen/jOmrGXg?editors=1010
 ## Issue: `grid-gap: 0` is not working ??
 
 See fix  at @ [codepen](https://codepen.io/sahil-blulabs/pen/zYwKKwL).
+
+## Using grid-area names in grid
+
+Article at https://css-tricks.com/simple-named-grid-areas/ .
