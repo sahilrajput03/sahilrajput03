@@ -121,7 +121,7 @@ src: https://codepen.io/sahil-blulabs/pen/jOmrGXg?editors=1010
 }
 ```
 
-## Issue: `grid-gap: 0 ` is not working 
+## Issue: `grid-gap: 0` is not working 
 
 See live @ [codepen](https://codepen.io/sahil-blulabs/pen/zYwKKwL?editors=1100).
 
