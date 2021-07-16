@@ -134,9 +134,11 @@ src: https://codepen.io/sahil-blulabs/pen/jOmrGXg?editors=1010
 ```
 .class1{
   transform: matrix(1, 0, 0, 1, 0, 0);
+  /*The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()) */
+  
   /*  1st/4th: scale(width{default: 1},height{default: 1})*/
-  /*2nd/3rd: skew(width, height) */
-  /* 5th/6th: movement(vertical, horizontal)  */
+  /*2nd/3rd: skew(width), skew(height) */
+  /* 5th/6th: movement(vertical), movement(horizontal)  */
 }
 ```
 
