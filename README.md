@@ -136,3 +136,32 @@ See fix  at @ [codepen](https://codepen.io/sahil-blulabs/pen/zYwKKwL).
 ## Using grid-area names in grid
 
 Article at https://css-tricks.com/simple-named-grid-areas/ .
+
+## Use native browser history api instead of react-routed-dom api everytime
+
+
+```jsx
+
+const history = (path) => window.history.pushState("", "", path);
+
+const jsx = () => {
+
+return <div>
+         <button
+           onClick={() => {
+             history("/boom");
+           }}
+         >
+           Click me to go to /boom
+         </button>
+
+         <button
+           onClick={() => {
+             history("/bamm");
+           }}
+         >
+           Click me to go to /bamm
+         </button>
+       </div>
+}
+```
