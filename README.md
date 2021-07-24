@@ -181,13 +181,15 @@ return <div>
 
 ## React eslint + prettier settings
 
-1. Install dependencies
+1. Use below commands to install some dependencies, add `.eslintrc.js` and `.prettierrc.js` in a CRA project's root directory:
 
 ```
 npm  i -D eslint-config-prettier eslint-plugin-prettier
+curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/eslint-config-react/.eslintrc.js
+curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierrc.js
 ```
 
-2. Now add below content to `package.json` i.e., 
+2. Now ensure that `package.json` file has below content: 
 
 ```json
 {
@@ -200,45 +202,6 @@ npm  i -D eslint-config-prettier eslint-plugin-prettier
 }
 
 ```
-
-3. Now add a file `.eslintrc.js` in `/src` directory with following content: 
-
-```js
-module.exports = {
-  // parser: '@typescript-eslint/parser', // Specifies the ESLint parser
-  parserOptions: {
-    ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
-    sourceType: "module", // Allows for the use of imports
-    ecmaFeatures: {
-      jsx: true, // Allows for the parsing of JSX
-    },
-  },
-  settings: {
-    react: {
-      version: "detect", // Tells eslint-plugin-react to automatically detect the version of React to use
-    },
-  },
-  extends: [
-    "react-app",
-    "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
-    "plugin:prettier/recommended", // Enables eslint-plugin-prettier and eslint-config-prettier. This will display prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
-  ],
-  plugins: ["react", "react-hooks"],
-  rules: {
-    "react/prop-types": "off",
-    // "react/jsx-key": "off",//WARN:Use this only at critical times.
-    "react/react-in-jsx-scope": "off",
-    "no-unused-vars": "off",
-    "react/no-unescaped-entities": "off",
-    // ^^ this good to have though.
-    // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
-    // e.g. "@typescript-eslint/explicit-function-return-type": "off",
-    "react/no-children-prop": "off",
-  },
-};
-```
-
-4. Create a prettier config file too with name `.prettierrc.json` with content `{}` or whatever settings you want, and now your prettier config will be marked as errors in the react server now!
 
 Thats all it takes.
 
