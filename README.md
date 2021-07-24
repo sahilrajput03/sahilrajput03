@@ -7,7 +7,9 @@
 - Add `prettier-write` script to your package.json file using command `npm set-script prettier-write "prettier --write ."`
 - Want Husky ? : Don't worry about commiting lint-shit to your git commit by instaling husky. Its fairly easy though `npx husky-init && npm install` and now edit the file `.husky/pre-commit` file and add your favourite command i.e., `npm run prettier-write` command there. And don't forget other contributors to do `npm i` to get their husky setup. Yo!!
 Help: [Src1](https://typicode.github.io/husky/#/), [Src2](https://www.youtube.com/watch?v=oWty0Nw1ydk), [Src3: CRA](https://create-react-app.dev/docs/setting-up-your-editor/#formatting-code-automatically).
-- Got time: Learn story book or styleguidist , either one and do some good tutorial from their site or youtube. :D GOOD LUCK!!
+- **Got time**
+1. Learn [story book or styleguidist](https://create-react-app.dev/docs/developing-components-in-isolation) , either one and do some good tutorial from their site or youtube. :D GOOD LUCK!!
+2. Leanr pre-rendering from cra docs [here](https://create-react-app.dev/docs/pre-rendering-into-static-html-files).
 
 ## My favourite drawing app
 
