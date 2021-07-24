@@ -228,3 +228,7 @@ module.exports = {
 4. Create a prettier config file too with name `.prettierrc.json` with content `{}` or whatever settings you want, and now your prettier config will be marked as errors in the react server now!
 
 Thats all it takes.
+
+## Debugging made easy in vscode itself (src: CRA documentation
+
+src: https://create-react-app.dev/docs/setting-up-your-editor/#visual-studio-code
