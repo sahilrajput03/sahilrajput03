@@ -4,6 +4,12 @@
 
 *You need to press y for first time though.
 
+- Super charge your windows bash experience with my aliases and functions:
+
+```bash
+curl -o ~/.bashrc https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.bashrc-windows/.bashrc
+```
+
 - Add `prettier-write` script to your package.json file using command
 ```bash
 npm set-script prettier-write "prettier --write ."
