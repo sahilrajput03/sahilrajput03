@@ -10,8 +10,16 @@ npm set-script prettier-write "prettier --write ."
 curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierrc.js
 curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierignore
 ```
-- Want Husky ?[VERIFIED] : Don't worry about commiting lint-shit to your git commit by instaling husky. Its fairly easy though `npx husky-init && npm install` and now edit the file `.husky/pre-commit` file and add your favourite command i.e., `npm run prettier-write` command there. And don't forget other contributors to do `npm i` to get their husky setup. Yo!!
+- Want Husky? [VERIFIED] : 
+
+```bash
+npx husky-init && npm install
+```
+
+Now edit the `.husky/pre-commit` file and add desired command i.e., `npm run prettier-write` command there in place of command `npm test`. And don't forget to tell other contributors to do `npm i` to get their husky setup on rocket on their commits.
+
 Help: [Src1](https://typicode.github.io/husky/#/), [Src2](https://www.youtube.com/watch?v=oWty0Nw1ydk), [Src3: CRA](https://create-react-app.dev/docs/setting-up-your-editor/#formatting-code-automatically).
+
 - **Got time**
 0. Read and test whole official [cra docs](https://create-react-app.dev/).
 1. Learn [story book or styleguidist](https://create-react-app.dev/docs/developing-components-in-isolation) , either one and do some good tutorial from their site or youtube. :D GOOD LUCK!!
