@@ -8,6 +8,7 @@
 
 ```bash
 curl -o ~/.bashrc https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.bashrc-windows/.bashrc
+# This command simply adds/updates your existing `~/.bashrc file`. Too much fun, isn't it :)
 ```
 
 - Add `prettier-write` script to your package.json file using command
