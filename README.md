@@ -6,6 +6,7 @@
 
 - Add `prettier-write` script to your package.json file using command `npm set-script prettier-write "prettier --write ."`
 - Don't worry about commiting lint-shit to your git commit by instaling husky. Its fairly easy though `npx husky-init && npm install` and now edit the file `.husky/pre-commit` file and add your favourite command i.e., `npm run prettier-write` command there. And don't forget other contributors to do `npm i` to get their husky setup. Yo!!
+Help: [Src1](https://typicode.github.io/husky/#/), [src2](https://www.youtube.com/watch?v=oWty0Nw1ydk).
 
 ## My favourite drawing app
 
