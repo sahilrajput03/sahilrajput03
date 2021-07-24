@@ -16,7 +16,11 @@ curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.pre
 npx husky-init && npm install
 ```
 
-Now edit the `.husky/pre-commit` file and add desired command i.e., `npm run prettier-write` command there in place of command `npm test`. And don't forget to tell other contributors to do `npm i` to get their husky setup on rocket on their commits.
+Now edit the `.husky/pre-commit` file and add desired command i.e., `npm run prettier-write` there in place of command `npm test`. And don't forget to tell other contributors to use below command to get their husky setup on rocket for their future commits.
+
+```
+npm i
+```
 
 Help: [Src1](https://typicode.github.io/husky/#/), [Src2](https://www.youtube.com/watch?v=oWty0Nw1ydk), [Src3: CRA](https://create-react-app.dev/docs/setting-up-your-editor/#formatting-code-automatically).
 
