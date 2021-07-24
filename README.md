@@ -181,16 +181,7 @@ return <div>
 
 ## React eslint + prettier settings
 
-1. Use below commands to install some dependencies, add `.eslintrc.js`, `.prettierrc.js` and `.prettierignore` in a CRA project's root directory:
-
-```
-npm  i -D eslint-config-prettier eslint-plugin-prettier
-curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/eslint-config-react/.eslintrc.js
-curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierrc.js
-curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierignore
-```
-
-2. Now ensure that `package.json` file has below content: 
+1. Ensure that `package.json` file has below content: 
 
 ```json
 {
@@ -204,7 +195,18 @@ curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.pre
 
 ```
 
-Thats all it takes.
+2. Use below commands to install some dependencies, add `.eslintrc.js`, `.prettierrc.js` and `.prettierignore` in a CRA project's root directory:
+
+```
+npm  i -D eslint-config-prettier eslint-plugin-prettier
+curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/eslint-config-react/.eslintrc.js
+curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierrc.js
+curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierignore
+npm set-script prettier-write "prettier --write ."
+npm run prettier-write
+```
+
+Thats all it takes and don't forget to restart your react server.
 
 ## Debugging made easy in vscode itself (src: CRA documentation
 
