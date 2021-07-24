@@ -17,6 +17,11 @@ npm set-script prettier-write "prettier --write ."
 curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierrc.js
 curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierignore
 ```
+
+- Make emmet work on your jsx files as well
+
+Enable Setting: `Emmet: Trigger Expand On Tab` and set `ctrl+e` as key binding for `Emmet: Expand Abbreviation`. Enjoy emmet in JSX with ctrl+e now for the rest of life.
+
 - Want Husky? [VERIFIED] : 
 
 ```bash
