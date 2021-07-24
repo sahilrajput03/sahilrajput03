@@ -198,7 +198,7 @@ return <div>
 2. Use below commands to install some dependencies, add `.eslintrc.js`, `.prettierrc.js` and `.prettierignore` in a CRA project's root directory:
 
 ```
-npm  i -D eslint-config-prettier eslint-plugin-prettier
+npm i -D eslint-config-prettier eslint-plugin-prettier
 curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/eslint-config-react/.eslintrc.js
 curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierrc.js
 curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierignore
