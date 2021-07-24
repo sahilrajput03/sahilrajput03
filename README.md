@@ -4,6 +4,8 @@
 
 *You need to press y for first time though.
 
+- Add `prettier-write` script to your package.json file using command `npm set-script prettier-write "prettier --write ."`
+
 ## My favourite drawing app
 
 Browse at https://asciiflow.com/#/ .
