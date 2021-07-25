@@ -276,6 +276,16 @@ p{
 }
 ```
 
+E.g., 3
+
+```txt
+button{
+ all: unset;
+<!--  ^^ This will remove all the browser's and other user defined css for this element, and now all the shit things are purged automatically(and thats what you want mostly for buttons). Yikes!!  -->
+ background-color: red; 
+}
+```
+
 More information:
 
 ```txt
