@@ -286,6 +286,15 @@ button{
 }
 ```
 
+E.g., 4: In below example the padding and border property values are set to browser's style sheet for chrome/firefox/etc and below code does nothing coz all the values for all the properties are set to rever by default. `revert` is only useful in cases when you just need to undo your own style property sometimes(which is very rare though).
+
+```
+button{
+ padding: revert;
+ border: revert;
+}
+```
+
 More information:
 
 ```txt
