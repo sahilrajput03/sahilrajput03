@@ -235,3 +235,64 @@ Thats all it takes and don't forget to restart your react server.
 ## Debugging made easy in vscode itself (src: CRA documentation
 
 src: https://create-react-app.dev/docs/setting-up-your-editor/#visual-studio-code
+
+## What is `initial`, `inherit`, `unset`, `all:initial/inherit/unset` ??
+
+Src: [Kyle's youtube video](https://www.youtube.com/watch?v=N8tFrMZp_wA)
+
+E.g., 1:
+
+Below code will make these divs appear as side by side coz initial value for `display` property is `iniline`.
+
+```txt
+<div>div1</div>
+<div>div2</div>
+
+div{
+  display: initial;
+}
+```
+
+E.g., 2:
+
+Below code demonstrates that some properties are always inherited like [`font-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition), [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family#formal_definition) whereas some are never inherited like [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border#formal_definition), [`outline`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline#formal_definition), 
+
+```txt
+<div>
+  I am a div.
+  <p>I am a paragraph.</p>
+</div>
+<p class="imp">I am paragraph imp.</p>
+
+div{
+  font-size: 2rem;
+/*   ^ font-size is inherited in p tag as well. */
+  border: 1px solid blue;
+/*   ^ border is not inherited unless you specifically explicitly inherit it. */
+}
+
+p{
+/*   border: inherit; */
+}
+```
+
+More information:
+
+```txt
+- CSS Property values: initial, inherited, 
+
+- You can find default values of each css properties @ mdn in the "Formal definition" section. 
+
+
+- For a ``div`` in all browsers the value for `div` is set as `display: block` but by the css specifications's ``initial`` value for property of ``display`` is ``inline`` as you can read [here](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition).
+
+You should always use ``font-family: inherit`` in buttons (so they can actually get your custom font) coz otherwise they get font-family property as `Arial` from browser's ``User Agent Stylesheet``.
+
+``display`` property has default value for inherited as false. [Src](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition).
+``border`` property has defaut value for inherited as false. [Src](https://developer.mozilla.org/en-US/docs/Web/CSS/border#formal_definition)
+``font-size`` property has default value for inherited as true. (this means any nested child will have the same font-size coz they inherit the font-size of the parent. [Src](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size#formal_definition)
+
+``unset`` as value for a property will make that property to either set as ``inherit`` or ``initial`` where inherit means exactly what it means and ``initial`` means 
+
+- Magic: If you set ``all: unset`` in any element in css then all css properties of that selected element will be seet to ``inherit`` or ``initial``,
+```
