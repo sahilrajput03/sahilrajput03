@@ -315,3 +315,213 @@ You should always use ``font-family: inherit`` in buttons (so they can actually 
 
 - Magic: If you set ``all: unset`` in any element in css then all css properties of that selected element will be seet to ``inherit`` or ``initial``,
 ```
+
+### Some selectors (src: kyle's css selector cheatsheet, find it in your `CSS Resources` telegram group.
+
+#### `:first-child` selector
+
+```
+<div>
+  <span>I am span 1.</span>
+  <span>I am span 2.</span>
+  <span>I am span 3.</span>
+</div>
+
+span:first-child{
+  color: red;
+/* Only "I am span 1" will be coloured red. */
+}
+```
+
+#### `:last-child` selector
+
+```
+<div>
+  <span>I am span 1.</span>
+  <span>I am span 2.</span>
+  <span>I am span 3.</span>
+</div>
+
+span:last-child{
+  color: red;
+/* Only "I am span 3" will be coloured red. */
+}
+```
+
+#### `:nth-child(2n)` selector
+
+```
+<div>
+  <span>I am span 1.</span>
+  <span>I am span 2.</span>
+  <span>I am span 3.</span>
+  <span>I am span 4.</span>
+  <span>I am span 5.</span>
+</div>
+
+
+span:nth-child(2n){
+  color: red;
+/* Only "I am span 2" and "I am span 4" will be coloured red. */
+}
+
+```
+
+#### `:nth-last-child(1)`
+
+```
+<div>
+  <span>I am span 1.</span>
+  <span>I am span 2.</span>
+  <span>I am span 3.</span>
+</div>
+
+span:nth-last-child(1){
+  color: red;
+/* Only "I am span 3" will be coloured red. */
+}
+
+
+#### `:only-child`
+
+```
+<div>
+  <span>I am span 1.</span>
+  <span>I am span 2.</span>
+  <span>I am span 3.</span>
+</div>
+
+<div><span>I am single span.</span></div>
+
+span:only-child{
+  color: red;
+/* Only "I am single span." will be coloured red. */
+}
+```
+
+#### `a:first-of-type`
+
+```
+<div>
+  <span>I am span 1.</span>
+  <span>I am span 2.</span>
+  <span>I am span 3.</span>
+</div>
+
+<div>
+  <div>I am simple div.</div>
+  <span>I am simple span.</span>
+</div>
+
+span:first-of-type{
+  color: red;
+/* Only "I am single span." and "I am span 1." will be coloured red. */
+}
+
+#### `a:last-of-type`
+
+```
+<div>
+  <span>I am span 1.</span>
+  <span>I am span 2.</span>
+  <span>I am span 3.</span>
+</div>
+
+<div>
+  <div>I am simple div.</div>
+  <span>I am simple span.</span>
+</div>
+
+span:last-of-type{
+  color: red;
+/* Only "I am span3." and "I am simple span." will be coloured red. */
+}
+```
+
+`:nth-of-type(2n)`
+
+```
+
+#### `a:nth-of-type(2n)`
+
+```
+<div>
+  <div>I am span 1.</div>
+  <span>I am span 2.</span>
+  <span>I am span 3.</span>
+</div>
+
+<div>
+  <div>I am simple div1.</div>
+  <div>I am simple div2.</div>
+  <span>I am simple span1.</span>
+  <span>I am simple span2.</span>
+</div>
+
+
+span:nth-of-type(2n){
+  color: red;
+/* Only "I am span3." and "I am simple span2." will be coloured red. */
+}
+```
+
+#### `:nth-last-of-type(2)`
+
+```
+<div>
+  <div>I am span 1.</div>
+  <span>I am span 2.</span>
+  <span>I am span 3.</span>
+</div>
+
+<div>
+  <div>I am simple div1.</div>
+  <div>I am simple div2.</div>
+  <span>I am simple span1.</span>
+  <span>I am simple span2.</span>
+</div>
+
+span:nth-last-of-type(2){
+  color: red;
+/* Only "I am span2." and "I am simple span1." will be coloured red. */
+}
+```
+
+#### `a:only-of-type`
+
+```
+<div>
+  <div>I am div 1.</div>
+  <div>I am div 2.</div>
+  <span>I am span 1.</span>
+  <div>I am div 3.</div>
+</div>
+
+<div>
+  <div>I am simple div1.</div>
+  <div>I am simple div2.</div>
+  <span>I am simple span1.</span>
+  <span>I am simple span2.</span>
+</div>
+
+span:only-of-type{
+  color: red;
+/* Only "I am span1." will be coloured red. */
+}
+```
+
+#### `a:not(.c)`
+
+```
+<div>
+  <span class='c1'>I am span 1.</span>
+  <span class='c2'>I am span 2.</span>
+  <span class='c3'>I am span 3.</span>
+  <span class='c2 c3'>I am span 4.</span>
+</div>
+
+span:not(.c2){
+  color: red;
+/* Only "I am span1." will be coloured red. */
+}
+```
