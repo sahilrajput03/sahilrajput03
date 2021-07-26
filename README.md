@@ -2,6 +2,8 @@
 
 - 🤺︎ Find me on terminal via `npx sahilrajput03` command.
 
+- You can always use ?. operator in browser and react projects irrespective of if you are using typescript or not. Yes, its fun, isn't it.!
+
 *You need to press y for first time though.
 
 - Super charge your windows bash experience with my aliases and functions:
