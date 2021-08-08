@@ -168,7 +168,7 @@ Ans. If the display of your parent container is flex , then yes, margin: auto au
  width: 50%;
  height: 50%;
  margin: auto;
- <!-- ^ this does the centering magic with complemented with all the above settings and don't forget to make the container of current element as ''position: relative'' -->
+ <!-- ^ this does the centering magic when complemented with all the above settings and don't forget to make the container of current element as ''position: relative'' -->
 }
 
 .container{
