@@ -155,6 +155,28 @@ Ans. If the display of your parent container is flex , then yes, margin: auto au
 }
 ```
 
+## Priority3: Center element like a master
+
+```css
+.myEl{
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+
+ width: 50%;
+ height: 50%;
+ margin: auto;
+ <!-- ^ this does the centering magic with complemented with all the above settings and don't forget to make the container of current element as ''position: relative'' -->
+}
+
+.container{
+ position: relative;
+}
+
+```
+
 ## css selector
 
 ```css
