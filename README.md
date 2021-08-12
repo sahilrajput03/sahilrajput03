@@ -2,6 +2,30 @@
 
 - 🤺︎ Find me on terminal via `npx sahilrajput03` command.
 
+- Get used to javascript objects(works good in both node and browser both, tested):
+
+var cron = require("node-cron");
+let cron1 = "30 * * * * *";
+
+```js
+var cron = require("node-cron");
+let cron1 = "30 * * * * *";
+
+cron.schedule(cron1, () => {
+  var d = new Date();
+  var h = d.getHours();
+  var m = d.getMinutes();
+  var s = d.getSeconds();
+
+  console.log("==1>", new Date().toLocaleString());
+  console.log("==2>", h); // 20 that means 8pm.
+  console.log("==3>", m); // 32 that means 32 minutes past.
+  console.log("==4>", s); // 30 that means 30 seconds past.
+  console.log("==5>", d); // this is not readable at all :lol:
+});
+
+```
+
 - You can always use ?. operator in browser and react projects irrespective of if you are using typescript or not. Yes, its fun, isn't it.!
 
 *You need to press y for first time though.
