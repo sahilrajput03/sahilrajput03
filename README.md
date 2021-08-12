@@ -2,10 +2,7 @@
 
 - 🤺︎ Find me on terminal via `npx sahilrajput03` command.
 
-- Get used to javascript objects(works good in both node and browser both, tested):
-
-var cron = require("node-cron");
-let cron1 = "30 * * * * *";
+### Get used to javascript objects(works good in both node and browser both, tested):
 
 ```js
 var cron = require("node-cron");
