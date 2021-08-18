@@ -37,7 +37,7 @@ main();
   const [locationData, locationError] = await fetchData({ isBad: true });
   const [friendsData, friendsError] = await fetchData({ isBad: true });
   // now you can simly put 6 if checks to check for what is actually error and you code actually gets out of control (i.e., *program control) LITERALLY.
-``
+```
 
 ### Get used to javascript objects(works good in both node and browser both, tested):
 
