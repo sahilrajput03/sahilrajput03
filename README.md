@@ -2,6 +2,34 @@
 
 - 🤺︎ Find me on terminal via `npx sahilrajput03` command.
 
+### Make async/await cleaner with simple if checks
+
+```js
+async function fetchData({ isBad }) {
+  try {
+    if (isBad) throw "The request is not good...";
+
+    const data = "result data..."; // for e.g., `return await anyPromsieHere()`
+    return [data, null];
+  } catch (error) {
+    return [null, error];
+  }
+}
+
+async function main() {
+  // src: https://youtu.be/ITogH7lJTyE
+  const [data, error] = await fetchData({ isBad: true }); //toggle isBad to toggle different behaviour of the api.
+  if (data) {
+    console.log("got data..");
+  }
+  if (error) {
+    console.log("there is some error with the api...");
+  }
+}
+
+main();
+```
+
 ### Get used to javascript objects(works good in both node and browser both, tested):
 
 ```js
