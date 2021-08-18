@@ -30,7 +30,7 @@ async function main() {
 main();
 ```
 
-**This might look like a overkill for any simple api but if you have only two three api's and you need to check add try/catch for each of them in a single scope it all becomes whole messy to look at ... but if you use something like..
+**This might look like a overkill for any simple api but if you have only two three api's and you need to check add try/catch for each of them in a single scope it all becomes whole messy to look at ... but if you use something like..**
 
 ```
   const [userData, userError] = await fetchData({ isBad: true }); //toggle isBad to toggle different behaviour of the api.
