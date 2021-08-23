@@ -462,7 +462,7 @@ span:nth-last-child(1){
   color: red;
 /* Only "I am span 3" will be coloured red. */
 }
-
+```
 
 #### `:only-child`
 
@@ -499,6 +499,7 @@ span:first-of-type{
   color: red;
 /* Only "I am single span." and "I am span 1." will be coloured red. */
 }
+```
 
 #### `a:last-of-type`
 
@@ -518,10 +519,6 @@ span:last-of-type{
   color: red;
 /* Only "I am span3." and "I am simple span." will be coloured red. */
 }
-```
-
-`:nth-of-type(2n)`
-
 ```
 
 #### `a:nth-of-type(2n)`
