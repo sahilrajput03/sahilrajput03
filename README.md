@@ -607,3 +607,10 @@ span:not(.c2){
 /* Only "I am span1." will be coloured red. */
 }
 ```
+
+### Ease with Dates
+
+```js
+// Date() and Date.now() gives you:
+"Mon Aug 23 2021 18:49:44 GMT+0530 (India Standard Time)" and 1629724786923 respectively.
+```
