@@ -592,6 +592,15 @@ span:only-of-type{
 }
 ```
 
+### Ease with Dates
+
+Date() and Date.now() gives you:
+
+```
+"Mon Aug 23 2021 18:49:44 GMT+0530 (India Standard Time)" and 1629724786923 respectively.
+```
+
+
 #### `a:not(.c)`
 
 ```
@@ -608,9 +617,3 @@ span:not(.c2){
 }
 ```
 
-### Ease with Dates
-
-```
-// Date() and Date.now() gives you:
-"Mon Aug 23 2021 18:49:44 GMT+0530 (India Standard Time)" and 1629724786923 respectively.
-```
