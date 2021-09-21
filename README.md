@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-- 🤺︎ Find me on terminal via `npx sahilrajput03` command.
+🤺︎ Find me on terminal via `npx sahilrajput03` command.
 
 ### Enable ecma modues with nodejs
 
