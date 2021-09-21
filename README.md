@@ -7,6 +7,7 @@ Find me on terminal via `npx sahilrajput03` command.
 ```js
 import defaultExport, * as name from "module-name";
 import defaultExport, { export1 } from "module-name";
+const { default: myDefault, foo, bar } = await import('/modules/my-module.js');
 ```
 src: [Import in js | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#dynamic_imports)
 
