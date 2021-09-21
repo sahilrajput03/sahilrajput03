@@ -9,6 +9,8 @@ import defaultExport, * as name from "module-name";
 import defaultExport, { export1 } from "module-name";
 const { default: myDefault, foo, bar } = await import('/modules/my-module.js');
 
+
+
 // Anonymous
 let myObject = {
   field1: value1,
@@ -16,6 +18,7 @@ let myObject = {
 };
 export {myObject as default};
 
+// above export is equivalent to below:
 export default {
   field1: value1,
   field2: value2
