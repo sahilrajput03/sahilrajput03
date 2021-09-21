@@ -4,7 +4,7 @@
 
 ### Save thousands of keystrokes with logs
 
-```
+```js
 // commonjs
 const { log: l } = require("console");
 l("i love commonjs modules.");
