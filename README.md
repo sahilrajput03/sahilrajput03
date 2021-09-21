@@ -4,7 +4,7 @@
 
 ### Enable ecma modues with nodejs
 
-Desirable way: `node --input-type=module test.js`. Refer here for all ways to do this: [Official Docs](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_enabling)
+Desirable way: `node --input-type=module test.js`. Refer here for all ways to do this: [Enabling ESM | Official Docs](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_enabling)
 
 ### Save thousands of keystrokes with logs
 
