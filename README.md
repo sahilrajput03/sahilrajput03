@@ -2,7 +2,7 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
-### modules
+### Modules
 
 ```js
 import defaultExport, * as name from "module-name";
