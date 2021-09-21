@@ -2,6 +2,18 @@
 
 - 🤺︎ Find me on terminal via `npx sahilrajput03` command.
 
+### Save thousands of keystrokes with logs
+
+```
+// commonjs
+const { log: l } = require("console");
+l("i love commonjs modules.");
+
+//esm
+import { log as l } from "console";
+l("i love esm modules");
+```
+
 ### Make async/await cleaner with simple if checks
 
 ```js
