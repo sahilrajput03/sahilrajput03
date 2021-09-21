@@ -8,6 +8,18 @@ Find me on terminal via `npx sahilrajput03` command.
 import defaultExport, * as name from "module-name";
 import defaultExport, { export1 } from "module-name";
 const { default: myDefault, foo, bar } = await import('/modules/my-module.js');
+
+// Anonymous
+let myObject = {
+  field1: value1,
+  field2: value2
+};
+export {myObject as default};
+
+export default {
+  field1: value1,
+  field2: value2
+};
 ```
 src: [Import in js | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#dynamic_imports)
 
