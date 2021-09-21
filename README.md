@@ -4,7 +4,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ### Enable ecma modues with nodejs
 
-Desirable way: `node --input-type=module test.js`. Refer here for all ways to do this: [Enabling ESM | Official Docs](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_enabling)
+Desirable way: `node --input-type=module test.js`. Refer here for all ways to do this: [Enabling ESM | Official Docs](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_enabling). Also, tho use `node test.mjs` if the former seems to much.
 
 ### Save thousands of keystrokes with logs
 
