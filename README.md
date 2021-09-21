@@ -1,6 +1,12 @@
-#### Hi there 👋
+### Hi there 👋
 
 - 🤺︎ Find me on terminal via `npx sahilrajput03` command.
+
+### Enable ecma modues with nodejs
+
+Refer here for all ways to do this: [Official Docs](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_enabling)
+
+Desirable way: `node --input-type=module test.js`
 
 ### Save thousands of keystrokes with logs
 
