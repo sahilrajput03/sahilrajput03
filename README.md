@@ -30,7 +30,7 @@ src: [Import in js | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScrip
 
 Desirable way: `node --input-type=module test.js`. Refer here for all ways to do this: [Enabling ESM | Official Docs](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_enabling). Also, tho use `node test.mjs` if the former seems to much. And do read about the [awesomeness of convention of file extensions standard](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_mandatory_file_extensions) which is also followed in browsers as well and thus actualy good for real.
 
-### Save thousands of keystrokes with logs
+### Save some of keystrokes with logs
 
 ```js
 // commonjs
