@@ -2,6 +2,20 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Nodemon clear on restart
+
+Windows:
+
+`code ~/nodemon.json`
+
+```json
+{
+    "events": {
+        "start": "reset || cls"
+    }
+}
+```
+
 ### Modules
 
 ```js
