@@ -4,7 +4,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 _Missing beauty:_ `isBoolean = (a) => typeof a === 'boolean'`
 
-_Recall last n shit:_ `git log -n 1`
+_Recall last n commits in git:_ `git log -n 1`
 
 ## Nodemon clear on restart
 
