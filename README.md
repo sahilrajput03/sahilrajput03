@@ -2,6 +2,8 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+Missing beauty: `isBoolean = (a) => typeof a === 'boolean'`
+
 ## Nodemon clear on restart
 
 Windows:
