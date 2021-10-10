@@ -8,6 +8,8 @@ _Recall last n commits in git:_ `git log -n 1`
 
 ## I love Promise.allSettled more that I have `try{}catch(e){}` syntax
 
+read more @ https://javascript.info/promise-api#summary
+
 ```
 await Promise.allSettled([b()])
 // ouput: keyPoint: It never throws error(i.e., `reject("someErrorMessage")`. Yikes!
