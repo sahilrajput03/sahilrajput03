@@ -6,7 +6,7 @@ _Missing beauty:_ `isBoolean = (a) => typeof a === 'boolean'`
 
 _Recall last n commits in git:_ `git log -n 1`
 
-## I love Promise.allSettled more that I have `try{}catch(e){}` syntax
+## I love Promise.allSettled more that I hate `try{}catch(e){}` syntax
 
 read more @ https://javascript.info/promise-api#summary
 
