@@ -6,6 +6,37 @@ _Missing beauty:_ `isBoolean = (a) => typeof a === 'boolean'`
 
 _Recall last n commits in git:_ `git log -n 1`
 
+## `Promsise.all` vs. `Promise.allSettled` (i.e., either `resolved` or `rejected`)
+
+```js
+let a = () => Promise.resolve(10)
+let b = () => Promise.reject(20)
+
+// Promise.allSettled
+await Promise.allSettled([a(), b()])
+// output: keyPoint: It never throws error so we can use it without try and catch(what a godly thing, isn't it ?).
+[
+    {
+        "status": "fulfilled",
+        "value": 10
+    },
+    {
+        "status": "rejected",
+        "reason": 20
+    }
+]
+
+// Promise.all
+try{
+    await Promise.all([a(), b()])
+}catch(e){
+    console.log('boom', e)
+}
+
+// output:
+boom 20
+```
+
 ## Nodemon clear on restart
 
 Windows:
