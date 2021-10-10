@@ -11,6 +11,8 @@ _Recall last n commits in git:_ `git log -n 1`
 read more @ https://javascript.info/promise-api#summary
 
 ```
+let b = () => Promise.reject(20)
+
 await Promise.allSettled([b()])
 // ouput: keyPoint: It never throws error(i.e., `reject("someErrorMessage")`. Yikes!
 [
