@@ -6,6 +6,40 @@ _Missing beauty:_ `isBoolean = (a) => typeof a === 'boolean'`
 
 _Recall last n commits in git:_ `git log -n 1`
 
+## I love Promise.allSettled more that I have `try{}catch(e){}` syntax
+
+```
+await Promise.allSettled([b()])
+// ouput: keyPoint: It never throws error(i.e., `reject("someErrorMessage")`. Yikes!
+[
+    {
+        "status": "rejected",
+        "reason": 20
+    }
+]
+So, now you would be tempting to re-write all your previous `try{}catch(e){}` flavoured in a more if/else like manner, don't you .?
+
+// I mean instead of writing:
+
+try{
+    const res = await fetch('ss')
+    await res.json()
+}catch(e){
+    console.log('Caught program control thief :LOL: ~sahil~\n', e)
+}
+// ouput:
+Caught program control thief :LOL: ~sahil~
+ SyntaxError: Unexpected token < in JSON at position 0
+ 
+// you can write more synchronouse looking code, e.g.,
+
+let res = await fetch('ss')
+let settledRequest = await Promise.allSettled([res.json()]) 
+if(settledRequest[0].status === 'resolved') console.log('yikes, got value', settledRequest.value)
+if(settledRequest[0].status === 'rejected') console.log('shit, got reason', settledRequest.reason)
+// isn't that the way you wanted code to be written like from a long time...?
+```
+
 ## `Promsise.all` vs. `Promise.allSettled` (i.e., either `resolved` or `rejected`)
 
 ```js
