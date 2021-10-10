@@ -38,9 +38,9 @@ Caught program control thief :LOL: ~sahil~
 // you can write more synchronouse looking code, e.g.,
 
 let res = await fetch('ss')
-let settledRequest = await Promise.allSettled([res.json()]) 
-if(settledRequest[0].status === 'resolved') console.log('yikes, got value', settledRequest.value)
-if(settledRequest[0].status === 'rejected') console.log('shit, got reason', settledRequest.reason)
+let [settledRequest] = await Promise.allSettled([res.json()]) 
+if(settledRequest.status === 'resolved') console.log('yikes, got value', settledRequest.value)
+if(settledRequest.status === 'rejected') console.log('shit, got reason', settledRequest.reason)
 // isn't that the way you wanted code to be written like from a long time...?
 ```
 
