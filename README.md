@@ -10,6 +10,8 @@ _Recall last n commits in git:_ `git log -n 1`
 
 ```
 curl -s https://checkip.amazonaws.com
+# Below works too.
+curl checkip.amazonaws.com
 ```
 
 ## I love Promise.allSettled more that I hate `try{}catch(e){}` syntax
