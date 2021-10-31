@@ -4,7 +4,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 _Missing beauty:_ `isBoolean = (a) => typeof a === 'boolean'`
 
-_Recall last n commits in git:_ `git log -n 1`
+_Recall last n commits in git:_ `git log -n 1`, `git log -n2` works well similarly, i.e., showing last two logs.
 
 ## Get ur ip address
 
