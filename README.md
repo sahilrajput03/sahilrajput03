@@ -2,6 +2,10 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Become root user
+
+`sudo su`
+
 _Missing beauty:_ `isBoolean = (a) => typeof a === 'boolean'`
 
 _Recall last n commits in git:_ `git log -n 1`, `git log -n2` works well similarly, i.e., showing last two logs.
