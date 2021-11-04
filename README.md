@@ -6,6 +6,22 @@ _Missing beauty:_ `isBoolean = (a) => typeof a === 'boolean'`
 
 _Recall last n commits in git:_ `git log -n 1`, `git log -n2` works well similarly, i.e., showing last two logs.
 
+## Setup your cli to work with different github accounts while pulling and pushing to repositories
+
+vi ~/.ssh/config
+
+and enter code like below:
+
+```
+HOST github.com
+ HostName github.com
+ IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-1"
+
+HOST github.com-sahilrajput03
+ HostName github.com
+ IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-2"
+```
+
 ## Get ur ip address
 
 ```
