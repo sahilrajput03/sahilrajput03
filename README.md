@@ -2,6 +2,18 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Pushing archLinux.iso to a usb:
+
+```
+dd: disk dump (people also call it as disk destroyer, coz if not used correct drive it'll destroy the target drive).
+man dd: to read its documentation.
+
+
+dd if=Downloads/archlinux_64.iso of=/dev/sdb
+# if=inputFile, of=ouputFile.
+# be careful that your of (output file) i.e., if its gonna be extremely right device you want the iso file's data to be dumped off.
+```
+
 ## Become root user
 
 `sudo su`
