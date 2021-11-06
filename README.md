@@ -2,6 +2,27 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+
+## Format a disk/usb in windows with ``diskpart``
+
+```
+diskpart
+list disk
+select disk X
+clean
+create partition primary
+select partition 1
+active
+format fs=ntfs label=sanDisk quick
+assign letter=h
+exit
+
+
+# Also, you can list and select a partition too.
+list partition
+select partition Y
+```
+
 ## Pushing archLinux.iso to a usb:
 
 ```
