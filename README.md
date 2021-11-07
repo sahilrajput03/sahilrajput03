@@ -10,8 +10,18 @@ k = 1_000_000_000_000_00_1 * 2
 // Output: 2000000000000002
 k = 1_000_000_000_000_000_1 * 2
 // Output: 20000000000000000 // Notice the end digit is calculated wrong JAVASCRIPT sucks in artronomical figures.
-```
 
+#Fix: Use bigints in javascript
+Syntax: Just add n to the end of the number and thats a bigInt.
+
+let k
+k = 1_000_000_000_000_000_1n * 2
+// ^^ above expression throws error as ->>
+VM52:1 Uncaught TypeError: Cannot mix BigInt and other types, use explicit conversions
+// So, instead we try with 2n (earlier we used 2 (number type) to multiply with a BigInt type. 
+k = 1_000_000_000_000_000_1n * 2n
+20000000000000002n // Voila! It works!!
+```
 
 ## Format a disk/usb in windows with ``diskpart``
 
