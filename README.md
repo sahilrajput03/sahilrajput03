@@ -2,7 +2,7 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
-## Limitation of javascript:
+## Limitation of javascript (Amazing bigInt type):
 
 ```
 let k
@@ -22,6 +22,8 @@ VM52:1 Uncaught TypeError: Cannot mix BigInt and other types, use explicit conve
 k = 1_000_000_000_000_000_1n * 2n
 20000000000000002n // Voila! It works!!
 ```
+
+Read about bigint @ MDN [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt).
 
 ## Format a disk/usb in windows with ``diskpart``
 
