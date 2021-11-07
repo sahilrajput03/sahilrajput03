@@ -2,6 +2,16 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Limitation of javascript:
+
+```
+let k
+k = 1_000_000_000_000_00_1 * 2
+// Output: 2000000000000002
+k = 1_000_000_000_000_000_1 * 2
+// Output: 20000000000000000 // Notice the end digit is calculated wrong JAVASCRIPT sucks in artronomical figures.
+```
+
 
 ## Format a disk/usb in windows with ``diskpart``
 
