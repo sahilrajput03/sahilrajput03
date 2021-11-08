@@ -7,7 +7,10 @@ Find me on terminal via `npx sahilrajput03` command.
 Learn:
 
 p pastes to the right of the block cursor.
+
 P pastes to the left fo the block cursor.
+
+For easiness : **lowercase is right! Cool!**
 
 `vim ~/.vimrc`
 
