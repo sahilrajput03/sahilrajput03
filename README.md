@@ -2,11 +2,14 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
-## ls 
+## linux fun
 
 ```bash
 $ ls -l /mnt/sda3/ /mnt/sda4/ /mnt/sda5/
 # This will list out file/directories for all the specified directories above.
+
+$ echo $USER     # Prints username of current user.
+$ echo $HOSTNAME # Printes hostname of the machine.
 ```
 
 ## Limitation of javascript (Amazing bigInt type):
