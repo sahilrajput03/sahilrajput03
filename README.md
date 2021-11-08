@@ -79,6 +79,8 @@ _Recall last n commits in git:_ `git log -n 1`, `git log -n2` works well similar
 
 ## Setup your cli to work with different github accounts
 
+First add your **public key** to github account you want access to. Then add entry correspondingly like below to your `~/.ssh/config` file.
+
 `vi ~/.ssh/config`
 
 and enter code like below:
@@ -86,11 +88,11 @@ and enter code like below:
 ```
 HOST github.com
  HostName github.com
- IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-1"
+ IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-1-private-key"
 
 HOST github.com-sahilrajput03
  HostName github.com
- IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-2"
+ IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-2-private-key"
 ```
 
 ## Get ur ip address
