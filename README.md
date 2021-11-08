@@ -15,8 +15,8 @@ For easiness : **lowercase is right! Cool!**
 `vim ~/.vimrc`
 
 ```
-nnoremap .p "0p
-nnoremap ,p "0P
+nnoremap ,p "0p
+nnoremap ,P "0P
 ```
 
 ## linux fun
