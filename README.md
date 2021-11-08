@@ -4,7 +4,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## vim - addiction won't loose
 
-Learn:
+Learn: In general when you use p vs. P, the paste works differently as :-
 
 p pastes to the right of the block cursor.
 
