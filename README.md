@@ -2,6 +2,13 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## ls 
+
+```bash
+$ ls -l /mnt/sda3/ /mnt/sda4/ /mnt/sda5/
+# This will list out file/directories for all the specified directories above.
+```
+
 ## Limitation of javascript (Amazing bigInt type):
 
 ```js
