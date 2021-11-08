@@ -2,6 +2,20 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## vim - addiction won't loose
+
+Learn:
+
+p pastes to the right of the block cursor.
+P pastes to the left fo the block cursor.
+
+`vim ~/.vimrc`
+
+```
+nnoremap .p "0p
+nnoremap ,p "0P
+```
+
 ## linux fun
 
 ```bash
