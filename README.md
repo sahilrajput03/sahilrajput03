@@ -6,10 +6,10 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ```
 let s
-console.log("typeof s === 'undefined'", typeof s === 'undefined')
+console.log("typeof s === 'undefined'", typeof s === 'undefined') // true
 
 let r = null
-console.log("r === null", r === null)
+console.log("r === null", r === null) // true
 ```
 
 ## vim - addiction won't loose
