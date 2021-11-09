@@ -2,6 +2,16 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## why is it so hard ?
+
+```
+let s
+console.log("typeof s === 'undefined'", typeof s === 'undefined')
+
+let r = null
+console.log("r === null", r === null)
+```
+
 ## vim - addiction won't loose
 
 Learn: In general when you use p vs. P, the paste works differently as :-
