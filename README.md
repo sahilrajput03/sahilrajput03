@@ -8,7 +8,7 @@ It is not an attainment or an achievement. It is a homecoming. Your senses give 
 
 ~sadguru.
 
-## why is it so hard ?
+## Practised enough to get this in your veins .?
 
 ```
 let s
