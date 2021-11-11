@@ -2,6 +2,12 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Enlightment
+
+It is not an attainment or an achievement. It is a homecoming. Your senses give you the impression that you are experiencing the outside, but you have never experienced the ouside. When you realize that all that all that you experience is within, that absolute homecoming is enlightenment.
+
+~sadguru.
+
 ## why is it so hard ?
 
 ```
