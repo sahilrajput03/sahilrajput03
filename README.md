@@ -182,17 +182,7 @@ boom 20
 
 ## Nodemon clear on restart
 
-Windows:
-
-`code ~/nodemon.json`
-
-```json
-{
-    "events": {
-        "start": "reset || cls"
-    }
-}
-```
+[Click here](nodemon.md)
 
 ### Modules
 
