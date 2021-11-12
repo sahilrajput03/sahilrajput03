@@ -11,3 +11,14 @@ Windows:
     }
 }
 ```
+
+Linux:
+
+```
+{
+  "events": {
+    "start": "clear"
+  }
+}
+
+```
