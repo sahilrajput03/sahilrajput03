@@ -79,11 +79,23 @@ Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
 #### fun with variables
 
+
+
 ```
-hasMoney=true
-if [ "$hasMoney" = true ] ; then
+fullName="sahil kolkata"; echo $fullName
+fullName='sahil rajput'; echo $fullName
+
+
+hasMoney=true                   # In bash there is nothing like boolean, so true is just a simple string.
+if [ $hasMoney = true ] ; then
     echo 'I do have money.'
 fi
+
+# concatenation is so easy in bash, i.e., you don't need any operator like + at all, coz it just happens.
+if [ "$hasMoney"1 = true1 ] ; then     echo 'I do have money.'; fi
+
+
+
 
 ```
 
