@@ -34,7 +34,7 @@ if [ -d blulabs ]; then echo yesss; echo we are still executing; fi
 # we are still executing
 
 if [ 0 ]; then echo its truthy value; fi
-# output: its truthy value
+# **output: its truthy value
 
 if [ 1 ]; then echo its truthy value; fi
 # output: its truthy value
@@ -42,7 +42,8 @@ if [ 1 ]; then echo its truthy value; fi
 if [ "car" ]; then echo its truthy value; fi
 # output: its truthy value
 
-# NOT OPERATOR
+-------
+NOT OPERATOR
 
 if ! [  ]; then echo its falsy value; fi
 # output: its falsy value
@@ -53,7 +54,27 @@ if ! [ "" ]; then echo its falsy value; fi
 if ! [ '' ]; then echo its falsy value; fi
 # output: its falsy value
 
+------
+
+Equality operators:
+
+if (( 1 > 0 )); then echo one is greater than zero; fi
+# ouput: one is greater than zero
+
+if (( 1 > 10 )); then echo one is greater than ten; fi
+# ouput: -no-output-
+
+if ! (( 2 > 2 )); then echo two is not greater than two; fi
+# output: two is not greater than two
+
+if ! (( 0 > 0 )); then echo zero is not greater than zero; fi
+# ouput: zero is not greater than zero
+
+
+FOOTNOTES:
+**output means its an exception.
 ```
+Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
 ## Enlightment
 
