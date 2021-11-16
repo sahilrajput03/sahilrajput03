@@ -19,11 +19,11 @@ ctrl + b : jump back a char
 ## bash coding
 
 ```
-if [ -f nodemon.json ]; then echo yesss; fi
-# output; yess
+if [ -f nodemon.json ]; then echo Yes it is a file; fi
+# output; Yes it is a file
 
-if [ -d blulabs ]; then echo yesss; fi
-# output: yesss
+if [ -d blulabs ]; then echo Yes it is a folder; fi
+# output: Yes it is a folder
 
 if [ -f blulabs ]; then echo yesss; else echo "its a folder"; fi
 # output: its a folder
