@@ -82,8 +82,13 @@ Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
 
 ```
+tldr; using ', " and \ works good to define a string with a space.
+
+fullName=sahil\ kolkata; echo $fullName
 fullName="sahil kolkata"; echo $fullName
 fullName='sahil rajput'; echo $fullName
+
+
 
 
 hasMoney=true                   # In bash there is nothing like boolean, so true is just a simple string.
