@@ -79,6 +79,8 @@ Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
 #### fun with variables
 
+Must checkout: https://linuxize.com/post/bash-increment-decrement-variable/
+
 ```
 # tldr; using ', " and \ works good to define a string with a space.
 fullName=sahil\ kolkata; echo $fullName
