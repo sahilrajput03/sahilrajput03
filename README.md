@@ -77,7 +77,7 @@ FOOTNOTES:
 Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
 
-fun with variables
+#### fun with variables
 
 ```
 hasMoney=true
