@@ -33,6 +33,26 @@ if [ -d blulabs ]; then echo yesss; echo we are still executing; fi
 # yesss
 # we are still executing
 
+if [ 0 ]; then echo its truthy value; fi
+# output: its truthy value
+
+if [ 1 ]; then echo its truthy value; fi
+# output: its truthy value
+
+if [ "car" ]; then echo its truthy value; fi
+# output: its truthy value
+
+### Using not operator in bash
+
+if ! [  ]; then echo its falsy value; fi
+# output: its falsy value
+
+if ! [ "" ]; then echo its falsy value; fi
+# output: its falsy value
+
+if ! [ '' ]; then echo its falsy value; fi
+# output: its falsy value
+
 ```
 
 ## Enlightment
