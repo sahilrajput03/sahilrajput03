@@ -42,7 +42,7 @@ if [ 1 ]; then echo its truthy value; fi
 if [ "car" ]; then echo its truthy value; fi
 # output: its truthy value
 
-### Using not operator in bash
+# NOT OPERATOR
 
 if ! [  ]; then echo its falsy value; fi
 # output: its falsy value
