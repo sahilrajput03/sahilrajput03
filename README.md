@@ -5,10 +5,13 @@ Find me on terminal via `npx sahilrajput03` command.
 ## jump between words in bach ?
 
 ```
-alt+b : jumb back a word
+#word jumping
+alt + b : jumb back a word
 alt + f : jump forward a word
-ctrl+f : jump forward a char
-ctrl+b : jump back a char
+
+#char jumping
+ctrl + f : jump forward a char
+ctrl + b : jump back a char
 
 #alt+l : Also jumps forward a word.
 ```
