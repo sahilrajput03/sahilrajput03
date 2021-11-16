@@ -111,6 +111,10 @@ c=1; echo $c
 if (( c < 4 )); then (( c++ )); echo Incremented and new value is $c; fi
 # outputt: SPECIAL:: executing above statements MULTIPLE times will increment c's value till it gets 4.
 
+c=10
+(( c=c+5 ))
+echo $c
+# output: 15
 ```
 
 ## Enlightment
