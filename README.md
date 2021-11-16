@@ -80,8 +80,7 @@ Comparining numbers in bash: https://stackoverflow.com/a/18668580
 #### fun with variables
 
 ```
-tldr; using ', " and \ works good to define a string with a space.
-
+# tldr; using ', " and \ works good to define a string with a space.
 fullName=sahil\ kolkata; echo $fullName
 fullName="sahil kolkata"; echo $fullName
 fullName='sahil rajput'; echo $fullName
@@ -93,7 +92,7 @@ if [ $hasMoney = true ] ; then
 fi
 # ouput: I do have mone.
 
-# concatenation is so easy in bash, i.e., you don't need any operator like + at all, coz it just happens.
+# Concatenation is so easy in bash, i.e., you don't need any operator like + at all, coz it just happens.
 if [ "$hasMoney"1 = true1 ];
 then
     echo 'I do have money.';
@@ -110,11 +109,6 @@ c=1; echo $c
 
 if (( c < 4 )); then (( c++ )); echo Incremented and new value is $c; fi
 # outputt: SPECIAL:: executing above statements MULTIPLE times will increment c's value till it gets 4.
-
-c=10
-(( c=c+5 ))
-echo $c
-# output: 15
 ```
 
 ## Enlightment
