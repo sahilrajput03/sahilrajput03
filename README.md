@@ -16,6 +16,25 @@ ctrl + b : jump back a char
 #alt+l : Also jumps forward a word.
 ```
 
+## bash coding
+
+```
+if [ -f nodemon.json ]; then echo yesss; fi
+# output; yess
+
+if [ -d blulabs ]; then echo yesss; fi
+# output: yesss
+
+if [ -f blulabs ]; then echo yesss; else echo "its a file"; fi
+# output: its a file
+
+if [ -d blulabs ]; then echo yesss; echo we are still executing; fi
+# output:
+# yesss
+# we are still executing
+
+```
+
 ## Enlightment
 
 [Cick here](enlightenment.md)
