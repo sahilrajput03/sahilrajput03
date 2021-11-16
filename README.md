@@ -2,7 +2,7 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
-## jump between words in bach ?
+## jump between words in bash ?
 
 ```
 #word jumping
