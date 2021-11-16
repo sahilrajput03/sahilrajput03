@@ -79,8 +79,6 @@ Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
 #### fun with variables
 
-
-
 ```
 tldr; using ', " and \ works good to define a string with a space.
 
@@ -89,13 +87,10 @@ fullName="sahil kolkata"; echo $fullName
 fullName='sahil rajput'; echo $fullName
 
 
-
-
 hasMoney=true                   # In bash there is nothing like boolean, so true is just a simple string.
 if [ $hasMoney = true ] ; then
     echo 'I do have money.'
 fi
-
 # ouput: I do have mone.
 
 # concatenation is so easy in bash, i.e., you don't need any operator like + at all, coz it just happens.
@@ -105,6 +100,12 @@ then
 fi
 # ouput: I do have money.
 
+
+c=1; echo $c
+# ouput: 1
+
+(( c=c+1 )); echo $c
+# output; 2
 ```
 
 ## Enlightment
