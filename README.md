@@ -106,6 +106,11 @@ c=1; echo $c
 
 (( c=c+1 )); echo $c
 # output; 2
+
+
+if (( c < 4 )); then (( c++ )); echo Incremented and new value is $c; fi
+# outputt: SPECIAL:: executing above statements MULTIPLE times will increment c's value till it gets 5.
+
 ```
 
 ## Enlightment
