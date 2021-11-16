@@ -6,7 +6,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ```
 alt+b : jumb back a word
-alt+l : jump forward a word
+alt+l or alt + f : jump forward a word
 ctrl+f : jump forward a char
 ctrl+b : jump back a char
 ```
