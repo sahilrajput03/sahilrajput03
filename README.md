@@ -96,11 +96,14 @@ if [ $hasMoney = true ] ; then
     echo 'I do have money.'
 fi
 
+# ouput: I do have mone.
+
 # concatenation is so easy in bash, i.e., you don't need any operator like + at all, coz it just happens.
-if [ "$hasMoney"1 = true1 ] ; then     echo 'I do have money.'; fi
-
-
-
+if [ "$hasMoney"1 = true1 ];
+then
+    echo 'I do have money.';
+fi
+# ouput: I do have money.
 
 ```
 
