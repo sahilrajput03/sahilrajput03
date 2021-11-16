@@ -76,6 +76,17 @@ FOOTNOTES:
 ```
 Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
+
+fun with variables
+
+```
+hasMoney=true
+if [ "$hasMoney" = true ] ; then
+    echo 'I do have money.'
+fi
+
+```
+
 ## Enlightment
 
 [Cick here](enlightenment.md)
