@@ -2,6 +2,15 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## jump between words in bach ?
+
+```
+alt+b : jumb back a word
+alt+l : jump forward a word
+ctrl+f : jump forward a char
+ctrl+b : jump back a char
+```
+
 ## Enlightment
 
 [Cick here](enlightenment.md)
