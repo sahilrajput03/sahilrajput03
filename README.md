@@ -25,8 +25,8 @@ if [ -f nodemon.json ]; then echo yesss; fi
 if [ -d blulabs ]; then echo yesss; fi
 # output: yesss
 
-if [ -f blulabs ]; then echo yesss; else echo "its a file"; fi
-# output: its a file
+if [ -f blulabs ]; then echo yesss; else echo "its a folder"; fi
+# output: its a folder
 
 if [ -d blulabs ]; then echo yesss; echo we are still executing; fi
 # output:
