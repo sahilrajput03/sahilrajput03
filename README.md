@@ -15,6 +15,8 @@ while( i < 1000 ){
 console.timeEnd()
 ```
 
+Output: **0.05 ms**
+
 ```js
 i = 1
 console.time()
@@ -25,13 +27,9 @@ while( i < 1000 ){
 console.timeEnd()
 ```
 
-1st code: **0.05 ms**
+Ouput: **31.6 ms** ( So that means a console.log statement can ruin the performance for sure.
 
-and
-
-2nd code: ouput: **31.6 ms**
-
-You might be thinking its just in ms, whats the matter. But not small enough, coz if you add more zeroes to the program the result would be shoking and the proportional changes would be same but in seconds now.
+You might be thinking its just in **_ms_**, whats the matter. But not small enough, coz if you add more zeroes to the program the result would be shoking and the proportional changes would be same but in seconds now.
 
 Try doing in python now if you want..
 
