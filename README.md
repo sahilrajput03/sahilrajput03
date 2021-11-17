@@ -2,6 +2,50 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## do console.logs in javascript or print in python can cause performance issues ??
+
+YES. How. ?, So, try guessing the time taken of below two programs.
+
+```js
+i = 1
+console.time()
+while( i < 1000 ){
+    i++
+}
+console.timeEnd()
+```
+
+```js
+i = 1
+console.time()
+while( i < 1000 ){
+    i++
+    console.log('having fun')
+}
+console.timeEnd()
+```
+
+1st code: 0.05 ms
+2nd code: ouput: 31.6 ms
+
+You might be thinking its just in ms, whats the matter. But not small enough, coz if you add more zeroes to the program the result would be shoking and the proportional changes would be same but in seconds now.
+
+Try doing in python now if you want..
+
+```py
+import time
+
+i = 0
+while i < 1_000_000:
+    # print('hel') # .08s without print, and 3.72s with uncommented.
+    i = i + 1
+
+end = time.perf_counter()
+print(end - start)
+
+```
+
+
 ## jump between words in bash ?
 
 ```
