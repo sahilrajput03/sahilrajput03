@@ -25,8 +25,11 @@ while( i < 1000 ){
 console.timeEnd()
 ```
 
-1st code: 0.05 ms
-2nd code: ouput: 31.6 ms
+1st code: **0.05 ms**
+
+and
+
+2nd code: ouput: **31.6 ms**
 
 You might be thinking its just in ms, whats the matter. But not small enough, coz if you add more zeroes to the program the result would be shoking and the proportional changes would be same but in seconds now.
 
@@ -37,14 +40,14 @@ import time
 
 i = 0
 while i < 1_000_000:
-    # print('hel') # .08s without print, and 3.72s with uncommented.
+    # print('hel') # << Here..
     i = i + 1
 
 end = time.perf_counter()
 print(end - start)
-
 ```
 
+ `print` statement uncommented : **.08s** and **3.72s** when **uncommented**. So, thats makes a huge huge difference in performance.
 
 ## jump between words in bash ?
 
