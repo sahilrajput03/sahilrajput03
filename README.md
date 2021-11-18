@@ -39,6 +39,11 @@ Firing request @ two
 
 So this way all variables can use used while executing any file with curl command. Yikes!!
 
+Curl cli tip:
+
+- By default when you make request with curl then only response's body is shown. To view the reponse's body and reponse's headers you use user option like `curl -D - my_url` to get response headers as well.
+- In fact if you want to see all the details of the request the req's headers as well, the you can simply use `curl -v my_url` to view the verbosed output that has every minute detail you might want to see to debug anything.
+
 ## do console.logs in javascript or print in python can cause performance issues ??
 
 YES. How. ?, So, try guessing the time taken of below two programs.
