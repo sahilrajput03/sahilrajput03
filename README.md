@@ -2,6 +2,41 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Stop using postman and use curl commands as different files to store requests
+
+First, this give you infinite scalability and customizability to store and share requests over github repo, as you can share updated request in that folder and other team memebers can simply use them as it is.
+
+Third, variables are also suppored simply using bash scripts, i.e., 
+
+```
+$cat staging 
+v=one
+
+$ cat development 
+v=two
+
+$cat curl1 
+echo Firing request @ $v
+
+## We use `. <anyScript>` to run any command in current bash. Tip: `.` is just alias of `source` command.
+
+# Testing staging environment:
+$ . staging 
+$ echo $v
+one
+$ . curl1 
+Firing request @ one
+
+# Testing development environment:
+$ . development 
+$ echo $v
+two
+$ . curl1 
+Firing request @ two
+```
+
+So this way all variables can use used while executing any file with curl command. Yikes!!
+
 ## do console.logs in javascript or print in python can cause performance issues ??
 
 YES. How. ?, So, try guessing the time taken of below two programs.
