@@ -4,11 +4,11 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Stop using postman and use curl commands as different files to store requests
 
-First, bash file commands give you infinite scalability and customizability to store and share requests over github repo, as you can share updated request in that folder and other team memebers can simply use them as it is.
+**First**, bash file commands give you infinite scalability and customizability to store and share requests over github repo, as you can share updated request in that folder and other team memebers can simply use them as it is.
 
-Second, bash and curl is opensource, so free forever while with postman -> you can only have at max of 3 members to share your requests with and with that you can only share a limited no. of requests only. So postman sucks when compared with curl command files.  Yikes@@
+**Second**, bash and curl is opensource, so free forever while with postman -> you can only have at max of 3 members to share your requests with and with that you can only share a limited no. of requests only. So postman sucks when compared with curl command files.  Yikes@@
 
-Third, variables are also suppored simply using bash scripts, i.e., 
+**Third**, variables are also suppored simply using bash scripts, i.e., 
 
 ```
 $cat staging 
