@@ -49,6 +49,8 @@ print(end - start)
 
 ## jump between words in bash ?
 
+#hotkeys, #shortcuts, #linux, #bash
+
 ```
 #word jumping
 alt + b : jumb back a word
@@ -60,6 +62,8 @@ ctrl + b : jump back a char
 
 #alt+l : Also jumps forward a word.
 ```
+
+`ctrl+d` closes the terminal itself.
 
 ## bash coding
 
