@@ -495,6 +495,8 @@ Copy data to clipboard, and in terminal use
 
 `$ cat > myFile.txt` and hit enter, and now paste data in the terminal itself and press `ctrl+d` to save the file. Thats it 🤠︎.
 
+`$ cat >> myFile.txt` and this will append data to the end of the content of the fiile, and make sure you first enter a new line after you press enter command for the above command so that a new line is created (only useful when there is no new line already in end of file that you want to edit).
+
 ### Techonologies 
 
 <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
