@@ -30,14 +30,14 @@ echo Firing request @ $v
 
 ## We use `. <anyScript>` to run any command in current bash. Tip: `.` is just alias of `source` command.
 
-# Testing staging environment:
+# STAGING ENVIRONMENT:
 $ . staging 
 $ echo $v
 one
 $ . curl1 
 Firing request @ one
 
-# Testing development environment:
+# DEVELOPMENT ENVIRONMENT
 $ . development 
 $ echo $v
 two
