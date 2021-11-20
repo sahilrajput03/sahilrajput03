@@ -8,6 +8,8 @@
 
 ## Bookmarking a line(character too), so you can jump back to your line like SUPERMAN!
 
+WOW!! The bookmarks of each file stays persistent even if you close the file and set more marks for same keys and it would be persistent for all individual files as it maintains unique space for each file.
+
 src: https://stackoverflow.com/a/3458731/10012446
 
 ### tl;dr;
