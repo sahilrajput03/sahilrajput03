@@ -1,5 +1,7 @@
 # Vim
 
+## You can search in backward direction in current line with `F`. i.e., say you want't to go to next " character so you usually do `f"` but when you need to go to previous " character you can do like `F"` (capital f character to find in backward direction).
+
 ```
 let s
 console.log("typeof s === 'undefined'", typeof s === 'undefined') // true
