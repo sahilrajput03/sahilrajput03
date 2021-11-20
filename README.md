@@ -2,6 +2,16 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+Why does this seems tough ??
+
+```
+let s
+console.log("typeof s === 'undefined'", typeof s === 'undefined') // true
+
+let r = null
+console.log("r === null", r === null) // true
+```
+
 ## Linux fun:
 
 ```bash
