@@ -4,7 +4,7 @@
 
 src: https://stackoverflow.com/a/3458731/10012446
 
-tldr;
+### tl;dr;
 
 Chose a characer for the mark, say `a`, to bookmark it type `ma` and now you can move around anywhere in the file and anytime you want to get back just use <code>`a</code> to get back to the mark Yikes!!
 
