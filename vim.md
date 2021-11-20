@@ -1,5 +1,11 @@
 # Vim
 
+## Want to select text like jumping into thin air??
+
+Use, `v` to active visual mode and then thype `/` to enter the search mode and then press enter to select to that character or word.
+
+Although when the character to which you want to select is in the same line then you can use `f` or `t` according to your requirement as well. AMAZING!
+
 ## Just want to move the screen (and not your cursor)
 
 Simply use: `ctrl+e` to scroll up, `ctrl+y` to scroll down.
