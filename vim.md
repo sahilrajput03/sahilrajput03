@@ -1,5 +1,9 @@
 # Vim
 
+## Just want to move the screen (and not your cursor)
+
+Simply use: `ctrl+e` to scroll up, `ctrl+y` to scroll down.
+
 ## Go to a character in backward direction ??
 
 You can search in backward direction in current line with `F`. i.e., say you want't to go to next " character so you usually do `f"` but when you need to go to previous " character you can do like `F"` (capital f character to find in backward direction).
