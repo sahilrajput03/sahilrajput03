@@ -1,5 +1,11 @@
 # Vim
 
+## Scrolling in vim:
+
+`ctrl+d` and `ctrl+u` to scroll half page down/up.
+
+`ctrl+f` and `ctrl+b` to scroll full page down/up.
+
 ## Bookmarking a line(character too), so you can jump back to your line like SUPERMAN!
 
 src: https://stackoverflow.com/a/3458731/10012446
