@@ -225,7 +225,7 @@ if (( c < 4 )); then (( c++ )); echo Incremented and new value is $c; fi
 
 [Cick here](enlightenment.md)
 
-## Practised enough to get this in your veins .?
+## Vim, Practised enough to get this in your veins .?
 
 [Click here](vim.md)
 
