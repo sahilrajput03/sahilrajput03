@@ -1,5 +1,15 @@
 # Vim
 
+## Bookmarking a line(character too), so you can jump back to your line like SUPERMAN!
+
+src: https://stackoverflow.com/a/3458731/10012446
+
+tldr;
+
+Chose a characer for the mark, say `a`, to bookmark it type `ma` and now you can move around anywhere in the file and anytime you want to get back just use <code>`a</code to get back to the mark Yikes!!
+
+NOTE: You can use any character as the bookmark point!! Yikes!!!
+
 ## Want to select text like jumping into thin air??
 
 Use, `v` to active visual mode and then thype `/` to enter the search mode and then press enter to select to that character or word.
