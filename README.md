@@ -2,6 +2,13 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Linux fun:
+
+```bash
+. --help # is same as
+source --help
+```
+
 ## Define variables in arch-os
 
 ```
