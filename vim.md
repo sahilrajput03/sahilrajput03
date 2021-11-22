@@ -10,10 +10,6 @@ TIP: Use `2>` or `2<` to indent twice (were n=2 or any whole number).
 
 src: https://stackoverflow.com/a/235841/10012446
 
-ALSO MAGIC: `I use >i} (indent inner {} block). Works in vim. Not sure it works in vi` from the comment of above source stackoverflow's comment in same answer.
-
-TIp: If you want to indent 
-
 ## Scrolling in vim:
 
 `ctrl+d` and `ctrl+u` to scroll half page down/up.
