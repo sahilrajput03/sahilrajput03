@@ -135,6 +135,10 @@ ctrl + b : jump back a char
 ## bash coding
 
 ```
+# Doing simple maths in bash:
+echo $((5-2))
+# Ouput: -3
+
 if [ -f nodemon.json ]; then echo Yes it is a file; fi
 # output; Yes it is a file
 
