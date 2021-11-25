@@ -114,11 +114,14 @@ print(end - start)
 
  `print` statement uncommented : **.08s** and **3.72s** when **uncommented**. So, thats makes a huge huge difference in performance.
 
-## jump between words in bash ?
+## jump between words in bash, use ctrl+h or backspace ??
 
 #hotkeys, #shortcuts, #linux, #bash
 
 ```
+#Instead of using backspace in shell, you can use ctrl+h as its far reachable as compared to `backspace key`.
+ctrl+h
+
 #word jumping
 alt + b : jumb back a word
 alt + f : jump forward a word
