@@ -1,5 +1,9 @@
 # Vim
 
+## Tired of using backspace ??
+
+Use `ctrl+h` to backspace and it works only in insert mode. TIP: It works in shell terminal as well.
+
 ### Indent lines in vim
 
 Use `>>` to right indent or use `<<` to left indent the current line.
