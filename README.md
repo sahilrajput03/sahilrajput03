@@ -2,7 +2,11 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
-Why does this seems tough ??
+## arch-notes
+
+[Click here](arch-notes.md)
+
+## Why does this seems tough ??
 
 ```
 let s
