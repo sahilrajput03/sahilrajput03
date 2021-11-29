@@ -1,5 +1,9 @@
 # Vim
 
+## Go to a particular line number in vim
+
+Get in Command mode and type `:21 <Enter>` to go to line number 21.
+
 ## Tired of using backspace ??
 
 Use `ctrl+h` to backspace and it works only in insert mode. TIP: It works in shell terminal as well.
