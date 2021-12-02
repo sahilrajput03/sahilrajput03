@@ -21,6 +21,9 @@ console.log("s is undefined: ", typeof s === 'undefined') // true
 
 let r = null
 console.log("r is null: ", r === null) // true
+
+console.log("s is undefined or null", typeof s === 'undefined' || s === null) // true
+console.log("r is undefined or null", typeof r === 'undefined' || r === null) // true
 ```
 
 ## Linux fun:
