@@ -151,7 +151,20 @@ ctrl + b : jump back a char
 
 ## bash coding, # bash programming
 
+```bash
+while [ condition ]
+do
+   command1
+   command2
+   command3
+done
+
+# E.g, 
+$ while true; do echo I am cool; sleep 1; done
+
 ```
+
+```bash
 $ ((0)) && echo truthy value
 # Ouput: nothing...
 
