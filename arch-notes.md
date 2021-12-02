@@ -1,6 +1,21 @@
 # arch-notes
 
-# Installed dig cli tool
+## Linux fun:
+
+```bash
+. --help # is same as
+source --help
+```
+
+## Define variables in arch-os
+
+```
+sudo vim /etc/environment
+# Now add some value pairs, i.e., v1=value1 one in each line and you would be able to test them i.e., `echo $v1` once after logout/login event.
+# Tip if you want to access the variables in current bash in hurry.., simply do like `. /etc/environment` to test your `/etc/environment` file in current bash shell only.
+```
+
+## Installed dig cli tool
 
 ```
 sudo pacman -Sy dnsutils
