@@ -3,7 +3,7 @@
 # Installed dig cli tool
 
 ```
-pacman -Sy dnsutils
+sudo pacman -Sy dnsutils
 ```
 
 [Source](https://www.tecmint.com/install-dig-and-nslookup-in-linux/#digarch)
