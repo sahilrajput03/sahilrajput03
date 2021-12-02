@@ -1,5 +1,13 @@
 # arch-notes
 
+# Installed dig cli tool
+
+```
+pacman -Sy dnsutils
+```
+
+[Source](https://www.tecmint.com/install-dig-and-nslookup-in-linux/#digarch)
+
 ## Pushing archLinux.iso to a usb:
 
 ```
