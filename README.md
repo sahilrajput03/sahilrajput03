@@ -11,13 +11,13 @@ git commit --amend --no-edit
 
 ## Other references:
 
-- Arch-notes, #ArchLinux, #Arch linux: [Click here](arch-notes.md)
+- **Arch-notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
 
-- Bash Coding, # Bash Programming, # Learning Bash: [Click here](learning-bash.md)
+- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
 
-- vim-notes: [Click here](vim.md)
+- **vim-notes:** [Click here](vim.md)
 
-- Enlightment: [Cick here](enlightenment.md)
+- **Enlightment:** [Cick here](enlightenment.md)
 
 #### Nodemon clear on restart
 
