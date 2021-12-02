@@ -1,5 +1,14 @@
 # arch-notes
 
+## Installed chromium
+
+```
+sudo pacman -S chromium
+```
+
+If you get some error then you can use `sudo pacman -Syu` to upgrade the system and probably the problem will be fixed as [this](https://stackoverflow.com/a/67552506/10012446) helped me. 
+
+
 ## Update system
 
 ```bash
