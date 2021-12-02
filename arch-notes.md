@@ -1,5 +1,9 @@
 # arch-notes
 
+## Why prefer pacman ?
+
+Bcoz if you ever run `pacman -Syu` then all your packages installed via pacman will be updated.
+
 ## Installed chromium
 
 ```
