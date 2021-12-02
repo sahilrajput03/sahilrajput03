@@ -37,21 +37,6 @@ console.log("s is undefined or null", typeof s === 'undefined' || s === null) //
 console.log("r is undefined or null", typeof r === 'undefined' || r === null) // true
 ```
 
-## Linux fun:
-
-```bash
-. --help # is same as
-source --help
-```
-
-## Define variables in arch-os
-
-```
-sudo vim /etc/environment
-# Now add some value pairs, i.e., v1=value1 one in each line and you would be able to test them i.e., `echo $v1` once after logout/login event.
-# Tip if you want to access the variables in current bash in hurry.., simply do like `. /etc/environment` to test your `/etc/environment` file in current bash shell only.
-```
-
 ## Stop using postman and use curl commands as different files to store requests
 
 **First**, bash file commands give you infinite scalability and customizability to store and share requests over github repo, as you can share updated request in that folder and other team memebers can simply use them as it is.
