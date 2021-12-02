@@ -149,9 +149,15 @@ ctrl + b : jump back a char
 
 `ctrl+d` closes the terminal itself.
 
-## bash coding
+## bash coding, # bash programming
 
 ```
+$ ((0)) && echo truthy value
+# Ouput: nothing...
+
+$ ((1)) && echo truthy value
+# Ouput: truthy value
+
 # Doing simple maths in bash:
 echo $((5-2))
 # Ouput: 3
