@@ -149,9 +149,9 @@ ctrl + b : jump back a char
 
 `ctrl+d` closes the terminal itself.
 
-## bash coding, # bash programming
+## Bash coding, # Bash Programming, # Learning Bash
 
-[Here](learning-bash)
+[Here](learning-bash.md)
 
 ## Enlightment
 
