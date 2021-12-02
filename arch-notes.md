@@ -1,3 +1,11 @@
+# arch-notes
+
+## Update system
+
+```bash
+sudo pacman -Syu
+```
+
 Installed code-server via below commands
 
 src: 
