@@ -151,7 +151,7 @@ ctrl + b : jump back a char
 
 ## Bash coding, # Bash Programming, # Learning Bash
 
-[Here](learning-bash.md)
+[Click here](learning-bash.md)
 
 ## Enlightment
 
