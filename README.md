@@ -17,10 +17,10 @@ git commit --amend --no-edit
 
 ```
 let s
-console.log("typeof s === 'undefined'", typeof s === 'undefined') // true
+console.log("s is undefined: ", typeof s === 'undefined') // true
 
 let r = null
-console.log("r === null", r === null) // true
+console.log("r is null: ", r === null) // true
 ```
 
 ## Linux fun:
