@@ -9,9 +9,30 @@ git add the_left_out_file
 git commit --amend --no-edit
 ```
 
-## arch-notes
+## Other references:
+
+#### arch-notes
 
 [Click here](arch-notes.md)
+
+
+#### Bash coding, # Bash Programming, # Learning Bash
+
+[Click here](learning-bash.md)
+
+#### Enlightment
+
+[Cick here](enlightenment.md)
+
+#### vim-notes
+
+[Click here](vim.md)
+
+
+#### Nodemon clear on restart
+
+[Click here](nodemon.md)
+
 
 ## Why does this seems tough ??
 
@@ -149,17 +170,6 @@ ctrl + b : jump back a char
 
 `ctrl+d` closes the terminal itself.
 
-## Bash coding, # Bash Programming, # Learning Bash
-
-[Click here](learning-bash.md)
-
-## Enlightment
-
-[Cick here](enlightenment.md)
-
-## vim-notes
-
-[Click here](vim.md)
 
 ## linux fun
 
@@ -318,10 +328,6 @@ try{
 // output:
 boom 20
 ```
-
-## Nodemon clear on restart
-
-[Click here](nodemon.md)
 
 ### Modules
 
