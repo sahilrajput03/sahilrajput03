@@ -10,6 +10,7 @@ done
 
 # E.g, 
 $ while true; do echo I am cool; sleep 1; done
+$ while true; do dig jujn.ml; sleep 1; clear; done
 
 ```
 
