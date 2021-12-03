@@ -1,5 +1,16 @@
 # arch-notes
 
+## Installing nvm:
+
+src: [AUR](https://aur.archlinux.org/packages/nvm/)
+
+```bash
+git clone https://aur.archlinux.org/nvm.git
+cd nvm
+makepkg -s
+sudo pacman nvm-*******-any.pkg.tar.zst
+```
+
 ## Linux fun:
 
 ```bash
