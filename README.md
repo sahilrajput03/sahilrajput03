@@ -21,6 +21,24 @@ console.log(object.black.magenta.bgWhite);
 console.log(object.white.bgYellow);
 ```
 
+BUT, you should create some theme:
+
+```js
+colors.setTheme({
+  info: "bgGreen",
+  help: "cyan",
+  warn: "yellow",
+  success: "bgBlue",
+  error: "red",
+  m: "magenta", // myString.m.b Fox chaining.: for chaining.
+  b: "bold",
+  mb: ["magenta", "bold"],
+});
+
+myString.m.b // works good!
+myString.mb // works good!
+```
+
 ## Missed some files to add to your git commit ?
 
 ```bash
