@@ -7,13 +7,13 @@ src: [Amazing, life changing answer towards vim.](https://stackoverflow.com/a/10
 ```bash
 vi' #For inside single quotes
 vi" #For inside double quotes
-vi( #For inside parentheses
-vi{ #For inside curly brackets
+vi( or vib #For inside parentheses
+vi{ or viB #For inside curly brackets
 
 va' #For around single quotes
 va" #For around double quotes
-va( #For around parentheses
-va{ #For around curly brackets
+va( or vab #For around parentheses
+va{ or vaB #For around curly brackets
 ```
 
 ## Go to a particular line number in vim
