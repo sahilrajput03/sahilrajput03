@@ -8,7 +8,8 @@ src: [AUR](https://aur.archlinux.org/packages/nvm/)
 git clone https://aur.archlinux.org/nvm.git
 cd nvm
 makepkg -s
-sudo pacman nvm-*******-any.pkg.tar.zst
+sudo pacman -U nvm-*******-any.pkg.tar.zst
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 ```
 
 ## Linux fun:
