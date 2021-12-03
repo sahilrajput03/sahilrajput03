@@ -2,7 +2,26 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
-## missed some files to add to your git commit ?
+## Get colors on screen on nodejs
+
+```js
+// install dependency first: npm i colors
+
+require("colors");
+
+const str = "Hello this is Sahil!";
+const object = JSON.stringify({ a: 10, b: 20 }, null, 2);
+
+console.log(str.red);
+console.log(str.red.bold);
+console.log(str.bold.red); // Order doesn't matter.
+console.log(str.bold.red.bgRed); // Order doesn't matter.
+console.log(str.blue.italic.bold.bgYellow);
+console.log(object.black.magenta.bgWhite);
+console.log(object.white.bgYellow);
+```
+
+## Missed some files to add to your git commit ?
 
 ```bash
 git add the_left_out_file
