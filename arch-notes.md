@@ -1,5 +1,18 @@
 # arch-notes
 
+## insatlled sqliteman
+
+Source: [stackoverflow answer](https://unix.stackexchange.com/a/38623)
+
+Docs: http://sqliteman.yarpen.cz/
+
+```
+git clone https://aur.archlinux.org/packages/sqliteman/
+cd sqliteman
+makepkg -s
+sudo pacman -U sqliteman-1.2.2-12-x86_64.pkg.tar.zst
+```
+
 ## Installing nvm:
 
 src: [AUR](https://aur.archlinux.org/packages/nvm/)
