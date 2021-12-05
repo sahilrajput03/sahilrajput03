@@ -2,6 +2,16 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Other references:
+
+- **Arch-notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
+
+- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
+
+- **vim-notes:** [Click here](vim.md)
+
+- **Enlightment:** [Cick here](enlightenment.md)
+
 ## Git
 
 Set default upstream remote branch same as local branch name in git so that when you do `git push` it won't ask you to do `git push -u origin myBranchName` each single time.
@@ -53,16 +63,6 @@ myString.mb // works good!
 git add the_left_out_file
 git commit --amend --no-edit
 ```
-
-## Other references:
-
-- **Arch-notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
-
-- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
-
-- **vim-notes:** [Click here](vim.md)
-
-- **Enlightment:** [Cick here](enlightenment.md)
 
 #### Nodemon clear on restart
 
