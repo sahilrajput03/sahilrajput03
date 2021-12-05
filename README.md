@@ -2,6 +2,14 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Git
+
+Set default upstream remote branch same as local branch name in git so that when you do `git push` it won't ask you to do `git push -u origin myBranchName` each single time.
+
+```bash
+git config --global push.default current #This sets configuration to push to current on remote.
+```
+
 ## Get colors on screen on nodejs
 
 ```js
