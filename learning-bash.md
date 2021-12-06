@@ -90,7 +90,22 @@ Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
 Must checkout: https://linuxize.com/post/bash-increment-decrement-variable/
 
-```
+```bash
+x=Sahil
+
+echo $x
+# Ouput: Sahil
+
+echo $xyz
+# Ouput: --no-ouput
+
+echo $x yz
+# Ouput: Sahil yz
+
+echo ${x}yz       #Concatenation variables with other string or variable.
+# Ouput: Sahilyz     [Cool enough. Isn't it ?]
+
+
 # tldr; using ', " and \ works good to define a string with a space.
 fullName=sahil\ kolkata; echo $fullName
 fullName="sahil kolkata"; echo $fullName
