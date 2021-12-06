@@ -4,6 +4,8 @@
 
 [Source](https://tldp.org/LDP/abs/html/localvar.html)
 
+## While loop
+
 ```bash
 while [ condition ]
 do
