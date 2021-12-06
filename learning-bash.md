@@ -1,5 +1,9 @@
 # Learning bash
 
+## Special local variabes in bash
+
+[Source](https://tldp.org/LDP/abs/html/localvar.html)
+
 ```bash
 while [ condition ]
 do
