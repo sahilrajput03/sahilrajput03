@@ -18,6 +18,8 @@ Set default upstream remote branch same as local branch name in git so that when
 
 ```bash
 git config --global push.default current #This sets configuration to push to current on remote.
+# for pulling you still might need to do it for once for each branch:
+git branch --set-upstream-to=origin/main main  # Replace main with your desired branch.
 ```
 
 ## Get colors on screen on nodejs
