@@ -1,5 +1,11 @@
 # arch-notes
 
+## change root password
+
+```
+sudo -i passwd
+```
+
 ## insatlled sqliteman
 
 Source: [stackoverflow answer](https://unix.stackexchange.com/a/38623)
