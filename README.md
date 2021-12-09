@@ -21,6 +21,10 @@ Even more clearer: https://codesandbox.io/s/uncensored-suspense-2-hot-forked-hdw
 
 Inspiration:https://codesandbox.io/s/frosty-hermann-bztrp
 
+**What version of react do i need to use Suspense ?**
+
+**Suspense** was first shipped in v16.6 as mentioned [here](https://reactjs.org/blog/2018/11/27/react-16-roadmap.html) and they said it is good for code splitting and it still isn't recommended to for data fetching. Though in my opinion it rocks!!
+
 ## Git
 
 Set default upstream remote branch same as local branch name in git so that when you do `git push` it won't ask you to do `git push -u origin myBranchName` each single time.
