@@ -9,12 +9,24 @@ vi' #For inside single quotes
 vi" #For inside double quotes
 vi( or vib #For inside parentheses
 vi{ or viB #For inside curly brackets
+vit #For inside html tags.
 
 va' #For around single quotes
 va" #For around double quotes
 va( or vab #For around parentheses
 va{ or vaB #For around curly brackets
+vat #for around html tags
 ```
+
+#### mind blower:
+
+```
+# below two works idk how but seems somewhat idk what..
+vii
+vaa
+```
+
+
 
 ## Go to a particular line number in vim
 
