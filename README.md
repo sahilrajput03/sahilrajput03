@@ -12,6 +12,13 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## React suspense - uncensored
+
+Finally I think I understood how Suspense works underneath..
+https://codesandbox.io/s/uncensored-suspense-kvyr0
+
+Inspiration:https://codesandbox.io/s/frosty-hermann-bztrp
+
 ## Git
 
 Set default upstream remote branch same as local branch name in git so that when you do `git push` it won't ask you to do `git push -u origin myBranchName` each single time.
