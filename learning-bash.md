@@ -83,8 +83,14 @@ if ! [ '' ]; then echo its falsy value; fi
 
 ------
 
-Equality operators:
+Equality operators and && and || operator:
 
+if ((10>5 && 5>1 )); then echo cool; fi
+# output: cool
+
+if ((10>5 && 5>50 )); then echo cool; fi
+# output: --no-output bcoz one of above condition failed i.e., 5>50 .
+ 
 if (( 1 > 0 )); then echo one is greater than zero; fi
 # ouput: one is greater than zero
 
