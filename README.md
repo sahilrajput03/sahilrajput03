@@ -22,7 +22,7 @@ Inspiration:https://codesandbox.io/s/frosty-hermann-bztrp , [Docs for Suspense f
 
 **What version of react do i need to use Suspense ?**
 
-Ans: **Suspense** was first shipped in v16.6 as mentioned [here](https://reactjs.org/blog/2018/11/27/react-16-roadmap.html) and they said it is good for code splitting and it still isn't recommended to for data fetching. Though in my opinion it rocks!!
+Ans: **Suspense** was first shipped in v16.6 as mentioned [here](https://reactjs.org/blog/2018/11/27/react-16-roadmap.html) and they said it is good for code splitting and it still isn't recommended to do data fetching but IMO it works fantastic. The basic idea behind thid methodology is to keep the fetching of data outside the component on initial load!! It simply rocks in my opinion!!
 
 ## Git
 
