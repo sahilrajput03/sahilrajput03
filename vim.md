@@ -9,7 +9,7 @@ vi' #For inside single quotes
 vi" #For inside double quotes
 vi( or vib #For inside parentheses
 vi{ or viB #For inside curly brackets
-vit #For inside html tags.
+vit #For inside html tags. WOW IT WOKRS WITH HTML TAGS WELL!!!
 
 va' #For around single quotes
 va" #For around double quotes
