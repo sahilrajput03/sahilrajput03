@@ -12,7 +12,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
-## React suspense - uncensored
+## React Suspense - uncensored
 
 Finally I think I understood how Suspense works underneath: https://codesandbox.io/s/uncensored-suspense-kvyr0
 
