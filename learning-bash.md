@@ -4,6 +4,18 @@
 
 [Source](https://tldp.org/LDP/abs/html/localvar.html)
 
+## Get path of the script file that we are executing
+
+```
+MY_PATH=$(dirname "$0")
+echo "$MY_PATH"
+```
+[source](https://stackoverflow.com/a/630387/10012446) and it worked in my pomodoro script to be run from anywhere using an alias like below in `~/.bashrc` file:
+
+```
+alias pomodoro='/home/array/scripts-in-use/pomodoro/pomodoro.sh'
+```
+
 ## While loop
 
 ```bash
