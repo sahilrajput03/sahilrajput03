@@ -23,6 +23,7 @@ setTimeout(print, 2000, 'Carl', 'Sahil', 'Mennu', 'Prabhat')
 // after 2 seconds it logs like, console.log('Carl', 'Sahil', 'Mennu', 'Prabhat') and thats really amazing!
 ```
 
+[Source](https://www.w3schools.com/jsref/met_win_settimeout.asp)
 
 ## Promise more ..
 
