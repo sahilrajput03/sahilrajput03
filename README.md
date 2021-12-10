@@ -15,9 +15,7 @@ Find me on terminal via `npx sahilrajput03` command.
 ## setTimeout's third and more argument
 
 ```
-let print = (...args) => {
-    console.log(...args)
-}
+let print = (...args) => console.log(...args)
 
 setTimeout(print, 2000, 'Carl', 'Sahil', 'Mennu', 'Prabhat')
 // after 2 seconds it logs like, console.log('Carl', 'Sahil', 'Mennu', 'Prabhat') and thats really amazing!
