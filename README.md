@@ -12,11 +12,25 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
-## Amazing conversation for `-` and no `-` in yaml
+## Yaml curiosity ?
 
-[yaml.org](https://yaml.org/)
+[yaml.org](https://yaml.org/) - Yaml official site.
 
-[Ref 1-amaz](https://www.reddit.com/r/ansible/comments/5jhff3/when_to_use_dash_in_yaml/?utm_source=amp&utm_medium=&utm_content=post_body), [Ref 2](https://community.home-assistant.io/t/when-to-use-in-yaml-files/62790)
+Q. What is the need of `-` when we can have something like 
+
+```yaml
+YAML on GitHub:                        # github.com/yaml/
+    YAML Specs:        yaml-spec/
+    YAML 1.2 Grammar:  yaml-grammar/
+    YAML Test Suite:   yaml-test-suite/
+    YAML Issues:       issues/
+```
+
+and we can do nest multiple items under a particular property (if we talk about nesting in terms of entities) ?
+
+**Ans.** Its designed to **pass values** whereas other entities with `:` are **key-value pairs**. A `-` in yaml means start of a list though so we can pass multiple values via this list too.
+
+[Ref 1-amaz](https://www.reddit.com/r/ansible/comments/5jhff3/when_to_use_dash_in_yaml/?utm_source=amp&utm_medium=&utm_content=post_body), [Ref 2-seems amazing too](https://community.home-assistant.io/t/when-to-use-in-yaml-files/62790)
 
 From Ref 1's:
 
