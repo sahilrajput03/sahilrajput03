@@ -14,11 +14,13 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Testing side by side:
 
-```
+```js
 require("colors");
 
 console.assert(user.userName, "Username is not found..".red);// only prints the log in red when username is a falsy value.
 console.assert(user.age, "Password not found..".red); // only prints the log in red when age is a falsy value.
+
+//FYI: Above works in node and browser both. console.assert is just a wrapper over console.error on a false condition and for true it does nothing as like test is passed!
 ```
 
 ## So amazing, markdown -> html in milliseconds with marked!
