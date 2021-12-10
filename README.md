@@ -14,6 +14,8 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Promise more ..
 
+[Source - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve)
+
 ```js
 let a = new Promise(res => res(10))
 console.log(a instanceof Promise) // thats how you type check a promise in runtime.
