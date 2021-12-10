@@ -97,7 +97,7 @@ console.assert(user.age, "Password not found..".red); // only prints the log in 
 //FYI: Above works in node and browser both. console.assert is just a wrapper over console.error on a false condition and for true it does nothing as like test is passed!
 ```
 
-## So amazing, markdown -> html in milliseconds with marked!
+## markdown to html conversion in milliseconds with marked! Works so great!!
 
 ```
 npm i marked
