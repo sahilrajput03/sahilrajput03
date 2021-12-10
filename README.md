@@ -12,6 +12,14 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## Promise more ..
+
+```
+let a = new Promise(res => res(10))
+console.log(a instanceof Promise) // thats how you type check a promise in runtime.
+// true
+```
+
 ## React Suspense - uncensored
 
 [Click here](https://github.com/sahilrajput03/react_suspense_for_data_fetching)
