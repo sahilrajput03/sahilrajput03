@@ -33,6 +33,11 @@ stringPromise instanceof Promise
 
 typeof stringPromise === 'object'
 // true
+
+// simple error handling in promises
+let b = new Promise(res => {throw 'kaboom'}, err => err)
+b.then(v => console.log('resolved => ', v), e => console.log('oops', e))
+// VM1385:1 oops kaboom
 ```
 
 ## React Suspense - uncensored
