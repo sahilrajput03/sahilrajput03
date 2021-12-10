@@ -12,6 +12,15 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## Testing side by side:
+
+```
+require("colors");
+
+console.assert(user.userName, "Username is not found..".red);// only prints the log in red when username is a falsy value.
+console.assert(user.age, "Password not found..".red); // only prints the log in red when age is a falsy value.
+```
+
 ## So amazing, markdown -> html in milliseconds with marked!
 
 ```
