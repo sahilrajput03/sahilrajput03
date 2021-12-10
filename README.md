@@ -12,11 +12,11 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
-## frontmatter ?
+## Frontmatter ?
 
-**And.** Its reffered to **yaml code in the start of blog post file**. Popularized by jekyll in first. Read about [front matter at jekyll](https://jekyllrb.com/docs/front-matter/).
+**And.** Its reffered to **yaml code in the start of blog post file**. Popularized by jekyll in first. Read about [Front matter at Jekyll](https://jekyllrb.com/docs/front-matter/).
 
-For converting yaml to js object you can use [`front-matter`](https://github.com/jxson/front-matter) package from npm.and thats awesome. Atleast ryan florence uses this in his remix's quick start guide. So it must be good! 💯
+For converting yaml to js object you can use [`front-matter`](https://github.com/jxson/front-matter) package from npm and thats awesome. Atleast _Ryan Florence_ uses this in his remix's quick start guide. So it must be good! 💯
 
 Why use `front-matter` package which is not much popular and simply use some other yaml to js-object/json converter package from npm ?
 
