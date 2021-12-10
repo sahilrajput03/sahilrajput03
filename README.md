@@ -12,6 +12,65 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## Amazing conversation for `-` and no `-` in yaml
+
+[yaml.org](https://yaml.org/)
+
+[Ref 1-amaz](https://www.reddit.com/r/ansible/comments/5jhff3/when_to_use_dash_in_yaml/?utm_source=amp&utm_medium=&utm_content=post_body), [Ref 2](https://community.home-assistant.io/t/when-to-use-in-yaml-files/62790)
+
+From Ref 1's:
+
+```txt
+It may help to convert to JSON.
+
+Hyphens indicate list items. Lists can contain:
+
+1. simple values like strings:
+
+YAML e.g.1
+
+- "string1"
+- "string2"
+
+In JSON:
+
+["string1", "string2"]
+They can also contain sets of key-value pairs:
+
+YAML e.g.2
+
+- item1key1: "string1"
+  item1key2: "string2"
+- item2key1: "string3"
+  item2key2: "string4"
+
+In JSON:
+
+[{
+  item1key1: "string1",
+  item1key2: "string2"
+},{
+  item2key1: "string3",
+  item2key2: "string4"
+}]
+That's what tasks is. Each hyphen starts a new list item (a task), and each list item may have multiple key-value pairs (properties of the task).
+```
+
+and another reddit comment about the formatting in the yaml file that helps in readability:
+
+```
+Good explanation. I think also what is confusing him is that the list is lumped up in one 'paragraph'. For readability, I would format the above code as:
+
+tasks:
+    - name: date/time stamp
+      command: /usr/bin/date
+      register: timestamp_start
+
+    - debug: var=timestamp_start
+
+    - name: another task
+```
+
 ## Testing side by side everywhere you write code:
 
 ```js
