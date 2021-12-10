@@ -12,7 +12,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
-## Testing side by side:
+## Testing side by side everywhere you write code:
 
 ```js
 require("colors");
