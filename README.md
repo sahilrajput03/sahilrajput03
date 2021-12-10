@@ -12,6 +12,10 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## frontmatter ?
+
+And. Its reffered to yaml code in the start of blog post file. Popularized by jekyll in first. Read about [front matter at jekyll](https://jekyllrb.com/docs/front-matter/).
+
 ## Yaml curiosity ?
 
 [yaml.org](https://yaml.org/) - Yaml official site.
