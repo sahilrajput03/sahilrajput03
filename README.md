@@ -14,9 +14,24 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Promise more ..
 
-```
+```js
 let a = new Promise(res => res(10))
 console.log(a instanceof Promise) // thats how you type check a promise in runtime.
+// true
+
+
+let str = 'carl'
+
+typeof str
+// 'string'
+
+stringPromise = Promise.resolve(str)
+// Promise {<fulfilled>: 'carl'}
+
+stringPromise instanceof Promise
+// true
+
+typeof stringPromise === 'object'
 // true
 ```
 
