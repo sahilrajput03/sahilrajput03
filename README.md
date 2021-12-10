@@ -44,7 +44,7 @@ stringPromise = Promise.resolve(str)
 stringPromise instanceof Promise
 // true
 
-typeof stringPromise === 'object'
+typeof stringPromise === 'object' // thats how you type check a promise in runtime.
 // true
 
 // simple error handling in promises
