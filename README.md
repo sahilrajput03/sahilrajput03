@@ -12,6 +12,19 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## So amazing, markdown -> html in milliseconds with marked!
+
+```
+npm i marked
+```
+
+@npm: https://www.npmjs.com/package/marked
+
+Also this live markdown parser in the browser @ https://marked.js.org/demo/ is so awesome(mentioned in the docs of `marked` package)!
+
+[Source (first seen @remix's Quick start guide!)](https://remix.run/docs/en/v1/tutorials/blog)
+
+
 ## setTimeout's third and more argument
 
 ```
