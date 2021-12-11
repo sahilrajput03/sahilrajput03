@@ -12,7 +12,9 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
-## promise based apis of `fs` in node..
+## Promise based apis of `fs` in Node.js..
+
+Source, firt seen in remix's code by Ryan Florence [here](https://remix.run/docs/en/v1/tutorials/blog).
 
 Look [here for docs](https://nodejs.org/api/fs.html#promise-example).
 
