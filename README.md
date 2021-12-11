@@ -18,7 +18,8 @@ Look [here for docs](https://nodejs.org/api/fs.html#promise-example).
 
 i.e., 
 
-```import { unlink, readFile } from 'fs/promises';
+```js
+import { unlink, readFile } from 'fs/promises';
 
 try {
   await unlink('/tmp/hello'); // unlink is used to delte a file.
