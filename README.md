@@ -12,6 +12,26 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## promise based apis of `fs` in node..
+
+Look [here for docs](https://nodejs.org/api/fs.html#promise-example).
+
+i.e., 
+
+```import { unlink, readFile } from 'fs/promises';
+
+try {
+  await unlink('/tmp/hello'); // unlink is used to delte a file.
+  console.log('successfully deleted /tmp/hello');
+} catch (error) {
+  console.error('there was an error:', error.message);
+}
+
+// ~sahill: for reading file
+const file = await readFile(filepath);
+
+```
+
 ## Frontmatter ?
 
 **And.** Its reffered to **yaml code in the start of blog post file**. Popularized by jekyll in first. Read about [Front matter at Jekyll](https://jekyllrb.com/docs/front-matter/).
