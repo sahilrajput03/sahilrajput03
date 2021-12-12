@@ -3,8 +3,11 @@
 ## Paste line data after a character ?
 
 So the key thing is that you need to copy the line as characterwise instead of linewise( i.e., use 0y$ instead of yy to yank a line or set of lines). And now you can use your old p and P to paste after or before the current character to paste the line/lines you yanked earlier.
-```
-@Kitcha -- Read more about linewise and characterwise copying. You can copy a line the way you want if you yank it in a characterwise manner, e.g., 0y$ rather than the linewise yy. p or P will paste into current line or different line depending on whether yank was characterwise (pastes into current line) or linewise (pastes into line above or below). 
+
+```txt
+@Kitcha -- Read more about linewise and characterwise copying. You can copy a line the way you want if you yank it in a
+characterwise manner, e.g., 0y$ rather than the linewise yy. p or P will paste into current line or different line 
+depending on whether yank was characterwise (pastes into current line) or linewise (pastes into line above or below). 
 ```
 
 Source -> [2nd comment of this answer](https://stackoverflow.com/a/9383985/10012446).
