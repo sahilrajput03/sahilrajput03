@@ -1,5 +1,11 @@
 # arch-notes
 
+## Installed pip on arch
+
+`sudo pacman -S python-pip`
+
+[Source](https://linuxhint.com/install_pip_archlinux/)
+
 ## Mounting my kindle on linux
 
 ```
