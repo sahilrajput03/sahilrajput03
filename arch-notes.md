@@ -70,6 +70,10 @@ sudo pacman -U nvm-*******-any.pkg.tar.zst
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 ```
 
+#### Insall yarn my arch setup
+
+`npm i -g yarn`
+
 ## Linux fun:
 
 ```bash
