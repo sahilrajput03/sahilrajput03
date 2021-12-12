@@ -12,6 +12,13 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## Interesting way to join classes in jsx
+
+```jsx
+
+<MyComp className={['carl', 'barl', 'amaz'].join()}></MyComp>
+```
+
 ## Promise based apis of `fs` in Node.js..
 
 Source, firt seen in remix's code by Ryan Florence [here](https://remix.run/docs/en/v1/tutorials/blog).
