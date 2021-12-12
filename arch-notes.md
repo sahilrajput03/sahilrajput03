@@ -1,5 +1,17 @@
 # arch-notes
 
+## Creaing symlink of a folder to desicred folder
+
+```bash
+ln -s file/folder .
+# ^^ creates link of file/folder to current directory with same name.
+
+unlink file/folder
+# ^^ this will remove the symlink that you created earlier.
+```
+
+[Source](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/)
+
 ## Fix authentication for github co-pilot in archos
 
 Simply install keyring: `sudo pacman -S gnome-keyring`
