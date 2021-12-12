@@ -8,7 +8,7 @@
 
 Installed jupyter notebooks with pip: `pip install notebook`, [Source](https://jupyter.org/install).
 
-* **Also if you can't access** `jupyter` cli binary from terminal make sure you add `export PATH=$PATH:~/.local/bin` to your `~/.bashrc` file.
+***Also if you can't access* `jupyter` cli binary from terminal make sure you add `export PATH=$PATH:~/.local/bin` to your `~/.bashrc` file.**
 
 [Source](https://hub.gke2.mybinder.org/user/ipython-ipython-in-depth-7y35qkm4/notebooks/binder/Index.ipynb)
 
