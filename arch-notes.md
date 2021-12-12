@@ -1,5 +1,12 @@
 # arch-notes
 
+## Fix authentication for github co-pilot in archos
+
+Simply install keyring: `sudo pacman -S gnome-keyring`
+^^ this was required to make the auth with github copilot when the login with browesr happens for auth of github account.
+
+Source: [parent](https://code.visualstudio.com/docs/editor/settings-sync#_troubleshooting-keychain-issues) => [child](https://github.com/microsoft/vscode/issues/92972#issuecomment-625751232).
+
 ## Installed pip on arch
 
 `sudo pacman -S python-pip`
