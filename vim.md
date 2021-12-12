@@ -1,5 +1,11 @@
 # Vim
 
+## copy line's data without visual seletion at all
+
+Use `0y$` to select entire line characterwise (yy copies line in linewise mode).
+
+Tip: For partial line selection: Put cursor anywhere in between line and use `y$` or `y0` to copy current character to end character of the line or first character of the line to the current character.
+
 ## Paste line data after a character ?
 
 So the key thing is that you need to copy the line as characterwise instead of linewise( i.e., use 0y$ instead of yy to yank a line or set of lines). And now you can use your old p and P to paste after or before the current character to paste the line/lines you yanked earlier.
