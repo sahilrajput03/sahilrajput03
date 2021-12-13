@@ -1,5 +1,12 @@
 # arch-notes
 
+## Intalled telegram-desktop
+
+```
+sudo pacman -Syu
+sudo pacman -S telegram-desktop
+```
+
 ## Creaing symlink of a folder to desicred folder
 
 ```bash
