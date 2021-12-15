@@ -42,15 +42,31 @@ $ while true; do dig jujn.ml; sleep 1; clear; done
 ```
 
 ```bash
-$ ((0)) && echo truthy value
+((0)) && echo truthy value
 # Ouput: nothing...
 
-$ ((1)) && echo truthy value
+((1)) && echo truthy value
 # Ouput: truthy value
 
 # Doing simple maths in bash:
 echo $((5-2))
 # Ouput: 3
+
+
+
+
+[[ true ]] && echo It is truthy value.
+# Output: It is truthy value.
+
+[[ false ]] && echo It is truthy value.
+# Output*: It is truthy value.
+
+
+
+[[ false = true ]] || echo Condition did not pass.
+# Output: Condition did not pass.
+
+
 
 if [ -f nodemon.json ]; then echo Yes it is a file; fi
 # output; Yes it is a file
