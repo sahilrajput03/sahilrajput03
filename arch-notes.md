@@ -1,5 +1,13 @@
 # arch-notes
 
+## Installed qbittorrent
+
+```
+sudo pacman -S qbittorrent
+```
+
+[Src](https://archlinux.org/packages/community/x86_64/qbittorrent/)
+
 ## Intalled telegram-desktop
 
 ```
