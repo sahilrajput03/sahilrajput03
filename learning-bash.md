@@ -163,6 +163,7 @@ a= 10
 a=$([ 4 == 5 ] && echo 11 || echo 22)   #src: https://stackoverflow.com/a/3953712/10012446
 # Now echo $a gives us: 22 bcoz the result of expression [ 4 == 5 ] is false.
 
+# Other way:
 [[ 4 = 5 ]] && a=11 || a=22            #src: https://stackoverflow.com/a/3953666/10012446
 # Now echo $a gives us: 22 bcoz the result of expression [ 4 == 5 ] is false.
 
