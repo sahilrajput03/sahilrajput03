@@ -1,5 +1,15 @@
 # Learning bash
 
+## Using multiple expressions in if/while's conditions
+
+```
+if [ $my_error_flag -eq 1 ] || [ $my_error_flag_o -eq 2 ]; then .....
+# or 
+if [ $my_error_flag -eq 1 ] && [ $my_error_flag_o -eq 2 ]; then .....
+```
+
+[Source](https://stackoverflow.com/a/16203126/10012446)
+
 ## Use grep to get only the matched patter only with `-o` flag
 
 ```
