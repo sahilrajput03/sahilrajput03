@@ -138,7 +138,7 @@ FOOTNOTES:
 Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
 
-#### fun with variables
+### Fun with variables
 
 Must checkout: https://linuxize.com/post/bash-increment-decrement-variable/
 
