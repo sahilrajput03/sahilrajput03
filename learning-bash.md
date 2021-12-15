@@ -9,10 +9,6 @@ $ echo I am Sahil | grep -o Sahil
 # Output: Sahil
 ```
 
-## Special local variabes in bash
-
-[Source](https://tldp.org/LDP/abs/html/localvar.html)
-
 ## Get path of the script file that we are executing
 
 ```
@@ -147,6 +143,20 @@ Comparining numbers in bash: https://stackoverflow.com/a/18668580
 Must checkout: https://linuxize.com/post/bash-increment-decrement-variable/
 
 ```bash
+## Special local variabes in bash : https://tldp.org/LDP/abs/html/localvar.html
+
+# Whats wrong?
+a = 10
+#Ouput: a: command not found.
+
+a =10
+#Ouput: a: command not found.
+
+a= 10
+#Ouput: a: command not found.
+
+### LEARNING: Spaces are NOT allowed when you assign values to variables.
+
 x=Sahil
 
 echo $x
