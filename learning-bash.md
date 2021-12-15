@@ -1,5 +1,14 @@
 # Learning bash
 
+## Use grep to get only the matched patter only with `-o` flag
+
+```
+$ echo I am Sahil | grep Sahil
+Output: I am Sahil
+$ echo I am Sahil | grep -o Sahil
+# Output: Sahil
+```
+
 ## Special local variabes in bash
 
 [Source](https://tldp.org/LDP/abs/html/localvar.html)
