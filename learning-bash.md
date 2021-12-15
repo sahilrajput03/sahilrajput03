@@ -4,7 +4,7 @@
 
 ```
 $ echo I am Sahil | grep Sahil
-Output: I am Sahil
+# Output: I am Sahil
 $ echo I am Sahil | grep -o Sahil
 # Output: Sahil
 ```
