@@ -155,8 +155,13 @@ a =10
 a= 10
 #Ouput: a: command not found.
 
+a=10
+#Ouput: <variable assignment succeed without any ouput>
 ### LEARNING: Spaces are NOT allowed when you assign values to variables.
 
+
+# What is the pupose of (), (()), [], [[]] in bash if/while conditions ?
+# Answer: https://unix.stackexchange.com/a/306115/504112
 
 
 # Ternary Operator
