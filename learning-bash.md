@@ -157,6 +157,20 @@ a= 10
 
 ### LEARNING: Spaces are NOT allowed when you assign values to variables.
 
+
+
+# Ternary Operator
+a=$([ 4 == 5 ] && echo 11 || echo 22)   #src: https://stackoverflow.com/a/3953712/10012446
+# Now echo $a gives us: 22 bcoz the result of expression [ 4 == 5 ] is false.
+
+[[ 4 = 5 ]] && a=11 || a=22            #src: https://stackoverflow.com/a/3953666/10012446
+# Now echo $a gives us: 22 bcoz the result of expression [ 4 == 5 ] is false.
+
+
+
+
+###
+
 x=Sahil
 
 echo $x
