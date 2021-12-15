@@ -113,13 +113,11 @@ if ! (( 0 > 0 )); then echo zero is not greater than zero; fi
 # ouput: zero is not greater than zero
 
 
-# Using multiple conditions/variables in if/while loops.
+# Using multiple conditions/variables in if/while loops :: https://stackoverflow.com/a/16203126/10012446
 if [ $my_error_flag -eq 1 ] || [ $my_error_flag_o -eq 2 ]; then .....
 
 # or
 if [ $my_error_flag -eq 1 ] && [ $my_error_flag_o -eq 2 ]; then .....
-
-# Source:  https://stackoverflow.com/a/16203126/10012446
 
 
 FOOTNOTES:
