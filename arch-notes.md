@@ -1,5 +1,11 @@
 # arch-notes
 
+## Installed gui interface for postgres i.e., pgadmin4
+
+```
+sudo pacman -S pgadmin4
+```
+
 ## Installed qbittorrent
 
 ```
