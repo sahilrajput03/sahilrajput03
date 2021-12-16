@@ -4,6 +4,7 @@
 
 ```
 sudo pacman -S pgadmin4
+# src: https://archlinux.org/packages/community/x86_64/pgadmin4/
 ```
 
 ## Installed qbittorrent
