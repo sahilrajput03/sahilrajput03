@@ -3,6 +3,7 @@
 ## Installed gui interface for postgres i.e., pgadmin4
 
 ```
+sudo pacman -Syu
 sudo pacman -S pgadmin4
 # src: https://archlinux.org/packages/community/x86_64/pgadmin4/
 ```
