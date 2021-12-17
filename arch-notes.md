@@ -1,5 +1,18 @@
 # arch-notes
 
+## Installed Watchexec ( a program watch execution on modification, written with rust!
+
+```
+sudo pacman -S watchexec
+# Usage: watchexec ./fly.sh
+```
+
+```
+# FYI: The problem with nodmeon -x "bash $@" was that it seemed to supress some message like when have a script like
+read -p "Enter your name" name #So with nodemon it does print ""Enter your name"" which get printed when you run wihtout nodemon. So watchexec rocks!
+echo $name
+```
+
 ## Installed gui interface for postgres i.e., pgadmin4
 
 ```
