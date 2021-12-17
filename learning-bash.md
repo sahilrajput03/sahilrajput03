@@ -3,8 +3,8 @@
 ## Use switch cases in bash:
 
 ```bash
-src: https://linuxize.com/post/bash-case-statement/
 #!/bin/bash
+# src: https://linuxize.com/post/bash-case-statement/
 echo "Enter 1 or 2 or something else..."
 read choice
 echo You chose $choice
