@@ -4,6 +4,9 @@
 
 ```
 sudo pacman -S postgresql
+
+#check installation via:
+postgres --version
 ```
 
 ## Installed Watchexec ( a program watch execution on modification, written with rust!
