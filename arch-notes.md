@@ -4,7 +4,7 @@
 
 ```
 sudo pacman -S watchexec
-# Usage: watchexec ./fly.sh
+# Usage: watchexec -c ./fly.sh    # -c is option for clearning screen on each run.
 ```
 
 ```
