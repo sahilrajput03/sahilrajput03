@@ -1,4 +1,4 @@
-# 🤺︎ Hi there 👋 Life is short I'm gonna die so trying what I can !
+# 🤺︎ Hi there 👋 Trying what I can !
 
 Find me on terminal via `npx sahilrajput03` command.
 
