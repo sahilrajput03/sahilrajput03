@@ -2,8 +2,9 @@
 
 Find me on terminal via `npx sahilrajput03` command.
 
-OTOH: On the other hand.
-IMHO: In my humble opinion.
+**OTOH**: On the other hand.
+
+**IMHO**: In my humble opinion.
 
 ## Other references:
 
