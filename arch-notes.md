@@ -1,5 +1,11 @@
 # arch-notes
 
+## Installed postgresql in archos
+
+```
+sudo pacman -S postgresql
+```
+
 ## Installed Watchexec ( a program watch execution on modification, written with rust!
 
 ```
