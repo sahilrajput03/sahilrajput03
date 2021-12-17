@@ -7,7 +7,7 @@ sudo pacman -S docker docker-compose
 
 sudo systemctl enable docker.service #So that docker starts on system boot.
 
-# PLEASE REBOOT THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
+# PLEASE REBOOT(reboot means reboot not just logout and login) THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
 
 # Test if docker is running GOOD via:
 sudo systemctl status docker
