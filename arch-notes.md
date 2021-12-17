@@ -7,8 +7,9 @@ sudo pacman -S watchexec
 # Usage: watchexec -c ./fly.sh    # -c is option for clearning screen on each run.
 ```
 
-```
-# FYI: The problem with nodmeon -x "bash $@" was that it seemed to supress some message like when have a script like
+FYI: The problem with `nodmeon -x "bash $@"` was that it seemed to supress some message like when have a script like:
+
+```bash
 read -p "Enter your name" name #So with nodemon it does print ""Enter your name"" which get printed when you run wihtout nodemon. So watchexec rocks!
 echo $name
 ```
