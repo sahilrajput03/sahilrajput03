@@ -5,9 +5,9 @@
 ```bash
 sudo pacman -S docker docker-compose
 
-sudo systemctl enable docker.service #So that docker starts on system boot.
+sudo systemctl enable docker.service #So that docker automatically starts on system boot.
 
-# PLEASE REBOOT(reboot means reboot not just logout and login) THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
+# PLEASE REBOOT(reboot means reboot and not just logout and login) THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
 
 # Test if docker is running GOOD via:
 sudo systemctl status docker
@@ -46,6 +46,8 @@ sudo pacman -S postgresql
 #check installation via:
 postgres --version
 ```
+
+TO SETUP your user, database and persmissions, please refer [here - amazing ready-made knowledge](postgresql.md).
 
 ## Installed Watchexec ( a program watch execution on modification, written with rust!
 
