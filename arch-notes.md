@@ -1,5 +1,11 @@
 # arch-notes
 
+## Installed docker, docker-compose in archos
+
+```bash
+sudo pacman -S docker docker-compose
+```
+
 ## Switching to different user:
 
 ```bash
