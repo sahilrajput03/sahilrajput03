@@ -1,5 +1,33 @@
 # Learning bash
 
+## Use switch cases in bash:
+
+```bash
+src: https://linuxize.com/post/bash-case-statement/
+#!/bin/bash
+echo "Enter 1 or 2 or something else..."
+read choice
+echo You chose $choice
+echo
+echo
+
+case $choice in
+
+  1)
+  echo "case 1 executed."
+    ;;
+
+  2)
+  echo "case 2 executed."
+    ;;
+
+  *)
+  # This executes if none of above mathces any choice.
+  echo "Default case executed."
+    ;;
+esac
+```
+
 ## Use grep to get only the matched patter only with `-o` flag
 
 ```
