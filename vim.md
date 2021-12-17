@@ -1,5 +1,9 @@
 # Vim
 
+## Using gg to to start of file and G to go to end of file ?? MOST CONFUSING THING RIGHT??
+
+**Simply use [[ or ]] to go to start or end of file from now onwards.**
+
 ## copy line's data without visual seletion at all
 
 Use `0y$` to select entire line characterwise (yy copies line in linewise mode).
