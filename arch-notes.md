@@ -41,10 +41,7 @@ echo $USER                        #Prints currently logged in user.
 
 ```
 sudo pacman -S postgresql
-# Install the postgresql package. It will also create a system user called postgres. src: https://wiki.archlinux.org/title/PostgreSQL
-
-#check installation via:
-postgres --version
+Please follow [here](https://github.com/sahilrajput03/learning_sql/blob/main/setup-postgres.md) to setup the configuration now.
 ```
 
 TO SETUP your user, database and persmissions, please refer [here - amazing ready-made knowledge](postgresql.md).
