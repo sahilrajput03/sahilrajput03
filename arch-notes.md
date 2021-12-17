@@ -40,10 +40,8 @@ echo $USER                        #Prints currently logged in user.
 
 ```
 sudo pacman -S postgresql
-Please follow [here](https://github.com/sahilrajput03/learning_sql/blob/main/setup-postgres.md) to setup the configuration now.
+To setup the configuration now please follow @ https://github.com/sahilrajput03/learning_sql/blob/main/setup-postgres.md)
 ```
-
-TO SETUP your user, database and persmissions, please refer [here - amazing ready-made knowledge](postgresql.md).
 
 ## Installed Watchexec ( a program watch execution on modification, written with rust!
 
