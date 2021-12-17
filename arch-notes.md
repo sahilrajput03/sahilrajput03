@@ -24,16 +24,15 @@ sudo chmod 666 /var/run/docker.sock
 
 ```bash
 src: https://wiki.archlinux.org/title/PostgreSQL
-You can switch to the PostgreSQL user by executing the following command:
 
 # If you have sudo and are in sudoers:
-$ sudo -iu postgres
+$ sudo -iu someUser
 echo $USER                        #Prints currently logged in user.
 
 
 # Otherwise using su:
 $ su
-# su -l postgres
+# su -l someUser
 echo $USER                        #Prints currently logged in user.
 ```
 
