@@ -31,7 +31,7 @@ echo $USER                        #Prints currently logged in user.
 
 
 # Otherwise using su:
-$ su
+$ su    #Enter the root's password, then you'll be logged in as root user(i.e., #)
 # su -l someUser
 echo $USER                        #Prints currently logged in user.
 ```
