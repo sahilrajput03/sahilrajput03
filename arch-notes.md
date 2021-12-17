@@ -1,5 +1,22 @@
 # arch-notes
 
+## Switching to different user:
+
+```bash
+src: https://wiki.archlinux.org/title/PostgreSQL
+You can switch to the PostgreSQL user by executing the following command:
+
+# If you have sudo and are in sudoers:
+$ sudo -iu postgres
+echo $USER                        #Prints currently logged in user.
+
+
+# Otherwise using su:
+$ su
+# su -l postgres
+echo $USER                        #Prints currently logged in user.
+```
+
 ## Installed postgresql in archos
 
 ```
