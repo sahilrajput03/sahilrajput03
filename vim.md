@@ -1,5 +1,10 @@
 # Vim
 
+## Blow tips:
+
+- Use shift+d to delete from current character to the end of line
+- use shift+c to delete from current cahracter to the end of line and enter in edit mode.
+
 ## Using gg to to start of file and G to go to end of file ?? MOST CONFUSING THING RIGHT??
 
 **Simply use [[ or ]] to go to start or end of file from now onwards.**
