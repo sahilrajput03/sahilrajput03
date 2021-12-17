@@ -4,6 +4,21 @@
 
 ```bash
 sudo pacman -S docker docker-compose
+
+sudo systemctl enable docker.service #So that docker starts on system boot.
+
+# PLEASE REBOOT THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING.
+https://stackoverflow.com/a/55911400/10012446
+
+#Test if docker is running good via:
+sudo systemctl status docker
+# or
+docker info # OR
+docker ps -aux
+
+sudo chmod 666 /var/run/docker.sock
+#    ^^^^^ This might be needed if you get some permission issue for socket i.e., ```/var/run/docker.sock```
+# src: https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket#)
 ```
 
 ## Switching to different user:
