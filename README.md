@@ -18,7 +18,7 @@ cat ouput1 # No contents.
 cat ouput2 # No contents.
 cat ouput3 # No contents.
 cat ouput4
-I am sahil
+# Output: I am sahil
 [array@arch-os filedescriptions]$ 
 ```
 
