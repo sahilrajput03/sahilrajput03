@@ -8,24 +8,33 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Learning file descriptions, stdin(0), stdoutput(1) and stderr(2) ?
 
-Eg1.
+Eg0.
 
 ```bash
-echo I am sahil > output1 > output2 > output3 > output4
-ls
-# Output: ouput1  ouput2  ouput3  ouput4
-cat output1 # No contents.
-cat output2 # No contents.
-cat output3 # No contents.
-cat output4
+echo I am sahil > ouput1
+cat output1
 # Output: I am sahil
-```
 
-Eg2.
 
-```bash
-# Save stdouput to file stdout file and stderror to stderr file in current folder.
-git commit --help > stdout >> stderr
+echo I am sahil > ouput1 > ouput2
+cat output1
+# Ouput: --no-ouput
+cat output2
+# Output: I am sahil
+
+
+echo I am sahil > output1 > output2 2> output3
+ls
+# Output: output1  output2  output3  output4
+cat output1 # No contents.
+cat output2
+# Output: I am sahil
+
+
+
+echo I am sahi 2> output1
+cat output1
+# Output: --no-output
 ```
 
 ## Pipe stderr via without forwarding standard ouput
