@@ -8,22 +8,24 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Learning file descriptions, stdin(0), stdoutput(1) and stderr(2) ?
 
-Eg0.
+Examples:
 
 ```bash
-echo I am sahil 2> output1
+#Note: We can replace > with 1> as well and it behaves exactly same.
+
+echo I am sahil 2> output1          # One file are created.
 cat output1
 # Output: --no-output
 
 
 
-echo I am sahil > output1
+echo I am sahil > output1             #  One file are created.
 cat output1
 # Output: I am sahil
 
 
 
-echo I am sahil > ouput1 > ouput2
+echo I am sahil > ouput1 > ouput2     # Two files are created.
 cat output1
 # Ouput: --no-ouput
 cat output2
@@ -32,7 +34,7 @@ cat output2
 
 
 
-echo I am sahil > output1 > output2 2> output3
+echo I am sahil > output1 > output2 2> output3      # Three files are created.
 ls
 # Output: output1  output2  output3
 cat output1 # No contents.
@@ -43,14 +45,13 @@ cat output3 # No contents.
 
 
 
-echo I am sahil 2> output1 > output2 > output3
+echo I am sahil 2> output1 > output2 > output3        # Three files are created.
 ls
 # Output: output1  output2  output3
 cat output1 # No contents.
 cat output2 # No contents.
 cat output3
 # Output: I am sahil
-
 ```
 
 ## Pipe stderr via without forwarding standard ouput
