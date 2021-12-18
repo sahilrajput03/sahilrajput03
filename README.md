@@ -11,7 +11,7 @@ Find me on terminal via `npx sahilrajput03` command.
 ```
 command 2>&1 >/dev/null | grep 'something'
 
-# A more verbose manner to do that as stated in first comment of the source: https://stackoverflow.com/a/2342841/10012446
+# A more verbose manner to do that as stated in first comment of the SO's answer @ https://stackoverflow.com/a/2342841/10012446
 command 2> /dev/stdout 1> /dev/null | grep 'something'
 ```
 
