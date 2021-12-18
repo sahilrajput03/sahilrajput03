@@ -1,5 +1,14 @@
 # arch-notes
 
+## groups
+
+The groups command tells you which groups a user is a member of.
+
+```bash
+groups dave
+groups mary
+```
+
 ## Terminal - seaching previous commands ?
 
 `ctrl+r` - Activate search mode
