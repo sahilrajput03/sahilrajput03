@@ -6,6 +6,17 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **IMHO**: In my humble opinion.
 
+## Other references:
+
+- **Arch-notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
+
+- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
+
+- **vim-notes:** [Click here](vim.md)
+
+- **Enlightment:** [Cick here](enlightenment.md)
+
+
 ## Learning file descriptions, stdin(0), stdoutput(1) and stderr(2) ?
 
 
@@ -107,15 +118,6 @@ echo node_modules >> .gitignore
 git add . && git commit -m 'My new commit without node_modules.'
 ```
 
-## Other references:
-
-- **Arch-notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
-
-- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
-
-- **vim-notes:** [Click here](vim.md)
-
-- **Enlightment:** [Cick here](enlightenment.md)
 
 ## Interesting way to join classes in jsx
 
