@@ -6,7 +6,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **IMHO**: In my humble opinion.
 
-## Pipe stderr via pipe without forwarding standard ouput
+## Pipe stderr via without forwarding standard ouput
 
 ```
 command 2>&1 >/dev/null | grep 'something'
