@@ -1,5 +1,13 @@
 # arch-notes
 
+## Pro in ls
+
+```
+ls -R -I node_modules* -I debug* -I build* -I deps*
+
+# Prints everything recursively (-R) and ignored patters like node_modules, build, deps. Yikes!!
+```
+
 ## head and tail
 
 ```bash
