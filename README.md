@@ -14,9 +14,9 @@ Eg1.
 echo I am sahil > ouput1 > ouput2 > ouput3 > ouput4
 ls
 ouput1  ouput2  ouput3  ouput4
-cat ouput1
-cat ouput2
-cat ouput3
+cat ouput1 # No contents.
+cat ouput2 # No contents.
+cat ouput3 # No contents.
 cat ouput4
 I am sahil
 [array@arch-os filedescriptions]$ 
