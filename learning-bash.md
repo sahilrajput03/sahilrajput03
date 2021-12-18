@@ -1,5 +1,36 @@
 # Learning bash
 
+```bash
+# Lucky things:
+
+echo "Today is $(date)"     #executes the date command and it prints the whole sentence, it works like template literal in javascript.
+
+cat words
+# Ouput:
+car
+bar
+mat
+pat
+zat
+air
+
+sort words # or sort < words
+# Output:
+air
+bar
+car
+mat
+pat
+zat
+
+cat words2 
+car bar mat pat zat air
+
+sort words2 # or sort < words2
+# Output:
+car bar mat pat zat air   #LOL: this isn't sorted.
+
+```
 ## Use switch cases in bash:
 
 ```bash
