@@ -1,5 +1,12 @@
 # arch-notes
 
+## head and tail
+
+```bash
+head -n 5 someFile #prints first 5 lines of file.
+tail -n 5 someFile #prints last 5 lines of file.
+```
+
 ## groups
 
 The groups command tells you which groups a user is a member of.
