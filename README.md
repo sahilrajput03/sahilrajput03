@@ -6,7 +6,23 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **IMHO**: In my humble opinion.
 
-## Learning stdin, stdoutput and stderr ?
+## Learning file descriptions, stdin(0), stdoutput(1) and stderr(2) ?
+
+Eg1.
+
+```bash
+echo I am sahil > ouput1 > ouput2 > ouput3 > ouput4
+ls
+ouput1  ouput2  ouput3  ouput4
+cat ouput1
+cat ouput2
+cat ouput3
+cat ouput4
+I am sahil
+[array@arch-os filedescriptions]$ 
+```
+
+Eg2.
 
 ```bash
 # Save stdouput to file stdout file and stderror to stderr file in current folder.
