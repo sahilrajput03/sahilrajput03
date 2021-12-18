@@ -11,13 +11,13 @@ Find me on terminal via `npx sahilrajput03` command.
 Eg1.
 
 ```bash
-echo I am sahil > ouput1 > ouput2 > ouput3 > ouput4
+echo I am sahil > output1 > output2 > output3 > output4
 ls
 # Output: ouput1  ouput2  ouput3  ouput4
-cat ouput1 # No contents.
-cat ouput2 # No contents.
-cat ouput3 # No contents.
-cat ouput4
+cat output1 # No contents.
+cat output2 # No contents.
+cat output3 # No contents.
+cat output4
 # Output: I am sahil
 ```
 
