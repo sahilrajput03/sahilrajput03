@@ -10,6 +10,17 @@ Find me on terminal via `npx sahilrajput03` command.
 
 The solution is recommended when you can manage to put all the commits after the node_modules added to the repository to be squashed to a single commit because its a very _naive_ solution of my own to remove `node_modules` from the git history.
 
+**Another way I found much easier to remove node_modules is via:**
+
+```bash
+# You can literally copy paste below commands to fix the shit.
+git rm --cached -r .                          # Reset the tracking area.
+echo node_modules >> .gitignore
+git add . && git commit --amend --no-edit      # Amend last commit as it is(but with node_modules ``git ignored``)!
+```
+
+Another way to do that in a long manner is:
+
 ```bash
 git branch temp                   # Make a backup branch of current branch's status.
 git reset --hard HEAD             # Get to the last/desired commit where you didn't have node_modules.
@@ -17,14 +28,6 @@ git merge --no-ff temp            # Merge without making a commit.
 git rm --cached -r .              # Now remove everything(_node_modules_) coz ```git merge --no-ff``` re-added everything to the the staging area.
 echo node_modules >> .gitignore
 git add . && git commit -m 'My new commit without node_modules.'
-```
-
-Another way I found much easier to remove node_modules is via:
-
-```bash
-git rm --cached -r .                          # Reset the tracking area.
-echo node_mocules >> .gitignore
-git add . && git commit --amend --no-edit      # Amend last commit as it is!
 ```
 
 ## Other references:
