@@ -75,14 +75,14 @@ cat output3
 Example 2:
 
 ```bash
-wc doesntexist.txt > output					Output: ```cat ouput``` prints nothing.
-wc doesntexist.txt 2> output					Output: ```cat ouput``` prints ```wc: does: No such file or directory```
+wc doesntexist.txt > output					          Output: ```cat ouput``` prints nothing.
+wc doesntexist.txt 2> output					        Output: ```cat ouput``` prints ```wc: does: No such file or directory```
 
 wc doesntexist.txt > /dev/null | grep "" 			Ouput: grep prints the error i.e., stderr is passed via pipe to grep.
-wc doesntexist.txt 2> /dev/null | grep "" 			Ouput: grep DOESN'T prints the error i.e., stderr is passed to /dev/null and not passed via pipe to grep.
+wc doesntexist.txt 2> /dev/null | grep "" 		Ouput: grep DOESN'T prints the error i.e., stderr is passed to /dev/null and not passed via pipe to grep.
 
-wc doesntexist 2> /dev/stdout | grep ""			Output: grep prints the error, i.e., stderr is passed to stdout then stdout is passed via pipe to grep.
-wc doesntexist 2> /dev/stderr | grep ""			Output: grep prints the error, i.e., we redirect stderr to stderr then stderr is passed via pipe to grep.
+wc doesntexist 2> /dev/stdout | grep ""			  Output: grep prints the error, i.e., stderr is passed to stdout then stdout is passed via pipe to grep.
+wc doesntexist 2> /dev/stderr | grep ""			  Output: grep prints the error, i.e., we redirect stderr to stderr then stderr is passed via pipe to grep.
 ```
 
 ## Pipe stderr via without forwarding standard ouput
