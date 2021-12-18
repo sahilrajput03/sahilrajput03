@@ -4,7 +4,7 @@
 
 ```bash
 sudo passwd       #Changes password of current user.
-sudo passwd mary  #Changes password of different user.
+sudo passwd mary  #Changes password of different user, the reason you can change any other user's password is bcoz you are in sudoer group else you can't.
 ```
 
 ## Recursiveness in ls or tree
