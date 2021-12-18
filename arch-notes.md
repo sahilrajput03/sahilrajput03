@@ -1,5 +1,7 @@
 # arch-notes
 
+read lots of below from: https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
+
 ## Print processes of particular user
 
 ```bash
