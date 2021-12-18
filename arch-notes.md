@@ -1,11 +1,13 @@
 # arch-notes
 
-## Pro in ls
+## Recursiveness in ls or tree
 
 ```
 ls -R -I node_modules* -I debug* -I build* -I deps*
-
 # Prints everything recursively (-R) and ignored patters like node_modules, build, deps. Yikes!!
+
+tree -I 'arch_os|target|rustlings|target|node_modules'
+# PRints everything recursively, src: https://unix.stackexchange.com/a/47806/504112
 ```
 
 ## head and tail
