@@ -13,13 +13,13 @@ Examples:
 ```bash
 #Note: We can replace > with 1> as well and it behaves exactly same.
 
-echo I am sahil 2> output1          # One file are created.
+echo I am sahil 2> output1          # One file is created.
 cat output1
 # Output: --no-output
 
 
 
-echo I am sahil > output1             #  One file are created.
+echo I am sahil > output1             #  One file is created.
 cat output1
 # Output: I am sahil
 
