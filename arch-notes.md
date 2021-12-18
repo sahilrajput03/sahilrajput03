@@ -1,5 +1,12 @@
 # arch-notes
 
+## Print processes of particular user
+
+```bash
+ps -u array
+ps -u root
+```
+
 ## Change password of a user:
 
 ```bash
