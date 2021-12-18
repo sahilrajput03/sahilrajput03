@@ -83,6 +83,8 @@ wc doesntexist.txt 2> /dev/null | grep ""     # Ouput: grep DOESN'T prints the e
 
 wc doesntexist 2> /dev/stdout | grep ""       # Output: grep prints the error, i.e., stderr is passed to stdout then stdout is passed via pipe to grep.
 wc doesntexist 2> /dev/stderr | grep ""       # Output: grep prints the error, i.e., we redirect stderr to stderr then stderr is passed via pipe to grep.
+
+# LEARNING: Both stdout and stderr are passed via pipe and grep gets both of those.
 ```
 
 ## Pipe stderr via without forwarding standard ouput
