@@ -1,5 +1,12 @@
 # arch-notes
 
+## Change password of a user:
+
+```bash
+sudo passwd       #Changes password of current user.
+sudo passwd mary  #Changes password of different user.
+```
+
 ## Recursiveness in ls or tree
 
 ```
