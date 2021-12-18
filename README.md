@@ -6,6 +6,13 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **IMHO**: In my humble opinion.
 
+## Learning stdin, stdoutput and stderr ?
+
+```bash
+# Save stdouput to file stdout file and stderror to stderr file in current folder.
+git commit --help > stdout >> stderr
+```
+
 ## Pipe stderr via without forwarding standard ouput
 
 ```
