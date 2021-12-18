@@ -1,5 +1,11 @@
 # arch-notes
 
+## Terminal - seaching previous commands ?
+
+`ctrl+r` - Activate search mode
+
+`ctrl+g` - Exit search mode.
+
 ## Installed docker, docker-compose in archos
 
 ```bash
