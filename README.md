@@ -6,6 +6,17 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **IMHO**: In my humble opinion.
 
+## Pipe stderr via pipe without forwarding standard ouput
+
+```
+command 2>&1 >/dev/null | grep 'something'
+
+# A more verbose manner to do that as stated in first command is:
+command 2> /dev/stdout 1> /dev/null | grep 'something'
+```
+
+[Source](https://stackoverflow.com/a/2342841/10012446)
+
 ## Commited _node_modules_ to your repository along with the **some new and modified files** accidentally ?
 
 The solution is recommended when you can manage to put all the commits after the node_modules added to the repository to be squashed to a single commit because its a very _naive_ solution of my own to remove `node_modules` from the git history.
