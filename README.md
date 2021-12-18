@@ -6,7 +6,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **IMHO**: In my humble opinion.
 
-## Commited node_modules to your repository along with the **some new and modified files** accidentally ?
+## Commited _node_modules_ to your repository along with the **some new and modified files** accidentally ?
 
 The solution is recommended when you can manage to put all the commits after the node_modules added to the repository to be squashed to a single commit because its a very _naive_ solution of my own to remove `node_modules` from the git history.
 
