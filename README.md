@@ -11,9 +11,16 @@ Find me on terminal via `npx sahilrajput03` command.
 Eg0.
 
 ```bash
+echo I am sahil 2> output1
+cat output1
+# Output: --no-output
+
+
+
 echo I am sahil > output1
 cat output1
 # Output: I am sahil
+
 
 
 echo I am sahil > ouput1 > ouput2
@@ -23,18 +30,27 @@ cat output2
 # Output: I am sahil
 
 
+
+
 echo I am sahil > output1 > output2 2> output3
 ls
-# Output: output1  output2  output3  output4
+# Output: output1  output2  output3
 cat output1 # No contents.
 cat output2
 # Output: I am sahil
+cat output3 # No contents.
 
 
 
-echo I am sahi 2> output1
-cat output1
-# Output: --no-output
+
+echo I am sahil 2> output1 > output2 > output3
+ls
+# Output: output1  output2  output3
+cat output1 # No contents.
+cat output2 # No contents.
+cat output3
+# Output: I am sahil
+
 ```
 
 ## Pipe stderr via without forwarding standard ouput
