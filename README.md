@@ -11,7 +11,7 @@ Find me on terminal via `npx sahilrajput03` command.
 Eg0.
 
 ```bash
-echo I am sahil > ouput1
+echo I am sahil > output1
 cat output1
 # Output: I am sahil
 
