@@ -250,9 +250,9 @@ echo $x yz
 echo ${x}yz       #Concatenation variables with other string or variable.
 # Ouput: Sahilyz     [Cool enough. Isn't it ?]
 
-var=012345
+var=01234
 echo ${var:3}
-# Output: 345    #I.e., from index 3(including) to the end.
+# Output: 34    #I.e., from index 3(including) to the end.
 
 var=01234
 echo ${var:0:4}
