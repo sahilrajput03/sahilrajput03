@@ -250,6 +250,26 @@ echo $x yz
 echo ${x}yz       #Concatenation variables with other string or variable.
 # Ouput: Sahilyz     [Cool enough. Isn't it ?]
 
+var=012345
+echo ${var:3}
+# Output: 345    #I.e., from index 3(including) to the end.
+
+var=01234
+echo ${var:0:4}
+0123
+
+echo ${var:1:4}
+1234
+
+echo ${var:2:4}
+234
+
+echo ${var:3:4}
+34
+
+echo ${var:4:4}
+4
+
 
 # tldr; using ', " and \ works good to define a string with a space.
 fullName=sahil\ kolkata; echo $fullName
