@@ -13,7 +13,7 @@ Eg1.
 ```bash
 echo I am sahil > ouput1 > ouput2 > ouput3 > ouput4
 ls
-ouput1  ouput2  ouput3  ouput4
+# Output: ouput1  ouput2  ouput3  ouput4
 cat ouput1 # No contents.
 cat ouput2 # No contents.
 cat ouput3 # No contents.
