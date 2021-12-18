@@ -8,6 +8,13 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Learning file descriptions, stdin(0), stdoutput(1) and stderr(2) ?
 
+
+| File Descriptor | Abbreviation	  | Description     |
+| -               | -               |     -           |
+| 0               |	STDIN	          | Standard Input  |
+| 1	              | STDOUT	        | Standard Output |
+| 2	              | STDERR	        | Standard Error  |
+
 Example 1:
 
 ```bash
