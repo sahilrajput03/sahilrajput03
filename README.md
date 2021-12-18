@@ -93,6 +93,8 @@ command 2>&1 >/dev/null | grep 'something'
 # A more verbose manner to do that as stated in first comment of the SO's answer @ https://stackoverflow.com/a/2342841/10012446
 command 2> /dev/stdout 1> /dev/null | grep 'something'
 ```
+So, How to redirect STDERR to STDOUT in Linux ??
+Answer: The command to do that is `2>&1`. [Source](https://www.middlewareinventory.com/blog/linux-stdout-stderr-bash/).
 
 ## Commited _node_modules_ to your repository along with the **some new and modified files** accidentally ?
 
