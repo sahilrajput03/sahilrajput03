@@ -1,20 +1,20 @@
 # Learning bash
 
-## Checking if service is enabled:
-
 ```bash
+# Lucky things:
+
+echo "Today is $(date)"     #executes the date command and it prints the whole sentence, it works like template literal in javascript.
+
+
+
+# Checking if service is enabled:
 [[ $(systemctl is-enabled code-server@array) = enabled ]] && echo Yes its enabled!    # FYI: code-server is enabled
 # Output: Yes its enabled!
 
 [[ $(systemctl is-enabled code-server@array) = disabled ]] || echo Yes its enabled!   # FYI: code-server is enabled
 # Output: Yes its enabled!
-```
 
 
-```bash
-# Lucky things:
-
-echo "Today is $(date)"     #executes the date command and it prints the whole sentence, it works like template literal in javascript.
 
 cat words
 # Ouput:
