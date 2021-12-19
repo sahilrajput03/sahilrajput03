@@ -44,6 +44,8 @@ car bar mat pat zat air   #LOL: this isn't sorted.
 ```
 ## Use switch cases in bash:
 
+Eg1.
+
 ```bash
 #!/bin/bash
 # src: https://linuxize.com/post/bash-case-statement/
@@ -70,6 +72,38 @@ case $choice in
 esac
 ```
 
+Eg2.
+
+```bash
+#!/bin/bash
+while [ true ]
+do
+    echo "Enter your choice (1/2/3):"
+    read choice
+
+    greet="Great! You chose $choice"
+    case $choice in
+        1)
+            echo $greet, One is master number.
+        ;;
+
+        2)
+            echo $greet, All phenomenal things are dualistic in nature, say masculine and feminine.
+        ;;
+
+        3)
+            echo $greet, Its best to have three options so that you always feel rich in anything you choose. Yo!!
+        ;;
+
+        *)
+            echo Please try again, you messed with the choice.
+        ;;
+    esac
+    echo
+    echo
+
+done
+```
 ## Use grep to get only the matched patter only with `-o` flag
 
 ```
