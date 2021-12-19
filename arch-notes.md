@@ -4,7 +4,12 @@
 
 ```bash
 systemctl is-enabled code-server@array
-#Output (when the service is enabled): enabled
+
+# when the service is enabled: sudo systemctl enable code-server@array
+#Output: enabled
+
+# when the service is disabled: sudo systemctl disable code-server@array
+#Output: disabled
 ```
 src: https://unix.stackexchange.com/a/599587/504112
 
