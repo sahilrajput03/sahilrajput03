@@ -4,7 +4,7 @@
 
 ```
 pgrep -f battery-status   #Returns all pid's of services with text battery-status in its name.
-
+src: https://askubuntu.com/a/612318/702911
 
 # e.g., we can use it like:
 kill $ $(pgrep -f battery-status)     #This will kill all the returning proceses via there process ids.
