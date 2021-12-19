@@ -1,9 +1,10 @@
 # arch-notes
 
-## Know if a service i.e.,  services in `systemctl` is enabled (starts on boot) ?
+## Detect if a service i.e.,  services in `systemctl` is enabled (starts on boot) ?
 
 ```bash
 systemctl is-enabled code-server@array
+#src: https://unix.stackexchange.com/a/599587/504112
 
 # when the service is enabled: sudo systemctl enable code-server@array
 #Output: enabled
