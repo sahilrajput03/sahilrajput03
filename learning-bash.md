@@ -1,5 +1,13 @@
 # Learning bash
 
+## Checking if service is enabled:
+
+```bash
+[[ $(systemctl is-enabled code-server@array) = enabled ]] && echo Yes its enabled!
+# Output: Yes its enabled!
+```
+
+
 ```bash
 # Lucky things:
 
