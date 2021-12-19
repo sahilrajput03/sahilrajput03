@@ -1,5 +1,13 @@
 # arch-notes
 
+## Know if a service i.e.,  services in `systemctl` is enabled (starts on boot) ?
+
+```bash
+systemctl is-enabled code-server@array
+#Output (when the service is enabled): enabled
+```
+src: https://unix.stackexchange.com/a/599587/504112
+
 read lots of below from: https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
 
 ## Print processes of particular user
