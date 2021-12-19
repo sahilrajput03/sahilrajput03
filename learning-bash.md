@@ -118,8 +118,22 @@ echo $((5-2))
 
 
 
+
 [[ false = true ]] || echo Condition did not pass.
 # Output: Condition did not pass.
+
+
+
+### Equality check in comparison:
+[[ sahil = sahil ]] && echo Yes condition is true.
+# Output: Yes condition is true.
+
+name=sahil
+[[ $name = sahil ]] && echo Yes condition is true.
+# Output: Yes condition is true.
+
+
+
 
 
 
