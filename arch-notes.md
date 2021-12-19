@@ -1,5 +1,15 @@
 # arch-notes
 
+## Search process without using something like `ps -aux | grep myOldHabits` ...
+
+```
+pgrep -f battery-status   #Returns all pid's of services with text battery-status in its name.
+
+
+# e.g., we can use it like:
+kill $ $(pgrep -f battery-status)     #This will kill all the returning proceses via there process ids.
+```
+
 ## Detect if a service i.e.,  services in `systemctl` is enabled (starts on boot) ?
 
 ```bash
