@@ -1,6 +1,6 @@
 # 🤺︎ Hi there 👋 Trying what I can !
 
-**"Impossible is possile if you try really hard may be!"**
+**"Impossible is possile if you try really hard maybe!"**
 
 Find me on terminal via `npx sahilrajput03` command.
 
