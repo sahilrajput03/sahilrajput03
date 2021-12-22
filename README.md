@@ -22,6 +22,9 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ```bash
 npm i my-pkg@file:./path-to-my-pkg.js
+
+# Usage in js file:
+const logMw = require("log-mw");
 ```
 
 [Source](https://stackoverflow.com/a/70451584/10012446) 🍭
