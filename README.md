@@ -18,6 +18,14 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## Install file as depencdency in nodejs
+
+```bash
+npm i my-pkg@file:./path-to-my-pkg.js
+```
+
+[Source](https://stackoverflow.com/a/70451584/10012446) 🍭
+
 ## Custom logging middleware expressjs
 
 ```js
