@@ -33,6 +33,9 @@ const logMw = (req) => {
 
 // Usage:
 lgMw(req) // in any route or controller.
+
+// or use as a common middleware:
+app.use(logMw)
 ```
 
 ## Learning file descriptions, stdin(0), stdoutput(1) and stderr(2) ?
