@@ -25,6 +25,9 @@ npm i my-pkg@file:./path-to-my-pkg.js
 
 # Usage in js file:
 const logMw = require("log-mw");
+
+# Should work as esm as well IMO (didn't test yet :o  ).
+import logMw from "log-mw";
 ```
 
 [Source](https://stackoverflow.com/a/70451584/10012446) 🍭
