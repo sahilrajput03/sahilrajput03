@@ -18,6 +18,22 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+## Custom logging middleware expressjs
+
+```js
+const s = JSON.stringify;
+const l = console.log;
+const logMw = (req) => {
+  l(
+    `@${req.method} @${req.path} @body:${s(req.body)} @query: ${s(
+      req.query
+    )} @params: ${s(req.params)}`
+  );
+};
+
+// Usage:
+lgMw(req) // in any route or controller.
+```
 
 ## Learning file descriptions, stdin(0), stdoutput(1) and stderr(2) ?
 
