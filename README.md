@@ -34,17 +34,9 @@ import logMw from "log-mw";
 
 ## Custom logging middleware expressjs
 
-```js
-const s = JSON.stringify;
-const l = console.log;
-const logMw = (req) => {
-  l(
-    `@${req.method} @${req.path} @body:${s(req.body)} @query: ${s(
-      req.query
-    )} @params: ${s(req.params)}`
-  );
-};
+Refer @ node-with-live-testing project.
 
+```
 // Usage:
 lgMw(req) // in any route or controller.
 
