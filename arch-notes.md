@@ -1,5 +1,15 @@
 # arch-notes
 
+## Installed speedtest on arch
+
+```
+sudo pacman -S speedtest-cli
+# Usage:
+speedtest
+```
+
+Src: https://archlinux.org/packages/community/any/speedtest-cli/
+
 ## Search process without using something like `ps -aux | grep myOldHabits` ...
 
 ```
