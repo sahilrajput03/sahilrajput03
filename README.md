@@ -2,9 +2,9 @@
 
 **"Impossible is possile if you try really hard maybe!"**
 
-**Competition leads to conflicts, conflicts leads to clashes, clashes leads to wars!**
+**"Competition leads to conflicts, conflicts leads to clashes, clashes leads to wars!"**
 
-**Ethics: Continum approach vs. Dictonomy approach in perspective of goodness and being bad.."
+**Ethics: Continum approach vs. Dictonomy approach in perspective of goodness and being bad.."**
 
 Find me on terminal via `npx sahilrajput03` command.
 
