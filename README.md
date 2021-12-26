@@ -2,6 +2,8 @@
 
 **"Impossible is possile if you try really hard maybe!"**
 
+**Competition leads to conflicts, conflicts leads to clashes, clashes leads to wars!**
+
 Find me on terminal via `npx sahilrajput03` command.
 
 **OTOH**: On the other hand.
