@@ -4,6 +4,8 @@
 
 **Competition leads to conflicts, conflicts leads to clashes, clashes leads to wars!**
 
+**Ethics: Continum approach vs. Dictonomy approach in perspective of goodness and being bad.."
+
 Find me on terminal via `npx sahilrajput03` command.
 
 **OTOH**: On the other hand.
