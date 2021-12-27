@@ -193,7 +193,7 @@ Installed jupyter notebooks with pip: `pip install notebook`, [Source](https://j
 
 [Source](https://hub.gke2.mybinder.org/user/ipython-ipython-in-depth-7y35qkm4/notebooks/binder/Index.ipynb)
 
-## Mounting my kindle on linux
+## Mounting my kindle/portable hdd on linux
 
 ```
 sudo mount /dev/sdc sdc1/
