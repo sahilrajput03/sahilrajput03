@@ -9,7 +9,7 @@ const target = {
   message2: "everyone",
   o1: {
     o2: "call him",
-  },
+  }, // The KEY THING HERE IS THAT PROXIES HANDLERS DOENS'T WORK INTERPRET NAME OF NESTED PROPERTY NAMES WHEN YOU ACCESS THEM // REFER:LINE#1
 };
 
 const handler2 = {
@@ -24,7 +24,7 @@ const handler2 = {
 
 const proxy2 = new Proxy(target, handler2);
 
-proxy2.o1.o2;
+proxy2.o1.o2; // LINE#1
 proxy2.a;
 proxy2.b;
 proxy2.c;
