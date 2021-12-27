@@ -17,3 +17,7 @@
 Total of 36 consonant letters in hindi.
 
 क, ख, ग, घ, ङ, च, छ, ज, झ, ञ [nya], ट, ठ [thh], ड [da], ढ [dh], ण [n], त, थ [tha], द, ध [dha], न, प, फ [fa], ब, भ [bha], म, य, र, ल, व, श [sha], ष [shha], स, ह, क्ष [ksh], त्र [tra], ज्ञ [jna]
+
+#### Numerals
+
+० [zero], १ [1], २ [2],  ३ [3], ४ [4],  ५ [5],  ६ [6], ७ [7], ८ [8], ९ [9]
