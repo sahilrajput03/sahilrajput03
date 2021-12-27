@@ -55,8 +55,6 @@ Find me on terminal via `npx sahilrajput03` command.
 
 3. **Start debugger with `f5` key in vscode and thus select the entry with text `nodemon --inspect app.js` in the list of processes.**
 
-
-
 **More**
 
 - **You can break on the very first line of the program via flag `--inspect-brk` instead of `--inspect` in you node/nodemon command. [Src](https://stackoverflow.com/a/39493551/10012446), [Src2](https://nodejs.org/api/debugger.html#v8-inspector-integration-for-nodejs), [Src3](https://nodejs.org/en/docs/guides/debugging-getting-started/#command-line-options), [Src4 @ FSO](https://fullstackopen.com/en/part3/saving_data_to_mongo_db#debugging-node-applications).**
@@ -64,6 +62,8 @@ Find me on terminal via `npx sahilrajput03` command.
 - *TIP: Use f9 to add/remove the breakpoint.*
 
 - *Loading .env file in the debugging mode. [Src](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_load-environment-variables-from-external-file)*
+
+- Remote debugging nodejs [@nodejs docs](https://nodejs.org/en/docs/guides/debugging-getting-started/#enabling-remote-debugging-scenarios).
 
 ## The arguments keyword in a function:
 
