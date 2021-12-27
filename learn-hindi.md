@@ -30,6 +30,7 @@
 - सिद्ध कीजिए : to prove
 - पुष्ट कीजिए : substantiate
 - तर्क कीजिए : give arguments
+- सहिष्णुता : सहन करना ; असहिष्णुता : सहन न करना
 
 ## अक्षर / Leters or Characters
 
