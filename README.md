@@ -59,9 +59,9 @@ file: `.vscode/launch.json`
 
 **More**
 
-*TIP: Use f9 to add/remove the breakpoint.*
+- *TIP: Use f9 to add/remove the breakpoint.*
 
-*Loading .env file in the debugging mode. [Src](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_load-environment-variables-from-external-file)*
+- *Loading .env file in the debugging mode. [Src](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_load-environment-variables-from-external-file)*
 
 ## The arguments keyword in a function:
 
