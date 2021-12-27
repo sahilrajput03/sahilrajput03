@@ -26,7 +26,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Setting auto-attching ready debugger for nodejs/expressjs via nodemon
 
-file: `.vscode/launch.json`
+1. Create a file `.vscode/launch.json` in root folder.
 
 ```
 {
@@ -51,13 +51,15 @@ file: `.vscode/launch.json`
 
 ```
 
-**Now use nodemon to start the server i.e., `nodemon --inspect app.js`**. (NOTE: `.env` file will be in effect once the vscode debugger is attached).
+2. **Now use nodemon to start the server i.e., `nodemon --inspect app.js`**. (NOTE: `.env` file will be in effect once the vscode debugger is attached).
 
-**Start debugger with `f5` key in vscode and thus select the entry with text `nodemon --inspect app.js` in the list of processes.**
+3. **Start debugger with `f5` key in vscode and thus select the entry with text `nodemon --inspect app.js` in the list of processes.**
 
-**You can break on the very first line of the program via flag `--inspect-brk` instead of `--inspect` in you node/nodemon command. [Src](https://stackoverflow.com/a/39493551/10012446), [Src2](https://nodejs.org/api/debugger.html#v8-inspector-integration-for-nodejs), [Src3](https://nodejs.org/en/docs/guides/debugging-getting-started/#command-line-options), [Src4](https://fullstackopen.com/en/part3/saving_data_to_mongo_db#debugging-node-applications).**
+
 
 **More**
+
+- **You can break on the very first line of the program via flag `--inspect-brk` instead of `--inspect` in you node/nodemon command. [Src](https://stackoverflow.com/a/39493551/10012446), [Src2](https://nodejs.org/api/debugger.html#v8-inspector-integration-for-nodejs), [Src3](https://nodejs.org/en/docs/guides/debugging-getting-started/#command-line-options), [Src4](https://fullstackopen.com/en/part3/saving_data_to_mongo_db#debugging-node-applications).**
 
 - *TIP: Use f9 to add/remove the breakpoint.*
 
