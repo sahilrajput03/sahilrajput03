@@ -8,13 +8,9 @@
 
 #### स्वरों / Vowels
 
-**Independent vowels:**
+**Independent vowels:** अ, आ [aa], इ [e], ई [i], उ [u], ऊ [oo], ए [a], ऐ [ae], ओ [o], औ, [ao], अं [am], अः [a:], ऋ [ri], ॠ [rr]
 
-अ, आ [aa], इ [e], ई [i], उ [u], ऊ [oo], ए [a], ऐ [ae], ओ [o], औ, [ao], अं [am], अः [a:], ऋ [ri], ॠ [rr]
-
-**Dependent Vowels:**
-
-ा [aa],  ि [i], ी [ii], ु [u], ू [uu], ृ [r], ॄ [rr], ॅ [e], ॆ [e], े [e], ै [ai], ॉ [o], ॊ [o], ो [o],  ौ [au]
+**Dependent Vowels:** ा [aa],  ि [i], ी [ii], ु [u], ू [uu], ृ [r], ॄ [rr], ॅ [e], ॆ [e], े [e], ै [ai], ॉ [o], ॊ [o], ो [o],  ौ [au]
 
 #### व्यंजन / Consonants (vyanjan)
 
