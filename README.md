@@ -51,7 +51,7 @@ file: `.vscode/launch.json`
 
 Tip: You can load .env file in the debugging mode too. [Src](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_load-environment-variables-from-external-file)
 
-**Now use nodemon start the server i.e., `nodemon --inspect app.js`**.
+**Now use nodemon to start the server i.e., `nodemon --inspect app.js`**.
 
 **Start debugger with `f5` key in vscode and thus select the entry with nodemon --inspect text in list of processes.**
 
