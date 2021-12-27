@@ -42,7 +42,9 @@ file: `.vscode/launch.json`
             "name": "Attach to node process((hint: which has ``node --inpect``))",
             "processId": "${command:PickProcess}",
             "restart": true,
-            "protocol": "inspector"
+            "protocol": "inspector",
+            "envFile": "${workspaceFolder}/.env"
+           // Our .env file is loaded simply (no need of cross-env), also the terminal would pick the values of `.env` file once you attach the debugger. Yikes!
         }
     ]
 }
