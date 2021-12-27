@@ -57,6 +57,8 @@ file: `.vscode/launch.json`
 
 **Start debugger with `f5` key in vscode and thus select the entry with text `nodemon --inspect app.js` in the list of processes.**
 
+*TIP: Use f9 to add/remove the breakpoint.*
+
 ## The arguments keyword in a function:
 
 [Src](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments).
