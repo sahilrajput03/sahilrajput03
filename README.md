@@ -24,6 +24,10 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **hindi: ** [Click here](learn-hindi.md)
 
+## Difference b/w res.send and res.json ?
+
+Read [here](https://stackoverflow.com/a/19041848/10012446).
+
 ## Setting auto-attching ready debugger for nodejs/expressjs via nodemon
 
 1. Create a file `.vscode/launch.json` in root folder.
