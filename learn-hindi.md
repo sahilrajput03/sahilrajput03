@@ -4,7 +4,7 @@
 
 - परीक्षक: परीक्षा लेनेवाला
 
-## Leters
+## अक्षर / Leters or Characters
 
 #### स्वरों / Vowels
 
