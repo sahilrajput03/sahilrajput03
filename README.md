@@ -22,6 +22,8 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
+- **hindi: ** [Click here](learn-hindi.md)
+
 ## Install file as depencdency in nodejs
 
 ```bash
