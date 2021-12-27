@@ -24,6 +24,37 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **hindi: ** [Click here](learn-hindi.md)
 
+## Setting auto-attching ready debugger for nodejs/expressjs via nodemon
+
+file: `.vscode/launch.json`
+
+```
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "attach",
+            // ^^ note that this is a of type attach and we have specified to `restart` via the restart option below to reattch to that process and pick the new processid automatically, yikes!
+            "name": "Attach to node process((hint: which has ``node --inpect``))",
+            "processId": "${command:PickProcess}",
+            "restart": true,
+            "protocol": "inspector"
+        }
+    ]
+}
+
+```
+
+Tip: You can load .env file in the debugging mode too. [Src](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_load-environment-variables-from-external-file)
+
+**Now use nodemon start the server i.e., `nodemon --inspect app.js`**.
+
+**Start debugger with `f5` key in vscode and thus select the entry with nodemon --inspect text in list of processes.**
+
 ## The arguments keyword in a function:
 
 [Src](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments).
