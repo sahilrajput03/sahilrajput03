@@ -24,6 +24,10 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **hindi: ** [Click here](learn-hindi.md)
 
+## The arguments keyword in a function:
+
+[Src](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments).
+
 ## Print object/arrays of any depth:
 
 
