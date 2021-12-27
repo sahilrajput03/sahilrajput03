@@ -53,7 +53,7 @@ Tip: You can load .env file in the debugging mode too. [Src](https://code.visual
 
 **Now use nodemon to start the server i.e., `nodemon --inspect app.js`**.
 
-**Start debugger with `f5` key in vscode and thus select the entry with nodemon --inspect text in list of processes.**
+**Start debugger with `f5` key in vscode and thus select the entry with text `nodemon --inspect app.js` in the list of processes.**
 
 ## The arguments keyword in a function:
 
