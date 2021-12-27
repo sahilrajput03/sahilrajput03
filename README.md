@@ -51,13 +51,16 @@ file: `.vscode/launch.json`
 
 ```
 
-*Loading .env file in the debugging mode. [Src](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_load-environment-variables-from-external-file)*
-
 **Now use nodemon to start the server i.e., `nodemon --inspect app.js`**. (NOTE: `.env` file will be in effect once the vscode debugger is attached).
 
 **Start debugger with `f5` key in vscode and thus select the entry with text `nodemon --inspect app.js` in the list of processes.**
 
+
+**More**
+
 *TIP: Use f9 to add/remove the breakpoint.*
+
+*Loading .env file in the debugging mode. [Src](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_load-environment-variables-from-external-file)*
 
 ## The arguments keyword in a function:
 
