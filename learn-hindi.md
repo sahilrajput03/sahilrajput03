@@ -31,6 +31,8 @@
 - पुष्ट कीजिए : substantiate
 - तर्क कीजिए : give arguments
 - सहिष्णुता : सहन करना ; असहिष्णुता : सहन न करना
+- रुझान : अभिवृत्ति, attitude
+- अंतरात्मा : conscience
 
 ## अक्षर / Leters or Characters
 
