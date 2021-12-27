@@ -24,7 +24,30 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **hindi: ** [Click here](learn-hindi.md)
 
+## Print object/arrays of any depth:
+
+```
+const util = require("util");
+
+let a = { b: { c: { d: { e: "f" } } } };
+console.log(a);
+// Output: { b: { c: { d: [Object] } } }
+
+console.log({ myText: "hello", myNumber: 21, myBoolean: true });
+
+// LEARN: Print any object of any depth.
+console.log(util.inspect(a, false, null, true /* enable colors */));
+// Output:
+// {
+//     b: { c: { d: { e: 'f' } } }
+// }
+```
+
 ## Install file as depencdency in nodejs
+
+[Src1](https://dev.to/ehlo_250/the-trick-to-making-consolelog-play-nice-with-complex-objects-gma), [Src2](https://stackoverflow.com/a/10729284/10012446) 
+
+TIP: You can make use of simple json.stringify too (but it won't be cloured ouput for different type of data, [src](https://stackoverflow.com/a/10729391/10012446)).
 
 ```bash
 npm i my-pkg@file:./path-to-my-pkg.js
