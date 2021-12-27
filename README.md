@@ -26,6 +26,11 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Print object/arrays of any depth:
 
+
+[Src1](https://dev.to/ehlo_250/the-trick-to-making-consolelog-play-nice-with-complex-objects-gma), [Src2](https://stackoverflow.com/a/10729284/10012446) 
+
+TIP: You can make use of simple json.stringify too (but it won't be cloured ouput for different type of data, [src](https://stackoverflow.com/a/10729391/10012446)).
+
 ```
 const util = require("util");
 
@@ -44,10 +49,6 @@ console.log(util.inspect(a, false, null, true /* enable colors */));
 ```
 
 ## Install file as depencdency in nodejs
-
-[Src1](https://dev.to/ehlo_250/the-trick-to-making-consolelog-play-nice-with-complex-objects-gma), [Src2](https://stackoverflow.com/a/10729284/10012446) 
-
-TIP: You can make use of simple json.stringify too (but it won't be cloured ouput for different type of data, [src](https://stackoverflow.com/a/10729391/10012446)).
 
 ```bash
 npm i my-pkg@file:./path-to-my-pkg.js
