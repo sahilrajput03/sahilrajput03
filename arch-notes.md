@@ -1,5 +1,14 @@
 # arch-notes
 
+## Installed mongodb - archos
+
+```bash
+git clone https://aur.archlinux.org/mongodb-bin.git
+cd mongodb-bin
+makepkg -s
+sudo pacman -U mongodb-bin....tar.zst
+```
+
 ## Set vim as editor via git instead of vi (it throws errror bcoz of that)
 
 ```
