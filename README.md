@@ -24,6 +24,10 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **hindi: ** [Click here](learn-hindi.md)
 
+## Error lens for kids
+
+Vscode [extension](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens).
+
 ## Difference b/w res.send and res.json ?
 
 Read [here](https://stackoverflow.com/a/19041848/10012446).
