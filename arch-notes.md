@@ -7,6 +7,12 @@ git clone https://aur.archlinux.org/mongodb-bin.git
 cd mongodb-bin
 makepkg -s
 sudo pacman -U mongodb-bin....tar.zst
+
+# Run mongodb server:
+sudo systemctl start mongodb
+
+# To enable mongodb service to run on system startup:
+sudo systemctl enable mongodb
 ```
 
 ## Set vim as editor via git instead of vi (it throws errror bcoz of that)
