@@ -1,5 +1,11 @@
 # arch-notes
 
+## Set vim as editor via git instead of vi (it throws errror bcoz of that)
+
+```
+git config --global core.editor vim
+```
+
 ## Installed speedtest on arch
 
 ```
