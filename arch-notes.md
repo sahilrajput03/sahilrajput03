@@ -2,6 +2,8 @@
 
 ## Installed mongodb - archos
 
+Src: [1](https://wiki.archlinux.org/title/MongoDB), [2](https://aur.archlinux.org/packages/mongodb-bin/).
+
 ```bash
 git clone https://aur.archlinux.org/mongodb-bin.git
 cd mongodb-bin
