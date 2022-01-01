@@ -6,6 +6,8 @@ Vscode Extension: *Android full Support*
 
 https://developer.android.com/guide/topics/resources/providing-resources
 
+https://developer.android.com/studio/build/building-cmdline
+
 #### 1. java
 
 ```
