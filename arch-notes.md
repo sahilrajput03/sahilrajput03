@@ -18,6 +18,9 @@ cd android-sdk-platform-tools
 makepkg -s
 sudo pacman -U android-platform-sdk-tools-x.x.x....tar.zst
 
+# https://stackoverflow.com/a/9210397/10012446
+# that helped me to get rid of ```adb devices``` error of no-permission, Yikes!!
+
 # You need to source /etc/profile or relogin to add the Android SDK platform tools to your path.
 
 # For vscode's extension use the platform-tools you can define `ANDROID_SDK_ROOT` variable must be pointing to platform-tools directory.
