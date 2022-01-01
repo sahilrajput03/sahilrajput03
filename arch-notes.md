@@ -1,5 +1,14 @@
 # arch-notes
 
+## install platform-tools
+
+```
+git clone https://aur.archlinux.org/packages/android-sdk-platform-tools/
+cd android-skd-platform-tools
+makepkg -s
+sudo pacman -U android-platform-sdk-tools-x.x.x....tar.zst
+```
+
 ## installed kotlin archos
 
 ```
