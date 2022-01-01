@@ -4,7 +4,7 @@
 
 ```
 git clone https://aur.archlinux.org/packages/android-sdk-platform-tools/
-cd android-skd-platform-tools
+cd android-sdk-platform-tools
 makepkg -s
 sudo pacman -U android-platform-sdk-tools-x.x.x....tar.zst
 ```
