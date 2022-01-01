@@ -10,6 +10,8 @@ Vscode Extension: *Android full Support*
 #install java/javac in system.
 sudo pacman -S jre11-openjdk
 java --version
+
+sudo pacman -S jdk11-openjdk
 javac --version
 ```
 
