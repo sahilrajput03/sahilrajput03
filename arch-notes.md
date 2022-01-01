@@ -21,6 +21,14 @@ sudo pacman -U android-platform-sdk-tools-x.x.x....tar.zst
 # You need to source /etc/profile or relogin to add the Android SDK platform tools to your path.
 
 # For vscode's extension use the platform-tools you can define `ANDROID_SDK_ROOT` variable must be pointing to platform-tools directory.
+# So add a variable entry in /etc/environment file as
+ANDROID_SDK_ROOT='/opt/android-sdk'
+
+and run so vscode get permission to read/write to /opt/android-sdk folder.
+sudo chmod g+rwx /opt/android-sdk
+sudo chmod o+rwx /opt/android-sdk
+
+# and logout and login, now vscode's extension would pick right path for android-sdk and you would be able to access adb cli's tool as well. If above android-platform-sdk-tools cause issue you can simply remove and reinstall the the tools again from the sdk manager in vscode. Yikes!
 ```
 
 Platform-tools installed @ `/opt/android-sdk/platform-tools/`
