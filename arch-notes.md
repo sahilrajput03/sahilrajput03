@@ -16,6 +16,8 @@ sudo pacman -Syyu
 sudo pacman kotlin
 ```
 
+Official installation [source](https://kotlinlang.org/docs/command-line.html#create-and-run-an-application),
+
 ## Installed mongodb - archos
 
 Src: [1](https://wiki.archlinux.org/title/MongoDB), [2](https://aur.archlinux.org/packages/mongodb-bin/).
