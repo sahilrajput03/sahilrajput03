@@ -19,7 +19,7 @@ makepkg -s
 sudo pacman -U android-platform-sdk-tools-x.x.x....tar.zst
 
 # https://stackoverflow.com/a/9210397/10012446
-# that helped me to get rid of ```adb devices``` error of no-permission, Yikes!!
+# that helped me to get rid of ```adb devices``` error of no-permission, Yikes!! ALSO You would need to accept the permission on this very time when you connect the device again. And it'll show the device as ```adb devices``` >> ```<device-id> device```
 
 # You need to source /etc/profile or relogin to add the Android SDK platform tools to your path.
 
