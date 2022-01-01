@@ -29,7 +29,7 @@ Platform-tools installed @ `/opt/android-sdk/platform-tools/`
 
 Installing `Android 10 (API 29)` from the *Open SDK Manager* in the vscode's extension.
 
-In the Android 10(API 29): Choose `SDK Platform`, `Google APIs Intelx86 Atom_64 System Image` and `Sources for AndroidSDK`.
+In the Android 10(API 29): Choose `SDK Platform`, `Google APIs Intelx86 Atom_64 System Image` and `Sources for AndroidSDK`. Also, you can choose to install `Android SDK Platform-tools` or ignore if you installed that from *arch's AUR* before.
 
 ## installed kotlin archos
 
