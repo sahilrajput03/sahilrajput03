@@ -1,5 +1,12 @@
 # arch-notes
 
+## installed kotlin archos
+
+```
+sudo pacman -Syyu
+sudo pacman kotlin
+```
+
 ## Installed mongodb - archos
 
 Src: [1](https://wiki.archlinux.org/title/MongoDB), [2](https://aur.archlinux.org/packages/mongodb-bin/).
