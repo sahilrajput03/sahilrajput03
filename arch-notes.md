@@ -1,6 +1,16 @@
 # arch-notes
 
-## install platform-tools
+## Setting up android environment with vscode
+
+Vscode Extension: *Android full Support*
+
+#### 1. java
+
+```
+#install java/javac in system.
+```
+
+#### 2. install platform-tools
 
 ```
 git clone https://aur.archlinux.org/packages/android-sdk-platform-tools/
@@ -10,13 +20,16 @@ sudo pacman -U android-platform-sdk-tools-x.x.x....tar.zst
 
 # You need to source /etc/profile or relogin to add the Android SDK platform tools to your path.
 
+# For vscode's extension use the platform-tools you can define `ANDROID_SDK_ROOT` variable must be pointing to platform-tools directory.
 ```
 
 Platform-tools installed @ `/opt/android-sdk/platform-tools/`
 
-Vscode Extension: *Android full Support*
+#### 3. Android sdk
 
-ANDROID_SDK_ROOT required path for above extension.
+Installing `Android 10 (API 29)` from the *Open SDK Manager* in the vscode's extension.
+
+In the Android 10(API 29): Choose `SDK Platform`, `Google APIs Intelx86 Atom_64 System Image` and `Sources for AndroidSDK`.
 
 ## installed kotlin archos
 
