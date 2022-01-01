@@ -4,6 +4,8 @@
 
 Vscode Extension: *Android full Support*
 
+https://developer.android.com/guide/topics/resources/providing-resources
+
 #### 1. java
 
 ```
