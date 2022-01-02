@@ -1,24 +1,5 @@
 # arch-notes
 
-## cli usage with android projects:
-
-For immediate app testing and debugging, you can build a debug APK. The debug APK is signed with a debug key provided by the SDK tools and allows debugging through adb.
-
-To build a debug APK, open a command line and navigate to the root of your project directory. To initiate a debug build, invoke the assembleDebug task:
-
-```bash
-./gradlew assembleDebug
-
-# To get warnings causing the issues you can append --warning-mode option like that:
-./gradlew assembleDebug --warning-mode=all
-```
-
-**Use below command to generate apk and install right away**:
-
-```bash
-./gradlew installDebug
-```
-
 ## Setting up android environment with vscode
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
