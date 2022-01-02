@@ -2,6 +2,8 @@
 
 ## Setting up android environment with vscode
 
+Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
+
 Vscode Extension: *Android full Support*
 
 https://developer.android.com/guide/topics/resources/providing-resources
