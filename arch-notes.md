@@ -4,13 +4,17 @@
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
-Permission of certificates fixed as: https://stackoverflow.com/a/54273442/10012446
+##### Permission of certificates permission denied ISSUE FIXED !! :
 
-Vscode Extension: *Android full Support*
+Installed sdkmanager in archos
+
+Fixed as: https://stackoverflow.com/a/54273442/10012446
+
+Vscode Extension: *Android full Support* helps to create fresh projects and also facilitates sdkmanager from command pallete in android studio.
 
 https://developer.android.com/guide/topics/resources/providing-resources
 
-https://developer.android.com/studio/build/building-cmdline
+[Build your app from the command line @ Android Studio Docs](https://developer.android.com/studio/build/building-cmdline)
 
 #### 1. java
 
