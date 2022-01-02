@@ -4,6 +4,8 @@
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
+Permission of certificates fixed as: https://stackoverflow.com/a/54273442/10012446
+
 Vscode Extension: *Android full Support*
 
 https://developer.android.com/guide/topics/resources/providing-resources
