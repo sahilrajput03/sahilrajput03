@@ -7,14 +7,6 @@ Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 ```bash
 sudo pacman -S inotify-tools
 
-# Usage:
-inotfywait
-
-# Docs:
-man inotifywait
-# github: https://github.com/inotify-tools/inotify-tools/wiki#arch-linux
-
-
 
 # Watch over file and execute that file i.e., ```1.sh```.
 inotifywait -q -m -e close_write 1.sh |
@@ -33,7 +25,14 @@ done
 
 
 
-# From ```inotifywait --help``` 
+# Usage:
+inotfywait
+
+# Docs:
+man inotifywait
+# github: https://github.com/inotify-tools/inotify-tools/wiki#arch-linux
+
+# From: ```inotifywait --help``` 
 # -e|--event <event1> [ -e|--event <event2> ... ]
 # Listen for specific event(s).  If omitted, all events are listened for.
 
