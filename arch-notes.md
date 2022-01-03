@@ -10,19 +10,36 @@ sudo pacman -S inotify-tools
 # Usage:
 inotfywait
 
+
+
+
+inotifywait -q -m -e close_write 1.sh |
+while read -r filename event; do
+  ./1.sh
+done
+# src: https://superuser.com/a/181543/776589
+
+
+inotifywait -q -m -e close_write -r . |
+while read -r filename event; do
+  ./1.sh
+done
+# Note the ```-r .``` option will watch over the current directory in recursive manner.
+
+
+
 # From ```inotifywait --help``` 
--e|--event <event1> [ -e|--event <event2> ... ]
-Listen for specific event(s).  If omitted, all events are listened for.
+# -e|--event <event1> [ -e|--event <event2> ... ]
+# Listen for specific event(s).  If omitted, all events are listened for.
 
--m|--monitor
-Keep listening for events forever or until --timeout expires. Without this option, inotifywait will exit after one event is received.
+# -m|--monitor
+# Keep listening for events forever or until --timeout expires. Without this option, inotifywait will exit after one event is received.
 
--q|--quiet
-Print less (only print events).
+# -q|--quiet
+# Print less (only print events).
 
---format <fmt>
-Print using a specified printf-like format string; read the man page for more details.
-
+# --format <fmt>
+# Print using a specified printf-like format string; read the man page for more details.
 ```
 
 ## Setting up android environment with vscode
