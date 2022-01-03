@@ -12,7 +12,7 @@ inotfywait
 
 
 
-
+# Watch over file and execute that file i.e., ```1.sh```.
 inotifywait -q -m -e close_write 1.sh |
 while read -r filename event; do
   ./1.sh
@@ -20,6 +20,7 @@ done
 # src: https://superuser.com/a/181543/776589
 
 
+# Watch over current directory and execute ```1.sh``` file. 
 inotifywait -q -m -e close_write -r . |
 while read -r filename event; do
   ./1.sh
