@@ -16,7 +16,7 @@ while read -r filename event; do
 done
 
 
-# Watch over current directory and execute ```1.sh``` file. 
+# Watch over current directory recursively and execute ```1.sh``` file. 
 inotifywait -q -m -e close_write -r . |
 while read -r filename event; do
   ./1.sh
