@@ -10,6 +10,10 @@ sudo pacman -S inotify-tools
 # Usage:
 inotfywait
 
+#Docs:
+man inotifywait
+# github: https://github.com/inotify-tools/inotify-tools/wiki#arch-linux
+
 
 
 # Watch over file and execute that file i.e., ```1.sh```.
