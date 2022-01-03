@@ -12,15 +12,16 @@ inotfywait
 
 # From ```inotifywait --help``` 
 -e|--event <event1> [ -e|--event <event2> ... ]
-		Listen for specific event(s).  If omitted, all events are 
-		listened for.
+Listen for specific event(s).  If omitted, all events are listened for.
 
--m|--monitor  	Keep listening for events forever or until --timeout expires.
-	              	Without this option, inotifywait will exit after one event is received.
+-m|--monitor
+Keep listening for events forever or until --timeout expires. Without this option, inotifywait will exit after one event is received.
 
--q|--quiet    	Print less (only print events).
---format <fmt>	Print using a specified printf-like format
-	              	string; read the man page for more details.
+-q|--quiet
+Print less (only print events).
+
+--format <fmt>
+Print using a specified printf-like format string; read the man page for more details.
 
 ```
 
