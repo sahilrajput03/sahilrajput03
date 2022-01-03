@@ -10,7 +10,7 @@ sudo pacman -S inotify-tools
 # Usage:
 inotfywait
 
-#Docs:
+# Docs:
 man inotifywait
 # github: https://github.com/inotify-tools/inotify-tools/wiki#arch-linux
 
