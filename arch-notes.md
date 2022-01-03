@@ -1,8 +1,30 @@
 # arch-notes
 
-## Setting up android environment with vscode
-
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
+
+## Installed `inotify-tools` for `inotifywait`
+
+```bash
+sudo pacman -S inotify-tools
+
+# Usage:
+inotfywait
+
+# From ```inotifywait --help``` 
+-e|--event <event1> [ -e|--event <event2> ... ]
+		Listen for specific event(s).  If omitted, all events are 
+		listened for.
+
+-m|--monitor  	Keep listening for events forever or until --timeout expires.
+	              	Without this option, inotifywait will exit after one event is received.
+
+-q|--quiet    	Print less (only print events).
+--format <fmt>	Print using a specified printf-like format
+	              	string; read the man page for more details.
+
+```
+
+## Setting up android environment with vscode
 
 ##### Permission of certificates permission denied ISSUE FIXED !! :
 
