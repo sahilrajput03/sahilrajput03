@@ -1,5 +1,11 @@
 # Learning bash
 
+**Know the filesystem usage and free space**
+
+```bash
+df -h
+src: https://linuxize.com/post/linux-tee-command/
+```
 
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
