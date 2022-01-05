@@ -6,6 +6,26 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
 
+**Usage of `test` command**
+
+To know if you are piping 
+
+```
+if test -t 1; then
+    # Stdout(file description 1) is a terminal i.e., you are not doing something like `./script.sh | cat` or `./script.sh | grep someText`
+    echo stdout is a terminal"
+fi
+```
+
+**Usage of `exec` command
+
+```bash
+ exec >log 2>&1
+ # Will redirect stdout and stderr to a file `log` in current folder.
+ # Useful when you need tract all ouput to a file forever. Src: https://www.linuxjournal.com/content/bash-redirections-using-exec
+```
+
+
 **Usage of `trap COMMAND SIGNAL`**
 
 Source: [AMMAAZZIINGG guide](https://www.linuxjournal.com/content/bash-trap-command) to full usage of `trap` command..
