@@ -231,6 +231,10 @@ echo $((5-2))
 # Ouput: 3
 
 
+true && echo It is a truthy statement/value.
+false || echo It is a falsy statement/value.
+
+
 
 
 [[ true ]] && echo It is truthy value.
