@@ -345,7 +345,7 @@ name=sahil
 
 
 
-
+# Amazing article if you wanna know more of if/else in bash @ https://linuxize.com/post/bash-if-else-statement/
 
 if [ -f nodemon.json ]; then echo Yes it is a file; fi
 # output; Yes it is a file
