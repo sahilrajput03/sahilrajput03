@@ -5,6 +5,23 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).
 
+
+Usage of `trap COMMAND SIGNAL`
+
+```bash
+#!/bin/bash
+trap 'rm abc.txt' exit
+# 1. Removes abc.txt file on pretting ctrl+c. 
+touch abc.txt
+echo Created a file abc.txt
+sleep 5
+echo Bye
+# 2. After exiting the program the file abc.txt will be deleted.
+```
+
+
+Usage of `dirname` and `basename`:
+
 ```
 # Usage of basename and dirname in a script: src: https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh
 FULLNAME="$1"
