@@ -6,6 +6,17 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
+**Generate random number in bash**
+
+```
+echo $RANDOM
+
+#if you want a bigger random number you can use this multiple times as well:
+echo $RANDOM$RANDOM
+
+src: https://stackoverflow.com/a/1194890/10012446
+```
+
 **Usage of `COPROC` **
 
 [Source](https://www.linuxjournal.com/content/bash-co-processes). Inspiration: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
