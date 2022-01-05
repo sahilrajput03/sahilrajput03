@@ -4,7 +4,7 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
-Graceful exit:
+**Graceful exit**
 
 > A graceful exit (or graceful handling) is a simple programming idiom wherein a program detects a serious error condition and "exits gracefully" in a controlled manner as a result. Often the program prints a descriptive error message to a terminal or log as part of the graceful exit.
 Wikipedia - [Source](https://en.wikipedia.org/wiki/Graceful_exit).
@@ -14,6 +14,8 @@ Wikipedia - [Source](https://en.wikipedia.org/wiki/Graceful_exit).
 ```bash
 man tee
 # Ouput: tee - read from standard input and write to standard output and files
+# The tee command reads from standard input and writes it to standard output and one ore more files.
+# src: https://linuxize.com/post/linux-tee-command
 
 
 echo Hello I am Sahil > log
@@ -37,6 +39,14 @@ echo Hello I am Sahil | tee -ag2 log3
 # Beauty of tee command is that we can repipe stdout (i.e., tee doesn't eat up thd stdout or stderr at all):
 echo Hello I am Sahil | tee -i log2 log3 | cat
 # "Hello I am Sahil" is written to log2, log3 and on terminal as well.
+
+
+# Using tee in Conjunction with sudo, src: https://linuxize.com/post/linux-tee-command/#using-tee-in-conjunction-with-sudo
+sudo echo "newline" > /etc/file.conf
+# Output: bash: /etc/file.conf: Permission denied
+# Instead: we can do..
+echo "newline" | sudo tee -a /etc/file.conf
+# Using tee in conjunction with sudo allows you to write to files owned by other users.
 ```
 
 **Know the filesystem usage and free space**
