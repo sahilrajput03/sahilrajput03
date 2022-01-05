@@ -3,7 +3,7 @@
 
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
-Usage of xargs: [Source](https://www.tecmint.com/xargs-command-examples/).
+Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).
 
 ```
 # Usage of basename and dirname in a script: src: https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh
@@ -34,6 +34,29 @@ dirname folder1/folder2/myfile.sh
 
 ***
 
+
+```
+$#    Stores the number of command-line arguments that 
+      were passed to the shell program.
+$?    Stores the exit value of the last command that was 
+      executed.
+$0    Stores the first word of the entered command (the 
+      name of the shell program).
+$*    Stores all the arguments that were entered on the
+      command line ($1 $2 ...).
+"$@"  Stores all the arguments that were entered
+      on the command line, individually quoted ("$1" "$2" ...).
+
+
+./command -yes -no /home/username
+$# = 3
+$* = -yes -no /home/username
+$@ = array: {"-yes", "-no", "/home/username"}
+$0 = ./command, $1 = -yes etc.
+
+```
+
+***
 
 ```bash
 # Lucky things:
