@@ -5,6 +5,10 @@
 ```bash
 df -h
 src: https://linuxize.com/post/linux-tee-command/
+
+man df
+# Output:
+# NAME: df - report file system space usage
 ```
 
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
