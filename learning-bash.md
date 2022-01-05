@@ -234,6 +234,8 @@ echo $((5-2))
 true && echo It is a truthy statement/value.
 false || echo It is a falsy statement/value.
 
+# fyi: man true and man false pages exists and they say: Do nothing, successfully and Do nothing, unsuccessfully.
+
 
 
 
