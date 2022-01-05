@@ -1,5 +1,7 @@
 # Learning bash
 
+# Popular blogs: https://linuxize.com/, https://linuxjournal.com
+
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
