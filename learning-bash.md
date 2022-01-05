@@ -6,6 +6,10 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
+**Usage of `COPROC` **
+
+[Source](https://www.linuxjournal.com/content/bash-co-processes). Inspiration: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
+
 **Graceful exit**
 
 > A graceful exit (or graceful handling) is a simple programming idiom wherein a program detects a serious error condition and "exits gracefully" in a controlled manner as a result. Often the program prints a descriptive error message to a terminal or log as part of the graceful exit.
