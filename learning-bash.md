@@ -4,6 +4,11 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
+Graceful exit:
+
+> A graceful exit (or graceful handling) is a simple programming idiom wherein a program detects a serious error condition and "exits gracefully" in a controlled manner as a result. Often the program prints a descriptive error message to a terminal or log as part of the graceful exit.
+Wikipedia - [Source](https://en.wikipedia.org/wiki/Graceful_exit).
+
 **Using tee command**
 
 ```bash
@@ -27,6 +32,11 @@ echo Hello I am Sahil | tee log2 log3
 
 # By default tee overwrite the target files, instead if u want to append to content of the files, you can use:
 echo Hello I am Sahil | tee -ag2 log3
+
+
+# Beauty of tee command is that we can repipe stdout (i.e., tee doesn't eat up thd stdout or stderr at all):
+echo Hello I am Sahil | tee -i log2 log3 | cat
+# "Hello I am Sahil" is written to log2, log3 and on terminal as well.
 ```
 
 **Know the filesystem usage and free space**
