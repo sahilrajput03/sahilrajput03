@@ -11,7 +11,7 @@ Usage of `trap COMMAND SIGNAL`
 ```bash
 #!/bin/bash
 trap 'rm abc.txt' exit
-# 1. Removes abc.txt file on pretting ctrl+c. 
+# 1. Removes abc.txt file on pressing ctrl+c. 
 touch abc.txt
 echo Created a file abc.txt
 sleep 5
