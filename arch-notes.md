@@ -9,6 +9,12 @@ Wow, even facebook's watchman also uses `inotifywait` underneath [src](https://f
 ```bash
 sudo pacman -S inotify-tools
 
+#1.sh
+#!/bin/bash
+echo helloworld
+sleep 3
+echo byeworld
+
 
 
 # ~sahil: Watch over file and execute that file i.e., ```1.sh```. Inspired from a comment in answer from below stackoverflow's answer.
