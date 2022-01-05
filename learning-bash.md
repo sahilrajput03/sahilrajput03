@@ -3,10 +3,10 @@
 
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
-Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).
+**Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
 
-Usage of `trap COMMAND SIGNAL`
+**Usage of `trap COMMAND SIGNAL`**
 
 Source: [AMMAAZZIINGG guide](https://www.linuxjournal.com/content/bash-trap-command) to full usage of `trap` command..
 
@@ -22,7 +22,7 @@ echo Bye
 ```
 
 
-Usage of `dirname` and `basename`:
+**Usage of `dirname` and `basename`:**
 
 ```
 # Usage of basename and dirname in a script: src: https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh
