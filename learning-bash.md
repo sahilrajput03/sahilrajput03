@@ -7,6 +7,10 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 **Using tee command**
 
 ```bash
+man tee
+# Ouput: tee - read from standard input and write to standard output and files
+
+
 echo Hello I am Sahil > log
 #Write to file log
 
@@ -21,7 +25,8 @@ echo Hello I am Sahil | tee log2 log3
 # Overwrites text "Hello I am Sahil" to both log2 and log3 files.
 
 
-
+# By default tee overwrite the target files, instead if u want to append to content of the files, you can use:
+echo Hello I am Sahil | tee -ag2 log3
 ```
 
 **Know the filesystem usage and free space**
