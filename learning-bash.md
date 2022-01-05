@@ -17,7 +17,7 @@ if test -t 1; then
 fi
 ```
 
-**Usage of `exec` command
+**Usage of `exec` command**
 
 ```bash
  exec >log 2>&1
