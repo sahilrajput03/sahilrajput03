@@ -12,6 +12,7 @@ sudo pacman -S inotify-tools
 
 
 # ~sahil: Watch over file and execute that file i.e., ```1.sh```. Inspired from a comment in answer from below stackoverflow's answer.
+# The drawback of this way instead of original answer's way i.e. using `read -r` is that when the command is in the process of execution(i.e., 1.sh) inotifywait won't be able to get signal of file write event, thus this simple looking way fails to work good enough for cases like running a express's node server which runs indefinitely and one needs to kill the process and start it again on file write changes. Yikes!
 while inotifywait -q -e close_write 1.sh > /dev/null; do
   ./1.sh
 done
@@ -21,6 +22,7 @@ done
 
 # Watch over file and execute that file i.e., ```1.sh```.
 # src: https://superuser.com/a/181543/776589
+# The problem with this solution is that when the file is in execution phase (i.e., 1.sh) the script doesn't kill the existing running process but instead for getting it completed/exited and then only the event of running the file starts. So in simple terms it does listen to file changes even when the file (1.sh) is in execution phase but the problem is it doesn't kill the existing process and thus all write events triggered actions are queued. So such mechanish is not good for cases like running a express's node server which runs indefinitely and one needs to kill the process and start it again on file write changes. Yikes!
 inotifywait -q -m -e close_write 1.sh |
 while read -r filename event; do
   ./1.sh
