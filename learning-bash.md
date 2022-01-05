@@ -8,15 +8,17 @@ Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).
 
 Usage of `trap COMMAND SIGNAL`
 
+Source: [AMMAAZZIINGG guide](https://www.linuxjournal.com/content/bash-trap-command) to full usage of `trap` command..
+
 ```bash
 #!/bin/bash
 trap 'rm abc.txt' exit
-# 1. Removes abc.txt file on pressing ctrl+c. 
+# 1. Will remove abc.txt file on pressing ctrl+c. 
 touch abc.txt
 echo Created a file abc.txt
 sleep 5
 echo Bye
-# 2. After exiting the program the file abc.txt will be deleted.
+# 2. After exiting the program the file abc.txt will be deleted anyway.
 ```
 
 
@@ -71,6 +73,7 @@ $* = -yes -no /home/username
 $@ = array: {"-yes", "-no", "/home/username"}
 $0 = ./command, $1 = -yes etc.
 
+# Recommened: Read original posters' full answer: https://superuser.com/a/247131/776589
 ```
 
 ***
