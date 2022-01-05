@@ -38,7 +38,7 @@ echo Hello I am Sahil | tee log2 log3
 echo Hello I am Sahil | tee -a log2 log3
 
 
-# Beauty of tee command is that we can repipe stdout (i.e., tee doesn't eat up thd stdout or stderr at all):
+# Beauty of tee command is that we can repipe stdout (i.e., tee doesn't eat up the stdout or stderr at all):
 echo Hello I am Sahil | tee -i log2 log3 | cat
 # "Hello I am Sahil" is written to log2, log3 and on terminal as well.
 
