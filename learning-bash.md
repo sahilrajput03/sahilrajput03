@@ -1,11 +1,38 @@
 # Learning bash
 
 
-Usage of xargs: [Source](https://www.tecmint.com/xargs-command-examples/).
-
-
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
+Usage of xargs: [Source](https://www.tecmint.com/xargs-command-examples/).
+
+```
+# Usage of basename and dirname in a script:
+FULLNAME="$1"
+BASENAME=`basename "$FULLNAME"`
+DIRNAME=`dirname "$FULLNAME"`
+
+
+
+# Learn basename:
+basename ../../.myfile.sh
+# Output: .myfile.sh
+
+basename ./.myfile.sh
+# Output: .myfile.sh
+
+
+# Learn dirname:
+dirname ../../my-folder/myfile.sh
+# Output: ../../my-folder
+
+
+dirname folder1/folder2/myfile.sh
+# Output: folder1/folder2
+
+
+```
+
+***
 
 
 ```bash
