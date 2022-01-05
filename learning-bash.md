@@ -21,6 +21,8 @@ basename ./.myfile.sh
 # Output: .myfile.sh
 
 
+
+
 # Learn dirname:
 dirname ../../my-folder/myfile.sh
 # Output: ../../my-folder
@@ -28,8 +30,6 @@ dirname ../../my-folder/myfile.sh
 
 dirname folder1/folder2/myfile.sh
 # Output: folder1/folder2
-
-
 ```
 
 ***
