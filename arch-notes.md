@@ -9,7 +9,7 @@ sudo pacman -S inotify-tools
 
 
 
-# ~sahil: Watch over file and execute that file i.e., ```1.sh```. Inspired from below below source of stackoverflow.
+# ~sahil: Watch over file and execute that file i.e., ```1.sh```. Inspired from a comment in answer from below stackoverflow's answer.
 while inotifywait -q -e close_write 1.sh > /dev/null; do
   ./1.sh
 done
