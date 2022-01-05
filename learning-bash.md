@@ -55,6 +55,7 @@ dirname folder1/folder2/myfile.sh
 
 
 ```
+# Recommened: Read original posters' full answer: https://superuser.com/a/247131/776589
 $#    Stores the number of command-line arguments that 
       were passed to the shell program.
 $?    Stores the exit value of the last command that was 
@@ -73,7 +74,6 @@ $* = -yes -no /home/username
 $@ = array: {"-yes", "-no", "/home/username"}
 $0 = ./command, $1 = -yes etc.
 
-# Recommened: Read original posters' full answer: https://superuser.com/a/247131/776589
 ```
 
 ***
