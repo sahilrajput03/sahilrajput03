@@ -8,6 +8,15 @@ Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 sudo pacman -S inotify-tools
 
 
+
+# ~sahil: Watch over file and execute that file i.e., ```1.sh```. Inspired from below below source of stackoverflow.
+while inotifywait -q -e close_write 1.sh > /dev/null; do
+  ./1.sh
+done
+
+
+
+
 # Watch over file and execute that file i.e., ```1.sh```.
 # src: https://superuser.com/a/181543/776589
 inotifywait -q -m -e close_write 1.sh |
@@ -16,7 +25,7 @@ while read -r filename event; do
 done
 
 
-# Watch over current directory recursively and execute ```1.sh``` file. 
+~sahil: Watch over current directory recursively and execute ```1.sh``` file. 
 inotifywait -q -m -e close_write -r . |
 while read -r filename event; do
   ./1.sh
