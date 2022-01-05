@@ -4,6 +4,8 @@ Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
 ## Installed `inotify-tools` for `inotifywait`
 
+Wow, even facebook's watchman also uses `inotifywait` underneath [src](https://facebook.github.io/watchman/docs/install.html).
+
 ```bash
 sudo pacman -S inotify-tools
 
