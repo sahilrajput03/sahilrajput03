@@ -6,7 +6,7 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 Usage of xargs: [Source](https://www.tecmint.com/xargs-command-examples/).
 
 ```
-# Usage of basename and dirname in a script:
+# Usage of basename and dirname in a script: src: https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh
 FULLNAME="$1"
 BASENAME=`basename "$FULLNAME"`
 DIRNAME=`dirname "$FULLNAME"`
