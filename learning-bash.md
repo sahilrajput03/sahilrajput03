@@ -1,5 +1,29 @@
 # Learning bash
 
+TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
+
+**Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
+
+**Using tee command**
+
+```bash
+echo Hello I am Sahil > log
+#Write to file log
+
+echo Hello I am Sahil > log1 > log2
+# Clears content of file log1 and overwrite content of log2 with text "Hello I am Sahil".
+# But actually I wanted to overwrite to both log1 and log2 file with text "Hello I am Sahil".
+# FYI: echo Hello I am Sahil > log2 log3 #This would be no good at all coz it'll write "Hello I am Sahil log3" to log2 file simply.
+
+
+# So, we need tee for that:
+echo Hello I am Sahil | tee log2 log3
+# Overwrites text "Hello I am Sahil" to both log2 and log3 files.
+
+
+
+```
+
 **Know the filesystem usage and free space**
 
 ```bash
@@ -10,10 +34,6 @@ man df
 # Output:
 # NAME: df - report file system space usage
 ```
-
-TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
-
-**Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
 
 **Usage of `test` command**
