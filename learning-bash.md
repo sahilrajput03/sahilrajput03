@@ -35,7 +35,7 @@ echo Hello I am Sahil | tee log2 log3
 
 
 # By default tee overwrite the target files, instead if u want to append to content of the files, you can use:
-echo Hello I am Sahil | tee -ag2 log3
+echo Hello I am Sahil | tee -a log2 log3
 
 
 # Beauty of tee command is that we can repipe stdout (i.e., tee doesn't eat up thd stdout or stderr at all):
