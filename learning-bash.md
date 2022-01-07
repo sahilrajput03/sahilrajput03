@@ -10,6 +10,22 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 **FYI: You can use `printf sahil\\n` to print something to bash shell as well!** [Source](https://linuxize.com/post/bash-read/).
 
+**Using do-while in bash(hack)**:
+
+```bash
+# Source: https://stackoverflow.com/a/16489942/10012446
+
+actions() {
+   check_if_file_present
+   # Do other stuff
+}
+
+actions #1st execution
+while [ current_time <= $cutoff ]; do
+   actions # Loop execution
+done
+```
+
 **Using arrays in bash**
 
 [Wow source!](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
