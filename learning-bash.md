@@ -8,6 +8,8 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 **FYI: Process ids are assingned sequential basis. [Source](https://stackoverflow.com/a/20540553/10012446)**
 
+**FYI: You can use `printf sahil\\n` to print something to bash shell as well!** [Source](https://linuxize.com/post/bash-read/).
+
 **Using arrays in bash**
 
 [Wow source!](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
