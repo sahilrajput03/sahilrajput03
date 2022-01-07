@@ -370,6 +370,14 @@ kill `pgrep 1.sh` # Notice the backticks.
 kill $(pgrep -f battery-status)     #This will kill all the returning proceses via there process ids.
 ```
 
+## Get process id of commnand run in background:
+
+[Source](https://www.cyberciti.biz/faq/how-to-return-pid-of-a-last-command-in-linux-unix/)
+
+```
+echo $!
+# Ouput: Prints the pid of the last process you ran (i.e., only the commands which you ran in background by suffixing wiht & in the end. I.e., ```echo Sahil &```.
+```
 
 
 ## Using ps -aux and dont' show grep entry in that:
