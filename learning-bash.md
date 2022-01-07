@@ -21,8 +21,8 @@ ${#arr[@]}	Calculate array size
 arr[0]=3	Overwrite 1st element
 arr+=(4)	Append value(s)
 str=$(ls)	Save ls output as a string
-arr=( $(ls) )	Save ls output as an array of files
-${arr[@]:s:n}	Retrieve n elements starting at index s
+arr=( $(ls) )	Save ls output as an array of files       #Didn't work in my case ~ Sahil
+${arr[@]:s:n}	Retrieve n elements starting at index s   #Didn't work in my case ~ Sahil
 ```
 
 
