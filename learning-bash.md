@@ -342,9 +342,12 @@ $ echo I am Sahil | grep -o Sahil
 ## Using ps -aux and dont' show grep entry in that:
 
 ```
-# or
-ps -aux | grep -v grep | grep $!
+# FYI:
+echo $!
+# Ouput: Prints the pid of the last process you ran (i.e., only the commands which you ran in background by suffixing wiht & in the end. I.e., ```echo Sahil &```.
 
+ps -aux | grep -v grep | grep $!
+# or
 ps -aux | grep $! | grep -v grep
 ```
 
