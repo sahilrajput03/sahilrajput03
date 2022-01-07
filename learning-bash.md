@@ -316,6 +316,12 @@ $ echo I am Sahil | grep -o Sahil
 # Output: Sahil
 ```
 
+## Using ps -aux and dont' show grep entry in that:
+
+```
+ps -aux | grep $! | grep -v grep
+```
+
 ## Get path of the script file that we are executing
 
 ```
