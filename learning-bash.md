@@ -6,7 +6,7 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
-**Using arrays i bash**
+**Using arrays in bash**
 
 [Wow source!](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
 
