@@ -432,6 +432,16 @@ if [ -d blulabs ]; then echo yesss; echo we are still executing; fi
 # yesss
 # we are still executing
 
+
+a=10
+if [ $a ] ; then echo yes; fi
+# Output: yes
+
+a=          #Emptying the variable's value.
+if [ $a ] ; then echo yes; fi
+# Output: --no-ouput
+
+
 if [ 0 ]; then echo its truthy value; fi
 # **output: its truthy value
 
