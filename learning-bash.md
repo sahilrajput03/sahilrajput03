@@ -342,6 +342,9 @@ $ echo I am Sahil | grep -o Sahil
 ## Using ps -aux and dont' show grep entry in that:
 
 ```
+# or
+ps -aux | grep -v grep | grep $!
+
 ps -aux | grep $! | grep -v grep
 ```
 
