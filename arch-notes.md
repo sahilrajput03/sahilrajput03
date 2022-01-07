@@ -170,8 +170,11 @@ Src: https://archlinux.org/packages/community/any/speedtest-cli/
 pgrep -f battery-status   #Returns all pid's of services with text battery-status in its name.
 src: https://askubuntu.com/a/612318/702911
 
-# e.g., we can use it like:
-kill $ $(pgrep -f battery-status)     #This will kill all the returning proceses via there process ids.
+# e.g., we can use it like 1:
+kill `pgrep 1.sh`
+
+# e.g., we can use it like 2:
+kill $(pgrep -f battery-status)     #This will kill all the returning proceses via there process ids.
 ```
 
 ## Detect if a service i.e.,  services in `systemctl` is enabled (starts on boot) ?
