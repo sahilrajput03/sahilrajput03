@@ -24,6 +24,10 @@ Find me on terminal via `npx sahilrajput03` command.
 
 - **hindi: ** [Click here](learn-hindi.md)
 
+## My own watch/developement service using inotifywait
+
+Browser @ https://github.com/sahilrajput03/watchAll/blob/main/watchAll.sh
+
 ## Check if jre/jdk installed on your system ?
 
 [Source](https://stackoverflow.com/questions/22539779/how-to-tell-if-jre-or-jdk-is-installed)
