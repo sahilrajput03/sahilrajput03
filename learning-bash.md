@@ -517,7 +517,10 @@ if ! [ '' ]; then echo its falsy value; fi
 
 ------
 
-Equality operators and && and || operator:
+Equality operators, (#Comparisom Operators) and && and || operator:
+
+# What the heck is ge, le, lt, gt ?? 
+# Refer this amazing source: https://tldp.org/LDP/abs/html/comparison-ops.html
 
 if ((10>5 && 5>1 )); then echo cool; fi
 # output: cool
