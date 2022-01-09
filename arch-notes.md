@@ -2,6 +2,15 @@
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
+## Installed any-desk
+
+```
+git clone https://aur.archlinux.org/anydesk-bin.git
+cd anydesk-bin
+makepkg -s
+sudo pacman -U anydesk-bin-xxx.xx.tar.zst
+```
+
 ## Installed `inotify-tools` for `inotifywait`
 
 Wow, even facebook's watchman also uses `inotifywait` underneath [src](https://facebook.github.io/watchman/docs/install.html).
