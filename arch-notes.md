@@ -8,21 +8,16 @@ Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 sudo pacman -s vnstat
 # Read awesome docs @ https://wiki.archlinux.org/title/vnStat
 
+# Issue using `vnstat` like permission issue then this is what u need to fix it:  src: https://github.com/vergoh/vnstat/issues/134#issuecomment-663836557
+systemctl start vnstat.service 
+systemctl enable vnstat.service
+
 # Usage:
 vnstat --add -i wlp3s0 #or your network card name via command: ip addr
 
 #Fav use case:
 vnstat --live
 ```
-
-Issue using `vnstat` ??
-
-```bash
-# If you face some permission issue then this is what u need to fix it: 
-systemctl start vnstat.service 
-systemctl enable vnstat.service
-```
-
 
 ## Installed any-desk
 
