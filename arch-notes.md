@@ -7,7 +7,15 @@ Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 ```
 sudo pacman -s vnstat
 # Read awesome docs @ https://wiki.archlinux.org/title/vnStat
+
+# Usage:
+vnstat --add -i wlp3s0 #or your network card name via command: ip addr
+
+#Fav use case:
+vnstat --live
 ```
+
+Issue using `vnstat` ??
 
 ```bash
 # If you face some permission issue then this is what u need to fix it: 
