@@ -2,6 +2,20 @@
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
+## Installed vnstat - a network bandwidth and speed monitoring service
+
+```
+sudo pacman -s vnstat
+# Read awesome docs @ https://wiki.archlinux.org/title/vnStat
+```
+
+```bash
+# If you face some permission issue then this is what u need to fix it: 
+systemctl start vnstat.service 
+systemctl enable vnstat.service
+```
+
+
 ## Installed any-desk
 
 ```
