@@ -1,5 +1,7 @@
 # 🤺︎ Hi there 👋 Trying what I can !
 
+**No idea works until you do the work** ~ Stone Riley's
+
 **"Impossible is possile if you try really hard maybe!"**
 
 **"Competition leads to conflicts, conflicts leads to clashes, clashes leads to wars!"**
