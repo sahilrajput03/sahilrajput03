@@ -14,6 +14,9 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **IMHO**: In my humble opinion.
 
+it  jest means individual test.
+
+
 ## Other references:
 
 - **Arch-notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
