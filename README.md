@@ -286,7 +286,7 @@ For converting yaml to js object you can use [`front-matter`](https://github.com
 
 Why use `front-matter` package which is not much popular and simply use some other yaml to js-object/json converter package from npm ?
 
-**Ans.** Bcoz when we need to read file such as blog post we know that its just first few lines between === or --- or some pattern like that made by different blog post frameworks (e.g., jekyll and gatsby). So if we use front-matter then it manages and deals with yaml + non yaml(i.e. content of blog-post) on its own. So this way using a library like front-matter rocks! 💯
+**Ans.** Bcoz when we need to read file such as blog post we know that its just first few lines between === or --- or some pattern like that made by different blog post frameworks (e.g., jekyll and gatsby). **So if we use front-matter then it manages and deals with yaml + non yaml(i.e. content of blog-post) on its own. So this way using a library like front-matter rocks! 💯**
 
 ## Yaml curiosity ?
 
