@@ -14,7 +14,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **IMHO**: In my humble opinion.
 
-it  jest means individual test.
+`it`  jest means individual test in jest/other testing libraries ~ *fireshipio*
 
 
 ## Other references:
