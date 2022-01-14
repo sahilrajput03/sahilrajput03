@@ -2,6 +2,13 @@
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
+## Install yarn on archlinux
+
+```
+sudo pacman -S yarn
+```
+
+
 ## Installed vnstat - a network bandwidth and speed monitoring service
 
 ```
