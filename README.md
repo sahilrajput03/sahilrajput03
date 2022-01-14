@@ -16,6 +16,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 `it`  jest means individual test in jest/other testing libraries ~ *fireshipio*
 
+Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.com/app/signup
 
 ## Other references:
 
