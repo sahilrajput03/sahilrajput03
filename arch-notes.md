@@ -15,7 +15,11 @@ makepkg -s
 sudo pacman -U hstr-x.x.x.x-x86_64.pkg.tar.zst
 ```
 
-FYI: You can use `ctrl+j` and `ctrl+k` to go up/down in the command list. `Esc` to exit the search dialog.
+FYI:
+
+-  You can use `ctrl+j`/`ctrl+k`(same as vim) to go up/down in the command list. 
+-  `Esc`/`ctrl+c` to exit the search dialog.
+
 
 Also `mcfly` seems another fascinating solution for this as well, i.e., [source](https://stackoverflow.com/a/64895550/10012446) and it [github](https://github.com/cantino/mcfly) (3.5k stars WOW).
 
