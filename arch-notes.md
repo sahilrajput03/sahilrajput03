@@ -15,6 +15,8 @@ makepkg -s
 sudo pacman -U hstr-x.x.x.x-x86_64.pkg.tar.zst
 ```
 
+FYI: You can use `ctrl+j` and `ctrl+k` to go up/down in the command list. Yikes! 
+
 ## installed zip in archlinux:
 
 ```
