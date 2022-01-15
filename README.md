@@ -36,17 +36,10 @@ Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.
 
 ```bash
 git remote set-url origin <url>
-```
 
-A little verbose way?
-
-```bash
+# A little verbose way?
 git remote rm origin
 git remote add origin <url>
-```
-
-```bash
-git re
 ```
 
 ## My own watch/developement service using inotifywait
