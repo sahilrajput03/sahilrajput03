@@ -2,6 +2,22 @@
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
+## installed zip in archlinux:
+
+```
+sudo pacman -S zip
+```
+
+## Unzip/zip the files with password
+
+```bash
+zip -e targetFile.zip sourceFolder
+# source: https://www.tecmint.com/create-password-protected-zip-file-in-linux/
+
+# Unzipping:
+unzip ccat-command.zip
+```
+
 ## Install yarn on archlinux
 
 ```
