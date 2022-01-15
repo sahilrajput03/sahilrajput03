@@ -2,6 +2,19 @@
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
+## Installed hstr (`hh`)
+
+A search engine for command line history
+
+Source: [AUR](https://aur.archlinux.org/packages/hstr/)
+
+```bash
+git clone https://aur.archlinux.org/hstr.git
+cd hstr
+makepkg -s
+sudo pacman -U hstr-x.x.x.x-x86_64.pkg.tar.zst
+```
+
 ## installed zip in archlinux:
 
 ```
@@ -274,7 +287,7 @@ groups mary
 
 Type some text in terminal and press `ctrl+r` - Activate search mode.
 
-Now press `ctrl+r` multiple times to search back in order(fyi: there's no way to forward search, :( sad).
+Now press `ctrl+r` multiple times to search back in order(fyi: there's no way to forward search, :( sad). **FYI**: Its not really good experience to use that. ~Sahil.
 
 `ctrl+g` - Exit search mode.
 
@@ -284,6 +297,9 @@ Other good way to seach in previous commands in like:
 history n # n is number and it give last n number of commands(including the commands you executed in current shell as well).
 history 300 | grep scp | grep important$
 ```
+
+The most amazing experience to solve this is via using `hh` cli tool, i.e., #see `hstr` in this file for help for using that.
+
 ## Installed docker, docker-compose in archos
 
 ```bash
