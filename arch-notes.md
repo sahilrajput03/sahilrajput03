@@ -272,10 +272,18 @@ groups mary
 
 ## Terminal - seaching previous commands ?
 
-`ctrl+r` - Activate search mode
+Type some text in terminal and press `ctrl+r` - Activate search mode.
+
+Now press `ctrl+r` multiple times to search back in order(fyi: there's no way to forward search, :( sad).
 
 `ctrl+g` - Exit search mode.
 
+Other good way to seach in previous commands in like:
+
+```bash
+history n # n is number and it give last n number of commands(including the commands you executed in current shell as well).
+history 300 | grep scp | grep important$
+```
 ## Installed docker, docker-compose in archos
 
 ```bash
