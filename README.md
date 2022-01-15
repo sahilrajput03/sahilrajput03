@@ -40,6 +40,10 @@ git remote set-url origin <url>
 # A little verbose way?
 git remote rm origin
 git remote add origin <url>
+
+#FYI: If you try to set url for origin which isn't there already then git throws error:
+git remote set-url origin1 <urlHere>
+# Output: error: No such remote 'origin1'
 ```
 
 ## My own watch/developement service using inotifywait
