@@ -86,10 +86,9 @@ sudo pacman -S inotify-tools
 
 ```bash
 # BEAUTIFUL READY MADE SCRIPT:
-inotifywait -q -m -r -e close_write --exclude '.git/*' --format 'Wrote file %w%f' .
+inotifywait -q -m -r -e close_write --exclude '.git/*' --format 'Wrote file %w%f' . # We're watching complete directory and recursively as well.
 # FYI You can append ```| sh``` at the end of above command to execute the formatted message as shell commands DIRECTLY as well. (See below source link to know 1 usecase of this).
-# source: https://stackoverflow.com/a/420172/10012446
-# But the problem with above answer is that it watches over a file and when we watch over a single file(i.e., say `file.txt`) then %f doesn't seem to work at all.
+# source: https://stackoverflow.com/a/420172/10012446 ((But the problem with << this answer is that it watches over a file and when we watch over a single file like that (i.e., say `file.txt`) then %f doesn't seem to work at all IDK WHY, but it simply works if we watch over a complete directory via a . {period} )).
 # FYI: %f is the filename and %w is the directory path in which the just changed file exists.
 
 # Another way of doing it if you want to include a while loop (IMO{sahil}: its not at all necessary coz above one-liner performs all good!).
