@@ -81,6 +81,10 @@ sudo pacman -U anydesk-bin-xxx.xx.tar.zst
 Wow, even facebook's watchman also uses `inotifywait` underneath [src](https://facebook.github.io/watchman/docs/install.html).
 
 ```bash
+sudo pacman -S inotify-tools
+```
+
+```bash
 # BEAUTIFUL READY MADE SCRIPT:
 inotifywait -q -m -r -e close_write --exclude '.git/*' --format 'Wrote file %w%f' .
 # source: https://stackoverflow.com/a/420172/10012446
@@ -94,8 +98,6 @@ inotifywait -q -m -r -e close_write --exclude '.git/*' --format '%f' . | while r
 ```
 
 ```bash
-sudo pacman -S inotify-tools
-
 #1.sh
 #!/bin/bash
 echo helloworld
