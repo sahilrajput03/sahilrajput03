@@ -83,12 +83,13 @@ Wow, even facebook's watchman also uses `inotifywait` underneath [src](https://f
 ```bash
 # BEAUTIFUL READY MADE SCRIPT:
 inotifywait -q -m -r -e close_write --exclude '.git/*' --format 'Wrote file %w%f' .
-# https://stackoverflow.com/a/420172/10012446
+# source: https://stackoverflow.com/a/420172/10012446
 # But the problem with above answer is that it watches over a file and when we watch over a single file(i.e., say `file.txt`) then %f doesn't seem to work at all.
 # FYI: %f is the filename and %w is the directory path in which the just changed file exists.
 
 # Another way of doing it if you want to include a while loop (IMO{sahil}: its not at all necessary coz above one-liner performs all good!).
 inotifywait -q -m -r -e close_write --exclude '.git/*' --format '%f' . | while read FILE; do echo "$FILE written."; done
+# source: same above stackoverflow's answer.
 # inotifywait has a javascript implementaion as well: https://www.npmjs.com/package/inotifywait
 ```
 
