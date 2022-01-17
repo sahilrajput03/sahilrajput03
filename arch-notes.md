@@ -81,6 +81,18 @@ sudo pacman -U anydesk-bin-xxx.xx.tar.zst
 Wow, even facebook's watchman also uses `inotifywait` underneath [src](https://facebook.github.io/watchman/docs/install.html).
 
 ```bash
+# BEAUTIFUL READY MADE SCRIPT:
+inotifywait -q -m -r -e close_write --exclude '.git/*' --format 'Wrote file %w%f' .
+# https://stackoverflow.com/a/420172/10012446
+# But the problem with above answer is that it watches over a file and when we watch over a single file(i.e., say `file.txt`) then %f doesn't seem to work at all.
+# FYI: %f is the filename and %w is the directory path in which the just changed file exists.
+
+inotifywait -q -m -r -e close_write --exclude '.git/*' --format '%f' . | while read FILE; do echo "$FILE written."; done
+
+# inotifywait has a javascript implementaion as well: https://www.npmjs.com/package/inotifywait
+```
+
+```bash
 sudo pacman -S inotify-tools
 
 #1.sh
@@ -141,6 +153,8 @@ man inotifywait
 
 # --format <fmt>
 # Print using a specified printf-like format string; read the man page for more details.
+# e.g., --format 'Wrote file %w%f'
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ (TESTED ~sahil)
 ```
 
 ## Setting up android environment with vscode
