@@ -95,9 +95,10 @@ inotifywait -q -m -r -e close_write --exclude '.git/*' --format 'Wrote file %w%f
 inotifywait -q -m -r -e close_write --exclude '.git/*' --format '%f' . | while read FILE; do echo "$FILE written."; done
 # source: same above stackoverflow's answer.
 # inotifywait has a javascript implementaion as well: https://www.npmjs.com/package/inotifywait
-```
 
-```bash
+
+########################################
+
 #1.sh
 #!/bin/bash
 echo helloworld
