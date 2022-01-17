@@ -135,6 +135,9 @@ man inotifywait
 # -q|--quiet
 # Print less (only print events).
 
+# r|--recursive
+# Watch directories recursively.
+
 # --format <fmt>
 # Print using a specified printf-like format string; read the man page for more details.
 ```
