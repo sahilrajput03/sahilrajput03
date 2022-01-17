@@ -87,6 +87,7 @@ sudo pacman -S inotify-tools
 ```bash
 # BEAUTIFUL READY MADE SCRIPT:
 inotifywait -q -m -r -e close_write --exclude '.git/*' --format 'Wrote file %w%f' .
+# FYI You can append ```| sh``` at the end of above command to execute the formatted message as shell commands DIRECTLY as well. (See below source link to know 1 usecase of this).
 # source: https://stackoverflow.com/a/420172/10012446
 # But the problem with above answer is that it watches over a file and when we watch over a single file(i.e., say `file.txt`) then %f doesn't seem to work at all.
 # FYI: %f is the filename and %w is the directory path in which the just changed file exists.
