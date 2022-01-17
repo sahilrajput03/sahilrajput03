@@ -102,6 +102,7 @@ done
 
 # Watch over file and execute that file i.e., ```1.sh```.
 # src: https://superuser.com/a/181543/776589
+# tl;dr: Since we're using `-m` (monitor) flag so our the command(./1.s) is queued and run sequentially only when the last instance completely finishes!
 # The problem with this solution is that when the file is in execution phase (i.e., 1.sh) the script doesn't kill the existing running process but instead for getting it completed/exited and then only the event of running the file starts. So in simple terms it does listen to file changes even when the file (1.sh) is in execution phase but the problem is it doesn't kill the existing process and thus all write events triggered actions are queued. So such mechanish is not good for cases like running a express's node server which runs indefinitely and one needs to kill the process and start it again on file write changes. Yikes!
 inotifywait -q -m -e close_write 1.sh |
 while read -r filename event; do
