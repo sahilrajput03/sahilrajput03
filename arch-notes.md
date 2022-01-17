@@ -88,7 +88,6 @@ inotifywait -q -m -r -e close_write --exclude '.git/*' --format 'Wrote file %w%f
 # FYI: %f is the filename and %w is the directory path in which the just changed file exists.
 
 inotifywait -q -m -r -e close_write --exclude '.git/*' --format '%f' . | while read FILE; do echo "$FILE written."; done
-
 # inotifywait has a javascript implementaion as well: https://www.npmjs.com/package/inotifywait
 ```
 
