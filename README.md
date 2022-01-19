@@ -38,6 +38,18 @@ tl;dr: There is a very great significance of using `revert` instead of `git rese
 
 Source: [Here](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/#undo-a-public-change).
 
+## Get back to previous commit but keep the directory as it is (i.e., only change the commit history and keep the source code as it is)
+
+The key point is that you don't do
+
+```bash
+git reset --hard HEAD^
+# rather you should do below >>>
+git reset HEAD^
+# And now your source code is AS IT IS but the last commit is removed from the history.
+```
+
+
 ## Set github remote url directly without removing origin url
 
 ```bash
