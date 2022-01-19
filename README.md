@@ -32,6 +32,10 @@ Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.
 
 - **hindi: ** [Click here](learn-hindi.md)
 
+## difference between `git reset --hard` and `git revert <shaHere>`
+
+Refer this amazing section [here](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/#undo-a-public-change).
+
 ## Set github remote url directly without removing origin url
 
 ```bash
