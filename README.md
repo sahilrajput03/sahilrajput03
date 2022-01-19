@@ -32,9 +32,11 @@ Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.
 
 - **hindi: ** [Click here](learn-hindi.md)
 
-## difference between `git reset --hard` and `git revert <shaHere>`
+## Difference between `git reset --hard` and `git revert <shaHere>`
 
-Refer this amazing section [here](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/#undo-a-public-change).
+tl;dr: There is a very great significance of using `revert` instead of `git reset` coz it preserver all history and its important if you pushed earlier commmit to puclic and want it to be undone(remove) and still don't want to force push then `git revert` rocks coz it does exactly that! Read below like for more insights!.
+
+Source: [Here](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/#undo-a-public-change).
 
 ## Set github remote url directly without removing origin url
 
