@@ -62,6 +62,8 @@ Vscode [extension](https://marketplace.visualstudio.com/items?itemName=usernameh
 
 Read [here](https://stackoverflow.com/a/19041848/10012446).
 
+**Also read the original code of express's** `res.json` and `res.send` code [here](https://github.com/expressjs/express/blob/master/lib/response.js).
+
 ## Setting auto-attching ready debugger for nodejs/expressjs via nodemon
 
 1. Create a file `.vscode/launch.json` in root folder.
