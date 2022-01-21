@@ -1,7 +1,5 @@
 # arch-notes
 
-Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
-
 ## Installed workrave in arch
 
 Source: https://github.com/rcaelers/workrave
@@ -170,6 +168,8 @@ man inotifywait
 ```
 
 ## Setting up android environment with vscode
+
+Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
 ##### Permission of certificates permission denied ISSUE FIXED !! :
 
