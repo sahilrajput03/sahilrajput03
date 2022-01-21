@@ -2,6 +2,14 @@
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
+## Installed workrave in arch
+
+Source: https://github.com/rcaelers/workrave
+
+```
+sudo pacman -S workrave
+```
+
 ## Installed hstr (`hh`)
 
 A search engine for command line history
