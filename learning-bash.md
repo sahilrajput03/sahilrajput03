@@ -4,6 +4,13 @@
 
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
+## Get a file path in linux:
+
+```
+readlink -f file.txt
+Source: https://stackoverflow.com/a/5265775/10012446
+```
+
 ## wget command
 
 Amazing blog article: https://www.tecmint.com/10-wget-command-examples-in-linux/
@@ -35,6 +42,18 @@ Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Sour
 # ^^ these commands will execute in every 60 seconds and actually it ticks on 0th second of every minute of the system clock.
 
 ## FYI: WOW:: You can check with ```date``` to check the current time with current seconds to know when text in cc.text file will be appended coz command gets executed on 0th second in every minute! Yikes!!
+```
+
+#### Debug crontab's command when your jobs aren't running at all or something else is not working as expected ?? ~Sahil
+
+Source: https://serverfault.com/a/449652
+
+```bash
+Capture the output yourself
+You can redirect stdout and stderr to a file. The exact syntax for capturing output may vary depending on what shell cron is using. Here are two examples which save all output to a file at /tmp/mycommand.log:
+
+1 2 * * * /path/to/your/command &>/tmp/mycommand.log
+1 2 * * * /path/to/your/command >/tmp/mycommand.log 2>&1
 ```
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
