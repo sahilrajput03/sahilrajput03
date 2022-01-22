@@ -1,5 +1,15 @@
 # arch-notes
 
+## Installed xorg-xprop in archlinux
+
+```bash
+sudo pacman -S xorg-xprop
+
+#Now you can use:
+xprop
+# Now use cross-hair cursor to click any window and get all the details of that window!! Its good for doing stuff (like making certain windows always float in i3 tiling manager or other similar stuff).
+```
+
 ## Installed auto-jump in archlinux
 
 ```bash
