@@ -47,7 +47,7 @@ Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Sour
 crontab -l #List current user's crontab jobs. (or you can use: cat /var/spool/cron/array)
 crontab -e #Edt crontab entries of current user.
 
-# My example crontab jobs!! ~Sahil.
+# My example crontab jobs!! ~Sahil [below jobs will run every single minute].
 * * * * * ~/scripts-in-use/beepSound.sh
 * * * * * date >> ~/my-cron-task-log.txt
 # ^^ these commands will execute in every 60 seconds and actually it ticks on 0th second of every minute of the system clock.
