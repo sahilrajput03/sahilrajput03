@@ -4,7 +4,16 @@
 
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
-**Using commands cat, tac, less, more, head, tail ?**
+## Play sound in linux using pulseaudio from comandline
+
+```
+paplay ~/my-file.extension
+
+# to know supported audio extensions, use below commadn:
+paplay --list-file-formats
+```
+
+## Using commands cat, tac, less, more, head, tail ?**
 
 Source: https://www.tecmint.com/linux-more-command-and-less-command-examples, Source: https://www.tecmint.com/view-contents-of-file-in-linux/
 
