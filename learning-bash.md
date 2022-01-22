@@ -34,7 +34,7 @@ Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Sour
 * * * * * echo sahil >> ~/ct.txt
 # ^^ these commands will execute in every 60 seconds and actually it ticks on 0th second of every minute of the system clock.
 
-## FYI: WOW:: You can check with ```date``` to check the current time with current seconds to know when text in cc.text file will be appended! Yikes!!
+## FYI: WOW:: You can check with ```date``` to check the current time with current seconds to know when text in cc.text file will be appended coz command gets executed on 0th second in every minute! Yikes!!
 ```
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
