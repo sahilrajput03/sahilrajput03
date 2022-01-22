@@ -1,5 +1,14 @@
 # arch-notes
 
+## Installed mutt - a cli email client utility
+
+```
+sudo pacman -S mutt
+```
+Configuring your email client [help here](https://linuxconfig.org/how-to-install-configure-and-use-mutt-with-a-gmail-account-on-linux).
+
+**IMPORTANT**: You must enable this option in your gmail account so be able to login via `mutt`.
+
 ## Installed crontab in archlinux
 
 Source: https://unix.stackexchange.com/a/261871/504112
