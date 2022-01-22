@@ -4,6 +4,10 @@
 
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
+## wget command
+
+Amazing blog article: https://www.tecmint.com/10-wget-command-examples-in-linux/
+
 ## Play sound in linux using pulseaudio from comandline
 
 ```bash
