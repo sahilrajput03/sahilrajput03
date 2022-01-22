@@ -29,6 +29,11 @@ Source3: Archlinux's [cron docs](https://wiki.archlinux.org/title/cron).
 
 Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Source: https://www.tecmint.com/online-cron-job-generator-and-tester-for-linux/
 
+```bash
+* * * * * paplay ~/scripts-in-use/beep-sound-8333.wav
+* * * * * echo sahil >> ~/ct.txt
+```
+
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
 **FYI: Process ids are assingned sequential basis. [Source](https://stackoverflow.com/a/20540553/10012446)**
