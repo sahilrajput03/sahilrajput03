@@ -6,9 +6,11 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 **Using commands cat, tac, less, more, head, tail ?**
 
-Source: https://www.tecmint.com/linux-more-command-and-less-command-examples
+Source: https://www.tecmint.com/linux-more-command-and-less-command-examples, Source: https://www.tecmint.com/view-contents-of-file-in-linux/
 
-Source: https://www.tecmint.com/view-contents-of-file-in-linux/
+## Using crontab
+
+Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Source: https://www.tecmint.com/online-cron-job-generator-and-tester-for-linux/
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
