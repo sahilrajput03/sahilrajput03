@@ -4,6 +4,12 @@
 
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
+## Run command as other user:
+
+```bash
+sudo -u <user> <command>
+```
+
 ## Get a file path in linux:
 
 ```
