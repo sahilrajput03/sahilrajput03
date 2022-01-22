@@ -15,7 +15,11 @@ paplay --list-file-formats
 
 ## Using commands cat, tac, less, more, head, tail ?**
 
-Source: https://www.tecmint.com/linux-more-command-and-less-command-examples, Source: https://www.tecmint.com/view-contents-of-file-in-linux/
+Source1: https://www.tecmint.com/linux-more-command-and-less-command-examples
+
+Source2: https://www.tecmint.com/view-contents-of-file-in-linux/
+
+Source3: Archlinux's [cron docs](https://wiki.archlinux.org/title/cron).
 
 ## Using crontab
 
