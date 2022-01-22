@@ -6,7 +6,7 @@ TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shif
 
 ## Play sound in linux using pulseaudio from comandline
 
-```
+```bash
 paplay ~/my-file.extension
 
 # to know supported audio extensions, use below commadn:
