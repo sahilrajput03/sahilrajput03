@@ -10,6 +10,8 @@ systemctl enable --now cronie.service
 
 # Test status of service now:
 systemctl status --now cronie.service
+
+# Now you can use cli-tool i.e, ```crontab```
 ```
 
 ## Installed workrave in archlinux
