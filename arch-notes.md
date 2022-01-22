@@ -1,6 +1,18 @@
 # arch-notes
 
-## Installed workrave in arch
+## Installed crontab in archlinux
+
+Source: https://unix.stackexchange.com/a/261871/504112
+
+```bash
+sudo pacman -Syu cronie
+systemctl enable --now cronie.service
+
+# Test status of service now:
+systemctl status --now cronie.service
+```
+
+## Installed workrave in archlinux
 
 Source: https://github.com/rcaelers/workrave
 
