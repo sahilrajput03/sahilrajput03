@@ -12,6 +12,7 @@ systemctl enable --now cronie.service
 systemctl status --now cronie.service
 
 # Now you can use cli-tool i.e, ```crontab```
+# IMPORTANT: Add ```export EDITOR=/usr/bin/vim``` in your ```~/.bashrc``` file so ```crontab -e``` would work as it uses ```/bin/vim``` for editing cron files.
 ```
 
 ## Installed workrave in archlinux
