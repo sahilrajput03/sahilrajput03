@@ -4,6 +4,8 @@
 
 Source: https://unix.stackexchange.com/a/261871/504112
 
+Cron docs @ archlinux: https://wiki.archlinux.org/title/cron
+
 ```bash
 sudo pacman -Syu cronie
 systemctl enable --now cronie.service
