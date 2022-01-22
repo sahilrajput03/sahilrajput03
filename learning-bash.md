@@ -43,8 +43,13 @@ Source3: Archlinux's [cron docs](https://wiki.archlinux.org/title/cron).
 Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Source: https://www.tecmint.com/online-cron-job-generator-and-tester-for-linux/
 
 ```bash
-* * * * * paplay ~/scripts-in-use/beep-sound-8333.wav
-* * * * * echo sahil >> ~/ct.txt
+# Use below command to access crontab:
+crontab -l #List current user's crontab jobs. (or you can use: cat /var/spool/cron/array)
+crontab -e #Edt crontab entries of current user.
+
+# My example crontab jobs!! ~Sahil.
+* * * * * ~/scripts-in-use/beepSound.sh
+* * * * * date >> ~/my-cron-task-log.txt
 # ^^ these commands will execute in every 60 seconds and actually it ticks on 0th second of every minute of the system clock.
 
 ## FYI: WOW:: You can check with ```date``` to check the current time with current seconds to know when text in cc.text file will be appended coz command gets executed on 0th second in every minute! Yikes!!
