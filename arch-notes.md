@@ -9,7 +9,7 @@ Configuring your email client [help here](https://linuxconfig.org/how-to-install
 
 Using mutt from cli form this [blog post](https://www.tecmint.com/send-mail-from-command-line-using-mutt-command/).
 
-Stuff with mutt:
+**Do interesting stuff with mutt:**
 
 ```bash
 echo I need more things and all this text goes to body. | mutt -s 'MySubject' sahilrajput03@gmail.com
