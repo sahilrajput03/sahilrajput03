@@ -7,6 +7,8 @@ sudo pacman -S mutt
 ```
 Configuring your email client [help here](https://linuxconfig.org/how-to-install-configure-and-use-mutt-with-a-gmail-account-on-linux).
 
+Using mutt from cli form this [blog post](https://www.tecmint.com/send-mail-from-command-line-using-mutt-command/).
+
 **IMPORTANT**: You must enable this option in your gmail account so be able to login via `mutt`.
 
 ## Installed crontab in archlinux
