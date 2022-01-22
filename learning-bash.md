@@ -4,7 +4,7 @@
 
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
-**Using commands cat, tac, less, more, head, tail ?
+**Using commands cat, tac, less, more, head, tail ?**
 
 Source: https://www.tecmint.com/linux-more-command-and-less-command-examples
 
