@@ -1,5 +1,17 @@
 # arch-notes
 
+## Installed pdf opening utility
+
+```
+sudo pacman -S llpp
+
+#or you can use:
+sudo pacman -S mupdf #mupdf doesn't allow continuous page scrolling so llpp is a better alternative.
+
+#Usage:
+llpp/mupdf myfile.pdf
+```
+
 ## Installed xorg-xprop in archlinux
 
 ```bash
