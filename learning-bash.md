@@ -32,6 +32,9 @@ Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Sour
 ```bash
 * * * * * paplay ~/scripts-in-use/beep-sound-8333.wav
 * * * * * echo sahil >> ~/ct.txt
+# ^^ these commands will execute in every 60 seconds and actually it ticks on 0th second of every minute of the system clock.
+
+## FYI: WOW:: You can check with ```date``` to check the current time with current seconds to know when text in cc.text file will be appended! Yikes!!
 ```
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
