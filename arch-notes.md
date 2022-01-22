@@ -9,6 +9,18 @@ Configuring your email client [help here](https://linuxconfig.org/how-to-install
 
 Using mutt from cli form this [blog post](https://www.tecmint.com/send-mail-from-command-line-using-mutt-command/).
 
+Stuff with mutt:
+
+```bash
+echo I need more things and all this text goes to body. | mutt -s 'MySubject' sahilrajput03@gmail.com
+# Here I am sending subject and above body to myself.
+```
+
+```bash
+mutt -s 'MySubject' sahilrajput03@gmail.com < myFile.txt
+# Here I am sending subject and body from myFile.txt to my own email.
+```
+
 **IMPORTANT**: You must enable this option in your gmail account so be able to login via `mutt`.
 
 ## Installed crontab in archlinux
