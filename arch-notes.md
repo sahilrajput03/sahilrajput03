@@ -21,7 +21,7 @@ mutt -s 'MySubject' sahilrajput03@gmail.com < myFile.txt
 # Here I am sending subject and body from myFile.txt to my own email.
 ```
 
-**IMPORTANT**: You must enable this option in your gmail account so be able to login via `mutt`.
+**IMPORTANT**: You must enable [this option](https://stackoverflow.com/a/59129162/10012446) in your gmail account so be able to login via `mutt`.
 
 ## Installed crontab in archlinux
 
