@@ -1,5 +1,20 @@
 # arch-notes
 
+## Installed auto-jump in archlinux
+
+```bash
+git clone https://aur.archlinux.org/autojump.git
+cd autojump
+makepkg -s
+sudo pacman -U ./autojump-22.5.3-9-any.pkg.tar.zst 
+
+#Reading post install instructions I see it recommends to add below line:
+[[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh #Making autojump work!
+
+#Now restarting the terminal make me use it via:
+j <anyRecentlyUsedFolderName>
+```
+
 ## Installed mutt - a cli email client utility
 
 ```
