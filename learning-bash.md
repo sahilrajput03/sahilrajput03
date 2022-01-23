@@ -2,6 +2,18 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Rua a command/script `n` number of time
+
+Source: https://www.cyberciti.biz/faq/bsd-appleosx-linux-bash-shell-run-command-n-times/
+
+```bash
+## run command 10 times 
+for i in {1..10}; do commandNameHere; done
+ 
+## run script 10 times
+for i in {1..10}; do /path/to/cache.script.sh; done
+```
+
 TODO: Lean/Make some example for commands like: `exit` (`exit 1`), `trap`, `shift`, `wait`. Src: [here](https://github.com/denilsonsa/small_scripts/blob/master/sleep_until_modified.sh).
 
 ## Run command as other user:
