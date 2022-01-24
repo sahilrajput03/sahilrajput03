@@ -8,6 +8,8 @@
 
 **Ethics: Continum approach vs. Dictonomy approach in perspective of goodness and being bad.."**
 
+**Pracice Rigorous Authenticity, Surrender The Outcome and Do Uncomfortable Work" [bcoz](https://www.youtube.com/watch?v=UUnRKf2CemA).
+
 Find me on terminal via `npx sahilrajput03` command.
 
 **OTOH**: On the other hand.
