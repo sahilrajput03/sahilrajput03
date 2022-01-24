@@ -2,6 +2,10 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## you don't know all shortcuts of bash shell?
+
+[Source](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/).
+
 ## Rua a command/script `n` number of time
 
 Source: https://www.cyberciti.biz/faq/bsd-appleosx-linux-bash-shell-run-command-n-times/
