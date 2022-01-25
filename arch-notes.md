@@ -13,7 +13,8 @@ tmux -V # Know your tmux version.
 # So, your ```bind-key``` is C-a (i.e., control+a, by default it is control-b IMO ~sahil.)
 # FYI: ```C-a C-? List of key bindings.``` (i.e., control+a control+? to open list of shortcuts, FYI: press ```q``` to exit it).
 
-# WOW:: For selecting text from command ouput: Use ```C-a [``` and then you are in vim mode and simply use v or V and y to yank text. Yikes!!!
+# WOW:: For selecting text from command ouput: Use ```C-a [``` to enter the ```copy mode``` and then you are in vim mode and simply use v or V and y to yank text and press ```q``` to exit. Yikes!!!
+# WOW:: Use ```C-a ?``` to open the help menu in tmux and press ```q``` to exit it.
 ```
 
 Also, screen is another multi terminal managing utility but it isn't as good and popular as tmux:
