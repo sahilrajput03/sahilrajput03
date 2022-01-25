@@ -13,6 +13,8 @@ tmux -V # Know your tmux version.
 # So, your ```bind-key``` is C-a (i.e., control+a, by default it is control-b IMO ~sahil.)
 # FYI: ```C-a C-? List of key bindings.``` (i.e., control+a control+? to open list of shortcuts, FYI: press ```q``` to exit it).
 
+# WOW:: For selecting text from command ouput: Use ```C-a [``` and then you are in vim mode and simply use v or V and y to yank text. Yikes!!!
+
 # screen is tmux like software but it isn't that good coz::
 # Why to use tmux and not screen: https://superuser.com/a/236160/776589
 # though you can use screen it works very similar to tmux but isn't very popular for some reasons though its decent but i couln't able to start screen automatically with .bashrc setup idk why!
