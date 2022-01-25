@@ -14,15 +14,21 @@ tmux -V # Know your tmux version.
 # FYI: ```C-a C-? List of key bindings.``` (i.e., control+a control+? to open list of shortcuts, FYI: press ```q``` to exit it).
 
 # WOW:: For selecting text from command ouput: Use ```C-a [``` and then you are in vim mode and simply use v or V and y to yank text. Yikes!!!
+```
+
+Also, screen is another multi terminal managing utility but it isn't as good and popular as tmux:
+
+```
+sudo pacman screen
+# Usage:
+screen
 
 # screen is tmux like software but it isn't that good coz::
 # Why to use tmux and not screen: https://superuser.com/a/236160/776589
 # though you can use screen it works very similar to tmux but isn't very popular for some reasons though its decent but i couln't able to start screen automatically with .bashrc setup idk why!
-sudo pacman screen
-# Usage:
-screen
+
 # Now refer this blos post: https://linuxize.com/post/how-to-use-linux-screen/
-# Also do use .screenrc file and add 
+# Also do use .screenrc file and add ```startup_message off``` as suggested in above article to open it without initial message.
 ```
 
 ## Installed pdf opening utility
