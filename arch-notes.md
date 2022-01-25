@@ -22,6 +22,9 @@ C-a " to make new pane downwards.
 
 # Configuring tmux to start as default in any shell:
 # Source: https://unix.stackexchange.com/a/113768/504112
+
+# Opening tmux without config file:
+tmux -f /dev/null # Source: https://unix.stackexchange.com/a/411552/504112
 ```
 
 Also, `screen` is another multi terminal managing utility but it isn't as good and popular as tmux:
