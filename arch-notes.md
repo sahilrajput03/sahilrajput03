@@ -15,6 +15,10 @@ tmux -V # Know your tmux version.
 
 # WOW:: For selecting text from command ouput: Use ```C-a [``` to enter the ```copy mode``` and then you are in vim mode and simply use v or V and y to yank text and press ```q``` to exit. Yikes!!!
 # WOW:: Use ```C-a ?``` to open the help menu in tmux and press ```q``` to exit it.
+# Others:
+C-a % to make new pane towards right.
+C-a " to make new pane downwards.
+# ALSO: Use ctrl+d to kill pane (this is a general terminal keybinding to kill any terminal though).
 ```
 
 Also, `screen` is another multi terminal managing utility but it isn't as good and popular as tmux:
