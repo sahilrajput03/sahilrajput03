@@ -1,25 +1,24 @@
 # Vim
 
+## windows in vim ? Cool?
+
+- Use `ctrl+w n` to create new windows inside in vim.
+- Use `ctrl+w h or j or k or l` to switch b/w the windows in vim.
+- Use `ctrl+w H or J or K or L` to shift one window to left or down or up or right (SAME AS WHAT VIM DOES elsewhere).
+- Use `ctrl+w q` to close the window in vim.(you can use your old `ZQ` or `ZZ` to exit or write file similarly).
+- For resizing the the windows inside vim you can take help [here](https://vi.stackexchange.com/a/515).
+
 ## Using terminal in vim:
 
 Source: https://stackoverflow.com/a/46822285/10012446
 
 - Use `:term` or `:terminal` to open a terminal in vim (tip: use `:vertical :term` to open terminal towards right in vim).
-- Use `ctrl+w n` to create new window in vim.
-- Use `ctrl+w H or J or K or L` to shift one window to left or down or up or right (SAME AS WHAT VIM DOES elsewhere).
 - Use `ctrl+w N` (capital N) to turn terminal into edit mode. And you can then use switch back to `Terminal-Job` mode, press `i`.
 - Use `:term <myCommand>` to run command directly from vim.
 - To exit terminal in vim:
   - Press `Ctrl+d`(general bash binding to kill current shell)
   - OR Type `exit` command
   - OR Use `Control+w` and then press `:q` or `:q!`
-- For resizing the the windows inside vim you can take help [here](https://vi.stackexchange.com/a/515).
-
-## more to go...
-
-- Use `ctrl+w n` to create new windows inside in vim.
-- Use `ctrl+w h or j or k or l` to switch b/w the windows in vim.
-- Use `ctrl+w q` to close the window in vim.(you can use your old `ZQ` or `ZZ` to exit or write file similarly).
 
 ## Blow tips:
 
