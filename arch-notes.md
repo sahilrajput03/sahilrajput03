@@ -4,7 +4,7 @@
 
 ```
 sudo pacman -S tmux
-# Get tmux config file from: https://github.com/jonhoo/configs/blob/master/shell/.tmux.conf and paste it into file ```.tmux.conf``` file.
+# Get tmux config file from: https://github.com/jonhoo/configs/blob/master/shell/.tmux.conf and paste it into file ```~/.tmux.conf``` file.
 
 # Usage:
 tmux    # Good to go now!
