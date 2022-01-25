@@ -6,6 +6,11 @@ Source: https://stackoverflow.com/a/46822285/10012446
 
 - Use `:term` or `:terminal` to open a terminal in vim.
 - Use `ctrl+w N` (capital N) to turn terminal into edit mode. And you can then use switch back to `Terminal-Job` mode, press `i`.
+- Use `:term <myCommand>` to run command directly from vim.
+- To exit terminal in vim:
+  - Press `Ctrl+d`(general bash binding to kill shell)
+  - OR Type `exit` command
+  - OR Use `Control+w` and then press `:q` or `:q!`
 
 ## more to go...
 
