@@ -13,6 +13,7 @@ Source: https://stackoverflow.com/a/46822285/10012446
   - Press `Ctrl+d`(general bash binding to kill current shell)
   - OR Type `exit` command
   - OR Use `Control+w` and then press `:q` or `:q!`
+- For resizing the the windows inside vim you can take help [here](https://vi.stackexchange.com/a/515).
 
 ## more to go...
 
