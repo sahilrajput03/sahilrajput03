@@ -4,7 +4,7 @@
 
 Source: https://stackoverflow.com/a/46822285/10012446
 
-- Use `:term` or `:terminal` to open a terminal in vim.
+- Use `:term` or `:terminal` to open a terminal in vim (tip: use `:vertical :term` to open terminal towards right in vim).
 - Use `ctrl+w n` to create new window in vim.
 - Use `ctrl+w H or J or K or L` to shift one window to left or down or up or right (SAME AS WHAT VIM DOES elsewhere).
 - Use `ctrl+w N` (capital N) to turn terminal into edit mode. And you can then use switch back to `Terminal-Job` mode, press `i`.
