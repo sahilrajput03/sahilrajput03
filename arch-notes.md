@@ -10,7 +10,7 @@ sudo pacman -S tmux
 tmux    # Good to go now!
 tmux -V # Know your tmux version.
 
-# So, your ```bind-key``` is C-a (i.e., control+a, by default it is control-b IMO ~sahil.)
+# So, your ```bind-key``` is C-a (i.e., control+a, but otherwise it is control-b by default IMO ~sahil.)
 # FYI: ```C-a C-? List of key bindings.``` (i.e., control+a control+? to open list of shortcuts, FYI: press ```q``` to exit it).
 
 # WOW:: For selecting text from command ouput: Use ```C-a [``` to enter the ```copy mode``` and then you are in vim mode and simply use v or V and y to yank text and press ```q``` to exit. Yikes!!!
