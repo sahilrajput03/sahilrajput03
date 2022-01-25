@@ -17,7 +17,7 @@ tmux -V # Know your tmux version.
 # WOW:: Use ```C-a ?``` to open the help menu in tmux and press ```q``` to exit it.
 ```
 
-Also, screen is another multi terminal managing utility but it isn't as good and popular as tmux:
+Also, `screen` is another multi terminal managing utility but it isn't as good and popular as tmux:
 
 ```
 sudo pacman screen
