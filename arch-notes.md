@@ -2,7 +2,7 @@
 
 ## Installed tmux:
 
-```
+```bash
 sudo pacman -S tmux
 # Get tmux config file from: https://github.com/jonhoo/configs/blob/master/shell/.tmux.conf and paste it into file ```~/.tmux.conf``` file.
 
@@ -19,6 +19,9 @@ tmux -V # Know your tmux version.
 C-a % to make new pane towards right.
 C-a " to make new pane downwards.
 # ALSO: Use ctrl+d to kill pane (this is a general terminal keybinding to kill any terminal though).
+
+# Configuring tmux to start as default in any shell:
+# Source: https://unix.stackexchange.com/a/113768/504112
 ```
 
 Also, `screen` is another multi terminal managing utility but it isn't as good and popular as tmux:
