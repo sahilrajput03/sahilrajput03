@@ -1,15 +1,17 @@
 # Vim
 
+## Using terminal in vim:
+
+Source: https://stackoverflow.com/a/46822285/10012446
+
+- Use `:term` or `:terminal` to open a terminal in vim.
+- Use `ctrl+w N` (capital N) to turn terminal into edit mode. And you can then use switch back to `Terminal-Job` mode, press `i`.
+
 ## more to go...
 
 - Use `ctrl+w n` to create new windows inside in vim.
 - Use `ctrl+w h or j or k or l` to switch b/w the windows in vim.
 - Use `ctrl+w q` to close the window in vim.(you can use your old `ZQ` or `ZZ` to exit or write file similarly).
-
-- Use `:term` or `:terminal` to open a terminal in vim.
-- Use `ctrl+w N` (capital N) to turn terminal into edit mode. And you can then use switch back to `Terminal-Job` mode, press `i`.
-
-src(for teminal ones): https://stackoverflow.com/a/46822285/10012446
 
 ## Blow tips:
 
