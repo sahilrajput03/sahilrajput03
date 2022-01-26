@@ -39,7 +39,7 @@ Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.
 
 - **Enlightment:** [Cick here](enlightenment.md)
 
-- **hindi: ** [Click here](learn-hindi.md)
+- **hindi:** [Click here](learn-hindi.md)
 
 - **Url shorteners:  Bitly and Ow.ly**
 
