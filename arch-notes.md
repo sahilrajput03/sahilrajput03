@@ -4,24 +4,30 @@
 
 ```bash
 sudo pacman -S tmux
-# Get tmux config file from: https://github.com/jonhoo/configs/blob/master/shell/.tmux.conf and paste it into file ```~/.tmux.conf``` file.
+# Get tmux config file from: https://github.com/sahilrajput03/arch_os/blob/main/.tmux.conf
 
 # Usage:
 tmux    # Good to go now!
 tmux -V # Know your tmux version.
 
-# So, your ```bind-key``` is C-a (i.e., control+a, but otherwise it is control-b by default IMO ~sahil.)
-# FYI: ```C-a C-? List of key bindings.``` (i.e., control+a control+? to open list of shortcuts, FYI: press ```q``` to exit it).
+# So, your ```bind-key``` is C-t (i.e., control+t, but otherwise it is control-b by default IMO ~sahil.)
+# FYI: ```C-t C-? List of key bindings.``` (i.e., control+a control+? to open list of shortcuts, FYI: press ```q``` to exit it).
 
 # WOW:: For selecting text from command ouput: Use ```C-a [``` to enter the ```copy mode``` and then you are in vim mode and simply use v or V and y to yank text and press ```q``` to exit. Yikes!!!
-# WOW:: Use ```C-a ?``` to open the help menu in tmux and press ```q``` to exit it.
+# WOW:: Use ```C-t ?``` to open the help menu in tmux and press ```q``` to exit it.
 # Others:
-C-a % to make new pane towards right.
-C-a " to make new pane downwards.
+C-t % to make new pane towards right.
+C-t " to make new pane downwards.
 # ALSO: Use ctrl+d to kill pane (this is a general terminal keybinding to kill any terminal though).
 
 # Configuring tmux to start as default in any shell:
 # Source: https://unix.stackexchange.com/a/113768/504112
+
+# Setting new prefix key in config doesn't work for you? (HINT: You haven't stopped your earlier tmux server, do it via ```pkill tmux``` command.
+# Answer: https://superuser.com/a/1287433/776589
+
+#Kill all tmux windows and panes ?
+pkill tmux
 
 # Opening tmux without config file:
 tmux -f /dev/null # Source: https://unix.stackexchange.com/a/411552/504112
