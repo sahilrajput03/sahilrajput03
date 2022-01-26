@@ -1,3 +1,10 @@
+# neovim (nvim)
+
+Config file: `~/nvim` instead of `~/.vimrc`.
+
+`:e fileName`: to open a file in current window in neovim.(in vim it used to be `:open fileName` instead.
+TIP: You can use `<tab>` complete in nvim though,Yikes!
+
 # Vim
 
 ## windows in vim ? Cool?
