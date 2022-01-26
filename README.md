@@ -41,7 +41,7 @@ Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.
 
 - **hindi:** [Click here](learn-hindi.md)
 
-- **Url shorteners:  Bitly and Ow.ly**
+- **Url shorteners:  [Bitly](https://bitly.com/)
 
 ## Difference between `git reset --hard` and `git revert <shaHere>`
 
