@@ -1,5 +1,14 @@
 # arch-notes
 
+## Installed neovim
+
+[neovim - Archwiki](https://wiki.archlinux.org/title/Neovim), [neovim - Arch package](https://archlinux.org/packages/community/x86_64/neovim/).
+
+```
+sudo pacman -S neovim
+# neovim uses your .vimrc file 
+```
+
 ## Installed tmux:
 
 ```bash
