@@ -5,6 +5,8 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
+**[KISS](https://en.wikipedia.org/wiki/KISS_principle)**
+
 **"No idea works until you do the work"** ~ Stone Riley
 
 **"Impossible is possile if you try really hard maybe!"**
