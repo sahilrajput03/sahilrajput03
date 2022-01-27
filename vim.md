@@ -2,6 +2,8 @@
 
 Config file: `~/nvim/init.vim` instead of `~/.vimrc`.
 
+If you are using [`Jonhoo's config of neovim`](https://github.com/jonhoo/configs/blob/master/editor/.config/nvim/init.vim) then you use `c-q` to generate simple exit for vim, its really cool! Do try this!
+
 ```bash
 call plug#begin()
 ^^ that means code for vim-plug is starting here...
