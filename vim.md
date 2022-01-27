@@ -1,6 +1,18 @@
 # neovim (nvim)
 
-Config file: `~/nvim` instead of `~/.vimrc`.
+Config file: `~/nvim/init.vim` instead of `~/.vimrc`.
+
+```bash
+call plug#begin()
+^^ that means code for vim-plug is starting here...
+Source: https://github.com/junegunn/vim-plug
+#FYI: :PlugInstall to install the plugins added in your .vimrc or ~/nvim/init.vim file.
+
+call vundle#begin()
+^^ that means code for VundleVim is starting here...
+Source: https://github.com/VundleVim/Vundle.vim
+#FYI: :PluginInstall to install the plugins added in your .vimrc or ~/nvim/init.vim file.
+```
 
 `:e fileName`: to open a file in current window in neovim.(in vim it used to be `:open fileName` instead.
 TIP: You can use `<tab>` complete in nvim though,Yikes!
