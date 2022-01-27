@@ -2,6 +2,13 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Copy some text to clipboard via echo or file?
+
+```
+echo carl | xclip -selection clipboard
+cat myFile.txt | xclip -selection clipboard
+```
+
 ## you don't know all shortcuts of bash shell?
 
 [Source](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/).
