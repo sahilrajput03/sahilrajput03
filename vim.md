@@ -12,6 +12,10 @@ sudo pacman -S rust-analyzer
 
 #Temp load from custom config folder:
 vi -u nvim-sahil/init.vim
+
+#Look for the runtime failure logs in neovim ?
+:message #From inside nvim
+# Source: https://stackoverflow.com/a/17959126/10012446
 ```
 
 ```bash
