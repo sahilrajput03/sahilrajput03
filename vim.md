@@ -9,6 +9,9 @@ You must have rust-analyzer cli tool to get intellisense from that:
 ```bash
 sudo pacman -S rust-analyzer
 #Now your vim can access it as well!.
+
+#Temp load from custom config folder:
+vi -u nvim-sahil/init.vim
 ```
 
 ```bash
