@@ -66,6 +66,7 @@ Source `/home/array/.config/Code/User/settings.json`
   {
     "key": "alt+b",
     "command": "workbench.action.toggleSidebarVisibility"
+        // Comments here works too
   },
   {
     "key": "ctrl+b",
