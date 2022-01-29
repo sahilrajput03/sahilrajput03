@@ -14,6 +14,6 @@
 - CSS @ W3SCHOOLS.COM - https://www.w3schools.com/css/
 
 
-### Sources of above links:
+# Sources
 
 Eloquent Javascript: https://eloquentjavascript.net/
