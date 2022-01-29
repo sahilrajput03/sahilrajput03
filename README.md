@@ -45,6 +45,7 @@ Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.
 
 - **Url shorteners:**  [Bitly](https://bitly.com/)
 - **Vscode Settings:** [Click here](vscode-settings.md)
+- **Prime Resource - Javascript**: [Click here](prime-resources-js.md)
 
 ## Difference between `git reset --hard` and `git revert <shaHere>`
 
