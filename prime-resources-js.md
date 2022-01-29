@@ -20,3 +20,4 @@ Eloquent Javascript: https://eloquentjavascript.net/
 
 - HTML @ MDN (Mozilla Developer Network) - https://developer.mozilla.org/en-US/docs/Web/HTML
 - CSS @ MDN (Modizlla Developer Network) - https://developer.mozilla.org/en-US/docs/Web/CSS
+- CSS @ W3SCHOOLS.COM - https://www.w3schools.com/css/
