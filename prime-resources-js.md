@@ -9,9 +9,9 @@
 - FullStackOpen 2022: [WEB](https://fullstackopen.com/en/)
 
 **html and css**:
-- HTML @ MDN (Mozilla Developer Network) - https://developer.mozilla.org/en-US/docs/Web/HTML
-- CSS @ MDN (Modizlla Developer Network) - https://developer.mozilla.org/en-US/docs/Web/CSS
-- CSS @ W3SCHOOLS.COM - https://www.w3schools.com/css/
+- HTML @ MDN (Mozilla Developer Network) - [WEB](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS @ MDN (Modizlla Developer Network) - [WEB](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- CSS @ W3SCHOOLS.COM - [WEB](https://www.w3schools.com/css/)
 
 
 # Sources
