@@ -2,6 +2,12 @@
 
 Config file: `~/nvim/init.vim` instead of `~/.vimrc`.
 
+## Exiting search mode in vim (or say declaration highligh mode in vim)
+
+`Ctrl+l`, [Source](https://stackoverflow.com/questions/25786824/how-to-leave-search-mode-in-vim/25787211).
+
+---
+
 If you are using [`Jonhoo's config of neovim`](https://github.com/jonhoo/configs/blob/master/editor/.config/nvim/init.vim) then you use `c-q` to generate simple exit for vim, its really cool! Do try this!
 
 You must have rust-analyzer cli tool to get intellisense from that:
