@@ -43,6 +43,8 @@ Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.
 
 - **hindi:** [Click here](learn-hindi.md)
 
+- **More thoughts:** [Click here](thoughts.md)
+
 - **Url shorteners:**  [Bitly](https://bitly.com/)
 - **Vscode Settings:** [Click here](vscode-settings.md)
 - **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
