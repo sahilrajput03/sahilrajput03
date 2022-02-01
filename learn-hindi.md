@@ -33,6 +33,7 @@
 - सहिष्णुता : सहन करना ; असहिष्णुता : सहन न करना
 - रुझान : अभिवृत्ति, attitude
 - अंतरात्मा : conscience
+- लोकतंत्र  : Participated Democracy
 
 ## अक्षर / Leters or Characters
 
