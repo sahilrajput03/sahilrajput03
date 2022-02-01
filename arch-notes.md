@@ -722,6 +722,19 @@ sudo systemctl stop sshd
 
 src: https://linuxhint.com/arch_linux_ssh_server/
 
+##  Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
+
+```
+ranger --copy-config=rifle #Copies default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
+vi .config/ranger/rifle.conf
+```
+
+and now add below line where you have other pdf extension openers defined in there:
+
+```
+ext pdf, has google-chrome-stable,     X, flag f = google-chrome-stable "$@"
+```
+
 ## Installing `comfortable-motion` and `vim-plug`
 
 Install vim-plug(a vim plugin manager):
