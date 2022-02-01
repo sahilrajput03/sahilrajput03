@@ -1,5 +1,7 @@
 # arch-notes
 
+FYI: My current `config` files in github repo: [sahilrajput03/arch_os](https://github.com/sahilrajput03/arch_os)
+
 ## Installed neovim
 
 [neovim - Archwiki](https://wiki.archlinux.org/title/Neovim), [neovim - Arch package](https://archlinux.org/packages/community/x86_64/neovim/).
