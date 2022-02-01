@@ -721,3 +721,129 @@ sudo systemctl stop sshd
 ```
 
 src: https://linuxhint.com/arch_linux_ssh_server/
+
+## Installing `comfortable-motion` and `vim-plug`
+
+Install vim-plug(a vim plugin manager):
+LEARN vim-plug -> https://github.com/junegunn/vim-plug#example
+
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+now, add config to `~/.vimrc` file i.e., code from: https://github.com/junegunn/vim-plug#example.
+
+**OR tl;dr; add below code directly:**
+
+```
+call plug#begin('~/.vim/plugged')
+
+Plug 'yuttie/comfortable-motion.vim'
+" More plugins here.
+
+call plug#end()
+```
+
+**IMPORTANT:** Reload `.vimrc` and `:PlugInstall` to install plugins.
+
+## Setting up capslock to esc and shift+capslock to actual capslock:
+
+**FYI: The file /etc/X11/xorg.conf.d/00-keyboard.conf is backuped at ``backupFiles`` folder as well!! So you can directly copy that file to its needed location whenever you need to set esc-capslock-shift settings as you have right now.**
+
+Amazing answer here: https://superuser.com/a/1471357
+
+**Learn how to make sample config files from scratch from below link of arch docs:**
+
+https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_X_configuration_files
+ 
+Source: https://wiki.archlinux.org/title/Xorg#Using_.conf_files
+
+**tldr;**
+
+```bash
+sudo vim /etc/X11/xorg.conf.d/00-keyboard.conf
+```
+
+and add below code in the tripple backticks:
+
+```txt
+Section "InputClass"
+        Identifier "system-keyboard"
+        MatchIsKeyboard "on"
+#        Option "XkbLayout" "cz,us"
+#        Option "XkbModel" "pc104"
+#        Option "XkbVariant" ",dvorak"
+#        Option "XkbOptions" "grp:win_space_toggle"
+	Option "XkbOptions" "terminate:ctrl_alt_bksp,caps:escape_shifted_capslock"
+EndSection
+```
+
+## Sending a notification with `notify-send`
+
+```bash
+notify-send Hello "More text here"
+```
+
+## Permission
+
+ls -l --->>> gives
+
+```txt
+1234567890
+1: file/directory significance.
+234: read write execution permission for the user owner of the file.
+567: read write execution permission for the user owner's group of the file.
+890: read write execution permission for all other users.
+```
+
+```bash
+# user of the file:
+$ chmod +rwx filename
+
+# all the users in the group of the  
+chmod g+w filename
+chmod g-wx filename
+
+# others
+chmod o+w filename
+chmod o-rwx foldername
+```
+
+**Permission numbers**
+
+```txt
+0 = ---
+1 = --x
+2 = -w-
+3 = -wx
+4 = r-
+5 = r-x
+6 = rw-
+7 = rwx
+```
+
+For example:
+
+```
+chmod 777 foldername will give read, write, and execute permissions for everyone.
+chmod 700 foldername will give read, write, and execute permissions for the user only.
+chmod 327 foldername will give write and execute (3) permission for the user, w (2) for the group, and read, write, and execute for the users.
+```
+
+## Enabling hibernation in archlinux
+
+1. LEARN: ::About What all needs to be done in order to make hibernation work when you already have a swap partition and have a entry for it in the ``/etc/fstab`` file::
+ 
+One thing I remember, I needed to point the kernel to the swap partition on the kernel command line. This is described somewhere in the ArchWiki article about hibernation. There might also be changes needed in the HOOKS= line in /etc/mkinitcpio.conf, but I don't quite remember. This will also be mentioned somewhere in the wiki article.
+
+I occasionally have problems with hibernation depending on the kernel version. Some versions don't work right for my PC here. I don't think that's the problem for you from the way you describe what's happening, but I guess you could still try a different kernel version to check. There's an alternative one in the package named linux-lts. You can install it in parallel to the normal linux package. You need to look up how to add a second boot menu entry for it with the boot loader you are using.
+
+src: https://www.reddit.com/r/linuxquestions/comments/7swvyb/cannot_restore_session_after_hibernation/?utm_source=reddit-android
+
+2. LEARN ::About adding entry in the ```/etc/default/grub``` file::
+https://wiki.archlinux.org/title/GRUB
+^^ search for hibernation keyword and you'll get the necessary things you need to do in file - ```/etc/default/grub``` in variable - ```GRUB_CMDLINE_LINUX_DEFAULT```.
+
+3. LEARN :: Reference from video: 
+src: https://www.youtube.com/watch?v=Xek3TGKzLWw&list=PLBfwD_NnDB3p4rM53ZxU2K6o5YZMzr6qc&index=7&t=270s
