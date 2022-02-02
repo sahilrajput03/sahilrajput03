@@ -705,6 +705,7 @@ echo ${x}yz       #Concatenation variables with other string or variable.
 
 
 
+#String splitting, #string split, #split string, #substring
 
 var=01234
 echo ${var:3}
