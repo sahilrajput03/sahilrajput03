@@ -2,6 +2,18 @@
 
 Config file: `~/nvim/init.vim` instead of `~/.vimrc`.
 
+## Open a current or other file in a vertical or horizontal split window ?
+
+```
+:sp                   #This opens current file in horizontal buffer
+:vs                   #This opens current file in vertical buffer
+
+
+#To open another file -
+:sp filePathHere    #This opens in horizontal buffer
+:vs filePathHere    #This opens in vertical buffer
+```
+
 ## Exiting search mode in vim (or say declaration highligh mode in vim)
 
 `Ctrl+l`, [Source](https://stackoverflow.com/questions/25786824/how-to-leave-search-mode-in-vim/25787211).
