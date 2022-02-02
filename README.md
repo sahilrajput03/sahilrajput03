@@ -18,8 +18,9 @@ cat /dev/null
 - **Vscode Settings:** [Click here](vscode-settings.md)
 - **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
 
+## Thoughts, Principles, Acronyms
 
-**[KISS](https://en.wikipedia.org/wiki/KISS_principle)**
+**[Keep Ot Simple, Stupid (KISS)](https://en.wikipedia.org/wiki/KISS_principle)**
 
 **"No idea works until you do the work"** ~ Stone Riley
 
