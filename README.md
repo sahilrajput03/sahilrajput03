@@ -33,18 +33,13 @@ Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.
 
 ## Other references:
 
-- **Arch-notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
-
+- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
+- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
-
 - **vim-notes:** [Click here](vim.md)
-
 - **Enlightment:** [Cick here](enlightenment.md)
-
 - **hindi:** [Click here](learn-hindi.md)
-
 - **More thoughts:** [Click here](thoughts.md)
-
 - **Url shorteners:**  [Bitly](https://bitly.com/)
 - **Vscode Settings:** [Click here](vscode-settings.md)
 - **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
