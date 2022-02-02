@@ -48,6 +48,19 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## Directory/File structure in Github
+
+```txt
+github.com/userName/repoName/tree/branchName/directoryPathHere
+e.g., https://github.com/sahilrajput03/learning_rust/tree/master/Lesson1/mouse
+
+github.com/userName/repoName/blob/branchName/filePathHere
+e.g., https://github.com/sahilrajput03/learning_rust/blob/master/Lesson1/mouse/mod.rs
+
+TIP: You can download the file via wget, say:
+wget https://github.com/sahilrajput03/learning_rust/blob/master/Lesson1/mouse/mod.rs
+```
+
 ## Difference between `git reset --hard` and `git revert <shaHere>`
 
 tl;dr: There is a very great significance of using `revert` instead of `git reset` coz it preserver all history and its important if you pushed earlier commmit to puclic and want it to be undone(remove) and still don't want to force push then `git revert` rocks coz it does exactly that! Read below like for more insights!.
