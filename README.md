@@ -20,7 +20,7 @@ cat /dev/null
 
 ## Thoughts, Principles, Acronyms
 
-**[Keep Ot Simple, Stupid (KISS)](https://en.wikipedia.org/wiki/KISS_principle)**
+**Keep It Simple, Stupid [(KISS)](https://en.wikipedia.org/wiki/KISS_principle)**
 
 **"No idea works until you do the work"** ~ Stone Riley
 
