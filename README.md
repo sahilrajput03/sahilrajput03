@@ -36,15 +36,15 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Acronyms**
 
-**OTOH**: On the other hand.
+**OTOH**: *On the other hand.*
 
-**IMHO**: In my humble opinion.
+**IMHO**: *In my humble opinion.*
 
-**TIL**: Today I Learned.
+**TIL**: *Today I Learned.*
 
-**`it`**  jest means individual test in jest/other testing libraries ~ *fireshipio*
+**`it`**  jest means ***individual test*** in jest/other testing libraries ~ *fireshipio*
 
-***microdosing*** = medicine (theraputic dose of a drug is a medicine)
+***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
