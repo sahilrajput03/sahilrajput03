@@ -5,6 +5,20 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
+## References:
+
+- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
+- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
+- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
+- **vim-notes:** [Click here](vim.md)
+- **Enlightment:** [Cick here](enlightenment.md)
+- **hindi:** [Click here](learn-hindi.md)
+- **More thoughts:** [Click here](thoughts.md)
+- **Url shorteners:**  [Bitly](https://bitly.com/)
+- **Vscode Settings:** [Click here](vscode-settings.md)
+- **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
+
+
 **[KISS](https://en.wikipedia.org/wiki/KISS_principle)**
 
 **"No idea works until you do the work"** ~ Stone Riley
@@ -19,30 +33,19 @@ cat /dev/null
 
 Find me on terminal via `npx sahilrajput03` command.
 
+**Acronyms**
+
 **OTOH**: On the other hand.
 
 **IMHO**: In my humble opinion.
 
 **TIL**: Today I Learned.
 
-`it`  jest means individual test in jest/other testing libraries ~ *fireshipio*
+**`it`**  jest means individual test in jest/other testing libraries ~ *fireshipio*
 
-*microdosing* = medicine (theraputic dose is a medicine)
+***microdosing*** = medicine (theraputic dose of a drug is a medicine)
 
-Schedule your meets with anybody ?  Ans. _A perfect solution_: https://calendly.com/app/signup
-
-## Other references:
-
-- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
-- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
-- **vim-notes:** [Click here](vim.md)
-- **Enlightment:** [Cick here](enlightenment.md)
-- **hindi:** [Click here](learn-hindi.md)
-- **More thoughts:** [Click here](thoughts.md)
-- **Url shorteners:**  [Bitly](https://bitly.com/)
-- **Vscode Settings:** [Click here](vscode-settings.md)
-- **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
+**Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
 ## Difference between `git reset --hard` and `git revert <shaHere>`
 
