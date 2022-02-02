@@ -20,7 +20,7 @@ cat /dev/null
 
 ## Thoughts, Principles, Acronyms
 
-**"Fear vs. Learning can't co-exist!"**
+**"Fear vs. Learning can't co-exist!" ~ Sahil**
 
 **"Keep It Simple, Stupid" ([KISS](https://en.wikipedia.org/wiki/KISS_principle))**
 
