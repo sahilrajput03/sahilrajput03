@@ -20,6 +20,8 @@ cat /dev/null
 
 ## Thoughts, Principles, Acronyms
 
+**"Fear vs. Learning: Choose wisely!"**
+
 **"Keep It Simple, Stupid" ([KISS](https://en.wikipedia.org/wiki/KISS_principle))**
 
 **"No idea works until you do the work"** ~ Stone Riley
