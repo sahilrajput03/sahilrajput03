@@ -16,9 +16,9 @@ tldr;
 # Enter visual block mode (NOTE: Its different than visual-line mode i.e., shift+v).
 ctrl+v
 
-#Select a number of line with j/k
+# Select a number of line with j/k
 
-#Put cursor to start of the line (use shift+a to get to end of the line)
+# Put cursor to start of the line (use shift+a to get to end of the line)
 shift+i
 
 # Ener comment character i.e., // or #
@@ -31,7 +31,7 @@ Uncommenting:
 # Enter visual block mode
 ctrl+v
 
-#Select a number of line with j/k
+# Select a number of line with j/k
 
 # Use l to select required number of chars and press d to delete all of them in once.
 ```
