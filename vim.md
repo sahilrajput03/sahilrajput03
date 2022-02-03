@@ -6,6 +6,36 @@ Config files from [David Pedersend](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## Comment/Uncomment lines
+
+Amazing: Source: https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim/15588798#15588798
+
+tldr;
+
+```
+# Enter visual block mode (NOTE: Its different than visual-line mode i.e., shift+v).
+ctrl+v
+
+#Select a number of line with j/k
+
+#Put cursor to start of the line (use shift+a to get to end of the line)
+shift+i
+
+# Ener comment character i.e., // or #
+
+# Press Esc and its DONE!.
+
+
+
+Uncommenting:
+# Enter visual block mode
+ctrl+v
+
+#Select a number of line with j/k
+
+# Use l to select required number of chars and press d to delete all of them in once.
+```
+
 ## Open a current or other file in a vertical or horizontal split window ?
 
 ```
