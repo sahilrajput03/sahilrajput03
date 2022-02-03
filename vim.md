@@ -13,6 +13,7 @@ Amazing: Source: https://stackoverflow.com/questions/1676632/whats-a-quick-way-t
 tldr;
 
 ```
+Commenting:
 # Enter visual block mode (NOTE: Its different than visual-line mode i.e., shift+v).
 ctrl+v
 
