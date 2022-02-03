@@ -8,7 +8,7 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ## TIPS
 
-- <CR> in any vim config file means <CarriageReturn> i.e., <Enter> key to execute the command. Yo! (wihtout it the command would just be retained in the command arrea only and you would need to press Enter manually. This opens lots of opportunities now! 
+- In any vim config file `<CR>` means <CarriageReturn> i.e., <Enter> key to execute the command. Yo! (wihtout it the command would just be retained in the command arrea only and you would need to press Enter manually. This opens lots of opportunities now! 
 - **Open a file in new buffer in current window only, use** `:e filePath`. (Tip: use right/left arrows to toggle between files as johnhoo made the bindings, tip: read **Toggle buffers** to understand how to do it with just commands).
 - **Reload file in vim, you can use** `:e!` or `:edit!` (both are same).
 - **Toggle buffers** in current window by `:bp` or `:bn` in nvim(works in vim too).
