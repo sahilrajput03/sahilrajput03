@@ -2,7 +2,7 @@
 
 Config file: `~/nvim/init.vim` instead of `~/.vimrc`.
 
-Config files from [David Pedersend](https://github.com/davidpdrsn/dotfiles).
+Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
