@@ -8,6 +8,10 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ## Comment/Uncomment lines
 
+**UPDATE: USE vim-commentary plugin (has 4k stars on github though) and works really good**.
+
+Check its usage you added in the `~/nvim/init.vim` file itself.
+
 Amazing: Source: https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim/15588798#15588798
 
 tldr;
