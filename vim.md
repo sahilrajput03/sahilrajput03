@@ -8,10 +8,12 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ## TIPS
 
+- <CR> in any vim config file means <CarriageReturn> i.e., <Enter> key to execute the command. Yo! (wihtout it the command would just be retained in the command arrea only and you would need to press Enter manually. This opens lots of opportunities now! 
 - **Open a file in new buffer in current window only, use** `:e filePath`. (Tip: use right/left arrows to toggle between files as johnhoo made the bindings, tip: read **Toggle buffers** to understand how to do it with just commands).
 - **Reload file in vim, you can use** `:e!` or `:edit!` (both are same).
 - **Toggle buffers** in current window by `:bp` or `:bn` in nvim(works in vim too).
 - **Close current buffer** in current window by `:bw`, [source](https://stackoverflow.com/a/1269771/10012446). {IT ALSO CLOSES THE WINDOW TOO BUT WILL NEVER EXIT VIM THOUGH}. BTW in `:bw` bw stands for buffer wife.
+- **NEWLY ADDED CLOSE BUFFER HOTKEY**: Use `<space>q` to close current buffer. (i added this via `nnoremap <leader>q :bw<CR>` statement in `~/nvim/init.vim` file.
 
 ## Comment/Uncomment lines
 
