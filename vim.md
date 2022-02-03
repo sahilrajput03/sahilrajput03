@@ -11,6 +11,7 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 - **Open a file in new buffer in current window only, use** `:e filePath`. (Tip: use right/left arrows to toggle between files as johnhoo made the bindings, tip: read **Toggle buffers** to understand how to do it with just commands).
 - **Reload file in vim, you can use** `:e!` or `:edit!` (both are same).
 - **Toggle buffers** in current window by `:bp` or `:bn` in nvim(works in vim too).
+- **Close current buffer** in current window by `:bw`, [source](https://stackoverflow.com/a/1269771/10012446). {IT ALSO CLOSES THE WINDOW TOO BUT WILL NEVER EXIT VIM THOUGH}.
 
 ## Comment/Uncomment lines
 
