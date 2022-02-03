@@ -29,6 +29,7 @@ tmux -V # Know your tmux version.
 # Others:
 C-t % to make new pane towards right.
 C-t " to make new pane downwards.
+C-t n to make a new window. # My custom hotkey. 
 # ALSO: Use ctrl+d to kill pane (this is a general terminal keybinding to kill any terminal though).
 
 # Configuring tmux to start as default in any shell:
