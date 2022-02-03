@@ -6,6 +6,10 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## Reload file in vim
+
+`:e!` or `:edit!` (both are same).
+
 ## Comment/Uncomment lines
 
 **UPDATE: USE vim-commentary plugin (has 4k stars on github though) and works really good**.
