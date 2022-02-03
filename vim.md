@@ -1,7 +1,9 @@
 # neovim (nvim)
 
 Config file: `~/nvim/init.vim` instead of `~/.vimrc`.
+
 Config files from [David Pedersend](https://github.com/davidpdrsn/dotfiles).
+
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ## Open a current or other file in a vertical or horizontal split window ?
