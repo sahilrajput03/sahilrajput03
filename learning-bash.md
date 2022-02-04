@@ -2,6 +2,22 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Play with time ?
+
+***Whats epoch time ?***
+
+Time in seconds sice `1/1/1970 @ 00:00:00`.
+
+```bash
+date -u                             #Current date/time stamp.
+date +\%s                           #Current date/time in Epoch time
+date +\%s -d '2022-02-04 13:00'     #Epoch time of give date/time stamp              (LOCAL TIME::4 feb, 2022 @ 1pm)
+date +\%s -d '2022-02-04 13:05:30'  #Epoch time of give date/time stamp with seconds (LOCAL TIME:: 4 feb, 2022 @ 1pm 5min 30 seconds)
+
+
+
+```
+
 ## Copy some text to clipboard via echo or file?
 
 ```
