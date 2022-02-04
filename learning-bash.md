@@ -55,10 +55,13 @@ date -d @$(date +\%s)
 
 
 ### GET CURRENT TIME IN A DIFFERENT TIME ZONE
-TZ="US/Alaska" date
+$TZ=Asia/Kolkata date      #This would be redundant coz just `date` would give me time in IST by default.
+#OUTPUT: Fri Feb  4 02:14:49 PM IST 2022
+
+TZ=US/Alaska date
 #OUTPUT: Thu Feb  3 11:17:11 PM AKST 2022
 
-TZ="Canada/Central" date
+TZ=Canada/Central date
 #OUTPUT: Fri Feb  4 02:16:16 AM CST 2022
 
 $TZ=Asia/Karachi date
