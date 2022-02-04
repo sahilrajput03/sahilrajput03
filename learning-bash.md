@@ -24,6 +24,9 @@ timedatectl list-timezones | grep -i Kolkata
 
 # Find complete list of tz database with their gmt and timezone code @
 https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+#Amazing converter site
+https://www.epochconverter.com/
 ```
 
 
