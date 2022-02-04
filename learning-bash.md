@@ -10,6 +10,9 @@
 
 ***`@` is prefixed before epoch time.***
 
+***Get time zone names: `timedatectl list-timezones | grep -i India`***
+
+
 ```bash
 #>>> CURRENT TIME
 date       #Get current date/time stamp in local time
@@ -36,9 +39,17 @@ date -d @$(date +\%s)
 #OUTPUT: Fri Feb  4 01:16:02 PM IST 2022 #FYI: THIS IS THE SAME OUTPUT WE GET FROM 'date' command directly.
 
 
+### GET CURRENT TIME IN A DIFFERENT TIME ZONE
+TZ="US/Alaska" date
+#OUTPUT: Thu Feb  3 11:17:11 PM AKST 2022
 
-#>>> CALCUALTE TIME
-##TO Epoch
+TZ="Canada/Central" date
+#OUTPUT: Fri Feb  4 02:16:16 AM CST 2022
+
+
+
+
+#>>> GET PARTICULAR TIME IN EPOCH
 date +\%s -d '2022-02-04 13:00'     #Epoch time of give date/time stamp              (LOCAL TIME::4 feb, 2022 @ 1pm)
 date +\%s -d '2022-02-04 13:05:30'  #Epoch time of give date/time stamp with seconds (LOCAL TIME:: 4 feb, 2022 @ 1pm 5min 30 seconds)
 
