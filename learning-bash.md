@@ -55,6 +55,8 @@ date -d '2022-02-04 01:02:03 PM'
 TIMEZONES:
 
 ```bash
+# Docs of date: https://man.archlinux.org/man/date.1.en
+
 #Shows list of timezones
 timedatectl list-timezones
 
@@ -98,7 +100,7 @@ date -d @$(date +\%s)
 
 
 ### GET CURRENT TIME IN A DIFFERENT TIME ZONE
-$TZ=Asia/Kolkata date      #This would be redundant coz just `date` would give me time in IST by default.
+TZ=Asia/Kolkata date      #This would be redundant coz just `date` would give me time in IST by default.
 #OUTPUT: Fri Feb  4 02:14:49 PM IST 2022
 
 TZ=US/Alaska date
