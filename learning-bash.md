@@ -12,9 +12,15 @@ sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 15:30:00')
 #FYI: Here "Fri Feb  4 10:00:00 2022" is utc time.
 
 
+# Setting wake time to 4 Feb, 2022 @ 1:02:03pm IST.
+sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 01:02:03 PM') 
 
 # -n means its a dry run only.
+# REMOVE -n to actually run it.
 
+#You can verify output times in local time zones directly via:
+date -d '2022-02-04 15:30:00'
+date -d '2022-02-04 01:02:03 PM'
 ```
 
 ## Play with time ?
