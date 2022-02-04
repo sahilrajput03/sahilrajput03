@@ -61,6 +61,10 @@ TZ="US/Alaska" date
 TZ="Canada/Central" date
 #OUTPUT: Fri Feb  4 02:16:16 AM CST 2022
 
+$TZ=Asia/Karachi date
+#OUTPUT: Fri Feb  4 01:42:36 PM PKT 2022
+
+
 ### CONVERT DIFFERNT TIME ZONE TO LOCAL TIME ZONE
 date -d 'Thu Feb  3 11:18:45 PM AKST 2022'
 Fri Feb  4 01:48:45 PM IST 2022
