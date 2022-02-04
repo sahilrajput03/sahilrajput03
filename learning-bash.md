@@ -4,9 +4,7 @@
 
 ## Play with time ?
 
-***Whats epoch time ?***
-
-Time in seconds sice `1/1/1970 @ 00:00:00`.
+***Whats epoch time ?*** Ans. *Time in seconds sice `1/1/1970 @ 00:00:00`*.
 
 ```bash
 date -u                             #Current date/time stamp.
