@@ -70,12 +70,13 @@ $TZ=Asia/Karachi date
 
 ### CONVERT DIFFERNT TIME ZONE TO LOCAL TIME ZONE
 date -d 'Thu Feb  3 11:18:45 PM AKST 2022'
-Fri Feb  4 01:48:45 PM IST 2022
+#OUTPUT: Fri Feb  4 01:48:45 PM IST 2022 
+#OUTPUT is local time (IST stands for Indian Standard Time)
 
 ### CONVERT DIFFERNT TIMZE ZONE TO DIFFERENT TIME ZONE
 
 TZ="US/Alaska" date -d 'Fri Feb  4 01:51:28 PM IST 2022'    #Converting IST TO AKST timezone.
-#Output: Thu Feb  3 11:21:28 PM AKST 2022
+#OUTPUT: Thu Feb  3 11:21:28 PM AKST 2022
 
 
 
