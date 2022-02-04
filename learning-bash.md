@@ -29,12 +29,12 @@ xset s 10
 # Setting wake time to 4 Feb, 2022 @ 3:30pm IST.
 sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 15:30:00')           #TIME#1
 #Output:
-# rtcwake: wakeup from "disk" using /dev/rtc0 at Fri Feb  4 10:00:00 2022  #TIME#2
+# rtcwake: wakeup from "disk" using /dev/rtc0 at Fri Feb  4 10:00:00 2022
 #FYI: Here "Fri Feb  4 10:00:00 2022" is utc time.
 
 
 # Setting wake time to 4 Feb, 2022 @ 1:02:03pm IST.
-sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 01:02:03 PM') 
+sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 01:02:03 PM')        #TIME#2
 
 # -n means its a dry run only.
 # REMOVE -n to actually run it.
