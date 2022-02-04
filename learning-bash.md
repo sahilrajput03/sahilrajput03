@@ -54,6 +54,7 @@ date -d @$(date +\%s)
 #OUTPUT: Fri Feb  4 01:16:02 PM IST 2022 #FYI: THIS IS THE SAME OUTPUT WE GET FROM 'date' command directly.
 
 
+
 ### GET CURRENT TIME IN A DIFFERENT TIME ZONE
 $TZ=Asia/Kolkata date      #This would be redundant coz just `date` would give me time in IST by default.
 #OUTPUT: Fri Feb  4 02:14:49 PM IST 2022
@@ -73,8 +74,9 @@ date -d 'Thu Feb  3 11:18:45 PM AKST 2022'
 #OUTPUT: Fri Feb  4 01:48:45 PM IST 2022 
 #OUTPUT is local time (IST stands for Indian Standard Time)
 
-### CONVERT DIFFERNT TIMZE ZONE TO DIFFERENT TIME ZONE
 
+
+### CONVERT DIFFERNT TIMZE ZONE TO DIFFERENT TIME ZONE
 TZ="US/Alaska" date -d 'Fri Feb  4 01:51:28 PM IST 2022'    #Converting IST TO AKST timezone.
 #OUTPUT: Thu Feb  3 11:21:28 PM AKST 2022
 
