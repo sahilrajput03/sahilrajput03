@@ -17,7 +17,7 @@ date +\%s  #Current date/time in Epoch time
 NOTE: @ is prefixed before epoch time.
 ### Convert Epoch time to human readable format.
 date -d @0
-#OUTPUT: Thu Jan  1 05:30:00 AM IST 1970         #Source is local time. (IST stands for Indian Standard Time)
+#OUTPUT: Thu Jan  1 05:30:00 AM IST 1970         #Output is local time. (IST stands for Indian Standard Time)
 #NOTE: The time returned is 5:30 am coz it returned local time using timezone set in my machine.
 
 date -d @1643960274
