@@ -12,7 +12,12 @@
 
 ```bash
 #>>> CURRENT TIME
-date -u    #Current date/time stamp.
+date       #Current date/time stamp in local time
+#OUTPUT: Fri Feb  4 01:32:02 PM IST 2022
+
+date -u    #Current date/time stamp utc
+#OUTPUT: Fri Feb  4 08:02:02 AM UTC 2022
+
 date +\%s  #Current date/time in Epoch time
 
 
