@@ -27,7 +27,25 @@ xset s 10
 
 Inspiration rtcwake: https://www.howtogeek.com/121241/how-to-make-your-linux-pc-wake-from-sleep-automatically/
 
+Archlinux docs: https://man.archlinux.org/man/rtcwake.8.en.
+
 ```bash
+sudo rtcwake -n -m disk -t '@epochTime'
+sudo rtcwake -n -m disk -s secondsAfterWhichSystemWillWake
+
+# HELP: You are allowed to use either one of `-t` or `-s` to define the time for the system to wake up on.
+
+# HELP: -m means to which place the current to store:
+m can have values like:
+mem  : suspend to ram
+disk : suspend to disk (HIBERNATE)
+no   : don't suspend at all
+
+
+
+
+
+
 # Setting wake time to 4 Feb, 2022 @ 3:30pm IST.
 sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 15:30:00')                     #TIME#1
 #Output: rtcwake: wakeup from "disk" using /dev/rtc0 at Fri Feb  4 10:00:00 2022     #OUTTIME#1
