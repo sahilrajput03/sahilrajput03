@@ -25,6 +25,8 @@ xset s 10
 
 ## Using rtcwake
 
+Inspiration rtcwake: https://www.howtogeek.com/121241/how-to-make-your-linux-pc-wake-from-sleep-automatically/
+
 ```bash
 # Setting wake time to 4 Feb, 2022 @ 3:30pm IST.
 sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 15:30:00')                     #TIME#1
