@@ -5,7 +5,10 @@
 ## Play with time ?
 
 ***Whats epoch time ?*** Ans. *Time in seconds sice `1/1/1970 @ 00:00:00`*.
+
 ***IST ?*** Ans. *Indian Standard Time*.
+
+***`@` is prefixed before epoch time.***
 
 ```bash
 #>>> CURRENT TIME
