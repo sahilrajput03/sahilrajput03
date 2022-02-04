@@ -2,6 +2,21 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Screen blanking ?
+
+Source: https://wiki.archlinux.org/title/Display_Power_Management_Signaling
+
+```bash
+# To query the current settings:
+xset q
+
+#Disale screen blanking
+xset s off
+
+#Set screen blanking to 10 seconds
+xset s 10
+```
+
 ## Using rtcwake
 
 ```bash
