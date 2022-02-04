@@ -30,6 +30,8 @@ Inspiration rtcwake: https://www.howtogeek.com/121241/how-to-make-your-linux-pc-
 Archlinux docs: https://man.archlinux.org/man/rtcwake.8.en.
 
 ```bash
+#IMPORTANT: `-n` or `--dry-run` means don't actually run but just run for testing.
+
 sudo rtcwake -n -m disk -t '@epochTime'
 sudo rtcwake -n -m disk -s secondsAfterWhichSystemWillWake
 
