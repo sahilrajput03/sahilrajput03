@@ -27,21 +27,31 @@ xset s 10
 
 ```bash
 # Setting wake time to 4 Feb, 2022 @ 3:30pm IST.
-sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 15:30:00')           #TIME#1
-#Output:
-# rtcwake: wakeup from "disk" using /dev/rtc0 at Fri Feb  4 10:00:00 2022
+sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 15:30:00')                     #TIME#1
+#Output: rtcwake: wakeup from "disk" using /dev/rtc0 at Fri Feb  4 10:00:00 2022     #OUTTIME#1
 #FYI: Here "Fri Feb  4 10:00:00 2022" is utc time.
 
 
-# Setting wake time to 4 Feb, 2022 @ 1:02:03pm IST.
-sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 01:02:03 PM')        #TIME#2
+# Setting wake time to 5 Feb, 2022 @ 1:02:03am IST.
+sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-05 01:02:03 AM')                   #TIME#2
+#OUTPUT: rtcwake: wakeup from "disk" using /dev/rtc0 at Fri Feb  4 19:32:03 2022      #OUTTIME#2
+
 
 # -n means its a dry run only.
 # REMOVE -n to actually run it.
 
-#You can verify output times in local time zones directly via:
-date -d '2022-02-04 15:30:00'                                             #TIME#1
-date -d '2022-02-04 01:02:03 PM'                                          #TIME#2
+#You can VERIFY INPUT times in local time zones directly via:
+date -d '2022-02-04 15:30:00'                                                         #TIME#1
+#Output: Fri Feb  4 03:30:00 PM IST 2022
+
+date -d '2022-02-05 01:02:03 AM'                                                      #TIME#2
+#Output: Sat Feb  5 01:02:03 AM IST 2022
+
+date -d 'Fri Feb  4 10:00:00 UTC 2022'                                                #OUTTIME#1
+#Output: Fri Feb  4 03:30:00 PM IST 2022
+
+date -d 'Fri Feb  4 19:32:03 UTC 2022'                                                #OUTTIME#2
+#Output: Sat Feb  5 01:02:03 AM IST 2022
 ```
 
 ## Play with time ?
