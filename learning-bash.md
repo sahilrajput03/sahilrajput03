@@ -10,8 +10,6 @@
 
 ***`@` is prefixed before epoch time.***
 
-***Get time zone names: `timedatectl list-timezones | grep -i India`***
-
 TIMEZONES:
 
 ```bash
