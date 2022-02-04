@@ -12,6 +12,20 @@
 
 ***Get time zone names: `timedatectl list-timezones | grep -i India`***
 
+TIMEZONES:
+
+```bash
+#Shows list of timezones
+timedatectl list-timezones
+
+#Find
+timedatectl list-timezones | grep -i Kolkata
+# Output: Asia/Kolkata
+
+# Find complete list of tz database with their gmt and timezone code @
+https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+```
+
 
 ```bash
 #>>> CURRENT TIME
