@@ -27,8 +27,12 @@ date -d @$(date +\%s)
 
 
 #>>> CALCUALTE TIME
+##TO Epoch
 date +\%s -d '2022-02-04 13:00'     #Epoch time of give date/time stamp              (LOCAL TIME::4 feb, 2022 @ 1pm)
 date +\%s -d '2022-02-04 13:05:30'  #Epoch time of give date/time stamp with seconds (LOCAL TIME:: 4 feb, 2022 @ 1pm 5min 30 seconds)
+
+date -d '2022-02-04 13:00'               #Source time is local time.
+#OUTPUT: Fri Feb  4 01:00:00 PM IST 2022 #Output time is local time too.
 ```
 
 ## Copy some text to clipboard via echo or file?
