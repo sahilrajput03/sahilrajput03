@@ -4,7 +4,7 @@
 
 ## Play with time ?
 
-***Whats epoch time ?*** Ans. *Time in seconds sice `1/1/1970 @ 00:00:00`*. Also known as *Unix time* or *Posix time*.
+***Whats epoch time ?*** Ans. *Time in seconds sice `1/1/1970 @ 00:00:00 UTC`*. Also known as *Unix time* or *Posix time*.
 
 ***IST ?*** Ans. *Indian Standard Time*.
 
