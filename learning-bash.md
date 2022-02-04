@@ -5,6 +5,7 @@
 ## Play with time ?
 
 ***Whats epoch time ?*** Ans. *Time in seconds sice `1/1/1970 @ 00:00:00`*.
+***IST ?*** Ans. *Indian Standard Time*.
 
 ```bash
 #>>> CURRENT TIME
@@ -16,10 +17,12 @@ date +\%s  #Current date/time in Epoch time
 NOTE: @ is prefixed before epoch time.
 ### Convert Epoch time to human readable format.
 date -d @0
-#OUTPUT: Thu Jan  1 05:30:00 AM IST 1970         {{{{ NOTE: The time returned is 5:30 am coz it returned local time using timezone set in my machine.
+#OUTPUT: Thu Jan  1 05:30:00 AM IST 1970         #Source is local time. (IST stands for Indian Standard Time)
+{{{{ NOTE: The time returned is 5:30 am coz it returned local time using timezone set in my machine.
 
 date -d @1643960274
-#OUTPUT: Fri Feb  4 01:07:54 PM IST 2022         {{{ NOTE: It returns local time.
+#OUTPUT: Fri Feb  4 01:07:54 PM IST 2022         #Output is local time. (IST stands for Indian Standard Time)
+{{{ NOTE: It returns local time.
 
 date -d @$(date +\%s)
 #OUTPUT: Fri Feb  4 01:16:02 PM IST 2022 #FYI: THIS IS THE SAME OUTPUT WE GET FROM 'date' command directly.
@@ -31,8 +34,8 @@ date -d @$(date +\%s)
 date +\%s -d '2022-02-04 13:00'     #Epoch time of give date/time stamp              (LOCAL TIME::4 feb, 2022 @ 1pm)
 date +\%s -d '2022-02-04 13:05:30'  #Epoch time of give date/time stamp with seconds (LOCAL TIME:: 4 feb, 2022 @ 1pm 5min 30 seconds)
 
-date -d '2022-02-04 13:00'               #Source time is local time.
-#OUTPUT: Fri Feb  4 01:00:00 PM IST 2022 #Output time is local time too.
+date -d '2022-02-04 13:00'               #Source is local time (IST stands for Indian Standard Time)
+#OUTPUT: Fri Feb  4 01:00:00 PM IST 2022 #Output is local time (IST stands for Indian Standard Time)
 ```
 
 ## Copy some text to clipboard via echo or file?
