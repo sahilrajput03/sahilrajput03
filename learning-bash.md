@@ -146,6 +146,10 @@ date -d '2022-02-04 13:00'               #Source is local time (IST stands for I
 #OUTPUT: Fri Feb  4 01:00:00 PM IST 2022 #Output is local time (IST stands for Indian Standard Time)
 ```
 
+## hackkerrank bash questions
+
+Refer this repository: https://github.com/sahilrajput03/hacker_rank_shell
+
 ## Copy some text to clipboard via echo or file?
 
 ```
