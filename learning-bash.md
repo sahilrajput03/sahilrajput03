@@ -9,6 +9,10 @@ Source: https://wiki.archlinux.org/title/Display_Power_Management_Signaling
 ```bash
 # To query the current settings:
 xset q
+# FYI: Below output from above command suggests since timeout is 0, thus screenblanking is disabled.
+# Screen Saver:
+#  timeout:  0
+
 
 #Turn screen off now
 xset dpms force standby
