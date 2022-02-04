@@ -10,6 +10,9 @@ Source: https://wiki.archlinux.org/title/Display_Power_Management_Signaling
 # To query the current settings:
 xset q
 
+#Turn screen off now
+xset dpms force standby
+
 #Disale screen blanking
 xset s off
 
