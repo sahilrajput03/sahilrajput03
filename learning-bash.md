@@ -2,6 +2,21 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Using rtcwake
+
+```bash
+# Setting wake time to 4 Feb, 2022 @ 3:30pm IST.
+sudo rtcwake -n -m disk -t $(date +\%s -d '2022-02-04 15:30:00') 
+#Output:
+# rtcwake: wakeup from "disk" using /dev/rtc0 at Fri Feb  4 10:00:00 2022
+#FYI: Here "Fri Feb  4 10:00:00 2022" is utc time.
+
+
+
+# -n means its a dry run only.
+
+```
+
 ## Play with time ?
 
 ***Whats epoch time ?*** Ans. *Time in seconds sice `1/1/1970 @ 00:00:00 UTC`*. Also known as *Unix time* or *Posix time*.
