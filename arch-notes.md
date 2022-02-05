@@ -2,6 +2,16 @@
 
 **FYI: `config files` : [sahilrajput03/arch_os](https://github.com/sahilrajput03/arch_os)**
 
+## Installed `ab` i.e., `Apache HTTP server benchmarking tool`
+
+Source: https://man.archlinux.org/man/ab.1.en
+
+```bash
+sudo pacman -S apache
+
+#Now you have access to `ab` cli.
+```
+
 ## Installed neovim
 
 [neovim - Archwiki](https://wiki.archlinux.org/title/Neovim), [neovim - Arch package](https://archlinux.org/packages/community/x86_64/neovim/).
