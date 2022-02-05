@@ -20,7 +20,7 @@ xset dpms force standby
 #Disale screen blanking
 xset s off
 
-#Disable DPMS and prevent screen from blanking (haven't tested this yet).
+#Disable DPMS and prevent screen from blanking (The setting won't persist after reboot).
 xset s off -dpms
 
 #Set screen blanking to 10 seconds
