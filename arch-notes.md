@@ -11,6 +11,10 @@ sudo systemctl start nginx # To start the server
 
 #Now you can access server via browsing: 
 http://localhost/ or http://127.0.0.1
+
+# FYI: You can browse old working configs and your own docs @
+- https://github.com/sahilrajput03/vanilla-clustering-with-fastify/tree/main/nginx
+- https://github.com/sahilrajput03/dockerHelsinki (search for `nginx.conf` files)
 ```
 
 ```bash
