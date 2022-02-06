@@ -13,6 +13,12 @@ sudo systemctl start nginx # To start the server
 http://localhost/ or http://127.0.0.1
 ```
 
+```bash
+#Important files and config file paths:
+vi /usr/share/nginx/html/index.html
+sudo nvim /etc/nginx/nginx.conf
+```
+
 ## Installed `ab` i.e., `Apache HTTP server benchmarking tool`
 
 Source: https://man.archlinux.org/man/ab.1.en
