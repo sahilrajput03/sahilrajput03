@@ -2,6 +2,17 @@
 
 **FYI: `config files` : [sahilrajput03/arch_os](https://github.com/sahilrajput03/arch_os)**
 
+## Installed `nginx`
+
+```bash
+sudo pacman -S nginx
+sudo systemctl status ngingx # Shoudl show not active
+sudo systemctl start nginx # To start the server
+
+#Now you can access server via browsing: 
+http://localhost/ or http://127.0.0.1
+```
+
 ## Installed `ab` i.e., `Apache HTTP server benchmarking tool`
 
 Source: https://man.archlinux.org/man/ab.1.en
