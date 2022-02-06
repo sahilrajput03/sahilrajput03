@@ -54,6 +54,15 @@ tmux -V # Know your tmux version.
 # WOW:: For selecting text from command ouput: Use ```C-a [``` to enter the ```copy mode``` and then you are in vim mode and simply use v or V and y to yank text and press ```q``` to exit. Yikes!!!
 # WOW:: Use ```C-t ?``` to open the help menu in tmux and press ```q``` to exit it.
 # Others:
+
+C-t & to kill the current window
+C-t x to kill the current pane
+
+# witching to a pane with pane numbers:
+C-t q to show the pane numbers (press esc to exit that)
+FYI: While the numbers are on top of panes you can switch to that pane by pressign the corresponding pane number as well.
+FYI: You need to confirm killing the window with x by default but you can disable the confirmation for both pane and window by following this:  https://unix.stackexchange.com/a/30283/504112
+
 C-t % to make new pane towards right.
 C-t " to make new pane downwards.
 C-t n to make a new window. # My custom hotkey. 
