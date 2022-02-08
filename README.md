@@ -51,7 +51,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
-## Trigger a artificial filewrite event for something like nodemon to trigger to restart server ??
+## Trigger an artificial filewrite event for something like nodemon to trigger to restart server ??
 
 Reason: Sometimes you need to make event from another process to restart the nodemon server, in that case simply `touch fileWhichAlreadyExists.js` command rocks to restart the nodemon server.
 
