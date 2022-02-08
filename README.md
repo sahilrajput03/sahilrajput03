@@ -609,9 +609,9 @@ console.log("s is undefined or null", typeof s === 'undefined' || s === null) //
 console.log("r is undefined or null", typeof r === 'undefined' || r === null) // true
 ```
 
-## Stop using postman and use curl commands as different files to store requests
+## ~~Stop using postman and use curl commands as different files to store requests~~
 
-***UPDATE: Always prefer using test-driven development using shared requests between frontend and backend so there is zero-effort in request making procedure and code communtication about the api parameter preferences with the frontend team or say yourself.***
+***UPDATE: Always prefer using test-driven development using `jest` using shared requests between frontend and backend so there is zero-overhead in request making procedure and code communtication say the api parameter preferences with the frontend team or yourself.***
 
 **First**, bash file commands give you infinite scalability and customizability to store and share requests over github repo, as you can share updated request in that folder and other team memebers can simply use them as it is.
 
