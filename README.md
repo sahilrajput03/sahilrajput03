@@ -124,6 +124,8 @@ Read [here](https://stackoverflow.com/a/19041848/10012446).
 
 ## Setting auto-attching ready debugger for nodejs/expressjs via nodemon
 
+***FYI: I created a entry for `launch config`  in system wide `settings.json` file so I don't necessaryily need to add below `launch.json` file for each nodejs based project or any file coz I CAN DIRECTLY CALL DEBUGGER NOW!!!!. Yikes!***
+
 1. Create a file `.vscode/launch.json` in root folder.
 
 ```
