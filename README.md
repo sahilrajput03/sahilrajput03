@@ -158,9 +158,9 @@ Read [here](https://stackoverflow.com/a/19041848/10012446).
 
 **3. Get `debugger select-dropdown` with `f5` key in vscode and select the entry with text `nodemon --inspect app.js` or `nodemon --inspect-brk app.js` in the list of processes in there. ROCKON!**
 
+IMPORTANT: FYI: Read about the paramters you can use in `configuration` for `launch` settings in vscode: [Click here](https://code.visualstudio.com/docs/editor/debugging#_launchjson-attributes).
+
 **More**
-
-
 
 - *TIP: Use f9 to add/remove the breakpoint.*
 
