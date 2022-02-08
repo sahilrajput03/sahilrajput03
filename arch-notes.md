@@ -1,6 +1,6 @@
 # archlinux-notes
 
-**FYI: `config files` : [sahilrajput03/arch_os](https://github.com/sahilrajput03/arch_os)**
+**FYI: `config files` : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
 ## Installed `nginx`
 
