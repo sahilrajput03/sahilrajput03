@@ -10,7 +10,7 @@ cat /dev/null
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
-- **Config** files: [Repo: sahilrajput03/config](https://github.com/sahilrajput03/config)
+- **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Vim-notes:** [Click here](vim.md)
 - **Enlightment:** [Cick here](enlightenment.md)
 - **Hindi:** [Click here](learn-hindi.md)
