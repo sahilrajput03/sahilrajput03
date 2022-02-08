@@ -4,6 +4,8 @@
 
 ## Installed `fzf`
 
+Source: https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
+
 ?? I don't remember how I installed it lately..
 
 Usage is pretty awesome!!
