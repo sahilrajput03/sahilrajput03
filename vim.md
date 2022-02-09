@@ -6,6 +6,12 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## fzf fuzzy finding is not working on your system..?
+
+Probably you don't have `proximity-sort` package on your linux, (check this by running `proximity-sort` on your terminal directly.
+
+Also, [this is the issue](https://github.com/junegunn/fzf.vim/issues/1296) which I was reffering and fixed the issue on my own.
+
 ## TIPS
 
 - In any vim config file `<CR>` means <CarriageReturn> i.e., <Enter> key to execute the command. Yo! (wihtout it the command would just be retained in the command arrea only and you would need to press Enter manually. This opens lots of opportunities now! 
