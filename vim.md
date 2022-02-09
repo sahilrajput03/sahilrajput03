@@ -10,6 +10,16 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ## CONFIGURE AUTOCOMPLETE IN NVIM by johnhoo's video..,> @ time: `21:00 in video: Desktop and Editor setup for rust development`
 
+## Installed `ripgrep`, i.e., a rust implementation of `grep` and its suuppppeerr fast..!
+
+[Source](https://archlinux.org/packages/community/x86_64/ripgrep/)
+
+```bash
+sudo pacman -S ripgrep
+# Primary pupose: It can search text in all file in any nested folder in the current working directory. First saw..? @ Johnhoo's rust development setup.!
+# This is very useful in vim (configured with command ```:Rg <textToSearch>```) and its very usefult to fuzzy search among all the files in current project. YIKES!! ~SAHIL.
+```
+
 ## `fzf` fuzzy finding is not working on your system..?
 
 *FYI: Use `ctrl+p` in vim to get the dialog of finding file window in your `nvim`.*
