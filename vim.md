@@ -6,6 +6,8 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+***My [old vim notes](https://github.com/sahilrajput03/sahilrajput03/blob/master/vim-very-old.md).***
+
 ## `fzf` fuzzy finding is not working on your system..?
 
 *FYI: Use `ctrl+p` in vim to get the dialog of finding file window in your `nvim`.*
