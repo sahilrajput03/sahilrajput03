@@ -8,6 +8,8 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ***My [old vim notes](https://github.com/sahilrajput03/sahilrajput03/blob/master/vim-very-old.md).***
 
+## CONFIGURE AUTOCOMPLETE IN NVIM by johnhoo's video..,> @ time: `21:00 in video: Desktop and Editor setup for rust development`
+
 ## `fzf` fuzzy finding is not working on your system..?
 
 *FYI: Use `ctrl+p` in vim to get the dialog of finding file window in your `nvim`.*
