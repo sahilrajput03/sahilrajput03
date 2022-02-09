@@ -21,8 +21,8 @@ Also, [this is the issue](https://github.com/junegunn/fzf.vim/issues/1296) which
 - **Reload current file in vim, you can use** `:e!` or `:edit!` (both are same).
 - **Toggle buffers** in current window by `:bp` or `:bn` in nvim(works in vim too).
 - **Close current buffer** in current window by `:bw`, [source](https://stackoverflow.com/a/1269771/10012446). {IT ALSO CLOSES THE WINDOW TOO BUT WILL NEVER EXIT VIM THOUGH}. BTW in `:bw` bw stands for buffer wife.
-- **NEWLY ADDED CLOSE BUFFER HOTKEY**: Use `<space>e` to close current buffer. (i added this via `nnoremap <leader>e :bw<CR>` statement in `~/nvim/init.vim` file.
-- NOTE ON CLOSING BUFFERS WITH `:bw`, it wont be able to close buffers with changed contents and trying to close those buffers will get you error like `E89: No write since last change for buffer 1 (add ! to override)`. SO ACTUALLY NEED TO DO `:bw!` to close current buffer forcely. (OR USE HOTKEY I CREATED i.e., `<space>E`, notice the capital `E`).
+- **NEWLY ADDED CLOSE BUFFER HOTKEY**: Use `<space>z` to close current buffer. (i added this via `nnoremap <leader>z :bw<CR>` statement in `~/nvim/init.vim` file.
+- NOTE ON CLOSING BUFFERS WITH `:bw`, it wont be able to close buffers with changed contents and trying to close those buffers will get you error like `E89: No write since last change for buffer 1 (add ! to override)`. SO ACTUALLY NEED TO DO `:bw!` to close current buffer forcely. (OR USE HOTKEY I CREATED i.e., `<space>Z`, notice the capital `Z`).
 - **Open a new empty buffer**: `:enew`, [source](https://vi.stackexchange.com/a/8216).
   
 ## Comment/Uncomment lines
