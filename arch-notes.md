@@ -8,6 +8,17 @@
 
 Source: https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
 
+**HIGHLIGHTS: [AMAZING article](https://betterprogramming.pub/boost-your-command-line-productivity-with-fuzzy-finder-985aa162ba5d) MUST READ**
+
+MAIN:
+
+```txt
+ctrl+c #Cd into searched folder
+ctrl+t #Search for file/folder
+ctrl+r #Search command history
+
+```
+
 ?? I don't remember how I installed it lately..
 
 Usage is pretty awesome!!
