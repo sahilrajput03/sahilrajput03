@@ -8,7 +8,7 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ## `fzf` fuzzy finding is not working on your system..?
 
-Use `ctrl+p` in vim to get the dialog of finding file window in your `nvim`.
+*FYI: Use `ctrl+p` in vim to get the dialog of finding file window in your `nvim`.*
 
 Probably you don't have `proximity-sort` package on your linux, (check this by running `proximity-sort` on your terminal directly.
 
