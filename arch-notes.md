@@ -2,6 +2,12 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## installed `fish`
+
+```bash
+sudo pacman -S fish
+```
+
 ## Installed `fzf`
 
 **THIS HAS 42k stars on github. Yo!**
@@ -103,6 +109,7 @@ tmux -V # Know your tmux version.
 
 C-t & to kill the current window
 C-t x to kill the current pane
+C-t <space> to change current panes to horizontal, vertical, or comple multiple adjustments. 
 
 # witching to a pane with pane numbers:
 C-t q to show the pane numbers (press esc to exit that)
