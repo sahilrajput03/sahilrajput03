@@ -12,6 +12,19 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 *FYI: Use `ctrl+p` in vim to get the dialog of finding file window in your `nvim`.*
 
+Use `<space>;` to jump between currently opened buffers in nvim. (Johnhoo and David Pedersen, both have same keybinding for this). It basically attached to command `:Files` from `fzf.vim` plugin.
+
+Ana amazing article on `fzf.vim` plugin is @ https://dev.to/iggredible/how-to-search-faster-in-vim-with-fzf-vim-36ko. Important highlights from this is:
+
+```bash
+:History #Shows file history from everywhere, yikes, so this is basically recently opened files in nvim.
+:Commits #Shows commits of current closes git repo found.
+:Buffers #Shows all currently opened buffers(ALREDY USED IN BINDING ```<space>;```
+:Marks #Shows lines you marked in nvim
+# For complete history, visit: https://github.com/junegunn/fzf.vim#commands
+:Snippets #Shows snippets (HAVEN"T TRIED YET).
+````
+
 Probably you don't have `proximity-sort` package on your linux, (check this by running `proximity-sort` on your terminal directly.
 
 Also, [this is the issue](https://github.com/junegunn/fzf.vim/issues/1296) which I was reffering and fixed the issue on my own.
