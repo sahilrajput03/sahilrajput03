@@ -16,7 +16,6 @@ MAIN:
 ctrl+c #Cd into searched folder
 ctrl+t #Search for file/folder
 ctrl+r #Search command history
-
 ```
 
 ?? I don't remember how I installed it lately..
