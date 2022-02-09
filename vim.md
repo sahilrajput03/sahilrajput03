@@ -6,7 +6,7 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
-***My [old vim notes](https://github.com/sahilrajput03/sahilrajput03/blob/master/vim-very-old.md).***
+***My [old vim notes](https://github.com/sahilrajput03/sahilrajput03/blob/master/vim-very-old.md). ITS QUITE POSSIBLE THAT LIST IS ALL WHAT COULD BE USED TO AUTO_COMPLETE WITH DAVID PEDERSEN"S CONFIG ~ IMO ~SAHIL.***
 
 ## CONFIGURE AUTOCOMPLETE IN NVIM by johnhoo's video..,> @ time: `21:00 in video: Desktop and Editor setup for rust development`
 
