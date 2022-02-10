@@ -2,6 +2,14 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## See default applications settings in archlinux
+
+Archlinux: https://man.archlinux.org/man/xdg-settings.1
+
+Archlinux: https://wiki.archlinux.org/title/Default_applications
+
+Changing default browser issue: https://bbs.archlinux.org/viewtopic.php?id=140028
+
 ## installed `fish`
 
 ```bash
