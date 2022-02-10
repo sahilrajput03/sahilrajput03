@@ -12,9 +12,9 @@ Changing default browser issue: https://bbs.archlinux.org/viewtopic.php?id=14002
 
 ## Check your old time versions of packages you have insalled earlier with pacman
 
-Source:
+Source: https://unix.stackexchange.com/a/103868/504112
 
-```
+```bash
 cd /var/cache/pacman/pkg/
 ls -l
 # Now you can use pkg-name to install any versioned package:
