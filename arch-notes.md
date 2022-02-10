@@ -10,6 +10,17 @@ Archlinux: https://wiki.archlinux.org/title/Default_applications
 
 Changing default browser issue: https://bbs.archlinux.org/viewtopic.php?id=140028
 
+## Check your old time versions of packages you have insalled earlier with pacman
+
+Source:
+
+```
+cd /var/cache/pacman/pkg/
+ls -l
+# Now you can use pkg-name to install any versioned package:
+pacman -U <pkg-name
+```
+
 ## installed `fish`
 
 ```bash
