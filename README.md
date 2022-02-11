@@ -18,6 +18,7 @@ cat /dev/null
 - **Url shorteners:**  [Bitly](https://bitly.com/)
 - **Vscode Settings:** [Click here](vscode-settings.md)
 - **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
+- **Why telegram (not whatsapp): [Click here](why-telegram.md)**
 
 ## Thoughts, Principles, Acronyms
 
