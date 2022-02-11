@@ -2,6 +2,13 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## FYI:
+
+```bash
+# To install, use -i/--install (same as pacman -U pkgname-pkgver.pkg.tar.zst):
+Source: https://wiki.archlinux.org/title/makepkg#Usage
+```
+
 ## See default applications settings in archlinux
 
 Archlinux: https://man.archlinux.org/man/xdg-settings.1
