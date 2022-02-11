@@ -6,7 +6,8 @@
 
 ```bash
 # To install, use -i/--install (same as pacman -U pkgname-pkgver.pkg.tar.zst):
-Source: https://wiki.archlinux.org/title/makepkg#Usage
+makepkg -i
+# Source: https://wiki.archlinux.org/title/makepkg#Usage
 ```
 
 ## See default applications settings in archlinux
