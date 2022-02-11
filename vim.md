@@ -8,6 +8,14 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ***My [old vim notes](https://github.com/sahilrajput03/sahilrajput03/blob/master/vim-very-old.md). ITS QUITE POSSIBLE THAT LIST IS ALL WHAT COULD BE USED TO AUTO_COMPLETE WITH DAVID PEDERSEN"S CONFIG ~ IMO ~SAHIL.***
 
+## move screen text with ease
+
+```
+zz #Center current line in the window if possible.
+zb #Put current line to the bottom in the windows if possible.
+zt #Put current line to the top in the window if possible.
+```
+
 ## CONFIGURE AUTOCOMPLETE IN NVIM by johnhoo's video..,> @ time: `21:00 in video: Desktop and Editor setup for rust development`
 
 ## Installed `ripgrep`, i.e., a rust implementation of `grep` and its suuppppeerr fast..!
