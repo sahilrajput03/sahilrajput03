@@ -8,6 +8,14 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ***My [old vim notes](https://github.com/sahilrajput03/sahilrajput03/blob/master/vim-very-old.md). ITS QUITE POSSIBLE THAT LIST IS ALL WHAT COULD BE USED TO AUTO_COMPLETE WITH DAVID PEDERSEN"S CONFIG ~ IMO ~SAHIL.***
 
+## this week vim learnings
+
+```
+<space><space> to switch from current buffer to last buffer and vice versa.
+:Rg <text> to search for text in all the files under current working directory(get cwd via ```:pwd``` command in vim).
+
+```
+
 ## move screen text with ease
 
 ```
@@ -26,6 +34,10 @@ zt #Put current line to the top in the window if possible.
 sudo pacman -S ripgrep
 # Primary pupose: It can search text in all file in any nested folder in the current working directory. First saw..? @ Johnhoo's rust development setup.!
 # This is very useful in vim (configured with command ```:Rg <textToSearch>```) and its very usefult to fuzzy search among all the files in current project. YIKES!! ~SAHIL.
+
+# Usage in terminal:
+rg <text>
+# This searchs for text in all the nested files/folders in ```pwd```.
 ```
 
 ## `fzf` fuzzy finding is not working on your system..?
