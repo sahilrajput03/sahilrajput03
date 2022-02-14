@@ -2,6 +2,15 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## Installed `tor-browser`
+
+```bash
+gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+git clone https://aur.archlinux.org/tor-browser.git
+makepkg
+sudo pacman -U *.zst file #Fix the filename here.
+```
+
 ## FYI:
 
 ```bash
