@@ -2,6 +2,15 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## installed obs-studio in archlinux
+
+```bash
+sudo pacman -S obs-studio
+
+# start with:
+obs
+```
+
 ## insalled droid cam(fixed the v4l2loopback issue)
 
 ```bash
