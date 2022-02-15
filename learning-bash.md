@@ -2,6 +2,10 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## `awk` rocks hard!!
+
+Read this amazing article from [linuxize.com](https://linuxize.com/post/awk-command/) and you can refer official docs of awk [here(but its not very clean as all docs)](https://www.gnu.org/software/gawk/manual/gawk.html).
+
 ## `stat fileHere` ?
 
 ```bash
