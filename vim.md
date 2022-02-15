@@ -10,6 +10,11 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ## this week vim learnings
 
+**1.** How to add `` or '' or "" or () or {}or <> around a text ?
+Ans. Select text by `v` and use `c()<Esc>P`. OR you can do like: `cw()<Esc>P` or `cW()<Esc>P` as per requirement.
+
+**2.**
+
 ```
 <space><space> to switch from current buffer to last buffer and vice versa.
 :Rg <text> to search for text in all the files under current working directory(get cwd via ```:pwd``` command in vim).
