@@ -23,11 +23,15 @@ sudo modprobe v4l2loopback #this is probably activating v4l2loopback thing IMO.
 # HELP:: Source: https://askubuntu.com/questions/1246096/error-installing-droidcam-in-ubuntu-20-04 
 # ^^ This worked for Priyam's ubuntu though.
 
+# FYI: If you haven't restarted your sytem (complete reboot) you won't be able to see your camera option in chrome or chromium (but it'll be visible in firefox/obs-studio/other softwares though).
+
 sudo droicam #Should simply work now!
 
 # FYI: I DO HAVE linux-headers package installed as well: (dated: 15 feb, 2022):
 sudo pacman -S linux-headers
 # Source: https://archlinux.org/packages/core/x86_64/linux-headers/
+
+
 ```
 
 ## Installed `libreoffice` in archlinux
