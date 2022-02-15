@@ -69,7 +69,7 @@ nodemon -x 'ls -l | node test.js'
 ```
 
 ```js
-// code:
+// code: Source: https://stackoverflow.com/a/16351842/10012446
 var stdin = process.openStdin();
 
 
