@@ -24,6 +24,12 @@ cat /dev/null
 
 ## Thoughts, Principles, Acronyms
 
+**“ Learning never exhausts the mind. ” ― Leonardo da Vinci**
+
+**“ Keep your face always toward the sunshine - and shadows will fall behind you. ” ― Walt Whitman**
+
+-
+
 **"Fear vs. Learning can't co-exist!" ~ Sahil**
 
 **"Keep It Simple, Stupid" ([KISS](https://en.wikipedia.org/wiki/KISS_principle))**
