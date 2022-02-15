@@ -19,6 +19,7 @@ cat /dev/null
 - **Vscode Settings:** [Click here](vscode-settings.md)
 - **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
 - **Why telegram (not whatsapp): [Click here](why-telegram.md)**
+- [**Why DSA based interviews are stupid ?**](dsa.md)
 
 ## Thoughts, Principles, Acronyms
 
