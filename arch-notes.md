@@ -2,6 +2,14 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## Installed `libreoffice` in archlinux
+
+Source: https://archlinux.org/packages/extra/x86_64/libreoffice-fresh/
+
+```bash
+sudo pacman -S libreoffice-fresh
+```
+
 ## Installed `tor-browser`
 
 ```bash
