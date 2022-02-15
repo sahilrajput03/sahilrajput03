@@ -2,6 +2,24 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## `stat fileHere` ?
+
+```bash
+stat fileHere
+# Output:
+# File: test.js
+#  Size: 95              Blocks: 8          IO Block: 4096   regular file
+# Device: 8,20    Inode: 1053942     Links: 1
+# Access: (0644/-rw-r--r--)  Uid: ( 1000/   array)   Gid: ( 1000/   array)
+# Access: 2022-02-16 02:38:31.825293178 +0530   ##NOTE THIS IS LAST ACESS TIME IN EPOCH TIME IMO..~Sahil.
+# Modify: 2022-02-16 02:38:31.771957980 +0530   ##NOTE THIS IS LAST MODIFY TIME IN EPOCH TIME IMO..~Sahil.
+# Change: 2022-02-16 02:38:31.771957980 +0530   ##NOTE THIS IS LAST EDITED TIME IN EPOCH TIME IMO..~Sahil.
+# Birth: 2022-02-16 02:38:31.771957980 +0530    ## IDK WHAT IS THIS...~sahil
+
+# Source of this stat command?
+# https://stackoverflow.com/a/22425359/10012446
+```
+
 ## Screen blanking ?
 
 Source: https://wiki.archlinux.org/title/Display_Power_Management_Signaling
