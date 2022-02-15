@@ -62,6 +62,42 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## piping data into nodejs script..
+
+```bash
+nodemon -x 'ls -l | node test.js'
+```
+
+```js
+// code:
+var stdin = process.openStdin();
+
+
+var data = "";
+
+stdin.on('data', function(chunk) {
+  data += chunk;
+});
+
+
+stdin.on('end', function() {
+    console.log("DATA:");
+    console.log(data);
+    console.log("END DATA");
+});
+```
+
+```txt
+// output:
+DATA:
+total 12
+-rwxr-xr-x  1 array array  501 Feb 11 22:31 echo-with-colors.sh
+drwxr-xr-x 10 array array 4096 Jan 27 16:27 jonhoo-config
+-rw-r--r--  1 array array  220 Feb 16 03:19 test.js
+
+END DATA
+```
+
 ## `console.assert` ?
 
 ```js
