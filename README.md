@@ -19,10 +19,12 @@ cat /dev/null
 - **Vscode Settings:** [Click here](vscode-settings.md)
 - **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
 - **Why telegram (not whatsapp): [Click here](why-telegram.md)**
-- [**Why DSA based interviews are stupid ?**](dsa.md)
+- [Why DSA based interviews are stupid ?](dsa.md)
 - [Learn Photoshop ?](learn-photoshop.md)
 
 ## Thoughts, Principles, Acronyms
+
+**[Plug this in and keep working.](https://youtu.be/LMmuChXra_M)**
 
 **“ Learning never exhausts the mind. ” ― Leonardo da Vinci**
 
