@@ -62,6 +62,20 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## `console.assert` ?
+
+```js
+let a = 10
+let b = 20
+
+console.assert(a == b, 'a is equal to b')
+console.log('Hello, world!')
+
+// Output:
+// Assertion failed: a is equal to b
+// Hello, world!
+```
+
 ## Trigger an artificial filewrite event for something like nodemon to trigger to restart server ??
 
 Reason: Sometimes you need to make event from another process to restart the nodemon server, in that case simply `touch fileWhichAlreadyExists.js` command rocks to restart the nodemon server.
