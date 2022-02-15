@@ -2,6 +2,19 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## insalled droid cam(fixed the v4l2loopback issue)
+
+```bash
+git clone https://aur.archlinux.org/packages/droidcam
+cd droidcam
+makepkg -s
+sudo pacman -U *.zst #NOTE: Install both ``droidcam`` and ``v4l2loopback`` file.
+
+sudo modprobe v4l2loopback #this is probably activating v4l2loopback thing IMO.
+# HELP:: Source: https://askubuntu.com/questions/1246096/error-installing-droidcam-in-ubuntu-20-04 
+# ^^ This worked for Priyam's ubuntu though.
+```
+
 ## Installed `libreoffice` in archlinux
 
 Source: https://archlinux.org/packages/extra/x86_64/libreoffice-fresh/
