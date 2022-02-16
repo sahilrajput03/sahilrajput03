@@ -51,13 +51,23 @@ x
 y
 z
 
-# Count the duplicate occurences as well:
+# Count the duplicate occurences as well with -c option in uniq cli:
 $ sort test.txt | uniq -c
       5 a
       1 b
       1 x
       4 y
       1 z
+      
+
+# We can sort these entries by their count nubmers as well:
+# FYI: I modified the duplicate entries so thats why the duplicate count has changed like that:
+$ sort test.txt | uniq -c | sort
+      1 x
+      2 a
+      3 z
+      4 y
+      6 b
 ```
 
 # grep and perl scripts
