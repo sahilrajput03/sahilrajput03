@@ -21,6 +21,8 @@ Ans. Select text by `v` and use `c()<Esc>P`. OR you can do like: `cw()<Esc>P` or
 
 ```
 
+**3.** Search using `:Rg someText ` with hotkey i.e., `<space>s`, Yo!
+
 ## move screen text with ease
 
 ```
