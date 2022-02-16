@@ -2,6 +2,19 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+# grep and perl scripts
+
+Source: https://missing.csail.mit.edu/2020/data-wrangling/
+
+Video Lecture soure: https://www.youtube.com/watch?v=sz_dsktIjt4 
+
+```bash
+# What does .* means in regex pattern?
+# Answer: https://stackoverflow.com/a/21197429/10012446
+
+
+```
+
 ## Playing with commands to represent directiory
 
 ```bash
