@@ -1,5 +1,7 @@
 # Learning bash
 
+**( CRUX: Basic instinct to figure out somthing with a cli tool is like to have basic instinct to do `man cli-name` and read through it.)**
+
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
 ## head / tail 
