@@ -20,21 +20,22 @@ $ tree
 
 $ man find #Searching for `-exec` option help section:
 # Output:
-       -exec command {} +
-              This  variant of the -exec action runs the specified command on the selected
-              files, but the command line is built by appending each selected file name at
-              the  end;  the  total number of invocations of the command will be much less
-              than the number of matched files.  The command line is  built  in  much  the
-              same  way that xargs builds its command lines.  Only one instance of `{}' is
-              allowed within the command, and it must appear at the end,  immediately  be‐
-              fore  the  `+';  it needs to be escaped (with a `\') or quoted to protect it
-              from interpretation by the shell.  The command is executed in  the  starting
-              directory.   If any invocation with the `+' form returns a non-zero value as
-              exit status, then find returns a non-zero exit status.  If  find  encounters
-              an  error,  this can sometimes cause an immediate exit, so some pending com‐
-              mands  may  not  be   run   at   all.    For   this   reason   -exec my-com‐
-              mand ... {} + -quit  may  not result in my-command actually being run.  This
-              variant of -exec always returns true.
+#        -exec command {} +
+#               This  variant of the -exec action runs the specified command on the selected
+#               files, but the command line is built by appending each selected file name at
+#               the  end;  the  total number of invocations of the command will be much less
+#               than the number of matched files.  The command line is  built  in  much  the
+#               same  way that xargs builds its command lines.  Only one instance of `{}' is
+#               allowed within the command, and it must appear at the end,  immediately  be‐
+#               fore  the  `+';  it needs to be escaped (with a `\') or quoted to protect it
+#               from interpretation by the shell.  The command is executed in  the  starting
+#               directory.   If any invocation with the `+' form returns a non-zero value as
+#               exit status, then find returns a non-zero exit status.  If  find  encounters
+#               an  error,  this can sometimes cause an immediate exit, so some pending com‐
+#               mands  may  not  be   run   at   all.    For   this   reason   -exec my-com‐
+#               mand ... {} + -quit  may  not result in my-command actually being run.  This
+#               variant of -exec always returns true.
+
 
 # ~Sahil ? What is ```-exec``` option used for??
 # Also `-exec` is used to execute any command which we pass as arguments to -exec option and we can
