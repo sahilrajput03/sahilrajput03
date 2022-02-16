@@ -4,6 +4,19 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Usage of xargs
+
+```bash
+$ cat file.txt
+I am Sahil.
+You are foo.
+He is bar.
+
+# With xargs we can pass any stdout or file's content to any command we want like this:
+$ cat file.txt | xargs echo
+I am Sahil. You are foo. He is bar.
+```
+
 ## making use of `bc` - a command line calculator
 
 ```bash
