@@ -2,6 +2,25 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## sort tool is linux
+
+```bash
+$ cat test.txt
+z
+y
+x
+b
+a
+
+# Simple sorting with sort cli:
+$ sort test.txt
+a
+b
+x
+y
+z
+```
+
 # grep and perl scripts
 
 Source: https://missing.csail.mit.edu/2020/data-wrangling/
