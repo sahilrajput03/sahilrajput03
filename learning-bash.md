@@ -2,6 +2,69 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## `sed` with `find`, `grep` and `xargs`
+
+```bash
+$ pwd
+/home/array/test/learning-find-grep-sed-xarg
+$ tree
+.
+├── barcelona
+│   └── pinky
+│       └── tommy
+│           └── carl.txt
+├── file.txt
+└── mello.txt
+
+3 directories, 3 files
+
+$ man find #Searching for `-exec` option help section:
+# Output:
+       -exec command {} +
+              This  variant of the -exec action runs the specified command on the selected
+              files, but the command line is built by appending each selected file name at
+              the  end;  the  total number of invocations of the command will be much less
+              than the number of matched files.  The command line is  built  in  much  the
+              same  way that xargs builds its command lines.  Only one instance of `{}' is
+              allowed within the command, and it must appear at the end,  immediately  be‐
+              fore  the  `+';  it needs to be escaped (with a `\') or quoted to protect it
+              from interpretation by the shell.  The command is executed in  the  starting
+              directory.   If any invocation with the `+' form returns a non-zero value as
+              exit status, then find returns a non-zero exit status.  If  find  encounters
+              an  error,  this can sometimes cause an immediate exit, so some pending com‐
+              mands  may  not  be   run   at   all.    For   this   reason   -exec my-com‐
+              mand ... {} + -quit  may  not result in my-command actually being run.  This
+              variant of -exec always returns true.
+
+# ~Sahil ? What is ```-exec``` option used for??
+# Also `-exec` is used to execute any command which we pass as arguments to -exec option and we can
+# reaplace the filename with {} symboly and end the command by + symbol. ALL THIS IS WRITTEN IN ABOVE
+# find docs very well.
+
+
+
+# Passing d in -type option says that print only directory paths in pwd recursively (not files):
+find . -type d
+
+# Passing f in -type option says that print only file paths in pwd recursively (not directoryies):
+find . -type f -exec sed 's/sahil/array/g' {} +
+find -type f -not -path '*/.*' -exec sed 's/sahil/array/g' {} +
+
+# Prints filepaths of all .js files in pwd recursively.
+find . -name '*.js'
+
+# Prints all files in pwd recursively except the any folder that starts with . (i.e., don't search in hidden folders):
+find -type f -not -path '*/.*'
+
+# Prints all file paths in pwd recursively except for files in any folder that has its name matched to pattern like
+# shown below in each case, all below cases work but its litreally visually understandable how each of them is
+# different in specific edge cases but every below case skis any folder name tommy for sure:
+find . -type f -not -path '*/tomm*/*'
+find . -type f -not -path '*tomm*/*'
+find . -type f -not -path '*tomm*'
+
+```
+
 ## `awk` rocks hard!!
 
 ```bash
