@@ -2,6 +2,15 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## installed `feh` image viewer archlinux
+
+```bash
+sudo pacman -S feh
+
+#Usage:
+feh <image-path-here>
+```
+
 ## installed obs-studio in archlinux
 
 ```bash
