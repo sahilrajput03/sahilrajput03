@@ -4,7 +4,7 @@
 
 ## `sed` with `find`, `grep` and `xargs`
 
-All the options discussed are [from this arcticle](https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/#disqus_thread).
+All the options discussed are [from this arcticle - How to Use sed to Find and Replace String in Files](https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/#disqus_thread).
 
 ```bash
 $ pwd
