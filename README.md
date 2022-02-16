@@ -64,6 +64,13 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## List all available commands from package.json file
+
+```bash
+npm run
+# Source: https://stackoverflow.com/a/59613935/10012446
+```
+
 ## piping data into nodejs script..
 
 ```bash
