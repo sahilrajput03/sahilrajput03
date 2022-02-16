@@ -46,6 +46,8 @@ $ find
 
 ## `sed` with `find`, `grep` and `xargs`
 
+`sed` stands *stream editor*, yes that means find, modify or replace text or do all together with the use of pipe interface(though we can use files directly to operate on them too).
+
 All the options discussed are [from this arcticle - How to Use sed to Find and Replace String in Files](https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/#disqus_thread).
 
 ```bash
