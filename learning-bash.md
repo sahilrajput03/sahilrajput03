@@ -2,6 +2,14 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## head / tail 
+
+```bash
+#usage:
+head -n10 #Gets first 10 lines
+tail -n10 #Gets last 10 lines
+```
+
 ## `sort` and `uniq` tool is linux
 
 ```bash
