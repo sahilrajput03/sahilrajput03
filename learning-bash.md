@@ -129,6 +129,8 @@ $ find
 
 ## `sed` with `find`, `grep` and `xargs`
 
+`sed` vs. `awk` both are stream editors but `awk` is mostly valuable in times when you want to work with data in terms of columns(you can manage dynamic no. of column size in it though). And in general `sed` is used with regex patterns inscribed in it to replace and get specific details from it using the group thing(which is pretty complex though, lean this technique [here](https://www.youtube.com/watch?v=sz_dsktIjt4)).
+
 `sed` stands *stream editor*, yes that means find, modify or replace text or do all together with the use of pipe interface(though we can use files directly to operate on them too).
 
 ```bash
