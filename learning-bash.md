@@ -12,6 +12,8 @@ line1
 line2
 line3
 
+# With s option we are saying to join lines to single line, and 
+# with option d we are saying to use , as delimiter for joining.
 $ paste -s -d, file.txt
 line1,line2,line3
 ```
