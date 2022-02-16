@@ -4,6 +4,42 @@
 
 ## `awk` rocks hard!!
 
+```bash
+ls
+# Output: my_awk_madeups.sh  print_squares_upto_5.awk  teams.txt
+
+# Contents of my_awk_madeups.sh file:
+cat my_awk_madeups.sh
+
+set -ex
+awk '{ print $1 "_" $2 }' teams.txt
+echo
+echo
+awk '{ print $1, $2 }' teams.txt
+echo
+echo
+awk '{ print NR, $1}' teams.txt
+
+# Contents of print_squalres_upto_5.awk file(a simple program):
+cat print_squares_upto_5.awk
+#!/usr/bin/awk -f
+BEGIN {
+  i = 1
+  while (i < 6) {
+    print "Square of", i, "is", i*i;
+    ++i
+  }
+}
+
+# Content of teams.txt file:
+cat teams.txt
+Bucks Milwaukee    60 22 0.732
+Raptors Toronto    58 24 0.707
+76ers Philadelphia 51 31 0.622
+Celtics Boston     49 33 0.598
+Pacers Indiana     48 34 0.585
+```
+
 Read this amazing article from [linuxize.com](https://linuxize.com/post/awk-command/) and you can refer official docs of awk [here(but its not very clean as all docs)](https://www.gnu.org/software/gawk/manual/gawk.html).
 
 ## `stat fileHere` ?
