@@ -15,6 +15,10 @@ He is bar.
 # With xargs we can pass any stdout or file's content to any command we want like this:
 $ cat file.txt | xargs echo
 I am Sahil. You are foo. He is bar.
+
+# FYI: This will NOT work at all:
+$ cat file.txt | echo
+# Output: NO OUTPUT.
 ```
 
 ## making use of `bc` - a command line calculator
