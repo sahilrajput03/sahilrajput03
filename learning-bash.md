@@ -57,10 +57,10 @@ find . -name '*.js'
 # search in hidden folders):
 find -type f -not -path '*/.*'
 
-# Prints all file paths in pwd recursively except for files in any folder that has its name matched
-# to pattern like shown below in each case, all below cases work but its litreally visually
-# understandable how each of them is different in specific edge cases but every below case skis any
-# folder name tommy for sure:
+# Prints all file paths in pwd recursively except for files in any folder that has its name
+# matched to pattern like shown below in each case, all below cases work but its litreally
+# visually understandable how each of them is different in specific edge cases but every
+# below case skis any folder name tommy for sure:
 find . -type f -not -path '*/tomm*/*'
 find . -type f -not -path '*tomm*/*'
 find . -type f -not -path '*tomm*'
