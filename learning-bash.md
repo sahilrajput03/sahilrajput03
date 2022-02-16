@@ -42,6 +42,14 @@ b
 x
 y
 z
+
+# Count the duplicate occurences as well:
+$ sort test.txt | uniq -c
+      5 a
+      1 b
+      1 x
+      4 y
+      1 z
 ```
 
 # grep and perl scripts
