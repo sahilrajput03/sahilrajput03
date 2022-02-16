@@ -150,8 +150,13 @@ grep -rl 'sahil' .
 # program to understand in case files have weird names as talked in above manual of grep.
 grep -rlZ 'sahil' .
 
+# FIRST OF ALL LEARN sed via article @
+# https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/
+# and then read below example. DO READ THE COMMENTS I MADE ON THE SAME ARTICLE TOO!
+
 # FYI: We can pipe the file name to sed simply for any of our usecase like:
 grep -rlZ 'foo' . | xargs -0 sed -i.bak 's/foo/bar/g'
+# FYI: WE MUST USE xargs ^^^ here to make it work with grep else it won't work at all.
 ```
 
 ## `awk` rocks hard!!
