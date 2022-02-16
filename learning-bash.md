@@ -2,6 +2,51 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Playing with commands to represent directiory
+
+```bash
+$ pwd
+/home/array/test/learning-find-grep-sed-xarg
+$ tree
+.
+├── barcelona
+│   └── pinky
+│       └── tommy
+│           ├── app.js
+│           ├── bad name.txt
+│           └── carl.txt
+├── file.txt
+└── mello.txt
+
+3 directories, 5 files
+$ ls -R
+barcelona  file.txt  mello.txt
+
+./barcelona:
+pinky
+
+./barcelona/pinky:
+tommy
+
+./barcelona/pinky/tommy:
+app.js  bad name.txt  carl.txt
+$ find
+.
+./.folder
+./.folder/myfile.txt
+./mello.txt
+./barcelona
+./barcelona/pinky
+./barcelona/pinky/tommy
+./barcelona/pinky/tommy/app.js
+./barcelona/pinky/tommy/bad name.txt
+./barcelona/pinky/tommy/carl.txt
+./file.txt
+$
+
+
+```
+
 ## `sed` with `find`, `grep` and `xargs`
 
 All the options discussed are [from this arcticle - How to Use sed to Find and Replace String in Files](https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/#disqus_thread).
