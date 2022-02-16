@@ -42,9 +42,6 @@ $ find
 ./barcelona/pinky/tommy/bad name.txt
 ./barcelona/pinky/tommy/carl.txt
 ./file.txt
-$
-
-
 ```
 
 ## `sed` with `find`, `grep` and `xargs`
