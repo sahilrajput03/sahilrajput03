@@ -2,7 +2,7 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
-## sort tool is linux
+## `sort` and `uniq` tool is linux
 
 ```bash
 $ cat test.txt
@@ -14,6 +14,29 @@ a
 
 # Simple sorting with sort cli:
 $ sort test.txt
+a
+b
+x
+y
+z
+```
+
+```bash
+$ cat test.txt
+z
+y
+y
+y
+y
+x
+b
+a
+a
+a
+a
+a
+
+$ sort test.txt | uniq
 a
 b
 x
