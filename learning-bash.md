@@ -4,6 +4,8 @@
 
 ## `sed` with `find`, `grep` and `xargs`
 
+All the options discussed are [from this arcticle](https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/#disqus_thread).
+
 ```bash
 $ pwd
 /home/array/test/learning-find-grep-sed-xarg
@@ -65,6 +67,47 @@ find . -type f -not -path '*/tomm*/*'
 find . -type f -not -path '*tomm*/*'
 find . -type f -not -path '*tomm*'
 
+
+
+
+# Using grep
+
+$ man grep
+# Output: (for -r, -l and -Z options)
+
+#       -r, --recursive
+#              Read all files under each directory, recursively, following  symbolic  links
+#              only  if  they  are  on  the  command line.  Note that if no file operand is
+#              given, B<grep> searches the working directory.  This is equivalent to the -d
+#              recurse option.
+#              
+#       -l, --files-with-matches
+#              Suppress normal output; instead print the name of each input file from which
+#              output would normally have been printed.  Scanning  each  input  file  stops
+#              upon first match.
+#              
+#       -Z, --null
+#              Output  a  zero byte (the ASCII NUL character) instead of the character that
+#              normally follows a file name.  For example, grep -lZ  outputs  a  zero  byte
+#              after  each  file  name instead of the usual newline.  This option makes the
+#              output unambiguous, even in the presence of file  names  containing  unusual
+#              characters  like  newlines.  This option can be used with commands like find
+#              -print0, perl -0, sort -z, and xargs -0 to  process  arbitrary  file  names,
+#              even those that contain newline characters.
+#
+
+# Print all the lines of all the files that have text sahil in them in cwd recursively.
+grep -r 'sahil' .
+
+# Print the names of all the files that have text sahil in them.
+grep -rl 'sahil' .
+
+# Separate the filename with a ascii nul character which we can easily use in different
+# program to understand in case files have weird names as talked in above manual of grep.
+grep -rlZ 'sahil' .
+
+# FYI: We can pipe the file name to sed simply for any of our usecase like:
+grep -rlZ 'foo' . | xargs -0 sed -i.bak 's/foo/bar/g'
 ```
 
 ## `awk` rocks hard!!
