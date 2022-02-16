@@ -4,6 +4,25 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## making use of `bc` - a command line calculator
+
+```bash
+# bc is berkely calculator cli too:
+$ echo "2+3" | bc -l
+5
+
+$ cat file.txt
+5
+3
+2
+
+$ paste -sd+ file.txt
+5+3+2
+
+$ paste -sd+ file.txt | bc -l
+10
+```
+
 ## Using `paste` to join multiple lines to a single line
 
 ```bash
