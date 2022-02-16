@@ -61,6 +61,13 @@ $ find
 
 `sed` stands *stream editor*, yes that means find, modify or replace text or do all together with the use of pipe interface(though we can use files directly to operate on them too).
 
+```bash
+sed -i 's/\b[0-9]\{3\}\b/number/g' file.txt
+# In above you need to learn that (you can run below regex test in browser though):
+# /[0-9]{3}/.test('my text 12') // false (coz we are testing three numeric digits with {3} pattern in there.! Yikes!
+# /[0-9]{3}/.test('my 789 text') // true
+```
+
 All the options discussed are [from this arcticle - How to Use sed to Find and Replace String in Files](https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/#disqus_thread).
 
 ```bash
