@@ -4,6 +4,18 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Using `paste` to join multiple lines to a single line
+
+```bash
+$ cat file.txt
+line1
+line2
+line3
+
+$ paste -s -d, file.txt
+line1,line2,line3
+```
+
 ## head / tail 
 
 ```bash
