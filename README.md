@@ -26,6 +26,8 @@ cat /dev/null
 
 **[Plug this in and keep working.](https://youtu.be/LMmuChXra_M)**
 
+**Winning is the only option.**
+
 **“ Learning never exhausts the mind. ” ― Leonardo da Vinci**
 
 **“ Keep your face always toward the sunshine - and shadows will fall behind you. ” ― Walt Whitman**
