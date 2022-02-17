@@ -1,6 +1,8 @@
 # archlinux-notes
 
+**FYI: `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.**
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
+
 
 ## insatlled `noefetch`
 
