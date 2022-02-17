@@ -5,24 +5,7 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
-## mimic input in python
-
-```
-input_arr = ["one", "two"]
-i = -1
-def mock_input():
-    global i
-    i = i + 1
-    if i < len(input_arr):
-        return input_arr[i]
-
-# Enabling `mock_input` (comment below line to to disable mocking input):
-input = mock_input
-
-# Testing input calls
-for k in range(len(input_arr)):
-    print(input())
-```
+Find me on terminal via `npx sahilrajput03` command.
 
 ## References:
 
@@ -44,12 +27,28 @@ for k in range(len(input_arr)):
 - **Acronyms**: [Click here](acroynms.md)
 - **Thoughts, Principles**: [Click here](thoughts-principles.md)
 
-Find me on terminal via `npx sahilrajput03` command.
-
-
 ***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
+
+## mimic input in python
+
+```
+input_arr = ["one", "two"]
+i = -1
+def mock_input():
+    global i
+    i = i + 1
+    if i < len(input_arr):
+        return input_arr[i]
+
+# Enabling `mock_input` (comment below line to to disable mocking input):
+input = mock_input
+
+# Testing input calls
+for k in range(len(input_arr)):
+    print(input())
+```
 
 ## List all available scripts/commands from package.json file
 
