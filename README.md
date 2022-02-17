@@ -31,6 +31,29 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## in/of in for
+
+```bash
+let k = [1,2,3]
+
+for (i in k){           // in means index
+    console.log(i)
+}
+# Output:
+0
+1
+2
+
+
+for (i of k){           // of means item itself
+    console.log(i)
+}
+# Output:
+1
+2
+3
+```
+
 ## mimic input in python
 
 ```
