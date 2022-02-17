@@ -4,6 +4,10 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Bash shortcuts
+
+Source: https://ss64.com/bash/syntax-keyboard.html
+
 ## Usage of xargs
 
 ```bash
