@@ -24,5 +24,5 @@
 - BOOK - Algorithms - Notes for Professionals: [Click here](https://sahilrajput03.github.io/AlgorithmsNotesForProfessionals.pdf)
 - BOOK - Bash - Notes for Professionals: [Click here](https://sahilrajput03.github.io/BashNotesForProfessionals.pdf)
 - BOOK - Git® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/GitNotesForProfessionals.pdf)
-- BOOK -JavaScript® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/JavaScriptNotesForProfessionals.pdf)
+- BOOK - JavaScript® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/JavaScriptNotesForProfessionals.pdf)
 
