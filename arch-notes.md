@@ -19,6 +19,9 @@ makepkg -si
 
 #Usage:
 7zz
+# Extracting 7x extension file:
+7zz e documentation-dump.7z
+
 ```
 
 ## Installed `todo.txt-cli`
