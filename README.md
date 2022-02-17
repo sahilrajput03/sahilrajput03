@@ -38,6 +38,7 @@ for k in range(len(input_arr)):
 - **Why telegram (not whatsapp): [Click here](why-telegram.md)**
 - [Why DSA based interviews are stupid ?](dsa.md)
 - [Learn Photoshop ?](learn-photoshop.md)
+- [Acronyms](acroynms.md)
 
 ## Thoughts, Principles, Acronyms
 
@@ -69,15 +70,6 @@ for k in range(len(input_arr)):
 
 Find me on terminal via `npx sahilrajput03` command.
 
-**Acronyms**
-
-**OTOH**: *On the other hand.*
-
-**IMHO**: *In my humble opinion.*
-
-**TIL**: *Today I Learned.*
-
-**`it`**  jest means ***individual test*** in jest/other testing libraries ~ *fireshipio*
 
 ***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
 
