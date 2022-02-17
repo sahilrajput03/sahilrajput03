@@ -44,5 +44,3 @@
 - BOOK - SQLNotesForProfessionals: [Click here](https://sahilrajput03.github.io/SQLNotesForProfessionals.pdf)
 - BOOK - ReactNativeNotesForProfessionals: [Click here](https://sahilrajput03.github.io/ReactNativeNotesForProfessionals.pdf)
 - BOOK - AndroidNotesForProfessionals: [Click here](https://sahilrajput03.github.io/AndroidNotesForProfessionals.pdf)
-- BOOK - ReactNativeNotesForProfessionals: [Click here](https://sahilrajput03.github.io/ReactNativeNotesForProfessionals.pdf)
-- BOOK - AndroidNotesForProfessionals[Click here](https://sahilrajput03.github.io/AndroidNotesForProfessionals.pdf)
