@@ -2,6 +2,15 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## insatlled `noefetch`
+
+```bash
+sudo pacman -s neofetch
+
+# Usage:
+neofetch
+```
+
 ## installed `feh` image viewer archlinux
 
 ```bash
