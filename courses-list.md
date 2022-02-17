@@ -12,8 +12,10 @@
 - CSS - Flexbox Zombies: [Click here](https://mastery.games/flexboxzombies/)
 - CSS - Conquering Responsive Layouts by Kevin Powell: [Click here](https://courses.kevinpowell.co/conquering-responsive-layouts)
 - CSS - CSS Grid Layout Crash Course: [Click here](https://www.youtube.com/watch?v=jV8B24rSN5o)
-- W3Schools.com - Learn to Code (Lots of tutorials) - [Click here](https://www.w3schools.com/)
-- Programming Notes for Professionals books - [Click here](https://goalkicker.com/)
+- W3Schools.com - Learn to Code (Lots of tutorials): [Click here](https://www.w3schools.com/)
+- BOOKS PORTAL - Programming Notes for Professionals books: [Click here](https://goalkicker.com/)
+- BOOK - Algorithms - Notes for Professionals: [Click here](https://sahilrajput03.github.io/AlgorithmsNotesForProfessionals.pdf)
+- BOOK - 
 
 ## Other paid courese
 
