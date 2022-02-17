@@ -26,3 +26,4 @@
 - BOOK - Git® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/GitNotesForProfessionals.pdf)
 - BOOK - JavaScript® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/JavaScriptNotesForProfessionals.pdf)
 - BOOK - Linux® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/LinuxNotesForProfessionals.pdf)
+- BOOK - Node.js Notes for Professionals: [Click here](https://sahilrajput03.github.io/NodeJSNotesForProfessionals.pdf)
