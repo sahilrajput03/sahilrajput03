@@ -27,3 +27,7 @@
 - BOOK - JavaScript® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/JavaScriptNotesForProfessionals.pdf)
 - BOOK - Linux® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/LinuxNotesForProfessionals.pdf)
 - BOOK - Node.js Notes for Professionals: [Click here](https://sahilrajput03.github.io/NodeJSNotesForProfessionals.pdf)
+- BOOK - PostgreSQL® Notes for Professionals: [Click here](https://sahilrajput03.github.io/PostgreSQLNotesForProfessionals.pdf)
+- BOOK - R Notes for Professionals: [Click here](https://sahilrajput03.github.io/RNotesForProfessionals.pdf)
+- BOOK - Python Notes for Professionals: [Click here](https://sahilrajput03.github.io/PythonNotesForProfessionals.pdf)
+- 
