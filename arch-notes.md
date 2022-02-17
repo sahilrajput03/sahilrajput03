@@ -4,6 +4,15 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## Installed `todo.txt-cli`
+
+Source: https://aur.archlinux.org/packages/todotxt
+
+```bash
+git clone https://aur.archlinux.org/todotxt.git
+cd todotxt
+makepkg -si
+```
 
 ## insatlled `noefetch`
 
