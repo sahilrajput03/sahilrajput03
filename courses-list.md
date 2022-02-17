@@ -30,7 +30,6 @@
 - BOOK - PostgreSQL® Notes for Professionals: [Click here](https://sahilrajput03.github.io/PostgreSQLNotesForProfessionals.pdf)
 - BOOK - R Notes for Professionals: [Click here](https://sahilrajput03.github.io/RNotesForProfessionals.pdf)
 - BOOK - Python Notes for Professionals: [Click here](https://sahilrajput03.github.io/PythonNotesForProfessionals.pdf)
-- on test ..
 - BOOK - ReactJSNotesForProfessionals: [Click here](https://sahilrajput03.github.io/ReactJSNotesForProfessionals.pdf)
 - BOOK - MongoDBNotesForProfessional: [Click here](https://sahilrajput03.github.io/MongoDBNotesForProfessionals.pdf)
 - BOOK - HTML5NotesForProfessionals: [Click here](https://sahilrajput03.github.io/HTML5NotesForProfessionals.pdf)
