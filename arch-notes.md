@@ -4,6 +4,23 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## installed `7zz` for .7z file extensions
+
+Docs of 7z: https://wiki.archlinux.org/title/p7zip
+
+```bash
+git clone https://aur.archlinux.org/uasm.git
+cd uasm
+makepkg -si
+
+git clone https://aur.archlinux.org/packages/7-zip
+cd 7-zip
+makepkg -si
+
+#Usage:
+7zz
+```
+
 ## Installed `todo.txt-cli`
 
 Source: https://aur.archlinux.org/packages/todotxt
