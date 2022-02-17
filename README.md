@@ -5,6 +5,18 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
+## mimic input in python
+
+```
+input_arr = ["one", "two"]
+i = -1
+def input():
+    global i
+    i = i + 1
+    if i < len(input_arr):
+        return input_arr[i]
+```
+
 ## References:
 
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
