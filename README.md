@@ -15,6 +15,10 @@ def input():
     i = i + 1
     if i < len(input_arr):
         return input_arr[i]
+        
+for k in range(len(input_arr)):
+    print(input())
+
 ```
 
 ## References:
