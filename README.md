@@ -18,7 +18,6 @@ def input():
         
 for k in range(len(input_arr)):
     print(input())
-
 ```
 
 ## References:
