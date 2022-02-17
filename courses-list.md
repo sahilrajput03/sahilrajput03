@@ -16,6 +16,8 @@
 - BOOKS PORTAL - Programming Notes for Professionals books: [Click here](https://goalkicker.com/)
 - BOOK - Algorithms - Notes for Professionals: [Click here](https://sahilrajput03.github.io/AlgorithmsNotesForProfessionals.pdf)
 - BOOK - Bash - Notes for Professionals: [Click here](https://sahilrajput03.github.io/BashNotesForProfessionals.pdf)
+- BOOK - Git® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/GitNotesForProfessionals.pdf)
+- 
 
 ## Other paid courese
 
