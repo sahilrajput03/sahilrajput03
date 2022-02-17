@@ -16,6 +16,7 @@ def input():
     if i < len(input_arr):
         return input_arr[i]
         
+# Testing input calls
 for k in range(len(input_arr)):
     print(input())
 ```
