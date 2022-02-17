@@ -14,6 +14,10 @@
 - CSS - CSS Grid Layout Crash Course: [Click here](https://www.youtube.com/watch?v=jV8B24rSN5o)
 - W3Schools.com - Learn to Code (Lots of tutorials): [Click here](https://www.w3schools.com/)
 
+**Other paid coursse**
+
+- ?
+
 **Books**
 
 - BOOKS PORTAL - Programming Notes for Professionals books: [Click here](https://goalkicker.com/)
@@ -22,6 +26,3 @@
 - BOOK - Git® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/GitNotesForProfessionals.pdf)
 - BOOK -JavaScript® - Notes for Professionals: [Click here](https://sahilrajput03.github.io/JavaScriptNotesForProfessionals.pdf)
 
-**Other paid coursse**
-
-- ?
