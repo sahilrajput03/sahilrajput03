@@ -18,7 +18,7 @@ cat /dev/null
 - **Url shorteners:**  [Bitly](https://bitly.com/)
 - **Vscode Settings:** [Click here](vscode-settings.md)
 - **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
-- **Courses ?**: [Click here](courses-list.md).
+- **Courses**: [Click here](courses-list.md).
 - **Why telegram (not whatsapp): [Click here](why-telegram.md)**
 - [Why DSA based interviews are stupid ?](dsa.md)
 - [Learn Photoshop ?](learn-photoshop.md)
