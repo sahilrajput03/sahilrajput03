@@ -33,7 +33,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## in/of in for
 
-```bash
+```js
 let k = [1,2,3]
 
 for (i in k){           // in means index
