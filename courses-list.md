@@ -6,6 +6,7 @@
 - DevOps with Docker - Containers for Beginners: [Click here](https://devopswithdocker.com/)
 - DevOps with Kubernetes - Introduction to Kubernetes practices: [Click here](https://devopswithkubernetes.com/)
 - Regex: [Click here](https://regexone.com/)
+- SQLBolt - Learn SQL with simple, interactive exercises: [Click here](https://sqlbolt.com/)
 - Rust - Rustlings: [Click here](https://github.com/rust-lang/rustlings)
 - CSS - Css grid garden: [Click here](https://cssgridgarden.com/)
 - CSS - Flexbox Zombies: [Click here](https://mastery.games/flexboxzombies/)
