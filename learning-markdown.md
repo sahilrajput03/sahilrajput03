@@ -53,9 +53,9 @@
   ***[Click here](https://example.com)***
   ```
 
-The second link would be ***italicized + bold** as well.
+  The second link would be ***italicized + bold** as well.
 
-- Code snippets: To create a inline (in same line as the text) you can use \`code here\` to make a text formatted as code. Also to create a block like text formatter as code, you can do like: (**NOTE: In place of `'''` you must use ` ``` ` when writing your markdown, I have done that to show on that on purpose**).
+- **Code snippets**: To create a inline (in same line as the text) you can use \`code here\` to make a text formatted as code. Also to create a block like text formatter as code, you can do like: (**NOTE: In place of `'''` you must use ` ``` ` when writing your markdown, I have done that to show on that on purpose**).
 
   ```
   '''languageName
