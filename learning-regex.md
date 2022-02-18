@@ -86,3 +86,25 @@ Match	wazzzzzup
 Match	wazzzup
 Skip	wazup
 ```
+
+
+**Lesson7**: Mr. Kleene, Mr. Kleene:
+
+tldr; * (kleen star) means zero or more, + (kleen plus) means 1 or more.
+
+A powerful concept in regular expressions is the ability to match an arbitrary number of characters. For example, imagine that you wrote a form that has a donation field that takes a numerical value in dollars. A wealthy user may drop by and want to donate $25,000, while a normal user may want to donate $25.
+
+One way to express such a pattern would be to use what is known as the Kleene Star and the Kleene Plus, which essentially represents either 0 or more or 1 or more of the character that it follows (it always follows a character or group). For example, to match the donations above, we can use the pattern \d* to match any number of digits, but a tighter regular expression would be \d+ which ensures that the input string has at least one digit.
+
+These quantifiers can be used with any character or special metacharacters, for example a+ (one or more a's), [abc]+ (one or more of any a, b, or c character) and .* (zero or more of any character).
+
+```bash
+a.
+a.+ This works too.
+
+Match	aaaabcc
+Match	aabbbbc
+Match	aacc
+Skip	a
+```
+
