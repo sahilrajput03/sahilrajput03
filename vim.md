@@ -25,7 +25,7 @@ Ans. Select text by `v` and use `c()<Esc>P`. OR you can do like: `cw()<Esc>P` or
 
 **4.** Wrap lines in vim using `:set wrap`.
 
-**5.** Vim block mode works good when you set your cursor to start or end of line first using ^ or $, and then key thing is that `i` and `a` wont' work but `I` and `A` works very good.
+**5.** ***Vim block mode*** works good when you select bunch of line first and then you set cursor to start or end of line first using `^` or `$`, and then key thing is that `i` and `a` **won't work** but `I` and `A` works very good.
 
 ## move screen text with ease
 
