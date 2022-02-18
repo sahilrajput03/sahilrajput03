@@ -66,7 +66,7 @@
     - This is sublist item2 of list item2
   ```
   
-  above markdown would look like:
+  output of above markdown would look like:
   - This is list item1
   - This is list item2
     - This is sublist item1 of list item2
