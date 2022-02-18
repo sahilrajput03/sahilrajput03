@@ -854,6 +854,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # Simple ssh keys generation:
 ssh-keygen
+#Note if you give filename as myfile, then output will be: myfile and myfile.pub, where myfile is private key and myfile.pub is public key.
 
 # Generate myfile.ppk and myfile.ppk.pub (With no prompts for filename, and do set passphrase in prompts):
 ssh-keygen -f myfile.ppk
