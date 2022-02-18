@@ -864,6 +864,8 @@ _Recall last n commits in git:_ `git log -n 1`, `git log -n2` works well similar
 
 ## Setup your cli to work with different github accounts
 
+Read about ssh generation in cli at https://stackoverflow.com/a/5246045/10012446.
+
 First add your **public key** to github account you want access to. Then add entry correspondingly like below to your `~/.ssh/config` file.
 
 `vi ~/.ssh/config`
