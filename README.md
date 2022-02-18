@@ -29,7 +29,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Thoughts, Principles**: [Click here](thoughts-principles.md)
 - **Learning Regex**: [Click here](learning-regex.md)
 - **Learning Markdown**: [Click here](learning-markdown.md)
-
+- **Learning Figma**: [Click here](learning-figma.md)
 ***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
