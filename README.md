@@ -874,18 +874,17 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # Generate myfile.ppk and myfile.ppk.pub (With no prompts for filename, and do set passphrase in prompts):
 ssh-keygen -f myfile.ppk
-
-**Learn a public key is always contained inside the private key, you can get that public key using openssl anytime. Read extracting public key and ssh-public key generation from private file in cli at https://stackoverflow.com/a/5246045/10012446.**
 ```
 
-```bash
+**Learn a public key is always contained inside the private key, you can get that public key using openssl anytime. Read extracting public key and ssh-public key generation from private file in cli at https://stackoverflow.com/a/5246045/10012446.**
+
 First add your **public key** to github account you want access to. Then add entry correspondingly like below to your `~/.ssh/config` file.
 
 `vi ~/.ssh/config`
 
 and enter code like below:
 
-```
+```bash
 HOST github.com
  HostName github.com
  IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-1-private-key"
