@@ -6,6 +6,8 @@
 
 **Undo/Redo/copy/cut/selectAll**: Use `ctrl+z`/`ctrl+y`/`ctrl+c`/`ctrl+x`/`ctrl+a`.
 
+**Lock a object/objects to fix them and disable selection of them**: Select object/objects and use `ctrl+shift+l` to toggle lock/unlock. BETTER WAY IS TO USE lock icon in the ***Layers section***.
+
 **Show help shortcuts for tools**: `Ctrl+shift+?` (or use the bottom right `?` button and select `Keyboard Shortcuts`) and switch to `Tools` tab to view the tools shortcuts.
 
 **Hand tool - BEST WAY TO MOVE AROUND PAGE**: Hold down `space` key to activate hand tool temporarily and move the page with mouse simply.
