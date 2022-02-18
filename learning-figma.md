@@ -14,5 +14,5 @@
 
 **Copy objects**: Select object/objects first, then hold down `alt` key and use mouse to drag the object/objects to create their copies.
 
-**Create squares/perfect circles using *rectange tool*/*ellipse tool* **: Choose *rectange tool* with `r` / *ellipse* with `o` and then hold down `shift` key and you can draw square/perfect circle now.
+**Create squares/perfect circles using** *rectange tool*/*ellipse tool*: Choose *rectange tool* with `r` / *ellipse* with `o` and then hold down `shift` key and you can draw square/perfect circle now.
 
