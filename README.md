@@ -26,6 +26,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - [Learn Photoshop ?](learn-photoshop.md)
 - **Acronyms**: [Click here](acroynms.md)
 - **Thoughts, Principles**: [Click here](thoughts-principles.md)
+- **Learning Regex**: [Click here](learning-regex.md)
 
 ***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
 
