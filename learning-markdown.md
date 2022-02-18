@@ -13,7 +13,7 @@ DO NOT DO LIKE (Notice there is not spaces between # and heading text)
 #Heading1
 ```
 
-- Paragraphs: In below example, only when there is empty line the new paragraph starts. Thats why line1 and line2 will appears as a single paragraph even though they are on different lines.
+- **Paragraphs:** In below example, only when there is empty line the new paragraph starts. Thats why line1 and line2 will appears as a single paragraph even though they are on different lines.
 
 
 ```md
@@ -25,7 +25,7 @@ This is line3.
 This is line4.
 ```
 
-- bold, italics, bold+italics
+- **bold**, *italics*, ***bold+italics***
 
 ```md
 *This is bold text*
