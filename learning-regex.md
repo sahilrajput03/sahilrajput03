@@ -1,5 +1,7 @@
 # learning regex
 
+**TODO: DO THE \` tick markings in all the text.**
+
 W3Schools.com - Regex Reference: https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 
 Course: RegexOne - Learn Regular Expressions with simple, interactive exercises.
@@ -108,7 +110,7 @@ Match	aacc
 Skip	a
 ```
 
-Lesson8: Characters optional
+**Lesson8**: Characters optional
 
 As you saw in the previous lesson, the Kleene star and plus allow us to match repeated characters in a line.
 
@@ -127,7 +129,7 @@ Match	24 files found?
 Skip	No files found.
 ```
 
-Lesson9: All this whitespace
+**Lesson9**: All this whitespace
 
 When dealing with real-world input, such as log files and even user input, it's difficult not to encounter whitespace. We use it to format pieces of information to make it easier to read and scan visually, and a single space can put a wrench into the simplest regular expression.
 
@@ -144,3 +146,58 @@ Match	3.           abc
 Skip	4.abc
 ```
 
+**Lesson 10**: Starting and ending
+
+So far, we've been writing regular expressions that partially match pieces across all the text. Sometimes this isn't desirable, imagine for example we wanted to match the word "success" in a log file. We certainly don't want that pattern to match a line that says "Error: unsuccessful operation"! That is why it is often best practice to write as specific regular expressions as possible to ensure that we don't get false positives when matching against real world text.
+
+One way to tighten our patterns is to define a pattern that describes both the start and the end of the line using the special `^` (hat) and `$` (dollar sign) metacharacters. In the example above, we can use the pattern `^success` to match only a line that begins with the word "success", but not the line "Error: unsuccessful operation". And if you combine both the hat and the dollar sign, you create a pattern that matches the whole line completely at the beginning and end.
+
+Note that this is different than the hat used inside a set of bracket `[^...]` for excluding characters, which can be confusing when reading regular expressions.
+
+Try to match each of the strings below using these new special characters.
+
+```bash
+[^n]successful$
+
+Match	Mission: successful
+Skip	Last Mission: unsuccessful
+Skip	Next Mission: successful upon capture of target
+```
+
+**Lesson 11**: Match groups
+
+Regular expressions allow us to not just match text but also to extract information for further processing. This is done by defining groups of characters and capturing them using the special parentheses ( and ) metacharacters. Any subpattern inside a pair of parentheses will be captured as a group. In practice, this can be used to extract information like phone numbers or emails from all sorts of data.
+
+Imagine for example that you had a command line tool to list all the image files you have in the cloud. You could then use a pattern such as ^(IMG\d+\.png)$ to capture and extract the full filename, but if you only wanted to capture the filename without the extension, you could use the pattern ^(IMG\d+)\.png$ which only captures the part before the period.
+
+Go ahead and try to use this to write a regular expression that matches only the filenames (not including extension) of the PDF files below.
+
+```bash
+^(.*).pdf$
+
+                                         This is captured text we get as EXPECTED!
+Capture	file_record_transcript.pdf	    file_record_transcript
+Capture	file_07241999.pdf	              file_07241999
+Skip	testfile_fake.pdf.tmp
+```
+
+**Lesson 12**: Nested groups
+
+When you are working with complex data, you can easily find yourself having to extract multiple layers of information, which can result in nested groups. Generally, the results of the captured groups are in the order in which they are defined (in order by open parenthesis).
+
+Take the example from the previous lesson, of capturing the filenames of all the image files you have in a list. If each of these image files had a sequential picture number in the filename, you could extract both the filename and the picture number using the same pattern by writing an expression like ^(IMG(\d+))\.png$ (using a nested parenthesis to capture the digits).
+
+The nested groups are read from left to right in the pattern, with the first capture group being the contents of the first parentheses group, etc.
+
+For the following strings, write an expression that matches and captures both the full date, as well as the year of the date.
+
+```bash
+(...\s(\d{4}))
+
+
+Task	  Text	    Capture Groups	
+                  1st         2nd
+Capture	Jan 1987	Jan 1987    1987
+Capture	May 1969	May 1969    1969
+Capture	Aug 2011	Aug 2011    2011
+```
