@@ -61,8 +61,8 @@
 
   ```
   '''languageName
-  code here..
-  code here..
+  console.log("Hello world")
+  // more code here
   
   '''
   ```
