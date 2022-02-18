@@ -216,10 +216,62 @@ Below are a couple different common display resolutions, try to capture the widt
 ```bash
 (.+)x(.+)
 
-
 Task	  Text	      Capture Groups	
                     1st         2nd
 Capture	1280x720	  1280        720
 Capture	1920x1600	  1920        1600
 Capture	1024x768	  1024        768
 ```
+
+
+**Lesson 14**: It's all conditional
+
+As we mentioned before, it's always good to be precise, and that applies to coding, talking, and even regular expressions. For example, you wouldn't write a grocery list for someone to Buy more .* because you would have no idea what you could get back. Instead you would write Buy more milk or Buy more bread, and in regular expressions, we can actually define these conditionals explicitly.
+
+Specifically when using groups, you can use the | (logical OR, aka. the pipe) to denote different possible sets of characters. In the above example, I can write the pattern "Buy more (milk|bread|juice)" to match only the strings Buy more milk, Buy more bread, or Buy more juice.
+
+Like normal groups, you can use any sequence of characters or metacharacters in a condition, for example, ([cb]ats*|[dh]ogs?) would match either cats or bats, or, dogs or hogs. Writing patterns with many conditions can be hard to read, so you should consider making them separate patterns if they get too complex.
+
+Go ahead and try writing a conditional pattern that matches only the lines with small fuzzy creatures below.
+
+```bash
+(cats|dogs)
+
+Task	Text	 
+Match	I love cats
+Match	I love dogs
+Skip	I love logs
+Skip	I love cogs
+```
+
+
+**Lesson 15**: Other special characters
+
+This lesson will cover some extra metacharacters, as well as the results of captured groups.
+
+We have already learned the most common metacharacters to capture digits using `\d`, whitespace using `\s`, and alphanumeric letters and digits using `\w`, but regular expressions also provides a way of specifying the opposite sets of each of these metacharacters by using their upper case letters. For example, `\D` represents any non-digit character, `\S` any non-whitespace character, and `\W` any non-alphanumeric character (such as punctuation). Depending on how you compose your regular expression, it may be easier to use one or the other.
+
+Additionally, there is a special metacharacter \b which matches the boundary between a word and a non-word character. It's most useful in capturing entire words (for example by using the pattern `\w+\b`).
+
+One concept that we will not explore in great detail in these lessons is back referencing, mostly because it varies depending on the implementation. However, many systems allow you to reference your captured groups by using \0 (usually the full matched text), `\1` (group 1), `\2` (group 2), etc. This is useful for example when you are in a text editor and doing a search and replace using regular expressions to swap two numbers, you can search for `(\d+)-(\d+)` and replace it with `\2-\1` to put the second captured number first, and the first captured number second for example.
+
+Below are a number of different strings, try out the different types of metacharacters or anything we've learned in the previous lessons and continue on when you are ready.
+
+*LOL BELOW WAS A CRAZY SOLUTION:*
+
+```bash
+.*
+
+Task	Text	 
+Match	The quick brown fox jumps over the lazy dog.
+Match	There were 614 instances of students getting 90.0% or above
+Match	The FCC had to censor the network for saying &$#*@!.
+```
+
+> ***LEARN MORE: There are still topics within regular expressions that we have not yet explored, – things like greedy vs. non-greedy expressions, posix notation and more. We will try to elaborate more on these in future lessons.***
+
+*[Continue doing problems here (they are really interesting)](https://regexone.com/problem/matching_decimal_numbers).*
+
+Thanks for reading.
+
+> Sahil Rajput
