@@ -2,6 +2,8 @@
 
 ***All of below courses are 100% Open source(free).***
 
+-todo~sahil: The Missing Semester of Your CS Education(MIT), Regex, DevOps with Kubernetes, FSO part 12 and part 13.
+
 - The Missing Semester of Your CS Education(MIT): [Click here](https://missing.csail.mit.edu/)
 - Deep Dive Into Modern Web Development | Full Stack Open 2021: [Click here](https://fullstackopen.com/en/)
 - DevOps with Docker - Containers for Beginners: [Click here](https://devopswithdocker.com/)
