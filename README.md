@@ -871,6 +871,8 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 # Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
+# Simple ssh keys generation:
+ssh-keygen
 
 # Generate myfile.ppk and myfile.ppk.pub (With no prompts for filename, and do set passphrase in prompts):
 ssh-keygen -f myfile.ppk
