@@ -201,3 +201,25 @@ Capture	Jan 1987	Jan 1987    1987
 Capture	May 1969	May 1969    1969
 Capture	Aug 2011	Aug 2011    2011
 ```
+
+
+**Lesson 13**: More group work
+
+**As you saw in the previous lessons, all the quantifiers including the star \*, plus +, repetition {m,n} and the question mark ? can all be used within the capture group patterns. This is the only way to apply quantifiers on sequences of characters instead of the individual characters themselves.**
+
+For example, if I knew that a phone number may or may not contain an area code, the **right pattern would test for the existence of the whole group of digits `(\d{3})?` and not the individual characters themselves (which would be wrong).**
+
+Depending on the regular expression engine you are using, you can also use non-capturing groups which will allow you to match the group but not have it show up in the results.
+
+Below are a couple different common display resolutions, try to capture the width and height of each display.
+
+```bash
+(.+)x(.+)
+
+
+Task	  Text	      Capture Groups	
+                    1st         2nd
+Capture	1280x720	  1280        720
+Capture	1920x1600	  1920        1600
+Capture	1024x768	  1024        768
+```
