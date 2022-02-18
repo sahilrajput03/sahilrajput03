@@ -1,5 +1,7 @@
 # Learning Figma
 
+**Pages concept**: It is an amazing concept to keep designs isloated in each page, thus you can do a large number of separate design works in a single file of figma. Yo!
+
 **Quick actions**: `ctrl+/`
 
 **Presentation Mode(show/hide UI)**: `ctrl+\`
@@ -8,7 +10,7 @@
 
 **Lock a object/objects to fix them and disable selection of them**: Select object/objects and use `ctrl+shift+l` to toggle lock/unlock. BETTER WAY IS TO USE lock icon in the ***Layers section***.
 
-**Show help shortcuts for tools**: `Ctrl+shift+?` (or use the bottom right `?` button and select `Keyboard Shortcuts`) and switch to `Tools` tab to view the tools shortcuts.
+**Show help shortcuts for tools**: `Ctrl+shift+?` (or use the bottom right `?` button and select `Keyboard Shortcuts`) and switch to `Tools` tab to view the tools shortcuts. [List of all hotkeys](https://shortcuts.design/tools/toolspage-figma/).
 
 **Hand tool - BEST WAY TO MOVE AROUND PAGE**: Hold down `space` key to activate hand tool temporarily and move the page with mouse simply.
 
@@ -18,9 +20,9 @@
 
 **Copy objects**: Select object/objects first, then hold down `alt` key and use mouse to drag the object/objects to create their copies.
 
-**Create squares or perfect circles or aligned line or aligned arros using** _rectange tool_ or _ellipse tool_ or _line_ or _arrow_: Choose *rectange tool* with `r` or *ellipse* with `o` and then hold down `shift` key and now you can draw _square_ or _perfect_ circle now.
+**PROPORTIONALY SCALING:: Create squares or perfect circles or aligned line or aligned arros using** _rectange tool_ or _ellipse tool_ or _line_ or _arrow_: Choose *rectange tool* with `r` or *ellipse* with `o` and then hold down `shift` key and now you can draw _square_ or _perfect_ circle now.
 
-**Set opacity of any object**: Select object and press 1 for 10%, 2 for 20% so on.. and 0 for 100%.
+**Set opacity of any object**: Select object and press `1` for 10%, `2` for 20% so on.. and `0` for 100%. TIP: To set opacity to 0%, press `00`
 
 **Zoom to select region**: First press and hold `z` and then hold mouse make region to zoom into.
 
