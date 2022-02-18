@@ -864,7 +864,21 @@ _Recall last n commits in git:_ `git log -n 1`, `git log -n2` works well similar
 
 ## Setup your cli to work with different github accounts
 
-Read about ssh generation in cli at https://stackoverflow.com/a/5246045/10012446.
+````
+# Generating sshkyes using github recommended algorithm:
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+# Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+# Generate myfile.ppk and myfile.ppk.pub
+ssh-keygen -f myfile.ppk
+```
+
+Learn a public key is always contained inside the private key, you can get that public key using openssl anytime.
+ 
+Read extracting public key and ssh-public key generation from private file in cli at https://stackoverflow.com/a/5246045/10012446.
 
 First add your **public key** to github account you want access to. Then add entry correspondingly like below to your `~/.ssh/config` file.
 
