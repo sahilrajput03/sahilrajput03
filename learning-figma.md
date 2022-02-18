@@ -4,7 +4,7 @@
 
 **Presentation Mode(show/hide UI)**: `ctrl+\`
 
-**Undo**: Use `ctrl+z` to undo it.
+**Undo/Redo/copy/cut/selectAll**: Use `ctrl+z`/`ctrl+y`/`ctrl+c`/`ctrl+x`/`ctrl+a`.
 
 **Show help shortcuts for tools**: `Ctrl+shift+?` (or use the bottom right `?` button and select `Keyboard Shortcuts`) and switch to `Tools` tab to view the tools shortcuts.
 
