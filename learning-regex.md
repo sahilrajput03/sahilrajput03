@@ -94,9 +94,9 @@ tldr; * (kleen star) means zero or more, + (kleen plus) means 1 or more.
 
 A powerful concept in regular expressions is the ability to match an arbitrary number of characters. For example, imagine that you wrote a form that has a donation field that takes a numerical value in dollars. A wealthy user may drop by and want to donate $25,000, while a normal user may want to donate $25.
 
-One way to express such a pattern would be to use what is known as the Kleene Star and the Kleene Plus, which essentially represents either 0 or more or 1 or more of the character that it follows (it always follows a character or group). For example, to match the donations above, we can use the pattern \d* to match any number of digits, but a tighter regular expression would be \d+ which ensures that the input string has at least one digit.
+One way to express such a pattern would be to use what is known as the Kleene Star and the Kleene Plus, which essentially represents either 0 or more or 1 or more of the character that it follows (it always follows a character or group). **For example, to match the donations above, we can use the pattern \d* to match any number of digits, but a tighter regular expression would be \d+ which ensures that the input string has at least one digit.**
 
-These quantifiers can be used with any character or special metacharacters, for example a+ (one or more a's), [abc]+ (one or more of any a, b, or c character) and .* (zero or more of any character).
+These quantifiers can be used with any character or special metacharacters, for example `a+` (**one or more a's**), `[abc]+` (**one or more of any a, b, or c character**) and `.*` (**zero or more of any character**).
 
 ```bash
 a.
@@ -106,5 +106,41 @@ Match	aaaabcc
 Match	aabbbbc
 Match	aacc
 Skip	a
+```
+
+Lesson8: Characters optional
+
+As you saw in the previous lesson, the Kleene star and plus allow us to match repeated characters in a line.
+
+Another quantifier that is really common when matching and extracting text is the ? (question mark) metacharacter which denotes optionality. This metacharacter allows you to match either zero or one of the preceding character or group. For example, the pattern ab?c will match either the strings "abc" or "ac" because the b is considered optional.
+
+**Similar to the dot metacharacter, the question mark is a special character and you will have to escape it using a slash \? to match a plain question mark character in a string.**
+
+In the strings below, notice how the the plurality of the word "file" depends on the number of files found. Try writing a pattern that uses the optionality metacharacter to match only the lines where one or more files were found.
+
+```bash
+\?
+
+Match	1 file found?
+Match	2 files found?
+Match	24 files found?
+Skip	No files found.
+```
+
+Lesson9: All this whitespace
+
+When dealing with real-world input, such as log files and even user input, it's difficult not to encounter whitespace. We use it to format pieces of information to make it easier to read and scan visually, and a single space can put a wrench into the simplest regular expression.
+
+The most common forms of whitespace you will use with regular expressions are the space (␣), the tab (\t), the new line (\n) and the carriage return (\r) (useful in Windows environments), and these special characters match each of their respective whitespaces. In addition, a whitespace special character \s will match any of the specific whitespaces above and is extremely useful when dealing with raw input text.
+
+In the strings below, you'll find that the content of each line is indented by some whitespace from the index of the line (the number is a part of the text to match). Try writing a pattern that can match each line containing whitespace characters between the number and the content. Notice that the whitespace characters are just like any other character and the special metacharacters like the star and the plus can be used as well.
+
+```bash
+.[\s+]
+
+Match	1.   abc
+Match	2.	abc
+Match	3.           abc
+Skip	4.abc
 ```
 
