@@ -23,11 +23,9 @@ Ans. Select text by `v` and use `c()<Esc>P`. OR you can do like: `cw()<Esc>P` or
 
 **3.** Search using `:Rg someText ` with hotkey i.e., `<space>s`, Yo!
 
-**4.** Wrap lines in vim
+**4.** Wrap lines in vim using `:set wrap`.
 
-```
-:set wrap
-```
+**5.** Vim block mode works good when you set your cursor to start or end of line first using ^ or $, and then key thing is that `i` and `a` wont' work but `I` and `A` works very good.
 
 ## move screen text with ease
 
