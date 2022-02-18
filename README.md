@@ -864,7 +864,7 @@ _Recall last n commits in git:_ `git log -n 1`, `git log -n2` works well similar
 
 ## Setup your cli to work with different github accounts
 
-````bash
+```bash
 # Generating sshkyes using github recommended algorithm:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
@@ -875,6 +875,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # Generate myfile.ppk and myfile.ppk.pub (With no prompts for filename, and do set passphrase in prompts):
 ssh-keygen -f myfile.ppk
 ```
+
 
 **Learn a public key is always contained inside the private key, you can get that public key using openssl anytime. Read extracting public key and ssh-public key generation from private file in cli at https://stackoverflow.com/a/5246045/10012446.**
 
