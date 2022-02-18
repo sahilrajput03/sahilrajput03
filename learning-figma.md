@@ -4,6 +4,8 @@
 
 **Presentation Mode(show/hide UI)**: `ctrl+\`
 
+**Undo**: Use `ctrl+z` to undo it.
+
 **Show help shortcuts for tools**: `Ctrl+shift+?` (or use the bottom right `?` button and select `Keyboard Shortcuts`) and switch to `Tools` tab to view the tools shortcuts.
 
 **Hand tool**: Hold down `space` key to activate hand tool temporarily and move the page with mouse simply.
@@ -14,5 +16,5 @@
 
 **Copy objects**: Select object/objects first, then hold down `alt` key and use mouse to drag the object/objects to create their copies.
 
-**Create squares/perfect circles using** *rectange tool*/*ellipse tool*: Choose *rectange tool* with `r` / *ellipse* with `o` and then hold down `shift` key and you can draw square/perfect circle now.
+**Create squares or perfect circles or aligned line or aligned arros using** _rectange tool_ or _ellipse tool_ or _line_ or _arrow_: Choose *rectange tool* with `r` or *ellipse* with `o` and then hold down `shift` key and now you can draw _square_ or _perfect_ circle now.
 
