@@ -56,6 +56,24 @@
   ```
 
   The second link would be ***italicized + bold** as well.
+  
+- **Lists and sublists**: To make a list you can make use of `-` to make a list item. For e.g., 
+
+  ```txt
+  - This is list item1
+  - This is list item2
+    - This is sublist item1 of list item2
+    - This is sublist item2 of list item2
+  ```
+  
+  above markdown would look like:
+  - This is list item1
+  - This is list item2
+    - This is sublist item1 of list item2
+    - This is sublist item2 of list item2
+
+  
+  To make a
 
 - **Code snippets**: To create a inline (in same line as the text) you can use \`code here\` to make a text formatted as code which would look like `code here`. Also to create a block like text formatter as code, you can do like: (**NOTE: In place of `'''` you must use ` ``` ` when writing your markdown, I have done that to show on that on purpose**).
 
