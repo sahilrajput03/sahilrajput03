@@ -28,3 +28,19 @@
 
 **Copy selected object/objects as PNG**: `Ctrl+shift+c`
 
+## Prototyping
+
+IMPORTANT~Sahil: You must convert a object to a component first to be able to get prototyping circle connector. You can do it via right clicking and select ***Create Component*** option or simply use `ctrl+shift+k`.
+
+Tips:
+
+- You can use `r` in prototyping to restart the prototype(in case of hovering you don't need to restart prototype though coz unhovering it causes to undo the effect instantly).
+- Use `right mouse click` to shown options in prototype display tab.
+
+Switch to prototype mode using hotkey `shift+e` or simply choose from the right ***Prototype*** tab in the right hand side bar.
+
+In the ***prototype tab***, you can select one of the interactions with mouse to open its ***interaction details*** or you can simply click the prototype arrows to open it directly.
+
+Official getting started [post of prototyping in figma](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma) is good though.
+
+
