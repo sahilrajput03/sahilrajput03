@@ -1,6 +1,6 @@
 # Learning Markdown
 
-*Practise markdown with live updates @ https://marked.js.org/demo/.*
+*You may practise markdown with live updates @ https://marked.js.org/demo/.*
 
 - **Headings**
 
