@@ -34,6 +34,8 @@ IMPORTANT~Sahil: You must convert a object to a component first to be able to ge
 
 Tips:
 
+- To be able to have the right dot for creating transitions for the prototyping, you must first select all the objects and use `ctrl+alt+k` to create a single component of those items which then just stick together. Now your transition would work good! 💯
+
 - You can use `r` in prototyping to restart the prototype(in case of hovering you don't need to restart prototype though coz unhovering it causes to undo the effect instantly).
 - Use `right mouse click` to shown options in prototype display tab.
 
