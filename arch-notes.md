@@ -4,6 +4,12 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## Using ranger:
+
+```
+# Use `S` in ranger to return to shell in current folder.
+```
+
 ## installed `7zz` for .7z file extensions
 
 Docs of 7z: https://wiki.archlinux.org/title/p7zip
