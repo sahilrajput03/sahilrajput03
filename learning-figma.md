@@ -2,6 +2,8 @@
 
 _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/P1DNXwjD4TcDV6pNXqvoOn/Learn-prototyping?node-id=4%3A55)
 
+**You can crop the object sizes by holding `alt` key, and using edge points to crop proportionally.**
+
 **Pages concept**: It is an amazing concept to keep designs isloated in each page, thus you can do a large number of separate design works in a single file of figma. Yo!
 
 **Quick actions**: `ctrl+/`
