@@ -30,11 +30,12 @@
 
 ## Prototyping
 
-IMPORTANT~Sahil: You must convert a object to a component first to be able to get prototyping circle connector. You can do it via right clicking and select ***Create Component*** option or simply use `ctrl+shift+k`.
 
-Tips:
+**Tips:**
 
 - To be able to have the right dot for creating transitions for the prototyping, you must first select all the objects and use `ctrl+alt+k` to create a single component of those items which then just stick together. Now your transition would work good! 💯
+
+- IMPORTANT: You must convert a object to a component first to be able to get prototyping circle connector. You can do it via right clicking and select ***Create Component*** option or simply use `ctrl+shift+k`.
 
 - You can use `r` in prototyping to restart the prototype(in case of hovering you don't need to restart prototype though coz unhovering it causes to undo the effect instantly).
 - Use `right mouse click` to shown options in prototype display tab.
