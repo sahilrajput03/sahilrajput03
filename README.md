@@ -35,6 +35,10 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## Amaing bootstrapping/scaffolding project templates
+
+Source: https://github.com/Rich-Harris/degit
+
 ## in/of in for
 
 ```js
