@@ -27,6 +27,10 @@ Ans. Select text by `v` and use `c()<Esc>P`. OR you can do like: `cw()<Esc>P` or
 
 **5.** ***Vim block mode*** works good when you select bunch of line first and then you set cursor to start or end of line first using `^` or `$`, and then key thing is that `i` and `a` **won't work** but `I` and `A` works very good.
 
+**6.** You can use `:His` or `:History` to get history of last opened files in vim(it is from fzf-vim.
+
+**7.** You can use  `<space>;` to view currently opened bufferes. Yikes!
+
 ## move screen text with ease
 
 ```
