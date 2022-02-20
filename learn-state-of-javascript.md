@@ -124,3 +124,15 @@ Better alternate is to use do:
 
 - Change file exntension to `.mjs` instead of `.js` and then you can simply run like `node test.mjs`. LOVE.
 - Specify `"type": "module"` in `package.json` file of the project.
+
+## `array.at`
+
+Useful to get elements from back mostly, but you can use it to fetch elements using +ve index values directly as well.
+
+Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at
+
+```js
+array.at(1) // gives 2nd element as expected.
+array.at(-1) // gives last element!
+array.at(-2) // gives second last element!
+```
