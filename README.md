@@ -39,6 +39,19 @@ Find me on terminal via `npx sahilrajput03` command.
 
 Source: https://github.com/Rich-Harris/degit
 
+```bash
+# Creates a new folder for the project
+degit user/repo my-new-project
+
+# If the second argument is omitted, the repo will be cloned to the current directory.
+degit user/repo
+degit user/repo#dev       # branch
+degit user/repo#1234abcd  # commit hash
+
+# To clone a specific subdirectory instead of the entire repo, just add it to the argument:
+degit user/repo/subdirectory
+```
+
 ## in/of in for
 
 ```js
