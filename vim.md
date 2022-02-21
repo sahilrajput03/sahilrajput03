@@ -186,7 +186,7 @@ TIP: You can use `<tab>` complete in nvim though,Yikes!
 Source: https://stackoverflow.com/a/46822285/10012446
 
 - Use `:term` or `:terminal` to open a terminal in vim (tip: use `:vertical :term` to open terminal towards right in vim).
-- Use `ctrl+w N` (capital N) to turn terminal into edit mode. And you can then use switch back to `Terminal-Job` mode, press `i`.
+- Use `ctrl+w N`(FOR NEOVIM: YOU HAVE TO USE ` CTRL+\ CTRL+n` [src](https://vi.stackexchange.com/a/4922)) (capital N) to turn terminal into edit mode. And you can then use switch back to `Terminal-Job` mode, press `i`.
 - Use `:term <myCommand>` to run command directly from vim.
 - To exit terminal in vim:
   - Press `Ctrl+d`(general bash binding to kill current shell)
