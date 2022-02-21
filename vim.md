@@ -191,7 +191,7 @@ Source: https://stackoverflow.com/a/46822285/10012446
 - To exit terminal in vim:
   - Press `Ctrl+d`(general bash binding to kill current shell)
   - OR Type `exit` command
-  - OR Use `Control+w` and then press `:q` or `:q!`
+  - OR Use `Control+w N` (FOR NEOVIM: YOU HAVE TO USE ` CTRL+\ CTRL+n` [src](https://vi.stackexchange.com/a/4922))  and then press `:q` or `:q!`
 
 ## Blow tips:
 
