@@ -284,7 +284,7 @@ screen -wipe # To kill the detached session.
 screen -wipe <ID> # TO kill a session with a particular id (you need this command only when there are more than 1 active sessions). Src: https://unix.stackexchange.com/questions/94527/how-do-i-kill-all-screens/170949#170949
 ```
 
-## Installed pdf opening utility
+## Installed pdf opening utility (`llpp`* or `mupdf`)
 
 ```
 sudo pacman -S llpp
