@@ -1,5 +1,7 @@
 # Learning Figma
 
+**Making a obs camera mark [here](https://youtu.be/_sqLa0LTloM).**
+
 **You can set the zoom level in figma from the right top corner.**
 
 **You can save a complete figma file locally via `File > Save local copy...` option easily.**
