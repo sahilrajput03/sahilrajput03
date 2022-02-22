@@ -89,7 +89,9 @@ git diff commitId1 commitId2
 
 # GIT EXAMPLE 2:
 # Get the detais of any commmit it'll show you the diff from /dev/null state to the final states of all the files after making the commit.
-git show commit3 # SAME AS: ```git diff commit3 commit5```
+git show COMMIT_3 # Same as below
+git diff commit2 COMMIT_3
+
 
 
 # GIT EXAMPLE 3:
@@ -97,7 +99,7 @@ git show commit1
 # FYI: This shows all the details of that commit, like time/date, author and the diff with source as state before the commit and target as state after the commit.
 
 # GIT EXAMPLE 4:
-# What does below command do?
+# What does below command do? (LEAST USEFUL, unless you want to use `git diff HEAD` to view the diff for currently staged changes)
 git diff commit3
 # Ans: It shows all the changes made after `commit3` to the current staged area or the last commit state.
 
@@ -111,9 +113,12 @@ git diff HEAD
 # NOTICE IF YOU WANT TO SEE DIFF FROM EMPTY COMMIT(source commit) TO A PARTICULAR COMMIT (target commit), you would need use something like:
 # First we need to define the empty commit id (which is same for all git repositories), then we can use ```git diff```: Source: https://stackoverflow.com/a/25064285/10012446
 empty=4b825dc642cb6eb9a060e54bf8d69288fbee4904
-git diff $empty 4a5e
+git diff $empty commit3
+
 # FYI: FOR THE FIRST COMMIT WE CAN ACHIEVE THE SAME (bcoz there were no changes before that commit) BY:
-git show 4a5e
+git diff $empty commit1
+# would output same result as below command:
+git show commit1
 ```
 
 ## Amazing bootstrapping/scaffolding project templates
