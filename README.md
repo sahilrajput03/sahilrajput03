@@ -36,9 +36,14 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
-## Not using nuclear way to remove files from git history
+## Avoiding nuclear approach to fix a git repository
 
-**BEWARE**: It will change your git history and other people's unpushed work might break after this IMO ~Sahil. 
+
+![](https://imgs.xkcd.com/comics/git.png)
+
+**BEWARE**: Below give methodology will change your git history and other people's unpushed work might break after this IMO ~Sahil. 
+
+***You can remove files/folder from your git history at once using below commands.***
 
 ```bash
 git filter-branch --tree-filter 'rm -f <path_to_file>' HEAD
