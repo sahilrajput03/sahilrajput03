@@ -46,6 +46,7 @@ $ cat b
 hello messi
 hello bellow
 
+######## DIFF SYNTAX ########
 $ git diff a b
 diff --git a/a b/b
 index 87b4ccc..82c725d 100644
