@@ -41,6 +41,9 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ![](https://imgs.xkcd.com/comics/git.png)
 
+*Pic Credits: https://xkcd.com/1597/*
+
+
 **BEWARE**: Below give methodology will change your git history and other people's unpushed work might break after this IMO ~Sahil. 
 
 ***You can remove files/folder from your git history at once using below commands.***
@@ -145,8 +148,6 @@ git show commit1
 ## Amazing bootstrapping/scaffolding project templates
 
 Source: https://github.com/Rich-Harris/degit
-
-Pic Credits: https://xkcd.com/1597/
 
 ```bash
 # Creates a new folder for the project
