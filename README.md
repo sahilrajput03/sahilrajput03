@@ -56,7 +56,13 @@ index 87b4ccc..82c725d 100644
 +hello messi
  hello bellow
  
- # NOTICE: The - and + signs represents changes while going from source to target i.e., file a to file b.
+# NOTICE: The - and + signs represents changes while going from source to target i.e., file a to file b.
+
+
+# LEARN: When you do like:
+git diff commitId1 commitId2
+
+# We are getting displaced + and - changes say if we go from states of git from commitId1 to commitId2.
 ```
 
 ## Amazing bootstrapping/scaffolding project templates
