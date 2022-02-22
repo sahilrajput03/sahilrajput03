@@ -66,48 +66,54 @@ index 87b4ccc..82c725d 100644
 
 
 $ git log --oneline
-commitId3 Add react.
-commitId2 Npm init the project.
-commitId1 Add two files.
+# Output:
+commit5 (HEAD -> main) Add file3.txt
+commit4 Add express
+commit3 Add react.
+commit2 Npm init the project.
+commit1 Add two files.
+commit0=4b825dc642cb6eb9a060e54bf8d69288fbee4904 # THIS LINE IS NOT SHOWN BUT IS ALWAYS COMMIT0. This is useful when you want to see diff from origin or repo.
+
+# FYI: You can set empty variable in bash so that you can reference 0th commit easily.
+
+
 
 ######## DIFF SYNTAX ########
 git diff sourceCommit targetCommit
 
 # GIT EXAMPLE 1:
 git diff commitId1 commitId2
-
 # FYI: The - and + signs represents changes while going from source(commitId1) to target(commitId2) i.e., file `a` to file `b`.
 # FYI: To see the chronological changes(i.e, + and - signs with respect to real time) you must use the source commitID as commit that you made before target commitId.
 
 
-
 # GIT EXAMPLE 2:
-$ git log --oneline
-# Output:
-b4666d4 (HEAD -> main) Add file3.txt
-dcb7902 Add express
-4aa50bb Add react.
-b0e3535 Npm init the project.
-4a5e0d2 Add two files.
-
-
-
-# Get the detais of any commmit, it'll show you all the details of the that commit.
-# It'll show you the diff like from /dev/null state of all the files to their final states after making the commit.
-git show b0e3 # SAME AS: ```git diff 4a5e b0e3```
-
+# Get the detais of any commmit it'll show you the diff from /dev/null state to the final states of all the files after making the commit.
+git show commit3 # SAME AS: ```git diff commit3 commit5```
 
 
 # GIT EXAMPLE 3:
-git show 4a5e
-# FYI: This shows all the details of that commit, like time author
+git show commit1
+# FYI: This shows all the details of that commit, like time/date, author and the diff with source as state before the commit and target as state after the commit.
 
-# NOTICE IF YOU WANT TO SEE DIFF FROM EMPTY COMMIT, you would need use something like:
-# FIRST WE NEED TO DEFINE THE EMPTY COMMIT ID(WHICH IS SAME FOR ALL GIT REPOSITORIES), then we can use ```git diff```:
+# GIT EXAMPLE 4:
+# What does below command do?
+git diff commit3
+# Ans: It shows all the changes made after `commit3` to the current staged area or the last commit state.
+
+# FUN FACT: If you use
+git diff <lastCommit>
+# OR
+git diff HEAD
+# You will see diff only if you have changes in staged area. (i.e., you changed something and did ```git add .```
+
+
+# NOTICE IF YOU WANT TO SEE DIFF FROM EMPTY COMMIT(source commit) TO A PARTICULAR COMMIT (target commit), you would need use something like:
+# First we need to define the empty commit id (which is same for all git repositories), then we can use ```git diff```: Source: https://stackoverflow.com/a/25064285/10012446
 empty=4b825dc642cb6eb9a060e54bf8d69288fbee4904
 git diff $empty 4a5e
-# FYI: WE CAN ACHIEVE THE SAME RESULT FOR THE FIRST COMMIT (bcoz there were no changes before that commit) BY:
-# git show 4a5e
+# FYI: FOR THE FIRST COMMIT WE CAN ACHIEVE THE SAME (bcoz there were no changes before that commit) BY:
+git show 4a5e
 ```
 
 ## Amazing bootstrapping/scaffolding project templates
