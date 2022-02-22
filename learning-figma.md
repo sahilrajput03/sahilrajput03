@@ -1,5 +1,7 @@
 # Learning Figma
 
+**You can set the zoom level in figma from the right top corner.**
+
 **You can save a complete figma file locally via `File > Save local copy...` option easily.**
 
 _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/P1DNXwjD4TcDV6pNXqvoOn/Learn-prototyping?node-id=4%3A55)
