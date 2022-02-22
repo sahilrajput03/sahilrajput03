@@ -32,6 +32,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learning Figma**: [Click here](learning-figma.md)
 ***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
 - **Learnings from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
+- **Jokes: [Click here](https://xkcd.com/)**
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
