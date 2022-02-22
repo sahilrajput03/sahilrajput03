@@ -35,6 +35,19 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## Not using nuclear way to remove files from git history
+
+**BEWARE**: It will change your git history and other people's unpushed work might break after this IMO ~Sahil. 
+
+```bash
+git filter-branch --tree-filter 'rm -f <path_to_file>' HEAD
+git filter-branch --tree-filter 'rm -rf <path_to_folder>' HEAD
+# Source: https://stackoverflow.com/a/43762489/10012446
+
+# Force pushing all branches in case you need that, but think TWICE before doing that:
+git push origin --force --all
+```
+
 ## Git diff explained in simple terms
 
 ```bash
