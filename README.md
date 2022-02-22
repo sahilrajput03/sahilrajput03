@@ -59,19 +59,54 @@ index 87b4ccc..82c725d 100644
 # NOTICE: The - and + signs represents changes while going from source to target i.e., file a to file b.
 
 
-# CONSIDER A GIT EXAMPLE:
+
+
+
+
 
 $ git log --oneline
 commitId3 Add react.
 commitId2 Npm init the project.
 commitId1 Add two files.
 
-# LEARN: When you do like:
-git diff commitId1 commitId2
+######## DIFF SYNTAX ########
 git diff sourceCommit targetCommit
-# To see the chronological changes you must use the source commitID as commit that you made chronologically before target commitId.
 
-# We are getting displaced + and - changes say if consider going from state of commitId1 to state of commitId2.
+# GIT EXAMPLE 1:
+git diff commitId1 commitId2
+
+# FYI: The - and + signs represents changes while going from source(commitId1) to target(commitId2) i.e., file `a` to file `b`.
+# FYI: To see the chronological changes(i.e, + and - signs with respect to real time) you must use the source commitID as commit that you made before target commitId.
+
+
+
+# GIT EXAMPLE 2:
+$ git log --oneline
+# Output:
+b4666d4 (HEAD -> main) Add file3.txt
+dcb7902 Add express
+4aa50bb Add react.
+b0e3535 Npm init the project.
+4a5e0d2 Add two files.
+
+
+
+# Get the detais of any commmit, it'll show you all the details of the that commit.
+# It'll show you the diff like from /dev/null state of all the files to their final states after making the commit.
+git show b0e3 # SAME AS: ```git diff 4a5e b0e3```
+
+
+
+# GIT EXAMPLE 3:
+git show 4a5e
+# FYI: This shows all the details of that commit, like time author
+
+# NOTICE IF YOU WANT TO SEE DIFF FROM EMPTY COMMIT, you would need use something like:
+# FIRST WE NEED TO DEFINE THE EMPTY COMMIT ID(WHICH IS SAME FOR ALL GIT REPOSITORIES), then we can use ```git diff```:
+empty=4b825dc642cb6eb9a060e54bf8d69288fbee4904
+git diff $empty 4a5e
+# FYI: WE CAN ACHIEVE THE SAME RESULT FOR THE FIRST COMMIT (bcoz there were no changes before that commit) BY:
+# git show 4a5e
 ```
 
 ## Amazing bootstrapping/scaffolding project templates
