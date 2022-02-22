@@ -35,6 +35,28 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## Git diff explained in simple terms
+
+```bash
+$ cat a
+hello sahil
+hello bellow
+
+$ cat b
+hello messi
+hello bellow
+
+$ git diff a b
+diff --git a/a b/b
+index 87b4ccc..82c725d 100644
+--- a/a
++++ b/b
+@@ -1,2 +1,2 @@
+-hello sahil
++hello messi
+ hello bellow
+```
+
 ## Amazing bootstrapping/scaffolding project templates
 
 Source: https://github.com/Rich-Harris/degit
