@@ -93,7 +93,6 @@ git show COMMIT_3 # Same as below
 git diff commit2 COMMIT_3
 
 
-
 # GIT EXAMPLE 3:
 git show commit1
 # FYI: This shows all the details of that commit, like time/date, author and the diff with source as state before the commit and target as state after the commit.
@@ -103,6 +102,7 @@ git show commit1
 git diff commit3
 # Ans: It shows all the changes made after `commit3` to the current staged area or the last commit state.
 
+# GIT EXAMPLE 5:
 # FUN FACT: If you use
 git diff <lastCommit>
 # OR
@@ -110,12 +110,14 @@ git diff HEAD
 # You will see diff only if you have changes in staged area. (i.e., you changed something and did ```git add .```
 
 
+# GIT EXAMPLE 6:
 # NOTICE IF YOU WANT TO SEE DIFF FROM EMPTY COMMIT(source commit) TO A PARTICULAR COMMIT (target commit), you would need use something like:
 # First we need to define the empty commit id (which is same for all git repositories), then we can use ```git diff```: Source: https://stackoverflow.com/a/25064285/10012446
 empty=4b825dc642cb6eb9a060e54bf8d69288fbee4904
 git diff $empty commit3
 
-# FYI: FOR THE FIRST COMMIT WE CAN ACHIEVE THE SAME (bcoz there were no changes before that commit) BY:
+# GIT EXAMPLE 6a (COPY OF 6):
+#### FUN FACT : FOR THE FIRST COMMIT WE CAN ACHIEVE THE SAME (bcoz there were no changes before that commit) BY:
 git diff $empty commit1
 # would output same result as below command:
 git show commit1
