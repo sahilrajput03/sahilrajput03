@@ -72,9 +72,9 @@ commit4 Add express
 commit3 Add react.
 commit2 Npm init the project.
 commit1 Add two files.
+# FYI:
 commit0=4b825dc642cb6eb9a060e54bf8d69288fbee4904 # THIS LINE IS NOT SHOWN BUT IS ALWAYS COMMIT0. This is useful when you want to see diff from origin or repo.
-
-# FYI: You can set empty variable in bash so that you can reference 0th commit easily.
+# You can set empty variable in bash so that you can reference 0th commit easily.
 
 
 
