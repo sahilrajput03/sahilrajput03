@@ -146,6 +146,8 @@ git show commit1
 
 Source: https://github.com/Rich-Harris/degit
 
+Pic Credits: https://xkcd.com/1597/
+
 ```bash
 # Creates a new folder for the project
 degit user/repo my-new-project
