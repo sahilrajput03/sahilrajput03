@@ -59,10 +59,19 @@ index 87b4ccc..82c725d 100644
 # NOTICE: The - and + signs represents changes while going from source to target i.e., file a to file b.
 
 
+# CONSIDER A GIT EXAMPLE:
+
+$ git log --oneline
+commitId3 Add react.
+commitId2 Npm init the project.
+commitId1 Add two files.
+
 # LEARN: When you do like:
 git diff commitId1 commitId2
+git diff sourceCommit targetCommit
+# To see the chronological changes you must use the source commitID as commit that you made chronologically before target commitId.
 
-# We are getting displaced + and - changes say if we go from states of git from commitId1 to commitId2.
+# We are getting displaced + and - changes say if consider going from state of commitId1 to state of commitId2.
 ```
 
 ## Amazing bootstrapping/scaffolding project templates
