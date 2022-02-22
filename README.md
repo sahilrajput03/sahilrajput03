@@ -55,6 +55,8 @@ index 87b4ccc..82c725d 100644
 -hello sahil
 +hello messi
  hello bellow
+ 
+ # NOTICE: The - and + signs represents changes while going from source to target i.e., file a to file b.
 ```
 
 ## Amazing bootstrapping/scaffolding project templates
