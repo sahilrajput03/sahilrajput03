@@ -4,6 +4,12 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Useful linux commands
+
+![](https://pbs.twimg.com/media/DeGNDzqX0AAow7z?format=jpg&name=small)
+
+Pic credits: https://twitter.com/b0rk/status/1000235694118395904
+
 ## Bash shortcuts
 
 Source: https://ss64.com/bash/syntax-keyboard.html
