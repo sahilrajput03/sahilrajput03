@@ -32,6 +32,34 @@ bar, foofoo, ,foo,
 , , bar
 ```
 
+```bash
+foo, foofoo, foobar
+foo, foofoo, foobar
+foo, foofoo, foobar
+foo, foofoo, foobar
+foo, foofoo, foobar
+
+
+# With command-
+:3 s/foo/CAR
+# Text transforms to (i.e., only line 3 is affected)-
+foo, foofoo, foobar
+foo, foofoo, foobar
+CAR, CARCAR, CARbar
+foo, foofoo, foobar
+foo, foofoo, foobar
+
+# With command-
+:2,4 s/foo/CAR
+# Text transforms to (i.e., all lines from line 2 to line 4 are affected)-
+foo, foofoo, foobar
+CAR, CARCAR, CARbar
+CAR, CARCAR, CARbar
+CAR, CARCAR, CARbar
+foo, foofoo, foobar
+foo, foofoo, foobar
+```
+
 ## this week vim learnings
 
 **1.** How to add `` or '' or "" or () or {}or <> around a text ?
