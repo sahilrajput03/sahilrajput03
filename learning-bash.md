@@ -4,6 +4,27 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Using `wc`
+
+```bash
+wc myFile.txt
+# Output:
+  653  2809 23209 myFile.txt
+  ^Line ^words ^chars ^myFile.txt
+
+wc -l
+# Output: #Tells only about total number of lines
+23209 myFile.txt
+
+wc -w #Tells only about words
+23209 myFile.txt
+
+
+wc -c m #Tells only about characters
+# Output:
+23209 myFile.txt
+```
+
 ## Useful linux commands
 
 ![](https://pbs.twimg.com/media/DeGNDzqX0AAow7z?format=jpg&name=small)
