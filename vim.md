@@ -10,7 +10,12 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
-**You can use alt+h and alt+l to move to previous or next buffers with ease now!**
+## wanted man?
+
+```
+You can use ALT+h and alt+l to switch to previous or next buffers with ease now!
+You can use CTRL+h/j/k/l to to switch to left/down/up/right windows in vim now!
+```
 
 
 ***My [old vim notes](https://github.com/sahilrajput03/sahilrajput03/blob/master/vim-very-old.md). ITS QUITE POSSIBLE THAT LIST IS ALL WHAT COULD BE USED TO AUTO_COMPLETE WITH DAVID PEDERSEN"S CONFIG ~ IMO ~SAHIL.***
