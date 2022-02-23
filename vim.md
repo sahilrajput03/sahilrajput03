@@ -2,6 +2,8 @@
 
 **[Why vim ?](https://stackoverflow.com/a/1220118/10012446)**
 
+*Cool though, Vim was made 30 years ago in 1991 ~Wikipedia.*
+
 Config file: `~/nvim/init.vim` instead of `~/.vimrc`.
 
 Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
@@ -12,6 +14,8 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 ***My [old vim notes](https://github.com/sahilrajput03/sahilrajput03/blob/master/vim-very-old.md). ITS QUITE POSSIBLE THAT LIST IS ALL WHAT COULD BE USED TO AUTO_COMPLETE WITH DAVID PEDERSEN"S CONFIG ~ IMO ~SAHIL.***
 
 ## new week vim learnings
+
+**Learning substitution commands**
 
 ```bash
 foo, foofoo, ,foo,
@@ -58,6 +62,56 @@ CAR, CARCAR, CARbar
 CAR, CARCAR, CARbar
 foo, foofoo, foobar
 foo, foofoo, foobar
+
+# With command-
+:. s/foo/CAR
+# Only text of current line gets transformed.
+
+# With command-
+:$ s/foo/CAR
+# Only text of last line of the file gets transformed.
+
+# With command-
+:.,$ s/foo/CAR
+# All lines starting from current line to the end of the file gets transformed.
+
+# With command-
+:.,$ s/foo/CAR
+# All lines starting from current line to the end of the file gets transformed.
+```
+
+```bash
+:.,$j
+# This will join all lines from current line to end of the file to single line.
+
+
+:%j
+# This will join all lines in the file to a single line.
+
+/\d\d\d,
+# Using regex with while searching in vim, this will search for text like three digits with a following comma.
+
+### FYI: In below command a space before g is optional (it helps to read though)###
+
+## g and v (global/converse-global) ##
+
+:%g/and/j
+# This will run `J` command(i.e., join lines) whereever it finds `and` text.
+
+:.,$g/and/j
+# This will run `J` command(i.e., join lines) from current line to the end of the file whereever it finds `and` text.
+
+:.,+4g/and/j
+# This will run `J` command(i.e., join lines) for a total of 4 lines, starting from current line whereever it finds `and` text..
+
+:.,$g/and/d
+# This will run `d` command(i.e., delete line) starting from current line to the end of the file whereever it finds `and` text.
+
+:.,$v/and/d
+# This will delete line **OTHER THAN** lines which matches for text `and` in the file.
+
+
+
 ```
 
 ## this week vim learnings
@@ -70,6 +124,13 @@ Ans. Select text by `v` and use `c()<Esc>P`. OR you can do like: `cw()<Esc>P` or
 ```
 <space><space> to switch from current buffer to last buffer and vice versa.
 :Rg <text> to search for text in all the files under current working directory(get cwd via ```:pwd``` command in vim).
+
+
+:r fileName
+# Inserts the content of the file to current line.
+
+:r! command
+# Inserts the output of the command to the current line.
 
 ```
 
