@@ -366,7 +366,10 @@ vaa
 
 ## Go to a particular line number in vim
 
+Concise way it to use `21G` (FYI: You don't need to press `:` at all).
+  
 Get in Command mode and type `:21 <Enter>` to go to line number 21.
+
 
 ## Tired of using backspace ??
 
