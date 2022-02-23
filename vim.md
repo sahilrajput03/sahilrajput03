@@ -122,6 +122,10 @@ Ans. Select text by `v` and use `c()<Esc>P`. OR you can do like: `cw()<Esc>P` or
 **2.**
 
 ```
+# FYI: Use below command to show currently opened buffers:
+:ls
+
+
 <space><space> to switch from current buffer to last buffer and vice versa.
 :Rg <text> to search for text in all the files under current working directory(get cwd via ```:pwd``` command in vim).
 
