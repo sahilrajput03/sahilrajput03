@@ -7,6 +7,10 @@
 ## Using rg's flags to define functions
 
 ```bash
+# To diable .git and node_module folders everywhere, I have below line in my .bashrc file. WARN: Dont forget to source the .bashrc file after adding this:
+export FZF_DEFAULT_COMMAND="rg --files --follow --no-ignore-vcs --hidden -g '!{**/node_modules/*,**/.git/*}'"
+
+
 ## From man pages of rg:
 
        --no-ignore-vcs
