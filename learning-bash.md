@@ -4,6 +4,56 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Using rg's flags to define functions
+
+```bash
+## From man pages of rg:
+
+       --no-ignore-vcs
+           Don’t respect version control ignore files (.gitignore, etc.). This implies --no-ignore-parent for VCS files. Note
+           that .ignore files will continue to be respected.
+
+
+       --files
+           Print each file that would be searched without actually performing the search. This is useful to determine whether a
+           particular file is being searched or not.
+
+
+       -L, --follow
+           When this flag is enabled, ripgrep will follow symbolic links while traversing directories. This is disabled by
+           default. Note that ripgrep will check for symbolic link loops and report errors if it finds one.
+
+           This flag can be disabled with --no-follow.
+
+
+
+       -., --hidden
+           Search hidden files and directories. By default, hidden files and directories are skipped. Note that if a hidden file
+           or a directory is whitelisted in an ignore file, then it will be searched even if this flag isn’t provided.
+
+           A file or directory is considered hidden if its base name starts with a dot character (.). On operating systems which
+           support a hidden file attribute, like Windows, files with this attribute are also considered hidden.
+
+           This flag can be disabled with --no-hidden.
+
+
+
+
+       -g, --glob GLOB ...
+           Include or exclude files and directories for searching that match the given glob. This always overrides any other
+           ignore logic. Multiple glob flags may be used. Globbing rules match .gitignore globs. Precede a glob with a ! to
+           exclude it. If multiple globs match a file or directory, the glob given later in the command line takes precedence.
+
+           As an extension, globs support specifying alternatives: -g ab{c,d} is equivalet to -g abc -g abd. Empty alternatives
+           like -g ab{,c} are not currently supported. Note that this syntax extension is also currently enabled in gitignore
+           files, even though this syntax isn’t supported by git itself. ripgrep may disable this syntax extension in gitignore
+           files, but it will always remain available via the -g/--glob flag.
+
+           When this flag is set, every file and directory is applied to it to test for a match. So for example, if you only want
+           to search in a particular directory foo, then -g foo is incorrect because foo/bar does not match the glob foo.
+           Instead, you should use -g 'foo/**'.
+```
+
 ## Using `wc`
 
 ```bash
