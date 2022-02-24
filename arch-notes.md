@@ -4,6 +4,13 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## Installed `tldr` a binary for tldr for its documentation
+
+```bash
+Source: https://archlinux.org/packages/community/any/tldr/
+sudo pacman -S tldr
+```
+
 ## Using ranger:
 
 ```
