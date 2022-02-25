@@ -4,6 +4,15 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## Installed `vimgolf`
+
+```bash
+git clone https://aur.archlinux.org/python-vimgolf.git
+makepkg -si
+
+#source: https://aur.archlinux.org/packages/python-vimgolf
+```
+
 ## Installed `tldr` a binary for tldr for its documentation
 
 ```bash
