@@ -10,6 +10,48 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## Using vim from `missing-semester` - Lecture 3
+
+```bash
+- Vim has replace mode that you can shift to via R key from the normal
+  mode.
+- vim commands
+
+  ```
+  # Get help on :w command:
+  :help :w
+  # or
+  :h :w
+
+  #Also to know about word motions i.e., when you press w in normal mode
+  # to move by words you can search its documentation by:
+  :h w
+
+  # You can use :q to close the windows (note: its not quitting vim
+  actually).
+
+  # You can close all the windows by :qa command.
+
+  # Use ctrl+d/u to down/up the page.
+
+  # cc puts you in insert mode after deleting current line.
+
+  # Use % to toggle b/w matching pair of brackes, angle brackets, braces, etc.
+
+  # Use ci[ or ci{ or ci( to change text inside of these corresponding brackets.
+
+  # lowercase o means open a line below, uppercase O means open a new
+  # line above current line.
+
+  # vim mode in termianl is super cool....
+  # Source: https://dev.to/brandonwallace/how-to-use-vim-mode-on-the-command-line-in-bash-fnn
+
+  # I liked that i can browser previous command with / search way too, yikes!
+
+  TODO: Install zshell!! now to test it!!!
+```
+
+
 ## wanted man?
 
 ```
