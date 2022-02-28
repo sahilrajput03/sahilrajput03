@@ -1,6 +1,6 @@
 # Learning Figma
 
-You can invert the zoom scroll direction(which is better IMO) by - *Preferences > Invert zoom directions*.
+**You can invert the zoom scroll direction(which is better IMO) by** - *Preferences > Invert zoom directions*.
 
 **Making a obs camera mark [here](https://youtu.be/_sqLa0LTloM).**
 
