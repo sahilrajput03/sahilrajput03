@@ -30,14 +30,12 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learning Regex**: [Click here](learning-regex.md)
 - **Learning Markdown**: [Click here](learning-markdown.md)
 - **Learning Figma**: [Click here](learning-figma.md)
-***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
 - **Learnings from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
 - **Jokes: [Click here](https://xkcd.com/)**
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
 ## Avoiding nuclear approach to fix a git repository
-
 
 ![](https://imgs.xkcd.com/comics/git.png)
 
