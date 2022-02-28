@@ -87,8 +87,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   
   9. Install archlinux to target partition using pacstrap, refer `pacstrap -h` for help on it.
   ```
-  # Installting archlinux, base packages and vim for now. We can include as many packages as we want from arch package repo here IMO.
   pacstrap /mnt/ linux linux-firmware base vim
-  ######## ^^^^^^^^^^^^^^^ This command might take couple of minutes so BE PATIENT.
+  ######## Installting archlinux, base packages and vim for now. We can include as many packages as we want from arch package repo here IMO. This command might take couple of minutes so BE PATIENT.
   ```
   10. 
