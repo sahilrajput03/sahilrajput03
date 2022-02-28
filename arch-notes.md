@@ -4,6 +4,14 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## Installed bash-completion tool
+
+FYI: It heps to show branches when you do `git checkout <TAB>` and I don't konw other usefulness of this utility yet. TODO: Add more here.
+
+```bash
+pacman -S bash-completion
+```
+
 ## Installed `vimgolf`
 
 ```bash
