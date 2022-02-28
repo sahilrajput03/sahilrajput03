@@ -5,7 +5,7 @@ _**Why do i make notes when i can use the same video _source/ article source_ to
 ## Setting up bootable pendrive
 
 1. `dd if=pathToArchLinuxOS.iso of /dev/sda` : Here if option means input file path. (TIP: You can use `lsblk` _<stands for::listBlockDevices>_ to list all the devices plugged in at the moment.)
-2. Become root via `sudo su`.
+2. `sudo su` to become root.
 TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` features in your boot menu as it can cause problems in installation of the os.
 3. `wifi-menu` to access wifi targets and connect to them (it is highly recommened).
 4. `timedatectl set-ntp true` to set the time.
