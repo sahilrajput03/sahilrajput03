@@ -25,7 +25,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   n : add a new partition
   d : delete a partition
   t : change partition type ## THIS MIGHT BE USEFUL LATER IF YOU CHOOSE UEFI INSTALLATION MODE to change the partition type of sdb1 to EFI.
-  # FYI: UEFI IS BETTER THAN LEGACY(we would need GRUB if we want legacy boot though).
+  # FYI: UEFI IS BETTER THAN LEGACY
   
   # For fresh way of setting up(you may ensure that there are no current partition in the drive using `p` to print the partitions).
   # Make partition with `n` and press 1 to make it primary. Press <Enter> key for "First Sector", and type +200M for "Last Sector" to create a 200Mb partition. And type `y` to remove "Signature" then. Now use `p` to check if you got the partition there which you just made (this would show up as partition `sdb1`).
@@ -122,7 +122,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   systemctl enable NetworkManager
   ```
   
-  13. (IGNORE THIS STEP COMPLETELY IF YOU ARE DOING UEFI though) _**UEFI > Legacy Boot**_ , but still if you want to have _Legacy Boot_ you need to setup ***GRUB***:
+  13. (IGNORE THIS STEP COMPLETELY IF YOU ARE DOING UEFI though) _**UEFI > Legacy Boot**_  But if you are using Legacy Boot follow below code (else you can follow the later part where i install grub for uefi later in this post):
   ```
   grup-install --target=i386-pc /dev/sda
   #YES PROBABLY ITS sda only (not sdb or sdc).
@@ -192,3 +192,150 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   NOW REBOOT with `reboot` command and remove the USB and the system should boot from your newly installed system partition now. _**CONGRATS**_
 
   
+# Post install processes
+- Add a user to archlinux -
+  ```
+  useradd -m sahil
+  
+  # Set a password for user sahil
+  passwd sahil
+  
+  # Add users to important groups so it can do things with sudo privilidges (you can apped lib-virt to the below list of groups if you want to use virtual machies with the user):
+  usermod -aG wheel,audio,video,optical,storage sahil
+  
+  # TIP: You can use below command to delete a user
+  userdel sahil
+  ```
+
+- If sudo is not installed, install it via
+  ```
+  pacman -S sudo
+  ```
+- Enabling sudo command for all wheel group users-
+  ```
+  visudo
+  #And uncomment the line which looks like and save the file.
+  %wheel ALL=(ALL) ALL
+  ```
+  
+- **Installing GRUB for UEFI**-
+  ```
+  pacman -S grub
+  pacman -S efibootmgr dosfstools os-prober mtools
+
+  # Mount boot partition
+  mkdir /boot/EFI
+  mount /dev/sda1 /boot/EFI
+  grub-install --target=x86_64-efi --bootloader-id=grub-uefi --efi-directory=/boot/EFI
+  #FYI: If grub-install says /boot/EFI is not efi partition:: then you need to change partition type{by `mkfs.fat -F32 /dev/sdb1`} and partition file system{by `fdisk /dev/sdb` and then using t<Enter>1<Enter>} of a partition only after unmounting the partition first , otherwise it won't actually work.
+  ```
+- Generate grub config file-
+  ```
+  grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+  
+- Updating existing Archlinux
+  
+  ```
+  pacman -Syu
+  ```
+  
+- Test if you have internet after booting to your archlinux via:
+  
+  ```
+  ping google.com
+  ```
+  
+- Extra: Mounting ntfs pendrive
+  ```
+  sudo pacman -S ntfs-3g
+  
+  #Usage:
+  sudo mount -t ntfs-3g /dev/sdc1
+
+  #Unmounting:
+  sudo umount <pathToPartition/mountPath>
+  #e.g, either of below should work:
+  sudo umount /dev/sdc1
+  sudo umount /mnt/sdc1
+  #There is nothing like unmounting disk but partition ~ IMO ~SAHIL
+  ```
+
+- Know the filesystems of all your device partitions:
+  
+  ```
+  df -T
+  # and look for column "Type"
+  ```
+  
+- Mimic windows formatted NTFS ? ~IMO~SAHIL
+  ```
+  disklabel               => DOS Partition Table
+  partition type          => 07 -> HPFS/NTFS/exFAT
+  filesystem of partition => fuseblk (you can do it somhow using mkfs though ~ SAHIL)
+  ```
+
+- Get uuid of all partitions:
+  ```
+  sudo blkid
+  # Get UUID of a single partition:
+  sudo blkid /dev/sdb1
+  ```
+- Enable network time synchronization:
+  ```
+  timedatectl set-ntp true
+  ```
+  
+- Enable system-hardware synchronization:
+  ```
+  sudo hwclock --systohc
+  ```
+  
+- Jumping to tty's
+  ```
+  ctrl+alt+F1 ....
+  ```
+
+- Installing more functionalities:
+  ```
+  # Install wallpaper manager:
+  sudo pacman -S nitrogen
+
+  # Install themes, icon-themes, etc
+  sudo pacman -S picom lxappearance pcmanfm material-gtk-theme papirus-icon-theme
+  
+  #lxapperance is for setting themes
+  #pcmanfm is gui filemanager
+  # Now, open lxappearance from cli and set "Theme as Material-dark" and "IconTheme as Papirus
+  
+  # Install more??
+  ```
+  
+- Building packages from AUR in archlinux:
+  ```
+  # For help you can always do-
+  makepkg -h
+  
+  makepkg -s <pkg_name>
+  # -s means sync dependencies
+  sudo pacman -U ./my-newly-made-package.tar.zst
+  ```
+  
+- Installled `google-chrome`
+  ```
+  git clone google-chrome-from-AUR
+  cd google-chrome
+  makepkg -s
+  sudo pacman -U google-chrome..tar.zst # You can omit this step if you use above command like ```makepkg -si```
+  
+  #FYI: -U option means install from a file/URL
+  ```
+  
+- Add transparency ability to terminal by-
+  
+  ```
+  sudo vim /etc/xdg/picom.conf
+  # and set the value of vsync as false. By default it is set true in here.
+  ```
+  
+- 
