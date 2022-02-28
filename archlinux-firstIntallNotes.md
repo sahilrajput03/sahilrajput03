@@ -25,6 +25,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   n : add a new partition
   d : delete a partition
   t : change partition type ## THIS MIGHT BE USEFUL LATER IF YOU CHOOSE UEFI INSTALLATION MODE to change the partition type of sdb1 to EFI.
+  # FYI: UEFI IS BETTER THAN LEGACY(we would need GRUB if we want legacy boot though).
   
   # For fresh way of setting up(you may ensure that there are no current partition in the drive using `p` to print the partitions).
   # Make partition with `n` and press 1 to make it primary. Press <Enter> key for "First Sector", and type +200M for "Last Sector" to create a 200Mb partition. And type `y` to remove "Signature" then. Now use `p` to check if you got the partition there which you just made (this would show up as partition `sdb1`).
@@ -90,4 +91,104 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   pacstrap /mnt/ linux linux-firmware base vim
   ######## Installting archlinux, base packages and vim for now. We can include as many packages as we want from arch package repo here IMO. This command might take couple of minutes so BE PATIENT.
   ```
-  10. 
+  10. Setting up auto mount all partitions to desired paths using file `/etc/fstab`. Recommendattion: Always use UUID's for making the entries coz they are not gonna change even if you plug-out and plug-in multiple hard drives later. We generate the fstab file using:
+  ```
+  # Print all the current mounted file systems
+  genfstab -U /mnt
+  
+  # To write the same table to fstab file we do:
+  genfstab -U /mnt >> /mnt/etc/fstab
+  
+  #### Verif by checking the /mnt/etc/fstab file, edit the file according to your wish like you want some partitions to be mounted or not on boot time.
+  ```
+  
+  11. Making archlinux bootable,
+  ```
+  arch-chroot /mnt
+  # You get in a subshell now
+  # FYI: You are logged in your newly installed system partition right now (before this we were in the usb os instance)
+  # We verify that we are inside of newly installed system partitin by doing:
+  cat /etc/fstab
+  # This will output your fstab that you generated moments ago.
+  ```
+    - Now if we do `ls` then it'll show you your `home` folder ***here*** which you created at `/mnt/home` earlier.
+    - Also, `lsblk` will show your _sdb3_ and _sdb4_ mounted at _/_ and _/home_.
+  
+  12. Installing packages
+  ```
+  pacman -S networkmanager
+  
+  # We want systemd to automatically start the networkmanager on startup, so we do it:
+  systemctl enable NetworkManager
+  ```
+  
+  13. (IGNORE THIS STEP COMPLETELY IF YOU ARE DOING UEFI though) _**UEFI > Legacy Boot**_ , but still if you want to have _Legacy Boot_ you need to setup ***GRUB***:
+  ```
+  grup-install --target=i386-pc /dev/sda
+  #YES PROBABLY ITS sda only (not sdb or sdc).
+  # MAKE SURE THAT YOU USE CORRECT ^^^^^ device here(its sda here coz i am currently logged into my current system if you are following the tutorial in order.
+  
+  # Make config file for grub-
+  grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+  14. Set password for root user-
+  ```
+  passwd
+  # for ease set it to toor which is classical value of root user password
+  ```
+  15. Setting up locale (compulsory), you simply need to uncomment below two lines and save the file. i.e.,
+  ```bash
+  vim /etc/locale.gen
+  en_US.UTF-8 UTF-8
+  en_US ISO-8859-1
+  ```
+  
+  and generate the locals from `/etc/locale.gen` file using command:
+  
+  ```
+  locale-gen
+  ```
+  
+  16. Setting Language variable
+  
+  ```
+  vim /etc/locale.conf
+  # and enter below line and save the file
+  LANG=en-US.UTF-8
+  ```
+  
+  17. Setting up timzezone
+  
+  ```
+  # List all the zone info details, and choose your country from below entries:
+  ln -sf /usr/share/zoneinfo/<TAB>
+  
+  # for India it should look like
+  ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+  ```
+  
+  18. Setting up hostname, (this is basically what it look in terminal i.e., `array@myHostName`.
+  
+  ```
+  vim /etc/hostname
+  # and type the hostname there, tip: use `arch-os` as hostname.
+  ```
+  
+  19. Now you can get back to your usb archlinux environment back-
+  
+  ```
+  exit
+  ```
+  
+  20. Unmount all mounts we did earlier in `/mnt` directory-
+  
+  ```
+  umount -R /mnt
+  
+  #If above command says: "Resource busy" then use below command instead, (-l is for lazy unmount option)-
+  umount -l /mnt
+  ```
+  
+  NOW REBOOT with `reboot` command and remove the USB and the system should boot from your newly installed system partition now. _**CONGRATS**_
+
+  
