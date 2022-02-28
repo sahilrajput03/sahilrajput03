@@ -1,5 +1,7 @@
 # archlinux-notes
 
+- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
+
 **FYI: `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.**
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
