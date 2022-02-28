@@ -18,7 +18,7 @@ _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/
 
 **Quick actions**: `ctrl+/`
 
-**Presentation Mode(show/hide UI)**: `ctrl+\`
+**Presentation Mode(preview mode, show/hide UI)**: `ctrl+\`
 
 **Undo/Redo/copy/cut/selectAll**: Use `ctrl+z`/`ctrl+y`/`ctrl+c`/`ctrl+x`/`ctrl+a`.
 
