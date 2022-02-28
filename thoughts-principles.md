@@ -4,6 +4,8 @@
 
 **Winning is the only option.**
 
+***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
+
 **“ Learning never exhausts the mind. ” ― Leonardo da Vinci**
 
 **“ Keep your face always toward the sunshine - and shadows will fall behind you. ” ― Walt Whitman**
