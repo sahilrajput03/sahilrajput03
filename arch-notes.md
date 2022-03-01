@@ -13,6 +13,8 @@ https://github.com/xmonad/xmonad (2.4k github stars)
 
 https://github.com/baskerville/bspwm (6k github stars)
 
+https://github.com/i3/i3 (7k github stars)
+
 ## Installed bash-completion tool
 
 FYI: It heps to show branches when you do `git checkout <TAB>` and I don't konw other usefulness of this utility yet. TODO: Add more here.
