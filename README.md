@@ -63,6 +63,10 @@ vim: https://github.com/editorconfig/editorconfig-vim#readme
 
 vscode: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 
+Sample I came across:
+
+- https://github.com/qutebrowser/qutebrowser/blob/master/.editorconfig
+
 ## Git diff explained in simple terms
 
 ```bash
