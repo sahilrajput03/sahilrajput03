@@ -1,5 +1,7 @@
 # Readme
 
+**Official archlinux installation guide**: [Click here](https://wiki.archlinux.org/title/installation_guide).
+
 _**Why do i make notes when i can use the same video _source/ article source_ to install in the same manner the way I did it in the first place ?**_ _Ans._ Bcoz textual information can be divided into precise points in the way I understand the intention of what I need to do. And though video content has high bandwidth in terms of absorbing content but textual content can be very much helpful and text notes are irreplacably good in my experience when it comes to 2-3 years of down the line when i need to do solve the same problem again.
 
 ## Installing from scratch
@@ -90,6 +92,8 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   pacstrap /mnt/ linux linux-firmware base vim
   ######## Installting archlinux, base packages and vim for now. We can include as many packages as we want from arch package repo here IMO. This command might take couple of minutes so BE PATIENT.
+  
+  FYI: We don't need base-devel anymore. See [this](https://bbs.archlinux.org/viewtopic.php?id=227602) issue and [this diff](https://wiki.archlinux.org/index.php?title=Installation_Guide&diff=253744&oldid=250715) in installation guide.
   ```
   10. Setting up auto mount all partitions to desired paths using file `/etc/fstab`. Recommendattion: Always use UUID's for making the entries coz they are not gonna change even if you plug-out and plug-in multiple hard drives later. We generate the fstab file using:
   ```
@@ -308,6 +312,16 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   #pcmanfm is gui filemanager
   # Now, open lxappearance from cli and set "Theme as Material-dark" and "IconTheme as Papirus
   
+  # Install fonts:
+  sudo pacman -S ttf-dejavu ttf-liberation noto-fonts
+
+  # Install wallpapers
+  sudo pacman -S archlinux-wallpaper
+  # It copies wallpapers in /usr/share/background/archlinux directory
+  
+  # Install firefox
+  sudo pacman -S firefox
+  
   # Install more??
   ```
   
@@ -321,7 +335,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   sudo pacman -U ./my-newly-made-package.tar.zst
   ```
   
-- Installled `google-chrome`
+- Installl `google-chrome`
   ```
   git clone google-chrome-from-AUR
   cd google-chrome
@@ -338,4 +352,25 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # and set the value of vsync as false. By default it is set true in here.
   ```
   
+- Add transparency to terminals
+  ```
+  #Keyboard
+  exec setxkbmap ch &
+  
+  #Nitrogen
+  exec nitrogen --restore
+  
+  #Picom (adds transparency ability to terminals)
+  exec picom -f
+  ```
+  
+- Setting i3 gaps to our i3. Find code [here](https://github.com/Airblader/i3/wiki/Example-Configuration) and add it to the end of `.config/i3/config` file. Now you can use `SUPER+SHIFT+g` and press `i` and then use `SHIFT++` or `SHIFT+-` to increase or decrease the inner gaps.
+
+- `nmtui` to connect to wifi.
+  
+- Install graphics card drivers (AMD)
+  ```
+  sudo pacman -S xf86-video-amdgpu
+  ```
+
 - 
