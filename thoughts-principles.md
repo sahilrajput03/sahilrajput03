@@ -1,6 +1,7 @@
 # Thoughts, Principles
 
 **[Plug this in and keep working.](https://youtu.be/LMmuChXra_M)**
+**[Plug this in and keep working.](https://youtu.be/q1Ng7FgDsNQ)**
 
 **Music can heal most harsh, rare and complex socio-mental problems**
 
