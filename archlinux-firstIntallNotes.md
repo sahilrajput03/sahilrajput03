@@ -88,10 +88,9 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   lsblk
   ```
   
-  9. Install archlinux to target partition using pacstrap, refer `pacstrap -h` for help on it.
+  9. Install archlinux to target partition using pacstrap, refer `pacstrap -h` for help on it. Installting archlinux, base packages and vim for now. We can include as many packages as we want from arch package repo here IMO. This command might take couple of minutes so BE PATIENT.
   ```
   pacstrap /mnt/ linux linux-firmware base vim
-  ######## Installting archlinux, base packages and vim for now. We can include as many packages as we want from arch package repo here IMO. This command might take couple of minutes so BE PATIENT.
   ```
   
   FYI: With base we means this [package](https://archlinux.org/packages/core/any/base/), tldr; these packages: `bash, bzip2, coreutils, file, filesystem, findutils, gawk, gcc-libs, gettext, glibc, grep, gzip, iproute2, iputils, licenses, pacman, pciutils, procps-ng, psmisc, sed, shadow, systemd, systemd-sysvcompat, tar, util-linux, xz, linux (optional) - bare metal support`, I got this list from the dependencies section [here](https://archlinux.org/packages/core/any/base/).
