@@ -8,7 +8,10 @@ FYI: To add a quickmark type command `:quick` and you'll see below list of comma
 quickmark-add #To add a new quickmark
 quickmark-del # To delete a quickmark
 quickmark-load name_of_quickmark # To load a quickmark (you can open it in current tab/new tab/new window as well).
-quickmark-save
+quickmark-save # Save the current page as a quickmark.
+
+# See complete list of all the commands available from qutebrowser @ 
+# https://qutebrowser.org/doc/help/commands.html
 ```
 
 qutebrowser has 23k commits, wow!
