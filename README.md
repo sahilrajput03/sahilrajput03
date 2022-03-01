@@ -55,6 +55,14 @@ git filter-branch --tree-filter 'rm -rf <path_to_folder>' HEAD
 git push origin --force --all
 ```
 
+## `.editorconfig` file
+
+Source: https://editorconfig.org/
+
+vim: https://github.com/editorconfig/editorconfig-vim#readme
+
+vscode: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
 ## Git diff explained in simple terms
 
 ```bash
