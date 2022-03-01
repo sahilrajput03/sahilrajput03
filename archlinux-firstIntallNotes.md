@@ -373,4 +373,65 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
 
 - `nmtui` to connect to wifi.
 
+- Install i3
+  ```
+  sudo pacman -Syu
+  sudo pacman -S i3
+  
+  # Tip: Double press <Enter> to configure i3 config file at the time of prompting for setting up usage.
+  ```
+  
+  For setting i3status's language in i3bar, we need to add `LC_ALL="en_US.UTF-8` as a line to `/etc/environment`.
+  
+  FYI: We must do above language setting otherwise it throws error like:
+  ```
+  ERROR: status command process exited unexpectedly (exit 1) in i3bar.
+  ```
+  
+- Install more gui essentials
+  ```
+  sudo pacman -S lightdm xfce-terminal lightdm-gtk-greeter lightdm-gtk-greeter-settings dmenu nitrogen xorg
+
+  # Also make use of
+  lightdm-gtk-greeter-settings
+  # to customize ui
+  
+  # Enable Display Manager lightdm service
+  sudo systemctl enable lightdm
+  
+  # Now reboot to reflect the changes
+  reboot
+  
+  # Set background at login/logout screen
+  lightdm-gtk-greeter-settings
+  
+  
+  
+  # Get current resolution config of the monitor/s
+  xrandr
+  
+  # Set resolution for a montitor
+  xrandr -s 1920x1080
+  ```
+  
+- Ram usage
+  ```
+  top
+  
+  # We can use htop as well, which is more powerful than top
+  sudo pacman -S htop
+  
+  # Usage
+  htop
+  
+  
+  
+  #### Check RAM and SWAP usage
+  # Usage in gigabytes
+  free -g
+  
+  # Usage in megabytes
+  free -m 
+  ```
+
 - 
