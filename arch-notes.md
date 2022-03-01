@@ -7,6 +7,12 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## install gvim
+
+```
+sudo pacman -S gvim
+```
+
 ## install qutebrowser
 
 ```
