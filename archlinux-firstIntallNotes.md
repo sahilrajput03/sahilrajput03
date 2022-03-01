@@ -2,9 +2,9 @@
 
 _**Why do i make notes when i can use the same video _source/ article source_ to install in the same manner the way I did it in the first place ?**_ _Ans._ Bcoz textual information can be divided into precise points in the way I understand the intention of what I need to do. And though video content has high bandwidth in terms of absorbing content but textual content can be very much helpful and text notes are irreplacably good in my experience when it comes to 2-3 years of down the line when i need to do solve the same problem again.
 
-## Setting up bootable pendrive
+## Installing from scratch
 
-1. `dd if=pathToArchLinuxOS.iso of /dev/sda` : Here if option means input file path. (TIP: You can use `lsblk` _<stands for::listBlockDevices>_ to list all the devices plugged in at the moment.)
+1. `dd if=pathToArchLinuxOS.iso of /dev/sda` : Setting up bootable pendrive. (if option means input file path). TIP: You can use `lsblk` _<stands for::listBlockDevices>_ to list all the devices plugged in at the moment.
 2. `sudo su` to become root.
 TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` features in your boot menu as it can cause problems in installation of the os.
 3. `wifi-menu` to access wifi targets and connect to them (it is highly recommened).
