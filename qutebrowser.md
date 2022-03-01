@@ -2,6 +2,15 @@
 
 Source (youtube@distrotube): https://youtu.be/_OJKp4c5OLs
 
+FYI: To add a quickmark type command `:quick` and you'll see below list of commands in suggestions:
+
+```
+quickmark-add #To add a new quickmark
+quickmark-del # To delete a quickmark
+quickmark-load name_of_quickmark # To load a quickmark (you can open it in current tab/new tab/new window as well).
+quickmark-save
+```
+
 qutebrowser has 23k commits, wow!
 
 Amazing course for learnig qutebrowser @ https://www.shortcutfoo.com/app/dojos/qutebrowser
