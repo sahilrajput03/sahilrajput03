@@ -2,6 +2,8 @@
 
 Best way to open qutebrowser via dmenu: `qu` works excellent!
 
+My config file for qutebrowser: https://github.com/sahilrajput03/config/tree/main/.config/qutebrowser
+
 Source (youtube@distrotube): https://youtu.be/_OJKp4c5OLs
 
 Source2 (youtube@distrotube): https://www.youtube.com/watch?v=rMYMfnOpxP0
