@@ -10,7 +10,8 @@ Source2 (youtube@distrotube): https://www.youtube.com/watch?v=rMYMfnOpxP0
 
   FYI: To add a quickmark type command `:quick` and you'll see below list of commands in suggestions:
 
-  ALERT: Don't modify the ~/.config/qutebrowser/quickmarks file directly, coz there's no way of loading that file again in running instace of qutebrowser, **so its better to use qutebrowser itself commands below defined to add/delete any quickmarks.**
+  **ALERT: Don't modify the ~/.config/qutebrowser/quickmarks file directly**, coz there's no way of loading that file again in running instace of qutebrowser, **so its better to use qutebrowser itself commands below defined to add/delete any quickmarks.**
+  **ALERT:FYI: If you edit the file if you really want to then you can simply close the browser and open it again so it picks up the changes made in file. (also, `config-source` doesn't seem to help with this too).**
 
   ```
   quickmark-add #To add a new quickmark
