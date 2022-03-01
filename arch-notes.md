@@ -13,6 +13,8 @@
 sudo pacman -S qutebrowser
 ```
 
+Website: https://qutebrowser.org/, Github: https://github.com/qutebrowser/qutebrowser
+
 ## other tiling managers
 
 https://github.com/xmonad/xmonad (2.4k github stars)
