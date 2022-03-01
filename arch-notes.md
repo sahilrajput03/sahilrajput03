@@ -7,6 +7,12 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## install qutebrowser
+
+```
+sudo pacman -S qutebrowser
+```
+
 ## other tiling managers
 
 https://github.com/xmonad/xmonad (2.4k github stars)
