@@ -60,6 +60,7 @@ You can change these settings manually via below command as well.
 
 ## Shortcuts:
 
+- shift+b to open quickmarks menu
 - shift+j/k to switch to tabs down/up
 - gD to detach current tab and open in new window
 - d in normal mode to close current tab
