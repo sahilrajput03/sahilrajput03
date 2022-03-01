@@ -51,4 +51,4 @@
 
 ***Shortcutfoo***: Choose shortcuts to practice - Vim, VSCode, Sublime, Emacs, Visual Studio, Excel, Commandline, Photoshop, git, TextMate, Eclipse, ReSharper, IntelliJ IDEA, RubyMine, AppCode, PyCharm, WebStorm/PhpStorm, Gmail, Regex, JQuery, Atom, Cloud9, Slack, Zendesk, Salesforce, Trello, JIRA, Logic Pro X, & Sketch
 
-TODO: Excel, Jira, Gmail, git, Regex.
+TODO: [Qutebrowser](https://www.shortcutfoo.com/app/dojos/qutebrowser/learn) Excel, Jira, Gmail, git, Regex.
