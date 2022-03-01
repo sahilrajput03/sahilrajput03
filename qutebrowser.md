@@ -1,5 +1,7 @@
 # qutebrowser is awesome
 
+Best way to open qutebrowser via dmenu: `qu` works excellent!
+
 Source (youtube@distrotube): https://youtu.be/_OJKp4c5OLs
 
 - **quickmarks**:
