@@ -423,6 +423,10 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   
   # Usage
   htop
+  # Leverage htop ? 
+  # Use ctrl+n/p to toggle between processes.
+  # Use f4 to search in the processes list
+  # Use k to send any signal, you get a list of signals which you can send.
   
   
   
