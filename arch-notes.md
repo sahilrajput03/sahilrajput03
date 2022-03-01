@@ -7,6 +7,12 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## install `gnuplot`
+
+```
+sudo pacman -S gnuplot
+```
+
 ## install `mpv` player(its good player for streaming youtube videos(it internally uses `youtube-dl`)) and `youtube-dl`
 
 ```
