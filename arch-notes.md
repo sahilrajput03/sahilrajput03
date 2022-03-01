@@ -7,6 +7,14 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## install `st`
+
+```
+git clone st_from_AUR
+cd st
+makepkg -si
+```
+
 ## install `gnuplot`
 
 ```
