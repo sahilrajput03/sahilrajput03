@@ -39,9 +39,13 @@ Find me on terminal via `npx sahilrajput03` command.
 ## `for await` syntax in js
 
 ```js
-for await (const i of [10, 20, 30]){
-    console.log(await Promise.resolve(i))
+for await (const i of [Promise.resolve(10), Promise.resolve(20), Promise.resolve(30)]){
+    console.log(await i)
 }
+# Output: 
+# 10
+# 20
+# 30
 ```
 
 
