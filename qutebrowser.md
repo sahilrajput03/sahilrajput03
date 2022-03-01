@@ -2,21 +2,23 @@
 
 Source (youtube@distrotube): https://youtu.be/_OJKp4c5OLs
 
-FYI: To add a quickmark type command `:quick` and you'll see below list of commands in suggestions:
+- **quickmarks**:
 
-ALERT: Don't modify the ~/.config/qutebrowser/quickmarks file directly, coz there's no way of loading that file again in running instace of qutebrowser, **so its better to use qutebrowser itself commands below defined to add/delete any quickmarks.**
+  FYI: To add a quickmark type command `:quick` and you'll see below list of commands in suggestions:
 
-```
-quickmark-add #To add a new quickmark
-quickmark-del # To delete a quickmark
-quickmark-load name_of_quickmark # To load a quickmark (you can open it in current tab/new tab/new window as well).
-quickmark-save # Save the current page as a quickmark.
+  ALERT: Don't modify the ~/.config/qutebrowser/quickmarks file directly, coz there's no way of loading that file again in running instace of qutebrowser, **so its better to use qutebrowser itself commands below defined to add/delete any quickmarks.**
 
-# See complete list of all the commands available from qutebrowser @ 
-# https://qutebrowser.org/doc/help/commands.html
-```
+  ```
+  quickmark-add #To add a new quickmark
+  quickmark-del # To delete a quickmark
+  quickmark-load name_of_quickmark # To load a quickmark (you can open it in current tab/new tab/new window as well).
+  quickmark-save # Save the current page as a quickmark.
 
-qutebrowser has 23k commits, wow!
+  # See complete list of all the commands available from qutebrowser @ 
+  # https://qutebrowser.org/doc/help/commands.html
+  ```
+
+*qutebrowser has 23k commits, wow!*
 
 Amazing course for learnig qutebrowser @ https://www.shortcutfoo.com/app/dojos/qutebrowser
 
