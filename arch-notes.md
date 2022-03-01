@@ -15,11 +15,13 @@ sudo pacman -S gvim
 
 ## install qutebrowser
 
+Website: https://qutebrowser.org/, Github: https://github.com/qutebrowser/qutebrowser
+
+Usage: https://qutebrowser.org/doc/help/
+
 ```
 sudo pacman -S qutebrowser
 ```
-
-Website: https://qutebrowser.org/, Github: https://github.com/qutebrowser/qutebrowser
 
 ## other tiling managers
 
