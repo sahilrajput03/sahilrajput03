@@ -36,6 +36,15 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## `for await` syntax in js
+
+```js
+for await (const i of [10, 20, 30]){
+    console.log(await Promise.resolve(i))
+}
+```
+
+
 ## filetype `myFile.asciidoc`
 
 Sample: https://github.com/qutebrowser/qutebrowser/blob/master/doc/userscripts.asciidoc
