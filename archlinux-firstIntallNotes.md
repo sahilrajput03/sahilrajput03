@@ -94,7 +94,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ######## Installting archlinux, base packages and vim for now. We can include as many packages as we want from arch package repo here IMO. This command might take couple of minutes so BE PATIENT.
   ```
   
-    FYI: With base we means this [package](https://archlinux.org/packages/core/any/base/), tldr; these packages: `bash, bzip2, coreutils, file, filesystem, findutils, gawk, gcc-libs, gettext, glibc, grep, gzip, iproute2, iputils, licenses, pacman, pciutils, procps-ng, psmisc, sed, shadow, systemd, systemd-sysvcompat, tar, util-linux, xz, linux (optional) - bare metal support`, I got this list from the dependencies section [here](https://archlinux.org/packages/core/any/base/).
+  FYI: With base we means this [package](https://archlinux.org/packages/core/any/base/), tldr; these packages: `bash, bzip2, coreutils, file, filesystem, findutils, gawk, gcc-libs, gettext, glibc, grep, gzip, iproute2, iputils, licenses, pacman, pciutils, procps-ng, psmisc, sed, shadow, systemd, systemd-sysvcompat, tar, util-linux, xz, linux (optional) - bare metal support`, I got this list from the dependencies section [here](https://archlinux.org/packages/core/any/base/).
   
   FYI: We don't need base-devel anymore. See [this](https://bbs.archlinux.org/viewtopic.php?id=227602) issue and [this diff](https://wiki.archlinux.org/index.php?title=Installation_Guide&diff=253744&oldid=250715) in installation guide.
   
