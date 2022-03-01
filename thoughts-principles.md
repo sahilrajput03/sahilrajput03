@@ -8,11 +8,11 @@
 
 ***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
 
-**“ Learning never exhausts the mind. ” ― Leonardo da Vinci**
+**“Learning never exhausts the mind.” ― Leonardo da Vinci**
 
-**“ Keep your face always toward the sunshine - and shadows will fall behind you. ” ― Walt Whitman**
+**“Keep your face always toward the sunshine - and shadows will fall behind you.” ― Walt Whitman**
 
-**“ At the end of your life, you will never regret not having passed one more test, not winning one more verdict or not closing one more deal. You will regret time not spent with a husband, a friend, a child, or a parent. ” ― Barbara Bush**
+**“At the end of your life, you will never regret not having passed one more test, not winning one more verdict or not closing one more deal. You will regret time not spent with a husband, a friend, a child, or a parent.” ― Barbara Bush**
 
 **"Fear vs. Learning can't co-exist!" ~ Sahil**
 
