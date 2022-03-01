@@ -31,6 +31,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learning Markdown**: [Click here](learning-markdown.md)
 - **Learning Figma**: [Click here](learning-figma.md)
 - **Learnings from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
+- **Learning qutebrowser**: [Click here](qutebrowser.md)
 - **Jokes: [Click here](https://xkcd.com/)**
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
