@@ -4,7 +4,7 @@
 
 *-todo~sahil: The Missing Semester of Your CS Education(MIT), Regex, DevOps with Kubernetes, FSO part 12 and part 13.*
 
-- Shortcutfoo (See end of this page) - [Click here](https://www.shortcutfoo.com/app/dojos/jira/learn)
+- Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
 - The Missing Semester of Your CS Education(MIT): [Click here](https://missing.csail.mit.edu/)
 - Great Practical Ideas in CS(CMU) - [Click here](https://www.cs.cmu.edu/~15131/f17/)
 - Deep Dive Into Modern Web Development | Full Stack Open 2021: [Click here](https://fullstackopen.com/en/)
@@ -50,3 +50,5 @@
 - BOOK - AndroidNotesForProfessionals: [Click here](https://sahilrajput03.github.io/AndroidNotesForProfessionals.pdf)
 
 ***Shortcutfoo***: Choose shortcuts to practice - Vim, VSCode, Sublime, Emacs, Visual Studio, Excel, Commandline, Photoshop, git, TextMate, Eclipse, ReSharper, IntelliJ IDEA, RubyMine, AppCode, PyCharm, WebStorm/PhpStorm, Gmail, Regex, JQuery, Atom, Cloud9, Slack, Zendesk, Salesforce, Trello, JIRA, Logic Pro X, & Sketch
+
+TODO: Excel, Jira, Gmail, git, Regex.
