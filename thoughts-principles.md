@@ -2,6 +2,8 @@
 
 **[Plug this in and keep working.](https://youtu.be/LMmuChXra_M)**
 
+**Music can heal most harsh, rare and complex socio-mental problems**
+
 **Winning is the only option.**
 
 ***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
@@ -25,3 +27,5 @@
 **Ethics: Continum approach vs. Dictonomy approach in perspective of goodness and being bad.."**
 
 **Practice Rigorous Authenticity, Surrender The Outcome and Do Uncomfortable Work" [bcoz](https://www.youtube.com/watch?v=UUnRKf2CemA).**
+
+**Ye ishq nhi asaan, bas yun smj lijyiye ki aag ka dariya hai aur doob ke jana hai! ~ Mirza Galib**
