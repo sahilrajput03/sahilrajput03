@@ -4,6 +4,8 @@ Best way to open qutebrowser via dmenu: `qu` works excellent!
 
 Source (youtube@distrotube): https://youtu.be/_OJKp4c5OLs
 
+Source2 (youtube@distrotube): https://www.youtube.com/watch?v=rMYMfnOpxP0
+
 - **quickmarks**:
 
   FYI: To add a quickmark type command `:quick` and you'll see below list of commands in suggestions:
