@@ -14,7 +14,7 @@
 
 **“At the end of your life, you will never regret not having passed one more test, not winning one more verdict or not closing one more deal. You will regret time not spent with a husband, a friend, a child, or a parent.” ― Barbara Bush**
 
-**"Fear vs. Learning can't co-exist!" ~ Sahil**
+**"Fear and Learning can't co-exist!" ~ Sahil**
 
 **"Keep It Simple, Stupid" ([KISS](https://en.wikipedia.org/wiki/KISS_principle))**
 
