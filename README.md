@@ -35,6 +35,10 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## filetype `myFile.asciidoc`
+
+Sample: https://github.com/qutebrowser/qutebrowser/blob/master/doc/userscripts.asciidoc
+
 ## Avoiding nuclear approach to fix a git repository
 
 ![](https://imgs.xkcd.com/comics/git.png)
