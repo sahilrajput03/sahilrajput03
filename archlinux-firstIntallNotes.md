@@ -300,32 +300,45 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
 - Jumping to tty's
   ```
   ctrl+alt+F1 ....
+  
+  #IMPORTANT: To get back to i3wm
+  ctrl+alt+F7
   ```
 
 - Installing more functionalities:
   ```
-  # Install wallpaper manager:
+  # wallpaper manager:
   sudo pacman -S nitrogen
 
-  # Install themes, icon-themes, etc
+  # themes, icon-themes, etc
   sudo pacman -S picom lxappearance pcmanfm material-gtk-theme papirus-icon-theme
   
   #lxapperance is for setting themes
   #pcmanfm is gui filemanager
   # Now, open lxappearance from cli and set "Theme as Material-dark" and "IconTheme as Papirus
   
-  # Install fonts:
+  # fonts
   sudo pacman -S ttf-dejavu ttf-liberation noto-fonts
 
-  # Install wallpapers
+  # wallpapers
   sudo pacman -S archlinux-wallpaper
   # It copies wallpapers in /usr/share/background/archlinux directory
   
-  # Install firefox
+  # firefox
   sudo pacman -S firefox
   
-  # Install graphics card drivers (AMD)
+  # graphics card drivers (AMD)
   sudo pacman -S xf86-video-amdgpu
+  
+  # vlc
+  sudo pacman -S vlc
+  
+  # image viewer
+  sudo pacman -S sxiv
+  
+  # terminal file manager
+  sudo pacman -S ranger
+  # For usage instructions, see https://github.com/sahilrajput03/sahilrajput03/blob/master/arch-notes.md
   
   # Install more??
   ```
@@ -388,10 +401,10 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ERROR: status command process exited unexpectedly (exit 1) in i3bar.
   ```
   
-- Install more gui essentials
+- Install more essentials (some gui and other utilities) 
   ```
-  sudo pacman -S lightdm xfce-terminal lightdm-gtk-greeter lightdm-gtk-greeter-settings dmenu nitrogen xorg
-
+  sudo pacman -S lightdm xfce-terminal lightdm-gtk-greeter lightdm-gtk-greeter-settings dmenu nitrogen xorg flameshot unzip
+  
   # Also make use of
   lightdm-gtk-greeter-settings
   # to customize ui
@@ -438,4 +451,253 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   free -m 
   ```
 
-- 
+- SWAP Partition test-
+  
+  ```
+  # Confirm that fstab file has a swap partition entry
+  cat /etc/fstab
+  
+  # Check if system shows SWAP usage
+  free -m
+  
+  # Check below file shows swap usage
+  cat /proc/swaps
+  
+  # Check if swapon shows swap usage with
+  swapon
+  swapon --show
+  swapon -s
+  # -s is to show summary 
+  
+  # Check swap usage with
+  top
+  htop
+  ```
+  
+- Enabling hibernation: Tip: You must have SWAP partition setup before you can use hiberation feature.
+  ```
+  sudo vim /etc/mkinitcpio.conf
+  
+  # Find the line that says:
+  HOOKS=(base udev autodetect modconf block filesystems keyboard fsk)
+  # and add entity `resume` in between keyboard and fsk, so FINALLY it would look like
+  HOOKS=(base udev autodetect modconf block filesystems keyboard resume fsck)
+  
+  ## Now edit another file
+  sudo vim /etc/default/grub
+  # and add the linux swap partition with UUID entry to the GRUB_CMDLINE_DEFAULT variable-
+  GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
+  # and add a resume paramter with UUID value of the SWAP partition (here 899efccc-3a01-48bb-aa44-1de74cc9798a is UUID of my SWAP atm of installation)
+  GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 resume=UUID=899efccc-3a01-48bb-aa44-1de74cc9798a quiet"
+  
+  # FINISHED!
+  # tldr;
+  # You need to ensure that you have a swap partition and have a the corresponding entry for it in /etc/fstab file.
+  # Entry in /etc/fstab file ensures that swapon is run for the swap_partition/swap_file at the system startup.
+  ```
+
+- Fix the speakders drivers:
+  ```
+  sudo pacman -S alsa-utils pulseaudio
+  alsactl init
+  ```
+  
+- Pacman
+  
+  ```
+  # Search for below options via
+  man pacman
+  # to get detailed and concise details of how a option works internally
+  # -S : sync libraries from remote repository of arch
+  # -y : the means referesh the packagedatabase from server.
+  # -u : Restrict or filter output to packages that are out-of-date on the local system. Only package version are used to find outdated packages; replacements are not checked here. This optin works best when used iwth `-Sy` option. (FROM `man pacman`)
+
+  # Update a specific package
+  sudo pacman -S pkg-name
+  
+  # Search among installed packages
+  pacman -Qs pkg-name
+  
+  # Search on available packages frmo archlinux packages repo
+  pacman -Ss pkg-name
+  # FYI: -S means sync, -s means search.
+  ```
+  
+- What shell are you using ?
+  ```
+  echo $SHELL
+  # default output would be
+  /bin/bash
+  ```
+  
+- Install more utility AUR PACKAGES
+  ```
+  git clone visual-studio-code-bin_AUR_URL
+  cd visual-studio-code-bin
+  makepkg -si
+  
+  # Usage
+  code
+  
+  
+  
+  
+  # Install slack
+  git clone slack-desktop_AUR_URL
+  cd slack-desktop
+  makepkg -si 
+  
+  
+  
+  
+  
+  ```
+  
+- Get your ip addresses?
+  ```
+  ip address show
+  ip address show wlp3s0
+  ```
+  
+- Setting up bluetooth in arch-
+  ```
+  sudo pacman -S blueman
+  # now this package installed config file as well-
+  sudo vim /etc/bluetooth/main.conf
+  
+  # Start the service and enable service to run on startup-
+  sudo systemctl start bluettoth
+  sudo systemctl enable bluetooth
+  
+  # Verify
+  sudo systemctl status bluetooth
+  
+  # Enable bluetooth device on startup-
+  sudo vim /etc/bluetooth/main.conf
+  # and add below line to it
+  AutoEnable=true
+  ```
+  
+  and now use
+  
+  ```
+  # Install bluez-utils
+  sudo pacman -S bluez-utils
+  # now we have bluetoothctl cli tool
+  
+  bluetoothctl
+  # opens a subshell
+  
+  power on
+  # turns on the bluetooth device
+  
+  default-agent
+  # enables auto connection with devices after you connect once with a device
+  
+  scan on
+  # not it'll output all the available devices it finds nearby
+  
+  trust <mac_id>
+  # you can type just two letters starting of any visible devices and use <TAB> to autocomplete the address.
+  
+  pair <mac_id>
+  
+  # You can see your paired devices using
+  devices
+  
+  # connect to your device
+  connect <mac_id>
+  ```
+  
+- Connecting a bluetooth headset/speaker
+  ***Prerequisite: You must have already installed `pulseaudio` in your system.***
+  
+  ```
+  sudo pacman -S pulseaudio-bluetooth
+  
+  sudo vim /etc/bluetooth/main.conf
+  # and edit the line which says
+  ControllerMode = dual
+  # and finally it should look like 
+  ControllerMode = bredr
+  # now logout and login so that pulseaudio-bluetooth can take this change into effect.
+  
+  # Now we can use bluetoothctl to simply connect your headset/portable speaker.
+  ```
+  
+- Notifications in archlinux
+  ```
+  sudo pacman -S notify-osd
+  
+  #THIS IS OPTIONAL IMO ( and I don't know what exactly it does though)
+  sudo pacman -S libnotify
+  
+  # Install dunst
+  sudo pacman -S dunst
+  mkdir -p ~/.config/dunst
+  
+  # copy config file to user defined config file location-
+  cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
+  ```
+  
+- Now we need to reboot the system coz sending a notification with command-
+  ```
+  # Send a sample notification
+  notify-send --icon=gtk-info "TitleHere" "DescriptionHere"
+  
+  # NOTE: You only need to have double quotes if any of your title or description has spaces in its text.
+  # ALSO: ANY CHANGES YOU MAKE TO `~/.config/dunst/dunstrc` file won't take effect until you run -
+  killall dunst
+  # WARNING: You might not be able to see the dunst binary's vi effect taken into account by notify-send, so to fix that you must logout-login once (or do a reboot).  
+  ```
+  
+- Battery info
+  
+  ```
+  sudo pacman -S acpi
+  acpi -b
+  # This tells us if battery is charing/discharing, % of battery left, estimated time for what pc can run until dying.
+  
+  #Sample outputs
+  Battery 0: Charging, 99%, 00:01:00 until charged
+  Battery 0: Discharging, 99%, 02:41:11 remaining
+  ```
+  
+- Pushing sound alert and visible notification on full battery and low battery events. Refer @ https://github.com/sahilrajput03/config/blob/main/scripts-in-use/battery-status.sh .
+ 
+  
+- See how many cores you have in your cpu
+  ```
+  nproc
+  ```
+  
+- Enable parallel compiling in arch
+  
+  ```
+  sudo nano /etc/makepkg.conf
+  # search for line
+  MAKEFLAGS="-j2"
+  # this means to use 2 threads i.e., use two cores of cpu to run the compilation phase whenever we use makepkg command, so instead we can do it like:
+  MAKEFLAGS="-j$(nproc)"
+  ```
+  
+- What is makepkg ?
+  
+  You can read a file named PKGBUILD, you'll find this file in any source code of a program from AUR website. So you would read the variable meanings of this file content @ https://wiki.archlinux.org/title/PKGBUILD .
+  
+- Arch programs
+  
+  - Arch packages: archlinux.org/packages
+  - Arch User Repository: aur.archlinux.org
+  
+  Tip: You can simply install any package from Arch Packages by
+  ```
+  sudo pacman -S pkg-name
+  ```
+  
+  Tip2: You would need to do
+  ```
+  git clone any_AUR_program_url
+  cd program-name
+  makepkg -si
+  ```
