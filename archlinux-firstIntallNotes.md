@@ -92,9 +92,12 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   pacstrap /mnt/ linux linux-firmware base vim
   ######## Installting archlinux, base packages and vim for now. We can include as many packages as we want from arch package repo here IMO. This command might take couple of minutes so BE PATIENT.
+  ```
+  
+    FYI: With base we means this [package](https://archlinux.org/packages/core/any/base/), tldr; these packages: `bash, bzip2, coreutils, file, filesystem, findutils, gawk, gcc-libs, gettext, glibc, grep, gzip, iproute2, iputils, licenses, pacman, pciutils, procps-ng, psmisc, sed, shadow, systemd, systemd-sysvcompat, tar, util-linux, xz, linux (optional) - bare metal support`, I got this list from the dependencies section [here](https://archlinux.org/packages/core/any/base/).
   
   FYI: We don't need base-devel anymore. See [this](https://bbs.archlinux.org/viewtopic.php?id=227602) issue and [this diff](https://wiki.archlinux.org/index.php?title=Installation_Guide&diff=253744&oldid=250715) in installation guide.
-  ```
+  
   10. Setting up auto mount all partitions to desired paths using file `/etc/fstab`. Recommendattion: Always use UUID's for making the entries coz they are not gonna change even if you plug-out and plug-in multiple hard drives later. We generate the fstab file using:
   ```
   # Print all the current mounted file systems
@@ -322,6 +325,9 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # Install firefox
   sudo pacman -S firefox
   
+  # Install graphics card drivers (AMD)
+  sudo pacman -S xf86-video-amdgpu
+  
   # Install more??
   ```
   
@@ -367,10 +373,5 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
 - Setting i3 gaps to our i3. Find code [here](https://github.com/Airblader/i3/wiki/Example-Configuration) and add it to the end of `.config/i3/config` file. Now you can use `SUPER+SHIFT+g` and press `i` and then use `SHIFT++` or `SHIFT+-` to increase or decrease the inner gaps.
 
 - `nmtui` to connect to wifi.
-  
-- Install graphics card drivers (AMD)
-  ```
-  sudo pacman -S xf86-video-amdgpu
-  ```
 
 - 
