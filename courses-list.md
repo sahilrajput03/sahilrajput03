@@ -4,7 +4,7 @@
 
 *-todo~sahil: The Missing Semester of Your CS Education(MIT), Regex, DevOps with Kubernetes, FSO part 12 and part 13.*
 
-- Shortcutfoo (See last passage for more info on this) - [Click here](https://www.shortcutfoo.com/app/dojos/jira/learn)
+- Shortcutfoo (See end of this page) - [Click here](https://www.shortcutfoo.com/app/dojos/jira/learn)
 - The Missing Semester of Your CS Education(MIT): [Click here](https://missing.csail.mit.edu/)
 - Great Practical Ideas in CS(CMU) - [Click here](https://www.cs.cmu.edu/~15131/f17/)
 - Deep Dive Into Modern Web Development | Full Stack Open 2021: [Click here](https://fullstackopen.com/en/)
