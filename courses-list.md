@@ -18,6 +18,7 @@
 - CSS - Conquering Responsive Layouts by Kevin Powell: [Click here](https://courses.kevinpowell.co/conquering-responsive-layouts)
 - CSS - CSS Grid Layout Crash Course: [Click here](https://www.youtube.com/watch?v=jV8B24rSN5o)
 - W3Schools.com - Learn to Code (Lots of tutorials): [Click here](https://www.w3schools.com/)
+- Markdown by Daring Fireball - [Click here](https://daringfireball.net/projects/markdown/)
 
 **Other paid coursse**
 
