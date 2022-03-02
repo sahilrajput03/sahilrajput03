@@ -37,6 +37,26 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## Declarative vs. imperative
+
+Imperative: In computer science, imperative programming is a programming paradigm that uses statements that change a program's state. In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative programming focuses on describing how a program operates. The term is often used in contrast to declarative programming, which focuses on what the program should accomplish without specifying all the details of how the program should achieve the result.
+
+Declarative: In computer science, declarative programming is a programming paradigm—a style of building the structure and elements of computer programs—that expresses the logic of a computation without describing its control flow. Many languages that apply this style attempt to minimize or eliminate side effects by describing what the program must accomplish in terms of the problem domain, rather than describe how to accomplish it as a sequence of the programming language primitives (the how being left up to the language's implementation). This is in contrast with imperative programming, which implements algorithms in explicit steps.
+
+## Referencial links in markdown
+
+```
+[Google Link][1] [Yahoo link][2]
+
+[1]: https://google.com "Google - I am hovering text"
+
+[2]: https://yahoo.com "Yahoo - I am hovering text"
+
+# Above code will produce below html-
+<a href="https://google.com" title="Google - I am hovering text">Google Link</a>
+<a href="https://yahoo.com" title="Yahoo - I am hovering text">Yahoo Link</a>
+```
+
 ## Dependency injection === highorder function
 
 The very first example in below article that accepts a function as a parameter will serve as depedency injection there. Simple, yah!
