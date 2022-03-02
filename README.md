@@ -185,7 +185,15 @@ commit0=4b825dc642cb6eb9a060e54bf8d69288fbee4904 # THIS LINE IS NOT SHOWN BUT IS
 
 
 ######## DIFF SYNTAX ########
-git diff sourceCommit targetCommit
+git diff sourceCommit [targetCommit=HEAD]
+
+
+# GIT EXAMPLE 0:
+git diff commit4
+# Shows changed made AFTER commit4 state.
+# this can be done otherwise
+git diff commit4 commmit5
+
 
 # GIT EXAMPLE 1:
 git diff commitId1 commitId2
