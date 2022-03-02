@@ -36,6 +36,7 @@ gnuplot -p -e 'set boxwidth 0.5; plot sin(x)'
 # My quick example:
 gnuplot -p -e 'plot "cars.dat" with linespoints'
 gnuplot -p -e 'plot "cars.dat" using 1:2 with linespoints, "cars.dat" using 1:3 with linespoints'
+# Generated graph from below command is in the end of the page
 gnuplot -p -e 'set multiplot; set size 1,0.5; set origin 0.0,0.5; plot "cars.dat" using 1:2 with linespoints title "Sales Report"; set origin 0.0,0.0; plot "cars.dat" using 1:3 with linespoints title "Growth Report"; unset multiplot'
 # ^^^^^^^  I am generating two graphs in completely different, you can print
 # multiple graphs on the very same axis by simpy putting separating all
@@ -286,3 +287,5 @@ set arrow from 0.0028,250 to 0.003,280
 
 
 ```
+
+![](./my_cars_data_visualized.png)
