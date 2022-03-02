@@ -37,6 +37,17 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## expressions are `awiated`
+
+```
+let a = async () => ({data: "cool"})
+console.log(await a().data) // Output: <nothing>
+// The reason it doesn't work bcoz we're trying to await the data property of the promise returned by `a()`.
+
+console.log((await a()).data) // Output: 'cool'
+// works good enough!
+```
+
 ## `for await` syntax in js
 
 ```js
