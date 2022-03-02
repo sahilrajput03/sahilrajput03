@@ -49,7 +49,6 @@ Declarative: In computer science, declarative programming is a programming parad
 [Google Link][1] [Yahoo link][2]
 
 [1]: https://google.com "Google - I am hovering text"
-
 [2]: https://yahoo.com "Yahoo - I am hovering text"
 
 # Above code will produce below html-
