@@ -41,17 +41,10 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ```
 alias lsg='ls -a | grep -i'
-# ls outputs 
-ls
-absolute-path-cra                  cssDesignTrail              eslint-node               learning-bash        my-sst-app                       python-30-days-weekends     web-rtc
-authentication-authorization       custom-NODE_PATH            github-actions-node-demo  learning-firebase    my-vanilla-minimal-snowpack-app  react-express
-benchmark-cloud.mongodb.com        deno-aleph-react-framework  http-requests             learning-handlebars  node-modules-concept             snowpack-react-boilerplate
-cookies-and-requests-with-express  deno-starter                js-object-proxy           learning-php         npm-run-all-example              test-quokkajs-with-express
-create-app-jakousa                 ecma-wonder-in-node         json_server               live-js-browser      parcel-bundler-vanilla-js        watch-multiple-parcel
-
+# Usage:
 lsg json
-json_server
-
+lsg -E '*json'
+# NOTE: quotes are important.( double quotes work as well).
 ```
 
 ## cool things about kentcdodds that i didn't know
