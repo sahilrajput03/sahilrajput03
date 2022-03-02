@@ -1,3 +1,124 @@
-# Lecture 4
+# Lecture 4 - Data Wrangling
 
+```bash
+# Copy file/folder from remote to current folder in host pc
+scp tsp:copy.png .
+
+# Read number of lines a file
+wc -l
+
+######### Using sed, its used for string substitution
+# You can pipe a fiel to sed
+cat my_file | sed -E '...'
+# It works!
+
+# Similar example from johnhoo
+cat ssh.log | sed 's/.*Disconnected from//' | head -n5
+
+echo aba | sed 's/[ab]//'
+# ba
+
+echo bba | sed 's/[ab]//'
+# ba
+
+echo bba | sed 's/[ab]//g'
+# <no_output>
+
+echo bbac | sed 's/[ab]//g'
+# c
+
+echo bcbzac | sed 's/[ab]//g'
+# czc
+
+#### Here ( and ) are treated as literals
+echo "abc(ab)a" | sed 's/(ab)//g'
+# abca
+
+#### Here ( and ) are treated as meta characters(that helps to define
+groups in regex)
+echo "abc(ab)a" | sed -E 's/(ab)//g'
+# c()a
+
+
+#### Here again ( and ) are treated as meta characters (not literals)
+echo abcaba | sed -E 's/(ab)*//g'
+# ca
+
+
+echo abcababc | sed -E 's/(ab|bc)*//g'
+# cc
+
+echo abcabbc | sed -E 's/(ab|bc)*//g'
+# c
+
+```
+
+more stuff on regex
+
+```bash
+Best source to learn regext is: https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+simple smooth lovely!
+
+
+
+-> What is .* in simple terms?
+It means literally no text or any text. Yo!!
+
+
+
+-> With the use of parentheses and question mark we can do like:
+(someText)?
+This means "zero or one someText".
+
+
+
+
+^ matches beginning of line and $ matches end of the line.
+
+
+
+ /[0-9]{3}/.test('my 789 text') // true coz we are mathing three instance of a digit, yo!
+
+
+-> What is + used for ?
+n+ Matches any string that contains at least one n
+
+
+If you need to match ( or [ or { you must escape them using \ when you are using -E option with sed.
+
+
+-> How , works in {} operator ?
+!st case: 
+[0-9]{2}
+
+and 
+
+2nd case:
+[0-9]{2,}
+
+against: asdf2342asdf
+
+text matches like :
+
+1. 23 only.
+2. it matches 2342 coz we have like {2,} which means match atleast 2or more. Yikes!
+
+```
+
+**Read data from pipe via stdin in R compiler**
+
+```
+# The point is that you can pipe ouput from other command to R compiler
+cat file | R --slave -e 'x <- scan(file="stdin", quiet=TRUE); summary(x)'
+```
+
+**Learning R language**
+
+Src: https://www.r-project.org/about.html
+
+```
+
+
+
+```
 

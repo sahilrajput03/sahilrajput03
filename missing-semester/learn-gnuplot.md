@@ -22,10 +22,28 @@ with help plot using or help plot smooth .
 # Documentation: https://people.duke.edu/~hpgavin/gnuplot.html
 # Quick reference pdf (LGTM): http://www.gnuplot.info/docs_4.0/gpcard.pdf
 
-# Launch a gnuplot shell:
+
+
+# Run commands directly via arguments to gnuplot, -p option means
+persists graph window, -e allows to pass command list.
+gnuplot -p -e 'plot sin(x)'
+# BAD THING ABOUT ^^^ THIS WAY IS YOU GET NEW WINDOW EACH TIME YOU EXECUTE ABOVE
+# COMMAND SO IT ISN'T GOOD FOR TESTING BASIS. ~SAHIL
+
+# MORE:: Using set command inclusively with gnuplot cli:
+gnuplot -p -e 'set boxwidth 0.5; plot sin(x)'
+
+# My quick example:
+gnuplot -p -e 'plot "cars.dat" with linespoints'
+gnuplot -p -e 'plot "cars.dat" using 1:2 with linespoints, "cars.dat" using 1:3 with linespoints'
+gnuplot -p -e 'set multiplot; set size 1,0.5; set origin 0.0,0.5; plot "cars.dat" using 1:2 with linespoints title "Sales Report"; set origin 0.0,0.0; plot "cars.dat" using 1:3 with linespoints title "Growth Report"; unset multiplot'
+# ^^^^^^^  I am generating two graphs in completely different, you can print
+# multiple graphs on the very same axis by simpy putting separating all
+# plot command by a comma (,)
+
+
+# Launches a gnuplot shell ( AMAZING FOR TESTING- IMO SAHIL):
 gnuplot
-
-
 
 
 
@@ -54,11 +72,6 @@ plot sin(x), tan(x)
 clear
 
 
-# Run commands directly via arguments to gnuplot, -p option means
-persists graph window, -e allows to pass command list.
-gnuplot -p -e 'plot sin(x)'
-# BAD THING ABOUT ^^^ THIS WAY IS YOU GET NEW WINDOW EACH TIME YOU EXECUTE ABOVE
-# COMMAND SO IT ISN'T GOOD FOR TESTING BASIS. ~SAHIL
 
 
 
@@ -88,7 +101,7 @@ plot "force.dat" using 1:2 title 'Column' with lines, "force.dat" u 1:3 t 'Beam'
 ## Plots may be displayed in one of eight styles:
 ## lines
 ## points,
-## linespoints (LGTM ~sahil)
+## linespoints (#####LGTM ~sahil)
 ## impulses
 ## dots
 ## steps
@@ -98,7 +111,7 @@ plot "force.dat" using 1:2 title 'Column' with lines, "force.dat" u 1:3 t 'Beam'
 ## xerrorbars
 ## yerrorbars
 ## xyerrorbars
-## boxes
+## boxes (#########LGTM ~sahil, plots histograms, yo!)
 ## boxerrorbars
 ## boxxyerrorbars
 ## financebars
