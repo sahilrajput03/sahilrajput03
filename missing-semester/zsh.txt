@@ -1,0 +1,21 @@
+You are seeing this message because you have no zsh startup files
+(the files .zshenv, .zprofile, .zshrc, .zlogin in the directory
+~).  This function can help you with a few settings that should
+make your use of the shell easier.
+
+# FYI: 
+echo $SHELL
+/bin/bash
+
+sudo chsh -s /usr/bin/zsh
+sudo chsh -s /bin/bash
+
+# Installing zsh via:
+https://wiki.archlinux.org/title/zsh
+https://www.youtube.com/watch?v=A6xWiqOpulI
+
+# Way to source .sh files in fish ??
+# https://superuser.com/a/1235985/776589 THIS CLAIMS TO BE DOING WORK BUT IT ISN'T IMPORTING BASH FUNCTIONS PROPERLY AT ALL.
+# arch install pkg: https://aur.archlinux.org/packages/bass-fish
+#
+# FYI: zsh source my function file easily so taht means zsh works good with bash syntax, but it threw some error when I tried to source .bashrc file.
