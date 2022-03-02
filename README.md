@@ -43,6 +43,14 @@ Imperative: In computer science, imperative programming is a programming paradig
 
 Declarative: In computer science, declarative programming is a programming paradigm—a style of building the structure and elements of computer programs—that expresses the logic of a computation without describing its control flow. Many languages that apply this style attempt to minimize or eliminate side effects by describing what the program must accomplish in terms of the problem domain, rather than describe how to accomplish it as a sequence of the programming language primitives (the how being left up to the language's implementation). This is in contrast with imperative programming, which implements algorithms in explicit steps.
 
+## cool things about kentcdodds that i didn't know
+
+1. He is 11th child of his parents.
+2. He listens to podcasts at 3x speed, i.e., he started listening at 1.5x and eventually he came to this point.
+3. His most important philosophy of teaching is caring about retention! What other people learn when he teach is most important, so students don't forget what he taught.
+4. Anybody can record a question on his website kentcdodds.com
+5. Listen to kents podcasts on his https://kentcdodds.com/chats/04.
+
 ## Referencial links in markdown
 
 ```
