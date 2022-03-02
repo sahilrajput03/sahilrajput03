@@ -37,6 +37,15 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## get 1 day or some weeks ago git diff
+
+Source: https://stackoverflow.com/a/9658178/10012446
+
+```
+git diff 'HEAD@{1 day ago}'
+git diff 'HEAD@{3 weeks ago}'
+```
+
 ## cool alias
 
 ```
