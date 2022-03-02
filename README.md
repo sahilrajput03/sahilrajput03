@@ -37,6 +37,12 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## Dependency injection === highorder function
+
+The very first example in below article that accepts a function as a parameter will serve as depedency injection there. Simple, yah!
+
+Source: https://blog.openreplay.com/dependency-injection-in-node-js-higher-order-routing-with-express
+
 ## expressions are `awiated`
 
 ```
