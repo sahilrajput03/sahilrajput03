@@ -42,7 +42,10 @@ Find me on terminal via `npx sahilrajput03` command.
 Source: https://stackoverflow.com/a/9658178/10012446
 
 ```
+# Get diff for only today
 git diff 'HEAD@{1 day ago}'
+
+# Get diff from 3weeks back
 git diff 'HEAD@{3 weeks ago}'
 ```
 
