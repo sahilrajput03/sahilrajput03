@@ -65,6 +65,7 @@ You can change these settings manually via below command as well.
 
 ## Shortcuts:
 
+- b/B to open a quickmark/open quickmark in new tab.
 - shift+b to open quickmarks menu
 - shift+j/k to switch to tabs down/up
 - gD to detach current tab and open in new window
