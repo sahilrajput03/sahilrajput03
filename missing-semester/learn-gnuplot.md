@@ -2,6 +2,8 @@
 
 why ? Ans. Just like that.
 
+![](./my_cars_data_visualized.png)
+
 You can use plot and splot keywordw in gnuplot shell. `plot` and `splot` are the primary commands in Gnuplot. They plot functions
 and data in many many ways. plot is used to plot 2-d functions and data,
 while splot plots 3-d surfaces and data.
@@ -287,5 +289,3 @@ set arrow from 0.0028,250 to 0.003,280
 
 
 ```
-
-![](./my_cars_data_visualized.png)
