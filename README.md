@@ -37,6 +37,23 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?**  *Ans. _A perfect solution_: https://calendly.com/app/signup*
 
+## cool alias
+
+```
+alias lsg='ls -a | grep -i'
+# ls outputs 
+ls
+absolute-path-cra                  cssDesignTrail              eslint-node               learning-bash        my-sst-app                       python-30-days-weekends     web-rtc
+authentication-authorization       custom-NODE_PATH            github-actions-node-demo  learning-firebase    my-vanilla-minimal-snowpack-app  react-express
+benchmark-cloud.mongodb.com        deno-aleph-react-framework  http-requests             learning-handlebars  node-modules-concept             snowpack-react-boilerplate
+cookies-and-requests-with-express  deno-starter                js-object-proxy           learning-php         npm-run-all-example              test-quokkajs-with-express
+create-app-jakousa                 ecma-wonder-in-node         json_server               live-js-browser      parcel-bundler-vanilla-js        watch-multiple-parcel
+
+lsg json
+json_server
+
+```
+
 ## cool things about kentcdodds that i didn't know
 
 1. He is 11th child of his parents.
