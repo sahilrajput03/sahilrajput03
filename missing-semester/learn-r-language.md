@@ -12,3 +12,17 @@ One of R’s strengths is the ease with which well-designed publication-quality 
 
 R is available as Free Software under the terms of the Free Software Foundation’s GNU General Public License in source code form. It compiles and runs on a wide variety of UNIX platforms and similar systems (including FreeBSD and Linux), Windows and MacOS.
 ```
+
+example used by johnhoo in Datawrangling:
+
+```bash
+cat file | R --slave -e 'x <- scan(file="stdin", quiet=TRUE); summary(x)'
+# FYI: It prints content like: Min, 1st Qu., Median, Mean, 3rd Qu. and Max.
+```
+
+**Following from https://cran.r-project.org/doc/manuals/r-release/R-intro.html**
+
+```
+
+
+```

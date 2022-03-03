@@ -7,6 +7,15 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## insatll `R` language compiler
+
+```
+sudo pacman -S r
+
+# Usage
+R
+```
+
 ## install `st`
 
 ```
