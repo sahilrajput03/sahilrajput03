@@ -46,6 +46,18 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?** _Ans. *A perfect solution*: https://calendly.com/app/signup_
 
+## get 1 day or some weeks ago git diff
+
+Source: https://stackoverflow.com/a/9658178/10012446
+
+```
+# Get diff for only today
+git diff 'HEAD@{1 day ago}'
+
+# Get diff from 3weeks back
+git diff 'HEAD@{3 weeks ago}'
+```
+
 ## cool alias
 
 ```
@@ -191,7 +203,15 @@ commit0=4b825dc642cb6eb9a060e54bf8d69288fbee4904 # THIS LINE IS NOT SHOWN BUT IS
 
 
 ######## DIFF SYNTAX ########
-git diff sourceCommit targetCommit
+git diff sourceCommit [targetCommit=HEAD]
+
+
+# GIT EXAMPLE 0:
+git diff commit4
+# Shows changed made AFTER commit4 state.
+# this can be done otherwise
+git diff commit4 commmit5
+
 
 # GIT EXAMPLE 1:
 git diff commitId1 commitId2
