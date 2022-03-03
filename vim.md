@@ -10,6 +10,12 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## You can toggle the cursor when you are in visual selection mode, magic..
+
+Simply press ***o*** and your cursor will be toggled to other end when you are in visual mode.
+
+Source: https://superuser.com/a/599726/776589
+
 ## Using vim from `missing-semester` - Lecture 3
 
 ```bash
