@@ -1,8 +1,11 @@
 # Learning Figma
 
-**Courses, official figma Design lessons** @ https://www.figma.com/resources/learn-design/lessons/
+**Courses:**
 
-You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
+- Learn Design: https://www.figma.com/resources/learn-design/lessons/
+
+**Tip**
+- You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
 
 ## Exporting elements
 
