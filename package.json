@@ -4,6 +4,7 @@
   "description": "```bash echo Hello world! > /dev/null cat /dev/null ```",
   "main": "index.js",
   "scripts": {
+	  "version": "auto-changelog -p && git add CHANGELOG.md",
     "cl": "auto-changelog -p --commit-limit false"
   },
   "repository": {
