@@ -1,5 +1,7 @@
 # Learning Figma
 
+You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
+
 ## Exporting elements
 
 - **Right click an element and select "copy as png" option to export/copy any particular object in figma. TIP: You can use `paste_png` in linux cli to paste the copied png image then.**
