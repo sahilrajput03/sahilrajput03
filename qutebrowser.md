@@ -1,5 +1,7 @@
 # qutebrowser is awesome
 
+*DOWNSIDES*: Figma doesn't work at all.(Warning: check if it started working, noted: 4 March, 22)
+
 Best way to open qutebrowser via dmenu: `qu` works excellent!
 
 My config file for qutebrowser: https://github.com/sahilrajput03/config/tree/main/.config/qutebrowser
