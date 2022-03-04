@@ -17,6 +17,27 @@
   - **_Tablet_** you can select from _Surface Pro 8_, _iPad mini 8.3_, _iPad Pro 11"_ or _iPad Pro 12.9"_
   - **_Desktop_** you can select from _MacBook Pro 14"_, _MacBook Pro 16"_, _Desktop_ or _iMac_
   - **_Presentation_** you can select from _Slide 16:9_ (1920x1080) or _Slide 4:3_ (1024x768)
+- ***Fill***:
+  - We can add multiple layers of ***Fill*** in a shape by clicking the `+` sign on next to ***Fill*** menu under _Design_ tab.
+  - We can choose from fill types as _Solid_, _Linear_, _Radial_, _Angular_, _Diamond_ or _Image_.
+  - Tip: In _Liner_ type, you have control of two types of opacity i.e., transparency of each color you have, and second is the overall transparency of the whole(you can set this by setting value in the text with % sign before the eye icon).
+  - Tip: We can add multiple solid, gradient or radial fills here, that could be interesting though.
+- Layers? In the left bar i.e., **_Layers_** menu, object on the very top will show up on the very top in the cavase as well. THATS ALL!
+- When you select text tool, always drag and draw the text box first so your text reflow is bounded to that area only.
+- Typography choice - Font: Roboto, Font Size: 72, Font style: Black (or say Bold, although Black is little better IMO)
+- You can move around using hand tool but the fastest way is to use hold <spacebar> and now you can drag using mouse to move the page for the time.
+- You can align a group of items together by selecting (more than one elements) and choosing one of the styles of bars that are showing up just below the **_Design menu_** on the right bar.
+- **_Lock_** layer: When you want that you don't accidentally select and move any element (say many big entities on the canvas), you can lock them by clicking the lock icon in the left bar under **_Layers_** menu.
+- `Shift` key can be used to select multiple elements, tip: say when dran area with move tool you get bunch of elements selected and then you can use `shift` key to toggle unselect any element as well. WhoaaAA!!
+- You can **_group_** a number of entities together by selecting them (more than one elements) and pressing `ctrl+g` and now you can drag them as a single entity i.e., group only.
+- You can **_ungroup_** a group by selecting it and pressing `ctrl+shift+g`.
+- You can use copy cursor to create copy of an element by pressing and holding `alt` key, you can visually see the cursor changing to copy cursor(two cursors) as well. Thats handy way to check with the functionality though.
+- You can double click the text box **_edge_** to shrink the text box to the minimum it can go!
+- You can rotate any entity by selecting it and placing the cursor outside the entity till you get the nice arc shaped cursor, and then you can click and drag to rotate the entity as per wish.
+- To make a box with border only (i.e, no fill) then you can simply delete all your **_Fill_** layers from the right bar under **_Fill_** menu and add a stroke instead of your choice for your shape.
+- 
+  
+  
 
 **Tip**
 - You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
