@@ -1,10 +1,10 @@
 {
   "name": "sahilrajput03",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "```bash echo Hello world! > /dev/null cat /dev/null ```",
   "main": "index.js",
   "scripts": {
-	  "version": "auto-changelog -p && git add CHANGELOG.md",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
     "cl": "auto-changelog -p --commit-limit false"
   },
   "repository": {
