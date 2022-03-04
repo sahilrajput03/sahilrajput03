@@ -63,7 +63,7 @@ Tip: You can use custom template as [shown here](https://github.com/cookpete/aut
 Add below to your `package.json` file and run `npm run changelog` to generate a `CHANGELOG.md` file. It simply generates list of all commit to the target file simply date wise.
 
 ```json
-    "changelog": "auto-changelog -p"
+    "changelog": "auto-changelog -p --commit-limit false"
 ```
 
 FYI (using -p is important else you won't get commits in your `CHANGELOG.md` file):   `-p, --package                       # use version from package.json as latest release`
