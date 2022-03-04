@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sahilrajput03/sahilrajput03/issues"
   },
-  "homepage": "https://github.com/sahilrajput03/sahilrajput03#readme"
+  "homepage": "https://github.com/sahilrajput03/sahilrajput03#readme",
+  "dependencies": {
+    "auto-changelog": "^2.4.0"
+  }
 }
