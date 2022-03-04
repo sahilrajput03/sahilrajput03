@@ -11,13 +11,14 @@
   -  [Getting started with Figma: A beginner's guide](https://www.youtube.com/watch?v=eZJOSK4gXl4)
   -  He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
 
-1st week of march:
-- Select frame tool (hotkey `F`) and you can now get a base frame of any device say for:
+**1st week of march**:
+
+- Select **_frame tool_** (hotkey `F`) and you can now get a base frame of any device say for:
   - **_Phones_** you can select from _Android Large_, _Android Small_, _iPhone8_ (8 Plus, SE, 13mini, 13, 13 Pro, 13 Pro Max)
   - **_Tablet_** you can select from _Surface Pro 8_, _iPad mini 8.3_, _iPad Pro 11"_ or _iPad Pro 12.9"_
   - **_Desktop_** you can select from _MacBook Pro 14"_, _MacBook Pro 16"_, _Desktop_ or _iMac_
   - **_Presentation_** you can select from _Slide 16:9_ (1920x1080) or _Slide 4:3_ (1024x768)
-- ***Fill***:
+- **Fill**:
   - We can add multiple layers of ***Fill*** in a shape by clicking the `+` sign on next to ***Fill*** menu under _Design_ tab.
   - We can choose from fill types as _Solid_, _Linear_, _Radial_, _Angular_, _Diamond_ or _Image_.
   - Tip: In _Liner_ type, you have control of two types of opacity i.e., transparency of each color you have, and second is the overall transparency of the whole(you can set this by setting value in the text with % sign before the eye icon).
@@ -39,8 +40,13 @@
   
   
 
-**Tip**
+## Zoom
+
 - You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
+- **You can invert the zoom scroll direction(which is better IMO) by** - *Preferences > Invert zoom directions*.
+- **You can set the zoom level in figma from the right top corner.**
+- **Zoom**: Hold down `ctrl` key to enable zoom with mouse scroll. NOTE: pgdown scroll causes to zoom out, **pageup** scroll causes to **`ZOOM-IN`** in the canvas.
+- **Zoom to select region**: First press and hold `z` and then hold mouse make region to zoom into.
 
 ## Exporting elements
 
@@ -57,11 +63,7 @@ While holding and dragging edges/corner_squares of the element, you can -
 
 **Resources for images, gifs, svgs ?**: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
-**You can invert the zoom scroll direction(which is better IMO) by** - *Preferences > Invert zoom directions*.
-
 **Making a obs camera mark [here](https://youtu.be/_sqLa0LTloM).**
-
-**You can set the zoom level in figma from the right top corner.**
 
 **You can save a complete figma file locally via `File > Save local copy...` option easily.**
 
@@ -84,16 +86,12 @@ _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/
 **Show help shortcuts for tools**: `Ctrl+shift+?` (or use the bottom right `?` button and select `Keyboard Shortcuts`) and switch to `Tools` tab to view the tools shortcuts. [List of all hotkeys](https://shortcuts.design/tools/toolspage-figma/).
 
 **Hand tool - BEST WAY TO MOVE AROUND PAGE**: Hold down `space` key to activate hand tool temporarily and move the page with mouse simply.
-
-**Zoom**: Hold down `ctrl` key to enable zoom with mouse scroll. NOTE: pgdown scroll causes to zoom out, **pageup** scroll causes to **`ZOOM-IN`** in the canvas.
-
+  
 **Move objects horizontally or vertically**: Hold down `shift` key and drag them.
 
 **PROPORTIONALY SCALING:: Create squares or perfect circles or aligned line or aligned arros using** _rectange tool_ or _ellipse tool_ or _line_ or _arrow_: Choose *rectange tool* with `r` or *ellipse* with `o` and then hold down `shift` key and now you can draw _square_ or _perfect_ circle now.
 
 **Set opacity of any object**: Select object and press `1` for 10%, `2` for 20% so on.. and `0` for 100%. TIP: To set opacity to 0%, press `00`
-
-**Zoom to select region**: First press and hold `z` and then hold mouse make region to zoom into.
 
 **Copy selected object/objects as PNG**: `Ctrl+shift+c`
 
