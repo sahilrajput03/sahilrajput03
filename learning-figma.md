@@ -1,9 +1,6 @@
 # Learning Figma
 
-Resources for colors, images, gifs ?
-
-- https://undraw.co/
-- 
+**Resources for images, gifs, svgs ?**: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
 **You can invert the zoom scroll direction(which is better IMO) by** - *Preferences > Invert zoom directions*.
 
@@ -17,7 +14,7 @@ Resources for colors, images, gifs ?
 
 _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/P1DNXwjD4TcDV6pNXqvoOn/Learn-prototyping?node-id=4%3A55)
 
-**You can crop the object sizes by holding `alt` key, and using edge points to crop proportionally.**
+**You can crop the object sizes by holding `alt` key, and using edge points to crop proportioal to ?????
 
 **Pages concept**: It is an amazing concept to keep designs isloated in each page, thus you can do a large number of separate design works in a single file of figma. Yo!
 
