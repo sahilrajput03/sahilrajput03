@@ -32,20 +32,26 @@
 - Typography choice - Font: Roboto, Font Size: 72, Font style: Black (or say Bold, although Black is little better IMO)
 - You can move around using hand tool but the fastest way is to use hold <spacebar> and now you can drag using mouse to move the page for the time.
 - You can align a group of items together by selecting (more than one elements) and choosing one of the styles of bars that are showing up just below the **_Design menu_** on the right bar.
-- **_Lock_** layer: When you want that you don't accidentally select and move any element (say many big entities on the canvas), you can lock them by clicking the lock icon in the left bar under **_Layers_** menu.
+- **_Lock_** layer: When you want that you don't accidentally select and move any element (say many big entities on the canvas), you can lock them by clicking the lock icon (OR `ctrl+shift+l`) in the left bar under **_Layers_** menu.
 - `Shift` key can be used to select multiple elements, tip: say when dran area with move tool you get bunch of elements selected and then you can use `shift` key to toggle unselect any element as well. WhoaaAA!!
 - You can **_group_** a number of entities together by selecting them (more than one elements) and pressing `ctrl+g` and now you can drag them as a single entity i.e., group only.
+- WHEN GROUPED, you can still individually alter each elements properties, so need to ungroup if you want to play with any individual entity inside it.
 - You can **_ungroup_** a group by selecting it and pressing `ctrl+shift+g`.
 - You can use copy cursor to create copy of an element by pressing and holding `alt` key, you can visually see the cursor changing to copy cursor(two cursors) as well. Thats handy way to check with the functionality though.
 - You can double click the text box **_edge_** to shrink the text box to the minimum it can go!
 - You can rotate any entity by selecting it and placing the cursor outside the entity till you get the nice arc shaped cursor, and then you can click and drag to rotate the entity as per wish.
 - To make a box with border only (i.e, no fill) then you can simply delete all your **_Fill_** layers from the right bar under **_Fill_** menu and add a stroke instead of your choice for your shape.
 - Figma tracks all the colors that you have used so far in your file, you can see them under **_Document colors_** in all your color pickers (i.e., say, Fill or Stroke or others).
-- You can move any entity up/down in the z-index by using `ctrl+[` or `ctrl+]`, to see the effects notice changes in the left bar under the **_Layers_** menu.
+- You can move any entity up/down in the z-index by using `ctrl+[` (move backward/downward) or `ctrl+]` (move forward/upward), to see the effects notice changes in the left bar under the **_Layers_** menu.
+- SUPER:TIP - You can use `ctrl+shift+[` (move to bottom) or `ctrl+shift+]` (move to top) to move. YO! 
 - You can choose the _Letter Case_ of text box (i.e., say if you want text to be uppercase only), you can do that by selecting your text box then navigating to **_Text_** menu then clicking the `...`  button (in the end of the menu) and under the **_Letter Case_** section we can choose our required case.
 - To make sharp corners of a rectangle to rounded, you can do that by clicking and dragging any of the tiny blue circles inside of each corner of the rectangle shape. WARN: In case you don't see the tiny blue circles around each of the corner, then probably you are not zoomed enough OR possibly your cursor is not inside of the rectange. ~thanks to kevin.
 - While you need to align multiple entities, you can choose to _Align left/right/top/bottom_ **_OR_** _Align horizontal/vertical centers_.
-  
+- When you want to use any image as a fill for the text, you can right click the text entity and right-click to choose **_Use as Mask_ (`ctrl+alt+m`)** option. Now you can put any image by dragging the image over it and it'll simply fill it. You can go to **_Fill_** menu in the right bar and choose the Exposure, Contrast, Saturation, Temperature, Tint, Highlight of image.
+- When you need to scale (make bigger) multiple text blocks so that your your font size also scales accordingly, you must use **Scale tool** i.e, (hotkey: `k`) {instead of move tool} and then you may click and drag the corner boxes to scale.
+- MAGIC: While you are in between of dragging your shapes when you're drawing them you press and hold hold `<space>` to actually move the shape without going distoring the shape that you have at the moment and after deciding the position you may rescale the shape as well. Magic isn't it?.
+- Color picker: You can select any entity(shape or text) and then press `i` to launch the color picker on the fly to select the entity's fill color.
+- 
 
 ## Zoom
 
