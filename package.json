@@ -4,7 +4,7 @@
   "description": "```bash echo Hello world! > /dev/null cat /dev/null ```",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cl": "auto-changelog -p"
   },
   "repository": {
     "type": "git",
