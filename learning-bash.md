@@ -369,6 +369,10 @@ $ man grep
 #              even those that contain newline characters.
 #
 
+# Prints all the lines with text numbers(-n flag) in the file `myFile.txt`
+grep -n 'myText' myFile.txt
+
+
 # Print all the lines of all the files that have text sahil in them in cwd recursively.
 grep -r 'sahil' .
 
