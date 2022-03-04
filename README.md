@@ -46,6 +46,20 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?** _Ans. *A perfect solution*: https://calendly.com/app/signup_
 
+## things i kept doing doing..
+
+I have a habit of looking for the ***best of best*** of the articles, courses, blogs, books, materials that I feel sometimes is a time taking process and I don't follow or kind of forget like the official way of doing things me or anybody else must be doing, i.e., follow official documentation of softwares, libraries, tools, standards, ie., OFFICIAL documentation. One big mistake: "Not able to find the real production ready free template of coreui in previous job is this only".
+
+## using auto-changelog
+
+Source: https://www.npmjs.com/package/auto-changelog
+
+Add below to your `package.json` file and run `npm run changelog` to generate a `CHANGELOG.md` file. It simply generates list of all commit to the target file simply date wise.
+
+```json
+    "changelog": "auto-changelog -p"
+```
+
 ## monkey_patching ( or _hot fixes_) ?
 
 Source: https://en.wikipedia.org/wiki/Monkey_patch
