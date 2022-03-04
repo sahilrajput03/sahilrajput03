@@ -1,6 +1,6 @@
 {
   "name": "sahilrajput03",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "```bash echo Hello world! > /dev/null cat /dev/null ```",
   "main": "index.js",
   "scripts": {
