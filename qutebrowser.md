@@ -68,7 +68,8 @@ You can change these settings manually via below command as well.
 - f/F to get hintlink to open in current/new tab
 - b/B to open a quickmark in current/new tab
 - o/O to open a link in current/new tab
- 
+- TIP: O<Enter> will new tab with home page
+- ^^^^ COOL ^^^^
 - +/-/= to zoom-in, zoom-out, 100% in normal mode [Src](https://qutebrowser.org/doc/help/commands.html)
 - shift+b to open quickmarks menu
 - shift+j/k to switch to tabs down/up
