@@ -61,6 +61,13 @@ Add below to your `package.json` file and run `npm run changelog` to generate a 
 ```
 FYI:   `-p, --package                       # use version from package.json as latest release`
 
+FYI: If you plan to execute it on npm version script, then you do it like (official docs of auto-changelog):
+
+```json
+  "scripts": {
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  }
+```
 
 ## monkey_patching ( or _hot fixes_) ?
 
