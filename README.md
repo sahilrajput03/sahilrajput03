@@ -46,6 +46,20 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **Schedule your meets with anybody ?** _Ans. *A perfect solution*: https://calendly.com/app/signup_
 
+## monkey_patching ( or _hot fixes_) ?
+
+Source: https://en.wikipedia.org/wiki/Monkey_patch
+
+A monkey patch is a way for a program to extend or modify supporting system software locally (affecting only the running instance of the program).
+
+*Etymology*
+
+The term monkey patch seems to have come from an earlier term, guerrilla patch, which referred to changing code sneakily – and possibly incompatibly with other such patches – at runtime. The word guerrilla, homophonous with gorilla (or nearly so), became monkey, possibly to make the patch sound less intimidating.[1]
+
+An alternative etymology is that it refers to “monkeying about” with the code (messing with it).
+
+Despite the name's suggestion, the "monkey patch" is sometimes the official method of extending a program. For example, web browsers such as Firefox and Internet Explorer used to encourage this, although modern browsers (including Firefox) now have an official extensions system.
+
 ## get 1 day or some weeks ago git diff
 
 Source: https://stackoverflow.com/a/9658178/10012446
