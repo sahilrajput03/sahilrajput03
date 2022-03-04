@@ -1,6 +1,6 @@
 # Learning Figma
 
-Exporting elements
+## Exporting elements
 
 - **Right click an element and select "copy as png" option to export/copy any particular object in figma. TIP: You can use `paste_png` in linux cli to paste the copied png image then.**
 - Select an element and go to `Design tab` in the right bar of the desktop and select `Export` option to be able to export it into one of _png_, _jpg_, _svg_ and _pdf_ format.
