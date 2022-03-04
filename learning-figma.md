@@ -4,7 +4,12 @@
 
 - Learn Design (100% theory): https://www.figma.com/resources/learn-design/lessons/
 - Figma best practises: https://www.figma.com/best-practices/
-- 
+
+
+**Youtube**
+- Kevin:
+  -  [Getting started with Figma: A beginner's guide](https://www.youtube.com/watch?v=eZJOSK4gXl4)
+  -  
 
 **Tip**
 - You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
