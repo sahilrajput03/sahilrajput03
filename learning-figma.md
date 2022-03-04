@@ -2,7 +2,7 @@
 
 **Courses:**
 
-- Learn Design: https://www.figma.com/resources/learn-design/lessons/
+- Learn Design (100% theory): https://www.figma.com/resources/learn-design/lessons/
 - Figma best practises: https://www.figma.com/best-practices/
 - 
 
