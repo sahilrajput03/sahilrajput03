@@ -1,5 +1,10 @@
 # Learning Figma
 
+Exporting elements
+
+- **Right click an element and select "copy as png" option to export/copy any particular object in figma. TIP: You can use `paste_png` in linux cli to paste the copied png image then.**
+- Select an element and go to `Design tab` in the right bar of the desktop and select `Export` option to be able to export in `png`, `jpg`, `svg`, `pdf` formats.
+
 ## Resize
 
 While holding and dragging edge/corner squares of the element, you can -
@@ -17,8 +22,6 @@ While holding and dragging edge/corner squares of the element, you can -
 **You can set the zoom level in figma from the right top corner.**
 
 **You can save a complete figma file locally via `File > Save local copy...` option easily.**
-
-**Using copy as png is the only option to export/copy any particular object in figma. TIP: You can use `paste_png` in linux cli to paste the copied png image then.**
 
 _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/P1DNXwjD4TcDV6pNXqvoOn/Learn-prototyping?node-id=4%3A55)
 
