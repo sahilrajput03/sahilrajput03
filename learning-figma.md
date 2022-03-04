@@ -1,5 +1,13 @@
 # Learning Figma
 
+## Resize
+
+While holding and dragging edge/cornder squares of the element, you can -
+
+- **resize freely**: no-modifier
+- **resize keeping aspect-ratio**: `shift`
+- **resize keeping aspect-ratio and STAY in place**: `shift+alt`
+
 **Resources for images, gifs, svgs ?**: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
 **You can invert the zoom scroll direction(which is better IMO) by** - *Preferences > Invert zoom directions*.
