@@ -65,6 +65,8 @@ You can change these settings manually via below command as well.
 
 ## Shortcuts:
 
+- wo to OPENT PROMPT with EMPTY_URL in NEW WINDOW
+- wO to open OPEN PROMPT with CURRENT_URL in NEW WINDOW
 - m to mark current page as a quick mark
 - f/F to get hintlink to open in current/new tab
 - b/B to open a quickmark in current/new tab
