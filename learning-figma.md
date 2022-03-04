@@ -9,7 +9,7 @@
 **Youtube**
 - Kevin:
   -  [Getting started with Figma: A beginner's guide](https://www.youtube.com/watch?v=eZJOSK4gXl4)
-  -  
+  -  He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
 
 **Tip**
 - You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
