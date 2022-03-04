@@ -50,7 +50,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 I have a habit of looking for the ***best of best*** of the articles, courses, blogs, books, materials that I feel sometimes is a time taking process and I don't follow or kind of forget like the official way of doing things me or anybody else must be doing, i.e., follow official documentation of softwares, libraries, tools, standards, ie., OFFICIAL documentation. One big mistake: "Not able to find the real production ready free template of coreui in previous job is this only".
 
-## using auto-changelog
+## using `auto-changelog`
 
 Source: https://www.npmjs.com/package/auto-changelog
 
