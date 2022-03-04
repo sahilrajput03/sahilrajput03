@@ -3,6 +3,8 @@
 **Courses:**
 
 - Learn Design: https://www.figma.com/resources/learn-design/lessons/
+- Figma best practises: https://www.figma.com/best-practices/
+- 
 
 **Tip**
 - You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
