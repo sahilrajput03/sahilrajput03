@@ -65,6 +65,7 @@ You can change these settings manually via below command as well.
 
 ## Shortcuts:
 
+- `:q` to quit browser
 - wo to OPENT PROMPT with EMPTY_URL in NEW WINDOW
 - wO to open OPEN PROMPT with CURRENT_URL in NEW WINDOW
 - m to mark current page as a quick mark
