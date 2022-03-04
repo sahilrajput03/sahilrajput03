@@ -11,6 +11,13 @@
   -  [Getting started with Figma: A beginner's guide](https://www.youtube.com/watch?v=eZJOSK4gXl4)
   -  He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
 
+1st week of march:
+- Select frame tool (hotkey `F`) and you can now get a base frame of any device say for:
+  - **_Phones_** you can select from _Android Large_, _Android Small_, _iPhone8_ (8 Plus, SE, 13mini, 13, 13 Pro, 13 Pro Max)
+  - **_Tablet_** you can select from _Surface Pro 8_, _iPad mini 8.3_, _iPad Pro 11"_ or _iPad Pro 12.9"_
+  - **_Desktop_** you can select from _MacBook Pro 14"_, _MacBook Pro 16"_, _Desktop_ or _iMac_
+  - **_Presentation_** you can select from _Slide 16:9_ (1920x1080) or _Slide 4:3_ (1024x768)
+
 **Tip**
 - You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
 
