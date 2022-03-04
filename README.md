@@ -56,7 +56,7 @@ Source: https://www.npmjs.com/package/auto-changelog
 
 Sample generated: [Click here](https://github.com/coreui/coreui-free-react-admin-template/blob/main/CHANGELOG.md)
 
-Sample for this repository: [Click here](CHANGELOG.md)
+Sample (this repository): [Click here](CHANGELOG.md)
 
 Tip: You can use custom template as [shown here](https://github.com/cookpete/auto-changelog#custom-templates) in docs.
 
@@ -75,6 +75,8 @@ FYI: If you plan to execute it on npm version script, then you do it like (offic
     "version": "auto-changelog -p && git add CHANGELOG.md"
   }
 ```
+
+***HENCE, whenever you run `npm version patch/minor/major`, your `version` script will be run as well. YO***
 
 ## monkey_patching ( or _hot fixes_) ?
 
