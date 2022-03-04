@@ -59,6 +59,8 @@ Add below to your `package.json` file and run `npm run changelog` to generate a 
 ```json
     "changelog": "auto-changelog -p"
 ```
+FYI:   `-p, --package                       # use version from package.json as latest release`
+
 
 ## monkey_patching ( or _hot fixes_) ?
 
