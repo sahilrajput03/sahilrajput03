@@ -1,5 +1,7 @@
 # qutebrowser is awesome
 
+*DOWNSIDES*: Figma doesn't work at all.(Warning: check if it started working, noted: 4 March, 22)
+
 Best way to open qutebrowser via dmenu: `qu` works excellent!
 
 My config file for qutebrowser: https://github.com/sahilrajput03/config/tree/main/.config/qutebrowser
@@ -65,8 +67,16 @@ You can change these settings manually via below command as well.
 
 ## Shortcuts:
 
+- `:q` to quit browser
+- wo to OPENT PROMPT with EMPTY_URL in NEW WINDOW
+- wO to open OPEN PROMPT with CURRENT_URL in NEW WINDOW
+- m to mark current page as a quick mark
+- f/F to get hintlink to open in current/new tab
+- b/B to open a quickmark in current/new tab
+- o/O to open a link in current/new tab
+- TIP: O<Enter> will new tab with home page
+- ^^^^ COOL ^^^^
 - +/-/= to zoom-in, zoom-out, 100% in normal mode [Src](https://qutebrowser.org/doc/help/commands.html)
-- b/B to open a quickmark/open quickmark in new tab
 - shift+b to open quickmarks menu
 - shift+j/k to switch to tabs down/up
 - gD to detach current tab and open in new window
@@ -78,7 +88,6 @@ You can change these settings manually via below command as well.
 - ctrl-h to go to default_page(say home page)
 - ga in normal mode opens a new tab
 - You get a list of shortcuts via g and y (you need to wait for 2 seconds)
-- o in normal mode will open `:open` in command mode
 - ga to open new tab
 - Alt+1,2.., to open tab 1, 2,.. and so on..
 - ctrl+g g in normal mode will open shortcuts

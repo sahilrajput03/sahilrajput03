@@ -1,5 +1,27 @@
 # Learning Figma
 
+**Courses:**
+
+- Learn Design: https://www.figma.com/resources/learn-design/lessons/
+
+**Tip**
+- You can zoom in/out/100% with `+`,`-` and `ctrl+0`.
+
+## Exporting elements
+
+- **Right click an element and select "copy as png" option to export/copy any particular object in figma. TIP: You can use `paste_png` in linux cli to paste the copied png image then.**
+- Select an element and go to `Design tab` in the right bar of the desktop and select `Export` option to be able to export it into one of _png_, _jpg_, _svg_ and _pdf_ format.
+
+## Resize
+
+While holding and dragging edges/corner_squares of the element, you can -
+
+- **resize freely**: no-modifier
+- **resize keeping aspect-ratio**: `shift`
+- **resize keeping aspect-ratio and STAY in place**: `shift+alt`
+
+**Resources for images, gifs, svgs ?**: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
+
 **You can invert the zoom scroll direction(which is better IMO) by** - *Preferences > Invert zoom directions*.
 
 **Making a obs camera mark [here](https://youtu.be/_sqLa0LTloM).**
@@ -8,11 +30,11 @@
 
 **You can save a complete figma file locally via `File > Save local copy...` option easily.**
 
-**Using copy as png is the only option to export/copy any particular object in figma. TIP: You can use `paste_png` in linux cli to paste the copied png image then.**
-
 _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/P1DNXwjD4TcDV6pNXqvoOn/Learn-prototyping?node-id=4%3A55)
 
-**You can crop the object sizes by holding `alt` key, and using edge points to crop proportionally.**
+**Copy objects**: Hold `alt` and drag elements to create copies.
+
+**You can crop the object sizes by holding `alt` key, and using edge points to crop proportioal to ?????
 
 **Pages concept**: It is an amazing concept to keep designs isloated in each page, thus you can do a large number of separate design works in a single file of figma. Yo!
 
@@ -30,9 +52,7 @@ _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/
 
 **Zoom**: Hold down `ctrl` key to enable zoom with mouse scroll. NOTE: pgdown scroll causes to zoom out, **pageup** scroll causes to **`ZOOM-IN`** in the canvas.
 
-**Move objects horizontally or vertically**: Select objects first hold down `shift` key and use mouse to drag them.
-
-**Copy objects**: Select object/objects first, then hold down `alt` key and use mouse to drag the object/objects to create their copies.
+**Move objects horizontally or vertically**: Hold down `shift` key and drag them.
 
 **PROPORTIONALY SCALING:: Create squares or perfect circles or aligned line or aligned arros using** _rectange tool_ or _ellipse tool_ or _line_ or _arrow_: Choose *rectange tool* with `r` or *ellipse* with `o` and then hold down `shift` key and now you can draw _square_ or _perfect_ circle now.
 
