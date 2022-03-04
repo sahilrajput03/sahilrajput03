@@ -14,6 +14,8 @@
 
 _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/P1DNXwjD4TcDV6pNXqvoOn/Learn-prototyping?node-id=4%3A55)
 
+**Copy objects**: Hold `alt` and drag elements to create copies.
+
 **You can crop the object sizes by holding `alt` key, and using edge points to crop proportioal to ?????
 
 **Pages concept**: It is an amazing concept to keep designs isloated in each page, thus you can do a large number of separate design works in a single file of figma. Yo!
@@ -32,9 +34,7 @@ _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/
 
 **Zoom**: Hold down `ctrl` key to enable zoom with mouse scroll. NOTE: pgdown scroll causes to zoom out, **pageup** scroll causes to **`ZOOM-IN`** in the canvas.
 
-**Move objects horizontally or vertically**: Select objects first hold down `shift` key and use mouse to drag them.
-
-**Copy objects**: Select object/objects first, then hold down `alt` key and use mouse to drag the object/objects to create their copies.
+**Move objects horizontally or vertically**: Hold down `shift` key and drag them.
 
 **PROPORTIONALY SCALING:: Create squares or perfect circles or aligned line or aligned arros using** _rectange tool_ or _ellipse tool_ or _line_ or _arrow_: Choose *rectange tool* with `r` or *ellipse* with `o` and then hold down `shift` key and now you can draw _square_ or _perfect_ circle now.
 
