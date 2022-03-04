@@ -65,8 +65,11 @@ You can change these settings manually via below command as well.
 
 ## Shortcuts:
 
+- f/F to get hintlink to open in current/new tab
+- b/B to open a quickmark in current/new tab
+- o/O to open a link in current/new tab
+ 
 - +/-/= to zoom-in, zoom-out, 100% in normal mode [Src](https://qutebrowser.org/doc/help/commands.html)
-- b/B to open a quickmark/open quickmark in new tab
 - shift+b to open quickmarks menu
 - shift+j/k to switch to tabs down/up
 - gD to detach current tab and open in new window
@@ -78,7 +81,6 @@ You can change these settings manually via below command as well.
 - ctrl-h to go to default_page(say home page)
 - ga in normal mode opens a new tab
 - You get a list of shortcuts via g and y (you need to wait for 2 seconds)
-- o in normal mode will open `:open` in command mode
 - ga to open new tab
 - Alt+1,2.., to open tab 1, 2,.. and so on..
 - ctrl+g g in normal mode will open shortcuts
