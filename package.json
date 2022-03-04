@@ -1,0 +1,20 @@
+{
+  "name": "sahilrajput03",
+  "version": "1.0.1",
+  "description": "```bash echo Hello world! > /dev/null cat /dev/null ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilrajput03/sahilrajput03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilrajput03/sahilrajput03/issues"
+  },
+  "homepage": "https://github.com/sahilrajput03/sahilrajput03#readme"
+}
