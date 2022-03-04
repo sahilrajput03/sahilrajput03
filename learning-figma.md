@@ -7,7 +7,7 @@
 
 ## Resize
 
-While holding and dragging edge/corner squares of the element, you can -
+While holding and dragging edges/corner_squares of the element, you can -
 
 - **resize freely**: no-modifier
 - **resize keeping aspect-ratio**: `shift`
