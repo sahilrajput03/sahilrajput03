@@ -54,12 +54,19 @@ I have a habit of looking for the ***best of best*** of the articles, courses, b
 
 Source: https://www.npmjs.com/package/auto-changelog
 
+Sample generated: [Click here](https://github.com/coreui/coreui-free-react-admin-template/blob/main/CHANGELOG.md)
+
+Sample for this repository: [Click here](CHANGELOG.md)
+
+Tip: You can use custom template as [shown here](https://github.com/cookpete/auto-changelog#custom-templates) in docs.
+
 Add below to your `package.json` file and run `npm run changelog` to generate a `CHANGELOG.md` file. It simply generates list of all commit to the target file simply date wise.
 
 ```json
     "changelog": "auto-changelog -p"
 ```
-FYI:   `-p, --package                       # use version from package.json as latest release`
+
+FYI (using -p is important else you won't get commits in your `CHANGELOG.md` file):   `-p, --package                       # use version from package.json as latest release`
 
 FYI: If you plan to execute it on npm version script, then you do it like (official docs of auto-changelog):
 
