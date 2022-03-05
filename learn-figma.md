@@ -5,11 +5,16 @@
 - Learn Design (100% theory): https://www.figma.com/resources/learn-design/lessons/
 - Figma best practises: https://www.figma.com/best-practices/
 - Kevin@YouTube:
-  - [Getting started with Figma: A beginner's guide](https://www.youtube.com/watch?v=eZJOSK4gXl4)
+
+  - DONE: [Getting started with Figma: A beginner's guide](https://www.youtube.com/watch?v=eZJOSK4gXl4)
+  - DONE: [Figma components: the basics to creating robust components](https://youtu.be/hnx5UWaP_jo)
   - He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
-- todo: https://www.youtube.com/watch?v=FTFaQWZBqQ8
-- todo: https://www.youtube.com/results?search_query=figma
+  - todo: https://www.youtube.com/watch?v=FTFaQWZBqQ8
+  - todo: https://www.youtube.com/results?search_query=figma
+
   **1st week of march**:
+
+- You can press and hold `alt` key while hovering over _text size_ numbers in the _Design tab_ to get a nice text size dragger to change the text size simply via mouse.
 
 - Select **_frame tool_** (hotkey `F`) and you can now get a base frame of any device say for:
 
@@ -56,7 +61,7 @@
 
 - _Auto layout_ feature:
 
-  - An _Auto layout_ item in the layers tab has a icon like two rectangles stacked one over the other vertically.
+  - An _Auto layout_ entity in the _layers menu_ has a icon like two rectangles stacked vertically or horizontally depending on the direction you choose for the _Auto layout_.
   - Select one or more entites and press `shift+a` to enable _Auto layout_ menu in the right bar under Design menu.
   - _Auto layout_: You can see the _Auto layout_ option in the right bar under _Design menu_ ONLY when you have selected TWO OR MORE entities. (TIP: You can still enable _Autolayout_ for single entity as well by using shortcut `shift+a`, thanks to Kevin).
   - _Auto layout_ enables you to specify the positioning of one entity inside other entity(i.e., horizontally alignment and vertical alignment), you can do that by _Choosing Alignment and Padding_ option which is the last icon in the _Autolayout_ menu.
@@ -76,18 +81,26 @@
   - TIP: You can created nested level of components as well:: thanks to Kevin. The way its helpful is that, say you have Componnent C1 and we make a copy of it and make that itself a component say C2. Now when we make a copy of C2 entity say E3 we see that if we change attrib of C1, it reflects in both C1 and E3. FUN FACT: When we change attrib of C2 the proeprties of E3 will be changed as well. So this illustrates properties linked in a nested manner with the help of component feature we have applied to C1 and C2 (and key point is that C2 is a copy of C1 component so its also linked to C1 and E3 inherits from C2 altogether).
   - THE OTHER BIG REASON TO CREATE COMPONENTS: You can import any component into any frame or any other page or other frame (coz our components are available as assets in whole file) by selecting _Assets_ tab in the left bar, and then simply drag and drop any of the component you want.
   - After importing a component as asset in any frame/other page, we can change the component very simply by clicking the drop down menu and choose from the other available options from there. YO!
+  - The main component can be very powerfully used in a way like: You may add tons of items in it {as its the base component for all the other components that you are making} and hide/show them accordingly in the instances of the main component so that you just have to maintain one single main component and don't redraw any new entity in any of the instances. THE BIG REASON we try not to add more entities to any instance of the main component is bcoz we simply cannot unless we detach the instance from its main component(by righ-clicking and choose _Detach_ option and it would just take away all the benefits we intended to leverage from the component's inheritance properties say padding, margins, widths, shadows, text fonts, etc). Thanks to Kevin.
 
 - Color Style:
 
   - You can create a _Color Style_ simly by selecting a color first in _Fill_ and then open the _Style menu_ (the for small squares stacked icon) and then press the `+` icon and type the name for the color style you want to give it.
+  - You can change any existing color by right clicking on the color in the _Color Styles_ section and simply choosing a new color now.
 
 - Frames:
 
   - A frame in the _layer menu_ has an icon like #
   - You can rename a frame as well as suited to what describes your current frame.
+  - We can change the size of the frame by first selecting the frame via clicking on the frame name on top-left and then via the highlighted edges we can resize the frame easily.
 
 - Pages:
+
   - You can rename the page name as well, by double clicking the page name.
+
+- Others:
+  - You can duplicate a layer by selecting it and the layer first and then using `ctrl+d` shortcut.
+  - _Auto layout_ vs. _Grouping_: Auto layout works like a group though but with additional capability like {internal margin to each other can be set at once}, or we can center content in a parent container via both horizontally or vertically by the settings in the _Auto layout_ menu, whereas in a group feature there's no such thing.
 
 ## Zoom
 
