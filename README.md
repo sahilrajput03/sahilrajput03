@@ -22,7 +22,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Ask me anything**: [Click here](https://github.com/sahilrajput03/askMeAnything)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learning-bash.md)
+- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Vim-notes:** [Click here](vim.md)
 - **Enlightment:** [Cick here](enlightenment.md)
@@ -37,11 +37,11 @@ Find me on terminal via `npx sahilrajput03` command.
 - [Learn Photoshop ?](learn-photoshop.md)
 - **Acronyms**: [Click here](acroynms.md)
 - **Thoughts, Principles**: [Click here](thoughts-principles.md)
-- **Learning Regex**: [Click here](learning-regex.md)
-- **Learning Markdown**: [Click here](learning-markdown.md)
-- **Learning Figma**: [Click here](learning-figma.md)
-- **Learnings from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
-- **Learning qutebrowser**: [Click here](qutebrowser.md)
+- **Learn Regex**: [Click here](learn-regex.md)
+- **Learn Markdown**: [Click here](learn-markdown.md)
+- **Learn Figma**: [Click here](learn-figma.md)
+- **Learn from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
+- **Learn qutebrowser**: [Click here](qutebrowser.md)
 - **Jokes: [Click here](https://xkcd.com/)**
 - **React file structure: [Click here](https://react-file-structure.surge.sh/)**
 
@@ -49,7 +49,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## things i kept doing doing..
 
-I have a habit of looking for the ***best of best*** of the articles, courses, blogs, books, materials that I feel sometimes is a time taking process and I don't follow or kind of forget like the official way of doing things me or anybody else must be doing, i.e., follow official documentation of softwares, libraries, tools, standards, ie., OFFICIAL documentation. One big mistake: "Not able to find the real production ready free template of coreui in previous job is this only".
+I have a habit of looking for the **_best of best_** of the articles, courses, blogs, books, materials that I feel sometimes is a time taking process and I don't follow or kind of forget like the official way of doing things me or anybody else must be doing, i.e., follow official documentation of softwares, libraries, tools, standards, ie., OFFICIAL documentation. One big mistake: "Not able to find the real production ready free template of coreui in previous job is this only".
 
 ## using `auto-changelog`
 
@@ -67,7 +67,7 @@ Add below to your `package.json` file and run `npm run changelog` to generate a 
     "changelog": "auto-changelog -p --commit-limit false"
 ```
 
-FYI (using -p is important else you won't get commits in your `CHANGELOG.md` file):   `-p, --package                       # use version from package.json as latest release`
+FYI (using -p is important else you won't get commits in your `CHANGELOG.md` file): `-p, --package # use version from package.json as latest release`
 
 FYI: If you plan to execute it on npm version script, then you do it like (official docs of auto-changelog):
 
@@ -77,15 +77,15 @@ FYI: If you plan to execute it on npm version script, then you do it like (offic
   }
 ```
 
-***HENCE, whenever you run `npm version patch/minor/major`, your `version` script will be run as well. YO***
+**_HENCE, whenever you run `npm version patch/minor/major`, your `version` script will be run as well. YO_**
 
-## monkey_patching ( or _hot fixes_) ?
+## monkey*patching ( or \_hot fixes*) ?
 
 Source: https://en.wikipedia.org/wiki/Monkey_patch
 
 A monkey patch is a way for a program to extend or modify supporting system software locally (affecting only the running instance of the program).
 
-*Etymology*
+_Etymology_
 
 The term monkey patch seems to have come from an earlier term, guerrilla patch, which referred to changing code sneakily – and possibly incompatibly with other such patches – at runtime. The word guerrilla, homophonous with gorilla (or nearly so), became monkey, possibly to make the patch sound less intimidating.[1]
 

@@ -102,7 +102,7 @@ _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/
   
 **Move objects horizontally or vertically**: Hold down `shift` key and drag them.
 
-**PROPORTIONALY SCALING:: Create squares or perfect circles or aligned line or aligned arros using** _rectange tool_ or _ellipse tool_ or _line_ or _arrow_: Choose *rectange tool* with `r` or *ellipse* with `o` and then hold down `shift` key and now you can draw _square_ or _perfect_ circle now.
+**PROPORTIONALLY SCALING:: Create squares or perfect circles or aligned line or aligned arros using** _rectange tool_ or _ellipse tool_ or _line_ or _arrow_: Choose *rectange tool* with `r` or *ellipse* with `o` and then hold down `shift` key and now you can draw _square_ or _perfect_ circle now.
 
 **Set opacity of any object**: Select object and press `1` for 10%, `2` for 20% so on.. and `0` for 100%. TIP: To set opacity to 0%, press `00`
 
