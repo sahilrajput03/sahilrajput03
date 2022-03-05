@@ -20,6 +20,7 @@
 - W3Schools.com - Learn to Code (Lots of tutorials): [Click here](https://www.w3schools.com/)
 - Markdown by Daring Fireball - [Click here](https://daringfireball.net/projects/markdown/)
 - Kent C. Dodds Talks - [Click here](https://www.youtube.com/playlist?list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf)
+- Freelancing - [Click here](https://studywebdevelopment.com/freelancing.html?affiliate_id=406680691) ~Recommended by Kevin Powell.
 
 **Other paid coursse**
 
