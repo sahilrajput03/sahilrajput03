@@ -1,6 +1,6 @@
 # The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography
 
-- The book talks about the classification of secret communication in the way: ![](cipher-classification.jpeg)
+- The book talks about the classification of secret communication in the way: ![](./res-the-code-book/cipher-classification.jpeg)
 
 - Terms:
 
