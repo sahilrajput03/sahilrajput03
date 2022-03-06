@@ -67,6 +67,7 @@
   - _Auto layout_ enables you to specify the positioning of one entity inside other entity(i.e., horizontally alignment and vertical alignment), you can do that by _Choosing Alignment and Padding_ option which is the last icon in the _Autolayout_ menu.
   - A _Auto layout_ is almost like a flexbox, i.e., it can have direction horizontal or vertical. You may change the the direction by the two arrows in the _Auto layout_ menu.
   - IMPORTANT TIP: in your _Auto layout_, say you want a group of items to be be act as a single entity then you can simply use the group option (`ctrl+g`) to group a list of items so that when you alter the attributes in your _Auto layout_ that has your group in it will behave as a single fixed entity. Yo! Thanks to kevin!
+  - You may set the margins b/w items in autolayout items by adjusting *Spacing between items* option in the *Auto layout* menu.
 
 - Component Properties (Make an entity component with `ctrl+alt+k` ):
 
