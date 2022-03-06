@@ -26,17 +26,28 @@ shuf -i 1-10 -n 2
 #              output at most COUNT lines
 ```
 
+## copy file from remote server using `scp` (via `ssh`)
+
+```bash
+scp tsp:copy.png .
+```
+
 ## Using sed using `missing-semester`
 
-```
-# Print content omitting/deleting first line with sed:
-cat myFile.txt | sed '1d'
-# Source: https://unix.stackexchange.com/a/55757/504112
+```bash
+##### Using sed, its used for string substitution #######
+
+# pipe to sed from a file:
+cat my_file | sed -E '...'
+
+# From johnhoo:
+cat ssh.log | sed 's/.*Disconnected from//' | head -n5
 
 
-# Best source to learn regext is: https://www.w3schools.com/jsref/jsref_obj_regexp.asp simple smooth lovely!
+# For regex reference 1: https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+# For regex reference 2: https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-regex.md
 
-# If you need to match ( or [ or { you must escape them using \ when you are using -E option with sed.
+# COOL: If you need to match `(` or `[` or `{` you must escape them using `\` when you are using `-E` option with sed.
 
 # From missin-semester:
 echo aba | sed 's/[ab]//'
@@ -74,6 +85,10 @@ echo abcababc | sed -E 's/(ab|bc)*//g'
 
 echo abcabbc | sed -E 's/(ab|bc)*//g'
 # c
+
+# Print file content omitting/deleting first line with sed:
+cat myFile.txt | sed '1d'
+# Source: https://unix.stackexchange.com/a/55757/504112
 ```
 
 ## regex check with if in bash
