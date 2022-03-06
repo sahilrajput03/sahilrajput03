@@ -19,7 +19,7 @@ Source: https://regexone.com/
      Ans. true coz we are mathing three instance of a digit, yo!
   - Q. What is + used for ?
     n+ Matches any string that contains at least one n
-  - Q. How , works in {} operator ?
+  - Q. How , works in `{}` operator ?
     For regex, 1st case: `[0-9]{2}` and 2nd case: `[0-9]{2,}` against text : **asdf2342asdf**
     **_Result_**:
     1. `23` only.
