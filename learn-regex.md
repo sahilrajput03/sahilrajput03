@@ -10,6 +10,23 @@ Source: https://regexone.com/
 
 **Regex debugger**: https://regex101.com/
 
+**random**:
+  - Q. What is .* in simple terms?
+    Ans. It means literally no text or any text. Yo!!
+  - Q. With the use of parentheses and question mark we can do like: `(someText)?`
+    This means "zero or one someText".
+  - `^` matches beginning of line and `$` matches end of the line.
+  -  What would be `/[0-9]{3}/.test('my 789 text')` javascript?
+     Ans. true coz we are mathing three instance of a digit, yo!
+  - Q. What is + used for ?
+    n+ Matches any string that contains at least one n
+  - -> How , works in {} operator ?
+    For regex, 1st case: `[0-9]{2}` and 2nd case: `[0-9]{2,}` against text : **asdf2342asdf**
+    **_Result_**:
+    1. `23` only.
+    2. it matches `2342` coz we have like `{2,}` which means match atleast 2 or more occurence of any digit. Yikes!
+
+
 **Lesson1**:
 
 Over the various lessons, you will be introduced to a number of special metacharacters used in regular expressions that can be used to match a specific type of character. In this case, the character `\d` can be used in place of any digit from 0 to 9. The preceding slash distinguishes it from the simple d character and indicates that it is a metacharacter.
