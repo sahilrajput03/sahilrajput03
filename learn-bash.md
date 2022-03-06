@@ -34,8 +34,16 @@ scp tsp:copy.png .
 
 ## Using sed using `missing-semester`
 
+Source: https://missing.csail.mit.edu/2020/data-wrangling/
+
+Video Lecture soure: https://www.youtube.com/watch?v=sz_dsktIjt4 
+
 ```bash
+
 ##### Using sed, its used for string substitution #######
+
+# What does .* means in regex pattern?
+# Answer: https://stackoverflow.com/a/21197429/10012446
 
 # pipe to sed from a file:
 cat my_file | sed -E '...'
@@ -89,13 +97,10 @@ echo abcabbc | sed -E 's/(ab|bc)*//g'
 # Print file content omitting/deleting first line with sed:
 cat myFile.txt | sed '1d'
 # Source: https://unix.stackexchange.com/a/55757/504112
-```
 
-## regex check with if in bash
 
-Source: [Click here](https://riptutorial.com/bash/example/2134/check-if-a-string-matches-a-regular-expression)
-
-```
+#  regex match check with if in bash
+# Source: [Click here](https://riptutorial.com/bash/example/2134/check-if-a-string-matches-a-regular-expression)
 date=20150624
 [[ $date =~ ^[0-9]{8}$ ]] && echo "yes" || echo "no"
 # Output: yes
@@ -306,19 +311,6 @@ $ sort test.txt | uniq -c | sort
       3 z
       4 y
       6 b
-```
-
-# grep and perl scripts
-
-Source: https://missing.csail.mit.edu/2020/data-wrangling/
-
-Video Lecture soure: https://www.youtube.com/watch?v=sz_dsktIjt4 
-
-```bash
-# What does .* means in regex pattern?
-# Answer: https://stackoverflow.com/a/21197429/10012446
-
-
 ```
 
 ## Playing with commands to represent directiory
