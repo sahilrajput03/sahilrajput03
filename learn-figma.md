@@ -10,6 +10,10 @@
 
   - DONE: [Getting started with Figma: A beginner's guide](https://www.youtube.com/watch?v=eZJOSK4gXl4)
   - DONE: [Figma components: the basics to creating robust components](https://youtu.be/hnx5UWaP_jo)
+  - DONE: [Figma in 5: Auto Layout](https://youtu.be/TyaGpGDFczw)
+  - DONE: [Figma tutorial: Auto layout button](https://youtu.be/PNJxeD29ZTg?list=PLXDU_eVOJTx55HFubfbTL3ellJjBM2QE2)
+  - TODO-article(above video was contained in this article): [Create dynamic designs with auto layout](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout)
+  - TODO-VIDEO: [Figma tutorial: Auto layout navigation menu](https://www.youtube.com/watch?v=bh98SF7OjUk)
   - He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
   - todo: https://www.youtube.com/watch?v=FTFaQWZBqQ8
   - todo: https://www.youtube.com/results?search_query=figma
@@ -69,10 +73,18 @@
   - _Auto layout_ enables you to specify the positioning of one entity inside other entity(i.e., horizontally alignment and vertical alignment), you can do that by _Choosing Alignment and Padding_ option which is the last icon in the _Autolayout_ menu.
   - A _Auto layout_ is almost like a flexbox, i.e., it can have direction horizontal or vertical. You may change the the direction by the two arrows in the _Auto layout_ menu.
   - IMPORTANT TIP: in your _Auto layout_, say you want a group of items to be be act as a single entity then you can simply use the group option (`ctrl+g`) to group a list of items so that when you alter the attributes in your _Auto layout_ that has your group in it will behave as a single fixed entity. Yo! Thanks to kevin!
+  - Source of below points: [click here](https://youtu.be/TyaGpGDFczw)
   - You may set the margins b/w items in autolayout items by adjusting *Spacing between items* option in the *Auto layout* menu.
+  - For the padding for the contents you can enter the padding values manually  as well say in order of top(bottom)-right(left) as `8,16` will set top-bottom as `8` and right-left as `16`. Also you can give value like in order of top, right, bottom, left as `10,20,30,40` and it'll fill it in the *padding panel*.
+  - When you have text fields inside your *Auto layout*, you can fix the **width attribute** of the entity from **Fixed width** to **Fill container** in the **Resizing menu** and that way if we need to change the width of the our container *Auto layout* the text entities will scale horizontally with the our container, yo!
+  - Another amazing benefit of using **Fill container** as width for text entities is that if we add more text content in the same text box then it'll simply wrap the text and thats looks really smooth though!
+  - We can choose between **Space-between** and **Packed**  in the **Alignment and padding menu**(last icon in the *Auto layout* menu) when choosing the inbetween margins for the entites in your *Auto layout*, and this way we can have settings like *space-around* or *space-between* the way we have in flexbox, yikes! And now if we scale our *Auto layout* the items would scale accoding to the settings you choose.
+  - We cannot set height of anything as `0` and even if we add 0 as value to height input it'll ignore it and replace it with 1, so the fix for this is to put value i.e., `0.001` and that'll actually set the value to 0 which we actually wanted.
+  - Say in a ***horizontal button auto layout*** you want to add more content to the button text but keep the padding (horizontal padding) constant which we most of the times want to have consistent padding around all the buttons irrespective if the button text is small or large, so what we can do to achive this by changing the setting for **OUR AUTOLAYOUT ITSELF** i.e, **width** as **Hug contents** in **Constraints and resizing** menu under **Design** tab, and also set the **padding around items** in the **Auto layout** menu as our desireable padding for our required button.
+  - AMAZING: To make a simle text field a button you can make use of *Auto layout*. Say, create a text field and press `shift+a` and now you can use this autolayout to fill color to the auto layout box itself, cool(NO NEED to make separate rectangle for making buttons)! BONUS: When you change the text the color filled box will automatically adjus to the width of the text, yo!
+  - ***Hug contents*** means to resize to the smallest possible size to surround all of its children with only leaving space for padding. The simple meaning of hug is that the containe will try to hug the contents so leaving no extra space except the padding.
 
 - Component Properties (Make an entity component with `ctrl+alt+k` ):
-
   - The Component entities appear is a solid diamond shaped icon whereas the instances(copies) if any appear as outlined diamond icon in the layers menu in the left bar.
   - _Inherited attributes_ can be: text content, text color, border radius, text style, text font, fill color, and many more!!
   - If you create multiple copies of a component and change the properties(say inherit attributes) of the _Main component_ then all other copies will get same effect instantly. IMPORTANT: Only properties which you altered manually in the copied components will NOT BE affected when you change the _Main component_.
