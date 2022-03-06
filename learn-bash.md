@@ -26,7 +26,7 @@ shuf -i 1-10 -n 2
 #              output at most COUNT lines
 ```
 
-## copy file from remote server using `scp` (via `ssh`)
+## Copy file/folder from remote server using `scp` (via `ssh`)
 
 ```bash
 scp tsp:copy.png .
