@@ -7,6 +7,20 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## noisetorch
+
+```
+# Source: https://youtu.be/WSYLWWxiD8U
+git clone https://aur.archlinux.org/noisetorch.git
+cd noisetorch
+makepkg -si
+
+#Usage:
+noisetorch
+
+#You might need to logout/login (or completely restart to see the Noisetorch audio in your chrome, firefox works straightaway though)
+```
+
 ## insatll `R` language compiler
 
 ```
