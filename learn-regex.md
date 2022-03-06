@@ -8,6 +8,8 @@ Course: RegexOne - Learn Regular Expressions with simple, interactive exercises.
 
 Source: https://regexone.com/
 
+**Regex debugger**: https://regex101.com/
+
 **Lesson1**:
 
 Over the various lessons, you will be introduced to a number of special metacharacters used in regular expressions that can be used to match a specific type of character. In this case, the character `\d` can be used in place of any digit from 0 to 9. The preceding slash distinguishes it from the simple d character and indicates that it is a metacharacter.
