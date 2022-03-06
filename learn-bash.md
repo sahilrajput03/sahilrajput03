@@ -26,13 +26,50 @@ shuf -i 1-10 -n 2
 #              output at most COUNT lines
 ```
 
-## Delete first line with sed
-
-Source: https://unix.stackexchange.com/a/55757/504112
+## Using sed using `missing-semester`
 
 ```
 # Print content omitting/deleting first line with sed:
 cat myFile.txt | sed '1d'
+# Source: https://unix.stackexchange.com/a/55757/504112
+
+
+# From missin-semester:
+echo aba | sed 's/[ab]//'
+# ba
+
+echo bba | sed 's/[ab]//'
+# ba
+
+echo bba | sed 's/[ab]//g'
+# <no_output>
+
+echo bbac | sed 's/[ab]//g'
+# c
+
+echo bcbzac | sed 's/[ab]//g'
+# czc
+
+#### Here ( and ) are treated as literals
+echo "abc(ab)a" | sed 's/(ab)//g'
+# abca
+
+#### Here ( and ) are treated as meta characters(that helps to define
+groups in regex)
+echo "abc(ab)a" | sed -E 's/(ab)//g'
+# c()a
+
+
+#### Here again ( and ) are treated as meta characters (not literals)
+echo abcaba | sed -E 's/(ab)*//g'
+# ca
+
+
+echo abcababc | sed -E 's/(ab|bc)*//g'
+# cc
+
+echo abcabbc | sed -E 's/(ab|bc)*//g'
+# c
 ```
 
 ## regex check with if in bash
