@@ -36,6 +36,7 @@ cat myFile.txt | sed '1d'
 
 # Best source to learn regext is: https://www.w3schools.com/jsref/jsref_obj_regexp.asp simple smooth lovely!
 
+# If you need to match ( or [ or { you must escape them using \ when you are using -E option with sed.
 
 # From missin-semester:
 echo aba | sed 's/[ab]//'
