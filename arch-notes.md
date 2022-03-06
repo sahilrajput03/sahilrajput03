@@ -7,10 +7,13 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
-## noisetorch
+## install noisetorch
+
+Source: https://youtu.be/WSYLWWxiD8U
+
+Github: https://github.com/lawl/NoiseTorch
 
 ```
-# Source: https://youtu.be/WSYLWWxiD8U
 git clone https://aur.archlinux.org/noisetorch.git
 cd noisetorch
 makepkg -si
