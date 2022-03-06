@@ -18,34 +18,33 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## References:
 
-- **Book logs**: [Click here](./book-logs/)
 - **Ask me anything**: [Click here](https://github.com/sahilrajput03/askMeAnything)
+- **Acronyms**: [Click here](acroynms.md)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
-- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
+- **Book logs**: [Click here](./book-logs/)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
-- **Vim-notes:** [Click here](vim.md)
+- **Courses**: [Click here](courses-list.md).
 - **Enlightment:** [Cick here](enlightenment.md)
 - **Hindi:** [Click here](learn-hindi.md)
-- **More thoughts:** [Click here](thoughts.md)
-- **Url shorteners:** [Bitly](https://bitly.com/)
-- **Vscode Settings:** [Click here](vscode-settings.md)
-- **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
-- **Courses**: [Click here](courses-list.md).
-- **Why telegram (not whatsapp): [Click here](why-telegram.md)**
-- [Why DSA based interviews are stupid ?](dsa.md)
-- [Learn Photoshop ?](learn-photoshop.md)
-- **Acronyms**: [Click here](acroynms.md)
-- **Thoughts, Principles**: [Click here](thoughts-principles.md)
+- **Jokes: [Click here](https://xkcd.com/)**
 - **Learn Regex**: [Click here](learn-regex.md)
 - **Learn Markdown**: [Click here](learn-markdown.md)
 - **Learn Figma**: [Click here](learn-figma.md)
 - **Learn from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
 - **Learn qutebrowser**: [Click here](qutebrowser.md)
 - **Learn Zerodha Varasity**: [Click here](learn-zerodha-varasity.md)
-
-- **Jokes: [Click here](https://xkcd.com/)**
+- **More thoughts:** [Click here](thoughts.md)
+- **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
+- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **React file structure: [Click here](https://react-file-structure.surge.sh/)**
+- **Thoughts, Principles**: [Click here](thoughts-principles.md)
+- **Url shorteners:** [Bitly](https://bitly.com/)
+- **Vim-notes:** [Click here](vim.md)
+- **Vscode Settings:** [Click here](vscode-settings.md)
+- [Why DSA based interviews are stupid ?](dsa.md)
+- [Learn Photoshop ?](learn-photoshop.md)
+- **Why telegram (not whatsapp): [Click here](why-telegram.md)**
 
 **Schedule your meets with anybody ?** _Ans. *A perfect solution*: https://calendly.com/app/signup_
 

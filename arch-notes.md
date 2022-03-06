@@ -7,6 +7,25 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## install noisetorch
+
+Source: https://youtu.be/WSYLWWxiD8U
+
+Github: https://github.com/lawl/NoiseTorch
+
+Test your supressed mic noise with this: https://webcammictest.com/check-mic.html (IMPORATNT: Remeber to choose your microphone from inside the website menu, `Settings > Microphone > Choose 'NoiseTorch Microphone'` from the dropdown.)
+
+```
+git clone https://aur.archlinux.org/noisetorch.git
+cd noisetorch
+makepkg -si
+
+#Usage:
+noisetorch
+
+#You might need to logout/login (or completely restart to see the Noisetorch audio in your chrome, firefox works straightaway though)
+```
+
 ## insatll `R` language compiler
 
 ```

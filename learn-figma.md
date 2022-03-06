@@ -1,5 +1,7 @@
 # Learning Figma
 
+## Resources for images, gifs, svgs ?: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
+
 **Courses:**
 
 - Learn Design (100% theory): https://www.figma.com/resources/learn-design/lessons/
@@ -123,8 +125,6 @@ While holding and dragging edges/corner_squares of the element, you can -
 - **resize freely**: no-modifier
 - **resize keeping aspect-ratio**: `shift`
 - **resize keeping aspect-ratio and STAY in place**: `shift+alt`
-
-**Resources for images, gifs, svgs ?**: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
 **Making a obs camera mark [here](https://youtu.be/_sqLa0LTloM).**
 
