@@ -34,6 +34,9 @@ cat myFile.txt | sed '1d'
 # Source: https://unix.stackexchange.com/a/55757/504112
 
 
+# Best source to learn regext is: https://www.w3schools.com/jsref/jsref_obj_regexp.asp simple smooth lovely!
+
+
 # From missin-semester:
 echo aba | sed 's/[ab]//'
 # ba
