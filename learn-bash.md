@@ -4,6 +4,20 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## regex check with if in bash
+
+Source: [Click here](https://riptutorial.com/bash/example/2134/check-if-a-string-matches-a-regular-expression)
+
+```
+date=20150624
+[[ $date =~ ^[0-9]{8}$ ]] && echo "yes" || echo "no"
+# Output: yes
+
+date=hello
+[[ $date =~ ^[0-9]{8}$ ]] && echo "yes" || echo "no"
+# Output: no
+```
+
 ## Using rg's flags to define functions
 
 ```bash
