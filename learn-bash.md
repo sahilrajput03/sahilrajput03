@@ -4,6 +4,37 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+# random with `shuf`
+
+```
+# print two random files (pass `-r` option if you want lines can be repeated as well)
+shuf -n 2 myFile.txt
+
+# print random order of input numbers from 1 to 10.
+shuf -i 1-10
+
+# print a single random number from 1 to 10
+shuf -i 1-10 -n 1
+
+# print a two random number from 1 to 10
+shuf -i 1-10 -n 2
+
+# Shuf manual:
+#       -i, --input-range=LO-HI
+#              treat each number LO through HI as an input line
+#       -n, --head-count=COUNT
+#              output at most COUNT lines
+```
+
+## Delete first line with sed
+
+Source: https://unix.stackexchange.com/a/55757/504112
+
+```
+# Print content omitting/deleting first line with sed:
+cat myFile.txt | sed '1d'
+```
+
 ## regex check with if in bash
 
 Source: [Click here](https://riptutorial.com/bash/example/2134/check-if-a-string-matches-a-regular-expression)
