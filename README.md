@@ -42,6 +42,8 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Figma**: [Click here](learn-figma.md)
 - **Learn from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
 - **Learn qutebrowser**: [Click here](qutebrowser.md)
+- **Learn Zerodha Varasity**: [Click here](learn-zerodha-varasity.md)
+
 - **Jokes: [Click here](https://xkcd.com/)**
 - **React file structure: [Click here](https://react-file-structure.surge.sh/)**
 

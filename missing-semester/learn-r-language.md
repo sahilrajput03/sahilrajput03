@@ -20,7 +20,7 @@ cat file | R --slave -e 'x <- scan(file="stdin", quiet=TRUE); summary(x)'
 # FYI: It prints content like: Min, 1st Qu., Median, Mean, 3rd Qu. and Max.
 ```
 
-**Following from https://cran.r-project.org/doc/manuals/r-release/R-intro.html**
+Documentation of R: https://cran.r-project.org/doc/manuals/r-release/R-intro.html
 
 ```
 
