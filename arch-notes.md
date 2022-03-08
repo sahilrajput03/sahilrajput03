@@ -7,6 +7,15 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## insatlled `gfortran`
+
+```
+sudo pacman -S gcc-fortran
+
+#Usage:
+gfortran --version
+```
+
 ## install noisetorch
 
 Source: https://youtu.be/WSYLWWxiD8U
