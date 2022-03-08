@@ -460,6 +460,10 @@ $ man grep
 #              characters  like  newlines.  This option can be used with commands like find
 #              -print0, perl -0, sort -z, and xargs -0 to  process  arbitrary  file  names,
 #              even those that contain newline characters.
+#       -n, --line-number
+#              Prefix  each  line  of output with the 1-based line number
+#              within its input file.
+#
 #
 
 # Prints all the lines with matching text(--colors flag) with linenumbers (-n flag) in the file `myFile.txt`
