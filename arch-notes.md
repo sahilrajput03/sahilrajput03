@@ -7,6 +7,17 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## insatlled `gfortran`
+
+Source: https://archlinux.org/packages/core/x86_64/gcc-fortran/
+
+```
+sudo pacman -S gcc-fortran
+
+#Usage:
+gfortran --version
+```
+
 ## install noisetorch
 
 Source: https://youtu.be/WSYLWWxiD8U
@@ -334,6 +345,16 @@ sudo pacman -S neovim
 ```bash
 sudo pacman -S tmux
 # Get tmux config file from: https://github.com/sahilrajput03/arch_os/blob/main/.tmux.conf
+
+# INTERESTING: 
+# To switch to previous active window 
+ctrl+t p
+
+#Create new window (WHATS SPECIAL? *THIS CREATES TERMINAL IN SAME FOLDER, yo!)
+ctrl+t n
+
+
+
 
 # Usage:
 tmux    # Good to go now!
