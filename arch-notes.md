@@ -346,6 +346,16 @@ sudo pacman -S neovim
 sudo pacman -S tmux
 # Get tmux config file from: https://github.com/sahilrajput03/arch_os/blob/main/.tmux.conf
 
+# INTERESTING: 
+# To switch to previous active window 
+ctrl+t p
+
+#Create new window (WHATS SPECIAL? *THIS CREATES TERMINAL IN SAME FOLDER, yo!)
+ctrl+t n
+
+
+
+
 # Usage:
 tmux    # Good to go now!
 tmux -V # Know your tmux version.
