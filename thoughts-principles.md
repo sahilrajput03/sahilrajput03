@@ -1,32 +1,33 @@
 # Thoughts, Principles
 
-**[Plug this in and keep working.](https://youtu.be/LMmuChXra_M)**
-**[Plug this in and keep working.](https://youtu.be/q1Ng7FgDsNQ)**
+[Plug this in and keep working.](https://youtu.be/LMmuChXra_M)
 
-**Music can heal most harsh, rare and complex socio-mental problems**
+[Plug this in and keep working 2](https://youtu.be/q1Ng7FgDsNQ)
 
-**Winning is the only option.**
+Music can heal most harsh, rare and complex socio-mental problems
 
-***Microdosing*** = medicine (theraputic dose of a drug is a medicine)
+Winning is the only option.
 
-**“Learning never exhausts the mind.” ― Leonardo da Vinci**
+Microdosing = medicine (theraputic dose of a drug is a medicine)
 
-**“Keep your face always toward the sunshine - and shadows will fall behind you.” ― Walt Whitman**
+“Learning never exhausts the mind.” ― Leonardo da Vinci
 
-**“At the end of your life, you will never regret not having passed one more test, not winning one more verdict or not closing one more deal. You will regret time not spent with a husband, a friend, a child, or a parent.” ― Barbara Bush**
+“Keep your face always toward the sunshine - and shadows will fall behind you.” ― Walt Whitman
 
-**"Fear and Learning can't co-exist!" ~ Sahil**
+“At the end of your life, you will never regret not having passed one more test, not winning one more verdict or not closing one more deal. You will regret time not spent with a husband, a friend, a child, or a parent.” ― Barbara Bush
 
-**"Keep It Simple, Stupid" ([KISS](https://en.wikipedia.org/wiki/KISS_principle))**
+"Fear and Learning can't co-exist!" ~ Sahil
 
-**"No idea works until you do the work"** ~ Stone Riley
+"Keep It Simple, Stupid" ([KISS](https://en.wikipedia.org/wiki/KISS_principle))
 
-**"Impossible is possile if you try really hard maybe!"**
+"No idea works until you do the work" ~ Stone Riley
 
-**"Competition leads to conflicts, conflicts leads to clashes, clashes leads to wars!"**
+"Impossible is possile if you try really hard maybe!"
 
-**Ethics: Continum approach vs. Dictonomy approach in perspective of goodness and being bad.."**
+"Competition leads to conflicts, conflicts leads to clashes, clashes leads to wars!"
 
-**Practice Rigorous Authenticity, Surrender The Outcome and Do Uncomfortable Work" [bcoz](https://www.youtube.com/watch?v=UUnRKf2CemA).**
+Ethics: Continum approach vs. Dictonomy approach in perspective of goodness and being bad.."
 
-**Ye ishq nhi asaan, bas yun smj lijyiye ki aag ka dariya hai aur doob ke jana hai! ~ Mirza Galib**
+Practice Rigorous Authenticity, Surrender The Outcome and Do Uncomfortable Work" [bcoz](https://www.youtube.com/watch?v=UUnRKf2CemA).
+
+Ye ishq nhi asaan, bas yun smj lijyiye ki aag ka dariya hai aur doob ke jana hai! ~ Mirza Galib
