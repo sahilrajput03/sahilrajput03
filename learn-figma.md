@@ -5,6 +5,8 @@
 **Courses:**
 
 - Learn Design (100% theory): https://www.figma.com/resources/learn-design/lessons/
+- TODO - Design sense: https://developer.apple.com/design/human-interface-guidelines/
+- TODO - Design sense: https://material.io/design
 - Figma best practises: https://www.figma.com/best-practices/
 - Kevin@YouTube:
 
@@ -12,11 +14,21 @@
   - DONE: [Figma components: the basics to creating robust components](https://youtu.be/hnx5UWaP_jo)
   - DONE: [Figma in 5: Auto Layout](https://youtu.be/TyaGpGDFczw)
   - DONE: [Figma tutorial: Auto layout button](https://youtu.be/PNJxeD29ZTg?list=PLXDU_eVOJTx55HFubfbTL3ellJjBM2QE2)
-  - TODO-article(above video was contained in this article): [Create dynamic designs with auto layout](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout)
-  - TODO-VIDEO: [Figma tutorial: Auto layout navigation menu](https://www.youtube.com/watch?v=bh98SF7OjUk)
-  - He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
-  - todo: https://www.youtube.com/watch?v=FTFaQWZBqQ8
+  - DONE: (above video was contained in this article): [Create dynamic designs with auto layout](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout)
+  - TODO-VIDEO: [Figma tutorial: Auto layout navigation menu](https://www.youtube.com/watch?v=bh98SF7OjUk) - He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
+  - DONE: [CHANNEL: AJ&Smart - Figma UI Design Tutorial: Get Started in Just 24 Minutes! (2022)](https://www.youtube.com/watch?v=FTFaQWZBqQ8)
   - todo: https://www.youtube.com/results?search_query=figma
+  - AMAZING FREE FIGMA FILE RESOURCES for figma: Checkout: [Click here](https://www.templatefreebies.com/) **and then open any figma design from there and then click on** `Copy to Figma` button to get it in your draft. ALSO if this site is not sufficient, then you may find other *free figma resource* - by Google search - to get free figma files to copy from.
+  - TODO: Make a twitter clone of mobile of different screens.
+  - TODO: Make a telegram clone of mobile app as well.
+  - TODO: Join some community for figma @ slack, discord or telegram to get help, feedback, etc with people and get in a good social reln in terms of figma and designing.
+  - There are thousands of free designs on different vast variety of topics.
+  - Food delivery app design page @ https://www.templatefreebies.com/resources/figma-food-delivery-app-ui
+  - My copy version of *FOOD DELIVERY APP* in my figma draft: https://www.figma.com/file/KLqvjwP96rt2OBHqF7MhFV/Food-Delivery-UI---Free-(Copy)?node-id=0%3A1
+  - https://www.figma.com/community/file/886554014393250663
+  - https://www.figma.com/community/file/780582924744713607
+  -  ->FYI: There are tons of free icon figma files shared by community on figma sites itself
+  - For icons search **Free figma icons** on google to get such resources.
 
   **1st week of march**:
 
@@ -28,6 +40,7 @@
   - **_Tablet_** you can select from _Surface Pro 8_, _iPad mini 8.3_, _iPad Pro 11"_ or _iPad Pro 12.9"_
   - **_Desktop_** you can select from _MacBook Pro 14"_, _MacBook Pro 16"_, _Desktop_ or _iMac_
   - **_Presentation_** you can select from _Slide 16:9_ (1920x1080) or _Slide 4:3_ (1024x768)
+  - FYI: You can change the width/height, round corner sizes, angle of the titlment of the frame later anytime as well.
 
 - **Fill**:
 
@@ -41,7 +54,10 @@
 - Layers: It is very intutive to anybody else if you arrange the entites in the **_Layers_** menu according to the entity flow in the canvas. ALSO, instructs the very fundamental base of the distribution of entities as well. ~Kevin.
 - When you select text tool, always drag and draw the text box first so your text reflow is bounded to that area only.
 - Typography choice - Font: Roboto, Font Size: 72, Font style: Black (or say Bold, although Black is little better IMO)
-- You can move around using hand tool but the fastest way is to use hold <spacebar> and now you can drag using mouse to move the page for the time.
+- You can move around using 
+	- hand tool
+	- but a better way is to use hold <spacebar> and now you can drag using mouse to move the page for the time.
+	- but BEST WAY IS TO USE MOUSE MIDDLE CLICK TO HOLD AND DRAG TO MOVE PAGE. YO!
 - You can align a group of items together by selecting (more than one elements) and choosing one of the styles of bars that are showing up just below the **_Design menu_** on the right bar.
 - **_Lock_** layer: When you want that you don't accidentally select and move any element (say many big entities on the canvas), you can lock them by clicking the lock icon (OR `ctrl+shift+l`) in the left bar under **_Layers_** menu.
 - `Shift` key can be used to select multiple elements, tip: say when dran area with move tool you get bunch of elements selected and then you can use `shift` key to toggle unselect any element as well. WhoaaAA!!
@@ -74,15 +90,24 @@
   - A _Auto layout_ is almost like a flexbox, i.e., it can have direction horizontal or vertical. You may change the the direction by the two arrows in the _Auto layout_ menu.
   - IMPORTANT TIP: in your _Auto layout_, say you want a group of items to be be act as a single entity then you can simply use the group option (`ctrl+g`) to group a list of items so that when you alter the attributes in your _Auto layout_ that has your group in it will behave as a single fixed entity. Yo! Thanks to kevin!
   - Source of below points: [click here](https://youtu.be/TyaGpGDFczw)
-  - You may set the margins b/w items in autolayout items by adjusting *Spacing between items* option in the *Auto layout* menu.
+  - You may set the space (margins) b/w items in autolayout items by adjusting *Spacing between items* option in the *Auto layout* menu. **FYI:** In case you have mixed padding right now and you want to get even padding all around, you may put the value like `10` in place of where `Mixed` text is written. **FYI:** To set manual padding you can toggle around in the Padding/alignment panel with the help of `<TAB>` key.
   - For the padding for the contents you can enter the padding values manually  as well say in order of top(bottom)-right(left) as `8,16` will set top-bottom as `8` and right-left as `16`. Also you can give value like in order of top, right, bottom, left as `10,20,30,40` and it'll fill it in the *padding panel*.
   - When you have text fields inside your *Auto layout*, you can fix the **width attribute** of the entity from **Fixed width** to **Fill container** in the **Resizing menu** and that way if we need to change the width of the our container *Auto layout* the text entities will scale horizontally with the our container, yo!
   - Another amazing benefit of using **Fill container** as width for text entities is that if we add more text content in the same text box then it'll simply wrap the text and thats looks really smooth though!
-  - We can choose between **Space-between** and **Packed**  in the **Alignment and padding menu**(last icon in the *Auto layout* menu) when choosing the inbetween margins for the entites in your *Auto layout*, and this way we can have settings like *space-around* or *space-between* the way we have in flexbox, yikes! And now if we scale our *Auto layout* the items would scale accoding to the settings you choose.
+  - We can choose between **Space-between** and **Packed**  in the **Alignment and padding menu**(last icon in the *Auto layout* menu) when choosing the inbetween spacing (margins) for the entites in your *Auto layout*, and this way we can have settings like *space-around* or *space-between* the way we have in flexbox, yikes! And now if we scale our *Auto layout* the items would scale accoding to the settings you choose.
   - We cannot set height of anything as `0` and even if we add 0 as value to height input it'll ignore it and replace it with 1, so the fix for this is to put value i.e., `0.001` and that'll actually set the value to 0 which we actually wanted.
   - Say in a ***horizontal button auto layout*** you want to add more content to the button text but keep the padding (horizontal padding) constant which we most of the times want to have consistent padding around all the buttons irrespective if the button text is small or large, so what we can do to achive this by changing the setting for **OUR AUTOLAYOUT ITSELF** i.e, **width** as **Hug contents** in **Constraints and resizing** menu under **Design** tab, and also set the **padding around items** in the **Auto layout** menu as our desireable padding for our required button.
   - AMAZING: To make a simle text field a button you can make use of *Auto layout*. Say, create a text field and press `shift+a` and now you can use this autolayout to fill color to the auto layout box itself, cool(NO NEED to make separate rectangle for making buttons)! BONUS: When you change the text the color filled box will automatically adjus to the width of the text, yo!
   - ***Hug contents*** means to resize to the smallest possible size to surround all of its children with only leaving space for padding. The simple meaning of hug is that the containe will try to hug the contents so leaving no extra space except the padding.
+  - You can also make the entity be controlled automatically say left attached or right attached or center placed or stick to left_and_right edges with the help of properties under `Constraints and resizing` [See here for visual](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout#Constraints_and_resizing).
+  - Add, edit, and remove objects in *Auto layout*: [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout#Add,_edit,_and_remove_objects).
+  - Nested auto layout frames: Amazinlgly explaines - [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout#Nest_auto_layout_frames)
+  - Removing *Auto layout* : There are a couple of ways to remove auto layout:
+	- Right-click on the frame and select Remove auto layout
+	- In the right sidebar, click the  next to Auto layout
+	- Note: You can't use the Add auto layout keyboard shortcut to remove the auto layout property. Using this shortcut will create a new auto layout frame around your current selection.
+
+
 
 - Component Properties (Make an entity component with `ctrl+alt+k` ):
   - The Component entities appear is a solid diamond shaped icon whereas the instances(copies) if any appear as outlined diamond icon in the layers menu in the left bar.
@@ -116,6 +141,9 @@
 - Others:
   - You can duplicate a layer by selecting it and the layer first and then using `ctrl+d` shortcut.
   - _Auto layout_ vs. _Grouping_: Auto layout works like a group though but with additional capability like {internal margin to each other can be set at once}, or we can center content in a parent container via both horizontally or vertically by the settings in the _Auto layout_ menu, whereas in a group feature there's no such thing.
+  - Click any entity and then press and hold `alt` key and now hover over different entities to know the vertical and horizontal distancing in ***pixels*** of our original selected entity that entity which are currently hovering over. AND **interesting** thing is that while the view is showing how far your entity is from the mouse hovered entity **you can use up/down/right/left arrows** to move our current entity according to the need we have (say when we are copying from other designs we need to set two entities exactly some pixels apart) Yo!
+  - We can make use of **auto-width** and **auto-height** icons from the **Text menu** under the **Design tab** for tex entities to make the widths and heights auto-adjust to take minimum as required by the text to have same font-size. Yikes!
+
 
 ## Zoom
 
@@ -152,7 +180,7 @@ _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/
 
 **Quick actions**: `ctrl+/`
 
-**Presentation Mode(preview mode, show/hide UI)**: `ctrl+\`
+**Presentation Mode(preview mode, show/hide UI)**: `ctrl+\`, you can right click empty area around the frame and click on ***Show/Hide UI*** as well.
 
 **Undo/Redo/copy/cut/selectAll**: Use `ctrl+z`/`ctrl+y`/`ctrl+c`/`ctrl+x`/`ctrl+a`.
 
