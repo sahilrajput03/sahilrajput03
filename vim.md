@@ -10,6 +10,14 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+# vim has a `Ex mode` and `Command Line mode`
+
+Type `Q` in normal mode to enter `Ex mode`, TIP: Press `:visual` there to get back to normal mode.
+
+Type `q:` in normal to enter `Command Line mode`. TIP: Press `ctrl+c ctrl+c` (yes twice) to exit it. Command line mode provides a way to browse your command-line history and edit it like a normal buffer. This makes it easy to find a previous command you ran, edit it with normal Vim commands, and then run the modified command. The q/ and q? commands exist to provide the same functionality for the search history.
+
+[Source](https://vi.stackexchange.com/a/461)
+
 ## search with riggrep (rg)
 
 `<space>s` and type the search term.
