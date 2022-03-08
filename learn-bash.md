@@ -98,6 +98,9 @@ echo abcabbc | sed -E 's/(ab|bc)*//g'
 cat myFile.txt | sed '1d'
 # Source: https://unix.stackexchange.com/a/55757/504112
 
+# Delete any line that starts with //
+# cat file.txt | sed '/^\/\/.*/d'
+
 
 #  regex match check with if in bash
 # Source: [Click here](https://riptutorial.com/bash/example/2134/check-if-a-string-matches-a-regular-expression)
