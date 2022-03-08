@@ -36,3 +36,6 @@ The syntax for declaring variables is:
 Note: Fortran code is case-insensitive; you don’t have to worry about the capitalisation of your variable names, but it’s good practice to keep it consistent.
 
 
+## Continue from
+
+Arrays: https://fortran-lang.org/learn/quickstart/arrays_strings
