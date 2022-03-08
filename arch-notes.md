@@ -9,6 +9,8 @@
 
 ## insatlled `gfortran`
 
+Source: https://archlinux.org/packages/core/x86_64/gcc-fortran/
+
 ```
 sudo pacman -S gcc-fortran
 
