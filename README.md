@@ -45,6 +45,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - [Why DSA based interviews are stupid ?](dsa.md)
 - [Learn Photoshop ?](learn-photoshop.md)
 - **Why telegram (not whatsapp): [Click here](why-telegram.md)**
+- **Learn gmail**: [Click here](learn-gmail.md)
 
 **Getting automated "Product experience insights"** using https://www.hotjar.com/
 - It can record user experience and you can play the user experiences as a video sort of thing.
