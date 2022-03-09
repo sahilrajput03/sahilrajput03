@@ -1,3 +1,4 @@
+```bash
 G	 	>> compose in new screen
 
 C	 	>> compose
@@ -43,3 +44,4 @@ Inbox		>> g + i
 Sent messages	>> g + t
 
 Drafts		>> g + d
+```
