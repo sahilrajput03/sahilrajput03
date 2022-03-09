@@ -46,6 +46,10 @@ Find me on terminal via `npx sahilrajput03` command.
 - [Learn Photoshop ?](learn-photoshop.md)
 - **Why telegram (not whatsapp): [Click here](why-telegram.md)**
 
+**Getting automated "Product experience insights"** using https://www.hotjar.com/
+- It can record user experience and you can play the user experiences as a video sort of thing.
+- It can tell what motivates the user to go into your site and dig more and what demotivates the user.
+
 **Schedule your meets with anybody ?** _Ans. *A perfect solution*: https://calendly.com/app/signup_
 
 ## things i kept doing doing..
