@@ -1,5 +1,16 @@
 # Thoughts, Principles
 
+
+Foucus on one nos coz thats how it internally works, you just need need to align to it mentally.
+
+Om mani padme humm!
+
+Half eyes opened stops the flow of energy. Closing eyes or keeping them open helps energy flow. -OS
+
+Hand holding - extreme helping.
+
+If you dont know how to go through harsh situations well, joyfully, then you will avoid  all great possibilities of life, simply bcoz you want to avoid a little bit of difficulty. Only when you are geometrically in a certain state of congruence then you are willing to go through any situation no matter what it is. ~ @Body Postures ~ Sadugru.
+
 [Plug this in and keep working.](https://youtu.be/LMmuChXra_M)
 
 [Plug this in and keep working 2](https://youtu.be/q1Ng7FgDsNQ)
