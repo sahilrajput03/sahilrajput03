@@ -2,6 +2,8 @@
 
 *You may practise markdown with live updates @ https://marked.js.org/demo/.*
 
+***Favourite markdown docs: https://daringfireball.net/projects/markdown/***
+
 - **Headings**
 
   ```md
