@@ -45,6 +45,13 @@ Find me on terminal via `npx sahilrajput03` command.
 - [Why DSA based interviews are stupid ?](dsa.md)
 - [Learn Photoshop ?](learn-photoshop.md)
 - **Why telegram (not whatsapp): [Click here](why-telegram.md)**
+- **Learn gmail**: [Click here](learn-gmail.md)
+
+**Getting automated "Product experience insights"** using https://www.hotjar.com/
+- It can record user experience and you can play the user experiences as a video sort of thing.
+- It can tell what motivates the user to go into your site and dig more and what demotivates the user.
+
+**(free to use)no-Code Website Builder: The Webflow Designer lets you build any website you can imagine with the full power of HTML, CSS, and Javascript in a VISUAL CANVAS.** using https://webflow.com/. See [customer stories](https://webflow.com/customers) of webflow users.
 
 **Schedule your meets with anybody ?** _Ans. *A perfect solution*: https://calendly.com/app/signup_
 
