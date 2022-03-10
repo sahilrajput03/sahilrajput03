@@ -7,6 +7,20 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## installed `screenkey`
+
+Source: https://www.thregr.org/~wavexx/software/screenkey/
+
+```bash
+sudo pacman -S screenkey
+
+# to run in background
+nohup screenkey &
+
+# to kill it
+pkill screenkey
+```
+
 ## installed `figma`
 
 ```bash
