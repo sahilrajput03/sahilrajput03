@@ -7,6 +7,13 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## installed `rsync`
+
+```
+sudo pacman -S rsync
+# helps to copy files to remote server, (~from missing-semester)
+```
+
 ## installed `screenkey`
 
 Source: https://www.thregr.org/~wavexx/software/screenkey/
