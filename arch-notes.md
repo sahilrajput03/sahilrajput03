@@ -7,6 +7,14 @@
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 
+## installed `figma`
+
+```bash
+git clone https://aur.archlinux.org/figma-linux.git
+cd figma-linux
+makepkg -si
+```
+
 ## insatlled `gfortran`
 
 Source: https://archlinux.org/packages/core/x86_64/gcc-fortran/
