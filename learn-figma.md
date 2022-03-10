@@ -34,8 +34,8 @@
   - https://www.figma.com/community/file/780582924744713607
   -  ->FYI: There are tons of free icon figma files shared by community on figma sites itself
   - For icons search **Free figma icons** on google to get such resources.
-  - 
 
+  - Charlie marietv summary of salaries: @ keep notes.
   **1st week of march**:
 
   - We can share styles across different files very easily with ***Team Library*** feature very easily. For demo check this timestamped video [here from figma itself](https://youtu.be/cCNLD5IZY34?t=209).
@@ -210,12 +210,15 @@ _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/
 
 Official getting started [post of prototyping in figma](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma) is good though.
 
+- Video from Kevin Powell: https://youtu.be/ps6p9e6QmgY
+
 **Tips:**
 
 **_Component_**:
 
-- To be able to have the right dot for creating transitions for the prototyping, you must first select all the objects and use `ctrl+alt+k` to create a single component of those items which then just stick together. Now your transition would work good! 💯
-- IMPORTANT: You must convert a object to a component first to be able to get prototyping circle connector. You can do it via right clicking and select **_Create Component_** option or simply use `ctrl+shift+k`.
+- You must navigate to **Prototype Menu** menu in order to see the right circle of prototying extender. THIS IS MUST!
+- ~~To be able to have the right dot for creating transitions for the prototyping, you must first select all the objects and use `ctrl+alt+k` to create a single component of those items which then just stick together. Now your transition would work good! 💯~~
+- ~~IMPORTANT: You must convert a object to a component first to be able to get prototyping circle connector. You can do it via right clicking and select **_Create Component_** option or simply use `ctrl+shift+k`.~~
 - You can use `r` in prototyping to restart the prototype(in case of hovering you don't need to restart prototype though coz unhovering it causes to undo the effect instantly).
 - Use `right mouse click` to shown options in prototype display tab.
 - Toggle between prototype mode and design mode using hotkey `shift+e` or simply choose from the right **_Prototype_** or **_Design_** tab in the right hand side bar.
