@@ -10,6 +10,10 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## You can suspend your vim to background anytime and use original terminal
+
+Use `ctrl+z` to suspend vim, and use fg to go back to vim anytime you want. [source](https://stackoverflow.com/a/1879239/10012446)
+
 # vim has a `Ex mode` and `Command Line mode`
 
 Type `Q` in normal mode to enter `Ex mode`, TIP: Press `:visual` there to get back to normal mode.

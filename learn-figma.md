@@ -214,7 +214,9 @@ _My learning Prototyping File @ figma_: [Click here](https://www.figma.com/file/
 
 Official getting started [post of prototyping in figma](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma) is good though.
 
-- Video from Kevin Powell: https://youtu.be/ps6p9e6QmgY
+- "You must have a copy of the enity for what you want to animate(move actually say with increasing opacity) from the fram1 to frame2 if you are making animation from frame1 to frame2" ~ Kevin Powell.
+
+- DONE - [Prototyping animations with Figma ~ Kevin Powell]: https://youtu.be/ps6p9e6QmgY
 
 **Tips:**
 
