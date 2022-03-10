@@ -15,10 +15,15 @@
   - DONE: [Figma in 5: Auto Layout](https://youtu.be/TyaGpGDFczw)
   - DONE: [Figma tutorial: Auto layout button](https://youtu.be/PNJxeD29ZTg?list=PLXDU_eVOJTx55HFubfbTL3ellJjBM2QE2)
   - DONE: (above video was contained in this article): [Create dynamic designs with auto layout](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout)
-  - TODO-VIDEO: [Figma tutorial: Auto layout navigation menu](https://www.youtube.com/watch?v=bh98SF7OjUk) - He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
+  - DONE: [CHANNEL-CharliMarieTV - Figma 101: An introduction tutorial](https://youtu.be/cCNLD5IZY34)
+  - DONE: [CHANNEL-CharliMarieTV - Figma Smart Animate first impressions & testing!](https://youtu.be/5ptQoY3VZSo)
+  - TODO-VIDEO-KEVIN: https://youtu.be/ps6p9e6QmgY
+  - TODO-VIDEO: [KEVIN-search-@-yt](https://www.youtube.com/watch?v=bh98SF7OjUk) - He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
+  - TODO-ARTICLE: [Create advanced animations with smart animate](https://help.figma.com/hc/en-us/articles/360039818874-Create-advanced-animations-with-Smart-Animate#h_82a1603b-89e5-4254-91a6-104456c18d32)
+  - TODO-ARTICLE: Explore text properties from FIGMA OFFICIAL: [Click here](https://help.figma.com/hc/en-us/articles/360039956634)
   - DONE: [CHANNEL: AJ&Smart - Figma UI Design Tutorial: Get Started in Just 24 Minutes! (2022)](https://www.youtube.com/watch?v=FTFaQWZBqQ8)
-  - todo: https://www.youtube.com/results?search_query=figma
-  - AMAZING FREE FIGMA FILE RESOURCES for figma: Checkout: [Click here](https://www.templatefreebies.com/) **and then open any figma design from there and then click on** `Copy to Figma` button to get it in your draft. ALSO if this site is not sufficient, then you may find other *free figma resource* - by Google search - to get free figma files to copy from.
+  - TODO: https://www.youtube.com/results?search_query=figma
+  - AMAZING FREE FIGMA TEMPLATES/FILE RESOURCES for figma: Checkout: [Click here](https://www.templatefreebies.com/) **and then open any figma design from there and then click on** `Copy to Figma` button to get it in your draft. ALSO if this site is not sufficient, then you may find other *free figma resource* - by Google search - to get free figma files to copy from.
   - TODO: Make a twitter clone of mobile of different screens.
   - TODO: Make a telegram clone of mobile app as well.
   - TODO: Join some community for figma @ slack, discord or telegram to get help, feedback, etc with people and get in a good social reln in terms of figma and designing.
@@ -29,8 +34,11 @@
   - https://www.figma.com/community/file/780582924744713607
   -  ->FYI: There are tons of free icon figma files shared by community on figma sites itself
   - For icons search **Free figma icons** on google to get such resources.
+  - 
 
   **1st week of march**:
+
+  - We can share styles across different files very easily with ***Team Library*** feature very easily. For demo check this timestamped video [here from figma itself](https://youtu.be/cCNLD5IZY34?t=209).
 
 - You can press and hold `alt` key while hovering over _text size_ numbers in the _Design tab_ to get a nice text size dragger to change the text size simply via mouse.
 
