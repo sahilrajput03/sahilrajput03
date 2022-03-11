@@ -8,6 +8,12 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/**
 
+## installed `hyperfine` - a benchmarking tool for linux
+
+```bash
+sudo pacman -S hyperfine
+```
+
 ## installed `ncdu` to know the disk usage of the system
 
 ```
