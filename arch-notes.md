@@ -12,6 +12,23 @@
 
 ```bash
 sudo pacman -S hyperfine
+
+# Docs: https://github.com/sharkdp/hyperfine
+
+# Sample usage:
+hyperfine 'sleep 0.3'
+hyperfine --runs 5 'sleep 0.3'
+
+# If you want to compare the runtimes of different programs, you can pass multiple commands:
+hyperfine 'hexdump file' 'xxd file'
+
+### warmup and cold runs: https://github.com/sharkdp/hyperfine#warmup-runs-and-preparation-commands
+
+# Warmup runs and preparation commands: For programs that perform a lot of disk I/O, the benchmarking results can be heavily influenced by disk caches and whether they are cold or warm. If you want to run the benchmark on a warm cache, you can use the -w/--warmup option to perform a certain number of program executions before the actual benchmark:
+hyperfine --warmup 3 'grep -R TODO *'
+
+# Conversely, if you want to run the benchmark for a cold cache, you can use the -p/--prepare option to run a special command before each timing run. For example, to clear harddisk caches on Linux. Conversely, if you want to run the benchmark for a cold cache, you can use the -p/--prepare option to run a special command before each timing run. For example, to clear harddisk caches on Linux, you can run
+hyperfine --prepare 'sync; echo 3 | sudo tee /proc/sys/vm/drop_caches' 'grep -R TODO *'
 ```
 
 ## installed `ncdu` to know the disk usage of the system
