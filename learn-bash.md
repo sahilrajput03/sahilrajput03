@@ -4,6 +4,14 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## `tac` 
+
+Prints the content of a file exactly like cat but in reverse order of lines.
+
+```bash
+tac file
+```
+
 ## `sha1sum`
 
 Source: https://askubuntu.com/a/61828/702911
