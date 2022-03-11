@@ -8,6 +8,19 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/**
 
+## installed `ncdu` to know the disk usage of the system
+
+```
+sudo pacman -S ncdu
+
+# Usage:
+ncdu
+
+
+#FYI: It is a similar tool to du
+#FYI: du stands for `disk usage`
+```
+
 ## installed `bash-git-prmpt` (but not configured, coz it clutters up shell)
 
 Source: https://github.com/magicmonty/bash-git-prompt
