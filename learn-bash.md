@@ -6,6 +6,8 @@
 
 ## `sha1sum`
 
+Source: https://askubuntu.com/a/61828/702911
+
 ```
 echo Hello > file.txt
 sha1sum  file.txt > file.txt.sha1
