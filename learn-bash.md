@@ -10,17 +10,38 @@ Source: https://askubuntu.com/a/61828/702911
 
 ```
 echo Hello > file.txt
-sha1sum  file.txt > file.txt.sha1
+sha1sum  file.txt > sha-verify
 # check files
 ls
 # Output:
-file.txt  file.txt.sha1
+file.txt  sha-verify
 
-sha1sum -c file.txt.sha1
+# view contents of `sha-verify`
+cat sha-verify
+f572d396fae9206628714fb2ce00f72e94f2258f  file.txt
+
+sha1sum -c sha-verify
 # Output:
 file.txt: OK
 ```
 
+E.g.2:
+
+```
+echo hello > 1
+echo hello > 2
+
+ls
+1  2  sha-verify
+
+sha 1 2 > sha-verify
+
+cat sha-verify
+# Output:
+f572d396fae9206628714fb2ce00f72e94f2258f  1
+f572d396fae9206628714fb2ce00f72e94f2258f  2
+
+```
 ## random with `shuf`
 
 ```
