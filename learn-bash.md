@@ -31,16 +31,20 @@ E.g.2:
 echo hello > 1
 echo hello > 2
 
+sha 1 2 > sha-verify
+
 ls
 1  2  sha-verify
-
-sha 1 2 > sha-verify
 
 cat sha-verify
 # Output:
 f572d396fae9206628714fb2ce00f72e94f2258f  1
 f572d396fae9206628714fb2ce00f72e94f2258f  2
 
+sha1sum -c sha-verify
+# Output:
+1: OK
+2: OK
 ```
 ## random with `shuf`
 
