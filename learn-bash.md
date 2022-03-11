@@ -11,7 +11,7 @@ Source: https://askubuntu.com/a/61828/702911
 
 FYI: `SHA-1` is less secure than `SHA-256` and `SHA-3`. Source: click [here](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html) and [here](https://shattered.it/).
 
-***Any sha1 is 40 chars long in length.***
+***Any sha1 `digest` is 40 chars long in length.***
 
 ```
 echo Hello > file.txt
