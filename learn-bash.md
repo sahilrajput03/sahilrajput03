@@ -51,6 +51,24 @@ sha1sum -c sha-verify
 1: OK
 2: OK
 ```
+
+**Also from the man pages of `sha1sum`:
+
+```txt
+BUGS
+       Do  not use the SHA-1 algorithm for security related purposes.  Instead,
+       use an  SHA-2  algorithm,  implemented  in  the  programs  sha224sum(1),
+       sha256sum(1),  sha384sum(1),  sha512sum(1), or the BLAKE2 algorithm, im‐
+       plemented in b2sum(1)
+```
+
+**Other available: `sha**` programs in linux**: 
+
+```bash
+sha<tab><tab>
+
+sha        sha1sum    sha224sum  sha256sum  sha384sum  sha512sum  shasum
+```
 ## random with `shuf`
 
 ```
