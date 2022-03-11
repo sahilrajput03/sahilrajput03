@@ -8,6 +8,16 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/**
 
+## installed `bash-git-prmpt` (but not configured, coz it clutters up shell)
+
+Source: https://github.com/magicmonty/bash-git-prompt
+
+```bash
+git clone https://aur.archlinux.org/packages/bash-git-prompt
+cd bash-git-prompt
+makepks -si
+```
+
 ## installed `rsync`
 
 ```
