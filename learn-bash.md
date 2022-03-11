@@ -4,7 +4,22 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
-# random with `shuf`
+## `sha1sum`
+
+```
+echo Hello > file.txt
+sha1sum  file.txt > file.txt.sha1
+# check files
+ls
+# Output:
+file.txt  file.txt.sha1
+
+sha1sum -c file.txt.sha1
+# Output:
+file.txt: OK
+```
+
+## random with `shuf`
 
 ```
 # print two random files (pass `-r` option if you want lines can be repeated as well)
