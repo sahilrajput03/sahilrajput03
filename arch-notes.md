@@ -31,11 +31,13 @@ one  two
 # Mounting remote server's directory (one) to host machine (two)
 sshfs own:test/test-sshfs/one ./two
 
-# create two files
+# create file in remote machine:
 touch one/file1.txt
 ls two/
 # Output:
 file1.txt
+
+# create file in host machine:
 touch two/file2.txt
 
 ls one/
