@@ -10,6 +10,8 @@
 
 ## install `kvm`
 
+TIP: You can define to set any virtual machine to be started on boot and that would be cool, though!
+
 ```bash
 # Follow article from: https://linuxhint.com/install_configure_kvm_archlinux/
 
