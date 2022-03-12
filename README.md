@@ -30,6 +30,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Jokes: [Click here](https://xkcd.com/)**
 - **Learn Regex**: [Click here](learn-regex.md)
 - **Learn Markdown**: [Click here](learn-markdown.md)
+- **Learn Perl**: [Click here](learn-perl)
 - **Learn Figma**: [Click here](learn-figma.md)
 - **Learn from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
 - **Learn qutebrowser**: [Click here](qutebrowser.md)

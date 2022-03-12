@@ -10,6 +10,10 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## neoclide
+
+https://github.com/neoclide/coc.nvim
+
 ## You can suspend your vim to background anytime and use original terminal
 
 Use `ctrl+z` to suspend vim, and use fg to go back to vim anytime you want. [source](https://stackoverflow.com/a/1879239/10012446)
