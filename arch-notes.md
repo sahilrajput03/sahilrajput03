@@ -12,7 +12,7 @@
 
 ```bash
 sudo pacman -S jq
-# it is a json modifying tool.
+# it is a json modifying tool. (21.5k stars on github)
 
 # Usage:
 # Chek out @ https://jqplay.org/#
