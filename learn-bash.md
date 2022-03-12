@@ -4,6 +4,20 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## using `column` to tool
+
+This can be helpful to align unaligned column from some file
+
+```bash
+cat data.dat
+1 3 3
+3    5 44
+
+column -t data.dat
+1  3  3
+3  5  44
+```
+
 ## Avail all your aliases and funcion in bash scripts
 
 You need to use below commands. **FYI: You can use place these commands before the interactive shell return statement in your .bashrc file as well for ONE TIME SOLUTION.**

@@ -8,6 +8,33 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install `kvm`
+
+```bash
+# Follow article from: https://linuxhint.com/install_configure_kvm_archlinux/
+
+
+# Then you can open virt-manager
+sudo virt-maanger
+# NOTE SUDO IS IMPORTANT!
+
+# To free your mouse from the virtmanager, you may use `ctrl+alt` combination. YO!
+
+# Issue in setting the network for the image while making virtual machine?
+# Like as mentioned here: https://github.com/kubernetes/minikube/issues/828
+# BUT WHAT WORKED FOR ME IS, this: https://github.com/kubernetes/minikube/issues/828#issuecomment-981267700
+```
+
+## installed `jq`
+
+```bash
+sudo pacman -S jq
+# it is a json modifying tool. (21.5k stars on github)
+
+# Usage:
+# Chek out @ https://jqplay.org/#
+```
+
 ## installed `perf`
 
 System level benchamarking tool (missing semester - lecture 11)
