@@ -16,8 +16,12 @@ sudo pacman -S sshfs
 # 4.5k stars @github: https://github.com/libfuse/sshfs
 
 # Usage:
+# Mounting:
 sshfs myuser@mycomputer:/remote/path /local/path -C -p 9876
 
+# Unmounting:
+fusermount3 -u mountpoint/
+Source: https://wiki.archlinux.org/title/SSHFS
 ```
 
 **Example test:**
@@ -43,6 +47,9 @@ touch two/file2.txt
 ls one/
 # Output:
 file1.txt  file2.txt
+
+# Unmounting
+fusermount3 -u two/
 ```
 
 ## installed `pdflatex`
