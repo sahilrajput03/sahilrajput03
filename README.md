@@ -1476,7 +1476,7 @@ Copy data to clipboard, and in terminal use
 
 - [Uses](https://reverberate.ml/uses) (Sofwares stack for windows 🥝︎ users)
 
-- [Linux Setup 💓︎](github.com/sahilrajput03/my_bin)
+- [Linux Setup 💓︎](https://github.com/sahilrajput03/my_bin)
 
 ## Codesandbox and github integrations work
 
