@@ -35,7 +35,6 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
 - **Learn qutebrowser**: [Click here](qutebrowser.md)
 - **Learn Zerodha Varasity**: [Click here](learn-zerodha-varasity.md)
-- **More thoughts:** [Click here](thoughts.md)
 - **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **React file structure: [Click here](https://react-file-structure.surge.sh/)**
