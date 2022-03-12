@@ -8,6 +8,41 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles**
 
+## installed `sshfs`
+
+```bash
+sudo pacman -S sshfs
+
+# 4.5k stars @github: https://github.com/libfuse/sshfs
+
+# Usage:
+sshfs myuser@mycomputer:/remote/path /local/path -C -p 9876
+
+```
+
+**Example test:**
+
+```bash
+mkdir one two
+ls
+# Output: 
+one  two
+
+# Mounting remote server's directory (one) to host machine (two)
+sshfs own:test/test-sshfs/one ./two
+
+# create two files
+touch one/file1.txt
+ls two/
+# Output:
+file1.txt
+touch two/file2.txt
+
+ls one/
+# Output:
+file1.txt  file2.txt
+```
+
 ## installed `pdflatex`
 
 ```bash
