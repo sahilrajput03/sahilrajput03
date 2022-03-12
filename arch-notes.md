@@ -13,8 +13,14 @@
 ```bash
 # Follow article from: https://linuxhint.com/install_configure_kvm_archlinux/
 
+
 # Then you can open virt-manager
 sudo virt-maanger
+# NOTE SUDO IS IMPORTANT!
+
+# Issue in setting the network for the image while making virtual machine?
+# Like as mentioned here: https://github.com/kubernetes/minikube/issues/828
+# BUT WHAT WORKED FOR ME IS, this: https://github.com/kubernetes/minikube/issues/828#issuecomment-981267700
 ```
 
 ## installed `jq`
