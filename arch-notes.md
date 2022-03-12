@@ -8,6 +8,16 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## installed `jq`
+
+```bash
+sudo pacman -S jq
+# it is a json modifying tool.
+
+# Usage:
+# Chek out @ https://jqplay.org/#
+```
+
 ## installed `perf`
 
 System level benchamarking tool (missing semester - lecture 11)
