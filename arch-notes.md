@@ -17,6 +17,7 @@ sudo pacman -S perf
 
 # Usage:
 perf stat ls
+# Source: https://www.brendangregg.com/perf.html
 ```
 
 ## installed `sshfs`
