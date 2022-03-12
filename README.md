@@ -1,4 +1,4 @@
-# 🤺︎ Hi there 👋 Trying what I can !
+# 🤺︎ Hi there 👋 Trying what I can ! ![](https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif)
 
 ```bash
 echo Hello world! > /dev/null
