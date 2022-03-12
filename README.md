@@ -18,7 +18,6 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## References:
 
-- **Ask me anything**: [Click here](https://github.com/sahilrajput03/askMeAnything)
 - **Acronyms**: [Click here](acroynms.md)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
@@ -46,6 +45,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - [Learn Photoshop ?](learn-photoshop.md)
 - **Why telegram (not whatsapp): [Click here](why-telegram.md)**
 - **Learn gmail**: [Click here](learn-gmail.md)
+- **Ask me anything**: [Click here](https://github.com/sahilrajput03/askMeAnything)
 
 **Why do one need a mock testing? :** [Click here to know](https://youtu.be/_Ms1Z4xfqv4?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&t=2287).
 
