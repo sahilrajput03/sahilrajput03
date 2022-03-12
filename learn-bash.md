@@ -4,6 +4,21 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Avail all your aliases and funcion in bash scripts
+
+You need to use below commands. **FYI: You can use place these commands before the interactive shell return statement in your .bashrc file as well for ONE TIME SOLUTION.**
+
+```bash
+#!/bin/bash
+# file myscript.sh
+source ~/.bash_aliases
+source ~/.bash_functions
+shopt -s expand_aliases
+
+### now you can access all your aliaes and funcions below:
+...
+```
+
 ## Running any bash script interactively
 
 ```bash
