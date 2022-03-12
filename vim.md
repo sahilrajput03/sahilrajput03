@@ -10,9 +10,13 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## move older cursor location and then go forward to next cursor locations
+
+`ctrl+o` moves cursor to backward location and `ctrl+i` moves cursor to forward location.
+
 ## neoclide
 
-https://github.com/neoclide/coc.nvim
+https://github.com/neoclide/coc.nvim : 19k stars @ github
 
 ## You can suspend your vim to background anytime and use original terminal
 
