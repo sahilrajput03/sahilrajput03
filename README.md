@@ -22,7 +22,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Acronyms**: [Click here](acroynms.md)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
-- **Book logs**: [Click here](./book-logs/)
+- **Book logs**: [Click here](./book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses**: [Click here](courses-list.md).
 - **Enlightment:** [Cick here](enlightenment.md)
