@@ -18,6 +18,8 @@
 sudo virt-maanger
 # NOTE SUDO IS IMPORTANT!
 
+# To free your mouse from the virtmanager, you may use `ctrl+alt` combination. YO!
+
 # Issue in setting the network for the image while making virtual machine?
 # Like as mentioned here: https://github.com/kubernetes/minikube/issues/828
 # BUT WHAT WORKED FOR ME IS, this: https://github.com/kubernetes/minikube/issues/828#issuecomment-981267700
