@@ -317,3 +317,17 @@ Solution A: You can simply have the prefix key for the local machine and the rem
 
 Solution B: You can send detach binding to remote ssh's tmux(when you have same prefix for both host and remote) by `prefix prefix d` so this will work good as well, but SOLUTION A is so good to work say when you want to use prefix for all other tasks say creating new windows and panes all the time. SO only use SOLUTION-B IN RARE TIMES ONLY.
 TESTED: SOLUTION-B works good but as discussed it gets very weirder to use tmux this way!
+
+
+# local and remote port forwarding
+
+```bash
+Host deb
+	User array
+	HostName 192.168.122.245
+	RemoteForward 8090 localhost:81
+	LocalForward 8089 localhost:80
+```
+
+So with this on local computer you can access remote's 80 port @ 8089 on local system.
+Also, you can access local's 81 port on remote's 8090 port.
