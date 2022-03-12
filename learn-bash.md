@@ -8,6 +8,8 @@
 
 You need to use below commands. **FYI: You can use place these commands before the interactive shell return statement in your .bashrc file as well for ONE TIME SOLUTION.**
 
+Source: https://unix.stackexchange.com/a/1498/504112
+
 ```bash
 #!/bin/bash
 # file myscript.sh
