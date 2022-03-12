@@ -18,38 +18,39 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## References:
 
-- **Acronyms**: [Click here](acroynms.md)
+- **Acronyms:** [Click here](acroynms.md)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
-- **Book logs**: [Click here](./book-logs/README.md)
+- **Book logs:** [Click here](./book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses**: [Click here](courses-list.md).
 - **Enlightment:** [Cick here](enlightenment.md)
 - **Hindi:** [Click here](learn-hindi.md)
-- **Jokes: [Click here](https://xkcd.com/)**
-- **Learn Regex**: [Click here](learn-regex.md)
-- **Learn Markdown**: [Click here](learn-markdown.md)
-- **Learn Perl**: [Click here](learn-perl)
-- **Learn Figma**: [Click here](learn-figma.md)
-- **Learn from State of Javascript 2021**: [Click here](learn-state-of-javascript.md)
-- **Learn qutebrowser**: [Click here](qutebrowser.md)
-- **Learn Zerodha Varasity**: [Click here](learn-zerodha-varasity.md)
-- **Prime Resources - Javascript**: [Click here](prime-resources-js.md)
+- **Jokes: **[Click here](https://xkcd.com/)
+- **Learn Regex:** [Click here](learn-regex.md)
+- **Learn Markdown:** [Click here](learn-markdown.md)
+- **Learn Perl:** [Click here](learn-perl)
+- **Learn Figma:** [Click here](learn-figma.md)
+- **Learn from State of Javascript 2021:** [Click here](learn-state-of-javascript.md)
+- **Learn qutebrowser:** [Click here](qutebrowser.md)
+- **Learn Zerodha Varasity:** [Click here](learn-zerodha-varasity.md)
+- **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **React file structure: [Click here](https://react-file-structure.surge.sh/)**
-- **Thoughts, Principles**: [Click here](thoughts-principles.md)
+- **React file structure: ** [Click here](https://react-file-structure.surge.sh/)
+- **Thoughts, Principles:** [Click here](thoughts-principles.md)
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](vim.md)
 - **Vscode Settings:** [Click here](vscode-settings.md)
 - [Why DSA based interviews are stupid ?](dsa.md)
-- [Learn Photoshop ?](learn-photoshop.md)
-- **Why telegram (not whatsapp): [Click here](why-telegram.md)**
-- **Learn gmail**: [Click here](learn-gmail.md)
-- **Ask me anything**: [Click here](https://github.com/sahilrajput03/askMeAnything)
+- **Learn Photoshop:**[Click here](learn-photoshop.md)
+- **Why telegram (not whatsapp):** [Click here](why-telegram.md)
+- **Learn gmail:** [Click here](learn-gmail.md)
+- **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 
 **Why do one need a mock testing? :** [Click here to know](https://youtu.be/_Ms1Z4xfqv4?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&t=2287).
 
 **Getting automated "Product experience insights"** using https://www.hotjar.com/
+
 - It can record user experience and you can play the user experiences as a video sort of thing.
 - It can tell what motivates the user to go into your site and dig more and what demotivates the user.
 
