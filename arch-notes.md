@@ -8,6 +8,17 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## installed `perf`
+
+System level benchamarking tool (missing semester - lecture 11)
+
+```bash
+sudo pacman -S perf
+
+# Usage:
+perf stat ls
+```
+
 ## installed `sshfs`
 
 Mount remote machine path to local directory using `sshfs`, amazing mounting tool! `sshfs` uses ssh protocol to do this. Also `sshfs` recognises your `.ssh/config` file thus you can make use of aliases very well as I have used `own` alias for my own system.
