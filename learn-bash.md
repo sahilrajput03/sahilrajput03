@@ -4,7 +4,110 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
-# random with `shuf`
+## Avail all your aliases and funcion in bash scripts
+
+You need to use below commands. **FYI: You can use place these commands before the interactive shell return statement in your .bashrc file as well for ONE TIME SOLUTION.**
+
+Source: https://unix.stackexchange.com/a/1498/504112
+
+```bash
+#!/bin/bash
+# file myscript.sh
+source ~/.bash_aliases
+source ~/.bash_functions
+shopt -s expand_aliases
+
+### now you can access all your aliaes and funcions below:
+...
+```
+
+## Running any bash script interactively
+
+```bash
+#!/bin/bash -i
+nf
+# Aliases are not expanded when the shell is not interactive, unless the expand_aliases shell option is set using shopt (see the description of shopt under SHELL BUILTIN COMMANDS below).
+## source: https://unix.stackexchange.com/a/1498/504112
+```
+
+## `tac` 
+
+Prints the content of a file exactly like cat but in reverse order of lines.
+
+```bash
+tac file
+```
+
+## `sha1sum`
+
+Source: https://askubuntu.com/a/61828/702911
+
+```bash
+# Generating sha256 for some text: source: https://stackoverflow.com/a/3358428/10012446
+echo -n foobar | sha256sum
+```
+
+FYI: `SHA-1` is less secure than `SHA-256` and `SHA-3`. Source: click [here](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html) and [here](https://shattered.it/).
+
+***Any sha1 `digest` is 40 chars long in length.***
+
+```
+echo Hello > file.txt
+sha1sum  file.txt > sha-verify
+# check files
+ls
+# Output:
+file.txt  sha-verify
+
+# view contents of `sha-verify`
+cat sha-verify
+f572d396fae9206628714fb2ce00f72e94f2258f  file.txt
+
+sha1sum -c sha-verify
+# Output:
+file.txt: OK
+```
+
+E.g.2:
+
+```
+echo hello > 1
+echo hello > 2
+
+sha 1 2 > sha-verify
+
+ls
+1  2  sha-verify
+
+cat sha-verify
+# Output:
+f572d396fae9206628714fb2ce00f72e94f2258f  1
+f572d396fae9206628714fb2ce00f72e94f2258f  2
+
+sha1sum -c sha-verify
+# Output:
+1: OK
+2: OK
+```
+
+**Also from the man pages of `sha1sum`:
+
+```txt
+BUGS
+       Do  not use the SHA-1 algorithm for security related purposes.  Instead,
+       use an  SHA-2  algorithm,  implemented  in  the  programs  sha224sum(1),
+       sha256sum(1),  sha384sum(1),  sha512sum(1), or the BLAKE2 algorithm, im‐
+       plemented in b2sum(1)
+```
+
+**Other available: `sha**` programs in linux**: 
+
+```bash
+sha<tab><tab>
+
+sha        sha1sum    sha224sum  sha256sum  sha384sum  sha512sum  shasum
+```
+## random with `shuf`
 
 ```
 # print two random files (pass `-r` option if you want lines can be repeated as well)

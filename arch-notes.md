@@ -6,7 +6,122 @@
 **FYI: `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.**
 
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
-**FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/**
+**FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
+
+## installed `perf`
+
+System level benchamarking tool (missing semester - lecture 11)
+
+```bash
+sudo pacman -S perf
+
+# Usage:
+perf stat ls
+# Source: https://www.brendangregg.com/perf.html
+```
+
+## installed `sshfs`
+
+Mount remote machine path to local directory using `sshfs`, amazing mounting tool! `sshfs` uses ssh protocol to do this. Also `sshfs` recognises your `.ssh/config` file thus you can make use of aliases very well as I have used `own` alias for my own system.
+
+#mout remote, #mount over ssh, #mimic remote folder, #mimic remote drive, #folder mount with ssh.
+
+```bash
+sudo pacman -S sshfs
+
+# 4.5k stars @github: https://github.com/libfuse/sshfs
+
+# Usage:
+# Mounting:
+sshfs myuser@mycomputer:/remote/path /local/path -C -p 9876
+
+# Unmounting:
+fusermount3 -u mountpoint/
+Source: https://wiki.archlinux.org/title/SSHFS
+```
+
+**Example test:**
+
+```bash
+mkdir one two
+ls
+# Output: 
+one  two
+
+# Mounting remote server's directory (one) to host machine (two)
+sshfs own:test/test-sshfs/one ./two
+
+# create file in remote machine:
+touch one/file1.txt
+ls two/
+# Output:
+file1.txt
+
+# create file in host machine:
+touch two/file2.txt
+
+ls one/
+# Output:
+file1.txt  file2.txt
+
+# Unmounting
+fusermount3 -u two/
+```
+
+## installed `pdflatex`
+
+```bash
+sudo pacman -S textlive-most
+
+# Usage:
+pdflatex paper.tex
+```
+
+## installed `hyperfine` - a benchmarking tool for linux
+
+```bash
+sudo pacman -S hyperfine
+
+# Docs: https://github.com/sharkdp/hyperfine
+
+# Sample usage:
+hyperfine 'sleep 0.3'
+hyperfine --runs 5 'sleep 0.3'
+
+# If you want to compare the runtimes of different programs, you can pass multiple commands:
+hyperfine 'hexdump file' 'xxd file'
+
+### warmup and cold runs: https://github.com/sharkdp/hyperfine#warmup-runs-and-preparation-commands
+
+# Warmup runs and preparation commands: For programs that perform a lot of disk I/O, the benchmarking results can be heavily influenced by disk caches and whether they are cold or warm. If you want to run the benchmark on a warm cache, you can use the -w/--warmup option to perform a certain number of program executions before the actual benchmark:
+hyperfine --warmup 3 'grep -R TODO *'
+
+# Conversely, if you want to run the benchmark for a cold cache, you can use the -p/--prepare option to run a special command before each timing run. For example, to clear harddisk caches on Linux. Conversely, if you want to run the benchmark for a cold cache, you can use the -p/--prepare option to run a special command before each timing run. For example, to clear harddisk caches on Linux, you can run
+hyperfine --prepare 'sync; echo 3 | sudo tee /proc/sys/vm/drop_caches' 'grep -R TODO *'
+```
+
+## installed `ncdu` to know the disk usage of the system
+
+```
+sudo pacman -S ncdu
+
+# Usage:
+ncdu
+
+
+#FYI: It is a similar tool to du
+#FYI: du stands for `disk usage`
+```
+
+## installed `bash-git-prmpt` (but not configured, coz it clutters up shell)
+
+Source: https://github.com/magicmonty/bash-git-prompt
+
+```bash
+git clone https://aur.archlinux.org/packages/bash-git-prompt
+cd bash-git-prompt
+makepks -si
+```
 
 ## installed `rsync`
 
@@ -375,6 +490,9 @@ sudo pacman -S neovim
 ```bash
 sudo pacman -S tmux
 # Get tmux config file from: https://github.com/sahilrajput03/arch_os/blob/main/.tmux.conf
+
+# TODO: Good tmux blog(suggested by missing-semester): https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
+# TODO: Good tmux blog (suggested by missing-semester): https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
 
 # INTERESTING: 
 # To switch to previous active window 

@@ -48,6 +48,8 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Why telegram (not whatsapp): [Click here](why-telegram.md)**
 - **Learn gmail**: [Click here](learn-gmail.md)
 
+**Why do one need a mock testing? :** [Click here to know](https://youtu.be/_Ms1Z4xfqv4?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&t=2287).
+
 **Getting automated "Product experience insights"** using https://www.hotjar.com/
 - It can record user experience and you can play the user experiences as a video sort of thing.
 - It can tell what motivates the user to go into your site and dig more and what demotivates the user.
