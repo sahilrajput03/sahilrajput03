@@ -10,6 +10,10 @@
 
 ## installed `sshfs`
 
+Mount remote machine path to local directory using `sshfs`, amazing mounting tool! `sshfs` uses ssh protocol to do this. Also `sshfs` recognises your `.ssh/config` file thus you can make use of aliases very well as I have used `own` alias for my own system.
+
+#mout remote, #mount over ssh, #mimic remote folder, #mimic remote drive, #folder mount with ssh.
+
 ```bash
 sudo pacman -S sshfs
 
