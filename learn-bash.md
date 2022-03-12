@@ -4,6 +4,15 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Running any bash script interactively
+
+```bash
+#!/bin/bash -i
+nf
+# Aliases are not expanded when the shell is not interactive, unless the expand_aliases shell option is set using shopt (see the description of shopt under SHELL BUILTIN COMMANDS below).
+## source: https://unix.stackexchange.com/a/1498/504112
+```
+
 ## `tac` 
 
 Prints the content of a file exactly like cat but in reverse order of lines.
