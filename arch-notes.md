@@ -14,7 +14,7 @@
 # Follow article from: https://linuxhint.com/install_configure_kvm_archlinux/
 
 # Then you can open virt-manager
-virt-maanger
+sudo virt-maanger
 ```
 
 ## installed `jq`
