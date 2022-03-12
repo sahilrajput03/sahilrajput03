@@ -8,6 +8,15 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install `kvm`
+
+```bash
+# Follow article from: https://linuxhint.com/install_configure_kvm_archlinux/
+
+# Then you can open virt-manager
+virt-maanger
+```
+
 ## installed `jq`
 
 ```bash
