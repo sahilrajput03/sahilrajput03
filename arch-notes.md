@@ -27,6 +27,32 @@ sudo virt-maanger
 # BUT WHAT WORKED FOR ME IS, this: https://github.com/kubernetes/minikube/issues/828#issuecomment-981267700
 ```
 
+### managing `kvm`'s  vm with cli tool
+
+```bash
+# IMP: You must precede virsh with `sudo`, else it won't work idk why!
+
+# List all vms
+virsh list --all
+
+# List all vms including stopped vms
+virsh list --state-shutoff
+
+## For example sake in below examples, consider debian11 as my vm name which i got from above list of vms-
+
+# start vm
+virsh start debian11
+
+# stop vm
+virst shutdown debian11
+
+# FOR MORE HELP AND OPTIONS:
+virsh shutdown --help
+virsh start --help
+
+# Descent article and source of above info: https://kifarunix.com/start-and-stop-kvm-virtual-machines-from-command-line/
+```
+
 ## installed `jq`
 
 ```bash
