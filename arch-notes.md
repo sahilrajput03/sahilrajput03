@@ -44,7 +44,7 @@ virsh list --state-shutoff
 virsh start debian11
 
 # stop vm
-virst shutdown debian11
+virsh shutdown debian11
 
 # FOR MORE HELP AND OPTIONS:
 virsh shutdown --help
