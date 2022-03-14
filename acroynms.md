@@ -7,6 +7,6 @@
 
 **TIL**: *Today I Learned.*
 
-**R.S.V.P.:** *comes from the French phrase répondez s'il vous plaît, which means "please reply."*
+**R.S.V.P.:** *please reply (French phrase répondez s'il vous plaît)*
 
 **`it`**  jest means ***individual test*** in jest/other testing libraries ~ *fireshipio*
