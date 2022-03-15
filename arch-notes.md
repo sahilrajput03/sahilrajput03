@@ -556,6 +556,17 @@ ctrl+t p
 #Create new window (WHATS SPECIAL? *THIS CREATES TERMINAL IN SAME FOLDER, yo!)
 ctrl+t n
 
+## convert two horizontal into vertical layout
+ctrl+t alt+1 # Even horizontal
+ctrl+t alt+2 # Even vertical
+
+ctrl+t alt+3 # main horizontal
+ctrl+t alt+4 # main vertical
+src: https://superuser.com/a/493057/776589
+
+ Arrange panes in one of the five preset layouts: even-
+            horizontal, even-vertical, main-horizontal, main-
+            vertical, or tiled.
 
 
 
