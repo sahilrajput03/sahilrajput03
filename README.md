@@ -140,7 +140,8 @@ lsg -E '*json'
 REMEMBERING SHORTFORM: **HI** (**h**ow->**i**mperative), so declarative must a **what**.
 
 ```
-FYI:
+WORD MEANINGS:
+==============
 imperative (dictionary):
 1. of vital importance; crucial. E.g., "immediate action was imperative"
 2. giving an authoritative command; peremptory.
@@ -148,7 +149,6 @@ imperative (dictionary):
 declarative
 1. of the nature of or making a declaration.
 "declarative statements"
-
 2. (COMPUTING)
 denoting high-level programming languages which can be used to solve problems without requiring the programmer to specify an exact procedure to be followed.
 
