@@ -549,6 +549,9 @@ sudo pacman -S tmux
 # TODO: Good tmux blog(suggested by missing-semester): https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
 # TODO: Good tmux blog (suggested by missing-semester): https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
 
+## You can use `shift+right click` to get default rightclick terminal behaviour. YO!!
+# src: https://superuser.com/a/1543302/776589
+
 # INTERESTING: 
 # To switch to previous active window 
 ctrl+t p
