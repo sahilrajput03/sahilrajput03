@@ -27,7 +27,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Courses**: [Click here](courses-list.md).
 - **Enlightment:** [Cick here](enlightenment.md)
 - **Hindi:** [Click here](learn-hindi.md)
-- **Jokes: **[Click here](https://xkcd.com/)
+- **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Regex:** [Click here](learn-regex.md)
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
