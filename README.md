@@ -48,6 +48,13 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn gmail:** [Click here](learn-gmail.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 
+**bus factor**: *[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Bus_factor)*
+
+The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase "in case they get hit by a bus". It is also known as the bus problem, lottery factor, truck factor,[1] bus/truck number, or lorry factor. 
+
+**In a sentence** (from devopsiwthkubernetes): *If your files don't tell Kubernetes and your team what the state should be and instead you run commands that edit the state you are just lowering the bus factor for your cluster and application.*
+
+
 **Why do one need a mock testing? :** [Click here to know](https://youtu.be/_Ms1Z4xfqv4?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&t=2287).
 
 **Getting automated "Product experience insights"** using https://www.hotjar.com/
