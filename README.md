@@ -768,7 +768,7 @@ Example:
 ```yaml
 indian:
   - 1
-  - 2
+  - '2'
   - sahil: 5
     rohit: 10
     admins:
@@ -785,7 +785,7 @@ converts to:
 {
   "indian": [
     1,
-    2,
+    "2",
     {
       "sahil": 5,
       "rohit": 10,
