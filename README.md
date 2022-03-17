@@ -1152,6 +1152,9 @@ ctrl + f : jump forward a char
 ctrl + b : jump back a char
 
 #alt+l : Also jumps forward a word.
+
+### Use alt+backspace to delete PART of last word
+### Use ctrl+backspace to delete last word COMPLETELY.
 ```
 
 `ctrl+d` closes the terminal itself.
