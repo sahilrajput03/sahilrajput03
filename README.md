@@ -761,6 +761,47 @@ Why use `front-matter` package which is not much popular and simply use some oth
 
 ## Yaml curiosity ?
 
+**FYI: Yaml to json converter**:  [onlineyamltools.com](https://www.convertjson.com/yaml-to-json.htm)
+
+Example:
+
+```yaml
+indian:
+  - 1
+  - 2
+  - sahil: 5
+    rohit: 10
+    admins:
+      aman: 10
+      alergy:
+      - dust
+      - particles
+india: 10
+```
+
+converts to:
+
+```json
+{
+  "indian": [
+    1,
+    2,
+    {
+      "sahil": 5,
+      "rohit": 10,
+      "admins": {
+        "aman": 10,
+        "alergy": [
+          "dust",
+          "particles"
+        ]
+      }
+    }
+  ],
+  "india": 10
+}
+```
+
 [yaml.org](https://yaml.org/) - Yaml official site.
 
 Q. What is the need of `-` when we can have something like
