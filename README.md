@@ -768,7 +768,13 @@ Example:
 ```yaml
 indian:
   - 1
+  - 2 > 3
   - '2'
+  - true
+  - 'true'
+  - truthy
+  - null
+  - 'null'
   - sahil: 5
     rohit: 10
     admins:
@@ -785,7 +791,13 @@ converts to:
 {
   "indian": [
     1,
+    "2 > 3",
     "2",
+    true,
+    "true",
+    "truthy",
+    null,
+    "null",
     {
       "sahil": 5,
       "rohit": 10,
