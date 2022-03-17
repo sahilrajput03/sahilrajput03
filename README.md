@@ -775,7 +775,8 @@ indian:
   - truthy
   - null
   - 'null'
-  - sahil: 5
+  - cost: 5
+  - otherPeople:
     rohit: 10
     admins:
       aman: 10
@@ -799,7 +800,10 @@ converts to:
     null,
     "null",
     {
-      "sahil": 5,
+      "cost": 5
+    },
+    {
+      "otherPeople": null,
       "rohit": 10,
       "admins": {
         "aman": 10,
