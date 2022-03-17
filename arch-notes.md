@@ -8,6 +8,16 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install `lolcat`
+
+```bash
+sudo pacman -S lolcat
+
+# Usage:
+lolcat myFile
+# Output: lovely rainbow text!
+```
+
 ## install `kvm`
 
 TIP: You can define to set any virtual machine to be started on boot and that would be cool, though!
