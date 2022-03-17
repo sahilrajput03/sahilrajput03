@@ -10,6 +10,13 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## zoom in and out a single window in vim
+
+`<leader>z` to zoom in.
+`<leader>o` to zoom out.
+
+I added the bindings for the same in my `~/nvim/init.vim` file.
+
 ## move older cursor location and then go forward to next cursor locations
 
 `ctrl+o` moves cursor to backward location and `ctrl+i` moves cursor to forward location.
