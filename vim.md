@@ -10,6 +10,10 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## search variable from the file itself in the file ?
+
+Use `#` to search the variable under cursor.
+
 ## zoom in and out a single window in vim
 
 `<leader>z` to zoom in.
