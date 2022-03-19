@@ -56,6 +56,7 @@ ALL YOU NEED TO DO IS:
 
 - Select some text and select ***Read selection in ShiftReader*** in the menu.
 - OR you may click on the blue square box icon on in the extension to activate it.
+- TIP: Use up/down arrow to increase/decrease speed.
 
 other tools if you wanna try:
 
