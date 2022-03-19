@@ -50,7 +50,12 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Fast reading
 
-**[Shift Reader](https://chrome.google.com/webstore/detail/shiftreader-speed-read-th/clcbpepidaphghjahkionjhffkolcpek/related?hl=en)**: An amazing fast text reader tool as chrome extension. ALL YOU NEED TO DO IS: select some text and select ***Read selection in ShiftReader*** in the menu.
+**[Shift Reader](https://chrome.google.com/webstore/detail/shiftreader-speed-read-th/clcbpepidaphghjahkionjhffkolcpek/related?hl=en)**: An amazing fast text reader tool as chrome extension.
+
+ALL YOU NEED TO DO IS:
+
+- Select some text and select ***Read selection in ShiftReader*** in the menu.
+- OR you may click on the blue square box icon on in the extension to activate it.
 
 other tools if you wanna try:
 
