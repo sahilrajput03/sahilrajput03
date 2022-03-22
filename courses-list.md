@@ -22,6 +22,8 @@
 - Kent C. Dodds Talks - [Click here](https://www.youtube.com/playlist?list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf)
 - Freelancing - [Click here](https://studywebdevelopment.com/freelancing.html?affiliate_id=406680691) ~Recommended by Kevin Powell.
 - Pro Git: [Click here](https://git-scm.com/book/en/v2)
+- From helsinki: https://studies.cs.helsinki.fi/stats/
+
 **Other paid coursse**
 
 - ?
