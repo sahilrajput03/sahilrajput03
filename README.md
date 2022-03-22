@@ -48,6 +48,10 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn gmail:** [Click here](learn-gmail.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 
+## downloading image with axios
+
+Src: https://futurestud.io/tutorials/download-files-images-with-axios-in-node-js
+
 ## Fast reading
 
 **[Shift Reader](https://chrome.google.com/webstore/detail/shiftreader-speed-read-th/clcbpepidaphghjahkionjhffkolcpek/related?hl=en)**: An amazing fast text reader tool as chrome extension.
