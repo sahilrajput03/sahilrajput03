@@ -559,6 +559,8 @@ sudo pacman -S tmux
 # TODO: Good tmux blog(suggested by missing-semester): https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
 # TODO: Good tmux blog (suggested by missing-semester): https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
 
+## You can swap a window pane with the upward pane in the cyclic order with ctrl+t { or downward with ctrl+t }
+
 ## You can attach to all the available tmux sessions currently alive via: ctrl+t ( or ctrl+t )
 
 ## You can use `shift+right click` to get default rightclick terminal behaviour. YO!!
