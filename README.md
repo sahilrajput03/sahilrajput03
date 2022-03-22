@@ -48,6 +48,10 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn gmail:** [Click here](learn-gmail.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 
+## send a file with express route
+
+https://stackoverflow.com/a/17516733/10012446
+
 ## downloading image with axios
 
 Src: https://futurestud.io/tutorials/download-files-images-with-axios-in-node-js
