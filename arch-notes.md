@@ -8,6 +8,14 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install `yq` (a `jq` like parser but for yaml, xml, etc)
+
+Source: https://github.com/kislyuk/yq
+
+```bash
+sudo pacman -S yq
+```
+
 ## install `lolcat`
 
 ```bash
