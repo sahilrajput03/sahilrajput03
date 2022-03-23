@@ -62,9 +62,10 @@ Src: https://futurestud.io/tutorials/download-files-images-with-axios-in-node-js
 
 ALL YOU NEED TO DO IS:
 
-- Select some text and select ***Read selection in ShiftReader*** in the menu.
-- OR you may click on the blue square box icon on in the extension to activate it.
-- TIP: Use up/down arrow to increase/decrease speed.
+- Select some text and select **Read selection in ShiftReader** in the menu.
+- OR you may click on the **blue square box icon on in the extension to activate** it.
+- You can use **up(increase WPM by 50)/down(decrease WPM by 50) arrows** as well.
+- You can use mouse to **click a word to start reading from there.**
 
 other tools if you wanna try:
 
