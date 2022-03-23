@@ -14,6 +14,17 @@ Source: https://github.com/kislyuk/yq
 
 ```bash
 sudo pacman -S yq
+
+# Usage:
+yq .apiVersion persistentvolume.yaml
+# <<<outputs that property value IN JSON to stdoutput here>>>
+
+yq .spec persistentvolume.yaml
+# <<<outputs that property value IN JSON to stdoutput here>>>
+
+# convert complete file yaml to json, using `.` selector
+ yq . persistentvolume.yaml
+## <<<<outputs json to stdout here>>>
 ```
 
 ## install `lolcat`
