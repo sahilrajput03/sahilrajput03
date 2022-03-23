@@ -37,7 +37,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Zerodha Varasity:** [Click here](learn-zerodha-varasity.md)
 - **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **React file structure: ** [Click here](https://react-file-structure.surge.sh/)
+- **React file structure:** [Click here](https://react-file-structure.surge.sh/)
 - **Thoughts, Principles:** [Click here](thoughts-principles.md)
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](vim.md)
