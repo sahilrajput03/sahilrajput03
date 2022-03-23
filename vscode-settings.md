@@ -26,6 +26,7 @@ Source `/home/array/.config/Code/User/settings.json`
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "editor.cursorSmoothCaretAnimation": true,
+  // Allow vscode to get capslock (to signal Esc) and respect xmodmap settings, src: https://github.com/microsoft/vscode/issues/32037#issuecomment-322042146
   "keyboard.dispatch": "keyCode",
   "update.mode": "manual",
   "javascript.updateImportsOnFileMove.enabled": "always",
