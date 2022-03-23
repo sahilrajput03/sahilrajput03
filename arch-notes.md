@@ -25,6 +25,10 @@ yq .spec persistentvolume.yaml
 # convert complete file yaml to json, using `.` selector
  yq . persistentvolume.yaml
 ## <<<<outputs json to stdout here>>>
+
+# print specific property of all array items
+yq .spec.template.spec.containers[].name deployment-persistent.yaml
+
 ```
 
 ## install `lolcat`
