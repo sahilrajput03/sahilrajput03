@@ -23,8 +23,8 @@
 - Freelancing - [Click here](https://studywebdevelopment.com/freelancing.html?affiliate_id=406680691) ~Recommended by Kevin Powell.
 - Pro Git: [Click here](https://git-scm.com/book/en/v2)
 - From helsinki: https://studies.cs.helsinki.fi/stats/
-- **Introduction to Kubernetes:** [Click here](https://www.edx.org/course/introduction-to-kubernetes)
-- **Kube by example:** [Click here](https://kubebyexample.com/)
+- Introduction to Kubernetes: [Click here](https://www.edx.org/course/introduction-to-kubernetes)
+- Kube by example: [Click here](https://kubebyexample.com/)
 
 **Other paid coursse**
 
