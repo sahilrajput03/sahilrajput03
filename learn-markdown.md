@@ -4,6 +4,12 @@
 
 ***Favourite markdown docs: https://daringfireball.net/projects/markdown/***
 
+- Using image:
+
+```
+![](image-url-here)
+```
+
 - **Headings**
 
   ```md
