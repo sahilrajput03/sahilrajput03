@@ -6,6 +6,10 @@
 
 ## print commands automatically before running them:
 
+**way0-BEST**
+
+Use manual echo logs to do it!
+
 **way1**
 
 ```
@@ -22,7 +26,7 @@ trap - DEBUG
 # DRAWBACK: trap - DEBUG is printed as well.
 ```
 
-**way3**
+**way2**
 
 ```
 set -x;
@@ -35,7 +39,7 @@ set +x;
 # DRAWBACK: set +x is printed as well.
 ```
 
-**way2**
+**way3**
 
 `-v` is move verbose
 
