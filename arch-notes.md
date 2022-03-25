@@ -8,6 +8,22 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## what is `busybox`?
+
+Awesome examplanation and usage details: https://www.youtube.com/watch?v=wWA6SvzvElU
+
+Arch package: https://archlinux.org/packages/community/x86_64/busybox/
+
+Arch wiki: https://wiki.archlinux.org/title/BusyBox
+
+Official website: https://busybox.net/
+
+tldr;
+
+- This is basically a collection of 300+ programs useful in unix, linux, bsd operating systems.
+
+- **Also, this is useful in alpine linux coz if you see `ls -al /usr/bin/` you'll in see a whole bunch of executables are symlinked to `busybox` actually. So its leveraging from busy box actually.**
+
 ## install `yq` (a `jq` like parser but for yaml, xml, etc)
 
 Source: https://github.com/kislyuk/yq
