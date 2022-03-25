@@ -1,5 +1,25 @@
 # Thoughts, Principles
 
+Waqt har jakham bhar deta hain. ~ Geeta
+
+Time and tide wait for none.
+
+“A genius is the man who can do the average thing when everyone else
+around him is losing his mind.” —Napoleon
+
+"The key thing is that you must know what you are doing." ~ Paras Vashisht.
+
+If you get angry in an argument and want to shout - leave for a few minutes saying „I need some time to think about this.“ Saying sth impulsive will do much more damage than just taking a break for a short time. #Daily #Productivity #Hacks
+
+Continuous working and small 5-10 min breaks works is love.
+
+Don't use gacp, instead use gac and only once in a day push to github.
+
+Don't worry about mistakes, just keep making them.
+
+Fail fast, move fast ahead.
+
+You have to solve a problem, you can't be a problem.
 
 Foucus on one nos coz thats how it internally works, you just need need to align to it mentally.
 
@@ -9,7 +29,7 @@ Half eyes opened stops the flow of energy. Closing eyes or keeping them open hel
 
 Hand holding - extreme helping.
 
-If you dont know how to go through harsh situations well, joyfully, then you will avoid  all great possibilities of life, simply bcoz you want to avoid a little bit of difficulty. Only when you are geometrically in a certain state of congruence then you are willing to go through any situation no matter what it is. ~ @Body Postures ~ Sadugru.
+If you dont know how to go through harsh situations well, joyfully, then you will avoid all great possibilities of life, simply bcoz you want to avoid a little bit of difficulty. Only when you are geometrically in a certain state of congruence then you are willing to go through any situation no matter what it is. ~ @Body Postures ~ Sadugru.
 
 [Plug this in and keep working.](https://youtu.be/LMmuChXra_M)
 

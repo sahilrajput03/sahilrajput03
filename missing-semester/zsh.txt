@@ -7,7 +7,13 @@ make your use of the shell easier.
 echo $SHELL
 /bin/bash
 
-sudo chsh -s /usr/bin/zsh
+chsh -s /usr/bin/zsh
+chsh -s /bin/bash
+
+# change shell for a particular user
+chsh -s /bin/bash vivek
+
+# change shell for root user
 sudo chsh -s /bin/bash
 
 # Installing zsh via:
