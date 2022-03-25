@@ -8,6 +8,14 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## intall zoom
+
+```bash
+git clone https://aur.archlinux.org/zoom.git
+cd zoom
+makepkg -si
+```
+
 ## what is `busybox`?
 
 Awesome examplanation and usage details: https://www.youtube.com/watch?v=wWA6SvzvElU
