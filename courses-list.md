@@ -2,7 +2,7 @@
 
 ***All of below courses are 100% Open source(free).***
 
-*-todo~sahil: The Missing Semester of Your CS Education(MIT), Regex, DevOps with Kubernetes, FSO part 12 and part 13.*
+*-todo~sahil: DevOps with Kubernetes, FSO part 12 and part 13.*
 
 - Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
 - The Missing Semester of Your CS Education(MIT): [Click here](https://missing.csail.mit.edu/)
@@ -22,6 +22,10 @@
 - Kent C. Dodds Talks - [Click here](https://www.youtube.com/playlist?list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf)
 - Freelancing - [Click here](https://studywebdevelopment.com/freelancing.html?affiliate_id=406680691) ~Recommended by Kevin Powell.
 - Pro Git: [Click here](https://git-scm.com/book/en/v2)
+- From helsinki: https://studies.cs.helsinki.fi/stats/
+- Introduction to Kubernetes: [Click here](https://www.edx.org/course/introduction-to-kubernetes)
+- Kube by example: [Click here](https://kubebyexample.com/)
+
 **Other paid coursse**
 
 - ?

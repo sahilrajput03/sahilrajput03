@@ -4,6 +4,12 @@
 
 ***Favourite markdown docs: https://daringfireball.net/projects/markdown/***
 
+- Using image:
+
+```
+![](image-url-here)
+```
+
 - **Headings**
 
   ```md
@@ -42,9 +48,9 @@
 - **Bold**, *Italics*, ***Bold+Italics***
 
   ```md
-  *This is bold text*
+  *This is italics text*
   
-  **This is italics text**
+  **This is bold text**
   
   ***This is bold+italics text***
   ```

@@ -4,6 +4,10 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## record your terminal sessions the right way
+
+source: https://asciinema.org/
+
 ## using `column` to tool
 
 This can be helpful to align unaligned column from some file

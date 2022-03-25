@@ -8,6 +8,39 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install `yq` (a `jq` like parser but for yaml, xml, etc)
+
+Source: https://github.com/kislyuk/yq
+
+```bash
+sudo pacman -S yq
+
+# Usage:
+yq .apiVersion persistentvolume.yaml
+# <<<outputs that property value IN JSON to stdoutput here>>>
+
+yq .spec persistentvolume.yaml
+# <<<outputs that property value IN JSON to stdoutput here>>>
+
+# convert complete file yaml to json, using `.` selector
+ yq . persistentvolume.yaml
+## <<<<outputs json to stdout here>>>
+
+# print specific property of all array items
+yq .spec.template.spec.containers[].name deployment-persistent.yaml
+
+```
+
+## install `lolcat`
+
+```bash
+sudo pacman -S lolcat
+
+# Usage:
+lolcat myFile
+# Output: lovely rainbow text!
+```
+
 ## install `kvm`
 
 TIP: You can define to set any virtual machine to be started on boot and that would be cool, though!
@@ -25,6 +58,32 @@ sudo virt-maanger
 # Issue in setting the network for the image while making virtual machine?
 # Like as mentioned here: https://github.com/kubernetes/minikube/issues/828
 # BUT WHAT WORKED FOR ME IS, this: https://github.com/kubernetes/minikube/issues/828#issuecomment-981267700
+```
+
+### managing `kvm`'s  vm with cli tool
+
+```bash
+# IMP: You must precede virsh with `sudo`, else it won't work idk why!
+
+# List all vms
+virsh list --all
+
+# List all vms including stopped vms
+virsh list --state-shutoff
+
+## For example sake in below examples, consider debian11 as my vm name which i got from above list of vms-
+
+# start vm
+virsh start debian11
+
+# stop vm
+virsh shutdown debian11
+
+# FOR MORE HELP AND OPTIONS:
+virsh shutdown --help
+virsh start --help
+
+# Descent article and source of above info: https://kifarunix.com/start-and-stop-kvm-virtual-machines-from-command-line/
 ```
 
 ## installed `jq`
@@ -523,6 +582,13 @@ sudo pacman -S tmux
 # TODO: Good tmux blog(suggested by missing-semester): https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
 # TODO: Good tmux blog (suggested by missing-semester): https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
 
+## You can swap a window pane with the upward pane in the cyclic order with ctrl+t { or downward with ctrl+t }
+
+## You can attach to all the available tmux sessions currently alive via: ctrl+t ( or ctrl+t )
+
+## You can use `shift+right click` to get default rightclick terminal behaviour. YO!!
+# src: https://superuser.com/a/1543302/776589
+
 # INTERESTING: 
 # To switch to previous active window 
 ctrl+t p
@@ -530,6 +596,17 @@ ctrl+t p
 #Create new window (WHATS SPECIAL? *THIS CREATES TERMINAL IN SAME FOLDER, yo!)
 ctrl+t n
 
+## convert two horizontal into vertical layout
+ctrl+t alt+1 # Even horizontal
+ctrl+t alt+2 # Even vertical
+
+ctrl+t alt+3 # main horizontal
+ctrl+t alt+4 # main vertical
+src: https://superuser.com/a/493057/776589
+
+ Arrange panes in one of the five preset layouts: even-
+            horizontal, even-vertical, main-horizontal, main-
+            vertical, or tiled.
 
 
 

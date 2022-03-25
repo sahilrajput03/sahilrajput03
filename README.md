@@ -1,5 +1,7 @@
 # 🤺︎ Hi there 👋 Trying what I can ! ![](https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif)
 
+Unwinding is hot no-sugar coffee beated with coco powder!
+
 ```bash
 echo Hello world! > /dev/null
 cat /dev/null
@@ -18,6 +20,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## References:
 
+- **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - **Acronyms:** [Click here](acroynms.md)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
@@ -26,7 +29,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Courses**: [Click here](courses-list.md).
 - **Enlightment:** [Cick here](enlightenment.md)
 - **Hindi:** [Click here](learn-hindi.md)
-- **Jokes: **[Click here](https://xkcd.com/)
+- **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Regex:** [Click here](learn-regex.md)
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
@@ -37,7 +40,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Urdu:** [Click here](./learn-urdu.md)
 - **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **React file structure: ** [Click here](https://react-file-structure.surge.sh/)
+- **React file structure:** [Click here](https://react-file-structure.surge.sh/)
 - **Thoughts, Principles:** [Click here](thoughts-principles.md)
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](vim.md)
@@ -47,6 +50,40 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
+
+## send a file with express route
+
+https://stackoverflow.com/a/17516733/10012446
+
+## downloading image with axios
+
+Src: https://futurestud.io/tutorials/download-files-images-with-axios-in-node-js
+
+## Fast reading
+
+**[Shift Reader](https://chrome.google.com/webstore/detail/shiftreader-speed-read-th/clcbpepidaphghjahkionjhffkolcpek/related?hl=en)**: An amazing fast text reader tool as chrome extension.
+
+ALL YOU NEED TO DO IS:
+
+- Select some text and select **Read selection in ShiftReader** in the menu.
+- OR you may click on the **blue square box icon on in the extension to activate** it.
+- You can use **up(increase WPM by 50)/down(decrease WPM by 50) arrows** as well.
+- You can use mouse to **click a word to start reading from there.**
+
+other tools if you wanna try:
+
+1. [ReadFast powered by Spritz](https://chrome.google.com/webstore/detail/readfast-powered-by-sprit/blbpafkooanpdcdcndkcckblghjddpke/related?hl=en)
+2. [Read fast - Speed Reading Extension](https://chrome.google.com/webstore/detail/read-fast-speed-reading-e/pnffahcjemjliibgcafjpklgmbeknldi?hl=en) (haven't tried at all)
+3. Article on fast reading apps [here](https://www.readlax.com/blog/en/5_speed_reading_extensions_chrome).
+
+The coolest thing about this is that we can easily read pds with this extension, we only need to select a piece of text (say ten pages) and then right click and select 
+
+**bus factor**: *[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Bus_factor)*
+
+The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase "in case they get hit by a bus". It is also known as the bus problem, lottery factor, truck factor,[1] bus/truck number, or lorry factor. 
+
+**In a sentence** (from devopsiwthkubernetes): *If your files don't tell Kubernetes and your team what the state should be and instead you run commands that edit the state you are just lowering the bus factor for your cluster and application.*
+
 
 **Why do one need a mock testing? :** [Click here to know](https://youtu.be/_Ms1Z4xfqv4?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&t=2287).
 
@@ -137,9 +174,26 @@ lsg -E '*json'
 
 ## Declarative vs. imperative
 
-Imperative: In computer science, imperative programming is a programming paradigm that uses statements that change a program's state. In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative programming focuses on describing how a program operates. The term is often used in contrast to declarative programming, which focuses on what the program should accomplish without specifying all the details of how the program should achieve the result.
+REMEMBERING SHORTFORM: **HI** (**h**ow->**i**mperative), so declarative must a **what**.
 
-Declarative: In computer science, declarative programming is a programming paradigm—a style of building the structure and elements of computer programs—that expresses the logic of a computation without describing its control flow. Many languages that apply this style attempt to minimize or eliminate side effects by describing what the program must accomplish in terms of the problem domain, rather than describe how to accomplish it as a sequence of the programming language primitives (the how being left up to the language's implementation). This is in contrast with imperative programming, which implements algorithms in explicit steps.
+```
+WORD MEANINGS:
+==============
+imperative (dictionary):
+1. of vital importance; crucial. E.g., "immediate action was imperative"
+2. giving an authoritative command; peremptory.
+
+declarative
+1. of the nature of or making a declaration.
+"declarative statements"
+2. (COMPUTING)
+denoting high-level programming languages which can be used to solve problems without requiring the programmer to specify an exact procedure to be followed.
+
+```
+
+**Imperative(HOW)**: In computer science, imperative programming is a programming paradigm that uses statements that change a program's state. In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative programming focuses on describing ***how*** a program operates. The term is often used in contrast to declarative programming, which focuses on what the program should accomplish without specifying all the details of how the program should achieve the result. ***Exampe of imperative programming, is like we defined algorithms in explicit steps. ~Sahil***
+
+**Declarative (WHAT)**: In computer science, declarative programming is a programming paradigm—a style of building the structure and elements of computer programs—that expresses the logic of a computation without describing its control flow. Many languages that apply this style attempt to minimize or eliminate side effects by describing ***what*** the program must accomplish in terms of the problem domain, rather than describe how to accomplish it as a sequence of the programming language primitives (the how being left up to the language's implementation). ***This is in contrast with imperative programming, which implements algorithms in explicit steps.***
 
 ## Referencial links in markdown
 
@@ -737,6 +791,63 @@ Why use `front-matter` package which is not much popular and simply use some oth
 
 ## Yaml curiosity ?
 
+**FYI: Yaml to json converter**:  [onlineyamltools.com](https://www.convertjson.com/yaml-to-json.htm)
+
+Example:
+
+```yaml
+indian:
+  - 1
+  - 2 > 3
+  - '2'
+  - true
+  - 'true'
+  - truthy
+  - null
+  - 'null'
+  - cost: 5
+  - otherPeople:
+    rohit: 10
+    admins:
+      aman: 10
+      alergy:
+      - dust
+      - particles
+india: 10
+```
+
+converts to:
+
+```json
+{
+  "indian": [
+    1,
+    "2 > 3",
+    "2",
+    true,
+    "true",
+    "truthy",
+    null,
+    "null",
+    {
+      "cost": 5
+    },
+    {
+      "otherPeople": null,
+      "rohit": 10,
+      "admins": {
+        "aman": 10,
+        "alergy": [
+          "dust",
+          "particles"
+        ]
+      }
+    }
+  ],
+  "india": 10
+}
+```
+
 [yaml.org](https://yaml.org/) - Yaml official site.
 
 Q. What is the need of `-` when we can have something like
@@ -1071,6 +1182,9 @@ ctrl + f : jump forward a char
 ctrl + b : jump back a char
 
 #alt+l : Also jumps forward a word.
+
+### Use alt+backspace to delete PART of last word
+### Use ctrl+backspace to delete last word COMPLETELY.
 ```
 
 `ctrl+d` closes the terminal itself.
