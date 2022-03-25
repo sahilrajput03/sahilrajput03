@@ -53,7 +53,7 @@ set +x;
 
 **way3**
 
-`-v` is move verbose
+`-v` is move verbose as compared to `-x`
 
 ```
 set -v;
