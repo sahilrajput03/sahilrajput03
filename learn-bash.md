@@ -22,7 +22,7 @@ trap - DEBUG
 # DRAWBACK: trap - DEBUG is printed as well.
 ```
 
-**way2**
+**way3**
 
 ```
 set -x;
