@@ -4,6 +4,18 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Make script's realative path work even when the script is executed from different path
+
+You can make use of:
+
+```
+lines=$(wc -l $(dirname $0)/must-can |  awk '{print $1}')
+# src: vi ~/scripts-in-use/td/s.sh
+
+# Here $dirname $0 will get the path of the script and then we append the relative path for any path relative to the script we are executing.
+# It works good!!
+```
+
 ## print commands automatically before running them:
 
 **way0-BEST**
