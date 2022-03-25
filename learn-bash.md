@@ -66,8 +66,10 @@ set +v;
 # DRAWBACK: set +v is printed as well.
 ```
 
-**way3**
+**way4**
+
 We can use `-x` or `-v` when calling the shebang in any script as well:
+
 ```bash
 #!/bin/bash -x
 # or
