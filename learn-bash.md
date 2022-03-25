@@ -4,6 +4,52 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## print commands automatically before running them:
+
+**way1**
+
+```
+myFun(){
+trap 'echo "+ $BASH_COMMAND"' DEBUG
+# my commands here..
+# my commands here..
+
+trap - DEBUG
+}
+
+# THIS WORKS GOOD THOUGH!
+# trap - DEBUG is to reset the environment.
+# DRAWBACK: trap - DEBUG is printed as well.
+```
+
+**way2**
+
+```
+set -x;
+command1;
+command2;
+set +x;
+
+# FYI: THIS IS NOT WORKING GOOD(prints clutters as well) ACCORDING TO MY ENVIONMENT! ~Sahil
+# set +x is to reset the environment.
+# DRAWBACK: set +x is printed as well.
+```
+
+**way2**
+
+`-v` is move verbose
+
+```
+set -v;
+command1;
+command2;
+set +v;
+
+# FYI: THIS IS NOT WORKING GOOD(prints clutters as well) ACCORDING TO MY ENVIONMENT! ~Sahil
+# set +v is to reset the environment.
+# DRAWBACK: set +v is printed as well.
+```
+
 ## record your terminal sessions the right way
 
 source: https://asciinema.org/
