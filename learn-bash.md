@@ -180,7 +180,7 @@ sha1sum -c sha-verify
 2: OK
 ```
 
-**Also from the man pages of `sha1sum`:
+**Also from the man pages of `sha1sum`:**
 
 ```txt
 BUGS
