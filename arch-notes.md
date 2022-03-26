@@ -14,6 +14,10 @@ Src: https://github.com/FiloSottile/age
 
 ```bash
 sudo pacman -S age
+# binaries included: age, age-keygen
+
+sudo pacman -S soaps
+# binaries included: sops
 ```
 
 ## insatll `kubectx`
