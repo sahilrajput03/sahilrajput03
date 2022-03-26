@@ -55,6 +55,8 @@ Each letter has three other forms as well i.e., initial, medial and final forms 
 
 **hindi pronunciations (text)**
 
+Source: https://hindiletter.in/urdu-alphabets-in-hindi/
+
 ```txt
 वर्ण
 वर्ण
