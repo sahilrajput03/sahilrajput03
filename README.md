@@ -51,7 +51,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn gmail:** [Click here](learn-gmail.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - **My FSO contribution:** [Click here](my-fso-contribution.md)
-- **Github Actions**: [Click here](https://github.com/features/actions)
+- **Github Actions:** [Click here](github-actions.md)
 
 ## convert javascript object to json cli tool
 
