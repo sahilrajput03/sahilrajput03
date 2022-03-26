@@ -26,16 +26,16 @@
   - TODO-ARTICLE: [Create advanced animations with smart animate](https://help.figma.com/hc/en-us/articles/360039818874-Create-advanced-animations-with-Smart-Animate#h_82a1603b-89e5-4254-91a6-104456c18d32)
   - TODO-ARTICLE: Explore text properties from FIGMA OFFICIAL: [Click here](https://help.figma.com/hc/en-us/articles/360039956634)
   - DONE: [CHANNEL: AJ&Smart - Figma UI Design Tutorial: Get Started in Just 24 Minutes! (2022)](https://www.youtube.com/watch?v=FTFaQWZBqQ8)
-  - TODO: https://www.youtube.com/results?search_query=figma
+  - TODO: [Figma search @ youtube](https://www.youtube.com/results?search_query=figma)
   - AMAZING FREE FIGMA TEMPLATES/FILE RESOURCES for figma: Checkout: [Click here](https://www.templatefreebies.com/) **and then open any figma design from there and then click on** `Copy to Figma` button to get it in your draft. ALSO if this site is not sufficient, then you may find other *free figma resource* - by Google search - to get free figma files to copy from.
   - TODO: Make a twitter clone of mobile of different screens.
   - TODO: Make a telegram clone of mobile app as well.
   - TODO: Join some community for figma @ slack, discord or telegram to get help, feedback, etc with people and get in a good social reln in terms of figma and designing.
   - There are thousands of free designs on different vast variety of topics.
-  - Food delivery app design page @ https://www.templatefreebies.com/resources/figma-food-delivery-app-ui
+  - Food delivery app design page @ [Click here](https://www.templatefreebies.com/resources/figma-food-delivery-app-ui)
   - My copy version of *FOOD DELIVERY APP* in my figma draft: https://www.figma.com/file/KLqvjwP96rt2OBHqF7MhFV/Food-Delivery-UI---Free-(Copy)?node-id=0%3A1
-  - https://www.figma.com/community/file/886554014393250663
-  - https://www.figma.com/community/file/780582924744713607
+  - [File](https://www.figma.com/community/file/886554014393250663)
+  - [File](https://www.figma.com/community/file/780582924744713607)
   -  ->FYI: There are tons of free icon figma files shared by community on figma sites itself
   - For icons search **Free figma icons** on google to get such resources.
 
@@ -216,7 +216,7 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 
 - "You must have a copy of the enity for what you want to animate(move actually say with increasing opacity) from the fram1 to frame2 if you are making animation from frame1 to frame2" ~ Kevin Powell.
 
-- DONE - [Prototyping animations with Figma ~ Kevin Powell]: https://youtu.be/ps6p9e6QmgY
+- DONE - [Prototyping animations with Figma ~ Kevin Powell]: [Youtube link](https://youtu.be/ps6p9e6QmgY)
 
 **Tips:**
 
