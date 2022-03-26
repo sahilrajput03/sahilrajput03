@@ -8,6 +8,14 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install age
+
+Src: https://github.com/FiloSottile/age
+
+```bash
+sudo pacman -S age
+```
+
 ## insatll `kubectx`
 
 It has both `kubectx`(to change context) and `kubens` (to change namespace) cli tools
