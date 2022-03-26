@@ -69,6 +69,12 @@ echo "{a: 10, b: 20, name: 'sahil'}" | obj-json
 # Output: {"a":10,"b":20,"name":"sahil"}
 
 echo "{a: 10, b: 20, name: 'sahil'}" | obj-json | jq
+# Output:
+{
+  "a": 10,
+  "b": 20,
+  "name": "sahil"
+}
 ```
 
 ## flashcards website
