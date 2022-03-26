@@ -4,10 +4,10 @@
 
 **Courses:**
 
-- Learn Design (100% theory): https://www.figma.com/resources/learn-design/lessons/
-- TODO(theory) - Design sense: https://developer.apple.com/design/human-interface-guidelines/
-- TODO(theory) - Design sense: https://material.io/design
-- TODO: Figma (theory) best practises: https://www.figma.com/best-practices/
+- Learn Design (100% theory): [](https://www.figma.com/resources/learn-design/lessons/)
+- TODO(theory) - Design sense: [](https://developer.apple.com/design/human-interface-guidelines/)
+- TODO(theory) - Design sense: [](https://material.io/design)
+- TODO: Figma (theory) best practises: [](https://www.figma.com/best-practices/)
 - TODO (URGENT1): Article(practical-prototyping): From [official figma](https://help.figma.com/hc/en-us/articles/360039818874-Create-advanced-animations-with-Smart-Animate#h_82a1603b-89e5-4254-91a6-104456c18d32).
 - TODO (URGENT2): Article(practical-prototyping): From [official figma](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma?auth_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjo5MzI1MTQzLCJ1c2VyX2lkIjpudWxsLCJ0aWNrZXRfaWQiOm51bGwsImRlZmxlY3Rpb25faWQiOjQ2ODEyODU3MzQyOTUsImFydGljbGVzIjpbMzYwMDUxNzQ4NjU0LDM2MDA0MDUyMjM3MywzNjAwNDAzMTQxOTNdLCJ0b2tlbiI6bnVsbCwiZXhwIjoxNjQ5NTIxNjQwfQ.MVUsF0zPmFRl-ljVVZ9FtLyo9YqQS8bsO3SCdP4ZxcE)
 - TODO (URGENT3): Article(practical-prototyping): From [official figma](https://help.figma.com/hc/en-us/articles/360051748654-Prototype-easing-curves?auth_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjo5MzI1MTQzLCJ1c2VyX2lkIjpudWxsLCJ0aWNrZXRfaWQiOm51bGwsImRlZmxlY3Rpb25faWQiOjQ2ODEyODU3MzQyOTUsImFydGljbGVzIjpbMzYwMDUxNzQ4NjU0LDM2MDA0MDUyMjM3MywzNjAwNDAzMTQxOTNdLCJ0b2tlbiI6bnVsbCwiZXhwIjoxNjQ5NTIxNjQwfQ.MVUsF0zPmFRl-ljVVZ9FtLyo9YqQS8bsO3SCdP4ZxcE)
