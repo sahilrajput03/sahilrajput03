@@ -309,7 +309,7 @@ On the top of some vowels
 बड़ी ये-ے
 ```
 
-**letters-name\n HindiWord\n Urdu word**
+**letterName-letter\n HindiWord\n Urdu word**
 
 ```txt
 वर्ण-वर्ण
@@ -414,7 +414,7 @@ On the top of some vowels
 
 गै़न-غ
 ग़म
-<span style="font-weight: 400;">غم</span>
+غم
 
 फे़-ف
 फोन
