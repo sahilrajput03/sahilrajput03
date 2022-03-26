@@ -53,6 +53,16 @@ Find me on terminal via `npx sahilrajput03` command.
 - **My FSO contribution:** [Click here](my-fso-contribution.md)
 - **Github Actions:** [Click here](github-actions.md)
 
+## what?
+
+https://en.wikipedia.org/wiki/Recursive_Bayesian_estimation helps to pick up abnormal activity say if people try to scrap off content from fb, they used this esimation to detect that and ban it.
+
+## memcache used by fb earlier
+
+https://github.com/memcached/memcached
+
+https://memcached.org/
+
 ## convert javascript object to json cli tool
 
 Source: [sahilrajput03/obj-json](https://github.com/sahilrajput03/obj-json)
