@@ -58,7 +58,7 @@ Each letter has three other forms as well i.e., initial, medial and final forms 
 Source: https://hindiletter.in/urdu-alphabets-in-hindi/
 
 ```txt
-वर्ण
+वर्ण नाम
 वर्ण
 प्रासंगिक रूप
 
