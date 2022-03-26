@@ -21,7 +21,7 @@
   - DONE: (above video was contained in this article): [Create dynamic designs with auto layout](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout)
   - DONE: [CHANNEL-CharliMarieTV - Figma 101: An introduction tutorial](https://youtu.be/cCNLD5IZY34)
   - DONE: [CHANNEL-CharliMarieTV - Figma Smart Animate first impressions & testing!](https://youtu.be/5ptQoY3VZSo)
-  - TODO-VIDEO-KEVIN: https://youtu.be/ps6p9e6QmgY
+  - TODO-VIDEO-KEVIN: [video @ youtube](https://youtu.be/ps6p9e6QmgY)
   - TODO-VIDEO: [KEVIN-search-@-yt](https://www.youtube.com/watch?v=bh98SF7OjUk) - He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
   - TODO-ARTICLE: [Create advanced animations with smart animate](https://help.figma.com/hc/en-us/articles/360039818874-Create-advanced-animations-with-Smart-Animate#h_82a1603b-89e5-4254-91a6-104456c18d32)
   - TODO-ARTICLE: Explore text properties from FIGMA OFFICIAL: [Click here](https://help.figma.com/hc/en-us/articles/360039956634)
@@ -33,7 +33,7 @@
   - TODO: Join some community for figma @ slack, discord or telegram to get help, feedback, etc with people and get in a good social reln in terms of figma and designing.
   - There are thousands of free designs on different vast variety of topics.
   - Food delivery app design page @ [Click here](https://www.templatefreebies.com/resources/figma-food-delivery-app-ui)
-  - My copy version of *FOOD DELIVERY APP* in my figma draft: https://www.figma.com/file/KLqvjwP96rt2OBHqF7MhFV/Food-Delivery-UI---Free-(Copy)?node-id=0%3A1
+  - My copy version of *FOOD DELIVERY APP* in my figma draft: [Draft file](https://www.figma.com/file/KLqvjwP96rt2OBHqF7MhFV/Food-Delivery-UI---Free-(Copy)?node-id=0%3A1)
   - [File](https://www.figma.com/community/file/886554014393250663)
   - [File](https://www.figma.com/community/file/780582924744713607)
   -  ->FYI: There are tons of free icon figma files shared by community on figma sites itself
