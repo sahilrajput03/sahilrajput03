@@ -53,6 +53,24 @@ Find me on terminal via `npx sahilrajput03` command.
 - **My FSO contribution:** [Click here](my-fso-contribution.md)
 - **Github Actions**: [Click here](https://github.com/features/actions)
 
+## convert javascript object to json cli tool
+
+Source: [sahilrajput03/obj-json](https://github.com/sahilrajput03/obj-json)
+
+[@npm](https://www.npmjs.com/package/obj-json)
+
+Install:
+
+```bash
+npm i -g obj-json
+
+# Usage:
+echo "{a: 10, b: 20, name: 'sahil'}" | obj-json
+# Output: {"a":10,"b":20,"name":"sahil"}
+
+echo "{a: 10, b: 20, name: 'sahil'}" | obj-json | jq
+```
+
 ## flashcards website
 
 http://cram.com
