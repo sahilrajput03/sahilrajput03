@@ -57,6 +57,8 @@ Find me on terminal via `npx sahilrajput03` command.
 
 https://en.wikipedia.org/wiki/Recursive_Bayesian_estimation helps to pick up abnormal activity say if people try to scrap off content from fb, they used this esimation to detect that and ban it.
 
+Src: https://www.youtube.com/watch?v=xFFs9UgOAlE
+
 ## memcache used by fb earlier
 
 https://github.com/memcached/memcached
