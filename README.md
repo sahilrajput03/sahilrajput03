@@ -63,6 +63,8 @@ Find me on terminal via `npx sahilrajput03` command.
 
 **A pod has a list of containers.**
 
+**A kubelet is an agent that runs on each node in the cluster. It makes sure that containers are running in a pod.**
+
 ## what?
 
 https://en.wikipedia.org/wiki/Recursive_Bayesian_estimation helps to pick up abnormal activity say if people try to scrap off content from fb, they used this esimation to detect that and ban it.
