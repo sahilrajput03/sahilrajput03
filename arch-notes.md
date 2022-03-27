@@ -8,6 +8,20 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install `jiq`
+
+A json path finder.
+
+```bash
+git clone https://aur.archlinux.org/jiq-bin.git
+cd jiq-bin
+makepkg -si
+
+# Usage:
+cat myjson.json | jiq
+# Now you tab and . and [0],[1] syntax to navigate into the json.
+```
+
 ## install age
 
 Src: https://github.com/FiloSottile/age
