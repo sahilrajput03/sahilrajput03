@@ -53,6 +53,16 @@ Find me on terminal via `npx sahilrajput03` command.
 - **My FSO contribution:** [Click here](my-fso-contribution.md)
 - **Github Actions:** [Click here](github-actions.md)
 
+## kubernetes hierarchy
+
+**Kubernetes cluster is a group of nodes!**
+
+**A node can have a list of deployments.**
+
+**A deployment controls a list of pods.**
+
+**A pod has a list of containers.**
+
 ## what?
 
 https://en.wikipedia.org/wiki/Recursive_Bayesian_estimation helps to pick up abnormal activity say if people try to scrap off content from fb, they used this esimation to detect that and ban it.
