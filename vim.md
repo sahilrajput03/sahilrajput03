@@ -10,6 +10,15 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+
+## rename multiple variables bindings with native vim functionality VERY FAST!!
+
+```vim
+" Renaming multiple variables occurences very fast!!
+" LEARN: gdcgn<ESC> and press . to do it multiple times.
+" src: https://vi.stackexchange.com/questions/18004/renaming-variables
+```
+
 ## search variable from the file itself in the file ?
 
 Use `#` to search the variable under cursor.
