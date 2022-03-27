@@ -10,6 +10,59 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## what more ??
+
+- Search selected text (even natively is cool thing though!!), with my script it is like select some text and presss `//` and thats all.
+- Distinctly search now coz you get nice color indication when cycling between search items
+
+
+```vim
+" Search the visually selected text:
+" NATIVE APPROACH IS TO USE IT LIKE: yank some text, then press /CTRL+r 0
+" SRC^^^^: https://stackoverflow.com/a/363125/10012446
+" ALSO THIS TEACHES HOW TO PASTE TEXT FROM BUFFER TO COMMAND MODE WHENEVER YOU
+" NEED TO DO THAT!!
+"
+" Usage: Select some text and type // to do search, and navigate with n to
+" search forward and N to search backward.
+" src: https://vim.fandom.com/wiki/Search_for_visually_selected_text
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
+"
+"
+" Fyi: * search forward and # searchs backward for a variable definition.
+"
+"
+"
+
+" HIGHLIGHT the search items when you are circling on them beautifully:
+" src: https://vi.stackexchange.com/a/2770/41399
+" Damian Conway's Die Blinkënmatchen: highlight matches
+nnoremap <silent> n n:call HLNext(0.1)<cr>
+nnoremap <silent> N N:call HLNext(0.1)<cr>
+
+function! HLNext (blinktime)
+  let target_pat = '\c\%#'.@/
+  let ring = matchadd('ErrorMsg', target_pat, 101)
+  redraw
+  exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
+  call matchdelete(ring)
+  redraw
+endfunction
+```
+
+## search for visually selected text
+
+```vim
+" Search the visually selected text:
+" Usage: Select some text and type // to do search, and navigate with n to
+" search forward and N to search backward.
+" src: https://vim.fandom.com/wiki/Search_for_visually_selected_text
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
+" Fyi: * search forward and # searchs backward for a variable definition.
+```
+
 ## do it to complete file (all lines in current buffer)
 
 ```vim
