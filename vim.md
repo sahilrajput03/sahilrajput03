@@ -15,7 +15,8 @@ Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
 ```vim
 " Renaming multiple variables occurences very fast!!
-" LEARN: gdcgn<ESC> and press . to do it multiple times.
+" LEARN: gdcgn<enter_new_varirable_name><ESC> and now press . to do it multiple times.
+" LEARN: gdcdn<enter_new_varirable_name><ESC> and now type :%norm.
 " src: https://vi.stackexchange.com/questions/18004/renaming-variables
 ```
 
