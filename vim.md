@@ -10,6 +10,14 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## do it to complete file (all lines in current buffer)
+
+```vim
+" LEARN: 
+" :%norm.
+" ^^^ What does this do??
+" Actually it runs the command which you just did to the whole file!! Yikes!!!
+```
 
 ## rename multiple variables bindings with native vim functionality VERY FAST!!
 
