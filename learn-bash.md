@@ -4,6 +4,12 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Expand your alias in shell lively before your eyes ?
+
+```bash
+myAlias<ctrl+alt+e>
+```
+
 ## Make script's realative path work even when the script is executed from different path
 
 You can make use of:
