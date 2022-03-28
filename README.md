@@ -59,6 +59,7 @@ Find me on terminal via `npx sahilrajput03` command.
 type env
 # Output:
 # env is hashed (/usr/bin/env)
+
 env --help
 # Output:
 # Usage: env [OPTION]... [-] [NAME=VALUE]... [COMMAND [ARG]...]
