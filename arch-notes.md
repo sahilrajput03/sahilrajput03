@@ -10,6 +10,8 @@
 
 ## Autocomplete any alias now!!
 
+Another article on making autocomplete functions: https://iridakos.com/programming/2018/03/01/bash-programmable-completion-tutorial
+
 ```bash
 alias ke='kubectl exec -it'
 complete -F _complete_alias ke
