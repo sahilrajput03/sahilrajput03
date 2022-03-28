@@ -4,6 +4,23 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+
+## Start and kill specific processes
+
+Src: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
+
+Probably the easiest way of killing a running process is by selecting it through the process name as in the following
+
+example using pkill command as
+
+```bash
+pkill -f test.py
+```
+(or) a more fool-proof way using pgrep to search for the actual process-id
+
+```bash
+kill $(pgrep -f 'python test.py')
+```
 ## Expand your alias in shell lively before your eyes ?
 
 ```bash
