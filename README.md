@@ -21,7 +21,6 @@ Find me on terminal via `npx sahilrajput03` command.
 ## References:
 
 - Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
-
 - **Acronyms:** [Click here](acroynms.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
