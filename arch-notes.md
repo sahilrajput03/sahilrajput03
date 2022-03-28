@@ -8,6 +8,12 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## insatll `helm`
+
+```bash
+sudo pacman -S helm
+```
+
 ## Autocomplete any alias now!!
 
 Another article on making autocomplete functions: https://iridakos.com/programming/2018/03/01/bash-programmable-completion-tutorial
