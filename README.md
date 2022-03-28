@@ -1095,6 +1095,9 @@ console.log(object.white.bgYellow)
 BUT, you should create some theme:
 
 ```js
+// FILE: colorConfig.js
+const colors = require('colors')
+
 colors.setTheme({
 	info: 'bgGreen',
 	help: 'cyan',
@@ -1103,8 +1106,13 @@ colors.setTheme({
 	error: 'red',
 	m: 'magenta', // myString.m.b Fox chaining.: for chaining.
 	b: 'bold',
-	mb: ['magenta', 'bold'],
+	bm: ['bold', 'magenta'],
+	by: ['bold', 'yellow'],
 })
+
+// Usage: Simply put below line in your server file:
+// require('./colorsConfig')
+
 
 myString.m.b // works good!
 myString.mb // works good!
