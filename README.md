@@ -18,7 +18,7 @@ cd my-react-app; npm install; npm run dev
 
 Find me on terminal via `npx sahilrajput03` command.
 
-## References: {#ref}
+## References {#ref}
 
 - Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - **Acronyms:** [Click here](acroynms.md)
