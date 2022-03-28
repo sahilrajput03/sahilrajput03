@@ -8,6 +8,24 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Autocomplete any alias now!!
+
+```bash
+alias ke='kubectl exec -it'
+complete -F _complete_alias ke
+
+# I can autocomplete any alias now using a entry like above!! Yo!!
+# src: https://unix.stackexchange.com/a/332522/504112
+# FYI ^^^^^^^^^^^^^^^^^^^^^^^^^: This required two things installed + one config files(~/.bash_completion) setup, i.e.,
+# 1. `complete-alias`
+# AUR: bash-complete-alias
+# SRC: https://github.com/cykerway/complete-alias
+#
+#
+# 2. `bash-completion`
+# ARCH PACKAGE: sudo pacman -S bash-completion
+```
+
 ## install `jiq`
 
 A json path finder.
