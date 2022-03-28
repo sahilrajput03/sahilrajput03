@@ -20,14 +20,18 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## References:
 
-- **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
+- Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
+
 - **Acronyms:** [Click here](acroynms.md)
+- **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
 - **Book logs:** [Click here](./book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses**: [Click here](courses-list.md).
 - **Enlightment:** [Cick here](enlightenment.md)
+- **FSO contribution:** [Click here](my-fso-contribution.md)
+- **Github Actions:** [Click here](github-actions.md)
 - **Hindi:** [Click here](learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Regex:** [Click here](learn-regex.md)
@@ -49,9 +53,6 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Photoshop:**[Click here](learn-photoshop.md)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
-- **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
-- **My FSO contribution:** [Click here](my-fso-contribution.md)
-- **Github Actions:** [Click here](github-actions.md)
 
 ## what is `env` cli ?
 
