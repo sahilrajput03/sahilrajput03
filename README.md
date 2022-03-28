@@ -11,9 +11,7 @@ cat /dev/null
 
 ```bash
 npx degit sahilrajput03/react-app my-react-app
-cd my-react-app
-npm install
-npm run dev
+cd my-react-app; npm install; npm run dev
 ```
 
 Find me on terminal via `npx sahilrajput03` command.
