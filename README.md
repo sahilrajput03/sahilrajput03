@@ -31,6 +31,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Enlightment:** [Cick here](enlightenment.md)
 - **FSO contribution:** [Click here](my-fso-contribution.md)
 - **Github Actions:** [Click here](github-actions.md)
+- **Github HTTP Api:**: [Click here](https://docs.github.com/en/rest/reference/repos)
 - **Hindi:** [Click here](learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Regex:** [Click here](learn-regex.md)
@@ -52,13 +53,6 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Photoshop:**[Click here](learn-photoshop.md)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
-
-
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-
 
 ## what is `env` cli ?
 
