@@ -55,6 +55,13 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## what is `env` cli ?
 
+Linked quest: What is `#/usr/bin/env bash` or `#/usr/bin/env node` shebang in various scripts ?
+
+From `man env` in terminal, I found: 
+
+
+Ans. `env - run a program in a modified environment`.
+
 ```bash
 type env
 # Output:
