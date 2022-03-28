@@ -24,6 +24,14 @@ complete -F _complete_alias ke
 #
 # 2. `bash-completion`
 # ARCH PACKAGE: sudo pacman -S bash-completion
+#
+#
+# 3. Setup file: ~/.bash_completion, such that:
+cat ~/.bash_completion
+if [ -f /usr/share/bash-complete-alias/complete_alias ] ; then
+        . /usr/share/bash-complete-alias/complete_alias
+fi
+
 ```
 
 ## install `jiq`
