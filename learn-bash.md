@@ -4,6 +4,16 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Getting your cronjobs
+
+```bash
+sudo crontab -u $USER -l
+25,55 * * * * for i in {1..5}; do ~/scripts-in-use/beepSound.sh; done
+*/5 * * * * ~/scripts-in-use/beepSound.sh
+* * * * * date >> ~/my-cron-task-log.txt
+* * * * * DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus /home/array/Documents/github_repos/devopswithkubernetes/exercises/ex2-09/command_to_get_random_article.sh >> /tmp/cronlog-01.txt
+# The reasony why I have put ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ is coz notifications send via cronjob aren't working without them!, SRC: https://askubuntu.com/a/1308769/702911
+```
 
 ## Start and kill specific processes
 
