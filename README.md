@@ -18,7 +18,7 @@ cd my-react-app; npm install; npm run dev
 
 Find me on terminal via `npx sahilrajput03` command.
 
-## References:
+## References: {#ref}
 
 - Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - **Acronyms:** [Click here](acroynms.md)
@@ -52,6 +52,13 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Photoshop:**[Click here](learn-photoshop.md)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
+
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 
 ## what is `env` cli ?
 
