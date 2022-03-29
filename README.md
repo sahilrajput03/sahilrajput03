@@ -55,6 +55,10 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
 
+## What is reverse psychology?
+
+https://en.wikipedia.org/wiki/Reverse_psychology
+
 ## retrieval practise
 
 [https://en.wikipedia.org/wiki/Testing_effect](https://en.wikipedia.org/wiki/Testing_effect)
