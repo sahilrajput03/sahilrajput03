@@ -55,6 +55,12 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
 
+## serverless and utility computing
+
+[https://en.wikipedia.org/wiki/Serverless_computing](https://en.wikipedia.org/wiki/Serverless_computing)
+
+[https://en.wikipedia.org/wiki/Utility_computing](https://en.wikipedia.org/wiki/Utility_computing)
+
 ## firebase
 
 At: [console.firebase.google.com](console.firebase.google.com)
