@@ -55,11 +55,18 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
 
-## react-router or react-router-dom, what the difference?
+## `react-router`, `react-dom` or `react-router-dom`, what the difference?
 
-https://www.npmjs.com/package/react-router-dom
+- https://www.npmjs.com/package/react-router
+- https://www.npmjs.com/package/react-dom
+- https://www.npmjs.com/package/react-router-dom
 
-You can checkout that `react-router` is a dependency of `react-router-dom`. FYI: `react-router` is also a dependency of `react-router-native`.
+**You can checkout that `react-router` is a dependency of `react-router-dom` @ npm's package page.**
+
+FYI: `react-router` is also a dependency of `react-router-native`.
+
+**`react-dom`: This package serves as the entry point to the DOM and server renderers for React. It is intended to be paired with the generic React package, which is shipped as react to npm.**
+
 
 ## what is `env` cli ?
 
