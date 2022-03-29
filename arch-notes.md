@@ -364,6 +364,15 @@ noisetorch
 #You might need to logout/login (or completely restart to see the Noisetorch audio in your chrome, firefox works straightaway though)
 ```
 
+## install `gcloud` from google cloud
+
+```bash
+# source: https://aur.archlinux.org/packages/google-cloud-sdk
+git clone https://aur.archlinux.org/google-cloud-sdk.git
+cd google-cloud-sdk
+makepkg -si
+```
+
 ## insatll `R` language compiler
 
 ```
