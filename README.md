@@ -55,6 +55,13 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
 
+## firebase
+
+At: [console.firebase.google.com](console.firebase.google.com)
+
+Pricing: [https://firebase.google.com/pricing](https://firebase.google.com/pricing)
+
+
 ## `react-router`, `react-dom` or `react-router-dom`, what the difference?
 
 - https://www.npmjs.com/package/react-router
