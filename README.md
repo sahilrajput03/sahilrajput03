@@ -55,6 +55,11 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
 
+## react-router or react-router-dom, what the difference?
+
+https://www.npmjs.com/package/react-router-dom
+
+You can checkout that `react-router` is a dependency of `react-router-dom`. FYI: `react-router` is also a dependency of `react-router-native`.
 
 ## what is `env` cli ?
 
@@ -1675,20 +1680,14 @@ Copy data to clipboard, and in terminal use
 ### Packages published @ `npm.com`/`yarnpkg.com`
 
 - [useWhat](https://www.npmjs.com/package/usewhat)
-
 - [useStateM](https://www.npmjs.com/package/usestatem)
-
 - [mongo-quick](https://www.npmjs.com/package/mongo-quick)
-
 - [jsonbackend - A true object database server.](https://www.npmjs.com/package/jsonbackend)
-
 - [react-fetch2](https://www.npmjs.com/package/react-fetch2)
-
 - [useEffectFactory](https://www.npmjs.com/package/useeffect-factory)
-
 - [r_global](http://npmjs.org/package/r_global)
-
 - [Pagelist React Component - Test/Create apps made easy](https://www.npmjs.com/package/pagelist-react)
+- [obj-json](https://www.npmjs.com/package/obj-json) - A cli tool to convert js object to json.
 
 ### Services
 
