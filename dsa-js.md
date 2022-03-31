@@ -29,7 +29,6 @@ NO
 YES
 YES
 ```
-```
 
 Solution:
 
