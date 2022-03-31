@@ -55,6 +55,12 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
 
+## What is canaray releases ?
+
+Canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
+
+Source: https://martinfowler.com/bliki/CanaryRelease.html
+
 ## What is reverse psychology?
 
 https://en.wikipedia.org/wiki/Reverse_psychology

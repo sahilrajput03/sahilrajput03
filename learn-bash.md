@@ -4,6 +4,17 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## `mv` learnings:
+
+- Consider you are moving 10 gb of data from your drive to hdd or ssd, and say you cancel the command in the middle so you don't loose anything in the source place though because mv only first copies all files to target and only delete the source files if the all copying process is completed, yikes!
+- Always delete nested `node_modules` before copying any project to extenal hard disk, using my below aliases:
+
+```
+# amazing: https://stackoverflow.com/a/43561012/10012446
+alias findNodeModules='find . -name 'node_modules' -type d -prune'
+alias deleteNestedNodeModules="find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+```
+
 ## `help` command on linux
 
 ```bash
