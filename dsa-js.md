@@ -67,8 +67,8 @@ function solve(q) {
 	q.forEach((arr) => {
 		// codition 1 DONE!
 		let c1 = arr.every((el) => {
-			isPositive = el > 0
-			isInteger = el % 1 == 0
+			let isPositive = el > 0
+			let isInteger = el % 1 == 0
 			return isPositive && isInteger
 		})
 
