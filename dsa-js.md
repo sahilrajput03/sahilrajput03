@@ -32,7 +32,7 @@ YES
 
 Solution:
 
-***You need to do `npm i prompt-sync` to install the dependency.***
+- ***You need to do `npm i prompt-sync` to install the dependency.***
 
 ```js
 // DYNAMIC INPUT CASE :
