@@ -4,6 +4,26 @@ Input reading libraries: [inquirer](https://github.com/SBoudrias/Inquirer.js), [
 
 [Source: nodejs docs - Accept-input-from-the-command-line-in-nodejs](https://nodejs.dev/learn/accept-input-from-the-command-line-in-nodejs)
 
+- Using native readline via async code:
+
+	```js
+	const readline = require('readline').createInterface({
+		input: process.stdin,
+		output: process.stdout,
+	})
+	
+	const read = () => new Promise((resolve) => readline.question(``, resolve))
+	
+	const main = async () => {
+		console.log(await read())
+		readline.close() // This is not redundant!
+	
+		// do your programming stuff here!
+		console.log('program code here....')
+	}
+	main()
+	```
+
 ## Problem 1
 
 ```txt
