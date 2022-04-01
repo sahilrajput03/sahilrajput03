@@ -11,13 +11,13 @@ Input reading libraries: [inquirer](https://github.com/SBoudrias/Inquirer.js), [
 		input: process.stdin,
 		output: process.stdout,
 	})
-	
+
 	const read = () => new Promise((resolve) => readline.question(``, resolve))
-	
+
 	const main = async () => {
 		console.log(await read())
 		readline.close() // This is not redundant!
-	
+
 		// do your programming stuff here!
 		console.log('program code here....')
 	}
@@ -56,58 +56,68 @@ YES
 
 Solution:
 
-- ***You need to do `npm i prompt-sync` to install the dependency.***
+[Using `prompt-sync`](using-prompt-sync.md)
 
-```js
-// DYNAMIC INPUT CASE :
-const prompt = require('prompt-sync')({sigint: true})
-let q = []
+```
+// `readline` is native module in nodejs
+const readline = require('readline').createInterface({
+	input: process.stdin,
+	output: process.stdout,
+})
+const read = () => new Promise((resolve) => readline.question(``, resolve))
 
-let length = Number(prompt())
-for (let i = 0; i < length; i++) {
-	q[i] = []
-	let items = prompt().split(' ')
-	for (let j = 0; j < items.length; j++) {
-		q[i].push(items[j])
+async function main() {
+	// DYNAMIC INPUT CASE :
+	let q = []
+	let length = Number(await read())
+	for (let i = 0; i < length; i++) {
+		q[i] = []
+		let items = (await read()).split(' ')
+		for (let j = 0; j < items.length; j++) {
+			q[i].push(items[j])
+		}
+	}
+	readline.close() // THIS IS IMPORTANT!
+
+	// STATIC INPUT CASE (FOR TESTING):
+	// let q = [
+	// 	[2, 2],
+	// 	[3, 2],
+	// 	[2, 1],
+	// ] // check if this query has array A of size N such that..., condition apply!
+	// EXPECTED OUTPUT:
+	// NO
+	// YES
+	// YES
+
+	solve(q)
+
+	function solve(q) {
+		let sol = []
+
+		q.forEach((arr) => {
+			// codition 1 DONE!
+			let c1 = arr.every((el) => {
+				let isPositive = el > 0
+				let isInteger = el % 1 == 0
+				return isPositive && isInteger
+			})
+
+			// codition 2 ?
+			let sum = arr.reduce((previousValue, currentValue) => previousValue ^ currentValue)
+			let c2 = sum === 0
+
+			if (c1 && c2) {
+				sol.push('NO')
+			} else {
+				sol.push('YES')
+			}
+		})
+
+		// printing solution
+		sol.forEach((s) => console.log(s))
 	}
 }
 
-// STATIC INPUT CASE (FOR TESTING):
-// let q = [
-// 	[2, 2],
-// 	[3, 2],
-// 	[2, 1],
-// ] // check if this query has array A of size N such that..., condition apply!
-// EXPECTED OUTPUT:
-// NO
-// YES
-// YES
-
-solve(q)
-
-function solve(q) {
-	let sol = []
-
-	q.forEach((arr) => {
-		// codition 1 DONE!
-		let c1 = arr.every((el) => {
-			let isPositive = el > 0
-			let isInteger = el % 1 == 0
-			return isPositive && isInteger
-		})
-
-		// codition 2 ?
-		let sum = arr.reduce((previousValue, currentValue) => previousValue ^ currentValue)
-		let c2 = sum === 0
-
-		if (c1 && c2) {
-			sol.push('NO')
-		} else {
-			sol.push('YES')
-		}
-	})
-
-	// printing solution
-	sol.forEach((s) => console.log(s))
-}
+main()
 ```
