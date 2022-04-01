@@ -1,5 +1,9 @@
 # DSA problem solving in JS
 
+Input reading libraries: [inquirer](https://github.com/SBoudrias/Inquirer.js), [readline-sync](https://www.npmjs.com/package/readline-sync)
+
+[Source: nodejs docs - Accept-input-from-the-command-line-in-nodejs](https://nodejs.dev/learn/accept-input-from-the-command-line-in-nodejs)
+
 ## Problem 1
 
 ```txt
