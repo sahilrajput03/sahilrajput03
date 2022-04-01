@@ -56,7 +56,7 @@ YES
 
 Solution:
 
-[Using `prompt-sync`](using-prompt-sync.md)
+For same solution using `prompt-sync` you may [click here](using-prompt-sync.md).
 
 ```
 // `readline` is native module in nodejs
