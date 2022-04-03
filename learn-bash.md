@@ -6,7 +6,7 @@
 
 ## Using select menus in bash
 
-Source: https://linuxize.com/post/bash-select/
+Source: [https://linuxize.com/post/bash-select/](https://linuxize.com/post/bash-select/)
 
 This simply rocks!
 
