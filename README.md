@@ -56,6 +56,12 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn gmail:** [Click here](learn-gmail.md)
 - **DSA in Javascript:** [Click here](dsa-js.md)
 
+## json to xml converter
+
+- https://www.freeformatter.com/json-to-xml-converter.html#ad-output
+
+- https://www.convertjson.com/json-to-xml.htm
+
 ## What is canaray releases ?
 
 Canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
