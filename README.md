@@ -59,11 +59,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Using select menus in bash
 
-Source: https://linuxize.com/post/bash-select/
-
-This simply rocks!
-
-My implementation usage: [https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/curls/select.sh](https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/curls/select.sh)
+[learn-bash#Using select menus in bash](./learn-bash#Using select menus in bash)
 
 ## Swithing to terminal to run a bash script or npm command very often?
 

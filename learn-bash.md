@@ -4,6 +4,14 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Using select menus in bash
+
+Source: https://linuxize.com/post/bash-select/
+
+This simply rocks!
+
+My implementation usage: [https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/curls/select.sh](https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/curls/select.sh)
+
 ## `mv` learnings:
 
 - Consider you are moving 10 gb of data from your drive to hdd or ssd, and say you cancel the command in the middle so you don't loose anything in the source place though because mv only first copies all files to target and only delete the source files if the all copying process is completed, yikes!
