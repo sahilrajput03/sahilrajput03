@@ -59,7 +59,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 ## Using select menus in bash
 
-[learn-bash#Using select menus in bash](./learn-bash#Using select menus in bash)
+[learn-bash.md#mv-learnings](./learn-bash.md#mv-learnings)
 
 ## Swithing to terminal to run a bash script or npm command very often?
 
