@@ -63,6 +63,8 @@ Source: https://linuxize.com/post/bash-select/
 
 This simply rocks!
 
+My implementation usage: [https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/curls/select.sh](https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/curls/select.sh)
+
 ## Swithing to terminal to run a bash script or npm command very often?
 
 Consider using a `.vscode/tasks.json` file (you can autogenerate this file with vscode very easily). I personally use `ctrl+alt+r` keybinding to launch run tasks, yo!!
