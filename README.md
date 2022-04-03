@@ -57,6 +57,34 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **DSA in Javascript:** [Click here](dsa-js.md)
 
+## Swithing to terminal to run a bash script or npm command very often?
+
+Consider using a `.vscode/tasks.json` file (you can autogenerate this file with vscode very easily)
+
+```json
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			// "command": "pwd", // for testing.
+			"command": "./fso-part13/curls/post_note.sh",
+			"label": "post a note ~Sahil"
+		},
+		{
+			"type": "shell",
+			"command": "./fso-part13/curls/get_a_note.sh",
+			"label": "Get a note ~Sahil"
+		},
+		{
+			"type": "shell",
+			"command": "./fso-part13/curls/resetNotes.sh",
+			"label": "Reset notes table! ~Sahil"
+		}
+	]
+}
+```
+
 ## json to xml converter
 
 - https://www.freeformatter.com/json-to-xml-converter.html#ad-output
