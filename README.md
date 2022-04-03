@@ -57,9 +57,15 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **DSA in Javascript:** [Click here](dsa-js.md)
 
+## Using select menus in bash
+
+Source: https://linuxize.com/post/bash-select/
+
+This simply rocks!
+
 ## Swithing to terminal to run a bash script or npm command very often?
 
-Consider using a `.vscode/tasks.json` file (you can autogenerate this file with vscode very easily)
+Consider using a `.vscode/tasks.json` file (you can autogenerate this file with vscode very easily). I personally use `ctrl+alt+r` keybinding to launch run tasks, yo!!
 
 ```json
 {
