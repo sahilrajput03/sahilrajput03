@@ -54,6 +54,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Photoshop:**[Click here](learn-photoshop.md)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Learn gmail:** [Click here](learn-gmail.md)
+- **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **DSA in Javascript:** [Click here](dsa-js.md)
 
 ## json to xml converter
