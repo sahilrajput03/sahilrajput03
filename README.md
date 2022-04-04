@@ -64,17 +64,20 @@ Find me on terminal via `npx sahilrajput03` command.
 Key1: >
   Line 1
   LIne 2
+
+# (no newline character after in the end)
 Key2: >-
   Line 1
   Line 2
-  # (no newline character after in the end)
+
 Key3: |
   Line 1
   LINE 2
+
+#  (no newline character after in the end)
 Key4: |-
   Line 1
   LINE 2
-  #  (no newline character after in the end)
 ```
 
 is converted to json
@@ -82,9 +85,9 @@ is converted to json
 ```json
 {
    "Key1": "Line 1 LIne 2\n",
-   "Key2": "Line 1 Line 2 # (no newline character after in the end)",
+   "Key2": "Line 1 Line 2",
    "Key3": "Line 1\nLINE 2\n",
-   "Key4": "Line 1\nLINE 2\n#  (no newline character after in the end)"
+   "Key4": "Line 1\nLINE 2"
 }
 ```
 
