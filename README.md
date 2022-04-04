@@ -78,6 +78,10 @@ is converted to json
 }
 ```
 
+Source: https://stackoverflow.com/a/3790497/10012446
+
+Proof of convertion trial @ https://www.convertjson.com/yaml-to-json.htm
+
 ## Using select menus in bash
 
 [learn-bash.md#using-select-menus-in-bash](./learn-bash.md#using-select-menus-in-bash)
