@@ -58,23 +58,33 @@ Find me on terminal via `npx sahilrajput03` command.
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 
-## Difference between `>` and `>-` in yaml ?
+## Difference between `|`, `|>`, `>` and `>-` in yaml ?
 
 ```yaml
 Key1: >
-  This is a very long sentence
-  with only a single carriage return appended to the end.
+  Line 1
+  LIne 2
 Key2: >-
-  This is a very long sentence
-  with NO carriage returns.
+  Line 1
+  Line 2
+  # (no newline character after in the end)
+Key3: |
+  Line 1
+  LINE 2
+Key4: |-
+  Line 1
+  LINE 2
+  #  (no newline character after in the end)
 ```
 
 is converted to json
 
 ```json
 {
-   "Key1": "This is a very long sentence with only a single carriage return appended to the end.\n",
-   "Key2": "This is a very long sentence with NO carriage returns."
+   "Key1": "Line 1 LIne 2\n",
+   "Key2": "Line 1 Line 2 # (no newline character after in the end)",
+   "Key3": "Line 1\nLINE 2\n",
+   "Key4": "Line 1\nLINE 2\n#  (no newline character after in the end)"
 }
 ```
 
