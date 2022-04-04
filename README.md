@@ -58,6 +58,18 @@ Find me on terminal via `npx sahilrajput03` command.
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 
+## vertical and horizontal pod scaling, what kind of constratins to consider?
+
+```txt
+# usefule text from: https://devopswithkubernetes.com/part-3/3-gke-features
+# Scaling
+Scaling can be either horizontal scaling or vertical scaling. Vertical scaling is the act of increasing resources available to a pod or a node. Horizontal scaling is what we most often mean when talking about scaling, increasing the number of pods or nodes. We'll focus on horizontal scaling.
+
+There are multiple reasons for wanting to scale an application. The most common reason is that the number of requests an application receives exceeds the number of requests that can be processed. Limitations are often either the amount of requests that a framework is intended to handle or the actual CPU or RAM.
+
+Figuring out autoscaling with HorizontalPodAutoscalers can be one of the more challening tasks. Choosing which resources to look at and when to scale is not easy. In our case, we only stress the CPU. But your applications may need to scale based on, and take into consideration, a number of resources e.g. network, disk or memory.
+```
+
 ## Difference between `|`, `|>`, `>` and `>-` in yaml ?
 
 ```yaml
