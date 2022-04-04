@@ -58,7 +58,25 @@ Find me on terminal via `npx sahilrajput03` command.
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 
+## Difference between `>` and `>-` in yaml ?
 
+```yaml
+Key1: >
+  This is a very long sentence
+  with only a single carriage return appended to the end.
+Key2: >-
+  This is a very long sentence
+  with NO carriage returns.
+```
+
+is converted to json
+
+```json
+{
+   "Key1": "This is a very long sentence with only a single carriage return appended to the end.\n",
+   "Key2": "This is a very long sentence with NO carriage returns."
+}
+```
 
 ## Using select menus in bash
 
