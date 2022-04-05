@@ -58,6 +58,16 @@ Find me on terminal via `npx sahilrajput03` command.
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 
+## express js loop holes ?
+
+```js
+	return res.status(200).json('ok') // FYI: This is valid json though!
+// ^^^^^^^^^^^^^^ this actually sends status code 304 IDK why on earth!
+
+	return res.status(200).send('ok') // FYI: This is valid json though!
+// ^^^^^^^^^^^^^^ this actually sends status code 200.
+```
+
 ## vertical and horizontal pod scaling, what kind of constratins to consider?
 
 ```txt
