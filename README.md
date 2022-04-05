@@ -244,6 +244,8 @@ man env
 
 **A pod has a list of containers.**
 
+**Replicas (`.spec.replicas`) is  no. of replicated pod which will be created.**
+
 **A kubelet is an agent that runs on each node in the cluster. It makes sure that containers are running in a pod.**
 
 ## what?
