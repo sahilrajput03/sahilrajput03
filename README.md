@@ -32,6 +32,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Enlightment:** [Cick here](enlightenment.md)
 - **FSO contribution:** [Click here](my-fso-contribution.md)
 - **Github Actions:** [Click here](github-actions.md)
+- **Learn mongo-cli:** [Click here](learn-mongo-cli)
 - **Github HTTP Api:**: [Click here](https://docs.github.com/en/rest/reference/repos)
 - **Hindi:** [Click here](learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
