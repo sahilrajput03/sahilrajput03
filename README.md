@@ -16,6 +16,18 @@ npx degit sahilrajput03/react-app my-react-app
 cd my-react-app; npm install; npm run dev
 ```
 
+**Start a `nodejs` backend server using `express` with mongodb using `mongoose`
+
+```bash
+mkdir todo-app && cd todo-app
+# Clone todo example
+npx degit sahilrajput03/learning-monogo-and-mongoosejs/todo-app
+# Install depenedencies
+npm i
+# Run
+npm start
+```
+
 Find me on terminal via `npx sahilrajput03` command.
 
 ## References:
