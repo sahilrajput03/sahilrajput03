@@ -9,14 +9,14 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
-###### Start a `react` project
+#### Start a `react` project
 
 ```bash
 npx degit sahilrajput03/react-app my-react-app
 cd my-react-app; npm install; npm run dev
 ```
 
-###### Start a `nodejs` backend server using [`express`](https://expressjs.com/) connected to mongodb using [`mongoose`](https://mongoosejs.com/)
+#### Start a `nodejs` backend server using [`express`](https://expressjs.com/) connected to mongodb using [`mongoose`](https://mongoosejs.com/)
 
 ```bash
 mkdir todo-app && cd todo-app
