@@ -20,12 +20,17 @@ cd my-react-app; npm install; npm run dev
 
 ```bash
 mkdir todo-app && cd todo-app
-# Clone todo example
+
+#Clone todo example
 npx degit sahilrajput03/learning-monogo-and-mongoosejs/todo-app
-# Install depenedencies
+
+#Install depenedencies
 npm i
-# Run
+
+#Run
 npm start
+
+# TIP: You can browse http://localhost:3001/api/todos in browser to get all notes
 ```
 
 Find me on terminal via `npx sahilrajput03` command.
