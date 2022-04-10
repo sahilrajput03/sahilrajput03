@@ -1,4 +1,3 @@
-```bash
 curl(1)                                 curl Manual                                 curl(1)
 
 NAME
@@ -4794,4 +4793,3 @@ SEE ALSO
        ftp(1), wget(1)
 
 curl 7.82.0                            March 05 2022                                curl(1)
-```
