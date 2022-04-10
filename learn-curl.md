@@ -10,6 +10,9 @@ curl -i localhost:3000
 # only response headers
 curl -I localhost:3000
 
+# only response's status code
+curl localhost:3000 -sI | head -n1 | awk '{print $2}'
+
 
 #### Other useful flags
 `-s` for silent
