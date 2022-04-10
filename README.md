@@ -55,6 +55,9 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Github HTTP Api:**: [Click here](https://docs.github.com/en/rest/reference/repos)
 - **Hindi:** [Click here](learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
+- **Learn `Curl`:** [Click here](learn-curl.md)
+- **Learn Gmail:** [Click here](learn-gmail.md)
+- **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **Learn Regex:** [Click here](learn-regex.md)
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
@@ -73,8 +76,6 @@ Find me on terminal via `npx sahilrajput03` command.
 - [Why DSA based interviews are stupid ?](dsa.md)
 - **Learn Photoshop:**[Click here](learn-photoshop.md)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
-- **Learn gmail:** [Click here](learn-gmail.md)
-- **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 
