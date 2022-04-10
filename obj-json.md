@@ -16,9 +16,13 @@ echo {a: 10} | obj-json
 echo [{a: 10, b: 20}] | obj-json
 # Output: [{"a":10,"b":20}]
 
+echo '{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}' | obj-json
+# Output: {"firstName":"John","lastName":"Doe","age":50,"eyeColor":"blue"}
+
 echo "{a: 10, b: 20, name: 'sahil'}" | obj-json
 # Output: {"a":10,"b":20,"name":"sahil"}
 
+# Pretty print with jq
 echo "{a: 10, b: 20, name: 'sahil'}" | obj-json | jq
 # Output:
 {
@@ -26,4 +30,5 @@ echo "{a: 10, b: 20, name: 'sahil'}" | obj-json | jq
   "b": 20,
   "name": "sahil"
 }
+
 ```
