@@ -11,12 +11,12 @@ Source: https://linuxhint.com/bash_base64_encode_decode/
 ```bash
 # Encoding
 echo -n sahil | base64
-# fyi: in javascript, btoa() is encode
+# fyi: in javascript, btoa() is used to encode
 
 # Decoding (-d short for --decode)
 echo -n sahil | base64 | base64 -d
 # Output: sahil
-# fyi: in javascript, atob() is encode
+# fyi: in javascript, atob() is used to decode
 
 # Encoding file
 base64 myFile.txt
