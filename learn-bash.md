@@ -4,6 +4,10 @@
 
 # Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
 
+## Learn curl
+
+**[Learn curl](learn-curl.md)**
+
 ## base64 encode/decode from cli
 
 Source: https://linuxhint.com/bash_base64_encode_decode/
