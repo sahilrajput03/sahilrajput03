@@ -4,6 +4,16 @@
 
 # Popular blogs: https://linuxize.com/, https://linuxjournal.com
 
+## Read input from user is super cool!
+
+```bash
+#!/bin/sh
+echo "your age?"
+read age < /dev/tty
+echo "Your age $age"
+#Works as expected!
+```
+
 ## Using select menus in bash
 
 Source: [https://linuxize.com/post/bash-select/](https://linuxize.com/post/bash-select/)
