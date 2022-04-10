@@ -11,7 +11,7 @@ curl -i localhost:3000
 curl -I localhost:3000
 
 
-# other useful flags
+#### Other useful flags
 `-s` for silent
 ```
 
