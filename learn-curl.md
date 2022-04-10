@@ -7,6 +7,10 @@ curl localhost:3000
 # Show response + response headers
 curl -i localhost:3000
 
+# Show response headers only
+curl -I localhost:3000
+
+
 # other useful flags
 `-s` for silent
 ```
