@@ -16,7 +16,7 @@ curl -sI localhost:3000 | head -n1 | awk '{print $2}'
 # write output to file (CAUTION: overwrites to existing file)
 curl -o myFile.txt localhost:3000
 
-# write output to file names as `crash`
+# write output to file named as `crash`
 curl -O localhost:3000/crash
 
 # throws error: curl >> Remote file name has no length!
