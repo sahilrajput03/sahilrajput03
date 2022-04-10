@@ -3,8 +3,6 @@
 `-s` for silent
 `-i` shows response headers + response data
 
-[Complete Manual - `man curl`](man-curl.md)
-
 # Help
 
 ```bash
@@ -281,3 +279,9 @@ curl -h all
 #      --xattr              Store metadata in extended file attributes
 ```
 
+***[Complete Manual - `man curl`](man-curl.md)***
+
+Tip: Click below image to open 5k+ manual pages of `curl`.
+
+
+[![Check out ^^ above complete manual page](https://media0.giphy.com/media/l4hLVfpZQf1Ca0bhm/giphy.gif)](man-curl.md)
