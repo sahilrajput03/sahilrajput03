@@ -5,7 +5,7 @@
 curl localhost:3000
 
 # Show response + response headers
-curl localhost:3000 -i
+curl -i localhost:3000
 
 # other useful flags
 `-s` for silent
