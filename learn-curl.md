@@ -23,7 +23,7 @@ curl -O localhost:3000/crash
 curl -O localhost:3000/
 
 #### Other useful flags
-# -s for silent
+# -s for silent (it hides progressbar)
 # -v for verbose
 ```
 
