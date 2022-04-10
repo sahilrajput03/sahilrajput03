@@ -79,7 +79,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
-
+- **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
 ## express js loop holes ?
 
 ```js
@@ -291,36 +291,6 @@ Src: https://www.youtube.com/watch?v=xFFs9UgOAlE
 https://github.com/memcached/memcached
 
 https://memcached.org/
-
-## convert javascript object to json cli tool
-
-Source: [sahilrajput03/obj-json](https://github.com/sahilrajput03/obj-json)
-
-[@npm](https://www.npmjs.com/package/obj-json)
-
-Install:
-
-```bash
-npm i -g obj-json
-
-# Usage:
-echo {a: 10} | obj-json
-# Output: {"a":10}
-
-echo [{a: 10, b: 20}] | obj-json
-# Output: [{"a":10,"b":20}]
-
-echo "{a: 10, b: 20, name: 'sahil'}" | obj-json
-# Output: {"a":10,"b":20,"name":"sahil"}
-
-echo "{a: 10, b: 20, name: 'sahil'}" | obj-json | jq
-# Output:
-{
-  "a": 10,
-  "b": 20,
-  "name": "sahil"
-}
-```
 
 ## flashcards website
 
