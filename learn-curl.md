@@ -1,7 +1,15 @@
 # Learn `curl`
 
+```bash
+# Shows response only (without response header)
+curl localhost:3000
+
+# Show response + response headers
+curl localhost:3000 -i
+
+# other useful flags
 `-s` for silent
-`-i` shows response headers + response data
+```
 
 # Help
 
