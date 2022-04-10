@@ -310,7 +310,6 @@ echo {a: 10} | obj-json
 echo [{a: 10, b: 20}] | obj-json
 # Output: [{"a":10,"b":20}]
 
-
 echo "{a: 10, b: 20, name: 'sahil'}" | obj-json
 # Output: {"a":10,"b":20,"name":"sahil"}
 
