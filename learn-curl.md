@@ -1,13 +1,13 @@
 # Learn `curl`
 
 ```bash
-# Shows response only (without response header)
+# only response body (without response header)
 curl localhost:3000
 
-# Show response + response headers
+# response body + response headers
 curl -i localhost:3000
 
-# Show response headers only
+# only response headers
 curl -I localhost:3000
 
 
