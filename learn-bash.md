@@ -4,6 +4,30 @@
 
 # Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
 
+## to instantly install a executable binary to a path directory
+
+```bash
+install dothis ~/.local/bin/
+# now you can start using dothis binary (without bash restart)
+# NOTE: If you edit the file present in current directory, it won't change the file at ~/.local/bin so BEAWARE OF THAT!
+
+
+dothis
+# Output: works as expected!
+```
+
+## get last n number of lines from `$HISTFILE` along with line number
+
+This is helpful to execute a particular command using the number of that command.
+
+```bash
+fc -l -1000
+```
+
+## Write your own autocompletion scripts
+
+Source: [https://iridakos.com/programming/2018/03/01/bash-programmable-completion-tutorial](https://iridakos.com/programming/2018/03/01/bash-programmable-completion-tutorial)
+
 ## Learn curl
 
 **[Learn curl](learn-curl.md)**
