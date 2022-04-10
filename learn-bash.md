@@ -4,6 +4,26 @@
 
 # Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
 
+## base64 encode/decode from cli
+
+Source: https://linuxhint.com/bash_base64_encode_decode/
+
+```bash
+# Encoding
+echo -n sahil | base64
+
+# Decoding (-d short for --decode)
+echo -n sahil | base64 | base64 -d
+# Output: sahil
+
+# Encoding file
+base64 myFile.txt
+
+# Decoding file
+base64 myFile.txt | base64 -d
+# Output: <contents of the file>
+```
+
 ## Read input from user is super cool!
 
 ```bash
