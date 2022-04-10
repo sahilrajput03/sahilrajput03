@@ -55,7 +55,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Github HTTP Api:**: [Click here](https://docs.github.com/en/rest/reference/repos)
 - **Hindi:** [Click here](learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
-- **Learn `Curl`:** [Click here](learn-curl.md)
+- **Learn Curl:** [Click here](learn-curl.md)
 - **Learn Gmail:** [Click here](learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **Learn Regex:** [Click here](learn-regex.md)
