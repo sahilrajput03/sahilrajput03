@@ -11,7 +11,7 @@ curl -i localhost:3000
 curl -I localhost:3000
 
 # only response's status code
-curl localhost:3000 -sI | head -n1 | awk '{print $2}'
+curl -sI localhost:3000 | head -n1 | awk '{print $2}'
 
 
 #### Other useful flags
