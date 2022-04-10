@@ -15,7 +15,7 @@ curl localhost:3000 -sI | head -n1 | awk '{print $2}'
 
 
 #### Other useful flags
-`-s` for silent
+# `-s` for silent
 ```
 
 # Help
