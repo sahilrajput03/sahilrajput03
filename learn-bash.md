@@ -2,7 +2,7 @@
 
 **( CRUX: Basic instinct to figure out somthing with a cli tool is like to have basic instinct to do `man cli-name` and read through it.)**
 
-# Popular blogs: https://linuxize.com/, https://linuxjournal.com
+# Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
 
 ## Read input from user is super cool!
 
