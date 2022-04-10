@@ -279,9 +279,9 @@ curl -h all
 #      --xattr              Store metadata in extended file attributes
 ```
 
-***[Complete Manual - `man curl`](man-curl.md)***
+***[Complete Manual - `man curl`](man-curl.txt)***
 
 Tip: Click below image to open 5k+ manual pages of `curl`.
 
 
-[![Check out ^^ above complete manual page](https://media0.giphy.com/media/l4hLVfpZQf1Ca0bhm/giphy.gif)](man-curl.md)
+[![Check out ^^ above complete manual page](https://media0.giphy.com/media/l4hLVfpZQf1Ca0bhm/giphy.gif)](man-curl.txt)
