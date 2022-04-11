@@ -1652,6 +1652,26 @@ if [ -d blulabs ]; then echo yesss; echo we are still executing; fi
 # we are still executing
 
 
+# src: https://www.tutorialspoint.com/unix/if-elif-statement.htm
+a=10
+b=20
+
+if [ $a == $b ]
+then
+   echo "a is equal to b"
+elif [ $a -gt $b ]
+then
+   echo "a is greater than b"
+elif [ $a -lt $b ]
+then
+   echo "a is less than b"
+else
+   echo "None of the condition met"
+fi
+
+
+
+
 a=10
 if [ $a ] ; then echo yes; fi
 # Output: yes
