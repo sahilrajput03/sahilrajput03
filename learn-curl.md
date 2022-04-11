@@ -22,6 +22,13 @@ curl -O localhost:3000/crash
 # throws error: curl >> Remote file name has no length!
 curl -O localhost:3000/
 
+# Sending telegram message to target group/channel with a given chat_id
+curl -X POST \
+	-H "Content-Type: application/json" \
+	-d '{"chat_id": "1", "text": "2", "parse_mode": "HTML"}' \
+	'https://api.telegram.org/bot<BOT_TOKEN>/sendMessage'
+
+
 #### Other useful flags
 # -s for silent (it hides progressbar)
 # -v for verbose
