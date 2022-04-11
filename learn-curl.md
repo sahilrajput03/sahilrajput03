@@ -36,7 +36,14 @@ curl -X POST \
 # For using multiple request headers use format like this:
 `curl -H "X-Header1: value1" -H "X-Header2: value2" localhost:8080`
 
-#### Other useful flags
+
+#### TIPS:
+# Tip: replace GET with POST, PUT, PATCH, etc for such usages!**, https://www.keycdn.com/support/popular-curl-examples#13-get-method
+# Tip: Use `log({headers: req.headers});` to log the headers on express server.
+# Simple curl requests: https://www.keycdn.com/support/popular-curl-examples
+
+
+#### OTHER HELPFUL FLAGS:
 # -s for silent (it hides progressbar)
 # -v for verbose
 ```
