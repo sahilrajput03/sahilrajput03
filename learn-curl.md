@@ -51,6 +51,7 @@ curl -X POST \
 **Using bash variables:**
 
 ```bash
+# source: https://stackoverflow.com/a/37632617/10012446
 # Using bash variables inside url and body
 TELEGRAM_CHAT_ID="---"
 TELEGRAM_ACCESS_TOKEN="---"
