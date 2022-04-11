@@ -36,6 +36,21 @@ curl -X POST \
 # For using multiple request headers use format like this:
 `curl -H "X-Header1: value1" -H "X-Header2: value2" localhost:8080`
 
+# Using bash variables inside url and body
+TELEGRAM_CHAT_ID="---"
+TELEGRAM_ACCESS_TOKEN="---"
+
+# Enable Debugging
+set -x 
+
+curl -X POST \
+	-H "Content-Type: application/json" \
+	-d @<(cat <<EOF 
+{ "chat_id": "$TELEGRAM_CHAT_ID", "text": "hello", "parse_mode": "HTML" }
+EOF) \
+	"https://api.telegram.org/bot$TELEGRAM_ACCESS_TOKEN/sendMessage" \
+
+
 
 #### TIPS:
 # Tip: replace GET with POST, PUT, PATCH, etc for such usages!**, https://www.keycdn.com/support/popular-curl-examples#13-get-method
