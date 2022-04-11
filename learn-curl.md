@@ -22,12 +22,19 @@ curl -O localhost:3000/crash
 # throws error: curl >> Remote file name has no length!
 curl -O localhost:3000/
 
+# Default --request (-X) has GET value:
+curl "https://reverberate.ml"
+curl --request GET https://reverberate.ml
+curl -X GET https://reverberate.ml
+
 # Sending telegram message to target group/channel with a given chat_id
 curl -X POST \
 	-H "Content-Type: application/json" \
 	-d '{"chat_id": "1", "text": "2", "parse_mode": "HTML"}' \
 	'https://api.telegram.org/bot<BOT_TOKEN>/sendMessage'
 
+# For using multiple request headers use format like this:
+`curl -H "X-Header1: value1" -H "X-Header2: value2" localhost:8080`
 
 #### Other useful flags
 # -s for silent (it hides progressbar)
