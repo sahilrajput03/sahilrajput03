@@ -4,6 +4,21 @@
 
 # Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
 
+## Network utility is awesome
+
+source: https://linuxize.com/post/netcat-nc-command-with-examples/
+
+```bash
+## SIMPLE CHAT APP
+# terminal 1 (listener)
+nc -l 8080
+
+# terminal 2 (sender)
+nc localhost 8080
+
+#### now you can send messages to and from each other, yo!!
+```
+
 ## to instantly install a executable binary to a path directory
 
 ```bash
