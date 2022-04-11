@@ -26,7 +26,7 @@ nc localhost 8080
 nc -l 8080
 
 # terminal 2 (sender)
-curl localhost:8080 -d {message: 'life is amazing'}
+curl localhost:8080 -d '{"message": "life is amazing"}'
 
 ### terminal 1's output
 # POST / HTTP/1.1
