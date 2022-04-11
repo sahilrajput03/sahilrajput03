@@ -10,6 +10,10 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## Repeat last command you ran in command mode?
+
+Use `@:` directly or `:@:` in command mode to reexecute last command.
+
 ## what more ??
 
 - Search selected text (even natively is cool thing though!!), with my script it is like select some text and presss `//` and thats all.
