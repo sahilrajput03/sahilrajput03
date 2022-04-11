@@ -80,6 +80,13 @@ Find me on terminal via `npx sahilrajput03` command.
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 - **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
+
+## Random number generation ?
+
+Joke: https://xkcd.com/221/
+
+Math Stackexchange: https://math.stackexchange.com/questions/255610/easy-way-to-generate-random-numbers
+
 ## express js loop holes ?
 
 ```js
