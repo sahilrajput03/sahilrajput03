@@ -19,6 +19,26 @@ nc localhost 8080
 #### now you can send messages to and from each other, yo!!
 ```
 
+**This can be used to test curl request locally as well:**
+
+```bash
+# terminal 1(receiver)
+nc -l 8080
+
+# terminal 2 (sender)
+curl localhost:8080 -d {message: 'life is amazing'}
+
+### terminal 1's output
+# POST / HTTP/1.1
+# Host: localhost:8080
+# User-Agent: curl/7.82.0
+# Accept: */*
+# Content-Length: 30
+# Content-Type: application/x-www-form-urlencoded
+# 
+# {"message": "life is amazing"}
+```
+
 ## to instantly install a executable binary to a path directory
 
 ```bash
