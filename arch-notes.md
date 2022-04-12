@@ -8,6 +8,124 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install `act` to be able to run github actions locally
+
+Source: https://github.com/nektos/act
+
+```bash
+yay -S act
+```
+
+## Amazing `bash` script linter
+
+Source: https://www.shellcheck.net/
+
+## install `yay` - a aur package manager
+
+```bash
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+# Usage:
+yay -S google-chrome
+# source: https://linuxhint.com/install-google-chrome-manjaro/
+```
+
+## insatll `helm`
+
+```bash
+sudo pacman -S helm
+```
+
+## Autocomplete any alias now!!
+
+Another article on making autocomplete functions: https://iridakos.com/programming/2018/03/01/bash-programmable-completion-tutorial
+
+```bash
+alias ke='kubectl exec -it'
+complete -F _complete_alias ke
+
+# I can autocomplete any alias now using a entry like above!! Yo!!
+# src: https://unix.stackexchange.com/a/332522/504112
+# FYI ^^^^^^^^^^^^^^^^^^^^^^^^^: This required two things installed + one config files(~/.bash_completion) setup, i.e.,
+# 1. `complete-alias`
+# AUR: bash-complete-alias
+# SRC: https://github.com/cykerway/complete-alias
+#
+#
+# 2. `bash-completion`
+# ARCH PACKAGE: sudo pacman -S bash-completion
+#
+#
+# 3. Setup file: ~/.bash_completion, such that:
+cat ~/.bash_completion
+if [ -f /usr/share/bash-complete-alias/complete_alias ] ; then
+        . /usr/share/bash-complete-alias/complete_alias
+fi
+
+```
+
+## install `jiq`
+
+A json path finder.
+
+```bash
+git clone https://aur.archlinux.org/jiq-bin.git
+cd jiq-bin
+makepkg -si
+
+# Usage:
+cat myjson.json | jiq
+# Now you tab and . and [0],[1] syntax to navigate into the json.
+```
+
+## install age
+
+Src: https://github.com/FiloSottile/age
+
+```bash
+sudo pacman -S age
+# binaries included: age, age-keygen
+
+sudo pacman -S soaps
+# binaries included: sops
+```
+
+## insatll `kubectx`
+
+It has both `kubectx`(to change context) and `kubens` (to change namespace) cli tools
+
+Source: https://github.com/ahmetb/kubectx
+
+```bash
+sudo pacman -S kubectx
+```
+
+## intall zoom
+
+```bash
+git clone https://aur.archlinux.org/zoom.git
+cd zoom
+makepkg -si
+```
+
+## what is `busybox`?
+
+Awesome examplanation and usage details: https://www.youtube.com/watch?v=wWA6SvzvElU
+
+Arch package: https://archlinux.org/packages/community/x86_64/busybox/
+
+Arch wiki: https://wiki.archlinux.org/title/BusyBox
+
+Official website: https://busybox.net/
+
+tldr;
+
+- This is basically a collection of 300+ programs useful in unix, linux, bsd operating systems.
+
+- **Also, this is useful in alpine linux coz if you see `ls -al /usr/bin/` you'll in see a whole bunch of executables are symlinked to `busybox` actually. So its leveraging from busy box actually.**
+
 ## install `yq` (a `jq` like parser but for yaml, xml, etc)
 
 Source: https://github.com/kislyuk/yq
@@ -268,6 +386,15 @@ makepkg -si
 noisetorch
 
 #You might need to logout/login (or completely restart to see the Noisetorch audio in your chrome, firefox works straightaway though)
+```
+
+## install `gcloud` from google cloud
+
+```bash
+# source: https://aur.archlinux.org/packages/google-cloud-sdk
+git clone https://aur.archlinux.org/google-cloud-sdk.git
+cd google-cloud-sdk
+makepkg -si
 ```
 
 ## insatll `R` language compiler
@@ -582,7 +709,9 @@ sudo pacman -S tmux
 # TODO: Good tmux blog(suggested by missing-semester): https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
 # TODO: Good tmux blog (suggested by missing-semester): https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
 
-## You can swap a window pane with the upward pane in the cyclic order with ctrl+t { or downward with ctrl+t }
+## You can swap a window pane with the upward pane in the upward with ctrl+t {
+## You can swap a window pane with the upward pane in the downward with ctrl+t }
+
 
 ## You can attach to all the available tmux sessions currently alive via: ctrl+t ( or ctrl+t )
 

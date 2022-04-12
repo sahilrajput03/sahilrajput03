@@ -2,7 +2,278 @@
 
 **( CRUX: Basic instinct to figure out somthing with a cli tool is like to have basic instinct to do `man cli-name` and read through it.)**
 
-# Popular blogs: https://linuxize.com/, https://linuxjournal.com
+# Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
+
+## Network utility is awesome
+
+source: https://linuxize.com/post/netcat-nc-command-with-examples/
+
+```bash
+## SIMPLE CHAT APP
+# terminal 1 (listener)
+nc -l 8080
+
+# terminal 2 (sender)
+nc localhost 8080
+
+#### now you can send messages to and from each other, yo!!
+```
+
+**This can be used to test curl request locally as well:**
+
+```bash
+# terminal 1(receiver)
+nc -l 8080
+
+# terminal 2 (sender)
+curl localhost:8080 -d '{"message": "life is amazing"}'
+
+### terminal 1's output
+# POST / HTTP/1.1
+# Host: localhost:8080
+# User-Agent: curl/7.82.0
+# Accept: */*
+# Content-Length: 30
+# Content-Type: application/x-www-form-urlencoded
+# 
+# {"message": "life is amazing"}
+```
+
+## to instantly install a executable binary to a path directory
+
+```bash
+install dothis ~/.local/bin/
+# now you can start using dothis binary (without bash restart)
+# NOTE: If you edit the file present in current directory, it won't change the file at ~/.local/bin so BEAWARE OF THAT!
+
+
+dothis
+# Output: works as expected!
+```
+
+## get last n number of lines from `$HISTFILE` along with line number
+
+This is helpful to execute a particular command using the number of that command.
+
+```bash
+fc -l -1000
+```
+
+## Write your own autocompletion scripts
+
+Source: [https://iridakos.com/programming/2018/03/01/bash-programmable-completion-tutorial](https://iridakos.com/programming/2018/03/01/bash-programmable-completion-tutorial)
+
+## Learn curl
+
+**[Learn curl](learn-curl.md)**
+
+## base64 encode/decode from cli
+
+Source: https://linuxhint.com/bash_base64_encode_decode/
+
+```bash
+# Encoding
+echo -n sahil | base64
+# fyi: in javascript, btoa() is used to encode
+
+# Decoding (-d short for --decode)
+echo -n sahil | base64 | base64 -d
+# Output: sahil
+# fyi: in javascript, atob() is used to decode
+
+# Encoding file
+base64 myFile.txt
+
+# Decoding file
+base64 myFile.txt | base64 -d
+# Output: <contents of the file>
+```
+
+## Read input from user is super cool!
+
+```bash
+#!/bin/sh
+echo "your age?"
+read age < /dev/tty
+echo "Your age $age"
+#Works as expected!
+```
+
+## Using select menus in bash
+
+Source: [https://linuxize.com/post/bash-select/](https://linuxize.com/post/bash-select/)
+
+This simply rocks!
+
+My implementation usage: [https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/curls/select.sh](https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/curls/select.sh)
+
+## `mv` learnings:
+
+- Consider you are moving 10 gb of data from your drive to hdd or ssd, and say you cancel the command in the middle so you don't loose anything in the source place though because mv only first copies all files to target and only delete the source files if the all copying process is completed, yikes!
+- Always delete nested `node_modules` before copying any project to extenal hard disk, using my below aliases:
+
+```
+# amazing: https://stackoverflow.com/a/43561012/10012446
+alias findNodeModules='find . -name 'node_modules' -type d -prune'
+alias deleteNestedNodeModules="find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+```
+
+## `help` command on linux
+
+```bash
+help
+# GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+# These shell commands are defined internally.  Type `help' to see this list.
+# Type `help name' to find out more about the function `name'.
+# Use `info bash' to find out more about the shell in general.
+# Use `man -k' or `info' to find out more about commands not in this list.
+# 
+# A star (*) next to a name means that the command is disabled.
+# 
+#  job_spec [&]                                                                                  history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...]
+#  (( expression ))                                                                              if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [ else COMMANDS; ] fi
+#  . filename [arguments]                                                                        jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+#  :                                                                                             kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+#  [ arg... ]                                                                                    let arg [arg ...]
+#  [[ expression ]]                                                                              local [option] name[=value] ...
+#  alias [-p] [name[=value] ... ]                                                                logout [n]
+#  bg [job_spec ...]                                                                             mapfile [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantu>
+#  bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r keyseq] [-x keyseq:shell>  popd [-n] [+N | -N]
+#  break [n]                                                                                     printf [-v var] format [arguments]
+#  builtin [shell-builtin [arg ...]]                                                             pushd [-n] [+N | -N | dir]
+#  caller [expr]                                                                                 pwd [-LP]
+#  case WORD in [PATTERN [| PATTERN]...) COMMANDS ;;]... esac                                    read [-ers] [-a array] [-d delim] [-i text] [-n nchars] [-N nchars] [-p prompt] [-t timeou>
+#  cd [-L|[-P [-e]] [-@]] [dir]                                                                  readarray [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quan>
+#  command [-pVv] command [arg ...]                                                              readonly [-aAf] [name[=value] ...] or readonly -p
+#  compgen [-abcdefgjksuv] [-o option] [-A action] [-G globpat] [-W wordlist] [-F function] [->  return [n]
+#  complete [-abcdefgjksuv] [-pr] [-DEI] [-o option] [-A action] [-G globpat] [-W wordlist] [->  select NAME [in WORDS ... ;] do COMMANDS; done
+#  compopt [-o|+o option] [-DEI] [name ...]                                                      set [-abefhkmnptuvxBCHP] [-o option-name] [--] [arg ...]
+#  continue [n]                                                                                  shift [n]
+#  coproc [NAME] command [redirections]                                                          shopt [-pqsu] [-o] [optname ...]
+#  declare [-aAfFgiIlnrtux] [-p] [name[=value] ...]                                              source filename [arguments]
+#  dirs [-clpv] [+N] [-N]                                                                        suspend [-f]
+#  disown [-h] [-ar] [jobspec ... | pid ...]                                                     test [expr]
+#  echo [-neE] [arg ...]                                                                         time [-p] pipeline
+#  enable [-a] [-dnps] [-f filename] [name ...]                                                  times
+#  eval [arg ...]                                                                                trap [-lp] [[arg] signal_spec ...]
+#  exec [-cl] [-a name] [command [argument ...]] [redirection ...]                               true
+#  exit [n]                                                                                      type [-afptP] name [name ...]
+#  export [-fn] [name[=value] ...] or export -p                                                  typeset [-aAfFgiIlnrtux] [-p] name[=value] ...
+#  false                                                                                         ulimit [-SHabcdefiklmnpqrstuvxPT] [limit]
+#  fc [-e ename] [-lnr] [first] [last] or fc -s [pat=rep] [command]                              umask [-p] [-S] [mode]
+#  fg [job_spec]                                                                                 unalias [-a] name [name ...]
+#  for NAME [in WORDS ... ] ; do COMMANDS; done                                                  unset [-f] [-v] [-n] [name ...]
+#  for (( exp1; exp2; exp3 )); do COMMANDS; done                                                 until COMMANDS; do COMMANDS; done
+#  function name { COMMANDS ; } or name () { COMMANDS ; }                                        variables - Names and meanings of some shell variables
+#  getopts optstring name [arg ...]                                                              wait [-fn] [-p var] [id ...]
+#  hash [-lr] [-p pathname] [-dt] [name ...]                                                     while COMMANDS; do COMMANDS; done
+#  help [-dms] [pattern ...]                                                                     { COMMANDS ; }
+```
+
+## Getting your cronjobs
+
+```bash
+sudo crontab -u $USER -l
+25,55 * * * * for i in {1..5}; do ~/scripts-in-use/beepSound.sh; done
+*/5 * * * * ~/scripts-in-use/beepSound.sh
+* * * * * date >> ~/my-cron-task-log.txt
+* * * * * DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus /home/array/Documents/github_repos/devopswithkubernetes/exercises/ex2-09/command_to_get_random_article.sh >> /tmp/cronlog-01.txt
+# The reasony why I have put ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ is coz notifications send via cronjob aren't working without them!, SRC: https://askubuntu.com/a/1308769/702911
+```
+
+## Start and kill specific processes
+
+Src: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
+
+Probably the easiest way of killing a running process is by selecting it through the process name as in the following
+
+example using pkill command as
+
+```bash
+pkill -f test.py
+```
+(or) a more fool-proof way using pgrep to search for the actual process-id
+
+```bash
+kill $(pgrep -f 'python test.py')
+```
+## Expand your alias in shell lively before your eyes ?
+
+```bash
+myAlias<ctrl+alt+e>
+```
+
+## Make script's realative path work even when the script is executed from different path
+
+You can make use of:
+
+```
+lines=$(wc -l $(dirname $0)/must-can |  awk '{print $1}')
+# src: vi ~/scripts-in-use/td/s.sh
+
+# Here $dirname $0 will get the path of the script and then we append the relative path for any path relative to the script we are executing.
+# It works good!!
+```
+
+## print commands automatically before running them:
+
+**way0-BEST**
+
+Use manual echo logs to do it!
+
+**way1**
+
+```
+myFun(){
+trap 'echo "+ $BASH_COMMAND"' DEBUG
+# my commands here..
+# my commands here..
+
+trap - DEBUG
+}
+
+# THIS WORKS GOOD THOUGH!
+# trap - DEBUG is to reset the environment.
+# DRAWBACK: trap - DEBUG is printed as well.
+```
+
+**way2**
+
+```
+set -x;
+command1;
+command2;
+set +x;
+
+# FYI: THIS IS NOT WORKING GOOD(prints clutters as well) ACCORDING TO MY ENVIONMENT! ~Sahil
+# set +x is to reset the environment.
+# DRAWBACK: set +x is printed as well.
+```
+
+**way3**
+
+`-v` is move verbose as compared to `-x`
+
+```
+set -v;
+command1;
+command2;
+set +v;
+
+# FYI: THIS IS NOT WORKING GOOD(prints clutters as well) ACCORDING TO MY ENVIONMENT! ~Sahil
+# set +v is to reset the environment.
+# DRAWBACK: set +v is printed as well.
+```
+
+**way4**
+
+We can use `-x` or `-v` when calling the shebang in any script as well:
+
+```bash
+#!/bin/bash -x
+# or
+#!/bin/bash -v
+```
 
 ## record your terminal sessions the right way
 
@@ -108,7 +379,7 @@ sha1sum -c sha-verify
 2: OK
 ```
 
-**Also from the man pages of `sha1sum`:
+**Also from the man pages of `sha1sum`:**
 
 ```txt
 BUGS
@@ -1414,6 +1685,26 @@ if [ -d blulabs ]; then echo yesss; echo we are still executing; fi
 # output:
 # yesss
 # we are still executing
+
+
+# src: https://www.tutorialspoint.com/unix/if-elif-statement.htm
+a=10
+b=20
+
+if [ $a == $b ]
+then
+   echo "a is equal to b"
+elif [ $a -gt $b ]
+then
+   echo "a is greater than b"
+elif [ $a -lt $b ]
+then
+   echo "a is less than b"
+else
+   echo "None of the condition met"
+fi
+
+
 
 
 a=10

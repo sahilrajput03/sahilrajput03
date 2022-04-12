@@ -4,10 +4,10 @@
 
 **Courses:**
 
-- Learn Design (100% theory): https://www.figma.com/resources/learn-design/lessons/
-- TODO(theory) - Design sense: https://developer.apple.com/design/human-interface-guidelines/
-- TODO(theory) - Design sense: https://material.io/design
-- TODO: Figma (theory) best practises: https://www.figma.com/best-practices/
+- Learn Design (100% theory): [Click here](https://www.figma.com/resources/learn-design/lessons/)
+- TODO(theory) - Design sense: [Click here](https://developer.apple.com/design/human-interface-guidelines/)
+- TODO(theory) - Design sense: [Click here](https://material.io/design)
+- TODO: Figma (theory) best practises: [Click here](https://www.figma.com/best-practices/)
 - TODO (URGENT1): Article(practical-prototyping): From [official figma](https://help.figma.com/hc/en-us/articles/360039818874-Create-advanced-animations-with-Smart-Animate#h_82a1603b-89e5-4254-91a6-104456c18d32).
 - TODO (URGENT2): Article(practical-prototyping): From [official figma](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma?auth_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjo5MzI1MTQzLCJ1c2VyX2lkIjpudWxsLCJ0aWNrZXRfaWQiOm51bGwsImRlZmxlY3Rpb25faWQiOjQ2ODEyODU3MzQyOTUsImFydGljbGVzIjpbMzYwMDUxNzQ4NjU0LDM2MDA0MDUyMjM3MywzNjAwNDAzMTQxOTNdLCJ0b2tlbiI6bnVsbCwiZXhwIjoxNjQ5NTIxNjQwfQ.MVUsF0zPmFRl-ljVVZ9FtLyo9YqQS8bsO3SCdP4ZxcE)
 - TODO (URGENT3): Article(practical-prototyping): From [official figma](https://help.figma.com/hc/en-us/articles/360051748654-Prototype-easing-curves?auth_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjo5MzI1MTQzLCJ1c2VyX2lkIjpudWxsLCJ0aWNrZXRfaWQiOm51bGwsImRlZmxlY3Rpb25faWQiOjQ2ODEyODU3MzQyOTUsImFydGljbGVzIjpbMzYwMDUxNzQ4NjU0LDM2MDA0MDUyMjM3MywzNjAwNDAzMTQxOTNdLCJ0b2tlbiI6bnVsbCwiZXhwIjoxNjQ5NTIxNjQwfQ.MVUsF0zPmFRl-ljVVZ9FtLyo9YqQS8bsO3SCdP4ZxcE)
@@ -21,21 +21,21 @@
   - DONE: (above video was contained in this article): [Create dynamic designs with auto layout](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout)
   - DONE: [CHANNEL-CharliMarieTV - Figma 101: An introduction tutorial](https://youtu.be/cCNLD5IZY34)
   - DONE: [CHANNEL-CharliMarieTV - Figma Smart Animate first impressions & testing!](https://youtu.be/5ptQoY3VZSo)
-  - TODO-VIDEO-KEVIN: https://youtu.be/ps6p9e6QmgY
+  - TODO-VIDEO-KEVIN: [video @ youtube](https://youtu.be/ps6p9e6QmgY)
   - TODO-VIDEO: [KEVIN-search-@-yt](https://www.youtube.com/watch?v=bh98SF7OjUk) - He has couple of other video there as well, [Click here](https://www.youtube.com/results?search_query=kevin+figma)
   - TODO-ARTICLE: [Create advanced animations with smart animate](https://help.figma.com/hc/en-us/articles/360039818874-Create-advanced-animations-with-Smart-Animate#h_82a1603b-89e5-4254-91a6-104456c18d32)
   - TODO-ARTICLE: Explore text properties from FIGMA OFFICIAL: [Click here](https://help.figma.com/hc/en-us/articles/360039956634)
   - DONE: [CHANNEL: AJ&Smart - Figma UI Design Tutorial: Get Started in Just 24 Minutes! (2022)](https://www.youtube.com/watch?v=FTFaQWZBqQ8)
-  - TODO: https://www.youtube.com/results?search_query=figma
+  - TODO: [Figma search @ youtube](https://www.youtube.com/results?search_query=figma)
   - AMAZING FREE FIGMA TEMPLATES/FILE RESOURCES for figma: Checkout: [Click here](https://www.templatefreebies.com/) **and then open any figma design from there and then click on** `Copy to Figma` button to get it in your draft. ALSO if this site is not sufficient, then you may find other *free figma resource* - by Google search - to get free figma files to copy from.
   - TODO: Make a twitter clone of mobile of different screens.
   - TODO: Make a telegram clone of mobile app as well.
   - TODO: Join some community for figma @ slack, discord or telegram to get help, feedback, etc with people and get in a good social reln in terms of figma and designing.
   - There are thousands of free designs on different vast variety of topics.
-  - Food delivery app design page @ https://www.templatefreebies.com/resources/figma-food-delivery-app-ui
-  - My copy version of *FOOD DELIVERY APP* in my figma draft: https://www.figma.com/file/KLqvjwP96rt2OBHqF7MhFV/Food-Delivery-UI---Free-(Copy)?node-id=0%3A1
-  - https://www.figma.com/community/file/886554014393250663
-  - https://www.figma.com/community/file/780582924744713607
+  - Food delivery app design page @ [Click here](https://www.templatefreebies.com/resources/figma-food-delivery-app-ui)
+  - My copy version of *FOOD DELIVERY APP* in my figma draft: [Draft file](https://www.figma.com/file/KLqvjwP96rt2OBHqF7MhFV/Food-Delivery-UI---Free-(Copy)?node-id=0%3A1)
+  - [File](https://www.figma.com/community/file/886554014393250663)
+  - [File](https://www.figma.com/community/file/780582924744713607)
   -  ->FYI: There are tons of free icon figma files shared by community on figma sites itself
   - For icons search **Free figma icons** on google to get such resources.
 
@@ -216,7 +216,7 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 
 - "You must have a copy of the enity for what you want to animate(move actually say with increasing opacity) from the fram1 to frame2 if you are making animation from frame1 to frame2" ~ Kevin Powell.
 
-- DONE - [Prototyping animations with Figma ~ Kevin Powell]: https://youtu.be/ps6p9e6QmgY
+- DONE - [Prototyping animations with Figma ~ Kevin Powell]: [Youtube link](https://youtu.be/ps6p9e6QmgY)
 
 **Tips:**
 

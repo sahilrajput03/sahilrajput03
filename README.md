@@ -1,5 +1,7 @@
 # 🤺︎ Hi there 👋 Trying what I can ! ![](https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif)
 
+[relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
+
 Unwinding is hot no-sugar coffee beated with coco powder!
 
 ```bash
@@ -7,29 +9,55 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
-**Start react project**
+#### Start a `react` project
 
 ```bash
 npx degit sahilrajput03/react-app my-react-app
-cd my-react-app
-npm install
-npm run dev
+cd my-react-app; npm install; npm run dev
+```
+
+#### Start a `nodejs` backend server using [`express`](https://expressjs.com/) connected to mongodb using [`mongoose`](https://mongoosejs.com/)
+
+***Requirements: [`Nodejs`](https://nodejs.dev/), [`Mondogdb`](https://www.mongodb.com/docs/manual/installation/#mongodb-installation-tutorials)***
+
+```bash
+mkdir todo-app && cd todo-app
+
+#Clone todo example
+npx degit sahilrajput03/learning-monogo-and-mongoosejs/todo-app
+
+#Install depenedencies
+npm i
+
+#Run
+npm start
+
+# TIP: You can browse http://localhost:3001/api/todos in browser to get all notes
 ```
 
 Find me on terminal via `npx sahilrajput03` command.
 
 ## References:
 
-- **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
+- Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - **Acronyms:** [Click here](acroynms.md)
+- **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
 - **Book logs:** [Click here](./book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
-- **Courses**: [Click here](courses-list.md).
+- **Courses:** [Click here](courses-list.md).
+- **Css wow:** [Click here](https://codepen.io/cassidoo/)
 - **Enlightment:** [Cick here](enlightenment.md)
+- **FSO contribution:** [Click here](my-fso-contribution.md)
+- **Github Actions:** [Click here](github-actions.md)
+- **Learn mongo-cli:** [Click here](learn-mongo-cli.md)
+- **Github HTTP Api:**: [Click here](https://docs.github.com/en/rest/reference/repos)
 - **Hindi:** [Click here](learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
+- **Learn Curl:** [Click here](learn-curl.md)
+- **Learn Gmail:** [Click here](learn-gmail.md)
+- **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **Learn Regex:** [Click here](learn-regex.md)
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
@@ -38,6 +66,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn qutebrowser:** [Click here](qutebrowser.md)
 - **Learn Zerodha Varasity:** [Click here](learn-zerodha-varasity.md)
 - **Learn Urdu:** [Click here](./learn-urdu/)
+- **Learn Algorithms:**: [Click here](learn-algorithms.md) 
 - **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **React file structure:** [Click here](https://react-file-structure.surge.sh/)
@@ -48,8 +77,239 @@ Find me on terminal via `npx sahilrajput03` command.
 - [Why DSA based interviews are stupid ?](dsa.md)
 - **Learn Photoshop:**[Click here](learn-photoshop.md)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
-- **Learn gmail:** [Click here](learn-gmail.md)
-- **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
+- **DSA in Javascript:** [Click here](dsa-js.md)
+- **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
+- **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
+
+## `forever` a npm package to ensure ensure that a script is running forever
+
+[https://github.com/foreversd/forever#readme](https://github.com/foreversd/forever#readme)
+
+## Random number generation ?
+
+Joke: https://xkcd.com/221/
+
+Math Stackexchange: https://math.stackexchange.com/questions/255610/easy-way-to-generate-random-numbers
+
+## express js loop holes ?
+
+```js
+	return res.status(200).json('ok') // FYI: This is valid json though!
+// ^^^^^^^^^^^^^^ this actually sends status code 304 IDK why on earth!
+
+	return res.status(200).send('ok') // FYI: This is valid json though!
+// ^^^^^^^^^^^^^^ this actually sends status code 200.
+```
+
+## vertical and horizontal pod scaling, what kind of constratins to consider?
+
+```txt
+# usefule text from: https://devopswithkubernetes.com/part-3/3-gke-features
+# Scaling
+Scaling can be either horizontal scaling or vertical scaling. Vertical scaling is the act of increasing resources available to a pod or a node. Horizontal scaling is what we most often mean when talking about scaling, increasing the number of pods or nodes. We'll focus on horizontal scaling.
+
+There are multiple reasons for wanting to scale an application. The most common reason is that the number of requests an application receives exceeds the number of requests that can be processed. Limitations are often either the amount of requests that a framework is intended to handle or the actual CPU or RAM.
+
+Figuring out autoscaling with HorizontalPodAutoscalers can be one of the more challening tasks. Choosing which resources to look at and when to scale is not easy. In our case, we only stress the CPU. But your applications may need to scale based on, and take into consideration, a number of resources e.g. network, disk or memory.
+```
+
+## Difference between `|`, `|>`, `>` and `>-` in yaml ?
+
+```yaml
+Key1: >
+  Line 1
+  LIne 2
+
+# (no newline character after in the end)
+Key2: >-
+  Line 1
+  Line 2
+
+Key3: |
+  Line 1
+  LINE 2
+
+#  (no newline character after in the end)
+Key4: |-
+  Line 1
+  LINE 2
+```
+
+is converted to json
+
+```json
+{
+   "Key1": "Line 1 LIne 2\n",
+   "Key2": "Line 1 Line 2",
+   "Key3": "Line 1\nLINE 2\n",
+   "Key4": "Line 1\nLINE 2"
+}
+```
+
+Source: https://stackoverflow.com/a/3790497/10012446
+
+Proof of convertion trial @ https://www.convertjson.com/yaml-to-json.htm
+
+## Using select menus in bash
+
+[learn-bash.md#using-select-menus-in-bash](./learn-bash.md#using-select-menus-in-bash)
+
+## Swithing to terminal to run a bash script or npm command very often?
+
+Consider using a `.vscode/tasks.json` file (you can autogenerate this file with vscode very easily). I personally use `ctrl+alt+r` keybinding to launch run tasks, yo!!
+
+```json
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			// "command": "pwd", // for testing.
+			"command": "./fso-part13/curls/post_note.sh",
+			"label": "post a note ~Sahil"
+		},
+		{
+			"type": "shell",
+			"command": "./fso-part13/curls/get_a_note.sh",
+			"label": "Get a note ~Sahil"
+		},
+		{
+			"type": "shell",
+			"command": "./fso-part13/curls/resetNotes.sh",
+			"label": "Reset notes table! ~Sahil"
+		}
+	]
+}
+```
+
+## json to xml converter
+
+- https://www.freeformatter.com/json-to-xml-converter.html#ad-output
+
+- https://www.convertjson.com/json-to-xml.htm
+
+## What is canaray releases ?
+
+Canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
+
+Source: https://martinfowler.com/bliki/CanaryRelease.html
+
+## What is reverse psychology?
+
+https://en.wikipedia.org/wiki/Reverse_psychology
+
+## retrieval practise
+
+[https://en.wikipedia.org/wiki/Testing_effect](https://en.wikipedia.org/wiki/Testing_effect)
+
+## serverless and utility computing
+
+[https://en.wikipedia.org/wiki/Serverless_computing](https://en.wikipedia.org/wiki/Serverless_computing)
+
+[https://en.wikipedia.org/wiki/Utility_computing](https://en.wikipedia.org/wiki/Utility_computing)
+
+## firebase
+
+At: [console.firebase.google.com](console.firebase.google.com)
+
+Pricing: [https://firebase.google.com/pricing](https://firebase.google.com/pricing)
+
+
+## `react-router`, `react-dom` or `react-router-dom`, what the difference?
+
+- https://www.npmjs.com/package/react-router
+- https://www.npmjs.com/package/react-dom
+- https://www.npmjs.com/package/react-router-dom
+
+**You can checkout that `react-router` is a dependency of `react-router-dom` @ npm's package page.**
+
+FYI: `react-router` is also a dependency of `react-router-native`.
+
+**`react-dom`: This package serves as the entry point to the DOM and server renderers for React. It is intended to be paired with the generic React package, which is shipped as react to npm.**
+
+
+## what is `env` cli ?
+
+Linked quest: What is `#/usr/bin/env bash` or `#/usr/bin/env node` shebang in various scripts ?
+
+From `man env` in terminal, I found: 
+
+
+Ans. `env - run a program in a modified environment`.
+
+```bash
+type env
+# Output:
+# env is hashed (/usr/bin/env)
+
+env --help
+# Output:
+# Usage: env [OPTION]... [-] [NAME=VALUE]... [COMMAND [ARG]...]
+# Set each NAME to VALUE in the environment and run COMMAND.
+# 
+# Mandatory arguments to long options are mandatory for short options too.
+#   -i, --ignore-environment  start with an empty environment
+#   -0, --null           end each output line with NUL, not newline
+#   -u, --unset=NAME     remove variable from the environment
+#   -C, --chdir=DIR      change working directory to DIR
+#   -S, --split-string=S  process and split S into separate arguments;
+#                         used to pass multiple arguments on shebang lines
+#       --block-signal[=SIG]    block delivery of SIG signal(s) to COMMAND
+#       --default-signal[=SIG]  reset handling of SIG signal(s) to the default
+#       --ignore-signal[=SIG]   set handling of SIG signal(s) to do nothing
+#       --list-signal-handling  list non default signal handling to stderr
+#   -v, --debug          print verbose information for each processing step
+#       --help     display this help and exit
+#       --version  output version information and exit
+# 
+# A mere - implies -i.  If no COMMAND, print the resulting environment.
+# 
+# SIG may be a signal name like 'PIPE', or a signal number like '13'.
+# Without SIG, all known signals are included.  Multiple signals can be
+# comma-separated.
+# 
+# GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+# Full documentation <https://www.gnu.org/software/coreutils/env>
+# or available locally via: info '(coreutils) env invocation'
+
+man env
+# Output: manual pages!
+
+```
+
+## kubernetes hierarchy
+
+**Kubernetes cluster is a group of nodes!**
+
+**A node can have a list of deployments.**
+
+**A deployment controls a list of pods.**
+
+**A pod has a list of containers.**
+
+**Replicas (`.spec.replicas`) is  no. of replicated pod which will be created.**
+
+**A kubelet is an agent that runs on each node in the cluster. It makes sure that containers are running in a pod.**
+
+## what?
+
+https://en.wikipedia.org/wiki/Recursive_Bayesian_estimation helps to pick up abnormal activity say if people try to scrap off content from fb, they used this esimation to detect that and ban it.
+
+Src: https://www.youtube.com/watch?v=xFFs9UgOAlE
+
+## memcache used by fb earlier
+
+https://github.com/memcached/memcached
+
+https://memcached.org/
+
+## flashcards website
+
+http://cram.com
+
+You may login with google simpley. It has a playstore app as well.
+
+
 
 ## send a file with express route
 
@@ -1037,6 +1297,9 @@ console.log(object.white.bgYellow)
 BUT, you should create some theme:
 
 ```js
+// FILE: colorConfig.js
+const colors = require('colors')
+
 colors.setTheme({
 	info: 'bgGreen',
 	help: 'cyan',
@@ -1045,8 +1308,13 @@ colors.setTheme({
 	error: 'red',
 	m: 'magenta', // myString.m.b Fox chaining.: for chaining.
 	b: 'bold',
-	mb: ['magenta', 'bold'],
+	bm: ['bold', 'magenta'],
+	by: ['bold', 'yellow'],
 })
+
+// Usage: Simply put below line in your server file:
+// require('./colorsConfig')
+
 
 myString.m.b // works good!
 myString.mb // works good!
@@ -1557,20 +1825,14 @@ Copy data to clipboard, and in terminal use
 ### Packages published @ `npm.com`/`yarnpkg.com`
 
 - [useWhat](https://www.npmjs.com/package/usewhat)
-
 - [useStateM](https://www.npmjs.com/package/usestatem)
-
 - [mongo-quick](https://www.npmjs.com/package/mongo-quick)
-
 - [jsonbackend - A true object database server.](https://www.npmjs.com/package/jsonbackend)
-
 - [react-fetch2](https://www.npmjs.com/package/react-fetch2)
-
 - [useEffectFactory](https://www.npmjs.com/package/useeffect-factory)
-
 - [r_global](http://npmjs.org/package/r_global)
-
 - [Pagelist React Component - Test/Create apps made easy](https://www.npmjs.com/package/pagelist-react)
+- [obj-json](https://www.npmjs.com/package/obj-json) - A cli tool to convert js object to json.
 
 ### Services
 
