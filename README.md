@@ -76,6 +76,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Vscode Settings:** [Click here](vscode-settings.md)
 - [Why DSA based interviews are stupid ?](dsa.md)
 - **Learn Photoshop:**[Click here](learn-photoshop.md)
+- **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
