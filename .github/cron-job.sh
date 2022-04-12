@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# name: heman, username: heman20_bot
-# TELEGRAM_ACCESS_TOKEN="5225204796:AAHMkjKusf39iYD5TSToAtspifRQsl0p_4M"
-
 # DEBUGGING LOCALLY via `act` - using ./github/watchCronJob-act.sh script. YO!
 
 # echo ID_RATAN - $ID_RATAN
