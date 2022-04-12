@@ -12,7 +12,9 @@ on:
 #     branches: [ master ]
 
   schedule:
+    # 9am
     - cron: "0 9 * * *"
+    # 9pm
     - cron: "0 21 * * *"
     
 
