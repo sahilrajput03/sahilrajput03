@@ -41,7 +41,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           TELEGRAM_ACCESS_TOKEN="5225204796:AAHMkjKusf39iYD5TSToAtspifRQsl0p_4M"
-          TELEGRAM_CHAT_ID="711263195"
+          TELEGRAM_CHAT_ID_RATAN="711263195"
+          TELEGRAM_CHAT_ID_SAHIL="711263195"
           thoughts="
 # Thoughts, Principles
 
@@ -137,6 +138,13 @@ Murphy's Law: If you are not making your future then its eventually it won't hap
           curl -X POST \
             -H "Content-Type: application/json" \
             -d @<(cat <<EOF 
-          { "chat_id": "$TELEGRAM_CHAT_ID", "text": "$text", "parse_mode": "HTML" }
+          { "chat_id": "$TELEGRAM_CHAT_ID_RATAN", "text": "$text", "parse_mode": "HTML" }
+          EOF) \
+            "https://api.telegram.org/bot$TELEGRAM_ACCESS_TOKEN/sendMessage"
+
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -d @<(cat <<EOF 
+          { "chat_id": "$TELEGRAM_CHAT_ID_SAHIL", "text": "$text", "parse_mode": "HTML" }
           EOF) \
             "https://api.telegram.org/bot$TELEGRAM_ACCESS_TOKEN/sendMessage"
