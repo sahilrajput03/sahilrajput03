@@ -33,7 +33,6 @@ EOF) \
 	"https://api.telegram.org/bot$TOKEN/sendMessage"
 
 # check event logs of bot:
-# https://api.telegram.org/bot5190047021:AAGHNIyf1VF68TAF1JiM0hofW3YmLrGjTnE/getUpdates
-# https://github.com/nats-io/nats.js
+# https://api.telegram.org/bot<BOT_TOKEN>/getUpdates
 
 # FYI: This file has to be marked as executable by `chmod +x` else github actions won't be able to run it.
