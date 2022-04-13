@@ -4,6 +4,19 @@
 
 # Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
 
+
+## What exactly is <() in bash (and =() in zsh)?
+
+This is called process substitution.
+
+The <(list) syntax is supported by both, bash and zsh. It provides a way to pass the output of a command (list) to another command when using a pipe (|) is not possible. For example when a command just does not support input from STDIN or you need the output of multiple commands:
+
+```bash
+diff <(ls dirA) <(ls dirB)
+```
+<(list) connects the output of list with a file in /dev/fd, if supported by the system, otherwise a named pipe (FIFO) is used (which also depends on support by the system; neither manual says what happens if both mechanisms are not supported, presumably it aborts with an error). The name of the file is then passed as argument on the command line.
+
+
 ## Network utility is awesome
 
 source: https://linuxize.com/post/netcat-nc-command-with-examples/
