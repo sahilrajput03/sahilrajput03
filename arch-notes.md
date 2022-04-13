@@ -16,6 +16,9 @@ yay -S bluez-hcitool
 # Usage
 hcitool dev
 # This will show you the mac address of your bluetooth adapter
+
+hcitool scan
+# This will list all bluetooth list devices available nearby
 ```
 
 ## Install `asterisk` - ivr software
