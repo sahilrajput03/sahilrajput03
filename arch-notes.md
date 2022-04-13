@@ -13,7 +13,13 @@
 Source: https://wiki.archlinux.org/title/asterisk
 
 ```bash
-yay -S asterisk
+git clone https://aur.archlinux.org/asterisk.git
+cd asterisk
+# do the work as guided by `emersonjr` @ https://aur.archlinux.org/packages/asterisk in comments.
+makepkg -si
+
+# IMPORTANT: Using below line in PKGBUILD file as suggested by `emersonjr` simply helps to install without any error, yikes!
+sed -i 's/,5,/,10,/g' third-party/Makefile.rules
 ```
 
 ## Install `flux` from aur
