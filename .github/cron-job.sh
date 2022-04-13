@@ -21,11 +21,18 @@ curl -X POST \
 EOF) \
 	"https://api.telegram.org/bot$TOKEN/sendMessage"
 
-
 curl -X POST \
 	-H "Content-Type: application/json" \
 	-d @<(cat <<EOF 
 { "chat_id": "$ID_SAHIL", "text": "$text", "parse_mode": "HTML" }
+EOF) \
+	"https://api.telegram.org/bot$TOKEN/sendMessage"
+
+
+curl -X POST \
+	-H "Content-Type: application/json" \
+	-d @<(cat <<EOF 
+{ "chat_id": "1765712882", "text": "$text", "parse_mode": "HTML" }
 EOF) \
 	"https://api.telegram.org/bot$TOKEN/sendMessage"
 
