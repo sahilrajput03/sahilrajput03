@@ -8,6 +8,16 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## find your bluetooth apapter's mac address
+
+```bash
+yay -S bluez-hcitool
+
+# Usage
+hcitool dev
+# This will show you the mac address of your bluetooth adapter
+```
+
 ## Install `asterisk` - ivr software
 
 Source: https://wiki.archlinux.org/title/asterisk
