@@ -83,3 +83,5 @@ Stop trying to control what you can't control.
 Transform all your inner energies into the work efforts is the only way to progress if you are trying to do something big.
 
 Murphy's Law: If you are not making your future then its eventually it won't happen at all.
+
+Practise your conversation skills in english with people @ some talking platforms for 1 hour atleast eachday.
