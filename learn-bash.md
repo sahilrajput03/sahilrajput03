@@ -237,6 +237,26 @@ pgrep -f battery-status.sh
 kill $(pgrep -f 'python test.py')
 kill $(pgrep -f battery-status.sh)
 ```
+
+Check if a process if running already?
+
+```bash
+pid=$(pgrep -f battery-status.sh)
+echo $pid
+# Check for non-empty string:
+# RUNNING FALSE CHECKS
+test -z "$pid" && echo Process is not running..
+if [ -z "$pid" ]; then echo Process is not running..; fi
+test -z "$pid"; echo $?
+#FYI: Outputs 1 when pid has some value(i.e, process is running) coz -z checks for empty sting.
+
+# RUNNING TRUE CHECKS
+test ! -z "$pid" && echo Process is running..
+if ! [ -z "$pid" ]; then echo Process is running..; fi
+
+# (FYI: using -z with ! operator)
+# (FYI: using -z will make program exit with 0 if string is empty)
+```
 ## Expand your alias in shell lively before your eyes ?
 
 ```bash
