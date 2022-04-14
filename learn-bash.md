@@ -228,12 +228,17 @@ example using pkill command as
 pkill -ef test.py
 
 # -f : to match full process name
-# -e : to echo what is killed
+# -e : echo what is killed (i.e., verbose)
 ```
 (or) a more fool-proof way using pgrep to search for the actual process-id
 
 ```bash
+# Get process_id
+pgrep -f battery-status.sh
+# Source: https://stackoverflow.com/a/27684015/10012446
+
 kill $(pgrep -f 'python test.py')
+kill $(pgrep -f battery-status.sh)
 ```
 ## Expand your alias in shell lively before your eyes ?
 
