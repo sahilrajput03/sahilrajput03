@@ -225,7 +225,10 @@ Probably the easiest way of killing a running process is by selecting it through
 example using pkill command as
 
 ```bash
-pkill -f test.py
+pkill -ef test.py
+
+# -f : to match full process name
+# -e : to echo what is killed
 ```
 (or) a more fool-proof way using pgrep to search for the actual process-id
 
