@@ -4,6 +4,24 @@
 
 # Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
 
+## Search for text in all files recursively blazingly fast
+
+```bash
+searchTextInFilesRecursively sops
+# Output:
+./manifestsORIGINAL/secret.enc.yaml:sops:
+./manifests/secret.enc.yaml:sops:
+
+# fyi:
+type searchTextInFilesRecursively
+# Output:
+searchTextInFilesRecursively is a function
+searchTextInFilesRecursively ()
+{
+    grep --color=auto -r --exclude-dir={node_modules,.idea,.git} "$@" .
+}
+```
+
 ## `test` in bash 
 
 Manual pages: [Click here](test-manual-pages.txt)
@@ -20,7 +38,6 @@ The <(list) syntax is supported by both, bash and zsh. It provides a way to pass
 diff <(ls dirA) <(ls dirB)
 ```
 <(list) connects the output of list with a file in /dev/fd, if supported by the system, otherwise a named pipe (FIFO) is used (which also depends on support by the system; neither manual says what happens if both mechanisms are not supported, presumably it aborts with an error). The name of the file is then passed as argument on the command line.
-
 
 ## Network utility is awesome
 
