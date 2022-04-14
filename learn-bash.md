@@ -225,17 +225,14 @@ Probably the easiest way of killing a running process is by selecting it through
 example using pkill command as
 
 ```bash
+# WAY 1:
 pkill -ef test.py
-
 # -f : to match full process name
 # -e : echo what is killed (i.e., verbose)
-```
-(or) a more fool-proof way using pgrep to search for the actual process-id
 
-```bash
-# Get process_id
+# WAY 2: A more fool-proof way using pgrep to search for the actual process-id
+# Get process_id, source: https://stackoverflow.com/a/27684015/10012446
 pgrep -f battery-status.sh
-# Source: https://stackoverflow.com/a/27684015/10012446
 
 kill $(pgrep -f 'python test.py')
 kill $(pgrep -f battery-status.sh)
