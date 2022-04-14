@@ -4,6 +4,9 @@
 
 # Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
 
+## `test` in bash 
+
+Manual pages: [Click here](test-manual-pages.txt)
 
 ## What exactly is <() in bash (and =() in zsh)?
 
