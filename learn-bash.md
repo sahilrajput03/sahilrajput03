@@ -231,7 +231,7 @@ pkill -ef test.py
 # -e : echo what is killed (i.e., verbose)
 
 # WAY 2: A more fool-proof way using pgrep to search for the actual process-id
-# Get process_id, source: https://stackoverflow.com/a/27684015/10012446
+# Get process_id (-f option means to match full process name), source: https://stackoverflow.com/a/27684015/10012446
 pgrep -f battery-status.sh
 
 kill $(pgrep -f 'python test.py')
