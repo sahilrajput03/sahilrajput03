@@ -1675,8 +1675,7 @@ alias pomodoro='/home/array/scripts-in-use/pomodoro/pomodoro.sh'
 ## While loop
 
 ```bash
-while [ condition ]
-do
+while [ condition ]; do
    command1
    command2
    command3
