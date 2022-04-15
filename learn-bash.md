@@ -1287,7 +1287,7 @@ You can redirect stdout and stderr to a file. The exact syntax for capturing out
 
 **FYI: You can use `printf sahil\\n` to print something to bash shell as well!** [Source](https://linuxize.com/post/bash-read/).
 
-**Using arrays in bash**
+## Using arrays in bash
 
 [Wow source!](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
 
