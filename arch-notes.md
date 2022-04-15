@@ -8,6 +8,33 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## find your bluetooth apapter's mac address
+
+```bash
+yay -S bluez-hcitool
+
+# Usage
+hcitool dev
+# This will show you the mac address of your bluetooth adapter
+
+hcitool scan
+# This will list all bluetooth list devices available nearby
+```
+
+## Install `asterisk` - ivr software
+
+Source: https://wiki.archlinux.org/title/asterisk
+
+```bash
+git clone https://aur.archlinux.org/asterisk.git
+cd asterisk
+# do the work as guided by `emersonjr` @ https://aur.archlinux.org/packages/asterisk in comments.
+makepkg -si
+
+# IMPORTANT: Using below line in PKGBUILD file as suggested by `emersonjr` simply helps to install without any error, yikes!
+sed -i 's/,5,/,10,/g' third-party/Makefile.rules
+```
+
 ## Install `flux` from aur
 
 ```bash

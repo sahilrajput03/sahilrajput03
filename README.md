@@ -82,6 +82,10 @@ Find me on terminal via `npx sahilrajput03` command.
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 - **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
 
+## why shebang is called shebang ?
+
+Source: https://unix.stackexchange.com/a/149048/504112
+
 ## `forever` a npm package to ensure ensure that a script is running forever
 
 [https://github.com/foreversd/forever#readme](https://github.com/foreversd/forever#readme)

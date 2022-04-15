@@ -12,11 +12,15 @@ on:
 
   schedule:
     # 9am everyday
-    - cron: "0 9 * * *"
+    # - cron: "0 9 * * *"
     # 9pm everyday
-    - cron: "0 21 * * *"
+    # - cron: "0 21 * * *"
     # Debug: Run every hour
-    - cron: "0 * * * *"
+    # - cron: "0 * * * *"
+    
+    # “At minute 0 past every 2nd hour from 7 through 22.” ~ crontab.guru.
+    # Runs on the 7, 9, 11, 13, 15, 17, 19 and 21st hour By Github Actions hover.
+    - cron: "0 7-22/2 * * *"
     
 
   # Allows you to run this workflow manually from the Actions tab
