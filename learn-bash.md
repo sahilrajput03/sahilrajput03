@@ -4,6 +4,10 @@
 
 # Popular blogs: https://linuxize.com/ (5*), https://linuxjournal.com (5*), https://linuxhint.com/ (3*)
 
+## What's the difference between `[` and `[[` in Bash? [duplicate]
+
+Source: [https://stackoverflow.com/a/3427931/10012446](https://stackoverflow.com/a/3427931/10012446)
+
 ## Search for text in all files recursively blazingly fast
 
 ```bash
