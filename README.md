@@ -68,6 +68,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Urdu:** [Click here](./learn-urdu/)
 - **Learn Algorithms:**: [Click here](learn-algorithms.md) 
 - **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
+- **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **React file structure:** [Click here](https://react-file-structure.surge.sh/)
 - **Thoughts, Principles:** [Click here](thoughts-principles.md)
