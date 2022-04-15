@@ -2,7 +2,7 @@
 
 [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
 
-Unwinding is hot no-sugar coffee beated with coco powder!
+Unwinding is hot no-sugar coffee!
 
 ```bash
 echo Hello world! > /dev/null
