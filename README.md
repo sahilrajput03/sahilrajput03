@@ -2,7 +2,7 @@
 
 [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
 
-Unwinding is hot no-sugar coffee beated with coco powder!
+Unwinding is hot no-sugar coffee!
 
 ```bash
 echo Hello world! > /dev/null
@@ -68,6 +68,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Urdu:** [Click here](./learn-urdu/)
 - **Learn Algorithms:**: [Click here](learn-algorithms.md) 
 - **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
+- **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **React file structure:** [Click here](https://react-file-structure.surge.sh/)
 - **Thoughts, Principles:** [Click here](thoughts-principles.md)
@@ -81,6 +82,14 @@ Find me on terminal via `npx sahilrajput03` command.
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 - **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
+
+## Update (i.e., pull) a submodule in a git repo
+
+Source: [https://stackoverflow.com/a/8191375/10012446](https://stackoverflow.com/a/8191375/10012446)
+
+```bash
+git submodule update
+```
 
 ## why shebang is called shebang ?
 
