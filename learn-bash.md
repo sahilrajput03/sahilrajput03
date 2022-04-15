@@ -7,6 +7,19 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## `for loop`, `for-in` loop, etc
+
+#forloop, #forin loop, #foreach loop, #loop etc
+
+```bash
+for i in {1..2}; do
+	echo hello $i
+done
+# Output:
+# hello 1
+# hello 2
+```
+
 ## What's the difference between `[` and `[[` in Bash?
 
 Source: [https://stackoverflow.com/a/3427931/10012446](https://stackoverflow.com/a/3427931/10012446)
@@ -1274,23 +1287,7 @@ You can redirect stdout and stderr to a file. The exact syntax for capturing out
 
 **FYI: You can use `printf sahil\\n` to print something to bash shell as well!** [Source](https://linuxize.com/post/bash-read/).
 
-**Using do-while in bash(hack)**:
-
-```bash
-# Source: https://stackoverflow.com/a/16489942/10012446
-
-actions() {
-   check_if_file_present
-   # Do other stuff
-}
-
-actions #1st execution
-while [ current_time <= $cutoff ]; do
-   actions # Loop execution
-done
-```
-
-**Using arrays in bash**
+## Using arrays in bash
 
 [Wow source!](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
 
@@ -1307,6 +1304,45 @@ arr+=(4)        # Append value(s)
 str=$(ls)       # Save ls output as a string
 arr=( $(ls) )   # Save ls output as an array of files       #Didn't work in my case ~ Sahil
 ${arr[@]:s:n}   # Retrieve n elements starting at index s   #Didn't work in my case ~ Sahil
+
+# Learn: Ranges in bash (array)
+for i in 1 2; do
+	echo hello $i
+done
+# Output:
+# hello 1
+# hello 2
+
+
+# Learn: Simple looping over array
+arr=(1 10 100)
+for t in ${arr[@]}; do
+	echo $t
+done
+# Output:
+# 1
+# 10
+# 100
+
+# Learn: Looping over array of strings with spaces, src: https://stackoverflow.com/a/18383346/10012446
+a="I am foo"
+b="I am bar"
+all=("$a" "$b")
+for t in "${all[@]}"; do
+	echo Message: $t
+done
+# Output: 
+# Message: I am foo
+# Message: I am bar
+
+# You can also define the strings with spaces in array by:
+all=("a b" "c d")
+for i in "${all[@]}" ; do
+  echo "What $i"
+done
+# Output:
+# What a b
+# What c d
 ```
 
 
@@ -1678,17 +1714,29 @@ alias pomodoro='/home/array/scripts-in-use/pomodoro/pomodoro.sh'
 ## While loop
 
 ```bash
-while [ condition ]
-do
+while [ condition ]; do
    command1
    command2
    command3
 done
 
 # E.g, 
-$ while true; do echo I am cool; sleep 1; done
-$ while true; do dig jujn.ml; sleep 1; clear; done
+while true; do echo I am cool; sleep 1; done
+while true; do dig jujn.ml; sleep 1; clear; done
+# FYI: for dig you can make use of `watch`, -n is option for time
+watch -n1 dig
 
+######
+# #do-while, #do while, source: https://stackoverflow.com/a/16489942/10012446
+actions() {
+   check_if_file_present
+   # Do other stuff
+}
+
+actions # 1st execution
+while [ current_time <= $cutoff ]; do
+   actions # Loop execution
+done
 ```
 
 ```bash
