@@ -1305,7 +1305,7 @@ str=$(ls)       # Save ls output as a string
 arr=( $(ls) )   # Save ls output as an array of files       #Didn't work in my case ~ Sahil
 ${arr[@]:s:n}   # Retrieve n elements starting at index s   #Didn't work in my case ~ Sahil
 
-# Learn: Ranges in bash
+# Learn: Ranges in bash (array)
 for i in 1 2; do
 	echo hello $i
 done
@@ -1324,7 +1324,7 @@ done
 # 10
 # 100
 
-# Learn: Looping over strings with spaces, src: https://stackoverflow.com/a/18383346/10012446
+# Learn: Looping over array of strings with spaces, src: https://stackoverflow.com/a/18383346/10012446
 a="I am foo"
 b="I am bar"
 all=("$a" "$b")
@@ -1335,7 +1335,7 @@ done
 # Message: I am foo
 # Message: I am bar
 
-# You can also define the strings with spaces by:
+# You can also define the strings with spaces in array by:
 all=("a b" "c d")
 for i in "${all[@]}" ; do
   echo "What $i"
