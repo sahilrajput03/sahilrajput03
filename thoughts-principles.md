@@ -85,3 +85,5 @@ Transform all your inner energies into the work efforts is the only way to progr
 Murphy's Law: If you are not making your future then its eventually it won't happen at all.
 
 Practise your conversation skills in english with people @ some talking platforms for 1 hour atleast eachday.
+
+Release DMT via 10 minutes breathing exercise. Visit(time-stamped) https://youtu.be/lwlEJ2O-6HM?list=LL&t=350
