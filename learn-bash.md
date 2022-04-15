@@ -1684,7 +1684,8 @@ done
 # E.g, 
 while true; do echo I am cool; sleep 1; done
 while true; do dig jujn.ml; sleep 1; clear; done
-
+# FYI: for dig you can make use of `watch`, -n is option for time
+watch -n1 dig
 
 ######
 # #do-while, #do while, source: https://stackoverflow.com/a/16489942/10012446
