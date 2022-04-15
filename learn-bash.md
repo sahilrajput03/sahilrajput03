@@ -7,6 +7,19 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## `for loop`, `for-in` loop, etc
+
+#forloop, #forin loop, #foreach loop, #loop etc
+
+```bash
+for i in {1..2}; do
+	echo hello $i
+done
+# Output:
+# hello 1
+# hello 2
+```
+
 ## What's the difference between `[` and `[[` in Bash?
 
 Source: [https://stackoverflow.com/a/3427931/10012446](https://stackoverflow.com/a/3427931/10012446)
