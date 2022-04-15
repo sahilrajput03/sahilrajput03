@@ -34,6 +34,7 @@
 - रुझान : अभिवृत्ति, attitude
 - अंतरात्मा : conscience
 - लोकतंत्र  : Participated Democracy
+- कूटनीति : छिपी हुई चाल, ग़ुप्त चाल।
 
 ## अक्षर / Leters or Characters
 
