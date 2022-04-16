@@ -1534,6 +1534,8 @@ call plug#end()
 
 ## Disable capslock completely (ROCKS!)
 
+Updated on: 16th April, 2022
+
 **FYI: The file `/etc/X11/xorg.conf.d/00-keyboard.conf` is backuped at ``config`` repository as well!! So you can directly copy that file to its needed location anytime to get your settings.**
 
 Stackoverflow Amazing Answer - [xmodmap - remap Caps_Lock to Escape and Shift+Caps_Lock to Caps_Lock](https://superuser.com/a/1471357)
