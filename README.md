@@ -37,6 +37,12 @@ npm start
 
 Find me on terminal via `npx sahilrajput03` command.
 
+## Create videos with react
+
+Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/watch?v=gwlDorikqgY)
+
+Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-dev/remotion)
+
 ## References:
 
 - Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
