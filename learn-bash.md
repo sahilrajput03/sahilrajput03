@@ -127,6 +127,18 @@ nc localhost 8080
 #### now you can send messages to and from each other, yo!!
 ```
 
+Use case 2:
+
+Source: https://linuxize.com/post/netcat-nc-command-with-examples/
+
+```bash
+# Receiver starts a server which listens on 1337
+nc -l 1337 > what.txt
+
+# Snder send a file to some remote host(in our case its our localhost, yo!!)
+nc localhost 1337 < .gitconfig
+```
+
 **This can be used to test curl request locally as well:**
 
 ```bash
