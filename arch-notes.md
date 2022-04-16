@@ -1536,18 +1536,16 @@ call plug#end()
 
 **FYI: The file `/etc/X11/xorg.conf.d/00-keyboard.conf` is backuped at ``config`` repository as well!! So you can directly copy that file to its needed location anytime to get your settings.**
 
-Amazing answer here: https://superuser.com/a/1471357
+Stackoverflow Amazing Answer - [xmodmap - remap Caps_Lock to Escape and Shift+Caps_Lock to Caps_Lock](https://superuser.com/a/1471357)
 
-**Learn how to make sample config files from scratch from below link of arch docs:**
-
-https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_X_configuration_files
+**Learn how to make sample config files from scratch from below link of arch docs:** [Click here](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_X_configuration_files)
  
-Source: https://wiki.archlinux.org/title/Xorg#Using_.conf_files
+Source: [Using config files of x11 @ ArchWiki](https://wiki.archlinux.org/title/Xorg#Using_.conf_files)
 
 **tldr;**
 
 ```bash
-sudo vim /etc/X11/xorg.conf.d/00-keyboard.conf
+sudo nvim /etc/X11/xorg.conf.d/00-keyboard.conf
 ```
 
 and add below code in the tripple backticks:
