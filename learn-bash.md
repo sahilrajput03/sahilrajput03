@@ -7,6 +7,19 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## Check if program exists
+
+```bash
+[ "$(type workrave 2> /dev/null)" ]; echo $?
+# Output: 0
+
+[ "$(type bad_program_name 2> /dev/null)" ]; echo $?
+# Output: 1
+
+# exit code 0 means TRUE (program exists)
+# exit code 1 means FALSE (program doesn't exists)
+```
+
 ## What does this do?
 
 ```bash
