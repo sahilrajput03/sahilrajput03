@@ -1560,12 +1560,17 @@ Section "InputClass"
 #        Option "XkbModel" "pc104"
 #        Option "XkbVariant" ",dvorak"
 #        Option "XkbOptions" "grp:win_space_toggle"
-	Option "XkbOptions" "terminate:ctrl_alt_bksp,caps:escape_shifted_capslock"
-# FYI: FROM FILE: cat /usr/share/X11/xkb/rules/base.lst
-# We know that (the options should be separated by command as you can see above^^^^^):
+#        Option "XkbOptions" "terminate:ctrl_alt_bksp,caps:escape_shifted_capslock"
+        Option "XkbOptions" "terminate:ctrl_alt_bksp,caps:escape"
+# Currently, I am completely disabling capslock      ^----------^
+# 
+# FYI: Read all available optinos via: cat /usr/share/X11/xkb/rules/base.lst
+# FYI: The options should be separated by comma as you can see above^^^^^
+# FYI: ctrl+alt+backspace will simly logout.
+
+# Usefult options to see:
 # terminate:ctrl_alt_bksp Ctrl+Alt+Backspace (( ~Sahil, this will logout in superfast manner without any confirmation.
 # caps:escape_shifted_capslock Make Caps Lock an additional Esc, but Shift + Caps Lock is the regular Caps Lock
-# CURRENT SETTINGS vvvvv:
 # caps:none            Caps Lock is disabled
 # caps:escape          Make Caps Lock an additional Esc
 EndSection
