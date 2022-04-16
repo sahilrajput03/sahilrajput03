@@ -51,11 +51,23 @@ Manual pages: [Click here](test-manual-pages.txt)
        -n STRING
               the length of STRING is nonzero
 
+	STRING equivalent to -n STRING
+
        -z STRING
               the length of STRING is zero
+	      
+### WOW, INTERESTING FACT here...
+# -n STRING and STRING are equivalent, that means you can simply use 
+test "$USER"
+echo $?
+# Output: 0 (exit code is 0 (TRUE), bocz user string exists in system environment variables)
+
+test "$NON_EXISTENT"
+echo $?
+# Output: 1 (exit code is 1 (FALSE), bcoz NON_EXISTENT variable doesn't exist)
 ```
 
-## What exactly is <() in bash (and =() in zsh)?
+## What exactly is `<()` in bash (`=()` in zsh)?
 
 tldp docs: https://tldp.org/LDP/abs/html/process-sub.html
 
