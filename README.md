@@ -41,7 +41,7 @@ Find me on terminal via `npx sahilrajput03` command.
 
 Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/watch?v=gwlDorikqgY)
 
-Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-dev/remotion)
+Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-dev/remotion) 12.7k Starts
 
 ## References:
 
