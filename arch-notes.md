@@ -8,6 +8,13 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install `xdotool` to send key sequence to any application
+
+```bash
+sudo pacman -S xdotool
+# For usage example: Refer my snippy script execution.
+```
+
 ## Install `hub`
 
 ```bash
