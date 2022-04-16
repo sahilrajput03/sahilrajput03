@@ -7,6 +7,12 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## Debug bash scripts sipmle?
+
+```bash
+set -x
+```
+
 ## `for loop`, `for-in` loop, etc
 
 #forloop, #forin loop, #foreach loop, #loop etc
