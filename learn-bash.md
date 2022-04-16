@@ -18,6 +18,13 @@
 
 # exit code 0 means TRUE (program exists)
 # exit code 1 means FALSE (program doesn't exists)
+
+###USAGE:
+# Running workrave (if installed)
+[ "$(type workrave 2> /dev/null)" ] && (workrave &)
+
+# Bad program test (should not cause login execution error)
+[ "$(type bad_program 2> /dev/null)" ] && (bad_program &)
 ```
 
 ## What does this do?
