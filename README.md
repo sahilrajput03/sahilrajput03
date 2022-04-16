@@ -657,6 +657,11 @@ degit user/repo#1234abcd  # commit hash
 
 # To clone a specific subdirectory instead of the entire repo, just add it to the argument:
 degit user/repo/subdirectory
+
+# To clone a single file
+degit sahilrajput03/sahilrajput03/README.md README.md
+
+#NOTE: It is required to use explicit file name when cloning a file like we did with README.md above.
 ```
 
 ## in/of in for
