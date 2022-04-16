@@ -12,6 +12,22 @@
 
 ```bash
 sudo pacman -S hub
+
+
+# Creating repo on github from inside a local repo
+hub create
+# or my alias
+git create
+
+
+# Set hub to use my ssh configuration by running below command
+git config --global hub.protocol ssh
+# FYI: ^^^^ This command simply adds below content to your `~/.gitconfig` file(NOTE: So if you already have below in your `.gitconfig` file then its nor required to do it again!)
+# [hub]
+#	protocol = ssh
+
+
+
 # source: https://github.com/github/hub
 ```
 
