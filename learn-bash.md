@@ -128,7 +128,7 @@ nc localhost 8080
 #### now you can send messages to and from each other, yo!!
 ```
 
-Use case 2: Sending file
+Use case 2: Sending file (this can be usefult to send .tar or any encrypted+archived file easily)
 
 Source: https://linuxize.com/post/netcat-nc-command-with-examples/
 
