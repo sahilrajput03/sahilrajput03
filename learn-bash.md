@@ -988,6 +988,9 @@ grep -rlZ 'sahil' .
 # FYI: We can pipe the file name to sed simply for any of our usecase like:
 grep -rlZ 'foo' . | xargs -0 sed -i.bak 's/foo/bar/g'
 # FYI: WE MUST USE xargs ^^^ here to make it work with grep else it won't work at all.
+
+# -i option for case Insensitive search
+grep -ri 'searchText' .
 ```
 
 ## `awk` rocks hard!!
