@@ -1565,6 +1565,9 @@ Section "InputClass"
 # We know that (the options should be separated by command as you can see above^^^^^):
 # terminate:ctrl_alt_bksp Ctrl+Alt+Backspace (( ~Sahil, this will logout in superfast manner without any confirmation.
 # caps:escape_shifted_capslock Make Caps Lock an additional Esc, but Shift + Caps Lock is the regular Caps Lock
+# CURRENT SETTINGS vvvvv:
+# caps:none            Caps Lock is disabled
+# caps:escape          Make Caps Lock an additional Esc
 EndSection
 ```
 
