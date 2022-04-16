@@ -50,8 +50,6 @@ Manual pages: [Click here](test-manual-pages.txt)
        -n STRING
               the length of STRING is nonzero
 
-       STRING equivalent to -n STRING
-
        -z STRING
               the length of STRING is zero
 ```
