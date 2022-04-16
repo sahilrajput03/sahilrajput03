@@ -10,7 +10,6 @@
 
 ## .deskto files?
 
-```bash
 Where are my .desktop files installed with pacman ?
 
 ```bash
@@ -22,15 +21,13 @@ pacman -Ql | grep google-chrome.desktop
 Source: https://bbs.archlinux.org/viewtopic.php?id=243875
 
 
-Q. What is a .desktop files?
+Q. What is a `.desktop` files?
 
 A `.desktop` file is simply a shortcut that is used to launch application in Linux. Without the .desktop file, your application won’t show up in the Applications menu and you can’t launch it with third-party launchers such as Synapse and Albert. Source: https://www.maketecheasier.com/create-desktop-file-linux/
 
 Q. Where are all of my .desktop files by default?
 
 Ans. `ls  ~/.local/share/applications/`
-
-```
 
 ## find your bluetooth apapter's mac address
 
