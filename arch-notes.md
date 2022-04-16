@@ -1534,7 +1534,7 @@ call plug#end()
 
 ## Setting up capslock to esc and shift+capslock to actual capslock:
 
-**FYI: The file /etc/X11/xorg.conf.d/00-keyboard.conf is backuped at ``backupFiles`` folder as well!! So you can directly copy that file to its needed location whenever you need to set esc-capslock-shift settings as you have right now.**
+**FYI: The file `/etc/X11/xorg.conf.d/00-keyboard.conf` is backuped at ``config`` repository as well!! So you can directly copy that file to its needed location whenever you need to set esc-capslock-shift settings as you have right now.**
 
 Amazing answer here: https://superuser.com/a/1471357
 
@@ -1561,6 +1561,10 @@ Section "InputClass"
 #        Option "XkbVariant" ",dvorak"
 #        Option "XkbOptions" "grp:win_space_toggle"
 	Option "XkbOptions" "terminate:ctrl_alt_bksp,caps:escape_shifted_capslock"
+# FYI: FROM FILE: cat /usr/share/X11/xkb/rules/base.lst
+# We know that (the options should be separated by command as you can see above^^^^^):
+# terminate:ctrl_alt_bksp Ctrl+Alt+Backspace
+# caps:escape_shifted_capslock Make Caps Lock an additional Esc, but Shift + Caps Lock is the regular Caps Lock
 EndSection
 ```
 
