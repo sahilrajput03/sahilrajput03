@@ -13,6 +13,9 @@
 ```bash
 sudo pacman -S xdotool
 # For usage example: Refer my snippy script execution.
+
+# Usage
+xdotool
 ```
 
 ## Install `hub`
