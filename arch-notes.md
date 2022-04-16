@@ -15,7 +15,8 @@ sudo pacman -S xdotool
 # For usage example: Refer my snippy script execution.
 
 # Usage
-xdotool
+xdotool key ctrl+v
+# This will send ctrl+v signal to current application.
 ```
 
 ## Install `hub`
