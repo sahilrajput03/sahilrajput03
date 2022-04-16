@@ -32,9 +32,9 @@ EOF) \
 # -n:  the length of STRING is nonzero
 
 # Send to Ratan
-# curl -X POST \
-# 	-H "Content-Type: application/json" \
-# 	-d @<(cat <<EOF 
-# { "chat_id": "$CHAT_ID_RATAN", "text": "$text", "parse_mode": "HTML" }
-# EOF) \
-# 	"https://api.telegram.org/bot$BRUNO_TOKEN/sendMessage"
+curl -X POST \
+	-H "Content-Type: application/json" \
+	-d @<(cat <<EOF 
+{ "chat_id": "$CHAT_ID_RATAN", "text": "$text", "parse_mode": "HTML" }
+EOF) \
+	"https://api.telegram.org/bot$BRUNO_TOKEN/sendMessage"
