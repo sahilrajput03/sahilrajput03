@@ -10,6 +10,10 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## Open a long link which is wrapped or out of buffer in your shell window
+
+Use `gx` in nvim. [Source](https://www.reddit.com/r/neovim/comments/ro6oye/comment/hpwjkod/?utm_source=share&utm_medium=web2x&context=3)
+
 ## Repeat last command you ran in command mode?
 
 Use `@:` directly or `:@:` in command mode to reexecute last command.

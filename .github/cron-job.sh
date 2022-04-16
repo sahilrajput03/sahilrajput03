@@ -14,7 +14,7 @@ echo  text is: $text
 # TODO: Add to secrets
 ID_DHANUR=1765712882
 
-receipients="$ID_RATAN $ID_SAHIL $ID_DHANUR"
+receipients="$ID_RATAN $ID_SAHIL"
 
 # Debugging
 set -x
