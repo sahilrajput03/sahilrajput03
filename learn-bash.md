@@ -47,6 +47,7 @@ searchTextInFilesRecursively ()
 Manual pages: [Click here](test-manual-pages.txt)
 
 ```bash
+# source: from above `man test` command
        -n STRING
               the length of STRING is nonzero
 
