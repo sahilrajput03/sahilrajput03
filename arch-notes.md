@@ -8,6 +8,30 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## .deskto files?
+
+```bash
+Where are my .desktop files installed with pacman ?
+
+```bash
+pacman -Ql | grep google-chrome.desktop
+# Output:
+# google-chrome /usr/share/applications/google-chrome.desktop
+```
+
+Source: https://bbs.archlinux.org/viewtopic.php?id=243875
+
+
+Q. What is a .desktop files?
+
+A `.desktop` file is simply a shortcut that is used to launch application in Linux. Without the .desktop file, your application won’t show up in the Applications menu and you can’t launch it with third-party launchers such as Synapse and Albert. Source: https://www.maketecheasier.com/create-desktop-file-linux/
+
+Q. Where are all of my .desktop files by default?
+
+Ans. `ls  ~/.local/share/applications/`
+
+```
+
 ## find your bluetooth apapter's mac address
 
 ```bash
