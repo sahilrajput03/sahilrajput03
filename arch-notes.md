@@ -1532,9 +1532,9 @@ call plug#end()
 
 **IMPORTANT:** Reload `.vimrc` and `:PlugInstall` to install plugins.
 
-## Setting up capslock to esc and shift+capslock to actual capslock:
+## Disable capslock completely (ROCKS!)
 
-**FYI: The file `/etc/X11/xorg.conf.d/00-keyboard.conf` is backuped at ``config`` repository as well!! So you can directly copy that file to its needed location whenever you need to set esc-capslock-shift settings as you have right now.**
+**FYI: The file `/etc/X11/xorg.conf.d/00-keyboard.conf` is backuped at ``config`` repository as well!! So you can directly copy that file to its needed location anytime to get your settings.**
 
 Amazing answer here: https://superuser.com/a/1471357
 
