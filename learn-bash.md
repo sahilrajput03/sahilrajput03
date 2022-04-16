@@ -7,6 +7,12 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## What does this do?
+
+```bash
+t=${*%???}
+```
+
 ## Debug bash scripts sipmle?
 
 ```bash
