@@ -116,8 +116,9 @@ diff <(ls dirA) <(ls dirB)
 
 source: https://linuxize.com/post/netcat-nc-command-with-examples/
 
+Use case 1: Chat app
+
 ```bash
-## SIMPLE CHAT APP
 # terminal 1 (listener)
 nc -l 8080
 
@@ -127,7 +128,7 @@ nc localhost 8080
 #### now you can send messages to and from each other, yo!!
 ```
 
-Use case 2:
+Use case 2: Sending file
 
 Source: https://linuxize.com/post/netcat-nc-command-with-examples/
 
