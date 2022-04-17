@@ -8,6 +8,15 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install `prgress`
+
+Helpful to know the progress of a running command say `cp` and `mv`
+
+```bash
+pacman -S progress
+# src: https://github.com/Xfennec/progress
+```
+
 ## insatll `gnome-characters`
 
 ```bash
