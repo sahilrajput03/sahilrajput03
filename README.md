@@ -75,6 +75,7 @@ Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-d
 - **Learn Algorithms:**: [Click here](learn-algorithms.md) 
 - **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
 - **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
+- **Learn Missing Semester (Notes):** [Click here](missing-semester.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **React file structure:** [Click here](https://react-file-structure.surge.sh/)
 - **Thoughts, Principles:** [Click here](thoughts-principles.md)
