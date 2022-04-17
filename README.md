@@ -92,7 +92,7 @@ Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-d
 
 ## ssh to virt-manager's running container
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/31458531/163719156-e36e1347-2719-4cd8-89a1-9f042f009a46.png)
 
 ## Update (i.e., pull) a submodule in a git repo
 
