@@ -18,7 +18,7 @@ cd my-react-app; npm install; npm run dev
 
 #### Start a `nodejs` backend server using [`express`](https://expressjs.com/) connected to mongodb using [`mongoose`](https://mongoosejs.com/)
 
-***Requirements: [`Nodejs`](https://nodejs.dev/), [`Mondogdb`](https://www.mongodb.com/docs/manual/installation/#mongodb-installation-tutorials)***
+> ***Requirements: [`Nodejs`](https://nodejs.dev/), [`Mondogdb`](https://www.mongodb.com/docs/manual/installation/#mongodb-installation-tutorials)***
 
 ```bash
 mkdir todo-app && cd todo-app
