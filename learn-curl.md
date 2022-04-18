@@ -6,9 +6,11 @@ curl localhost:3000
 
 # response body + response headers
 curl -i localhost:3000
+# -i is alias for --include
 
 # only response headers
 curl -I localhost:3000
+# -I is an alias for --head
 
 # only response's status code
 curl -sI localhost:3000 | head -n1 | awk '{print $2}'
