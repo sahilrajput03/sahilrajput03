@@ -69,6 +69,20 @@ EOF) \
 	"https://api.telegram.org/bot$TELEGRAM_ACCESS_TOKEN/sendMessage" \
 ```
 
+Wonder what `EOF` and how it works?
+
+```
+cat <<EOF
+SELECT foo, bar FROM db
+WHERE foo='baz'
+EOF
+
+# Basically <<EOF allows you to enter multiple lines of text into bash which is normally now allowed and redirect it to anythng you want.
+# Online resource: The EOF operator is used in many programming languages. This operator stands for the end of the file. This means that wherever a compiler or an interpreter encounters this operator, it will receive an indication that the file it was reading has ended.
+
+# See better examples of this @ src: https://stackoverflow.com/a/21549836/10012446
+```
+
 
 # Help
 
