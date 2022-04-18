@@ -1407,6 +1407,7 @@ done
 # 100
 
 # Learn: Looping over array of strings with spaces, src: https://stackoverflow.com/a/18383346/10012446
+# TAGS: #foreach, #for each, #for loop
 a="I am foo"
 b="I am bar"
 all=("$a" "$b")
