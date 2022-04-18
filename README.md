@@ -90,6 +90,10 @@ Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-d
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 - **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
 
+## kvm wins in software market and coz of its performance and robustness
+
+Source: [Q/A](https://www.peerspot.com/questions/what-is-the-biggest-difference-between-kvm-and-oracle-vm-virtualbox#:~:text=Virtualbox%20is%20simple%20software%20which,with%20shared%20storage%20or%20ceph.)
+
 ## ssh to virt-manager's running container
 
 **FYI: You can add bluetooth device in your kvm container very easily by going to settings and click "Add hardware" and then follow from there to "USB Host Device" option and choose your bluetooth device there. Yo!
