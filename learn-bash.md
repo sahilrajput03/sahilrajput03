@@ -7,6 +7,15 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## Echo to stderr
+
+```
+# src: https://stackoverflow.com/a/2990533/10012446
+echoerr() { echo "$@" 1>&2; }
+
+echoerr I am error message!
+```
+
 ## Check if program exists
 
 ```bash
