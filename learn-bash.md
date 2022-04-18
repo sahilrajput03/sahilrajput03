@@ -1378,8 +1378,8 @@ ${arr[@]:s:n}   # Retrieve n elements starting at index s   #Didn't work in my c
 # TAGS: #foreach, #forin, #for each, #for loop
 
 # Eg.0: Range example
-for i in {1..3}; do
-	echo hello $i
+for t in {1..3}; do
+	echo hello $t
 done
 # OUTPUT:
 # hello 1
@@ -1387,8 +1387,8 @@ done
 # hello 3
 
 # Eg.1: Learn: Ranges in bash (array)
-for i in 1 2; do
-	echo hello $i
+for t in 1 2; do
+	echo hello $t
 done
 # OUTPUT:
 # hello 1
@@ -1418,8 +1418,8 @@ done
 
 # Eg.4: Looping over array of strings with spaces (DUPLICATE of above) You can also define the strings with spaces in array by:
 all=("a b" "c d")
-for i in "${all[@]}" ; do
-  echo "What $i"
+for t in "${all[@]}" ; do
+  echo "What $t"
 done
 # OUTPUT:
 # What a b
