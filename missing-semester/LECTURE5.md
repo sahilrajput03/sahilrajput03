@@ -333,3 +333,5 @@ Host deb
 So with this on local computer you can access remote's 80 port @ 8089 on local system.
 Also, you can access local's 81 and 82 port on remote's 8081 and 8082 ports respectively.
 ALSO, YOU CAN FORWARD MULTIPLE PORTS without any issue.
+
+Read more if you want to dive into commands for making thing remote and local portforwards via commands. [Amazing article @ linuxize here](https://linuxize.com/post/how-to-setup-ssh-tunneling/).

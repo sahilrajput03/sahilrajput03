@@ -19,6 +19,75 @@ pacman -Q asterisk
 pacman -R asterik
 ```
 
+## install `prgress`
+
+Helpful to know the progress of a running command say `cp` and `mv`
+
+```bash
+pacman -S progress
+# src: https://github.com/Xfennec/progress
+```
+
+## insatll `gnome-characters`
+
+```bash
+sudo pacman -S gnome-characters
+```
+
+## Install `xdotool` to send key sequence to any application
+
+```bash
+sudo pacman -S xdotool
+# For usage example: Refer my snippy script execution.
+
+# Usage
+xdotool key ctrl+v
+# This will send ctrl+v signal to current application.
+```
+
+## Install `hub`
+
+```bash
+sudo pacman -S hub
+
+
+# Creating repo on github from inside a local repo
+hub create
+# or my alias
+git create
+
+
+# Set hub to use my ssh configuration by running below command
+git config --global hub.protocol ssh
+# FYI: ^^^^ This command simply adds below content to your `~/.gitconfig` file(NOTE: So if you already have below in your `.gitconfig` file then its nor required to do it again!)
+# [hub]
+#	protocol = ssh
+
+
+
+# source: https://github.com/github/hub
+```
+
+## .deskto files?
+
+Where are my .desktop files installed with pacman ?
+
+```bash
+pacman -Ql | grep google-chrome.desktop
+# Output:
+# google-chrome /usr/share/applications/google-chrome.desktop
+```
+
+Source: https://bbs.archlinux.org/viewtopic.php?id=243875
+
+Q. What is a `.desktop` files?
+
+A `.desktop` file is simply a shortcut that is used to launch application in Linux. Without the .desktop file, your application won’t show up in the Applications menu and you can’t launch it with third-party launchers such as Synapse and Albert. Source: https://www.maketecheasier.com/create-desktop-file-linux/
+
+Q. Where are all of my .desktop files by default?
+
+Ans. `ls ~/.local/share/applications/`
+
 ## find your bluetooth apapter's mac address
 
 ```bash
@@ -222,7 +291,7 @@ sudo virt-maanger
 # BUT WHAT WORKED FOR ME IS, this: https://github.com/kubernetes/minikube/issues/828#issuecomment-981267700
 ```
 
-### managing `kvm`'s  vm with cli tool
+### managing `kvm`'s vm with cli tool
 
 ```bash
 # IMP: You must precede virsh with `sudo`, else it won't work idk why!
@@ -295,7 +364,7 @@ Source: https://wiki.archlinux.org/title/SSHFS
 ```bash
 mkdir one two
 ls
-# Output: 
+# Output:
 one  two
 
 # Mounting remote server's directory (one) to host machine (two)
@@ -598,7 +667,7 @@ makepkg -s
 sudo pacman -U *.zst #NOTE: Install both ``droidcam`` and ``v4l2loopback`` file.
 
 sudo modprobe v4l2loopback #this is probably activating v4l2loopback thing IMO.
-# HELP:: Source: https://askubuntu.com/questions/1246096/error-installing-droidcam-in-ubuntu-20-04 
+# HELP:: Source: https://askubuntu.com/questions/1246096/error-installing-droidcam-in-ubuntu-20-04
 # ^^ This worked for Priyam's ubuntu though.
 
 # FYI: If you haven't restarted your sytem (complete reboot) you won't be able to see your camera option in chrome or chromium (but it'll be visible in firefox/obs-studio/other softwares though).
@@ -670,7 +739,7 @@ Source: https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
 
 **HIGHLIGHTS: [AMAZING article](https://betterprogramming.pub/boost-your-command-line-productivity-with-fuzzy-finder-985aa162ba5d) MUST READ**
 
-***fzf love***
+**_fzf love_**
 
 ```txt
 ctrl+c #Cd into searched folder
@@ -711,7 +780,7 @@ sudo pacman -S nginx
 sudo systemctl status ngingx # Shoudl show not active
 sudo systemctl start nginx # To start the server
 
-#Now you can access server via browsing: 
+#Now you can access server via browsing:
 http://localhost/ or http://127.0.0.1
 
 # FYI: You can browse old working configs and your own docs @
@@ -741,12 +810,12 @@ sudo pacman -S apache
 
 ```
 sudo pacman -S neovim
-# neovim uses your .vimrc file 
+# neovim uses your .vimrc file
 ```
 
 ## Installed tmux:
 
-```bash
+````bash
 sudo pacman -S tmux
 # Get tmux config file from: https://github.com/sahilrajput03/arch_os/blob/main/.tmux.conf
 
@@ -766,8 +835,8 @@ sudo pacman -S tmux
 ## You can use `shift+right click` to get default rightclick terminal behaviour. YO!!
 # src: https://superuser.com/a/1543302/776589
 
-# INTERESTING: 
-# To switch to previous active window 
+# INTERESTING:
+# To switch to previous active window
 ctrl+t p
 
 #Create new window (WHATS SPECIAL? *THIS CREATES TERMINAL IN SAME FOLDER, yo!)
@@ -800,7 +869,7 @@ tmux -V # Know your tmux version.
 
 C-t & to kill the current window
 C-t x to kill the current pane
-C-t <space> to change current panes to horizontal, vertical, or comple multiple adjustments. 
+C-t <space> to change current panes to horizontal, vertical, or comple multiple adjustments.
 
 # witching to a pane with pane numbers:
 C-t q to show the pane numbers (press esc to exit that)
@@ -809,7 +878,7 @@ FYI: You need to confirm killing the window with x by default but you can disabl
 
 C-t % to make new pane towards right.
 C-t " to make new pane downwards.
-C-t n to make a new window. # My custom hotkey. 
+C-t n to make a new window. # My custom hotkey.
 # ALSO: Use ctrl+d to kill pane (this is a general terminal keybinding to kill any terminal though).
 
 # Configuring tmux to start as default in any shell:
@@ -823,11 +892,11 @@ pkill tmux
 
 # Opening tmux without config file:
 tmux -f /dev/null # Source: https://unix.stackexchange.com/a/411552/504112
-```
+````
 
 Also, `screen` is another multi terminal managing utility but it isn't as good and popular as tmux:
 
-```
+````
 sudo pacman screen
 # Usage:
 screen
@@ -841,9 +910,9 @@ screen
 
 screen -wipe # To kill the detached session.
 screen -wipe <ID> # TO kill a session with a particular id (you need this command only when there are more than 1 active sessions). Src: https://unix.stackexchange.com/questions/94527/how-do-i-kill-all-screens/170949#170949
-```
+````
 
-## Installed pdf opening utility (`llpp`* or `mupdf`)
+## Installed pdf opening utility (`llpp`\* or `mupdf`)
 
 ```
 sudo pacman -S llpp
@@ -871,7 +940,7 @@ xprop
 git clone https://aur.archlinux.org/autojump.git
 cd autojump
 makepkg -s
-sudo pacman -U ./autojump-22.5.3-9-any.pkg.tar.zst 
+sudo pacman -U ./autojump-22.5.3-9-any.pkg.tar.zst
 
 #Reading post install instructions I see it recommends to add below line:
 [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh #Making autojump work!
@@ -885,6 +954,7 @@ j <anyRecentlyUsedFolderName>
 ```
 sudo pacman -S mutt
 ```
+
 Configuring your email client [help here](https://linuxconfig.org/how-to-install-configure-and-use-mutt-with-a-gmail-account-on-linux).
 
 Using mutt from cli form this [blog post](https://www.tecmint.com/send-mail-from-command-line-using-mutt-command/).
@@ -909,7 +979,7 @@ Source: https://unix.stackexchange.com/a/261871/504112
 
 Cron docs @ archlinux: https://wiki.archlinux.org/title/cron
 
-```bash
+````bash
 sudo pacman -Syu cronie
 systemctl enable --now cronie.service
 
@@ -918,7 +988,7 @@ systemctl status --now cronie.service
 
 # Now you can use cli-tool i.e, ```crontab```
 # IMPORTANT: Add ```export EDITOR=/usr/bin/vim``` in your ```~/.bashrc``` file so ```crontab -e``` would work as it uses ```/bin/vim``` for editing cron files.
-```
+````
 
 ## Installed workrave in archlinux
 
@@ -946,9 +1016,8 @@ hh
 
 FYI:
 
--  You can use `ctrl+j`/`ctrl+k`(same as vim) to go up/down in the command list. 
--  `Esc`/`ctrl+c` to exit the search dialog.
-
+- You can use `ctrl+j`/`ctrl+k`(same as vim) to go up/down in the command list.
+- `Esc`/`ctrl+c` to exit the search dialog.
 
 Also `mcfly` seems another fascinating solution for this as well, i.e., [source](https://stackoverflow.com/a/64895550/10012446) and it [github](https://github.com/cantino/mcfly) (3.5k stars WOW).
 
@@ -974,7 +1043,6 @@ unzip ccat-command.zip
 sudo pacman -S yarn
 ```
 
-
 ## Installed vnstat - a network bandwidth and speed monitoring service
 
 ```
@@ -983,7 +1051,7 @@ sudo pacman -s vnstat
 
 # Issue using `vnstat` like permission issue then this is what u need to fix it:
 # src: https://github.com/vergoh/vnstat/issues/134#issuecomment-663836557
-systemctl start vnstat.service 
+systemctl start vnstat.service
 systemctl enable vnstat.service
 
 # Usage:
@@ -1010,7 +1078,7 @@ Wow, even facebook's watchman also uses `inotifywait` underneath [src](https://f
 sudo pacman -S inotify-tools
 ```
 
-```bash
+````bash
 # BEAUTIFUL READY MADE SCRIPT:
 inotifywait -q -m -r -e close_write --exclude '.git/*' --format 'Wrote file %w%f' . # We're watching complete directory and recursively as well.
 # FYI You can append ```| sh``` at the end of above command to execute the formatted message as shell commands DIRECTLY as well. (See below source link to know 1 usecase of this).
@@ -1052,7 +1120,7 @@ while read -r filename event; do
 done
 
 
-# ~sahil: Watch over current directory recursively and execute ```1.sh``` file. 
+# ~sahil: Watch over current directory recursively and execute ```1.sh``` file.
 inotifywait -q -m -e close_write -r . |
 while read -r filename event; do
   ./1.sh
@@ -1068,7 +1136,7 @@ inotfywait
 man inotifywait
 # github: https://github.com/inotify-tools/inotify-tools/wiki#arch-linux
 
-# From: ```inotifywait --help``` 
+# From: ```inotifywait --help```
 # -e|--event <event1> [ -e|--event <event2> ... ]
 # Listen for specific event(s).  If omitted, all events are listened for.
 
@@ -1085,7 +1153,7 @@ man inotifywait
 # Print using a specified printf-like format string; read the man page for more details.
 # e.g., --format 'Wrote file %w%f'
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ (TESTED ~sahil)
-```
+````
 
 ## Setting up android environment with vscode
 
@@ -1097,7 +1165,7 @@ Installed sdkmanager in archos
 
 Fixed as: https://stackoverflow.com/a/54273442/10012446
 
-Vscode Extension: *Android full Support* helps to create fresh projects and also facilitates sdkmanager from command pallete in android studio.
+Vscode Extension: _Android full Support_ helps to create fresh projects and also facilitates sdkmanager from command pallete in android studio.
 
 https://developer.android.com/guide/topics/resources/providing-resources
 
@@ -1116,7 +1184,7 @@ javac --version
 
 #### 2. install platform-tools
 
-```
+````
 git clone https://aur.archlinux.org/packages/android-sdk-platform-tools/
 cd android-sdk-platform-tools
 makepkg -s
@@ -1136,15 +1204,15 @@ sudo chmod g+rwx /opt/android-sdk
 sudo chmod o+rwx /opt/android-sdk
 
 # and logout and login, now vscode's extension would pick right path for android-sdk and you would be able to access adb cli's tool as well. If above android-platform-sdk-tools cause issue you can simply remove and reinstall the the tools again from the sdk manager in vscode. Yikes!
-```
+````
 
 Platform-tools installed @ `/opt/android-sdk/platform-tools/`
 
 #### 3. Android sdk
 
-Installing `Android 10 (API 29)` from the *Open SDK Manager* in the vscode's extension.
+Installing `Android 10 (API 29)` from the _Open SDK Manager_ in the vscode's extension.
 
-In the Android 10(API 29): Choose `SDK Platform`, `Google APIs Intelx86 Atom_64 System Image` and `Sources for AndroidSDK`. Also, you can choose to install `Android SDK Platform-tools` or ignore if you installed that from *arch's AUR* before.
+In the Android 10(API 29): Choose `SDK Platform`, `Google APIs Intelx86 Atom_64 System Image` and `Sources for AndroidSDK`. Also, you can choose to install `Android SDK Platform-tools` or ignore if you installed that from _arch's AUR_ before.
 
 ## installed kotlin archos
 
@@ -1188,7 +1256,7 @@ speedtest
 
 Src: https://archlinux.org/packages/community/any/speedtest-cli/
 
-## Detect if a service i.e.,  services in `systemctl` is enabled (starts on boot) ?
+## Detect if a service i.e., services in `systemctl` is enabled (starts on boot) ?
 
 ```bash
 systemctl is-enabled code-server@array
@@ -1200,6 +1268,7 @@ systemctl is-enabled code-server@array
 # when the service is disabled: sudo systemctl disable code-server@array
 #Output: disabled
 ```
+
 src: https://unix.stackexchange.com/a/599587/504112
 
 read lots of below from: https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
@@ -1263,7 +1332,7 @@ The most amazing experience to solve this is via using `hh` cli tool, i.e., #see
 
 ## Installed docker, docker-compose in archos
 
-```bash
+````bash
 sudo pacman -S docker docker-compose
 
 sudo systemctl enable docker.service #So that docker automatically starts on system boot.
@@ -1279,7 +1348,7 @@ docker ps -aux
 sudo chmod 666 /var/run/docker.sock
 #    ^^^^^ This might be needed if you get some permission issue for socket i.e., ```/var/run/docker.sock```
 # src: https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket#)
-```
+````
 
 ## Switching to different user:
 
@@ -1368,7 +1437,7 @@ Source: [parent](https://code.visualstudio.com/docs/editor/settings-sync#_troubl
 
 Installed jupyter notebooks with pip: `pip install notebook`, [Source](https://jupyter.org/install).
 
-***Also if you can't access* `jupyter` cli binary from terminal make sure you add `export PATH=$PATH:~/.local/bin` to your `~/.bashrc` file.**
+**_Also if you can't access_ `jupyter` cli binary from terminal make sure you add `export PATH=$PATH:~/.local/bin` to your `~/.bashrc` file.**
 
 [Source](https://hub.gke2.mybinder.org/user/ipython-ipython-in-depth-7y35qkm4/notebooks/binder/Index.ipynb)
 
@@ -1464,8 +1533,7 @@ Bcoz if you ever run `pacman -Syu` then all your packages installed via pacman w
 sudo pacman -S chromium
 ```
 
-If you get some error then you can use `sudo pacman -Syu` to upgrade the system and probably the problem will be fixed as [this](https://stackoverflow.com/a/67552506/10012446) helped me. 
-
+If you get some error then you can use `sudo pacman -Syu` to upgrade the system and probably the problem will be fixed as [this](https://stackoverflow.com/a/67552506/10012446) helped me.
 
 ## Update system
 
@@ -1475,7 +1543,7 @@ sudo pacman -Syu
 
 Installed code-server via below commands
 
-src: 
+src:
 
 ```
 # Install code-server from the AUR with plain makepkg.
@@ -1505,7 +1573,7 @@ sudo systemctl stop sshd
 
 src: https://linuxhint.com/arch_linux_ssh_server/
 
-##  Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
+## Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
 
 ```
 ranger --copy-config=rifle #Copies default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
@@ -1543,22 +1611,22 @@ call plug#end()
 
 **IMPORTANT:** Reload `.vimrc` and `:PlugInstall` to install plugins.
 
-## Setting up capslock to esc and shift+capslock to actual capslock:
+## Disable capslock completely (ROCKS!)
 
-**FYI: The file /etc/X11/xorg.conf.d/00-keyboard.conf is backuped at ``backupFiles`` folder as well!! So you can directly copy that file to its needed location whenever you need to set esc-capslock-shift settings as you have right now.**
+Updated on: 16th April, 2022
 
-Amazing answer here: https://superuser.com/a/1471357
+**FYI: The file `/etc/X11/xorg.conf.d/00-keyboard.conf` is backuped at `config` repository as well!! So you can directly copy that file to its needed location anytime to get your settings.**
 
-**Learn how to make sample config files from scratch from below link of arch docs:**
+Stackoverflow Amazing Answer - [xmodmap - remap Caps_Lock to Escape and Shift+Caps_Lock to Caps_Lock](https://superuser.com/a/1471357)
 
-https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_X_configuration_files
- 
-Source: https://wiki.archlinux.org/title/Xorg#Using_.conf_files
+**Learn how to make sample config files from scratch from below link of arch docs:** [Click here](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_X_configuration_files)
+
+Source: [Using config files of x11 @ ArchWiki](https://wiki.archlinux.org/title/Xorg#Using_.conf_files)
 
 **tldr;**
 
 ```bash
-sudo vim /etc/X11/xorg.conf.d/00-keyboard.conf
+sudo nvim /etc/X11/xorg.conf.d/00-keyboard.conf
 ```
 
 and add below code in the tripple backticks:
@@ -1571,8 +1639,23 @@ Section "InputClass"
 #        Option "XkbModel" "pc104"
 #        Option "XkbVariant" ",dvorak"
 #        Option "XkbOptions" "grp:win_space_toggle"
-	Option "XkbOptions" "terminate:ctrl_alt_bksp,caps:escape_shifted_capslock"
+	Option "XkbOptions" "terminate:ctrl_alt_bksp,caps:escape"
+# Currently, I am completely disabling capslock      ^----------^
 EndSection
+```
+
+My useful notes:
+
+```txt
+# FYI: Read all available optinos via: cat /usr/share/X11/xkb/rules/base.lst
+# FYI: The options should be separated by comma as you can see above^^^^^
+# FYI: ctrl+alt+backspace will simly logout.
+
+# Usefult options to see:
+# terminate:ctrl_alt_bksp Ctrl+Alt+Backspace (( ~Sahil, this will logout in superfast manner without any confirmation.
+# caps:escape_shifted_capslock Make Caps Lock an additional Esc, but Shift + Caps Lock is the regular Caps Lock
+# caps:none            Caps Lock is disabled
+# caps:escape          Make Caps Lock an additional Esc
 ```
 
 ## Sending a notification with `notify-send`
@@ -1597,7 +1680,7 @@ ls -l --->>> gives
 # user of the file:
 $ chmod +rwx filename
 
-# all the users in the group of the  
+# all the users in the group of the
 chmod g+w filename
 chmod g-wx filename
 
@@ -1629,17 +1712,17 @@ chmod 327 foldername will give write and execute (3) permission for the user, w 
 
 ## Enabling hibernation in archlinux
 
-1. LEARN: ::About What all needs to be done in order to make hibernation work when you already have a swap partition and have a entry for it in the ``/etc/fstab`` file::
- 
+1. LEARN: ::About What all needs to be done in order to make hibernation work when you already have a swap partition and have a entry for it in the `/etc/fstab` file::
+
 One thing I remember, I needed to point the kernel to the swap partition on the kernel command line. This is described somewhere in the ArchWiki article about hibernation. There might also be changes needed in the HOOKS= line in /etc/mkinitcpio.conf, but I don't quite remember. This will also be mentioned somewhere in the wiki article.
 
 I occasionally have problems with hibernation depending on the kernel version. Some versions don't work right for my PC here. I don't think that's the problem for you from the way you describe what's happening, but I guess you could still try a different kernel version to check. There's an alternative one in the package named linux-lts. You can install it in parallel to the normal linux package. You need to look up how to add a second boot menu entry for it with the boot loader you are using.
 
 src: https://www.reddit.com/r/linuxquestions/comments/7swvyb/cannot_restore_session_after_hibernation/?utm_source=reddit-android
 
-2. LEARN ::About adding entry in the ```/etc/default/grub``` file::
-https://wiki.archlinux.org/title/GRUB
-^^ search for hibernation keyword and you'll get the necessary things you need to do in file - ```/etc/default/grub``` in variable - ```GRUB_CMDLINE_LINUX_DEFAULT```.
+2. LEARN ::About adding entry in the `/etc/default/grub` file::
+   https://wiki.archlinux.org/title/GRUB
+   ^^ search for hibernation keyword and you'll get the necessary things you need to do in file - `/etc/default/grub` in variable - `GRUB_CMDLINE_LINUX_DEFAULT`.
 
-3. LEARN :: Reference from video: 
-src: https://www.youtube.com/watch?v=Xek3TGKzLWw&list=PLBfwD_NnDB3p4rM53ZxU2K6o5YZMzr6qc&index=7&t=270s
+3. LEARN :: Reference from video:
+   src: https://www.youtube.com/watch?v=Xek3TGKzLWw&list=PLBfwD_NnDB3p4rM53ZxU2K6o5YZMzr6qc&index=7&t=270s

@@ -7,6 +7,51 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## What is `/proc/` directory in linux?
+
+You can find all the resources in use by any process (say pid 1034) by going to `/proc/1034/` directory. Also there are bunch of things there, ong interesting is the `fd` directory that manages the stdin (0), stdout(1), stderr(2) and more other file desriptiors for that process there.
+
+## Echo to stderr
+
+```
+# src: https://stackoverflow.com/a/2990533/10012446
+echoerr() { echo "$@" 1>&2; }
+
+echoerr I am error message!
+```
+
+## Check if program exists
+
+```bash
+[ "$(type workrave 2> /dev/null)" ]; echo $?
+# Output: 0
+
+[ "$(type bad_program_name 2> /dev/null)" ]; echo $?
+# Output: 1
+
+# exit code 0 means TRUE (program exists)
+# exit code 1 means FALSE (program doesn't exists)
+
+###USAGE:
+# Running workrave (if installed)
+[ "$(type workrave 2> /dev/null)" ] && (workrave &)
+
+# Bad program test (should not cause login execution error)
+[ "$(type bad_program 2> /dev/null)" ] && (bad_program &)
+```
+
+## What does this do?
+
+```bash
+t=${*%???}
+```
+
+## Debug bash scripts sipmle?
+
+```bash
+set -x
+```
+
 ## `for loop`, `for-in` loop, etc
 
 #forloop, #forin loop, #foreach loop, #loop etc
@@ -51,11 +96,23 @@ Manual pages: [Click here](test-manual-pages.txt)
        -n STRING
               the length of STRING is nonzero
 
+       STRING equivalent to -n STRING
+
        -z STRING
               the length of STRING is zero
+	      
+### WOW, INTERESTING FACT here...
+# -n STRING and STRING are equivalent, that means you can simply use 
+test "$USER"
+echo $?
+# Output: 0 (exit code is 0 (TRUE), bocz user string exists in system environment variables)
+
+test "$NON_EXISTENT"
+echo $?
+# Output: 1 (exit code is 1 (FALSE), bcoz NON_EXISTENT variable doesn't exist)
 ```
 
-## What exactly is <() in bash (and =() in zsh)?
+## What exactly is `<()` in bash (`=()` in zsh)?
 
 tldp docs: https://tldp.org/LDP/abs/html/process-sub.html
 
@@ -72,8 +129,9 @@ diff <(ls dirA) <(ls dirB)
 
 source: https://linuxize.com/post/netcat-nc-command-with-examples/
 
+Use case 1: Chat app
+
 ```bash
-## SIMPLE CHAT APP
 # terminal 1 (listener)
 nc -l 8080
 
@@ -81,6 +139,18 @@ nc -l 8080
 nc localhost 8080
 
 #### now you can send messages to and from each other, yo!!
+```
+
+Use case 2: Sending file (this can be usefult to send .tar or any encrypted+archived file easily)
+
+Source: https://linuxize.com/post/netcat-nc-command-with-examples/
+
+```bash
+# Receiver starts a server which listens on 1337
+nc -l 1337 > what.txt
+
+# Snder send a file to some remote host(in our case its our localhost, yo!!)
+nc localhost 1337 < .gitconfig
 ```
 
 **This can be used to test curl request locally as well:**
@@ -970,6 +1040,9 @@ grep -rlZ 'sahil' .
 # FYI: We can pipe the file name to sed simply for any of our usecase like:
 grep -rlZ 'foo' . | xargs -0 sed -i.bak 's/foo/bar/g'
 # FYI: WE MUST USE xargs ^^^ here to make it work with grep else it won't work at all.
+
+# -i option for case Insensitive search
+grep -ri 'searchText' .
 ```
 
 ## `awk` rocks hard!!

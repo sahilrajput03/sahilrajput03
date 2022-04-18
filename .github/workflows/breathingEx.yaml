@@ -2,8 +2,8 @@ name: telegram-bot-breathing-ex
 
 on:
   schedule:
-    # 2pm everyday
-    - cron: "0 2 * * *"
+    # 2pm everyday (time is in UTC)
+    - cron: "30 8 * * *"
     
     # 9am everyday
     # - cron: "0 9 * * *"

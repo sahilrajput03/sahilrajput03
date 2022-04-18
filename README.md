@@ -18,7 +18,7 @@ cd my-react-app; npm install; npm run dev
 
 #### Start a `nodejs` backend server using [`express`](https://expressjs.com/) connected to mongodb using [`mongoose`](https://mongoosejs.com/)
 
-***Requirements: [`Nodejs`](https://nodejs.dev/), [`Mondogdb`](https://www.mongodb.com/docs/manual/installation/#mongodb-installation-tutorials)***
+> ***Requirements: [`Nodejs`](https://nodejs.dev/), [`Mondogdb`](https://www.mongodb.com/docs/manual/installation/#mongodb-installation-tutorials)***
 
 ```bash
 mkdir todo-app && cd todo-app
@@ -36,6 +36,12 @@ npm start
 ```
 
 Find me on terminal via `npx sahilrajput03` command.
+
+## Create videos with react
+
+Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/watch?v=gwlDorikqgY)
+
+Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-dev/remotion) 12.7k Starts
 
 ## References:
 
@@ -69,6 +75,7 @@ Find me on terminal via `npx sahilrajput03` command.
 - **Learn Algorithms:**: [Click here](learn-algorithms.md) 
 - **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
 - **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
+- **Learn Missing Semester (Notes):** [Click here](missing-semester/)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **React file structure:** [Click here](https://react-file-structure.surge.sh/)
 - **Thoughts, Principles:** [Click here](thoughts-principles.md)
@@ -82,6 +89,12 @@ Find me on terminal via `npx sahilrajput03` command.
 - **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 - **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
+
+## ssh to virt-manager's running container
+
+**FYI: You can add bluetooth device in your kvm container very easily by going to settings and click "Add hardware" and then follow from there to "USB Host Device" option and choose your bluetooth device there. Yo!
+
+![image](https://user-images.githubusercontent.com/31458531/163719156-e36e1347-2719-4cd8-89a1-9f042f009a46.png)
 
 ## Update (i.e., pull) a submodule in a git repo
 
@@ -657,6 +670,11 @@ degit user/repo#1234abcd  # commit hash
 
 # To clone a specific subdirectory instead of the entire repo, just add it to the argument:
 degit user/repo/subdirectory
+
+# To clone a single file
+degit sahilrajput03/sahilrajput03/README.md README.md
+
+#NOTE: It is required to use explicit file name when cloning a file like we did with README.md above.
 ```
 
 ## in/of in for
