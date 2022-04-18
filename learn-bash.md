@@ -7,6 +7,10 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## What is `/proc/` directory in linux?
+
+You can find all the resources in use by any process (say pid 1034) by going to `/proc/1034/` directory. Also there are bunch of things there, ong interesting is the `fd` directory that manages the stdin (0), stdout(1), stderr(2) and more other file desriptiors for that process there.
+
 ## Echo to stderr
 
 ```
