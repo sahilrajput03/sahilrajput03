@@ -69,9 +69,9 @@ EOF) \
 	"https://api.telegram.org/bot$TELEGRAM_ACCESS_TOKEN/sendMessage" \
 ```
 
-Wonder what `EOF` and how it works?
+**Q. Wonder what is `EOF` and how it works?**
 
-```
+```bash
 cat <<EOF
 SELECT foo, bar FROM db
 WHERE foo='baz'
