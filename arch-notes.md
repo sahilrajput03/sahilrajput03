@@ -8,6 +8,15 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+
+## install heroku
+
+```bash
+yay -S heroku-cli
+# source: https://aur.archlinux.org/packages/heroku-cli
+# FYI: It took a long time to install though.
+```
+
 ## Remove packages installed via aur?
 
 ```bash
