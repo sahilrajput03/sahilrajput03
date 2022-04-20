@@ -91,6 +91,7 @@ Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-d
 - **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
 - **Open Source Apps from All over the world** - [Click here](open-source-apps.md)
 - **Nocode tools** - [Click here](nocodetools.md)
+- **Learn Deployment** - [Click here](learn-deploy.md)
 
 ## kvm wins over virtual box in software market and coz of its performance and robustness
 
