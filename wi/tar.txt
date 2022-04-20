@@ -1,5 +1,3 @@
-array@arch-os wi$ tldr tar
-
   tar
 
   Archiving utility.
