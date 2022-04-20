@@ -2,6 +2,14 @@
 
 ## Github Pages
 
+Add below a records for your custom domain dns setting in your domain provider panel.
+
+```
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+```
 
 ## Heroku
 
