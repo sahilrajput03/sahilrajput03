@@ -1,3 +1,5 @@
 # Open Source Apps
 
-- User Profie (has apps with source codes): [https://sleepy-sinoussi-1dc1b3.netlify.app/](https://sleepy-sinoussi-1dc1b3.netlify.app/)
+- User Profie (has apps with source codes): [https://sleepy-sinoussi-1dc1b3.netlify.app/](https://sleepy-sinoussi-1dc1b3.netlify.app/).
+
+  Apps like: Covid-19 tracker, Google Keep Clone, Netflix clone app, Todo List.
