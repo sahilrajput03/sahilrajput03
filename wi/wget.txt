@@ -1,0 +1,6 @@
+wget --quiet "SOME_URL" -O "/tmp/someDir/output.txt"
+
+# --quiet to supress output from wget
+# -nv means no-verbose bcoz default is verbose on.
+# --debug to show debugging via wget
+# -O means overwrite existing file if already present bcoz by default it append incremental number to the output file name if the file is already present.
