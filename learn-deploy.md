@@ -2,7 +2,7 @@
 
 ## Github Pages
 
-Add below a records for your custom domain dns setting in your domain provider panel.
+Add below `A records` for your custom domain dns setting in your domain provider panel.
 
 ```
 185.199.108.153
