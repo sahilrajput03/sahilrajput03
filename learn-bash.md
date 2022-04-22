@@ -7,6 +7,14 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## Deleting letters in bash
+
+```bash
+echo -n abcXYZ; echo -ne '\b\b\b'
+# Output:
+abc
+```
+
 ## Know what architecture do you have!
 
 Src: https://stackoverflow.com/a/48679640/10012446
