@@ -16,6 +16,7 @@ shift 1
 ```
 
 ```bash
+cat t
 echo $1
 shift 1
 echo $1
