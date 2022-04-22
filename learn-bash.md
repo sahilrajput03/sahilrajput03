@@ -7,7 +7,54 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
-# Rewrite existing line with carriage return character (get help from: https://unix.stackexchange.com/questions/26576/how-to-delete-line-with-echo)
+## What does shift do in bash?
+
+```bash
+# shift/unshift, pop/push are general terms across all programming languages
+# This will remove the first argument and will move all to the top:
+shift 1
+```
+
+```bash
+echo $1
+shift 1
+echo $1
+
+# Output:
+./t one two three
+#Output:
+# one
+# two
+
+```
+
+```bash
+cat t
+echo $@
+shift 1
+echo $@
+
+# Testing:
+./t one two three
+#Output:
+# one two three
+# two three
+
+```
+
+```js
+a = [10, 20, 30]
+
+a.shift()
+log(a)
+# Output: [20, 30]
+
+a.shift()
+log(a)
+# Output: 20
+```
+
+## Rewrite existing line with carriage return character (get help from: https://unix.stackexchange.com/questions/26576/how-to-delete-line-with-echo)
 
 ```bash
 # Way1
