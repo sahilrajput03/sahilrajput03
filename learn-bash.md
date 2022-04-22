@@ -7,6 +7,20 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+# Rewrite existing line with carriage return character (get help from: https://unix.stackexchange.com/questions/26576/how-to-delete-line-with-echo)
+
+```bash
+# Way1
+echo -n "Sahil is cool and creative."
+sleep 1
+echo -ne '\rEveryone rocks.'
+
+
+# Way2 ( this works but some tab is echoed out so if way1 works for you then use that)
+echo -n Bash;sleep 1;echo -ne "\033[2K"; echo -n Rocks
+echo -n Bash;sleep 1;echo -ne "\033[1K"; echo -n Rocks
+```
+
 ## Deleting letters in bash
 
 ```bash
