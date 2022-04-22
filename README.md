@@ -340,7 +340,9 @@ https://memcached.org/
 
 ## flashcards website
 
-http://cram.com
+Website: http://cram.com
+
+Playstore App (free services): [Click here](https://play.google.com/store/apps/details?id=com.studymode.cram)
 
 You may login with google simpley. It has a playstore app as well.
 

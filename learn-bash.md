@@ -7,6 +7,22 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## Know what architecture do you have!
+
+Src: https://stackoverflow.com/a/48679640/10012446
+
+```bash
+architecture=""
+case $(uname -m) in
+    i386)   architecture="386" ;;
+    i686)   architecture="386" ;;
+    x86_64) architecture="amd64" ;;
+    arm)    dpkg --print-architecture | grep -q "arm64" && architecture="arm64" || architecture="arm" ;;
+esac
+
+echo Your architecture is: $architecture
+```
+
 ## What is `/proc/` directory in linux?
 
 You can find all the resources in use by any process (say pid 1034) by going to `/proc/1034/` directory. Also there are bunch of things there, ong interesting is the `fd` directory that manages the stdin (0), stdout(1), stderr(2) and more other file desriptiors for that process there.
