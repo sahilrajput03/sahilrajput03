@@ -7,6 +7,15 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## weird ?
+
+```bash
+a=10=20
+echo $a
+
+# Output:
+10=20
+```
 ## What is the user `${myVariable}` when we can achieve `$myVariable` ?
 
 NO YOU are wrong, they `${` is helpful in cases where `$myVariable` fails, for e.g., 
