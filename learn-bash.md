@@ -7,6 +7,33 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## What is the user `${myVariable}` when we can achieve `$myVariable` ?
+
+NO YOU are wrong, they `${` is helpful in cases where `$myVariable` fails, for e.g., 
+
+```bash
+name="john doe"
+echo "The name of the person is $name_"
+# Output:
+# The name of the person is
+#FYI: Can't get variable bcoz bash is trying to fetch variable name_ variable instead of name
+
+### SO WE CAN FIX THIS VIA: ${ syntax
+echo "The name of the person is ${name}_"
+# Output:
+The name of the person is john doe_
+# WORKS AS EXPECTED!
+
+# Source (Amazing article): https://linuxhint.com/use_expansions_shell_script/
+
+#### OTHER INTERESTING AND USERFUL CASES FROM ${ syntax is:
+${variable}		This command substitutes the value of the variable.
+${variable:-word}	If a variable is null or if it is not set, word is substituted for variable. The value of the variable does not change.
+${variable:=word}	If a variable is null or if it is not set, the value of the variable is set to word.
+${variable:?message}	If a variable is null or if it is not set, the message is printed to the standard bash error.
+${variable:+word}	If variable is set, word is substituted for variable. However, the value of the variable itself does not change.
+```
+
 ## What does shift do in bash?
 
 ```bash
