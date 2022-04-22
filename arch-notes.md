@@ -837,7 +837,7 @@ sudo pacman -S neovim
 sudo pacman -S tmux
 # Get tmux config file from: https://github.com/sahilrajput03/arch_os/blob/main/.tmux.conf
 
-# When in copy mode you accidentally selected some text using `v` or `V` but now you want to undo the select mode, then you can press y to exit that select mode.
+# When in copy mode you accidentally selected some text using `v` or `V` but now you want to undo the select mode(deselect text), then you can press r to exit that select mode. YO!
 
 # When in copy mode and you have selected some text, you can press o to move the cursor to the other end in the selected text. Yo!
 
