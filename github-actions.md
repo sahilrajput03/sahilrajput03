@@ -21,3 +21,26 @@
 **FYI**
 
 - Github actions by default has `secrets.GITHUB_TOKEN` secret which is helpful to authenticate on our basis in the github workflows. [Click here](https://docs.github.com/en/github-ae@latest/actions/security-guides/automatic-token-authentication). You may see the usage in the same previous link or [click here](https://github.com/kubernetes-hy/material-example/blob/master/.github/workflows/gitops-app.yml) which is a course material example from [Ch4 Part4@dwk course](https://devopswithkubernetes.com/part-4/3-gitops)).
+
+
+### Can't see getting your workflow run on changing files in directories you have set track to ?
+
+**FYI: The path matchingin github actions is kind of so vagues coz**
+
+```yaml
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/project-backend.yml'
+      - './exercises/ex4-08/ex4-06/ex2-08-statefulsets/ex2-02/**'
+```
+
+above won't work coz you have ./ in the begining of the exercises path and that causes it to not tract our desired folder, so instead, we must do like below (remove the `./`) and it'll work:
+
+```yaml
+...
+      - 'exercises/ex4-08/ex4-06/ex2-08-statefulsets/ex2-02/**'
+...
+```
