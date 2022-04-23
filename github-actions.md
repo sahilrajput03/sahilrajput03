@@ -25,6 +25,8 @@
 
 ### Can't see getting your workflow run on changing files in directories you have set track to ?
 
+> If you want to read about filter pattern, you can read @ [here](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet).
+
 The path matchingin github actions is kind of so vagues coz:
 
 ```yaml
