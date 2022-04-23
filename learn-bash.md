@@ -7,6 +7,22 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## Never use quote/s around possble exapansions coz it prevents that!
+
+```bash
+echo "Life is good" > ~/myFile
+f1='~/myFile' #BAD
+f2="~/myFile" #BAD
+f3=~/myFile   #GOOD
+
+cat $f1
+# Output: cat: '~/myFile': No such file or directory
+cat $f2
+# Output: cat: '~/myFile': No such file or directory
+cat $f3
+# Output: Life is good
+```
+
 ## weird ?
 
 ```bash
