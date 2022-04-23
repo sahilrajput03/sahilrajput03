@@ -25,7 +25,7 @@
 
 ### Can't see getting your workflow run on changing files in directories you have set track to ?
 
-**FYI: The path matchingin github actions is kind of so vagues coz**
+The path matchingin github actions is kind of so vagues coz:
 
 ```yaml
 on:
