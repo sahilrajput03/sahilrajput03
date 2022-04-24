@@ -1294,20 +1294,6 @@ src: https://unix.stackexchange.com/a/599587/504112
 
 read lots of below from: https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
 
-## Print processes of particular user
-
-```bash
-ps -u array
-ps -u root
-```
-
-## Change password of a user:
-
-```bash
-sudo passwd       #Changes password of current user.
-sudo passwd mary  #Changes password of different user, the reason you can change any other user's password is bcoz you are in sudoer group else you can't.
-```
-
 ## Recursiveness in ls or tree
 
 ```
@@ -1323,15 +1309,6 @@ tree -I 'arch_os|target|rustlings|target|node_modules'
 ```bash
 head -n 5 someFile #prints first 5 lines of file.
 tail -n 5 someFile #prints last 5 lines of file.
-```
-
-## groups
-
-The groups command tells you which groups a user is a member of.
-
-```bash
-groups dave
-groups mary
 ```
 
 ## Terminal - seaching previous commands ?
@@ -1370,22 +1347,6 @@ sudo chmod 666 /var/run/docker.sock
 #    ^^^^^ This might be needed if you get some permission issue for socket i.e., ```/var/run/docker.sock```
 # src: https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket#)
 ````
-
-## Switching to different user:
-
-```bash
-src: https://wiki.archlinux.org/title/PostgreSQL
-
-# If you have sudo and are in sudoers:
-$ sudo -iu someUser
-echo $USER                        #Prints currently logged in user.
-
-
-# Otherwise using su:
-$ su    #Enter the root's password, then you'll be logged in as root user(i.e., #)
-# su -l someUser
-echo $USER                        #Prints currently logged in user.
-```
 
 ## Installed postgresql in archos
 
@@ -1540,10 +1501,6 @@ dd if=Downloads/archlinux_64.iso of=/dev/sdb
 # be careful that your of (output file) i.e., if its gonna be extremely right device you want the iso file's data to be dumped off.
 ```
 
-## Become root user
-
-`sudo su`
-
 ## Why prefer pacman ?
 
 Bcoz if you ever run `pacman -Syu` then all your packages installed via pacman will be updated.
@@ -1683,52 +1640,6 @@ My useful notes:
 
 ```bash
 notify-send Hello "More text here"
-```
-
-## Permission
-
-ls -l --->>> gives
-
-```txt
-1234567890
-1: file/directory significance.
-234: read write execution permission for the user owner of the file.
-567: read write execution permission for the user owner's group of the file.
-890: read write execution permission for all other users.
-```
-
-```bash
-# user of the file:
-$ chmod +rwx filename
-
-# all the users in the group of the
-chmod g+w filename
-chmod g-wx filename
-
-# others
-chmod o+w filename
-chmod o-rwx foldername
-```
-
-**Permission numbers**
-
-```txt
-0 = ---
-1 = --x
-2 = -w-
-3 = -wx
-4 = r-
-5 = r-x
-6 = rw-
-7 = rwx
-```
-
-For example:
-
-```
-chmod 777 foldername will give read, write, and execute permissions for everyone.
-chmod 700 foldername will give read, write, and execute permissions for the user only.
-chmod 327 foldername will give write and execute (3) permission for the user, w (2) for the group, and read, write, and execute for the users.
 ```
 
 ## Enabling hibernation in archlinux
