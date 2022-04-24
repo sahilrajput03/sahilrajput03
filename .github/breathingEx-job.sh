@@ -5,7 +5,8 @@
 # echo ID_SAHIL - $ID_SAHIL
 # echo TOKEN - $TOKEN
 
-text="Release DMT via 10 minutes breathing exercise (time-stamped) - https://youtu.be/lwlEJ2O-6HM?list=LL&t=350"
+text="Release DMT via 10 minutes breathing exercise [@ youtube, time stamped](https://youtu.be/lwlEJ2O-6HM?list=LL&t=350)"
+# FYI: Dont use ( ), -  symbols when providing markdown to telegram bot coz it throws unfixable error, 22 April, 2022.
 
 echo  Thought is: $text
 
