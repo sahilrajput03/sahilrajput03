@@ -5,3 +5,5 @@
   Apps like: Covid-19 tracker, Google Keep Clone, Netflix clone app, Todo List.
 
 - [Code Snippet WebApp](https://seraph-app.vercel.app)
+
+- [Telegram Web - App (unofficial)](https://github.com/evgeny-nadymov/telegram-react/)
