@@ -7,6 +7,128 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+## Never use quote/s around possble exapansions coz it prevents that!
+
+```bash
+echo "Life is good" > ~/myFile
+f1='~/myFile' #BAD
+f2="~/myFile" #BAD
+f3=~/myFile   #GOOD
+
+cat $f1
+# Output: cat: '~/myFile': No such file or directory
+cat $f2
+# Output: cat: '~/myFile': No such file or directory
+cat $f3
+# Output: Life is good
+```
+
+## weird ?
+
+```bash
+a=10=20
+echo $a
+
+# Output:
+10=20
+```
+## What is the user `${myVariable}` when we can achieve `$myVariable` ?
+
+NO YOU are wrong, they `${` is helpful in cases where `$myVariable` fails, for e.g., 
+
+```bash
+name="john doe"
+echo "The name of the person is $name_"
+# Output:
+# The name of the person is
+#FYI: Can't get variable bcoz bash is trying to fetch variable name_ variable instead of name
+
+### SO WE CAN FIX THIS VIA: ${ syntax
+echo "The name of the person is ${name}_"
+# Output:
+The name of the person is john doe_
+# WORKS AS EXPECTED!
+
+# Source (Amazing article): https://linuxhint.com/use_expansions_shell_script/
+
+#### OTHER INTERESTING AND USERFUL CASES FROM ${ syntax is:
+${variable}		This command substitutes the value of the variable.
+${variable:-word}	If a variable is null or if it is not set, word is substituted for variable. The value of the variable does not change.
+${variable:=word}	If a variable is null or if it is not set, the value of the variable is set to word.
+${variable:?message}	If a variable is null or if it is not set, the message is printed to the standard bash error.
+${variable:+word}	If variable is set, word is substituted for variable. However, the value of the variable itself does not change.
+```
+
+## What does shift do in bash?
+
+```bash
+# shift/unshift, pop/push are general terms across all programming languages
+# This will remove the first argument and will move all to the top:
+shift 1
+```
+
+```bash
+cat t
+echo $1
+shift 1
+echo $1
+
+# Output:
+./t one two three
+#Output:
+# one
+# two
+
+```
+
+```bash
+cat t
+echo $@
+shift 1
+echo $@
+
+# Testing:
+./t one two three
+#Output:
+# one two three
+# two three
+
+```
+
+```js
+a = [10, 20, 30]
+
+a.shift()
+log(a)
+# Output: [20, 30]
+
+a.shift()
+log(a)
+# Output: 20
+```
+
+## Rewrite existing line with carriage return character (get help from: https://unix.stackexchange.com/questions/26576/how-to-delete-line-with-echo)
+
+```bash
+# Way1
+echo -n "Sahil is cool and creative."
+sleep 1
+echo -ne '\rEveryone rocks.'
+
+
+# Way2 ( this works but some tab is echoed out so if way1 works for you then use that)
+echo -n Bash;sleep 1;echo -ne "\033[2K"; echo -n Rocks
+echo -n Bash;sleep 1;echo -ne "\033[1K"; echo -n Rocks
+```
+
+## Deleting letters in bash
+
+```bash
+echo -n abcXYZ; echo -ne '\b\b\b'
+# Output:
+abc
+```
+
 ## Know what architecture do you have!
 
 Src: https://stackoverflow.com/a/48679640/10012446

@@ -837,7 +837,10 @@ sudo pacman -S neovim
 sudo pacman -S tmux
 # Get tmux config file from: https://github.com/sahilrajput03/arch_os/blob/main/.tmux.conf
 
-# When in copy mode you accidentally selected some text using `v` or `V` but now you want to undo the select mode, then you can press y to exit that select mode.
+## Enable synchronize-panes by pressing `ctrl+t` followed by `shift+:` and next type `set synchronize-panes` on at the prompt. Now all the panes in the current window will be synced such that any thing you type will be done to all the panes. To disable synchronization: set synchronize-panes off.
+#src: https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/01-prerequisites.md
+
+# When in copy mode you accidentally selected some text using `v` or `V` but now you want to undo the select mode(deselect text), then you can press r to exit that select mode. YO!
 
 # When in copy mode and you have selected some text, you can press o to move the cursor to the other end in the selected text. Yo!
 
