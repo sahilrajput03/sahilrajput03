@@ -9,14 +9,16 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
-#### Start a `react` project
+## Jump Starters
+
+#### 1. Start a `react` project
 
 ```bash
 npx degit sahilrajput03/react-app my-react-app
 cd my-react-app; npm install; npm run dev
 ```
 
-#### Start a `nodejs` backend server using [`express`](https://expressjs.com/) connected to mongodb using [`mongoose`](https://mongoosejs.com/)
+#### 2. Start a `nodejs` backend server using [`express`](https://expressjs.com/) connected to mongodb using [`mongoose`](https://mongoosejs.com/)
 
 > ***Requirements: [`Nodejs`](https://nodejs.dev/), [`Mondogdb`](https://www.mongodb.com/docs/manual/installation/#mongodb-installation-tutorials)***
 
@@ -37,11 +39,9 @@ npm start
 
 Find me on terminal via `npx sahilrajput03` command.
 
-## Create videos with react
+#### 3. Create videos with react
 
-Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/watch?v=gwlDorikqgY)
-
-Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-dev/remotion) 12.7k Starts
+Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/watch?v=gwlDorikqgY), Github: [https://github.com/remotion-dev/remotion](https://github.com/remotion-dev/remotion) 12.7k Starts
 
 ## References:
 
