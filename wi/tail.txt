@@ -1,0 +1,3 @@
+# Prints last 5 lines of file
+
+tail -n 5 someFile 

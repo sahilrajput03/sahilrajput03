@@ -1,0 +1,2 @@
+# Prints first 5 lines of file.
+head -n 5 someFile
