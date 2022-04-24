@@ -21,6 +21,17 @@ cat $f2
 # Output: cat: '~/myFile': No such file or directory
 cat $f3
 # Output: Life is good
+
+
+## HEY BUT WHY DOES THE QUOTES ONES DOESN'T WORK?
+# BCOZ THEY ARE EXECUTED LIKE:
+cat '~/myFile'
+# Output:
+# cat: '~/myFile': No such file or directory
+
+cat "~/myFile"
+# Output:
+# cat: '~/myFile': No such file or directory
 ```
 
 ## weird ?
