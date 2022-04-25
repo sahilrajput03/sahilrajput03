@@ -1,53 +1,66 @@
-## Change password of a user:
 
 ```bash
-sudo passwd       #Changes password of current user.
-sudo passwd mary  #Changes password of different user, the reason you can change any other user's password is bcoz you are in sudoer group else you can't.
-```
+########## FIND NAME OF YOUR USER
+whoami
+# Output: array
 
-## groups
+echo $USER
+# Output: array
 
-The groups command tells you which groups a user is a member of.
 
-```bash
+
+########## RUN A LOGIN SHELL
+su -l
+
+
+########## CHANGE PASSWORD
+# Changes password of current user
+sudo passwd
+
+# Changes password of a specific user (possible only if you are in sudoer group)
+sudo passwd mary  
+
+
+
+
+########## FIND THE GROUPS A USER IS A MEMBER OF
 groups dave
-groups mary
-```
-
-## Switching to different user:
-
-```bash
-src: https://wiki.archlinux.org/title/PostgreSQL
-
-# If you have sudo and are in sudoers:
-$ sudo -iu someUser
-echo $USER                        #Prints currently logged in user.
 
 
-# Otherwise using su:
-$ su    #Enter the root's password, then you'll be logged in as root user(i.e., #)
-# su -l someUser
-echo $USER                        #Prints currently logged in user.
 
-# Login as root user
+
+########## SWITCHING USER
+# source: https://wiki.archlinux.org/title/PostgreSQL
+
+sudo -iu root whoami
+# Output: root
+# -i means run a login shell, what is login shell? Ans. https://unix.stackexchange.com/questions/38175/difference-between-login-shell-and-non-login-shell
+# -u
+
+# Get currently logged in user
+echo $USER
+
+# Login as root user (root password needed for this and $ will be changed to #)
+su
+# or
+su root
+
+# Login as root user with current user password (only works if current user is in sudoers group)
 sudo su
-```
 
 
+########## PERMISSION MANAGEMENT
 
-## Permission
+ls -l
+# Output: (Each file/folder has this type of code in front of them)
+# xxxxxxxxxx
+# 1234567890
+# 1: file/directory significance.
+# 234: read write execution permission for the user owner of the file.
+# 567: read write execution permission for the user owner's group of the file.
+# 890: read write execution permission for all other users.
 
-ls -l --->>> gives
 
-```txt
-1234567890
-1: file/directory significance.
-234: read write execution permission for the user owner of the file.
-567: read write execution permission for the user owner's group of the file.
-890: read write execution permission for all other users.
-```
-
-```bash
 # user of the file:
 $ chmod +rwx filename
 
@@ -58,32 +71,23 @@ chmod g-wx filename
 # others
 chmod o+w filename
 chmod o-rwx foldername
-```
 
-### Permission numbers
+# Using permission numbers
+# 0 = ---
+# 1 = --x
+# 2 = -w-
+# 3 = -wx
+# 4 = r-
+# 5 = r-x
+# 6 = rw-
+# 7 = rwx
 
-```txt
-0 = ---
-1 = --x
-2 = -w-
-3 = -wx
-4 = r-
-5 = r-x
-6 = rw-
-7 = rwx
-```
-
-For example:
-
-```
 chmod 777 foldername will give read, write, and execute permissions for everyone.
 chmod 700 foldername will give read, write, and execute permissions for the user only.
 chmod 327 foldername will give write and execute (3) permission for the user, w (2) for the group, and read, write, and execute for the users.
-```
 
-#### Print processes of particular user
 
-```bash
+########## PRINT PROCESSES OF A USER
 ps -u array
 ps -u root
 ```
