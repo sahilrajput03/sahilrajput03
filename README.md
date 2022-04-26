@@ -104,6 +104,8 @@ Source: [https://gist.github.com/uupaa/f77d2bcf4dc7a294d109](https://gist.github
 
 ```txt
 ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 ```
 
 ## kvm wins over virtual box in software market and coz of its performance and robustness
