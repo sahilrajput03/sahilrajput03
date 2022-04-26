@@ -7,6 +7,14 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+**Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
+
+## user ?
+
+#user permission, #user create, #create user, #login as user, #login for different user, #different user login
+
+Source: [Click here](learn-user-management-and-permissions.md)
+
 ## Never use quote/s around possble exapansions coz it prevents that!
 
 ```bash

@@ -22,3 +22,25 @@ You can serve a nested folder project in heroku using a custom `build-pack` as w
 Heroku has database as a service as well. [Check here](https://www.heroku.com/postgres).
 
 See my command list @ [Gist](https://gist.github.com/sahilrajput03/c44778f281e5f9856827e7c0f264ffa5).
+
+# Dns Settings
+
+I have ports 80, 8080, 3000-to-3010 mapped to my linux machine currently. Also for pi I have mapped port 22.
+
+http://master61.ddns.net points to my `public ip` using https://www.noip.com/ service.
+
+For domains:
+
+http://servicelife.ml, http://fixedlife.ml, http://lostlife.ml I DNS settings as:
+
+| Name | Type | TTL | Target |
+| ---- | ---- | --- | ------ |
+| www | CNAME | 3600 | master61.ddns.net |
+
+And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on.., on via my router to some local machine then I would be able to access all these ports via each of these sites i.e., @ http://servicelife.ml:3001, http://fixedlife.ml:3001, http://lostlife.ml:3001. For port 80 we don't need to specify the port at all. [Source](https://webmasters.stackexchange.com/a/27013).
+
+
+## Oher DNS records related information
+
+- You cannot set cname for rool level domain, i.e., youcan only set for some subdomain only i.e., www. src: https://superuser.com/a/264914/776589
+- what is dns cname - i.e., https://www.cloudflare.com/en-in/learning/dns/dns-records/dns-cname-record/
