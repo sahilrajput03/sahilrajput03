@@ -100,7 +100,9 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 
 ## Learn programming through test driven process
 
-Go (17.4k stars): https://quii.gitbook.io/learn-go-with-tests/
+Go (17.4k stars): [https://quii.gitbook.io/learn-go-with-tests/](https://quii.gitbook.io/learn-go-with-tests/)
+
+Go by example: [https://quii.gitbook.io/learn-go-with-tests/](https://quii.gitbook.io/learn-go-with-tests/)
 
 - https://github.com/gamontal/awesome-katas
 
