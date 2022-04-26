@@ -7,6 +7,8 @@
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
+**Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
+
 ## user ?
 
 #user permission, #user create, #create user, #login as user, #login for different user, #different user login
