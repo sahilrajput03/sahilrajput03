@@ -37,4 +37,4 @@ http://servicelife.ml, http://fixedlife.ml, http://lostlife.ml I DNS settings as
 | ---- | ---- | --- | ------ |
 | www | CNAME | 3600 | master61.ddns.net |
 
-And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on.., on via my router to some local machine then I would be able to access all these ports via each of these sites i.e., @ http://servicelife.ml:3001, http://fixedlife.ml:3001, http://lostlife.ml:3001. For port 80 we don't need to specify the port at all.
+And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on.., on via my router to some local machine then I would be able to access all these ports via each of these sites i.e., @ http://servicelife.ml:3001, http://fixedlife.ml:3001, http://lostlife.ml:3001. For port 80 we don't need to specify the port at all. [Source](https://webmasters.stackexchange.com/a/27013).
