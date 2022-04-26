@@ -104,6 +104,8 @@ Go (17.4k stars): [https://quii.gitbook.io/learn-go-with-tests/](https://quii.gi
 
 Go by example: [https://quii.gitbook.io/learn-go-with-tests/](https://quii.gitbook.io/learn-go-with-tests/)
 
+Official Go tour[https://go.dev/tour/welcome/1](https://go.dev/tour/welcome/1)
+
 - https://github.com/gamontal/awesome-katas
 
 - https://github.com/ahmdrefat/awesome-koans/blob/master/koans-en.md
