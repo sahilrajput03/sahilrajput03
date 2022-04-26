@@ -96,6 +96,16 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Port forward** - [Click here](learn-portforward.md)
 - **Learn User Mangement and Permissions** - [Click here](learn-user-management-and-permissions.md)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
+
+
+## Setting size of image in github markdown
+
+Source: [https://gist.github.com/uupaa/f77d2bcf4dc7a294d109](https://gist.github.com/uupaa/f77d2bcf4dc7a294d109)
+
+```txt
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
+```
+
 ## kvm wins over virtual box in software market and coz of its performance and robustness
 
 Source: [Q/A](https://www.peerspot.com/questions/what-is-the-biggest-difference-between-kvm-and-oracle-vm-virtualbox#:~:text=Virtualbox%20is%20simple%20software%20which,with%20shared%20storage%20or%20ceph.)
