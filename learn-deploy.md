@@ -25,7 +25,7 @@ See my command list @ [Gist](https://gist.github.com/sahilrajput03/c44778f281e5f
 
 # Dns Settings
 
-I have ports 80, 8080, 3000-to-3010 mapped to my linux machine currently.
+I have ports 80, 8080, 3000-to-3010 mapped to my linux machine currently. Also for pi I have mapped port 22.
 
 http://master61.ddns.net points to my `public ip` using https://www.noip.com/ service.
 
