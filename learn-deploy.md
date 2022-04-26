@@ -54,6 +54,8 @@ And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on..,
 
 ## Getting ssl certificate setup with express
 
+For working example of below generated certificated, [you can check here](https://github.com/sahilrajput03/https-using-certbot).
+
 ```bash
 src: https://archlinux.org/packages/community/any/certbot/
 pacman -S certbot
