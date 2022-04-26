@@ -66,6 +66,10 @@ sudo certbot certonly --standalone
 
 ##### Generating combined files for multipe domains: When asked for multiple domains you can enter below line(without hash obviously):
 # www.servicelife.ml www.fixedlife.ml www.lostlife.ml
+# Now all below should have valid certificates coz above generated files will have certificates for all these domains:
+# https://www.servicelife.ml/
+# https://www.lostlife.ml/
+# https://www.fixedlife.ml/
 ```
 
 ![image](https://user-images.githubusercontent.com/31458531/165331369-51cf0fee-7195-4fda-8998-6b314325885f.png)
