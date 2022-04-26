@@ -89,3 +89,17 @@ Another fee ssl provider for lifetime is [sslforfree.com](https://www.sslforfree
 **Q. Why doesn't my domain doesn’t work without ‘www.’?**
 
 *Short answer:* You can't use `CNAME` record but `A` record to resolve the issue. [Reference from FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
+
+## What is DDNS ?
+
+DDNS: Dynamic DNS for updating public ip via router's firmware feature or using some software on system that updates the ip for the domain. Read from [Google's support article](https://support.google.com/domains/answer/6147083?hl=en).
+
+I can setup my noip's domain account to be in sync with my current public ip via DDNS (Dynamic DNS) settion via router settings and its available via my router. Yo!
+
+Amazing video (below screenshot vvv ) by no-ip's: https://youtu.be/EH8wJt81bqg
+
+![image](https://user-images.githubusercontent.com/31458531/165350198-cc90362c-b29f-4263-ac13-72b4fb5df0fb.png)
+
+Amazing(haven't tried it yet coz old way of using linux client simply works for me so far!!)
+
+*From my current router firmware vvv * ![image](https://user-images.githubusercontent.com/31458531/165350301-4819b341-4e3a-4653-9429-cf559d50ab1f.png)
