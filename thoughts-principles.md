@@ -91,3 +91,5 @@ Release DMT via 10 minutes breathing exercise. Visit(time-stamped) https://youtu
 'Think globally, act locally' ~ Run your GitHub Actions locally! ~ https://github.com/nektos/act (23 k Stars)
 
 Plug [this](https://www.youtube.com/watch?v=UYjQReEYFL4) and keep working.
+
+Taking 10 minutes break between 2-3 hours of work time is actually about the retention building of what you did and what you are focussing on. It also strethens up your concentration and more importatntly fixes your dropped energy levels which helps you in working of more hours each day with more focus.

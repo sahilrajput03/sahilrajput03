@@ -31,13 +31,13 @@ http://master61.ddns.net points to my `public ip` using https://www.noip.com/ se
 
 For domains:
 
-http://servicelife.ml, http://fixedlife.ml, http://lostlife.ml I DNS settings as:
+http://wwww.servicelife.ml, http://wwww.fixedlife.ml, http://wwww.lostlife.ml I DNS settings as:
 
 | Name | Type | TTL | Target |
 | ---- | ---- | --- | ------ |
 | www | CNAME | 3600 | master61.ddns.net |
 
-And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on.., on via my router to some local machine then I would be able to access all these ports via each of these sites i.e., @ http://servicelife.ml:3001, http://fixedlife.ml:3001, http://lostlife.ml:3001. For port 80 we don't need to specify the port at all. [Source](https://webmasters.stackexchange.com/a/27013).
+And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on.., on via my router to some local machine then I would be able to access all these ports via each of these sites i.e., @ http://wwww.servicelife.ml:3001, http://wwww.fixedlife.ml:3001, http://wwww.lostlife.ml:3001. For port 80 we don't need to specify the port at all. [Source](https://webmasters.stackexchange.com/a/27013).
 
 **NOTE:** You won't be able to acces via root level domain though, coz thats not possbile. For more info read "You cannot set cname for root level domain i.e., ..." from "Oher DNS records related information" section.
 
@@ -57,12 +57,15 @@ And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on..,
 For working example of below generated certificated, [you can check here](https://github.com/sahilrajput03/https-using-certbot).
 
 ```bash
-src: https://archlinux.org/packages/community/any/certbot/
+# src: https://archlinux.org/packages/community/any/certbot/
 pacman -S certbot
 
 # Usage
 sudo certbot certonly --standalone
 # src: Official certbot Docs: https://certbot.eff.org/instructions?ws=other&os=arch
+
+##### Generating combined files for multipe domains: When asked for multiple domains you can enter below line(without hash obviously):
+# www.servicelife.ml www.fixedlife.ml www.lostlife.ml
 ```
 
 ![image](https://user-images.githubusercontent.com/31458531/165331369-51cf0fee-7195-4fda-8998-6b314325885f.png)
