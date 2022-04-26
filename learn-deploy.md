@@ -39,8 +39,11 @@ http://servicelife.ml, http://fixedlife.ml, http://lostlife.ml I DNS settings as
 
 And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on.., on via my router to some local machine then I would be able to access all these ports via each of these sites i.e., @ http://servicelife.ml:3001, http://fixedlife.ml:3001, http://lostlife.ml:3001. For port 80 we don't need to specify the port at all. [Source](https://webmasters.stackexchange.com/a/27013).
 
+**NOTE:** You won't be able to acces via root level domain though, coz thats not possbile. For more info read "You cannot set cname for root level domain i.e., ..." from "Oher DNS records related information" section.
+
+
 
 ## Oher DNS records related information
 
-- You cannot set cname for rool level domain, i.e., youcan only set for some subdomain only i.e., www. src: https://superuser.com/a/264914/776589
+- You cannot set cname for root level domain, i.e., youcan only set for some subdomain only i.e., www. src: https://superuser.com/a/264914/776589
 - what is dns cname - i.e., https://www.cloudflare.com/en-in/learning/dns/dns-records/dns-cname-record/
