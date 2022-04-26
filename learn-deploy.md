@@ -51,3 +51,20 @@ And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on..,
 - **For https, make sure you have opened 443 port via your browser.**
   - For http protocol, port 80 is default port.
   - For https protocol, port 443 is default port.
+
+## Getting ssl certificate setup with express
+
+```bash
+src: https://archlinux.org/packages/community/any/certbot/
+pacman -S certbot
+
+# Usage
+sudo certbot certonly --standalone
+# src: Official certbot Docs: https://certbot.eff.org/instructions?ws=other&os=arch
+```
+
+Above certificate is valid for 90 days and you can renew the certificate manually or you can set it to auto update using their own solution for that. Check above src in the code to find how to setup autonew ssl certificates.
+
+Fyi: Certbot is powered by [LetsEncrypt](https://letsencrypt.org/getting-started/).
+
+Another fee ssl provider for lifetime is [sslforfree.com](https://www.sslforfree.com/)
