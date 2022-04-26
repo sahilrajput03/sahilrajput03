@@ -45,7 +45,7 @@ And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on..,
 
 ## Oher DNS records related information
 
-- You cannot set cname for root level domain, i.e., youcan only set for some subdomain only i.e., www. src: https://superuser.com/a/264914/776589
+- You cannot set cname for root level domain, i.e., youcan only set for some subdomain only i.e., `www`. [Src 1](https://superuser.com/a/264914/776589), [Src 2](https://serverfault.com/a/55545).
 - what is dns cname - i.e., https://www.cloudflare.com/en-in/learning/dns/dns-records/dns-cname-record/
 
 - **For https, make sure you have opened 443 port via your browser.**
