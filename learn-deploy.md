@@ -88,6 +88,4 @@ Another fee ssl provider for lifetime is [sslforfree.com](https://www.sslforfree
 
 **Q. Why doesn't my domain doesn’t work without ‘www.’?**
 
-*Short answer:* You can't use `CNAME` record but `A` record to resolve the issue.
-
-[From FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
+*Short answer:* You can't use `CNAME` record but `A` record to resolve the issue. [Reference from FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
