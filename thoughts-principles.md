@@ -89,3 +89,5 @@ Practise your conversation skills in english with people @ some talking platform
 Release DMT via 10 minutes breathing exercise. Visit(time-stamped) https://youtu.be/lwlEJ2O-6HM?list=LL&t=350
 
 'Think globally, act locally' ~ Run your GitHub Actions locally! ~ https://github.com/nektos/act (23 k Stars)
+
+Plug [this](https://www.youtube.com/watch?v=UYjQReEYFL4) and keep working.
