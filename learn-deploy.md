@@ -63,6 +63,8 @@ sudo certbot certonly --standalone
 # src: Official certbot Docs: https://certbot.eff.org/instructions?ws=other&os=arch
 ```
 
+![image](https://user-images.githubusercontent.com/31458531/165331369-51cf0fee-7195-4fda-8998-6b314325885f.png)
+
 Above certificate is valid for 90 days and you can renew the certificate manually or you can set it to auto update using their own solution for that. Check above src in the code to find how to setup autonew ssl certificates.
 
 Fyi: Certbot is powered by [LetsEncrypt](https://letsencrypt.org/getting-started/).
