@@ -85,3 +85,9 @@ Another fee ssl provider for lifetime is [sslforfree.com](https://www.sslforfree
 **Q. How many ssl certificates can I produce using `certbot`:**
 
 *Short Answer:* No Limit (or atleast enough for [personal use](https://letsencrypt.org/docs/rate-limits/#:~:text=The%20main%20limit%20is%20Certificates,Domain%20(50%20per%20week).))
+
+**Q. Why doesn't my domain doesn’t work without ‘www.’?**
+
+*Short answer:* You can't use `CNAME` record but `A` record to resolve the issue.
+
+[From FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
