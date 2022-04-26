@@ -25,7 +25,7 @@ See my command list @ [Gist](https://gist.github.com/sahilrajput03/c44778f281e5f
 
 # Dns Settings
 
-I have port 80, 300 ??
+I have ports 80, 8080, 3000-to-3010 mapped to my linux machine currently.
 
 http://master61.ddns.net points to my `public ip` using https://www.noip.com/ service.
 
