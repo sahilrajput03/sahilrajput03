@@ -96,7 +96,7 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Port forward** - [Click here](learn-portforward.md)
 - **Learn User Mangement and Permissions** - [Click here](learn-user-management-and-permissions.md)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
-
+- **Favourite youtube channels**: [Click here](favourite-youtube-channels.md)
 
 ## Setting size of image in github markdown
 
