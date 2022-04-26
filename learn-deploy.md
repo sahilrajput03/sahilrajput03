@@ -82,6 +82,6 @@ Fyi: Certbot is powered by [LetsEncrypt](https://letsencrypt.org/getting-started
 
 Another fee ssl provider for lifetime is [sslforfree.com](https://www.sslforfree.com/)
 
-**Q. How many ssl certificates can I produce:**
+**Q. How many ssl certificates can I produce using `certbot`:**
 
 *Short Answer:* No Limit (or atleast enough for [personal use](https://letsencrypt.org/docs/rate-limits/#:~:text=The%20main%20limit%20is%20Certificates,Domain%20(50%20per%20week).))
