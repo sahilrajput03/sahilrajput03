@@ -61,6 +61,8 @@ For working example of below generated certificated, [you can check here](https:
 pacman -S certbot
 
 # Usage
+# NOTE1: Make sure that you have mapped your desired domains to current machine via ddns domain (or <have'n tried this way though> direct A record to your public ip)
+# NOTE2: Make sure no app is running at port 80 till the below certificate generation process is complete.
 sudo certbot certonly --standalone
 # src: Official certbot Docs: https://certbot.eff.org/instructions?ws=other&os=arch
 
