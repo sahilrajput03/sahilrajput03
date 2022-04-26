@@ -1,5 +1,5 @@
 
-**Javascript**
+**Javascript, React, NextJS, NodeJS, MongoDB, Graphql, etc**
   - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
   - [Fireship](https://www.youtube.com/c/Fireship)
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
