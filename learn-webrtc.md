@@ -11,7 +11,7 @@
 - Web Dev Simplified - How To Build A Google Docs Clone With React, Socket.io, and MongoDB, April 20, 2021, [Click here](https://youtu.be/iRaelG7v0OU)
 - Web Dev Simplified - Learn Socket.io In 30 Minutes, May 29, 2021, https://youtu.be/ZKEqqIO7n-k
 - Traversy Media     - Build a Chat App With MongoDB & Socket.io, Jul 27, 2017 [Part1](https://youtu.be/8Y6mWhcdSUM) [Part2](https://www.youtube.com/watch?v=hrRue5Rt6Is)
-- Traversy Media     - Realtime Chat App | React, GraphQL & Websockets, Aug 17, 2020, [Click here](https://youtu.be/E3NHd-PkLrQ)
+- Traversy Media     - Realtime Chat App - React, GraphQL & Websockets, Aug 17, 2020, [Click here](https://youtu.be/E3NHd-PkLrQ)
 - Traversy Media     - Realtime Chat With Users & Rooms - Socket.io, Node & Express, Mar 24, 2020, [Click here](https://youtu.be/jD7FnbI76Hg)
 
 ## Docs
