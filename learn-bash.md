@@ -9,6 +9,96 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Some GNU core utils like `uname`, `hostname`, `basename`, `dirname` and `logname`
+
+Source: [https://www.youtube.com/watch?v=2zT37cVNR1w](https://www.youtube.com/watch?v=2zT37cVNR1w)
+
+GNU Core utils - Comes preinstalled on all GNU/Linux System
+
+`uname`, `hostname`, `basename`, `dirname` and `logname`.
+
+```bash
+##################### uname
+uname
+# Output (kernel name): Linux 
+
+uname -a
+# Output (all infor about kernel): 
+# Linux arch-os 5.16.16-arch1-1 #1 SMP PREEMPT Mon, 21 Mar 2022 22:59:40 +0000 x86_64 GNU/Linux
+# Here:
+# "Linux" is kernel name
+# "arch-os" is hostname
+# "5.16.16-arch1-1" is kernel version number
+# "#1 SMP PREEMPT Mon, 21 Mar 2022 22:59:40" is time/date infor about this kernel release
+# "x86_64" is architecture of cpu
+# "GNU/Linux" is the type of OS we are running
+
+
+uname -r
+# Output (kernel version): 5.16.16-arch1-1
+
+##################### hostnam
+
+hostname
+# Output:  <command not found> in archlinux
+
+cat /etc/hostname
+# Output: arch-os
+
+hostnamectl
+# Output:
+#  Static hostname: arch-os
+#        Icon name: computer-laptop
+#          Chassis: laptop 💻
+#       Machine ID: 2a33fcd86a7c4d46b6a9b387c8ac6c4d
+#          Boot ID: 6753fe42405642cd8619be9a330ebeb8
+# Operating System: Arch Linux
+#           Kernel: Linux 5.16.16-arch1-1
+#     Architecture: x86-64
+#  Hardware Vendor: HP
+#   Hardware Model: HP Notebook
+
+
+
+##################### basename
+
+basename ~/Documents/
+Documents
+
+basename ~/test/a.js
+a.js
+
+basename ~/test/a.js .js
+a
+
+
+
+##################### dirname
+
+
+dirname ~/test/a.js
+/home/array/test
+
+dirname ~/test/
+/home/array
+
+dirname ~/test
+/home/array
+
+
+
+##################### logname
+
+
+logname
+array
+
+echo $USER
+array
+
+# Key difference between logname and $USER is that $USER might change based on user you have logged into or you are using ssh to some pc.
+```
+
 ## user ?
 
 #user permission, #user create, #create user, #login as user, #login for different user, #different user login
