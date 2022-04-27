@@ -99,6 +99,12 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Favourite youtube channels**: [Click here](favourite-youtube-channels.md)
 - **Learn Web RTC:** [Click here](learn-webrtc.md)
 
+## What is NAT in vmware, virtualbox and kvm?
+
+Network Address Translation (NAT) is the simplest way of accessing an external network from a virtual machine. Usually, it does not require any configuration on the host network and guest system. For this reason, it is the default networking mode in Oracle VM VirtualBox.
+
+Source: [Docs - Virtual Box](https://www.virtualbox.org/manual/ch06.html#:~:text=Network%20Address%20Translation%20(NAT)%20is,mode%20in%20Oracle%20VM%20VirtualBox.)
+
 ## Learn programming through test driven process
 
 Go (17.4k stars): [https://quii.gitbook.io/learn-go-with-tests/](https://quii.gitbook.io/learn-go-with-tests/)
