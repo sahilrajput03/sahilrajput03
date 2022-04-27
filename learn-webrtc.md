@@ -33,5 +33,5 @@
 
 ## Others Project videos
 
-- Amazing auth things with react and firebase, 10 Oct, 2020 ~kyle, https://youtu.be/PKwu15ldZ7k
+- React Authentication Crash Course With Firebase And Routing, 10 Oct, 2020 ~kyle, https://youtu.be/PKwu15ldZ7k
 - How To Build A Better Spotify With React, Mar 16, 2021, ~kyle, https://youtu.be/Xcet6msf3eE
