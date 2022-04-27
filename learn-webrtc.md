@@ -17,9 +17,12 @@ Learn Socket.io In 30 Minutes, May 29, 2021 ~kyle, https://youtu.be/ZKEqqIO7n-k
 
 How To Build A Google Docs Clone With React, Socket.io, and MongoDB, APRIL 20, 2021 ~kyle, https://youtu.be/iRaelG7v0OU
 
-Realtime Chat With Users & Rooms - Socket.io, Node & Express, Mar 24, 2020 ~Traversy Media, https://youtu.be/jD7FnbI76Hg
+Build a Chat App With MongoDB & Socket.io, Jul 27, 2017, ~Traversy Media [Part1](https://youtu.be/8Y6mWhcdSUM) [Part2](https://www.youtube.com/watch?v=hrRue5Rt6Is)
 
 Realtime Chat App | React, GraphQL & Websockets, Aug 17, 2020 ~Traversy Media, https://youtu.be/E3NHd-PkLrQ
+
+Realtime Chat With Users & Rooms - Socket.io, Node & Express, Mar 24, 2020 ~Traversy Media, https://youtu.be/jD7FnbI76Hg
+
 
 **Docs**
 
