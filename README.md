@@ -99,6 +99,14 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Favourite youtube channels**: [Click here](favourite-youtube-channels.md)
 - **Learn Web RTC:** [Click here](learn-webrtc.md)
 
+## Re-add a revert commit?
+
+[https://stackoverflow.com/a/29975312/10012446](https://stackoverflow.com/a/29975312/10012446)
+
+tldr;
+
+You can simply revert the revert commit to undo the revert via `git revert <revertCommitShaHere>`. ~Sahil
+
 ## What is NAT in vmware, virtualbox and kvm?
 
 Network Address Translation (NAT) is the simplest way of accessing an external network from a virtual machine. Usually, it does not require any configuration on the host network and guest system. For this reason, it is the default networking mode in Oracle VM VirtualBox.
