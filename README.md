@@ -106,6 +106,8 @@ Go by example: [https://quii.gitbook.io/learn-go-with-tests/](https://quii.gitbo
 
 Official Go tour[https://go.dev/tour/welcome/1](https://go.dev/tour/welcome/1)
 
+Official Go Playground: [go.dev/play](https://go.dev/play/)
+
 - https://github.com/gamontal/awesome-katas
 
 - https://github.com/ahmdrefat/awesome-koans/blob/master/koans-en.md
