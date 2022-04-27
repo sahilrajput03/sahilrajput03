@@ -24,4 +24,4 @@
 ## Others Project videos
 
 - Web Dev Simplified - React Authentication Crash Course With Firebase And Routing, 10 Oct, 2020, [Click here](https://youtu.be/PKwu15ldZ7k)
-- Web Dev Simplified - How To Build A Better Spotify With React, Mar 16, 2021,, [Click here](https://youtu.be/Xcet6msf3eE)
+- Web Dev Simplified - How To Build A Better Spotify With React, Mar 16, 2021, [Click here](https://youtu.be/Xcet6msf3eE)
