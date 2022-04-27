@@ -25,3 +25,4 @@
 
 - Web Dev Simplified - React Authentication Crash Course With Firebase And Routing, 10 Oct, 2020, [Click here](https://youtu.be/PKwu15ldZ7k)
 - Web Dev Simplified - How To Build A Better Spotify With React, Mar 16, 2021, [Click here](https://youtu.be/Xcet6msf3eE)
+- Clever Programmer - Playlist - Build App Clones with ReactJS [Click here](https://www.youtube.com/playlist?list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP)
