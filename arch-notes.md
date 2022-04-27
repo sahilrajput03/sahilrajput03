@@ -837,6 +837,10 @@ sudo pacman -S neovim
 sudo pacman -S tmux
 # Get tmux config file from: https://github.com/sahilrajput03/arch_os/blob/main/.tmux.conf
 
+## Another tmux cheatsheet: https://gist.github.com/andreyvit/2921703
+
+## You can switch between sessions in tmux via: ctr+( or ctrl+) and also you can do something like `ctrl+t s` to switch using a preview as well. Yikes! Src: https://stackoverflow.com/questions/32790061/switch-between-sessions-in-tmux
+
 ## Enable synchronize-panes by pressing `ctrl+t` followed by `shift+:` and next type `set synchronize-panes` on at the prompt. Now all the panes in the current window will be synced such that any thing you type will be done to all the panes. To disable synchronization: set synchronize-panes off.
 #src: https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/01-prerequisites.md
 
