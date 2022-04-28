@@ -99,6 +99,11 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Favourite youtube channels**: [Click here](favourite-youtube-channels.md)
 - **Learn Web RTC:** [Click here](learn-webrtc.md)
 
+
+## Using themes with github pages (via jekyll)
+
+- https://github.blog/2017-11-29-use-any-theme-with-github-pages/
+
 ## Re-add a revert commit?
 
 [https://stackoverflow.com/a/29975312/10012446](https://stackoverflow.com/a/29975312/10012446)

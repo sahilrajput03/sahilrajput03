@@ -103,3 +103,10 @@ Amazing video (below screenshot vvv ) by no-ip's: https://youtu.be/EH8wJt81bqg
 Amazing(haven't tried it yet coz old way of using linux client simply works for me so far!!)
 
 *From my current router firmware vvv * ![image](https://user-images.githubusercontent.com/31458531/165350301-4819b341-4e3a-4653-9429-cf559d50ab1f.png)
+
+## Free dns service?
+
+- Personall Used (credens in keypass): https://www.cloudns.net/
+
+- https://cdnify.com/blog/10-best-free-dns-hosting-providers/
+
