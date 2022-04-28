@@ -115,6 +115,6 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 
 **ALSO, for the record of `*.pintak22.ml` you may use an `A` record instead if you want to map an ip to the domain.**
 
-  ![image](https://user-images.githubusercontent.com/31458531/165822823-5b39e938-7434-4540-921b-fb01da08e3e7.png)
+  ![image](https://user-images.githubusercontent.com/31458531/165831572-f1186207-2d3c-4478-85c7-531b4945a753.png)
 
 **This is great site for checking current dns setting of a domain:** https://www.dns.computer/check/pintak22.ml .
