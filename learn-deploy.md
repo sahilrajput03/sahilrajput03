@@ -111,3 +111,9 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 
 - https://cdnify.com/blog/10-best-free-dns-hosting-providers/
 
+- An ideal dns records for any site (coz this will work for all the dynamic subdomain handling as well) :
+
+**ALSO, for the record of `*.pintak22.ml` you may use an `A` record instead if you want to map an ip to the domain.**
+
+  ![image](https://user-images.githubusercontent.com/31458531/165822823-5b39e938-7434-4540-921b-fb01da08e3e7.png)
+
