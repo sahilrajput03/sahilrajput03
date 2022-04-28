@@ -120,3 +120,5 @@ BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
   ![image](https://user-images.githubusercontent.com/31458531/165831572-f1186207-2d3c-4478-85c7-531b4945a753.png)
 
 **This is great site for checking current dns setting of a domain:** https://www.dns.computer/check/pintak22.ml .
+
+**Dynamic dns for cloudns**: To be checked @ https://www.cloudns.net/wiki/article/36/
