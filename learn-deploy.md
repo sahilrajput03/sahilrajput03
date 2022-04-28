@@ -107,6 +107,7 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 ## Free dns service?
 
 - Personall Used (credens in keypass): https://www.cloudns.net/
+- Important: Cloudns **one account allows for one domain management only** but its real good dns service!
 
 - https://cdnify.com/blog/10-best-free-dns-hosting-providers/
 
