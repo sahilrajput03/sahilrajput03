@@ -9,6 +9,17 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Want a random temp file in `/tmp/` directory?
+
+```bash
+mktemp
+# Output: /tmp/tmp.VVmWziFwYh
+
+# Usage in scripts:
+cache=$(mktemp)
+# You may use this newly created file now.
+```
+
 ## Some GNU core utils like `uname`, `hostname`, `basename`, `dirname` and `logname`
 
 Source: [https://www.youtube.com/watch?v=2zT37cVNR1w](https://www.youtube.com/watch?v=2zT37cVNR1w)
