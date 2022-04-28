@@ -121,4 +121,4 @@ BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
 **This is great site for checking current dns setting of a domain:** https://www.dns.computer/check/pintak22.ml .
 
-**Dynamic dns for cloudns**: To be checked @ https://www.cloudns.net/wiki/article/36/
+**Dynamic dns for cloudns**: To be done so that i may update my `A record` to point to my public ip directly using their ddns service (INSTEAD of current setup i.e, using cloudns's domain as cname for each of the domain I have) leveragin @ https://www.cloudns.net/wiki/article/36/
