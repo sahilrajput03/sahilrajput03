@@ -117,3 +117,4 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 
   ![image](https://user-images.githubusercontent.com/31458531/165822823-5b39e938-7434-4540-921b-fb01da08e3e7.png)
 
+**This is great site for checking current dns setting of a domain:** https://www.dns.computer/check/pintak22.ml .
