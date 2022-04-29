@@ -1,9 +1,5 @@
 # Deployment
 
-## temp
-
-Using cloudns and attaching domain with nameservers(time-stamped): https://youtu.be/yMMCxdQHQDo?t=189
-
 ## Github Pages
 
 Add below `A records` for your custom domain dns setting in your domain provider panel.
@@ -124,12 +120,14 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 
 **Source (Please check if the nameservers have changed? It took me complete day to find out that it has been changed recently):** https://www.cloudns.net/wiki/article/355/
 
+Amazing guy helped: Using cloudns and attaching domain with nameservers(time-stamped): [@youtube-hatsoff](https://youtu.be/yMMCxdQHQDo?t=189)
+
 ```
-# Add below ns (nameserver) records to your freenom to point your domain to cloudns:
-pns31.cloudns.net
-pns32.cloudns.net
-pns33.cloudns.net
-pns34.cloudns.net
+# Add below ns (nameserver) records to your freenom nameservers and you must add these nameservers(they are there by default though, **dns records/zones won't work without this**) to point your domain to cloudns:
+ns41.cloudns.net
+ns42.cloudns.net
+ns43.cloudns.net
+ns44.cloudns.net
 ```
 
 - https://cdnify.com/blog/10-best-free-dns-hosting-providers/
@@ -146,7 +144,10 @@ BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
   
   ![image](https://user-images.githubusercontent.com/31458531/165837197-f4981e72-848f-480d-9230-fee0da2a0f18.png)
   
-  For redirecting freenom's domain to ddns directly you can use `CNAME` like below **(disadvantage is we can't redirect top level domain and we can't use wildcard subdomains for redirection as well as we used with `cloudns`)**:
+## For direct freenom domain to CNAME (master61.ddns.net)
+ 
+You can use `CNAME` like below **(disadvantage is we can't redirect top level domain and we can't use wildcard subdomains for redirection as well as we used with `cloudns`).
+  
   ![image](https://user-images.githubusercontent.com/31458531/165908790-4f8b28f7-ae5e-4dea-935e-7e270e34e168.png)
 
 
