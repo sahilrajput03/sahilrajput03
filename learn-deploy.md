@@ -29,6 +29,8 @@ I have ports 80, 8080, 3000-to-3010 mapped to my linux machine currently. Also f
 
 http://master61.ddns.net points to my `public ip` using https://www.noip.com/ service.
 
+DDNS is only available for `A records` not `CNAME records`.
+
 For domains:
 
 http://wwww.servicelife.ml, http://wwww.fixedlife.ml, http://wwww.lostlife.ml I DNS settings as:
