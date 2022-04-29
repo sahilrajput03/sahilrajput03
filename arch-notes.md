@@ -834,6 +834,7 @@ sudo pacman -S neovim
 #### Installing on debian based (works well on ubuntu)
 # 1. Download a release build from below i.e., a `.deb` file
 # https://github.com/neovim/neovim/releases
+wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
 
 # 2. Install it and done!
 sudo apt install ./my-package.deb
