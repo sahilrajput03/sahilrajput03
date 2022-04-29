@@ -111,3 +111,20 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 
 - https://cdnify.com/blog/10-best-free-dns-hosting-providers/
 
+- An ideal dns records for any site (coz this will work for all the dynamic subdomain handling as well) :
+
+**ALSO, for the record of `*.pintak22.ml` you may use an `A` record instead if you want to map an ip to the domain.**
+
+BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
+
+  ![image](https://user-images.githubusercontent.com/31458531/165831572-f1186207-2d3c-4478-85c7-531b4945a753.png)
+  
+  ![image](https://user-images.githubusercontent.com/31458531/165837104-4a13acbe-f493-4cf0-b7c3-2f7577f7daf2.png)
+  
+  ![image](https://user-images.githubusercontent.com/31458531/165837197-f4981e72-848f-480d-9230-fee0da2a0f18.png)
+
+
+
+**This is great site for checking current dns setting of a domain:** https://www.dns.computer/check/pintak22.ml .
+
+**Dynamic dns for cloudns**: To be done so that i may update my `A record` to point to my public ip directly using their ddns service (INSTEAD of current setup i.e, using cloudns's domain as cname for each of the domain I have) leveragin @ https://www.cloudns.net/wiki/article/36/
