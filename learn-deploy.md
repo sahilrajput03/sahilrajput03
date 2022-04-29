@@ -100,7 +100,7 @@ I can setup my noip's domain account to be in sync with my current public ip via
 
 **FYI: I tracked the http requests via browser to change the `A record` and pruned them (works 100%) and [saved them in a repository - Freenom DDNS](https://github.com/sahilrajput03/freenom-ddns).**
 
-Amazing video (below screenshot vvv ) by no-ip's: https://youtu.be/EH8wJt81bqg
+Amazing video, below screenshot is from by no-ip's: https://youtu.be/EH8wJt81bqg
 
 ![image](https://user-images.githubusercontent.com/31458531/165350198-cc90362c-b29f-4263-ac13-72b4fb5df0fb.png)
 
@@ -134,7 +134,9 @@ BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
   ![image](https://user-images.githubusercontent.com/31458531/165837104-4a13acbe-f493-4cf0-b7c3-2f7577f7daf2.png)
   
   ![image](https://user-images.githubusercontent.com/31458531/165837197-f4981e72-848f-480d-9230-fee0da2a0f18.png)
-
+  
+  For redirecting freenom's domain to ddns directly you can use `CNAME` like below **(disadvantage is we can't redirect top level domain and we can't use wildcard subdomains for redirection as well as we used with `cloudns`)**:
+  ![image](https://user-images.githubusercontent.com/31458531/165908790-4f8b28f7-ae5e-4dea-935e-7e270e34e168.png)
 
 
 **This is great site for checking current dns setting of a domain:** https://www.dns.computer/check/pintak22.ml .
