@@ -144,11 +144,20 @@ ns104.cloudns.net
 
 BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
-  ![image](https://user-images.githubusercontent.com/31458531/165831572-f1186207-2d3c-4478-85c7-531b4945a753.png)
+  ![image](https://user-images.githubusercontent.com/31458531/165983580-80185d4a-a2d7-46de-9116-9b5eaa0fe754.png)
+
+  **In above screenshot, 4 nameserver should only be created like shown below. They are only required for root domain only.**
+
+  ![image](https://user-images.githubusercontent.com/31458531/165983634-73126e55-f973-4226-a1ba-08a5011751b7.png)
+
+  **A redirect for root level domain so it always goes to www path along with path supplied -**
   
-  ![image](https://user-images.githubusercontent.com/31458531/165837104-4a13acbe-f493-4cf0-b7c3-2f7577f7daf2.png)
-  
-  ![image](https://user-images.githubusercontent.com/31458531/165837197-f4981e72-848f-480d-9230-fee0da2a0f18.png)
+  ![image](https://user-images.githubusercontent.com/31458531/165983951-12ea3503-8a2d-418e-ab73-9095b7d8857a.png)
+
+**A wildcard cname record to handle all the subdomains by ourself in the server -**
+
+![image](https://user-images.githubusercontent.com/31458531/165984065-edd3712e-e42b-4f8c-9c9d-89ea07e29acc.png)
+
   
 ## For direct freenom domain to CNAME (master61.ddns.net)
  
