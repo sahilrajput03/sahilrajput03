@@ -18,6 +18,8 @@ mktemp
 # Usage in scripts:
 cache=$(mktemp)
 # You may use this newly created file now.
+#### after work done use below command to remove the file
+rm -f ${cookie_file}
 ```
 
 ## Some GNU core utils like `uname`, `hostname`, `basename`, `dirname` and `logname`
