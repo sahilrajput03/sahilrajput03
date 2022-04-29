@@ -140,7 +140,7 @@ ns104.cloudns.net
 
 - An ideal dns records for any site (coz this will work for all the dynamic subdomain handling as well) :
 
-**ALSO, for the wildcard subdomain record of `*.fixedlife.ml` you may use an `A` record instead if you want to map an ip to the domain instead of `master61.ddns.net`.**
+**In the below screenshot dns settings we can use see the wildcard subdomain of `CNAME record` type (i.e. `*.fixedlife.ml`) BUT you may use an `A record` (*also shown how to do that in later screenshots and we'll also setup DDNS url to get the IP address updated automatically using cron*) instead if you want to map an ip to the domain instead of `master61.ddns.net`.**
 
 BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
