@@ -148,6 +148,12 @@ Simply go to this url @ [https://www.cloudns.net/livechat/](https://www.cloudns.
 
 BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
+  **For freenom nameserver-**
+
+  ![image](https://user-images.githubusercontent.com/31458531/165990542-2101937b-8b0e-496d-adbd-6d5328b82b93.png)
+
+  **For dns records @ `cloudns.net`-**
+
   ![image](https://user-images.githubusercontent.com/31458531/165983580-80185d4a-a2d7-46de-9116-9b5eaa0fe754.png)
 
   **In above screenshot, 4 nameserver should only be created like shown below. They are only required for root domain only.**
