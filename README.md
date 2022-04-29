@@ -98,6 +98,7 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](favourite-youtube-channels.md)
 - **Learn Web RTC:** [Click here](learn-webrtc.md)
+- **Learn development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/nodejs-development-in-docker-container)
 
 ## Git submodules
 
