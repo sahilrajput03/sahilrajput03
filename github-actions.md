@@ -49,7 +49,7 @@ above won't work coz you have ./ in the begining of the exercises path and that 
 ## Using environment variables in github actions (all levels i.e., workflow, job, step levels)
 
 Source: [Docs - Environment variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables)
+Image 1: ![image](https://user-images.githubusercontent.com/31458531/165925993-a5a47559-a531-4ab8-87b3-a1a61ac4ccb0.png)
 
-![image](https://user-images.githubusercontent.com/31458531/165925993-a5a47559-a531-4ab8-87b3-a1a61ac4ccb0.png)
+Image 2: ![image](https://user-images.githubusercontent.com/31458531/165926775-3ff09976-e1b4-4dbd-a80f-6881aa963e2b.png)
 
-![image](https://user-images.githubusercontent.com/31458531/165926423-691bf99c-a1e0-4727-97cf-79027a71340f.png)
