@@ -828,7 +828,15 @@ sudo pacman -S apache
 
 ```
 sudo pacman -S neovim
-# neovim uses your .vimrc file
+# neovim uses your .vimrc file as well (idk, update 28 april 2022)
+
+
+#### Installing on debian based (works well on ubuntu)
+# 1. Download a release build from below i.e., a `.deb` file
+# https://github.com/neovim/neovim/releases
+
+# 2. Install it and done!
+sudo apt install ./my-package.deb
 ```
 
 ## Installed tmux:
