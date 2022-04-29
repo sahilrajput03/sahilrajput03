@@ -1,5 +1,9 @@
 # Deployment
 
+## temp
+
+Using cloudns and attaching domain with nameservers(time-stamped): https://youtu.be/yMMCxdQHQDo?t=189
+
 ## Github Pages
 
 Add below `A records` for your custom domain dns setting in your domain provider panel.
