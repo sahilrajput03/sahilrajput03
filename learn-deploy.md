@@ -112,10 +112,11 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 
 *From my current router firmware vvv * ![image](https://user-images.githubusercontent.com/31458531/165350301-4819b341-4e3a-4653-9429-cf559d50ab1f.png)
 
-## Free dns service?
+## Setup free dns service with [http://www.cloudns.net](http://www.cloudns.net)
 
-- Personall Used (credens in keypass): https://www.cloudns.net/
+- Credentials in keypass
 - Important: Cloudns **one account allows for one domain management only** but its real good dns service!
+- ***Accounts:domains list: sr03:pintak22.ml, sr03+1:wastelife.ml and sr03+2:servicelife.ml***
 
 **Source (Please check if the nameservers have changed? It took me complete day to find out that it has been changed recently):** https://www.cloudns.net/wiki/article/355/
 
