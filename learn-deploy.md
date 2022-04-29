@@ -164,9 +164,9 @@ BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
 ![image](https://user-images.githubusercontent.com/31458531/165985364-8dedf83e-d62f-4643-9ac9-dd2f92f3ac5e.png)
 
-**But how would we ensure that public ip is always in sync with my real public ip ?**
+**Q. But how would we ensure that public ip is always in sync with my real public ip ?**
 
-**Ans. We can do setup ddns service by clicking that button to get the DDNS url which we can call each hour using crontab to update our public ip address to the `A record`-**
+> **Ans. We can do setup ddns service by clicking that button to get the DDNS url which we can call each hour using crontab to update our public ip address to the `A record`-**
 
 ![image](https://user-images.githubusercontent.com/31458531/165985124-765453ad-e761-41b2-aa62-c6230b92f92f.png)
 
