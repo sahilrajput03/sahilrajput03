@@ -96,6 +96,8 @@ DDNS: Dynamic DNS for updating public ip via router's firmware feature or using 
 
 I can setup my noip's domain account to be in sync with my current public ip via DDNS (Dynamic DNS) settion via router settings and its available via my router. Yo!
 
+**FYI: I tracked the http requests via browser to change the `A record` and pruned them (works 100%) and [saved them in a repository - Freenom DDNS](https://github.com/sahilrajput03/freenom-ddns).**
+
 Amazing video (below screenshot vvv ) by no-ip's: https://youtu.be/EH8wJt81bqg
 
 ![image](https://user-images.githubusercontent.com/31458531/165350198-cc90362c-b29f-4263-ac13-72b4fb5df0fb.png)
