@@ -154,11 +154,23 @@ BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
   
   ![image](https://user-images.githubusercontent.com/31458531/165983951-12ea3503-8a2d-418e-ab73-9095b7d8857a.png)
 
-**A wildcard cname record to handle all the subdomains by ourself in the server -**
+**A wildcard `CNAME record` to handle all the subdomains by ourself in the server -**
 
 ![image](https://user-images.githubusercontent.com/31458531/165984065-edd3712e-e42b-4f8c-9c9d-89ea07e29acc.png)
 
-  
+**ALSO: We can use `A record` for wildcard entry to handle all the subdomains by ourself in the server (DIRECT IP ADDRESS, we'll update this using cloudns's ddns url service) -**
+
+***ALERT: Use only one of `A record` or `CNAME record` to handle the wildcard subdomain entry.***
+
+![image](https://user-images.githubusercontent.com/31458531/165985364-8dedf83e-d62f-4643-9ac9-dd2f92f3ac5e.png)
+
+**But how would we ensure that public ip is always in sync with my real public ip ?**
+
+**Ans. We can do setup ddns service by clicking that button to get the DDNS url which we can call each hour using crontab to update our public ip address to the `A record`-**
+
+![image](https://user-images.githubusercontent.com/31458531/165985124-765453ad-e761-41b2-aa62-c6230b92f92f.png)
+
+
 ## For direct freenom domain to CNAME (master61.ddns.net)
  
 You can use `CNAME` like below **(disadvantage is we can't redirect top level domain and we can't use wildcard subdomains for redirection as well as we used with `cloudns`).
