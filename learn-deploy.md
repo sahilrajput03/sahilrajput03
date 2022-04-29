@@ -31,6 +31,8 @@ FYI: Every ddns [domain expires in 30 days](https://www.noip.com/support/knowled
 
 http://master61.ddns.net points to my `public ip` using https://www.noip.com/ service.
 
+***I registered http://master61.ddns.net on 26 April, 2022 most probably or on next day.***
+
 DDNS is only available for `A records` not `CNAME records`.
 
 For domains:
