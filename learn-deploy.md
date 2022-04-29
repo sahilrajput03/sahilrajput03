@@ -129,12 +129,16 @@ ns42.cloudns.net
 ns43.cloudns.net
 ns44.cloudns.net
 
-### (^^ above should work for newer accounts though) FYI: For my older account pintak22.ml, ^^ above new nameservers are not available for that account so I have to use old nameservers that are available for that account and i.e.,
+### (^^ above should work for newer accounts though) FYI: For my older account (sr03@gmail.com on cloudns) having dns for domain `pintak22.ml`, ^^ above new nameservers are not available so I have to use old nameservers only that are available for that account which are shown as below. I came to know about this after talking to "Live Chat" service from cloudns.net agent only (the service and experience is really great for free accounts as well as I observerd).
 ns101.cloudns.net
 ns102.cloudns.net
 ns103.cloudns.net
 ns104.cloudns.net
 ```
+
+**Chat to cloudns service suppport?**
+
+Simply go to this url @ [https://www.cloudns.net/livechat/](https://www.cloudns.net/livechat/). You can go to this page by clicking on "Online - Live Chat" box in the bottom right of the cloudns website easily.
 
 - https://cdnify.com/blog/10-best-free-dns-hosting-providers/
 
