@@ -27,6 +27,8 @@ See my command list @ [Gist](https://gist.github.com/sahilrajput03/c44778f281e5f
 
 I have ports 80, 8080, 3000-to-3010 mapped to my linux machine currently. Also for pi I have mapped port 22.
 
+FYI: Every ddns [domain expires in 30 days](https://www.noip.com/support/knowledgebase/why-is-my-hostname-missing-or-deleted-what-do-i-do/).
+
 http://master61.ddns.net points to my `public ip` using https://www.noip.com/ service.
 
 DDNS is only available for `A records` not `CNAME records`.
