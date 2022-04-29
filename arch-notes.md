@@ -838,6 +838,12 @@ wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
 
 # 2. Install it and done!
 sudo apt install ./my-package.deb
+
+
+
+## Problems with installation on any server?
+# With ubuntu all went well but cursor doesn't change to line shape coz the os doesn't support.
+# With debian all went well + cursor shaping in insert mode works very good so it confirms that ubuntu lacks something that prevents cursor shaping when we go in insert mode. Yikes! DEBIAN rocks!
 ```
 
 ## Installed tmux:
