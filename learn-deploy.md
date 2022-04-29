@@ -140,7 +140,7 @@ ns104.cloudns.net
 
 - An ideal dns records for any site (coz this will work for all the dynamic subdomain handling as well) :
 
-**ALSO, for the record of `*.pintak22.ml` you may use an `A` record instead if you want to map an ip to the domain.**
+**ALSO, for the wildcard subdomain record of `*.fixedlife.ml` you may use an `A` record instead if you want to map an ip to the domain instead of `master61.ddns.net`.**
 
 BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
