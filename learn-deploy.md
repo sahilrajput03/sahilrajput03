@@ -123,11 +123,17 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 Amazing guy helped: Using cloudns and attaching domain with nameservers(time-stamped): [@youtube-hatsoff](https://youtu.be/yMMCxdQHQDo?t=189)
 
 ```
-# Add below ns (nameserver) records to your freenom nameservers and you must add these nameservers(they are there by default though, **dns records/zones won't work without this**) to point your domain to cloudns:
+# Add below ns (nameserver) records to BOTH YOUR FREENOM nameservers and to cloudns's zone nameservers(they are there by default at the time of creation of MASTER DNS zone, you must have consistent nameservers in both the places else the domain records **won't work**):
 ns41.cloudns.net
 ns42.cloudns.net
 ns43.cloudns.net
 ns44.cloudns.net
+
+### (^^ above should work for newer accounts though) FYI: For my older account pintak22.ml, ^^ above new nameservers are not available for that account so I have to use old nameservers that are available for that account and i.e.,
+ns101.cloudns.net
+ns102.cloudns.net
+ns103.cloudns.net
+ns104.cloudns.net
 ```
 
 - https://cdnify.com/blog/10-best-free-dns-hosting-providers/
