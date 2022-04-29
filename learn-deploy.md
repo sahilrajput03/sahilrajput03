@@ -111,6 +111,14 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 - Personall Used (credens in keypass): https://www.cloudns.net/
 - Important: Cloudns **one account allows for one domain management only** but its real good dns service!
 
+```
+# Add below ns (nameserver) records to your freenom to point your domain to cloudns:
+NS101.CLOUDNS.NET
+NS102.CLOUDNS.NET
+NS103.CLOUDNS.NET
+NS104.CLOUDNS.NET
+```
+
 - https://cdnify.com/blog/10-best-free-dns-hosting-providers/
 
 - An ideal dns records for any site (coz this will work for all the dynamic subdomain handling as well) :
