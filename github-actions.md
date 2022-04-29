@@ -46,3 +46,10 @@ above won't work coz you have ./ in the begining of the exercises path and that 
       - 'exercises/ex4-08/ex4-06/ex2-08-statefulsets/ex2-02/**'
 ...
 ```
+## Using environment variables in github actions (all levels i.e., workflow, job, step levels)
+
+Source: [Docs - Environment variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables)
+
+![image](https://user-images.githubusercontent.com/31458531/165925993-a5a47559-a531-4ab8-87b3-a1a61ac4ccb0.png)
+
+![image](https://user-images.githubusercontent.com/31458531/165926423-691bf99c-a1e0-4727-97cf-79027a71340f.png)
