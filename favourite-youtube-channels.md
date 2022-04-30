@@ -1,6 +1,7 @@
 # Favourite Youtube channels
 
 **Javascript, React, NextJS, NodeJS, MongoDB, Graphql, etc**
+  - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids)
   - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
   - [Fireship](https://www.youtube.com/c/Fireship)
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia)

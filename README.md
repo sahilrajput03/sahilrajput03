@@ -68,6 +68,7 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
 - **Learn Figma:** [Click here](learn-figma.md)
+- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn from State of Javascript 2021:** [Click here](learn-state-of-javascript.md)
 - **Learn qutebrowser:** [Click here](qutebrowser.md)
 - **Learn Zerodha Varasity:** [Click here](learn-zerodha-varasity.md)
@@ -98,7 +99,46 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](favourite-youtube-channels.md)
 - **Learn Web RTC:** [Click here](learn-webrtc.md)
+- **Learn nodejs or anyother development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/nodejs-development-in-docker-container)
+- **Learn Login flow:** [Click here](learn-login-flow.md)
 
+## Git submodules
+
+Adding a github submodule
+
+```bash
+git submodule add "github_url" directory_path
+```
+
+### How to **fix** submodule shit..?
+
+Problem: If you accidentally did a `git add .` in any of your github repo where you had some nested repository, then git automatically adds that repository as a submodule to your
+existing (parent repository) and then you don't get a live link in your github repo page.
+
+**How to FIX**
+
+Simply move your nested git repo elsewhere and do a commit to clean it for a while, and then move back the nestedGitRepo back to where it was and add it in proper way, followed by
+git commit. It looks like that:
+
+```bash
+mv someNestedGitRepo ../
+git add . && git commit -m "Remove submodule."
+# Now, move back the nestedGitRepo back to current repo and add it in proper way!
+mv ../someNestedRepo .
+git submodule add "github_url" directory_path
+# Now, you get to commit, and its done!
+git add . && git commit -m Fix submodule.
+```
+
+### Sources for git submodules
+
+- git submodules: https://www.catalyst.net.nz/blog/git-submodule-misunderstood-beast-or-remorseless-slavering-monster
+
+### To clone a git repo with all its nexted submodules 🚴︎ 🚴︎
+
+Just use cli `gcl-with-submodules` from my_bin.
+
+edited by cacher.
 
 ## Using themes with github pages (via jekyll)
 

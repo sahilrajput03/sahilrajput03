@@ -27,7 +27,13 @@ See my command list @ [Gist](https://gist.github.com/sahilrajput03/c44778f281e5f
 
 I have ports 80, 8080, 3000-to-3010 mapped to my linux machine currently. Also for pi I have mapped port 22.
 
+FYI: Every ddns [domain expires in 30 days](https://www.noip.com/support/knowledgebase/why-is-my-hostname-missing-or-deleted-what-do-i-do/).
+
 http://master61.ddns.net points to my `public ip` using https://www.noip.com/ service.
+
+***I registered http://master61.ddns.net on 26 April, 2022 most probably or on next day.***
+
+DDNS is only available for `A records` not `CNAME records`.
 
 For domains:
 
@@ -96,7 +102,9 @@ DDNS: Dynamic DNS for updating public ip via router's firmware feature or using 
 
 I can setup my noip's domain account to be in sync with my current public ip via DDNS (Dynamic DNS) settion via router settings and its available via my router. Yo!
 
-Amazing video (below screenshot vvv ) by no-ip's: https://youtu.be/EH8wJt81bqg
+**FYI: I tracked the http requests via browser to change the `A record` and pruned them (works 100%) and [saved them in a repository - Freenom DDNS](https://github.com/sahilrajput03/freenom-ddns).**
+
+Amazing video, below screenshot is from by no-ip's: https://youtu.be/EH8wJt81bqg
 
 ![image](https://user-images.githubusercontent.com/31458531/165350198-cc90362c-b29f-4263-ac13-72b4fb5df0fb.png)
 
@@ -104,25 +112,80 @@ Amazing(haven't tried it yet coz old way of using linux client simply works for 
 
 *From my current router firmware vvv * ![image](https://user-images.githubusercontent.com/31458531/165350301-4819b341-4e3a-4653-9429-cf559d50ab1f.png)
 
-## Free dns service?
+## Setup free dns service with [http://www.cloudns.net](http://www.cloudns.net)
 
-- Personall Used (credens in keypass): https://www.cloudns.net/
+- Credentials in keypass
 - Important: Cloudns **one account allows for one domain management only** but its real good dns service!
+- ***Accounts:domains list: sr03:pintak22.ml, sr03+1:wastelife.ml and sr03+2:servicelife.ml***
+
+**Source (Please check if the nameservers have changed? It took me complete day to find out that it has been changed recently):** https://www.cloudns.net/wiki/article/355/
+
+Amazing guy helped: Using cloudns and attaching domain with nameservers(time-stamped): [@youtube-hatsoff](https://youtu.be/yMMCxdQHQDo?t=189)
+
+```
+# Add below ns (nameserver) records to BOTH YOUR FREENOM nameservers and to cloudns's zone nameservers(they are there by default at the time of creation of MASTER DNS zone, you must have consistent nameservers in both the places else the domain records **won't work**):
+ns41.cloudns.net
+ns42.cloudns.net
+ns43.cloudns.net
+ns44.cloudns.net
+
+### (^^ above should work for newer accounts though) FYI: For my older account (sr03@gmail.com on cloudns) having dns for domain `pintak22.ml`, ^^ above new nameservers are not available so I have to use old nameservers only that are available for that account which are shown as below. I came to know about this after talking to "Live Chat" service from cloudns.net agent only (the service and experience is really great for free accounts as well as I observerd).
+ns101.cloudns.net
+ns102.cloudns.net
+ns103.cloudns.net
+ns104.cloudns.net
+```
+
+**Chat to cloudns service suppport?**
+
+Simply go to this url @ [https://www.cloudns.net/livechat/](https://www.cloudns.net/livechat/). You can go to this page by clicking on "Online - Live Chat" box in the bottom right of the cloudns website easily.
 
 - https://cdnify.com/blog/10-best-free-dns-hosting-providers/
 
 - An ideal dns records for any site (coz this will work for all the dynamic subdomain handling as well) :
 
-**ALSO, for the record of `*.pintak22.ml` you may use an `A` record instead if you want to map an ip to the domain.**
+**In the below screenshot dns settings we can use see the wildcard subdomain of `CNAME record` type (i.e. `*.fixedlife.ml`) BUT you may use an `A record` (*also shown how to do that in later screenshots and we'll also setup DDNS url to get the IP address updated automatically using cron*) instead if you want to map an ip to the domain instead of `master61.ddns.net`.**
 
 BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
-  ![image](https://user-images.githubusercontent.com/31458531/165831572-f1186207-2d3c-4478-85c7-531b4945a753.png)
-  
-  ![image](https://user-images.githubusercontent.com/31458531/165837104-4a13acbe-f493-4cf0-b7c3-2f7577f7daf2.png)
-  
-  ![image](https://user-images.githubusercontent.com/31458531/165837197-f4981e72-848f-480d-9230-fee0da2a0f18.png)
+  **For freenom nameserver-**
 
+  ![image](https://user-images.githubusercontent.com/31458531/165990542-2101937b-8b0e-496d-adbd-6d5328b82b93.png)
+
+  **For dns records @ `cloudns.net`-**
+
+  ![image](https://user-images.githubusercontent.com/31458531/165983580-80185d4a-a2d7-46de-9116-9b5eaa0fe754.png)
+
+  **In above screenshot, 4 nameserver should only be created like shown below. They are only required for root domain only.**
+
+  ![image](https://user-images.githubusercontent.com/31458531/165983634-73126e55-f973-4226-a1ba-08a5011751b7.png)
+
+  **A redirect for root level domain so it always goes to www path along with path supplied -**
+  
+  ![image](https://user-images.githubusercontent.com/31458531/165983951-12ea3503-8a2d-418e-ab73-9095b7d8857a.png)
+
+**A wildcard `CNAME record` to handle all the subdomains by ourself in the server -**
+
+![image](https://user-images.githubusercontent.com/31458531/165984065-edd3712e-e42b-4f8c-9c9d-89ea07e29acc.png)
+
+**ALSO: We can use `A record` for wildcard entry to handle all the subdomains by ourself in the server (DIRECT IP ADDRESS, we'll update this using cloudns's ddns url service) -**
+
+***ALERT: Use only one of `A record` or `CNAME record` to handle the wildcard subdomain entry.***
+
+![image](https://user-images.githubusercontent.com/31458531/165985364-8dedf83e-d62f-4643-9ac9-dd2f92f3ac5e.png)
+
+**Q. But how would we ensure that public ip is always in sync with my real public ip ?**
+
+> **Ans. We can do setup ddns service by clicking that button to get the DDNS url which we can call each hour using crontab to update our public ip address to the `A record`-**
+
+![image](https://user-images.githubusercontent.com/31458531/165985124-765453ad-e761-41b2-aa62-c6230b92f92f.png)
+
+
+## For direct freenom domain to CNAME (master61.ddns.net)
+ 
+You can use `CNAME` like below **(disadvantage is we can't redirect top level domain and we can't use wildcard subdomains for redirection as well as we used with `cloudns`).
+  
+  ![image](https://user-images.githubusercontent.com/31458531/165908790-4f8b28f7-ae5e-4dea-935e-7e270e34e168.png)
 
 
 **This is great site for checking current dns setting of a domain:** https://www.dns.computer/check/pintak22.ml .
