@@ -22,7 +22,11 @@ graph TD
 
 *FYI: You can view the code of above diagram by clicking on the* **Raw** *button above.*
 
-## Using mermaid
+## Why `mermaidjs` ?
+
+Ans. Making diagrams with code is like don't give a fuck about design but logic flow.
+
+### Using mermaid
 - Flow chart docs: https://mermaid-js.github.io/mermaid/#/flowchart
 - Mermaid is supported in github, yo!
 - Mermaid Docs: [https://mermaid-js.github.io/mermaid/#/](https://mermaid-js.github.io/mermaid/#/)
