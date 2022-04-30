@@ -9,6 +9,46 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Q. Why vim freezes when I press `ctrl+s` in some versions of debian/ubuntu/rapberryos ?
+
+Ans. Because by default `ctrl+s` is a signal to freeze terminal, yes its vim independent. Source: https://blog.marcinchwedczuk.pl/how-to-fix-vim-freezes#:~:text=To%20unfreeze%20program%20you%20must%20press%20Ctrl%2BQ%20.&text=It%20still%20happens%20from%20time,Q%20and%20continue%20my%20work.
+
+```bash
+for i in {1..100}; do echo "$i"; sleep 0.3; done
+# now if you press ctrl+s, the terminal will freeze ASAP, to get it back you need to press ctrl+q.
+
+# SO basically in vim's freeze (which is basically complete terminal freeze) you just need to press ctrl+q to get back.
+```
+
+## softlink vs. hardlink
+
+Source: https://stackoverflow.com/a/185915/10012446
+
+I would point you to Wikipedia:
+
+[Symbolic link](http://en.wikipedia.org/wiki/Symbolic_link)
+[Hard link](http://en.wikipedia.org/wiki/Hard_link)
+
+A few points:
+
+- Symlinks, unlike hard links, can cross filesystems (most of the time).
+- Symlinks can point to directories.
+- Hard links point to a file and enable you to refer to the same file with more than one name.
+- As long as there is at least one link, the data is still available.
+
+```bash
+ln -s myfile newLinkNameHere
+
+ls -l myFile newLinkNameHere
+# Output:
+# .rw-r--r-- 0 array 30 Apr 15:52 myFile
+# lrwxrwxrwx 6 array 30 Apr 15:52 newLinkNameHere -> myFile
+
+# FYI:
+# myFile can be folder as well.
+# newLinkNameHere will be created automatically.
+```
+
 ## Want a random temp file in `/tmp/` directory?
 
 ```bash
@@ -1558,6 +1598,9 @@ sudo -u <user> <command>
 ```
 readlink -f file.txt
 Source: https://stackoverflow.com/a/5265775/10012446
+
+# OR
+realpath file.txt
 ```
 
 ## wget command

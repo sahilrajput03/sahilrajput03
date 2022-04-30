@@ -68,7 +68,6 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
 - **Learn Figma:** [Click here](learn-figma.md)
-- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn from State of Javascript 2021:** [Click here](learn-state-of-javascript.md)
 - **Learn qutebrowser:** [Click here](qutebrowser.md)
 - **Learn Zerodha Varasity:** [Click here](learn-zerodha-varasity.md)
@@ -101,6 +100,15 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Web RTC:** [Click here](learn-webrtc.md)
 - **Learn nodejs or anyother development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/nodejs-development-in-docker-container)
 - **Learn Login flow:** [Click here](learn-login-flow.md)
+- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
+- **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
+
+## React dev tools show react hooks state!
+
+![image](https://user-images.githubusercontent.com/31458531/166104106-d707ae37-e0e0-4c5a-98ed-1ce052f4ad19.png)
+
+Yes its all there, but that changes in react state are reflected with a delay of like 500ms IMO ~Sahil.
+
 
 ## Git submodules
 

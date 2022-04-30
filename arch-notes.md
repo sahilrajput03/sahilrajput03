@@ -854,6 +854,10 @@ sudo pacman -S tmux
 
 ## Another tmux cheatsheet: https://gist.github.com/andreyvit/2921703
 
+## Command to run a command in new pane ? 
+# Ans. tmux split-window "echo hello;sleep 100"       ###so this will run the command in new pane, yikes!!
+# src: https://unix.stackexchange.com/a/152740/504112
+
 ## You can switch between sessions in tmux via: ctr+( or ctrl+) and also you can do something like `ctrl+t s` to switch using a preview as well. Yikes! Src: https://stackoverflow.com/questions/32790061/switch-between-sessions-in-tmux
 
 ## Enable synchronize-panes by pressing `ctrl+t` followed by `shift+:` and next type `set synchronize-panes` on at the prompt. Now all the panes in the current window will be synced such that any thing you type will be done to all the panes. To disable synchronization: set synchronize-panes off.
