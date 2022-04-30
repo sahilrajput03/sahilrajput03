@@ -1,5 +1,16 @@
 # neovim (nvim)
 
+**Q. Why vim freezes when I press `ctrl+s` in some versions of debian/ubuntu/rapberryos?
+
+Ans. Because by default `ctrl+s` is a signal to freeze terminal, yes its vim independent. Source: https://blog.marcinchwedczuk.pl/how-to-fix-vim-freezes#:~:text=To%20unfreeze%20program%20you%20must%20press%20Ctrl%2BQ%20.&text=It%20still%20happens%20from%20time,Q%20and%20continue%20my%20work.
+
+```bash
+for i in {1..100}; do echo "$i"; sleep 0.3; done
+# now if you press ctrl+s, the terminal will freeze ASAP, to get it back you need to press ctrl+q.
+
+# SO basically in vim's freeze (which is basically complete terminal freeze) you just need to press ctrl+q to get back.
+```
+
 **[Why vim ?](https://stackoverflow.com/a/1220118/10012446)**
 
 *Cool though, Vim was made 30 years ago in 1991 ~Wikipedia.*
