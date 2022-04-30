@@ -3,7 +3,7 @@
 ## Using mermaid
 - Mermaid is supported in github, yo!
 - Mermaid Docs: [https://mermaid-js.github.io/mermaid/#/](https://mermaid-js.github.io/mermaid/#/)
-- Live Mermaid: [https://mermaid.live/](https://mermaid.live/)
+- **Live Mermaid:** [https://mermaid.live/](https://mermaid.live/)
 - Mermaid is supported at markdown files in github (not in github pages yet) and gist also supports mermaid as well.
 
 Here is a simple flow chart:
