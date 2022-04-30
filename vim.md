@@ -10,6 +10,12 @@ Config files from [David Pedersen](https://github.com/davidpdrsn/dotfiles).
 
 Config files from [Jon Gjengset](https://github.com/jonhoo/configs).
 
+## You can reuse your old commands in vim
+
+In command mode, press ctrl+p/n or simply use up/down arrow to brose the command history.
+
+In fact, if you want to browse entire commands of history you can simply use `q:` command to entire history in a new buffer. Yo! vim simply rocks!
+
 ## Open a long link which is wrapped or out of buffer in your shell window
 
 Use `gx` in nvim. [Source](https://www.reddit.com/r/neovim/comments/ro6oye/comment/hpwjkod/?utm_source=share&utm_medium=web2x&context=3)
