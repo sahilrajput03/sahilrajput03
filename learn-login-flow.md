@@ -20,6 +20,8 @@ graph TD
     linkStyle 5,6,7 stroke:green,stroke-width:3px,color:green;
 ```
 
+*Flow chart docs: https://mermaid-js.github.io/mermaid/#/flowchart*
+
 ## Using mermaid
 - Mermaid is supported in github, yo!
 - Mermaid Docs: [https://mermaid-js.github.io/mermaid/#/](https://mermaid-js.github.io/mermaid/#/)
