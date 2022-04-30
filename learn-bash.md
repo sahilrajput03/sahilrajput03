@@ -1558,6 +1558,9 @@ sudo -u <user> <command>
 ```
 readlink -f file.txt
 Source: https://stackoverflow.com/a/5265775/10012446
+
+# OR
+realpath file.txt
 ```
 
 ## wget command
