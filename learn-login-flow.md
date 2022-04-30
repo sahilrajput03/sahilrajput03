@@ -14,11 +14,13 @@ graph TD
     style M fill:#ff4f4d
     style E fill:#33ff33
     linkStyle 0,1,2 stroke:yellow,stroke-width:3px,color:yellow;
-
-
     linkStyle 3,4 stroke:red,stroke-width:3px,color:red;
     linkStyle 5,6,7 stroke:green,stroke-width:3px,color:green;
+    
+    %% Comments: In above code, the numbers after lineStyle is actually the line numbers of each line in same above code ( starts from 0). 
 ```
+
+
 
 *Flow chart docs: https://mermaid-js.github.io/mermaid/#/flowchart*
 
