@@ -25,6 +25,19 @@ A few points:
 - Hard links point to a file and enable you to refer to the same file with more than one name.
 - As long as there is at least one link, the data is still available.
 
+```bash
+ln -s myfile newLinkNameHere
+
+ls -l myFile newLinkNameHere
+# Output:
+# .rw-r--r-- 0 array 30 Apr 15:52 myFile
+# lrwxrwxrwx 6 array 30 Apr 15:52 newLinkNameHere -> myFile
+
+# FYI:
+# myFile can be folder as well.
+# newLinkNameHere will be created automatically.
+```
+
 ## Want a random temp file in `/tmp/` directory?
 
 ```bash
