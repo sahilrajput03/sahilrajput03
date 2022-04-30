@@ -9,6 +9,22 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## softlink vs. hardlink
+
+Source: https://stackoverflow.com/a/185915/10012446
+
+I would point you to Wikipedia:
+
+[Symbolic link](http://en.wikipedia.org/wiki/Symbolic_link)
+[Hard link](http://en.wikipedia.org/wiki/Hard_link)
+
+A few points:
+
+- Symlinks, unlike hard links, can cross filesystems (most of the time).
+- Symlinks can point to directories.
+- Hard links point to a file and enable you to refer to the same file with more than one name.
+- As long as there is at least one link, the data is still available.
+
 ## Want a random temp file in `/tmp/` directory?
 
 ```bash
