@@ -101,6 +101,7 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn nodejs or anyother development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/nodejs-development-in-docker-container)
 - **Learn Login flow:** [Click here](learn-login-flow.md)
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
+- **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 
 ## React dev tools show react hooks state!
 
