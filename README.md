@@ -68,7 +68,6 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
 - **Learn Figma:** [Click here](learn-figma.md)
-- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn from State of Javascript 2021:** [Click here](learn-state-of-javascript.md)
 - **Learn qutebrowser:** [Click here](qutebrowser.md)
 - **Learn Zerodha Varasity:** [Click here](learn-zerodha-varasity.md)
@@ -101,6 +100,7 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Web RTC:** [Click here](learn-webrtc.md)
 - **Learn nodejs or anyother development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/nodejs-development-in-docker-container)
 - **Learn Login flow:** [Click here](learn-login-flow.md)
+- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 
 ## Git submodules
 
