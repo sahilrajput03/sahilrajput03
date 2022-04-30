@@ -20,11 +20,10 @@ graph TD
     %% Comments: In above code, the numbers after lineStyle is actually the line numbers of each line in same above code ( starts from 0). 
 ```
 
-
-
-*Flow chart docs: https://mermaid-js.github.io/mermaid/#/flowchart*
+*FYI: You can view the code of above diagram by clicking on the "Raw" button above.*
 
 ## Using mermaid
+- Flow chart docs: https://mermaid-js.github.io/mermaid/#/flowchart
 - Mermaid is supported in github, yo!
 - Mermaid Docs: [https://mermaid-js.github.io/mermaid/#/](https://mermaid-js.github.io/mermaid/#/)
 - **Live Mermaid:** [https://mermaid.live/](https://mermaid.live/)
