@@ -13,12 +13,11 @@ graph TD
     D --> |"jwtSign(username)"| E(Token) --> |LOGIN SUCCESSFUL| A
     style M fill:#ff4f4d
     style E fill:#33ff33
-    linkStyle 0,1,2,3 stroke:yellow,stroke-width:3px,color:yellow;
+    linkStyle 0,1,2 stroke:yellow,stroke-width:3px,color:yellow;
 
 
-    linkStyle 4 stroke:red,stroke-width:3px,color:red;
-    linkStyle 6 stroke:green,stroke-width:3px,color:green;
-    linkStyle 7 stroke:green,stroke-width:3px,color:green;
+    linkStyle 3,4 stroke:red,stroke-width:3px,color:red;
+    linkStyle 5,6,7 stroke:green,stroke-width:3px,color:green;
 ```
 
 ## Using mermaid
