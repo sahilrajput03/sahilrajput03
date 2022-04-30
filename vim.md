@@ -16,6 +16,8 @@ In command mode, press ctrl+p/n or simply use up/down arrow to brose the command
 
 In fact, if you want to browse entire commands of history you can simply use `q:` command to entire history in a new buffer. Yo! vim simply rocks!
 
+ALERT: `q:` is different from `:q:`, also the later doesn't do anything imo ~Sahil.
+
 ## Open a long link which is wrapped or out of buffer in your shell window
 
 Use `gx` in nvim. [Source](https://www.reddit.com/r/neovim/comments/ro6oye/comment/hpwjkod/?utm_source=share&utm_medium=web2x&context=3)
