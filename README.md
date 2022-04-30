@@ -102,6 +102,13 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Login flow:** [Click here](learn-login-flow.md)
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 
+## React dev tools show react hooks state!
+
+![image](https://user-images.githubusercontent.com/31458531/166104106-d707ae37-e0e0-4c5a-98ed-1ce052f4ad19.png)
+
+Yes its all there, but that changes in react state are reflected with a delay of like 500ms IMO ~Sahil.
+
+
 ## Git submodules
 
 Adding a github submodule
