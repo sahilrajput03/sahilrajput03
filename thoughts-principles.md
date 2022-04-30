@@ -95,3 +95,5 @@ Plug [this](https://www.youtube.com/watch?v=UYjQReEYFL4) and keep working.
 Taking 10 minutes break between 2-3 hours of work time is actually about the retention building of what you did and what you are focussing on. It also strethens up your concentration and more importatntly fixes your dropped energy levels which helps you in working of more hours each day with more focus.
 
 Most worthful things in life seems very simple and obvious things you ever achieved and the significant difference how you achieve those worthful things coz thats mostly difficult, harshful and uneasy processes.
+
+Every great artist had one thing in common i.e., relentless hard wordk ~ Raj Sharmani. Relentless means unceasingly intense.
