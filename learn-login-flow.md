@@ -1,5 +1,24 @@
 # Login flow in any app
 
+```mermaid
+graph TD
+    A((CLIENT)) -->|username:password| B((SERVER))
+    B --> |"hashFn(passwd)"| C(passwdHash)
+    C --> |"Server fetches passwdHashFromDb"| Z{Is passwdHash = passwdHashFromDb ?}
+    Z --> |"No"| M(Illegal passwd from user)
+    M --> |LOGIN FAILED| A
+    Z --> |Yes| D(Valid passwd)
+    D --> |"jwtSign(username)"| E(Token) --> |LOGIN SUCCESSFUL| A
+    style M fill:#ff4f4d
+    style E fill:#33ff33
+    linkStyle 0,1,2,3 stroke:yellow,stroke-width:3px,color:yellow;
+
+
+    linkStyle 4 stroke:red,stroke-width:3px,color:red;
+    linkStyle 6 stroke:green,stroke-width:3px,color:green;
+    linkStyle 7 stroke:green,stroke-width:3px,color:green;
+```
+
 ## Using mermaid
 - Mermaid is supported in github, yo!
 - Mermaid Docs: [https://mermaid-js.github.io/mermaid/#/](https://mermaid-js.github.io/mermaid/#/)
