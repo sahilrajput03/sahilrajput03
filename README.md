@@ -106,10 +106,10 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 ## What is `a=b=c` in code?
 
 ```bash
-let a,b
-a=b=10
-console.log(a,b)
-// Output: 10 10
+let a,b,c
+a = b = c = 10
+console.log(a,b,c)
+// Output: 10 10 10
 ```
 
 ## Checkout my login flow diagram with mermaidjs
