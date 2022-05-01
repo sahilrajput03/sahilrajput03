@@ -103,6 +103,10 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 
+## live reload browser in sync with backend as well
+
+https://dev.to/rajeshroyal/how-to-live-reload-node-js-server-along-with-hot-reloading-2im0
+
 ## What is `a=b=c` in code?
 
 ```bash
