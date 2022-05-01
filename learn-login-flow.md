@@ -6,16 +6,18 @@
 graph TD
     A((CLIENT)) -->|username:password| B((SERVER))
     B --> |"hashFn(passwd)"| C(passwdHash)
-    C --> |"Server fetches passwdHashFromDb"| Z{Is passwdHash = passwdHashFromDb ?}
-    Z --> |"No"| M(Illegal passwd from user)
+    B --> |"fetch `passwdHashFromDb`"| F(passwdHashFromDb)
+    C --> G{Is passwdHash = passwdHashFromDb ?}
+    F --> G
+    G --> |"No"| M(Illegal passwd from user)
     M --> |LOGIN FAILED| A
-    Z --> |Yes| D(Valid passwd)
+    G --> |Yes| D(Valid passwd)
     D --> |"jwtSign(username)"| E(Token) --> |LOGIN SUCCESSFUL| A
     style M fill:#ff4f4d
     style E fill:#33ff33
-    linkStyle 0,1,2 stroke:yellow,stroke-width:3px,color:yellow;
-    linkStyle 3,4 stroke:red,stroke-width:3px,color:red;
-    linkStyle 5,6,7 stroke:green,stroke-width:3px,color:green;
+    linkStyle 0,1,2,3,4 stroke:yellow,stroke-width:3px,color:yellow;
+    linkStyle 5,6 stroke:red,stroke-width:3px,color:red;
+    linkStyle 7,8,9 stroke:green,stroke-width:3px,color:green;
     
     %% Comments: In above code, the numbers after lineStyle is actually the line numbers of each line in same above code ( starts from 0). 
 ```
