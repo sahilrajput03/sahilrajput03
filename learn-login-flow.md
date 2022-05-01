@@ -11,13 +11,13 @@ graph TD
     F --> G
     G --> |"No"| M(Illegal passwd from user)
     M --> |LOGIN FAILED| A
-    G --> |Yes| D(Valid passwd)
-    D --> |"jwtSign(username)"| E(Token) --> |LOGIN SUCCESSFUL| A
+    G --> |Yes| D("token = jwtSign username")
+    D --> |LOGIN SUCCESSFUL| A
     style M fill:#ff4f4d
-    style E fill:#33ff33
+    style D fill:#33ff33
     linkStyle 0,1,2,3,4 stroke:yellow,stroke-width:3px,color:yellow;
     linkStyle 5,6 stroke:red,stroke-width:3px,color:red;
-    linkStyle 7,8,9 stroke:green,stroke-width:3px,color:green;
+    linkStyle 7,8 stroke:green,stroke-width:3px,color:green;
     
     %% Comments: In above code, the numbers after lineStyle is actually the line numbers of each line in same above code ( starts from 0). 
 ```
