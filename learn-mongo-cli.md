@@ -17,6 +17,8 @@ FYI: Its good to do indexing if you have large number of records for efficient s
 
 FYI: In below query you could have used `/` to write concise queries (but online playground doesn't allow that syntax yet):
 
+Learn all about [regext here in docs](https://www.mongodb.com/docs/manual/reference/operator/query/regex/).
+
 **LEARN: `i` option helps to do a case-insensitive search**
 
 ```bash
