@@ -118,10 +118,12 @@ console.log(`Hello, ${ studentName }!`)
 
 // src: https://stackoverflow.com/a/66293366/10012446
 
-// LEARN: noejs docs: https://nodejs.org/api/globals.html#globals_global
-// ~Sahil: Also you can now access studentName in any module which is loaded after after we define global.studentName variable.
-// LEARN: I used this global in my own testing library in tihs file: https://github.com/sahilrajput03/learn-express/blob/main/testing-with-my-testing-library/__tests__/_setup_test_globals.js#L30-L36
+// LEARN: nodejs docs: https://nodejs.org/api/globals.html#globals_global
 ```
+
+Also you can now access studentName in any module which is loaded after after we define global.studentName variable.
+
+LEARN: I used this global in my own testing library in tihs file: https://github.com/sahilrajput03/learn-express/blob/main/testing-with-my-testing-library/__tests__/_setup_test_globals.js#L30-L36
 
 Ans. https://stackoverflow.com/a/66293366/10012446
 
