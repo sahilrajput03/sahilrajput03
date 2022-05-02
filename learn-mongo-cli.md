@@ -9,7 +9,26 @@
 
 - Traversy Media: [@gist](https://gist.github.com/bradtraversy/f407d642bdc3b31681bc7e56d95485b6), Video [@youtube](https://www.youtube.com/watch?v=-56x56UppqQ&t=867s).
 - Tutorials Point: [Tutorials point - Mongodb](https://www.tutorialspoint.com/mongodb/index.htm).
-- Online mongodb-cli Playground: [Click here 1](https://mongoplayground.net/), [Click here 2](https://www.humongous.io/app/playground/mongodb)
+- Online mongodb-cli Playground: [Click here - mongoplayground.net](https://mongoplayground.net/), [Click here 2](https://www.humongous.io/app/playground/mongodb)
+
+# Search using regex in db
+
+FYI: Its good to do indexing if you have large number of records for efficient searching.
+
+FYI: In below query you could have used `/` to write concise queries (but online playground doesn't allow that syntax yet):
+
+**LEARN: `i` option helps to do a case-insensitive search**
+
+```bash
+db.collection.find({
+  name: {
+    "$regex": /hil/i
+  }
+})
+```
+
+![image](https://user-images.githubusercontent.com/31458531/166309109-50d9fc0a-83bb-409e-a015-3c4718017cdc.png)
+
 
 # Roll
 
