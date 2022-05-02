@@ -103,7 +103,9 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 
-## What is global in nodejs?
+## What is `global` in nodejs?
+
+**YES, `global` variables are supported in nodejs!! So this facilitates us to define variables, fucntion in one place and use them in different files without using module.exports at all. Yikes!**
 
 ```txt
 global.studentName = 'Kyle'
