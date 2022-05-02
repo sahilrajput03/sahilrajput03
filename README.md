@@ -105,7 +105,8 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 
 ## Why Flameshot?
 
-Bcoz it has this upload to cloud button that uploads to imgur and copies the url to clipboard, yikes!
+- Bcoz it has this upload to cloud button that uploads to imgur and copies the url to clipboard, yikes!
+- Bcoz press `Print-screen` buttonon keyboard and press ctrl+c (or ctrl+s to save instead) to copy full screen screenshot.
 
 ## live reload browser in sync with backend as well
 
