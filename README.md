@@ -103,6 +103,43 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 
+## What is `global` in nodejs?
+
+**YES, `global` variables are supported in nodejs!! So this facilitates us to define variables, fucntion in one place and use them in different files without using module.exports at all. Yikes!**
+
+```txt
+global.studentName = 'Kyle'
+
+console.log(`Hello, ${ global.studentName }!`)
+// Hello, Kyle!
+
+console.log(`Hello, ${ studentName }!`)
+// Hello, Kyle!
+
+// src: https://stackoverflow.com/a/66293366/10012446
+```
+
+Also you can now access studentName in any module which is loaded after after we define global.studentName variable.
+
+LEARN: nodejs docs: https://nodejs.org/api/globals.html#globals_global
+
+LEARN: I used this global in my own testing library in tihs file: https://github.com/sahilrajput03/learn-express/blob/main/testing-with-my-testing-library/__tests__/_setup_test_globals.js#L30-L36
+
+## Sequnetial execution of aysnc calls
+
+Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of
+
+Tags: #Parallel execution, #sequential execution, etc.
+
+## Why Flameshot?
+
+- Bcoz it has this upload to cloud button that uploads to imgur and copies the url to clipboard, yikes!
+- Bcoz press `Print-screen` buttonon keyboard and press ctrl+c (or ctrl+s to save instead) to copy full screen screenshot.
+
+## live reload browser in sync with backend as well
+
+https://dev.to/rajeshroyal/how-to-live-reload-node-js-server-along-with-hot-reloading-2im0
+
 ## What is `a=b=c` in code?
 
 ```bash
