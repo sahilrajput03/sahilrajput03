@@ -97,3 +97,7 @@ Taking 10 minutes break between 2-3 hours of work time is actually about the ret
 Most worthful things in life seems very simple and obvious things you ever achieved and the significant difference how you achieve those worthful things coz thats mostly difficult, harshful and uneasy processes.
 
 Every great artist had one thing in common i.e., relentless hard wordk ~ Raj Sharmani. Relentless means unceasingly intense.
+
+If you are willing enjoy your dreams before thry happen then time is only barrier, and even that keeps diminishing if you work relentlessly.
+
+You can only liberate if you solve your problems ~ Sahil
