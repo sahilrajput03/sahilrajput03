@@ -13,7 +13,7 @@
 
 # Search using regex in db
 
-FYI: Its good to do indexing if you have large number of records for efficient searching.
+**FYI: Its good to do indexing if you have large number of records for efficient searching.**
 
 FYI: In below query you could have used `/` to write concise queries (but online playground doesn't allow that syntax yet):
 
