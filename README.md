@@ -103,6 +103,12 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 
+## Sequnetial execution of aysnc calls
+
+Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of
+
+Tags: #Parallel execution, #sequential execution, etc.
+
 ## Why Flameshot?
 
 - Bcoz it has this upload to cloud button that uploads to imgur and copies the url to clipboard, yikes!
