@@ -11,3 +11,4 @@
 - Reading Rapid Serial Visual Presentation (RSVP) software like Amazon Kindle Android app support this and for desktop you can use amazing [ShiftReader](https://chrome.google.com/webstore/detail/shiftreader-speed-read-th/clcbpepidaphghjahkionjhffkolcpek?hl=en) as chrome extension, it really amazing!
 - Use [Kindle Web](https://read.amazon.com/kindle-library), though it doesn't support hear to text or RSVP feature but interface is good.
 - See you [Play Books in desktop](https://play.google.com/books) as well. It doesn't support hear to text or RSVP feature yet.
+- [Speed Reading ~ Wikipedia](https://en.wikipedia.org/wiki/Speed_reading)
