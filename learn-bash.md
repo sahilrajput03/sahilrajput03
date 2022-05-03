@@ -9,6 +9,22 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Create a systemd service which you can setup to be run on system boot as well
+
+```
+[Unit]
+Description=This is fun service description, sahil.
+
+[Service]
+User=array
+# WorkingDirectory=/home/array/test
+ExecStart=bash /home/array/test/nf.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
 ## Want to know your disk usage and free disk space
 
 ```bash
