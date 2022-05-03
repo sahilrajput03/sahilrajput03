@@ -9,6 +9,29 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Want to know your disk usage and free disk space
+
+```bash
+diskUsage
+# Output:
+# Filesystem      Size  Used Avail Use% Mounted on
+# dev             3.9G     0  3.9G   0% /dev
+# run             3.9G  1.8M  3.9G   1% /run
+# /dev/sdb3        90G   66G   20G  78% /
+# tmpfs           3.9G  104M  3.8G   3% /dev/shm
+# tmpfs           3.9G   26M  3.9G   1% /tmp
+# /dev/sdb4       133G  120G  6.0G  96% /home
+# /dev/sdb1       197M  142K  197M   1% /boot/EFI
+# /dev/sda4       120G   32K  120G   1% /mnt/sda4
+# /dev/sda3       113G   65G   43G  61% /mnt/sda3
+# /dev/sda2       434G  1.2G  433G   1% /mnt/sda2
+# /dev/sda5       252G  8.9G  243G   4% /mnt/sda5
+# tmpfs           785M   28K  785M   1% /run/user/1000
+
+type diskUsage
+# diskUsage is aliased to `df -h'
+```
+
 ## Q. Why vim freezes when I press `ctrl+s` in some versions of debian/ubuntu/rapberryos ?
 
 Ans. Because by default `ctrl+s` is a signal to freeze terminal, yes its vim independent. Source: https://blog.marcinchwedczuk.pl/how-to-fix-vim-freezes#:~:text=To%20unfreeze%20program%20you%20must%20press%20Ctrl%2BQ%20.&text=It%20still%20happens%20from%20time,Q%20and%20continue%20my%20work.
