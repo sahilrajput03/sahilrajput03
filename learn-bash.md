@@ -55,10 +55,11 @@ WantedBy=multi-user.target
 ```bash
 # we need to reload systemd files
 sudo systemctl daemon-reload
-sudo systemctl start nf.service
+sudo systemctl start nf
+# or we can use `sudo systemctl start nf.service`
 
 # Fyi: you can setup this service to run on system startup as well
-sudo systemctl enable nf.service
+sudo systemctl enable nf
 ```
 
 ## Want to know your disk usage and free disk space
