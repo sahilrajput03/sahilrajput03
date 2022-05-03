@@ -11,6 +11,8 @@
 
 ## Create a systemd service which you can setup to be run on system boot as well
 
+[Motivation -  Autostarting ~ Arch Docs](https://wiki.archlinux.org/title/autostarting)
+
 Src: [One](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6), [Two](https://tecadmin.net/run-shell-script-as-systemd-service/).
 
 1. Create a script
