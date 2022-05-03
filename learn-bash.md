@@ -18,6 +18,8 @@ vi ~/test/nf.sh
 sudo chmod +x ~/test/nf.sh
 ```
 
+*Now paste below text to that file*
+
 ```bash
 while true; do
 	echo "Hello $(date)" >> /tmp/tmp
@@ -29,8 +31,9 @@ Create a service file, by
 
 ```bash
 sudo nvim /etc/systemd/system/nf.service
-# Now paste below text to that file
 ```
+
+*Now paste below text to that file*
 
 ```
 [Unit]
