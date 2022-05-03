@@ -105,6 +105,11 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 
+## Startup checkout?
+
+- Amazing tool to do marketing via social media - https://buffer.com/
+- The All-In-One Toolkit for Working Remotely - https://basecamp.com/
+
 ## `global` works in react project as well
 
 ![image](https://user-images.githubusercontent.com/31458531/166311162-8ac9fa4b-9db4-43fd-8c4f-38b851176786.png)
