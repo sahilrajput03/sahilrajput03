@@ -62,6 +62,12 @@ sudo systemctl start nf
 sudo systemctl enable nf
 ```
 
+Now we can check if the dates are added in the `/tmp/tmp` file by
+
+```bash
+cat /tmp/tmp
+```
+
 ## Want to know your disk usage and free disk space
 
 ```bash
