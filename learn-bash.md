@@ -11,6 +11,27 @@
 
 ## Create a systemd service which you can setup to be run on system boot as well
 
+Create a script
+
+```bash
+vi ~/test/nf.sh
+sudo chmod +x ~/test/nf.sh
+```
+
+```bash
+while true; do
+	echo "Hello $(date)" >> /tmp/tmp
+	sleep 2
+done
+```
+
+Create a service file, by
+
+```bash
+sudo nvim /etc/systemd/system/nf.service
+# Now paste below text to that file
+```
+
 ```
 [Unit]
 Description=This is fun service description, sahil.
@@ -20,9 +41,19 @@ User=array
 # WorkingDirectory=/home/array/test
 ExecStart=bash /home/array/test/nf.sh
 Restart=always
+# Restart defines no. consistent attempts to be done by systemd anytime to start the service anytime the service is killed by some external action(i.e., `systemctl stop` will not trigger restart actions).
 
 [Install]
 WantedBy=multi-user.target
+```
+
+```bash
+# we need to reload systemd files
+sudo systemctl daemon-reload
+sudo systemctl start nf.service
+
+# Fyi: you can setup this service to run on system startup as well
+sudo systemctl enable nf.service
 ```
 
 ## Want to know your disk usage and free disk space
