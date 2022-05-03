@@ -11,7 +11,7 @@
 
 ## Create a systemd service which you can setup to be run on system boot as well
 
-Create a script
+1. Create a script
 
 ```bash
 vi ~/test/nf.sh
@@ -27,7 +27,7 @@ while true; do
 done
 ```
 
-Create a service file, by
+2. Create a service file, by
 
 ```bash
 sudo nvim /etc/systemd/system/nf.service
@@ -49,6 +49,8 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
+
+3. Now we need to reload service by `systemd` so it loads our new service and then we can start our service:
 
 ```bash
 # we need to reload systemd files
