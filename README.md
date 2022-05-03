@@ -106,6 +106,19 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
 
+## Make apk from a website now!
+
+**Deploy website to playstore-**
+
+1. Hybrid web view app using Ionic (but downside is that we would need to )
+2. Use TWA (trusted web activites) REFER MY [OWN REPO TO SEE THIS AWESOME WAY](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main).
+
+**FYI:**
+
+- Inspiration: [Jeff - Fireship.io](https://www.youtube.com/watch?v=7JDFjeMvxos).
+- Also this is a very genuine desire for all web developers to be ablet to ship apk to playstore successfully to provide fullscreen experience. So it works really good IMO. **Checkout my own generated [apk here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/raw/main/bw.apk).**
+
+
 ## Startup checkout?
 
 - Amazing tool to do marketing via social media - https://buffer.com/
