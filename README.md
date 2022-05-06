@@ -124,7 +124,7 @@ console.log(a())
 
 - Free Book By sentdex (LGTM): https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
 - Awesome [Neural Networks From Scratch - Playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3) - Sentdex
-- Do checkout practising above playlist @ [sahilrajput03/neural-networks-from-scratch](https://github.com/sahilrajput03/neural-networks-from-scratch/tree/main)
+- Do checkout practising above playlist @ [sahilrajput03/neural-networks-from-scratch](https://github.com/sahilrajput03/neural-networks-from-scratch/tree/main), the book from this guy is @ https://nnfs.io/
 - [Cambridge Publication - Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) - Recommended by Pratham Prasoon
 
 
