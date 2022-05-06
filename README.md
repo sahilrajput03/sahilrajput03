@@ -106,6 +106,11 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
 
+## Ml resources, neural networks
+
+- Free Book By sentdex (LGTM): https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
+- Awesome [Neural Networks From Scratch - Playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3) - Sentdex
+
 ## Make apk from a website now!
 
 **Deploy website to playstore-**
