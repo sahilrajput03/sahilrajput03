@@ -9,6 +9,10 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Start a openvpn server in 5 minutes - TODO
+
+Source: https://www.cyberciti.biz/faq/ubuntu-22-04-lts-set-up-openvpn-server-in-5-minutes/?utm_source=Social_Media&utm_medium=Twitter&utm_campaign=May_06_2022
+
 ## Create a systemd service which you can setup to be run on system boot as well
 
 [Motivation -  Autostarting ~ Arch Docs](https://wiki.archlinux.org/title/autostarting)
@@ -143,9 +147,15 @@ mktemp
 
 # Usage in scripts:
 cache=$(mktemp)
+
+# Set trap to clean up file
+trap 'rm -f -- "$TMP_FILE"' EXIT
+
 # You may use this newly created file now.
 #### after work done use below command to remove the file
 rm -f ${cookie_file}
+
+# motivation: https://www.cyberciti.biz/tips/shell-scripting-bash-how-to-create-temporary-random-file-name.html?utm_source=Social_Media&utm_medium=Twitter&utm_campaign=May_06_2022
 ```
 
 ## Some GNU core utils like `uname`, `hostname`, `basename`, `dirname` and `logname`
