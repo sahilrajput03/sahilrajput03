@@ -106,6 +106,20 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
 
+## Default values for functions
+
+```bash
+function a(c = 10) {
+	return c
+}
+
+console.log(a(null))
+// Output: null
+
+console.log(a())
+// Output: 10
+```
+
 ## Ml resources, neural networks
 
 - Free Book By sentdex (LGTM): https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
