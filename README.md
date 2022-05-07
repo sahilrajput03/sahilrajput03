@@ -249,7 +249,12 @@ git add . && git commit -m Fix submodule.
 
 ### To clone a git repo with all its nexted submodules 🚴︎ 🚴︎
 
-Just use cli `gcl-with-submodules` from my_bin.
+Just use
+
+```bash
+gclWithSubmodules
+# gclWithSubmodules is aliased to `git clone --recurse-submodules -j8'
+```
 
 edited by cacher.
 
