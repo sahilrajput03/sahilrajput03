@@ -247,7 +247,7 @@ git add . && git commit -m Fix submodule.
 
 - git submodules: https://www.catalyst.net.nz/blog/git-submodule-misunderstood-beast-or-remorseless-slavering-monster
 
-### To clone a git repo with all its nexted submodules 🚴︎ 🚴︎
+### To clone a git repo with all its nested submodules 🚴︎ 🚴︎
 
 Just use
 
