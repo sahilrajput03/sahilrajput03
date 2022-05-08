@@ -21,7 +21,7 @@ curl -O localhost:3000/crash
 # LEARN: throws error: curl >> Remote file name has no length!
 curl -O localhost:3000/
 
-# write output to file 						(CAUTION: overwrites to existing file)
+# write output to custom file (lowercase o)			(CAUTION: overwrites to existing file)
 curl -o myFile.txt localhost:3000
 
 # Default --request (-X) has GET value:
