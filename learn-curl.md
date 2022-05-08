@@ -15,13 +15,13 @@ curl -I localhost:3000
 # only response's status code
 curl -sI localhost:3000 | head -n1 | awk '{print $2}'
 
-# write output to file (CAUTION: overwrites to existing file)
-curl -o myFile.txt localhost:3000
-
-# write output to file named as `crash`
+# write output to default route-named-file named i.e., `crash` 	(CAUTION: overwrites to existing file)
 curl -O localhost:3000/crash
 
-# throws error: curl >> Remote file name has no length!
+# write output to file 						(CAUTION: overwrites to existing file)
+curl -o myFile.txt localhost:3000
+
+# LEARN: throws error: curl >> Remote file name has no length!
 curl -O localhost:3000/
 
 # Default --request (-X) has GET value:
