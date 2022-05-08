@@ -18,6 +18,10 @@ curl -sI localhost:3000 | head -n1 | awk '{print $2}'
 # write output to default route-named-file named i.e., `crash` 	(CAUTION: overwrites to existing file)
 curl -O localhost:3000/crash
 
+# download an image
+curl -O https://i.imgur.com/5pdde58.jpeg
+# Output: Image downloaded to `5pdde58.jpeg` file in current folder.
+
 # LEARN: throws error: curl >> Remote file name has no length!
 curl -O localhost:3000/
 
