@@ -105,7 +105,7 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
-- **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets)
+- **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
 
 ## Yes you can change a variable's value in the browser debugger as well
 
