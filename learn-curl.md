@@ -19,6 +19,7 @@ curl -sI localhost:3000 | head -n1 | awk '{print $2}'
 
 # write output to default route-named-file named i.e., `crash` 	(CAUTION: overwrites to existing file)
 curl -O localhost:3000/crash
+# -O is an alias for --remote-name
 
 # download an image
 curl -O https://i.imgur.com/5pdde58.jpeg
@@ -29,6 +30,7 @@ curl -O localhost:3000/
 
 # write output to custom file (lowercase o)			(CAUTION: overwrites to existing file)
 curl -o myFile.txt localhost:3000
+# -o is an alias for --output
 
 # follow redirect with -L flag
 curl -L google.com
