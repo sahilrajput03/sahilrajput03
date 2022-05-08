@@ -181,6 +181,8 @@ console.log(a())
 
 ## `global` works in react project as well
 
+Source: https://codesandbox.io/s/globalandglobalthis-o262ir?file=/src/App.js
+
 ![image](https://user-images.githubusercontent.com/31458531/166311162-8ac9fa4b-9db4-43fd-8c4f-38b851176786.png)
 
 FYI: Learn about `globalThis`: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis
