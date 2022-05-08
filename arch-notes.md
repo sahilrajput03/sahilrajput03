@@ -8,6 +8,20 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install `tk` to fix `gitk`
+
+Using `gitk` (a gui tool for git, really good imo ~Sahil), I encountered error i.e.,
+
+```bash
+gitk
+# Output: /usr/bin/gitk: line 3: exec: wish: not found.
+
+
+# So I FIXED it by installing `tk`
+sudo pacman -S tk
+# src: https://bbs.archlinux.org/viewtopic.php?id=78595
+```
+
 ## You cannot use ctrl+tab or ctrl+shift+tab to switch tmux-windows in xfce-terminal!
 
 Source: https://superuser.com/questions/1088058/how-can-i-bind-a-key-shortcut-that-includes-a-tab
