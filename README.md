@@ -111,6 +111,8 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 
 Docs: https://github.com/typicode/lowdb
 
+***This library is from *typicode* who is also creator of `json-server`, `husky` and `jsonplaceholder` and all all of them are his [github](https://github.com/typicode).***
+
 Find out @ https://stackblitz.com/edit/react-fjnkr5?file=src%2FApp.js
 
 **Also, it is also useful with nodejs as it will write to json files on updating the data, yikes!**
