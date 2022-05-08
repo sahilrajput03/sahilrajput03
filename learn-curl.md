@@ -28,6 +28,11 @@ curl -O localhost:3000/
 # write output to custom file (lowercase o)			(CAUTION: overwrites to existing file)
 curl -o myFile.txt localhost:3000
 
+# follow redirect with -L flag
+curl -L google.com
+# Outputs from www.google.com
+#fyi: if don't used  www. prefix then curl shows us only the redirect message and informs that the page has moved to www.google.com site.
+
 # Default --request (-X) has GET value:
 curl "https://reverberate.ml"
 curl --request GET https://reverberate.ml
