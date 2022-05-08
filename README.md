@@ -105,7 +105,6 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
-- **Sample Makefile:** [Click here](https://github.com/kubernetes-hy/material-example/blob/master/app10-go/controller/Makefile)
 
 ## Documentation Generator in Javascript
 
