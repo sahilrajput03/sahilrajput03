@@ -111,6 +111,10 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 
 Find out @ https://stackblitz.com/edit/react-fjnkr5?file=src%2FApp.js
 
+Docs: https://github.com/typicode/lowdb
+
+Also, it is also useful with nodejs as it will write to json files on updating the data, yikes!
+
 ## Yes you can change a variable's value in the browser debugger as well
 
 **TESTED: Works 100%**
