@@ -108,6 +108,8 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 
 ## Yes you can change a variable's value in the browser debugger as well
 
+**TESTED: Works 100%**
+
 ![image](https://user-images.githubusercontent.com/31458531/167283056-eb24a4ee-f69d-4bba-a160-5bd2f69461ad.png)
 
 **Also works via terminal as well:**
