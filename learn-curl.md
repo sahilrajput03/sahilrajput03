@@ -1,5 +1,7 @@
 # Learn `curl`
 
+Watch video from [Traversy Media](https://www.youtube.com/watch?v=7XUibDYw4mc)
+
 ```bash
 # only response body (without response header)
 curl localhost:3000
@@ -32,6 +34,13 @@ curl -o myFile.txt localhost:3000
 curl -L google.com
 # Outputs from www.google.com
 #fyi: if don't used  www. prefix then curl shows us only the redirect message and informs that the page has moved to www.google.com site.
+
+# upload via FTP
+curl -u test@traversymedia.com:123456! -T hello.txt ftp://ftp.traversymedia.com
+
+# download via FTP
+curl -u test@traversymedia.com:123456! -O ftp://ftp.traversymedia.com/hello.txt
+
 
 # Default --request (-X) has GET value:
 curl "https://reverberate.ml"
