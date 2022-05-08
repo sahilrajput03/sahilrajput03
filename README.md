@@ -107,6 +107,10 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Freelancing:** [Click here](free-lancing.md)
 - **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
 
+## lowdb rocks (a tool to manage localStorage most beautiful api)
+
+Find out @ https://stackblitz.com/edit/react-fjnkr5?file=src%2FApp.js
+
 ## Yes you can change a variable's value in the browser debugger as well
 
 **TESTED: Works 100%**
