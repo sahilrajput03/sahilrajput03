@@ -997,6 +997,13 @@ sudo pacman -U ./autojump-22.5.3-9-any.pkg.tar.zst
 j <anyRecentlyUsedFolderName>
 ```
 
+**Q. Why autojump is awesome?**
+
+*Ans. Coz it also does this:*
+
+![image](https://user-images.githubusercontent.com/31458531/167282003-5af0f4bd-06f5-4c68-accc-80a85d6669a0.png)
+
+
 ## Installed mutt - a cli email client utility
 
 ```
