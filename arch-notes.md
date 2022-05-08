@@ -8,6 +8,10 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## You cannot use ctrl+tab or ctrl+shift+tab to switch tmux-windows in xfce-terminal!
+
+Source: https://superuser.com/questions/1088058/how-can-i-bind-a-key-shortcut-that-includes-a-tab
+
 ## Why Flameshot?
 
 Source: [https://github.com/sahilrajput03/sahilrajput03/blob/master/README.md#why-flameshot](https://github.com/sahilrajput03/sahilrajput03/blob/master/README.md#why-flameshot)
