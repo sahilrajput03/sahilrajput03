@@ -179,7 +179,7 @@ console.log(a())
 - Amazing tool to do marketing via social media - https://buffer.com/
 - The All-In-One Toolkit for Working Remotely - https://basecamp.com/
 
-## `global` works in react project as well
+## `global` won't work good in react project outside of components (see the codesandbox to understand that!)
 
 Source: https://codesandbox.io/s/globalandglobalthis-o262ir?file=/src/App.js
 
