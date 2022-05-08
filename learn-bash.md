@@ -9,6 +9,21 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Learn Makefile
+
+Sample 1: https://github.com/kubernetes-hy/material-example/blob/master/app10-go/controller/Makefile
+
+Sample 2: https://github.com/sahilrajput03/sahilrajput03/blob/master/missing-semester/make-lecture8/Makefile
+
+Why evem use `makefile` instead of some script file say `makefile.sh`?
+
+Amazing complete answer @ [Stackoverflow](https://stackoverflow.com/a/3798609/10012446).
+
+**tldr**
+
+> The general idea is that make supports (reasonably) minimal rebuilds -- i.e., you tell it what parts of your program depend on what other parts. When you update some part of the program, it only rebuilds the parts that depend on that. While you could do this with a shell script, it would be a lot more work (explicitly checking the last-modified dates on all the files, etc.) The only obvious alternative with a shell script is to rebuild everything every time. 
+
+
 ## Start a openvpn server in 5 minutes - TODO
 
 Source: https://www.cyberciti.biz/faq/ubuntu-22-04-lts-set-up-openvpn-server-in-5-minutes/?utm_source=Social_Media&utm_medium=Twitter&utm_campaign=May_06_2022
