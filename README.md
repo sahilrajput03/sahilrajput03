@@ -110,6 +110,9 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 
 ![image](https://user-images.githubusercontent.com/31458531/167283056-eb24a4ee-f69d-4bba-a160-5bd2f69461ad.png)
 
+**Also works via terminal as well:**
+
+![image](https://user-images.githubusercontent.com/31458531/167283084-f4fd13e5-c6ab-42e4-b8c0-081671fc3e13.png)
 
 ## Documentation Generator in Javascript
 
