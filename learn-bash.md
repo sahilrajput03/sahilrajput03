@@ -15,7 +15,7 @@ Sample 1: https://github.com/kubernetes-hy/material-example/blob/master/app10-go
 
 Sample 2: https://github.com/sahilrajput03/sahilrajput03/blob/master/missing-semester/make-lecture8/Makefile
 
-Why evem use `makefile` instead of some script file say `makefile.sh`?
+Why even use `makefile` instead of some script file say `makefile.sh`?
 
 Amazing complete answer @ [Stackoverflow](https://stackoverflow.com/a/3798609/10012446).
 
