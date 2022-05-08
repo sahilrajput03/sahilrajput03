@@ -106,6 +106,11 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
 
+## Yes you can change a variable's value in the browser debugger as well
+
+![image](https://user-images.githubusercontent.com/31458531/167283056-eb24a4ee-f69d-4bba-a160-5bd2f69461ad.png)
+
+
 ## Documentation Generator in Javascript
 
 https://github.com/TypeStrong/typedoc
