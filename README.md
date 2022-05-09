@@ -107,6 +107,12 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Freelancing:** [Click here](free-lancing.md)
 - **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
 
+## Created a clone of lowdb
+
+Browse @ https://codesandbox.io/s/low-db-clone-t4lbln?file=/src/App.js
+
+Lowdb: https://github.com/typicode/lowdb
+
 ## `chokidar` has also a cli version
 
 https://github.com/open-cli-tools/chokidar-cli
