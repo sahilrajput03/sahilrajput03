@@ -73,6 +73,23 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
+**or run a npm command:**
+```
+[Unit]
+Description=This is fun service description, sahil.
+
+[Service]
+User=array
+WorkingDirectory=/home/array/test/LemonJamsBot
+ExecStart=npm run dev
+Restart=always
+# Restart defines no. consistent attempts to be done by systemd anytime to start the service anytime the service is killed by some external action(i.e., `systemctl stop` will not trigger restart actions).
+
+[Install]
+WantedBy=multi-user.target
+```
+
+
 3. Now we need to reload service by `systemd` so it loads our new service and then we can start our service:
 
 ```bash
