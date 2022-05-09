@@ -107,6 +107,14 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Freelancing:** [Click here](free-lancing.md)
 - **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
 
+## The one stop solution for the confusion b/w localStorage vs. cookies decision in your website!
+
+Source: https://academind.com/tutorials/localstorage-vs-cookies-xss . Wanna [read about cors from same author ?](https://academind.com/tutorials/cross-site-resource-sharing-cors). Mdn - [Restrict access to cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#restrict_access_to_cookies).
+
+![image](https://user-images.githubusercontent.com/31458531/167394224-1c8d6500-8920-4ffc-aa1d-b01eec2e64d3.png)
+
+
+
 ## google.com cookes looks like this
 
 ![image](https://user-images.githubusercontent.com/31458531/167393186-0699d672-54fc-43b6-a8c8-144ddffab6ea.png)
