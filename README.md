@@ -111,8 +111,9 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 
 Source: https://academind.com/tutorials/localstorage-vs-cookies-xss . Wanna [read about cors from same author ?](https://academind.com/tutorials/cross-site-resource-sharing-cors). Mdn - [Restrict access to cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#restrict_access_to_cookies).
 
-![image](https://user-images.githubusercontent.com/31458531/167394224-1c8d6500-8920-4ffc-aa1d-b01eec2e64d3.png)
+- Article - [Minimize your xss attacks cheatsheet from OWASP](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html).
 
+![image](https://user-images.githubusercontent.com/31458531/167394224-1c8d6500-8920-4ffc-aa1d-b01eec2e64d3.png)
 
 
 ## google.com cookes looks like this
