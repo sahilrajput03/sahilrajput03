@@ -111,6 +111,8 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 
 https://github.com/tailwindlabs/tailwindcss
 
+Find my own demo app @ [https://github.com/sahilrajput03/cssDesignTrail/tree/master/learn-tailwindcss](https://github.com/sahilrajput03/cssDesignTrail/tree/master/learn-tailwindcss)
+
 **Its revolutional for me personally!**
 
 ## Testing react apps with `jest` and `react-testing-library` (or `enzyme`)
