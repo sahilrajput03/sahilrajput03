@@ -7,6 +7,12 @@ whoami
 echo $USER
 # Output: array
 
+# List all users
+alias listAllUsers="awk -F: '{ print $1}' /etc/passwd | xargs"
+listAlUsers
+# Output:
+# root bin daemon mail ftp http nobody dbus systemd-journal-remote systemd-network systemd-oom systemd-resolve systemd-timesync systemd-coredump uuidd polkitd array avahi lightdm git rtkit named postgres mongodb usbmux tss dnsmasq libvirt-qemu asterisk
+
 
 
 ########## RUN A LOGIN SHELL
