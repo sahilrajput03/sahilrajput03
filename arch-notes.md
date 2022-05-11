@@ -17,7 +17,7 @@ Source: https://draculatheme.com/gitk
 cd ~/test
 
 git clone https://github.com/dracula/gitk.git
-mkdir -p ~/git
+mkdir ~/git
 cp gitk/gitk ~/git/
 
 # Now if you use
