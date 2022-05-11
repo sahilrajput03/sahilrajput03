@@ -8,6 +8,23 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+
+## Install Drakula theme for `gitk` - an amazing git diff viewer
+
+Source: https://draculatheme.com/gitk
+
+```bash
+cd ~/test
+
+git clone https://github.com/dracula/gitk.git
+mkdir -p ~/.config/git
+cp gitk/gitk ~/.config/git/
+
+# Now if you use
+gitk
+# you'll notice beautiful drakula theme.
+```
+
 ## Install `tk` to fix `gitk`
 
 Using `gitk` (a gui tool for git, really good imo ~Sahil), I encountered error i.e.,
