@@ -17,12 +17,14 @@ Source: https://draculatheme.com/gitk
 cd ~/test
 
 git clone https://github.com/dracula/gitk.git
-mkdir -p ~/.config/git
-cp gitk/gitk ~/.config/git/
+mkdir -p ~/git
+cp gitk/gitk ~/git/
 
 # Now if you use
 gitk
 # you'll notice beautiful drakula theme.
+##FYI: I changed colors of normal git diff as well so now command line `git diff` simply looks super nice as well.
+## USING gitk is super amazing with dracula and in its asthetics though.
 ```
 
 ## Install `tk` to fix `gitk`
