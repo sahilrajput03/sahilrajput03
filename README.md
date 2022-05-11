@@ -107,7 +107,15 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Freelancing:** [Click here](free-lancing.md)
 - **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
 
-# How come a library like tailwindcss have 56.6 stars on github ?
+## What is a/ and b/ in `git diff` command?
+
+Source: https://stackoverflow.com/a/6764988/10012446
+
+tldr;
+
+a means before and b means after. You can remember it like when going from a -> b i.e., in chronogical manner ~Sahil.
+
+## How come a library like tailwindcss have 56.6 stars on github ?
 
 https://github.com/tailwindlabs/tailwindcss
 
