@@ -9,6 +9,14 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## multiline commenting in bash
+
+```bash
+# Using multipline comments in bash, src: https://www.geeksforgeeks.org/multi-line-comment-in-shell-script/
+<<comment
+comment
+```
+
 ## Learn Makefile
 
 Sample 1: https://github.com/kubernetes-hy/material-example/blob/master/app10-go/controller/Makefile
