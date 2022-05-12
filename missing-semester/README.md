@@ -4,7 +4,7 @@
 - Lecture 2 - Shell Tools and Scripting : [Click here](LECTURE2.md)
 - Lecture 3 - Editors(Vim)
 - Lecture 4 - Data Wrangling
-- Lecture 5 - Command-line Environment : [Click here](LECTURE5.md)
+- Lecture 5 - Command-line Environment (Deep dive into `ssh`): [Click here](LECTURE5.md)
 - Lecture 6 - Version Control (Git) : [Click here](LECTURE6.md)
 - Lecture 7 - Debugging and Profiling
 - Lecture 8 - Metaprogramming
