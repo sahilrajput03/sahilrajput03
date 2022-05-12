@@ -9,6 +9,25 @@
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
 
+## Install figlet
+
+Source: https://archlinux.org/packages/extra/x86_64/figlet/
+
+```bash
+sudo pacman -S figlet
+
+# Usage:
+figlet I am superman!
+# Output:
+#  ___                                                                     _
+# |_ _|   __ _ _ __ ___    ___ _   _ _ __   ___ _ __ _ __ ___   __ _ _ __ | |
+#  | |   / _` | '_ ` _ \  / __| | | | '_ \ / _ \ '__| '_ ` _ \ / _` | '_ \| |
+#  | |  | (_| | | | | | | \__ \ |_| | |_) |  __/ |  | | | | | | (_| | | | |_|
+# |___|  \__,_|_| |_| |_| |___/\__,_| .__/ \___|_|  |_| |_| |_|\__,_|_| |_(_)
+                                |_|
+# It is very similar to cowsay!
+```
+
 ## Install Drakula theme for `gitk` - an amazing git diff viewer
 
 Source: https://draculatheme.com/gitk
