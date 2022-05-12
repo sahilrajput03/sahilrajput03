@@ -111,6 +111,17 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 
 Love: Bcoz its assertion i.e., [expect](https://www.npmjs.com/package/expect) and [expect's docs](https://jestjs.io/docs/expect) is open source. So this allows me to use their assertions in my own test runner library. Yikes!
 
+I.e.,
+
+```bash
+npm i expect
+```
+
+```js
+const {expect} = require('expect')
+console.log(expect('1').toBe('2')) // throws error just like jest does!
+````
+
 Hate: Jest's test runner has no capability to share values and module between tests suites in watch mode. [Issue closed here](https://github.com/facebook/jest/issues/6800). But it seems that work is going on this [issue here](https://github.com/facebook/jest/issues/7184).
 
 Q. Anyway what are mockig really useful for like this library [nock](https://github.com/nock/nock) ? ~ Sahil
