@@ -119,7 +119,7 @@ npm i expect
 
 ```js
 const {expect} = require('expect')
-console.log(expect('1').toBe('2')) // throws error just like jest does!
+expect('1').toBe('2') // throws error just like jest does!
 ````
 
 Hate: Jest's test runner has no capability to share values and module between tests suites in watch mode. [Issue closed here](https://github.com/facebook/jest/issues/6800). But it seems that work is going on this [issue here](https://github.com/facebook/jest/issues/7184).
