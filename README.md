@@ -102,6 +102,129 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Login flow:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
+- **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
+- **Useful Android App:** [Click here](usefult-android-apps.md)
+- **Learn Freelancing:** [Click here](free-lancing.md)
+- **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
+
+## What is a/ and b/ in `git diff` command?
+
+Source: https://stackoverflow.com/a/6764988/10012446
+
+tldr;
+
+a means before and b means after. You can remember it like when going from a -> b i.e., in chronogical manner ~Sahil.
+
+## How come a library like tailwindcss have 56.6 stars on github ?
+
+https://github.com/tailwindlabs/tailwindcss
+
+Find my own demo app @ [https://github.com/sahilrajput03/cssDesignTrail/tree/master/learn-tailwindcss](https://github.com/sahilrajput03/cssDesignTrail/tree/master/learn-tailwindcss)
+
+**Its revolutional for me personally!**
+
+## Testing react apps with `jest` and `react-testing-library` (or `enzyme`)
+
+Source: https://jestjs.io/docs/tutorial-react
+
+## The one stop solution for the confusion b/w localStorage vs. cookies decision in your website!
+
+Source: https://academind.com/tutorials/localstorage-vs-cookies-xss . Wanna [read about cors from same author ?](https://academind.com/tutorials/cross-site-resource-sharing-cors). Mdn - [Restrict access to cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#restrict_access_to_cookies).
+
+- Article - [Minimize your xss attacks cheatsheet from OWASP](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html).
+
+![image](https://user-images.githubusercontent.com/31458531/167394224-1c8d6500-8920-4ffc-aa1d-b01eec2e64d3.png)
+
+
+## google.com cookes looks like this
+
+![image](https://user-images.githubusercontent.com/31458531/167393186-0699d672-54fc-43b6-a8c8-144ddffab6ea.png)
+
+## Created a clone of lowdb
+
+Browse @ https://codesandbox.io/s/low-db-clone-t4lbln?file=/src/App.js
+
+Lowdb: https://github.com/typicode/lowdb
+
+## `chokidar` has also a cli version
+
+https://github.com/open-cli-tools/chokidar-cli
+
+Used by: https://github.com/typicode/xv - A test runnder by *typicode*.
+
+## `lowdb` rocks (a tool to manage localStorage most beautiful api)
+
+Docs: https://github.com/typicode/lowdb
+
+***This library is from *typicode* who is also creator of `json-server`, `husky`, `jsonplaceholder` and `xv` and all all of them are his [github](https://github.com/typicode).***
+
+Find out @ https://stackblitz.com/edit/react-fjnkr5?file=src%2FApp.js
+
+**Also, it is also useful with nodejs as it will write to json files on updating the data, yikes!**
+
+## Yes you can change a variable's value in the browser debugger as well
+
+**TESTED: Works 100%**
+
+![image](https://user-images.githubusercontent.com/31458531/167283056-eb24a4ee-f69d-4bba-a160-5bd2f69461ad.png)
+
+**Also works via terminal as well:**
+
+![image](https://user-images.githubusercontent.com/31458531/167283084-f4fd13e5-c6ab-42e4-b8c0-081671fc3e13.png)
+
+## Documentation Generator in Javascript
+
+https://github.com/TypeStrong/typedoc
+
+This is used by kubernetes-client to generated docs for them @ https://github.com/kubernetes-client/javascript
+
+## Default values for functions
+
+```bash
+function a(c = 10) {
+	return c
+}
+
+console.log(a(null))
+// Output: null
+
+console.log(a())
+// Output: 10
+```
+
+## Ml resources, neural networks
+
+- Free Book By sentdex (LGTM): https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
+- Awesome [Neural Networks From Scratch - Playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3) - Sentdex
+- Do checkout practising above playlist @ [sahilrajput03/neural-networks-from-scratch](https://github.com/sahilrajput03/neural-networks-from-scratch/tree/main), the book from this guy is @ https://nnfs.io/
+- [Cambridge Publication - Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) - Recommended by Pratham Prasoon
+
+
+## Make apk from a website now!
+
+**Deploy website to playstore-**
+
+1. Hybrid web view app using Ionic (but downside is that we would need to )
+2. Use TWA (trusted web activites) REFER MY [OWN REPO TO SEE THIS AWESOME WAY](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main).
+
+**FYI:**
+
+- Inspiration: [Jeff - Fireship.io](https://www.youtube.com/watch?v=7JDFjeMvxos).
+- Also this is a very genuine desire for all web developers to be ablet to ship apk to playstore successfully to provide fullscreen experience. So it works really good IMO. **Checkout my own generated [apk here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/raw/main/bw.apk).**
+
+
+## Startup checkout?
+
+- Amazing tool to do marketing via social media - https://buffer.com/
+- The All-In-One Toolkit for Working Remotely - https://basecamp.com/
+
+## `global` won't work good in react project outside of components (see the codesandbox to understand that!)
+
+Source: https://codesandbox.io/s/globalandglobalthis-o262ir?file=/src/App.js
+
+![image](https://user-images.githubusercontent.com/31458531/166311162-8ac9fa4b-9db4-43fd-8c4f-38b851176786.png)
+
+FYI: Learn about `globalThis`: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis
 
 ## Ngrok docs
 
@@ -196,9 +319,14 @@ git add . && git commit -m Fix submodule.
 
 - git submodules: https://www.catalyst.net.nz/blog/git-submodule-misunderstood-beast-or-remorseless-slavering-monster
 
-### To clone a git repo with all its nexted submodules 🚴︎ 🚴︎
+### To clone a git repo with all its nested submodules 🚴︎ 🚴︎
 
-Just use cli `gcl-with-submodules` from my_bin.
+Just use
+
+```bash
+gclWithSubmodules
+# gclWithSubmodules is aliased to `git clone --recurse-submodules -j8'
+```
 
 edited by cacher.
 

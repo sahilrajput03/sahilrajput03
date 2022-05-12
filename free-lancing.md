@@ -1,0 +1,6 @@
+- Gross Income: Totoal income from 1 April to 31 March.
+- Net Income: Gross - Expenses spend on doing business (e.g., time tracking software service cost)
+- Microeconomics is the study of what is likely to happen (tendencies) when individuals make choices in response to changes in incentives, prices, resources, and/or methods of production.
+- Learn about [Microeconomics @ Investopedia](https://www.investopedia.com/terms/m/microeconomics.asp).
+- Have multiple bank accounts: Monthly Spend Account(+15K every month): The goal of this account to go broke with your spendings, Spludge Account (for long term desiral things like Bike, Car, Home and this can be used to fund in worst cases when you don't a project in future)
+- Make contracts for freelancing via https://www.hellobonsai.com/.

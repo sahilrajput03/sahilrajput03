@@ -1,5 +1,7 @@
 # Learn `curl`
 
+Watch video from [Traversy Media](https://www.youtube.com/watch?v=7XUibDYw4mc)
+
 ```bash
 # only response body (without response header)
 curl localhost:3000
@@ -15,14 +17,32 @@ curl -I localhost:3000
 # only response's status code
 curl -sI localhost:3000 | head -n1 | awk '{print $2}'
 
-# write output to file (CAUTION: overwrites to existing file)
-curl -o myFile.txt localhost:3000
-
-# write output to file named as `crash`
+# write output to default route-named-file named i.e., `crash` 	(CAUTION: overwrites to existing file)
 curl -O localhost:3000/crash
+# -O is an alias for --remote-name
 
-# throws error: curl >> Remote file name has no length!
+# download an image
+curl -O https://i.imgur.com/5pdde58.jpeg
+# Output: Image downloaded to `5pdde58.jpeg` file in current folder.
+
+# LEARN: throws error: curl >> Remote file name has no length!
 curl -O localhost:3000/
+
+# write output to custom file (lowercase o)			(CAUTION: overwrites to existing file)
+curl -o myFile.txt localhost:3000
+# -o is an alias for --output
+
+# follow redirect with -L flag
+curl -L google.com
+# Outputs from www.google.com
+#fyi: if don't used  www. prefix then curl shows us only the redirect message and informs that the page has moved to www.google.com site.
+
+# upload via FTP
+curl -u test@traversymedia.com:123456! -T hello.txt ftp://ftp.traversymedia.com
+
+# download via FTP
+curl -u test@traversymedia.com:123456! -O ftp://ftp.traversymedia.com/hello.txt
+
 
 # Default --request (-X) has GET value:
 curl "https://reverberate.ml"

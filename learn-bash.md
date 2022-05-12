@@ -9,10 +9,146 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
-
 ## Why install `ubuntu-server` on kvm machines?
 
 It comes with tmux builtin so its fun!
+
+## multiline commenting in bash
+
+```bash
+# Using multipline comments in bash, src: https://www.geeksforgeeks.org/multi-line-comment-in-shell-script/
+<<comment
+comment
+```
+
+## Learn Makefile
+
+Sample 1: https://github.com/kubernetes-hy/material-example/blob/master/app10-go/controller/Makefile
+
+Sample 2: https://github.com/sahilrajput03/sahilrajput03/blob/master/missing-semester/make-lecture8/Makefile
+
+Why even use `makefile` instead of some script file say `makefile.sh`?
+
+Amazing complete answer @ [Stackoverflow](https://stackoverflow.com/a/3798609/10012446).
+
+**tldr**
+
+> The general idea is that make supports (reasonably) minimal rebuilds -- i.e., you tell it what parts of your program depend on what other parts. When you update some part of the program, it only rebuilds the parts that depend on that. While you could do this with a shell script, it would be a lot more work (explicitly checking the last-modified dates on all the files, etc.) The only obvious alternative with a shell script is to rebuild everything every time. 
+
+
+## Start a openvpn server in 5 minutes - TODO
+
+Source: https://www.cyberciti.biz/faq/ubuntu-22-04-lts-set-up-openvpn-server-in-5-minutes/?utm_source=Social_Media&utm_medium=Twitter&utm_campaign=May_06_2022
+
+## Create a systemd service which you can setup to be run on system boot as well
+
+[Motivation -  Autostarting ~ Arch Docs](https://wiki.archlinux.org/title/autostarting)
+
+Src: [One](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6), [Two](https://tecadmin.net/run-shell-script-as-systemd-service/).
+
+1. Create a script
+
+```bash
+vi ~/test/nf.sh
+sudo chmod +x ~/test/nf.sh
+```
+
+*Now paste below text to that file*
+
+```bash
+while true; do
+	echo "Hello $(date)" >> /tmp/tmp
+	sleep 2
+done
+```
+
+2. Create a service file, by
+
+```bash
+sudo nvim /etc/systemd/system/nf.service
+```
+
+*Now paste below text to that file*
+
+```
+[Unit]
+Description=This is fun service description, sahil.
+
+[Service]
+User=array
+# WorkingDirectory=/home/array/test
+ExecStart=bash /home/array/test/nf.sh
+Restart=always
+# Restart defines no. consistent attempts to be done by systemd anytime to start the service anytime the service is killed by some external action(i.e., `systemctl stop` will not trigger restart actions).
+
+[Install]
+WantedBy=multi-user.target
+```
+
+**or run a npm command:**
+```
+[Unit]
+Description=This is fun service description, sahil.
+
+[Service]
+User=array
+WorkingDirectory=/home/array/test/LemonJamsBot
+ExecStart=npm run dev
+Restart=always
+# Restart defines no. consistent attempts to be done by systemd anytime to start the service anytime the service is killed by some external action(i.e., `systemctl stop` will not trigger restart actions).
+
+[Install]
+WantedBy=multi-user.target
+```
+
+
+3. Now we need to reload service by `systemd` so it loads our new service and then we can start our service:
+
+```bash
+# we need to reload systemd files
+sudo systemctl daemon-reload
+sudo systemctl start nf
+# or we can use `sudo systemctl start nf.service`
+
+# See status, logs from the program, age of the process (since last start), and more:
+sudo systemctl status nf
+
+# You can follow live logs for the service via (node: order of options i.e, -fu is important), src: https://superuser.com/a/1292767/776589
+# fyi: This keeps logging output if you restart the service via: `sudo systemctl restart nf` yikes!!!
+journalctl -fu nf
+
+# Fyi: you can setup this service to run on system startup as well
+sudo systemctl enable nf
+```
+
+Now we can check if the dates are added in the `/tmp/tmp` file by
+
+```bash
+cat /tmp/tmp
+```
+
+## Want to know your disk usage and free disk space
+
+```bash
+diskUsage
+# Output:
+# Filesystem      Size  Used Avail Use% Mounted on
+# dev             3.9G     0  3.9G   0% /dev
+# run             3.9G  1.8M  3.9G   1% /run
+# /dev/sdb3        90G   66G   20G  78% /
+# tmpfs           3.9G  104M  3.8G   3% /dev/shm
+# tmpfs           3.9G   26M  3.9G   1% /tmp
+# /dev/sdb4       133G  120G  6.0G  96% /home
+# /dev/sdb1       197M  142K  197M   1% /boot/EFI
+# /dev/sda4       120G   32K  120G   1% /mnt/sda4
+# /dev/sda3       113G   65G   43G  61% /mnt/sda3
+# /dev/sda2       434G  1.2G  433G   1% /mnt/sda2
+# /dev/sda5       252G  8.9G  243G   4% /mnt/sda5
+# tmpfs           785M   28K  785M   1% /run/user/1000
+
+type diskUsage
+# diskUsage is aliased to `df -h'
+```
 
 ## Q. Why vim freezes when I press `ctrl+s` in some versions of debian/ubuntu/rapberryos ?
 
@@ -62,9 +198,15 @@ mktemp
 
 # Usage in scripts:
 cache=$(mktemp)
+
+# Set trap to clean up file
+trap 'rm -f -- "$TMP_FILE"' EXIT
+
 # You may use this newly created file now.
 #### after work done use below command to remove the file
 rm -f ${cookie_file}
+
+# motivation: https://www.cyberciti.biz/tips/shell-scripting-bash-how-to-create-temporary-random-file-name.html?utm_source=Social_Media&utm_medium=Twitter&utm_campaign=May_06_2022
 ```
 
 ## Some GNU core utils like `uname`, `hostname`, `basename`, `dirname` and `logname`

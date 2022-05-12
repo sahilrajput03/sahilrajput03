@@ -24,6 +24,62 @@ makepkg -si
 yay -S telegram-cli-git
 ```
 
+
+## Install figlet
+
+Source: https://archlinux.org/packages/extra/x86_64/figlet/
+
+```bash
+sudo pacman -S figlet
+
+# Usage:
+figlet I am superman!
+# Output:
+#  ___                                                                     _
+# |_ _|   __ _ _ __ ___    ___ _   _ _ __   ___ _ __ _ __ ___   __ _ _ __ | |
+#  | |   / _` | '_ ` _ \  / __| | | | '_ \ / _ \ '__| '_ ` _ \ / _` | '_ \| |
+#  | |  | (_| | | | | | | \__ \ |_| | |_) |  __/ |  | | | | | | (_| | | | |_|
+# |___|  \__,_|_| |_| |_| |___/\__,_| .__/ \___|_|  |_| |_| |_|\__,_|_| |_(_)
+                                |_|
+# It is very similar to cowsay!
+```
+
+## Install Drakula theme for `gitk` - an amazing git diff viewer
+
+Source: https://draculatheme.com/gitk
+
+```bash
+cd ~/test
+
+git clone https://github.com/dracula/gitk.git
+mkdir ~/git
+cp gitk/gitk ~/git/
+
+# Now if you use
+gitk
+# you'll notice beautiful drakula theme.
+##FYI: I changed colors of normal git diff as well so now command line `git diff` simply looks super nice as well.
+## USING gitk is super amazing with dracula and in its asthetics though.
+```
+
+## Install `tk` to fix `gitk`
+
+Using `gitk` (a gui tool for git, really good imo ~Sahil), I encountered error i.e.,
+
+```bash
+gitk
+# Output: /usr/bin/gitk: line 3: exec: wish: not found.
+
+
+# So I FIXED it by installing `tk`
+sudo pacman -S tk
+# src: https://bbs.archlinux.org/viewtopic.php?id=78595
+```
+
+## You cannot use ctrl+tab or ctrl+shift+tab to switch tmux-windows in xfce-terminal!
+
+Source: https://superuser.com/questions/1088058/how-can-i-bind-a-key-shortcut-that-includes-a-tab
+
 ## Why Flameshot?
 
 Source: [https://github.com/sahilrajput03/sahilrajput03/blob/master/README.md#why-flameshot](https://github.com/sahilrajput03/sahilrajput03/blob/master/README.md#why-flameshot)
@@ -1012,6 +1068,13 @@ sudo pacman -U ./autojump-22.5.3-9-any.pkg.tar.zst
 #Now restarting the terminal make me use it via:
 j <anyRecentlyUsedFolderName>
 ```
+
+**Q. Why autojump is awesome?**
+
+*Ans. Coz it also does this:*
+
+![image](https://user-images.githubusercontent.com/31458531/167282003-5af0f4bd-06f5-4c68-accc-80a85d6669a0.png)
+
 
 ## Installed mutt - a cli email client utility
 
