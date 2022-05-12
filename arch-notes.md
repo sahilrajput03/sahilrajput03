@@ -8,6 +8,22 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## installed yaourt
+
+```bash
+yay -S package-query
+
+git clone https://aur.archlinux.org/yaourt.git
+cd yaourt
+makepkg -si
+```
+
+## Installed `telegram-cli-git`
+
+```bash
+yay -S telegram-cli-git
+```
+
 ## Why Flameshot?
 
 Source: [https://github.com/sahilrajput03/sahilrajput03/blob/master/README.md#why-flameshot](https://github.com/sahilrajput03/sahilrajput03/blob/master/README.md#why-flameshot)

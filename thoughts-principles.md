@@ -101,3 +101,19 @@ Every great artist had one thing in common i.e., relentless hard wordk ~ Raj Sha
 If you are willing enjoy your dreams before thry happen then time is only barrier, and even that keeps diminishing if you work relentlessly.
 
 You can only liberate if you solve your problems ~ Sahil
+
+Repetition is most underrated thing.
+
+I am desensitized to ambiguity in general. LEARN: Desensitized means having been made less sensitive.
+
+The fastest way to learn something is to copy something and understand how it was made. ~ Varun Mayya
+
+Analysis paralysis is an inability to make a decision due to over-thinking a problem.
+
+Play indoor games: Chess, Pictionary, Badminton(LOL).
+
+Adopting the right attitude can convert negative stress into positive one.
+
+Confused ? Da Vincian Technique: Ask yourself a 100 questiong and answer them anytime in the day you want.
+
+Creativity is combining work and fun.
