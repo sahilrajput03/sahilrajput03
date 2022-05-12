@@ -107,6 +107,14 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Freelancing:** [Click here](free-lancing.md)
 - **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
 
+## Why and how I love and hate `jest` ?
+
+Love: Bcoz its assertion i.e., [expect](https://www.npmjs.com/package/expect) and [expect's docs](https://jestjs.io/docs/expect) is open source. So this allows me to use their assertions in my own test runner library. Yikes!
+
+Hate: Jest's test runner has no capability to share values and module between tests suites in watch mode. [Issue closed here](https://github.com/facebook/jest/issues/6800). But it seems that work is going on this [issue here](https://github.com/facebook/jest/issues/7184).
+
+Q. Anyway what are mockig really useful for like this library [nock](https://github.com/nock/nock) ? ~ Sahil
+
 ## What is a/ and b/ in `git diff` command?
 
 Source: https://stackoverflow.com/a/6764988/10012446
