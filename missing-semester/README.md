@@ -10,3 +10,22 @@
 - Lecture 8 - Metaprogramming
 - Lecture 9 - Security and Cryptography
 - Lecture 10 - Q&A
+
+
+# Run a script over ssh on a remote computer
+
+File `a.sh`
+
+```bash
+cat a.sh
+# Output
+#!/bin/bash
+echo $(date) >> /tmp/a
+```
+
+**Executing**
+
+```bash
+ssh pi 'bash' < a.sh
+# src: https://stackoverflow.com/a/2732991/10012446
+```
