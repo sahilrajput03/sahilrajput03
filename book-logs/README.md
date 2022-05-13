@@ -1,11 +1,14 @@
 # Books 
 
 - The Code Book - [Download](the-code-book.md)
-- Free as in Freedom ~ Richard Stallman (Founder of GNU/GPL ad Free Software Foundation)
-- Pyjama Profit ~ Abhinav Chhikara and Varun Mayya
 - Eloquent Javascript
-- 7 Habits of highly Effective People
 - Power of Subconscious Mind
+- Alchemist
+- The Autobiography of a yogi
+- Free as in Freedom ~ Richard Stallman (Founder of GNU/GPL ad Free Software Foundation)
+- 7 Habits of highly Effective People
+- Pyjama Profit ~ Abhinav Chhikara and Varun Mayya
+- How to think like Leonardo
 
 ***How can one read fast ?***
 - Listen to book while reading (Google Play Books and [Amazong Kindle - Android App](https://play.google.com/store/apps/details?id=com.amazon.kindle&hl=en_IN&gl=US)*). I am talking about Amazon Kindle device and sadly Amazon Kindle android app doesn't have this feature though)
