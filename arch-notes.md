@@ -8,6 +8,25 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## show off hacky hollywood hacking in your terminal
+
+```bash
+yay -S hollywood
+
+# Usage:
+hollywood
+
+sudo pacman -S cmatrix
+# Usage:
+cmatrix
+
+yay -S no-more-secrets
+# Usage
+ls -l | nms
+# You can do sneakers with this as well:
+sneakers
+```
+
 ## not hide tabs in fullscreen in tor browser
 
 Source: https://support.mozilla.org/en-US/questions/1168777
