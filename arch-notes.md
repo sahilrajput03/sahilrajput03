@@ -10,11 +10,25 @@
 
 ## Install pandoc to preview markdown file
 
+Pandoc has 25.5 K github stars. Github: https://github.com/jgm/pandoc
+
+Try pandoc playground @ https://pandoc.org/try
+
 ```bash
 sudo pacman -S pandoc
 
 # Usage
 pandoc -t plain file.md | less
+
+# I have a function to convert markdown to htlm files locally though:
+
+m2htm (){
+	pandoc -t html "$@" > /tmp/v.htm
+	echo Try opening /tmp/v.htm in your browser now!
+}
+
+# USAGE
+# m2htm myFile.md
 ```
 
 ## show off hacky hollywood hacking in your terminal
