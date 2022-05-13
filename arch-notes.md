@@ -16,6 +16,11 @@ pacman -S clang
 # Usage:
 clang-format -i myFile.c
 # -i is for inplace formatting of file(replace existing file).
+
+# Usage: (my bash function, check my .bash_function file)
+clangFormatWatch myFile.c
+# or you can watch for all file as well:
+clangFormatWatchAll
 ```
 
 ## Install gtk4 and develop apps
