@@ -234,14 +234,19 @@ ssh array@arch-os
 
 
 #### for copying files
-scp myFile.md user_name@hostname_or_ip:myFile.md
-# so our file will be copied to home directory of the target user, yo!
-## More example: To copy file to ~/test/boyo.md
-cp MANUAL_PAGES-test.md array@arch-os:test/boyo.md
+# Copy file to home directory of a target user
+scp myFile pi:
+# Learn: The semicolon in above command is necessary.
+
+# Copy and rename file or copy to a target folder
+cp myFile array@arch-os:myFile
+# LEARN: 1: If myFile is a directory in folder in target user's home directory then our file `myFile` will be pasted inside that folder.
+# LEARN: 2: If myFile doesn't exist in target users's home directory then file will be created there.
+# LEARN: 3: If a file already exist in target user's home directory then that file will be overwritten with the content of our source file.
 
 ##USING rsync:
 #>> You can install rsync to archlinux very easily with (sudo pacman -S rsync)
-rsync -avP . user_name@hostname_or_ip:cmd
+rsync -avP . user@hostname:cmd
 #// SO it'll COPY ALL files(wow: including all hidden files that i.e., files starting with . as well) of current folder to cmd folder in remote machine.
 
 ## ALWAYS USE rsync instead of scp coz::
