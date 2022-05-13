@@ -9,6 +9,12 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Top 5 virtual machines softwares in industry
+
+- https://linuxways.net/centos/top-5-open-source-virtualization-software-for-linux/
+- Vagrant and its alternatives: https://stackshare.io/vagrant/alternatives
+- Docker vs. Vagrant: https://keyua.org/blog/docker-vs-vagrant-for-development/
+
 ## Why install `ubuntu-server` on kvm machines?
 
 It comes with tmux builtin so its fun!
