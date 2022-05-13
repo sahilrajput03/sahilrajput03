@@ -25,6 +25,10 @@ clangFormatWatchAll
 
 ## Install gtk4 and develop apps
 
+List of applications made using gtk: https://en.wikipedia.org/wiki/List_of_GTK_applications
+
+[@Gitlab](https://gitlab.gnome.org/GNOME/gtk), [@Github](https://github.com/GNOME/gtk)
+
 ```bash
 sudo pacman -S gtk4
 
