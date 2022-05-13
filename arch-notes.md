@@ -8,6 +8,15 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install gtk4 and develop apps
+
+```bash
+sudo pacman -S gtk4
+
+# Usage:
+# Checkout my gtkmon script from `.bash_function` script for a watching service.
+```
+
 ## Install pandoc to preview markdown file
 
 Pandoc has 25.5 K github stars. Github: https://github.com/jgm/pandoc
