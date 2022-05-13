@@ -107,6 +107,49 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Learn Freelancing:** [Click here](free-lancing.md)
 - **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
 
+## recent comment backup
+
+**Originally [posted here](https://github.com/facebook/jest/issues/8708#issuecomment-1125399375).**
+
+I am pretty noob js developer but I made something up that ***solves\**** this issue. *And please don't critize I just mean to present a solution for curious people by this comment.*
+
+`*` means solving with *my own test runner* ***not with*** *jest runner*.
+
+`flash` is my test runner I created few days back, to test this you need below setup:
+
+```bash
+git clone https://github.com/sahilrajput03/flash
+cd flash && npm link
+cd ..
+
+git clone https://github.com/sahilrajput03/learning-monogo-and-mongoosejs
+cd learning-monogo-and-mongoosejs/mongoosejs-with-hot-flash
+npm i && npm link flash
+npm start
+```
+
+Now if you edit code in `code.js`, then you database connection won't be thrown away but reused thus giving you a lightning fast TDD experience with no connection loosing on running tests while in watch mode.
+
+
+## Why and how I love and hate `jest` ?
+
+Love: Bcoz its assertion i.e., [expect](https://www.npmjs.com/package/expect) and [expect's docs](https://jestjs.io/docs/expect) is open source. So this allows me to use their assertions in my own test runner library. Yikes!
+
+I.e.,
+
+```bash
+npm i expect
+```
+
+```js
+const {expect} = require('expect')
+expect('1').toBe('2') // throws error just like jest does!
+````
+
+Hate: Jest's test runner has no capability to share values and module between tests suites in watch mode. [Issue closed here](https://github.com/facebook/jest/issues/6800). But it seems that work is going on this [issue here](https://github.com/facebook/jest/issues/7184).
+
+Q. Anyway what are mockig really useful for like this library [nock](https://github.com/nock/nock) ? ~ Sahil
+
 ## What is a/ and b/ in `git diff` command?
 
 Source: https://stackoverflow.com/a/6764988/10012446
