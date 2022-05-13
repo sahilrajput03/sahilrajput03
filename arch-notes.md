@@ -10,6 +10,8 @@
 
 ## show off hacky hollywood hacking in your terminal
 
+Source: https://www.youtube.com/watch?v=RUlhGpDF25E
+
 ```bash
 yay -S hollywood
 
@@ -26,6 +28,13 @@ ls -l | nms
 # You can do sneakers with this as well:
 sneakers
 ```
+
+Some websites:
+
+1. https://hackertyper.net/
+2. http://geektyper.com/
+3. https://geekprank.com/hacker/
+4. http://fakeupdate.net/
 
 ## not hide tabs in fullscreen in tor browser
 
