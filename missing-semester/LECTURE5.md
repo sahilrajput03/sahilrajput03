@@ -233,7 +233,7 @@ ssh array@arch-os
 
 
 
-#### for copying files
+#### FOR COPYING FILES #####
 # Copy file to home directory of a target user
 scp myFile pi:
 # Learn: The semicolon in above command is necessary.
@@ -243,6 +243,10 @@ cp myFile array@arch-os:myFile
 # LEARN: 1: If myFile is a directory in folder in target user's home directory then our file `myFile` will be pasted inside that folder.
 # LEARN: 2: If myFile doesn't exist in target users's home directory then file will be created there.
 # LEARN: 3: If a file already exist in target user's home directory then that file will be overwritten with the content of our source file.
+
+# Copy to a absolute path
+scp 2.png pi:/tmp
+# Learn: File will be created inside /tmp folder in targer user.
 
 ##USING rsync:
 #>> You can install rsync to archlinux very easily with (sudo pacman -S rsync)
