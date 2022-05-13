@@ -8,6 +8,16 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## format c/c++/other c family languages code
+
+```bash
+pacman -S clang
+
+# Usage:
+clang-format -i myFile.c
+# -i is for inplace formatting of file(replace existing file).
+```
+
 ## Install gtk4 and develop apps
 
 ```bash
