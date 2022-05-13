@@ -106,6 +106,7 @@ Youtube - [https://www.youtube.com/watch?v=gwlDorikqgY](https://www.youtube.com/
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
 - **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
+- **Why kubernetes?** [Click here](why-kubernetes.md)
 
 ## recent comment backup
 
