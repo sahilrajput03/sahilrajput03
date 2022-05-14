@@ -78,6 +78,13 @@ cat /dev/null
 - **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
 - **Why kubernetes?** [Click here](why-kubernetes.md)
 
+## programming, scripting, and markup languages?
+
+
+## collaborative work management tool
+
+![image](https://user-images.githubusercontent.com/31458531/168420449-ae834726-838c-4b63-b87b-c67cd3b09d12.png)
+
 ## recent comment backup
 
 **Originally [posted here](https://github.com/facebook/jest/issues/8708#issuecomment-1125399375).**
