@@ -82,6 +82,8 @@ cat /dev/null
 
 Browse @ https://www.npmjs.com/package/flash-runner
 
+Github @ https://github.com/sahilrajput03/flash-runner-npm
+
 ```bash
 npm i flash-runner
 ```
