@@ -84,7 +84,7 @@ cat /dev/null
 
 We use them by definig their file path in `package.json` file. Below project is [here](https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/exercise-13.4-blogs/package.json). Look for `dev` and `dev2` scripts below and their respective comments as well.
 
-![image](https://user-images.githubusercontent.com/31458531/168874927-c0c510e5-bc0a-4498-8a8a-ca1d2334d349.png)
+![image](https://user-images.githubusercontent.com/31458531/168875386-fb0d6b11-4b3d-4061-a73f-d53599a4f394.png)
 
 
 ## created `flash-runner` npm package
