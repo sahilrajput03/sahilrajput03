@@ -673,26 +673,9 @@ https://stackoverflow.com/a/17516733/10012446
 
 Src: https://futurestud.io/tutorials/download-files-images-with-axios-in-node-js
 
-## Fast reading
+## bus factor
 
-**[Shift Reader](https://chrome.google.com/webstore/detail/shiftreader-speed-read-th/clcbpepidaphghjahkionjhffkolcpek/related?hl=en)**: An amazing fast text reader tool as chrome extension.
-
-ALL YOU NEED TO DO IS:
-
-- Select some text and select **Read selection in ShiftReader** in the menu.
-- OR you may click on the **blue square box icon on in the extension to activate** it.
-- You can use **up(increase WPM by 50)/down(decrease WPM by 50) arrows** as well.
-- You can use mouse to **click a word to start reading from there.**
-
-other tools if you wanna try:
-
-1. [ReadFast powered by Spritz](https://chrome.google.com/webstore/detail/readfast-powered-by-sprit/blbpafkooanpdcdcndkcckblghjddpke/related?hl=en)
-2. [Read fast - Speed Reading Extension](https://chrome.google.com/webstore/detail/read-fast-speed-reading-e/pnffahcjemjliibgcafjpklgmbeknldi?hl=en) (haven't tried at all)
-3. Article on fast reading apps [here](https://www.readlax.com/blog/en/5_speed_reading_extensions_chrome).
-
-The coolest thing about this is that we can easily read pds with this extension, we only need to select a piece of text (say ten pages) and then right click and select 
-
-**bus factor**: *[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Bus_factor)*
+*[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Bus_factor)*
 
 The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase "in case they get hit by a bus". It is also known as the bus problem, lottery factor, truck factor,[1] bus/truck number, or lorry factor. 
 
