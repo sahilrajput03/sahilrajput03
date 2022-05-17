@@ -86,6 +86,10 @@ We use them by definig their file path in `package.json` file. Below project is 
 
 ![image](https://user-images.githubusercontent.com/31458531/168875386-fb0d6b11-4b3d-4061-a73f-d53599a4f394.png)
 
+**FYI: To make the env file provided as argument is implemented via `dotenv` like this:**
+
+![image](https://user-images.githubusercontent.com/31458531/168875657-86ff117d-46a9-4bc7-84f9-af9f1ee7e1bf.png)
+
 
 ## created `flash-runner` npm package
 
