@@ -31,7 +31,7 @@ ALL YOU NEED TO DO IS:
 - You can use **up(increase WPM by 50)/down(decrease WPM by 50) arrows** as well.
 - You can use mouse to **click a word to start reading from there.**
 
-other tools if you wanna try:
+Other tools if you wanna try:
 
 1. [Read Aloud: A Text to Speech Voice Reader ~ Amazing](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en)
 2. [ReadFast powered by Spritz](https://chrome.google.com/webstore/detail/readfast-powered-by-sprit/blbpafkooanpdcdcndkcckblghjddpke/related?hl=en)
