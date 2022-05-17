@@ -17,3 +17,26 @@
 - Use [Kindle Web](https://read.amazon.com/kindle-library), though it doesn't support hear to text or RSVP feature but interface is good.
 - See you [Play Books in desktop](https://play.google.com/books) as well. It doesn't support hear to text or RSVP feature yet.
 - [Speed Reading ~ Wikipedia](https://en.wikipedia.org/wiki/Speed_reading)
+
+***Read fast in browser***
+
+
+## Fast reading
+
+**[Shift Reader](https://chrome.google.com/webstore/detail/shiftreader-speed-read-th/clcbpepidaphghjahkionjhffkolcpek/related?hl=en)**: An amazing fast text reader tool as chrome extension.
+
+ALL YOU NEED TO DO IS:
+
+- Select some text and select **Read selection in ShiftReader** in the menu.
+- OR you may click on the **blue square box icon on in the extension to activate** it.
+- You can use **up(increase WPM by 50)/down(decrease WPM by 50) arrows** as well.
+- You can use mouse to **click a word to start reading from there.**
+
+other tools if you wanna try:
+
+1. [ReadFast powered by Spritz](https://chrome.google.com/webstore/detail/readfast-powered-by-sprit/blbpafkooanpdcdcndkcckblghjddpke/related?hl=en)
+2. [Read fast - Speed Reading Extension](https://chrome.google.com/webstore/detail/read-fast-speed-reading-e/pnffahcjemjliibgcafjpklgmbeknldi?hl=en) (haven't tried at all)
+3. Article on fast reading apps [here](https://www.readlax.com/blog/en/5_speed_reading_extensions_chrome).
+4. [Read Aloud: A Text to Speech Voice Reader ~ Amazing](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en)
+
+The coolest thing about this is that we can easily read pds with this extension, we only need to select a piece of text (say ten pages) and then right click and select
