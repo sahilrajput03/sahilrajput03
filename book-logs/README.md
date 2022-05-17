@@ -10,6 +10,8 @@
 - Pyjama Profit ~ Abhinav Chhikara and Varun Mayya
 - How to think like Leonardo
 
+## Reading Techniques and Approaches
+
 ***How can one read fast ?***
 - Listen to book while reading (Google Play Books and [Amazong Kindle - Android App](https://play.google.com/store/apps/details?id=com.amazon.kindle&hl=en_IN&gl=US)*). I am talking about Amazon Kindle device and sadly Amazon Kindle android app doesn't have this feature though)
 - While sending books to Google Play Books you must first convert if pdf to epub (or mobi to epup) so that you can use have text-reflow and "Read aloud" feature available in there.
@@ -19,9 +21,6 @@
 - [Speed Reading ~ Wikipedia](https://en.wikipedia.org/wiki/Speed_reading)
 
 ***Read fast in browser***
-
-
-## Fast reading
 
 **[Shift Reader](https://chrome.google.com/webstore/detail/shiftreader-speed-read-th/clcbpepidaphghjahkionjhffkolcpek/related?hl=en)**: An amazing fast text reader tool as chrome extension.
 
