@@ -9,6 +9,10 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Wow!
+
+**Full 3 hour Bash Scripting course from linuxhint:** [Click here](https://www.youtube.com/watch?v=e7BufAVwDiM).
+
 ## Top 5 virtual machines softwares in industry
 
 - https://linuxways.net/centos/top-5-open-source-virtualization-software-for-linux/
