@@ -33,9 +33,9 @@ ALL YOU NEED TO DO IS:
 
 other tools if you wanna try:
 
-1. [ReadFast powered by Spritz](https://chrome.google.com/webstore/detail/readfast-powered-by-sprit/blbpafkooanpdcdcndkcckblghjddpke/related?hl=en)
-2. [Read fast - Speed Reading Extension](https://chrome.google.com/webstore/detail/read-fast-speed-reading-e/pnffahcjemjliibgcafjpklgmbeknldi?hl=en) (haven't tried at all)
-3. Article on fast reading apps [here](https://www.readlax.com/blog/en/5_speed_reading_extensions_chrome).
-4. [Read Aloud: A Text to Speech Voice Reader ~ Amazing](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en)
+1. [Read Aloud: A Text to Speech Voice Reader ~ Amazing](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en)
+2. [ReadFast powered by Spritz](https://chrome.google.com/webstore/detail/readfast-powered-by-sprit/blbpafkooanpdcdcndkcckblghjddpke/related?hl=en)
+3. [Read fast - Speed Reading Extension](https://chrome.google.com/webstore/detail/read-fast-speed-reading-e/pnffahcjemjliibgcafjpklgmbeknldi?hl=en) (haven't tried at all)
+4. Article on fast reading apps [here](https://www.readlax.com/blog/en/5_speed_reading_extensions_chrome).
 
 The coolest thing about this is that we can easily read pds with this extension, we only need to select a piece of text (say ten pages) and then right click and select
