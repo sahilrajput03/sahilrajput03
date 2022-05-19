@@ -1,6 +1,8 @@
 # Learn github actions
 
-For sample workflow files, refer repos: https://github.com/sahilrajput03/sahilrajput03/, https://github.com/sahilrajput03/devopswithkubernetes, 
+For sample workflow files, refer repos: https://github.com/sahilrajput03/sahilrajput03/, https://github.com/sahilrajput03/devopswithkubernetes
+
+**Learn Act:** [Click here](learn-act.md)
 
 **Quick**
 
