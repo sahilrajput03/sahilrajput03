@@ -79,6 +79,7 @@ cat /dev/null
 - **Why kubernetes?** [Click here](why-kubernetes.md)
 - **How to workrave?** [Click here](why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](modern-software-development-courses.md)
+- **Learn act:** [Click here](learn-act.md)
 
 ## Complete command line solution for nodejs
 
