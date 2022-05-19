@@ -58,3 +58,7 @@ Source: [Docs - Environment variables](https://docs.github.com/en/actions/learn-
 
 ![image](https://user-images.githubusercontent.com/31458531/165926775-3ff09976-e1b4-4dbd-a80f-6881aa963e2b.png)
 
+
+**Creating Secrets in Gihtub Actions**
+
+![image](https://user-images.githubusercontent.com/31458531/169219758-e0808ce0-b582-443b-abc3-3e6d0ad6f2b6.png)
