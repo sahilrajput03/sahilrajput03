@@ -1,5 +1,7 @@
 # Learn github actions
 
+For sample workflow files, refer repos: https://github.com/sahilrajput03/sahilrajput03/, https://github.com/sahilrajput03/devopswithkubernetes, 
+
 **Quick**
 
 - **Workflow Syntax Documentation:** **[Click here to learn every syntax of github actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)**
