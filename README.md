@@ -84,7 +84,7 @@ cat /dev/null
 
 Source: https://www.npmjs.com/package/commander
 
-***22.7k Github Stars, It has more than 73m weekly downloads***
+***22.7k Github Stars, It has more than 73m weekly downloads(from npmjs.com)***
 
 ## Using custom environment files i.e., `.env.dev` or `.env.test`
 
