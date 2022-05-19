@@ -322,7 +322,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
 
   # wallpapers
   sudo pacman -S archlinux-wallpaper
-  # It copies wallpapers in /usr/share/background/archlinux directory
+  # It copies wallpapers in /usr/share/backgrounds/archlinux directory
   
   # firefox
   sudo pacman -S firefox
