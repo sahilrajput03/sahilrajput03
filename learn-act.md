@@ -1,6 +1,6 @@
 ## Learn act
 
-Make a script file i.e., `act.sh`
+Make a script file in root of your repository i.e., `act.sh`
 
 ```bash
 nodemon -x 'act push --insecure-secrets' -w .github/workflows/main.yml
