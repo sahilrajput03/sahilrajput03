@@ -81,6 +81,10 @@ cat /dev/null
 - **Modern Software Development Courses - India:** [Click here](modern-software-development-courses.md)
 - **Learn act:** [Click here](learn-act.md)
 
+## Learn about `express-async-errors` npm package
+
+Go to [https://github.com/sahilrajput03/learn-express](https://github.com/sahilrajput03/learn-express)
+
 ## Complete command line solution for nodejs
 
 Source: https://www.npmjs.com/package/commander
