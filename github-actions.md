@@ -2,7 +2,7 @@
 
 For sample workflow files, refer repos: https://github.com/sahilrajput03/sahilrajput03/, https://github.com/sahilrajput03/devopswithkubernetes
 
-**Learn Act:** [Click here](learn-act.md)
+**Learn Act:** [Click here](learn-act.md) - You may fall a couple of times (often boils down to a billion times failures, so use `act` now!).
 
 **Quick**
 
