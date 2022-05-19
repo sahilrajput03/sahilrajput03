@@ -2,7 +2,7 @@
 
 Make a script file in root of your repository i.e., `act.sh`
 
-*Fyi: It is necessary to run to run act.sh file from the root of the repository.*
+***Fyi: It is necessary to run to run act.sh file from the root of the repository.***
 
 ```bash
 nodemon -x 'act push --insecure-secrets' -w .github/workflows/main.yml
