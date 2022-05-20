@@ -13,3 +13,7 @@ see
 - **7zip tool:** (winrar was always wanted me to buy it, but 7zip is free and felt freedom)
 - **keepass:** an amazing password storing vault which i use for almost 10+ years (this is REAL GOOD THING - everyone should use it, i backup my keepass_database i guess once a while on github repo to use in case my laptop is stolen).
 - **virtual box:** which almost every company uses for virtual machies for its simplicity and  amazingnes(i prefre another linux-only solution i.e, kvm which is also pretty neat).
+
+**Conclusion:**
+
+- Its better to learn using the oss rather then getting hacked with crack softwares.
