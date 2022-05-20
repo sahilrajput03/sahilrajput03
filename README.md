@@ -80,6 +80,7 @@ cat /dev/null
 - **How to workrave?** [Click here](why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](modern-software-development-courses.md)
 - **Learn act:** [Click here](learn-act.md)
+- **Why and how linux?**: [Click here](why-and-how-linux.md)
 
 ## Learn about `express-async-errors` npm package
 
