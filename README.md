@@ -84,7 +84,9 @@ cat /dev/null
 
 ## todo-read
 
-https://engineering.fb.com/2020/08/24/production-engineering/scaling-services-with-shard-manager
+- https://engineering.fb.com/2020/08/24/production-engineering/scaling-services-with-shard-manager
+
+- [Google search](https://www.google.com/search?q=how+companies+manage+lakhs+of+requests+when+nginx+can+handle+max+of+10k+requests&oq=how+companies+manage+lakhs+of+requests+when+nginx+can+handle+max+of+10k+requests&aqs=chrome..69i57.14052j0j1&sourceid=chrome&ie=UTF-8)
 
 ## how to do 10k concurrent or millions of RPS (Requests Per Second)
 
