@@ -2,7 +2,7 @@
 
 ## Faq's
 
-Q. Open source softwares have steep learning curve and are less user friendly! Is it?
+Q. **Open source softwares have steep learning curve and are less user friendly! Is it?**
 
 This is a biased opinon becoz of the less advertisement, awareness of opensource softwares. Actually its not true for every software.. like i used to think like that coz i had no experience with quality and simplicity of opensource softwares before.
 But its not always the case( almost always):
