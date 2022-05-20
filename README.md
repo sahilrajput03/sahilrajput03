@@ -82,6 +82,12 @@ cat /dev/null
 - **Learn act:** [Click here](learn-act.md)
 - **Why and how linux?**: [Click here](why-and-how-linux.md)
 
+## how to do 10k concurrent or millions of RPS (Requests Per Second)
+
+1. https://stackoverflow.com/questions/34855352/how-in-general-does-node-js-handle-10-000-concurrent-requests
+
+2. https://www.quora.com/Is-it-possible-for-server-to-handle-around-100-000-requests-per-second-If-so-which-would-you-recommend
+
 ## Learn about `express-async-errors` npm package
 
 Go to [https://github.com/sahilrajput03/learn-express](https://github.com/sahilrajput03/learn-express)
