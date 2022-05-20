@@ -82,6 +82,10 @@ cat /dev/null
 - **Learn act:** [Click here](learn-act.md)
 - **Why and how linux?**: [Click here](why-and-how-linux.md)
 
+## todo-read
+
+https://engineering.fb.com/2020/08/24/production-engineering/scaling-services-with-shard-manager
+
 ## how to do 10k concurrent or millions of RPS (Requests Per Second)
 
 1. https://stackoverflow.com/questions/34855352/how-in-general-does-node-js-handle-10-000-concurrent-requests
