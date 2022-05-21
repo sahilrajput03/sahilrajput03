@@ -82,6 +82,22 @@ cat /dev/null
 - **Learn act:** [Click here](learn-act.md)
 - **Why and how linux?**: [Click here](why-and-how-linux.md)
 
+## `chalk` usage
+
+Struck at `chalk - Error [ERR_REQUIRE_ESM]: require() of ES Module` ??
+
+```bash
+npm uninstall chalk
+npm i chalk@4.1.2
+```
+
+now you can use:
+
+```js
+const chalk = require('chalk');
+console.log(chalk.blue('Hello world!')); 
+```
+
 ## todo-read
 
 - https://engineering.fb.com/2020/08/24/production-engineering/scaling-services-with-shard-manager
