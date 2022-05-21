@@ -86,6 +86,8 @@ cat /dev/null
 
 Struck at `chalk - Error [ERR_REQUIRE_ESM]: require() of ES Module` ??
 
+Source: https://stackoverflow.com/a/70748594/10012446
+
 ```bash
 npm uninstall chalk
 npm i chalk@4.1.2
