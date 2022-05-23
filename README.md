@@ -82,6 +82,10 @@ cat /dev/null
 - **Learn act:** [Click here](learn-act.md)
 - **Why and how linux?**: [Click here](why-and-how-linux.md)
 
+## write on screen and copy/save the image
+
+Press `prtscr` and press ctrl+a to select all the area on screen and now you can use pencil(P), arrow(A), line(D) and more tools in flameshot.
+
 ## `chalk` usage
 
 Struck at `chalk - Error [ERR_REQUIRE_ESM]: require() of ES Module` ??
