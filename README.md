@@ -81,7 +81,7 @@ cat /dev/null
 - **Modern Software Development Courses - India:** [Click here](modern-software-development-courses.md)
 - **Learn act:** [Click here](learn-act.md)
 - **Why and how linux?** [Click here](why-and-how-linux.md)
-- **Service Worker:** [Click here])(learn-service-worker.md)
+- **Service Worker:** [Click here](learn-service-worker.md)
 - **Wake up:** [Click here](learn-wake-up.md)
 
 ## write on screen and copy/save the image
