@@ -85,6 +85,12 @@ cat /dev/null
 - **Wake up:** [Click here](learn-wake-up.md)
 - **Learn Serverless:** [Click here](learn-serverless.md)
 
+## What is save-exact in .npmrc ?
+
+Source: https://stackoverflow.com/a/64507176/10012446
+
+![image](https://user-images.githubusercontent.com/31458531/170710257-1fb705d6-94ce-4e3b-81ed-7665a8621f09.png)
+
 ## write on screen and copy/save the image
 
 Press `prtscr` and press ctrl+a to select all the area on screen and now you can use pencil(P), arrow(A), line(D) and more tools in flameshot.
