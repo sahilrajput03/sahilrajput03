@@ -89,6 +89,24 @@ cat /dev/null
 
 ![image](https://user-images.githubusercontent.com/31458531/170736427-683d331e-e62f-45bf-a535-8def2355b921.png)
 
+```js
+const target = {};
+
+const handler3 = {
+  get(target, prop, receiver) {
+    return () => console.log('fun?:', prop)
+  },
+};
+
+const proxy3 = new Proxy(target, handler3);
+
+proxy3.a()
+// VM583:5 fun?: a
+
+proxy3.b()
+// VM583:5 fun?: b
+
+```
 
 ## Create live expressions
 
