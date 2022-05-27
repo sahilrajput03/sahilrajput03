@@ -84,6 +84,10 @@ cat /dev/null
 - **Service Worker:** [Click here](learn-service-worker.md)
 - **Wake up:** [Click here](learn-wake-up.md)
 
+## Serverless with aws lambda, Azure functions, google cloud funcitons and more with serverless
+
+serverless [@github](https://github.com/serverless/serverless#quick-start)
+
 ## write on screen and copy/save the image
 
 Press `prtscr` and press ctrl+a to select all the area on screen and now you can use pencil(P), arrow(A), line(D) and more tools in flameshot.
