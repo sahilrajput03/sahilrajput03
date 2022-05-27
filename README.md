@@ -89,6 +89,8 @@ cat /dev/null
 
 Source: https://trpc.io/docs/, Code @ https://github.com/KATT/typescript.careers
 
+Source: https://youtu.be/-_GZJ3xwYOw
+
 Learn: Endpoint caching is possible for get requests only (trpc uses get requests for all requests) and graphql uses post request for all requests so it makes it hard to cache any endpoint request.
 
 ![image](https://user-images.githubusercontent.com/31458531/170722678-3ccf5362-0ace-4f04-a850-c539d04d933c.png)
