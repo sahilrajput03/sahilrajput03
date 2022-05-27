@@ -85,6 +85,12 @@ cat /dev/null
 - **Wake up:** [Click here](learn-wake-up.md)
 - **Learn Serverless:** [Click here](learn-serverless.md)
 
+## Create live expressions
+
+![image](https://user-images.githubusercontent.com/31458531/170735617-2f111de3-b101-4902-9c81-a62279f54a96.png)
+
+This is magically amazing!!
+
 ## magic code for edge caching (setting cache headers)
 
 Source: https://trpc.io/docs/, Code @ https://github.com/KATT/typescript.careers
