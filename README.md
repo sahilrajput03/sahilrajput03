@@ -83,10 +83,7 @@ cat /dev/null
 - **Why and how linux?** [Click here](why-and-how-linux.md)
 - **Service Worker:** [Click here](learn-service-worker.md)
 - **Wake up:** [Click here](learn-wake-up.md)
-
-## Serverless with aws lambda, Azure functions, google cloud funcitons and more with serverless
-
-serverless [@github](https://github.com/serverless/serverless#quick-start)
+- **Learn Serverless:** [Click here](learn-serverless.md)
 
 ## write on screen and copy/save the image
 
