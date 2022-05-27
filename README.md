@@ -85,6 +85,12 @@ cat /dev/null
 - **Wake up:** [Click here](learn-wake-up.md)
 - **Learn Serverless:** [Click here](learn-serverless.md)
 
+## magic code for edge caching (setting cache headers)
+
+Source: https://trpc.io/docs/, Code @ https://github.com/KATT/typescript.careers
+
+![image](https://user-images.githubusercontent.com/31458531/170722678-3ccf5362-0ace-4f04-a850-c539d04d933c.png)
+
 ## Cronjob recommended service
 
 ![image](https://user-images.githubusercontent.com/31458531/170722376-2243331e-8fa5-4388-8db8-e1ac7853f4b7.png)
