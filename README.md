@@ -86,9 +86,6 @@ cat /dev/null
 - **Learn Serverless:** [Click here](learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 
-## Call server functions directly from the client using `api-mount-server` and `api-mount-client`
-
-Source: https://github.com/sahilrajput03/api-mount-example
 
 ## base for server-functions library
 
