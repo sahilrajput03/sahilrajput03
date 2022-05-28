@@ -87,7 +87,7 @@ cat /dev/null
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 
 
-## base for server-functions library
+## Proxy and base-code-structure for any possible server-functions library
 
 ![image](https://user-images.githubusercontent.com/31458531/170736427-683d331e-e62f-45bf-a535-8def2355b921.png)
 
