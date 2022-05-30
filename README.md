@@ -88,13 +88,15 @@ cat /dev/null
 
 ## Handling spa with github pages
 
-Source: https://stackoverflow.com/a/46060999/10012446
+Source: [Stackoverflow Answer](https://stackoverflow.com/a/46060999/10012446)
 
 Demo: https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgraph/spa-github-pages
 
 **tldr;** `404.htm` file: [Click here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html).
 
 And script to be added in `index.html` file
+
+Source: [here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/index.html#L21-L42)
 
 ```html
 <head>
