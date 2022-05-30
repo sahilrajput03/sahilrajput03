@@ -86,6 +86,13 @@ cat /dev/null
 - **Learn Serverless:** [Click here](learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 
+## set input as numeric in forms?
+
+Source: [css-tricks](https://css-tricks.com/finger-friendly-numerical-inputs-with-inputmode/)
+
+```html
+<input inputmode="numeric" type="text" name="creditcard">
+```
 ## Add a npm script via cli
 
 [Source](https://github.com/typicode/husky)
