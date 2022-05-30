@@ -80,6 +80,10 @@ cat /dev/null
 - **How to workrave?** [Click here](why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](modern-software-development-courses.md)
 
+## Make you router page available on the public ip address
+
+You can do this by mapping port of router ip (probably 192.168.18.1) to public ip in your router settings.
+
 ## Using custom environment files i.e., `.env.dev` or `.env.test`
 
 We use them by definig their file path in `package.json` file. Below project is [here](https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/exercise-13.4-blogs/package.json). Look for `dev` and `dev2` scripts below and their respective comments as well.

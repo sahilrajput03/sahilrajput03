@@ -117,3 +117,9 @@ Adopting the right attitude can convert negative stress into positive one.
 Confused ? Da Vincian Technique: Ask yourself a 100 questiong and answer them anytime in the day you want.
 
 Creativity is combining work and fun.
+
+Can we do it or not is not the question. You have to do it.
+
+I am the Master of my Fate, I am the Captain of my Soul.
+
+Don't confuse education with schooling.
