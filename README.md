@@ -88,7 +88,9 @@ cat /dev/null
 
 ## Handling spa with github pages
 
-Source: [Stackoverflow Answer](https://stackoverflow.com/a/46060999/10012446)
+
+
+Source: [Stackoverflow Answer](https://stackoverflow.com/a/46060999/10012446), also from github - [Github 404 Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 
 Demo: https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgraph/spa-github-pages
 
@@ -127,8 +129,6 @@ Source: [here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/index.
 	
 </head>
 ```
-
-Github 404 Docs: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
 
 ## Proxy and base-code-structure for any possible server-functions library
 
