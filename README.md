@@ -94,6 +94,38 @@ Demo: https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgrap
 
 **tldr;** `404.htm` file: [Click here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html).
 
+And script to be added in `index.html` file
+
+```html
+<head>
+...
+...
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+	
+</head>
+```
+
 Github 404 Docs: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
 
 ## Proxy and base-code-structure for any possible server-functions library
