@@ -86,9 +86,15 @@ cat /dev/null
 - **Learn Serverless:** [Click here](learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 
+## Add a npm script via cli
+
+[Source](https://github.com/typicode/husky)
+
+```bash
+npm set-script prepare "husky install"
+```
+
 ## Handling spa with github pages
-
-
 
 Source: [Stackoverflow Answer](https://stackoverflow.com/a/46060999/10012446), also from github - [Github 404 Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 
