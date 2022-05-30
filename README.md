@@ -94,6 +94,7 @@ Demo: https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgrap
 
 **tldr;** `404.htm` file: [Click here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html).
 
+Github 404 Docs: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
 
 ## Proxy and base-code-structure for any possible server-functions library
 
