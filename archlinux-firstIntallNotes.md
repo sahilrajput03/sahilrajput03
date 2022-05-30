@@ -322,7 +322,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
 
   # wallpapers
   sudo pacman -S archlinux-wallpaper
-  # It copies wallpapers in /usr/share/background/archlinux directory
+  # It copies wallpapers in /usr/share/backgrounds/archlinux directory
   
   # firefox
   sudo pacman -S firefox
@@ -425,6 +425,11 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   
   # Set resolution for a montitor
   xrandr -s 1920x1080
+  
+  # For setting resolution for second monitor
+  xrandr --output MONITOR_NAME --mode DESIRED_RESOLUTION
+  # example: (get MONITOR_NAME and DESIRED_RESOLUTION from xrandr command)
+  xrandr --output DP-2-1 --mode 2560x1440
   ```
   
 - Ram usage

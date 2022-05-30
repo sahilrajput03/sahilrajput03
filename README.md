@@ -68,17 +68,174 @@ cat /dev/null
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](favourite-youtube-channels.md)
 - **Learn Web RTC:** [Click here](learn-webrtc.md)
-- **Learn nodejs or anyother development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/nodejs-development-in-docker-container)
+- **Learn nodejs or anyother development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container)
 - **Learn Login flow:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
-- **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too).
+- **Office Utility Tools:** [Document](https://docs.google.com/document/), [Presentation](https://docs.google.com/presentation/), [Spreadsheets](https://docs.google.com/spreadsheets), Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too). [Click here to Read more](learn-google-office-tools.md).
 - **Why kubernetes?** [Click here](why-kubernetes.md)
 - **How to workrave?** [Click here](why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](modern-software-development-courses.md)
+- **Learn act:** [Click here](learn-act.md)
+- **Why and how linux?** [Click here](why-and-how-linux.md)
+- **Service Worker:** [Click here](learn-service-worker.md)
+- **Wake up:** [Click here](learn-wake-up.md)
+- **Learn Serverless:** [Click here](learn-serverless.md)
+- **Calling server functions from client directly:** [Click here](learn-api-mount.md)
+
+## set input as numeric in forms?
+
+Source: [css-tricks](https://css-tricks.com/finger-friendly-numerical-inputs-with-inputmode/)
+
+```html
+<input inputmode="numeric" type="text" name="creditcard">
+```
+## Add a npm script via cli
+
+[Source](https://github.com/typicode/husky)
+
+```bash
+npm set-script prepare "husky install"
+```
+
+## Handling spa with github pages
+
+Source: [Stackoverflow Answer](https://stackoverflow.com/a/46060999/10012446), also from github - [Github 404 Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
+Demo: https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgraph/spa-github-pages
+
+**tldr;** `404.htm` file: [Click here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html).
+
+And script to be added in `index.html` file
+
+Source: [here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/index.html#L21-L42)
+
+```html
+<head>
+...
+...
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+	
+</head>
+```
+
+## Proxy and base-code-structure for any possible server-functions library
+
+![image](https://user-images.githubusercontent.com/31458531/170736427-683d331e-e62f-45bf-a535-8def2355b921.png)
+
+```js
+const target = {};
+
+const handler3 = {
+  get(target, prop, receiver) {
+    return () => console.log('fun?:', prop)
+  },
+};
+
+const proxy3 = new Proxy(target, handler3);
+
+proxy3.a()
+// VM583:5 fun?: a
+
+proxy3.b()
+// VM583:5 fun?: b
+
+```
+
+## Create live expressions
+
+![image](https://user-images.githubusercontent.com/31458531/170735617-2f111de3-b101-4902-9c81-a62279f54a96.png)
+
+This is magically amazing!!
+
+## magic code for edge caching (setting cache headers)
+
+Source: https://trpc.io/docs/, Code @ https://github.com/KATT/typescript.careers
+
+Source: https://youtu.be/-_GZJ3xwYOw
+
+Learn: Endpoint caching is possible for get requests only (trpc uses get requests for all requests) and graphql uses post request for all requests so it makes it hard to cache any endpoint request.
+
+![image](https://user-images.githubusercontent.com/31458531/170722678-3ccf5362-0ace-4f04-a850-c539d04d933c.png)
+
+## Cronjob recommended service
+
+![image](https://user-images.githubusercontent.com/31458531/170722376-2243331e-8fa5-4388-8db8-e1ac7853f4b7.png)
+
+
+## What is save-exact in .npmrc ?
+
+Source: https://stackoverflow.com/a/64507176/10012446
+
+![image](https://user-images.githubusercontent.com/31458531/170710257-1fb705d6-94ce-4e3b-81ed-7665a8621f09.png)
+
+## write on screen and copy/save the image
+
+Press `prtscr` and press ctrl+a to select all the area on screen and now you can use pencil(P), arrow(A), line(D) and more tools in flameshot.
+
+## `chalk` usage
+
+Struck at `chalk - Error [ERR_REQUIRE_ESM]: require() of ES Module` ??
+
+Source: https://stackoverflow.com/a/70748594/10012446
+
+```bash
+npm uninstall chalk
+npm i chalk@4.1.2
+```
+
+now you can use:
+
+```js
+const chalk = require('chalk');
+console.log(chalk.blue('Hello world!')); 
+```
+
+## todo-read
+
+- https://engineering.fb.com/2020/08/24/production-engineering/scaling-services-with-shard-manager
+
+- [Google search](https://www.google.com/search?q=how+companies+manage+lakhs+of+requests+when+nginx+can+handle+max+of+10k+requests&oq=how+companies+manage+lakhs+of+requests+when+nginx+can+handle+max+of+10k+requests&aqs=chrome..69i57.14052j0j1&sourceid=chrome&ie=UTF-8)
+
+## how to do 10k concurrent or millions of RPS (Requests Per Second)
+
+1. https://stackoverflow.com/questions/34855352/how-in-general-does-node-js-handle-10-000-concurrent-requests
+
+2. https://www.quora.com/Is-it-possible-for-server-to-handle-around-100-000-requests-per-second-If-so-which-would-you-recommend
+
+## Learn about `express-async-errors` npm package
+
+Go to [https://github.com/sahilrajput03/learn-express](https://github.com/sahilrajput03/learn-express)
+
+## Complete command line solution for nodejs
+
+Source: https://www.npmjs.com/package/commander
+
+***22.7k Github Stars, It has more than 73m weekly downloads(from npmjs.com)***
 
 ## Make you router page available on the public ip address
 
@@ -1558,6 +1715,13 @@ b.then(
 ```
 
 [promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all): method takes an iterable of promises as an input, and returns a single Promise that resolves to an array of the results of the input promises. This returned promise will resolve when all of the input's promises have resolved, or if the input iterable contains no promises. It rejects immediately upon any of the input promises rejecting or non-promises throwing an error, and will reject with this first rejection message / error.) The Promise.all() method takes an iterable of promises as an input, and returns a single Promise that resolves to an array of the results of the input promises. This returned promise will resolve when all of the input's promises have resolved, or if the input iterable contains no promises. It rejects immediately upon any of the input promises rejecting or non-promises throwing an error, and will reject with this first rejection message / error.
+
+![image](https://user-images.githubusercontent.com/31458531/169245193-e882a642-1547-433c-a2df-b1a51f63d30f.png)
+
+**Sequential way of executing promises:**
+
+![image](https://user-images.githubusercontent.com/31458531/169245461-c3d92c61-1ffd-48ca-9d47-9eaab48c1926.png)
+
 
 [promise.allSettled](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled) (my favourite ~Sahil): The Promise.allSettled() method returns a promise that resolves after all of the given promises have either fulfilled or rejected, with an array of objects that each describes the outcome of each promise. >>>> It is typically used when you have multiple asynchronous tasks that are not dependent on one another to complete successfully, or you'd always like to know the result of each promise. >>>> In comparison, the Promise returned by Promise.all() may be more appropriate if the tasks are dependent on each other / if you'd like to immediately reject upon any of them rejecting.
 
