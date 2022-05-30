@@ -92,6 +92,10 @@ cat /dev/null
 
 ![image](https://user-images.githubusercontent.com/31458531/170984688-c52de1b8-04cb-48bf-9d69-c3a303d3921b.png)
 
+**FYI-Using builtin abort controller in react-query**
+
+![image](https://user-images.githubusercontent.com/31458531/170984979-03863e13-2f25-4452-96b9-73e4dc729dfd.png)
+
 
 ## set input as numeric in forms?
 
