@@ -90,6 +90,9 @@ cat /dev/null
 
 https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgraph/spa-github-pages
 
+tldr;
+
+`404.htm` file: [Click here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html).
 
 ## Proxy and base-code-structure for any possible server-functions library
 
