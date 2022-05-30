@@ -88,11 +88,12 @@ cat /dev/null
 
 ## Handling spa with github pages
 
-https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgraph/spa-github-pages
+Source: https://stackoverflow.com/a/46060999/10012446
 
-tldr;
+Demo: https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgraph/spa-github-pages
 
-`404.htm` file: [Click here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html).
+**tldr;** `404.htm` file: [Click here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html).
+
 
 ## Proxy and base-code-structure for any possible server-functions library
 
