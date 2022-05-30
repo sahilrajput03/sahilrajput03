@@ -584,7 +584,7 @@ Official Go Playground: [go.dev/play](https://go.dev/play/)
 
 Source: [Hackerrank article](https://news.ycombinator.com/item?id=31163709)
 
-Source: https://www.youtube.com/watch?v=yyUHQIec83I (An amazing video to watch for learning all the stuff of go including packaging/module stuff).
+Source: [Golang Tutorial for Beginners | Full Go Course by TechWorld with Nana](https://www.youtube.com/watch?v=yyUHQIec83I) (An amazing video to watch for learning all the stuff of go including packaging/module stuff).
 
 ![image](https://user-images.githubusercontent.com/31458531/170996783-90552895-0620-436d-81c3-53446ec2d695.png)
 
