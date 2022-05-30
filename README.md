@@ -86,6 +86,10 @@ cat /dev/null
 - **Learn Serverless:** [Click here](learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 
+## Handling spa with github pages
+
+https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgraph/spa-github-pages
+
 
 ## Proxy and base-code-structure for any possible server-functions library
 
