@@ -86,6 +86,13 @@ cat /dev/null
 - **Learn Serverless:** [Click here](learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 
+## Pwa Install prompt?
+
+![image](https://user-images.githubusercontent.com/31458531/171325652-cfa22a33-8914-4982-a3a6-afc64f1caa6b.png)
+
+![image](https://user-images.githubusercontent.com/31458531/171325692-43232c9e-4d31-4ae7-9351-2ef7adf636bf.png)
+
+
 ## Using abort controller with react!
 
 [Source@timestamped](https://youtu.be/95B8mnhzoCM?t=188)
