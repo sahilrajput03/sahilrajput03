@@ -92,6 +92,11 @@ cat /dev/null
 
 ![image](https://user-images.githubusercontent.com/31458531/171325692-43232c9e-4d31-4ae7-9351-2ef7adf636bf.png)
 
+Most of times apps can be pwa @ playstore:
+
+![image](https://user-images.githubusercontent.com/31458531/171392453-2ef29470-c8d3-4ea8-90bd-eff5ce9ebd08.png)
+
+
 
 ## Using abort controller with react!
 
