@@ -92,9 +92,13 @@ cat /dev/null
 
 ![image](https://user-images.githubusercontent.com/31458531/171325692-43232c9e-4d31-4ae7-9351-2ef7adf636bf.png)
 
-Most of times apps can be pwa @ playstore:
+**Most of times apps can be pwa @ playstore:**
+
+Src: https://www.youtube.com/watch?v=cybhV88KLfI
 
 ![image](https://user-images.githubusercontent.com/31458531/171392453-2ef29470-c8d3-4ea8-90bd-eff5ce9ebd08.png)
+
+This is pretty solid(coz it can generate apk{for playstore distributio}, appix{for windows stores} and ios packages as well for ios store ditribution, BUT USING MY OWN WAY OF APK DEVELOPMENT IS BEST ~ IMO ~ SAHIL): ![image](https://user-images.githubusercontent.com/31458531/171392987-aee47d6a-fd0b-4702-9369-8268e9519e74.png)
 
 
 
