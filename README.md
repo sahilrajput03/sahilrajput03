@@ -87,6 +87,9 @@ cat /dev/null
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
 
+## Whatsapp chatbots made easy!
+
+[How to Create & Test your WhatsApp Chatbot (No Coding)](https://www.youtube.com/watch?v=kQ355IyazZQ)
 
 ## Pwa Install prompt?
 
