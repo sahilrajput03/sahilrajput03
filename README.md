@@ -85,6 +85,8 @@ cat /dev/null
 - **Wake up:** [Click here](learn-wake-up.md)
 - **Learn Serverless:** [Click here](learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
+- **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
+
 
 ## Pwa Install prompt?
 
