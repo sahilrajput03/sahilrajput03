@@ -87,6 +87,10 @@ cat /dev/null
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
 
+## Structure for expressjs + sequelize setup (multi models + controllers setup)
+
+https://github.com/fullstack-hy/part13-notes/tree/part13-2
+
 ## Whatsapp chatbots made easy!
 
 [How to Create & Test your WhatsApp Chatbot (No Coding)](https://www.youtube.com/watch?v=kQ355IyazZQ)
