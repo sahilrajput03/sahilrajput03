@@ -536,7 +536,12 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   
 - Install more utility AUR PACKAGES
-  ```
+  
+  ```bash
+  ## FYI: With yay
+  yay -S visual-studio-code-bin
+  
+  # OR INSTALL VIA AUR MANUALLY:
   git clone visual-studio-code-bin_AUR_URL
   cd visual-studio-code-bin
   makepkg -si
@@ -544,18 +549,13 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # Usage
   code
   
+  ```
   
-  
-  
+  ```bash
   # Install slack
   git clone slack-desktop_AUR_URL
   cd slack-desktop
   makepkg -si 
-  
-  
-  
-  
-  
   ```
   
 - Get your ip addresses?
