@@ -87,6 +87,11 @@ cat /dev/null
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
 
+## Why tdd with backend development?
+
+- headaches are avoidable when developing one route can effect functionality of multiple routes
+- almost 5x faster development speed throughtout the lifetime of the project
+
 ## Structure for expressjs + sequelize setup (multi models + controllers setup)
 
 https://github.com/fullstack-hy/part13-notes/tree/part13-2
