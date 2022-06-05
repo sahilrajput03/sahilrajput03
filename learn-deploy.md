@@ -191,3 +191,9 @@ You can use `CNAME` like below **(disadvantage is we can't redirect top level do
 **This is great site for checking current dns setting of a domain:** https://www.dns.computer/check/pintak22.ml .
 
 **Dynamic dns for cloudns**: To be done so that i may update my `A record` to point to my public ip directly using their ddns service (INSTEAD of current setup i.e, using cloudns's domain as cname for each of the domain I have) leveragin @ https://www.cloudns.net/wiki/article/36/
+
+
+## Fyi freenom domains work good with pwa install popups ?
+
+Yes, absolutely. The key thing is that you must know how to debug pwa Installer Popup with lighthouse and fulfill those requirements. The thing I was haivng issue on this day(1 June, 2022) is that I was not adding a service worker to the app and that was necessary to get Installer Popup work as informed by the Lighthouse debugging in chrome devtools.
+![image](https://user-images.githubusercontent.com/31458531/171352768-5a66dea9-270e-4056-b4b6-481c937eb510.png)

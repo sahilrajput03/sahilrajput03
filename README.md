@@ -85,6 +85,47 @@ cat /dev/null
 - **Wake up:** [Click here](learn-wake-up.md)
 - **Learn Serverless:** [Click here](learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
+- **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
+
+## Why tdd with backend development?
+
+- headaches are avoidable when developing one route can effect functionality of multiple routes
+- almost 5x faster development speed throughtout the lifetime of the project
+
+## Structure for expressjs + sequelize setup (multi models + controllers setup)
+
+https://github.com/fullstack-hy/part13-notes/tree/part13-2
+
+## Whatsapp chatbots made easy!
+
+[How to Create & Test your WhatsApp Chatbot (No Coding)](https://www.youtube.com/watch?v=kQ355IyazZQ)
+
+## Pwa Install prompt?
+
+![image](https://user-images.githubusercontent.com/31458531/171325652-cfa22a33-8914-4982-a3a6-afc64f1caa6b.png)
+
+![image](https://user-images.githubusercontent.com/31458531/171325692-43232c9e-4d31-4ae7-9351-2ef7adf636bf.png)
+
+**Most of times apps can be pwa @ playstore:**
+
+Src: https://www.youtube.com/watch?v=cybhV88KLfI
+
+![image](https://user-images.githubusercontent.com/31458531/171392453-2ef29470-c8d3-4ea8-90bd-eff5ce9ebd08.png)
+
+This is pretty solid(coz it can generate apk{for playstore distributio}, appix{for windows stores} and ios packages as well for ios store ditribution, BUT USING MY OWN WAY OF APK DEVELOPMENT IS BEST ~ IMO ~ SAHIL): ![image](https://user-images.githubusercontent.com/31458531/171392987-aee47d6a-fd0b-4702-9369-8268e9519e74.png)
+
+
+
+## Using abort controller with react!
+
+[Source@timestamped](https://youtu.be/95B8mnhzoCM?t=188)
+
+![image](https://user-images.githubusercontent.com/31458531/170984688-c52de1b8-04cb-48bf-9d69-c3a303d3921b.png)
+
+**FYI-Using builtin abort controller in react-query**
+
+![image](https://user-images.githubusercontent.com/31458531/170984979-03863e13-2f25-4452-96b9-73e4dc729dfd.png)
+
 
 ## set input as numeric in forms?
 
@@ -572,6 +613,11 @@ Official Go Playground: [go.dev/play](https://go.dev/play/)
 - https://github.com/ahmdrefat/awesome-koans/blob/master/koans-en.md
 
 Source: [Hackerrank article](https://news.ycombinator.com/item?id=31163709)
+
+Source: [Golang Tutorial for Beginners | Full Go Course by TechWorld with Nana](https://www.youtube.com/watch?v=yyUHQIec83I) (An amazing video to watch for learning all the stuff of go including packaging/module stuff).
+
+![image](https://user-images.githubusercontent.com/31458531/170996783-90552895-0620-436d-81c3-53446ec2d695.png)
+
 
 ## Setting size of image in github markdown
 
