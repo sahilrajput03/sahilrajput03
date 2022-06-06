@@ -87,6 +87,43 @@ cat /dev/null
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
 
+## Promisification
+
+https://javascript.info/promisify
+
+https://www.tutorialspoint.com/node-js-util-promisify-method
+
+In `nodejs`: We have `util.promisify` buitin method basically takes a function as an input that follows the common Node.js callback style, i.e., with a (err, value) and returns a version of the same that returns a promise instead of a callback.
+
+```js
+import { readFile } from 'node:fs';
+
+
+let callback =  (err, data) => {
+  if (err) throw err;
+  console.log(data);
+}
+
+// Callback Usage:
+readFile('/etc/passwd', callback); // OR 
+readFile('/etc/passwd', 'utf8', callback);
+
+// Making use of util.promisify
+const util = require('node:util');
+
+// Reading the file using a promise & printing its text
+const readFileSync = util.promisify(fs.readFile);
+readFileSync('./promisify.js', 'utf8') // Reading the same file
+   .then((text) => {
+      console.log(text);
+   })
+// Printing error if any
+   .catch((err) => {
+      console.log('Error', err);
+});
+```
+
+
 ## Why tdd with backend development?
 
 - headaches are avoidable when developing one route can effect functionality of multiple routes
