@@ -87,6 +87,10 @@ cat /dev/null
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
 
+## Figjam for online flowcharts/diagramming
+
+Youtube: https://www.youtube.com/watch?v=giCx1LPizXU
+
 ## Promisification
 
 https://javascript.info/promisify
