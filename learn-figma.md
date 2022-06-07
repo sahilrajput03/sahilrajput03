@@ -44,7 +44,7 @@
 
   - We can share styles across different files very easily with ***Team Library*** feature very easily. For demo check this timestamped video [here from figma itself](https://youtu.be/cCNLD5IZY34?t=209).
 
-- You can press and hold `alt` key while hovering over _text size_ numbers in the _Design tab_ to get a nice text size dragger to change the text size simply via mouse.
+- You can press and hold `alt` key while hovering over _text size_ numbers in the _Design tab_ to get a nice text ***size dragger*** to change the text size of textual number simply via mouse i.e, ***double headed arrow***.
 
 - Select **_frame tool_** (hotkey `F`) and you can now get a base frame of any device say for:
 
