@@ -137,7 +137,8 @@
 
 - Color Style:
 
-  - You can create a _Color Style_ simly by selecting a color first in _Fill_ and then open the _Style menu_ (the for small squares stacked icon) and then press the `+` icon and type the name for the color style you want to give it.
+  - You can create a _Color Style_ simly by selecting a color first in _Fill_ and then open the _Style menu_ (the for ***small squares stacked icon***) and then press the `+` icon and type the name for the color style you want to give it. ![image](https://user-images.githubusercontent.com/31458531/172355068-6df043c8-6bdc-4e0a-a934-d528d66099dd.png)
+
   - You can change any existing color by right clicking on the color in the _Color Styles_ section and simply choosing a new color now.
 
 - Frames:
@@ -219,6 +220,8 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 - DONE - [Prototyping animations with Figma ~ Kevin Powell]: [Youtube link](https://youtu.be/ps6p9e6QmgY)
 
 **Tips:**
+	
+- **While trying select a bunch of elements on the canvas but you encounter that you accidentally move the elements under your mouse (which you fix by ctrl+z though)**, ***Solution: You can press `Ctrl` key and then pressig and holding the ctrl key will actually NOT move elements but creates a blue selection box using which we select the elements usually (if no elements were under our mouse).***
 
 **_Component_**:
 
