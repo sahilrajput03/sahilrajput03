@@ -22,7 +22,8 @@ yay -S libicu50 --noconfirm
 ```
 
 ```bash
-# I edited file GenerateProjectFiles.sh as guided here: https://stackoverflow.com/a/72576052/10012446
+# I EDITED FILE: GenerateProjectFiles.sh as guided here: https://stackoverflow.com/a/72576052/10012446
+## BCOZ `sudo ./GenerateProjectFiles.sh` was throwing ssl certificate errors. ~ Sahil
 #!/bin/sh
 # Copyright Epic Games, Inc. All Rights Reserved.
 
