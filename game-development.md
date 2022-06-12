@@ -14,6 +14,14 @@ Clone or Download zip of this repo: https://github.com/EpicGames/UnrealEngine#li
 
 Follow installation tutorial for linux @ https://www.youtube.com/watch?v=0uqa1A7UlTk
 
+```bash
+## Below is needed to be done as well: (else `GenerateProjectFiles.sh` will fail)
+sudo pacman -S dotnet-sdk
+yay -S libicu50 --noconfirm
+# src: https://community.gamedev.tv/t/unrealengine-compiling-error-when-generateprojectfiles-sh/199274
+
+```
+
 ```txt
 ### OTHER SHIT ###
 Google Search: epic games launcher aur [Aur](https://aur.archlinux.org/packages/heroic-games-launcher-bin), [Github](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher).
