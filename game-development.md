@@ -19,7 +19,45 @@ Follow installation tutorial for linux @ https://www.youtube.com/watch?v=0uqa1A7
 sudo pacman -S dotnet-sdk
 yay -S libicu50 --noconfirm
 # src: https://community.gamedev.tv/t/unrealengine-compiling-error-when-generateprojectfiles-sh/199274
+```
 
+```bash
+# I edited file GenerateProjectFiles.sh as guided here: https://stackoverflow.com/a/72576052/10012446
+#!/bin/sh
+# Copyright Epic Games, Inc. All Rights Reserved.
+
+set -e
+
+cd "`dirname "$0"`"
+
+if [ ! -f Engine/Build/BatchFiles/Mac/GenerateProjectFiles.sh ]; then
+	echo "GenerateProjectFiles ERROR: This script does not appear to be located \
+       in the root Unreal Engine directory and must be run from there."
+  exit 1
+fi 
+
+if [ -f Setup.sh ]; then
+	if [ ! -f .ue4dependencies ]; then
+		echo "Please run Setup to download dependencies before generating project files."
+		exit 1
+	fi
+fi
+
+if [ "$(uname)" = "Darwin" ]; then
+	cd Engine/Build/BatchFiles/Mac
+	sh ./GenerateLLDBInit.sh
+	sh ./GenerateProjectFiles.sh "$@"
+else
+	# Added below two lines ~ Sahil
+	export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+	export SSL_CERT_DIR=/dev/null
+
+	# assume (GNU/)Linux
+	cd Engine/Build/BatchFiles/Linux
+	bash ./GenerateLLDBInit.sh
+	bash ./GenerateGDBInit.sh
+	bash ./GenerateProjectFiles.sh "$@"
+fi
 ```
 
 ```txt
