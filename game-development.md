@@ -8,15 +8,20 @@ Official Download: https://www.unrealengine.com/en-US/download
 
 
 
-# for linux: 
+# installation for arch linux: 
 
+Clone or Download zip of this repo: https://github.com/EpicGames/UnrealEngine#linux.
+
+Follow installation tutorial for linux @ https://www.youtube.com/watch?v=0uqa1A7UlTk
+
+```txt
+### OTHER SHIT ###
 Google Search: epic games launcher aur [Aur](https://aur.archlinux.org/packages/heroic-games-launcher-bin), [Github](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher).
 
 Feaures (is it a development engine - NO ~ IMO Sahil, [refer here](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher#features-available-right-now))
 
 **what I did yet?**
 
-```bash
 yay -S heroic-games-launcher-bin
 ```
 
