@@ -107,7 +107,7 @@ The Render Hardware Interface (RHI) is an abstraction layer over several platfor
 # Source: https://github.com/EpicGames/UnrealEngine/releases
 
 # Required dependency coz `setup.sh` fails.
-yay -S qt4
+yay -S qt4-bin
 
 ./Setup.sh
 ```
