@@ -6,6 +6,8 @@ Installation:
 
 Official Download: https://www.unrealengine.com/en-US/download
 
+Official Guided Install process (linux) with screenshots: [Click here](https://docs.unrealengine.com/4.27/en-US/SharingAndReleasing/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/)
+
 
 
 # installation for arch linux: 
