@@ -111,5 +111,12 @@ The Render Hardware Interface (RHI) is an abstraction layer over several platfor
 # Required dependency coz `setup.sh` fails.
 yay -S qt4-bin
 
+# src: https://rhyce.dev/2019/05/02/compiling-unreal-engine-4-from-source/
+
 ./Setup.sh
+./GenerateProjectFiles.sh
+make
+./Engine/Binaries/Linux/UE4Editor
+# If you’re getting any errors about Vulkan such as “Cannot find a compatible Vulkan device or driver.” just add -opengl4 as a launch parameter like so:
+./Engine/Binaries/Linux/UE4Editor -opengl4
 ```
