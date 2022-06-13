@@ -78,10 +78,22 @@ Complete Playlist: Design [Click here](https://www.youtube.com/playlist?list=PL5
 
 Design 04: Layers: https://youtu.be/Go6dwS1Jg1Q
 
-## other vulcan stuff?
+## vulkan guidance
 
 ```
-## why vulcan ?
+# CHECK IF VULCAN IS WORKING: 1
+
+
+
+# CHECK IF VULCAN IS WORKING: 2
+# Install via yay:
+sudo pacman -S vkcube-git
+# usage: vkcube
+## currently shows No Vulkan devices found.
 
 https://forums.unrealengine.com/t/vulkan/242035
+
+
 ```
+
+- [Unity vs. unreal](https://unrealcommunity.wiki/differences-between-unity-and-unreal-b2c4rqwm)
