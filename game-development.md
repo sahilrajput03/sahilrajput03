@@ -115,6 +115,8 @@ yay -S qt4-bin
 
 ./Setup.sh
 ./GenerateProjectFiles.sh
+sudo chmod 700 ../currentFolder
+sudo chown array -R ../currentFolder
 make
 ./Engine/Binaries/Linux/UE4Editor
 # If you’re getting any errors about Vulkan such as “Cannot find a compatible Vulkan device or driver.” just add -opengl4 as a launch parameter like so:
