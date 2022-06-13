@@ -77,3 +77,11 @@ yay -S heroic-games-launcher-bin
 Complete Playlist: Design [Click here](https://www.youtube.com/playlist?list=PL5DRb6AX7P4i8sLm2Nrvnvb_nTBoKjx7V)
 
 Design 04: Layers: https://youtu.be/Go6dwS1Jg1Q
+
+## other vulcan stuff?
+
+```
+## why vulcan ?
+
+https://forums.unrealengine.com/t/vulkan/242035
+```
