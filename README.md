@@ -88,6 +88,11 @@ cat /dev/null
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](game-development.md)
 
+## vscode cli options
+
+![image](https://user-images.githubusercontent.com/31458531/173615265-fc5ec69c-7641-46f1-b81a-4878e33891fd.png)
+
+
 ## Figjam for online flowcharts/diagramming
 
 Youtube: https://www.youtube.com/watch?v=giCx1LPizXU
