@@ -706,3 +706,8 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   cd program-name
   makepkg -si
   ```
+
+  
+```
+  sudo pacman -R pulseaudio pulseaudio-bluetooth noisetorch pulseaudio-alsa
+```
