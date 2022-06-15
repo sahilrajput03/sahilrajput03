@@ -501,14 +501,14 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # Entry in /etc/fstab file ensures that swapon is run for the swap_partition/swap_file at the system startup.
   ```
 
-- Fix the speakders drivers:
+- Fix the #speaker drivers, #speaker issues
   
   ```
   sudo pacman -S alsa-utils pulseaudio
   alsactl init
   ```
   
-  **UPDATE: LEARN: Pulseaudio can be pain in ass at times, and this comes as like pulseaudio user config files can get corrupted at times. So to fix that you can fix that via:
+  **UPDATE: LEARN: Pulseaudio can be pain in ass at times, and this comes as like pulseaudio user config files can get corrupted at times. So to fix that you can fix that via:**
   
   ```bash
   rm -rf ~/.pulse ~/.config/pulse
