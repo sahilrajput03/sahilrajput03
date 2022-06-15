@@ -513,7 +513,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```bash
   rm -rf ~/.pulse ~/.config/pulse
   
-  # restart pulseaudio now (things should be FIXED BY THIS!!), src: https://askubuntu.com/a/536488/702911
+  # restart pulseaudio now (things should be FIXED BY THIS!!), src: https://askubuntu.com/a/536488/702911, src: https://appuals.com/how-to-fix-pulseaudio-issues-in-linux/
   pulseaudio -k
   ```
   
