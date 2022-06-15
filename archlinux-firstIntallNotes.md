@@ -517,13 +517,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   pulseaudio -k
   ```
   
-  **MASTER alsamixer and pulseaudio**
-  
-  - In `alsamixer` you can toggle mute any device with `m`.
-  - In `alsamixer`, you can toggle sound card with `s` or via `f6`.
-  - In `alsamixer`, increase sound with `w` and decrease with `x` of any device. FYI: Use `q`/`z` and `e`/`c` for each side speakers. Yo!
-  - In `alsamixer`, you can play sound throught two devices (say laptop speaker and earphone) as well i.e., unmute any the other device  and then increase the sound. 
-  - In `alsamixer`, if you messed any settings like volume control or any sort of thing you can simply reset things with `pulseaudio -k` command (this restarts pulseaudio with default settings for all sound cards).
+  **Master alsamixer, pulseaudio: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-bash.md#learn-alsamixer-master-alsamixer-and-pulseaudio)**
   
 - Pacman
   
