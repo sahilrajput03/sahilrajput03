@@ -502,9 +502,19 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
 
 - Fix the speakders drivers:
+  
   ```
   sudo pacman -S alsa-utils pulseaudio
   alsactl init
+  ```
+  
+  **UPDATE: LEARN: Pulseaudio can be pain in ass at times, and this comes as like pulseaudio user config files can get corrupted at times. So to fix that you can fix that via:
+  
+  ```bash
+  rm -rf ~/.pulse ~/.config/pulse
+  
+  # restart pulseaudio now (things should be FIXED BY THIS!!), src: https://askubuntu.com/a/536488/702911
+  pulseaudio -k
   ```
   
 - Pacman
