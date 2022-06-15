@@ -501,7 +501,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # Entry in /etc/fstab file ensures that swapon is run for the swap_partition/swap_file at the system startup.
   ```
 
-- Fix the #speaker drivers, #speaker issues
+- Fix the #speaker drivers, #speaker issues, sound drivers, sound issues
   
   ```
   sudo pacman -S alsa-utils pulseaudio
