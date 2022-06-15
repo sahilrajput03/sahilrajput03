@@ -28,3 +28,20 @@ Src: https://youtu.be/z4JnSGupxUs?t=7376
 
 #13 ![image](https://user-images.githubusercontent.com/31458531/173836078-ab98798a-0342-496d-b0a2-b2a06ccc0168.png)
 
+#14 ![image](https://user-images.githubusercontent.com/31458531/173836732-6f55376b-531a-4527-978c-e60360529264.png)
+
+#15 ![image](https://user-images.githubusercontent.com/31458531/173836928-75d23051-df5f-49c0-9e06-466d37076c7b.png)
+
+#16 ![image](https://user-images.githubusercontent.com/31458531/173837306-f3a1d84e-0e2d-4e27-a6f4-3ddba25588e6.png)
+
+#17 ![image](https://user-images.githubusercontent.com/31458531/173837412-f54d2fc6-c209-4915-8815-56c6df3e1b64.png)
+
+#18 Reason of popularity of server rendering for react is due to this: ![image](https://user-images.githubusercontent.com/31458531/173838046-5b9edc64-1f1f-4e52-8a9e-39366d432a77.png)
+
+#19 ![image](https://user-images.githubusercontent.com/31458531/173839286-39927221-2a8a-4a3e-937c-2eb4ca2e7607.png)
+
+#20 ![image](https://user-images.githubusercontent.com/31458531/173839354-9dba57c1-d6dd-4fe9-b957-9156d8366297.png)
+
+#21 (us data only, more the better) ![image](https://user-images.githubusercontent.com/31458531/173839738-c418da4a-92f1-4a3d-b907-da2a1e1e2b4c.png)
+
+#22 
