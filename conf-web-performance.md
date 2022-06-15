@@ -42,6 +42,10 @@ Src: https://youtu.be/z4JnSGupxUs?t=7376
 
 #20 ![image](https://user-images.githubusercontent.com/31458531/173839354-9dba57c1-d6dd-4fe9-b957-9156d8366297.png)
 
-#21 (us data only, more the better) ![image](https://user-images.githubusercontent.com/31458531/173839738-c418da4a-92f1-4a3d-b907-da2a1e1e2b4c.png)
+#21 (#cwv, USA only, more the better) ![image](https://user-images.githubusercontent.com/31458531/173839738-c418da4a-92f1-4a3d-b907-da2a1e1e2b4c.png)
 
-#22 
+#22 ![image](https://user-images.githubusercontent.com/31458531/173840304-e5632180-0045-440e-b2f0-4df4294c416c.png)
+
+#23 ![image](https://user-images.githubusercontent.com/31458531/173840397-2dfa58e3-5e7a-4ebc-9b63-be87dc108c69.png)
+
+#25 ![image](https://user-images.githubusercontent.com/31458531/173840506-18a263dd-6dea-406f-b95b-28fd8d16c97d.png)
