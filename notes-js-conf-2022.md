@@ -4,7 +4,20 @@ Source: [JSConf Budapest 2022 - Day One, Morning](https://youtu.be/z4JnSGupxUs)
 
 - Web Performance, [click here](conf-web-performance.md)
 - Making Voice Interfaces like alexa, [click here](https://youtu.be/z4JnSGupxUs?t=7774)
-- Encryption, decryption, digitalsignature (signing and verifying). [Click here], amazing-rsa--demo site: https://rsa.sambego.tech/, Slides here: https://jose.sambego.tech, SHA256 Demo: https://sha256algorithm.com/, ![image](https://user-images.githubusercontent.com/31458531/173990306-d3fda291-4221-48d8-b4b8-ccfeeabfb854.png)
+- Encryption, decryption, digitalsignature (signing and verifying). [Click here], amazing-rsa--demo site: https://rsa.sambego.tech/, Slides here: https://jose.sambego.tech, SHA256 Demo: https://sha256algorithm.com/, ![image](https://user-images.githubusercontent.com/31458531/173990306-d3fda291-4221-48d8-b4b8-ccfeeabfb854.png).
+
+Presentations made easy with react: 
+
+```txt
+pkg used: https://www.npmjs.com/package/@sambego/diorama
+github (pkg code): https://github.com/d/diorama
+
+ppt1: https://jose.sambego.tech/
+github1: https://github.com/Sambego/jose-presentation
+
+ppt2: https://sambego.github.io/diorama-demo/
+github2: https://github.com/Sambego/diorama-demo
+```
 - Assessibility: [Click here](https://youtu.be/z4JnSGupxUs?t=13691)
 
 ![image](https://user-images.githubusercontent.com/31458531/173996672-21622eb5-b5d6-4796-9fbe-05fd6551237b.png)
