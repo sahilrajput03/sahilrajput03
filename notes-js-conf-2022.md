@@ -2,6 +2,9 @@
 
 Source: [JSConf Budapest 2022 - Day One, Morning](https://youtu.be/z4JnSGupxUs)
 
+- Making Voice Interfaces like alexa, [click here](https://youtu.be/z4JnSGupxUs?t=7774)
+- . 
+
 Add to tasks: 
 
 ## JS Conf 2021
@@ -41,3 +44,5 @@ function radians_to_degrees(radians){
 ```
 
 [Javascript Jabber - Podcast](https://javascriptjabber.com/)
+
+
