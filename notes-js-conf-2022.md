@@ -6,6 +6,9 @@ Source: [JSConf Budapest 2022 - Day One, Morning](https://youtu.be/z4JnSGupxUs)
 - Making Voice Interfaces like alexa, [click here](https://youtu.be/z4JnSGupxUs?t=7774)
 - Encryption, decryption, digitalsignature (signing and verifying). [Click here], [amaz-rsa--demo site](https://rsa.sambego.tech/).
 
+JOSE: [Slides here](https://jose.sambego.tech/), ![image](https://user-images.githubusercontent.com/31458531/173990306-d3fda291-4221-48d8-b4b8-ccfeeabfb854.png)
+
+
 **crypto currencty, web3.0?**
 
 - ethereum: solidity language
