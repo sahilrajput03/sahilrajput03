@@ -602,7 +602,8 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   sudo pacman -S bluez-utils
   # now we have bluetoothctl cli tool
   
-  bluetoothctl
+  blc
+  # alias for `bluetoothctl`
   # opens a subshell
   
   power on
