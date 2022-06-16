@@ -4,7 +4,11 @@ Source: [JSConf Budapest 2022 - Day One, Morning](https://youtu.be/z4JnSGupxUs)
 
 - Web Performance, [click here](conf-web-performance.md)
 - Making Voice Interfaces like alexa, [click here](https://youtu.be/z4JnSGupxUs?t=7774)
-- Encryption, decryption, digitalsignature (signing and verifying). [Click here], amazing-rsa--demo site: https://rsa.sambego.tech/, Slides here: https://jose.sambego.tech, ![image](https://user-images.githubusercontent.com/31458531/173990306-d3fda291-4221-48d8-b4b8-ccfeeabfb854.png)
+- Encryption, decryption, digitalsignature (signing and verifying). [Click here], amazing-rsa--demo site: https://rsa.sambego.tech/, Slides here: https://jose.sambego.tech, SHA256 Demo: https://sha256algorithm.com/, ![image](https://user-images.githubusercontent.com/31458531/173990306-d3fda291-4221-48d8-b4b8-ccfeeabfb854.png)
+- Assessibility: [Click here](https://youtu.be/z4JnSGupxUs?t=13691)
+
+![image](https://user-images.githubusercontent.com/31458531/173996672-21622eb5-b5d6-4796-9fbe-05fd6551237b.png)
+
 
 
 **crypto currencty, web3.0?**
