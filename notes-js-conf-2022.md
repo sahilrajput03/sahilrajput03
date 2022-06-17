@@ -29,7 +29,17 @@ github2: https://github.com/Sambego/diorama-demo
 - ethereum: solidity language
 - solana: rust langauge
 
-Add to tasks: 
+ - 7±2 Reasons Psychology Will Help You Write Better Code: [Click here](https://www.youtube.com/watch?v=z4JnSGupxUs&t=16559s) ![image](https://user-images.githubusercontent.com/31458531/174287089-c2ff8b19-a122-4396-83a5-39428e9d5c45.png)
+
+Chunking can help in code readability and code debugging: ![image](https://user-images.githubusercontent.com/31458531/174288314-f0b7f507-3b0d-4cc9-8d7a-cc00e887fa68.png)
+
+Code reviews should be colde: ![image](https://user-images.githubusercontent.com/31458531/174290041-965d591b-096f-4e7f-8bef-80766b4fd36f.png)
+![image](https://user-images.githubusercontent.com/31458531/174290103-5f37ee84-6165-4ca9-8e27-fe9e99fc1ae3.png)
+![image](https://user-images.githubusercontent.com/31458531/174290446-8250f18a-00f6-4fa3-b765-a8b1a5346211.png)
+
+- Doctors will see you now (video call conference with background changing feature): [click here](https://www.youtube.com/watch?v=z4JnSGupxUs&t=18340s)
+
+
 
 ## JS Conf 2021
 
