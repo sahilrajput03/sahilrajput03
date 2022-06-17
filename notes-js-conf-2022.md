@@ -20,7 +20,7 @@ github2: https://github.com/Sambego/diorama-demo
 ```
 - Assessibility: [Click here](https://youtu.be/z4JnSGupxUs?t=13691)
 
-![image](https://user-images.githubusercontent.com/31458531/173996672-21622eb5-b5d6-4796-9fbe-05fd6551237b.png)
+![image](https://user-images.githubusercontent.com/31458531/173996672-21622eb5-b5d6-4796-9fbe-05fd6551237b.png), color contrast thing in chrome (also available in firefox): ![image](https://user-images.githubusercontent.com/31458531/174000230-0d547409-ce7d-4b16-b727-0a50412d626c.png)
 
 
 
