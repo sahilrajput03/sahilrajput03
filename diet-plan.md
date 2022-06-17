@@ -42,16 +42,20 @@ PROCEDURE
 
 #### 🍞 Bread-butter, bread-ghee, bread-peanutbutter-milk, bread-sauce-milk.
 
-#### For making custard icecream:
+#### OFFICE EATABLE STUFF
 
-- Follow similar to above mixture with quantities like: ALERT: Quantity of custard is 2tbspn for a total of 300ml(for easy ratios: take 50ml of cold milk mixture and 250ml of hot sugared milk) of milk to make the end custard extra flavoured.
-- Boil the milk for 5 minutes alone sugar.
-- Add the custard mix and boil for 5 more mins. Turn off the flame. Now get the hot mix to the room temp and ocassionally sitr it. NOTE: This is going to be extra thicky already.
-- ++When it reaches room temp, frreze it for 1 hr.
-- ++Take 150ml of whipping cream(amul whipping cream 250ml blue coloured i.e., Rs. 63, take red coloured if possible coz that is heavy ehipping cream) and keep it in freezer for atleast 2hrs and also place the container and blender( or place mixi container in freezer for atleast 2 hrs). Now whip it for around 8-10 minutes. You can store this whipped cream in fridge for 2-3 days of use. You should keep the cream in fridge else it'll start melting.
-- ++ Now add the custard mix to this whipped cream and mix with blender for 2-3 mins. You can add other slecial things now like nicelg cut dry fruits to it as well.b
-- ++ Now place the mixture in a air-tight container put it in freezer for 3 hrs and whip the whole mixture again. Again keep it freezer for 8-10 hrs for a good textured icecream.
-- Now its ready to be served.
+- Have mishri at table always so when you need to speak .. u dont get struck bcoz of your dry throat.
+- Keep 20 minutes soaked nutella badi.
+- Peetha
+- Khajur
+
+##### Grocery
+
+- Chocos, Puffcorn, Coffee, MaggiMasala
+
+##### Eggs: (Boiling Time -6-7 minutes, after it has started boiling , or total of 10 mind after put on stove).
+
+## Recepeies
 
 #### Making CHAWMIN
 
@@ -82,14 +86,20 @@ PROCEDURE
 - FYI: sucrose -> glucose + fructose.
 - FYI2: Crystal sugar is sucrose.
 
-#### OFFICE EATABLE STUFF
+#### Making Custard milk
 
-- Have mishri at table always so when you need to speak .. u dont get struck bcoz of your dry throat.
-- Keep 20 minutes soaked nutella badi.
-- Peetha
-- Khajur
+- PROCEDURE:
+- Add sugar to milk and start boiling the milk.
+- Use a glass to mix some cold milk or normal temperature (half glass) and add custord to that milk and mix it throroughly with spoon.
+- Now, start adding the cutord mix to the boiling sugared milk slowly and cook for 2 more minutes, yikes! And its ready to be served. Special: You can add nicely sliced fruits like apple,  grapes, nicely cut dry fruits, etc. Now keep this mixture in fridge for atleast 2 hrs.
 
-## Grocery
+#### For making custard icecream:
 
-- Chocos, Puffcorn, Coffee, MaggiMasala
-
+- Follow similar to above mixture with quantities like: ALERT: Quantity of custard is 2tbspn for a total of 300ml(for easy ratios: take 50ml of cold milk mixture and 250ml of hot sugared milk) of milk to make the end custard extra flavoured.
+- Boil the milk for 5 minutes alone sugar.
+- Add the custard mix and boil for 5 more mins. Turn off the flame. Now get the hot mix to the room temp and ocassionally sitr it. NOTE: This is going to be extra thicky already.
+- ++When it reaches room temp, frreze it for 1 hr.
+- ++Take 150ml of whipping cream(amul whipping cream 250ml blue coloured i.e., Rs. 63, take red coloured if possible coz that is heavy ehipping cream) and keep it in freezer for atleast 2hrs and also place the container and blender( or place mixi container in freezer for atleast 2 hrs). Now whip it for around 8-10 minutes. You can store this whipped cream in fridge for 2-3 days of use. You should keep the cream in fridge else it'll start melting.
+- ++ Now add the custard mix to this whipped cream and mix with blender for 2-3 mins. You can add other slecial things now like nicelg cut dry fruits to it as well.b
+- ++ Now place the mixture in a air-tight container put it in freezer for 3 hrs and whip the whole mixture again. Again keep it freezer for 8-10 hrs for a good textured icecream.
+- Now its ready to be served.
