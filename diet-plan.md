@@ -38,10 +38,6 @@ PROCEDURE
 
 #### Vemicelli - Saeviaan (suji made-Semolina)
 
-## Sweets
-
-- Peetha, Khajur
-
 #### Banana shake (mixer/blender, milk, sugar, banana, almonds paste, peanut butter{2times 30 second slow drill, 1time 30sec fast drill)
 
 #### 🍞 Bread-butter, bread-ghee, bread-peanutbutter-milk, bread-sauce-milk.
@@ -66,7 +62,8 @@ PROCEDURE
 - - Now put out boiled noodles and keep them in big bowl/plate and add two full tbsp of oil/ghee into it and mix well the oil using two chop sticks/ fork. This makes sure that noodles wont stick to each other.
 - - Now put 2 tbsp of oil/ghee in a pan and boil it and add all the nice small chopped veggies and cook for 3-4 min on mid flame and dont overcook else the texture of veggies would get bad and wont be enjoyable when served.
 - - Now add the noodles into pan, keep flame at medium. Use two chop sticks/fork to mix noodles and maggi masal/chingsFriedRiceMasala/chingsChawMasala {do add few drops of water on top of masala so it mix easily} and cook for 3-4 more mins. NOW ITS READY TO BE SERVED!!.; 
-- - Recepie: ICE-CREAM RANVEER KITCHEN :: (only single freeze)::
+
+#### Recepie: ICE-CREAM RANVEER KITCHEN :: (only single freeze)::
 - Prerequisites:
 - ->Amul 250ml whipping cream( blue color: Rs. 63, but check if you can get  red coloured packing coz thats actually heavy whipping cream and works good for icecream and cakes as well).
 - ->Milk powder
@@ -87,8 +84,10 @@ PROCEDURE
 
 #### OFFICE EATABLE STUFF
 
-- have mishri at table always so when you need to speak .. u dont get struck bcoz of your dry throat.
+- Have mishri at table always so when you need to speak .. u dont get struck bcoz of your dry throat.
 - Keep 20 minutes soaked nutella badi.
+- Peetha
+- Khajur
 
 ## Grocery
 
