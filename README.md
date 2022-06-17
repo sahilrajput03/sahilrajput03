@@ -87,6 +87,7 @@ cat /dev/null
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](game-development.md)
+- **Diet Plan, Proteins:** [Click here](diet-plan.md)
 
 ## vscode cli options
 
