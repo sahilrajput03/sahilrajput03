@@ -89,6 +89,12 @@ cat /dev/null
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](game-development.md)
 - **Diet Plan, Proteins:** [Click here](diet-plan.md)
 
+## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
+
+- The four C's, Communication with Conviction with Confience with Calmness.
+- Effecive communication internal is key to success
+- Balance of optimism and realism.
+
 ## vscode cli options
 
 ![image](https://user-images.githubusercontent.com/31458531/173615265-fc5ec69c-7641-46f1-b81a-4878e33891fd.png)
