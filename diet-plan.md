@@ -4,6 +4,8 @@
 
 - Cuisine of air fried Nutella + Paneer + Capscicum + Carrot like Sonia Mam did.
 
+Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
+
 # Recepies
 
 #### Making Fried rice:
