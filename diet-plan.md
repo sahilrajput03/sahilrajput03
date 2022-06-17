@@ -1,7 +1,8 @@
 # What can I eat?
 
-High protein diets
-- Nutella ()
+#### High protein diets
+
+- Cuisine of air fried Nutella + Paneer + Capscicum + Carrot like Sonia Mam did.
 
 # Recepies
 
