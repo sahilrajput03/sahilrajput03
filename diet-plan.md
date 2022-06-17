@@ -56,8 +56,6 @@ PROCEDURE
 
 ##### Eggs: (Boiling Time -6-7 minutes, after it has started boiling , or total of 10 mind after put on stove).
 
-## Recepeies
-
 #### Making CHAWMIN
 
 - • ----- WHATS CHAWMIN and NOODLES?? : Noodles is basically a type of food that is made from dough, while chow-mein is a dish made with noodles. Actually, chow mein is coined from two words 'chow' which means fried, and 'mein' refers to noodles. So the moral of the story is all chow mein are noodles, but all noodles are not chow mein.
