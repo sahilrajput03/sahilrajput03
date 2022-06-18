@@ -1,8 +1,3 @@
-#### Client Handling (single big mistake that pisses the client)
-
-A client would love to work with if you would have a constant conversative (constant here means that conversing each day otherwise the client would think that freelancer is fraud and simply stolen the money). ~ Varun Mayya
-
-
 #### Getting project [src](https://youtu.be/p76zsTDqahM)
 
 - Keep expectations low and understanding that compounding works.
@@ -10,6 +5,10 @@ A client would love to work with if you would have a constant conversative (cons
 - You won't get a project until you apply to a 100 @upwork. Some people apply to three projects and get no response then they just shut off. Apply the maths that I'm going to get 1% of the projects I apply to. Take a crack at 100, 5 will reply and out of which 1 will convert because if someone is replying that doesn't mean one will give you the project.
 - Have a humble cover letter. I am learning and I'm trying to get better. Humility works much much better and lands you the first project.
 - 99% of people in India don't believe in the freelancing, they like the idea but they don't believe that its possible to run a career on it.
+
+#### Client Handling (single big mistake that pisses the client)
+
+A client would love to work with if you would have a constant conversative (constant here means that conversing each day otherwise the client would think that freelancer is fraud and simply stolen the money). ~ Varun Mayya
 
 #### money and all
 
