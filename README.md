@@ -22,10 +22,10 @@ cat /dev/null
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
 - **Book logs:** [Click here](./book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
-- **Courses:** [Click here](courses-list.md).
+- **Courses:** [Click here](courses-list.md)
 - **Css wow:** [Click here](https://codepen.io/cassidoo/)
 - **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
-- **Css Selectors:** [Click here](./CSS Selector Cheat Sheet - Dark.pdf)
+- **Css Selectors:** [Click here](./CSS\ Selector\ Cheat\ Sheet\ -\ Dark.pdf)
 - **Enlightment:** [Cick here](enlightenment.md)
 - **FSO contribution:** [Click here](my-fso-contribution.md)
 - **Github Actions:** [Click here](github-actions.md)
