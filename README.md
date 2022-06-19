@@ -90,6 +90,7 @@ cat /dev/null
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](game-development.md)
 - **Diet Plan, Proteins:** [Click here](diet-plan.md)
+- **Learn Google Calendar:** [Click here](learn-google-calendar.md)
 
 ## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
 
