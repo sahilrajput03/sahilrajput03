@@ -9,7 +9,7 @@
 **Courses**:
 
 - FullStackOpen 2022: [WEB](https://fullstackopen.com/en/)
-- [Other Awsome Tech courses](courses-list.md)
+- Other Awsome Tech courses - [Click here](courses-list.md)
 
 **HTML and CSS**:
 - HTML @ MDN (Mozilla Developer Network) - [WEB](https://developer.mozilla.org/en-US/docs/Web/HTML)
