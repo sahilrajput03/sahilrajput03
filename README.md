@@ -22,8 +22,10 @@ cat /dev/null
 - **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](learn-bash.md)
 - **Book logs:** [Click here](./book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
-- **Courses:** [Click here](courses-list.md).
+- **Courses:** [Click here](courses-list.md)
 - **Css wow:** [Click here](https://codepen.io/cassidoo/)
+- **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
+- **Css Selectors:** [Click here](CSS-Selector-Cheat-Sheet-Dark.pdf)
 - **Enlightment:** [Cick here](enlightenment.md)
 - **FSO contribution:** [Click here](my-fso-contribution.md)
 - **Github Actions:** [Click here](github-actions.md)
@@ -86,6 +88,66 @@ cat /dev/null
 - **Learn Serverless:** [Click here](learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
+- **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](game-development.md)
+- **Diet Plan, Proteins:** [Click here](diet-plan.md)
+
+## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
+
+- The four C's, Communication with Conviction with Confience with Calmness.
+- Effecive communication internal is key to success
+- Balance of optimism and realism.
+
+## vscode cli options
+
+![image](https://user-images.githubusercontent.com/31458531/173615265-fc5ec69c-7641-46f1-b81a-4878e33891fd.png)
+
+
+## Figjam for online flowcharts/diagramming
+
+Youtube: https://www.youtube.com/watch?v=giCx1LPizXU
+
+## Promisification
+
+https://javascript.info/promisify
+
+https://www.tutorialspoint.com/node-js-util-promisify-method
+
+https://nodejs.org/api/util.html#utilpromisifyoriginal
+
+https://nodejs.org/api/fs.html#filehandlereadfileoptions
+
+In `nodejs`: We have `util.promisify` buitin method basically takes a function as an input that follows the common Node.js callback style, i.e., with a (err, value) and returns a version of the same that returns a promise instead of a callback.
+
+
+
+```js
+import { readFile } from 'node:fs';
+
+
+let callback =  (err, data) => {
+  if (err) throw err;
+  console.log(data);
+}
+
+// Callback Usage:
+readFile('/etc/passwd', callback); // OR 
+readFile('/etc/passwd', 'utf8', callback);
+
+// Making use of util.promisify
+const util = require('node:util');
+
+// Reading the file using a promise & printing its text
+const readFileSync = util.promisify(fs.readFile);
+readFileSync('./promisify.js', 'utf8') // Reading the same file
+   .then((text) => {
+      console.log(text);
+   })
+// Printing error if any
+   .catch((err) => {
+      console.log('Error', err);
+});
+```
+
 
 ## Why tdd with backend development?
 

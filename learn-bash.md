@@ -13,6 +13,14 @@
 
 **Full 3 hour Bash Scripting course from linuxhint:** [Click here](https://www.youtube.com/watch?v=e7BufAVwDiM).
 
+## Learn alsamixer, #MASTER alsamixer and pulseaudio
+  
+  - Yyou can toggle mute any device with `m`.
+  - You can toggle sound card with `s` or via `f6`.
+  - You increase sound with `w` and decrease with `x` of any device. FYI: Use `q`/`z` and `e`/`c` for each side speakers. Yo!
+  - You can play sound throught two devices (say laptop speaker and earphone) as well i.e., unmute any the other device  and then increase the sound. 
+  - If you messed any settings like volume control or any sort of thing you can simply reset things with `pulseaudio -k` command (this restarts pulseaudio with default settings for all sound cards).
+
 ## Top 5 virtual machines softwares in industry
 
 - https://linuxways.net/centos/top-5-open-source-virtualization-software-for-linux/
