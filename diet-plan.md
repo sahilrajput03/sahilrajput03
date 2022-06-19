@@ -63,6 +63,7 @@ PROCEDURE
 - • ----- WHATS CHAWMIN and NOODLES?? : Noodles is basically a type of food that is made from dough, while chow-mein is a dish made with noodles. Actually, chow mein is coined from two words `chow` which means fried, and `mein` refers to noodles. So the moral of the story is all chow mein are noodles, but all noodles are not chow mein.
 - PREREQUISITES: Note: If the noodles are too long then break it into half .. and still they will be large enough to be enjoyed.
 - PROCEDURE:
+
   - Put noodles in boiling water(least enough water so noodles are immersed into) and boil for exactly 4 minutes and boil on medium flame.
   - Now put out boiled noodles and keep them in big bowl/plate and add two full tbsp of oil/ghee into it and mix well the oil using two chop sticks/ fork. This makes sure that noodles wont stick to each other.
   - Now put 2 tbsp of oil/ghee in a pan and boil it and add all the nice small chopped veggies and cook for 3-4 min on mid flame and dont overcook else the texture of veggies would get bad and wont be enjoyable when served.
@@ -73,13 +74,12 @@ PROCEDURE
   - Amul 250ml whipping cream( blue color: Rs. 63, but check if you can get red coloured packing coz thats actually heavy whipping cream and works good for icecream and cakes as well).
   - Milk powder
   - Milk - 300ml (approx: 2 x 140ml cups)
-  -  Sugar
-  
+  - Sugar
 - Procedure::
 - Take 2 cups of milk powder(300ml) and add 1 teaspoon of baking soda to it. This helps in fluffiness. Keep this mixture aside.
 - Now take 140ml(1 small cup) crystal sugar and 140ml(1 small cup) milk{prefer the red packet of milk of possible} and put it on flame and keep boiling it till it gets light stickyness in it. Now add mixture 1 into this. And boil for 5-10 more minutes and turn off the flame. NOTE: Thok k nhi pakana hai~ Ranveer Kitchen. So our condensed milk is ready!.
 - Now take chilled cream(amul whipping cream Rs.63 - 250ml) and chilled container(say keep blender(its container as well)/mixer container in the fridger for atleast 2 hrs before use) and add 1 ICE CREAM to it as well. You need to whip it now for approx 8-10 minutes till you get sharp spikes of our whipped cream. NOTE: If you over do it then it will turn itself into butter and it would be of no use.., so the safer the merrier.
-- Now mix 1:3 of condensed milk i.e, 200ml : whipped cream i.e., 600ml. Tip:{{ You can have ratio 2:3 of condensed milk i.e., 200ml : whipping cream(un-wipped cream) i.e., 300ml(bcoz whipling cream after whipling gets doubled in volume).
+- Now mix 1:3 of condensed milk i.e, 200ml : whipped cream i.e., 600ml. Tip: You can have ratio 2:3 of condensed milk i.e., 200ml : whipping cream(un-wipped cream) i.e., 300ml(bcoz whipling cream after whipling gets doubled in volume).
 - Now mix both condensed milk and our whipping cream thoroughly and keep it in fridge for 8-10hrs for good texture.
 - SPECIAL: Add nicely broken almonds, kishmish and other dry fruits.
 - EXTRAS:
