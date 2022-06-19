@@ -17,7 +17,7 @@ PROCEDURE
 - **Making Porridge/Daliya**
 
 - Wheat(Sweet/salty), Oats(Jayee ka dalia, patanjali), Barley(jo ka dalia), Mixgrain(patanjali).
-- PROCEDURE: Boil half cup of any dalia with 1.5(note: For wheat dalia - use 1.7 glass of water) glass of water and add salt, haldi, black pepper, , chopped green chilli, nutella badi and chopped capsicum, chopper cabbage(patta gobi), one potato (while the daila is boiling, so that capscium and cabbage leaves gets boiled otherwise capscium and cabbage leaves isn't much easy to eat raw).
+- PROCEDURE: Boil half cup of any dalia with 1.5(note: For wheat dalia - use 1.7 glass of water) glass of water and add salt, haldi, black pepper, , chopped green chilli, nutella badi and chopped capsicum, chopper cabbage(patta gobi), one potato (while the daila is boiling, so that capscium and cabbage leaves gets boiled otherwise capscium and cabbage leaves is not much easy to eat raw).
 - Additives: ADDITIVES :: {Mix below ingredients just before serving so enjoy the raw flavor of each thing -> Tomato, Onion, small pieces of cutted Kheera(not Muli)}, Maggi Masala or Chings Fried Rice masala (not Pasta masala), or {maggiMasala + Chings Manchurian} after you have stopped cooking dalia else the masala will not be much tasteful, Chilli Achar/other achaar. ;; Serving: You an use 2spoon ghee, curd with dalia to eat it too.
 - 4Types - Dalia/Oats/Porridge.
 
@@ -60,7 +60,7 @@ PROCEDURE
 
 - **Making CHAWMIN**
 
-- • ----- WHATS CHAWMIN and NOODLES?? : Noodles is basically a type of food that is made from dough, while chow-mein is a dish made with noodles. Actually, chow mein is coined from two words 'chow' which means fried, and 'mein' refers to noodles. So the moral of the story is all chow mein are noodles, but all noodles are not chow mein.
+- • ----- WHATS CHAWMIN and NOODLES?? : Noodles is basically a type of food that is made from dough, while chow-mein is a dish made with noodles. Actually, chow mein is coined from two words `chow` which means fried, and `mein` refers to noodles. So the moral of the story is all chow mein are noodles, but all noodles are not chow mein.
 - PREREQUISITES: Note: If the noodles are too long then break it into half .. and still they will be large enough to be enjoyed.
 - PROCEDURE:
   - Put noodles in boiling water(least enough water so noodles are immersed into) and boil for exactly 4 minutes and boil on medium flame.
