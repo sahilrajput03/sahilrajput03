@@ -28,7 +28,7 @@
 
 **Javascript Docs and Prime Resources**
 
-[Click here](prime-resources-js.md)
+- [Click here](prime-resources-js.md)
 
 **Books**
 
