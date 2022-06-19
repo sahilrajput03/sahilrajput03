@@ -47,10 +47,9 @@ PROCEDURE
 
 - **OFFICE EATABLE STUFF**
 
-- Have mishri at table always so when you need to speak .. u dont get struck bcoz of your dry throat.
-- Keep 20 minutes soaked nutella badi.
-- Peetha
-- Khajur
+- Mishri (Have at table always so when you need to speak .. u dont get struck bcoz of your dry throat).
+- Peetha, Khajur
+- Soaked nutella badi (20 minutes)
 
 - **Grocery**
 
