@@ -91,6 +91,7 @@ cat /dev/null
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](game-development.md)
 - **Diet Plan, Proteins:** [Click here](diet-plan.md)
 - **Learn Google Calendar:** [Click here](learn-google-calendar.md)
+- **Single big mistake I made a lot times in last 3 years**: [Click here](single-big-mistake.md)
 
 ## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
 
