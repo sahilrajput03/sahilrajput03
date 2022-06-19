@@ -26,9 +26,9 @@
 - Introduction to Kubernetes: [Click here](https://www.edx.org/course/introduction-to-kubernetes)
 - Kube by example: [Click here](https://kubebyexample.com/)
 
-**Other paid coursse**
+**Javascript Docs and Prime Resources**
 
-- ?
+[Click here](prime-resources-js.md)
 
 **Books**
 
