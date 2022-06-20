@@ -92,6 +92,7 @@ cat /dev/null
 - **Diet Plan, Proteins:** [Click here](diet-plan.md)
 - **Learn Google Calendar:** [Click here](learn-google-calendar.md)
 - **Single big mistake I made a lot times in last 3 years**: [Click here](single-big-mistake.md)
+- **Learn Obs:** [Click here](./learn-obs.md)
 
 ## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
 
