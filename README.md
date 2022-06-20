@@ -93,6 +93,7 @@ cat /dev/null
 - **Learn Google Calendar:** [Click here](learn-google-calendar.md)
 - **Single big mistake I made a lot times in last 3 years**: [Click here](single-big-mistake.md)
 - **Learn Obs:** [Click here](./learn-obs.md)
+- **Learn kdenlive:** [Click here](learn-kdenlive.md)
 
 ## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
 
