@@ -218,7 +218,7 @@ pacman -S progress
 # src: https://github.com/Xfennec/progress
 ```
 
-## insatll `gnome-characters`
+## insatll `gnome-characters` (These are really awesome to use!!) ~updated 20 Jun, 2022
 
 ```bash
 sudo pacman -S gnome-characters
