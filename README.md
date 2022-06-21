@@ -101,6 +101,8 @@ cat /dev/null
 
 You can print the filename and linenumber of the console.log very easily using some stacktrace hack.
 
+What I made out of this? [Click here](https://github.com/sahilrajput03/learning_sql/blob/main/fso-part13/exercise-13.4-blogs/utils/logger.js)
+
 ```bash
 # learn:
 # src https://stackoverflow.com/a/14172822/10012446 (<< this answer has another link of stackoverflow answer i.e., src of this answer: https://stackoverflow.com/questions/11386492/accessing-line-number-in-v8-javascript-chrome-node-js)
