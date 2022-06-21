@@ -1,5 +1,7 @@
 # Readme
 
+Source: https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
+
 ```js
 // /** @type {number} */
 let k = 'sa'
