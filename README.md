@@ -94,6 +94,7 @@ cat /dev/null
 - **Single big mistake I made a lot times in last 3 years**: [Click here](single-big-mistake.md)
 - **Learn Obs:** [Click here](./learn-obs.md)
 - **Learn kdenlive:** [Click here](learn-kdenlive.md)
+- **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 
 ## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
 
