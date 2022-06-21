@@ -97,6 +97,10 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
+## Creating .d.ts files in js/ts ?
+
+[Click here](https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html)
+
 ## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
 
 - The four C's, Communication with Conviction with Confience with Calmness.
