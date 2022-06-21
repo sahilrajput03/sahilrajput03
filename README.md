@@ -97,6 +97,18 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
+## Scaling console.logs?
+
+You can print the filename and linenumber of the console.log very easily using some stacktrace hack.
+
+```bash
+# learn:
+# src https://stackoverflow.com/a/14172822/10012446 (<< this answer has another link of stackoverflow answer i.e., src of this answer: https://stackoverflow.com/questions/11386492/accessing-line-number-in-v8-javascript-chrome-node-js)
+# src: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack
+
+
+```
+
 ## Creating .d.ts files in js/ts ?
 
 Its a myth coz tsc generates this for its own use, but you can write your own for vanilla js projects typechecking as well using // @ts-check comment on top of .js files
