@@ -95,6 +95,7 @@ cat /dev/null
 - **Learn Obs:** [Click here](./learn-obs.md)
 - **Learn kdenlive:** [Click here](learn-kdenlive.md)
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
 ## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
 
