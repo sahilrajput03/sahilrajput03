@@ -97,7 +97,7 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
-## Scaling console.logs?
+## Scaling `console.log`s?
 
 You can print the filename and linenumber of the console.log very easily using some stacktrace hack.
 
