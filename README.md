@@ -99,6 +99,8 @@ cat /dev/null
 
 ## Creating .d.ts files in js/ts ?
 
+Its a myth coz tsc generates this for its own use, but you can write your own for vanilla js projects typechecking as well using // @ts-check comment on top of .js files
+
 [Click here](https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html)
 
 ## Leadership Principles ~ Sequoya's memo ([src](https://youtu.be/VXzWbutanjI?t=3382))
