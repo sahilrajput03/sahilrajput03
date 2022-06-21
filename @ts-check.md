@@ -1,5 +1,6 @@
 # Readme
 
+```js
 // /** @type {number} */
 let k = 'sa'
 /**
@@ -8,3 +9,4 @@ let k = 'sa'
  */
 let m = (testName, fun) => undefined
 m('Simple test', () => {})
+```
