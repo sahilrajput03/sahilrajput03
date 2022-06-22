@@ -105,6 +105,8 @@ cat /dev/null
 ((a, b, c) => {}).length //3
 ```
 
+Expressjs uses this to identify if the callback you specified has two or three OR four params in its definition and based on that it judges if the middles should be treated as a errorHandler or simple middleware. Yikes!
+
 ## `chai-http` is like supertest
 
 chaijs is assertion library like `assert` + http testing library like `supertest`
