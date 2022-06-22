@@ -97,6 +97,12 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
+## `chai-http` is like supertest
+
+chaijs is assertion library like `assert` + http testing library like `supertest`
+
+https://www.chaijs.com/plugins/chai-http/
+
 ## Enable typescript check in js projects
 
 You can do either a workspace level or user settings level or both.
