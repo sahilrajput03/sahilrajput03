@@ -97,6 +97,11 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
+## Finally Intellgence as a service goona be paid
+
+![image](https://user-images.githubusercontent.com/31458531/174967586-2111bb1a-3ec9-4475-877c-5cd4a655e8ef.png)
+
+
 ## Scaling `console.log`s?
 
 You can print the filename and linenumber of the console.log very easily using some stacktrace hack.
