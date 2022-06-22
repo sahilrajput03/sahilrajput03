@@ -97,6 +97,14 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
+## Enable typescript check in js projects
+
+You can do either a workspace level or user settings level or both.
+
+Source: https://code.visualstudio.com/docs/nodejs/working-with-javascript#_type-checking-javascript
+
+*Tldr: Search for `ts-check` in settings, and enable `js/ts.implicitProjectConfig.checkJs` setting @ workspace level. Using this settings user level is also encouraged as it will show all the warnings for you at all times but since you want all users of the project to have this feature enabled by defautl you must enable this workspace level too(even if you have it enabled @ user level).*
+
 ## Finally Intellgence as a service goona be paid
 
 ![image](https://user-images.githubusercontent.com/31458531/174967586-2111bb1a-3ec9-4475-877c-5cd4a655e8ef.png)
