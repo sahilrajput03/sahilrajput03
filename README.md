@@ -97,6 +97,14 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
+## Did you know "We can get the number of parameters defined in its function definition ?
+
+```js
+((a) => {}).length // 1
+((a, b) => {}).length // 2
+((a, b, c) => {}).length //3
+```
+
 ## `chai-http` is like supertest
 
 chaijs is assertion library like `assert` + http testing library like `supertest`
