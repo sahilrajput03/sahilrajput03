@@ -97,6 +97,12 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
+## Arranging date named objects in alphabetical order?
+
+A good exerpt on that problem.
+
+> Save the migration code in the file migrations/20211209_00_initialize_notes_and_users.js. Migration file names should always be named alphabetically when created so that previous changes are always before newer changes. One good way to achieve this order is to start the migration file name with the date and a sequence number.
+
 ## Did you know "We can get the number of parameters defined in its function definition ?
 
 ```js
