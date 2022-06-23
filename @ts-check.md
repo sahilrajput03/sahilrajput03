@@ -2,7 +2,9 @@
 
 Source: https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
 
-Learn how jsdoc is used to generate docs: https://github.com/sahilrajput03/learn-jsdoc
+- Learn how jsdoc is used to generate docs: https://github.com/sahilrajput03/learn-jsdoc
+
+## Code Examples
 
 ```js
 // /** @type {number} */
