@@ -97,6 +97,21 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 
+## Amazing guide on testing containing objects in an array, works 100%
+
+Source: https://codewithhugo.com/jest-array-object-match-contain/
+
+```js
+test('LEARN: array containing an object', () => {
+	// src: https://jestjs.io/docs/expect#expectarraycontainingarray
+	const expectedMatchingObjectInArray = {name: 'sahil'}
+	const received = [{name: 'sahil', lastname: 'rajput'}, {otherObjectsAnyShape: 'Rohit'}]
+
+	// Src: https://codewithhugo.com/jest-array-object-match-contain/
+	expect(received).toEqual(expect.arrayContaining([expect.objectContaining(expectedMatchingObjectInArray)]))
+})
+```
+
 ## Arranging date named objects in alphabetical order?
 
 A good exerpt on that problem.
