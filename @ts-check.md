@@ -23,6 +23,6 @@ let a
 let b
 ```
 
-Learn imporint types with jsdoc : SEEMS VERY PROMISING AND GOOD FOR LONG LIFE DEVELOPMENT
+- Learn `importing types` with jsdoc : SEEMS VERY PROMISING AND GOOD FOR LONG LIFE DEVELOPMENT
 
 https://stackoverflow.com/questions/49836644/how-to-import-a-typedef-from-one-file-to-another-in-jsdoc-using-node-js
