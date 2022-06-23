@@ -104,11 +104,11 @@ Source: https://codewithhugo.com/jest-array-object-match-contain/
 ```js
 test('LEARN: array containing an object', () => {
 	// src: https://jestjs.io/docs/expect#expectarraycontainingarray
-	const expectedMatchingObjectInArray = {name: 'sahil'}
+	const expected = {name: 'sahil'}
 	const received = [{name: 'sahil', lastname: 'rajput'}, {otherObjectsAnyShape: 'Rohit'}]
 
 	// Src: https://codewithhugo.com/jest-array-object-match-contain/
-	expect(received).toEqual(expect.arrayContaining([expect.objectContaining(expectedMatchingObjectInArray)]))
+	expect(received).toEqual(expect.arrayContaining([expect.objectContaining(expected)]))
 })
 ```
 
