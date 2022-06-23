@@ -12,3 +12,13 @@ let k = 'sa'
 let m = (testName, fun) => undefined
 m('Simple test', () => {})
 ```
+
+```js
+// Default
+/** @type any */
+let a 
+
+// This is the easiest way to silent most of the errors
+/** @type object */
+let b
+```
