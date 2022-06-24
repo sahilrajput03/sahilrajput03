@@ -103,6 +103,8 @@ cat /dev/null
 
 ## Problem with token based authentication
 
+Source: https://fullstackopen.com/en/part4/token_authentication#problems-of-token-based-authentication
+
 ![image](https://user-images.githubusercontent.com/31458531/175558262-5e674a22-f6a1-4058-84aa-9d8aa6a85542.png)
 
 
