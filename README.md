@@ -98,6 +98,9 @@ cat /dev/null
 - **Learn kdenlive:** [Click here](learn-kdenlive.md)
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
+- **Challau.com metaverse:** [Click here](challau-metaverse.md)
+
+
 
 ## Amazing guide on testing containing objects in an array, works 100%
 
