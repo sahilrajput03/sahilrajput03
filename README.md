@@ -99,7 +99,7 @@ cat /dev/null
 - **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
-
+- **Drafts:** [Click here](./drafts)
 
 
 ## Amazing guide on testing containing objects in an array, works 100%
