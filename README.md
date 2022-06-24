@@ -101,6 +101,11 @@ cat /dev/null
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
 
+## Problem with token based authentication
+
+![image](https://user-images.githubusercontent.com/31458531/175558262-5e674a22-f6a1-4058-84aa-9d8aa6a85542.png)
+
+
 ## React server components(still in development though) is used by Hydrogen developers(a shopify framework)
 
 Source: https://shopify.engineering/how-we-built-hydrogen
