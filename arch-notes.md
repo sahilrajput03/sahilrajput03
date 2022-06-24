@@ -8,6 +8,15 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Using pureftpd
+
+A ftp server
+
+```
+# src: https://aur.archlinux.org/packages/pure-ftpd
+yay -S pure-ftpd
+```
+
 ## `redis`
 
 ```bash
