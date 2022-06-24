@@ -1,7 +1,5 @@
 # 🤺︎ Hi there 👋 Trying what I can ! ![](https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif)
 
-*Mostly inspired from other people's approach. Its applicate to any interest imo.*
-
 Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.”
 
 [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
