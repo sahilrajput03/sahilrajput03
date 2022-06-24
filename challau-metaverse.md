@@ -12,7 +12,7 @@ My University in Metaverse: [https://www.challau.com/college/crazyfullstack](htt
 - **We can share our device screen:** ![image](https://user-images.githubusercontent.com/31458531/175451333-a716d769-a074-4516-9e68-aa49f17b48c0.png)
 - **We can share camera in lecture hall**: ![image](https://user-images.githubusercontent.com/31458531/175451068-ad3c41e8-5eda-42a0-b0cc-d1f3df3e8582.png)
 - **Size and capacity of lecture hall:** ![image](https://user-images.githubusercontent.com/31458531/175451103-3dcdd08c-f3da-4739-a68e-c5434ac796c7.png)
-- **We can sit on any seat by clicking on that seat (like the sear turns blue when you hover over the seat) unless someone else is already sitting I guess 😵!:** [image](https://user-images.githubusercontent.com/31458531/175451163-9086be5d-f9ff-44db-84b5-89a34bd2f394.png)
+- **We can sit on any seat by clicking on that seat (like the sear turns blue when you hover over the seat) unless someone else is already sitting I guess 😵!:** ![image](https://user-images.githubusercontent.com/31458531/175451163-9086be5d-f9ff-44db-84b5-89a34bd2f394.png)
 
 ## Team
 
