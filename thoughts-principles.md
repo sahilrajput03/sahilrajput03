@@ -123,3 +123,9 @@ Can we do it or not is not the question. You have to do it.
 I am the Master of my Fate, I am the Captain of my Soul.
 
 Don't confuse education with schooling.
+
+Training doesn’t start until you are exhausted - Master Chung
+
+In marathons - Mile 20 is the starting line of the race.
+
+Some times you win. Sometimes you don’t win. But that’s not the same as losing.
