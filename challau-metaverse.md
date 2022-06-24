@@ -1,4 +1,8 @@
-# What can we do in challau metaverse
+# What can we do in challau.com metaverse
+
+Visit: http://challau.com
+
+My university in Metaverse: https://www.challau.com/college/crazyfullstack
 
 ![image](https://user-images.githubusercontent.com/31458531/175450997-054ed22c-4c59-46aa-83ed-644b6d1c21f8.png)
 
