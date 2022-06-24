@@ -1,10 +1,10 @@
-# What can we do in challau.com metaverse
+# What can we do in [challau.com](http://challau.com) metaverse
 
 Visit: [http://challau.com](http://challau.com)
 
 My University in Metaverse: [https://www.challau.com/college/crazyfullstack](https://www.challau.com/college/crazyfullstack)
 
-## Tour - My Experience with [Challau.com](https://www.challau.com/college/crazyfullstack)
+## Tour - My Experience
 
 ![image](https://user-images.githubusercontent.com/31458531/175450997-054ed22c-4c59-46aa-83ed-644b6d1c21f8.png)
 
