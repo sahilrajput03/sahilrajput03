@@ -15,6 +15,12 @@ A ftp server
 ```
 # src: https://aur.archlinux.org/packages/pure-ftpd
 yay -S pure-ftpd
+
+# ALERT
+# ALERT
+# ALERT
+# ALERT
+# FYI: I was not able to set up the ftp server with this though :(
 ```
 
 ## `redis`
