@@ -101,6 +101,9 @@ cat /dev/null
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
 
+## React server components(still in development though) is used by Hydrogen developers(a shopify framework)
+
+Source: https://shopify.engineering/how-we-built-hydrogen
 
 ## Amazing guide on testing containing objects in an array, works 100%
 
