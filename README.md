@@ -101,6 +101,12 @@ cat /dev/null
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
 
+## Community version of dalle 1 (free to use completely)
+
+https://huggingface.co/
+
+https://github.com/huggingface/transformers
+
 ## Problem with token based authentication
 
 Source: https://fullstackopen.com/en/part4/token_authentication#problems-of-token-based-authentication
