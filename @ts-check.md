@@ -17,7 +17,6 @@ let k
  * @param {Function} fun This is test function.
  */
 let m = (testName, fun) => undefined
-m('Simple test', () => {})
 
 // any type
 /** @type any */
