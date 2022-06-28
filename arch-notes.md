@@ -12,6 +12,7 @@
 
 ```bash
 sudo pacman -S python-django
+# Wikipage: https://wiki.archlinux.org/title/Django
 ```
 
 ## Using pureftpd
