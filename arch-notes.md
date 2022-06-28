@@ -13,6 +13,14 @@
 ```bash
 sudo pacman -S python-django
 # Wikipage: https://wiki.archlinux.org/title/Django
+
+# Verify if django is installed correctly and python can access it
+python
+# And try running below code:
+import django
+print(django.get_version())
+# Output: 4.0.5
+## Confirms successful install of django.
 ```
 
 ## Using pureftpd
