@@ -23,6 +23,8 @@ print(django.get_version())
 ## Confirms successful install of django.
 ```
 
+Starting with django: https://www.djangoproject.com/start/
+
 ## Using pureftpd
 
 A ftp server
