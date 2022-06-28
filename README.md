@@ -101,6 +101,7 @@ cat /dev/null
 - **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
+- **Learning Svelte:** [Click here](learn-svelte.md)
 
 ## Github's Official `.gitignore` files for different enviornments
 
