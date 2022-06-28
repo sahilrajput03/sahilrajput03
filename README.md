@@ -102,6 +102,12 @@ cat /dev/null
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
 
+## Github's Official `.gitignore` files for different enviornments
+
+https://github.com/github/gitignore
+
+https://github.com/github/gitignore/blob/main/Node.gitignore
+
 ## Whats your ping?
 
 ![image](https://user-images.githubusercontent.com/31458531/176146314-e627fa17-8dae-48b2-a580-f359fc4eb4c6.png)
