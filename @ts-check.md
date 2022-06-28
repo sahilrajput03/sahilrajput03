@@ -7,22 +7,23 @@ Source: https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
 ## Code Examples
 
 ```js
-// /** @type {number} */
-let k = 'sa'
+// number type
+/** @type {number} */
+let k
+
+// Defining parameter types of function 
 /**
  * @param {string} testName This is the name of test.
  * @param {Function} fun This is test function.
  */
 let m = (testName, fun) => undefined
 m('Simple test', () => {})
-```
 
-```js
-// Default
+// any type
 /** @type any */
 let a 
 
-// This is the easiest way to silent most of the errors
+// object type
 /** @type object */
 let b
 ```
