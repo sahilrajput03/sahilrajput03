@@ -14,13 +14,17 @@
 sudo pacman -S python-django
 # Wikipage: https://wiki.archlinux.org/title/Django
 
-# Verify if django is installed correctly and python can access it
-python
+###### Verify if django is installed correctly and python can access it ######
+# Way1: python-cli
+python -m django --version
+# Output: 4.0.5
+
+# Way2: python subshell
+pythong
 # And try running below code:
 import django
 print(django.get_version())
 # Output: 4.0.5
-## Confirms successful install of django.
 ```
 
 Starting with django: https://www.djangoproject.com/start/
