@@ -1,5 +1,7 @@
 # Learn git
 
+For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
+
 ## show all branch
 
 `git branch`: Prints all branches and \* indicated is the current branch.
