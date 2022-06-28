@@ -101,6 +101,21 @@ cat /dev/null
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
 
+## `Insert at` in arrays in js
+
+```js
+var arr = []
+arr[0] = 'Jani'
+arr[1] = 'Hege'
+arr[2] = 'Stale'
+arr[3] = 'Kai Jim'
+arr[4] = 'Borge'
+
+console.log(arr) // Jani,Hege,Stale,Kai Jim,Borge
+arr.splice(2, 0, 'Lene')
+console.log(arr) // Jani,Hege,Lene,Stale,Kai Jim,Borge
+```
+
 ## Community version of dalle 1 (free to use completely)
 
 https://huggingface.co/
