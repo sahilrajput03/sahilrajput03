@@ -36,7 +36,7 @@ cat /dev/null
 - **Hindi:** [Click here](learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](learn-curl.md)
-- **Lean Git:** [Click here](learn-git.md)
+- **Learn Git:** [Click here](learn-git.md)
 - **Learn Gmail:** [Click here](learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **Learn Regex:** [Click here](learn-regex.md)
