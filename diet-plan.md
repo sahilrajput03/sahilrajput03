@@ -96,11 +96,11 @@ PROCEDURE
 
 - **For making custard icecream:**
 
-- Follow similar to above mixture with quantities like: ALERT: Quantity of custard is 2tbspn for a total of 300ml(for easy ratios: take 50ml of cold milk mixture and 250ml of hot sugared milk) of milk to make the end custard extra flavoured.
-- Boil the milk for 5 minutes alone sugar.
-- Add the custard mix and boil for 5 more mins. Turn off the flame. Now get the hot mix to the room temp and ocassionally sitr it. NOTE: This is going to be extra thicky already.
-- ++When it reaches room temp, frreze it for 1 hr.
-- ++Take 150ml of whipping cream(amul whipping cream 250ml blue coloured i.e., Rs. 63, take red coloured if possible coz that is heavy ehipping cream) and keep it in freezer for atleast 2hrs and also place the container and blender( or place mixi container in freezer for atleast 2 hrs). Now whip it for around 8-10 minutes. You can store this whipped cream in fridge for 2-3 days of use. You should keep the cream in fridge else it will start melting.
-- ++ Now add the custard mix to this whipped cream and mix with blender for 2-3 mins. You can add other slecial things now like nicelg cut dry fruits to it as well.b
-- ++ Now place the mixture in a air-tight container put it in freezer for 3 hrs and whip the whole mixture again. Again keep it freezer for 8-10 hrs for a good textured icecream.
-- Now its ready to be served.
+  - Follow similar to above mixture with quantities like: ALERT: Quantity of custard is 2tbspn for a total of 300ml(for easy ratios: take 50ml of cold milk mixture and 250ml of hot sugared milk) of milk to make the end custard extra flavoured.
+  - Boil the milk for 5 minutes alone sugar.
+  - Add the custard mix and boil for 5 more mins. Turn off the flame. Now get the hot mix to the room temp and ocassionally sitr it. NOTE: This is going to be extra thicky already.
+  - When it reaches room temp, frreze it for 1 hr.
+  - Take 150ml of whipping cream(amul whipping cream 250ml blue coloured i.e., Rs. 63, take red coloured if possible coz that is heavy ehipping cream) and keep it in freezer for atleast 2hrs and also place the container and blender( or place mixi container in freezer for atleast 2 hrs). Now whip it for around 8-10 minutes. You can store this whipped cream in fridge for 2-3 days of use. You should keep the cream in fridge else it will start melting.
+  - Now add the custard mix to this whipped cream and mix with blender for 2-3 mins. You can add other slecial things now like nicelg cut dry fruits to it as well.b
+  - Now place the mixture in a air-tight container put it in freezer for 3 hrs and whip the whole mixture again. Again keep it freezer for 8-10 hrs for a good textured icecream.
+  - Now its ready to be served.
