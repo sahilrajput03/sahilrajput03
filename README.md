@@ -103,6 +103,10 @@ cat /dev/null
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
 
+## Awesome `ni` package mangager :LOL:
+
+https://github.com/antfu/ni
+
 ## Github's Official `.gitignore` files for different enviornments
 
 https://github.com/github/gitignore
