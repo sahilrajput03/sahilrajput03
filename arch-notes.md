@@ -20,7 +20,7 @@ python -m django --version
 # Output: 4.0.5
 
 # Way2: python subshell
-pythong
+python
 # And try running below code:
 import django
 print(django.get_version())
