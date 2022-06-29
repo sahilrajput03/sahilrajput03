@@ -33,4 +33,5 @@ Svelte Extension: https://marketplace.visualstudio.com/items?itemName=svelte.sve
 ## Phoenix - a web framework with phoenix language
 
 Also good but new language syntax is a barrier for js devs.
-https://www.phoenixframework.org/
+
+Browse the video @ https://www.phoenixframework.org/
