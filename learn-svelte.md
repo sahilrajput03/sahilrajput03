@@ -18,7 +18,11 @@ Creating Svelte project: `npm init vite my-app -- --template svelte`
 
 Svelte Extension: https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
 
-**Svelte in Embedded web: [Source@youtube](https://youtu.be/AdNJ3fydeao)**
+**Awesome talk by Rich Harris**: [Click here](https://youtu.be/AdNJ3fydeao)
+
+![image](https://user-images.githubusercontent.com/31458531/176383414-84a3accf-3782-448e-b500-f4487b2a3643.png)
+
+**Svelte in Embedded web**
 
 ![image](https://user-images.githubusercontent.com/31458531/176374263-d4db4ac8-8d9d-48e8-a0e5-69373c27d113.png)
 
