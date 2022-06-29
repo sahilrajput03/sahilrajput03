@@ -103,6 +103,12 @@ cat /dev/null
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
 
+## Labelled statement in javascript
+
+Awesome: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
+
+Src: https://youtu.be/AdNJ3fydeao?t=949
+
 ## Awesome `ni` package mangager :LOL:
 
 https://github.com/antfu/ni
