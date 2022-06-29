@@ -2,7 +2,9 @@
 
 TO READ: Is there a nextjs for Svelte? [Reddit](https://www.reddit.com/r/sveltejs/comments/jposc9/is_there_a_nextjs_for_svelte/), tldr; Yes there is Sapper (Svelte Kit but it isn't going to release as svelte is not good for server side rendering as Rich ).
 
-TO READ: Vercel welcomes [Rich Harris](https://www.reddit.com/r/nextjs/comments/qrpzaw/vercel_welcomes_rich_harris_creator_of_svelte/).
+TO READ: Vercel welcomes [Rich Harris - Reddit](https://www.reddit.com/r/nextjs/comments/qrpzaw/vercel_welcomes_rich_harris_creator_of_svelte/).
+
+TO READ (Blog date: 6 Dec 2021): [https://thenewstack.io/vercel-and-svelte-a-perfect-match-for-web-developers/](https://thenewstack.io/vercel-and-svelte-a-perfect-match-for-web-developers/)
 
 Using components:
 
