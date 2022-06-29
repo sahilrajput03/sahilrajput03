@@ -8,6 +8,14 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install `texstudio`
+
+Tool to help making/editing latex files.
+
+```bash
+sudo pacman -S texstudio
+```
+
 ## Install `django`
 
 ```bash
