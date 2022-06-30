@@ -14,6 +14,11 @@ Why? https://youtu.be/WgZq6Sakcog
 
 ```bash
 sudo pacman -S handbrake
+
+# Usage
+ghb
+# or make alias as:
+alias handbrake='ghb/'
 ```
 
 ## Install `texstudio`
