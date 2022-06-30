@@ -110,3 +110,24 @@ Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
   - Now add the custard mix to this whipped cream and mix with blender for 2-3 mins. You can add other slecial things now like nicelg cut dry fruits to it as well.b
   - Now place the mixture in a air-tight container put it in freezer for 3 hrs and whip the whole mixture again. Again keep it freezer for 8-10 hrs for a good textured icecream.
   - Now its ready to be served.
+
+
+- **# Moong daal (optionally +arhar daal)**
+
+  - Keep 1 bowl moong dal with water for 15 mins. (water:dal ratio 3:1) FYIIIII: (for arhar daal i.e, full yellow daal you must keep keep it for 1 hour)
+  - Put all this to cooker now and heat container with stove and take it off just before the first whistle bcoz arhar dal is easy to get fluffy.
+
+  **Ingredients:** 1 big spoon oil, 1/2 tbsp jeera, 1/2 tbsp sarsoon (TODO: ADD MORE FROM BELOW TO HERE)
+
+  - Separate:
+    - In kadahi keep 1 big spoon of oil.
+    - Now when the oil is hot, add 1/2 tbsp cumin seed (jeera) {+1/2 tbsp sarsoon (or rai ke daane)} and let it fry for few seconds.
+    - After some time add 1/4 tbsp of Asafoetida (heeng) and let it fry for few seconds.
+    - Now add 1 chopped onion (length wise) and :::: fry till golden brown.
+    - Now add 1 tbsp chopped Ginger(adrak)+Garlic(lahsun) and also add choped green chilli and :::: FRY FOR 1 minute.
+    - Then add two normally chooped onion and ::::FRY FOR 1-2 MINUTES.
+    - Add 1 tbsp garam masala (mixed spices) + 1/2tbsp coriander(dhania powder) + 1tbsp turmeric (haldi) + 1tbsp red chilli powder.
+    - :::::::: NOW MIX WELL TILL THE MIXTURE GETS LITTLE THICK AND ADD SOME WATER ACCORDING TO NEED.
+    - Add boiled moong daal now and mix well with spices and add water according to gravy.
+    - Add some chopped green coriander leaves (dhania patti) and add salt according to taste.
+    - Now close the lid and let it cook for sometime on stove.
