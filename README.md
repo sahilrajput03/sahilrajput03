@@ -103,6 +103,10 @@ cat /dev/null
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
 
+## Anatomy of html documents by mdn
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#anatomy_of_an_html_document
+
 ## Labelled statement in javascript
 
 Awesome: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
