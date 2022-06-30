@@ -128,6 +128,6 @@ Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
     - Then add two normally chooped onion and ::::FRY FOR 1-2 MINUTES.
     - Add 1 tbsp garam masala (mixed spices) + 1/2tbsp coriander(dhania powder) + 1tbsp turmeric (haldi) + 1tbsp red chilli powder.
     - :::::::: NOW MIX WELL TILL THE MIXTURE GETS LITTLE THICK AND ADD SOME WATER ACCORDING TO NEED.
-    - Add boiled moong daal now and mix well with spices and add water according to gravy.
+    - Add boiled moong daal now and mix well with spices and add water according to gravy(you only have to cook for 3-4 minutes in total now else your daal will get too much fluffly and thats not good).
     - Add some chopped green coriander leaves (dhania patti) and add salt according to taste.
     - Now close the lid and let it cook for sometime on stove.
