@@ -103,6 +103,11 @@ cat /dev/null
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
 
+## A better and easy way to setup github credentials on local git
+
+![image](https://user-images.githubusercontent.com/31458531/176989166-735c72ba-2f57-427a-9977-2b3cdd027cbb.png)
+
+Source - [Docs - Authenticating with GitHub from Git](https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git)
 
 ## Github opensource docs
 
