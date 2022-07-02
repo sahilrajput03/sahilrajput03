@@ -8,6 +8,20 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install flatpak
+
+```bash
+# usng os independent package managers solution to avoid building the package myself
+# since flatpak is most popular among flatpack, appimage or snap, src: https://www.makeuseof.com/snap-vs-appimage-vs-flatpak/
+# install flatpak
+# sudo pacman -S flatpak
+# Using flatpak: https://docs.flatpak.org/en/latest/using-flatpak.html
+
+# Usage:
+flatpak install pkg-name
+## DRAWBACK: It needs lots of dependencies to dowload even for one single application to work, so not using it for anything at all till now.
+```
+
 ## Install flameshot
 
 ```bash
@@ -18,6 +32,8 @@
 # src: https://github.com/flameshot-org/flameshot/issues/2514
 # version 12 was released on jan 15, 2022 and arch package has no update for this yet..
 
+## USING .AppImage version of `flameshot` which is pretty insane that it doesn't require installation at all, and i simply needed to download the `flameshot-version-here.AppImage` from the release page i.e., https://github.com/flameshot-org/flameshot/releases .
+and it simply runs like hell, yikes!!!
 ```
 
 ## Install `handbrake` vide encoder that compresses a ton
