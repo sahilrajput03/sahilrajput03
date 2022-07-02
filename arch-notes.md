@@ -8,6 +8,18 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install flameshot
+
+```bash
+# archpackage is an older version i.e., version 11, https://archlinux.org/packages/community/x86_64/flameshot/
+# and that has bug i.e., selecting any field after text element tool causes flameshot to crash.
+
+# FIX: Install latest via:
+# src: https://github.com/flameshot-org/flameshot/issues/2514
+# version 12 was released on jan 15, 2022 and arch package has no update for this yet..
+
+```
+
 ## Install `handbrake` vide encoder that compresses a ton
 
 Why? https://youtu.be/WgZq6Sakcog
