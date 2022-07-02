@@ -1630,10 +1630,15 @@ echo $name
 
 ## Installed gui interface for postgres i.e., pgadmin4
 
-```
-sudo pacman -Syu
-sudo pacman -S pgadmin4
-# src: https://archlinux.org/packages/community/x86_64/pgadmin4/
+```bash
+### installation via pip :)
+# Browse: https://github.com/sahilrajput03/learning_sql/blob/main/Notes_pgadmin4_install.md
+
+
+################# INSTALLATION VIA arch package is brocken at the moment (from a long time I guess i.e., 1 whole year)
+################# sudo pacman -Syu
+################# sudo pacman -S pgadmin4
+################# src: https://archlinux.org/packages/community/x86_64/pgadmin4/
 ```
 
 ## Installed qbittorrent
