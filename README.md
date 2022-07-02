@@ -103,6 +103,13 @@ cat /dev/null
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
 
+## Github opensource docs
+
+Source: [Click here](https://github.com/github/docs/blob/main/package.json)
+
+![image](https://user-images.githubusercontent.com/31458531/176988979-62521720-2930-4308-bb87-7de261b7dfa0.png)
+
+
 ## Unicode symbols Website
 
 https://www.amp-what.com/unicode/search/up%20arrow
