@@ -103,6 +103,10 @@ cat /dev/null
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
 
+## sleep @ 5am ~ varun mayya
+
+feels more productive @ nights: https://youtu.be/kdgaiyqvVA8?t=4726
+
 ## mimic your voice with system ?
 
 https://www.descript.com/lyrebird
