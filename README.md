@@ -105,6 +105,8 @@ cat /dev/null
 
 ## Posthog - an opensource analytical tool
 
+Github: https://github.com/PostHog/posthog
+
 Used by Varun Mayyas he tells in [this video](https://youtu.be/kdgaiyqvVA8?t=3174).
 
 Visit at: https://posthog.com/
