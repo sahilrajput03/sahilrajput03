@@ -5,4 +5,4 @@
 - https://blume.vc/understanding-india-the-indus-valley-annual-report-2022/
 - https://www.linkedin.com/pulse/releasing-indus-valley-annual-report-2022-amal-vats/
 
-# 2021
+# 2021 and 2020 never happened.
