@@ -103,6 +103,15 @@ cat /dev/null
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
 
+## mimic your voice with system ?
+
+https://www.descript.com/lyrebird
+
+~ Varun mayy, you can make text to sound of your own voice with that.
+
+All-in-one audio & video editing, as easy as a doc.
+: https://www.descript.com/
+
 ## Posthog - an opensource analytical tool
 
 Github: https://github.com/PostHog/posthog
