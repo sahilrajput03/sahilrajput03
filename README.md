@@ -102,6 +102,7 @@ cat /dev/null
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
+- **Indus valley Reports:** [Click here](learn-indus-valley-reports.md)
 
 ## sleep @ 5am ~ varun mayya
 
