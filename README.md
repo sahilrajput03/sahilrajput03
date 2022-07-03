@@ -111,6 +111,12 @@ Used by Varun Mayyas he tells in [this video](https://youtu.be/kdgaiyqvVA8?t=317
 
 Visit at: https://posthog.com/
 
+## ui sources - has all the screenshots of all the apps
+
+https://www.uisources.com/home
+
+~Varun mayya's frined, src: [here-timestamped](https://youtu.be/kdgaiyqvVA8?t=3884)
+
 ## Reducing apk size of react-native apps?
 
 - [Search on google](https://www.google.com/search?q=expo+generated+apk+is+too+big&newwindow=1&sxsrf=ALiCzsYNE2t3ok-bI6QSh-94q6-c0ApoXw%3A1656847535825&ei=r3zBYp_-Me_B4-EP3cS18A0&ved=0ahUKEwjfkceGztz4AhXv4DgGHV1iDd4Q4dUDCA4&uact=5&oq=expo+generated+apk+is+too+big&gs_lcp=Cgdnd3Mtd2l6EAMyBwghEAoQoAEyBwghEAoQoAE6BwgAEEcQsAM6CggAEOQCELADGAE6BwgjELACECc6BAgAEA06BggAEB4QFjoECCMQJzoFCAAQkQI6CggAEIAEEIcCEBQ6BQgAEIAEOgQIIRAVOggIIRAeEBYQHToKCCEQHhAPEBYQHUoECEEYAEoECEYYAVCeAlieI2CZJGgCcAF4AIAB-AGIAZgbkgEGMC4xOS4ymAEAoAEByAENwAEB2gEGCAEQARgJ&sclient=gws-wiz)
