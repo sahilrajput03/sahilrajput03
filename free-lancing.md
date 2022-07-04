@@ -18,3 +18,7 @@ A client would love to work with if you would have a constant conversative (cons
 - Learn about [Microeconomics @ Investopedia](https://www.investopedia.com/terms/m/microeconomics.asp).
 - Have multiple bank accounts: Monthly Spend Account(+15K every month): The goal of this account to go broke with your spendings, Spludge Account (for long term desiral things like Bike, Car, Home and this can be used to fund in worst cases when you don't a project in future)
 - Make contracts for freelancing via https://www.hellobonsai.com/.
+
+## money earnnig comparison?
+
+Earning 35k Rs/month => `22days*8hrs` = `176hrs` i.e., `35,000RS/176HRS` = `199Rs/hr` = `2.52$/hr`
