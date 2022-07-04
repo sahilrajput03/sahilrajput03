@@ -21,4 +21,4 @@ A client would love to work with if you would have a constant conversative (cons
 
 ## money earnnig comparison?
 
-Earning 35k Rs/month => `22days*8hrs` = `176hrs` i.e., `35,000RS/176HRS` = `199Rs/hr` = `2.52$/hr`
+Earning 35k Rs/month => `22days*8hrs` = `176hrs` i.e., `35,000RS/176HRS` = `200Rs/hr` = `2.52$/hr`
