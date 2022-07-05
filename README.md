@@ -104,6 +104,10 @@ cat /dev/null
 - **Learning Svelte:** [Click here](learn-svelte.md)
 - **Indus valley Reports:** [Click here](learn-indus-valley-reports.md)
 
+## Read messages and read contacts with pwa
+
+https://youtu.be/2mX8hmefCRI?t=450
+
 ## sleep @ 5am ~ varun mayya
 
 feels more productive @ nights: https://youtu.be/kdgaiyqvVA8?t=4726
