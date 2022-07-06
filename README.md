@@ -103,6 +103,7 @@ cat /dev/null
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
 - **Indus valley Reports:** [Click here](learn-indus-valley-reports.md)
+- **Avalon Meta:** [Click here](avalon-meta.md)
 
 ## Read messages and read contacts with pwa
 
