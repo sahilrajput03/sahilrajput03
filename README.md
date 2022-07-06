@@ -110,7 +110,7 @@ cat /dev/null
 ```js
 let a = {car: 10, bar: 20}
 
-// src: 
+// src: https://stackoverflow.com/a/23639793/10012446
 let objectToParams = (obj) => Object.entries(obj).map(([key, val]) => `${key}=${val}`).join('&');
 
 objectToParams(a) // 'car=10&bar=20'
