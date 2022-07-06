@@ -105,6 +105,11 @@ cat /dev/null
 - **Indus valley Reports:** [Click here](learn-indus-valley-reports.md)
 - **Avalon Meta:** [Click here](avalon-meta.md)
 
+## `toJSON` in JSON.stringify function ?
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+- https://thecodebarbarian.com/what-is-the-tojson-function-in-javascript.html
+
 ## Read messages and read contacts with pwa
 
 https://youtu.be/2mX8hmefCRI?t=450
