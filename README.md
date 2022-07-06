@@ -105,6 +105,17 @@ cat /dev/null
 - **Indus valley Reports:** [Click here](learn-indus-valley-reports.md)
 - **Avalon Meta:** [Click here](avalon-meta.md)
 
+## object to params ?
+
+```js
+let a = {car: 10, bar: 20}
+
+// src: 
+let objectToParams = (obj) => Object.entries(obj).map(([key, val]) => `${key}=${val}`).join('&');
+
+objectToParams(a) // 'car=10&bar=20'
+```
+
 ## `toJSON` in JSON.stringify function ?
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
