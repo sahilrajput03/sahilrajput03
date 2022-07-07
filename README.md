@@ -112,6 +112,12 @@ cat /dev/null
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **Learn Hasura:** [Click here](learn-hasura.md)
 
+## vaidation
+
+If using typescript: https://github.com/colinhacks/zod
+
+If using javascript: https://github.com/jquense/yup
+
 ## `parseInt()` vs. `Number()`
 
 ```js
