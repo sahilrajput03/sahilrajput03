@@ -112,6 +112,10 @@ cat /dev/null
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **Learn Hasura:** [Click here](learn-hasura.md)
 
+## Netlify acquired onegraph
+
+Date: 17 Nov, 2021 - [Click here](https://www.onegraph.com/blog/post/9)
+
 ## object to params ?
 
 ```js
