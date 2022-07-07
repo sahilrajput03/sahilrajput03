@@ -115,8 +115,8 @@ cat /dev/null
 ## `parseInt()` vs. `Number()`
 
 ```js
-Number(22.1) // 22.1
-parseInt(22.1) // 22
+console.log(Number(22.1)) // 22.1
+console.log(parseInt(22.1)) // 22
 ```
 
 ## Netlify acquired onegraph
