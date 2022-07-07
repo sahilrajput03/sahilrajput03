@@ -112,6 +112,26 @@ cat /dev/null
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **Learn Hasura:** [Click here](learn-hasura.md)
 
+## what venv in python?
+
+```bash
+chmod +x run.sh
+python -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+./run.sh
+```
+
+Above is a common setup to start start a python project( that is a flask project though). But in above commands,
+
+```bash
+# creates the virtualenv, you need to run that only once, its like `node_modules` in node. Source: https://docs.python.org/3/library/venv.html
+python -m venv env
+
+# source (activate) the virtual env in current bash shell
+source env/bin/activate
+```
+
 ## nextAuth?
 
 ![image](https://user-images.githubusercontent.com/31458531/177792056-525c1454-f299-46d7-acba-100f3caa9bdd.png)
