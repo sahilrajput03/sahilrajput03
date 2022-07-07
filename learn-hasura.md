@@ -8,3 +8,6 @@
 - watch what is hasura from Tanmai Gopal - [click here](https://www.youtube.com/watch?v=Cq77mu-RAZk)
 - Who is using Hasura? [case studies - click here](https://hasura.io/case-studies/), [other companies](https://discovery.hgdata.com/product/hasura)
 - **Getting started with hasura locally - Docs:** [click here](https://hasura.io/docs/latest/graphql/core/getting-started/index/)
+- **Getting started with hasura locally - Docs:** [click here](https://hasura.io/docs/latest/graphql/core/getting-started/index/)
+- **Start Locally with docker:** [Click here](https://hasura.io/docs/latest/graphql/core/getting-started/docker-simple/)
+- **Fireshipio - Hasura:** [Click here](https://www.youtube.com/watch?v=xiZ61BkMKo8)
