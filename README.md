@@ -114,9 +114,9 @@ cat /dev/null
 
 ## validation in javascript
 
-If using typescript: https://github.com/colinhacks/zod
+If using typescript: https://github.com/colinhacks/zod (9k*)
 
-If using javascript: https://github.com/jquense/yup
+If using javascript: https://github.com/jquense/yup (17.6k*)
 
 ## `parseInt()` vs. `Number()`
 
