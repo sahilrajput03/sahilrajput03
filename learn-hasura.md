@@ -6,3 +6,4 @@
 - Tanmai Gopal (co-founder) | [Linkedin](https://www.linkedin.com/in/tanmaig/) | [Blogs](https://hasura.io/blog/@tanmaig/)
 - Rajoshi Ghosh(co-founder) | [Linkedin](https://www.linkedin.com/in/rajoshighosh/) 
 - watch what is hasura from Tanmai Gopal - [click here](https://www.youtube.com/watch?v=Cq77mu-RAZk)
+- Who is using Hasura? [case studies - click here](https://hasura.io/case-studies/), [other companies](https://discovery.hgdata.com/product/hasura)
