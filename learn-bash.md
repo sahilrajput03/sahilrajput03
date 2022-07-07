@@ -9,6 +9,17 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Check if a user has password set or not?
+
+Source: https://unix.stackexchange.com/a/184975/504112
+
+```bash
+# check for postgres user:
+sudo passwd --status postgres
+# Output: postgres L 2021-12-17 -1 -1 -1 -1
+# Analyse: Since we can not find `NP` in above output that means there password is already set for postgres user.
+```
+
 ## Wow!
 
 **Full 3 hour Bash Scripting course from linuxhint:** [Click here](https://www.youtube.com/watch?v=e7BufAVwDiM).
