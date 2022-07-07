@@ -11,3 +11,4 @@
 - **Getting started with hasura locally - Docs:** [click here](https://hasura.io/docs/latest/graphql/core/getting-started/index/)
 - **Start Locally with docker:** [Click here](https://hasura.io/docs/latest/graphql/core/getting-started/docker-simple/)
 - **Fireshipio - Hasura:** [Click here](https://www.youtube.com/watch?v=xiZ61BkMKo8)
+- **Making First Query @youtube:** [Click here](https://youtu.be/ZGKQ0U18USU)
