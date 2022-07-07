@@ -112,7 +112,7 @@ cat /dev/null
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **Learn Hasura:** [Click here](learn-hasura.md)
 
-## vaidation
+## validation in javascript
 
 If using typescript: https://github.com/colinhacks/zod
 
