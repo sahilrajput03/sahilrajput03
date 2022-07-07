@@ -112,6 +112,10 @@ cat /dev/null
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **Learn Hasura:** [Click here](learn-hasura.md)
 
+## nextAuth?
+
+![image](https://user-images.githubusercontent.com/31458531/177792056-525c1454-f299-46d7-acba-100f3caa9bdd.png)
+
 ## validation in javascript
 
 If using typescript: https://github.com/colinhacks/zod (9k*)
