@@ -7,4 +7,4 @@
 - Rajoshi Ghosh(co-founder) | [Linkedin](https://www.linkedin.com/in/rajoshighosh/) 
 - watch what is hasura from Tanmai Gopal - [click here](https://www.youtube.com/watch?v=Cq77mu-RAZk)
 - Who is using Hasura? [case studies - click here](https://hasura.io/case-studies/), [other companies](https://discovery.hgdata.com/product/hasura)
-- **Getting started with hasura locally:** [click here](https://hasura.io/docs/latest/graphql/core/getting-started/index/)
+- **Getting started with hasura locally - Docs:** [click here](https://hasura.io/docs/latest/graphql/core/getting-started/index/)
