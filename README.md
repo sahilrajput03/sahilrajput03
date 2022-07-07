@@ -110,6 +110,7 @@ cat /dev/null
 - **Indus valley Reports:** [Click here](learn-indus-valley-reports.md)
 - **Avalon Meta:** [Click here](avalon-meta.md)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
+- **Learn Hasura:** [Click here](learn-hasura.md)
 
 ## object to params ?
 
