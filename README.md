@@ -112,6 +112,7 @@ cat /dev/null
 - **Avalon Meta:** [Click here](avalon-meta.md)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **Learn Hasura:** [Click here](learn-hasura.md)
+- **One Graph:** [Click here](learn-one-graph.md)
 
 ## what venv in python?
 
