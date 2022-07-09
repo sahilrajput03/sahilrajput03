@@ -16,7 +16,7 @@ cat /dev/null
 [Click here](jump-starters.md)
 
 ## TODO
-
+- [todo.md](todo.md)
 - [1](https://docs.google.com/presentation/d/1uz8-Ae5sTgZYDmydfX-ESDO03oMBYAQ14rkJzPs4AxE/edit#slide=id.g2b178ca05c_0_3)
 - [2](https://docs.google.com/presentation/d/1snxo-EKx6PseQeznhfr-VVTEQ71EAMOdbDQ0pNR5jEA/edit#slide=id.g6b802e0221_1_1286)
 
