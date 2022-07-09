@@ -8,7 +8,7 @@
 
 **Courses**:
 
-- FullStackOpen 2022: [WEB](https://fullstackopen.com/en/)
+- FullStackOpen 2022: [WEB](https://fullstackopen.com/en/), [Course Stats](https://studies.cs.helsinki.fi/stats/courses/fullstackopen)
 - Other Awsome Tech courses - [Click here](courses-list.md)
 
 **HTML and CSS**:
