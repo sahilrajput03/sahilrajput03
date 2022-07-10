@@ -11,6 +11,17 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
+### React Benchmarks
+
+```txt
+# 10 Jul, 2022
+# INIT NEW REACT APP #
+vite: 41m
+bun: 70m
+cra: 335m
+cna: 187m
+```
+
 ### Jump Starters
 
 [Click here](jump-starters.md)
