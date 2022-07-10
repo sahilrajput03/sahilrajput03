@@ -18,8 +18,8 @@ cat /dev/null
 # INIT NEW REACT APP #
 vite: 41m
 bun: 70m
-cra: 335m
 cna: 187m
+cra: 335m
 ```
 
 ### Jump Starters
