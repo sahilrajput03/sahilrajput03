@@ -124,6 +124,7 @@ cra: 335m
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **Learn Hasura:** [Click here](learn-hasura.md)
 - **OneGraph:** [Click here](learn-one-graph.md)
+- **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/)
 
 ## what venv in python?
 
