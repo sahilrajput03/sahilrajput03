@@ -124,7 +124,7 @@ cra: 335m
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **Learn Hasura:** [Click here](learn-hasura.md)
 - **OneGraph:** [Click here](learn-one-graph.md)
-- **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), [Another article @ apollo](https://www.apollographql.com/blog/graphql/pagination/understanding-pagination-rest-graphql-and-relay/), Inspiration - Kaltoos Sequelize Cursor based pagination npm package: [Click here](https://github.com/Kaltsoon/sequelize-cursor-pagination)
+- **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), [Another article @ apollo](https://www.apollographql.com/blog/graphql/pagination/understanding-pagination-rest-graphql-and-relay/), Inspiration - Kaltsoon's Sequelize Cursor based pagination npm package: [Click here](https://github.com/Kaltsoon/sequelize-cursor-pagination)
 
 ## what venv in python?
 
