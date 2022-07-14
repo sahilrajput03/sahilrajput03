@@ -125,7 +125,7 @@ cra: 335m
 - **Learn Hasura:** [Click here](learn-hasura.md)
 - **OneGraph:** [Click here](learn-one-graph.md)
 - **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), [Another article @ apollo](https://www.apollographql.com/blog/graphql/pagination/understanding-pagination-rest-graphql-and-relay/), Inspiration - Kaltsoon's Sequelize Cursor based pagination npm package: [Click here](https://github.com/Kaltsoon/sequelize-cursor-pagination)
-
+- **Youtube Hacks:**: [Click here](youtube-hacks.md)
 ## webflow
 
 - Official Playlist: [@youtube](https://www.youtube.com/watch?v=yJ3vsAnbi_o)
