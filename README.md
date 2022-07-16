@@ -183,7 +183,7 @@ const listener = app.listen(async () => {
 })
 ```
 
-If you are using it for simple pupose you can do it like:
+If you are using it general case i.e., STATIC PORT value, you can do it like:
 
 ```js
 // @ts-nocheck
