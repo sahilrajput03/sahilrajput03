@@ -9,6 +9,10 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## tmux can be used over ssh on mobile using `Juice SSh` app
+
+Yes, pretty amazing experience!
+
 ## gzip - a gnu cli tool to compress
 
 Source: `Fireship.io` & https://linuxize.com/post/how-to-extract-unzip-tar-gz-file/.
