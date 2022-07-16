@@ -16,7 +16,7 @@
 
 # Creating managed permissions - Yo
 
-Awesome: Source: [Hasura Authorization #EasyGraphQLwHasura](https://youtu.be/rkN3RQBi_UI)
+Awesome: Source: [Hasura Authorization #EasyGraphQLwHasura](https://youtu.be/rkN3RQBi_UI), all this in blogpost: [Click here](https://hasura.io/blog/hasura-authorization-system-through-examples/).
 
 1. ![image](https://user-images.githubusercontent.com/31458531/179343358-c1b3e6fa-26e3-4879-b42d-85e801ac815b.png)
 2. ![image](https://user-images.githubusercontent.com/31458531/179343402-4e3811b3-5572-4210-9655-e492ef852031.png)
