@@ -106,3 +106,13 @@ Changing salary of Elanor by Manager: ![image](https://user-images.githubusercon
 
 Lets see Elanor's Salary (we can move to payroll table for any employee like that): ![image](https://user-images.githubusercontent.com/31458531/179346292-5c78d548-466e-4dfc-b22f-5fa3148f4a2a.png)
 
+and we can see it update correctly (we can use that button to close it though): ![image](https://user-images.githubusercontent.com/31458531/179346344-d9c7f05e-d7ca-4a37-80ec-32df3f5e4988.png)
+
+Also, if we try to update Janet's salary by using Manager role we see that its not allowed: ![image](https://user-images.githubusercontent.com/31458531/179346427-3389e079-6d2a-4049-847f-e7106c1ed09b.png)
+
+29. Using jwt token for real world scenario. We can use key as anything(using long random key is good though) and also provide type as well for correspoinding alog use to hash the jwt: ![image](https://user-images.githubusercontent.com/31458531/179346647-d4aac943-8688-4f36-9426-af62131ce090.png)
+
+![image](https://user-images.githubusercontent.com/31458531/179346795-7aceeb3b-1709-4d01-bf63-a4c0f3779960.png)
+
+Now we can see that we can query using our jwt token(yo!!): ![image](https://user-images.githubusercontent.com/31458531/179346871-75ce1428-9f05-45fc-a199-ce3c01c533b3.png)
+
