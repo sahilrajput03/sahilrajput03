@@ -11,6 +11,4 @@
 - How to think like Leonardo - *Michael J. Gelb*
 - Inner Engineering - *Sadguru*
 
-# Reading Techniques
-
-[Click here](reading-techniques.md)
+**Reading Techniques:** [Click here](reading-techniques.md)
