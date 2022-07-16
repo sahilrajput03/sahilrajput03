@@ -9,6 +9,35 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## gzip - a gnu cli tool to compress
+
+`gzip` can compress only files.
+
+```bash
+# COMPRESSING (by deafult gzip compresses files in place)
+gzip array.png
+ls
+array.png.gz
+gzip -l array.png.gz
+# Output:
+#		compressed        uncompressed  ratio uncompressed_name
+#       2724                2735   1.4% array.png
+
+# Decompressing
+gzip -d array.png.gz
+ls
+# Output: array.png
+
+# compressing again
+gzip array.png
+
+# Another way to decompress
+gunzip array.png.gz
+
+ls
+# Output: array.png
+```
+
 ## Check if a user has password set or not?
 
 Source: https://unix.stackexchange.com/a/184975/504112
