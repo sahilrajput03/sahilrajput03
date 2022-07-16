@@ -128,6 +128,15 @@ cra: 335m
 - **Youtube Hacks:**: [Click here](youtube-hacks.md)
 - **Learn Travis:** [Click here](learn-travis.md)
 
+## Named arguments for self knowledge - Javascript
+
+```js
+let z = (a,b) => console.log({a,b})
+
+z(first=10, second=20) // {a: 10, b: 20}
+z(i=10, j=20) // {a: 10, b: 20}
+```
+
 ## Calling one express route from another route
 
 Source: https://stackoverflow.com/a/38948889/10012446
