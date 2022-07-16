@@ -128,6 +128,13 @@ cra: 335m
 - **Youtube Hacks:**: [Click here](youtube-hacks.md)
 - **Learn Travis:** [Click here](learn-travis.md)
 
+## Thats how colors work in nodejs
+
+FYI; In node repl mode, [src](https://nodejs.org/en/knowledge/getting-started/how-to-use-util-inspect/).
+
+![image](https://user-images.githubusercontent.com/31458531/179338604-62b5862a-c7ac-4367-ad0b-a25ff88c8e3f.png)
+
+
 ## Named arguments for self knowledge - Javascript
 
 ```js
