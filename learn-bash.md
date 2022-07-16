@@ -18,9 +18,11 @@
 gzip array.png
 ls
 array.png.gz
+
+# -l to list the compression ratio (higher the ratio more will be the size reduced):
 gzip -l array.png.gz
 # Output:
-#		compressed        uncompressed  ratio uncompressed_name
+#	compressed        uncompressed  ratio uncompressed_name
 #       2724                2735   1.4% array.png
 
 # Decompressing
