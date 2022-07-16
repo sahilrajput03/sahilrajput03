@@ -13,3 +13,12 @@
 - **Start Locally with docker:** [Click here](https://hasura.io/docs/latest/graphql/core/getting-started/docker-simple/)
 - **Fireshipio - Hasura:** [Click here](https://www.youtube.com/watch?v=xiZ61BkMKo8)
 - **Hasura - Getting Started (Your First Query) @youtube:** [Click here](https://youtu.be/ZGKQ0U18USU)
+
+# Creating managed permissions - Yo
+
+Src:
+
+1. ![image](https://user-images.githubusercontent.com/31458531/179343358-c1b3e6fa-26e3-4879-b42d-85e801ac815b.png)
+2. ![image](https://user-images.githubusercontent.com/31458531/179343402-4e3811b3-5572-4210-9655-e492ef852031.png)
+3. Add Table: ![image](https://user-images.githubusercontent.com/31458531/179343473-ca0a7f06-1e6d-4cbf-b684-0149680438aa.png)
+4. Add foreign key like that: ![image](https://user-images.githubusercontent.com/31458531/179343539-87b5eb43-4cce-444b-a144-d063fce37d33.png)
