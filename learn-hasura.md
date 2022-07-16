@@ -14,6 +14,71 @@
 - **Fireshipio - Hasura:** [Click here](https://www.youtube.com/watch?v=xiZ61BkMKo8)
 - **Hasura - Getting Started (Your First Query) @youtube:** [Click here](https://youtu.be/ZGKQ0U18USU)
 
+```js
+// SAMPLE GRAPHQL QUERY VIA FETCH
+/*
+This is an example snippet - you should consider tailoring it
+to your service.
+*/
+
+async function fetchGraphQL(operationsDoc, operationName, variables) {
+  const result = await fetch(
+    "undefined",
+    {
+      method: "POST",
+      body: JSON.stringify({
+        query: operationsDoc,
+        variables: variables,
+        operationName: operationName
+      })
+    }
+  );
+
+  return await result.json();
+}
+
+const operationsDoc = `
+  mutation MyMutation($likes: Int = 2) {
+    insert_blogs(objects: {title: "awsm blog", year: 2022, url: "google.com", likes: $likes}) {
+      affected_rows
+      returning {
+        author
+        id
+        likes
+        title
+        updated_at
+        url
+        year
+        user_id
+        created_at
+      }
+    }
+  }
+`;
+
+function executeMyMutation(likes) {
+  return fetchGraphQL(
+    operationsDoc,
+    "MyMutation",
+    {"likes": likes}
+  );
+}
+
+async function startExecuteMyMutation(likes) {
+  const { errors, data } = await executeMyMutation(likes);
+
+  if (errors) {
+    // handle those errors like a pro
+    console.error(errors);
+  }
+
+  // do something great with this precious data
+  console.log(data);
+}
+
+startExecuteMyMutation(likes);
+```
+
 # Creating managed permissions - Yo
 
 Awesome: Source: [Hasura Authorization #EasyGraphQLwHasura](https://youtu.be/rkN3RQBi_UI), all this in blogpost: [Click here](https://hasura.io/blog/hasura-authorization-system-through-examples/).
