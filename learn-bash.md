@@ -11,6 +11,8 @@
 
 ## gzip - a gnu cli tool to compress
 
+Source: `Fireship.io` & https://linuxize.com/post/how-to-extract-unzip-tar-gz-file/.
+
 `gzip` can compress only files.
 
 ```bash
@@ -38,6 +40,23 @@ gunzip array.png.gz
 
 ls
 # Output: array.png
+
+#########
+# In real world we need to archive a folder but gzip can only compress files so for that reason we need a archiver like `tar`. 
+# FYI: The word `tar` for the program is derived from "tape archiver" though.
+# Tar is program that can covert directories to a single file called tarball
+
+# Usage (-z flag is to compress as well)
+tar -czvf stuff.tar.gz scenes 
+ls
+# Output: scenes  stuff.tar.gz
+
+# Uncompress and untar
+tar -xvf stuff.tar
+#FYI:
+# -x, --extract, --get       extract files from an archive
+# -f, --file=ARCHIVE         use archive file or device ARCHIVE
+# -v, --verbose              verbosely list files processed
 ```
 
 ## Check if a user has password set or not?
