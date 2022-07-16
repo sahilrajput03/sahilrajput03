@@ -129,3 +129,9 @@ Training doesn’t start until you are exhausted - Master Chung
 In marathons - Mile 20 is the starting line of the race.
 
 Some times you win. Sometimes you don’t win. But that’s not the same as losing.
+
+Discipline is about what you want now and what you want most. ~ Allhabadia
+
+I hate waiting on machine, the machine should wait on me ~ Varun mayya
+
+Companies layoff to avoid death spiral ~ Varun Mayya (referring: Skioya Report)
