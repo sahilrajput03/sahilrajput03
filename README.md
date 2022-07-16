@@ -127,6 +127,12 @@ cra: 335m
 - **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), [Another article @ apollo](https://www.apollographql.com/blog/graphql/pagination/understanding-pagination-rest-graphql-and-relay/), Inspiration - Kaltsoon's Sequelize Cursor based pagination npm package: [Click here](https://github.com/Kaltsoon/sequelize-cursor-pagination)
 - **Youtube Hacks:**: [Click here](youtube-hacks.md)
 
+## Calling one express route from another route
+
+Source: https://stackoverflow.com/a/38948889/10012446
+
+Hilarious and Feels stupid to think of this though now.
+
 ## `Object.is` is better than `===` ? tldr Yes, a little bit.
 
 Source: https://stackoverflow.com/a/30543212/10012446
