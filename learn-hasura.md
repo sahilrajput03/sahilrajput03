@@ -72,4 +72,30 @@ Now in payroll we can see all the entries: ![image](https://user-images.githubus
 
 21. We can see that HR now has all the permissions for insert, select, update and delete: ![image](https://user-images.githubusercontent.com/31458531/179345420-5d6069a2-7c01-4d05-8f3c-4701197030ae.png)
 
-22. 
+22. Now we set select permission for employees: ![image](https://user-images.githubusercontent.com/31458531/179345481-00515bfc-7d60-4a83-afc7-a358ec53c188.png)
+
+23. Now we set select permission for the employee who is actually a Manager: ![image](https://user-images.githubusercontent.com/31458531/179345568-72729d46-7901-4ef8-912c-ed2bfa9a4d0b.png)
+
+24. Make same permission for update as well: ![image](https://user-images.githubusercontent.com/31458531/179345594-2591cc1c-4d09-4b84-b3a9-60e8e0ee9d26.png)
+
+25. We change the name of payroll table to payrolls: ![image](https://user-images.githubusercontent.com/31458531/179345624-535d4fb2-6925-46a3-a0bb-55f965c4c7f0.png)
+
+26. Lets make everyone to be able to select everything: ![image](https://user-images.githubusercontent.com/31458531/179345664-69c57ca3-eab4-449f-8a39-29acb9c49f6d.png)
+
+27. Lets clone select permission of Employees(i.e., same above permision) for **HR and Managers** as well (FYI: Do overwrite the permissions if asked): ![image](https://user-images.githubusercontent.com/31458531/179345723-c7577692-776c-4aeb-8e85-609ed65c72e1.png)
+
+Now we can see that everyone can select: ![image](https://user-images.githubusercontent.com/31458531/179345787-f492e6b4-6453-4551-868e-32b8e90f5d73.png)
+
+28. Normally we pass roles in the request via jwt token like that..: ![image](https://user-images.githubusercontent.com/31458531/179345841-2fcc34bd-78c0-42f4-8a6b-9c09ea0b9cbc.png)
+
+**BUT** for now we are just gonna do it like this for demo (role=HR and id=Jane's Id): ![image](https://user-images.githubusercontent.com/31458531/179345906-9387fa31-72f6-49a3-8850-44b12ca2ab52.png)
+
+and we see that HR can select the data.
+
+also, if we put role=Manager and id=Michael's Id we see that Michael can select data for Elanor and Chidi only: ![image](https://user-images.githubusercontent.com/31458531/179345957-51656256-97ca-494b-9e60-6a81f0b9854f.png)
+
+and Elanor can only select her own data only: ![image](https://user-images.githubusercontent.com/31458531/179345989-41ebd186-d8d4-4d39-ae0e-39aa12cb51f1.png)
+
+and same for Chidi: ![image](https://user-images.githubusercontent.com/31458531/179346004-5a19e761-c4d2-4c93-a697-793dc7e423a5.png)
+
+Also we can see that employee can not mutate data bcoz we set that in permission roles that employees can only query data: ![image](https://user-images.githubusercontent.com/31458531/179346099-0af0db4c-6538-456a-8017-44f5409008f8.png)
