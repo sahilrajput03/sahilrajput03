@@ -183,6 +183,29 @@ const listener = app.listen(async () => {
 })
 ```
 
+If you are using it for simple pupose you can do it like:
+
+```js
+// @ts-nocheck
+const app = require('express')()
+const axios = require('axios')
+const log = console.log
+
+const PORT = 3000
+const URL = 'http://localhost:' + PORT
+const apiPath = (path) => URL + path
+
+app.get('/a', (req, res) => {
+	res.json('yoy')
+})
+
+app.listen(PORT, async () => {
+	let response = await axios.get(apiPath('/a'))
+	log('RESPONSE DATA:', response.data)
+})
+```
+
+
 ## `Object.is` is better than `===` ? tldr Yes, a little bit.
 
 Source: https://stackoverflow.com/a/30543212/10012446
