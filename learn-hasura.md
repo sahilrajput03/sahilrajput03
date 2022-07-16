@@ -15,7 +15,7 @@
 - **Hasura - Getting Started (Your First Query) @youtube:** [Click here](https://youtu.be/ZGKQ0U18USU)
 
 ```js
-// SAMPLE GRAPHQL QUERY VIA FETCH
+// SAMPLE GRAPHQL QUERY VIA FETCH, made by code exporter in Hasura. ~Sahil
 /*
 This is an example snippet - you should consider tailoring it
 to your service.
