@@ -18,7 +18,7 @@
 
 Awesome: Source: [Hasura Authorization #EasyGraphQLwHasura](https://youtu.be/rkN3RQBi_UI), all this in blogpost: [Click here](https://hasura.io/blog/hasura-authorization-system-through-examples/).
 
-1. ![image](https://user-images.githubusercontent.com/31458531/179343358-c1b3e6fa-26e3-4879-b42d-85e801ac815b.png)
+1. ![image](https://user-images.githubusercontent.com/31458531/179347076-3026b7d3-211c-460e-af60-f2d4321b40fa.png)
 2. ![image](https://user-images.githubusercontent.com/31458531/179343402-4e3811b3-5572-4210-9655-e492ef852031.png)
 3. Add Table: ![image](https://user-images.githubusercontent.com/31458531/179344325-f78ca07d-fa83-46fa-a141-c679ea845e8e.png)
 4. Add foreign key like that: ![image](https://user-images.githubusercontent.com/31458531/179343539-87b5eb43-4cce-444b-a144-d063fce37d33.png)
