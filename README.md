@@ -132,6 +132,8 @@ cra: 335m
 
 FYI; In node repl mode, [src](https://nodejs.org/en/knowledge/getting-started/how-to-use-util-inspect/).
 
+> Finally, the optional argument colorize is a boolean that adds ANSI escape codes to the string output. When logged to a terminal window, it should be pretty printed with colors. ~ Same above source page of nodejs docs.
+
 ![image](https://user-images.githubusercontent.com/31458531/179338604-62b5862a-c7ac-4367-ad0b-a25ff88c8e3f.png)
 
 
