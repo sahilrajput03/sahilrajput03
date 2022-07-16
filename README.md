@@ -130,6 +130,8 @@ cra: 335m
 
 ## builtin assertion library - nodjs
 
+[inspir](https://github.com/visionmedia/supertest/blob/master/lib/test.js#L10)
+
 ```js
 const { deepStrictEqual:dse } = require('assert');
 let a = {x: 10, y: 10}
