@@ -128,6 +128,16 @@ cra: 335m
 - **Youtube Hacks:**: [Click here](youtube-hacks.md)
 - **Learn Travis:** [Click here](learn-travis.md)
 
+## builtin assertion library - nodjs
+
+```js
+const { deepStrictEqual:dse } = require('assert');
+let a = {x: 10, y: 10}
+let b = {x: 10, z: 20}
+dse(a,a)
+dse(a,b)
+```
+
 ## Thats how colors work in nodejs
 
 FYI; In node repl mode, [src](https://nodejs.org/en/knowledge/getting-started/how-to-use-util-inspect/).
