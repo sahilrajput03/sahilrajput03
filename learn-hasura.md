@@ -99,3 +99,10 @@ and Elanor can only select her own data only: ![image](https://user-images.githu
 and same for Chidi: ![image](https://user-images.githubusercontent.com/31458531/179346004-5a19e761-c4d2-4c93-a697-793dc7e423a5.png)
 
 Also we can see that employee can not mutate data bcoz we set that in permission roles that employees can only query data: ![image](https://user-images.githubusercontent.com/31458531/179346099-0af0db4c-6538-456a-8017-44f5409008f8.png)
+
+And if we use Manager role instead we can see that Manage can mutate and insert data as well: ![image](https://user-images.githubusercontent.com/31458531/179346167-02579bce-35d4-4c23-9f40-c85f9a12febe.png)
+
+Changing salary of Elanor by Manager: ![image](https://user-images.githubusercontent.com/31458531/179346230-a510ad10-8ae5-43f3-9948-a9cd67aa9f46.png)
+
+Lets see Elanor's Salary (we can move to payroll table for any employee like that): ![image](https://user-images.githubusercontent.com/31458531/179346292-5c78d548-466e-4dfc-b22f-5fa3148f4a2a.png)
+
