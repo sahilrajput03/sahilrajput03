@@ -30,4 +30,46 @@ Src:
 10. We can (but we don't) add relation like we added earlier as shwon in there but we'll use `Track` way to add relationship this time(see next screenshot): ![image](https://user-images.githubusercontent.com/31458531/179344523-947c75c1-94ec-453d-8a7d-2cce0b8558e3.png)
 11. Click on `Track All` to track all realtions automatically: ![image](https://user-images.githubusercontent.com/31458531/179344574-e2e4f9dc-9e49-4b87-b2f5-b61f827cfca0.png)
 12. We can see that relationship is set successfully between payroll and employee: ![image](https://user-images.githubusercontent.com/31458531/179344610-acc7a906-07da-420e-af6d-d974d63fe5a9.png)
-13. 
+13. Lest make `manager_id` field as nullable: ![image](https://user-images.githubusercontent.com/31458531/179344703-c7f74c1a-d8e8-4727-a114-ecd09e963f0f.png)
+14. Lets add employees now:
+
+![image](https://user-images.githubusercontent.com/31458531/179344734-e9c22f65-3c26-4e57-af8c-8878fb47b491.png)
+
+![image](https://user-images.githubusercontent.com/31458531/179344739-8d115697-f991-4864-aba1-aeb7c57412da.png)
+
+We can see that Janet and Michael are added: ![image](https://user-images.githubusercontent.com/31458531/179344776-e177c8a6-c454-4381-a47e-59c7d7e365b9.png)
+
+Now we use `Michael's id` as highlighed in above screenshot to be as `manager_id` for filed of Elanor and Chiddi:
+
+![image](https://user-images.githubusercontent.com/31458531/179344810-58c8e1cc-0ae6-4a7d-8f2a-3cb8174b34af.png)
+
+![image](https://user-images.githubusercontent.com/31458531/179344819-be5d7982-e275-41f2-a92c-fcc1699155d9.png)
+
+We can see the results as expected: ![image](https://user-images.githubusercontent.com/31458531/179344833-e45b2020-b636-46a2-9059-71164a4b016d.png)
+
+15. Lets create payroll entries:
+
+Janet (using Janet's id): ![image](https://user-images.githubusercontent.com/31458531/179344881-ec435773-e64e-4279-9bfb-a0882a8e6569.png)
+
+Michael (using Michael's id): ![image](https://user-images.githubusercontent.com/31458531/179344975-2611473a-779a-4b16-ab8b-498c870656ba.png)
+
+Elanor (using Elanor's id): ![image](https://user-images.githubusercontent.com/31458531/179344991-da8d5821-0798-466b-a635-7955b1832146.png)
+
+Chiddi (using Chidd's id): ![image](https://user-images.githubusercontent.com/31458531/179345008-33fe0e82-c60d-449b-8cca-e16a2960b832.png)
+
+Now in payroll we can see all the entries: ![image](https://user-images.githubusercontent.com/31458531/179345018-23c4ea68-2312-4d1a-beb0-8cbf8ca49af1.png)
+
+
+16. Querying in graphiql we can see such data which says Michael is manager for Elanor and Chidi: ![image](https://user-images.githubusercontent.com/31458531/179345079-b6ea4039-92a2-48e7-b9dd-1a8a0d2d29f8.png)
+
+17. We can see employees for employees i.e., for Michael we can see he has employees as Elanor and Chidi: ![image](https://user-images.githubusercontent.com/31458531/179345189-7790efaa-526b-4e7b-8da5-85cd2722ac2d.png)
+
+18. We can see emoyees and salaries in payroll table: ![image](https://user-images.githubusercontent.com/31458531/179345240-77a9efae-0e90-4e1d-9761-fe97fc841099.png)
+
+19. Setting up permission for HR (insert* permission) and save that: ![image](https://user-images.githubusercontent.com/31458531/179345323-6bc3720f-e6e4-4b5f-93b0-db39a35b21ba.png)
+
+20. Now we clone the permission for select, update and delete as well by doing that: ![image](https://user-images.githubusercontent.com/31458531/179345387-d427dfb2-39de-4cb5-9196-d0acb49015d6.png)
+
+21. We can see that HR now has all the permissions for insert, select, update and delete: ![image](https://user-images.githubusercontent.com/31458531/179345420-5d6069a2-7c01-4d05-8f3c-4701197030ae.png)
+
+22. 
