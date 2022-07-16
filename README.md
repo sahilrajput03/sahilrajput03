@@ -162,6 +162,8 @@ z(i=10, j=20) // {a: 10, b: 20}
 
 Source: https://stackoverflow.com/a/38948889/10012446
 
+I added answer to that question as well, here: https://stackoverflow.com/a/73001807/10012446
+
 Hilarious and Feels stupid to think of this though now.
 
 ```js
