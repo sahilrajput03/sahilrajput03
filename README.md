@@ -164,6 +164,25 @@ Source: https://stackoverflow.com/a/38948889/10012446
 
 Hilarious and Feels stupid to think of this though now.
 
+```js
+// @ts-nocheck
+const app = require('express')()
+const axios = require('axios')
+const log = console.log
+
+app.get('/', (req, res) => {
+	res.json('yoy')
+})
+
+const listener = app.listen(async () => {
+	const url = 'http://localhost:' + listener.address().port // IF you are using static port value you do not need `listener.address().port` and simply provide that port value here instead.
+	log({url})
+
+	let response = await axios.get(url)
+	log('GOT DATA IN RESPONSE:', response.data) // yoy
+})
+```
+
 ## `Object.is` is better than `===` ? tldr Yes, a little bit.
 
 Source: https://stackoverflow.com/a/30543212/10012446
