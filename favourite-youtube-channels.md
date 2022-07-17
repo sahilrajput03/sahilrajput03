@@ -6,6 +6,7 @@
   - [Fireship](https://www.youtube.com/c/Fireship)
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
   - [Ben Awad](https://www.youtube.com/c/BenAwad97)
+  - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017)
 
 Small Project Playlist by Kyle: [Click here](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8DWL14Wud_m8NeNNbYKOkj) ~ **Awesome Playlist**
 
