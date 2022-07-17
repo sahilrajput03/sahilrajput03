@@ -133,14 +133,19 @@ cra: 335m
 ```js
 window.addEventListener("beforeunload", (e) => {
   e.preventDefault();
-  e.returnValue = "Are you sure you want to exit?";
+  e.returnValue = ""; // this value has to be other than null and undefined.
 });
 
 # for react, use reference: https://bobbyhadz.com/blog/react-handle-tab-close-event
 # amazing blogger: https://bobbyhadz.com/
 ```
 
-@mdn docs: https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event
+So when you try to close tab, browser will ask once again like that -
+
+![image](https://user-images.githubusercontent.com/31458531/179390093-0dd70b24-c3c0-4578-b37c-9a4609583968.png)
+
+
+**@mdn docs:** https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event
 
 ![image](https://user-images.githubusercontent.com/31458531/179390001-60c5a7d6-c30f-4e38-b220-c22fe2a4c8a2.png)
 
