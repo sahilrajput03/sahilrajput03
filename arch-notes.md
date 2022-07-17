@@ -8,6 +8,12 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Installed `epiphany`
+
+```bash
+sudo pacman -S epiphany
+```
+
 ## install `bun`
 
 [Source1](https://aur.archlinux.org/packages/bun-bin), [Source2](https://aur.archlinux.org/packages/bun).
