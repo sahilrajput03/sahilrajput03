@@ -140,6 +140,11 @@ window.addEventListener("beforeunload", (e) => {
 # amazing blogger: https://bobbyhadz.com/
 ```
 
+@mdn docs: https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event
+
+![image](https://user-images.githubusercontent.com/31458531/179390001-60c5a7d6-c30f-4e38-b220-c22fe2a4c8a2.png)
+
+
 ## builtin assertion library - nodjs
 
 [inspir](https://github.com/visionmedia/supertest/blob/master/lib/test.js#L10)
