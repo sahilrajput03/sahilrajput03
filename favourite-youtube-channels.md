@@ -14,6 +14,7 @@ Small Project Playlist by Kyle: [Click here](https://www.youtube.com/playlist?li
 - [Kevin Powell](https://www.youtube.com/kepowob)
 
 **Linux**
+  - [NetworkChuck ](https://www.youtube.com/c/NetworkChuck)
   - [PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
   - [DistroTube](https://www.youtube.com/c/DistroTube) (Distros mostly)
 
