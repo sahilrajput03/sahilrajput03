@@ -1101,6 +1101,8 @@ scp tsp:copy.png .
 
 ## Using sed using `missing-semester`
 
+vyom's related question: https://stackoverflow.com/a/73010590/10012446
+
 Source: https://missing.csail.mit.edu/2020/data-wrangling/
 
 Video Lecture soure: https://www.youtube.com/watch?v=sz_dsktIjt4 
