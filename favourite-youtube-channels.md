@@ -1,6 +1,7 @@
 # Favourite Youtube channels
 
-**Awesome Playlist**: Small Project Playlist by Kyle: [Click here](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8DWL14Wud_m8NeNNbYKOkj)
+**Awesome Playlist**
+- Small Project Playlist by Kyle: [Click here](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8DWL14Wud_m8NeNNbYKOkj)
 
 **Javascript, React, NextJS, NodeJS, MongoDB, Graphql, etc**
   - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids)
