@@ -128,6 +128,18 @@ cra: 335m
 - **Youtube Hacks:**: [Click here](youtube-hacks.md)
 - **Learn Travis:** [Click here](learn-travis.md)
 
+## Execute code on tab close
+
+```js
+window.addEventListener("beforeunload", (e) => {
+  e.preventDefault();
+  e.returnValue = "Are you sure you want to exit?";
+});
+
+# for react, use reference: https://bobbyhadz.com/blog/react-handle-tab-close-event
+# amazing blogger: https://bobbyhadz.com/
+```
+
 ## builtin assertion library - nodjs
 
 [inspir](https://github.com/visionmedia/supertest/blob/master/lib/test.js#L10)
