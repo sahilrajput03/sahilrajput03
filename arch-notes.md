@@ -10,15 +10,14 @@
 
 ## install macos-simple-kvm
 
-Youtube: https://www.youtube.com/watch?v=-Otg7JFMuVw
-
-Article: https://computingforgeeks.com/how-to-run-macos-on-kvm-qemu/
-
 **IMPORTANT: USE ctrl+alt+g to toggle mouse into/out from qemu screen.**
 
 **IMPORTANT: USE ctrl+alt+f to toggle fullscreen.**
 
 ```bash
+# Youtube: https://www.youtube.com/watch?v=-Otg7JFMuVw
+# Article: https://computingforgeeks.com/how-to-run-macos-on-kvm-qemu/
+
 # Source Project: https://github.com/foxlet/macOS-Simple-KVM
 gcl git@github.com:foxlet/macOS-Simple-KVM.git
 cd macOS-Simple-KVM
