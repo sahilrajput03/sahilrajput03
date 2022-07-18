@@ -28,6 +28,7 @@ cd macOS-Simple-KVM
 
 # Create disk image (20G) is minimum as they say in FAQ's: https://github.com/foxlet/macOS-Simple-KVM/blob/master/docs/FAQs.md
 # This creates a file `MyDisk.qcow2` (of size 196K) in current directory.
+# HELP: Use `Enter` to press the ```Boot Install Macos``` BUTTON. ALSO IN DISK UTILITY, You need to format the disk.
 qemu-img create -f qcow2 MyDisk.qcow2 22G
 
 ## Addbelow lines to basic.sh file (remove `#` though from each line):
