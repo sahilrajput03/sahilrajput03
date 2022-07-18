@@ -8,6 +8,29 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install macos-simple-kvm
+
+```bash
+gcl git@github.com:foxlet/macOS-Simple-KVM.git
+cd macOS-Simple-KVM
+
+# Download (500M) and uncompress it to `BaseSystem.img` (2G)
+./jumpstart.sh
+
+# Create disk image (20G) is minimum as they say in FAQ's: https://github.com/foxlet/macOS-Simple-KVM/blob/master/docs/FAQs.md
+# This creates a file `MyDisk.qcow2` (of size 196K) in current directory.
+qemu-img create -f qcow2 MyDisk.qcow2 22G
+
+## Addbelow lines to basic.sh file (remove `#` though from each line):
+#    -drive id=SystemDisk,if=none,file=MyDisk.qcow2 \
+#    -device ide-hd,bus=sata.4,drive=SystemDisk \
+
+# Run basic.sh (need to use this to run macos everytime):
+./basic.sh
+
+# IMPORTANT: USE ctrl+alt+g to toggle mouse into/out from qemu screen
+```
+
 ## Installed `epiphany`
 
 ```bash
