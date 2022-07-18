@@ -30,6 +30,7 @@ cd macOS-Simple-KVM
 # This creates a file `MyDisk.qcow2` (of size 196K) in current directory.
 # HELP: Use `Enter` to press the ```Boot Install Macos``` BUTTON. ALSO IN DISK UTILITY, You need to format the disk.
 qemu-img create -f qcow2 MyDisk.qcow2 22G
+# FYI: For 25.21G is mimimum requirement for `catalina - macos` ~Sahil
 
 ## Addbelow lines to basic.sh file (remove `#` though from each line):
 #    -drive id=SystemDisk,if=none,file=MyDisk.qcow2 \
@@ -37,6 +38,11 @@ qemu-img create -f qcow2 MyDisk.qcow2 22G
 
 # Run basic.sh to start macos installation (need to use this to run macos everytime):
 ./basic.sh
+
+# While installation
+# 1. You need to go to `Disk Utility` and select the largest disk (which corresponds to disk file we created earlier with `qemu-img` command)
+# 2. Click on `Erase` and and choose some name for disk `disk1` and choose format as `APFS` and click on `Erase` now.
+# 3. Now go back from `Disk Utility` and choose `Reinstall macos`, yo!! It will simply install!
 ```
 
 ## Installed `epiphany`
