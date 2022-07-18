@@ -14,6 +14,10 @@ Youtube: https://www.youtube.com/watch?v=-Otg7JFMuVw
 
 Article: https://computingforgeeks.com/how-to-run-macos-on-kvm-qemu/
 
+**IMPORTANT: USE ctrl+alt+g to toggle mouse into/out from qemu screen.**
+
+**IMPORTANT: USE ctrl+alt+f to toggle fullscreen.**
+
 ```bash
 gcl git@github.com:foxlet/macOS-Simple-KVM.git
 cd macOS-Simple-KVM
@@ -29,10 +33,8 @@ qemu-img create -f qcow2 MyDisk.qcow2 22G
 #    -drive id=SystemDisk,if=none,file=MyDisk.qcow2 \
 #    -device ide-hd,bus=sata.4,drive=SystemDisk \
 
-# Run basic.sh (need to use this to run macos everytime):
+# Run basic.sh to start macos installation (need to use this to run macos everytime):
 ./basic.sh
-
-# IMPORTANT: USE ctrl+alt+g to toggle mouse into/out from qemu screen
 ```
 
 ## Installed `epiphany`
