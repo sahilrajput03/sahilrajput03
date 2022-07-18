@@ -37,6 +37,7 @@ qemu-img create -f qcow2 MyDisk.qcow2 28G
 
 # Run basic.sh to start macos installation (need to use this to run macos everytime):
 ./basic.sh
+# FYI: `Clover` is used as boot manager for macos-simple-kvm and other hackintoshes as well.
 
 # While installation
 # 1. You need to go to `Disk Utility` and select the largest disk (which corresponds to disk file we created earlier with `qemu-img` command)
