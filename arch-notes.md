@@ -35,6 +35,14 @@ qemu-img create -f qcow2 MyDisk.qcow2 28G
 #    -drive id=SystemDisk,if=none,file=MyDisk.qcow2 \
 #    -device ide-hd,bus=sata.4,drive=SystemDisk \
 
+## Also add memory usage to
+#    -m 6G \
+## add cpu cores as well by chaing below line
+#     -smp 4,cores=2 \
+# to...
+#     -smp cores=4,threads=8,sockets=1 \
+    
+
 # Run basic.sh to start macos installation (need to use this to run macos everytime):
 ./basic.sh
 # FYI: `Clover` is used as boot manager for macos-simple-kvm and other hackintoshes as well.
