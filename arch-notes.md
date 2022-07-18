@@ -43,6 +43,13 @@ qemu-img create -f qcow2 MyDisk.qcow2 28G
 # 1. You need to go to `Disk Utility` and select the largest disk (which corresponds to disk file we created earlier with `qemu-img` command)
 # 2. Click on `Erase` and and choose some name for disk `disk1` and choose format as `APFS` and click on `Erase` now.
 # 3. Now go back from `Disk Utility` and choose `Reinstall macos`, yo!! It will simply install!
+
+## AFTER INSTALLATION WE CAN IMPROVE THE PERFORMANE VIA
+- increasing `Memory Allocation`
+- increasing `number of `CPU cores`
+- increasing `number of threads cpu can handle`
+- increasing `screen resolution`
+- adding any passthroughs through say for e.g., GPU
 ```
 
 ## Installed `epiphany`
