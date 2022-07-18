@@ -10,6 +10,10 @@
 
 ## install macos-simple-kvm
 
+Youtube: https://www.youtube.com/watch?v=-Otg7JFMuVw
+
+Article: https://computingforgeeks.com/how-to-run-macos-on-kvm-qemu/
+
 ```bash
 gcl git@github.com:foxlet/macOS-Simple-KVM.git
 cd macOS-Simple-KVM
