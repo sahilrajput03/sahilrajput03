@@ -5,6 +5,9 @@
 **Courses:**
 
 - Learn Design (100% theory): [Click here](https://www.figma.com/resources/learn-design/lessons/)
+- TODO - Article: https://medium.com/@satjaleenmadan/little-figma-tricks-that-saved-my-time-75f65df684ac
+- TODO - Article: https://uxdesign.cc/10-figma-tricks-i-wish-i-knew-earlier-698e66a893f8
+- TODO - Article: https://medium.com/codeart-mk/must-have-figma-plugins-to-boost-your-design-workflow-4592ce4dd640
 - TODO(theory) - Design sense: [Click here](https://developer.apple.com/design/human-interface-guidelines/)
 - TODO(theory) - Design sense: [Click here](https://material.io/design)
 - TODO: Figma (theory) best practises: [Click here](https://www.figma.com/best-practices/)
