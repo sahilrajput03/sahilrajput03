@@ -13,6 +13,7 @@
 **Web Profile**
 
 - Contact Me: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/me</a>
+- Detailed Resume: [Click here](https://github.com/sahilrajput03/my_bin/raw/master/resume/sahil-rajput_resume-linux-feb-2022.pdf)
 
 **Projects & Services**
 
