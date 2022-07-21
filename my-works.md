@@ -10,14 +10,14 @@
 <img alt="GitHub Actions" src="https://img.shields.io/badge/github%20actions%20-%232671E5.svg?&style=for-the-badge&logo=github%20actions&logoColor=white"/>
 <img alt="Debian" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
 
-### Services
+**Services**
 
 - [Axios playground](http://axiosplayground.ml/)
 - [Json backendserver](https://jsonbackendserver.herokuapp.com/)
 - [Graphql Playground - Query with power](https://abstraction.ml)
 - [Fly 🚀︎ a codesandbox](https://flycodesandbox.netlify.app/)
 
-### Packages published @ `npm.com`/`yarnpkg.com`
+**Packages published @ `npm.com`/`yarnpkg.com`**
 
 - [useWhat](https://www.npmjs.com/package/usewhat) - Dead simple REACT state management solution
 - [useStateM](https://www.npmjs.com/package/usestatem) - Namespace based [immer](https://immerjs.github.io/immer/) based REACT state management solution
@@ -29,7 +29,7 @@
 - [Pagelist React Component](https://www.npmjs.com/package/pagelist-react) - Testing apps in isolation made easy
 - [obj-json](https://www.npmjs.com/package/obj-json) - A cli tool to convert js object to json on cli
 
-## Blogs
+**Blogs**
 
 - [sahilrajput.ml](https://sahilrajput03.ml/)
 - [linux config](https://github.com/sahilrajput03/config/)
@@ -40,7 +40,7 @@
 - [Uses](https://sahilrajput03.github.io/uses) - Curated list of sofwares | Windows
 - [Jaadujinn.ml](https://jaadujinn.ml)
 
-### Codesandboxes and Codepens
+**Codesandboxes and Codepens**
 
 - [Sahil Rajput @codesandbox](https://codesandbox.io/u/sahilrajput03)
 - [Tanner Linsley @ codesandbox](https://codesandbox.io/u/tannerlinsley/sandboxes)
