@@ -1,6 +1,6 @@
 # Public Journal
 
-## Why you should do **nothing** before 1.5 hours of sleeping?
+## Why you should do **nothing** before but focus preparing for 1.5 hours before sleeping?
 
 Its necessary to do literally nothing but focus on preparing yourself to sleep in the last 1.5 hours of the day.
 
