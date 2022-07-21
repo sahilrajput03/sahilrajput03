@@ -12,9 +12,9 @@
 
 **Web Profile**
 
-- Contact Me: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/me/</a>
+- Contact Me: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/me</a>
 
-**Services**
+**Projects & Services**
 
 - <a href="https://letsjoin.ml/" target="_blank">Group Video Call App</a>
 - <a href="https://elegant-chat-app.herokuapp.com" target="_blank">Group Text Chat App</a>
