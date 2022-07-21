@@ -31,12 +31,13 @@
 
 ## Blogs
 
-- [Jaadujinn.ml](https://jaadujinn.ml)
-- [Reverberate.ml](https://reverberate.ml)
+- [sahilrajput.ml](https://sahilrajput03.ml/)
+- [Linux Config](https://github.com/sahilrajput03/config/)
 - [SahilRaput.ml](https://sahilrajput.ml)
-- [Docs](https://reverberate.ml/docs)
-- [Linux Setup 💓︎](https://github.com/sahilrajput03/config/)
-- [Uses](https://reverberate.ml/uses) (Sofwares stack for windows)
+- [sahilrajput03.github.io](https://sahilrajput03.github.io/)
+- [Docs](https://sahilrajput03.github.io/docs)
+- [Uses](https://sahilrajput03.github.io/uses) (Sofwares stack for windows)
+- [Jaadujinn.ml](https://jaadujinn.ml)
 
 ### Codesandboxes/Codepens/etc
 
