@@ -37,7 +37,7 @@
 - [sahilrajput03.ml](https://sahilrajput03.ml)
 - [sahilrajput03.github.io](https://sahilrajput03.github.io/)
 - [Docs](https://sahilrajput03.github.io/docs)
-- [Uses](https://sahilrajput03.github.io/uses) - Curated list of sofwares | Windows
+- [Uses](https://sahilrajput03.github.io/uses) - Curated list of sofwares for Windows
 - [Jaadujinn.ml](https://jaadujinn.ml)
 
 **Codesandboxes and Codepens**
