@@ -34,3 +34,7 @@ Earning 35k Rs/month => `22days*8hrs` = `176hrs` i.e., `35,000RS/176HRS` = `200R
 ## If we withdraw a proposal, do we get the 'connects' back?
 
 Ans. The only way you get the connects back is if the job is canceled. Source: [Click here](https://community.upwork.com/t5/Freelancers/If-we-withdraw-a-proposal-do-we-get-the-connects-back/td-p/230080)
+
+## Is your bank acc. savings or current?
+
+On your checkbook if you have 31 in the end that means you have a savings account. Source: [Click here](https://qr.ae/pvkjAf)
