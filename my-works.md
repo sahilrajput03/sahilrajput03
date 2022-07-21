@@ -40,7 +40,7 @@
 - [Uses](https://sahilrajput03.github.io/uses) - Curated list of sofwares | Windows
 - [Jaadujinn.ml](https://jaadujinn.ml)
 
-### Codesandboxes/Codepens/etc
+### Codesandboxes and Codepens
 
 - [Sahil Rajput @codesandbox](https://codesandbox.io/u/sahilrajput03)
 - [Tanner Linsley @ codesandbox](https://codesandbox.io/u/tannerlinsley/sandboxes)
