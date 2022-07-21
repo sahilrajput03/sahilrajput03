@@ -8,6 +8,20 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install upwork on archlinux
+
+Source: Comment from aur page: https://aur.archlinux.org/packages/upwork
+
+```bash
+# Downlaod '.deb' file from official upwork site coz upwork only allows to download for loggedinusers
+# from: https://www.upwork.com/ab/downloads/os/linux/
+
+gcl https://aur.archlinux.org/upwork.git
+cd upwork
+mv ~/Downloads/upwork_*_*.deb .
+makepkg -si
+```
+
 ## installed lsusb
 
 ```bash
