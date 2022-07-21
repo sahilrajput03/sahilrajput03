@@ -128,6 +128,7 @@ cra: 335m
 - **Youtube Hacks:**: [Click here](youtube-hacks.md)
 - **Learn Travis:** [Click here](learn-travis.md)
 - **Learn Websockets:** [Click here](learn-websockets.md)
+- **Public Journal:** [Click here](public-journal.md)
 
 ## Execute code on tab close
 
