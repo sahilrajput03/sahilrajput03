@@ -48,7 +48,9 @@
 - [Tanner Linsley @ codesandbox](https://codesandbox.io/u/tannerlinsley/sandboxes)
 - [Kevin Powell @ codepen](https://codepen.io/kevinpowell)
 
-**Web Profile (Contact Me):** [sahilrajput03.ml/me](https://sahilrajput03.ml/me/)
+**Web Profile (Contact Me)**
+
+[sahilrajput03.ml/me](https://sahilrajput03.ml/me/)
 
 **Social Handles**
 
