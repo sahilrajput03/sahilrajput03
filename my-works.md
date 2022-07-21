@@ -10,6 +10,10 @@
 <img alt="GitHub Actions" src="https://img.shields.io/badge/github%20actions%20-%232671E5.svg?&style=for-the-badge&logo=github%20actions&logoColor=white"/>
 <img alt="Debian" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
 
+**Web Profile**
+
+- Contact Me: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/me/</a>
+
 **Services**
 
 - <a href="https://letsjoin.ml/" target="_blank">Group Video Call App</a>
@@ -47,10 +51,6 @@
 - <a href="https://codesandbox.io/u/sahilrajput03" target="_blank">Sahil Rajput @codesandbox</a>
 - <a href="https://codesandbox.io/u/tannerlinsley/sandboxes" target="_blank">Tanner Linsley @ codesandbox</a>
 - <a href="https://codepen.io/kevinpowell" target="_blank">Kevin Powell @ codepen</a>
-
-**Web Profile (Contact Me)**
-
-- <a href="sahilrajput03.ml/me" target="_blank">https://sahilrajput03.ml/me/</a>
 
 **Social Handles**
 
