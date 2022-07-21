@@ -20,6 +20,14 @@ gcl https://aur.archlinux.org/upwork.git
 cd upwork
 mv ~/Downloads/upwork_*_*.deb .
 makepkg -si
+
+
+# Now you need to fix the segmentation fault error
+# Just make a bash function:
+runUpwork (){
+	cd /opt/Upwork
+	exec ./upwork 
+}
 ```
 
 ## installed lsusb
