@@ -12,46 +12,47 @@
 
 **Services**
 
-- [Group Video Call App](https://letsjoin.ml/)
-- [Group Text Chat App](https://elegant-chat-app.herokuapp.com/)
-- [Graphql Playground - Query with power](https://abstraction.ml)
-- [Axios playground](http://axiosplayground.ml/)
-- [Json backendserver](https://jsonbackendserver.herokuapp.com/)
-- [Fly 🚀︎ a codesandbox](https://flycodesandbox.netlify.app/)
 - <a href="https://letsjoin.ml/" target="_blank">Group Video Call App</a>
+- <a href="https://elegant-chat-app.herokuapp.com" target="_blank">Group Text Chat App</a>
+- <a href="https://abstraction.ml" target="_blank">Graphql Playground - Query with power</a>
+- <a href="http://axiosplayground.ml" target="_blank">Axios playground</a>
+- <a href="https://jsonbackendserver.herokuapp.com" target="_blank">Json backendserver</a>
+- <a href="https://flycodesandbox.netlify.app" target="_blank"></a>
+- <a href="Fly 🚀︎ a codesandbox" target="_blank"></a>
 
 **Packages published @ `npm.com`/`yarnpkg.com`**
 
-- [useWhat](https://www.npmjs.com/package/usewhat) - Dead simple REACT state management solution
-- [useStateM](https://www.npmjs.com/package/usestatem) - Namespace based [immer](https://immerjs.github.io/immer/) based REACT state management solution
-- [mongo-quick](https://www.npmjs.com/package/mongo-quick) - Learn making npm packages via mongoose abstraction
-- [jsonbackend](https://www.npmjs.com/package/jsonbackend) - A memory based json database server ~ fun, inspired from mongoose syntax
-- [react-fetch2](https://www.npmjs.com/package/react-fetch2) - Hook free react data fetching library
-- [useEffectFactory](https://www.npmjs.com/package/useeffect-factory) - complex hooks in one place
-- [r_global](http://npmjs.org/package/r_global) - External key-value store (React)
-- [Pagelist React Component](https://www.npmjs.com/package/pagelist-react) - Testing apps in isolation made easy
-- [obj-json](https://www.npmjs.com/package/obj-json) - A cli tool to convert js object to json on cli
+<a href="https://www.npmjs.com/package/usewhat" target="_blank">useWhat</a> - Dead simple REACT state management solution
+<a href="https://www.npmjs.com/package/usestatem" target="_blank">useStateM</a> - Namespace based [immer](https://immerjs.github.io/immer/) based REACT state management solution
+<a href="https://www.npmjs.com/package/jsonbackend" target="_blank">jsonbackend</a> - A memory based json database server ~ fun, inspired from mongoose syntax
+<a href="https://www.npmjs.com/package/useeffect-factory" target="_blank">useEffectFactory</a> - complex hooks in one place
+<a href="http://www.npmjs.org/package/r_global" target="_blank">r_global</a> - External key-value store (React)
+<a href="https://www.npmjs.com/package/mongo-quick" target="_blank">mongo-quick</a> - Learn making npm packages via mongoose abstraction
+<a href="https://www.npmjs.com/package/react-fetch2" target="_blank">react-fetch2</a> - Hook free react data fetching library
+<a href="https://www.npmjs.com/package/obj-json" target="_blank">obj-json</a> - A cli tool to convert js object to json on cli
+<a href="https://www.npmjs.com/package/pagelist-react" target="_blank">Pagelist React Component</a> - Testing apps in isolation made easy
 
 **Blogs**
 
-- [sahilrajput.ml](https://sahilrajput03.ml/)
-- [linux config](https://github.com/sahilrajput03/config/)
-- [sahilrajput.ml](https://sahilrajput.ml)
-- [sahilrajput03.ml](https://sahilrajput03.ml)
-- [sahilrajput03.github.io](https://sahilrajput03.github.io/)
-- [Docs](https://sahilrajput03.github.io/docs)
-- [Uses](https://sahilrajput03.github.io/uses) - Curated list of sofwares for Windows
-- [Jaadujinn.ml](https://jaadujinn.ml)
+<a href="https://sahilrajput03.ml/" target="_blank">sahilrajput03.ml</a>
+<a href="https://github.com/sahilrajput03/config/" target="_blank">linux config</a>
+<a href="https://sahilrajput.ml" target="_blank">sahilrajput.ml</a>
+<a href="https://sahilrajput03.ml" target="_blank">sahilrajput03.ml</a>
+<a href="https://sahilrajput03.github.io/" target="_blank">sahilrajput03.github.io</a>
+<a href="https://sahilrajput03.github.io/docs" target="_blank">Docs</a>
+<a href="https://sahilrajput03.github.io/uses" target="_blank">Uses</a> - Curated list of sofwares for Windows
+<a href="https://jaadujinn.ml" target="_blank">Jaadujinn.ml</a>
+
 
 **Codesandboxes and Codepens**
 
-- [Sahil Rajput @codesandbox](https://codesandbox.io/u/sahilrajput03)
-- [Tanner Linsley @ codesandbox](https://codesandbox.io/u/tannerlinsley/sandboxes)
-- [Kevin Powell @ codepen](https://codepen.io/kevinpowell)
+<a href="https://codesandbox.io/u/sahilrajput03" target="_blank">Sahil Rajput @codesandbox</a>
+<a href="https://codesandbox.io/u/tannerlinsley/sandboxes" target="_blank">Tanner Linsley @ codesandbox</a>
+<a href="https://codepen.io/kevinpowell" target="_blank">Kevin Powell @ codepen</a>
 
 **Web Profile (Contact Me)**
 
-[sahilrajput03.ml/me](https://sahilrajput03.ml/me/)
+<a href="sahilrajput03.ml/me" target="_blank">https://sahilrajput03.ml/me/</a>
 
 **Social Handles**
 
