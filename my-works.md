@@ -32,8 +32,9 @@
 ## Blogs
 
 - [sahilrajput.ml](https://sahilrajput03.ml/)
-- [Linux Config](https://github.com/sahilrajput03/config/)
-- [SahilRaput.ml](https://sahilrajput.ml)
+- [linux config](https://github.com/sahilrajput03/config/)
+- [sahilrajput.ml](https://sahilrajput.ml)
+- [sahilrajput03.ml](https://sahilrajput03.ml)
 - [sahilrajput03.github.io](https://sahilrajput03.github.io/)
 - [Docs](https://sahilrajput03.github.io/docs)
 - [Uses](https://sahilrajput03.github.io/uses) (Sofwares stack for windows)
