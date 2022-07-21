@@ -26,8 +26,9 @@ makepkg -si
 # Just make a bash function:
 runUpwork (){
 	cd /opt/Upwork
-	exec ./upwork 
+	air ./upwork 
 }
+# fyi: air my another function that runs anytihng detached from current shell, yo!!
 ```
 
 ## installed lsusb
