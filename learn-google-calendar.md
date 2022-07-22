@@ -19,5 +19,7 @@ a - schedule wise (personal favourite)
 
 ## You can have appointment page for bookings via google calendar now as well
 
+*Similar to how calendly does that.*
+
 Source: https://youtu.be/7AsmRNiveGc
 
