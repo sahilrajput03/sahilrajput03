@@ -54,3 +54,16 @@ On your checkbook if you have 31 in the end that means you have a savings accoun
 3. Be concise and show social proof.
 4. Make use of P.S. in the [end of the proposal](https://www.wix.com/wordsmatter/blog/2020/10/what-does-ps-mean/).
 5. Take and hour and read throught Upwork TOS.
+
+
+- CTA: https://calendly.com/sahilrajput03/30min
+
+  For popup thing in the same webpage:
+
+  ```html
+  <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sahilrajput03/30min'});return false;">Schedule time with me</a>
+  <!-- Calendly link widget end -->
+  ```
