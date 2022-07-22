@@ -50,13 +50,13 @@ On your checkbook if you have 31 in the end that means you have a savings accoun
 ## Upwork proposals 8 golden rules
 [1](https://youtu.be/f4INGRluDAU), [2]()
 1. Use client's first name from the history of client.
-2. CTA - Book a call to you via something like calendarly IMO.
+2. CTA (Call To Action) - Book a call to you via something like calendarly IMO.
 3. Be concise and show social proof.
 4. Make use of P.S. in the [end of the proposal](https://www.wix.com/wordsmatter/blog/2020/10/what-does-ps-mean/).
 5. Take and hour and read throught Upwork TOS.
 
 
-- CTA: https://calendly.com/sahilrajput03/30min
+- CTA (Call To Action): https://calendly.com/sahilrajput03/30min
 
   For popup thing in the same webpage:
 
