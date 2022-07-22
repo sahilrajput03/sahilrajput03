@@ -1,3 +1,11 @@
+## Making 10 Great projects
+
+- https://github.com/hamzAhmd
+- github.com/aman33p
+- https://www.google.com/search?q=mern+social+media&oq=mern+social+media&aqs=chrome..69i57.131j0j1&sourceid=chrome&ie=UTF-8
+- https://www.udemy.com/user/sgslo/
+
+
 #### Getting project [src](https://youtu.be/p76zsTDqahM)
 
 - Keep expectations low and understanding that compounding works.
