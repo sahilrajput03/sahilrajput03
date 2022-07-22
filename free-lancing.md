@@ -78,3 +78,4 @@ On your checkbook if you have 31 in the end that means you have a savings accoun
   ```
 
 - **I don't have a last name - [Problem](https://community.upwork.com/t5/New-to-Upwork/I-don-t-have-a-last-name/td-p/710470)**
+- **Ids required for Indians - [Problem](https://community.upwork.com/t5/Freelancers/Id-verification-for-Indian-users/m-p/129437)**
