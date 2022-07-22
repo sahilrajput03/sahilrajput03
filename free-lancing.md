@@ -28,8 +28,8 @@ Earning 35k Rs/month => `22days*8hrs` = `176hrs` i.e., `35,000RS/176HRS` = `200R
 ## Points of Business
 
 - Q1. Business Goal: What is the main goal of Business?
-- Q2. Feature Goal: What is the role of this feature that we are addding
-- Q3. What is the minimum value I can deliver? MVP Product.
+- Q2. Feature Goal: What is the role of this feature that we are addding?
+- Q3. What is the minimum value I can deliver? MVP Product?
 
 ## If we withdraw a proposal, do we get the 'connects' back?
 
