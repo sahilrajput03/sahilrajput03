@@ -2,7 +2,7 @@
 
 - https://github.com/hamzAhmd
 - https://github.com/amand33p
-- https://www.google.com/search?q=mern+social+media&oq=mern+social+media&aqs=chrome..69i57.131j0j1&sourceid=chrome&ie=UTF-8
+- [social media mern - google search ](https://www.google.com/search?q=mern+social+media&oq=mern+social+media&aqs=chrome..69i57.131j0j1&sourceid=chrome&ie=UTF-8)
 - https://www.udemy.com/user/sgslo/
 
 
