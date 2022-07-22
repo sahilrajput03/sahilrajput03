@@ -86,3 +86,7 @@ On your checkbook if you have 31 in the end that means you have a savings accoun
 ![image](https://user-images.githubusercontent.com/31458531/180473051-dd013189-f02a-4578-8bb3-d040d2a2931e.png)
 
 and for the second I added the bank statement generate from SIB internet banking.
+
+and filled more details:
+
+![image](https://user-images.githubusercontent.com/31458531/180475090-c9c53f71-e815-4744-a646-69350c17a52a.png)
