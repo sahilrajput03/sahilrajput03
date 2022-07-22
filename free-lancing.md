@@ -38,3 +38,10 @@ Ans. The only way you get the connects back is if the job is canceled. Source: [
 ## Is your bank acc. savings or current?
 
 On your checkbook if you have 31 in the end that means you have a savings account. Source: [Click here](https://qr.ae/pvkjAf)
+
+
+## timings - canada - india
+
+8am - 9pm (india) => 10:30pm - 11:30am
+
+8am - 9pm (canada) => 5:30pm - 6:30am
