@@ -16,3 +16,8 @@ a - schedule wise (personal favourite)
 
 - Try toggling calendars under **My Calendars** for Sahil Rajput, Birthdays, Family, Reminders and Tasks.
 - Try turning off calendars under **Other Calendars** for Holidays in India, Muslim Holidays and Phases of Moon.
+
+## You can have appointment page for bookings via google calendar now as well
+
+Source: https://youtu.be/7AsmRNiveGc
+
