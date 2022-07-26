@@ -91,3 +91,7 @@ and for the second I added the bank statement generate from SIB internet banking
 and filled more details:
 
 ![image](https://user-images.githubusercontent.com/31458531/180475090-c9c53f71-e815-4744-a646-69350c17a52a.png)
+
+## 30 most in-demand skills
+
+https://www.upwork.com/resources/in-demand-jobs-and-skills
