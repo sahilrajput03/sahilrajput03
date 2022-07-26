@@ -10,6 +10,7 @@
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
   - [Ben Awad](https://www.youtube.com/c/BenAwad97)
   - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017)
+  - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw)
 
 **CSS**
 - [Kevin Powell](https://www.youtube.com/kepowob)
