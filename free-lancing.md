@@ -7,6 +7,17 @@
 - https://www.udemy.com/user/sgslo/
 - continue [video from here](https://youtu.be/bCcssVfBd98?t=356)
 
+### 8 Full Stack Project Ideas for 2022 👨‍💻👩‍💻
+
+- 🔶 E-commerce Website
+- 🔶 Food Delivery App
+- 🔶 Social Media App
+- 🔶 Chat Messaging App
+- 🔶 Content Management System
+- 🔶 Blog / Portfolio Site
+- 🔶 Workout Tracker 
+- 🔶 Project Management Dashboard
+
 
 #### Getting project [src](https://youtu.be/p76zsTDqahM)
 
