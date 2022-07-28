@@ -134,6 +134,8 @@ cra: 335m
 - **Whats Dribble.com:** [Click here](https://dribbble.com/) (Explore the world’s leading design portfolios)
 - **Learn `react-native`**: [Click here](https://github.com/sahilrajput03/learn-react-native)
 - **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
+- **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
+- **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 
 ## Don't abuse arrow functions in 2022
 
