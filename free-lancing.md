@@ -7,6 +7,10 @@
 - https://www.udemy.com/user/sgslo/
 - continue [video from here](https://youtu.be/bCcssVfBd98?t=356)
 
+## other portfolios profiles
+
+- https://itsrakesh.co/work (medium article on [how to he made that](https://medium.com/codex/how-i-built-my-portfolio-website-dc61057d82e))
+
 ### 8 Full Stack Project Ideas for 2022 👨‍💻👩‍💻
 
 - 🔶 E-commerce Website
