@@ -136,6 +136,7 @@ cra: 335m
 - **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
 - **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
 - **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
+- **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
 
 ## dapps
 
