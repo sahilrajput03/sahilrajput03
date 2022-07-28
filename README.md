@@ -134,6 +134,10 @@ cra: 335m
 - **Whats Dribble.com:** [Click here](https://dribbble.com/) (Explore the world’s leading design portfolios)
 - **Learn `react-native`**: [Click here](https://github.com/sahilrajput03/learn-react-native)
 
+## Don't abuse arrow functions in 2022
+
+https://javascript.plainenglish.io/its-2022-don-t-abuse-the-arrow-function-anymore-905862a9c668
+
 ## Execute code on tab close
 
 ```js
