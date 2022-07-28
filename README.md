@@ -142,8 +142,8 @@ window.addEventListener("beforeunload", (e) => {
   e.returnValue = ""; // this value has to be other than null and undefined.
 });
 
-# for react, use reference: https://bobbyhadz.com/blog/react-handle-tab-close-event
-# amazing blogger: https://bobbyhadz.com/
+// for react, use reference: https://bobbyhadz.com/blog/react-handle-tab-close-event
+// amazing blogger: https://bobbyhadz.com/
 ```
 
 So when you try to close tab, browser will ask once again like that -
