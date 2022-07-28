@@ -137,6 +137,12 @@ cra: 335m
 - **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
 - **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 
+## dapps
+
+Article - https://blog.itsrakesh.co/what-are-dapps-how-they-are-different-from-normal-apps
+
+Article - https://blog.itsrakesh.co/what-is-blockchain-how-does-it-work
+
 ## Don't abuse arrow functions in 2022
 
 https://javascript.plainenglish.io/its-2022-don-t-abuse-the-arrow-function-anymore-905862a9c668
