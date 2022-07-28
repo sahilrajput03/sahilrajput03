@@ -7,9 +7,12 @@
 - https://www.udemy.com/user/sgslo/
 - continue [video from here](https://youtu.be/bCcssVfBd98?t=356)
 
-## other portfolios profiles
+## other portfolios profiles with projects
 
-- https://itsrakesh.co/work (medium article on [how to he made that](https://medium.com/codex/how-i-built-my-portfolio-website-dc61057d82e))
+Rakesh:
+  - https://itsrakesh.co/work
+  - Mmedium article on [how to he made portfolio site](https://medium.com/codex/how-i-built-my-portfolio-website-dc61057d82e)
+  - Campus Site project Awesome: https://itsrakesh.co/work/projects/Campus-Mate
 
 ### 8 Full Stack Project Ideas for 2022 👨‍💻👩‍💻
 
