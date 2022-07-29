@@ -137,6 +137,7 @@ cra: 335m
 - **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
 - **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 - **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
+- **Learn Webflow:** - [Click here](learn-webflow.md)
 
 ## dapps
 
@@ -256,12 +257,6 @@ Source: https://stackoverflow.com/a/30543212/10012446
 
 ![image](https://user-images.githubusercontent.com/31458531/179002793-ec8bf2a5-0a9a-4177-a0cd-2298f44f9f15.png)
 
-
-## webflow
-
-- Official Playlist: [@youtube](https://www.youtube.com/watch?v=yJ3vsAnbi_o)
-- ADVANCED BUILDING A COMPLEX WEBSITE WITH PHOTOSHOP AND WEBFLOW | METASTARTUP: [@youtube](https://www.youtube.com/watch?v=90h0ZuLfm68)
-- Build a personal website WITHOUT CODING in under 30 minutes!: [@youtube](https://youtu.be/KXwA3ogD1EE)
 
 ## what venv in python?
 
