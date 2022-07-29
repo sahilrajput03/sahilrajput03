@@ -18,6 +18,11 @@ Why heroku?
 Heroku provides https enabled backend server in no time which is too good for no-budget apps testing. You can create as many applications as you want with the condition that you can have only 5 apps in one account and you can create infinite heroku accounts with `emailId+1@email.com` hack. Yo!
 
 You can serve a nested folder project in heroku using a custom `build-pack` as well. Find it working @ [video-chat-app-webrtc](https://github.com/sahilrajput03/video-chat-app-webrtc/tree/hash-router#guide-to-publish-a-nested-project-folder-serving-to-heroku) and also @ [sahilrajput03/learn-websockets](https://github.com/sahilrajput03/learn-websockets/tree/main)
+- simply use your bash function:
+  ```bash
+  heroku.setSubDirectoryBuildpack mySubdirectoryHere
+  # It is an alias, find about it @ https://github.com/sahilrajput03/config/blob/main/.bash_functions#L319-L325
+  ```
 
 Heroku has database as a service as well. [Check here](https://www.heroku.com/postgres).
 

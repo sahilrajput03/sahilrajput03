@@ -8,6 +8,29 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install upwork on archlinux
+
+Source: Comment from aur page: https://aur.archlinux.org/packages/upwork
+
+```bash
+# Downlaod '.deb' file from official upwork site coz upwork only allows to download for loggedinusers
+# from: https://www.upwork.com/ab/downloads/os/linux/
+
+gcl https://aur.archlinux.org/upwork.git
+cd upwork
+mv ~/Downloads/upwork_*_*.deb .
+makepkg -si
+
+
+# Now you need to fix the segmentation fault error
+# Just make a bash function:
+runUpwork (){
+	cd /opt/Upwork
+	air ./upwork 
+}
+# fyi: air my another function that runs anytihng detached from current shell, yo!!
+```
+
 ## installed lsusb
 
 ```bash

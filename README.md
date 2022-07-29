@@ -132,6 +132,24 @@ cra: 335m
 - **Learn Websockets:** [Click here](learn-websockets.md)
 - **Public Journal:** [Click here](public-journal.md)
 - **Whats Dribble.com:** [Click here](https://dribbble.com/) (Explore the world’s leading design portfolios)
+- **Learn `react-native`**: [Click here](https://github.com/sahilrajput03/learn-react-native)
+- **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
+- **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
+- **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
+- **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
+- **Learn Webflow:** - [Click here](learn-webflow.md)
+- **Weird Problems:** - [Click here](weird-problems.md)
+- **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
+
+## dapps
+
+Article - https://blog.itsrakesh.co/what-are-dapps-how-they-are-different-from-normal-apps
+
+Article - https://blog.itsrakesh.co/what-is-blockchain-how-does-it-work
+
+## Don't abuse arrow functions in 2022
+
+https://javascript.plainenglish.io/its-2022-don-t-abuse-the-arrow-function-anymore-905862a9c668
 
 ## Execute code on tab close
 
@@ -141,8 +159,8 @@ window.addEventListener("beforeunload", (e) => {
   e.returnValue = ""; // this value has to be other than null and undefined.
 });
 
-# for react, use reference: https://bobbyhadz.com/blog/react-handle-tab-close-event
-# amazing blogger: https://bobbyhadz.com/
+// for react, use reference: https://bobbyhadz.com/blog/react-handle-tab-close-event
+// amazing blogger: https://bobbyhadz.com/
 ```
 
 So when you try to close tab, browser will ask once again like that -
@@ -241,12 +259,6 @@ Source: https://stackoverflow.com/a/30543212/10012446
 
 ![image](https://user-images.githubusercontent.com/31458531/179002793-ec8bf2a5-0a9a-4177-a0cd-2298f44f9f15.png)
 
-
-## webflow
-
-- Official Playlist: [@youtube](https://www.youtube.com/watch?v=yJ3vsAnbi_o)
-- ADVANCED BUILDING A COMPLEX WEBSITE WITH PHOTOSHOP AND WEBFLOW | METASTARTUP: [@youtube](https://www.youtube.com/watch?v=90h0ZuLfm68)
-- Build a personal website WITHOUT CODING in under 30 minutes!: [@youtube](https://youtu.be/KXwA3ogD1EE)
 
 ## what venv in python?
 

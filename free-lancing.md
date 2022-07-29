@@ -1,3 +1,31 @@
+## Making 10 Great projects
+
+- hamza upwork profile: https://www.upwork.com/freelancers/~010d286513e675c74e?p=1452923993020219392
+- https://github.com/hamzAhmd or https://hamzahmd.com/
+- [website](https://amand33p.github.io/),  https://github.com/amand33p
+- [social media mern - google search ](https://www.google.com/search?q=mern+social+media&oq=mern+social+media&aqs=chrome..69i57.131j0j1&sourceid=chrome&ie=UTF-8)
+- https://www.udemy.com/user/sgslo/
+- continue [video from here](https://youtu.be/bCcssVfBd98?t=356)
+
+## other portfolios profiles with projects
+
+Rakesh:
+  - https://itsrakesh.co/work
+  - Mmedium article on [how to he made portfolio site](https://medium.com/codex/how-i-built-my-portfolio-website-dc61057d82e)
+  - Campus Site project Awesome: https://itsrakesh.co/work/projects/Campus-Mate
+
+### 8 Full Stack Project Ideas for 2022 👨‍💻👩‍💻
+
+- 🔶 E-commerce Website
+- 🔶 Food Delivery App
+- 🔶 Social Media App
+- 🔶 Chat Messaging App
+- 🔶 Content Management System
+- 🔶 Blog / Portfolio Site
+- 🔶 Workout Tracker 
+- 🔶 Project Management Dashboard
+
+
 #### Getting project [src](https://youtu.be/p76zsTDqahM)
 
 - Keep expectations low and understanding that compounding works.
@@ -28,5 +56,60 @@ Earning 35k Rs/month => `22days*8hrs` = `176hrs` i.e., `35,000RS/176HRS` = `200R
 ## Points of Business
 
 - Q1. Business Goal: What is the main goal of Business?
-- Q2. Feature Goal: What is the role of this feature that we are addding
-- Q3. What is the minimum value I can deliver? MVP Product.
+- Q2. Feature Goal: What is the role of this feature that we are addding?
+- Q3. What is the minimum value I can deliver? MVP Product?
+
+## If we withdraw a proposal, do we get the 'connects' back?
+
+Ans. The only way you get the connects back is if the job is canceled. Source: [Click here](https://community.upwork.com/t5/Freelancers/If-we-withdraw-a-proposal-do-we-get-the-connects-back/td-p/230080)
+
+## Is your bank acc. savings or current?
+
+On your checkbook if you have 31 in the end that means you have a savings account. Source: [Click here](https://qr.ae/pvkjAf)
+
+
+## timings - canada - india
+
+8am - 9pm (india) => 10:30pm - 11:30am
+
+8am - 9pm (canada) => 5:30pm - 6:30am
+
+
+## Upwork proposals 8 golden rules
+[1](https://youtu.be/f4INGRluDAU), [2]()
+1. Use client's first name from the history of client.
+2. CTA (Call To Action) - Book a call to you via something like calendarly IMO.
+3. Be concise and show social proof.
+4. Make use of P.S. in the [end of the proposal](https://www.wix.com/wordsmatter/blog/2020/10/what-does-ps-mean/).
+5. Take and hour and read throught Upwork TOS.
+
+
+- CTA (Call To Action): https://calendly.com/sahilrajput03/30min
+
+  For popup thing in the same webpage:
+
+  ```html
+  <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sahilrajput03/30min'});return false;">Schedule time with me</a>
+  <!-- Calendly link widget end -->
+  ```
+
+- **I don't have a last name - [Problem](https://community.upwork.com/t5/New-to-Upwork/I-don-t-have-a-last-name/td-p/710470)**
+- **Ids required for Indians - [Problem](https://community.upwork.com/t5/Freelancers/Id-verification-for-Indian-users/m-p/129437)**
+- **Upwork is asking for Pan Card's Expiry Date**: tldr - Just put any future date: [Problem](https://community.upwork.com/t5/Freelancers/Id-Verification-expiry-date/td-p/657303)
+
+## final docs
+
+![image](https://user-images.githubusercontent.com/31458531/180473051-dd013189-f02a-4578-8bb3-d040d2a2931e.png)
+
+and for the second I added the bank statement generate from SIB internet banking.
+
+and filled more details:
+
+![image](https://user-images.githubusercontent.com/31458531/180475090-c9c53f71-e815-4744-a646-69350c17a52a.png)
+
+## 30 most in-demand skills
+
+https://www.upwork.com/resources/in-demand-jobs-and-skills
