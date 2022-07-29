@@ -138,6 +138,7 @@ cra: 335m
 - **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 - **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
 - **Learn Webflow:** - [Click here](learn-webflow.md)
+- **Weird Problems:** - [Click here](weird-problems.md)
 
 ## dapps
 
