@@ -139,6 +139,7 @@ cra: 335m
 - **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
 - **Learn Webflow:** - [Click here](learn-webflow.md)
 - **Weird Problems:** - [Click here](weird-problems.md)
+- **Intro Guides to Platforms:**: [Click here](intro-guide-to-platforms.md)
 
 ## dapps
 
