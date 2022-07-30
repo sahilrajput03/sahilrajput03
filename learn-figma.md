@@ -68,7 +68,7 @@
 - Layers: You can select **_multiple_** entities and move them at the top or bottom very easily from the left bar, i.e., **_Layers_** menu directly.
 - Layers: It is very intutive to anybody else if you arrange the entites in the **_Layers_** menu according to the entity flow in the canvas. ALSO, instructs the very fundamental base of the distribution of entities as well. ~Kevin.
 - When you select text tool, always drag and draw the text box first so your text reflow is bounded to that area only.
-- Typography choice - Font: Roboto, Font Size: 72, Font style: Black (or say Bold, although Black is little better IMO)
+- **Typography choice** - Font: Roboto, Handlee (for human writing) Font Size: 72, Font style: Black (or say Bold, although Black is little better IMO)
 - You can move around using 
 	- hand tool
 	- but a better way is to use hold <spacebar> and now you can drag using mouse to move the page for the time.
