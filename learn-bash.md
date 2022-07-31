@@ -832,7 +832,12 @@ sudo crontab -u $USER -l
 # The reasony why I have put ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ is coz notifications send via cronjob aren't working without them!, SRC: https://askubuntu.com/a/1308769/702911
 ```
 
-## LEARN PGREP
+## Managing processes with `kill`, `pgrep` and `pkill`
+
+Source 1: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
+Source 2: https://stackoverflow.com/a/8987063
+
+**Learn `pgrep`:**
 
 ```bash
 # USAGE
@@ -869,12 +874,9 @@ pgrep copyq
 # 358514
 ```
 
-## Start and kill specific processes
-
-Src: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
+**Important thought about signals from kill command:**
 
 ```bash
-# IMPORTANT THOUGHT ABOUT SIGNALS FROM kill COMMAND
 man kill
 # OUTPUT
 # The command kill sends the specified signal to the specified processes or process groups.
@@ -888,7 +890,7 @@ man kill
 # specify processes by command name, are local extensions.
 ```
 
-Probably the easiest way of killing a running process is by selecting it through the process name as in the following example using pkill command as -
+**Learn pkill - Start and kill processes:**
 
 ```bash
 # NOTE: PLEASE LEAR `pgrep` from above section first coz `pgrep`, `pkill` and `pwait` are family commands i.e., they use same input option parameters on command line ~ Sahil ~ source: `man pkill`
@@ -905,7 +907,7 @@ kill $(pgrep -f 'python test.py')
 kill $(pgrep -f battery-status.sh)
 ```
 
-Check if a process if running already?
+**Check if a process if running already?**
 
 ```bash
 pid=$(pgrep -f battery-status.sh)
