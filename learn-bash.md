@@ -927,13 +927,13 @@ if ! [ -z "$pid" ]; then echo "Process is *running*.."; fi
 if ! [ -z "$pid" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
 
 # Using -n instead of using -z and then inverting if using ! unlike above
-if [ -n "$pid" ]; then echo Process is *running*..; else echo "Process is *NOT* running"; fi
+if [ -n "$pid" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
 
 # Inline command
 # ==============
-if [ -n "$(pgrep -f battery-status.sh)" ]; then echo Process is *running*..; else echo "Process is *NOT* running"; fi
+if [ -n "$(pgrep -f battery-status.sh)" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
 # OR SIMPLY
-if [ -n "$(pgrep -f battery-status)" ]; then echo Process is *running*..; else echo "Process is *NOT* running"; fi
+if [ -n "$(pgrep -f battery-status)" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
 
 # Mischiveous options used with `if`
 # ==================================
