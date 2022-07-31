@@ -832,13 +832,9 @@ sudo crontab -u $USER -l
 # The reasony why I have put ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ is coz notifications send via cronjob aren't working without them!, SRC: https://askubuntu.com/a/1308769/702911
 ```
 
-## Start and kill specific processes
-
-Src: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
+## LEARN PGREP
 
 ```bash
-#### LEARN PGREP
-
 # USAGE
 pid PROCESS_NAME_HERE
 # OUTPUT: process id of all the matched processes (pid)
@@ -873,6 +869,9 @@ pgrep copyq
 # 358514
 ```
 
+## Start and kill specific processes
+
+Src: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
 
 Probably the easiest way of killing a running process is by selecting it through the process name as in the following example using pkill command as -
 
