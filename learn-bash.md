@@ -913,13 +913,16 @@ kill $(pgrep -f battery-status.sh)
 pid=$(pgrep -f battery-status.sh)
 echo $pid
 # Check for non-empty string:
-# RUNNING FALSE CHECKS
+
+# Unit tests for how `test` (i.e., `[`) command works
+# ===================================================
+# 1. False returning
 test -z "$pid" && echo "Process is *NOT* running.."
 if [ -z "$pid" ]; then echo "Process is *NOT* running.."; fi
 test -z "$pid"; echo $?
 #FYI: Outputs 1 when pid has some value(i.e, process is running) coz -z checks for empty sting.
 
-# RUNNING TRUE CHECKS
+# 2. True returning
 test ! -z "$pid" && echo Process is running..
 if ! [ -z "$pid" ]; then echo "Process is *running*.."; fi
 if ! [ -z "$pid" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
@@ -927,12 +930,14 @@ if ! [ -z "$pid" ]; then echo "Process is *running*.."; else echo "Process is *N
 # Using -n instead of using -z and then inverting if using ! unlike above
 if [ -n "$pid" ]; then echo Process is *running*..; else echo "Process is *NOT* running"; fi
 
-####### Inline command strings #######
+# Inline command
+# ==============
 if [ -n "$(pgrep -f battery-status.sh)" ]; then echo Process is *running*..; else echo "Process is *NOT* running"; fi
 # OR SIMPLY
 if [ -n "$(pgrep -f battery-status)" ]; then echo Process is *running*..; else echo "Process is *NOT* running"; fi
 
 # Mischiveous options used with `if`
+# ==================================
 # -n to check non-zero length string
 # -z with ! operator to check for non-zero length string bcoz -z check for zero length strings
 # Using -z will make program exit with 0 if string is empty
