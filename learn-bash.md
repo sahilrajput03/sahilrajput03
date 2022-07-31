@@ -932,7 +932,7 @@ if [ -n "$pid" ]; then echo "Process is *running*.."; else echo "Process is *NOT
 # Inline command
 # ==============
 if [ -n "$(pgrep -f battery-status.sh)" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
-# OR SIMPLY
+# or simply
 if [ -n "$(pgrep -f battery-status)" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
 
 # Mischiveous options used with `if`
