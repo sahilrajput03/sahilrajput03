@@ -873,6 +873,20 @@ pgrep copyq
 
 Src: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
 
+```txt
+man kill
+# OUTPUT
+# The command kill sends the specified signal to the specified processes or process groups.
+# 
+# If no signal is specified, the TERM signal is sent. The default action for this signal is to terminate the process. This signal should be used in preference to the KILL signal
+# (number 9), since a process may install a handler for the TERM signal in order to perform clean-up steps before terminating in an orderly fashion. If a process does not
+# terminate after a TERM signal has been sent, then the KILL signal may be used; be aware that the latter signal cannot be caught, and so does not give the target process the
+# opportunity to perform any clean-up before terminating.
+# 
+# Most modern shells have a builtin kill command, with a usage rather similar to that of the command described here. The --all, --pid, and --queue options, and the possibility to
+# specify processes by command name, are local extensions.
+```
+
 Probably the easiest way of killing a running process is by selecting it through the process name as in the following example using pkill command as -
 
 ```bash
