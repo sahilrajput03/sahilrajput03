@@ -873,7 +873,8 @@ pgrep copyq
 
 Src: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
 
-```txt
+```bash
+# IMPORTANT THOUGHT ABOUT SIGNALS FROM kill COMMAND
 man kill
 # OUTPUT
 # The command kill sends the specified signal to the specified processes or process groups.
