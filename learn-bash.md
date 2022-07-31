@@ -877,15 +877,14 @@ pgrep copyq
 Probably the easiest way of killing a running process is by selecting it through the process name as in the following example using pkill command as -
 
 ```bash
-# LEARN: pgrep, pkill and pwait are family commands i.e., they use same input option parameters on command line ~ Sahil ~ source: `man pkill`
-# WAY 1: Pro Linux User Way
+# NOTE: PLEASE LEAR `pgrep` from above section first coz `pgrep`, `pkill` and `pwait` are family commands i.e., they use same input option parameters on command line ~ Sahil ~ source: `man pkill`
+####### WAY 1: Pro Linux User Way
 pkill -ef test.py
 # CLI OPTIONS-
 # -e : echo what is killed (i.e., verbose)
 # -f : to match inside "full command line" instead of just "process name"
 
-# WAY 2: FOOL'S WAY: MANUALLY KILLING by search doing a manual search through `pgrep` for the `process-id` and then killing via `kill` command
-
+########## WAY 2: FOOL'S WAY: MANUALLY KILLING by search doing a manual search through `pgrep` for the `process-id` and then killing via `kill` command
 pgrep -f battery-status.sh
 
 kill $(pgrep -f 'python test.py')
