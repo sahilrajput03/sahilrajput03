@@ -837,7 +837,7 @@ sudo crontab -u $USER -l
 Source 1: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
 Source 2: https://stackoverflow.com/a/8987063
 
-**Learn `pgrep`:**
+**1. Learn `pgrep`:**
 
 ```bash
 # USAGE
@@ -874,7 +874,7 @@ pgrep copyq
 # 358514
 ```
 
-**Important thought about signals from kill command:**
+**2. Important thought about signals from kill command:**
 
 ```bash
 man kill
@@ -890,7 +890,7 @@ man kill
 # specify processes by command name, are local extensions.
 ```
 
-**Learn pkill - Start and kill processes:**
+**3. Learn pkill - Start and kill processes:**
 
 ```bash
 # NOTE: PLEASE LEAR `pgrep` from above section first coz `pgrep`, `pkill` and `pwait` are family commands i.e., they use same input option parameters on command line ~ Sahil ~ source: `man pkill`
@@ -907,7 +907,7 @@ kill $(pgrep -f 'python test.py')
 kill $(pgrep -f battery-status.sh)
 ```
 
-**Check if a process if running already?**
+**4. Check if a process if running already?**
 
 ```bash
 # Unit tests for how `test` (i.e., `[`) command works
