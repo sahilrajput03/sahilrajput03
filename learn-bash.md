@@ -910,12 +910,11 @@ kill $(pgrep -f battery-status.sh)
 **Check if a process if running already?**
 
 ```bash
-pid=$(pgrep -f battery-status.sh)
-echo $pid
-# Check for non-empty string:
-
 # Unit tests for how `test` (i.e., `[`) command works
 # ===================================================
+pid=$(pgrep -f battery-status.sh)
+echo "$pid"	# TIP: Check for non-empty string
+
 # 1. False returning
 test -z "$pid" && echo "Process is *NOT* running.."
 if [ -z "$pid" ]; then echo "Process is *NOT* running.."; fi
