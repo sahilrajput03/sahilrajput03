@@ -914,17 +914,28 @@ pid=$(pgrep -f battery-status.sh)
 echo $pid
 # Check for non-empty string:
 # RUNNING FALSE CHECKS
-test -z "$pid" && echo Process is not running..
-if [ -z "$pid" ]; then echo Process is not running..; fi
+test -z "$pid" && echo "Process is *NOT* running.."
+if [ -z "$pid" ]; then echo "Process is *NOT* running.."; fi
 test -z "$pid"; echo $?
 #FYI: Outputs 1 when pid has some value(i.e, process is running) coz -z checks for empty sting.
 
 # RUNNING TRUE CHECKS
 test ! -z "$pid" && echo Process is running..
-if ! [ -z "$pid" ]; then echo Process is running..; fi
+if ! [ -z "$pid" ]; then echo "Process is *running*.."; fi
+if ! [ -z "$pid" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
 
-# (FYI: using -z with ! operator)
-# (FYI: using -z will make program exit with 0 if string is empty)
+# Using -n instead of using -z and then inverting if using ! unlike above
+if [ -n "$pid" ]; then echo Process is *running*..; else echo "Process is *NOT* running"; fi
+
+####### Inline command strings #######
+if [ -n "$(pgrep -f battery-status.sh)" ]; then echo Process is *running*..; else echo "Process is *NOT* running"; fi
+# OR SIMPLY
+if [ -n "$(pgrep -f battery-status)" ]; then echo Process is *running*..; else echo "Process is *NOT* running"; fi
+
+# Mischiveous options used with `if`
+# -n to check non-zero length string
+# -z with ! operator to check for non-zero length string bcoz -z check for zero length strings
+# Using -z will make program exit with 0 if string is empty
 ```
 ## Expand your alias in shell lively before your eyes ?
 
