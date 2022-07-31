@@ -141,6 +141,13 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## casting laptop screent to tv  (chromecast)
+
+![image](https://user-images.githubusercontent.com/31458531/182030478-7ab7eafc-0350-426e-91a9-27bab4d37662.png)
+
+![image](https://user-images.githubusercontent.com/31458531/182030497-1c0ee13f-86ef-4ad6-b485-189798f09250.png)
+
+
 ## dapps
 
 Article - https://blog.itsrakesh.co/what-are-dapps-how-they-are-different-from-normal-apps
