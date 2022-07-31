@@ -836,16 +836,53 @@ sudo crontab -u $USER -l
 
 Src: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
 
-Probably the easiest way of killing a running process is by selecting it through the process name as in the following
+```bash
+#### LEARN PGREP
 
-example using pkill command as
+# USAGE
+pid PROCESS_NAME_HERE
+# OUTPUT: process id of all the matched processes (pid)
+
+# CLI OPTIONS-
+# -f : to match inside "full command line" instead of just "process name"
+# -l, --list-name           list PID and process name
+# -a, --list-full           list PID and full command line
+
+pgrep battery-status
+# OUTPUT: ---No output bcoz pgrep matches against the process names only and in "battery-status" case the process name is `sh`
+
+pgrep -f battery-status
+# OUTPUT: 824
+
+pgrep -fl battery-status
+# OUTPUT: 824 sh
+
+pgrep -fa battery-status
+# OUTPUT: 824 sh /home/array/scripts/battery-alert/battery-status.sh
+
+pgrep copyq
+# OUTPUT:
+# 839
+# 1104
+# 1111
+
+pgrep copyq
+# OUTPUT:
+# 358507
+# 358512
+# 358514
+```
+
+
+Probably the easiest way of killing a running process is by selecting it through the process name as in the following example using pkill command as -
 
 ```bash
+LEARN: pgrep, pkill and pwait are family commands i.e., they use same input option parameters on command line ~ Sahil ~ source: `man pkill`
 # WAY 1:
 pkill -ef test.py
+# CLI OPTIONS-
 # -e : echo what is killed (i.e., verbose)
 # -f : to match inside "full command line" instead of just "process name"
-
 
 # WAY 2: A more fool-proof way using pgrep to search for the actual process-id
 # Get process_id (-f option means to match full process name), source: https://stackoverflow.com/a/27684015/10012446
