@@ -843,7 +843,9 @@ example using pkill command as
 ```bash
 # WAY 1:
 pkill -ef test.py
-# -f : to match full process name, AND -e : echo what is killed (i.e., verbose)
+# -e : echo what is killed (i.e., verbose)
+# -f the ```full command line``` instead of just ```process name```
+
 
 # WAY 2: A more fool-proof way using pgrep to search for the actual process-id
 # Get process_id (-f option means to match full process name), source: https://stackoverflow.com/a/27684015/10012446
