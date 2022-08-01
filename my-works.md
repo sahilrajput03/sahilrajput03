@@ -34,6 +34,8 @@
 - <a href="https://www.npmjs.com/package/react-fetch2" target="_blank">react-fetch2</a> - Hook free react data fetching library
 - <a href="https://www.npmjs.com/package/obj-json" target="_blank">obj-json</a> - A cli tool to convert js object to json on cli
 - <a href="https://www.npmjs.com/package/pagelist-react" target="_blank">Pagelist React Component</a> - Testing apps in isolation made easy
+- <a href="https://www.npmjs.com/package/flash-runner" target="_blank">flash-runner</a> - Single worker test runner
+- <a href="https://www.npmjs.com/package/context-maker" target="_blank">context-maker</a> - Provides simple use of context api for react
 
 
 **Blogs**
