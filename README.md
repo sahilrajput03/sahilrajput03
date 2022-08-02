@@ -141,6 +141,21 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## Setup recommended extension for a project
+
+![image](https://user-images.githubusercontent.com/31458531/182031883-184aa482-6b9f-447c-a624-34bd9dcadd45.png)
+
+Guide: [Click here](https://dev.to/askrishnapravin/recommend-vs-code-extensions-to-your-future-teammates-4gkb)
+
+**Tldr: Press `ctrl+shift+p` and command starting with "Confgiure Recommended Extension.." and now use `ctrl+space` toggle up the possible extension inputs from your currently installed extension. YO!!**
+
+## casting laptop screent to tv  (chromecast)
+
+![image](https://user-images.githubusercontent.com/31458531/182030478-7ab7eafc-0350-426e-91a9-27bab4d37662.png)
+
+![image](https://user-images.githubusercontent.com/31458531/182030497-1c0ee13f-86ef-4ad6-b485-189798f09250.png)
+
+
 ## dapps
 
 Article - https://blog.itsrakesh.co/what-are-dapps-how-they-are-different-from-normal-apps

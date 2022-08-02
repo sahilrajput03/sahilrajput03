@@ -7,6 +7,9 @@
 - https://www.udemy.com/user/sgslo/
 - continue [video from here](https://youtu.be/bCcssVfBd98?t=356)
 
+![image](https://user-images.githubusercontent.com/31458531/182295735-fea5b0da-79ed-434f-b24f-fa2eaed253b3.png)
+
+
 ## other portfolios profiles with projects
 
 Rakesh:

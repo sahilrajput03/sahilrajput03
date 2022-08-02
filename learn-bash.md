@@ -832,45 +832,114 @@ sudo crontab -u $USER -l
 # The reasony why I have put ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ is coz notifications send via cronjob aren't working without them!, SRC: https://askubuntu.com/a/1308769/702911
 ```
 
-## Start and kill specific processes
+## Managing processes with `kill`, `pgrep` and `pkill`
 
-Src: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
+Source 1: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
+Source 2: https://stackoverflow.com/a/8987063
 
-Probably the easiest way of killing a running process is by selecting it through the process name as in the following
-
-example using pkill command as
+**1. Learn `pgrep`:**
 
 ```bash
-# WAY 1:
-pkill -ef test.py
-# -f : to match full process name, AND -e : echo what is killed (i.e., verbose)
+# USAGE
+pid PROCESS_NAME_HERE
+# OUTPUT: process id of all the matched processes (pid)
 
-# WAY 2: A more fool-proof way using pgrep to search for the actual process-id
-# Get process_id (-f option means to match full process name), source: https://stackoverflow.com/a/27684015/10012446
+# CLI OPTIONS-
+# -f : to match inside "full command line" instead of just "process name"
+# -l, --list-name           list PID and process name
+# -a, --list-full           list PID and full command line
+
+pgrep battery-status
+# OUTPUT: ---No output bcoz pgrep matches against the process names only and in "battery-status" case the process name is `sh`
+
+pgrep -f battery-status
+# OUTPUT: 824
+
+pgrep -fl battery-status
+# OUTPUT: 824 sh
+
+pgrep -fa battery-status
+# OUTPUT: 824 sh /home/array/scripts/battery-alert/battery-status.sh
+
+pgrep copyq
+# OUTPUT:
+# 839
+# 1104
+# 1111
+
+pgrep copyq
+# OUTPUT:
+# 358507
+# 358512
+# 358514
+```
+
+**2. Important thought about signals from kill command:**
+
+```bash
+man kill
+# OUTPUT
+# The command kill sends the specified signal to the specified processes or process groups.
+# 
+# If no signal is specified, the TERM signal is sent. The default action for this signal is to terminate the process. This signal should be used in preference to the KILL signal
+# (number 9), since a process may install a handler for the TERM signal in order to perform clean-up steps before terminating in an orderly fashion. If a process does not
+# terminate after a TERM signal has been sent, then the KILL signal may be used; be aware that the latter signal cannot be caught, and so does not give the target process the
+# opportunity to perform any clean-up before terminating.
+# 
+# Most modern shells have a builtin kill command, with a usage rather similar to that of the command described here. The --all, --pid, and --queue options, and the possibility to
+# specify processes by command name, are local extensions.
+```
+
+**3. Learn pkill - Start and kill processes:**
+
+```bash
+# NOTE: PLEASE LEAR `pgrep` from above section first coz `pgrep`, `pkill` and `pwait` are family commands i.e., they use same input option parameters on command line ~ Sahil ~ source: `man pkill`
+####### WAY 1: Pro Linux User Way
+pkill -ef test.py
+# CLI OPTIONS-
+# -e : echo what is killed (i.e., verbose)
+# -f : to match inside "full command line" instead of just "process name"
+
+########## WAY 2: FOOL'S WAY: MANUALLY KILLING by search doing a manual search through `pgrep` for the `process-id` and then killing via `kill` command
 pgrep -f battery-status.sh
 
 kill $(pgrep -f 'python test.py')
 kill $(pgrep -f battery-status.sh)
 ```
 
-Check if a process if running already?
+**4. Check if a process if running already?**
 
 ```bash
+# Unit tests for how `test` (i.e., `[`) command works
+# ===================================================
 pid=$(pgrep -f battery-status.sh)
-echo $pid
-# Check for non-empty string:
-# RUNNING FALSE CHECKS
-test -z "$pid" && echo Process is not running..
-if [ -z "$pid" ]; then echo Process is not running..; fi
+echo "$pid"	# TIP: Check for non-empty string
+
+# 1. False returning
+test -z "$pid" && echo "Process is *NOT* running.."
+if [ -z "$pid" ]; then echo "Process is *NOT* running.."; fi
 test -z "$pid"; echo $?
 #FYI: Outputs 1 when pid has some value(i.e, process is running) coz -z checks for empty sting.
 
-# RUNNING TRUE CHECKS
+# 2. True returning
 test ! -z "$pid" && echo Process is running..
-if ! [ -z "$pid" ]; then echo Process is running..; fi
+if ! [ -z "$pid" ]; then echo "Process is *running*.."; fi
+if ! [ -z "$pid" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
 
-# (FYI: using -z with ! operator)
-# (FYI: using -z will make program exit with 0 if string is empty)
+# Using -n instead of using -z and then inverting if using ! unlike above
+if [ -n "$pid" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
+
+# Inline command
+# ==============
+if [ -n "$(pgrep -f battery-status.sh)" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
+# or simply
+if [ -n "$(pgrep -f battery-status)" ]; then echo "Process is *running*.."; else echo "Process is *NOT* running"; fi
+
+# Mischiveous options used with `if`
+# ==================================
+# -n to check non-zero length string
+# -z with ! operator to check for non-zero length string bcoz -z check for zero length strings
+# Using -z will make program exit with 0 if string is empty
 ```
 ## Expand your alias in shell lively before your eyes ?
 
