@@ -135,3 +135,5 @@ Discipline is about what you want now and what you want most. ~ Allhabadia
 I hate waiting on machine, the machine should wait on me ~ Varun mayya
 
 Companies layoff to avoid death spiral ~ Varun Mayya (referring: Skioya Report)
+
+Rust Programming Lanugage - Telegram Channel Works: https://t.me/rust_community
