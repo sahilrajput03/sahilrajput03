@@ -1367,13 +1367,17 @@ j <anyRecentlyUsedFolderName>
 
 ## Installed mutt - a cli email client utility
 
+**IMPORTANT NOTICE: Starting from May 30, 2022 you need to have `APP_PASSWORD` to make mutt work.** [READ HERE](https://support.google.com/accounts/answer/6010255?hl=en)
+
 ```
 sudo pacman -S mutt
 ```
 
 Configuring your email client [help here](https://linuxconfig.org/how-to-install-configure-and-use-mutt-with-a-gmail-account-on-linux).
 
-Using mutt from cli form this [blog post](https://www.tecmint.com/send-mail-from-command-line-using-mutt-command/).
+_Using mutt from cli form this [blog post](https://www.tecmint.com/send-mail-from-command-line-using-mutt-command/)._
+
+UPDATED: 4 Aug, 2022: Use this [address to create app password](https://security.google.com/settings/security/apppasswords). Source: [Article](https://linuxconfig.org/how-to-install-configure-and-use-mutt-with-a-gmail-account-on-linux).
 
 **Do interesting stuff with mutt:**
 
