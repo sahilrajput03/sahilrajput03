@@ -13,6 +13,7 @@
 ```bash
 # Source: https://github.com/resloved/i3
 # Source: https://aur.archlinux.org/packages/i3-gaps-rounded-git
+# sudo pacman -R i3-gaps # I NEEDED TO THIS AS WELL!!
 yay -S i3-gaps-rounded-git
 ```
 
