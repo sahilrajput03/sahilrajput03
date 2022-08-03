@@ -8,6 +8,14 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install i3-gaps-round
+
+```bash
+# Source: https://github.com/resloved/i3
+# Source: https://aur.archlinux.org/packages/i3-gaps-rounded-git
+yay -S i3-gaps-rounded-git
+```
+
 ## Installed boomer for screen magnification
 
 https://github.com/tsoding/boomer
