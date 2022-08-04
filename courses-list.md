@@ -25,7 +25,7 @@
 - From helsinki: https://studies.cs.helsinki.fi/stats/
 - Introduction to Kubernetes: [Click here](https://www.edx.org/course/introduction-to-kubernetes)
 - Kube by example: [Click here](https://kubebyexample.com/)
-- Build An NFT Marketplace From Scratch - Blockchain DApp: [Click here](https://drive.google.com/drive/folders/1o7eExDuepyTlyMUeospr1epx-xF9ELM9)
+- Build An NFT Marketplace From Scratch - Blockchain DApp: [Udemy](https://www.udemy.com/course/build-an-nft-marketplace-from-scratch-blockchain-dapp/), Google Drive - [ Click here](https://drive.google.com/drive/folders/1o7eExDuepyTlyMUeospr1epx-xF9ELM9)
 
 **Javascript Docs and Prime Resources**
 
