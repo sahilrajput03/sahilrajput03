@@ -6,6 +6,7 @@
 - [social media mern - google search ](https://www.google.com/search?q=mern+social+media&oq=mern+social+media&aqs=chrome..69i57.131j0j1&sourceid=chrome&ie=UTF-8)
 - https://www.udemy.com/user/sgslo/
 - continue [video from here](https://youtu.be/bCcssVfBd98?t=356)
+- make crypto guessing/predicting stats social media board
 
 ![image](https://user-images.githubusercontent.com/31458531/182295735-fea5b0da-79ed-434f-b24f-fa2eaed253b3.png)
 
