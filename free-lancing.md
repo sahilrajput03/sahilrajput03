@@ -17,6 +17,11 @@ Rakesh:
   - https://itsrakesh.co/work
   - Mmedium article on [how to he made portfolio site](https://medium.com/codex/how-i-built-my-portfolio-website-dc61057d82e)
   - Campus Site project Awesome: https://itsrakesh.co/work/projects/Campus-Mate
+  - https://github.com/mihir0699
+    - Amazing food delivery app that has send email confirmation OTP sending.
+    - Amazing instagram clone
+    - Amazing poll generator code with sharing buttons for twitter, whatsapp, faceboook and via qr generator. YO!!
+    - Amazing video chat app
 
 ### 8 Full Stack Project Ideas for 2022 👨‍💻👩‍💻
 
