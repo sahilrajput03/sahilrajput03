@@ -28,6 +28,9 @@ Heroku has database as a service as well. [Check here](https://www.heroku.com/po
 
 See my command list @ [Gist](https://gist.github.com/sahilrajput03/c44778f281e5f9856827e7c0f264ffa5).
 
+TEKENA's way of deploying a nested folder: ![image](https://user-images.githubusercontent.com/31458531/183259528-7911885a-a66c-4432-9c0d-de0a7a4d68d9.png)
+
+
 # Dns Settings
 
 I have ports 80, 8080, 3000-to-3010 mapped to my linux machine currently. Also for pi I have mapped port 22.

@@ -8,6 +8,14 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Installed boomer for screen magnification
+
+https://github.com/tsoding/boomer
+
+```bash
+yay -S boomer-git
+```
+
 ## Install upwork on archlinux
 
 Source: Comment from aur page: https://aur.archlinux.org/packages/upwork
@@ -1359,13 +1367,17 @@ j <anyRecentlyUsedFolderName>
 
 ## Installed mutt - a cli email client utility
 
+**IMPORTANT NOTICE: Starting from May 30, 2022 you need to have `APP_PASSWORD` to make mutt work.** [READ HERE](https://support.google.com/accounts/answer/6010255?hl=en)
+
 ```
 sudo pacman -S mutt
 ```
 
 Configuring your email client [help here](https://linuxconfig.org/how-to-install-configure-and-use-mutt-with-a-gmail-account-on-linux).
 
-Using mutt from cli form this [blog post](https://www.tecmint.com/send-mail-from-command-line-using-mutt-command/).
+_Using mutt from cli form this [blog post](https://www.tecmint.com/send-mail-from-command-line-using-mutt-command/)._
+
+UPDATED: 4 Aug, 2022: Use this [address to create app password](https://security.google.com/settings/security/apppasswords). Source: [Article](https://linuxconfig.org/how-to-install-configure-and-use-mutt-with-a-gmail-account-on-linux).
 
 **Do interesting stuff with mutt:**
 

@@ -141,6 +141,10 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## How a system can answer some quetion about working of its own function?
+
+Ans. If its implements a goal tree then it can! [Source](https://youtu.be/leXa7EKUPFk?t=1544)
+
 ## Setup recommended extension for a project
 
 ![image](https://user-images.githubusercontent.com/31458531/182031883-184aa482-6b9f-447c-a624-34bd9dcadd45.png)
