@@ -143,6 +143,38 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## void usage in javascript
+
+![image](https://user-images.githubusercontent.com/31458531/183453730-4a92c3f1-d449-40d0-995f-7165a2cb2fd2.png)
+
+![image](https://user-images.githubusercontent.com/31458531/183454436-9d9a2043-050a-4c29-9683-c556ad54b1ba.png)
+
+Source of below code: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void)
+
+```js
+const output = void 1;
+console.log(output);
+// expected output: undefined
+
+void console.log('expression evaluated');
+// expected output: "expression evaluated"
+
+void function iife() {
+  console.log('iife is executed');
+}();
+// expected output: iife is executed
+
+void function test() {
+  console.log('test function executed');
+};
+try {
+  test();
+} catch (e) {
+  console.log('test function is not defined');
+  // expected output: "test function is not defined"
+}
+```
+
 ## bandwidth and throughput?
 
 ![image](https://user-images.githubusercontent.com/31458531/183441770-2aeca9e4-132c-43d6-bfe8-3363bc4cfad4.png)
