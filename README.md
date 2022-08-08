@@ -143,6 +143,8 @@ cra: 335m
 
 ## `lastChild` vs. `lastElementChild`
 
+***tldr; Use `lastElementChild` to get html node but use lastChild if you may want the some plain text or comment that is there in the last in that element.***
+
 Source: https://melvingeorge.me/blog/difference-between-lastchild-and-lastelementchild-element-property-javascript
 
 ## How a system can answer some quetion about working of its own function?
