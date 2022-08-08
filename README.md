@@ -1,5 +1,7 @@
 # 🤺︎ Hi there 👋 Trying what I can ! ![](https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif)
 
+A Pragmatic software developer.
+
 Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.”
 
 [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
@@ -140,6 +142,67 @@ cra: 335m
 - **Learn Webflow:** - [Click here](learn-webflow.md)
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
+
+## void usage in javascript
+
+![image](https://user-images.githubusercontent.com/31458531/183453730-4a92c3f1-d449-40d0-995f-7165a2cb2fd2.png)
+
+![image](https://user-images.githubusercontent.com/31458531/183454436-9d9a2043-050a-4c29-9683-c556ad54b1ba.png)
+
+Source of below code: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void)
+
+```js
+const output = void 1;
+console.log(output);
+// expected output: undefined
+
+void console.log('expression evaluated');
+// expected output: "expression evaluated"
+
+void function iife() {
+  console.log('iife is executed');
+}();
+// expected output: iife is executed
+
+void function test() {
+  console.log('test function executed');
+};
+try {
+  test();
+} catch (e) {
+  console.log('test function is not defined');
+  // expected output: "test function is not defined"
+}
+```
+
+## bandwidth and throughput?
+
+![image](https://user-images.githubusercontent.com/31458531/183441770-2aeca9e4-132c-43d6-bfe8-3363bc4cfad4.png)
+
+![image](https://user-images.githubusercontent.com/31458531/183441658-56113ef9-79a7-4a2a-984f-dee0939621a4.png)
+
+
+## unsigned means?
+
+`Dictionary - unsigned` : not having a plus or minus sign, or a bit representing this.
+
+Unsigned Integers (often called "uints") are just like integers (whole numbers) but have the property that they don't have a + or - sign associated with them. Thus they are always non-negative (zero or positive). We use uint's when we know the value we are counting will always be non-negative.
+
+## #scroll #scrollto #scrollintoview
+
+[scrollTo - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
+[scrollIntoView - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView)
+
+[s1](https://github.com/sahilrajput03/learn-rpc-middlewares/blob/main/my-rpc/index.html)
+[s2](https://github.com/sahilrajput03/learn-websockets/blob/main/helloworld-socket.io/chat-app/src/index.html)
+
+Stakoverflows: [1](https://stackoverflow.com/a/11715670/10012446)
+
+## `lastChild` vs. `lastElementChild`
+
+***tldr; Use `lastElementChild` to get html node but use lastChild if you may want the some plain text or comment that is there in the last in that element.***
+
+Source: https://melvingeorge.me/blog/difference-between-lastchild-and-lastelementchild-element-property-javascript
 
 ## How a system can answer some quetion about working of its own function?
 
