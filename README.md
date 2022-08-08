@@ -141,6 +141,13 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## bandwidth and throughput?
+
+![image](https://user-images.githubusercontent.com/31458531/183441770-2aeca9e4-132c-43d6-bfe8-3363bc4cfad4.png)
+
+![image](https://user-images.githubusercontent.com/31458531/183441658-56113ef9-79a7-4a2a-984f-dee0939621a4.png)
+
+
 ## unsigned means?
 
 `Dictionary - unsigned` : not having a plus or minus sign, or a bit representing this.
