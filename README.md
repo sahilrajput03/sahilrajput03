@@ -141,6 +141,10 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## `lastChild` vs. `lastElementChild`
+
+Source: https://melvingeorge.me/blog/difference-between-lastchild-and-lastelementchild-element-property-javascript
+
 ## How a system can answer some quetion about working of its own function?
 
 Ans. If its implements a goal tree then it can! [Source](https://youtu.be/leXa7EKUPFk?t=1544)
