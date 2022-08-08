@@ -141,6 +141,16 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## #scroll #scrollto #scrollintoview
+
+[scrollTo - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
+[scrollIntoView - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView)
+
+[s1](https://github.com/sahilrajput03/learn-rpc-middlewares/blob/main/my-rpc/index.html)
+[s2](https://github.com/sahilrajput03/learn-websockets/blob/main/helloworld-socket.io/chat-app/src/index.html)
+
+Stakoverflows: [1](https://stackoverflow.com/a/11715670/10012446)
+
 ## `lastChild` vs. `lastElementChild`
 
 ***tldr; Use `lastElementChild` to get html node but use lastChild if you may want the some plain text or comment that is there in the last in that element.***
