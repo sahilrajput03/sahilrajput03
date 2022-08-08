@@ -141,6 +141,12 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## unsigned means?
+
+`Dictionary - unsigned` : not having a plus or minus sign, or a bit representing this.
+
+Unsigned Integers (often called "uints") are just like integers (whole numbers) but have the property that they don't have a + or - sign associated with them. Thus they are always non-negative (zero or positive). We use uint's when we know the value we are counting will always be non-negative.
+
 ## #scroll #scrollto #scrollintoview
 
 [scrollTo - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
