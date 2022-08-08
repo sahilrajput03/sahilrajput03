@@ -36,6 +36,7 @@
 - <a href="https://www.npmjs.com/package/pagelist-react" target="_blank">Pagelist React Component</a> - Testing apps in isolation made easy
 - <a href="https://www.npmjs.com/package/flash-runner" target="_blank">flash-runner</a> - Single worker test runner
 - <a href="https://www.npmjs.com/package/context-maker" target="_blank">context-maker</a> - Provides simple use of context api for react
+- <a href="https://www.npmjs.com/package/sahilrajput03-logger" target="_blank">sahilrajput03-logger</a> - Logging tool for server in nodejs/express for coloured output (Why? A. morgan prints single coloured logs)
 
 
 **Blogs**
