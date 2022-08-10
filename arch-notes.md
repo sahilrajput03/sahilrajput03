@@ -1219,6 +1219,12 @@ sudo pacman -S tmux
 
 ## Another tmux cheatsheet: https://gist.github.com/andreyvit/2921703
 
+### 10 August, 2022: Respawn current pane with prefix a
+# as I added below to tmuxconfig file:
+# Respawn with love with `prefix a`, src: https://unix.stackexchange.com/a/88393
+# bind a "respawn-pane -k"
+
+
 ## Command to run a command in new pane ? 
 # Ans. tmux split-window "echo hello;sleep 100"       ###so this will run the command in new pane, yikes!!
 # src: https://unix.stackexchange.com/a/152740/504112
