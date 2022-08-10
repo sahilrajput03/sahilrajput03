@@ -143,6 +143,13 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## online timer apps
+
+- https://www.timer-tab.com/
+- https://www.timeanddate.com/timer/
+- https://www.online-timer.net/
+- https://vclock.com/timer/
+
 ## void usage in javascript
 
 ![image](https://user-images.githubusercontent.com/31458531/183453730-4a92c3f1-d449-40d0-995f-7165a2cb2fd2.png)
