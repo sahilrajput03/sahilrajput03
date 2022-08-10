@@ -143,6 +143,21 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## learn js classes
+
+```js
+class Animal {
+	static belly = []
+	eat() {
+		Animal.belly.push('food')
+	}
+}
+let a = new Animal()
+a.eat()
+
+console.log(Animal.belly[0]) // food
+```
+
 ## what is e+ powers?
 
 People in this earth is 8 Billion (8.0e+09)
