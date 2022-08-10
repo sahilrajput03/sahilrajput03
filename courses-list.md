@@ -5,6 +5,7 @@
 *-todo~sahil: DevOps with Kubernetes, FSO part 12 and part 13.*
 
 - Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
+- Git: [Learn Git Branching](https://learngitbranching.js.org/)
 - The Missing Semester of Your CS Education(MIT): [Click here](https://missing.csail.mit.edu/)
 - Great Practical Ideas in CS(CMU) - [Click here](https://www.cs.cmu.edu/~15131/f17/)
 - Deep Dive Into Modern Web Development - Full Stack Open 2021: [Click here](https://fullstackopen.com/en/)
