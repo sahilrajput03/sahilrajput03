@@ -143,6 +143,10 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## what is e+ powers?
+
+People in this earth is 8 Billion (8.0e+09)
+
 ## what are opnionated softwares/frameworks
 
 tldr; If a framework is opinionated, it lock or guides you into their way of doing things.
