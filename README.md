@@ -143,6 +143,14 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## what are opnionated softwares/frameworks
+
+tldr; If a framework is opinionated, it lock or guides you into their way of doing things.
+
+- https://stackoverflow.com/a/802064
+- https://www.quora.com/What-is-a-Opinionated-Framework
+
+
 ## online timer apps
 
 - https://www.timer-tab.com/
