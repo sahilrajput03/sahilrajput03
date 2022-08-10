@@ -158,6 +158,22 @@ a.eat()
 console.log(Animal.belly[0]) // food
 ```
 
+E.g., 2
+
+```js
+let bear = {
+	sound: 'roar',
+	roar() {
+		console.log(this.sound)
+	},
+}
+
+bear.sound = 'grunt'
+let bearSound = bear.roar
+bearSound() // undefined
+bear.roar() // grunt
+```
+
 ## what is e+ powers?
 
 People in this earth is 8 Billion (8.0e+09)
