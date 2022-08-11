@@ -143,6 +143,56 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## learn js classes
+
+```js
+class Animal {
+	static belly = []
+	eat() {
+		Animal.belly.push('food')
+	}
+}
+let a = new Animal()
+a.eat()
+
+console.log(Animal.belly[0]) // food
+```
+
+E.g., 2
+
+```js
+let bear = {
+	sound: 'roar',
+	roar() {
+		console.log(this.sound)
+	},
+}
+
+bear.sound = 'grunt'
+let bearSound = bear.roar
+bearSound() // undefined
+bear.roar() // grunt
+```
+
+## what is e+ powers?
+
+People in this earth is 8 Billion (8.0e+09)
+
+## what are opnionated softwares/frameworks
+
+tldr; If a framework is opinionated, it lock or guides you into their way of doing things.
+
+- https://stackoverflow.com/a/802064
+- https://www.quora.com/What-is-a-Opinionated-Framework
+
+
+## online timer apps
+
+- https://www.timer-tab.com/
+- https://www.timeanddate.com/timer/
+- https://www.online-timer.net/
+- https://vclock.com/timer/
+
 ## void usage in javascript
 
 ![image](https://user-images.githubusercontent.com/31458531/183453730-4a92c3f1-d449-40d0-995f-7165a2cb2fd2.png)
