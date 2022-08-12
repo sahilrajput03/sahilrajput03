@@ -6,7 +6,7 @@ const axios = require('axios')
 
 // # Axios api reference
 axios(config)
-// Q. Complete `config` api on onepage? Ans. https://axios-http.com/docs/req_config
+// `config` api: https://axios-http.com/docs/req_config
 // # Request method aliases - For convenience aliases have been provided for all supported request methods.
 // axios.request(config)
 // axios.get(url[, config])
@@ -19,7 +19,8 @@ axios(config)
 // NOTE: When using the alias methods url, method, and data properties don't need to be specified in config.
 
 // Send a GET request (default method)
-const {data} = axios('/user/12345')
+const response = await axios('/user/12345')
+// Response api: https://axios-http.com/docs/res_schema
 
 const {data} = await axios.get('/user?ID=12345')
 
