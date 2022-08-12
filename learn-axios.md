@@ -59,13 +59,13 @@ const {data} = await axios({
 
 // download image with axios
 const fs = require('fs')
-const {data} = axios({
+const response = await axios({
 	method: 'get',
 	url: 'https://avatars.githubusercontent.com/u/31458531?v=4',
 	responseType: 'stream',
-}).then(function (response) {
-	response.data.pipe(fs.createWriteStream('ada_lovelace.jpg'))
 })
+response.data.pipe(fs.createWriteStream('ada_lovelace.jpg'))
+
 
 // performing concurrent requests
 function getUserAccount() {
