@@ -8,6 +8,8 @@ Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curiou
 
 Unwinding is hot no-sugar coffee!
 
+*Technologies I can't believe exists today: trpc, hasura and onegraph (graphiql-explorer).*
+
 ```bash
 echo Hello world! > /dev/null
 cat /dev/null
