@@ -20,7 +20,7 @@ axios(config)
 
 // Send a GET request (default method)
 const response = await axios('/user/12345')
-// Response api: https://axios-http.com/docs/res_schema
+// Response Schema: https://axios-http.com/docs/res_schema
 
 const {data} = await axios.get('/user?ID=12345')
 
