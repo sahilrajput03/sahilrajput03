@@ -113,8 +113,8 @@ const {data} = await axios.post(
 # Using: https://beeceptor.com/console/abcdef
 # Using local server: nc -kdl 127.0.0.1 8005
 ###### BONUS: If you wan to mimic some STATUS CODE AND STATUS MESSAGE
-#1) while true; do echo -e "HTTP/1.1 200 OK\n" | nc -Nl 8005; done
-#2) while true; do echo -e "HTTP/1.1 400 FUOC\n" | nc -Nl 8005; done
+#1) while true; do echo -e "HTTP/1.1 200 OKKK\n" | nc -Nl 8005;echo -e "\n---"; done
+#2) while true; do echo -e "HTTP/1.1 400 FUOC\n" | nc -Nl 8005;echo -e "\n---"; done
 ######
 
 # BONUS:^ Source (comment in this answer): https://stackoverflow.com/a/52351480/10012446
