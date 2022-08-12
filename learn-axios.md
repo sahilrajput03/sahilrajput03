@@ -88,3 +88,19 @@ const api = axios.create({
 })
 const {data} = await api.get('/fso/patients.json')
 ```
+
+## Testing requests
+
+```bash
+// beerceptor: 'https://abcdef.free.beeceptor.com'
+// webhoot.site: 'https://webhook.site/cb871100-2d6f-4597-b459-3db0caae74b8'
+// nc: 'http://localhost:8005'
+
+// Using: https://webhook.site/
+// Using: https://beeceptor.com/console/abcdef
+// Using local server: nc -kdl 127.0.0.1 8005
+// # Its important to use 172.0.0.1 instead of localhost coz axios internall converts localhost text to 127.0.0.1
+// -k	Forces nc to stay listening for another connection after its current connection is completed. It is an error to use this option without the -l option.
+// -d	Do not attempt to read from stdin.
+// -l	Used to specify that nc should listen for an incoming connection rather than initiate a connection to a remote host. It is an error to use this option in conjunction with the -p, -s, or -z options. Additionally, any timeouts specified with the -w option are ignored.
+```
