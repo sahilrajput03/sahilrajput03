@@ -100,8 +100,8 @@ const {data} = await axios.post(
 			}
 		)
 
-# https://axios-http.com/docs/config_defaults
-# Using global values
+// https://axios-http.com/docs/config_defaults
+// Using global values
 axios.defaults.baseURL ='http://localhost:8005';
 axios.defaults.headers.common['Authorization'] = 'BEARER my-token';
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
@@ -116,6 +116,7 @@ const r2 = await axios.get('/bar')
 Another good example:
 
 ```js
+// https://axios-http.com/docs/config_defaults
 const axios = require('axios')
 // Using axios instances
 const baseURL = 'http://localhost:8005'
