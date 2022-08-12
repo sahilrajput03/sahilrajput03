@@ -143,6 +143,10 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 
+## futter market demand
+
+https://www.monterail.com/blog/flutter-vs-react-native-mobile-development
+
 ## learn js classes
 
 ```js
