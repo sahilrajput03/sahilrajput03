@@ -170,11 +170,11 @@ void (async function () {
 # Using: https://webhook.site/
 # Using: https://beeceptor.com/console/abcdef
 # Using local server: nc -kdl 127.0.0.1 8005
+## LEARN: (#2 below*) provides best results for general purpose testing coz we do send a dummy 200 OK response as well and I have an alias for it -
+# ALIAS: startApiTesting
 ###### BONUS: If you wan to mimic some STATUS CODE AND STATUS MESSAGE
 #1) while true; do echo -e "HTTP/1.1 200 OKKK\n" | nc -Nl 8005;echo -e "\n---"; done
 #2) while true; do echo -e "HTTP/1.1 400 FUOC\n" | nc -Nl 8005;echo -e "\n---"; done
-## LEARN: #2 is my favourite is the best result for general purpose testing:
-# ALIAS: startApiTesting
 ######
 
 # BONUS:^ Source (comment in this answer): https://stackoverflow.com/a/52351480/10012446
