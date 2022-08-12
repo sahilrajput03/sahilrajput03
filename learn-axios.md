@@ -115,6 +115,8 @@ const {data} = await axios.post(
 ###### BONUS: If you wan to mimic some STATUS CODE AND STATUS MESSAGE
 #1) while true; do echo -e "HTTP/1.1 200 OKKK\n" | nc -Nl 8005;echo -e "\n---"; done
 #2) while true; do echo -e "HTTP/1.1 400 FUOC\n" | nc -Nl 8005;echo -e "\n---"; done
+## LEARN: #2 is my favourite is the best result for general purpose testing:
+# ALIAS: startApiTesting
 ######
 
 # BONUS:^ Source (comment in this answer): https://stackoverflow.com/a/52351480/10012446
