@@ -50,10 +50,7 @@ const {data} = await axios.post('/user', payload, config)
 const {data} = await axios({
 	method: 'post',
 	url: '/user/12345',
-	data: {
-		firstName: 'Fred',
-		lastName: 'Flintstone',
-	},
+	data: payload
 	headers: {
 		'Content-Type': 'application/json',
 		Authorization: 'JWT fefege...',
