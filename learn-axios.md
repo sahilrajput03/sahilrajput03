@@ -84,6 +84,21 @@ const api = axios.create({
 	headers: {'X-Custom-Header': 'foobar'},
 })
 const {data} = await api.get('/fso/patients.json')
+
+
+// auth key in `config` will set Authentication headers? Yes. BUT DON"T USE IT, COZ IT ADDS BASIC IN THE FRONT OF THE VALUE
+const {data} = await axios.post(
+			'http://localhost:8005',
+			payload,
+			{
+				// Below will create(/overwrite) Authorization header as: `Authorization: Basic amFuZWRvZTpzMDBwZXJzM2NyZXQ=`
+				auth: {
+					username: 'janedoe',
+					password: 's00pers3cret',
+				},
+			}
+		)
+
 ```
 
 ## Testing requests
