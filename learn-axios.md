@@ -111,6 +111,8 @@ const {data} = await axios.post(
 // Using: https://webhook.site/
 // Using: https://beeceptor.com/console/abcdef
 // Using local server: nc -kdl 127.0.0.1 8005
+// BONUS: If you wan to mimic some STATUS CODE AND STATUS MESSAGE : while true; do echo -e "HTTP/1.1 400 OKKK\n" | nc -Nl 8005; done
+// BONUS:^ Source (comment in this answer): https://stackoverflow.com/a/52351480/10012446
 // # Its important to use 172.0.0.1 instead of localhost coz axios internall converts localhost text to 127.0.0.1
 // -k	Forces nc to stay listening for another connection after its current connection is completed. It is an error to use this option without the -l option.
 // -d	Do not attempt to read from stdin.
