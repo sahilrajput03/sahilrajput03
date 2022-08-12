@@ -2,6 +2,8 @@
 
 **Please starting learning from this topic onwards now:** https://axios-http.com/docs/interceptors
 
+**Handling errors:** https://axios-http.com/docs/handling_errors
+
 ```js
 // import axios from require('axios')
 const axios = require('axios')
