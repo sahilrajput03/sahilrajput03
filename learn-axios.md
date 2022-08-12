@@ -113,7 +113,7 @@ const r2 = await axios.get('/bar')
 
 ```
 
-Another good example:
+## Another good example useful for updating authorization headers independently at global and instance level:
 
 ```js
 // https://axios-http.com/docs/config_defaults
@@ -160,7 +160,7 @@ void (async function () {
 })()
 ```
 
-## Testing requests
+# Testing requests made EASY!!
 
 ```bash
 # beerceptor: 'https://abcdef.free.beeceptor.com'
@@ -183,3 +183,8 @@ void (async function () {
 # -d	Do not attempt to read from stdin.
 # -l	Used to specify that nc should listen for an incoming connection rather than initiate a connection to a remote host. It is an error to use this option in conjunction with the -p, -s, or -z options. Additionally, any timeouts specified with the -w option are ignored.
 ```
+
+
+# Please starting learning from this topic onwards now:
+
+https://axios-http.com/docs/interceptors
