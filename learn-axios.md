@@ -40,7 +40,7 @@ await axios.post('/user', payload)
 // post request: axios.post(url, [payload [,config]])
 const config = {
 	headers: {
-		'Content-Type': 'application/json',
+		'Content-Type': 'application/json', // Redundant for post/put request bcoz this header is added by default unless you rewrite it.
 		Authorization: 'JWT fefege...',
 	},
 }
