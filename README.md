@@ -144,6 +144,7 @@ cra: 335m
 - **Learn Webflow:** - [Click here](learn-webflow.md)
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
+- **Learn axios:** [Click here](learn-axios.md)
 
 ## futter market demand
 
