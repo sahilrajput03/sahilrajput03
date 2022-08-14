@@ -146,6 +146,12 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## max_safe integer in javascript
+
+```js
+console.log(Number.MAX_SAFE_INTEGER) // 9007199254740991
+```
+
 ## Deal with race conditions easily
 
 ```js
