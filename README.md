@@ -146,6 +146,10 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## flakey testing
+
+A ﬂaky test is an analysis of web application code that fails to produce the same result each time the same analysis is run.
+
 ## Docs made easy
 
 https://github.com/readthedocs/readthedocs.org used to make [solidity docs](https://docs.soliditylang.org/).
