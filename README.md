@@ -8,6 +8,8 @@ Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curiou
 
 Unwinding is hot no-sugar coffee!
 
+*Technologies I can't believe exists today: trpc, hasura and onegraph (graphiql-explorer).*
+
 ```bash
 echo Hello world! > /dev/null
 cat /dev/null
@@ -142,6 +144,15 @@ cra: 335m
 - **Learn Webflow:** - [Click here](learn-webflow.md)
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
+- **Learn axios:** [Click here](learn-axios.md)
+
+## Docs made easy
+
+https://github.com/readthedocs/readthedocs.org used to make [solidity docs](https://docs.soliditylang.org/).
+
+## futter market demand
+
+https://www.monterail.com/blog/flutter-vs-react-native-mobile-development
 
 ## learn js classes
 
