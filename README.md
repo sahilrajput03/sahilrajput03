@@ -146,6 +146,10 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## Docs made easy
+
+https://github.com/readthedocs/readthedocs.org used to make [solidity docs](https://docs.soliditylang.org/).
+
 ## futter market demand
 
 https://www.monterail.com/blog/flutter-vs-react-native-mobile-development
