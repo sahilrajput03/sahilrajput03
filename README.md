@@ -146,6 +146,22 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## Deal with race conditions easily
+
+```js
+let flag = true
+
+setTimeout(() => {
+	flag = false
+}, 500)
+
+
+void (async function () {
+	await new Promise(res => setTimeout(res, 1_000))
+	console.log('Final:', flag) // Output: false
+})()
+```
+
 ## flakey testing
 
 A ﬂaky test is an analysis of web application code that fails to produce the same result each time the same analysis is run.
