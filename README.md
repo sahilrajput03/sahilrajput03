@@ -146,12 +146,6 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
-## max_safe integer in javascript
-
-```js
-console.log(Number.MAX_SAFE_INTEGER) // 9007199254740991
-```
-
 ## Deal with race conditions easily
 
 ```js
@@ -2627,6 +2621,9 @@ $ echo $HOSTNAME # Printes hostname of the machine.
 ## Limitation of javascript (Amazing bigInt type):
 
 ```js
+console.log(Number.MAX_SAFE_INTEGER) // 9007199254740991
+
+
 let k
 k = 1_000_000_000_000_00_1 * 2
 // Output: 2000000000000002
