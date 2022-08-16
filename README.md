@@ -152,6 +152,11 @@ Source: https://youtu.be/VwVg9jCtqaU
 
 ![image](https://user-images.githubusercontent.com/31458531/184859412-c642aa4c-b276-48eb-ad25-0b0c3622b9a8.png)
 
+Q. How does flatten work in Keras ?
+
+Ans. https://stackoverflow.com/questions/44176982/how-does-the-flatten-layer-work-in-keras
+
+Color Depth: [@wikipedia](https://en.wikipedia.org/wiki/Color_depth#:~:text=True%20color%20(24%2Dbit),-All%2016%2C777%2C216%20colors&text=As%20of%202018%2C%2024%2Dbit,24%20gives%2016%2C777%2C216%20color%20variations.)
 
 ## Deal with race conditions easily
 
