@@ -146,6 +146,13 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## ml in action
+
+Source: https://youtu.be/VwVg9jCtqaU
+
+![image](https://user-images.githubusercontent.com/31458531/184859412-c642aa4c-b276-48eb-ad25-0b0c3622b9a8.png)
+
+
 ## Deal with race conditions easily
 
 ```js
