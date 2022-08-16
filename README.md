@@ -150,7 +150,8 @@ cra: 335m
 
 Source: https://youtu.be/VwVg9jCtqaU
 
-![image](https://user-images.githubusercontent.com/31458531/184860754-2f591c5b-f2db-4447-b6b8-a4682a271655.png)
+![image](https://user-images.githubusercontent.com/31458531/184861112-67e9f081-8e9f-41b5-b4cc-07b1ae261b31.png)
+
 
 Q. How does flatten work in Keras ?
 
