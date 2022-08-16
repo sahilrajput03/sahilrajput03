@@ -1,8 +1,7 @@
 # Learn Axios
 
-**Please starting learning from this topic onwards now:** https://axios-http.com/docs/interceptors
-
-**Handling errors:** https://axios-http.com/docs/handling_errors
+- **Please starting learning from this topic onwards now:** https://axios-http.com/docs/interceptors
+- Please make notes from -> **Handling errors:** https://axios-http.com/docs/handling_errors
 
 ```js
 // import axios from require('axios')

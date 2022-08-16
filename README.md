@@ -146,6 +146,38 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## ml in action
+
+Source: https://youtu.be/VwVg9jCtqaU
+
+Source Code for rock-paper-scissor identification code: https://colab.research.google.com/github/lmoroney/io19/blob/master/Zero%20to%20Hero/Rock-Paper-Scissors.ipynb
+
+Sample try out project on medium.com: https://blog.devcenter.co/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd
+
+![image](https://user-images.githubusercontent.com/31458531/184861112-67e9f081-8e9f-41b5-b4cc-07b1ae261b31.png)
+
+Q. How does flatten work in Keras ?
+
+Ans. https://stackoverflow.com/questions/44176982/how-does-the-flatten-layer-work-in-keras
+
+Color Depth: [@wikipedia](https://en.wikipedia.org/wiki/Color_depth#:~:text=True%20color%20(24%2Dbit),-All%2016%2C777%2C216%20colors&text=As%20of%202018%2C%2024%2Dbit,24%20gives%2016%2C777%2C216%20color%20variations.)
+
+## Deal with race conditions easily
+
+```js
+let flag = true
+
+setTimeout(() => {
+	flag = false
+}, 500)
+
+
+void (async function () {
+	await new Promise(res => setTimeout(res, 1_000))
+	console.log('Final:', flag) // Output: false
+})()
+```
+
 ## flakey testing
 
 A ﬂaky test is an analysis of web application code that fails to produce the same result each time the same analysis is run.
@@ -2605,6 +2637,9 @@ $ echo $HOSTNAME # Printes hostname of the machine.
 ## Limitation of javascript (Amazing bigInt type):
 
 ```js
+console.log(Number.MAX_SAFE_INTEGER) // 9007199254740991
+
+
 let k
 k = 1_000_000_000_000_00_1 * 2
 // Output: 2000000000000002
