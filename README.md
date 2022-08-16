@@ -152,11 +152,9 @@ Source: https://youtu.be/VwVg9jCtqaU
 
 Source Code for rock-paper-scissor identification code: https://colab.research.google.com/github/lmoroney/io19/blob/master/Zero%20to%20Hero/Rock-Paper-Scissors.ipynb
 
+Sample try out project on medium.com: https://blog.devcenter.co/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd
+
 ![image](https://user-images.githubusercontent.com/31458531/184861112-67e9f081-8e9f-41b5-b4cc-07b1ae261b31.png)
-
-
-
-
 
 Q. How does flatten work in Keras ?
 
