@@ -146,6 +146,11 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## Filtering merged PR's on a github repo
+
+![image](https://user-images.githubusercontent.com/31458531/185073878-dce516da-9f00-4cab-982d-e2a28553f5e0.png)
+
+
 ## ml in action
 
 Source: https://youtu.be/VwVg9jCtqaU
