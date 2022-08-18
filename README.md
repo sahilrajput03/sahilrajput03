@@ -146,6 +146,16 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## Files and blobs(binary object) in javascript
+
+```js
+// text to binary object
+const someData = new Blob(["hello world"])
+// files
+const readmeFile = new File('Run node src/index.js for a friendly greeting.', 'README.txt', { type: 'text/plain' })
+const sourceFile = new File('console.log("hello, world")', 'src/index.js', { type: 'text/javascript' })
+```
+
 ## Filtering merged PR's on a github repo
 
 ![image](https://user-images.githubusercontent.com/31458531/185073878-dce516da-9f00-4cab-982d-e2a28553f5e0.png)
