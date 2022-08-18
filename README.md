@@ -146,6 +146,10 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## Browser developer tools
+
+![image](https://user-images.githubusercontent.com/31458531/185377515-c92123d7-7a11-4e74-9ee9-e0eb1ef7bd9e.png)
+
 ## Files and blobs(binary object) in javascript
 
 ```js
