@@ -91,3 +91,9 @@
   ```
 
   where *languageName* is **optional**, it can have values like txt, js, py, bash, markdown, etc.
+
+- Striked out text
+
+```
+Use ~~double tildes around the words~~.
+```
