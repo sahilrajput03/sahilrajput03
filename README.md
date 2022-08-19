@@ -146,6 +146,15 @@ cra: 335m
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
 
+## module system nodejs
+
+Source: https://stackoverflow.com/a/29262643/10012446
+
+![image](https://user-images.githubusercontent.com/31458531/185586384-bdb4e2b7-5969-4255-a01f-f7e8ae4f9c2c.png)
+
+![image](https://user-images.githubusercontent.com/31458531/185586562-4d3e24b5-293b-4bdb-9352-aaf84b474262.png)
+
+
 ## Browser developer tools
 
 ![image](https://user-images.githubusercontent.com/31458531/185377515-c92123d7-7a11-4e74-9ee9-e0eb1ef7bd9e.png)
