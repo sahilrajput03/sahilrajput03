@@ -23,8 +23,11 @@
 - <a href="https://abstraction.ml" target="_blank">Graphql Playground - Query with power</a>
 - <a href="https://jsonbackendserver.herokuapp.com" target="_blank">Json backendserver</a>
 - <a href="https://flycodesandbox.netlify.app" target="_blank">Fly 🚀︎ a codesandbox</a>
+- <a href="https://rpc-demo.herokuapp.com/" target="_blank">My npm `rpc-middleware` package live demo </a>
 
 **Packages published @ `npm.com`/`yarnpkg.com`**
+
+- <a href="https://www.npmjs.com/package/rpc-middleware" target="_blank">rpc-demo</a> - A rpc specification based nodejs/expressjs middleware
 - <a href="https://www.npmjs.com/package/usewhat" target="_blank">useWhat</a> - Dead simple REACT state management solution
 - <a href="https://www.npmjs.com/package/usestatem" target="_blank">useStateM</a> - Namespace based [immer](https://immerjs.github.io/immer/) based REACT state management solution
 - <a href="https://www.npmjs.com/package/jsonbackend" target="_blank">jsonbackend</a> - A memory based json database server ~ fun, inspired from mongoose syntax
