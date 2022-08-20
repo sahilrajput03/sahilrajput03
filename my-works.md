@@ -23,7 +23,7 @@
 - <a href="https://abstraction.ml" target="_blank">Graphql Playground - Query with power</a>
 - <a href="https://jsonbackendserver.herokuapp.com" target="_blank">Json backendserver</a>
 - <a href="https://flycodesandbox.netlify.app" target="_blank">Fly 🚀︎ a codesandbox</a>
-- <a href="https://rpc-demo.herokuapp.com/" target="_blank">My npm `rpc-middleware` package live demo </a>
+- <a href="https://rpc-demo.herokuapp.com/" target="_blank">Demo of `rpc-middleware`</a>
 
 **Packages published @ `npm.com`/`yarnpkg.com`**
 
