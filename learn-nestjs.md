@@ -1,5 +1,7 @@
 # learn-nestjs
 
+- Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
+
 - **Adding service as dependency injection to the controller.** So this simply means that nestjs will automatically instantiate the service class for us.
 
 ![image](https://user-images.githubusercontent.com/31458531/185787421-76aa1b8d-1970-4a95-845c-f14bd800faf1.png)
