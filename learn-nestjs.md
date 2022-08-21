@@ -20,5 +20,6 @@
 
 - **Adding service as dependency injection to the controller.** So this simply means that nestjs will automatically instantiate the service class for us.
 
-![image](https://user-images.githubusercontent.com/31458531/185787183-b122937b-fffb-4526-90c5-f4dd639c3da1.png)
+![image](https://user-images.githubusercontent.com/31458531/185787421-76aa1b8d-1970-4a95-845c-f14bd800faf1.png)
+
 
