@@ -20,7 +20,10 @@
 
 - These decorators optionally can have string as first argument to define the path of the api handling of each of them.
 
-![image](https://user-images.githubusercontent.com/31458531/185787086-2fa71817-fed6-44aa-9235-8d725372ab59.png)
+![image](https://user-images.githubusercontent.com/31458531/185788962-8b4bad04-78e2-4f23-9c1c-16389498f8d7.png)
+
+![image](https://user-images.githubusercontent.com/31458531/185788968-eec6bfae-2d0e-4d0a-a6ce-b75273b1be7e.png)
+
 
 - Thats where the nestjs app starts:
 
