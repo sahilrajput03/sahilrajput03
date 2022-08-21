@@ -1,5 +1,14 @@
 # learn-nestjs
 
+- We can create new sections in the swagger docs by assigning tags to a controller like that:
+
+![image](https://user-images.githubusercontent.com/31458531/185791435-8201d36f-f3cc-420e-9574-9ecda74f0f9d.png)
+
+and it'll reflect like:
+
+![image](https://user-images.githubusercontent.com/31458531/185791444-159f579a-802f-4b01-8ffd-b1cd255b5073.png)
+
+
 - Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
 
 - **Adding service as dependency injection to the controller.** So this simply means that nestjs will automatically instantiate the service class for us.
