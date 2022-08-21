@@ -1,6 +1,6 @@
 # learn-nestjs
 
-REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/tree/main
+REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 
 - We can create new sections in the swagger docs by assigning tags to a controller like that:
