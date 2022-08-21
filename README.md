@@ -145,6 +145,7 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
+- **Learn nestjs:** [Click here](learn-nestjs.md) 
 
 ## module system nodejs
 
