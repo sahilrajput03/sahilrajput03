@@ -147,6 +147,18 @@ cra: 335m
 - **Learn axios:** [Click here](learn-axios.md)
 - **Learn nestjs:** [Click here](learn-nestjs.md) 
 
+## Why postgres/mongodb over firebase #jimmy_chae?
+
+**Firebase cons:** ~Sahil (points I have currently in my mind)
+- no good way to run firebase server locally
+- less flexible for writing api tests that can on local db server (no local db support)
+
+
+![image](https://user-images.githubusercontent.com/31458531/186019457-01d1ca04-3f52-4d06-93b6-4a5c62e6d697.png)
+
+![image](https://user-images.githubusercontent.com/31458531/186019479-d66f79dc-6e16-429f-afc5-bf536ace51cc.png)
+
+
 ## module system nodejs
 
 Source: https://stackoverflow.com/a/29262643/10012446
