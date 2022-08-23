@@ -1,5 +1,8 @@
 # Office Utility Tools
 
+**Google Office:**
+- You can create a new line in an excel cell by pressing `alt+Enter` key.
+
 **Google Slide Tutorial:**
 
 - Google Slides - Full Tutorial - **Prolific Oaktree** - [17 mins @youtube](https://www.youtube.com/watch?v=KFPB68S7L54)
