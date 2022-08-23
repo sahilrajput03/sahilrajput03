@@ -1,5 +1,9 @@
 # Deployment
 
+## Vercel recommends [pusher.com](https://pusher.com/channels) for deployment of realtime apps(i.e, requiring websockets (socket.io)
+
+https://vercel.com/guides/deploying-pusher-channels-with-vercel
+
 ## Github Pages
 
 Add below `A records` for your custom domain dns setting in your domain provider panel.
