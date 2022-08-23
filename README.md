@@ -147,6 +147,7 @@ cra: 335m
 - **Learn axios:** [Click here](learn-axios.md)
 - **Learn nestjs:** [Click here](learn-nestjs.md) 
 - **Learn push notificaitons:** [Click here](learn-push-notifications.md)
+- **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 
 ## Why postgres/mongodb over firebase #jimmy_chae?
 
