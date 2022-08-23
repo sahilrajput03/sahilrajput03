@@ -61,6 +61,8 @@
 
 **Social Handles**
 
+[Stackoverflow](https://stackoverflow.com/users/10012446/sahil-rajput)
+
 <a href="https://www.linkedin.com/in/sahilrajput03/" target="_blank"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://twitter.com/freakstarrocks" target="_blank"><img src="https://img.shields.io/badge/@freakstarrocks%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
 <a href="https://github.com/sahilrajput03" target="_blank"><img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
