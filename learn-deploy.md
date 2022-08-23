@@ -2,6 +2,8 @@
 
 ## Vercel recommends [pusher.com](https://pusher.com/channels) for deployment of realtime apps(i.e, requiring websockets (socket.io)
 
+Source: A comment on this [stackoverflow answer](https://stackoverflow.com/a/62547135)
+
 https://vercel.com/guides/deploying-pusher-channels-with-vercel
 
 ## Github Pages
