@@ -9,4 +9,5 @@ Using `node-mocks-http` way of testing coz it has significant download so suppor
 
 ## todo: try other alternate
 
-![image](https://user-images.githubusercontent.com/31458531/186150948-8d8d80f9-aee8-4d34-92cc-d73b9bf6e657.png)
+- npm: [next-test-api-route-handler](https://www.npmjs.com/package/next-test-api-route-handler)
+- github: [next-test-api-route-handler](https://github.com/Xunnamius/next-test-api-route-handler)
