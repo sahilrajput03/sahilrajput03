@@ -1,6 +1,6 @@
 # Learn nextjs api testing
 
-Article: https://www.paigeniedringhaus.com/blog/how-to-unit-test-next-js-api-routes-with-typescript
+Article: Looks [super awesome using node-mocks-http](https://www.paigeniedringhaus.com/blog/how-to-unit-test-next-js-api-routes-with-typescript)
 
 Using `node-mocks-http` way of testing coz it has significant download so support must good.
 
