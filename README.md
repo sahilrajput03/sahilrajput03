@@ -149,6 +149,10 @@ cra: 335m
 - **Learn push notificaitons:** [Click here](learn-push-notifications.md)
 - **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 
+## This is such a lifesaver from github
+
+![image](https://user-images.githubusercontent.com/31458531/186608478-a5c4e091-288f-4a02-b57b-4612c6dc11bf.png)
+
 ## Why postgres/mongodb over firebase #jimmy_chae?
 
 **Firebase cons:** ~Sahil (points I have currently in my mind)
