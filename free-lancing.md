@@ -13,6 +13,8 @@
 
 ## other portfolios profiles with projects
 
+Hammad Siddique: https://hammad.pro/
+
 Rakesh:
   - https://itsrakesh.co/work
   - Mmedium article on [how to he made portfolio site](https://medium.com/codex/how-i-built-my-portfolio-website-dc61057d82e)
