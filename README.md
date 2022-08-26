@@ -502,6 +502,12 @@ python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ./run.sh
+
+
+
+## thats how u use environment variables in python
+email = os.environ['EMAIL']
+password = os.environ['PASSWORD']
 ```
 
 Above is a common setup to start start a python project( that is a flask project though). But in above commands,
