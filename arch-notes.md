@@ -12,6 +12,10 @@
 
 ```bash
 yay -s ngrok
+
+# Usage:
+ngrok http 3002
+# fyi: you may use `ngrokinfo` as its my alis to know about ngrok anytime.
 ```
 
 ## installed skype
