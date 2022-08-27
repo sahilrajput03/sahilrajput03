@@ -36,7 +36,7 @@ See my command list @ [Gist](https://gist.github.com/sahilrajput03/c44778f281e5f
 
 TEKENA's way of deploying a nested folder: ![image](https://user-images.githubusercontent.com/31458531/183259528-7911885a-a66c-4432-9c0d-de0a7a4d68d9.png)
 
-- Why you should use `heroku local` command to test `Procfile` command for testing `Procfile`?
+- Why you should use `heroku local` command to test `Procfile` command?
 
 ![image](https://user-images.githubusercontent.com/31458531/187038465-49871dd9-43a5-429f-bf53-88d8433234e5.png)
 
