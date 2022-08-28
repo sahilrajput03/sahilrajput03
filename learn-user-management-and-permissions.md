@@ -1,3 +1,4 @@
+- Creating new users: [Linuxize's Article](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/)
 
 ```bash
 ########## FIND NAME OF YOUR USER
@@ -96,4 +97,9 @@ chmod 327 foldername will give write and execute (3) permission for the user, w 
 ########## PRINT PROCESSES OF A USER
 ps -u array
 ps -u root
+
+
+##### Create user
+sudo useradd username
+
 ```
