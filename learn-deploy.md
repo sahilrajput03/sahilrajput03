@@ -1,5 +1,11 @@
 # Deployment
 
+## port forward with router
+
+Thats how I have configured some port and port ranges on my system.
+
+![image](https://user-images.githubusercontent.com/31458531/187068589-0e04dab6-ad22-4410-b7aa-6a05704fc292.png)
+
 ## Vercel recommends [pusher.com](https://pusher.com/channels) for deployment of realtime apps(i.e, requiring websockets (socket.io)
 
 Source: A comment on this [stackoverflow answer](https://stackoverflow.com/a/62547135)
