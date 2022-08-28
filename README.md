@@ -157,7 +157,7 @@ cra: 335m
 flask run --cert=adhoc --host=0.0.0.0
 ```
 
-so when if try to request from a curl or postman you wont' see any response bcoz both of these ([curl](https://stackoverflow.com/questions/24611640/curl-60-ssl-certificate-problem-unable-to-get-local-issuer-certificate) / [postman](https://stackoverflow.com/a/45009840/10012446)) are not enabled for secure requests.
+so when if try to request from a curl or postman you wont' see any response bcoz both of these ([curl](https://stackoverflow.com/a/24618403/10012446) / [postman](https://stackoverflow.com/a/45009840/10012446)) are not enabled for secure requests.
 
 For curl you can make use ok `-k` option: 
 
