@@ -149,6 +149,27 @@ cra: 335m
 - **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 - **Learn heroku webhooks:** [Click here](learn-web-hooks.md)
 
+## making insecure requests with `postman` or `curl`
+
+**Case Scenario:** Say you are running a flask server via:
+
+```bash
+flask run --cert=adhoc --host=0.0.0.0
+```
+
+so when if try to request from a curl or postman you wont' see any response bcoz both of these ([curl](https://stackoverflow.com/questions/24611640/curl-60-ssl-certificate-problem-unable-to-get-local-issuer-certificate) / [postman](https://stackoverflow.com/a/45009840/10012446)) are not enabled for secure requests.
+
+For curl you can make use ok `-k` option: 
+
+```bash
+curl -k https://mynotifyservice.ddns.net:5000/
+```
+
+For postman:
+
+![image](https://user-images.githubusercontent.com/31458531/187071289-04e5d616-19dc-4b56-b23a-cf15349ee9ed.png)
+
+
 ## We can have multiple developer tools open for a single tab as well
 
 ![image](https://user-images.githubusercontent.com/31458531/186722223-bfd4a128-ecc6-4a7d-844f-4a0871d7cf80.png)
