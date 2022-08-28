@@ -149,6 +149,10 @@ cra: 335m
 - **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 - **Learn heroku webhooks:** [Click here](learn-web-hooks.md)
 
+## using %s, %f, %d in javascipt
+
+![image](https://user-images.githubusercontent.com/31458531/187076316-c12f1325-fd4e-4d48-af07-0108023452e8.png)
+
 ## making insecure requests with `postman` or `curl`
 
 **Case Scenario:** Say you are running a flask server via:
