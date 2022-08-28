@@ -131,9 +131,19 @@ Amazing video, below screenshot is from by no-ip's: https://youtu.be/EH8wJt81bqg
 
 ![image](https://user-images.githubusercontent.com/31458531/165350198-cc90362c-b29f-4263-ac13-72b4fb5df0fb.png)
 
-Amazing(haven't tried it yet coz old way of using linux client simply works for me so far!!)
+Amazing(This way of updating works really awesome i.e., the ip address is updated on the start of the router i.e., whenever the ip changes).
 
-*From my current router firmware vvv * ![image](https://user-images.githubusercontent.com/31458531/165350301-4819b341-4e3a-4653-9429-cf559d50ab1f.png)
+## DDNS function works AWESOME!!
+
+*From my current router firmware vvv*
+
+- Step1:
+
+![image](https://user-images.githubusercontent.com/31458531/165350301-4819b341-4e3a-4653-9429-cf559d50ab1f.png)
+
+- Step2:
+
+![image](https://user-images.githubusercontent.com/31458531/187069595-d8a1fbd2-cea8-44de-bd6e-f8165ca0941d.png)
 
 ## Setup free dns service with [http://www.cloudns.net](http://www.cloudns.net)
 
