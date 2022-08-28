@@ -102,7 +102,7 @@ cra: 335m
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
-- **Office Utility Tools:** [Click here](learn-google-office-tools.md) | [Doc](https://docs.google.com/document/), [Slide](https://docs.google.com/presentation/), [Sheet](https://docs.google.com/spreadsheets)
+- **Office Utility Tools:** [Click here](learn-google-office-tools.md), [Doc](https://docs.google.com/document/), [Slide](https://docs.google.com/presentation/), [Sheet](https://docs.google.com/spreadsheets)
 - **Why kubernetes?** [Click here](why-kubernetes.md)
 - **How to workrave?** [Click here](why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](modern-software-development-courses.md)
