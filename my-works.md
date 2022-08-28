@@ -23,8 +23,11 @@
 - <a href="https://abstraction.ml" target="_blank">Graphql Playground - Query with power</a>
 - <a href="https://jsonbackendserver.herokuapp.com" target="_blank">Json backendserver</a>
 - <a href="https://flycodesandbox.netlify.app" target="_blank">Fly 🚀︎ a codesandbox</a>
+- <a href="https://rpc-demo.herokuapp.com/" target="_blank">Demo of `rpc-middleware`</a>
 
 **Packages published @ `npm.com`/`yarnpkg.com`**
+
+- <a href="https://www.npmjs.com/package/rpc-middleware" target="_blank">rpc-demo</a> - A rpc specification based nodejs/expressjs middleware
 - <a href="https://www.npmjs.com/package/usewhat" target="_blank">useWhat</a> - Dead simple REACT state management solution
 - <a href="https://www.npmjs.com/package/usestatem" target="_blank">useStateM</a> - Namespace based [immer](https://immerjs.github.io/immer/) based REACT state management solution
 - <a href="https://www.npmjs.com/package/jsonbackend" target="_blank">jsonbackend</a> - A memory based json database server ~ fun, inspired from mongoose syntax
@@ -57,6 +60,8 @@
 - <a href="https://codepen.io/kevinpowell" target="_blank">Kevin Powell @ codepen</a>
 
 **Social Handles**
+
+[Stackoverflow](https://stackoverflow.com/users/10012446/sahil-rajput)
 
 <a href="https://www.linkedin.com/in/sahilrajput03/" target="_blank"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://twitter.com/freakstarrocks" target="_blank"><img src="https://img.shields.io/badge/@freakstarrocks%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>

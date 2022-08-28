@@ -8,6 +8,35 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## installed ngrok
+
+```bash
+yay -s ngrok
+
+# Usage:
+ngrok http 3002
+# fyi: you may use `ngrokinfo` as its my alis to know about ngrok anytime.
+```
+
+## installed skype
+
+```bash
+yay -S skypeforlinux-stable-bin
+```
+
+## failed to update system with `sudo pacman -Syyu` due to oudated pgp keys?
+
+https://unix.stackexchange.com/a/574496/504112
+
+tldr: 
+
+```bash
+pacman -Sy archlinux-keyring
+
+# Now you can run:
+sudo pacman -Syyu
+```
+
 ## Installed boomer for screen magnification
 
 https://github.com/tsoding/boomer

@@ -12,6 +12,13 @@ y - year wise
 a - schedule wise (personal favourite)
 ```
 
+## You can now propose a different time for a meeting as well now
+
+![image](https://user-images.githubusercontent.com/31458531/187061831-5e107b7e-665e-4a98-bbea-0933dd644c60.png)
+
+![image](https://user-images.githubusercontent.com/31458531/187061921-0718776b-b436-42c0-ad85-01598ec45053.png)
+
+
 ## Cluttered view in your calendar ?
 
 - Try toggling calendars under **My Calendars** for Sahil Rajput, Birthdays, Family, Reminders and Tasks.

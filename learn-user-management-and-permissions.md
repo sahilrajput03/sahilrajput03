@@ -1,3 +1,4 @@
+- Creating new users: [Linuxize's Article](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/)
 
 ```bash
 ########## FIND NAME OF YOUR USER
@@ -96,4 +97,17 @@ chmod 327 foldername will give write and execute (3) permission for the user, w 
 ########## PRINT PROCESSES OF A USER
 ps -u array
 ps -u root
+
+
+##### Create user
+sudo useradd username
+# To create appropriate home directory for the user as well(by default its home directory for a new user is not created). Fyi: This creates a `username` directory as well @ path: /home/username
+sudo useradd -m username
+
+
+# Change password of a user
+sudo passwd username
+
+# Delete user
+sudo userdel username
 ```

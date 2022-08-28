@@ -3,6 +3,7 @@
 Source: https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
 
 - Learn how jsdoc is used to generate docs: https://github.com/sahilrajput03/learn-jsdoc
+- Learn object type docs: https://stackoverflow.com/a/31573441/10012446
 
 ## Code Examples
 

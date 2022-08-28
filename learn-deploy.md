@@ -1,5 +1,17 @@
 # Deployment
 
+## port forward with router
+
+Thats how I have configured some port and port ranges on my system.
+
+![image](https://user-images.githubusercontent.com/31458531/187068589-0e04dab6-ad22-4410-b7aa-6a05704fc292.png)
+
+## Vercel recommends [pusher.com](https://pusher.com/channels) for deployment of realtime apps(i.e, requiring websockets (socket.io)
+
+Source: A comment on this [stackoverflow answer](https://stackoverflow.com/a/62547135)
+
+https://vercel.com/guides/deploying-pusher-channels-with-vercel
+
 ## Github Pages
 
 Add below `A records` for your custom domain dns setting in your domain provider panel.
@@ -30,6 +42,9 @@ See my command list @ [Gist](https://gist.github.com/sahilrajput03/c44778f281e5f
 
 TEKENA's way of deploying a nested folder: ![image](https://user-images.githubusercontent.com/31458531/183259528-7911885a-a66c-4432-9c0d-de0a7a4d68d9.png)
 
+- Why you should use `heroku local` command to test `Procfile` command?
+
+![image](https://user-images.githubusercontent.com/31458531/187038465-49871dd9-43a5-429f-bf53-88d8433234e5.png)
 
 # Dns Settings
 
@@ -116,9 +131,19 @@ Amazing video, below screenshot is from by no-ip's: https://youtu.be/EH8wJt81bqg
 
 ![image](https://user-images.githubusercontent.com/31458531/165350198-cc90362c-b29f-4263-ac13-72b4fb5df0fb.png)
 
-Amazing(haven't tried it yet coz old way of using linux client simply works for me so far!!)
+Amazing(This way of updating works really awesome i.e., the ip address is updated on the start of the router i.e., whenever the ip changes).
 
-*From my current router firmware vvv * ![image](https://user-images.githubusercontent.com/31458531/165350301-4819b341-4e3a-4653-9429-cf559d50ab1f.png)
+## DDNS function works AWESOME!!
+
+*From my current router firmware vvv*
+
+- Step1:
+
+![image](https://user-images.githubusercontent.com/31458531/165350301-4819b341-4e3a-4653-9429-cf559d50ab1f.png)
+
+- Step2:
+
+![image](https://user-images.githubusercontent.com/31458531/187069595-d8a1fbd2-cea8-44de-bd6e-f8165ca0941d.png)
 
 ## Setup free dns service with [http://www.cloudns.net](http://www.cloudns.net)
 

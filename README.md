@@ -1,4 +1,4 @@
-# 🤺︎ Hi there 👋 Trying what I can ! ![](https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif)
+<h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 A Pragmatic software developer.
 
@@ -91,7 +91,6 @@ cra: 335m
 - **Open Source Apps from All over the world** - [Click here](open-source-apps.md)
 - **Nocode tools** - [Click here](nocodetools.md)
 - **Learn Deployment** - [Click here](learn-deploy.md)
-- **Learn Port forward** - [Click here](learn-portforward.md)
 - **Learn User Mangement and Permissions** - [Click here](learn-user-management-and-permissions.md)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](favourite-youtube-channels.md)
@@ -145,6 +144,93 @@ cra: 335m
 - **Weird Problems:** - [Click here](weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](learn-axios.md)
+- **Learn nestjs:** [Click here](learn-nestjs.md) 
+- **Learn push notificaitons:** [Click here](learn-push-notifications.md)
+- **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
+- **Learn heroku webhooks:** [Click here](learn-web-hooks.md)
+
+## Generating real ssl certificate using letsencrypt on cli
+
+![image](https://user-images.githubusercontent.com/31458531/187076807-cbec63bd-b43f-4f4f-8073-f9de72770a74.png)
+
+
+## using %s, %f, %d in javascipt
+
+@mdn: https://developer.mozilla.org/en-US/docs/Web/API/console
+
+![image](https://user-images.githubusercontent.com/31458531/187076316-c12f1325-fd4e-4d48-af07-0108023452e8.png)
+
+## making insecure requests with `postman` or `curl`
+
+**Case Scenario:** Say you are running a flask server via:
+
+```bash
+flask run --cert=adhoc --host=0.0.0.0
+```
+
+so when if try to request from a curl or postman you wont' see any response bcoz both of these ([curl](https://stackoverflow.com/a/24618403/10012446) / [postman](https://stackoverflow.com/a/45009840/10012446)) are not enabled for secure requests.
+
+For curl you can make use ok `-k` option: 
+
+```bash
+curl -k https://mynotifyservice.ddns.net:5000/
+```
+
+For postman:
+
+![image](https://user-images.githubusercontent.com/31458531/187071289-04e5d616-19dc-4b56-b23a-cf15349ee9ed.png)
+
+
+## We can have multiple developer tools open for a single tab as well
+
+![image](https://user-images.githubusercontent.com/31458531/186722223-bfd4a128-ecc6-4a7d-844f-4a0871d7cf80.png)
+
+
+## This is such a lifesaver from github
+
+![image](https://user-images.githubusercontent.com/31458531/186608478-a5c4e091-288f-4a02-b57b-4612c6dc11bf.png)
+
+## Why postgres/mongodb over firebase #jimmy_chae?
+
+**Firebase cons:** ~Sahil (points I have currently in my mind)
+- no good way to run firebase server locally
+- less flexible for writing api tests that can on local db server (no local db support)
+
+
+![image](https://user-images.githubusercontent.com/31458531/186019457-01d1ca04-3f52-4d06-93b6-4a5c62e6d697.png)
+
+![image](https://user-images.githubusercontent.com/31458531/186019479-d66f79dc-6e16-429f-afc5-bf536ace51cc.png)
+
+
+## module system nodejs
+
+Source: https://stackoverflow.com/a/29262643/10012446
+
+![image](https://user-images.githubusercontent.com/31458531/185587007-17ceb512-2ae5-4f9e-b684-9457f2016c72.png)
+
+![image](https://user-images.githubusercontent.com/31458531/185586384-bdb4e2b7-5969-4255-a01f-f7e8ae4f9c2c.png)
+
+![image](https://user-images.githubusercontent.com/31458531/185586562-4d3e24b5-293b-4bdb-9352-aaf84b474262.png)
+
+
+## Browser developer tools
+
+![image](https://user-images.githubusercontent.com/31458531/185377515-c92123d7-7a11-4e74-9ee9-e0eb1ef7bd9e.png)
+
+## Files and blobs(binary object) in javascript
+
+```js
+// text to binary object
+const someData = new Blob(["hello world"])
+// files
+const readmeFile = new File('Run node src/index.js for a friendly greeting.', 'README.txt', { type: 'text/plain' })
+const sourceFile = new File('console.log("hello, world")', 'src/index.js', { type: 'text/javascript' })
+```
+
+## Filtering merged PR's on a github repo
+
+![image](https://user-images.githubusercontent.com/31458531/185073878-dce516da-9f00-4cab-982d-e2a28553f5e0.png)
+
 
 ## ml in action
 
@@ -447,6 +533,12 @@ python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ./run.sh
+
+
+
+## thats how u use environment variables in python
+email = os.environ['EMAIL']
+password = os.environ['PASSWORD']
 ```
 
 Above is a common setup to start start a python project( that is a flask project though). But in above commands,
