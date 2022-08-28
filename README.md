@@ -151,6 +151,8 @@ cra: 335m
 
 ## using %s, %f, %d in javascipt
 
+@mdn: https://developer.mozilla.org/en-US/docs/Web/API/console
+
 ![image](https://user-images.githubusercontent.com/31458531/187076316-c12f1325-fd4e-4d48-af07-0108023452e8.png)
 
 ## making insecure requests with `postman` or `curl`
