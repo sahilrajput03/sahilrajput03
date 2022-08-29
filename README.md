@@ -149,6 +149,11 @@ cra: 335m
 - **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 - **Learn heroku webhooks:** [Click here](learn-web-hooks.md)
 
+## mutation observer
+
+- mdn: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
+- javascriptinfo: [Click here](https://javascript.info/mutation-observer)
+
 ## Generating real ssl certificate using letsencrypt on cli
 
 ![image](https://user-images.githubusercontent.com/31458531/187076807-cbec63bd-b43f-4f4f-8073-f9de72770a74.png)
