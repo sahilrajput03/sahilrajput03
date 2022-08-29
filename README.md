@@ -148,6 +148,7 @@ cra: 335m
 - **Learn push notificaitons:** [Click here](learn-push-notifications.md)
 - **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 - **Learn heroku webhooks:** [Click here](learn-web-hooks.md)
+- **Learn Sending verification OTP's with twilio:** [Click here](learn-twilio.md)
 
 ## Solution to assigning variable to window object without any error in TYPESCRIPT
 
