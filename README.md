@@ -149,6 +149,11 @@ cra: 335m
 - **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 - **Learn heroku webhooks:** [Click here](learn-web-hooks.md)
 
+## Solution to assigning variable to window object without any error in TYPESCRIPT
+
+![image](https://user-images.githubusercontent.com/31458531/187185698-e90e093c-317c-4a5e-81d8-5f3c4ffca3dc.png)
+
+
 ## mutation observer
 
 - mdn: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
