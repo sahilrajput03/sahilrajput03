@@ -151,11 +151,6 @@ cra: 335m
 - **Learn Sending verification OTP's with twilio:** [Click here](learn-twilio.md)
 - **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](learn-why-websites-first-not-mobile-apps.md)
 
-## Solution to assigning variable to window object without any error in TYPESCRIPT
-
-![image](https://user-images.githubusercontent.com/31458531/187185698-e90e093c-317c-4a5e-81d8-5f3c4ffca3dc.png)
-
-
 ## mutation observer
 
 - mdn: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
