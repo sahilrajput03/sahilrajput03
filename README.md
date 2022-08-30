@@ -153,6 +153,13 @@ cra: 335m
 - **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md)
 - **Learn proxy in js:** [Click here](learn-proxy.md)
 
+## Lol
+
+[src](https://stackoverflow.com/a/25066844/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/187474328-ea27cb87-8aa1-472c-838e-7d45adea9200.png)
+
+
 ## mutation observer
 
 - mdn: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
