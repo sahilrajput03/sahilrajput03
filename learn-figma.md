@@ -168,6 +168,7 @@
 - **You can set the zoom level in figma from the right top corner.**
 - **Zoom**: Hold down `ctrl` key to enable zoom with mouse scroll. NOTE: pgdown scroll causes to zoom out, **pageup** scroll causes to **`ZOOM-IN`** in the canvas.
 - **Zoom to select region**: First press and hold `z` and then hold mouse make region to zoom into.
+- You can zoom to particular frame-by-frame as well, use `n` to next frame use `shift+n` to zoom to previous frame.
 
 ## Exporting elements
 
