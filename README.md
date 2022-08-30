@@ -153,6 +153,12 @@ cra: 335m
 - **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md)
 - **Learn proxy in js:** [Click here](learn-proxy.md)
 
+## cli apps with react?
+
+Github: https://github.com/vadimdemedes/ink
+
+![image](https://user-images.githubusercontent.com/31458531/187475006-878c8a1e-4f4e-4092-9bea-df52e9928365.png)
+
 ## Lol
 
 [src](https://stackoverflow.com/a/25066844/10012446)
