@@ -9,6 +9,21 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Good use of `trap` command
+
+```bash
+#!/bin/bash
+
+set -x
+
+# Run tailwindcss with watch mode and go to background
+tailwindcss -w -i ./app/static/src/main.css -o ./app/static/dist/main.css --minify &
+
+flask run
+
+trap 'pkill -ef tailwind' exit
+```
+
 ## what is `set -x`
 
 Source: [Stackoverflow answer here](https://stackoverflow.com/a/36273740/10012446)
