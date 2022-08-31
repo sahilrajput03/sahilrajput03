@@ -1956,7 +1956,7 @@ Source: https://stackoverflow.com/a/56374472/10012446
 
 ```bash
 # the trick of sleeping for 60 seconds actually works, Sahil
-@reboot sleep 60;/root/s3-mount.sh
+@reboot sleep 60;/path__to__my__script.sh
 ```
 
 Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Source: https://www.tecmint.com/online-cron-job-generator-and-tester-for-linux/
