@@ -9,6 +9,14 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## what is `set -x`
+
+Source: [Stackoverflow answer here](https://stackoverflow.com/a/36273740/10012446)
+
+> `set -x` enables a mode of the shell where all executed commands are printed to the terminal. In your case it's clearly used for debugging, which is a typical use case for set -x: printing every command as it is executed may help you to visualize the control flow of the script if it is not functioning as expected.
+
+`set +x` disables it.
+
 ## tmux can be used over ssh on mobile using `Juice SSh` app
 
 Yes, pretty amazing experience!
