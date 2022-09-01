@@ -13,7 +13,8 @@
 
 ## other portfolios profiles with projects
 
-Hammad Siddique: https://hammad.pro/
+- Hammad Siddique: https://hammad.pro/
+- https://github.com/nandhakumar-rs: Also freelancer, working @totel currently.
 
 Rakesh:
   - https://itsrakesh.co/work
