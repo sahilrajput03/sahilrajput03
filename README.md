@@ -153,6 +153,18 @@ cra: 335m
 - **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md)
 - **Learn proxy in js:** [Click here](learn-proxy.md)
 
+## website performance analytics
+
+source: https://pagespeed.web.dev/
+
+![image](https://user-images.githubusercontent.com/31458531/187862013-26b90333-bcd2-48ff-8791-633f53127d86.png)
+
+
+Source: https://gtmetrix.com/
+
+![image](https://user-images.githubusercontent.com/31458531/187861805-017f9e52-3a83-4a8a-b01f-d2c735822dc0.png)
+
+
 ## cli apps with react?
 
 Github: https://github.com/vadimdemedes/ink
