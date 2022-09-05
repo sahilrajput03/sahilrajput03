@@ -9,6 +9,29 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Good use of `trap` command
+
+```bash
+#!/bin/bash
+
+set -x
+
+# Run tailwindcss with watch mode and go to background
+tailwindcss -w -i ./app/static/src/main.css -o ./app/static/dist/main.css --minify &
+
+flask run
+
+trap 'pkill -ef tailwind' exit
+```
+
+## what is `set -x`
+
+Source: [Stackoverflow answer here](https://stackoverflow.com/a/36273740/10012446)
+
+> `set -x` enables a mode of the shell where all executed commands are printed to the terminal. In your case it's clearly used for debugging, which is a typical use case for set -x: printing every command as it is executed may help you to visualize the control flow of the script if it is not functioning as expected.
+
+`set +x` disables it.
+
 ## tmux can be used over ssh on mobile using `Juice SSh` app
 
 Yes, pretty amazing experience!
@@ -1926,6 +1949,15 @@ Source2: https://www.tecmint.com/view-contents-of-file-in-linux/
 Source3: Archlinux's [cron docs](https://wiki.archlinux.org/title/cron).
 
 ## Using crontab
+
+- Running some task on boot(after reboot): 
+
+Source: https://stackoverflow.com/a/56374472/10012446
+
+```bash
+# the trick of sleeping for 60 seconds actually works, Sahil
+@reboot sleep 60;/path__to__my__script.sh
+```
 
 Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Source: https://www.tecmint.com/online-cron-job-generator-and-tester-for-linux/
 

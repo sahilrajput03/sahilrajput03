@@ -102,7 +102,7 @@ cra: 335m
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
-- **Office Utility Tools:** [Click here](learn-google-office-tools.md) | [Doc](https://docs.google.com/document/), [Slide](https://docs.google.com/presentation/), [Sheet](https://docs.google.com/spreadsheets)
+- **Office Utility Tools:** [Click here](learn-google-office-tools.md), [Doc](https://docs.google.com/document/), [Slide](https://docs.google.com/presentation/), [Sheet](https://docs.google.com/spreadsheets)
 - **Why kubernetes?** [Click here](why-kubernetes.md)
 - **How to workrave?** [Click here](why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](modern-software-development-courses.md)
@@ -148,6 +148,41 @@ cra: 335m
 - **Learn push notificaitons:** [Click here](learn-push-notifications.md)
 - **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 - **Learn heroku webhooks:** [Click here](learn-web-hooks.md)
+- **Learn Sending verification OTP's with twilio:** [Click here](learn-twilio.md)
+- **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](learn-why-websites-first-not-mobile-apps.md)
+- **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md)
+- **Learn proxy in js:** [Click here](learn-proxy.md)
+- **Learn postman:** [Click here](learn-postman.md)
+
+## website performance analytics
+
+source: https://pagespeed.web.dev/
+
+![image](https://user-images.githubusercontent.com/31458531/187862013-26b90333-bcd2-48ff-8791-633f53127d86.png)
+
+
+Source: https://gtmetrix.com/
+
+![image](https://user-images.githubusercontent.com/31458531/187861805-017f9e52-3a83-4a8a-b01f-d2c735822dc0.png)
+
+
+## cli apps with react?
+
+Github: https://github.com/vadimdemedes/ink
+
+![image](https://user-images.githubusercontent.com/31458531/187475006-878c8a1e-4f4e-4092-9bea-df52e9928365.png)
+
+## Lol
+
+[src](https://stackoverflow.com/a/25066844/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/187474328-ea27cb87-8aa1-472c-838e-7d45adea9200.png)
+
+
+## mutation observer
+
+- mdn: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
+- javascriptinfo: [Click here](https://javascript.info/mutation-observer)
 
 ## Generating real ssl certificate using letsencrypt on cli
 
@@ -738,14 +773,6 @@ Expressjs uses this to identify if the callback you specified has two or three O
 chaijs is assertion library like `assert` + http testing library like `supertest`
 
 https://www.chaijs.com/plugins/chai-http/
-
-## Enable typescript check in js projects
-
-You can do either a workspace level or user settings level or both.
-
-Source: https://code.visualstudio.com/docs/nodejs/working-with-javascript#_type-checking-javascript
-
-*Tldr: Search for `ts-check` in VSCode settings, and enable `js/ts.implicitProjectConfig.checkJs` setting @ workspace level. Using this settings user level is also encouraged as it will show all the warnings for you at all times but since you want all users of the project to have this feature enabled by defautl you must enable this workspace level too(even if you have it enabled @ user level).*
 
 ## Finally Intellgence as a service goona be paid
 

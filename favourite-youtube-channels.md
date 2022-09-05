@@ -20,6 +20,9 @@
   - [PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
   - [DistroTube](https://www.youtube.com/c/DistroTube) (Distros mostly)
 
+**Rust**
+- [No Boilerplate](https://www.youtube.com/c/NoBoilerplate)
+
 > *FYI: I watch videos from these channels almost every single day.*
 > 
 > Sahil

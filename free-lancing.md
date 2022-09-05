@@ -13,11 +13,12 @@
 
 ## other portfolios profiles with projects
 
-Hammad Siddique: https://hammad.pro/
+- Hammad Siddique: https://hammad.pro/
+- https://github.com/nandhakumar-rs: Also freelancer, working @totel currently.
 
 Rakesh:
   - https://itsrakesh.co/work
-  - Mmedium article on [how to he made portfolio site](https://medium.com/codex/how-i-built-my-portfolio-website-dc61057d82e)
+  - Medium article on [how to he made portfolio site](https://medium.com/codex/how-i-built-my-portfolio-website-dc61057d82e)
   - Campus Site project Awesome: https://itsrakesh.co/work/projects/Campus-Mate
   - https://github.com/mihir0699
     - Amazing food delivery app that has send email confirmation OTP sending.
