@@ -40,3 +40,8 @@ const counterReducer = createReducer(initialState, (builder) => {
 ![image](https://user-images.githubusercontent.com/31458531/188593979-7a5b7aa8-4dba-407d-95d6-c1d5869b8cdd.png)
 
 - [Writing Reducers with Immer](https://redux-toolkit.js.org/usage/immer-reducers)
+
+
+- **Thats how things link in `redux-toolkit`:
+
+![image](https://user-images.githubusercontent.com/31458531/188605966-dbd8197e-7b5b-47c3-9fd4-5f306dbd997a.png)
