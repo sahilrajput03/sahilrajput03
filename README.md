@@ -153,6 +153,7 @@ cra: 335m
 - **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md)
 - **Learn proxy in js:** [Click here](learn-proxy.md)
 - **Learn postman:** [Click here](learn-postman.md)
+- **Learn redux-toolkit:** [Click here](learn-redux-toolkit.md)
 
 ## Array.slice returns a shallow copy: Remeber it
 
