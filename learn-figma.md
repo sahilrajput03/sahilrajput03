@@ -247,6 +247,6 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 	![image](https://user-images.githubusercontent.com/31458531/188657241-a24ce6d3-9429-45c4-a795-bac83d717ab2.png)
 
 	![image](https://user-images.githubusercontent.com/31458531/188658035-425d648d-e1af-41ad-b1d9-c1ea3c6d1604.png)
-- Making use of copmonents the way Kevn Powell uses them:
+- Making use of copmonents the way Kevin Powell uses them:
 	
 ![image](https://user-images.githubusercontent.com/31458531/188663585-b802e7d6-e6c8-41e5-8d34-a579e1e89a22.png)
