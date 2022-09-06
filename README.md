@@ -157,9 +157,18 @@ cra: 335m
 
 ## Learn maps and sets
 
+Source: [Kyle](https://www.youtube.com/watch?v=yJDofSGTSPQ&t=558s)
+
 Maps are for objects, and sets are for arrays.
 
 ![image](https://user-images.githubusercontent.com/31458531/188707189-647a2622-a0a4-4fac-a46c-03f168daa631.png)
+
+
+Sets store unique values only:
+
+![image](https://user-images.githubusercontent.com/31458531/188707698-7e188018-c209-40b7-aa88-3e82c83aff6c.png)
+![image](https://user-images.githubusercontent.com/31458531/188707744-076ea635-171f-4107-9286-9e4266a3a6df.png)
+![image](https://user-images.githubusercontent.com/31458531/188707773-5befb57f-5a5c-469e-8f31-91c8648296e0.png)
 
 
 
