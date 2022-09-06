@@ -154,6 +154,13 @@ cra: 335m
 - **Learn proxy in js:** [Click here](learn-proxy.md)
 - **Learn postman:** [Click here](learn-postman.md)
 
+## Array.slice returns a shallow copy: Remeber it
+
+Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+![image](https://user-images.githubusercontent.com/31458531/188591089-91eca553-ab76-4837-8796-62712b991dc6.png)
+
+
 ## website performance analytics
 
 source: https://pagespeed.web.dev/
