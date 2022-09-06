@@ -155,6 +155,14 @@ cra: 335m
 - **Learn postman:** [Click here](learn-postman.md)
 - **Learn redux-toolkit:** [Click here](learn-redux-toolkit.md)
 
+## Learn maps and sets
+
+Maps are for objects, and sets are for arrays.
+
+![image](https://user-images.githubusercontent.com/31458531/188707189-647a2622-a0a4-4fac-a46c-03f168daa631.png)
+
+
+
 ## Array.slice returns a shallow copy: Remeber it
 
 Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
