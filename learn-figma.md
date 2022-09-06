@@ -236,3 +236,8 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 - Use `right mouse click` to shown options in prototype display tab.
 - Toggle between prototype mode and design mode using hotkey `shift+e` or simply choose from the right **_Prototype_** or **_Design_** tab in the right hand side bar.
 - In the **_prototype tab_**, you can select one of the interactions with mouse to open its **_interaction details_** or you can simply click the prototype arrows to open it directly.
+
+- Un-component a component, #remove a component:
+	
+![image](https://user-images.githubusercontent.com/31458531/188628966-618cce63-44f0-4a3d-8729-e4f41d413030.png)
+
