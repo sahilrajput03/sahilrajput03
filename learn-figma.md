@@ -241,3 +241,9 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 	
 ![image](https://user-images.githubusercontent.com/31458531/188628966-618cce63-44f0-4a3d-8729-e4f41d413030.png)
 
+
+- Identifying component vs. component instance?
+
+	![image](https://user-images.githubusercontent.com/31458531/188657241-a24ce6d3-9429-45c4-a795-bac83d717ab2.png)
+
+	![image](https://user-images.githubusercontent.com/31458531/188658035-425d648d-e1af-41ad-b1d9-c1ea3c6d1604.png)
