@@ -154,6 +154,8 @@ cra: 335m
 - **Learn proxy in js:** [Click here](learn-proxy.md)
 - **Learn postman:** [Click here](learn-postman.md)
 - **Learn redux-toolkit:** [Click here](learn-redux-toolkit.md)
+- **Learn stripe`:** [Click here](learn-stripe.md)
+
 
 ## Learn maps and sets
 
