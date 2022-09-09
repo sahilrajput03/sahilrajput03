@@ -257,14 +257,23 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 
 - Creating variant in figma (*Make sure you have selected a component first*):
 	
-	Enable variants:
+	Enable variants by,
 	
-![image](https://user-images.githubusercontent.com/31458531/189422460-0e61553e-ebe8-4218-95b0-8614d852df81.png)
+	![image](https://user-images.githubusercontent.com/31458531/189422460-0e61553e-ebe8-4218-95b0-8614d852df81.png)
 
-Now use that button to add variants,
+
+	Now use that button to add variants,
 	
 	![image](https://user-images.githubusercontent.com/31458531/189422746-ebf40436-0cd4-4777-9721-bf318fb814ea.png)
 
 	You can see the hierarchy created like that:
 	
 	![image](https://user-images.githubusercontent.com/31458531/189423001-c2a7736b-f719-4ace-8f38-2aa381ca032f.png)
+
+	So, now I created a copy (duplicate of *default*) and we can select the variant for that component instance now via that select-menu:
+	
+	![image](https://user-images.githubusercontent.com/31458531/189423477-9d052f6d-e6b1-46f6-8869-df526c147927.png)
+
+	so, selecting variant2 would make it like look like that:
+	
+	![image](https://user-images.githubusercontent.com/31458531/189423563-a91b0d31-2784-4f5a-87ee-8c28516ec979.png)
