@@ -274,6 +274,6 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 	
 	![image](https://user-images.githubusercontent.com/31458531/189423477-9d052f6d-e6b1-46f6-8869-df526c147927.png)
 
-	so, selecting variant2 would make it like look like that:
+	so, selecting **Variant2** would make it like look like that:
 	
 	![image](https://user-images.githubusercontent.com/31458531/189423563-a91b0d31-2784-4f5a-87ee-8c28516ec979.png)
