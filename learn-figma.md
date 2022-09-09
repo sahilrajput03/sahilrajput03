@@ -254,3 +254,17 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 - You can go to original component from the selected component instace simply by clicking that button:
 	
 ![image](https://user-images.githubusercontent.com/31458531/189419051-c1a6116d-3343-405d-b3ba-b78d45c88b80.png)
+
+- Creating variant in figma (*Make sure you have selected a component first*):
+	
+	Enable variants:
+	
+![image](https://user-images.githubusercontent.com/31458531/189422460-0e61553e-ebe8-4218-95b0-8614d852df81.png)
+
+Now use that button to add variants,
+	
+	![image](https://user-images.githubusercontent.com/31458531/189422746-ebf40436-0cd4-4777-9721-bf318fb814ea.png)
+
+	You can see the hierarchy created like that:
+	
+	![image](https://user-images.githubusercontent.com/31458531/189423001-c2a7736b-f719-4ace-8f38-2aa381ca032f.png)
