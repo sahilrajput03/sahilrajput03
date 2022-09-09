@@ -250,3 +250,7 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 - Making use of copmonents the way Kevin Powell uses them:
 	
 ![image](https://user-images.githubusercontent.com/31458531/188663585-b802e7d6-e6c8-41e5-8d34-a579e1e89a22.png)
+
+- You can go to original component from the selected component instace simply by clicking that button:
+	
+![image](https://user-images.githubusercontent.com/31458531/189419051-c1a6116d-3343-405d-b3ba-b78d45c88b80.png)
