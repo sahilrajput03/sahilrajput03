@@ -279,3 +279,8 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 	so, selecting **Variant2** would make it like look like that:
 	
 	![image](https://user-images.githubusercontent.com/31458531/189423563-a91b0d31-2784-4f5a-87ee-8c28516ec979.png)
+
+## yet another amazing prototyping tool
+	
+	- Framer - Interactive Prototypes: [Click here@youtube__video](https://www.youtube.com/watch?v=k7gwtxeeOQM)
+	- prototypign with framer - [youtube search](https://www.youtube.com/results?search_query=prototyping+in+framer)
