@@ -257,6 +257,8 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 
 - Creating variant in figma (*Make sure you have selected a component first*):
 	
+	Source: Amazing video by figma itself on variant feature of components: https://youtu.be/y29Xwt9dET0
+	
 	Enable variants by,
 	
 	![image](https://user-images.githubusercontent.com/31458531/189422460-0e61553e-ebe8-4218-95b0-8614d852df81.png)
