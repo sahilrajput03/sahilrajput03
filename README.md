@@ -157,6 +157,10 @@ cra: 335m
 - **Learn stripe`:** [Click here](learn-stripe.md)
 
 
+## Amazing article explaining nextjs's middleware and netflify's edge html rewriting
+
+https://www.netlify.com/blog/rewrite-html-transform-page-props-in-nextjs/
+
 ## Learn maps and sets
 
 Source: [Kyle](https://www.youtube.com/watch?v=yJDofSGTSPQ&t=558s)
