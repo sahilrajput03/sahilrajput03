@@ -156,6 +156,9 @@ cra: 335m
 - **Learn redux-toolkit:** [Click here](learn-redux-toolkit.md)
 - **Learn stripe`:** [Click here](learn-stripe.md)
 
+## react native vs. flutter
+
+https://youtu.be/3_FcxGCCnUs
 
 ## Amazing article explaining nextjs's middleware and netflify's edge html rewriting
 
