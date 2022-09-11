@@ -54,3 +54,12 @@
 - Morning doji star and evening doji star: 
 
 ![image](https://user-images.githubusercontent.com/31458531/189528891-18cd4a22-0fd3-4018-acf6-5f193e934afd.png)
+
+- Gravestone and dragonfly:
+
+![image](https://user-images.githubusercontent.com/31458531/189529051-21aac304-d959-4572-8be0-1a029b092b89.png)
+
+
+- Shooting star and hammer:
+
+![image](https://user-images.githubusercontent.com/31458531/189529059-02506cfe-46ba-4a5d-bc1b-c586a6137ac5.png)
