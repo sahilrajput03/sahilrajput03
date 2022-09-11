@@ -89,6 +89,6 @@ example -
 
 ![image](https://user-images.githubusercontent.com/31458531/189530369-b07ac925-b57a-405b-a9dc-b51012a2866a.png)
 
-- Buying at lows and selling at highs in a uptrend by making use of upchannel, also everytime price hits the support line the price bounces back, INTERESTING!
+- Buying at lows and selling at highs in a uptrend by making use of upchannel, also everytime price hits the *support (trend) line* the price bounces back, INTERESTING!
 
 ![image](https://user-images.githubusercontent.com/31458531/189531759-176b0691-5562-4b6c-8bff-1c748039c80c.png)
