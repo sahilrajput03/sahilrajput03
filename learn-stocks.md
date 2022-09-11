@@ -39,3 +39,7 @@
 - `Doji` in candlestick? Opens and closes at same price. Longer the wick longer the decision.
 
 ![image](https://user-images.githubusercontent.com/31458531/189528465-697d4150-d36f-43ad-a50d-86a676f1d891.png)
+
+- Gravestone and Dragonfly: 
+
+![image](https://user-images.githubusercontent.com/31458531/189528573-56580fe5-6e71-45ae-8e88-f5456e7dea32.png)
