@@ -126,3 +126,7 @@ Its highly suggested to take look on these graphs and trade using paper trading 
 - Double bottom (notice the support line is at a round number):
 
 ![image](https://user-images.githubusercontent.com/31458531/189542922-87ea8348-77d7-485e-9d21-2fced8e0cb4e.png)
+
+- Multiple bottom:
+
+![image](https://user-images.githubusercontent.com/31458531/189542954-d37f269d-1537-4fc3-bc8d-77356a3bc569.png)
