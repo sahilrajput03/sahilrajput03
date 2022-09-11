@@ -18,3 +18,7 @@
 - Line chart:
 
 ![image](https://user-images.githubusercontent.com/31458531/189523231-cbbe733e-182c-4a2e-aa2a-12b6c0c1af74.png)
+
+- Candle stick chart: 
+
+![image](https://user-images.githubusercontent.com/31458531/189523274-b90d0f51-141f-4f65-a327-41271fad1ad8.png)
