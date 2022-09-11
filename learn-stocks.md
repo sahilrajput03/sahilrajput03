@@ -105,4 +105,6 @@ example -
 
 So why? Since a lot of people use finviz.com to analyse the trends and trend channel that's the reason the trend is going to be more promising as it will be believed by all those people and thus continuting the same pattern. So its rather important that a lot of people to see the same trend follow it to buy/sell shares using the same techniques of channel, support or resistance lines coz thats going to make it work in the same exact manner as the trend lines are showing. SO ITS awesome!
 
+Its highly suggested to take look on these graphs and trade using paper trading accounts i.e, using fake money and trade them and try to see if you are able to make money just doing something as simple via going long (buying) or short(selling).
+
 ![image](https://user-images.githubusercontent.com/31458531/189534259-21fe0143-44e0-4ec3-b674-37525b018d65.png)
