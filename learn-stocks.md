@@ -170,5 +170,4 @@ example -
 
 *We see high volume to support out price movement predictment accurately.*
 
-![image](https://user-images.githubusercontent.com/31458531/189544370-2ae98de4-807f-4cb2-8a05-2c9f80ded473.png
-
+![image](https://user-images.githubusercontent.com/31458531/189544522-28ddd719-1686-4bcb-9c15-c19b69cf4f87.png)
