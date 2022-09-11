@@ -139,3 +139,9 @@ example -
 - Descending triangle:
 
 ![image](https://user-images.githubusercontent.com/31458531/189543308-8039ae28-b0a5-47b9-9e26-887d30c987b4.png)
+
+- Wedge Triangles:
+
+![image](https://user-images.githubusercontent.com/31458531/189543360-474b225d-f1a6-479a-85cd-468104512b79.png)
+
+![image](https://user-images.githubusercontent.com/31458531/189543455-e1743234-8813-401b-9a5c-7a3afd1486ea.png)
