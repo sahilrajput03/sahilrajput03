@@ -1,5 +1,17 @@
 # Learn stocks
 
+## Resources:
+
+- Trading view: https://in.tradingview.com/
+- **Glbal Stocks Resources:** https://docs.google.com/spreadsheets/d/1fJyqPkmF43ugiLT-v2jc9yxnruyycMbZnIFa6apAijs/edit#gid=871170239
+- Amazing site for finding channels easily: https://finviz.com
+
+So why? Since a lot of people use finviz.com to analyse the trends and trend channel that's the reason the trend is going to be more promising as it will be believed by all those people and thus continuting the same pattern. So its rather important that a lot of people to see the same trend follow it to buy/sell shares using the same techniques of channel, support or resistance lines coz thats going to make it work in the same exact manner as the trend lines are showing. SO ITS awesome!
+
+Its highly suggested to take look on these graphs and trade using paper trading accounts i.e, using fake money and trade them and try to see if you are able to make money just doing something as simple via going long (buying) or short(selling).
+
+![image](https://user-images.githubusercontent.com/31458531/189534259-21fe0143-44e0-4ec3-b674-37525b018d65.png)
+
 - Seeeing shortable stocks of a company on interactive brockers:
 
 ![image](https://user-images.githubusercontent.com/31458531/189519554-27d3b31a-55c4-4102-9928-7c8e30bb6a3d.png)
@@ -7,9 +19,6 @@
 - Fees/comission charges (1$ a pop for USA and CANADA):
 
 ![image](https://user-images.githubusercontent.com/31458531/189519615-cb298026-e3b1-4ef0-93d6-522c92f3386e.png)
-
-
-- **Glbal Stocks Resources:** https://docs.google.com/spreadsheets/d/1fJyqPkmF43ugiLT-v2jc9yxnruyycMbZnIFa6apAijs/edit#gid=871170239
 
 - Course Length: [Click here](https://www.udemy.com/course/foundation-course/)
 
@@ -100,14 +109,6 @@ example -
 - Making use or intelligent round numbers psychology to win along with making use or resistant and support lines.
 
 ![image](https://user-images.githubusercontent.com/31458531/189533617-9613f63b-918b-4fc6-834d-cdecc270589b.png)
-
-- Amazing site for finding channels easily: https://finviz.com
-
-So why? Since a lot of people use finviz.com to analyse the trends and trend channel that's the reason the trend is going to be more promising as it will be believed by all those people and thus continuting the same pattern. So its rather important that a lot of people to see the same trend follow it to buy/sell shares using the same techniques of channel, support or resistance lines coz thats going to make it work in the same exact manner as the trend lines are showing. SO ITS awesome!
-
-Its highly suggested to take look on these graphs and trade using paper trading accounts i.e, using fake money and trade them and try to see if you are able to make money just doing something as simple via going long (buying) or short(selling).
-
-![image](https://user-images.githubusercontent.com/31458531/189534259-21fe0143-44e0-4ec3-b674-37525b018d65.png)
 
 ## chart patterns
 
