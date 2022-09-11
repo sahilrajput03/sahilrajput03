@@ -46,3 +46,7 @@
 - Gravestone and Dragonfly: 
 
 ![image](https://user-images.githubusercontent.com/31458531/189528573-56580fe5-6e71-45ae-8e88-f5456e7dea32.png)
+
+- Trend reversal prediction from doji and candles:
+
+![image](https://user-images.githubusercontent.com/31458531/189528829-14f45076-4f84-4729-be88-4ff148e5b3a7.png)
