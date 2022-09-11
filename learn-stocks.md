@@ -63,3 +63,7 @@
 - Shooting star and hammer:
 
 ![image](https://user-images.githubusercontent.com/31458531/189529059-02506cfe-46ba-4a5d-bc1b-c586a6137ac5.png)
+
+- more harami
+
+![image](https://user-images.githubusercontent.com/31458531/189529193-6bc600f4-91ba-40d1-89bc-211eb5fcbb25.png)
