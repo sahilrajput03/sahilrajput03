@@ -145,3 +145,19 @@ example -
 ![image](https://user-images.githubusercontent.com/31458531/189543360-474b225d-f1a6-479a-85cd-468104512b79.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/189543455-e1743234-8813-401b-9a5c-7a3afd1486ea.png)
+
+- wedge up:
+
+![image](https://user-images.githubusercontent.com/31458531/189543478-8663cfb8-ca9b-41aa-be22-a624405c95e3.png)
+
+- wedge down:
+
+![image](https://user-images.githubusercontent.com/31458531/189543516-346e6ac3-336b-447d-825c-7c00201de73b.png)
+
+- cup and handle (very rare):
+
+![image](https://user-images.githubusercontent.com/31458531/189543553-fc520c09-d8fd-4104-aaab-c1100121d0ee.png)
+
+- Volume:
+
+![image](https://user-images.githubusercontent.com/31458531/189543894-a7558221-6059-41d6-876b-45313751c477.png)
