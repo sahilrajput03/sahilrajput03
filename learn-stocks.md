@@ -84,3 +84,7 @@ example -
 - gravestone and dragonfly show most consistent behaviours:
 
 ![image](https://user-images.githubusercontent.com/31458531/189529916-a8c7b597-08a8-4d9b-881a-9b655ee96991.png)
+
+### Trends
+
+![image](https://user-images.githubusercontent.com/31458531/189530004-5de9db57-0240-4f60-815b-0e493135cefd.png)
