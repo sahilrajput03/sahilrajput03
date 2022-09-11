@@ -168,5 +168,7 @@ example -
 
 - Volume traded today is too much or too low? How to know? Ans. by comparing it to avg. shares a day **(from stats of last three months)**:
 
+*We see high volume to support out price movement predictment accurately.*
+
 ![image](https://user-images.githubusercontent.com/31458531/189544370-2ae98de4-807f-4cb2-8a05-2c9f80ded473.png
 
