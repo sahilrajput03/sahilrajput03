@@ -67,3 +67,7 @@
 - more harami
 
 ![image](https://user-images.githubusercontent.com/31458531/189529193-6bc600f4-91ba-40d1-89bc-211eb5fcbb25.png)
+
+Bearish Harami:
+
+![image](https://user-images.githubusercontent.com/31458531/189529307-629497a5-e187-4bef-8a80-7a2a7410f7eb.png)
