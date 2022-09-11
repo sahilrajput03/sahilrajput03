@@ -25,4 +25,5 @@
 
 - What is candlestick:
 
-![image](https://user-images.githubusercontent.com/31458531/189523294-c3baf6bc-67b6-4e20-8b71-af2fa9a03a46.png)
+![image](https://user-images.githubusercontent.com/31458531/189523394-b4a40088-a3fc-4a19-83c1-bcc526b25e6d.png)
+
