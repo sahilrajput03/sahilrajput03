@@ -22,3 +22,7 @@
 - Candle stick chart: 
 
 ![image](https://user-images.githubusercontent.com/31458531/189523274-b90d0f51-141f-4f65-a327-41271fad1ad8.png)
+
+- What is candlestick:
+
+![image](https://user-images.githubusercontent.com/31458531/189523294-c3baf6bc-67b6-4e20-8b71-af2fa9a03a46.png)
