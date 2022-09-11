@@ -96,3 +96,5 @@ example -
 - IMPORTANT: Why does these trends work?
 
 ![image](https://user-images.githubusercontent.com/31458531/189532461-b91dd1f3-8960-4be6-be89-d9f92ec798f6.png)
+
+- Making use or intelligent round numbers psychology to win along with making use or resistant and support lines.
