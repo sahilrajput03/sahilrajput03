@@ -35,3 +35,7 @@
 - Thats how you can change the time for candle stick:
 
 ![image](https://user-images.githubusercontent.com/31458531/189528174-8e25c751-37b5-47d6-a242-b5fd96821f24.png)
+
+- `Doji` in candlestick? Opens and closes at same price. Longer the wick longer the decision.
+
+![image](https://user-images.githubusercontent.com/31458531/189528465-697d4150-d36f-43ad-a50d-86a676f1d891.png)
