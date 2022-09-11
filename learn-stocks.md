@@ -91,4 +91,4 @@ example -
 
 - Buying at lows and selling at highs in a uptrend by making use of upchannel:
 
-![image](https://user-images.githubusercontent.com/31458531/189531559-f3fa7365-74fc-4858-89ef-4f3ea82c5996.png)
+![image](https://user-images.githubusercontent.com/31458531/189531759-176b0691-5562-4b6c-8bff-1c748039c80c.png)
