@@ -23,7 +23,7 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/189523274-b90d0f51-141f-4f65-a327-41271fad1ad8.png)
 
-- What is candlestick:
+- What is candlestick: **It tells you what happened during the day.**
 
 ![image](https://user-images.githubusercontent.com/31458531/189523394-b4a40088-a3fc-4a19-83c1-bcc526b25e6d.png)
 
