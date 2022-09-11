@@ -73,4 +73,14 @@ Bearish Harami and bullish harami example: (bear attach by falling down, and bul
 ![image](https://user-images.githubusercontent.com/31458531/189529409-c51e7bfd-2b8f-48e6-aa97-4c5b9ea036db.png)
 
 
+- more:
 
+![image](https://user-images.githubusercontent.com/31458531/189529574-81d1c2db-661c-4b76-a68a-08991d05ba6d.png)
+
+example - 
+
+![image](https://user-images.githubusercontent.com/31458531/189529589-e8fe114d-2022-4841-baac-0e6d1bdfc14d.png)
+
+- gravestone and dragonfly show most consistent behaviours:
+
+![image](https://user-images.githubusercontent.com/31458531/189529916-a8c7b597-08a8-4d9b-881a-9b655ee96991.png)
