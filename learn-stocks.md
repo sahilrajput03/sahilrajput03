@@ -12,6 +12,6 @@
 - **Glbal Stocks Resources:** https://docs.google.com/spreadsheets/d/1fJyqPkmF43ugiLT-v2jc9yxnruyycMbZnIFa6apAijs/edit#gid=871170239
 
 
-- Course Length:
+- Course Length: [Click here](https://www.udemy.com/course/foundation-course/)
 
 ![image](https://user-images.githubusercontent.com/31458531/189520263-ef47144d-a4d1-4193-83c9-0a27f41cbe1c.png)
