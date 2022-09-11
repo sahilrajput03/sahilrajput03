@@ -122,3 +122,7 @@ Its highly suggested to take look on these graphs and trade using paper trading 
 - Multiple Top:
 
 ![image](https://user-images.githubusercontent.com/31458531/189542762-522d97bb-c68f-41a8-81ec-74d4fb3adc3e.png)
+
+- Double bottom (notice the support line is at a round number):
+
+![image](https://user-images.githubusercontent.com/31458531/189542922-87ea8348-77d7-485e-9d21-2fced8e0cb4e.png)
