@@ -155,6 +155,7 @@ cra: 335m
 - **Learn postman:** [Click here](learn-postman.md)
 - **Learn redux-toolkit:** [Click here](learn-redux-toolkit.md)
 - **Learn stripe`:** [Click here](learn-stripe.md)
+- **Learn stocks:** [Click here](learn-stocks.md)
 
 ## react native vs. flutter
 
