@@ -43,7 +43,7 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/189528465-697d4150-d36f-43ad-a50d-86a676f1d891.png)
 
-- Gravestone and Dragonfly: 
+- Gravestone and Dragonfly (THEY TENT TO PREDICT STONGER ABOUT TREND REVERSAL): 
 
 ![image](https://user-images.githubusercontent.com/31458531/189528573-56580fe5-6e71-45ae-8e88-f5456e7dea32.png)
 
@@ -55,7 +55,7 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/189528891-18cd4a22-0fd3-4018-acf6-5f193e934afd.png)
 
-- Gravestone and dragonfly:
+- Gravestone and dragonfly (THEY TENT TO PREDICT STONGER ABOUT TREND REVERSAL):
 
 ![image](https://user-images.githubusercontent.com/31458531/189529051-21aac304-d959-4572-8be0-1a029b092b89.png)
 
