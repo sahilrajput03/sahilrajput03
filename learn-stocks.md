@@ -32,3 +32,6 @@
 ![image](https://user-images.githubusercontent.com/31458531/189527678-e9cbfda5-b3dd-45a7-913f-939d5c7092ce.png)
 
 
+- Thats how you can change the time for candle stick:
+
+![image](https://user-images.githubusercontent.com/31458531/189528174-8e25c751-37b5-47d6-a242-b5fd96821f24.png)
