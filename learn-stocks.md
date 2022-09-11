@@ -161,3 +161,12 @@ example -
 - Volume:
 
 ![image](https://user-images.githubusercontent.com/31458531/189543894-a7558221-6059-41d6-876b-45313751c477.png)
+
+- Big moves are supported by big volumes:
+
+![image](https://user-images.githubusercontent.com/31458531/189544115-3827e615-eb09-4c39-87a8-eda2cd932182.png)
+
+- Volume traded today is too much or too low? How to know? Ans. by comparing it to avg. shares a day **(from stats of last three months)**:
+
+![image](https://user-images.githubusercontent.com/31458531/189544370-2ae98de4-807f-4cb2-8a05-2c9f80ded473.png
+
