@@ -131,3 +131,11 @@ example -
 - Multiple bottom:
 
 ![image](https://user-images.githubusercontent.com/31458531/189542954-d37f269d-1537-4fc3-bc8d-77356a3bc569.png)
+
+- ![image](https://user-images.githubusercontent.com/31458531/189543146-786c1394-f22f-4d2f-b136-fc165836f1fc.png)
+
+![image](https://user-images.githubusercontent.com/31458531/189543230-1d21d9e7-4a60-43ad-991d-a7ea96266a19.png)
+
+- Descending triangle:
+
+![image](https://user-images.githubusercontent.com/31458531/189543308-8039ae28-b0a5-47b9-9e26-887d30c987b4.png)
