@@ -108,3 +108,13 @@ So why? Since a lot of people use finviz.com to analyse the trends and trend cha
 Its highly suggested to take look on these graphs and trade using paper trading accounts i.e, using fake money and trade them and try to see if you are able to make money just doing something as simple via going long (buying) or short(selling).
 
 ![image](https://user-images.githubusercontent.com/31458531/189534259-21fe0143-44e0-4ec3-b674-37525b018d65.png)
+
+## chart patterns
+
+- Head and shoulders: 
+
+![image](https://user-images.githubusercontent.com/31458531/189542469-81906d0d-0004-430f-8b87-74c34bc57f49.png)
+
+- Double Top: 
+
+![image](https://user-images.githubusercontent.com/31458531/189542495-43f01657-546a-42d9-9e27-8c59ae07c022.png)
