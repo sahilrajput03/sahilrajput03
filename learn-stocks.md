@@ -100,3 +100,7 @@ example -
 - Making use or intelligent round numbers psychology to win along with making use or resistant and support lines.
 
 ![image](https://user-images.githubusercontent.com/31458531/189533617-9613f63b-918b-4fc6-834d-cdecc270589b.png)
+
+- Amazing site for finding channels easily: finviz.com
+
+![image](https://user-images.githubusercontent.com/31458531/189534259-21fe0143-44e0-4ec3-b674-37525b018d65.png)
