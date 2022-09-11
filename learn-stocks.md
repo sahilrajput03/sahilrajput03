@@ -1,10 +1,15 @@
 # Learn stocks
 
+todo: start from `7th video` i.e., Bollinger Bangs:
+
+![image](https://user-images.githubusercontent.com/31458531/189545125-fd40c1eb-2b36-41d8-9075-43064ab7584c.png)
+
+
 ## Resources:
 
 - Trading view: https://in.tradingview.com/
 - **Glbal Stocks Resources:** https://docs.google.com/spreadsheets/d/1fJyqPkmF43ugiLT-v2jc9yxnruyycMbZnIFa6apAijs/edit#gid=871170239
-- Amazing site for finding channels easily: https://finviz.com
+- Amazing site for finding trend lines and trend channels: https://finviz.com
 
 So why? Since a lot of people use finviz.com to analyse the trends and trend channel that's the reason the trend is going to be more promising as it will be believed by all those people and thus continuting the same pattern. So its rather important that a lot of people to see the same trend follow it to buy/sell shares using the same techniques of channel, support or resistance lines coz thats going to make it work in the same exact manner as the trend lines are showing. SO ITS awesome!
 
