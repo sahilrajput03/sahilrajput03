@@ -50,3 +50,7 @@
 - Trend reversal prediction from doji and candles:
 
 ![image](https://user-images.githubusercontent.com/31458531/189528829-14f45076-4f84-4729-be88-4ff148e5b3a7.png)
+
+- Morning doji star and evening doji star: 
+
+![image](https://user-images.githubusercontent.com/31458531/189528891-18cd4a22-0fd3-4018-acf6-5f193e934afd.png)
