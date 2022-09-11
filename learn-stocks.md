@@ -89,6 +89,6 @@ example -
 
 ![image](https://user-images.githubusercontent.com/31458531/189530369-b07ac925-b57a-405b-a9dc-b51012a2866a.png)
 
-- Buying at lows and selling at highs in an upchannel:
+- Buying at lows and selling at highs in a uptrend by making use of upchannel:
 
 ![image](https://user-images.githubusercontent.com/31458531/189531559-f3fa7365-74fc-4858-89ef-4f3ea82c5996.png)
