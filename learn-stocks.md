@@ -68,6 +68,9 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/189529193-6bc600f4-91ba-40d1-89bc-211eb5fcbb25.png)
 
-Bearish Harami:
+Bearish Harami and bullish harami example: (bear attach by falling down, and bull attach from down and throw upwards)
 
-![image](https://user-images.githubusercontent.com/31458531/189529307-629497a5-e187-4bef-8a80-7a2a7410f7eb.png)
+![image](https://user-images.githubusercontent.com/31458531/189529409-c51e7bfd-2b8f-48e6-aa97-4c5b9ea036db.png)
+
+
+
