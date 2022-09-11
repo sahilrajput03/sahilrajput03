@@ -118,3 +118,7 @@ Its highly suggested to take look on these graphs and trade using paper trading 
 - Double Top: 
 
 ![image](https://user-images.githubusercontent.com/31458531/189542495-43f01657-546a-42d9-9e27-8c59ae07c022.png)
+
+- Multiple Top:
+
+![image](https://user-images.githubusercontent.com/31458531/189542762-522d97bb-c68f-41a8-81ec-74d4fb3adc3e.png)
