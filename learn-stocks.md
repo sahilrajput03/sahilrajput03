@@ -4,6 +4,9 @@ todo: start from `7th video` i.e., Bollinger Bangs:
 
 ![image](https://user-images.githubusercontent.com/31458531/189545125-fd40c1eb-2b36-41d8-9075-43064ab7584c.png)
 
+![image](https://user-images.githubusercontent.com/31458531/189545208-083997b9-dce4-4189-93f9-253b6828a404.png)
+
+
 
 ## Resources:
 
