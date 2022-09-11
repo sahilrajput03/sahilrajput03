@@ -87,4 +87,8 @@ example -
 
 ### Trends
 
-![image](https://user-images.githubusercontent.com/31458531/189530004-5de9db57-0240-4f60-815b-0e493135cefd.png)
+![image](https://user-images.githubusercontent.com/31458531/189530369-b07ac925-b57a-405b-a9dc-b51012a2866a.png)
+
+- Buying at lows and selling at highs in an upchannel:
+
+![image](https://user-images.githubusercontent.com/31458531/189531559-f3fa7365-74fc-4858-89ef-4f3ea82c5996.png)
