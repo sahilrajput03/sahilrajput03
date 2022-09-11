@@ -101,6 +101,8 @@ example -
 
 ![image](https://user-images.githubusercontent.com/31458531/189533617-9613f63b-918b-4fc6-834d-cdecc270589b.png)
 
-- Amazing site for finding channels easily: finviz.com
+- Amazing site for finding channels easily: https://finviz.com
+
+So why? Since a lot of people use finviz.com to analyse the trends and trend channel that's the reason the trend is going to be more promising as it will be believed by all those people and thus continuting the same pattern. So its rather important that a lot of people to see the same trend follow it to buy/sell shares using the same techniques of channel, support or resistance lines coz thats going to make it work in the same exact manner as the trend lines are showing. SO ITS awesome!
 
 ![image](https://user-images.githubusercontent.com/31458531/189534259-21fe0143-44e0-4ec3-b674-37525b018d65.png)
