@@ -157,6 +157,10 @@ cra: 335m
 - **Learn stripe`:** [Click here](learn-stripe.md)
 - **Learn stocks:** [Click here](learn-stocks.md)
 
+## Tip: Using github to edit repo files on mobile
+
+Use chrome in desktop mode and then you'll be able to add pictures as well, yo!
+
 ## react native vs. flutter
 
 https://youtu.be/3_FcxGCCnUs
