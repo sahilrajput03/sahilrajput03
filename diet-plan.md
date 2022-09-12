@@ -134,5 +134,4 @@ Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
 
 - Remove coffee jhaag:
 
-![Screenshot_20220912-175739785](https://user-images.githubusercontent.com/31458531/189655552-70d5148c-ce4a-4dbb-9a51-89ba0e6aaa20.jpg)
-
+![image](https://user-images.githubusercontent.com/31458531/189655740-406aca63-0ea4-4397-8018-c706bb78bf1a.png)
