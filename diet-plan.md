@@ -133,3 +133,6 @@ Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
     - Now close the lid and let it cook for sometime on stove.
 
 - Remove coffee jhaag:
+
+![Screenshot_20220912-175739785](https://user-images.githubusercontent.com/31458531/189655552-70d5148c-ce4a-4dbb-9a51-89ba0e6aaa20.jpg)
+
