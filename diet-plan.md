@@ -132,6 +132,6 @@ Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
     - Add some chopped green coriander leaves (dhania patti) and add salt according to taste.
     - Now close the lid and let it cook for sometime on stove.
 
-- Remove coffee jhaag:
+- Remove coffee jhaag (use a full napkin):
 
 ![image](https://user-images.githubusercontent.com/31458531/189655740-406aca63-0ea4-4397-8018-c706bb78bf1a.png)
