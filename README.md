@@ -157,6 +157,13 @@ cra: 335m
 - **Learn stripe`:** [Click here](learn-stripe.md)
 - **Learn stocks:** [Click here](learn-stocks.md)
 
+## Google maps apis is paid
+
+Source: https://developers.google.com/maps/documentation/javascript/get-api-key
+
+![image](https://user-images.githubusercontent.com/31458531/189949826-f62db559-27c1-4adc-9ac6-c00e353e84cc.png)
+
+
 ## Tip: Using github to edit repo files on mobile
 
 Use chrome in desktop mode and then you'll be able to add pictures as well, yo!
