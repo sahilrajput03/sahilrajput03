@@ -2,6 +2,8 @@
 
 - **Please starting learning from this topic onwards now:** https://axios-http.com/docs/interceptors
 - Please make notes from -> **Handling errors:** https://axios-http.com/docs/handling_errors
+- Learn handling error type with typescript: https://github.com/axios/axios/issues/3612#issuecomment-770224236
+
 
 ```js
 // import axios from require('axios')
