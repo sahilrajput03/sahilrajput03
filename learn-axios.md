@@ -2,8 +2,23 @@
 
 - **Please starting learning from this topic onwards now:** https://axios-http.com/docs/interceptors
 - Please make notes from -> **Handling errors:** https://axios-http.com/docs/handling_errors
-- Learn handling error type with typescript: https://github.com/axios/axios/issues/3612#issuecomment-770224236
 
+```ts
+try {
+	// ...
+} catch (error) {
+	if (axios.isAxiosError(error)) {
+		const err = error as AxiosError<{message: string}>
+		// Access to config, request, and response
+		if (err.response?.data.message === 'Account with this email already exists.') {
+			alert(err.response?.data.message)
+		}
+	} else {
+		// Just a stock error
+		console.log('some error 28g4h ~Sahil')
+	}
+}
+```
 
 ```js
 // import axios from require('axios')
