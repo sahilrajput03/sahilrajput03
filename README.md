@@ -157,6 +157,15 @@ cra: 335m
 - **Learn stripe`:** [Click here](learn-stripe.md)
 - **Learn stocks:** [Click here](learn-stocks.md)
 
+## Fix cors errors without fixing backend in chrome
+
+Chrome Extension: [CORS Unblock](https://chrome.google.com/webstore/detail/lfhmikememgdcahcdlaciloancbhjino)
+
+To test if cors get unblocked you can check via that page:
+
+![image](https://user-images.githubusercontent.com/31458531/190215507-2e77277c-6256-4949-be7a-9013b6cb999a.png)
+
+
 ## Google maps apis is paid
 
 Source: https://developers.google.com/maps/documentation/javascript/get-api-key
