@@ -165,6 +165,10 @@ To test if cors get unblocked you can check via that page:
 
 ![image](https://user-images.githubusercontent.com/31458531/190215507-2e77277c-6256-4949-be7a-9013b6cb999a.png)
 
+![image](https://user-images.githubusercontent.com/31458531/190404385-12bcd877-300e-4a04-a9f9-f01ff30348f8.png)
+
+![image](https://user-images.githubusercontent.com/31458531/190404437-ead9551f-73fd-4a68-819c-fbb35bdfc2b9.png)
+
 
 ## Google maps apis is paid
 
