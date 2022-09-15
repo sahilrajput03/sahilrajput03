@@ -16,6 +16,7 @@
 - Hammad Siddique: https://hammad.pro/
 - https://github.com/nandhakumar-rs: Also freelancer, working @totel currently.
 - Nandha Kumar: [Upwork Profile](https://www.upwork.com/freelancers/~013b67892e803aecec)
+- Aashif Ahamed: https://aashifahamed.github.io/
 
 Rakesh:
   - https://itsrakesh.co/work
