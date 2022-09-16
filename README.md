@@ -157,6 +157,16 @@ cra: 335m
 - **Learn stripe`:** [Click here](learn-stripe.md)
 - **Learn stocks:** [Click here](learn-stocks.md)
 
+## Get name and emails of all the authors of a git repo from the repository history
+
+```bash
+git log -s --format='%an %ae'
+# %an is for author name
+# %ae is for author email
+# Read whole docs @ https://git-scm.com/docs/git-log
+# Inspiration: https://stackoverflow.com/a/29876744
+```
+
 ## Fix cors errors without fixing backend in chrome
 
 Chrome Extension: [CORS Unblock](https://chrome.google.com/webstore/detail/lfhmikememgdcahcdlaciloancbhjino)
