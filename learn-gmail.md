@@ -32,3 +32,7 @@ Control: `^`, Shift: `#`
 |\*n | Deselect all
 |\*r | Select read
 |\*u | Select unread|
+
+## Emptying Trash Folder
+
+![image](https://user-images.githubusercontent.com/31458531/190856930-7a402127-c541-4c3a-ace7-24d968fb26ad.png)
