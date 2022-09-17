@@ -28,3 +28,7 @@ Control: `^`, Shift: `#`
 |ga | Go to ALL MAILS
 |gt | Go to SENT MAILS
 |gd | Go to DRAFTS
+|\*a | Select all
+|\*n | Deselect all
+|\*r | Select read
+|\*u | Select unread|
