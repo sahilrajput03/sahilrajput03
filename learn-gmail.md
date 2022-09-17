@@ -1,47 +1,30 @@
-```bash
-G	 	>> compose in new screen
+All Gmail Shortcuts: [Click here](https://support.google.com/mail/answer/6594)
 
-C	 	>> compose
+Control: `^`, Shift: `#`
 
-x	 	>> select the message
-
-ctrl+enter 	>> send
-
-ctrl_shift_B 	>> bcc carbon copy add
-
-ctrl_shift_C 	>> carbon copy add
-
-n 		>> next message
-
-p 		>> previous message
-
-::select the mails before doing these
-
-x	 	>> select the message
-
-e 		>> archieve
-
-# 		>> delete
-
-r 		>> reply
-
-f 		>> forward
-
-::use shift in reply/forward to open in new window.
-
-shift_i 	>> mark as read
-
-shift_u 	>> mark unread
-
-shift_t 	>> add conversation to task #sexy option
-
-= 		>> important
-
-- 		>> mark non-important
-
-Inbox		>> g + i
-
-Sent messages	>> g + t
-
-Drafts		>> g + d
-```
+| Shortcut    | Description |
+| ----------- | ----------- |
+|G   | Compose in new screen
+|c   | Compose in floating view
+|^#d | Deleted currently composing mail in floating view
+|^#b | Add bcc
+|^#c | Ad cc
+|^Enter| Send mail
+|n  | Jump to next mail
+|p  | Jump to previous mail
+|x  | Select focussed message
+|e  | Archive
+|#  | Delete
+|r  | Reply
+|f  | Forward
+|#r | Reply in new window
+|#f | Forward in new window
+|#i | Mark as read
+|#u | Mark as unread
+|#t | Add conversation to Task (Sexy)
+|=  | Mark important
+|-  | Mark non-important
+|gi | Go to INBOX
+|ga | Go to ALL MAILS
+|gt | Go to SENT MAILS
+|gd | Go to DRAFTS
