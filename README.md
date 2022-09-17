@@ -157,6 +157,12 @@ cra: 335m
 - **Learn stripe`:** [Click here](learn-stripe.md)
 - **Learn stocks:** [Click here](learn-stocks.md)
 
+## Looks like a good cache library 
+
+Inspiration: https://github.com/simoneb/axios-hooks#manual-requests
+
+https://github.com/isaacs/node-lru-cache
+
 ## Get name and emails of all the authors of a git repo from the repository history
 
 ```bash
