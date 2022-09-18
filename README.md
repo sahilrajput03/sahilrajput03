@@ -156,6 +156,7 @@ cra: 335m
 - **Learn redux-toolkit:** [Click here](learn-redux-toolkit.md)
 - **Learn stripe`:** [Click here](learn-stripe.md)
 - **Learn stocks:** [Click here](learn-stocks.md)
+- *Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 
 ## Looks like a good cache library 
 
