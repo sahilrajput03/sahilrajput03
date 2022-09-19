@@ -1,3 +1,6 @@
+
+## Learn gmail 
+
 All Gmail Shortcuts: [Click here](https://support.google.com/mail/answer/6594)
 
 Control: `^`, Shift: `#`
@@ -32,6 +35,10 @@ Control: `^`, Shift: `#`
 |\*n | Deselect all
 |\*r | Select read
 |\*u | Select unread|
+
+## To be able to use gmail shortcuts you need to enable them via
+
+![image](https://user-images.githubusercontent.com/31458531/190988173-e70378bd-ead8-4ff0-a4d6-ec1e15bdf17c.png)
 
 ## Emptying Trash Folder
 
