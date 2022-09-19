@@ -1,3 +1,22 @@
+## Find remote work site
+
+https://twitter.com/Insharamin/status/1571788158748196865
+
+```
+→ remoteok .com
+ →showwcase .com
+→ freelancer .com
+→ remotive .io
+→ remoteglobal .com
+→ devsnap .io
+ →working nomads .co
+→ nodes .co
+ →epic jobs .co
+→ remotehunt .com
+→ weworkremotely .com
+ →flexjobs .com
+```
+
 ## Making 10 Great projects
 
 - hamza upwork profile: https://www.upwork.com/freelancers/~010d286513e675c74e?p=1452923993020219392
