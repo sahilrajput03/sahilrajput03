@@ -129,7 +129,7 @@ const baseURL = 'http://localhost:8005'
 // NOTE: Instance must be created before setting `axios` default values bcoz otherwise default values will be inherited into axios insatance as well. ~Sahil
 // FOR DETAILS READ: ORDER OF PRECEDENCE - OFFICIAL DOCS - https://axios-http.com/docs/config_defaults
 
-// instance
+// INSTANCE
 const api = axios.create({
 	baseURL,
 })
