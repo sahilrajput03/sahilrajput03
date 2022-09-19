@@ -158,6 +158,15 @@ cra: 335m
 - **Learn stocks:** [Click here](learn-stocks.md)
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 
+## Add github comment system to your blog
+
+React Giscus Component: [Click here](https://github.com/giscus/giscus-component)
+
+![image](https://user-images.githubusercontent.com/31458531/191089743-42fa6344-7f4c-49b4-a451-33f5b7cbd3ea.png)
+
+![image](https://user-images.githubusercontent.com/31458531/191090180-f13232ea-4055-430d-8195-50a28738c1b3.png)
+
+
 ## Looks like a good cache library 
 
 Inspiration: https://github.com/simoneb/axios-hooks#manual-requests
