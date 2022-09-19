@@ -3,23 +3,6 @@
 - **Please starting learning from this topic onwards now:** https://axios-http.com/docs/interceptors
 - Please make notes from -> **Handling errors:** https://axios-http.com/docs/handling_errors
 - Submit form data with axios: [Click here](https://stackoverflow.com/a/47630754)
-- Error handling with typescript:
-	```ts
-	try {
-		// ...
-	} catch (error) {
-		if (axios.isAxiosError(error)) {
-			const err = error as AxiosError<{message: string}>
-			// Access to config, request, and response
-			if (err.response?.data.message === 'Account with this email already exists.') {
-				alert(err.response?.data.message)
-			}
-		} else {
-			// Just a stock error
-			console.log('some error 28g4h ~Sahil')
-		}
-	}
-	```
 
 ```js
 // import axios from require('axios')
@@ -204,3 +187,53 @@ void (async function () {
 # -d	Do not attempt to read from stdin.
 # -l	Used to specify that nc should listen for an incoming connection rather than initiate a connection to a remote host. It is an error to use this option in conjunction with the -p, -s, or -z options. Additionally, any timeouts specified with the -w option are ignored.
 ```
+
+
+## Typescript
+
+Data Types Code of axios: [Click here](https://github.com/axios/axios/blob/v2.x/index.d.ts#L190-L197)
+
+- Error handling with typescript:
+	```ts
+	try {
+		// ...
+	} catch (error) {
+		if (axios.isAxiosError(error)) {
+			const err = error as AxiosError<{message: string}>
+			// Access to config, request, and response
+			if (err.response?.data.message === 'Account with this email already exists.') {
+				alert(err.response?.data.message)
+			}
+		} else {
+			// Just a stock error
+			console.log('some error 28g4h ~Sahil')
+		}
+	}
+	```
+	
+- Typing `response data`:
+
+	```ts
+	// data is typed as `string`
+	const {data} = await axiosInstance.post<string>(paths.login, {
+		username: email,
+		password: password,
+	})
+	```
+
+- Typing `response data` and `payload type`:
+
+	```ts
+	interface dataT {
+		access_token: number
+	}
+	interface payloadT {
+		username: string
+		password: string
+	}
+	// data is typed 'dataT', and payload is typed `payloadT` (first `any` has no significance ~ IMO ~ Sahil)
+	const {data} = await axiosInstance.post<any, AxiosResponse<dataT>, payloadT>(paths.login, {
+		username: email,
+		password: password,
+	})
+	```
