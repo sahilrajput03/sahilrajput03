@@ -117,26 +117,24 @@ const r2 = await axios.get('/bar')
 
 ```
 
-## Another good example useful for updating authorization headers independently at global and instance level:
+## Independently updating authorization headers at `global` and `instance` level:
 
 ```js
 // https://axios-http.com/docs/config_defaults
 const axios = require('axios')
-// Using axios instances
+
 const baseURL = 'http://localhost:8005'
+// Using axios instances
 
-const payload = {
-	firstName: 'Fred',
-	lastName: 'Flintstone',
-}
-
-// instance
 // NOTE: Instance must be created before setting `axios` default values bcoz otherwise default values will be inherited into axios insatance as well. ~Sahil
 // FOR DETAILS READ: ORDER OF PRECEDENCE - OFFICIAL DOCS - https://axios-http.com/docs/config_defaults
+
+// instance
 const api = axios.create({
 	baseURL,
 })
 
+// UPDATING GLOBAL'S DEFAULT VALUES
 axios.defaults.baseURL = baseURL
 axios.defaults.headers.common['Authorization'] = 'BEARER my-token'
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
@@ -146,14 +144,18 @@ const sleep = (TIME = 500) => new Promise((res) => setTimeout(res, TIME))
 
 void (async function () {
 	try {
+		const payload = {
+			firstName: 'Fred',
+			lastName: 'Flintstone',
+		}
 		const r1 = await axios.post('/', payload)
 
-		// Updating `Authorization` header
+		// UPDATING `Authorization` HEADER FOR GLOBAL'S DEFAULT VALUES
 		axios.defaults.headers.common['Authorization'] = 'BEARER my-token-UPDATED'
 		await sleep()
 		const r2 = await axios.get('/bar')
 
-		// Setting defaults values for instance
+		// UPDATING INSTANCE'S DEFAULT VALUES
 		api.defaults.headers.common['Authorization'] = 'BEARER my-token-FOR-INSTANCE'
 		await sleep()
 		const {data} = await api.get('/fso/patients.json')
