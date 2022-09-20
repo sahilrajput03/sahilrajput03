@@ -12,7 +12,11 @@
 
 - Article: https://cloud7.news/linux/7-best-linux-mail-servers/
 - Postal (12k*): https://github.com/postalserver/postal
+
+**H-educate:**
+
 - Amazing Installation Article: https://h-educate.com/free-smtp-server-postal/
+- His old youtube video: https://www.youtube.com/watch?v=iNX8wFqmk0Y
 
 ## installed ngrok
 
