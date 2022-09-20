@@ -8,6 +8,12 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Best mail servers linux
+
+- Article: https://cloud7.news/linux/7-best-linux-mail-servers/
+- Postal (12k*): https://github.com/postalserver/postal
+- Amazing Installation Article: https://h-educate.com/free-smtp-server-postal/
+
 ## installed ngrok
 
 ```bash
