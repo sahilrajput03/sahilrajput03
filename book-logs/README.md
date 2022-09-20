@@ -1,5 +1,9 @@
 # Books
 
+**Currently reading:**
+- Grit: The Power of Passion and Perseverance ~ Angela Duckworth
+- Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future ~ Ashlee Vance
+
 **Business/Startup/Management**
 - No Rules Rules: Netflix and the Culture of Reinvention ~ Erin Meyer and Reed Hastings
 - Rework ~ David Heinemeier Hansson and Jason Fried
