@@ -15,15 +15,15 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
-### React Benchmarks
+### Benchmarks: React Project Size
 
 ```txt
 # 10 Jul, 2022
 # INIT NEW REACT APP #
-vite: 41m
-bun: 70m
-cna: 187m
-cra: 335m
+vite: 41mb
+bun: 70mb
+cna: 187mb
+cra: 335mb
 ```
 
 ### Jump Starters
