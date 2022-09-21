@@ -23,6 +23,9 @@ sudo ln -s /home/array/test/c.sh /usr/bin/c.sh
 cd ~/test/
 sudo ln -s ./c.sh /usr/bin/c.sh
 # ALERT: THIS IS BAD BECOZ `ln` COMMAND EXPECTED YOU TO PASS ALL PATHS AS ABSOLUTE PATH ONLY! THUS ABOVE COMMAND WOULD MAKE A BAD SOFT LINK WHICH WON'T WORK.
+
+# REMOVING SOFT LINKS
+sudo rm /usr/bin/c.sh
 ```
 
 ## Good use of `trap` command
