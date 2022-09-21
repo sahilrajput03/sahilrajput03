@@ -31,7 +31,7 @@ Source: https://serverfault.com/questions/585503/postfix-connection-timed-out-on
 
 ```bash
 # compare outpus of below two commands:
-sudo traceroute -n -T -p 27 gmail-smtp-in.l.google.com
+sudo traceroute -n -T -p 25 gmail-smtp-in.l.google.com
 sudo traceroute -n -T -p 80 gmail-smtp-in.l.google.com
 
 ## other way - get all mx addresses of gmail
