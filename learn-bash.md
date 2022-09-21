@@ -9,6 +9,13 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Using softlink to create a binary link in `/usr/bin` directory to make binaris available from everywhere
+
+```bash
+# Make a soft link of `docker-compose` to /usr/bin directory
+sudo ln -s /usr/local/lib/docker/cli-plugins/docker-compose /usr/bin/docker-compose
+```
+
 ## Good use of `trap` command
 
 ```bash
