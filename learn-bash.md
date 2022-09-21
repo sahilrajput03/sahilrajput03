@@ -12,8 +12,17 @@
 ## Using softlink to create a binary link in `/usr/bin` directory to make binaris available from everywhere
 
 ```bash
+# example 1
 # Make a soft link of `docker-compose` to /usr/bin directory
 sudo ln -s /usr/local/lib/docker/cli-plugins/docker-compose /usr/bin/docker-compose
+
+# example 2 (TIP: Always use absolute paths while making soft links):
+sudo ln -s /home/array/test/c.sh /usr/bin/c.sh
+
+# YOU SHOULD NOT IT THIS WAY:
+cd ~/test/
+sudo ln -s ./c.sh /usr/bin/c.sh
+# ALERT: THIS IS BAD BECOZ `ln` COMMAND EXPECTED YOU TO PASS ALL PATHS AS ABSOLUTE PATH ONLY! THUS ABOVE COMMAND WOULD MAKE A BAD SOFT LINK WHICH WON'T WORK.
 ```
 
 ## Good use of `trap` command
