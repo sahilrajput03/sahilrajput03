@@ -2,6 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/191476048-e6f945da-d749-4c1f-a94e-c3b1688f54b2.png)
 
+![image](https://user-images.githubusercontent.com/31458531/191493007-38608462-79ef-4303-8008-f2a22f2da42d.png)
 
 - Edit file `/etc/hosts` and later check if updated via `hostname -f` f stands for full FQDN
 
