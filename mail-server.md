@@ -24,6 +24,9 @@ ctrl+]quit
 
 - Connection Timeouts (end of hard working hours):
 
+[QUESTION SEARCH @ google](https://www.google.com/search?q=postfix+gmail+connection+timeout&newwindow=1&biw=745&bih=935&sxsrf=ALiCzsbK2ObC9O97ELOSmTk-I7cP8G2fMA%3A1663796169436&ei=yYMrY52lGriO3LUP58aAkAM&ved=0ahUKEwjdraHd66b6AhU4B7cAHWcjADIQ4dUDCA4&uact=5&oq=postfix+gmail+connection+timeout&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEB4QFjIFCAAQhgM6BAgAEEc6BQghEKABSgQIQRgASgQIRhgAUMsEWMUGYI8IaABwAngAgAGGAogBlwWSAQUwLjEuMpgBAKABAcgBCMABAQ&sclient=gws-wiz)
+
+
 Source: https://serverfault.com/questions/585503/postfix-connection-timed-out-on-all-outbound-email
 
 ```bash
@@ -31,4 +34,20 @@ Source: https://serverfault.com/questions/585503/postfix-connection-timed-out-on
 sudo traceroute -n -T -p 27 gmail-smtp-in.l.google.com
 sudo traceroute -n -T -p 80 gmail-smtp-in.l.google.com
 
+## other way - get all mx addresses of gmail
+host -t mx gmail.com
+# OUTPUT:
+# gmail.com mail is handled by 40 alt4.gmail-smtp-in.l.google.com.
+# gmail.com mail is handled by 20 alt2.gmail-smtp-in.l.google.com.
+# gmail.com mail is handled by 30 alt3.gmail-smtp-in.l.google.com.
+# gmail.com mail is handled by 5 gmail-smtp-in.l.google.com.
+# gmail.com mail is handled by 10 alt1.gmail-smtp-in.l.google.com.
+##### AND NOW TRY CONNECTING TO EACH OF THEM:
+telnet alt4.gmail-smtp-in.l.google.com 25
+telnet alt2.gmail-smtp-in.l.google.com 25
+telnet alt3.gmail-smtp-in.l.google.com 25
+telnet gmail-smtp-in.l.google.com 25
+telnet alt1.gmail-smtp-in.l.google.com 25
 ```
+
+
