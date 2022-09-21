@@ -20,3 +20,15 @@ sudo postfix reload
 # escaping?
 ctrl+]quit
 ```
+
+
+- Connection Timeouts (end of hard working hours):
+
+Source: https://serverfault.com/questions/585503/postfix-connection-timed-out-on-all-outbound-email
+
+```bash
+# compare outpus of below two commands:
+sudo traceroute -n -T -p 27 gmail-smtp-in.l.google.com
+sudo traceroute -n -T -p 80 gmail-smtp-in.l.google.com
+
+```
