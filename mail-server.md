@@ -10,3 +10,12 @@
 - Edit file `/etc/hostname` and later check if updatd via `hostname`
 
 ![image](https://user-images.githubusercontent.com/31458531/191477125-3f72be38-15f5-4869-96d4-46c3af23f359.png)
+
+
+- telnet
+
+```bash
+sudo postfix reload
+# escaping?
+ctrl+]quit
+```
