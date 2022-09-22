@@ -71,4 +71,4 @@ we include above file in below file:
 
 - thunderbird: connection example
 
-![image](https://user-images.githubusercontent.com/31458531/191747846-e65a2ace-7eea-47ee-abde-81beca6fbfb9.png)
+![image](https://user-images.githubusercontent.com/31458531/191748166-3036c471-6410-4d0b-be0d-ffc1f7511eae.png)
