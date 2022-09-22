@@ -8,7 +8,7 @@ from tutorial:
 
 ![image](https://user-images.githubusercontent.com/31458531/191708520-65487d3c-c44a-4b64-9e10-7efaef487615.png)
 
-- usng a record:
+- usng A record:
 
 ![image](https://user-images.githubusercontent.com/31458531/191493007-38608462-79ef-4303-8008-f2a22f2da42d.png)
 
