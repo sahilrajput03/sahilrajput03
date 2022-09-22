@@ -67,3 +67,8 @@ telnet alt1.gmail-smtp-in.l.google.com 25
 we include above file in below file:
 
 ![image](https://user-images.githubusercontent.com/31458531/191729935-c7d1d5c2-8891-4e07-8af7-99849286252e.png)
+
+
+- thunderbird: connection example
+
+![image](https://user-images.githubusercontent.com/31458531/191747846-e65a2ace-7eea-47ee-abde-81beca6fbfb9.png)
