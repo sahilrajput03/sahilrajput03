@@ -59,3 +59,11 @@ telnet alt1.gmail-smtp-in.l.google.com 25
 ```
 
 
+
+- LEARN records and zones in linux only
+
+![image](https://user-images.githubusercontent.com/31458531/191730102-63ccb7f6-fa78-44df-b67a-5aa3e0a9cac4.png)
+
+we include above file in below file:
+
+![image](https://user-images.githubusercontent.com/31458531/191729935-c7d1d5c2-8891-4e07-8af7-99849286252e.png)
