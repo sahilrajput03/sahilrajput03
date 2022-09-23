@@ -1,6 +1,16 @@
 # cool
 
-from tutorial:
+LEARN: To open your outbound port you need to have static ip address ~ Connect Broadband Service Provider. FYI: Static ip costs (500Rs + 18%GST) per month.
+
+**Services from mxtoolbox.com:**
+
+- Check if your ip is blacklisted: [Click here](https://mxtoolbox.com/SuperTool.aspx?action=blacklist:124.253.37.214&run=problempage)
+- Check if you ip is blocklisted: [Click here](https://mxtoolbox.com/SuperTool.aspx?action=blacklist:124.253.37.214&run=problempage)
+- Arn Lookup: [Click here](https://mxtoolbox.com/SuperTool.aspx?action=arin%3a124.253.206.231&run=toolpage)
+- MX Lookup: [Click here](https://mxtoolbox.com/SuperTool.aspx?action=mx%3a124.253.38.125&run=toolpage)
+- Whats my ip: [Click here](https://mxtoolbox.com/whatismyip/)
+
+**from tutorial:**
 
 ![image](https://user-images.githubusercontent.com/31458531/191476048-e6f945da-d749-4c1f-a94e-c3b1688f54b2.png)
 
