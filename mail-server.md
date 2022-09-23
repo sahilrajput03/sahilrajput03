@@ -51,11 +51,14 @@ host -t mx gmail.com
 # gmail.com mail is handled by 5 gmail-smtp-in.l.google.com.
 # gmail.com mail is handled by 10 alt1.gmail-smtp-in.l.google.com.
 ##### AND NOW TRY CONNECTING TO EACH OF THEM: (source: https://unix.stackexchange.com/a/615982)
-telnet alt4.gmail-smtp-in.l.google.com 25
+telnet gmail-smtp-in.l.google.com 25
 telnet alt2.gmail-smtp-in.l.google.com 25
 telnet alt3.gmail-smtp-in.l.google.com 25
-telnet gmail-smtp-in.l.google.com 25
+telnet alt4.gmail-smtp-in.l.google.com 25
 telnet alt1.gmail-smtp-in.l.google.com 25
+-
+telnet gmail-smtp-in.l.google.com 25
+telnet smtp-mail.outlook.com 25
 ```
 
 
