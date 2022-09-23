@@ -159,6 +159,10 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 
+## What is LOC?
+
+![image](https://user-images.githubusercontent.com/31458531/191981455-7461187a-38a9-4b18-820d-9bd4c3f4e803.png)
+
 ## Add github comment system to your blog
 
 React Giscus Component: [Click here](https://github.com/giscus/giscus-component)
