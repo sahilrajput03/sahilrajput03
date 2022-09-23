@@ -92,3 +92,8 @@ we include above file in below file:
 - why outbound port is blocked by isp's?
 
 ![image](https://user-images.githubusercontent.com/31458531/191831981-3690261e-eace-4aea-9490-679f8452097c.png)
+
+
+## ZOHO doens't support freenom domains
+
+![image](https://user-images.githubusercontent.com/31458531/191964908-9ec5acab-a576-446c-8162-5322cd843603.png)
