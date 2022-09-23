@@ -1,6 +1,6 @@
 # cool
 
-LEARN: To open your outbound port you need to have static ip address ~ Connect Broadband Service Provider. FYI: Static ip costs (500Rs + 18%GST) per month.
+CONNECT BROADBAND: **To open your outbound port you need to have static ip address ~ Connect Broadband Service Provider. FYI: Static ip costs (500Rs + 18%GST) per month.**
 
 **Services from mxtoolbox.com:**
 
