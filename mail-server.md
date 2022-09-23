@@ -1,5 +1,9 @@
 # LEARN MAIL SERVER HOSTING
 
+- Why does ISP's block outbound 25?
+
+Visit: https://www.quora.com/Why-does-the-ISP-block-port-25
+
 - **IMPORTANT: CONNECT BROADBAND:**
 To open your outbound port you need to have static ip address ~ Connect Broadband Service Provider. FYI: Static ip costs (500Rs + 18%GST) per month.
 
