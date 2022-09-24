@@ -167,6 +167,10 @@ https://gist.github.com/samoshkin/c0a2c0dd85b1d5b02d893a0f6ac0e93c
 
 ![image](https://user-images.githubusercontent.com/31458531/191981455-7461187a-38a9-4b18-820d-9bd4c3f4e803.png)
 
+what is sloc?
+
+![image](https://user-images.githubusercontent.com/31458531/192101894-4657cd21-f232-4ff4-b67b-a36bad1c392e.png)
+
 ## Add github comment system to your blog
 
 React Giscus Component: [Click here](https://github.com/giscus/giscus-component)
