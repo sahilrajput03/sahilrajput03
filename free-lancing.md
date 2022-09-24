@@ -3,6 +3,7 @@
 - speakshow (animal social media) - where you can not only tweet but roar, meow, bark as well. :D0
   - theme of the site should be mix of all animals but the message box can be animtaed compared what what you spoke.
   - signable via google, facebook, twitter login, github login, etc
+  - SOUNDS: https://en.wikipedia.org/wiki/List_of_animal_sounds
 - select what movies you have seen and make the ui cool
   - signable via google, facebook, twitter login, github login, etc
 
