@@ -1,3 +1,11 @@
+## projects making currently
+
+- speakshow (animal social media) - where you can not only tweet but roar, meow, bark as well. :D0
+  - theme of the site should be mix of all animals but the message box can be animtaed compared what what you spoke.
+  - signable via google, facebook, twitter login, github login, etc
+- select what movies you have seen and make the ui cool
+  - signable via google, facebook, twitter login, github login, etc
+
 ## upwork todo resources
 
 - How to Write a Winning Upwork Job Proposal in 2022 - [Click here](https://www.youtube.com/watch?v=bKwbFuqt528)
