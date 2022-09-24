@@ -159,6 +159,10 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 
+## insomnia vs. postman
+
+https://gist.github.com/samoshkin/c0a2c0dd85b1d5b02d893a0f6ac0e93c
+
 ## What is LOC?
 
 ![image](https://user-images.githubusercontent.com/31458531/191981455-7461187a-38a9-4b18-820d-9bd4c3f4e803.png)
