@@ -146,7 +146,6 @@ cra: 335mb
 - **Learn axios:** [Click here](learn-axios.md)
 - **Learn nestjs:** [Click here](learn-nestjs.md) 
 - **Learn push notificaitons:** [Click here](learn-push-notifications.md)
-- **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 - **Learn heroku webhooks:** [Click here](learn-web-hooks.md)
 - **Learn Sending verification OTP's with twilio:** [Click here](learn-twilio.md)
 - **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](learn-why-websites-first-not-mobile-apps.md)
