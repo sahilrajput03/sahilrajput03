@@ -1,3 +1,9 @@
+## upwork todo resources
+
+- How to Write a Winning Upwork Job Proposal in 2022 - [Click here](https://www.youtube.com/watch?v=bKwbFuqt528)
+- Watched
+  - How To Make Your Upwork Profile Stand Out With an Introduction Video - [Click here](https://www.youtube.com/watch?v=gSPrxBP1Fnw)
+
 ## Find remote work site
 
 https://twitter.com/Insharamin/status/1571788158748196865
