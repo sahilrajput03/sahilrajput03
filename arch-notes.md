@@ -8,6 +8,12 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install `insomnia` - a postman's opensource alternative
+
+```bash
+yay -S insomnia
+```
+
 ## Best mail servers linux
 
 - Article: https://cloud7.news/linux/7-best-linux-mail-servers/
