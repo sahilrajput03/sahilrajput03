@@ -13,7 +13,7 @@
 Simply move the binary to `/usr/bin` directory or you can make a symlink in the `/usr/bin` directory as well.
 
 ```bash
-ln -s absolute_path_of_my_binary /usr/bin/
+sudo ln -s /home/array/test/b.sh /usr/bin/
 ```
 
 ## Install `insomnia` - a postman's opensource alternative
