@@ -158,6 +158,15 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 
+## Creating MRE's 
+
+https://stackoverflow.com/help/minimal-reproducible-example
+
+## Most Amaizng graphql client library
+
+https://github.com/gqty-dev/gqty
+
+
 ## insomnia vs. postman
 
 https://gist.github.com/samoshkin/c0a2c0dd85b1d5b02d893a0f6ac0e93c
