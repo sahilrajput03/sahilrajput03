@@ -11,7 +11,8 @@
 ## Install `insomnia` - a postman's opensource alternative
 
 ```bash
-yay -S insomnia
+# Download official appImage version of the release from its official page @ https://github.com/Kong/insomnia/releases/tag/core@2022.5.1
+# now you can simply add this to /usr/bin directory to be available to all users.
 ```
 
 ## Best mail servers linux
