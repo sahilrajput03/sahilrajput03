@@ -4,6 +4,10 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/192097123-03363f4f-c73f-4eeb-8560-ea43f28af8e4.png)
 
+- To use a environment variable, make sure you have an active environment:
+
+![image](https://user-images.githubusercontent.com/31458531/192097168-c942fe81-bac8-433e-8782-17d5f0175993.png)
+
 - Realistic Example of setting and using environment variable:
 
 ![image](https://user-images.githubusercontent.com/31458531/192096992-b0f411bd-94b8-40ec-b8e3-1da159dfb7bc.png)
