@@ -1,5 +1,9 @@
 # Learn postman
 
+- Thats how you export a postman collection:
+
+![image](https://user-images.githubusercontent.com/31458531/192098914-a3438a9c-21cc-4fe0-9db3-fbd8bd3ee4fe.png)
+
 - There are three types of variables-
 
 ![image](https://user-images.githubusercontent.com/31458531/192097123-03363f4f-c73f-4eeb-8560-ea43f28af8e4.png)
