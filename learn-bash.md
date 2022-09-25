@@ -9,6 +9,21 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Confused with all the paths in scripts?
+
+```bash
+#!/bin/bash
+# Prints the directory from which the script is executed, i.e., EXECUTION_PATH
+echo $PWD
+
+# Prints the relative directory path of this file
+dirname -- "${BASH_SOURCE[0]}"
+
+# Prints the relative path of this file w.r.t the EXECUTION_PATH
+echo ${BASH_SOURCE[0]}
+```
+
+
 ## Using softlink to create a binary link in `/usr/bin` directory to make binaris available from everywhere
 
 ```bash
