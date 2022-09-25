@@ -30,3 +30,7 @@
 **Reading Techniques:**
 
 - [Click here](reading-techniques.md)
+
+**Book Exerpts:**
+
+[Click here](book-exerpts.md)
