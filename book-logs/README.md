@@ -1,7 +1,7 @@
 # Books
 
 **Currently reading:**
-- Grit: The Power of Passion and Perseverance ~ Angela Duckworth ~ [Exerpt](grit.md)
+- Grit: The Power of Passion and Perseverance ~ Angela Duckworth ~ [Exerpt](grit.txt)
 - Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future ~ Ashlee Vance
 
 **Business/Startup/Management**
