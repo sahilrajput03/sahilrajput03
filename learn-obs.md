@@ -1,5 +1,12 @@
 # Readme
 
+## Noise Supression filter
+
+Using multiple simple filters: [my youtube video](https://www.youtube.com/watch?v=jjRvPKiSyks&feature=youtu.be)
+
+![image](https://user-images.githubusercontent.com/31458531/192278208-2733e422-19c9-4438-b0c6-7150a4e3be58.png)
+
+
 ## Video Settings
 
 ![image](https://user-images.githubusercontent.com/31458531/174532597-0fe33a0a-5fdc-4c53-961c-ee017f5f792a.png)
