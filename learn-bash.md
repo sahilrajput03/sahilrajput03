@@ -9,6 +9,13 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## free online linux machines and terminals
+
+- [http://copy.sh/v86/](http://copy.sh/v86/)
+- [https://bellard.org/jslinux/](https://bellard.org/jslinux/)
+
+Source: Amazing quora answer with 5+ resources: https://qr.ae/pviIdi
+
 ## Cannot type in termnal after pressing ctrl+c on any running program?
 
 Simply use `reset` command to get your teminal back. YO!!  [Source](https://superuser.com/a/237405)
