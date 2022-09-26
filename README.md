@@ -158,6 +158,13 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 
+## Deleting nested modules?
+
+```bash
+alias findNodeModules='sudo find . -name 'node_modules' -type d -prune'
+alias deleteNestedNodeModules="sudo find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+```
+
 ## Creating MRE's 
 
 https://stackoverflow.com/help/minimal-reproducible-example
