@@ -333,6 +333,22 @@ ls -l myFile newLinkNameHere
 ## Want a random temp file in `/tmp/` directory?
 
 ```bash
+  -d, --directory     create a directory, not a file
+  -u, --dry-run       do not create anything; merely print a name (unsafe)
+
+####### BACKING UP node_modules to temporary place for some time #####
+# MOVE NODE_MODULES TO TEMPORARY PLACE TO AVOID COPYING IT
+TEMP=$(mktemp -d)
+mv /home/array/scripts/bull/node_modules $TEMP
+# Backup scripts directory
+\cp -r $_home/scripts $backup_dir/
+echo "Backup of ~/scripts directory succeeded."
+# MOVE NODE_MODULES BACK TO ITS ORIGINAL PLACE
+mv $TEMP/node_modules /home/array/scripts/bull/
+```
+
+
+```bash
 mktemp
 # Output: /tmp/tmp.VVmWziFwYh
 
