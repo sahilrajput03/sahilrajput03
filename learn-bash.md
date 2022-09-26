@@ -9,6 +9,10 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Cannot type in termnal after pressing ctrl+c on any running program?
+
+Simply use `reset` command to get your teminal back. YO!!  [Source](https://superuser.com/a/237405)
+
 ## Confused with all the paths in scripts?
 
 ```bash
