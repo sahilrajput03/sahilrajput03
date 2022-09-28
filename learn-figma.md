@@ -10,6 +10,7 @@
 	- Case Studies of big companies - https://growth.design/
 	- Mobile Designs: https://mobbin.com/
 - TODO - https://medium.com/ansh-mehra
+- Chrome New Tab Extension: [Click here](https://chrome.google.com/webstore/detail/muzli-2-stay-inspired/glcipcfhmopcgidicgdociohdoicpdfc?hl=en)
 
 ## Resources for images, gifs, svgs ?: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
