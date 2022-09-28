@@ -230,3 +230,12 @@ You can use `CNAME` like below **(disadvantage is we can't redirect top level do
 
 Yes, absolutely. The key thing is that you must know how to debug pwa Installer Popup with lighthouse and fulfill those requirements. The thing I was haivng issue on this day(1 June, 2022) is that I was not adding a service worker to the app and that was necessary to get Installer Popup work as informed by the Lighthouse debugging in chrome devtools.
 ![image](https://user-images.githubusercontent.com/31458531/171352768-5a66dea9-270e-4056-b4b6-481c937eb510.png)
+
+## Direct domain to vercel hosting
+
+![image](https://user-images.githubusercontent.com/31458531/192787365-6c3c392c-af1b-4564-a509-1a406d107e73.png)
+
+```txt
+NS1.VERCEL-DNS.COM
+NS2.VERCEL-DNS.COM
+```
