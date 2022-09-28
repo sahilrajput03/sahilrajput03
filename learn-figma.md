@@ -1,7 +1,6 @@
 # Learning Figma
 
-Ansh Mehra's Recommended 50-60hrs of Figma's Resources:
-**Tutorials: **
+**Ansh Mehra's Recommended 50-60hrs of Figma's Resources Tutorials:** [Source](https://www.youtube.com/watch?v=YEFCoRcP4Fw)
 - TODO - Playlist - Explore design features in Figma: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23)
 - TODO - Playlist - Figma Tips: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx53btRMBES-ASBBm03-bUCJ)
 - TODO - Playlist - Office hours: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx4kKv1IdI-NdlKyCWwE6Ge6)
