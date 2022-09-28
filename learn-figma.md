@@ -2,12 +2,12 @@
 
 Ansh Mehra's Recommended 50-60hrs of Figma's Resources:
 **Tutorials: **
-- Playlist - Explore design features in Figma: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23)
-- Playlist - Figma Tips: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx53btRMBES-ASBBm03-bUCJ)
-- Playlist - Office hours: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx4kKv1IdI-NdlKyCWwE6Ge6)
-- https://awesomefigtips.com/
-- https://figmalion.com/
-- https://medium.com/ansh-mehra
+- TODO - Playlist - Explore design features in Figma: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23)
+- TODO - Playlist - Figma Tips: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx53btRMBES-ASBBm03-bUCJ)
+- TODO - Playlist - Office hours: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx4kKv1IdI-NdlKyCWwE6Ge6)
+- TODO - https://awesomefigtips.com/
+- TODO - https://figmalion.com/
+- TODO - https://medium.com/ansh-mehra
 
 ## Resources for images, gifs, svgs ?: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
