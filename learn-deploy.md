@@ -233,9 +233,9 @@ Yes, absolutely. The key thing is that you must know how to debug pwa Installer 
 
 ## Direct domain to vercel hosting
 
-![image](https://user-images.githubusercontent.com/31458531/192787365-6c3c392c-af1b-4564-a509-1a406d107e73.png)
-
 ```txt
 NS1.VERCEL-DNS.COM
 NS2.VERCEL-DNS.COM
 ```
+
+![image](https://user-images.githubusercontent.com/31458531/192787365-6c3c392c-af1b-4564-a509-1a406d107e73.png)
