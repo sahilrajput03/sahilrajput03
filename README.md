@@ -152,6 +152,10 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 
+## Event Hosting platform
+
+https://www.zuddl.com/
+
 ## Deleting nested modules?
 
 ```bash
