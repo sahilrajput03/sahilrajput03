@@ -152,6 +152,14 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 
+## In vscode you can reference file as links as well
+
+Source: https://stackoverflow.com/a/3760547/10012446
+
+```js
+// For example the following text would act as link in vscode: file://./scripts/deployKryptoBird.js
+```
+
 ## Event Hosting platform
 
 https://www.zuddl.com/
