@@ -6,6 +6,9 @@
 - TODO - Playlist - Office hours: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx4kKv1IdI-NdlKyCWwE6Ge6)
 - TODO - https://awesomefigtips.com/
 - TODO - https://figmalion.com/
+- More Resoucres [source](https://www.youtube.com/watch?v=iehzWCm8KHs)
+	- Case Studies of big companies - https://growth.design/
+	- Mobile Designs: https://mobbin.com/
 - TODO - https://medium.com/ansh-mehra
 
 ## Resources for images, gifs, svgs ?: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
