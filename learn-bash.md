@@ -27,10 +27,10 @@ Simply use `reset` command to get your teminal back. YO!!  [Source](https://supe
 # Prints the directory from which the script is executed, i.e., EXECUTION_PATH
 echo $PWD
 
-# Prints the relative directory path of this file
+# Prints the relative DIRECTORY PATH of this file
 dirname -- "${BASH_SOURCE[0]}"
 
-# Prints the relative file path w.r.t the EXECUTION_PATH
+# Prints the relative FILE PATH w.r.t the EXECUTION_PATH
 echo ${BASH_SOURCE[0]}
 ```
 
