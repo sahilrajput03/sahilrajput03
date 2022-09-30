@@ -98,10 +98,17 @@ Source: `Fireship.io` & https://linuxize.com/post/how-to-extract-unzip-tar-gz-fi
 `gzip` can compress only files.
 
 ```bash
+
+# COMPRESSING TO A TARGET FILE
+gzip -c a.txt > a.gz
+ls
+ # OUTPUT: a.txt a.gz
+ 
 # COMPRESSING (by deafult gzip compresses files in place)
 gzip array.png
 ls
-array.png.gz
+# OUTPUT: array.png.gz
+
 
 # -l to list the compression ratio (higher the ratio more will be the size reduced):
 gzip -l array.png.gz
