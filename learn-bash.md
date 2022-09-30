@@ -30,7 +30,7 @@ echo $PWD
 # Prints the relative directory path of this file
 dirname -- "${BASH_SOURCE[0]}"
 
-# Prints the relative path of this file w.r.t the EXECUTION_PATH
+# Prints the relative file path w.r.t the EXECUTION_PATH
 echo ${BASH_SOURCE[0]}
 ```
 
