@@ -34,7 +34,7 @@ dirname -- "${BASH_SOURCE[0]}"
 echo ${BASH_SOURCE[0]}
 ```
 
-## Making pure executable scripts
+#### Making pure executable scripts
 
 So, below script will cause to execute the `sops` command to run from the parent directory of the `scripts` directory at all times no matter where do you execute the script from.
 
