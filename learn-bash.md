@@ -99,6 +99,15 @@ Source: `Fireship.io` & https://linuxize.com/post/how-to-extract-unzip-tar-gz-fi
 
 ```bash
 
+# COMPRESSING A DIRECTORY: src: https://unix.stackexchange.com/a/93158/504112
+tar -zcvf archive.tar.gz directory/ 
+# LEARN: 
+# compress it using the z (gzip) algorithm
+# c (create) an archive from the files in directory (tar is recursive by default)
+# v (verbosely) list (on /dev/stderr so it doesn't affect piped commands) all the files it adds to the archive.
+# and store the output as a f (file) named archive.tar.gz
+
+
 # COMPRESSING TO A TARGET FILE
 gzip -c a.txt > a.gz
 ls
