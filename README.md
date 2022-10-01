@@ -152,6 +152,10 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 
+## Free database, 
+
+Good service for mysql hosting: https://planetscale.com/
+
 ## In vscode you can reference file as links as well
 
 Source: https://stackoverflow.com/a/3760547/10012446
