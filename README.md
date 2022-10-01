@@ -154,6 +154,8 @@ cra: 335mb
 
 ## Free database, 
 
+*Doesn't support postgres or mondodb.*
+
 Good service for mysql hosting: https://planetscale.com/
 
 ## In vscode you can reference file as links as well
