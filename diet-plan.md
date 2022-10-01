@@ -131,3 +131,7 @@ Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
     - Add boiled moong daal now and mix well with spices and add water according to gravy(you only have to cook for 3-4 minutes in total now else your daal will get too much fluffly and thats not good).
     - Add some chopped green coriander leaves (dhania patti) and add salt according to taste.
     - Now close the lid and let it cook for sometime on stove.
+
+- Remove coffee jhaag (use a full napkin):
+
+![image](https://user-images.githubusercontent.com/31458531/189655740-406aca63-0ea4-4397-8018-c706bb78bf1a.png)

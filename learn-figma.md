@@ -1,9 +1,20 @@
 # Learning Figma
 
+**Ansh Mehra's Recommended 50-60hrs of Figma's Resources Tutorials:** [Source](https://www.youtube.com/watch?v=YEFCoRcP4Fw)
+- TODO - Playlist - Explore design features in Figma: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23)
+- TODO - Playlist - Figma Tips: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx53btRMBES-ASBBm03-bUCJ)
+- TODO - Playlist - Office hours: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx4kKv1IdI-NdlKyCWwE6Ge6)
+- TODO - https://awesomefigtips.com/
+- TODO - https://figmalion.com/
+- More Resoucres [source](https://www.youtube.com/watch?v=iehzWCm8KHs)
+	- Case Studies of big companies - https://growth.design/
+	- Mobile Designs: https://mobbin.com/
+- TODO - https://medium.com/ansh-mehra
+- Chrome New Tab Extension: [Click here](https://chrome.google.com/webstore/detail/muzli-2-stay-inspired/glcipcfhmopcgidicgdociohdoicpdfc?hl=en)
+
 ## Resources for images, gifs, svgs ?: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
 **Courses:**
-
 - Learn Design (100% theory): [Click here](https://www.figma.com/resources/learn-design/lessons/)
 - TODO - Article: https://medium.com/@satjaleenmadan/little-figma-tricks-that-saved-my-time-75f65df684ac
 - TODO - Article: https://uxdesign.cc/10-figma-tricks-i-wish-i-knew-earlier-698e66a893f8
@@ -16,7 +27,6 @@
 - TODO (URGENT3): Article(practical-prototyping): From [official figma](https://help.figma.com/hc/en-us/articles/360051748654-Prototype-easing-curves?auth_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjo5MzI1MTQzLCJ1c2VyX2lkIjpudWxsLCJ0aWNrZXRfaWQiOm51bGwsImRlZmxlY3Rpb25faWQiOjQ2ODEyODU3MzQyOTUsImFydGljbGVzIjpbMzYwMDUxNzQ4NjU0LDM2MDA0MDUyMjM3MywzNjAwNDAzMTQxOTNdLCJ0b2tlbiI6bnVsbCwiZXhwIjoxNjQ5NTIxNjQwfQ.MVUsF0zPmFRl-ljVVZ9FtLyo9YqQS8bsO3SCdP4ZxcE)
 - TODO (URGENT4): Article(practical-prototyping): From [official figma](https://help.figma.com/hc/en-us/articles/360040522373-Prototype-animations?auth_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjo5MzI1MTQzLCJ1c2VyX2lkIjpudWxsLCJ0aWNrZXRfaWQiOm51bGwsImRlZmxlY3Rpb25faWQiOjQ2ODEyODU3MzQyOTUsImFydGljbGVzIjpbMzYwMDUxNzQ4NjU0LDM2MDA0MDUyMjM3MywzNjAwNDAzMTQxOTNdLCJ0b2tlbiI6bnVsbCwiZXhwIjoxNjQ5NTIxNjQwfQ.MVUsF0zPmFRl-ljVVZ9FtLyo9YqQS8bsO3SCdP4ZxcE)
 - Kevin@YouTube:
-
   - DONE: [Getting started with Figma: A beginner's guide](https://www.youtube.com/watch?v=eZJOSK4gXl4)
   - DONE: [Figma components: the basics to creating robust components](https://youtu.be/hnx5UWaP_jo)
   - DONE: [Figma in 5: Auto Layout](https://youtu.be/TyaGpGDFczw)
@@ -39,31 +49,23 @@
   - My copy version of *FOOD DELIVERY APP* in my figma draft: [Draft file](https://www.figma.com/file/KLqvjwP96rt2OBHqF7MhFV/Food-Delivery-UI---Free-(Copy)?node-id=0%3A1)
   - [File](https://www.figma.com/community/file/886554014393250663)
   - [File](https://www.figma.com/community/file/780582924744713607)
-  -  ->FYI: There are tons of free icon figma files shared by community on figma sites itself
+  - **FYI:** There are tons of free icon figma files shared by community on figma sites itself
   - For icons search **Free figma icons** on google to get such resources.
-
   - Charlie marietv summary of salaries: @ keep notes.
-  **1st week of march**:
-
+- **1st week of march**:
   - We can share styles across different files very easily with ***Team Library*** feature very easily. For demo check this timestamped video [here from figma itself](https://youtu.be/cCNLD5IZY34?t=209).
-
 - You can press and hold `alt` key while hovering over _text size_ numbers in the _Design tab_ to get a nice text ***size dragger*** to change the text size of textual number simply via mouse i.e, ***double headed arrow***.
-
 - Select **_frame tool_** (hotkey `F`) and you can now get a base frame of any device say for:
-
   - **_Phones_** you can select from _Android Large_, _Android Small_, _iPhone8_ (8 Plus, SE, 13mini, 13, 13 Pro, 13 Pro Max)
   - **_Tablet_** you can select from _Surface Pro 8_, _iPad mini 8.3_, _iPad Pro 11"_ or _iPad Pro 12.9"_
   - **_Desktop_** you can select from _MacBook Pro 14"_, _MacBook Pro 16"_, _Desktop_ or _iMac_
   - **_Presentation_** you can select from _Slide 16:9_ (1920x1080) or _Slide 4:3_ (1024x768)
   - FYI: You can change the width/height, round corner sizes, angle of the titlment of the frame later anytime as well.
-
 - **Fill**:
-
   - We can add multiple layers of **_Fill_** in a shape by clicking the `+` sign on next to **_Fill_** menu under _Design_ tab.
   - We can choose from fill types as _Solid_, _Linear_, _Radial_, _Angular_, _Diamond_ or _Image_.
   - Tip: In _Liner_ type, you have control of two types of opacity i.e., transparency of each color you have, and second is the overall transparency of the whole(you can set this by setting value in the text with % sign before the eye icon).
   - Tip: We can add multiple solid, gradient or radial fills here, that could be interesting though.
-
 - Layers? In the left bar i.e., **_Layers_** menu, object on the very top will show up on the very top in the cavase as well. THATS ALL!
 - Layers: You can select **_multiple_** entities and move them at the top or bottom very easily from the left bar, i.e., **_Layers_** menu directly.
 - Layers: It is very intutive to anybody else if you arrange the entites in the **_Layers_** menu according to the entity flow in the canvas. ALSO, instructs the very fundamental base of the distribution of entities as well. ~Kevin.
@@ -93,11 +95,8 @@
 - When you need to scale (make bigger) multiple text blocks so that your your font size also scales accordingly, you must use **Scale tool** i.e, (hotkey: `k`) {instead of move tool} and then you may click and drag the corner boxes to scale.
 - MAGIC: While you are in between of dragging your shapes when you're drawing them you press and hold hold `<space>` to actually move the shape without going distoring the shape that you have at the moment and after deciding the position you may rescale the shape as well. Magic isn't it?.
 - Color picker: You can select any entity(shape or text) and then press `i` to launch the color picker on the fly to select the entity's fill color.
-
 - _From Figma components: the basics to creating roubs components_:
-
 - _Auto layout_ feature:
-
   - An _Auto layout_ entity in the _layers menu_ has a icon like two rectangles stacked vertically or horizontally depending on the direction you choose for the _Auto layout_.
   - Select one or more entites and press `shift+a` to enable _Auto layout_ menu in the right bar under Design menu.
   - _Auto layout_: You can see the _Auto layout_ option in the right bar under _Design menu_ ONLY when you have selected TWO OR MORE entities. (TIP: You can still enable _Autolayout_ for single entity as well by using shortcut `shift+a`, thanks to Kevin).
@@ -121,9 +120,6 @@
 	- Right-click on the frame and select Remove auto layout
 	- In the right sidebar, click the  next to Auto layout
 	- Note: You can't use the Add auto layout keyboard shortcut to remove the auto layout property. Using this shortcut will create a new auto layout frame around your current selection.
-
-
-
 - Component Properties (Make an entity component with `ctrl+alt+k` ):
   - The Component entities appear is a solid diamond shaped icon whereas the instances(copies) if any appear as outlined diamond icon in the layers menu in the left bar.
   - _Inherited attributes_ can be: text content, text color, border radius, text style, text font, fill color, and many more!!
@@ -137,23 +133,15 @@
   - THE OTHER BIG REASON TO CREATE COMPONENTS: You can import any component into any frame or any other page or other frame (coz our components are available as assets in whole file) by selecting _Assets_ tab in the left bar, and then simply drag and drop any of the component you want.
   - After importing a component as asset in any frame/other page, we can change the component very simply by clicking the drop down menu and choose from the other available options from there. YO!
   - The main component can be very powerfully used in a way like: You may add tons of items in it {as its the base component for all the other components that you are making} and hide/show them accordingly in the instances of the main component so that you just have to maintain one single main component and don't redraw any new entity in any of the instances. THE BIG REASON we try not to add more entities to any instance of the main component is bcoz we simply cannot unless we detach the instance from its main component(by righ-clicking and choose _Detach_ option and it would just take away all the benefits we intended to leverage from the component's inheritance properties say padding, margins, widths, shadows, text fonts, etc). Thanks to Kevin.
-
-- Color Style:
-
+- **Color Style:**
   - You can create a _Color Style_ simly by selecting a color first in _Fill_ and then open the _Style menu_ (the for ***small squares stacked icon***) and then press the `+` icon and type the name for the color style you want to give it. ![image](https://user-images.githubusercontent.com/31458531/172355068-6df043c8-6bdc-4e0a-a934-d528d66099dd.png)
-
   - You can change any existing color by right clicking on the color in the _Color Styles_ section and simply choosing a new color now.
-
 - Frames:
-
   - A frame in the _layer menu_ has an icon like #
   - You can rename a frame as well as suited to what describes your current frame.
   - We can change the size of the frame by first selecting the frame via clicking on the frame name on top-left and then via the highlighted edges we can resize the frame easily.
-
 - Pages:
-
   - You can rename the page name as well, by double clicking the page name.
-
 - Others:
   - You can duplicate a layer by selecting it and the layer first and then using `ctrl+d` shortcut.
   - _Auto layout_ vs. _Grouping_: Auto layout works like a group though but with additional capability like {internal margin to each other can be set at once}, or we can center content in a parent container via both horizontally or vertically by the settings in the _Auto layout_ menu, whereas in a group feature there's no such thing.
@@ -236,3 +224,51 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 - Use `right mouse click` to shown options in prototype display tab.
 - Toggle between prototype mode and design mode using hotkey `shift+e` or simply choose from the right **_Prototype_** or **_Design_** tab in the right hand side bar.
 - In the **_prototype tab_**, you can select one of the interactions with mouse to open its **_interaction details_** or you can simply click the prototype arrows to open it directly.
+
+- Un-component a component, #remove a component:
+	
+![image](https://user-images.githubusercontent.com/31458531/188628966-618cce63-44f0-4a3d-8729-e4f41d413030.png)
+
+
+- Identifying component vs. component instance?
+
+	![image](https://user-images.githubusercontent.com/31458531/188657241-a24ce6d3-9429-45c4-a795-bac83d717ab2.png)
+
+	![image](https://user-images.githubusercontent.com/31458531/188658035-425d648d-e1af-41ad-b1d9-c1ea3c6d1604.png)
+- Making use of copmonents the way Kevin Powell uses them:
+	
+![image](https://user-images.githubusercontent.com/31458531/188663585-b802e7d6-e6c8-41e5-8d34-a579e1e89a22.png)
+
+- You can go to original component from the selected component instace simply by clicking that button:
+	
+![image](https://user-images.githubusercontent.com/31458531/189419051-c1a6116d-3343-405d-b3ba-b78d45c88b80.png)
+
+- Creating variant in figma (*Make sure you have selected a component first*):
+	
+	Source: Amazing video by figma itself on variant feature of components: https://youtu.be/y29Xwt9dET0
+	
+	Enable variants by,
+	
+	![image](https://user-images.githubusercontent.com/31458531/189422460-0e61553e-ebe8-4218-95b0-8614d852df81.png)
+
+
+	Now use that button to add variants,
+	
+	![image](https://user-images.githubusercontent.com/31458531/189422746-ebf40436-0cd4-4777-9721-bf318fb814ea.png)
+
+	You can see the hierarchy created like that:
+	
+	![image](https://user-images.githubusercontent.com/31458531/189423001-c2a7736b-f719-4ace-8f38-2aa381ca032f.png)
+
+	So, now I created a copy (duplicate of *default*) and we can select the variant for that component instance now via that select-menu:
+	
+	![image](https://user-images.githubusercontent.com/31458531/189423477-9d052f6d-e6b1-46f6-8869-df526c147927.png)
+
+	so, selecting **Variant2** would make it like look like that:
+	
+	![image](https://user-images.githubusercontent.com/31458531/189423563-a91b0d31-2784-4f5a-87ee-8c28516ec979.png)
+
+## yet another amazing prototyping tool
+	
+	- Framer - Interactive Prototypes: [Click here@youtube__video](https://www.youtube.com/watch?v=k7gwtxeeOQM)
+	- prototypign with framer - [youtube search](https://www.youtube.com/results?search_query=prototyping+in+framer)

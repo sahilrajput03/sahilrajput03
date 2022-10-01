@@ -1,3 +1,37 @@
+## projects making currently
+
+- speakshow (animal social media) - where you can not only tweet but roar, meow, bark as well. :D0
+  - theme of the site should be mix of all animals but the message box can be animtaed compared what what you spoke.
+  - signable via google, facebook, twitter login, github login, etc
+  - SOUNDS: https://en.wikipedia.org/wiki/List_of_animal_sounds
+- select what movies you have seen and make the ui cool
+  - signable via google, facebook, twitter login, github login, etc
+
+## upwork todo resources
+
+- How to Write a Winning Upwork Job Proposal in 2022 - [Click here](https://www.youtube.com/watch?v=bKwbFuqt528)
+- Watched
+  - How To Make Your Upwork Profile Stand Out With an Introduction Video - [Click here](https://www.youtube.com/watch?v=gSPrxBP1Fnw)
+
+## Find remote work site
+
+https://twitter.com/Insharamin/status/1571788158748196865
+
+```
+→ remoteok .com
+ →showwcase .com
+→ freelancer .com
+→ remotive .io
+→ remoteglobal .com
+→ devsnap .io
+ →working nomads .co
+→ nodes .co
+ →epic jobs .co
+→ remotehunt .com
+→ weworkremotely .com
+ →flexjobs .com
+```
+
 ## Making 10 Great projects
 
 - hamza upwork profile: https://www.upwork.com/freelancers/~010d286513e675c74e?p=1452923993020219392
@@ -15,6 +49,8 @@
 
 - Hammad Siddique: https://hammad.pro/
 - https://github.com/nandhakumar-rs: Also freelancer, working @totel currently.
+- Nandha Kumar: [Upwork Profile](https://www.upwork.com/freelancers/~013b67892e803aecec)
+- Aashif Ahamed: https://aashifahamed.github.io/
 
 Rakesh:
   - https://itsrakesh.co/work

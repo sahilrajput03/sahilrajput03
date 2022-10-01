@@ -1,4 +1,4 @@
-**Techonologies**
+#### Techonologies
 <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
 <img src="https://img.shields.io/badge/material%20ui%20-%230081CB.svg?&style=for-the-badge&logo=material-ui&logoColor=white"/>
@@ -10,12 +10,12 @@
 <img alt="GitHub Actions" src="https://img.shields.io/badge/github%20actions%20-%232671E5.svg?&style=for-the-badge&logo=github%20actions&logoColor=white"/>
 <img alt="Debian" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
 
-**Web Profile**
+#### Web Profile
 
 - Contact Me: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/me</a>
 - Detailed Resume: [Click here](https://github.com/sahilrajput03/my_bin/raw/master/resume/sahil-rajput_resume-linux-feb-2022.pdf)
 
-**Projects & Services**
+#### Projects & Services
 
 - <a href="https://letsjoin.ml/" target="_blank">Group Video Call App</a>
 - <a href="https://elegant-chat-app.herokuapp.com" target="_blank">Group Text Chat App</a>
@@ -25,7 +25,7 @@
 - <a href="https://flycodesandbox.netlify.app" target="_blank">Fly 🚀︎ a codesandbox</a>
 - <a href="https://rpc-demo.herokuapp.com/" target="_blank">Demo of `rpc-middleware`</a>
 
-**Packages published @ `npm.com`/`yarnpkg.com`**
+#### Packages published @ `npm.com`/`yarnpkg.com`
 
 - <a href="https://www.npmjs.com/package/rpc-middleware" target="_blank">rpc-demo</a> - A rpc specification based nodejs/expressjs middleware
 - <a href="https://www.npmjs.com/package/usewhat" target="_blank">useWhat</a> - Dead simple REACT state management solution
@@ -42,7 +42,7 @@
 - <a href="https://www.npmjs.com/package/sahilrajput03-logger" target="_blank">sahilrajput03-logger</a> - A request logger middleware and general logging tool for server in nodejs/express for coloured output (Why? A. morgan prints single coloured logs)
 
 
-**Blogs**
+#### Blogs
 
 - <a href="https://sahilrajput03.ml/" target="_blank">sahilrajput03.ml</a>
 - <a href="https://github.com/sahilrajput03/config/" target="_blank">linux config</a>
@@ -53,13 +53,13 @@
 - <a href="https://sahilrajput03.github.io/uses" target="_blank">Uses</a> - Curated list of sofwares for Windows
 - <a href="https://jaadujinn.ml" target="_blank">Jaadujinn.ml</a>
 
-**Codesandboxes and Codepens**
+#### Codesandboxes and Codepens
 
 - <a href="https://codesandbox.io/u/sahilrajput03" target="_blank">Sahil Rajput @codesandbox</a>
 - <a href="https://codesandbox.io/u/tannerlinsley/sandboxes" target="_blank">Tanner Linsley @ codesandbox</a>
 - <a href="https://codepen.io/kevinpowell" target="_blank">Kevin Powell @ codepen</a>
 
-**Social Handles**
+#### Social Handles
 
 [Stackoverflow](https://stackoverflow.com/users/10012446/sahil-rajput)
 

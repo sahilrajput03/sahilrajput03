@@ -15,15 +15,15 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
-### React Benchmarks
+### Benchmarks: React Project Size
 
 ```txt
 # 10 Jul, 2022
 # INIT NEW REACT APP #
-vite: 41m
-bun: 70m
-cna: 187m
-cra: 335m
+vite: 41mb
+bun: 70mb
+cna: 187mb
+cra: 335mb
 ```
 
 ### Jump Starters
@@ -48,9 +48,7 @@ cra: 335m
 - **Book logs:** [Click here](./book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses:** [Click here](courses-list.md)
-- **Css wow:** [Click here](https://codepen.io/cassidoo/)
 - **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
-- **Css Selectors:** [Click here](CSS-Selector-Cheat-Sheet-Dark.pdf)
 - **Enlightment:** [Cick here](enlightenment.md)
 - **FSO contribution:** [Click here](my-fso-contribution.md)
 - **Github Actions:** [Click here](github-actions.md)
@@ -134,11 +132,7 @@ cra: 335m
 - **Learn Travis:** [Click here](learn-travis.md)
 - **Learn Websockets:** [Click here](learn-websockets.md)
 - **Public Journal:** [Click here](public-journal.md)
-- **Whats Dribble.com:** [Click here](https://dribbble.com/) (Explore the world’s leading design portfolios)
 - **Learn `react-native`**: [Click here](https://github.com/sahilrajput03/learn-react-native)
-- **Learn Css Layout:** [Click here](https://csslayout.io/), [Github](https://github.com/1milligram/csslayout)
-- **Css Font Stack:** [Click here](https://www.cssfontstack.com/)
-- **Amazng design principles by itsrakesh:** [Click here](https://blog.itsrakesh.co/web-design-principles-1p2k)
 - **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
 - **Learn Webflow:** - [Click here](learn-webflow.md)
 - **Weird Problems:** - [Click here](weird-problems.md)
@@ -146,13 +140,144 @@ cra: 335m
 - **Learn axios:** [Click here](learn-axios.md)
 - **Learn nestjs:** [Click here](learn-nestjs.md) 
 - **Learn push notificaitons:** [Click here](learn-push-notifications.md)
-- **Learn nextjs api testing:** [Click here](learn-nextjs-api-testing.md)
 - **Learn heroku webhooks:** [Click here](learn-web-hooks.md)
 - **Learn Sending verification OTP's with twilio:** [Click here](learn-twilio.md)
 - **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](learn-why-websites-first-not-mobile-apps.md)
 - **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md)
 - **Learn proxy in js:** [Click here](learn-proxy.md)
 - **Learn postman:** [Click here](learn-postman.md)
+- **Learn redux-toolkit:** [Click here](learn-redux-toolkit.md)
+- **Learn stripe`:** [Click here](learn-stripe.md)
+- **Learn stocks:** [Click here](learn-stocks.md)
+- **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
+- **Learn Mailservers:** [Click here](mail-server.md)
+
+## Free database, 
+
+*Doesn't support postgres or mondodb.*
+
+Good service for mysql hosting: https://planetscale.com/
+
+## In vscode you can reference file as links as well
+
+Source: https://stackoverflow.com/a/3760547/10012446
+
+```js
+// For example the following text would act as link in vscode: file://./scripts/deployKryptoBird.js
+```
+
+## Event Hosting platform
+
+https://www.zuddl.com/
+
+## Deleting nested modules?
+
+```bash
+alias findNodeModules='sudo find . -name 'node_modules' -type d -prune'
+alias deleteNestedNodeModules="sudo find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+```
+
+## Creating MRE's 
+
+https://stackoverflow.com/help/minimal-reproducible-example
+
+## Most Amaizng graphql client library
+
+https://github.com/gqty-dev/gqty
+
+
+## insomnia vs. postman
+
+https://gist.github.com/samoshkin/c0a2c0dd85b1d5b02d893a0f6ac0e93c
+
+## What is LOC?
+
+![image](https://user-images.githubusercontent.com/31458531/191981455-7461187a-38a9-4b18-820d-9bd4c3f4e803.png)
+
+what is sloc?
+
+![image](https://user-images.githubusercontent.com/31458531/192101894-4657cd21-f232-4ff4-b67b-a36bad1c392e.png)
+
+## Add github comment system to your blog
+
+React Giscus Component: [Click here](https://github.com/giscus/giscus-component)
+
+![image](https://user-images.githubusercontent.com/31458531/191089743-42fa6344-7f4c-49b4-a451-33f5b7cbd3ea.png)
+
+![image](https://user-images.githubusercontent.com/31458531/191090180-f13232ea-4055-430d-8195-50a28738c1b3.png)
+
+
+## Looks like a good cache library 
+
+Inspiration: https://github.com/simoneb/axios-hooks#manual-requests
+
+https://github.com/isaacs/node-lru-cache
+
+## Get name and emails of all the authors of a git repo from the repository history
+
+```bash
+git log -s --format='%an %ae'
+# %an is for author name
+# %ae is for author email
+# Read whole docs @ https://git-scm.com/docs/git-log
+# Inspiration: https://stackoverflow.com/a/29876744
+```
+
+## Fix cors errors without fixing backend in chrome
+
+Chrome Extension: [CORS Unblock](https://chrome.google.com/webstore/detail/lfhmikememgdcahcdlaciloancbhjino)
+
+To test if cors get unblocked you can check via that page:
+
+![image](https://user-images.githubusercontent.com/31458531/190215507-2e77277c-6256-4949-be7a-9013b6cb999a.png)
+
+![image](https://user-images.githubusercontent.com/31458531/190404385-12bcd877-300e-4a04-a9f9-f01ff30348f8.png)
+
+![image](https://user-images.githubusercontent.com/31458531/190404437-ead9551f-73fd-4a68-819c-fbb35bdfc2b9.png)
+
+
+## Google maps apis is paid
+
+Source: https://developers.google.com/maps/documentation/javascript/get-api-key
+
+![image](https://user-images.githubusercontent.com/31458531/189949826-f62db559-27c1-4adc-9ac6-c00e353e84cc.png)
+
+
+## Tip: Using github to edit repo files on mobile
+
+Use chrome in desktop mode and then you'll be able to add pictures as well, yo!
+
+## react native vs. flutter
+
+https://youtu.be/3_FcxGCCnUs
+
+## Amazing article explaining nextjs's middleware and netflify's edge html rewriting
+
+https://www.netlify.com/blog/rewrite-html-transform-page-props-in-nextjs/
+
+## Learn maps and sets
+
+Source: [Kyle](https://www.youtube.com/watch?v=yJDofSGTSPQ&t=558s)
+
+Maps are for objects, and sets are for arrays.
+
+![image](https://user-images.githubusercontent.com/31458531/188707189-647a2622-a0a4-4fac-a46c-03f168daa631.png)
+
+
+Sets store unique values only:
+
+![image](https://user-images.githubusercontent.com/31458531/188707698-7e188018-c209-40b7-aa88-3e82c83aff6c.png)
+![image](https://user-images.githubusercontent.com/31458531/188707744-076ea635-171f-4107-9286-9e4266a3a6df.png)
+![image](https://user-images.githubusercontent.com/31458531/188707773-5befb57f-5a5c-469e-8f31-91c8648296e0.png)
+
+
+
+## Array.slice returns a shallow copy: Remeber it
+
+Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+![image](https://user-images.githubusercontent.com/31458531/188591089-91eca553-ab76-4837-8796-62712b991dc6.png)
+
 
 ## website performance analytics
 

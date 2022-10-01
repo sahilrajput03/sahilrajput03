@@ -1,12 +1,20 @@
-# Books 
+# Books
 
-**Code:**
+**Currently reading:**
+- Grit: The Power of Passion and Perseverance ~ Angela Duckworth ~ [Exerpt](grit.txt)
+- Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future ~ Ashlee Vance
+
+**Business/Startup/Management**
+- No Rules Rules: Netflix and the Culture of Reinvention ~ Erin Meyer and Reed Hastings
+- Rework ~ David Heinemeier Hansson and Jason Fried
+
+**Code**
 - The Code Book ~ *Simon Singh* [Download](the-code-book.md)
 - Eloquent Javascript ~ *Marijn Haverbeke*
 - Faster 100 Ways to Improve your Digital Life - *Ankit Fadia*
 - Pyjama Profit ~ *Abhinav Chhikara and Varun Mayya*
 
-**Psychology, Spiritual, etc:**
+**Psychology, Spiritual, etc**
 - Free as in Freedom ~ *Richard Stallman (Founder of GNU/GPL ad Free Software Foundation)*
 - The Autobiography of a yogi ~ *Paramahansa Yogananda*
 - 7 Habits of highly Effective People ~ *Stephen Covey*

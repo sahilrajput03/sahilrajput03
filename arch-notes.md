@@ -8,6 +8,31 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Add a binary to dmenu list of executables?
+
+Simply move the binary to `/usr/bin` directory or you can make a symlink in the `/usr/bin` directory as well.
+
+```bash
+sudo ln -s /home/array/test/b.sh /usr/bin/
+```
+
+## Install `insomnia` - a postman's opensource alternative
+
+```bash
+# Download official appImage version of the release from its official page @ https://github.com/Kong/insomnia/releases/tag/core@2022.5.1
+# now you can simply add this to /usr/bin directory to be available to all users.
+```
+
+## Best mail servers linux
+
+- Article: https://cloud7.news/linux/7-best-linux-mail-servers/
+- Postal (12k*): https://github.com/postalserver/postal
+
+**H-educate:**
+
+- Amazing Installation Article: https://h-educate.com/free-smtp-server-postal/
+- His old youtube video: https://www.youtube.com/watch?v=iNX8wFqmk0Y
+
 ## installed ngrok
 
 ```bash

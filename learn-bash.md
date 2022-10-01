@@ -9,6 +9,61 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## free online linux machines and terminals
+
+- [http://copy.sh/v86/](http://copy.sh/v86/)
+- [https://bellard.org/jslinux/](https://bellard.org/jslinux/)
+
+Source: Amazing quora answer with 5+ resources: https://qr.ae/pviIdi
+
+## Cannot type in termnal after pressing ctrl+c on any running program?
+
+Simply use `reset` command to get your teminal back. YO!!  [Source](https://superuser.com/a/237405)
+
+## Confused with all the paths in scripts?
+
+```bash
+#!/bin/bash
+# Prints the directory from which the script is executed, i.e., EXECUTION_PATH
+echo $PWD
+
+# Prints the relative DIRECTORY PATH of this file
+dirname -- "${BASH_SOURCE[0]}"
+
+# Prints the relative FILE PATH w.r.t the EXECUTION_PATH
+echo ${BASH_SOURCE[0]}
+```
+
+#### Making pure executable scripts
+
+So, below script will cause to execute the `sops` command to run from the parent directory of the `scripts` directory at all times no matter where do you execute the script from.
+
+```bash
+#!/bin/bash
+SCRIPTS_DIR_PATH=$(dirname -- "${BASH_SOURCE[0]}")
+cd $SCRIPTS_DIR_PATH/..
+sops -e .env > enc.env
+```
+
+## Using softlink to create a binary link in `/usr/bin` directory to make binaris available from everywhere
+
+```bash
+# example 1
+# Make a soft link of `docker-compose` to /usr/bin directory
+sudo ln -s /usr/local/lib/docker/cli-plugins/docker-compose /usr/bin/docker-compose
+
+# example 2 (TIP: Always use absolute paths while making soft links):
+sudo ln -s /home/array/test/c.sh /usr/bin/c.sh
+
+# YOU SHOULD NOT DO IT THIS WAY:
+cd ~/test/
+sudo ln -s ./c.sh /usr/bin/c.sh
+# ALERT: THIS IS BAD BECOZ `ln` COMMAND EXPECTED YOU TO PASS ALL PATHS AS ABSOLUTE PATH ONLY! THUS ABOVE COMMAND WOULD MAKE A BAD SOFT LINK WHICH WON'T WORK.
+
+# REMOVING SOFT LINKS
+sudo rm /usr/bin/c.sh
+```
+
 ## Good use of `trap` command
 
 ```bash
@@ -43,10 +98,26 @@ Source: `Fireship.io` & https://linuxize.com/post/how-to-extract-unzip-tar-gz-fi
 `gzip` can compress only files.
 
 ```bash
+
+# COMPRESSING A DIRECTORY: src: https://unix.stackexchange.com/a/93158/504112
+tar -zcvf archive.tar.gz directory/ 
+# LEARN: 
+# compress it using the z (gzip) algorithm
+# c (create) an archive from the files in directory (tar is recursive by default)
+# v (verbosely) list (on /dev/stderr so it doesn't affect piped commands) all the files it adds to the archive.
+# and store the output as a f (file) named archive.tar.gz
+
+
+# COMPRESSING TO A TARGET FILE
+gzip -c a.txt > a.gz
+ls
+ # OUTPUT: a.txt a.gz
+ 
 # COMPRESSING (by deafult gzip compresses files in place)
 gzip array.png
 ls
-array.png.gz
+# OUTPUT: array.png.gz
+
 
 # -l to list the compression ratio (higher the ratio more will be the size reduced):
 gzip -l array.png.gz
@@ -297,6 +368,22 @@ ls -l myFile newLinkNameHere
 ```
 
 ## Want a random temp file in `/tmp/` directory?
+
+```bash
+  -d, --directory     create a directory, not a file
+  -u, --dry-run       do not create anything; merely print a name (unsafe)
+
+####### BACKING UP node_modules to temporary place for some time #####
+# MOVE NODE_MODULES TO TEMPORARY PLACE TO AVOID COPYING IT
+TEMP=$(mktemp -d)
+mv /home/array/scripts/bull/node_modules $TEMP
+# Backup scripts directory
+\cp -r $_home/scripts $backup_dir/
+echo "Backup of ~/scripts directory succeeded."
+# MOVE NODE_MODULES BACK TO ITS ORIGINAL PLACE
+mv $TEMP/node_modules /home/array/scripts/bull/
+```
+
 
 ```bash
 mktemp
