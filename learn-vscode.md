@@ -15,3 +15,35 @@ Source: [Click here](https://stackoverflow.com/a/3760547/10012446)
 ```js
 // For example the following text would act as link in vscode: file://./scripts/deployKryptoBird.js
 ```
+
+## vscode cli options
+
+![image](https://user-images.githubusercontent.com/31458531/173615265-fc5ec69c-7641-46f1-b81a-4878e33891fd.png)
+
+## Swithing to terminal to run a bash script or npm command very often?
+
+Consider using a `.vscode/tasks.json` file (you can autogenerate this file with vscode very easily). I personally use `ctrl+alt+r` keybinding to launch run tasks, yo!!
+
+```json
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			// "command": "pwd", // for testing.
+			"command": "./fso-part13/curls/post_note.sh",
+			"label": "post a note ~Sahil"
+		},
+		{
+			"type": "shell",
+			"command": "./fso-part13/curls/get_a_note.sh",
+			"label": "Get a note ~Sahil"
+		},
+		{
+			"type": "shell",
+			"command": "./fso-part13/curls/resetNotes.sh",
+			"label": "Reset notes table! ~Sahil"
+		}
+	]
+}
+```
