@@ -4,7 +4,7 @@
 - **Vscode Tips and Trick (Official Docs):** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Open same solder in two windows of Vscode:** From command pallete(ctrl+shift+p), use `Workspaces: Duplicate Workspace in New Window` option. [Source](https://stackoverflow.com/a/51426734/10012446). Tip: Use dupl as filter to get that option faster.
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
-- Set **git-bash** as default terminal for vscode: Add this to **settings.json** `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"`.
+- Set **git-bash** as default terminal for vscode: Add this `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
 ## Helpful Extensions:
 
