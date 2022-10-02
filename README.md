@@ -157,14 +157,6 @@ cra: 335mb
 
 Good service for mysql hosting: https://planetscale.com/
 
-## In vscode you can reference file as links as well
-
-Source: https://stackoverflow.com/a/3760547/10012446
-
-```js
-// For example the following text would act as link in vscode: file://./scripts/deployKryptoBird.js
-```
-
 ## Event Hosting platform
 
 https://www.zuddl.com/
@@ -929,11 +921,6 @@ Its a myth coz tsc generates this for its own use, but you can write your own fo
 - Effecive communication internal is key to success
 - Balance of optimism and realism.
 
-## vscode cli options
-
-![image](https://user-images.githubusercontent.com/31458531/173615265-fc5ec69c-7641-46f1-b81a-4878e33891fd.png)
-
-
 ## Figjam for online flowcharts/diagramming
 
 Youtube: https://www.youtube.com/watch?v=giCx1LPizXU
@@ -1618,34 +1605,6 @@ Proof of convertion trial @ https://www.convertjson.com/yaml-to-json.htm
 
 [learn-bash.md#using-select-menus-in-bash](./learn-bash.md#using-select-menus-in-bash)
 
-## Swithing to terminal to run a bash script or npm command very often?
-
-Consider using a `.vscode/tasks.json` file (you can autogenerate this file with vscode very easily). I personally use `ctrl+alt+r` keybinding to launch run tasks, yo!!
-
-```json
-{
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "shell",
-			// "command": "pwd", // for testing.
-			"command": "./fso-part13/curls/post_note.sh",
-			"label": "post a note ~Sahil"
-		},
-		{
-			"type": "shell",
-			"command": "./fso-part13/curls/get_a_note.sh",
-			"label": "Get a note ~Sahil"
-		},
-		{
-			"type": "shell",
-			"command": "./fso-part13/curls/resetNotes.sh",
-			"label": "Reset notes table! ~Sahil"
-		}
-	]
-}
-```
-
 ## json to xml converter
 
 - https://www.freeformatter.com/json-to-xml-converter.html#ad-output
@@ -2236,10 +2195,6 @@ Browser @ https://github.com/sahilrajput03/watchAll/blob/main/watchAll.sh
 ## Check if jre/jdk installed on your system ?
 
 [Source](https://stackoverflow.com/questions/22539779/how-to-tell-if-jre-or-jdk-is-installed)
-
-## Error lens for kids
-
-Vscode [extension](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens).
 
 ## The arguments keyword in a function:
 
