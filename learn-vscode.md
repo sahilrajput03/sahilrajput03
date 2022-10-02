@@ -6,7 +6,7 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
-## Helpful Extensions:
+## Extensions:
 
 - Error lens for kids: [Click here](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
