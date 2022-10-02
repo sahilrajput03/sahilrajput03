@@ -8,7 +8,7 @@
 
 ## Extensions:
 
-- Error lens for kids: [Click here](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- [Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 ## In vscode you can reference file as links as well
 
