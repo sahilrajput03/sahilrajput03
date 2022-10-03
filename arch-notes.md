@@ -1992,7 +1992,7 @@ sudo systemctl enable --now code-server@$USER
 
 ## setting up ssh
 
-```
+```bash
 sudo pacman -S openssh
 
 # check the status:
@@ -2015,7 +2015,7 @@ src: https://linuxhint.com/arch_linux_ssh_server/
 
 ### Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
 
-```
+```bash
 # copy default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
 ranger --copy-config=rifle
 
@@ -2028,7 +2028,7 @@ vi.ranger # which is aliased to below `vi ~/ranger/rifle.conf`
 
 and now add below line where you have other pdf extension openers defined in there:
 
-```
+```bash
 ext pdf, has google-chrome-stable,     X, flag f = google-chrome-stable "$@"
 ```
 
