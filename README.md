@@ -154,6 +154,8 @@ cra: 335mb
 
 ## An amazing way to store q/a's in yaml format so that one can parse this data from a file from github
 
+I.e., storing array of arrays in yaml.
+
 Inspiration: [Click here](https://stackoverflow.com/a/62141585/10012446)
 
 ![image](https://user-images.githubusercontent.com/31458531/193640569-13fc81c0-60f9-4048-bfc7-53f6539b5f90.png)
