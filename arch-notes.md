@@ -2022,6 +2022,22 @@ ranger --copy-config=rifle
 vi.ranger # which is aliased to below `vi ~/.config/ranger/rifle.conf`
 ```
 
+### Config file of rifle not working?
+
+Since I have set my variable `XDG_CONFIG_HOME` set as `/home/array` (see in .bashrc) to konw whey I set that varaible to that value(spoiler: to make neovim's config work).
+
+![image](https://user-images.githubusercontent.com/31458531/193546601-493d1af4-4e5d-449d-8538-b8a4629372a4.png)
+
+And also, from output of command: `man rifle`
+
+![image](https://user-images.githubusercontent.com/31458531/193546326-692727ff-2d42-4f92-8636-72122a779170.png)
+
+so we need to run below command to fix the config folder path to make ranger and rifle work (ranger uses rifle internally to select set default program openers for different types of files):
+
+```bash
+mv /home/array/.config/ranger/ /home/array/
+```
+
 and now add below line where you have other pdf extension openers defined in there:
 
 ```
