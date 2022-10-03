@@ -2019,7 +2019,7 @@ src: https://linuxhint.com/arch_linux_ssh_server/
 
 ```
 ranger --copy-config=rifle #Copies default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
-vi .config/ranger/rifle.conf
+vi.ranger # which is aliased to below `vi ~/.config/ranger/rifle.conf`
 ```
 
 and now add below line where you have other pdf extension openers defined in there:
