@@ -2018,7 +2018,9 @@ src: https://linuxhint.com/arch_linux_ssh_server/
 ## Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
 
 ```
-ranger --copy-config=rifle #Copies default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
+# copy default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
+ranger --copy-config=rifle 
+# modifying user config file
 vi.ranger # which is aliased to below `vi ~/.config/ranger/rifle.conf`
 ```
 
