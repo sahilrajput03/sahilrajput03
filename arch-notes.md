@@ -2017,10 +2017,21 @@ src: https://linuxhint.com/arch_linux_ssh_server/
 
 ```
 # copy default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
-ranger --copy-config=rifle 
+ranger --copy-config=rifle
+
+# move config folder to /home/array path becoz reading from `man rifle` command we need to have the `ranger` config folder at `/home/array` becoz we have already have set `XDG_CONFIG_HOME=/home/array` so rifle is gonna look for the config file in `/home/array/ranger/rifle.conf` path
+mv /home/array/.config/ranger/ /home/array/
+
 # modifying user config file
-vi.ranger # which is aliased to below `vi ~/.config/ranger/rifle.conf`
+vi.ranger # which is aliased to below `vi ~/ranger/rifle.conf`
 ```
+
+and now add below line where you have other pdf extension openers defined in there:
+
+```
+ext pdf, has google-chrome-stable,     X, flag f = google-chrome-stable "$@"
+```
+
 
 ### Config file of rifle not working?
 
@@ -2036,12 +2047,6 @@ so we need to run below command to fix the config folder path to make ranger and
 
 ```bash
 mv /home/array/.config/ranger/ /home/array/
-```
-
-and now add below line where you have other pdf extension openers defined in there:
-
-```
-ext pdf, has google-chrome-stable,     X, flag f = google-chrome-stable "$@"
 ```
 
 ## Installing `comfortable-motion` and `vim-plug`
