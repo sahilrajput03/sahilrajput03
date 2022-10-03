@@ -2011,7 +2011,8 @@ src: https://linuxhint.com/arch_linux_ssh_server/
 
 ## Ranger
 
-Ranger Docs in Archlinux: [Click here](https://wiki.archlinux.org/title/ranger#Configuration)
+- Ranger Docs in Archlinux: [Click here](https://wiki.archlinux.org/title/ranger#Configuration)
+- Ranger - [Github](https://github.com/ranger/ranger)
 
 - **Use `S` in ranger to return to shell in current folder.**
 
