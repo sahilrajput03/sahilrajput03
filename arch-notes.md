@@ -2016,6 +2016,24 @@ src: https://linuxhint.com/arch_linux_ssh_server/
 
 - **Use `S` in ranger to return to shell in current folder.**
 
+### Ranger shwoing images in terminal is awesome
+
+Source: https://askubuntu.com/a/1268970/702911
+
+```bash
+# create a user specific rangerconfig file if it doesn't exist already
+cp /usr/share/doc/ranger/config/rc.conf ~/ranger/
+
+# edit config file
+vi ~/ranger/rc.conf
+
+# Then make below changes:
+set preview_images true
+```
+
+![image](https://user-images.githubusercontent.com/31458531/193551184-39b6f9ed-e987-4275-b8df-9c0d02120ead.png)
+
+
 ### Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
 
 ```bash
