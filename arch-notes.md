@@ -8,6 +8,14 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Installed `kitty` terminal and made it as default termial
+
+```bash
+sudo pamcman -S kitty
+# Now we need to set below line in i3config file:
+# bindsym $mod+Return exec kitty
+```
+
 ## Add a binary to dmenu list of executables?
 
 Simply move the binary to `/usr/bin` directory or you can make a symlink in the `/usr/bin` directory as well.
