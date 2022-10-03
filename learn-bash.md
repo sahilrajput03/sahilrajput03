@@ -16,6 +16,10 @@
 
 Source: Amazing quora answer with 5+ resources: https://qr.ae/pviIdi
 
+## my forgetful clis
+
+![image](https://user-images.githubusercontent.com/31458531/193536450-d9d7f349-b1a8-4e2c-90a3-c9f980d3b6cc.png)
+
 ## Cannot type in termnal after pressing ctrl+c on any running program?
 
 Simply use `reset` command to get your teminal back. YO!!  [Source](https://superuser.com/a/237405)
