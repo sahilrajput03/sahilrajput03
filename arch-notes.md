@@ -1032,12 +1032,6 @@ Source: https://archlinux.org/packages/community/any/tldr/
 sudo pacman -S tldr
 ```
 
-## Using ranger:
-
-```
-# Use `S` in ranger to return to shell in current folder.
-```
-
 ## installed `7zz` for .7z file extensions
 
 Docs of 7z: https://wiki.archlinux.org/title/p7zip
@@ -2015,7 +2009,11 @@ sudo systemctl stop sshd
 
 src: https://linuxhint.com/arch_linux_ssh_server/
 
-## Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
+## Ranger
+
+- **Use `S` in ranger to return to shell in current folder.**
+
+### Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
 
 ```
 # copy default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
