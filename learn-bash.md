@@ -9,6 +9,10 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## compre two folders via cli `diff`
+
+https://stackoverflow.com/a/15197050/10012446
+
 ## free online linux machines and terminals
 
 - [http://copy.sh/v86/](http://copy.sh/v86/)
