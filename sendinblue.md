@@ -17,6 +17,12 @@ telnet mailer.sahilrajput.ml 25
 
 - How do I create a new user `hi` so that I can receive mails at `hi@sahilrajput.ml` ?
 
-[Source1](https://stackoverflow.com/a/29737950/10012446), [Source2](https://www.serverwatch.com/guides/adding-users-and-aliases-for-postfix/)
+  [Source1](https://stackoverflow.com/a/29737950/10012446), [Source2](https://www.serverwatch.com/guides/adding-users-and-aliases-for-postfix/)
 
-tldr; Simply add a new user to linux system and postfix will handle rest. yo!!
+  tldr; Simply add a new user to linux system and postfix will handle rest. yo!!
+
+- How do i see mails for each user, mails received for each user?
+
+  Simplest way is to use alias: `pf.cdMail` which is aliased to `cd /var/spool/mail` and it'll show you all the ***emai-files*** for all users.
+  
+  Elegant way is to login to each desired user using thunderbird, and thus it'll be more convenient seeing messages in better ui. BUT YOU'LL still *NOT* be able to send emails bcoz IPS blocks your outbound 25 port and they charge 590RS./month for the static ip (they only allow opening outbound port 25 for static ips). FUCK THEM.
