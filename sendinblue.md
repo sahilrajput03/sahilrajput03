@@ -14,3 +14,9 @@
 telnet mailer.sahilrajput.ml 25
 # To close the request use: ctrl+] quit 
 ```
+
+- How do I create a new user `hi` so that I can receive mails at `hi@sahilrajput.ml` ?
+
+[Source1](https://stackoverflow.com/a/29737950/10012446), [Source2](https://www.serverwatch.com/guides/adding-users-and-aliases-for-postfix/)
+
+tldr; Simply add a new user to linux system and postfix will handle rest. yo!!
