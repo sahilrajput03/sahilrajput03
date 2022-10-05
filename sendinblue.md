@@ -33,7 +33,9 @@ telnet mailer.sahilrajput.ml 25
 
 - Add another email to gmail:
 
-  So thats how we set the add my email address (optionaly you can set it as default so by sending any email from gmail would select hi@sahilrajput.ml by default). Yo!!
+  So thats how we set the add my email address (optionaly you can set it as default so by sending any email from gmail would select hi@sahilrajput.ml by default).
+  
+  ![image](https://user-images.githubusercontent.com/31458531/194106620-ac1a144d-860f-429a-b846-61c2040bf0b0.png)
 
   ![image](https://user-images.githubusercontent.com/31458531/194104636-20174c21-71f1-4a1f-8f8e-f6ba8d595f1f.png)
 
