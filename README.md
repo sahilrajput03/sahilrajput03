@@ -152,6 +152,52 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 
+## Do changing dns makes you anonymoust?
+
+Source: [Click here](https://qr.ae/pvekBP)
+
+Here’s a short summary of how DNS works:
+
+Using your ISP’s DNS
+
+In your browser, you type AustinBike.com - Home
+
+Your browser asks your ISP for AustinBike.com - Home
+
+Your ISP uses its DNS server to figure out that the website is at 74.208.236.250
+
+Your ISP goes to 74.208.236.250, gets the page and sends it to your browser.
+
+Using a third party DNS
+
+In your browser, you type AustinBike.com - Home
+
+Your browser asks the third party for the address of AustinBike.com - Home
+
+The third party uses its DNS server to figure out that the website is at 74.208.236.250
+
+The third party tells your browser to ask for 74.208.236.250 which is sent to your ISP.
+
+Your ISP goes to 74.208.236.250, gets the page and sends it to your browser.
+
+(Yeah, I’ve simplified this for the non-tech people, this is not EXACTLY how it works.)
+
+But notice that the last statement for both is exactly the same. This is because everything on the internet is transported via IP addresses. And ISPs store IP addresses, not domain names. If law enforcement ever came knocking on your ISPs door asking what you were up to, they’d hand them a list of IP addresses that your computer asked for, not domains. LE will have tools to do the lookups and complete the list with “human readable” domain names.
+
+If you had a VPN, all of the traffic that you ISP would have would look like this:
+
+Outbound requests: You to VPN
+
+Inbound requests: VPN to You
+
+BUT if law enforcement wanted to know what you were up to, they would go to your VPN provider. If they cooperated the list would be exactly like the list your ISP would hand over above. Some VPN companies do not log requests, some do. If they are not logging they would tell LE that they have nothing to turn over.
+
+Don’t just assume that because you are using a VPN that your traffic is hidden. All you have done is put one more hurdle into the process, not stopped it. A VPN also has to not log the data. Some may say they don’t but could be secretly logging it. You cannot ever be 100% sure that you are safe just because you are using a VPN.
+
+Additionally, if LE really, really wanted to know what you are doing, they could put taps on line at the VPN provider to figure things out without needing their logs. But you’d need to be a pretty bad guy for that, not someone just searching for porn or other questionable content.
+
+
+
 ## An amazing way to store q/a's in yaml format so that one can parse this data from a file from github
 
 I.e., storing array of arrays in yaml.
