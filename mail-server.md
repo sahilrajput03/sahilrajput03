@@ -1,8 +1,10 @@
 # LEARN MAIL SERVER HOSTING
 
-- Does changingn DNS(like using google dns or other avaialble dns) will unblock my outbound 25?
+- TODO: https://www.wpoven.com/blog/free-smtp-servers-sending-emails/
 
-tldr: no, [source](https://qr.ae/pvekBP): , [proof](https://www.mailenable.com/forum/viewtopic.php?t=43533)
+- Q. Does changingn DNS(like using google dns or other avaialble dns) will unblock my outbound 25?
+
+  tldr: no, [source](https://qr.ae/pvekBP): , [proof](https://www.mailenable.com/forum/viewtopic.php?t=43533)
 
 - Why does ISP's block outbound 25?
 
