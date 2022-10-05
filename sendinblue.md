@@ -35,7 +35,11 @@ telnet mailer.sahilrajput.ml 25
 
 - Add another email to gmail:
 
-  So thats how we set the add my email address (optionaly you can set it as default so by sending any email from gmail would select hi@sahilrajput.ml by default).
+  In sendinblue dashboard, you need to add email as:
+
+  ![image](https://user-images.githubusercontent.com/31458531/194110591-5ead8858-f444-49ef-8528-dd5229f892f4.png)
+
+  So below how we set the add my email address (optionaly you can set it as default so by sending any email from gmail would select hi@sahilrajput.ml by default).
   
   ![image](https://user-images.githubusercontent.com/31458531/194106620-ac1a144d-860f-429a-b846-61c2040bf0b0.png)
 
