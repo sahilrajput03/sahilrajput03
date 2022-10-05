@@ -1,5 +1,7 @@
 # LEARN MAIL SERVER HOSTING
 
+**File backup of `main.cf` file of postfix:** [Click here](https://gist.github.com/sahilrajput03/69cf3bf053e8817da8caf52c5c39c25a)
+
 ## Awesome Sendinblue guide
 
 [Click here](sendinblue.md)
