@@ -30,3 +30,7 @@ telnet mailer.sahilrajput.ml 25
 - Domain Settings for vercel for receiving the initial verification email when adding `sendinblue` smtp email to gmail (required to do for once only and then you can close your postfix server for sure).
 
   ![image](https://user-images.githubusercontent.com/31458531/194104111-9b169597-1ec0-4f9a-b8a3-5cebac230430.png)
+
+- Add another email to gmail:
+
+  ![image](https://user-images.githubusercontent.com/31458531/194104636-20174c21-71f1-4a1f-8f8e-f6ba8d595f1f.png)
