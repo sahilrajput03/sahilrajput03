@@ -34,3 +34,5 @@ telnet mailer.sahilrajput.ml 25
 - Add another email to gmail:
 
   ![image](https://user-images.githubusercontent.com/31458531/194104636-20174c21-71f1-4a1f-8f8e-f6ba8d595f1f.png)
+
+![image](https://user-images.githubusercontent.com/31458531/194105581-f2fe89e9-160f-4cff-ade6-677f149eb244.png)
