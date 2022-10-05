@@ -6,6 +6,13 @@
 
 Adding Domain: https://youtu.be/b1a6lN2UwCY
 
+- **Api looks cool as well:**
+
+![image](https://user-images.githubusercontent.com/31458531/194028795-b37ca069-cc3c-43c2-9b32-e43b8856afb3.png)
+
+
+## others
+
 - Q. Does changingn DNS(like using google dns or other avaialble dns) will unblock my outbound 25?
 
   tldr: no, [source](https://qr.ae/pvekBP): , [proof](https://www.mailenable.com/forum/viewtopic.php?t=43533)
