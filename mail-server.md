@@ -2,6 +2,10 @@
 
 - TODO: https://www.wpoven.com/blog/free-smtp-servers-sending-emails/
 
+## Using sendinblue
+
+Adding Domain: https://youtu.be/b1a6lN2UwCY
+
 - Q. Does changingn DNS(like using google dns or other avaialble dns) will unblock my outbound 25?
 
   tldr: no, [source](https://qr.ae/pvekBP): , [proof](https://www.mailenable.com/forum/viewtopic.php?t=43533)
