@@ -26,3 +26,7 @@ telnet mailer.sahilrajput.ml 25
   Simplest way is to use alias: `pf.cdMail` which is aliased to `cd /var/spool/mail` and it'll show you all the ***emai-files*** for all users.
   
   Elegant way is to login to each desired user using thunderbird, and thus it'll be more convenient seeing messages in better ui. BUT YOU'LL still *NOT* be able to send emails bcoz IPS blocks your outbound 25 port and they charge 590RS./month for the static ip (they only allow opening outbound port 25 for static ips). FUCK THEM.
+
+- Domain Settings for vercel for receiving the initial verification email when adding `sendinblue` smtp email to gmail (required to do for once only and then you can close your postfix server for sure).
+
+  ![image](https://user-images.githubusercontent.com/31458531/194104111-9b169597-1ec0-4f9a-b8a3-5cebac230430.png)
