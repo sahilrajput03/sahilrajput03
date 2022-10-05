@@ -1,8 +1,8 @@
 # Send in blue for custom email domain
 
-Where did I find sendinblue? [Click here](https://www.wpoven.com/blog/free-smtp-servers-sending-emails/)
+- Where did I find sendinblue? [Click here](https://www.wpoven.com/blog/free-smtp-servers-sending-emails/)
 
-Adding Domain: https://youtu.be/b1a6lN2UwCY
+- Adding Domain: https://youtu.be/b1a6lN2UwCY
 
 - **Api looks cool as well:**
 
