@@ -2,6 +2,10 @@
 
 - TODO: https://www.wpoven.com/blog/free-smtp-servers-sending-emails/
 
+## Visit Sendinblue guid
+
+[Click here](sendinblue.md)
+
 ## Using sendinblue
 
 Adding Domain: https://youtu.be/b1a6lN2UwCY
