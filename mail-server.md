@@ -1,6 +1,6 @@
 # LEARN MAIL SERVER HOSTING
 
-## Visit Sendinblue guide
+## Awesome Sendinblue guide
 
 [Click here](sendinblue.md)
 
