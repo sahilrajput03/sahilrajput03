@@ -10,6 +10,7 @@
 - Fullstackopen: [Click here](https://t.me/fullstackcourse)
 - FullStackDevs Nigeria: [Click here](https://t.me/flstknigeria)
 - Geeks Developers: [Click here](https://t.me/geeksdev)
+- Css Resources: [Click here](https://t.me/learning_css_01)
 
 **Others**
 
