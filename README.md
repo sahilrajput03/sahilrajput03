@@ -151,6 +151,7 @@ cra: 335mb
 - **Learn stocks:** [Click here](learn-stocks.md)
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
+- **Telegram Groups:** [Click here](telegram-groups.md)
 
 ## Do changing dns makes you anonymoust?
 
