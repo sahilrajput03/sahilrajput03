@@ -10,6 +10,8 @@
 
 ## Installed xournal
 
+Amazing pdf annotater: Source - [Stackoverflow Ansser](https://askubuntu.com/a/1288079/702911)
+
 [Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
 
 ```bash
