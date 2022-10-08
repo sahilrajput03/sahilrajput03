@@ -23,6 +23,8 @@ sudo mv xournalpp /usr/bin/
 
 # alias
 xo
+
+# TIP: You can go to "File > Export as PDF" to export the annotated pdf, yo! 
 ```
 https://github.com/xournalpp/xournalpp/releases
 
