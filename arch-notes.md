@@ -18,6 +18,9 @@ mv xournalpp-1.1.1-x86_64.AppImage xournalpp
 
 # move to user binaries (so it'll be accessible by all users and demnu as well):
 sudo mv xournalpp /usr/bin/
+
+# alias
+xo
 ```
 https://github.com/xournalpp/xournalpp/releases
 
