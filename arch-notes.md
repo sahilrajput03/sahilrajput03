@@ -8,6 +8,19 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Installed xournal
+
+[Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
+
+```bash
+# rename
+mv xournalpp-1.1.1-x86_64.AppImage xournalpp
+
+# move to user binaries (so it'll be accessible by all users and demnu as well):
+sudo mv xournalpp /usr/bin/
+```
+https://github.com/xournalpp/xournalpp/releases
+
 ## Installed `kitty` terminal and made it as default termial
 
 ```bash
