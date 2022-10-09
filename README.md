@@ -153,6 +153,12 @@ cra: 335mb
 - **Learn Mailservers:** [Click here](mail-server.md)
 - **Telegram Groups:** [Click here](telegram-groups.md)
 
+## Are github stars a real indicator of how much a npm library is used in the industry?
+
+![image](https://user-images.githubusercontent.com/31458531/194753984-75130fcf-bf2c-4082-ad28-a6ff0bc16b9d.png)
+
+![image](https://user-images.githubusercontent.com/31458531/194754021-357074f1-000e-44dc-ac5e-19ee20cfee44.png)
+
 ## Do changing dns makes you anonymoust?
 
 Source: [Click here](https://qr.ae/pvekBP)
