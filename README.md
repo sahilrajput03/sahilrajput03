@@ -153,6 +153,12 @@ cra: 335mb
 - **Learn Mailservers:** [Click here](mail-server.md)
 - **Telegram Groups:** [Click here](telegram-groups.md)
 
+
+## Language Specification of Javascript ECMA
+
+- **Language Sepcifications:** https://tc39.es/ecma262/
+- **Internationalization API Specification:** https://tc39.es/ecma402/
+
 ## Are github stars a real indicator of how much a npm library is used in the industry?
 
 ![image](https://user-images.githubusercontent.com/31458531/194753984-75130fcf-bf2c-4082-ad28-a6ff0bc16b9d.png)
