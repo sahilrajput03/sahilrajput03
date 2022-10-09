@@ -9,6 +9,19 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## measure the time taken by a command
+
+[source](https://ostechnix.com/how-to-find-the-execution-time-of-a-command-or-process-in-linux/)
+
+```bash
+time COMMAND_HERE
+```
+
+and in this case the time taken is 17.969 seconds
+
+![image](https://user-images.githubusercontent.com/31458531/194763174-5d6b4aee-9932-4dc9-b757-bdf3c4ecfd95.png)
+
+
 ## compre two folders via cli `diff`
 
 https://stackoverflow.com/a/15197050/10012446
