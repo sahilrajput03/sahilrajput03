@@ -17,19 +17,29 @@ Restart Vim, and run the :PlugInstall statement to install your plugins.
 Learning nerttree via commadn: `:NERDTree`
 
 ```bash
+" ---------------------------│~
 " Filesystem mappings~       │~
-  " C: change tree root to the │~
-  "    selected dir            │~
-  " u: move tree root up a dir │~
-  " U: move tree root up a dir │~
-  "    but leave old root open │~
-  " r: refresh cursor dir      │~
-  " R: refresh current root    │~
-  " m: Show menu               │~
-  " cd:change the CWD to the   │~
-  "    selected dir            │~
-  " CD:change tree root to CWD │~
-  "
+" C: change tree root to the │~
+"    selected dir            │~
+" u: move tree root up a dir │~
+" U: move tree root up a dir │~
+"    but leave old root open │~
+" r: refresh cursor dir      │~
+" R: refresh current root    │~
+" m: Show menu               │~
+" cd:change the CWD to the   │~
+"    selected dir            │~
+" CD:change tree root to CWD │~
+  
+" ---------------------------│~
+" Tree navigation mappings~  │~
+" P: go to root              │~
+" p: go to parent            │~
+" K: go to first child       │~
+" J: go to last child        │~
+" <C-j>: go to next sibling  │~
+" <C-k>: go to prev sibling  │~
+
 ```
 
 ## Q. Why vim freezes when I press `ctrl+s` in some versions of debian/ubuntu/rapberryos?
