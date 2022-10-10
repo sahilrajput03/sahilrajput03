@@ -1,5 +1,19 @@
 # neovim (nvim)
 
+## Installed nerdtree in vim
+
+[Source - official](https://github.com/preservim/nerdtree#installation)
+
+```txt
+Vim-Plug
+Install Vim-Plug, according to its instructions.
+Add the following text to your vimrc.
+call plug#begin()
+  Plug 'preservim/nerdtree'
+call plug#end()
+Restart Vim, and run the :PlugInstall statement to install your plugins.
+```
+
 ## Q. Why vim freezes when I press `ctrl+s` in some versions of debian/ubuntu/rapberryos?
 
 Ans. Because by default `ctrl+s` is a signal to freeze terminal, yes its vim independent. Source: https://blog.marcinchwedczuk.pl/how-to-fix-vim-freezes#:~:text=To%20unfreeze%20program%20you%20must%20press%20Ctrl%2BQ%20.&text=It%20still%20happens%20from%20time,Q%20and%20continue%20my%20work.
