@@ -17,6 +17,20 @@ Restart Vim, and run the :PlugInstall statement to install your plugins.
 Learning nerttree via commadn: `:NERDTree`
 
 ```bash
+" ============================
+" File node mappings~
+" double-click,
+" o: open in prev window
+" go: preview
+" t: open in new tab
+" T: open in new tab silently
+" middle-click,
+" i: open split
+" gi: preview split
+" s: open vsplit
+" gs: preview vsplit
+" <CR>: custom open
+
 " ---------------------------│~
 " Filesystem mappings~       │~
 " C: change tree root to the │~
