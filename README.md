@@ -153,6 +153,9 @@ cra: 335mb
 - **Learn Mailservers:** [Click here](mail-server.md)
 - **Telegram Groups:** [Click here](telegram-groups.md)
 
+## Aritcle with speech listeners
+
+- https://futurism.com/russian-scientists-huge-advertisements-orbit-cities
 
 ## Task running tools
 
