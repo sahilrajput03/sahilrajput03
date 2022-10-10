@@ -14,6 +14,24 @@ call plug#end()
 Restart Vim, and run the :PlugInstall statement to install your plugins.
 ```
 
+Learning nerttree via commadn: `:NERDTree`
+
+```bash
+" Filesystem mappings~       │~
+  " C: change tree root to the │~
+  "    selected dir            │~
+  " u: move tree root up a dir │~
+  " U: move tree root up a dir │~
+  "    but leave old root open │~
+  " r: refresh cursor dir      │~
+  " R: refresh current root    │~
+  " m: Show menu               │~
+  " cd:change the CWD to the   │~
+  "    selected dir            │~
+  " CD:change tree root to CWD │~
+  "
+```
+
 ## Q. Why vim freezes when I press `ctrl+s` in some versions of debian/ubuntu/rapberryos?
 
 Ans. Because by default `ctrl+s` is a signal to freeze terminal, yes its vim independent. Source: https://blog.marcinchwedczuk.pl/how-to-fix-vim-freezes#:~:text=To%20unfreeze%20program%20you%20must%20press%20Ctrl%2BQ%20.&text=It%20still%20happens%20from%20time,Q%20and%20continue%20my%20work.
