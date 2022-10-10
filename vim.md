@@ -1,3 +1,7 @@
+# Ultimate vim editors to try out
+
+- **SpaceVim:** https://github.com/SpaceVim/SpaceVim
+
 # neovim (nvim)
 
 ## Installed nerdtree in vim
