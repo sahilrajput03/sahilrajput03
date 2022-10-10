@@ -31,6 +31,35 @@ Learning nerttree via commadn: `:NERDTree`
 " gs: preview vsplit
 " <CR>: custom open
 
+" Directory node mappings~   │~
+" double-click,              │~
+" o: open & close node       │~
+" O: recursively open node   │~
+" t: open in new tab         │~
+" T: open in new tab silently│~
+" <CR>: custom open          │~
+" x: close parent of node    │~
+" X: close all child nodes of│~
+"    current node recursively│~
+" middle-click,              │~
+" e: explore selected dir    │~
+"                            │~
+" ---------------------------│~
+" Bookmark table mappings~   │~
+" double-click,              │~
+" o: open bookmark           │~
+" go: preview file           │~
+" go: find dir in tree       │~
+" t: open in new tab         │~
+" T: open in new tab silently│~
+" i: open split              │~
+" gi: preview split          │~
+" s: open vsplit             │~
+" gs: preview vsplit         │~
+" <CR>: custom open          │~
+" D: delete bookmark         │~
+"                            │~
+
 " ---------------------------│~
 " Filesystem mappings~       │~
 " C: change tree root to the │~
