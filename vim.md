@@ -16,7 +16,7 @@ Restart Vim, and run the :PlugInstall statement to install your plugins.
 
 **Learning nerttree via command:**
 -  `:NERDTree` and press ? to turn on the Quick Help.
-- Of course, your most complete source of information is the documentation: :help NERDTree.
+- Of course, your most complete source of information is the documentation: `:help NERDTree`
 
 ```bash
 " ============================
