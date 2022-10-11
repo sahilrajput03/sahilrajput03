@@ -153,6 +153,10 @@ cra: 335mb
 - **Learn Mailservers:** [Click here](mail-server.md)
 - **Telegram Groups:** [Click here](telegram-groups.md)
 
+## lower vs. upper camel case?
+
+All function names are in lower camelCase (eg. sendCoin) and all event names are in upper CamelCase (eg. CoinSent). [Source](https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs/499c882f3ec123537fc2fccd57eaa29e6032fe4a)
+
 ## Aritcle with speech listeners
 
 - https://futurism.com/russian-scientists-huge-advertisements-orbit-cities
