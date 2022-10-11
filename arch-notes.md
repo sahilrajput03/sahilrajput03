@@ -26,7 +26,14 @@ xo
 
 # TIP: You can go to "File > Export as PDF" to export the annotated pdf, yo! 
 ```
-https://github.com/xournalpp/xournalpp/releases
+
+Downlaod Source: https://github.com/xournalpp/xournalpp/releases
+
+	![image](https://user-images.githubusercontent.com/31458531/195131097-5b46d842-8530-4c3e-b36e-67d49494bcd2.png)
+
+	![image](https://user-images.githubusercontent.com/31458531/195132041-2998b19c-b007-49de-b3ff-c4f5a03592fc.png)
+	
+	![image](https://user-images.githubusercontent.com/31458531/195132850-7ef4505a-9f58-43d0-ac38-9ae5e67e0b93.png)
 
 ## Installed `kitty` terminal and made it as default termial
 
