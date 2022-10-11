@@ -29,15 +29,15 @@ xo
 
 - Downlaod Source: https://github.com/xournalpp/xournalpp/releases
 
-	![image](https://user-images.githubusercontent.com/31458531/195139957-04e120dc-8098-4ff2-8e9e-89efdfe7a628.png)
+	1/5 ![image](https://user-images.githubusercontent.com/31458531/195139957-04e120dc-8098-4ff2-8e9e-89efdfe7a628.png)
 	
-	![image](https://user-images.githubusercontent.com/31458531/195139681-60b8cbfc-058b-482e-9367-296417bc5e9e.png)
+	2/5 ![image](https://user-images.githubusercontent.com/31458531/195139681-60b8cbfc-058b-482e-9367-296417bc5e9e.png)
 	
-	![image](https://user-images.githubusercontent.com/31458531/195135088-eb28f3dc-e2d8-476e-9990-2d9b8473ab30.png)
+	3/5 ![image](https://user-images.githubusercontent.com/31458531/195135088-eb28f3dc-e2d8-476e-9990-2d9b8473ab30.png)
 
-	![image](https://user-images.githubusercontent.com/31458531/195132041-2998b19c-b007-49de-b3ff-c4f5a03592fc.png)
+	4/5 ![image](https://user-images.githubusercontent.com/31458531/195132041-2998b19c-b007-49de-b3ff-c4f5a03592fc.png)
 	
-	![image](https://user-images.githubusercontent.com/31458531/195132850-7ef4505a-9f58-43d0-ac38-9ae5e67e0b93.png)
+	5/5 ![image](https://user-images.githubusercontent.com/31458531/195132850-7ef4505a-9f58-43d0-ac38-9ae5e67e0b93.png)
 
 ## Installed `kitty` terminal and made it as default termial
 
