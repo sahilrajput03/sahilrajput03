@@ -29,7 +29,7 @@ xo
 
 - Downlaod Source: https://github.com/xournalpp/xournalpp/releases
 
-	![image](https://user-images.githubusercontent.com/31458531/195131097-5b46d842-8530-4c3e-b36e-67d49494bcd2.png)
+	![image](https://user-images.githubusercontent.com/31458531/195133895-1209e393-98cd-4d3e-b899-818da65fdffb.png)
 
 	![image](https://user-images.githubusercontent.com/31458531/195132041-2998b19c-b007-49de-b3ff-c4f5a03592fc.png)
 	
