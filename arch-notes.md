@@ -39,6 +39,8 @@ xo
 
 ## Installed `kitty` terminal and made it as default termial
 
+**TIP:** Open http links by `ctrl+shift+click`, [source](https://github.com/kovidgoyal/kitty/issues/371#issuecomment-879919497).
+
 ```bash
 sudo pamcman -S kitty
 # Now we need to set below line in i3config file:
