@@ -27,7 +27,7 @@ xo
 # TIP: You can go to "File > Export as PDF" to export the annotated pdf, yo! 
 ```
 
-Downlaod Source: https://github.com/xournalpp/xournalpp/releases
+- Downlaod Source: https://github.com/xournalpp/xournalpp/releases
 
 	![image](https://user-images.githubusercontent.com/31458531/195131097-5b46d842-8530-4c3e-b36e-67d49494bcd2.png)
 
