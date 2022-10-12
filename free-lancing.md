@@ -51,6 +51,7 @@ https://twitter.com/Insharamin/status/1571788158748196865
 - https://github.com/nandhakumar-rs: Also freelancer, working @totel currently.
 - Nandha Kumar: [Upwork Profile](https://www.upwork.com/freelancers/~013b67892e803aecec)
 - Aashif Ahamed: https://aashifahamed.github.io/
+- Resume: https://dentonliu.com/resume/DentonLiuResume.pdf
 
 Rakesh:
   - https://itsrakesh.co/work
