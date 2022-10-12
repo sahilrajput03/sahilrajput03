@@ -1,3 +1,5 @@
+### PLEASE REFER textual info @ https://github.com/sahilrajput03/learn-trading/blob/main/readme.md
+
 # Learn stocks
 
 todo: start from `7th video` i.e., Bollinger Bangs:
