@@ -153,6 +153,13 @@ cra: 335mb
 - **Learn Mailservers:** [Click here](mail-server.md)
 - **Telegram Groups:** [Click here](telegram-groups.md)
 
+## integer overflow/ wraparound
+
+[Source](https://en.wikipedia.org/wiki/Integer_overflow): integer overflow (wraparound) can't be better explained than using this odometer example. 😅 
+
+![image](https://user-images.githubusercontent.com/31458531/195386543-8eca21a2-5a94-4d1a-ae23-5229d9abe15b.png)
+
+
 ## Article - TODO READ
 
 https://blog.codinghorror.com/the-last-responsible-moment/
