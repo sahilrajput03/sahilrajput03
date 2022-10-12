@@ -1,6 +1,7 @@
 # Ultimate vim editors to try out
 
 - **SpaceVim:** https://github.com/SpaceVim/SpaceVim
+- Learn Mapping Keys in vim: https://vim.fandom.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1) 
 
 # neovim (nvim)
 
