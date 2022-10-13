@@ -2351,6 +2351,8 @@ dirname folder1/folder2/myfile.sh
 
 ***
 
+## `$@` vs. `$*`? What you should use.
+
 
 ```
 # Recommened: Read original posters' full answer: https://superuser.com/a/247131/776589
