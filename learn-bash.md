@@ -25,6 +25,8 @@ and in this case the time taken is 17.969 seconds
 
 ![image](https://user-images.githubusercontent.com/31458531/194763174-5d6b4aee-9932-4dc9-b757-bdf3c4ecfd95.png)
 
+**For MACOS** the time taken by command is represented by the value corresponding to **`total`** field in the output. [Source](https://apple.stackexchange.com/a/424160)
+
 
 ## compre two folders via cli `diff`
 
