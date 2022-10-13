@@ -9,6 +9,10 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Format bash code with vscode
+
+https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format
+
 ## measure the time taken by a command
 
 [source](https://ostechnix.com/how-to-find-the-execution-time-of-a-command-or-process-in-linux/)
