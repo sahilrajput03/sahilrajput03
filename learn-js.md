@@ -1,4 +1,25 @@
-## Modules
+
+# Object.assign(), is it anyuseful?
+
+**TLDR: Its amazing.** Source: Comment on SO Question [Click here](https://stackoverflow.com/questions/66459300/better-syntax-for-assigning-a-same-name-value-to-object-key-javascript)
+
+```js
+const name = 'David'
+
+const person = {
+  name : ''
+}
+
+// instead of doing
+person.name = name
+
+// you can simply do
+Object.assign(person, { name })
+```
+
+
+
+# Modules
 
 ```js
 import defaultExport, * as name from "module-name";
