@@ -106,15 +106,15 @@
 	Now you can simly put 6 if checks to check for what is actually error and you code actually gets out of control (i.e., *program control) LITERALLY.
 
 - **Resources:**
-	- Article: HOW TO RUN ASYNC JAVASCRIPT FUNCTIONS IN SEQUENCE OR PARALLEL: [Click here](https://jrsinclair.com/articles/2019/how-to-run-async-js-in-parallel-or-sequential/). Tip: You can put the results of each promise in some array say myArray.push(item) sequence execution.
-	- For await of - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of)
-	- forEach on using async callbacks? [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#description)
+	- Articles and Videos:
+		- Article: HOW TO RUN ASYNC JAVASCRIPT FUNCTIONS IN SEQUENCE OR PARALLEL: [Click here](https://jrsinclair.com/articles/2019/how-to-run-async-js-in-parallel-or-sequential/). Tip: You can put the results of each promise in some array say myArray.push(item) sequence execution.
+		- Video: JavaScript Promises In 10 Minutes @YouTube: [Click here](https://www.youtube.com/watch?v=DHvZLI7Db8E)
+		- Artice: A Simple Guide to Asynchronous JavaScript: Callbacks, Promises & async/await: [Click here](https://dev.to/koladev/a-simple-guide-to-asynchronous-javascript-callbacks-promises-async-await-4m03)
+		- Video: Tips For Using Async/Await in JavaScript @ YouTube: [Click here](https://youtu.be/_9vgd9XKlDQ)
+
+		![image](https://user-images.githubusercontent.com/31458531/195805422-a8bee887-c810-4825-9e77-6646d45c8ff5.png)
+	-  MDN - [`For await of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of)
+	-  MDN - [forEach on using async callbacks?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#description)
 		> Note: forEach expects a synchronous function.
 		> forEach does not wait for promises. Make sure you are aware of the implications while using promises (or async functions) as forEach callback.
 
-	- Video: Tips For Using Async/Await in JavaScript @ YouTube: [Click here](https://youtu.be/_9vgd9XKlDQ)
-
-	![image](https://user-images.githubusercontent.com/31458531/195805422-a8bee887-c810-4825-9e77-6646d45c8ff5.png)
-
-	- Video: JavaScript Promises In 10 Minutes @YouTube: [Click here](https://www.youtube.com/watch?v=DHvZLI7Db8E)
-	- Artice: A Simple Guide to Asynchronous JavaScript: Callbacks, Promises & async/await: [Click here](https://dev.to/koladev/a-simple-guide-to-asynchronous-javascript-callbacks-promises-async-await-4m03)
