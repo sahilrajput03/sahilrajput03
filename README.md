@@ -3143,43 +3143,6 @@ import {log as l} from 'console'
 l('i love esm modules')
 ```
 
-### Make async/await cleaner with simple if checks
-
-```js
-async function fetchData({isBad}) {
-	try {
-		if (isBad) throw 'The request is not good...'
-
-		const data = 'result data...' // for e.g., `return await anyPromsieHere()`
-		return [data, null]
-	} catch (error) {
-		return [null, error]
-	}
-}
-
-async function main() {
-	// src: https://youtu.be/ITogH7lJTyE
-	const [data, error] = await fetchData({isBad: true}) //toggle isBad to toggle different behaviour of the api.
-	if (data) {
-		console.log('got data..')
-	}
-	if (error) {
-		console.log('there is some error with the api...')
-	}
-}
-
-main()
-```
-
-**This might look like a overkill for any simple api but if you have only two three api's and you need to check add try/catch for each of them in a single scope it all becomes whole messy to look at ... but if you use something like..**
-
-```
-  const [userData, userError] = await fetchUserData({ isBad: true });
-  const [locationData, locationError] = await fetchLocationData({ isBad: true });
-  const [friendsData, friendsError] = await fetchFriendsData({ isBad: true });
-  // now you can simly put 6 if checks to check for what is actually error and you code actually gets out of control (i.e., *program control) LITERALLY.
-```
-
 ### Get used to javascript objects(works good in both node and browser both, tested):
 
 ```js
