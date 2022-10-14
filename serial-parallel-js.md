@@ -34,6 +34,15 @@ async function main() {
 		}
 		i++
 	}
+	console.log('-----')
+	for (let i = 0; i < tokens.length; i++) {
+		const tk = tokens[i]
+		for (let j = 0; j < traders.length; j++) {
+			const tr = traders[j]
+			const v = await new Promise((res) => res(tk + '+' + tr))
+			console.log(v)
+		}
+	}
 }
 main()
 
