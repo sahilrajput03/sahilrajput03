@@ -152,7 +152,6 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 - **Telegram Groups:** [Click here](telegram-groups.md)
-- **Serial and parallel execution (async) in javavscript/nodejs:** [Click here](serial-parallel-js.md)
 - **Learn javascript:** [Click here](learn-js.md)
 
 ## integer overflow/ wraparound
