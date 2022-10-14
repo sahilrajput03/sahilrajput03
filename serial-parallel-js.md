@@ -13,8 +13,11 @@ async function main() {
 			console.log(v)
 		}
 	}
+
+	console.log('\nfinished');
 }
 main()
+
 
 # OUTPUT:
 # bat+trader2
