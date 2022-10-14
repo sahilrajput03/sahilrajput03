@@ -68,13 +68,52 @@
 	// zrx+trader4
 	```
 
+- **Make async/await cleaner with simple if checks**
+
+```js
+async function fetchData({isBad}) {
+	try {
+		if (isBad) throw 'The request is not good...'
+
+		const data = 'result data...' // for e.g., `return await anyPromsieHere()`
+		return [data, null]
+	} catch (error) {
+		return [null, error]
+	}
+}
+
+async function main() {
+	// src: https://youtu.be/ITogH7lJTyE
+	const [data, error] = await fetchData({isBad: true}) //toggle isBad to toggle different behaviour of the api.
+	if (data) {
+		console.log('got data..')
+	}
+	if (error) {
+		console.log('there is some error with the api...')
+	}
+}
+
+main()
+```
+
+*This might look like a overkill for any simple api but if you have only two three api's and you need to check add try/catch for each of them in a single scope it all becomes whole messy to look at ... but if you use something like..*
+
+```
+  const [userData, userError] = await fetchUserData({ isBad: true });
+  const [locationData, locationError] = await fetchLocationData({ isBad: true });
+  const [friendsData, friendsError] = await fetchFriendsData({ isBad: true });
+  // now you can simly put 6 if checks to check for what is actually error and you code actually gets out of control (i.e., *program control) LITERALLY.
+```
+
 - **Resources:**
-	- HOW TO RUN ASYNC JAVASCRIPT FUNCTIONS IN SEQUENCE OR PARALLEL: [Click here](https://jrsinclair.com/articles/2019/how-to-run-async-js-in-parallel-or-sequential/). Tip: You can put the results of each promise in some array say myArray.push(item) sequence execution.
+	- Article: HOW TO RUN ASYNC JAVASCRIPT FUNCTIONS IN SEQUENCE OR PARALLEL: [Click here](https://jrsinclair.com/articles/2019/how-to-run-async-js-in-parallel-or-sequential/). Tip: You can put the results of each promise in some array say myArray.push(item) sequence execution.
 	- For await of - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of)
 	- forEach on using async callbacks? [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#description)
 		> Note: forEach expects a synchronous function.
 		> forEach does not wait for promises. Make sure you are aware of the implications while using promises (or async functions) as forEach callback.
 
-	- Tips For Using Async/Await in JavaScript @ Youtube: [Click here](https://youtu.be/_9vgd9XKlDQ)
+	- Video: Tips For Using Async/Await in JavaScript @ Youtube: [Click here](https://youtu.be/_9vgd9XKlDQ)
 
 	![image](https://user-images.githubusercontent.com/31458531/195805422-a8bee887-c810-4825-9e77-6646d45c8ff5.png)
+
+- Video: JavaScript Promises In 10 Minutes @YouTube: [Click here](https://www.youtube.com/watch?v=DHvZLI7Db8E)
