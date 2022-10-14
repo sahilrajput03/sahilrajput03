@@ -99,9 +99,9 @@
 	*This might look like a overkill for any simple api but if you have only two three api's and you need to check add try/catch for each of them in a single scope it all becomes whole messy to look at ... but if you use something like..*
 
 	```js
-	  const [userData, userError] = await fetchUserData({ isBad: true });
-	  const [locationData, locationError] = await fetchLocationData({ isBad: true });
-	  const [friendsData, friendsError] = await fetchFriendsData({ isBad: true });
+	const [userData, userError] = await fetchUserData({ isBad: true });
+	const [locationData, locationError] = await fetchLocationData({ isBad: true });
+	const [friendsData, friendsError] = await fetchFriendsData({ isBad: true });
 	```
 	Now you can simly put 6 if checks to check for what is actually error and you code actually gets out of control (i.e., *program control) LITERALLY.
 
