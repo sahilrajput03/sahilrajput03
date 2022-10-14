@@ -67,3 +67,11 @@
 	// zrx+trader3
 	// zrx+trader4
 	```
+
+- **Resources:**
+	- HOW TO RUN ASYNC JAVASCRIPT FUNCTIONS IN SEQUENCE OR PARALLEL: [Click here](https://jrsinclair.com/articles/2019/how-to-run-async-js-in-parallel-or-sequential/). Tip: You can put the results of each promise in some array say myArray.push(item) sequence execution.
+	- For await of - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of)
+	- forEach on using async callbacks? [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#description)
+		> Note: forEach expects a synchronous function.
+		> forEach does not wait for promises. Make sure you are aware of the implications while using promises (or async functions) as forEach callback.
+	- 
