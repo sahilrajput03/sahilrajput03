@@ -119,3 +119,72 @@
 		> Note: forEach expects a synchronous function.
 		> forEach does not wait for promises. Make sure you are aware of the implications while using promises (or async functions) as forEach callback.
 
+
+## I love Promise.allSettled more that I hate `try{}catch(e){}` syntax
+
+read more @ https://javascript.info/promise-api#summary
+
+```
+let b = () => Promise.reject(20)
+
+await Promise.allSettled([b()])
+// ouput: keyPoint: It never throws error(i.e., `reject("someErrorMessage")`. Yikes!
+[
+    {
+        "status": "rejected",
+        "reason": 20
+    }
+]
+So, now you would be tempting to re-write all your previous `try{}catch(e){}` flavoured in a more if/else like manner, don't you .?
+
+// I mean instead of writing:
+
+try{
+    const res = await fetch('ss')
+    await res.json()
+}catch(e){
+    console.log('Caught program control thief :LOL: ~sahil~\n', e)
+}
+// ouput:
+Caught program control thief :LOL: ~sahil~
+ SyntaxError: Unexpected token < in JSON at position 0
+
+// you can write more synchronouse looking code, e.g.,
+
+let res = await fetch('ss')
+let [settledRequest] = await Promise.allSettled([res.json()])
+if(settledRequest.status === 'fulfilled') console.log('yikes, got value', settledRequest.value)
+if(settledRequest.status === 'rejected') console.log('shit, got reason', settledRequest.reason)
+// isn't that the way you wanted code to be written like from a long time...?
+```
+
+## `Promsise.all` vs. `Promise.allSettled` (i.e., either `resolved` or `rejected`)
+
+```js
+let a = () => Promise.resolve(10)
+let b = () => Promise.reject(20)
+
+// Promise.allSettled
+await Promise.allSettled([a(), b()])
+// output: keyPoint: It never throws error so we can use it without try and catch(what a godly thing, isn't it ?).
+[
+    {
+        "status": "fulfilled",
+        "value": 10
+    },
+    {
+        "status": "rejected",
+        "reason": 20
+    }
+]
+
+// Promise.all
+try{
+    await Promise.all([a(), b()])
+}catch(e){
+    console.log('boom', e)
+}
+
+// output:
+boom 20
+```
