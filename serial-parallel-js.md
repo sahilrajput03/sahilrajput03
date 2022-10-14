@@ -10,11 +10,13 @@
 	const tokens = ['dai', 'bat', 'rep', 'zrx']
 	const traders = ['trader1', 'trader2', 'trader3', 'trader4']
 
+	const get = async (tr, tk) => await new Promise((res) => setTimeout(() => res(tk + '+' + tr), 300))
+
 	async function main() {
 		console.log('----- Using for-of loops')
 		for (const tk of tokens) {
 			for (const tr of traders) {
-				const v = await new Promise((res) => res(tk + '+' + tr))
+				const v = await get(tk, tr)
 				console.log(v)
 			}
 		}
@@ -23,7 +25,7 @@
 			const tk = tokens[i]
 			for (let j = 0; j < traders.length; j++) {
 				const tr = traders[j]
-				const v = await new Promise((res) => res(tk + '+' + tr))
+				const v = await get(tk, tr)
 				console.log(v)
 			}
 		}
@@ -35,7 +37,7 @@
 			let j = 0
 			while (j < traders.length) {
 				const tr = traders[j]
-				const v = await new Promise((res) => res(tk + '+' + tr))
+				const v = await get(tk, tr)
 				console.log(v)
 				j++
 			}
@@ -44,16 +46,15 @@
 		console.log('----- Using for await (unnecessary')
 		for await (const tk of tokens) {
 			for await (const tr of traders) {
-				const v = await new Promise((res) => res(tk + '+' + tr))
+				const v = await get(tk, tr)
 				console.log(v)
 			}
 		}
 	}
 	main()
 
-
 	// All of above outputs like that:
-	// 
+	//
 	// OUTPUT:
 	// bat+trader2
 	// bat+trader3
