@@ -11,6 +11,13 @@
 	const traders = ['trader1', 'trader2', 'trader3', 'trader4']
 
 	async function main() {
+		console.log('----- Using for-of loops')
+		for (const tk of tokens) {
+			for (const tr of traders) {
+				const v = await new Promise((res) => res(tk + '+' + tr))
+				console.log(v)
+			}
+		}
 		console.log('----- Using simple for loops')
 		for (let i = 0; i < tokens.length; i++) {
 			const tk = tokens[i]
@@ -33,13 +40,6 @@
 				j++
 			}
 			i++
-		}
-		console.log('----- Using for loops')
-		for (const tk of tokens) {
-			for (const tr of traders) {
-				const v = await new Promise((res) => res(tk + '+' + tr))
-				console.log(v)
-			}
 		}
 		console.log('----- Using for await (unnecessary')
 		for await (const tk of tokens) {
