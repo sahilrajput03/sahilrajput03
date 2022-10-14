@@ -74,4 +74,7 @@
 	- forEach on using async callbacks? [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#description)
 		> Note: forEach expects a synchronous function.
 		> forEach does not wait for promises. Make sure you are aware of the implications while using promises (or async functions) as forEach callback.
-	- 
+
+	- Tips For Using Async/Await in JavaScript @ Youtube: [Click here](https://youtu.be/_9vgd9XKlDQ)
+
+	![image](https://user-images.githubusercontent.com/31458531/195805422-a8bee887-c810-4825-9e77-6646d45c8ff5.png)
