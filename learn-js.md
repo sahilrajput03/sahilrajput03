@@ -1,4 +1,4 @@
-### Modules
+## Modules
 
 ```js
 import defaultExport, * as name from "module-name";
@@ -23,7 +23,7 @@ export default {
 
 src: [Import in js | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#dynamic_imports)
 
-## Example from ST Answer
+### Simple example usage of js modules from ST Answer
 
 Source: [Click here](https://stackoverflow.com/a/38131639/10012446)
 
