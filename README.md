@@ -1401,6 +1401,11 @@ Find out @ https://stackblitz.com/edit/react-fjnkr5?file=src%2FApp.js
 
 ![image](https://user-images.githubusercontent.com/31458531/167283084-f4fd13e5-c6ab-42e4-b8c0-081671fc3e13.png)
 
+**You can close the side navigator have some breathing air.**
+
+![image](https://user-images.githubusercontent.com/31458531/196031062-d3f0c175-f0eb-4212-9474-da4eff09e9f4.png)
+
+
 ## Documentation Generator in Javascript
 
 https://github.com/TypeStrong/typedoc
