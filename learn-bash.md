@@ -9,6 +9,13 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## i3wm shows Load Average on the status bar
+
+From htop:
+
+![image](https://user-images.githubusercontent.com/31458531/196246403-3af8c7df-ad56-4e3d-949a-96c2ad09953f.png)
+
+
 ## make a script to be run by root user only
 
 SOA (Stackoverflow Answer): [Click here](https://stackoverflow.com/a/18216122/10012446)
