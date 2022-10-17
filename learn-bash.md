@@ -12,6 +12,7 @@
 ## learn htop
 
 - You can use `u` key to show users of a particular user. Its helpful say when you have several users and you wanna see who's consuming maximum resources of cpu becoz of some db's or servers running by those users.
+- You can use `f2` which is **Setup** to make the ui according to what you need: say you may add `Cpu Average` to you ui. Tip: Use space to select and move items.
 
 ## i3wm shows Load Average on the status bar
 
