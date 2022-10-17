@@ -8,7 +8,15 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
-## installed ganache-ui
+## install `geth` (aka Go ETHereum)
+
+Source: [Click here](https://geth.ethereum.org/docs/install-and-build/installing-geth#arch-linux-via-pacman)
+
+```bash
+pacman -S geth
+```
+
+## install ganache-ui
 
 Download AppImage simply via: https://trufflesuite.com/ganache/
 
