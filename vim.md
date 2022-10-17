@@ -5,6 +5,15 @@
 
 # neovim (nvim)
 
+## You can open root files via nvim which uses your own init.vim file
+
+Refer this: https://github.com/neovim/neovim/issues/6746#issuecomment-1280866412
+
+More on stackoverflow: https://unix.stackexchange.com/questions/494410/how-can-i-get-neovim-to-load-my-init-vim-file-when-in-sudo-mode
+
+
+tldr: You can use: `sudo -e nvim myFile` and you can use all your plugins but annoying this is files are actually saved in their real places only when you exix the nvim. SAdddy though.
+
 ## Installed nerdtree in vim
 
 [Source - official](https://github.com/preservim/nerdtree#installation)
