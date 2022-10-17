@@ -156,6 +156,10 @@ cra: 335mb
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/nginx)
 
+## Google search query syntax
+
+https://www.google.com/search?q=life+is+awesome
+
 ## integer overflow/ wraparound
 
 [Source](https://en.wikipedia.org/wiki/Integer_overflow): integer overflow (wraparound) can't be better explained than using this odometer example. 😅 
