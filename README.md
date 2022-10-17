@@ -156,6 +156,11 @@ cra: 335mb
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 
+## Softwre developer vs. Software engineer
+
+![image](https://user-images.githubusercontent.com/31458531/196280399-24c43868-4535-48ef-bf81-ac411fbd793c.png)
+
+
 ## Simple js/react/css interview 90 question test
 
 ![interview-ss](https://user-images.githubusercontent.com/31458531/196256783-8480cb3e-cbf8-46c9-b29c-671dcf683df0.png)
