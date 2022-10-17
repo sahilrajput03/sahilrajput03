@@ -5,14 +5,13 @@
 
 # neovim (nvim)
 
-## You can open root files via nvim which uses your own init.vim file
+## Edit files as root user with nvim (why?)
 
-Refer this: https://github.com/neovim/neovim/issues/6746#issuecomment-1280866412
+Why? Ans. If you try command like `sudo nvim /etc/nginx/nginx.conf` then you'll able to use nvim but the config file (~/nvim/init.vim won't be loaded at all coz [check here](https://github.com/neovim/neovim/issues/6746)).
 
-More on stackoverflow: https://unix.stackexchange.com/questions/494410/how-can-i-get-neovim-to-load-my-init-vim-file-when-in-sudo-mode
+So, solution?
 
-
-tldr: You can use: `sudo -e nvim myFile` and you can use all your plugins but annoying this is files are actually saved in their real places only when you exix the nvim. SAdddy though.
+Make yourself root and then simply use nvim just as you do regularly i.e., `v /etc/nginx/nginx.conf`, fyi; v is alias of `nvim` in my .bashrc file. IT SIMPLY WORKS!
 
 ## Installed nerdtree in vim
 
