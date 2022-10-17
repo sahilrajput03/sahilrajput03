@@ -7,7 +7,7 @@
 
 ## Edit files as root user with nvim (why?)
 
-Why? Ans. If you try command like `sudo nvim /etc/nginx/nginx.conf` then you'll able to use nvim but the config file (~/nvim/init.vim won't be loaded at all coz [check here](https://github.com/neovim/neovim/issues/6746)).
+Why? Ans. If you try command like `sudo nvim /etc/nginx/nginx.conf` then you'll able to use nvim but the config file (~/nvim/init.vim won't be loaded and you won't be able to use any nvim extension i.e, nerdtree, syntax highlighting, etc.  Why is it? Becoz [check here](https://github.com/neovim/neovim/issues/6746)).
 
 So, solution?
 
