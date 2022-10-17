@@ -154,7 +154,7 @@ cra: 335mb
 	- **DSA in Javascript:** [Click here](dsa-js.md)
 	- **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
-- **Nginx config files:** [Click here](https://github.com/sahilrajput03/nginx)
+- **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 
 ## Google search query syntax
 
