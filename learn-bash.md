@@ -17,6 +17,7 @@
 - You can check environment variables for a process by pressing `s`
 - You can press `t` to toggle tree mode.
 - You may use `k` to send some signal to a process (say kill signal)
+- You can use filter `f4` and search `f3`. Tip: (filter does what array.filter methods does in javascript) where as search will keep showing all results on screen but move your cursor to matching process name as you type.
 - You can help view below info via `h`:
 
 ![image](https://user-images.githubusercontent.com/31458531/196249724-cf3a60ad-45e6-43c7-94e4-4035d0a75464.png)
