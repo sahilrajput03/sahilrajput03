@@ -11,7 +11,7 @@
 
 ## make a script to be run by root user only
 
-SOA (Stackoverflow Answer): https://stackoverflow.com/a/18216122/10012446
+SOA (Stackoverflow Answer): [Click here](https://stackoverflow.com/a/18216122/10012446)
 
 Implementation: [Click here](https://github.com/sahilrajput03/config/blob/main/.bash_nginx#L34-L35)
 
