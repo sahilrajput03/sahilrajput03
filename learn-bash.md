@@ -15,6 +15,20 @@ SOA (Stackoverflow Answer): [Click here](https://stackoverflow.com/a/18216122/10
 
 Implementation: [Click here](https://github.com/sahilrajput03/config/blob/main/.bash_nginx#L34-L35)
 
+For simple example (I need to be logged in as root i.e, I should run command `su` before editing the nginx.conf file so that nvim loads all extensions, and syntax highlight, etc i.e, load `~/nvim/init.vim` file becoz by default `sudo nvim /etc/nginx/nginx.conf` doesn't load nvim user config file):
+
+```bash
+# We need to become root `su` so that all vim extensions and syntax highlight can work with nginx, ~Sahil
+vi.nx() {
+	# Learn uid of root user is always 0
+	if [ "$EUID" -ne 0 ]; then echo "Please become root user first via 'su' command. ~Sahil"; return; fi
+
+	nvim /etc/nginx/nginx.conf
+}
+```
+
+So running above fn will return if the user has not run `su` command before running the `vi.nx` from cli.
+
 ## Format bash code with vscode
 
 https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format
