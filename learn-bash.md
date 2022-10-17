@@ -12,7 +12,11 @@
 ## learn htop
 
 - You can use `u` key to show users of a particular user. Its helpful say when you have several users and you wanna see who's consuming maximum resources of cpu becoz of some db's or servers running by those users.
-- You can use `f2` which is **Setup** to make the ui according to what you need: say you may add `Cpu Average` to you ui. Tip: Use space to select and move items.
+- You can use `f2` which is **Setup** to make the ui according to what you need: say you may add `Cpu Average` to you ui. Tip: Use space to select and move items. You may turn off tree mode as well coz it kinda make ui too dense. You may also set "Tree view is collapsed by default"
+- You can use pgUp and pgDown to quickly move across page in htop coz up/down arrows are kinda lazy to use.
+- You can check environment variables for a process by pressing `s`
+- You can press `t` to toggle tree mode.
+- You may use `k` to send some signal to a process (say kill signal)
 
 ## i3wm shows Load Average on the status bar
 
