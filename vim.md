@@ -11,7 +11,12 @@ Why? Ans. If you try command like `sudo nvim /etc/nginx/nginx.conf` then you'll 
 
 So, solution?
 
-Make yourself root and then simply use nvim just as you do regularly i.e., `v /etc/nginx/nginx.conf`, fyi; v is alias of `nvim` in my .bashrc file. IT SIMPLY WORKS!
+**Make yourself root and then simply use nvim just as you do regularly. FYI: v is alias of `nvim` in my .bashrc file. IT SIMPLY WORKS!**
+
+```bash
+su
+v /etc/nginx/nginx.conf
+```
 
 ## Installed nerdtree in vim
 
