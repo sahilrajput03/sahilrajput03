@@ -9,6 +9,10 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## learn htop
+
+- You can use `u` key to show users of a particular user. Its helpful say when you have several users and you wanna see who's consuming maximum resources of cpu becoz of some db's or servers running by those users.
+
 ## i3wm shows Load Average on the status bar
 
 From htop:
