@@ -156,6 +156,10 @@ cra: 335mb
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 
+## Simple js/react/css interview 90 question test
+
+![interview-ss](https://user-images.githubusercontent.com/31458531/196256783-8480cb3e-cbf8-46c9-b29c-671dcf683df0.png)
+
 ## Google search query syntax
 
 https://www.google.com/search?q=life+is+awesome
