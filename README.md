@@ -156,6 +156,11 @@ cra: 335mb
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 
+## Is vercel completely free?
+
+- https://www.reddit.com/r/nextjs/comments/q0r1qr/is_vercel_completely_free_i_am_confused/
+- https://vercel.com/guides/does-vercel-offer-free-trial
+
 ## Mottos of different fields
 
 ![image](https://user-images.githubusercontent.com/31458531/196287944-91d9f31f-9009-4714-a254-dae33c822099.png)
