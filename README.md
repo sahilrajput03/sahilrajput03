@@ -39,7 +39,7 @@ cra: 335mb
 
 - Contact me: [Click here](https://sahilrajput03.ml/me)
 - My Works: [Click here](my-works.md)
-- Resume: [Click here](https://github.com/sahilrajput03/my_bin/raw/master/resume/sahil-rajput_resume-linux-feb-2022.pdf)
+- Resume: FullStack Blockchain Developer : [Click here](https://tinyurl.com/sahil-blockchain-dev),  [old](https://github.com/sahilrajput03/my_bin/raw/master/resume/sahil-rajput_resume-linux-feb-2022.pdf)
 - Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - Dictionary: [Click here](dictionary.md)
 - **Acronyms:** [Click here](acroynms.md)
