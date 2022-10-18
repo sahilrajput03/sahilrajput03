@@ -158,7 +158,10 @@ cra: 335mb
 
 ## software enginner seniority?
 
-Intern > SDE1 > SDE2 > (SDE3/TechLead/SD3)
+Intern > SDE1 > SDE2 > (SDE3/TechLead/SD3) > Individual Contributor
+Intern > SDE1 > SDE2 > (SDE3/TechLead/SD3) > Project Manager
+
+SSE and SDE2 produces most of code for the companies. SDE2 > SSE jump is kind of tough in big companies.
 
 ## Is vercel completely free?
 
