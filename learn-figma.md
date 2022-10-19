@@ -272,3 +272,7 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 	
 	- Framer - Interactive Prototypes: [Click here@youtube__video](https://www.youtube.com/watch?v=k7gwtxeeOQM)
 	- prototypign with framer - [youtube search](https://www.youtube.com/results?search_query=prototyping+in+framer)
+
+## Thats how you go into image crop mode
+	
+	![image](https://user-images.githubusercontent.com/31458531/196784674-b4193725-c428-43d1-9a7c-2c7d0e481c00.png)
