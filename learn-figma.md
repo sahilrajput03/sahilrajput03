@@ -275,4 +275,4 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 
 ## Thats how you go into image crop mode
 	
-	![image](https://user-images.githubusercontent.com/31458531/196784674-b4193725-c428-43d1-9a7c-2c7d0e481c00.png)
+![image](https://user-images.githubusercontent.com/31458531/196784674-b4193725-c428-43d1-9a7c-2c7d0e481c00.png)
