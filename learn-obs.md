@@ -16,7 +16,7 @@ The problem is your mic can only be used by one service a a time i.e, if you are
 
 Also, if you are in situation that your mic is used by chrome and you are not able to use mic in obs, then you need to free the mic from chrome first. There are two ways to do this, i.e, either you change the mic in google meet in the settings of meet itself of you can simply close and the meet and restart obs and then you can re-open your google meet again.
 
-## You need to connect obs to your google meet or any other video meeting?
+## You need to connect obs to your google meet or any other video meeting? 🥰 ❣ 💓
 
 You have to use mic from the firefox directly and need to choose "dummy video" device for the camera, you!!
 
