@@ -1,5 +1,13 @@
 # Readme
 
+## Using google meet with virtual camera with firefox
+
+Problem: Google meet flips the camera video horizontally by default and when we use virtual camera of the obs-studio we see that the vidoe of the scren also suffers this., i.e., text is simply not readable.
+
+**FIX:** You simply need to flip horizontally both your screen and the camera video (do it for both individually).
+
+![image](https://user-images.githubusercontent.com/31458531/197192284-a82e843e-a6a7-4a89-abcd-939d15cb974f.png)
+
 ## mic working in obs but not in chrome? 🥰 ❣ 💓
 
 Date: 21 Oct, 2022
