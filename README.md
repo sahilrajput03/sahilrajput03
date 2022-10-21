@@ -156,6 +156,21 @@ cra: 335mb
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 
+## Strict more in nodejs
+
+```js
+// 'use strict';
+
+// strict mode: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+
+// strict mode makes it impossible to accidentally create global variables (works in nodejs and browsers{tested with chrome})
+// mistypeVarible = 17;   // throws ReferenceErrror in strict mode
+
+let c = {}
+Object.defineProperty(c, 'a', {value: 2})
+// c.a = 10 // throws error in strict mode: TypeError: Cannot assign to read only property 'a' of object
+```
+
 ## software enginner seniority?
 
 Intern > SDE1 > SDE2 > (SDE3/TechLead/SD3) > Individual Contributor
