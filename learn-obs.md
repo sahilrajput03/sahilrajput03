@@ -18,6 +18,8 @@ Also, if you are in situation that your mic is used by chrome and you are not ab
 
 ## You need to connect obs to your google meet or any other video meeting? 🥰 ❣ 💓
 
+![image](https://user-images.githubusercontent.com/31458531/197194173-61fb1603-b2ee-46df-8135-eea31c40e00e.png)
+
 You have to use mic from the firefox directly and need to choose "dummy video" device for the camera, you!!
 
 ***Note: Please use virtual camera with firefox only becoz virtual camera device doesn't show up in chrome/chromium browsers when connecting to list of camera devices for some reason you [can check here](https://github.com/umlaeute/v4l2loopback/issues/183).***
