@@ -10,6 +10,8 @@ Also, if you are in situation that your mic is used by chrome and you are not ab
 
 ## You need to connect obs to your google meet or any other video meeting?
 
+[Source](https://jonathanbossenger.com/2020/12/17/obs-studio-linux-virtual-camera/)
+
 You can do it via virtucal camera, and its builtin obs itself you just need to presst that button:
 
 **note: in case you press the button but it doesn't do anything then you simply need to execute this command: `obs.activateModprobeV4l2loopback` (which exectes `sudo modprobe v4l2loopback`)**
