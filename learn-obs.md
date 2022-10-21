@@ -1,6 +1,8 @@
 # Readme
 
-## mic working in obs but not in chrome?
+## mic working in obs but not in chrome? 🥰 ❣ 💓
+
+Date: 21 Oct, 2022
 
 The problem is your mic can only be used by one service a a time i.e, if you are using your mic in obs(i.e., you can see the spickes of meter) you need to free the mic from the obs and you can do it by exiting obs.
 
