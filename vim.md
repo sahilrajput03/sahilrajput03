@@ -1,4 +1,109 @@
+# Ultimate vim editors to try out
+
+- **SpaceVim:** https://github.com/SpaceVim/SpaceVim
+- Learn Mapping Keys in vim: https://vim.fandom.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1) 
+
 # neovim (nvim)
+
+## Edit files as root user with nvim (why?)
+
+Why? Ans. If you try command like `sudo nvim /etc/nginx/nginx.conf` then you'll able to use nvim but the config file (~/nvim/init.vim won't be loaded and you won't be able to use any nvim extension i.e, nerdtree, syntax highlighting, etc.  Why is it? Becoz [check here](https://github.com/neovim/neovim/issues/6746)).
+
+So, solution?
+
+**Make yourself root and then simply use nvim just as you do regularly. FYI: v is alias of `nvim` in my .bashrc file. IT SIMPLY WORKS!**
+
+```bash
+su
+v /etc/nginx/nginx.conf
+```
+
+## Installed nerdtree in vim
+
+[Source - official](https://github.com/preservim/nerdtree#installation)
+
+```txt
+Vim-Plug
+Install Vim-Plug, according to its instructions.
+Add the following text to your vimrc.
+call plug#begin()
+  Plug 'preservim/nerdtree'
+call plug#end()
+Restart Vim, and run the :PlugInstall statement to install your plugins.
+```
+
+**Learning nerttree via command:**
+-  `:NERDTree` and press ? to turn on the Quick Help.
+- Of course, your most complete source of information is the documentation: `:help NERDTree`
+
+```bash
+" ============================
+" File node mappings~
+" double-click,
+" o: open in prev window
+" go: preview
+" t: open in new tab
+" T: open in new tab silently
+" middle-click,
+" i: open split
+" gi: preview split
+" s: open vsplit
+" gs: preview vsplit
+" <CR>: custom open
+
+" Directory node mappings~   │~
+" double-click,              │~
+" o: open & close node       │~
+" O: recursively open node   │~
+" t: open in new tab         │~
+" T: open in new tab silently│~
+" <CR>: custom open          │~
+" x: close parent of node    │~
+" X: close all child nodes of│~
+"    current node recursively│~
+" middle-click,              │~
+" e: explore selected dir    │~
+"                            │~
+" ---------------------------│~
+" Bookmark table mappings~   │~
+" double-click,              │~
+" o: open bookmark           │~
+" go: preview file           │~
+" go: find dir in tree       │~
+" t: open in new tab         │~
+" T: open in new tab silently│~
+" i: open split              │~
+" gi: preview split          │~
+" s: open vsplit             │~
+" gs: preview vsplit         │~
+" <CR>: custom open          │~
+" D: delete bookmark         │~
+"                            │~
+
+" ---------------------------│~
+" Filesystem mappings~       │~
+" C: change tree root to the │~
+"    selected dir            │~
+" u: move tree root up a dir │~
+" U: move tree root up a dir │~
+"    but leave old root open │~
+" r: refresh cursor dir      │~
+" R: refresh current root    │~
+" m: Show menu               │~
+" cd:change the CWD to the   │~
+"    selected dir            │~
+" CD:change tree root to CWD │~
+  
+" ---------------------------│~
+" Tree navigation mappings~  │~
+" P: go to root              │~
+" p: go to parent            │~
+" K: go to first child       │~
+" J: go to last child        │~
+" <C-j>: go to next sibling  │~
+" <C-k>: go to prev sibling  │~
+
+```
 
 ## Q. Why vim freezes when I press `ctrl+s` in some versions of debian/ubuntu/rapberryos?
 

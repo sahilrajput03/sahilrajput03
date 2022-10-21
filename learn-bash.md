@@ -9,12 +9,84 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## learn htop
+
+Run `htop`
+
+- You can use `q` to quit.
+- You can use `u` key to show users of a particular user. Its helpful say when you have several users and you wanna see who's consuming maximum resources of cpu becoz of some db's or servers running by those users.
+- You can use `f2` which is **Setup** to make the ui according to what you need: say you may add `Cpu Average` to you ui. Tip: Use space to select and move items. You may turn off tree mode as well coz it kinda make ui too dense. You may also set "Tree view is collapsed by default"
+- You can use pgUp and pgDown to quickly move across page in htop coz up/down arrows are kinda lazy to use.
+- You can check environment variables for a process by pressing `s`
+- You can press `t` to toggle tree mode.
+- You may use `k` to send some signal to a process (say kill signal)
+- You can use filter `f4` and search `f3`. Tip: (filter does what array.filter methods does in javascript) where as search will keep showing all results on screen but move your cursor to matching process name as you type.
+- You can help view below info via `h`:
+
+![image](https://user-images.githubusercontent.com/31458531/196249724-cf3a60ad-45e6-43c7-94e4-4035d0a75464.png)
+
+![image](https://user-images.githubusercontent.com/31458531/196249793-256e8a3b-8c93-43c7-823b-1a9e237f074d.png)
+
+
+
+## i3wm shows Load Average on the status bar
+
+From htop:
+
+![image](https://user-images.githubusercontent.com/31458531/196246403-3af8c7df-ad56-4e3d-949a-96c2ad09953f.png)
+
+
+## make a script to be run by root user only
+
+SOA (Stackoverflow Answer): [Click here](https://stackoverflow.com/a/18216122/10012446)
+
+Implementation: [Click here](https://github.com/sahilrajput03/config/blob/main/.bash_nginx#L34-L35)
+
+For simple example (I need to be logged in as root i.e, I should run command `su` before editing the nginx.conf file so that nvim loads all extensions, and syntax highlight, etc i.e, load `~/nvim/init.vim` file becoz by default `sudo nvim /etc/nginx/nginx.conf` doesn't load nvim user config file):
+
+```bash
+# We need to become root `su` so that all vim extensions and syntax highlight can work with nginx, ~Sahil
+vi.nx() {
+	# Learn uid of root user is always 0
+	if [ "$EUID" -ne 0 ]; then echo "Please become root user first via 'su' command. ~Sahil"; return; fi
+
+	nvim /etc/nginx/nginx.conf
+}
+```
+
+So running above fn will return if the user has not run `su` command before running the `vi.nx` from cli.
+
+## Format bash code with vscode
+
+https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format
+
+## measure the time taken by a command
+
+[Source](https://ostechnix.com/how-to-find-the-execution-time-of-a-command-or-process-in-linux/), **Also, for MACOS** the time taken by command is represented by the value corresponding to **`total`** field in the output. [Source](https://apple.stackexchange.com/a/424160)
+
+```bash
+time COMMAND_HERE
+```
+
+and in this case the time taken is 17.969 seconds
+
+![image](https://user-images.githubusercontent.com/31458531/194763174-5d6b4aee-9932-4dc9-b757-bdf3c4ecfd95.png)
+
+
+## compre two folders via cli `diff`
+
+https://stackoverflow.com/a/15197050/10012446
+
 ## free online linux machines and terminals
 
 - [http://copy.sh/v86/](http://copy.sh/v86/)
 - [https://bellard.org/jslinux/](https://bellard.org/jslinux/)
 
 Source: Amazing quora answer with 5+ resources: https://qr.ae/pviIdi
+
+## my forgetful clis
+
+![image](https://user-images.githubusercontent.com/31458531/193539231-bd4c6735-73aa-4527-a9ea-7a355aaf1e24.png)
 
 ## Cannot type in termnal after pressing ctrl+c on any running program?
 
@@ -2329,6 +2401,8 @@ dirname folder1/folder2/myfile.sh
 ```
 
 ***
+
+## `$@` vs. `$*`? What you should use.
 
 
 ```

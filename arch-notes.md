@@ -8,6 +8,63 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install `geth` (aka Go ETHereum)
+
+Source: [Click here](https://geth.ethereum.org/docs/install-and-build/installing-geth#arch-linux-via-pacman)
+
+```bash
+pacman -S geth
+```
+
+## install ganache-ui
+
+Download AppImage simply via: https://trufflesuite.com/ganache/
+
+```bash
+sudo mv ~/Downloads/ganache-2.5.4-linux-x86_64.AppImage /usr/bin/ganache-ui
+```
+
+## Installed xournal
+
+Amazing pdf annotater: Source - [Stackoverflow Ansser](https://askubuntu.com/a/1288079/702911)
+
+[Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
+
+```bash
+# rename
+mv xournalpp-1.1.1-x86_64.AppImage xournalpp
+
+# move to user binaries (so it'll be accessible by all users and demnu as well):
+sudo mv xournalpp /usr/bin/
+
+# alias
+xo
+
+# TIP: You can go to "File > Export as PDF" to export the annotated pdf, yo! 
+```
+
+- Downlaod Source: https://github.com/xournalpp/xournalpp/releases
+
+	1/5 ![image](https://user-images.githubusercontent.com/31458531/195139957-04e120dc-8098-4ff2-8e9e-89efdfe7a628.png)
+	
+	2/5 ![image](https://user-images.githubusercontent.com/31458531/195139681-60b8cbfc-058b-482e-9367-296417bc5e9e.png)
+	
+	3/5 ![image](https://user-images.githubusercontent.com/31458531/195135088-eb28f3dc-e2d8-476e-9990-2d9b8473ab30.png)
+
+	4/5 ![image](https://user-images.githubusercontent.com/31458531/195132041-2998b19c-b007-49de-b3ff-c4f5a03592fc.png)
+	
+	5/5 ![image](https://user-images.githubusercontent.com/31458531/195132850-7ef4505a-9f58-43d0-ac38-9ae5e67e0b93.png)
+
+## Installed `kitty` terminal and made it as default termial
+
+**TIP:** Open http links by `ctrl+shift+click`, [source](https://github.com/kovidgoyal/kitty/issues/371#issuecomment-879919497).
+
+```bash
+sudo pamcman -S kitty
+# Now we need to set below line in i3config file:
+# bindsym $mod+Return exec kitty
+```
+
 ## Add a binary to dmenu list of executables?
 
 Simply move the binary to `/usr/bin` directory or you can make a symlink in the `/usr/bin` directory as well.
@@ -1032,12 +1089,6 @@ Source: https://archlinux.org/packages/community/any/tldr/
 sudo pacman -S tldr
 ```
 
-## Using ranger:
-
-```
-# Use `S` in ranger to return to shell in current folder.
-```
-
 ## installed `7zz` for .7z file extensions
 
 Docs of 7z: https://wiki.archlinux.org/title/p7zip
@@ -1998,7 +2049,7 @@ sudo systemctl enable --now code-server@$USER
 
 ## setting up ssh
 
-```
+```bash
 sudo pacman -S openssh
 
 # check the status:
@@ -2015,17 +2066,65 @@ sudo systemctl stop sshd
 
 src: https://linuxhint.com/arch_linux_ssh_server/
 
-## Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
+## Ranger
 
+- Ranger Docs in Archlinux: [Click here](https://wiki.archlinux.org/title/ranger#Configuration)
+- Ranger - [Github](https://github.com/ranger/ranger)
+
+- **Use `S` in ranger to return to shell in current folder.**
+
+### Ranger shwoing images in terminal is awesome
+
+Source: https://askubuntu.com/a/1268970/702911
+
+```bash
+# create a user specific rangerconfig file if it doesn't exist already
+cp /usr/share/doc/ranger/config/rc.conf ~/ranger/
+
+# edit config file
+vi ~/ranger/rc.conf
+
+# Then make below changes:
+set preview_images true
 ```
-ranger --copy-config=rifle #Copies default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
-vi .config/ranger/rifle.conf
+
+![image](https://user-images.githubusercontent.com/31458531/193551184-39b6f9ed-e987-4275-b8df-9c0d02120ead.png)
+
+
+### Configuring`ranger` and setting `google-chrome-stable` as defautl pdf viewwer:
+
+```bash
+# copy default config file of ranger to .config/ranger/rifle.conf path, so we can customise it on user basis.
+ranger --copy-config=rifle
+
+# move config folder to /home/array path becoz reading from `man rifle` command we need to have the `ranger` config folder at `/home/array` becoz we have already have set `XDG_CONFIG_HOME=/home/array` so rifle is gonna look for the config file in `/home/array/ranger/rifle.conf` path
+mv /home/array/.config/ranger/ /home/array/
+
+# modifying user config file
+vi.ranger # which is aliased to below `vi ~/ranger/rifle.conf`
 ```
 
 and now add below line where you have other pdf extension openers defined in there:
 
-```
+```bash
 ext pdf, has google-chrome-stable,     X, flag f = google-chrome-stable "$@"
+```
+
+
+### Config file of rifle not working?
+
+Since I have set my variable `XDG_CONFIG_HOME` set as `/home/array` (see in .bashrc) to konw whey I set that varaible to that value(spoiler: to make neovim's config work).
+
+![image](https://user-images.githubusercontent.com/31458531/193546601-493d1af4-4e5d-449d-8538-b8a4629372a4.png)
+
+And also, from output of command: `man rifle`
+
+![image](https://user-images.githubusercontent.com/31458531/193546326-692727ff-2d42-4f92-8636-72122a779170.png)
+
+so we need to run below command to fix the config folder path to make ranger and rifle work (ranger uses rifle internally to select set default program openers for different types of files):
+
+```bash
+mv /home/array/.config/ranger/ /home/array/
 ```
 
 ## Installing `comfortable-motion` and `vim-plug`

@@ -4,7 +4,7 @@ A Pragmatic software developer.
 
 Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.”
 
-[relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
+[listening today](https://www.youtube.com/watch?v=0mndNg99lbg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
 
 Unwinding is hot no-sugar coffee!
 
@@ -39,8 +39,9 @@ cra: 335mb
 
 - Contact me: [Click here](https://sahilrajput03.ml/me)
 - My Works: [Click here](my-works.md)
-- Resume: [Click here](https://github.com/sahilrajput03/my_bin/raw/master/resume/sahil-rajput_resume-linux-feb-2022.pdf)
+- Resume: FullStack Blockchain Developer : [Click here](https://tinyurl.com/sahil-blockchain-dev),  [old](https://github.com/sahilrajput03/my_bin/raw/master/resume/sahil-rajput_resume-linux-feb-2022.pdf)
 - Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
+- Dictionary: [Click here](dictionary.md)
 - **Acronyms:** [Click here](acroynms.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](arch-notes.md)
@@ -64,12 +65,10 @@ cra: 335mb
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
 - **Learn Figma:** [Click here](learn-figma.md)
-- **Learn from State of Javascript 2021:** [Click here](learn-state-of-javascript.md)
 - **Learn qutebrowser:** [Click here](qutebrowser.md)
 - **Learn Zerodha Varasity:** [Click here](learn-zerodha-varasity.md)
 - **Learn Urdu:** [Click here](./learn-urdu/)
 - **Learn Algorithms:**: [Click here](learn-algorithms.md) 
-- **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
 - **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
 - **Learn Missing Semester (Notes):** [Click here](missing-semester/)
 - **Learn CLI binaries:** [Click here](learn-cli-binary.md)
@@ -78,14 +77,12 @@ cra: 335mb
 - **Thoughts, Principles:** [Click here](thoughts-principles.md)
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](vim.md)
-- **Vscode Settings:** [Click here](vscode-settings.md)
+- **Learn Vscode:** [Click here](learn-vscode.md)
 - [Why DSA based interviews are stupid ?](dsa.md)
 - **Learn Photoshop:**[Click here](learn-photoshop.md)
 - **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
-- **DSA in Javascript:** [Click here](dsa-js.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
-- **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
 - **Open Source Apps from All over the world** - [Click here](open-source-apps.md)
 - **Nocode tools** - [Click here](nocodetools.md)
 - **Learn Deployment** - [Click here](learn-deploy.md)
@@ -117,8 +114,6 @@ cra: 335mb
 - **Single big mistake I made a lot times in last 3 years**: [Click here](single-big-mistake.md)
 - **Learn Obs:** [Click here](./learn-obs.md)
 - **Learn kdenlive:** [Click here](learn-kdenlive.md)
-- **Vscode Tips and Trick:** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
-- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
@@ -151,20 +146,160 @@ cra: 335mb
 - **Learn stocks:** [Click here](learn-stocks.md)
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
+- **Telegram Groups:** [Click here](telegram-groups.md)
+- **Javascript:**
+	- **Learn javascript:** [Click here](learn-js.md)
+	- **Learn from State of Javascript 2021:** [Click here](learn-state-of-javascript.md)
+	- **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
+	- **DSA in Javascript:** [Click here](dsa-js.md)
+	- **Convert javascript object to json - cli tool** - [Click here](obj-json.md)
+	- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
+- **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
+
+## Strict more in nodejs
+
+```js
+// 'use strict';
+
+// strict mode: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+
+// strict mode makes it impossible to accidentally create global variables (works in nodejs and browsers{tested with chrome})
+// mistypeVarible = 17;   // throws ReferenceErrror in strict mode
+
+let c = {}
+Object.defineProperty(c, 'a', {value: 2})
+// c.a = 10 // throws error in strict mode: TypeError: Cannot assign to read only property 'a' of object
+```
+
+## software enginner seniority?
+
+Intern > SDE1 > SDE2 > (SDE3/TechLead/SD3) > Individual Contributor
+Intern > SDE1 > SDE2 > (SDE3/TechLead/SD3) > Project Manager
+
+SSE and SDE2 produces most of code for the companies. SDE2 > SSE jump is kind of tough in big companies.
+
+## Is vercel completely free?
+
+- https://www.reddit.com/r/nextjs/comments/q0r1qr/is_vercel_completely_free_i_am_confused/
+- https://vercel.com/guides/does-vercel-offer-free-trial
+
+## Mottos of different fields
+
+![image](https://user-images.githubusercontent.com/31458531/196287944-91d9f31f-9009-4714-a254-dae33c822099.png)
+
+
+## Softwre developer vs. Software engineer
+
+![image](https://user-images.githubusercontent.com/31458531/196280399-24c43868-4535-48ef-bf81-ac411fbd793c.png)
+
+
+## Simple js/react/css interview 90 question test
+
+![interview-ss](https://user-images.githubusercontent.com/31458531/196256783-8480cb3e-cbf8-46c9-b29c-671dcf683df0.png)
+
+## Google search query syntax
+
+https://www.google.com/search?q=life+is+awesome
+
+## integer overflow/ wraparound
+
+[Source](https://en.wikipedia.org/wiki/Integer_overflow): integer overflow (wraparound) can't be better explained than using this odometer example. 😅 
+
+![image](https://user-images.githubusercontent.com/31458531/195386543-8eca21a2-5a94-4d1a-ae23-5229d9abe15b.png)
+
+
+## Article - TODO READ
+
+https://blog.codinghorror.com/the-last-responsible-moment/
+
+## lower vs. upper camel case?
+
+All function names are in lower camelCase (eg. sendCoin) and all event names are in upper CamelCase (eg. CoinSent). [Source](https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs/499c882f3ec123537fc2fccd57eaa29e6032fe4a)
+
+## Aritcle with speech listeners
+
+- https://futurism.com/russian-scientists-huge-advertisements-orbit-cities
+
+## Task running tools
+
+- Gulp: [gulpjs.com](https://gulpjs.com/) and [Github 32.6k*](https://github.com/gulpjs/gulp)
+- Grunt: [gruntjs.com](https://gruntjs.com/) and [Github 12.2k*](https://github.com/gruntjs/grunt)
+
+## Language Specification of Javascript ECMA
+
+- **Language Sepcifications:** https://tc39.es/ecma262/
+- **Internationalization API Specification:** https://tc39.es/ecma402/
+
+## Are github stars a real indicator of how much a npm library is used in the industry?
+
+![image](https://user-images.githubusercontent.com/31458531/194753984-75130fcf-bf2c-4082-ad28-a6ff0bc16b9d.png)
+
+![image](https://user-images.githubusercontent.com/31458531/194754021-357074f1-000e-44dc-ac5e-19ee20cfee44.png)
+
+## Do changing dns makes you anonymoust?
+
+Source: [Click here](https://qr.ae/pvekBP)
+
+Here’s a short summary of how DNS works:
+
+Using your ISP’s DNS
+
+In your browser, you type AustinBike.com - Home
+
+Your browser asks your ISP for AustinBike.com - Home
+
+Your ISP uses its DNS server to figure out that the website is at 74.208.236.250
+
+Your ISP goes to 74.208.236.250, gets the page and sends it to your browser.
+
+Using a third party DNS
+
+In your browser, you type AustinBike.com - Home
+
+Your browser asks the third party for the address of AustinBike.com - Home
+
+The third party uses its DNS server to figure out that the website is at 74.208.236.250
+
+The third party tells your browser to ask for 74.208.236.250 which is sent to your ISP.
+
+Your ISP goes to 74.208.236.250, gets the page and sends it to your browser.
+
+(Yeah, I’ve simplified this for the non-tech people, this is not EXACTLY how it works.)
+
+But notice that the last statement for both is exactly the same. This is because everything on the internet is transported via IP addresses. And ISPs store IP addresses, not domain names. If law enforcement ever came knocking on your ISPs door asking what you were up to, they’d hand them a list of IP addresses that your computer asked for, not domains. LE will have tools to do the lookups and complete the list with “human readable” domain names.
+
+If you had a VPN, all of the traffic that you ISP would have would look like this:
+
+Outbound requests: You to VPN
+
+Inbound requests: VPN to You
+
+BUT if law enforcement wanted to know what you were up to, they would go to your VPN provider. If they cooperated the list would be exactly like the list your ISP would hand over above. Some VPN companies do not log requests, some do. If they are not logging they would tell LE that they have nothing to turn over.
+
+Don’t just assume that because you are using a VPN that your traffic is hidden. All you have done is put one more hurdle into the process, not stopped it. A VPN also has to not log the data. Some may say they don’t but could be secretly logging it. You cannot ever be 100% sure that you are safe just because you are using a VPN.
+
+Additionally, if LE really, really wanted to know what you are doing, they could put taps on line at the VPN provider to figure things out without needing their logs. But you’d need to be a pretty bad guy for that, not someone just searching for porn or other questionable content.
+
+
+
+## An amazing way to store q/a's in yaml format so that one can parse this data from a file from github
+
+I.e., storing array of arrays in yaml.
+
+Inspiration: [Click here](https://stackoverflow.com/a/62141585/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/193640569-13fc81c0-60f9-4048-bfc7-53f6539b5f90.png)
+
+
+## ai powerd writing tool
+
+![image](https://user-images.githubusercontent.com/31458531/193507143-f94e874c-ab30-434d-b8bf-37fd54487ba2.png)
 
 ## Free database, 
 
 *Doesn't support postgres or mondodb.*
 
 Good service for mysql hosting: https://planetscale.com/
-
-## In vscode you can reference file as links as well
-
-Source: https://stackoverflow.com/a/3760547/10012446
-
-```js
-// For example the following text would act as link in vscode: file://./scripts/deployKryptoBird.js
-```
 
 ## Event Hosting platform
 
@@ -930,11 +1065,6 @@ Its a myth coz tsc generates this for its own use, but you can write your own fo
 - Effecive communication internal is key to success
 - Balance of optimism and realism.
 
-## vscode cli options
-
-![image](https://user-images.githubusercontent.com/31458531/173615265-fc5ec69c-7641-46f1-b81a-4878e33891fd.png)
-
-
 ## Figjam for online flowcharts/diagramming
 
 Youtube: https://www.youtube.com/watch?v=giCx1LPizXU
@@ -1317,6 +1447,11 @@ Find out @ https://stackblitz.com/edit/react-fjnkr5?file=src%2FApp.js
 
 ![image](https://user-images.githubusercontent.com/31458531/167283084-f4fd13e5-c6ab-42e4-b8c0-081671fc3e13.png)
 
+**You can close the side navigator have some breathing air:**
+
+![image](https://user-images.githubusercontent.com/31458531/196031062-d3f0c175-f0eb-4212-9474-da4eff09e9f4.png)
+
+
 ## Documentation Generator in Javascript
 
 https://github.com/TypeStrong/typedoc
@@ -1618,34 +1753,6 @@ Proof of convertion trial @ https://www.convertjson.com/yaml-to-json.htm
 ## Using select menus in bash
 
 [learn-bash.md#using-select-menus-in-bash](./learn-bash.md#using-select-menus-in-bash)
-
-## Swithing to terminal to run a bash script or npm command very often?
-
-Consider using a `.vscode/tasks.json` file (you can autogenerate this file with vscode very easily). I personally use `ctrl+alt+r` keybinding to launch run tasks, yo!!
-
-```json
-{
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "shell",
-			// "command": "pwd", // for testing.
-			"command": "./fso-part13/curls/post_note.sh",
-			"label": "post a note ~Sahil"
-		},
-		{
-			"type": "shell",
-			"command": "./fso-part13/curls/get_a_note.sh",
-			"label": "Get a note ~Sahil"
-		},
-		{
-			"type": "shell",
-			"command": "./fso-part13/curls/resetNotes.sh",
-			"label": "Reset notes table! ~Sahil"
-		}
-	]
-}
-```
 
 ## json to xml converter
 
@@ -2237,10 +2344,6 @@ Browser @ https://github.com/sahilrajput03/watchAll/blob/main/watchAll.sh
 ## Check if jre/jdk installed on your system ?
 
 [Source](https://stackoverflow.com/questions/22539779/how-to-tell-if-jre-or-jdk-is-installed)
-
-## Error lens for kids
-
-Vscode [extension](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens).
 
 ## The arguments keyword in a function:
 
@@ -2982,104 +3085,6 @@ curl -s https://checkip.amazonaws.com
 curl checkip.amazonaws.com
 ```
 
-## I love Promise.allSettled more that I hate `try{}catch(e){}` syntax
-
-read more @ https://javascript.info/promise-api#summary
-
-```
-let b = () => Promise.reject(20)
-
-await Promise.allSettled([b()])
-// ouput: keyPoint: It never throws error(i.e., `reject("someErrorMessage")`. Yikes!
-[
-    {
-        "status": "rejected",
-        "reason": 20
-    }
-]
-So, now you would be tempting to re-write all your previous `try{}catch(e){}` flavoured in a more if/else like manner, don't you .?
-
-// I mean instead of writing:
-
-try{
-    const res = await fetch('ss')
-    await res.json()
-}catch(e){
-    console.log('Caught program control thief :LOL: ~sahil~\n', e)
-}
-// ouput:
-Caught program control thief :LOL: ~sahil~
- SyntaxError: Unexpected token < in JSON at position 0
-
-// you can write more synchronouse looking code, e.g.,
-
-let res = await fetch('ss')
-let [settledRequest] = await Promise.allSettled([res.json()])
-if(settledRequest.status === 'fulfilled') console.log('yikes, got value', settledRequest.value)
-if(settledRequest.status === 'rejected') console.log('shit, got reason', settledRequest.reason)
-// isn't that the way you wanted code to be written like from a long time...?
-```
-
-## `Promsise.all` vs. `Promise.allSettled` (i.e., either `resolved` or `rejected`)
-
-```js
-let a = () => Promise.resolve(10)
-let b = () => Promise.reject(20)
-
-// Promise.allSettled
-await Promise.allSettled([a(), b()])
-// output: keyPoint: It never throws error so we can use it without try and catch(what a godly thing, isn't it ?).
-[
-    {
-        "status": "fulfilled",
-        "value": 10
-    },
-    {
-        "status": "rejected",
-        "reason": 20
-    }
-]
-
-// Promise.all
-try{
-    await Promise.all([a(), b()])
-}catch(e){
-    console.log('boom', e)
-}
-
-// output:
-boom 20
-```
-
-### Modules
-
-```js
-import defaultExport, * as name from "module-name";
-import defaultExport, { export1 } from "module-name";
-const { default: myDefault, foo, bar } = await import('/modules/my-module.js');
-
-
-
-// Anonymous
-let myObject = {
-  field1: value1,
-  field2: value2
-};
-export {myObject as default};
-
-// above export is equivalent to below:
-export default {
-  field1: value1,
-  field2: value2
-};
-```
-
-src: [Import in js | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#dynamic_imports)
-
-### Enable ecma modues with nodejs
-
-Desirable way: `node --input-type=module test.js`. Refer here for all ways to do this: [Enabling ESM | Official Docs](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_enabling). Also, tho use `node test.mjs` if the former seems to much. And do read about the [awesomeness of convention of file extensions standard](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_mandatory_file_extensions) which is also followed in browsers as well and thus actualy good for real.
-
 ### Save some of keystrokes with logs
 
 ```js
@@ -3090,43 +3095,6 @@ l('i love commonjs modules.')
 //esm
 import {log as l} from 'console'
 l('i love esm modules')
-```
-
-### Make async/await cleaner with simple if checks
-
-```js
-async function fetchData({isBad}) {
-	try {
-		if (isBad) throw 'The request is not good...'
-
-		const data = 'result data...' // for e.g., `return await anyPromsieHere()`
-		return [data, null]
-	} catch (error) {
-		return [null, error]
-	}
-}
-
-async function main() {
-	// src: https://youtu.be/ITogH7lJTyE
-	const [data, error] = await fetchData({isBad: true}) //toggle isBad to toggle different behaviour of the api.
-	if (data) {
-		console.log('got data..')
-	}
-	if (error) {
-		console.log('there is some error with the api...')
-	}
-}
-
-main()
-```
-
-**This might look like a overkill for any simple api but if you have only two three api's and you need to check add try/catch for each of them in a single scope it all becomes whole messy to look at ... but if you use something like..**
-
-```
-  const [userData, userError] = await fetchUserData({ isBad: true });
-  const [locationData, locationError] = await fetchLocationData({ isBad: true });
-  const [friendsData, friendsError] = await fetchFriendsData({ isBad: true });
-  // now you can simly put 6 if checks to check for what is actually error and you code actually gets out of control (i.e., *program control) LITERALLY.
 ```
 
 ### Get used to javascript objects(works good in both node and browser both, tested):

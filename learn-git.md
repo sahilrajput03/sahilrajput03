@@ -19,3 +19,7 @@ For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://s
 ## logs
 
 `git log`
+
+## Remove a .env file from entire history of the repo
+
+[Click here](https://daily-dev-tips.com/posts/removing-a-env-file-from-git-history/)
