@@ -239,3 +239,10 @@ NS2.VERCEL-DNS.COM
 ```
 
 ![image](https://user-images.githubusercontent.com/31458531/192787365-6c3c392c-af1b-4564-a509-1a406d107e73.png)
+
+
+## we can change the connected git repository of in a vercel project
+
+You need to first disconnect the connected repo and then you need to connect another git repo there, its very simply. Vercel is amazing.
+
+![image](https://user-images.githubusercontent.com/31458531/197267914-a6428018-289d-45c1-9d5c-01a758db355d.png)
