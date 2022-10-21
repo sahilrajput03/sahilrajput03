@@ -1,6 +1,6 @@
 # Readme
 
-## Using google meet with virtual camera with firefox
+## Using google meet with virtual camera with firefox outputs a mirror image of your scrren image?
 
 Problem: Google meet flips the camera video horizontally by default and when we use virtual camera of the obs-studio we see that the vidoe of the scren also suffers this., i.e., text is simply not readable.
 
@@ -17,6 +17,8 @@ The problem is your mic can only be used by one service a a time i.e, if you are
 Also, if you are in situation that your mic is used by chrome and you are not able to use mic in obs, then you need to free the mic from chrome first. There are two ways to do this, i.e, either you change the mic in google meet in the settings of meet itself of you can simply close and the meet and restart obs and then you can re-open your google meet again.
 
 ## You need to connect obs to your google meet or any other video meeting?
+
+You have to use mic from the firefox directly and need to choose "dummy video" device for the camera, you!!
 
 ***Note: Please use virtual camera with firefox only becoz virtual camera device doesn't show up in chrome/chromium browsers when connecting to list of camera devices for some reason you [can check here](https://github.com/umlaeute/v4l2loopback/issues/183).***
 
