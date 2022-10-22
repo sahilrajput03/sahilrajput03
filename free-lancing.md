@@ -1,3 +1,7 @@
+## from ysl.io
+
+Willo interview: https://youtu.be/cfJDX62k2e4
+
 ## projects making currently
 
 - speakshow (animal social media) - where you can not only tweet but roar, meow, bark as well. :D0
