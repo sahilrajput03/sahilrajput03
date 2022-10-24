@@ -1,5 +1,9 @@
 # Readme
 
+## Using zoom with obs virtual camera?
+
+The thing you need to take care that zoom connects to mic first and then you open obs otherwise the zoom will not pick your mic. If for some reason the mic doesn't work in zoom you simply need to exit the meet, exit obs, re-enter the zoom meet, now start virtual camera of obs. Yikes! It works.!!
+
 ## Using google meet with virtual camera with firefox outputs a mirror image of your scrren image?
 
 Problem: Google meet flips the camera video horizontally by default and when we use virtual camera of the obs-studio we see that the vidoe of the scren also suffers this., i.e., text is simply not readable.
