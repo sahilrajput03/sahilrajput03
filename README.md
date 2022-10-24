@@ -157,6 +157,11 @@ cra: 335mb
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 - Blockchain Portfolio: [Click here](blockchain_portfolio.md)
 
+## You can run a stored javascript code on website using a bookmark like that:
+
+![image](https://user-images.githubusercontent.com/31458531/197611244-37e23c90-14e6-463a-8d1f-9742db3416ff.png)
+
+
 ## graphql helper?
 
 https://github.com/Urigo/graphql-mesh
