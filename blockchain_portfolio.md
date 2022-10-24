@@ -29,6 +29,6 @@
 
 - MultiSig Wallet
 
-	![](https://user-images.githubusercontent.com/31458531/196962941-8ba68d70-9bea-4ce8-a3d0-cc1ffa9d8178.png)
+	![image](https://user-images.githubusercontent.com/31458531/197478019-3bf24b80-d289-4895-936a-db59b979794f.png)
 	![](https://user-images.githubusercontent.com/31458531/196784342-7ce57090-92fd-43c8-b038-592aeaa170c0.png)
 	![](https://user-images.githubusercontent.com/31458531/196786580-b3f6a2af-176c-4527-bfd4-3ad1f9bf3a08.png)
