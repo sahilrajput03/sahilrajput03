@@ -2,32 +2,34 @@
 
  - **Ethereum-Based Decentralized Exchange** - A crypto exchange where people can have their own DEX coins and trade with other popular fungible tokens (ERC20 Standard) like DAI, BAT, REP, and ZRX. I wrote quality tests for the smart contracts for the same. STACK: Solidity, NextJS, Truffle, Goerli (Testnet)
 
-	[Github](https://github.com/sahilrajput03/dapp-decentralized-exchange), [Visit Site](https://dapp-decentralized-exchange.vercel.app/)
+	[Visit Site](https://dapp-decentralized-exchange.vercel.app/), [Github](https://github.com/sahilrajput03/dapp-decentralized-exchange)
 
 - **KryptoBirdz - A NFT Marketplace** (with ERC721 token standard) - In this people can mint new NFTs and list them to buyers. STACK: Solidity, NextJS, Hardhat, Goerli Network (Testnet)
 
-  [GitHub](https://github.com/sahilrajput03/dapp-nft-marketplace-kryptobirdz/tree/main), [Visit Site](https://dapp-nft-marketplace-kryptobirdz.vercel.app/)
+  [Visit Site](https://dapp-nft-marketplace-kryptobirdz.vercel.app/), [GitHub](https://github.com/sahilrajput03/dapp-nft-marketplace-kryptobirdz/tree/main)
 
  - **MultiSig Wallet** - A wallet in which you can only make a transaction if multiple people (approvers) agree on the transaction, Solidity, NextJS, Truffle, Goerli (Testnet).
   
-	[GitHub](https://github.com/sahilrajput03/dapp-multisig-wallet), [Visit Site](https://dapp-multisig.vercel.app/)
+	[Visit Site](https://dapp-multisig.vercel.app/), [GitHub](https://github.com/sahilrajput03/dapp-multisig-wallet)
 
 
 ## App Screenshots
 
-- Decentralized Exchange:
+- **Ethereum-Based Decentralized Exchange:**
 
 	![](https://user-images.githubusercontent.com/31458531/196995025-da047c9d-66a0-4b7f-a61a-9dd270ce5f5c.png)
 	
-- KryptoBirdz
+- **KryptoBirdz - A NFT Marketplace**
 
 	- Home page:
+
 		![](https://user-images.githubusercontent.com/31458531/196963563-47d3781a-f0be-4af2-a4c1-bfc4355cc386.png)
 	
 	- Minting new tokens:
+
 		![](https://user-images.githubusercontent.com/31458531/196964074-f24b6126-f341-49ac-a696-45fbda2adf51.png)
 
-- MultiSig Wallet
+- **MultiSig Wallet**
 
 	![image](https://user-images.githubusercontent.com/31458531/197478019-3bf24b80-d289-4895-936a-db59b979794f.png)
 	![](https://user-images.githubusercontent.com/31458531/196784342-7ce57090-92fd-43c8-b038-592aeaa170c0.png)
