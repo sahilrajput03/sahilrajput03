@@ -163,7 +163,7 @@ https://github.com/Urigo/graphql-mesh
 
 ## char, decimal, hex, binary
 
-![image](https://user-images.githubusercontent.com/31458531/197551080-2724d247-1f8d-454a-a1c1-27acc44241fd.png)
+![image](https://user-images.githubusercontent.com/31458531/197555726-2f8a02da-9d64-4de2-bf45-80ef351c7bf8.png)
 
 ## testgorilla is awesome
 
