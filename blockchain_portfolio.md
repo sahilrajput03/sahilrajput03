@@ -31,7 +31,7 @@
 
 - **MultiSig Wallet**
 
-	- Initial
+	- Initial:
 
 		![image](https://user-images.githubusercontent.com/31458531/197517010-9169242a-e2a6-4fbf-abde-bec8b28bbeb4.png)
 	
