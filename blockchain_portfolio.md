@@ -31,6 +31,14 @@
 
 - **MultiSig Wallet**
 
-	![image](https://user-images.githubusercontent.com/31458531/197478019-3bf24b80-d289-4895-936a-db59b979794f.png)
-	![](https://user-images.githubusercontent.com/31458531/196784342-7ce57090-92fd-43c8-b038-592aeaa170c0.png)
-	![](https://user-images.githubusercontent.com/31458531/196786580-b3f6a2af-176c-4527-bfd4-3ad1f9bf3a08.png)
+	- Initial
+
+		![image](https://user-images.githubusercontent.com/31458531/197517010-9169242a-e2a6-4fbf-abde-bec8b28bbeb4.png)
+	
+	- Full Home Page:
+		
+		![](https://user-images.githubusercontent.com/31458531/196784342-7ce57090-92fd-43c8-b038-592aeaa170c0.png)
+		
+	- Viewing balances of the approvers of the MultiSig Wallet:
+
+		![](https://user-images.githubusercontent.com/31458531/196786580-b3f6a2af-176c-4527-bfd4-3ad1f9bf3a08.png)
