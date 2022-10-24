@@ -157,6 +157,10 @@ cra: 335mb
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 - Blockchain Portfolio: [Click here](blockchain_portfolio.md)
 
+## char, decimal, hex, binary
+
+![image](https://user-images.githubusercontent.com/31458531/197551080-2724d247-1f8d-454a-a1c1-27acc44241fd.png)
+
 ## testgorilla is awesome
 
 https://www.testgorilla.com/
