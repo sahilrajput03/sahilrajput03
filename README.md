@@ -161,6 +161,9 @@ cra: 335mb
 
 https://app.resemble.ai/
 
+Another good seeming opensource project claminng to have good quality of voice cloning:
+- [Github](https://github.com/CorentinJ/Real-Time-Voice-Cloning), [youtube](https://www.youtube.com/watch?v=-O_hYhToKoA)
+
 ## You can run a stored javascript code on website using a bookmark like that:
 
 ![image](https://user-images.githubusercontent.com/31458531/197611244-37e23c90-14e6-463a-8d1f-9742db3416ff.png)
