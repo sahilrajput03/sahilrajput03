@@ -9,6 +9,10 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## check if a service is (running && accessible) on a target ip (ip can be local or public (both tested), yo!!)
+
+`telnet 192.168.18.5 3000`
+
 ## learn htop
 
 Run `htop`

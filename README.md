@@ -2,7 +2,7 @@
 
 A Pragmatic software developer.
 
-Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.”
+Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.” Nature of mind is to wander around, its not problem its the way its designed. My job is to keep getting it back towards the goal.
 
 [listening today](https://www.youtube.com/watch?v=0mndNg99lbg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
 
@@ -156,6 +156,26 @@ cra: 335mb
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 - Blockchain Portfolio: [Click here](blockchain_portfolio.md)
+
+## Resemble.ai is awesome
+
+https://app.resemble.ai/
+
+Another good seeming opensource project claminng to have good quality of voice cloning:
+- [Github](https://github.com/CorentinJ/Real-Time-Voice-Cloning), [youtube](https://www.youtube.com/watch?v=-O_hYhToKoA)
+
+## You can run a stored javascript code on website using a bookmark like that:
+
+![image](https://user-images.githubusercontent.com/31458531/197611244-37e23c90-14e6-463a-8d1f-9742db3416ff.png)
+
+
+## graphql helper?
+
+https://github.com/Urigo/graphql-mesh
+
+## char, decimal, hex, binary
+
+![image](https://user-images.githubusercontent.com/31458531/197555726-2f8a02da-9d64-4de2-bf45-80ef351c7bf8.png)
 
 ## testgorilla is awesome
 

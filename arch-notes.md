@@ -8,6 +8,10 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## controlling mpc player speed
+
+![image](https://user-images.githubusercontent.com/31458531/198284844-1a82e7cc-2192-4751-abcf-859ab2d8f6a3.png)
+
 ## install `geth` (aka Go ETHereum)
 
 Source: [Click here](https://geth.ethereum.org/docs/install-and-build/installing-geth#arch-linux-via-pacman)
