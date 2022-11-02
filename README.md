@@ -158,6 +158,10 @@ cra: 335mb
 - Blockchain Portfolio: [Click here](blockchain_portfolio.md)
 - **Leetcode: [Click here](learn-leetcode.md)**
 
+## URI vs. URL
+
+![image](https://user-images.githubusercontent.com/31458531/199540543-0ba2523e-d56b-4bc8-a7f9-495dae1d2715.png)
+
 ## Resemble.ai is awesome
 
 https://app.resemble.ai/
