@@ -158,6 +158,12 @@ cra: 335mb
 - Blockchain Portfolio: [Click here](blockchain_portfolio.md)
 - **Leetcode: [Click here](learn-leetcode.md)**
 
+## Vercel comments in docs is such awesome (currently in Beta docs only)
+
+https://vercel.com/blog/using-vercel-comments-to-improve-the-next-js-13-documentation
+
+Visit here to try it: https://beta.nextjs.org/docs
+
 ## URI vs. URL
 
 ![image](https://user-images.githubusercontent.com/31458531/199540543-0ba2523e-d56b-4bc8-a7f9-495dae1d2715.png)
