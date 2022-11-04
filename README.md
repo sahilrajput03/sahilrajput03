@@ -157,6 +157,7 @@ cra: 335mb
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 - Blockchain Portfolio: [Click here](blockchain_portfolio.md)
 - **Leetcode: [Click here](learn-leetcode.md)**
+- Learn Google Cloud: [Click here](learn-google-cloud.md)
 
 ## Vercel comments in docs is such awesome (currently in Beta docs only)
 
