@@ -9,6 +9,15 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Run node inspector with nvm setup (windows)
+
+```bash
+#!/bin/bash
+npx cross-env DEBUG=bspaces-api:* PORT=8080 nodemon --inspect -x "C:\Users\Dell\AppData\Roaming\nvm\v12.19.0\node.exe" ./bin/www
+# This is to use node version 12 via my nvm setup automatically.
+# Please use debuggint script with name - "Attach to node process((hint: which has ``node --inpect``))" to connect to the node process, yikes!
+```
+
 ## check if a service is (running && accessible) on a target ip (ip can be local or public (both tested), yo!!)
 
 `telnet 192.168.18.5 3000`
