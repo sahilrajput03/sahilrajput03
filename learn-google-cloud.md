@@ -6,6 +6,11 @@
 
 - **Docs - Adding ssh keys to gcp platform:** [Docs](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys)
 - **Connecting via gcloud:**
+  In gcloud you can add the private key like: 
+  
+  ```bash
+  ssh-rsa PRIVATE_KEY_TEXT_HERE sahil
+  ```
   ```bash
   gcloud beta compute ssh --zone "us-central1-a" "instance-1"  --project "myProject"
   gcloud beta compute ssh --zone "us-central1-a" "instance-2"  --project "myProject" --ssh-key-file myPublic.pub
