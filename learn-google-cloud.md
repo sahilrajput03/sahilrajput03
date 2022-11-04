@@ -9,9 +9,13 @@
   In gcloud you can add the private key like: 
   
   ```bash
-  ssh-rsa PRIVATE_KEY_TEXT_HERE sahil
-  ```
-  ```bash
+  # Create ssh key pair
+  ssh-keygen
+  
+  # In google cloud console, you can go to "Compute Engine" > "VM Instances" then select your instance, and click "EDIT" and in the "SSH Keys" section you can add below entry (and don't forget to to add your instance's user name there which you want to connect to):
+  ssh-rsa PUBLIC_KEY_FROM_YOUR_KEY_.PUB_FILE_HERE sahil
+
+  # `glcloud` manages creation of ssh keys under the hood though ~ IMO, Sahil
   gcloud beta compute ssh --zone "us-central1-a" "instance-1"  --project "myProject"
   gcloud beta compute ssh --zone "us-central1-a" "instance-2"  --project "myProject" --ssh-key-file myPublic.pub
   ```
