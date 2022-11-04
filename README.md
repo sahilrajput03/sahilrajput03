@@ -158,6 +158,7 @@ cra: 335mb
 - Blockchain Portfolio: [Click here](blockchain_portfolio.md)
 - **Leetcode: [Click here](learn-leetcode.md)**
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
+- Learn auth0: [Click here](learn-auth0.md)
 
 ## Vercel comments in docs is such awesome (currently in Beta docs only)
 
