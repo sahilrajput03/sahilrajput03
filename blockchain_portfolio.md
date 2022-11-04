@@ -23,11 +23,11 @@
 
 	- Home page:
 
-		![](https://user-images.githubusercontent.com/31458531/196963563-47d3781a-f0be-4af2-a4c1-bfc4355cc386.png)
+		![birdz_site_full](https://user-images.githubusercontent.com/31458531/199999742-b573de78-f6f7-4fce-b6c5-853be55231f9.png)
 	
 	- Minting new tokens:
 
-		![](https://user-images.githubusercontent.com/31458531/196964074-f24b6126-f341-49ac-a696-45fbda2adf51.png)
+		![birdz_site_full_2](https://user-images.githubusercontent.com/31458531/200001004-482444bb-4b70-4492-ae8f-9cffce2f02a6.png)
 
 - **MultiSig Wallet**
 
