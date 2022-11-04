@@ -1018,9 +1018,7 @@ sudo crontab -u $USER -l
 # The reasony why I have put ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ is coz notifications send via cronjob aren't working without them!, SRC: https://askubuntu.com/a/1308769/702911
 ```
 
-- **Viewing daily cronjobs:**
-
-`ls -la /etc/cron.daily`
+- **Viewing daily cronjobs:** `ls -la /etc/cron.daily`
 
 ## Managing processes with `kill`, `pgrep` and `pkill`
 
