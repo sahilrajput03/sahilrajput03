@@ -6,7 +6,9 @@
 
 - **Docs - Adding ssh keys to gcp platform:** [Docs](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys)
 - **Connecting via gcloud:**
-  Source: [Click here](https://www.youtube.com/watch?v=JGcW1QdEQGs)
+  
+  Source: [Click here](https://www.youtube.com/watch?v=JGcW1QdEQGs) @ youtube
+  
   In gcloud you can add the private key like: 
   
   ```bash
