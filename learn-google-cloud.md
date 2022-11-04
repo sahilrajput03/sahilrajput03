@@ -4,7 +4,7 @@
   - Sidebar > Compute engine> vm instance
   - Sidebar > VPC > Firewall > "indianic one" and add or remove the ip's from there.
 
-
+- **Adding ssh keys to gcp platform:** [Docs](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys)
 
 **Cloud Functions:**
 
