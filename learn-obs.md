@@ -1,5 +1,11 @@
 # Readme
 
+## Deactivating video (and audio?) source from obs
+
+Source: [Click here](https://obsproject.com/forum/threads/disable-webcam-when-not-in-use.143110/post-582838)
+
+![image](https://user-images.githubusercontent.com/31458531/200125057-3b0472a8-0a25-4df4-a840-a38048fdf523.png)
+
 ## Set Backlight Compensation to 2
 
 ![image](https://user-images.githubusercontent.com/31458531/200124332-ee2246a2-8574-4319-959b-49f11d1aa22b.png)
