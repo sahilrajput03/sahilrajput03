@@ -161,6 +161,14 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+## Installing npm dependency via custom github repo
+
+```json
+  "dependencies": {
+    "redux-persist-transform-encrypt": "github:shagundev/redux-persist-transform-encrypt"
+  }
+```
+
 ## mandrill, mailchimp
 
 **Tip: You can login to mandrillapp.com using mailchimp logged in accound with oauth automatically. :D**
