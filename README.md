@@ -161,6 +161,11 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+## settings.json and keybindings.json of vscode files in windows
+
+![image](https://user-images.githubusercontent.com/31458531/200115024-ef281bd6-e9f0-4491-b98a-d2c4fb9ff296.png)
+
+
 ## Installing npm dependency via custom github repo
 
 ```json
