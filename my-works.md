@@ -10,8 +10,9 @@
 <img alt="GitHub Actions" src="https://img.shields.io/badge/github%20actions%20-%232671E5.svg?&style=for-the-badge&logo=github%20actions&logoColor=white"/>
 <img alt="Debian" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
 
-#### Web Profile
+#### Some Links
 
+- Blockchain Portfolio: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/blockchain_portfolio</a>
 - Contact Me: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/me</a>
 
 #### Projects & Services
