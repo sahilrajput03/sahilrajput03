@@ -12,10 +12,17 @@
   In gcloud you can add the private key like: 
   
   ```bash
+  The pair of keys generated from the ssh-keygen windows's gui app generates private keys in standard format and the cli binary always expect you provide private key in openssh version format.
+  Although if you generate private keys using command below you'll always get key in opennssh format by default, so alwasy use ssh cli to connect and ssh-keygen to generate keys.(*Never use ssh-keygen or putty directly anywhere).
+  
+  
   # Create ssh key pair
   ssh-keygen
   ## Or you can create sshkyes using key file name
   ssh-keygen -t rsa -b 4096 -f myLocaltWideUser
+
+
+
 
   
   # In google cloud console, you can go to "Compute Engine" > "VM Instances" then select your instance, and click "EDIT" and in the "SSH Keys" section you can add below entry (and don't forget to to add your instance's user name there which you want to connect to):
