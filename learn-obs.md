@@ -2,6 +2,8 @@
 
 ## skype see black screen of "Dummy Camera" i.e., virtual cam of obs
 
+Inspiration: [Click here](https://obsproject.com/forum/threads/solved-arch-linux-obs-virtual-camera-works-in-vlc-but-not-in-skype.152837/)
+
 The problem is skype doesn't allow video resolution of 1920x1080 as you can [check here](https://learn.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/clients-and-devices/video-resolutions). Thus you need to set the output resolution to **1080x720** in obs settings and boom it works now!
 
 ![image](https://user-images.githubusercontent.com/31458531/200127994-7b0c8907-062a-4d41-a583-80d69e2d065a.png)
