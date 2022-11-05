@@ -1,5 +1,11 @@
 # Readme
 
+## Just in case when you click on "Start Virtual Camera" does't click at all?
+
+Simply
+- try to run: `obs.activateModprobeV4l2loopback` command
+- and if above doesn't fix then that means you need to logout and login and it shold work then for sure..
+
 ## Shortcuts for start/stop recording/virtual cam
 
 ![image](https://user-images.githubusercontent.com/31458531/200125597-54e2c11d-c9ac-4e11-a2b4-1bb166aeee5f.png)
