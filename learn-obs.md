@@ -1,6 +1,6 @@
 # Readme
 
-## skype see black screen of "Dummy Camera" i.e., virtual cam of obs
+## Seeing black screen in Skype when selected "Dummy Camera" i.e., virtual cam of obs?
 
 Inspiration: [Click here](https://obsproject.com/forum/threads/solved-arch-linux-obs-virtual-camera-works-in-vlc-but-not-in-skype.152837/)
 
