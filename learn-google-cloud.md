@@ -14,6 +14,9 @@
   ```bash
   # Create ssh key pair
   ssh-keygen
+  ## Or you can create sshkyes using key file name
+  ssh-keygen -t rsa -b 4096 -f myLocaltWideUser
+
   
   # In google cloud console, you can go to "Compute Engine" > "VM Instances" then select your instance, and click "EDIT" and in the "SSH Keys" section you can add below entry (and don't forget to to add your instance's user name there which you want to connect to):
   ssh-rsa PUBLIC_KEY_FROM_YOUR_KEY_.PUB_FILE_HERE sahil
