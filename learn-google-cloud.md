@@ -17,6 +17,10 @@
   
   # In google cloud console, you can go to "Compute Engine" > "VM Instances" then select your instance, and click "EDIT" and in the "SSH Keys" section you can add below entry (and don't forget to to add your instance's user name there which you want to connect to):
   ssh-rsa PUBLIC_KEY_FROM_YOUR_KEY_.PUB_FILE_HERE sahil
+  
+  # We can ssh using:
+  ssh -i myPrivateKey.ppk sahil@123.123.123.123
+
 
   # `glcloud` manages creation of ssh keys under the hood though ~ IMO, Sahil
   gcloud beta compute ssh --zone "us-central1-a" "instance-1"  --project "myProject"
