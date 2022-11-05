@@ -1,6 +1,5 @@
 # Learn figjam
 
-- s: sticky notes
 - ctrl+0: to reset to 100% zoom level
 - r: rectangle
 - o: elipse
@@ -11,3 +10,7 @@
 - shift+m: highlighter
 - w: washi tape
 - shift+backspae: eraser
+- s: sticky notes
+- x: connector
+- l: line
+- shift+s: create a section
