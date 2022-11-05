@@ -160,6 +160,10 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+## mandrill, mailchimp
+
+**Tip: You can login to mandrillapp.com using mailchimp logged in accound with oauth automatically. :D**
+
 ## Vercel comments in docs is such awesome (currently in Beta docs only)
 
 https://vercel.com/blog/using-vercel-comments-to-improve-the-next-js-13-documentation
