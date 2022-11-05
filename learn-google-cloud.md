@@ -12,8 +12,10 @@
   In gcloud you can add the private key like: 
   
   ```bash
-  The pair of keys generated from the ssh-keygen windows's gui app generates private keys in standard format and the cli binary always expect you provide private key in openssh version format.
-  Although if you generate private keys using command below you'll always get key in opennssh format by default, so alwasy use ssh cli to connect and ssh-keygen to generate keys.(*Never use ssh-keygen or putty directly anywhere).
+  # The pair of keys generated from the ssh-keygen windows's gui app generates private keys in standard format and the cli binary always expect you provide private key in openssh version format.
+  # Although if you generate private keys using command below you'll always get key in opennssh format by default, so alwasy use ssh cli to connect and ssh-keygen to generate keys.(*Never use ssh-keygen or putty directly anywhere).
+  # check ssh version
+  ssh -v
   
   
   # Create ssh key pair
