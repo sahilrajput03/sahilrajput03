@@ -20,6 +20,11 @@ The problem is skype doesn't allow video resolution of 1920x1080 as you can [che
 
 ![image](https://user-images.githubusercontent.com/31458531/200125597-54e2c11d-c9ac-4e11-a2b4-1bb166aeee5f.png)
 
+Whats the size difference between two sizes? (tldr; the right one spans complete screen of my laptop) ??
+
+![image](https://user-images.githubusercontent.com/31458531/200129159-f215e6df-c70a-4757-830a-fddb5ee1d544.png)
+
+
 ## Deactivating video (and audio?) source from obs
 
 Source: [Click here](https://obsproject.com/forum/threads/disable-webcam-when-not-in-use.143110/post-582838)
