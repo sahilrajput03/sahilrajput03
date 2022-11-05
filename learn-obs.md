@@ -1,5 +1,9 @@
 # Readme
 
+## Set Backlight Compensation to 2
+
+![image](https://user-images.githubusercontent.com/31458531/200124332-ee2246a2-8574-4319-959b-49f11d1aa22b.png)
+
 ## Lock preview Option
 
 This is helpful as it locks the elements in the preview, so it helps in accidentally moving elements accidentally in your preview area.
