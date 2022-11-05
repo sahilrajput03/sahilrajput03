@@ -28,6 +28,11 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/200026164-8f7740a7-ca27-47b3-a8dc-b3d485b0694c.png)
 
+**Viewing logs in cloud functions:**
+
+![viewing-logs-in-gcp-cloud-function](https://user-images.githubusercontent.com/31458531/200115158-34eedeed-04b1-4c80-bc5a-bb0c390b447e.png)
+
+
 **Cloud Build History:**
 
 ![image](https://user-images.githubusercontent.com/31458531/200026540-06440cd1-166a-4489-83d1-984d19a1977a.png)
