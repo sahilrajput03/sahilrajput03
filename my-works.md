@@ -12,7 +12,7 @@
 
 #### Some Links
 
-- Blockchain Portfolio: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/blockchain_portfolio</a>
+- Blockchain Portfolio: <a href="https://sahilrajput03.ml/blockchain_portfolio" target="_blank">sahilrajput03.ml/blockchain_portfolio</a>
 - Contact Me: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/me</a>
 
 #### Projects & Services
