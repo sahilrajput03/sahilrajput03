@@ -28,7 +28,7 @@ This is helpful as it locks the elements in the preview, so it helps in accident
 
 ## Using zoom with obs virtual camera?
 
-**NOTE - IMPORTANT - IMPORTANT : "Switching scene collection" (see above topic: "Deactivating video (and audio?) source from obs") feature so its just easy to deactivate active camera and mic simply switching to "Empty" scene now.**
+**NOTE - 🥰 ❣ 💓 ❥ 💑 💜 - IMPORTANT - IMPORTANT : "Switching scene collection" (see above topic: "Deactivating video (and audio?) source from obs") feature so its just easy to deactivate active camera and mic simply switching to "Empty" scene now.**
 
 The thing you need to take care that zoom connects to mic first and then you open obs otherwise the zoom will not pick your mic. If for some reason the mic doesn't work in zoom you simply need to exit the meet, exit obs, re-enter the zoom meet, now start virtual camera of obs. Yikes! It works.!!
 
