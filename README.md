@@ -65,6 +65,7 @@ cra: 335mb
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
 - **Learn Figma:** [Click here](learn-figma.md)
+- **Learn FigJam:** [Click here](learn-figjam.md)
 - **Learn qutebrowser:** [Click here](qutebrowser.md)
 - **Learn Zerodha Varasity:** [Click here](learn-zerodha-varasity.md)
 - **Learn Urdu:** [Click here](./learn-urdu/)
