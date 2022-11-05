@@ -8,6 +8,7 @@ The problem is skype doesn't allow video resolution of 1920x1080 as you can [che
 
 ![image](https://user-images.githubusercontent.com/31458531/200127994-7b0c8907-062a-4d41-a583-80d69e2d065a.png)
 
+![image](https://user-images.githubusercontent.com/31458531/200128854-8042447b-01ca-40e2-8d7c-c0d02c9026ab.png)
 
 ## Just in case when you click on "Start Virtual Camera" does't click at all?
 
