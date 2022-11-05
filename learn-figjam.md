@@ -1,5 +1,6 @@
 # Learn figjam
 
+- s: sticky notes
 - ctrl+0: to reset to 100% zoom level
 - r: rectangle
 - o: elipse
