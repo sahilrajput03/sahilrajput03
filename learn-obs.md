@@ -1,5 +1,10 @@
 # Readme
 
+## Shortcuts for start/stop recording/virtual cam
+
+![image](https://user-images.githubusercontent.com/31458531/200125597-54e2c11d-c9ac-4e11-a2b4-1bb166aeee5f.png)
+
+
 ## Deactivating video (and audio?) source from obs
 
 Source: [Click here](https://obsproject.com/forum/threads/disable-webcam-when-not-in-use.143110/post-582838)
