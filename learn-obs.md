@@ -2,7 +2,7 @@
 
 ## Just in case when you click on "Start Virtual Camera" does't click at all?
 
-Simply
+**Simply:**
 - try to run: `obs.activateModprobeV4l2loopback` command
 - and if above doesn't fix then that means you need to logout and login and it shold work then for sure..
 
