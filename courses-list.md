@@ -2,6 +2,8 @@
 
 ***All of below courses are 100% Open source(free).***
 
+- todo-sahil: Advanced Expressjs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-express)
+- todo-sahil: Advanced NodeJs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-node-js)
 - *todo~sahil: DevOps with Kubernetes, FSO part 12 and part 13.*
 - *todo~sahil: Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
 - Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
