@@ -35,6 +35,10 @@ sudo vi /etc/mongodb.conf
 # port = 27017
 # from above line to below line:
 bind_ip = 0.0.0.0
+
+
+#uninstal
+sudo apt purge mongo*
 ```
 
 ## controlling mpc player speed
