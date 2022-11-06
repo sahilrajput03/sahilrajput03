@@ -27,6 +27,11 @@ telnet ip 27017
 
 # Connection via cli
 mongo "mongodb://mongo_server_ip:27017"
+
+# Make databaes service accept from all ips
+# bind_ip = 127.0.0.1
+# from above line to below line:
+bind_ip = 0.0.0.0
 ```
 
 ## controlling mpc player speed
