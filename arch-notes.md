@@ -20,6 +20,10 @@ sudo apt upgrade
 sudo apt install mongodb
 sudo systemctl enable mongodb
 sudo systemctl start mongodb
+
+# Test if service is accessible from outside
+nc -zv mongodb_server_ip 27017
+telnet ip 27017
 ```
 
 ## controlling mpc player speed
