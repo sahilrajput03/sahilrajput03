@@ -28,6 +28,7 @@ telnet ip 27017
 # Connection via cli
 mongo "mongodb://mongo_server_ip:27017"
 
+# src: https://www.digitalocean.com/community/tutorials/how-to-configure-remote-access-for-mongodb-on-ubuntu-20-04
 # Make databaes service accept from all ips
 sudo vi /etc/mongodb.conf
 # bind_ip = 127.0.0.1
