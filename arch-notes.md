@@ -24,6 +24,9 @@ sudo systemctl start mongodb
 # Test if service is accessible from outside
 nc -zv mongodb_server_ip 27017
 telnet ip 27017
+
+# Connection via cli
+mongo "mongodb://mongo_server_ip:27017"
 ```
 
 ## controlling mpc player speed
