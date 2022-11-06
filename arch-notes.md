@@ -8,6 +8,18 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install mongod on raspberry pi
+
+Date: 6 Nov, 2022
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install mongodb
+sudo systemctl enable mongodb
+sudo systemctl start mongodb
+```
+
 ## controlling mpc player speed
 
 ![image](https://user-images.githubusercontent.com/31458531/198284844-1a82e7cc-2192-4751-abcf-859ab2d8f6a3.png)
