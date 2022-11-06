@@ -29,7 +29,9 @@ telnet ip 27017
 mongo "mongodb://mongo_server_ip:27017"
 
 # Make databaes service accept from all ips
+sudo vi /etc/mongodb.conf
 # bind_ip = 127.0.0.1
+# port = 27017
 # from above line to below line:
 bind_ip = 0.0.0.0
 ```
