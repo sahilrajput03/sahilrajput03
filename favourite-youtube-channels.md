@@ -6,11 +6,11 @@
 **Javascript, React, NextJS, NodeJS, MongoDB, Graphql, etc**
   - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids) | React Expert
   - [Jack Herrington](https://www.youtube.com/c/JackHerrington) | React Expert
-  - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
+  - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017) | React Expert | Full Stack Expert
+  - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified) | React Expert
   - [Fireship](https://www.youtube.com/c/Fireship)
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
   - [Ben Awad](https://www.youtube.com/c/BenAwad97)
-  - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017)
   - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw)
 
 **CSS**
