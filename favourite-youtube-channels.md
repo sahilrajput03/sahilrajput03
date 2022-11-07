@@ -5,14 +5,14 @@
 
 **Javascript, React, NextJS, NodeJS, MongoDB, Graphql, etc**
   - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids) \| React Expert
-  - [Jack Herrington](https://www.youtube.com/c/JackHerrington) | React Expert
-  - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017) | React Expert | Full Stack Expert
-  - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified) | React Expert | Full Stack Expert
-  - [Fireship](https://www.youtube.com/c/Fireship) | Full Stack Expert
-  - [Traversy Media](https://www.youtube.com/c/TraversyMedia) | Full Stack Expert
-  - [Ben Awad](https://www.youtube.com/c/BenAwad97) | React Expert
-  - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) | Full Stack Expert
-  - [Code Eater](https://www.youtube.com/c/CodeEater21) | Blockchain Expert
+  - [Jack Herrington](https://www.youtube.com/c/JackHerrington) \| React Expert
+  - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017) \| React Expert \| Full Stack Expert
+  - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified) \| React Expert \| Full Stack Expert
+  - [Fireship](https://www.youtube.com/c/Fireship) \| Full Stack Expert
+  - [Traversy Media](https://www.youtube.com/c/TraversyMedia) \| Full Stack Expert
+  - [Ben Awad](https://www.youtube.com/c/BenAwad97) \| React Expert
+  - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert
+  - [Code Eater](https://www.youtube.com/c/CodeEater21) \| Blockchain Expert
 
 **CSS**
 - [Kevin Powell](https://www.youtube.com/kepowob)
