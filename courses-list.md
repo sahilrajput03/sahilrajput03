@@ -2,6 +2,7 @@
 
 ***All of below courses are 100% Open source(free).***
 
+- todo-sahil: Foundations of Decentralized Finance (DeFi): [Click here](https://www.linkedin.com/learning/foundations-of-decentralized-finance-defi)
 - todo-sahil: Advanced Expressjs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-express)
 - todo-sahil: Advanced NodeJs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-node-js)
 - *todo~sahil: DevOps with Kubernetes, FSO part 12 and part 13.*
