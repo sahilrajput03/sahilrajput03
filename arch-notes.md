@@ -1600,7 +1600,7 @@ sudo pacman -S zip
 
 # create zip file from folder
 # -r options menas recurse into directories
-# zip -r targetFile.zip sourceFolder
+zip -r targetFile.zip sourceFolder
 
 # Unzip/zip the files with password
 # -e options stands for `encrypt`
