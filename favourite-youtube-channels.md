@@ -8,7 +8,7 @@
   - [Jack Herrington](https://www.youtube.com/c/JackHerrington) | React Expert
   - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017) | React Expert | Full Stack Expert
   - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified) | React Expert | Full Stack Expert
-  - [Fireship](https://www.youtube.com/c/Fireship)
+  - [Fireship](https://www.youtube.com/c/Fireship) | Full Stack Expert
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
   - [Ben Awad](https://www.youtube.com/c/BenAwad97)
   - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw)
