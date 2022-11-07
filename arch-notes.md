@@ -1139,7 +1139,7 @@ git clone https://aur.archlinux.org/packages/7-zip
 cd 7-zip
 makepkg -si
 
-#Usage:
+# Usage:
 7zz
 # Extracting 7x extension file:
 7zz e documentation-dump.7z
@@ -1593,11 +1593,12 @@ Also `mcfly` seems another fascinating solution for this as well, i.e., [source]
 
 ```
 sudo pacman -S zip
-```
 
-## Unzip/zip the files with password
+# DOESN"T WORK: create zip file from folder
+# DOESN"T WORK: zip targetFile.zip sourceFolder
 
-```bash
+# Unzip/zip the files with password
+# -e options stands for `encrypt`
 zip -e targetFile.zip sourceFolder
 # source: https://www.tecmint.com/create-password-protected-zip-file-in-linux/
 
