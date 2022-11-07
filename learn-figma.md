@@ -276,3 +276,7 @@ Official getting started [post of prototyping in figma](https://help.figma.com/h
 ## Thats how you go into image crop mode
 	
 ![image](https://user-images.githubusercontent.com/31458531/196784674-b4193725-c428-43d1-9a7c-2c7d0e481c00.png)
+
+## You can duplicate someone else's figma file even in case they have given you only read access
+	
+![image](https://user-images.githubusercontent.com/31458531/200402983-4d2fc83a-87fe-42f1-9278-3b46619871c8.png)
