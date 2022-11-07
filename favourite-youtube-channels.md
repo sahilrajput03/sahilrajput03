@@ -12,6 +12,7 @@
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia) | Full Stack Expert
   - [Ben Awad](https://www.youtube.com/c/BenAwad97) | React Expert
   - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) | Full Stack Expert
+  - [Code Eater](https://www.youtube.com/c/CodeEater21) | Blockchain Expert
 
 **CSS**
 - [Kevin Powell](https://www.youtube.com/kepowob)
