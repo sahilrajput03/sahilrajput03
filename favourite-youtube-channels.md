@@ -7,7 +7,7 @@
   - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids) | React Expert
   - [Jack Herrington](https://www.youtube.com/c/JackHerrington) | React Expert
   - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017) | React Expert | Full Stack Expert
-  - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified) | React Expert
+  - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified) | React Expert | Full Stack Expert
   - [Fireship](https://www.youtube.com/c/Fireship)
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
   - [Ben Awad](https://www.youtube.com/c/BenAwad97)
