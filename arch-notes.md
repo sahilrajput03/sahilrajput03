@@ -1594,9 +1594,11 @@ Also `mcfly` seems another fascinating solution for this as well, i.e., [source]
 ```
 sudo pacman -S zip
 
+# zip help
+zip -h
+
 ### create zip file from a file
 zip targetFile.zip sourceFile
-
 
 #### create zip file from folder
 # -r options menas recurse into directories
