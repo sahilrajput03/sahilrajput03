@@ -1589,13 +1589,18 @@ FYI:
 
 Also `mcfly` seems another fascinating solution for this as well, i.e., [source](https://stackoverflow.com/a/64895550/10012446) and it [github](https://github.com/cantino/mcfly) (3.5k stars WOW).
 
-## installed zip in archlinux:
+## Installed zip in archlinux:
 
 ```
 sudo pacman -S zip
 
-# DOESN"T WORK: create zip file from folder
-# DOESN"T WORK: zip targetFile.zip sourceFolder
+# create zip file from a file
+# zip targetFile.zip sourceFile
+
+
+# create zip file from folder
+# -r options menas recurse into directories
+# zip -r targetFile.zip sourceFolder
 
 # Unzip/zip the files with password
 # -e options stands for `encrypt`
