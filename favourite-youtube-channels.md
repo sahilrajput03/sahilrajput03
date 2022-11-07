@@ -4,7 +4,7 @@
 - Small Project Playlist by Kyle: [Click here](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8DWL14Wud_m8NeNNbYKOkj)
 
 **Javascript, React, NextJS, NodeJS, MongoDB, Graphql, etc**
-  - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids) | React Expert
+  - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids) \| React Expert
   - [Jack Herrington](https://www.youtube.com/c/JackHerrington) | React Expert
   - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017) | React Expert | Full Stack Expert
   - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified) | React Expert | Full Stack Expert
