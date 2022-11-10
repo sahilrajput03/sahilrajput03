@@ -246,3 +246,9 @@ NS2.VERCEL-DNS.COM
 You need to first disconnect the connected repo and then you need to connect another git repo there, its very simply. Vercel is amazing.
 
 ![image](https://user-images.githubusercontent.com/31458531/197267914-a6428018-289d-45c1-9d5c-01a758db355d.png)
+
+## vercel uses yarn by default
+
+So to use npm instead of yarn you can specify the build and run command like that:
+
+![](https://user-images.githubusercontent.com/31458531/196443722-ab84dc7f-7779-4fa3-be10-2096c04f29fc.png)
