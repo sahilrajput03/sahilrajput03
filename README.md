@@ -161,6 +161,14 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+
+## buffers to string and string to buffers?
+
+Source: [Click here](https://melvingeorge.me/blog/convert-string-buffer-nodejs)
+
+![image](https://user-images.githubusercontent.com/31458531/201398059-1a12047b-357d-4252-981b-15d76586817e.png)
+
+
 ## How to Use Buffers in Node.js
 
 Source: [Click here](https://nodejs.org/en/knowledge/advanced/buffers/how-to-use-buffers/)
