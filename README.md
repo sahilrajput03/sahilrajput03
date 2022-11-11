@@ -162,7 +162,11 @@ cra: 335mb
 - Learn auth0: [Click here](learn-auth0.md)
 
 
-## buffers to string and string to buffers?
+## keys?
+
+https://stackoverflow.com/questions/48958304/pkcs1-and-pkcs8-format-for-rsa-private-key
+
+## Buffers to string and string to buffers?
 
 Source: [Click here](https://melvingeorge.me/blog/convert-string-buffer-nodejs)
 
