@@ -165,6 +165,8 @@ cra: 335mb
 
 Source: [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects)
 
+![image](https://user-images.githubusercontent.com/31458531/201393197-22b952ab-c7db-4b94-898e-ea1f73fb7caa.png)
+
 ![image](https://user-images.githubusercontent.com/31458531/201393080-b9379637-b900-4d4e-bc85-c0c389da23f0.png)
 
 
