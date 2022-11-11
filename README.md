@@ -161,6 +161,12 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+## How to Use Buffers in Node.js
+
+Source: [Click here](https://nodejs.org/en/knowledge/advanced/buffers/how-to-use-buffers/)
+
+![image](https://user-images.githubusercontent.com/31458531/201397791-a16c7ddd-6f59-4901-93aa-09a15ed315c6.png)
+
 ## typed arrays in javascript?
 
 Source: [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects)
