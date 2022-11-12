@@ -161,6 +161,13 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+## salt breaking by parts
+
+Source: [Click here](https://stackoverflow.com/a/20399775/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/201481774-1fc5bae7-527f-4741-bef5-f6df2815287a.png)
+
+
 ## Is salt considered a secret?
 
 **NO!**
