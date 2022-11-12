@@ -161,11 +161,18 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
-## Is salt considered a secret
+## Is salt considered a secret?
+
+**NO!**
 
 Source: [Click here](https://security.stackexchange.com/a/43907)
 
 ![image](https://user-images.githubusercontent.com/31458531/201468305-cdc59c11-2733-4b38-8512-edcabf0b085f.png)
+
+**Its true that we save salts with the passwords in the database as well i.e., the starting of the password is just the salt used only:**
+
+![image](https://user-images.githubusercontent.com/31458531/201469083-ce287fac-fa95-4e71-836f-c2cccc2d0191.png)
+
 
 **Amazing:** ![image](https://user-images.githubusercontent.com/31458531/201468260-c8b3dfe9-8ffe-4709-a872-7b05a330ab74.png)
 
@@ -174,7 +181,6 @@ Source: [Click here](https://security.stackexchange.com/a/43907)
 Source: [Click here](https://support.google.com/messages/answer/10262381?hl=en)
 
 ![image](https://user-images.githubusercontent.com/31458531/201462706-f7a0142e-b939-4555-9f33-9bf71243d6f0.png)
-
 
 
 ## keys?
