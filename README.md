@@ -161,6 +161,14 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+## Is salt considered a secret
+
+Source: [Click here](https://security.stackexchange.com/a/43907)
+
+![image](https://user-images.githubusercontent.com/31458531/201468305-cdc59c11-2733-4b38-8512-edcabf0b085f.png)
+
+**Amazing:** ![image](https://user-images.githubusercontent.com/31458531/201468260-c8b3dfe9-8ffe-4709-a872-7b05a330ab74.png)
+
 ## end to end security?
 
 Source: [Click here](https://support.google.com/messages/answer/10262381?hl=en)
