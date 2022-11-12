@@ -165,7 +165,9 @@ cra: 335mb
 
 **NO!**
 
-Source: [Click here](https://security.stackexchange.com/a/43907)
+**Read more on these stackoverflow answers:**
+- Reverse-engineering password salts: [Click here](https://security.stackexchange.com/a/43907)
+- How to reverse engineer Salt from password, iterations, and key? [Click here](https://crypto.stackexchange.com/questions/95135/how-to-reverse-engineer-salt-from-password-iterations-and-key)
 
 ![image](https://user-images.githubusercontent.com/31458531/201468305-cdc59c11-2733-4b38-8512-edcabf0b085f.png)
 
@@ -176,12 +178,6 @@ Source: [Click here](https://security.stackexchange.com/a/43907)
 **Amazing:**
 
 ![image](https://user-images.githubusercontent.com/31458531/201468260-c8b3dfe9-8ffe-4709-a872-7b05a330ab74.png)
-
-**Read more on these stackoverflow answers:**
-
-- How to reverse engineer Salt from password, iterations, and key? [Click here](https://crypto.stackexchange.com/questions/95135/how-to-reverse-engineer-salt-from-password-iterations-and-key)
-
-- Reverse-engineering password salts: [Click here](https://security.stackexchange.com/questions/43903/reverse-engineering-password-salts)
 
 
 ## end to end security?
