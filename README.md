@@ -173,7 +173,9 @@ Source: [Click here](https://security.stackexchange.com/a/43907)
 
 ![image](https://user-images.githubusercontent.com/31458531/201469083-ce287fac-fa95-4e71-836f-c2cccc2d0191.png)
 
-**Amazing:** ![image](https://user-images.githubusercontent.com/31458531/201468260-c8b3dfe9-8ffe-4709-a872-7b05a330ab74.png)
+**Amazing:**
+
+![image](https://user-images.githubusercontent.com/31458531/201468260-c8b3dfe9-8ffe-4709-a872-7b05a330ab74.png)
 
 **Read more on these stackoverflow answers:**
 
