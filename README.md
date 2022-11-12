@@ -161,6 +161,13 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+## how much salt round value should you use?
+
+Moe the better, as much your server can tolerate but be somewhat practical.
+
+![image](https://user-images.githubusercontent.com/31458531/201481929-21ee2caa-8a17-4120-8f6c-96a0656a4b20.png)
+
+
 ## salt breaking by parts
 
 Source: [Click here](https://stackoverflow.com/a/20399775/10012446)
