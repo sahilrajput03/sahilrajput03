@@ -161,6 +161,13 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+## end to end security?
+
+Source: [Click here](https://support.google.com/messages/answer/10262381?hl=en)
+
+![image](https://user-images.githubusercontent.com/31458531/201462706-f7a0142e-b939-4555-9f33-9bf71243d6f0.png)
+
+
 
 ## keys?
 
