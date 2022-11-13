@@ -184,6 +184,7 @@ Source: [Click here](https://stackoverflow.com/a/20399775/10012446)
 **Read more on these stackoverflow answers:**
 - Reverse-engineering password salts: [Click here](https://security.stackexchange.com/a/43907)
 - How to reverse engineer Salt from password, iterations, and key? [Click here](https://crypto.stackexchange.com/questions/95135/how-to-reverse-engineer-salt-from-password-iterations-and-key)
+- Amazing tutorial on this: [Click here](https://www.martinstoeckli.ch/hash/en/index.php) by [martinstoeckli](https://stackoverflow.com/a/46713082/10012446)
 
 ![image](https://user-images.githubusercontent.com/31458531/201468305-cdc59c11-2733-4b38-8512-edcabf0b085f.png)
 
