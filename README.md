@@ -161,6 +161,11 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+
+## Why are IT companies itching to bring employees back to office when all the work is getting done so smoothly, employees are happy to work extra hours without extra pay?
+
+Source: [Click here](https://www.quora.com/Why-are-IT-companies-itching-to-bring-employees-back-to-office-when-all-the-work-is-getting-done-so-smoothly-employees-are-happy-to-work-extra-hours-without-extra-pay)
+
 ## committing directly to master is bad practice
 
 Source: https://www.quora.com/I-work-for-a-startup-our-CTO-loves-writing-code-and-he-frequently-commits-bad-code-directly-to-the-master-branch-What-should-I-do
