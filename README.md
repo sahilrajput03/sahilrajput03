@@ -161,6 +161,10 @@ cra: 335mb
 - Learn Google Cloud: [Click here](learn-google-cloud.md)
 - Learn auth0: [Click here](learn-auth0.md)
 
+## committing directly to master is bad practice
+
+Source: https://www.quora.com/I-work-for-a-startup-our-CTO-loves-writing-code-and-he-frequently-commits-bad-code-directly-to-the-master-branch-What-should-I-do
+
 ## how much salt round value should you use?
 
 Moe the better, as much your server can tolerate but be somewhat practical.
