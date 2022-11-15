@@ -9,3 +9,9 @@
 ## Node
 
 `np`: [github](https://github.com/sindresorhus/np), [inspiration](https://github.com/xanderdeseyn/hardhat-watcher/blob/main/package.json)
+
+## animation lib
+
+- https://lottiefiles.com/
+- react-lottie: [Click here](https://github.com/chenqingspring/react-lottie)
+- react-notification-badge: [Click here](https://www.google.com/search?q=react-notification-badge&oq=react-notification-badge&aqs=chrome..69i57j0i8i30l3j0i390l5.3242j0j1&sourceid=chrome&ie=UTF-8)
