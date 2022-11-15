@@ -10,7 +10,9 @@
 
 `np`: [github](https://github.com/sindresorhus/np), [inspiration](https://github.com/xanderdeseyn/hardhat-watcher/blob/main/package.json)
 
-## animation lib
+## Message typing animation
+
+Source of react-lottie and react-notifictaion-badge: [Click here](https://www.youtube.com/playlist?list=PLKhlp2qtUcSZsGkxAdgnPcHioRr-4guZf)
 
 - https://lottiefiles.com/
 - react-lottie: [Click here](https://github.com/chenqingspring/react-lottie)
