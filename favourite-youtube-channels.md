@@ -2,6 +2,7 @@
 
 **Awesome Playlist**
 - Small Project Playlist by Kyle: [Click here](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8DWL14Wud_m8NeNNbYKOkj)
+- **6Pack Programmer:** MASTER REACT JS IN ONE VIDEO WITH 5 PROJECTS: [Click here](https://www.youtube.com/watch?v=b50zSyLiCYQ)
 
 **Javascript, React, NextJS, NodeJS, MongoDB, Graphql, etc**
   - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids) \| React Expert
