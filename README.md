@@ -3233,6 +3233,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # Generate myfile.ppk and myfile.ppk.pub (With no prompts for filename, and do set passphrase in prompts):
 ssh-keygen -f myfile.ppk
+# Output: Two files will be generated i.e, priv key and public key respectively.
+# myfile.ppk  myfile.ppk.pub
 ```
 
 ## Setup your cli to work with different github accounts
