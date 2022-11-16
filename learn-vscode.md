@@ -49,3 +49,10 @@ Consider using a `.vscode/tasks.json` file (you can autogenerate this file with 
 	]
 }
 ```
+
+
+## bookmarks extension - awesome
+
+https://stackoverflow.com/a/41757766/10012446
+
+![image](https://user-images.githubusercontent.com/31458531/202106832-5ce4fdc5-b644-42dd-b252-297f3d647426.png)
