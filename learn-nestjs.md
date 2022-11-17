@@ -43,6 +43,6 @@ and it'll reflect like:
 
 ![image](https://user-images.githubusercontent.com/31458531/185788213-f7de6a1b-5783-449c-bcb4-7fb65e7688dc.png)
 
-- How three layer architecture works for backends? [Source](https://dev.to/santypk4/bulletproof-node-js-project-architecture-4epf) (quite extensive article {not at all for begineers}).
+- How three layer architecture works for backends? [Source](https://dev.to/santypk4/bulletproof-node-js-project-architecture-4epf) *(quite extensive article {not at all for begineers}).*
 
 ![image](https://user-images.githubusercontent.com/31458531/185788741-0137266c-1558-4beb-b8f5-4599237ae6cc.png)
