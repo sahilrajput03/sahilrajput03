@@ -20,7 +20,7 @@ and it'll reflect like:
 
 - Using params: ![image](https://user-images.githubusercontent.com/31458531/185787176-9fda4ebe-6c26-4a5e-9031-b5f37259fc57.png)
 
-- Get from nestjs will be automatically imported. Passing route path (as string) to controller decorator. 
+- Passing route path (as string) to controller decorator. 
 
 ![image](https://user-images.githubusercontent.com/31458531/185787160-4ec386bc-3b3a-47fe-858c-38baf7cc6f7a.png)
 
