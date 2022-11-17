@@ -8,6 +8,7 @@
 - *todo~sahil: DevOps with Kubernetes, FSO part 12 and part 13.*
 - *todo~sahil: Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
 - Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
+- todo-NestJS Fundamentals Course: [Click here](https://courses.nestjs.com/)
 - Git: [Learn Git Branching](https://learngitbranching.js.org/)
 - Git: [ShortcutFoo](https://www.shortcutfoo.com/app/dojos/git)
 - The Missing Semester of Your CS Education(MIT): [Click here](https://missing.csail.mit.edu/)
