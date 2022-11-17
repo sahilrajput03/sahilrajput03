@@ -2,6 +2,7 @@
 
 REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
+Testing with NestJS: [Click here](https://docs.nestjs.com/fundamentals/testing)
 
 - We can create new sections in the swagger docs by assigning tags to a controller like that:
 
