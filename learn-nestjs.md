@@ -4,15 +4,6 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 Testing with NestJS: [Click here](https://docs.nestjs.com/fundamentals/testing)
 
-- We can create new sections in the swagger docs by assigning tags to a controller like that:
-
-![image](https://user-images.githubusercontent.com/31458531/185791435-8201d36f-f3cc-420e-9574-9ecda74f0f9d.png)
-
-and it'll reflect like:
-
-![image](https://user-images.githubusercontent.com/31458531/185791444-159f579a-802f-4b01-8ffd-b1cd255b5073.png)
-
-
 - Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
 
 - **Adding service as dependency injection to the controller.** So this simply means that nestjs will automatically instantiate the service class for us.
@@ -47,3 +38,14 @@ and it'll reflect like:
 - How three layer architecture works for backends? [Source](https://dev.to/santypk4/bulletproof-node-js-project-architecture-4epf) *(quite extensive article {not at all for begineers}).*
 
 ![image](https://user-images.githubusercontent.com/31458531/185788741-0137266c-1558-4beb-b8f5-4599237ae6cc.png)
+
+
+## Swagger Usage
+
+- We can create new sections in the swagger docs by assigning tags to a controller like that:
+
+![image](https://user-images.githubusercontent.com/31458531/185791435-8201d36f-f3cc-420e-9574-9ecda74f0f9d.png)
+
+and it'll reflect like:
+
+![image](https://user-images.githubusercontent.com/31458531/185791444-159f579a-802f-4b01-8ffd-b1cd255b5073.png)
