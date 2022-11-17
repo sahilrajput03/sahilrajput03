@@ -16,13 +16,21 @@ Testing with NestJS: [Click here](https://docs.nestjs.com/fundamentals/testing)
 
 ![image](https://user-images.githubusercontent.com/31458531/185787160-4ec386bc-3b3a-47fe-858c-38baf7cc6f7a.png)
 
-- ![image](https://user-images.githubusercontent.com/31458531/185787155-f357065a-aa88-44e2-b16e-0f07a49feae5.png)
+- `nest generate service users`:
 
-- ![image](https://user-images.githubusercontent.com/31458531/185787152-77a0bcdb-8520-4939-8a06-d9ffd4aae169.png)
+![image](https://user-images.githubusercontent.com/31458531/185787155-f357065a-aa88-44e2-b16e-0f07a49feae5.png)
 
-- ![image](https://user-images.githubusercontent.com/31458531/185787148-03299c85-dd7b-45ca-aa5c-711a70608bdf.png)
+- `nest generate controller users`:
 
-- ![image](https://user-images.githubusercontent.com/31458531/185787137-35d8d1b5-b3c8-40aa-ac44-92efc79d2ea0.png)
+![image](https://user-images.githubusercontent.com/31458531/185787152-77a0bcdb-8520-4939-8a06-d9ffd4aae169.png)
+
+- `nest generate module users`:
+
+![image](https://user-images.githubusercontent.com/31458531/185787148-03299c85-dd7b-45ca-aa5c-711a70608bdf.png)
+
+- `app.module.ts`:
+
+![image](https://user-images.githubusercontent.com/31458531/185787137-35d8d1b5-b3c8-40aa-ac44-92efc79d2ea0.png)
 
 - These decorators optionally can have string as first argument to define the path of the api handling of each of them.
 
