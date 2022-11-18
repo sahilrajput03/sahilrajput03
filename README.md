@@ -163,6 +163,9 @@ cra: 335mb
 - Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
 - Learn Jest/expect: [Click here](learn-jest-expect.md)
 
+## Data Transfer Object (for e.g., used in `user-signin.dto.ts` in some projects)
+
+![image](https://user-images.githubusercontent.com/31458531/202707944-f7691116-5f8d-47f6-8c35-6bff9cc765fe.png)
 
 ## Why are IT companies itching to bring employees back to office when all the work is getting done so smoothly, employees are happy to work extra hours without extra pay?
 
