@@ -35,3 +35,7 @@
   ![image](https://user-images.githubusercontent.com/31458531/202640368-a75e5282-ce01-4ec0-be35-c0387c7e4bf8.png)
 
   ![image](https://user-images.githubusercontent.com/31458531/202640448-963fb64d-44af-4f30-a311-7e2c6b216bc9.png)
+
+  - **You can choose client version now:**
+
+  ![image](https://user-images.githubusercontent.com/31458531/202640614-fea83430-4cc7-4bb0-be9a-abdc4515b407.png)
