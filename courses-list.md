@@ -2,7 +2,7 @@
 
 ***All of below courses are 100% Open source(free).***
 
-- Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript)
+- Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
 - todo-sahil: Foundations of Decentralized Finance (DeFi): [Click here](https://www.linkedin.com/learning/foundations-of-decentralized-finance-defi)
 - todo-sahil: Advanced Expressjs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-express)
 - todo-sahil: Advanced NodeJs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-node-js)
