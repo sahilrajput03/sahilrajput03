@@ -95,7 +95,6 @@ cra: 335mb
 - **Learn Login flow:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
-- **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
 - **Office Utility Tools:** [Click here](learn-google-office-tools.md), [Doc](https://docs.google.com/document/), [Slide](https://docs.google.com/presentation/), [Sheet](https://docs.google.com/spreadsheets)
