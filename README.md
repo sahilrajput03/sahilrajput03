@@ -162,6 +162,7 @@ cra: 335mb
 - Learn auth0: [Click here](learn-auth0.md)
 - Best of Javascript: [Click here](https://bestofjs.org/)
 - Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
+- Learn Jest/expect: [Click here](learn-jest-expect.md)
 
 
 ## Why are IT companies itching to bring employees back to office when all the work is getting done so smoothly, employees are happy to work extra hours without extra pay?
