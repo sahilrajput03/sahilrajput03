@@ -126,7 +126,7 @@ cra: 335mb
 - **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), [Another article @ apollo](https://www.apollographql.com/blog/graphql/pagination/understanding-pagination-rest-graphql-and-relay/), Inspiration - Kaltsoon's Sequelize Cursor based pagination npm package: [Click here](https://github.com/Kaltsoon/sequelize-cursor-pagination)
 - **Youtube Hacks:**: [Click here](youtube-hacks.md)
 - **Learn Travis:** [Click here](learn-travis.md)
-- **Learn Websockets:** [Click here](learn-websockets.md)
+- **Learn Socket.io/Websockets:** [Click here](https://github.com/sahilrajput03/learn-websockets)
 - **Public Journal:** [Click here](public-journal.md)
 - **Learn `react-native`**: [Click here](https://github.com/sahilrajput03/learn-react-native)
 - **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
