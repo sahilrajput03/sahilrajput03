@@ -49,3 +49,7 @@
   - You can set authorization header with socket like that (even though browsers don't allow setting headers for socket connections yet ~Eric Slasher Project Notes):
 
   ![image](https://user-images.githubusercontent.com/31458531/202671481-19c3fe2c-376f-4880-8075-3a1ce02c509c.png)
+
+  - Sending event and listening to events:
+
+  ![image](https://user-images.githubusercontent.com/31458531/202678015-225492f4-7706-4a70-bbce-f26d369d8ff3.png) 
