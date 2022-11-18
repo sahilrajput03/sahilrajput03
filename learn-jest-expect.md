@@ -10,7 +10,7 @@
 describe.only('something', () => {
   it.only('shoudl it be?', (done) => {
     console.log('hello');
-    done()
+    done() // if done is not called then the test will not pass at all. In fact the setTimeout warning is thrown.
   });
 });
 ```
