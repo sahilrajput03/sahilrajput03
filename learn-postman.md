@@ -56,3 +56,6 @@
   
   ![image](https://user-images.githubusercontent.com/31458531/202678858-9459e029-10b7-479c-b513-0bf757fc80f2.png)
 
+- How do we get the return value from the event as we can see the return value in above code:
+
+  ![image](https://user-images.githubusercontent.com/31458531/202679357-98d7e48c-f243-48bd-a96f-1f35ae345456.png)
