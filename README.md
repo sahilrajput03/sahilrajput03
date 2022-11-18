@@ -35,6 +35,13 @@ cra: 335mb
 - [1](https://docs.google.com/presentation/d/1uz8-Ae5sTgZYDmydfX-ESDO03oMBYAQ14rkJzPs4AxE/edit#slide=id.g2b178ca05c_0_3)
 - [2](https://docs.google.com/presentation/d/1snxo-EKx6PseQeznhfr-VVTEQ71EAMOdbDQ0pNR5jEA/edit#slide=id.g6b802e0221_1_1286)
 
+## Developer Surveys
+
+- Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
+- Stackoverflow 2020: [Click here](https://insights.stackoverflow.com/survey/2020)
+- Stackoverflow 2021: [Click here](https://insights.stackoverflow.com/survey/2021)
+- Stackoverflow 2022: [Click here](https://insights.stackoverflow.com/survey/2022)
+
 ## References:
 
 - Contact me: [Click here](https://sahilrajput03.ml/me)
