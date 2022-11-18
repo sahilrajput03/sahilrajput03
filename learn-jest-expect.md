@@ -14,3 +14,5 @@ describe.only('something', () => {
   });
 });
 ```
+
+- Socket.io Testing with jest:  Click here: Official Docs - [Click here](https://socket.io/docs/v4/testing/)
