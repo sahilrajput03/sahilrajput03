@@ -50,11 +50,10 @@
 
   ![image](https://user-images.githubusercontent.com/31458531/202671481-19c3fe2c-376f-4880-8075-3a1ce02c509c.png)
 
-  - Sending event and listening to events (see next screenshot as well):
+  - Sending event (see next screenshot as well):
 
-  ![image](https://user-images.githubusercontent.com/31458531/202678015-225492f4-7706-4a70-bbce-f26d369d8ff3.png) 
-  
-  ![image](https://user-images.githubusercontent.com/31458531/202678858-9459e029-10b7-479c-b513-0bf757fc80f2.png)
+  ![image](https://user-images.githubusercontent.com/31458531/202681171-522a10c0-d5d3-4609-bb1b-8acc981b9e87.png)
+
 
 - How do we get the return value (**Acknowledgement**) from the event as we can see the return value of the event handler in the code:
 
