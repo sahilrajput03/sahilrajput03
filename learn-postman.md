@@ -50,7 +50,10 @@
 
   ![image](https://user-images.githubusercontent.com/31458531/202671481-19c3fe2c-376f-4880-8075-3a1ce02c509c.png)
 
-  - Sending event (see next screenshot as well):
+  - Listening to event and sending event (see next screenshot as well):
+
+  ![image](https://user-images.githubusercontent.com/31458531/202681646-842da8a5-04cd-4c9b-a309-593a286de4a2.png)
+
 
   ![image](https://user-images.githubusercontent.com/31458531/202681171-522a10c0-d5d3-4609-bb1b-8acc981b9e87.png)
 
