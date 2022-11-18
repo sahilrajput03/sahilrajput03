@@ -40,3 +40,7 @@
   - **You can choose client version now:**
 
   ![image](https://user-images.githubusercontent.com/31458531/202641045-34a12cdd-2745-4e2d-af8c-3fbe3bbe97bf.png)
+
+  - You can set authorization header with socket like that (even though browsers don't allow setting headers for socket connections yet ~Eric Slasher Project Notes):
+
+  ![image](https://user-images.githubusercontent.com/31458531/202671481-19c3fe2c-376f-4880-8075-3a1ce02c509c.png)
