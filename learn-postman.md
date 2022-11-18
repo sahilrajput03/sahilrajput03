@@ -32,7 +32,7 @@
 
 - **Socket.io Server Requests**
 
-  Source: [Click here](https://blog.postman.com/postman-now-supports-socket-io/)
+  Source: Official Postman Article - [Click here](https://blog.postman.com/postman-now-supports-socket-io/)
 
   ![image](https://user-images.githubusercontent.com/31458531/202640780-2d8b1f24-69be-4c2c-b052-9ba07eef4c23.png)
 
