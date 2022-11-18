@@ -38,9 +38,9 @@ cra: 335mb
 ## Developer Surveys
 
 - Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
+- Stackoverflow 2019: [Click here](https://insights.stackoverflow.com/survey/2019)
 - Stackoverflow 2020: [Click here](https://insights.stackoverflow.com/survey/2020)
 - Stackoverflow 2021: [Click here](https://insights.stackoverflow.com/survey/2021)
-- Stackoverflow 2022: [Click here](https://insights.stackoverflow.com/survey/2022)
 
 ## References:
 
