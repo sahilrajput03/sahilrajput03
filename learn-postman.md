@@ -29,3 +29,9 @@
 - Course video:
   - https://www.youtube.com/watch?v=juuhb3W8xT4
   - https://www.youtube.com/watch?v=VywxIQ2ZXw4
+
+- **Socket.io Server Requests**
+
+  ![image](https://user-images.githubusercontent.com/31458531/202640368-a75e5282-ce01-4ec0-be35-c0387c7e4bf8.png)
+
+  ![image](https://user-images.githubusercontent.com/31458531/202640448-963fb64d-44af-4f30-a311-7e2c6b216bc9.png)
