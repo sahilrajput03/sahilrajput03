@@ -12,7 +12,7 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/192097168-c942fe81-bac8-433e-8782-17d5f0175993.png)
 
-- Realistic Example of setting and using environment variable:
+- Realistic Example of setting and using a global variable (global environment variable):
 
 ![image](https://user-images.githubusercontent.com/31458531/192096992-b0f411bd-94b8-40ec-b8e3-1da159dfb7bc.png)
 
