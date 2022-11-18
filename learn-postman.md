@@ -41,7 +41,7 @@
 
   ![image](https://user-images.githubusercontent.com/31458531/202641045-34a12cdd-2745-4e2d-af8c-3fbe3bbe97bf.png)
   
-  - Set url of socket now (connect automatically to: `localhost:PORT/socket.io`):
+  - Set url of socket now *(connects automatically to: `localhost:PORT/socket.io`)*:
 
   ![image](https://user-images.githubusercontent.com/31458531/202674719-3b430491-8dd8-40e0-8069-025dac790dd3.png) 
 
