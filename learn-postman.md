@@ -56,6 +56,7 @@
   
   ![image](https://user-images.githubusercontent.com/31458531/202678858-9459e029-10b7-479c-b513-0bf757fc80f2.png)
 
-- How do we get the return value from the event as we can see the return value in above code:
+- How do we get the return value (**Acknowledgement**) from the event as we can see the return value of the event handler in the code:
 
-  ![image](https://user-images.githubusercontent.com/31458531/202679357-98d7e48c-f243-48bd-a96f-1f35ae345456.png)
+  ![image](https://user-images.githubusercontent.com/31458531/202679754-fb80a256-5169-41e4-a95f-baf72f1780db.png)
+
