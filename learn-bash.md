@@ -2906,3 +2906,7 @@ if (( c < 4 )); then (( c++ )); echo Incremented and new value is $c; fi
 # outputt: SPECIAL:: executing above statements MULTIPLE times will increment c's value till it gets 4.
 ```
 
+
+**So my connection with mongo works really good now:**
+
+	![image](https://user-images.githubusercontent.com/31458531/202874726-bab7304d-d8cf-4a7c-9ef8-c16b653d0147.png)
