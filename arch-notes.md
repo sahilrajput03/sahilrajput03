@@ -1551,13 +1551,36 @@ Cron docs @ archlinux: https://wiki.archlinux.org/title/cron
 
 ````bash
 sudo pacman -Syu cronie
+
+# enable service
 systemctl enable --now cronie.service
 
-# Test status of service now:
+# get status of cronjob service
 systemctl status --now cronie.service
 
-# Now you can use cli-tool i.e, ```crontab```
-# IMPORTANT: Add ```export EDITOR=/usr/bin/vim``` in your ```~/.bashrc``` file so ```crontab -e``` would work as it uses ```/bin/vim``` for editing cron files.
+# Help of `crontab` cli tool
+crontab -h
+# OUTPUT
+# crontab: invalid option -- 'h'
+# crontab: usage error: unrecognized option
+# usage:  crontab [-u user] file
+#         crontab [ -u user ] [ -i ] { -e | -l | -r }
+#                 (default operation is replace, per 1003.2)
+#         -e      (edit user's crontab)
+#         -l      (list user's crontab)
+#         -r      (delete user's crontab)
+#         -i      (prompt before deleting user's crontab)
+
+
+# For editing cron files
+# NOTE: Make sure yo have EDITOR variable set in ~/.bashrc i.e,	export EDITOR=/usr/bin/vim
+crontab -e
+
+# For viewing current cron jobs
+crontab -l
+
+# SAMPLE
+@reboot sleep 60;/home/pi/Documents/skype-bot-with-heroku-webhook-for-build-notifications/skype-bot/scriptRaspiHTTPS.sh
 ````
 
 ## Installed workrave in archlinux
