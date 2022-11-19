@@ -872,6 +872,8 @@ perf stat ls
 
 ## installed `sshfs`
 
+**More Tools: `rsync` and `scp` to copy files b/w host and remote server.** You can refer [previous experience here](https://github.com/sahilrajput03/sahilrajput03/blob/master/missing-semester/LECTURE5.md).
+
 Mount remote machine path to local directory using `sshfs`, amazing mounting tool! `sshfs` uses ssh protocol to do this. Also `sshfs` recognises your `.ssh/config` file thus you can make use of aliases very well as I have used `own` alias for my own system.
 
 #mout remote, #mount over ssh, #mimic remote folder, #mimic remote drive, #folder mount with ssh.
