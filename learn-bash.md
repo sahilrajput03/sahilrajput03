@@ -20,7 +20,13 @@ npx cross-env DEBUG=bspaces-api:* PORT=8080 nodemon --inspect -x "C:\Users\Dell\
 
 ## check if a service is (running && accessible) on a target ip (ip can be local or public (both tested), yo!!)
 
-`telnet 192.168.18.5 3000`
+```bash
+# for checking port connection of remote system
+telnet 192.168.18.5 3000
+
+# for checking port of my own system
+telnet localhost 3000
+```
 
 ## learn htop
 
