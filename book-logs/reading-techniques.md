@@ -7,6 +7,7 @@
 - Use [Kindle Web](https://read.amazon.com/kindle-library), though it doesn't support hear to text or RSVP feature but interface is good.
 - See you [Play Books in desktop](https://play.google.com/books) as well. It doesn't support hear to text or RSVP feature yet.
 - [Speed Reading ~ Wikipedia](https://en.wikipedia.org/wiki/Speed_reading)
+- [Life Hack ~ Wikipedia](https://en.wikipedia.org/wiki/Life_hack)
 
 ***Read fast in browser***
 
