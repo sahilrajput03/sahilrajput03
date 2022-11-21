@@ -37,6 +37,6 @@ For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://s
 - You're working on a branch called `SD-499` which was checked out from main.
 - Now main branch on the remote repository is updated.
 - Now you do `git pull`, this will only fetch and merge all remote branches to local branches from their respective tracking branches.
-- SO, now you need to merge main branch into your current branch either by doing `git merge main` or you can do it by git `pull origin main` as both will do same thing. Why? Because `git pull origin main` will pull update main branch and also merge main branch to your currently checkout branch as well. BECAUSE `git pull` is a sum of `git fetch` and `git merge` branch.
+- SO, now you need to merge main branch into your current branch either by doing `git merge main` or you can do it by git `pull origin main` as both will do same thing. Why? Because `git pull origin main` will pull update main branch and also merge main branch to your currently checkout branch as well. BECAUSE `git pull` is a sum of `git fetch` and `git merge` branch. Source: [Atlassian](https://www.atlassian.com/git/tutorials/syncing/git-pull), [Git-scm](https://git-scm.com/docs/git-pull)
 
 ![image](https://user-images.githubusercontent.com/31458531/203025083-653be64f-ee49-41ad-9cd0-1c7da45faa57.png)
