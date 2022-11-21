@@ -3,6 +3,9 @@
 - **SpaceVim:** https://github.com/SpaceVim/SpaceVim
 - Learn Mapping Keys in vim: https://vim.fandom.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1) 
 
+# Quick Links
+- Old Vim notes: [Click here](vim-very-old.md)
+
 # neovim (nvim)
 
 ## Edit files as root user with nvim (why?)
