@@ -168,6 +168,7 @@ cra: 335mb
 - Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
 - Learn Jest/expect: [Click here](learn-jest-expect.md)
 - Lear AWS: [Click here](learn-aws.md)
+- Learn Elastic Search: [Click here](learn-elastic-search.md)
 
 ## Data Transfer Object (for e.g., used in `user-signin.dto.ts` in some projects)
 
