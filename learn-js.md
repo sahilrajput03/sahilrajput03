@@ -1,4 +1,11 @@
 
+# Are string objects?
+
+No, but they can be explored using using object methods.
+
+![image](https://user-images.githubusercontent.com/31458531/203335263-051e71ad-7ff0-4206-9274-44c08d827945.png)
+
+
 # `Object.assign()` is it anyuseful?
 
 **TLDR: Its amazing.** Source: Comment on SO Question [Click here](https://stackoverflow.com/questions/66459300/better-syntax-for-assigning-a-same-name-value-to-object-key-javascript)
