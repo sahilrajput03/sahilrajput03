@@ -5,6 +5,11 @@ No, but they can be explored using using object methods.
 
 ![image](https://user-images.githubusercontent.com/31458531/203335263-051e71ad-7ff0-4206-9274-44c08d827945.png)
 
+String act as array with index and values like that:
+
+![image](https://user-images.githubusercontent.com/31458531/203339880-9fa4cce1-f3b3-4cbb-8e39-a94efa92f8f1.png)
+
+
 
 # `Object.assign()` is it anyuseful?
 
