@@ -169,6 +169,7 @@ cra: 335mb
 - Learn Jest/expect: [Click here](learn-jest-expect.md)
 - Lear AWS: [Click here](learn-aws.md)
 - Learn Elastic Search: [Click here](learn-elastic-search.md)
+- Suble and Impactful Mistakes with Exceptions: [Click here](subtle-impactful-exceptions.md)
 
 ## Data Transfer Object (for e.g., used in `user-signin.dto.ts` in some projects)
 
