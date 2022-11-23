@@ -1249,6 +1249,10 @@ sudo vim /usr/share/applications/mimeinfo.cache
 open myVideoFile.mp4
 ```
 
+**To learn what all that means, refer that screenshot:**
+
+![image](https://user-images.githubusercontent.com/31458531/203566716-160a4bcf-3a69-425c-9f0f-c9ab7988a54e.png)
+
 ## Check your old time versions of packages you have insalled earlier with pacman
 
 Source: https://unix.stackexchange.com/a/103868/504112
