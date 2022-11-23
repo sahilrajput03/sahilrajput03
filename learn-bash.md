@@ -1810,6 +1810,10 @@ $ man grep
 #
 #
 
+# Search for "redis" text in file package.json file with 10 lines after and 10 lines before text of it
+grep \"redis\" -A 10 -B 10 package.json
+
+
 # Prints all the lines with matching text(--colors flag) with linenumbers (-n flag) in the file `myFile.txt`
 grep --color -n 'myText' myFile.txt
 
