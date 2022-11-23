@@ -24,6 +24,6 @@ describe.only('something', () => {
 
 - **Jest debugging command from official docs:** `node --inspect-brk node_modules/.bin/jest --runInBand [any other arguments here]`
 
-- **You can define jest config for a single file basis by that
+- **You can define jest config for a single file basis by that**
 
 ![image](https://user-images.githubusercontent.com/31458531/203556828-7bfd2f7b-1886-4982-b35a-ccd68e476e29.png)
