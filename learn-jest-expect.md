@@ -20,3 +20,6 @@ describe.only('something', () => {
 - Amazingly defined funcion to wait for a callback function but reject after 2 seconds if didn't receive the event, YO!!
 
 ![image](https://user-images.githubusercontent.com/31458531/203509895-cc71e1db-36c1-4f62-be6b-d1e55a211d8f.png)
+
+
+- **Jest debugging command from official docs:** `node --inspect-brk node_modules/.bin/jest --runInBand [any other arguments here]`
