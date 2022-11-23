@@ -1235,11 +1235,19 @@ makepkg -i
 
 ## See default applications settings in archlinux
 
-Archlinux: https://man.archlinux.org/man/xdg-settings.1
+- Archlinux: https://man.archlinux.org/man/xdg-settings.1
+- Archlinux(*not so useful*): https://wiki.archlinux.org/title/Default_applications
+- Changing default browser issue: https://bbs.archlinux.org/viewtopic.php?id=140028
 
-Archlinux: https://wiki.archlinux.org/title/Default_applications
+```bash
+# I set my video player to `mpv` by removing the handbrake from the order of applications preference, and thats it!
+sudo vim /usr/share/applications/mimeinfo.cache
+# So I have a line like that for `video/mp4` mimetype:
+# video/mp4=mpv.desktop;vlc.desktop;
 
-Changing default browser issue: https://bbs.archlinux.org/viewtopic.php?id=140028
+# now I can open video files with mpv directly using that command:
+open myVideoFile.mp4
+```
 
 ## Check your old time versions of packages you have insalled earlier with pacman
 
