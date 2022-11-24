@@ -1,6 +1,6 @@
 # Courses
 
-***All of below courses are 100% Open source(free).***
+***85% of below listed courses are 100% free and available to all.***
 
 **Todo**
 
