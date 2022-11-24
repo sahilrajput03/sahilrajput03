@@ -1242,11 +1242,13 @@ makepkg -i
 ```bash
 # I set my video player to `mpv` by removing the handbrake from the order of applications preference, and thats it!
 sudo vim /usr/share/applications/mimeinfo.cache
-# So I have a line like that for `video/mp4` mimetype:
+# So I have a line like that for `video/mp4` and `video/x-matroska` mimetype respective for .mp4 and .mkv files:
 # video/mp4=mpv.desktop;vlc.desktop;
+# video/x-matroska=mpv.desktop;vlc.desktop;
 
 # now I can open video files with mpv directly using that command:
 open myVideoFile.mp4
+open myVideoFile.mkv
 ```
 
 **To learn what all that means, refer that screenshot:**
