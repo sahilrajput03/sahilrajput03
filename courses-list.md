@@ -2,15 +2,20 @@
 
 ***All of below courses are 100% Open source(free).***
 
+**Todo**
+
 - Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **Just me and Opensource**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
 - Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
-- todo-sahil: Foundations of Decentralized Finance (DeFi): [Click here](https://www.linkedin.com/learning/foundations-of-decentralized-finance-defi)
-- todo-sahil: Advanced Expressjs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-express)
-- todo-sahil: Advanced NodeJs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-node-js)
-- *todo~sahil: DevOps with Kubernetes, FSO part 12 and part 13.*
-- *todo~sahil: Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
-- Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
+- Foundations of Decentralized Finance (DeFi): [Click here](https://www.linkedin.com/learning/foundations-of-decentralized-finance-defi)
 - todo-NestJS Fundamentals Course: [Click here](https://courses.nestjs.com/)
+- Advanced Expressjs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-express)
+- Advanced NodeJs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-node-js)
+- *DevOps with Kubernetes, FSO part 12 and part 13.*
+- *Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
+
+**General**
+
+- Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
 - Git: [Learn Git Branching](https://learngitbranching.js.org/)
 - Git: [ShortcutFoo](https://www.shortcutfoo.com/app/dojos/git)
 - The Missing Semester of Your CS Education(MIT): [Click here](https://missing.csail.mit.edu/)
