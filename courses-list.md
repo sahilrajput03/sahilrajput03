@@ -63,6 +63,7 @@
   - [Ben Awad](https://www.youtube.com/c/BenAwad97) \| React Expert
   - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert
   - [Code Eater](https://www.youtube.com/c/CodeEater21) \| Blockchain Expert
+  - [Web3 Club](https://www.youtube.com/channel/UCJbA7dA_YPbnef0vEBFuhKQ/videos) \| Blockchain Expert
 
 **CSS**
 - [Kevin Powell](https://www.youtube.com/kepowob)
