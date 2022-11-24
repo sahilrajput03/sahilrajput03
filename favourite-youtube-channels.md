@@ -5,6 +5,7 @@
 - **6Pack Programmer:** MASTER REACT JS IN ONE VIDEO WITH 5 PROJECTS: [Click here](https://www.youtube.com/watch?v=b50zSyLiCYQ)
 
 **Javascript, React, NextJS, NodeJS, MongoDB, Graphql, etc**
+  - [Just me and Opensource](https://www.youtube.com/@justmeandopensource/playlists) \| Docker \| Kubernetes \| MongoDB \| MySQL
   - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids) \| React Expert
   - [Jack Herrington](https://www.youtube.com/c/JackHerrington) \| React Expert
   - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017) \| React Expert \| Full Stack Expert
