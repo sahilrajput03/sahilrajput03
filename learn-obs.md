@@ -1,5 +1,11 @@
 # Readme
 
+## Capture from particular window for source in obs
+
+tldr: Use Window Capture (Xcomposite) for adding sources.
+
+[Click here](https://obsproject.com/kb/window-capture-sources)
+
 ## Seeing black screen in Skype when selected "Dummy Camera" i.e., virtual cam of obs?
 
 Inspiration: [Click here](https://obsproject.com/forum/threads/solved-arch-linux-obs-virtual-camera-works-in-vlc-but-not-in-skype.152837/)
