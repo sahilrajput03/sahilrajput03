@@ -1,5 +1,10 @@
 # Readme
 
+## Weekend developers recording with alex
+
+Learings:
+- Make sure you have set maximum resolution for the output in obs for best quality recording.
+
 ## Capture from particular window for source in obs
 
 tldr: Use Window Capture (Xcomposite) for adding sources.
