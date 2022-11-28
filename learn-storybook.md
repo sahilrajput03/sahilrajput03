@@ -10,6 +10,8 @@
 - Configure Typescript: [Click here](https://storybook.js.org/docs/react/configure/typescript)
 - Writing Stories in Typescript: [Click here](https://storybook.js.org/blog/writing-stories-in-typescript/)
 - Controls: [Click here](https://storybook.js.org/docs/react/essentials/controls)
+- **Args:** [Click here](https://storybook.js.org/docs/react/writing-stories/args)
+- ArgsTypes: [Click here](https://storybook.js.org/docs/react/api/argtypes)
 
 
 **typescript error:**
