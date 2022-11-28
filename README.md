@@ -173,6 +173,7 @@ cra: 335mb
 - Suble and Impactful Mistakes with Exceptions: [Click here](subtle-impactful-exceptions.md)
 - Learn Storybook: [Click here](learn-storybook.md)
 - Learn Eslint: [Click here](learn-eslint.md)
+- Learn Chrome: [Click here](learn-chrome.md)
 
 ## Data Transfer Object (for e.g., used in `user-signin.dto.ts` in some projects)
 
