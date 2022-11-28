@@ -14,3 +14,38 @@
 
 **typescript error:**
 - `cannot use namespace as type`: [Click here](https://www.google.com/search?q=cannot+use+namespace+as+type)
+
+
+**Way1 Custom Args type:**
+
+```js
+import { ComponentStory } from '@storybook/react';
+
+type SwitchStory = ComponentStory<typeof Switch>;
+
+const Template: SwitchStory = (args) => <Switch {...args} />;
+
+export const Checked: SwitchStory = Template.bind({});
+Checked.args = {
+  isChecked: false,
+};
+export const UnChecked: SwitchStory = Template.bind({});
+Checked.args = {
+  isChecked: true,
+};
+
+```
+
+**Generic Args Type:**
+
+```js
+import { Story } from '@storybook/react';
+
+const Template: Story = (args: any) => <Switch {...args} />;
+
+export const Checked: Story = Template.bind({});
+Checked.args = {
+  isChecked: false,
+};
+
+```
