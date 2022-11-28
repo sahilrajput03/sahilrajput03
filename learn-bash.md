@@ -9,6 +9,16 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Make a script available to be run by dmenu
+
+```bash
+#!/bin/bash
+source ~/.bash_functions
+air google-chrome-stable --remote-debugging-port=9222
+```
+
+Now save that file as name `google-chrome-stable-debug` and move file to `/usr/bin/` directory with `sudo` privilidges. YIKES! Now you can access the bin in dmenu launcher in your archos.
+
 ## Run node inspector with nvm setup (windows)
 
 ```bash
