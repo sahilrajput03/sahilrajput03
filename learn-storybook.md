@@ -6,12 +6,12 @@
 - Egghead Course free: [Click here](https://egghead.io/lessons/react-configure-react-storybook-for-use-with-typescript)
 
 **Quick Links in Docs:**
-- How to write stories: [Click here](https://storybook.js.org/docs/react/writing-stories/introduction#using-args)
+- **Args:** [Click here](https://storybook.js.org/docs/react/writing-stories/args)
+- ArgsTypes: [Click here](https://storybook.js.org/docs/react/api/argtypes)- How to write stories: [Click here](https://storybook.js.org/docs/react/writing-stories/introduction#using-args)
 - Configure Typescript: [Click here](https://storybook.js.org/docs/react/configure/typescript)
 - Writing Stories in Typescript: [Click here](https://storybook.js.org/blog/writing-stories-in-typescript/)
 - Controls: [Click here](https://storybook.js.org/docs/react/essentials/controls)
-- **Args:** [Click here](https://storybook.js.org/docs/react/writing-stories/args)
-- ArgsTypes: [Click here](https://storybook.js.org/docs/react/api/argtypes)
+
 
 
 **typescript error:**
