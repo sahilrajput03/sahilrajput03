@@ -7,3 +7,4 @@
 **Quick Links in Docs:**
 - How to write stories: [Click here](https://storybook.js.org/docs/react/writing-stories/introduction#using-args)
 - Configure Typescript: [Click here](https://storybook.js.org/docs/react/configure/typescript)
+- Writing Stories in Typescript: [Click here](https://storybook.js.org/blog/writing-stories-in-typescript/)
