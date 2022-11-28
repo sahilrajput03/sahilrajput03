@@ -47,6 +47,7 @@ const Template: Story = (args: any) => <Switch {...args} />;
 
 export const Checked: Story = Template.bind({});
 Checked.args = {
+  // Beware: props are not typeschecked here
   isChecked: false,
 };
 
