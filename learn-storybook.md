@@ -4,6 +4,6 @@
 - OFFICIAL: Project that use StoryBook: [Click here](https://storybook.js.org/showcase/projects)
 - Storybook Blogs: [Click here](https://storybook.js.org/blog/tag/open-source/)
 
-Quick Links in Docs:
+**Quick Links in Docs:**
 - How to write stories: [Click here](https://storybook.js.org/docs/react/writing-stories/introduction#using-args)
 - Configure Typescript: [Click here](https://storybook.js.org/docs/react/configure/typescript)
