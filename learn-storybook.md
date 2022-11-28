@@ -10,3 +10,7 @@
 - Configure Typescript: [Click here](https://storybook.js.org/docs/react/configure/typescript)
 - Writing Stories in Typescript: [Click here](https://storybook.js.org/blog/writing-stories-in-typescript/)
 - Controls: [Click here](https://storybook.js.org/docs/react/essentials/controls)
+
+
+**typescript error:**
+- `cannot use namespace as type`: [Click here](https://www.google.com/search?q=cannot+use+namespace+as+type)
