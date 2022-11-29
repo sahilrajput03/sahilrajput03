@@ -174,6 +174,7 @@ cra: 335mb
 - Learn Storybook: [Click here](learn-storybook.md)
 - Learn Eslint: [Click here](learn-eslint.md)
 - Learn Chrome: [Click here](learn-chrome.md)
+- Social rules: [Click here](social-rules.md)
 
 ## Data Transfer Object (for e.g., used in `user-signin.dto.ts` in some projects)
 
