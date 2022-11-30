@@ -10,9 +10,9 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 - **Using multiple gateways create different socket servers?**
 
-tldr; **NO**. They use same server instance if they have same ports. Source: [Click here](https://stackoverflow.com/questions/53123523/nestjs-multiple-websocketgateway)
+  tldr; **NO**. They use same server instance if they have same ports. Source: [Click here](https://stackoverflow.com/questions/53123523/nestjs-multiple-websocketgateway)
 
-![image](https://user-images.githubusercontent.com/31458531/204883573-4d714721-8e8e-4d08-9510-1e52e556bbd8.png)
+  ![image](https://user-images.githubusercontent.com/31458531/204883573-4d714721-8e8e-4d08-9510-1e52e556bbd8.png)
 
 
 - **Adding service as dependency injection to the controller.** So this simply means that nestjs will automatically instantiate the service class for us.
