@@ -175,6 +175,7 @@ cra: 335mb
 - Learn Eslint: [Click here](learn-eslint.md)
 - Learn Chrome: [Click here](learn-chrome.md)
 - Social rules: [Click here](social-rules.md)
+- Learn React: [Click here](https://github.com/sahilrajput03/learn-react)
 
 ## Data Transfer Object (for e.g., used in `user-signin.dto.ts` in some projects)
 
