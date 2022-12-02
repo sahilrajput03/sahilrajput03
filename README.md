@@ -177,6 +177,10 @@ cra: 335mb
 - Social rules: [Click here](social-rules.md)
 - Learn React: [Click here](https://github.com/sahilrajput03/learn-react)
 
+## General Data Protection Regulation
+
+https://gdpr-info.eu/
+
 ## FUN FACT/ Did you know?
 
 > The maximum size an individual document can be in MongoDB is 16MB with a nested depth of 100 levels. Edit: There is no max size for an individual MongoDB database.
