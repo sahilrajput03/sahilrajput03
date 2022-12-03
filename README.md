@@ -176,6 +176,7 @@ cra: 335mb
 - Learn Chrome: [Click here](learn-chrome.md)
 - Social rules: [Click here](social-rules.md)
 - Learn React: [Click here](https://github.com/sahilrajput03/learn-react)
+- Learn Trpc: [Click here](learn-trpc.md)
 
 ## General Data Protection Regulation
 
