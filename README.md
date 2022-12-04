@@ -178,6 +178,10 @@ cra: 335mb
 - Learn React: [Click here](https://github.com/sahilrajput03/learn-react)
 - Learn Trpc: [Click here](learn-trpc.md)
 
+## Detecting if the user is online with JavaScript
+
+[Click here](https://dev.to/dailydevtips1/detecting-if-the-user-is-online-with-javascript-58ne)
+
 ## General Data Protection Regulation
 
 https://gdpr-info.eu/
