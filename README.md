@@ -178,6 +178,14 @@ cra: 335mb
 - Learn React: [Click here](https://github.com/sahilrajput03/learn-react)
 - Learn Trpc: [Click here](learn-trpc.md)
 
+
+## honeypot?
+
+Source: [Click here](https://www.techtarget.com/searchsecurity/definition/honey-pot)
+
+![image](https://user-images.githubusercontent.com/31458531/205510807-b0e82185-2544-4eb5-80c8-8fbe9939e816.png)
+
+
 ## Detecting if the user is online with JavaScript
 
 [Click here](https://dev.to/dailydevtips1/detecting-if-the-user-is-online-with-javascript-58ne)
