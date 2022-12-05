@@ -1,3 +1,21 @@
+# Are indices/keys returned in `for..in` loop of string type?
+
+Yes, they are! This is unexpected to most people though, but typescript will sail your boat for sure. Love typescript!
+
+![image](https://user-images.githubusercontent.com/31458531/203392746-046eb09a-080a-49d1-84ba-6dedef15ea37.png)
+
+
+# Are string objects?
+
+No, but they can be explored using using object methods.
+
+![image](https://user-images.githubusercontent.com/31458531/203335263-051e71ad-7ff0-4206-9274-44c08d827945.png)
+
+String act as array with index and values like that:
+
+![image](https://user-images.githubusercontent.com/31458531/203339880-9fa4cce1-f3b3-4cbb-8e39-a94efa92f8f1.png)
+
+
 
 # `Object.assign()` is it anyuseful?
 

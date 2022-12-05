@@ -49,3 +49,20 @@ Consider using a `.vscode/tasks.json` file (you can autogenerate this file with 
 	]
 }
 ```
+
+
+## bookmarks extension - awesome
+
+https://stackoverflow.com/a/41757766/10012446
+
+![image](https://user-images.githubusercontent.com/31458531/202106832-5ce4fdc5-b644-42dd-b252-297f3d647426.png)
+
+## Change project folder very fast
+
+**Press `ctrl+r` and choose from recent projects:**
+
+![image](https://user-images.githubusercontent.com/31458531/202643453-bd4d4298-d208-45cd-9973-2c5eb2edc282.png)
+
+or you can do it like that:
+
+![image](https://user-images.githubusercontent.com/31458531/202643541-aad07dfb-153c-4886-b8fc-2db7e83a023c.png)

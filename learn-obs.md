@@ -1,6 +1,60 @@
 # Readme
 
+## Weekend developers recording with alex
+
+Learings:
+- Make sure you have set maximum resolution for the output in obs for best quality recording.
+
+## Capture from particular window for source in obs
+
+tldr: Use Window Capture (Xcomposite) for adding sources.
+
+[Click here](https://obsproject.com/kb/window-capture-sources)
+
+## Seeing black screen in Skype when selected "Dummy Camera" i.e., virtual cam of obs?
+
+Inspiration: [Click here](https://obsproject.com/forum/threads/solved-arch-linux-obs-virtual-camera-works-in-vlc-but-not-in-skype.152837/)
+
+The problem is skype doesn't allow video resolution of 1920x1080 as you can [check here](https://learn.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/clients-and-devices/video-resolutions). Thus you need to set the output resolution to **1080x720** in obs settings and boom it works now!
+
+![image](https://user-images.githubusercontent.com/31458531/200127994-7b0c8907-062a-4d41-a583-80d69e2d065a.png)
+
+![image](https://user-images.githubusercontent.com/31458531/200128854-8042447b-01ca-40e2-8d7c-c0d02c9026ab.png)
+
+## Just in case when you click on "Start Virtual Camera" does't click at all?
+
+**Simply:**
+- try to run: `obs.activateModprobeV4l2loopback` command
+- and if above doesn't fix then that means you need to logout and login and it shold work then for sure..
+
+## Shortcuts for start/stop recording/virtual cam
+
+![image](https://user-images.githubusercontent.com/31458531/200125597-54e2c11d-c9ac-4e11-a2b4-1bb166aeee5f.png)
+
+Whats the size difference between two sizes? (tldr; the right one spans complete screen of my laptop) ??
+
+![image](https://user-images.githubusercontent.com/31458531/200129159-f215e6df-c70a-4757-830a-fddb5ee1d544.png)
+
+
+## Deactivating video (and audio?) source from obs
+
+Source: [Click here](https://obsproject.com/forum/threads/disable-webcam-when-not-in-use.143110/post-582838)
+
+Now I have three scene collections and switching between them is super amazing and the bug of mic detaching also works now.
+
+![image](https://user-images.githubusercontent.com/31458531/200125057-3b0472a8-0a25-4df4-a840-a38048fdf523.png)
+
+## Set Backlight Compensation to 2
+
+![image](https://user-images.githubusercontent.com/31458531/200124332-ee2246a2-8574-4319-959b-49f11d1aa22b.png)
+
+## Lock preview Option
+
+This is helpful as it locks the elements in the preview, so it helps in accidentally moving elements accidentally in your preview area.
+
 ## Using zoom with obs virtual camera?
+
+**NOTE - 🥰 ❣ 💓 ❥ 💑 💜 - IMPORTANT - IMPORTANT : "Switching scene collection" (see above topic: "Deactivating video (and audio?) source from obs") feature so its just easy to deactivate active camera and mic simply switching to "Empty" scene now.**
 
 The thing you need to take care that zoom connects to mic first and then you open obs otherwise the zoom will not pick your mic. If for some reason the mic doesn't work in zoom you simply need to exit the meet, exit obs, re-enter the zoom meet, now start virtual camera of obs. Yikes! It works.!!
 

@@ -9,9 +9,34 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Make a script available to be run by dmenu
+
+```bash
+#!/bin/bash
+source ~/.bash_functions
+air google-chrome-stable --remote-debugging-port=9222
+```
+
+Now save that file as name `google-chrome-stable-debug` and move file to `/usr/bin/` directory with `sudo` privilidges. YIKES! Now you can access the bin in dmenu launcher in your archos.
+
+## Run node inspector with nvm setup (windows)
+
+```bash
+#!/bin/bash
+npx cross-env DEBUG=bspaces-api:* PORT=8080 nodemon --inspect -x "C:\Users\Dell\AppData\Roaming\nvm\v12.19.0\node.exe" ./bin/www
+# This is to use node version 12 via my nvm setup automatically.
+# Please use debuggint script with name - "Attach to node process((hint: which has ``node --inpect``))" to connect to the node process, yikes!
+```
+
 ## check if a service is (running && accessible) on a target ip (ip can be local or public (both tested), yo!!)
 
-`telnet 192.168.18.5 3000`
+```bash
+# for checking port connection of remote system
+telnet 192.168.18.5 3000
+
+# for checking port of my own system
+telnet localhost 3000
+```
 
 ## learn htop
 
@@ -1018,6 +1043,8 @@ sudo crontab -u $USER -l
 # The reasony why I have put ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ is coz notifications send via cronjob aren't working without them!, SRC: https://askubuntu.com/a/1308769/702911
 ```
 
+- **Viewing daily cronjobs:** `ls -la /etc/cron.daily`
+
 ## Managing processes with `kill`, `pgrep` and `pkill`
 
 Source 1: https://sahilrajput03.github.io/BashNotesForProfessionals.pdf
@@ -1792,6 +1819,10 @@ $ man grep
 #              within its input file.
 #
 #
+
+# Search for "redis" text in file package.json file with 10 lines after and 10 lines before text of it
+grep \"redis\" -A 10 -B 10 package.json
+
 
 # Prints all the lines with matching text(--colors flag) with linenumbers (-n flag) in the file `myFile.txt`
 grep --color -n 'myText' myFile.txt
@@ -2889,3 +2920,7 @@ if (( c < 4 )); then (( c++ )); echo Incremented and new value is $c; fi
 # outputt: SPECIAL:: executing above statements MULTIPLE times will increment c's value till it gets 4.
 ```
 
+
+**So my connection with mongo works really good now:**
+
+	![image](https://user-images.githubusercontent.com/31458531/202874726-bab7304d-d8cf-4a7c-9ef8-c16b653d0147.png)

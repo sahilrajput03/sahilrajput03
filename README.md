@@ -35,6 +35,12 @@ cra: 335mb
 - [1](https://docs.google.com/presentation/d/1uz8-Ae5sTgZYDmydfX-ESDO03oMBYAQ14rkJzPs4AxE/edit#slide=id.g2b178ca05c_0_3)
 - [2](https://docs.google.com/presentation/d/1snxo-EKx6PseQeznhfr-VVTEQ71EAMOdbDQ0pNR5jEA/edit#slide=id.g6b802e0221_1_1286)
 
+## Developer Surveys
+
+- Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
+- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/)
+- The State of JS: [2021](https://2021.stateofjs.com/en-US/)
+
 ## References:
 
 - Contact me: [Click here](https://sahilrajput03.ml/me)
@@ -65,6 +71,7 @@ cra: 335mb
 - **Learn Markdown:** [Click here](learn-markdown.md)
 - **Learn Perl:** [Click here](learn-perl)
 - **Learn Figma:** [Click here](learn-figma.md)
+- **Learn FigJam:** [Click here](learn-figjam.md)
 - **Learn qutebrowser:** [Click here](qutebrowser.md)
 - **Learn Zerodha Varasity:** [Click here](learn-zerodha-varasity.md)
 - **Learn Urdu:** [Click here](./learn-urdu/)
@@ -94,7 +101,6 @@ cra: 335mb
 - **Learn Login flow:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
 - **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
-- **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **Useful Android App:** [Click here](usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](free-lancing.md)
 - **Office Utility Tools:** [Click here](learn-google-office-tools.md), [Doc](https://docs.google.com/document/), [Slide](https://docs.google.com/presentation/), [Sheet](https://docs.google.com/spreadsheets)
@@ -125,7 +131,7 @@ cra: 335mb
 - **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), [Another article @ apollo](https://www.apollographql.com/blog/graphql/pagination/understanding-pagination-rest-graphql-and-relay/), Inspiration - Kaltsoon's Sequelize Cursor based pagination npm package: [Click here](https://github.com/Kaltsoon/sequelize-cursor-pagination)
 - **Youtube Hacks:**: [Click here](youtube-hacks.md)
 - **Learn Travis:** [Click here](learn-travis.md)
-- **Learn Websockets:** [Click here](learn-websockets.md)
+- **Learn Socket.io/Websockets:** [Click here](https://github.com/sahilrajput03/learn-websockets)
 - **Public Journal:** [Click here](public-journal.md)
 - **Learn `react-native`**: [Click here](https://github.com/sahilrajput03/learn-react-native)
 - **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
@@ -156,6 +162,188 @@ cra: 335mb
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 - Blockchain Portfolio: [Click here](blockchain_portfolio.md)
+- **Leetcode: [Click here](learn-leetcode.md)**
+- Learn Google Cloud: [Click here](learn-google-cloud.md)
+- Learn auth0: [Click here](learn-auth0.md)
+- Best of Javascript: [Click here](https://bestofjs.org/)
+- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
+- Learn Jest/expect: [Click here](learn-jest-expect.md)
+- Lear AWS: [Click here](learn-aws.md)
+- Learn Elastic Search: [Click here](learn-elastic-search.md)
+- Suble and Impactful Mistakes with Exceptions: [Click here](subtle-impactful-exceptions.md)
+- Learn Storybook: [Click here](learn-storybook.md)
+- Learn Eslint: [Click here](learn-eslint.md)
+- Learn Chrome: [Click here](learn-chrome.md)
+- Social rules: [Click here](social-rules.md)
+- Learn React: [Click here](https://github.com/sahilrajput03/learn-react)
+- Learn Trpc: [Click here](learn-trpc.md)
+
+
+## honeypot?
+
+Source: [Click here](https://www.techtarget.com/searchsecurity/definition/honey-pot)
+
+![image](https://user-images.githubusercontent.com/31458531/205510807-b0e82185-2544-4eb5-80c8-8fbe9939e816.png)
+
+
+## Detecting if the user is online with JavaScript
+
+[Click here](https://dev.to/dailydevtips1/detecting-if-the-user-is-online-with-javascript-58ne)
+
+## General Data Protection Regulation
+
+https://gdpr-info.eu/
+
+## FUN FACT/ Did you know?
+
+> The maximum size an individual document can be in MongoDB is 16MB with a nested depth of 100 levels. Edit: There is no max size for an individual MongoDB database.
+
+Source: [Click here](https://www.mongodb.com/community/forums/t/maximum-size-of-database-or-collection/99576)
+
+
+## Data Transfer Object (for e.g., used in `user-signin.dto.ts` in some projects)
+
+![image](https://user-images.githubusercontent.com/31458531/202707944-f7691116-5f8d-47f6-8c35-6bff9cc765fe.png)
+
+## Why are IT companies itching to bring employees back to office when all the work is getting done so smoothly, employees are happy to work extra hours without extra pay?
+
+Source: [Click here](https://www.quora.com/Why-are-IT-companies-itching-to-bring-employees-back-to-office-when-all-the-work-is-getting-done-so-smoothly-employees-are-happy-to-work-extra-hours-without-extra-pay)
+
+## committing directly to master is bad practice
+
+Source: https://www.quora.com/I-work-for-a-startup-our-CTO-loves-writing-code-and-he-frequently-commits-bad-code-directly-to-the-master-branch-What-should-I-do
+
+## how much salt round value should you use?
+
+Moe the better, as much your server can tolerate but be somewhat practical.
+
+Source: [Click here](https://security.stackexchange.com/a/3993)
+
+![image](https://user-images.githubusercontent.com/31458531/201481929-21ee2caa-8a17-4120-8f6c-96a0656a4b20.png)
+
+
+## salt breaking by parts
+
+Source: [Click here](https://stackoverflow.com/a/20399775/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/201481774-1fc5bae7-527f-4741-bef5-f6df2815287a.png)
+
+
+## Is salt considered a secret?
+
+**NO!**
+
+**Read more on these stackoverflow answers:**
+- Reverse-engineering password salts: [Click here](https://security.stackexchange.com/a/43907)
+- How to reverse engineer Salt from password, iterations, and key? [Click here](https://crypto.stackexchange.com/questions/95135/how-to-reverse-engineer-salt-from-password-iterations-and-key)
+- Amazing tutorial on this: [Click here](https://www.martinstoeckli.ch/hash/en/index.php) by [martinstoeckli](https://stackoverflow.com/a/46713082/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/201468305-cdc59c11-2733-4b38-8512-edcabf0b085f.png)
+
+**Its true that we save salts with the passwords in the database as well i.e., the starting of the password is just the salt used only:**
+
+```js
+let bc = require('bcryptjs')
+let saltRounds = 14 // The higher the saltRounds value, the more time the hashing algorithm takes. 
+// Note equal time is taken to verify as well i.e, when we call `compareSync` funciton.
+let salt = bc.genSaltSync(saltRounds) // DEFAULT VALUE for salt is 10
+
+console.log('SALT:', salt)
+
+let hash = bc.hashSync('car', salt)
+console.log('HASH:', hash)
+
+// Verify
+console.log(bc.compareSync('car', hash)) // true
+
+// SAMPLE OUTPUTS:
+// SALT: $2a$10$HKfmu6IQUO4B9b/8LcdrVu
+// HASH: $2a$10$HKfmu6IQUO4B9b/8LcdrVu9YsuALxHTA0GBUvyj4b2Ia/nB5JlKgm
+
+// SALT: $2a$10$1FIlrxjpmaypBpSKGkScPO
+// HASH: $2a$10$1FIlrxjpmaypBpSKGkScPOUFP9HgmFHoDOk.rIK8D.OGX6CoBV2U6
+
+// SALT: $2a$10$uKX.sCX2wIezRsIKcEXK2u
+// HASH: $2a$10$uKX.sCX2wIezRsIKcEXK2uQyVBLfznBA571yanO3uGsPWze.jahhe
+```
+
+![image](https://user-images.githubusercontent.com/31458531/201469083-ce287fac-fa95-4e71-836f-c2cccc2d0191.png)
+
+**Amazing:**
+
+![image](https://user-images.githubusercontent.com/31458531/201468260-c8b3dfe9-8ffe-4709-a872-7b05a330ab74.png)
+
+
+## end to end security?
+
+Source: [Click here](https://support.google.com/messages/answer/10262381?hl=en)
+
+![image](https://user-images.githubusercontent.com/31458531/201462706-f7a0142e-b939-4555-9f33-9bf71243d6f0.png)
+
+
+## keys?
+
+https://stackoverflow.com/questions/48958304/pkcs1-and-pkcs8-format-for-rsa-private-key
+
+## Buffers to string and string to buffers?
+
+Source: [Click here](https://melvingeorge.me/blog/convert-string-buffer-nodejs)
+
+![image](https://user-images.githubusercontent.com/31458531/201398059-1a12047b-357d-4252-981b-15d76586817e.png)
+
+
+## How to Use Buffers in Node.js
+
+Source: [Click here](https://nodejs.org/en/knowledge/advanced/buffers/how-to-use-buffers/)
+
+![image](https://user-images.githubusercontent.com/31458531/201397791-a16c7ddd-6f59-4901-93aa-09a15ed315c6.png)
+
+## typed arrays in javascript?
+
+Source: [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects)
+
+![image](https://user-images.githubusercontent.com/31458531/201393197-22b952ab-c7db-4b94-898e-ea1f73fb7caa.png)
+
+![image](https://user-images.githubusercontent.com/31458531/201393080-b9379637-b900-4d4e-bc85-c0c389da23f0.png)
+
+
+## Using vscode debugger
+
+```txt
+f5(start)
+f10(step)
+f11(step inside)
+shift+f11(step outside)
+ctrl+shift+f5(restart debugger)
+shift+f5(stop debugger)
+```
+
+## settings.json and keybindings.json of vscode files in windows
+
+![image](https://user-images.githubusercontent.com/31458531/200115024-ef281bd6-e9f0-4491-b98a-d2c4fb9ff296.png)
+
+
+## Installing npm dependency via custom github repo
+
+```json
+  "dependencies": {
+    "redux-persist-transform-encrypt": "github:shagundev/redux-persist-transform-encrypt"
+  }
+```
+
+## mandrill, mailchimp
+
+**Tip: You can login to mandrillapp.com using mailchimp logged in accound with oauth automatically. :D**
+
+## Vercel comments in docs is such awesome (currently in Beta docs only)
+
+https://vercel.com/blog/using-vercel-comments-to-improve-the-next-js-13-documentation
+
+Visit here to try it: https://beta.nextjs.org/docs
+
+## URI vs. URL
+
+![image](https://user-images.githubusercontent.com/31458531/199540543-0ba2523e-d56b-4bc8-a7f9-495dae1d2715.png)
 
 ## Resemble.ai is awesome
 
@@ -3086,6 +3274,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # Generate myfile.ppk and myfile.ppk.pub (With no prompts for filename, and do set passphrase in prompts):
 ssh-keygen -f myfile.ppk
+# Output: Two files will be generated i.e, priv key and public key respectively.
+# myfile.ppk  myfile.ppk.pub
 ```
 
 ## Setup your cli to work with different github accounts

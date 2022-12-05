@@ -1,8 +1,19 @@
 # Courses
 
-***All of below courses are 100% Open source(free).***
+***85% of below listed courses are 100% free and available to all.***
 
-*-todo~sahil: DevOps with Kubernetes, FSO part 12 and part 13.*
+**Todo**
+- **MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)
+- Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **Just me and Opensource**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
+- Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
+- Foundations of Decentralized Finance (DeFi): [Click here](https://www.linkedin.com/learning/foundations-of-decentralized-finance-defi)
+- todo-NestJS Fundamentals Course: [Click here](https://courses.nestjs.com/)
+- Advanced Expressjs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-express)
+- Advanced NodeJs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-node-js)
+- *DevOps with Kubernetes, FSO part 12 and part 13.*
+- *Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
+
+**General**
 
 - Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
 - Git: [Learn Git Branching](https://learngitbranching.js.org/)
@@ -35,7 +46,39 @@
 
 - [Click here](prime-resources-js.md)
 
-**Books**
+# Awesome Youtube channels
+
+**Awesome Playlist**
+- Small Projects Playlist by Kyle: [Click here](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8DWL14Wud_m8NeNNbYKOkj)
+- **6Pack Programmer:** MASTER REACT JS IN ONE VIDEO WITH 5 PROJECTS: [Click here](https://www.youtube.com/watch?v=b50zSyLiCYQ)
+
+**Javascript, React, NextJS, NodeJS, MongoDB, Graphql, etc**
+  - [Just me and Opensource](https://www.youtube.com/@justmeandopensource/playlists) \| Docker \| Kubernetes \| MongoDB \| MySQL
+  - [Kent C. Dodds](https://www.youtube.com/c/KentCDodds-vids) \| React Expert
+  - [Jack Herrington](https://www.youtube.com/c/JackHerrington) \| React Expert
+  - [Theo - ping․gg](https://www.youtube.com/c/TheoBrowne1017) \| React Expert \| Full Stack Expert
+  - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified) \| React Expert \| Full Stack Expert
+  - [Fireship](https://www.youtube.com/c/Fireship) \| Full Stack Expert
+  - [Traversy Media](https://www.youtube.com/c/TraversyMedia) \| Full Stack Expert
+  - [Ben Awad](https://www.youtube.com/c/BenAwad97) \| React Expert
+  - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert
+
+**Blockchain**
+  - [Code Eater](https://www.youtube.com/c/CodeEater21) \| Blockchain Expert
+  - [Web3 Club](https://www.youtube.com/channel/UCJbA7dA_YPbnef0vEBFuhKQ/videos) \| Blockchain Expert
+
+**CSS**
+- [Kevin Powell](https://www.youtube.com/kepowob)
+
+**Linux**
+  - [NetworkChuck ](https://www.youtube.com/c/NetworkChuck)
+  - [PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
+  - [DistroTube](https://www.youtube.com/c/DistroTube) (Distros mostly)
+
+**Rust**
+- [No Boilerplate](https://www.youtube.com/c/NoBoilerplate)
+
+# Books
 
 - BOOKS PORTAL - Programming Notes for Professionals books: [Click here](https://goalkicker.com/)
 - BOOK - Algorithms - Notes for Professionals: [Click here](https://sahilrajput03.github.io/AlgorithmsNotesForProfessionals.pdf)

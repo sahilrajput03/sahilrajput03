@@ -7,6 +7,7 @@
 - Use [Kindle Web](https://read.amazon.com/kindle-library), though it doesn't support hear to text or RSVP feature but interface is good.
 - See you [Play Books in desktop](https://play.google.com/books) as well. It doesn't support hear to text or RSVP feature yet.
 - [Speed Reading ~ Wikipedia](https://en.wikipedia.org/wiki/Speed_reading)
+- [Life Hack ~ Wikipedia](https://en.wikipedia.org/wiki/Life_hack)
 
 ***Read fast in browser***
 
@@ -25,5 +26,6 @@ Other tools if you wanna try:
 2. [ReadFast powered by Spritz](https://chrome.google.com/webstore/detail/readfast-powered-by-sprit/blbpafkooanpdcdcndkcckblghjddpke/related?hl=en)
 3. [Read fast - Speed Reading Extension](https://chrome.google.com/webstore/detail/read-fast-speed-reading-e/pnffahcjemjliibgcafjpklgmbeknldi?hl=en) (haven't tried at all)
 4. Article on fast reading apps [here](https://www.readlax.com/blog/en/5_speed_reading_extensions_chrome).
+5. PlayStore: Audify Real Aloud Web Browser: [Click here](https://play.google.com/store/apps/details?id=com.tangerinesoftwarehouse.audify)
 
 The coolest thing about this is that we can easily read pds with this extension, we only need to select a piece of text (say ten pages) and then right click and select

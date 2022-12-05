@@ -2,6 +2,20 @@
 
 Willo interview: https://youtu.be/cfJDX62k2e4
 
+## Damon @ slasher
+
+```js
+When we assign the task, we will be considering these points:
+
+1) quality of code you deliver
+
+2) how quickly you're able to complete the ticket
+
+3) autonomy - your ability to solve problems on your own, outside of information we have
+
+I hope this is helpful
+```
+
 ## projects making currently
 
 - speakshow (animal social media) - where you can not only tweet but roar, meow, bark as well. :D0

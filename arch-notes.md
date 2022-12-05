@@ -8,6 +8,39 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install mongod on raspberry pi
+
+Source: [Click here](https://pimylifeup.com/mongodb-raspberry-pi/)
+
+Date: 6 Nov, 2022
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install mongodb
+sudo systemctl enable mongodb
+sudo systemctl start mongodb
+
+# Test if service is accessible from outside
+nc -zv mongodb_server_ip 27017
+telnet ip 27017
+
+# Connection via cli
+mongo "mongodb://mongo_server_ip:27017"
+
+# src: https://www.digitalocean.com/community/tutorials/how-to-configure-remote-access-for-mongodb-on-ubuntu-20-04
+# Make databaes service accept from all ips
+sudo vi /etc/mongodb.conf
+# bind_ip = 127.0.0.1
+# port = 27017
+# from above line to below line:
+bind_ip = 0.0.0.0
+
+
+#uninstal
+sudo apt purge mongo*
+```
+
 ## controlling mpc player speed
 
 ![image](https://user-images.githubusercontent.com/31458531/198284844-1a82e7cc-2192-4751-abcf-859ab2d8f6a3.png)
@@ -839,6 +872,8 @@ perf stat ls
 
 ## installed `sshfs`
 
+**More Tools: `rsync` and `scp` to copy files b/w host and remote server.** You can refer [previous experience here](https://github.com/sahilrajput03/sahilrajput03/blob/master/missing-semester/LECTURE5.md).
+
 Mount remote machine path to local directory using `sshfs`, amazing mounting tool! `sshfs` uses ssh protocol to do this. Also `sshfs` recognises your `.ssh/config` file thus you can make use of aliases very well as I have used `own` alias for my own system.
 
 #mout remote, #mount over ssh, #mimic remote folder, #mimic remote drive, #folder mount with ssh.
@@ -1106,7 +1141,7 @@ git clone https://aur.archlinux.org/packages/7-zip
 cd 7-zip
 makepkg -si
 
-#Usage:
+# Usage:
 7zz
 # Extracting 7x extension file:
 7zz e documentation-dump.7z
@@ -1200,11 +1235,25 @@ makepkg -i
 
 ## See default applications settings in archlinux
 
-Archlinux: https://man.archlinux.org/man/xdg-settings.1
+- Archlinux: https://man.archlinux.org/man/xdg-settings.1
+- Archlinux(*not so useful*): https://wiki.archlinux.org/title/Default_applications
+- Changing default browser issue: https://bbs.archlinux.org/viewtopic.php?id=140028
 
-Archlinux: https://wiki.archlinux.org/title/Default_applications
+```bash
+# I set my video player to `mpv` by removing the handbrake from the order of applications preference, and thats it!
+sudo vim /usr/share/applications/mimeinfo.cache
+# So I have a line like that for `video/mp4` and `video/x-matroska` mimetype respective for .mp4 and .mkv files:
+# video/mp4=mpv.desktop;vlc.desktop;
+# video/x-matroska=mpv.desktop;vlc.desktop;
 
-Changing default browser issue: https://bbs.archlinux.org/viewtopic.php?id=140028
+# now I can open video files with mpv directly using that command:
+open myVideoFile.mp4
+open myVideoFile.mkv
+```
+
+**To learn what all that means, refer that screenshot:**
+
+![image](https://user-images.githubusercontent.com/31458531/203566716-160a4bcf-3a69-425c-9f0f-c9ab7988a54e.png)
 
 ## Check your old time versions of packages you have insalled earlier with pacman
 
@@ -1516,13 +1565,36 @@ Cron docs @ archlinux: https://wiki.archlinux.org/title/cron
 
 ````bash
 sudo pacman -Syu cronie
+
+# enable service
 systemctl enable --now cronie.service
 
-# Test status of service now:
+# get status of cronjob service
 systemctl status --now cronie.service
 
-# Now you can use cli-tool i.e, ```crontab```
-# IMPORTANT: Add ```export EDITOR=/usr/bin/vim``` in your ```~/.bashrc``` file so ```crontab -e``` would work as it uses ```/bin/vim``` for editing cron files.
+# Help of `crontab` cli tool
+crontab -h
+# OUTPUT
+# crontab: invalid option -- 'h'
+# crontab: usage error: unrecognized option
+# usage:  crontab [-u user] file
+#         crontab [ -u user ] [ -i ] { -e | -l | -r }
+#                 (default operation is replace, per 1003.2)
+#         -e      (edit user's crontab)
+#         -l      (list user's crontab)
+#         -r      (delete user's crontab)
+#         -i      (prompt before deleting user's crontab)
+
+
+# For editing cron files
+# NOTE: Make sure yo have EDITOR variable set in ~/.bashrc i.e,	export EDITOR=/usr/bin/vim
+crontab -e
+
+# For viewing current cron jobs
+crontab -l
+
+# SAMPLE
+@reboot sleep 60;/home/pi/Documents/skype-bot-with-heroku-webhook-for-build-notifications/skype-bot/scriptRaspiHTTPS.sh
 ````
 
 ## Installed workrave in archlinux
@@ -1556,19 +1628,34 @@ FYI:
 
 Also `mcfly` seems another fascinating solution for this as well, i.e., [source](https://stackoverflow.com/a/64895550/10012446) and it [github](https://github.com/cantino/mcfly) (3.5k stars WOW).
 
-## installed zip in archlinux:
+## Installed zip in archlinux:
 
 ```
 sudo pacman -S zip
-```
 
-## Unzip/zip the files with password
+# zip help
+zip -h
 
-```bash
+### create zip file from a file
+zip targetFile.zip sourceFile
+
+#### create zip file from folder
+# -r options menas recurse into directories
+zip -r targetFile.zip sourceFolder
+
+### split the zip into limited sized files
+# man zip: Use -s to set the split size and create a split archive.  The size is given as a number followed optionally by one of k (kB), m (MB), g (GB), or t (TB) (the default is m).  The  -sp  option  can  be used to pause zip between splits to allow changing removable media, for example, but read the descriptions and warnings for both -s and -sp below.
+zip -r -s 10m targetFile.zip directory/
+
+### unzipping splitted zip file
+# Please refer: https://serverfault.com/a/760341
+
+### Unzip/zip the files with password
+# -e options stands for `encrypt`
 zip -e targetFile.zip sourceFolder
 # source: https://www.tecmint.com/create-password-protected-zip-file-in-linux/
 
-# Unzipping:
+### Unzipping:
 unzip ccat-command.zip
 ```
 

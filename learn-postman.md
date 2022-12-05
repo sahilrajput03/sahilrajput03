@@ -12,7 +12,7 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/192097168-c942fe81-bac8-433e-8782-17d5f0175993.png)
 
-- Realistic Example of setting and using environment variable:
+- Realistic Example of setting and using a global variable (global environment variable):
 
 ![image](https://user-images.githubusercontent.com/31458531/192096992-b0f411bd-94b8-40ec-b8e3-1da159dfb7bc.png)
 
@@ -23,9 +23,42 @@
 
 - **Thats how you set a global variable with postman tests:**
 
-![image](https://user-images.githubusercontent.com/31458531/188494132-e9d92e52-eaa0-4187-a519-761264fbde1c.png)
-
+![image](https://user-images.githubusercontent.com/31458531/202670601-dd595467-2185-40f6-bda4-8a093b02616c.png)
 
 - Course video:
   - https://www.youtube.com/watch?v=juuhb3W8xT4
   - https://www.youtube.com/watch?v=VywxIQ2ZXw4
+
+- **Socket.io Server Requests**
+
+  Source: Official Postman Article - [Click here](https://blog.postman.com/postman-now-supports-socket-io/)
+
+  ![image](https://user-images.githubusercontent.com/31458531/202640780-2d8b1f24-69be-4c2c-b052-9ba07eef4c23.png)
+
+  ![image](https://user-images.githubusercontent.com/31458531/202640917-279da6ed-7aa0-4ba8-b0e4-70012a18c15a.png)
+
+  - **You can choose client version now:**
+
+  ![image](https://user-images.githubusercontent.com/31458531/202641045-34a12cdd-2745-4e2d-af8c-3fbe3bbe97bf.png)
+  
+  - Set url of socket now *(connects automatically to: `localhost:PORT/socket.io`)*:
+
+  ![image](https://user-images.githubusercontent.com/31458531/202674719-3b430491-8dd8-40e0-8069-025dac790dd3.png) 
+
+
+  - You can set authorization header with socket like that (even though browsers don't allow setting headers for socket connections yet ~Eric Slasher Project Notes):
+
+  ![image](https://user-images.githubusercontent.com/31458531/202671481-19c3fe2c-376f-4880-8075-3a1ce02c509c.png)
+
+  - Listening to event and sending event (see next screenshot as well):
+
+  ![image](https://user-images.githubusercontent.com/31458531/202681646-842da8a5-04cd-4c9b-a309-593a286de4a2.png)
+
+
+  ![image](https://user-images.githubusercontent.com/31458531/202681171-522a10c0-d5d3-4609-bb1b-8acc981b9e87.png)
+
+
+- How do we get the return value (**Acknowledgement**) from the event as we can see the return value of the event handler in the code:
+
+  ![image](https://user-images.githubusercontent.com/31458531/202679754-fb80a256-5169-41e4-a95f-baf72f1780db.png)
+

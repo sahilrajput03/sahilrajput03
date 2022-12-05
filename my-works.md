@@ -10,15 +10,15 @@
 <img alt="GitHub Actions" src="https://img.shields.io/badge/github%20actions%20-%232671E5.svg?&style=for-the-badge&logo=github%20actions&logoColor=white"/>
 <img alt="Debian" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
 
-#### Web Profile
+#### Some Links
 
+- Blockchain Portfolio: <a href="https://sahilrajput03.ml/blockchain_portfolio" target="_blank">sahilrajput03.ml/blockchain_portfolio</a>
 - Contact Me: <a href="https://sahilrajput03.ml/me/" target="_blank">sahilrajput03.ml/me</a>
-- Detailed Resume: [Click here](https://github.com/sahilrajput03/my_bin/raw/master/resume/sahil-rajput_resume-linux-feb-2022.pdf)
 
 #### Projects & Services
 
-- <a href="https://letsjoin.ml/" target="_blank">Group Video Call App</a>
-- <a href="https://elegant-chat-app.herokuapp.com" target="_blank">Group Text Chat App</a>
+- <a href="https://letsjoin.ml/" target="_blank">Group Video Call App</a>, <a href="https://github.com/sahilrajput03/video-chat-app-webrtc" target="_blank">Github Repository</a>
+- <a href="https://elegant-chat-app.herokuapp.com" target="_blank">Group Text Chat App</a>, <a href="https://github.com/sahilrajput03/learn-websockets/tree/main/helloworld-socket.io/chat-app" target="_blank">Github Repository</a>
 - <a href="http://axiosplayground.ml" target="_blank">Axios playground</a>
 - <a href="https://abstraction.ml" target="_blank">Graphql Playground - Query with power</a>
 - <a href="https://jsonbackendserver.herokuapp.com" target="_blank">Json backendserver</a>
