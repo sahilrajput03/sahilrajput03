@@ -1,6 +1,6 @@
-# Paypal
+# PayPal
 
-***Docs are fucking awesome to read. ~Sahil***
+***PayPal Docs are fucking awesome to read. ~Sahil***
 
 **Quick Links:**
 - Subscriptions: [Click here](https://developer.paypal.com/docs/subscriptions/)
