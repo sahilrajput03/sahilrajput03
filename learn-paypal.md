@@ -1,5 +1,7 @@
 # Paypal
 
+***Docs are fucking awesome to read. ~Sahil***
+
 **Quick Links:**
 - Subscriptions: [Click here](https://developer.paypal.com/docs/subscriptions/)
   - Customize Subscriptions to fit into your product UI: [Click here](Customize Subscriptions to fit into your product UI)
