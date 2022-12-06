@@ -177,7 +177,7 @@ cra: 335mb
 - Social rules: [Click here](social-rules.md)
 - Learn React: [Click here](https://github.com/sahilrajput03/learn-react)
 - Learn Trpc: [Click here](learn-trpc.md)
-
+- Learn Paypal: [Click here](learn-paypal.md)
 
 ## honeypot?
 
