@@ -20,7 +20,7 @@ mv kdenlive-22.08.3-x86_x64.AppImage kdenlive.AppImage
 
 # Moving the executable for global access from terminal and also from dmenu
 sudo mv kdenlive.AppImage /usr/bin/
-``
+```
 
 ## install mongod on raspberry pi
 
