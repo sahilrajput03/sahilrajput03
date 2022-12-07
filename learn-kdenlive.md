@@ -2,6 +2,8 @@
 
 **Other Resources:**
 - Blender as a video editor: [Click here](https://youtu.be/Qb5pge01H4Q)
+- Best open source video editinng softwares:
+  - Amazing Fantastic guy: [Click here](https://youtu.be/imHRY5mKMLY)
 
 **Quick Links:**
 - Full Playlist: https://www.youtube.com/playlist?list=PLqazFFzUAPc7uQaoGxYwxGLk4_6fQrBvE
