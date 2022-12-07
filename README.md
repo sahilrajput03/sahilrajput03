@@ -119,7 +119,6 @@ cra: 335mb
 - **Learn Google Calendar:** [Click here](learn-google-calendar.md)
 - **Single big mistake I made a lot times in last 3 years**: [Click here](single-big-mistake.md)
 - **Learn Obs:** [Click here](./learn-obs.md)
-- **Learn kdenlive:** [Click here](learn-kdenlive.md)
 - **Challau.com metaverse:** [Click here](challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
 - **Learning Svelte:** [Click here](learn-svelte.md)
