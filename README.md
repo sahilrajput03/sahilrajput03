@@ -179,6 +179,10 @@ cra: 335mb
 - Learn Trpc: [Click here](learn-trpc.md)
 - Learn Paypal: [Click here](learn-paypal.md)
 
+## Teach coding to kids/students
+
+- Naveen, Yamini, what company?
+
 ## honeypot?
 
 Source: [Click here](https://www.techtarget.com/searchsecurity/definition/honey-pot)
