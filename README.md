@@ -178,6 +178,7 @@ cra: 335mb
 - Learn React: [Click here](https://github.com/sahilrajput03/learn-react)
 - Learn Trpc: [Click here](learn-trpc.md)
 - Learn Paypal: [Click here](learn-paypal.md)
+- Learn kdenlive: [Click here](learn-kdenlive.md)
 
 ## Teach coding to kids/students
 
