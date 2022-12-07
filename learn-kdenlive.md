@@ -4,6 +4,7 @@
 - Blender as a video editor: [Click here](https://youtu.be/Qb5pge01H4Q)
 - Best open source video editinng softwares:
   - Amazing Fantastic guy: Free opensource Vidoe Editing Softwares: [Click here](https://youtu.be/imHRY5mKMLY): 1. shotcut, 2. kdenlive, 3. Davinci Resolve (this is best but ranked 3rd becoz you need to be lucky to be able to run properly on linux)
+  - Another video of same kind with same softwares mentioned like above link: [Click here](https://youtu.be/FVgu4E2CzFY)
 
 **Quick Links:**
 - Full Playlist: https://www.youtube.com/playlist?list=PLqazFFzUAPc7uQaoGxYwxGLk4_6fQrBvE
