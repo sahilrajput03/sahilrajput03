@@ -1,11 +1,16 @@
 # Learn kdenlive
 
-Full Playlist: https://www.youtube.com/playlist?list=PLqazFFzUAPc7uQaoGxYwxGLk4_6fQrBvE
+**Other Resources:**
+- Blender as a video editor: [Click here](https://youtu.be/Qb5pge01H4Q)
 
-Cutting video: Lesson 2 in above playlist.
+**Quick Links:**
+- Full Playlist: https://www.youtube.com/playlist?list=PLqazFFzUAPc7uQaoGxYwxGLk4_6fQrBvE
+  - Cutting video: Lesson 2 in above playlist.
 
-Terms:
+**Terms:**
 - Scrubbing: Moving the playback in the playback line. Thats called scrubbing.
+
+**Learn wiht Pictures:**
 
 - Initial Load screen:
 
