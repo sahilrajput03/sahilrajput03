@@ -8,18 +8,10 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
-## Install kdenlive (AppImage)
-
-Source: [Click here](https://kdenlive.org/en/download/)
-
-Download AppImage version from above official link. Thats it.
+## Install kdenlive
 
 ```bash
-# Rename AppImage
-mv kdenlive-22.08.3-x86_x64.AppImage kdenlive.AppImage
-
-# Moving the executable for global access from terminal and also from dmenu
-sudo mv kdenlive.AppImage /usr/bin/
+sudo pacman -S kdenlive
 ```
 
 ## install mongod on raspberry pi
