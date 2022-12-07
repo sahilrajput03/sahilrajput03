@@ -1,6 +1,9 @@
 # learn push notifications
 
-TODO: Do check your old codesandboxes for notifications implementations and paste them here then for easy future referencing.
+**TODO: Do check your old codesandboxes for notifications implementations and paste them here then for easy future referencing.**
+
+**Quick Links:**
+- How do push notificaitons work: [Click here](https://www.quora.com/How-do-push-notifications-work-for-desktop-and-mobile-applications)
 
 **Sample json thing? What is this?*
 
