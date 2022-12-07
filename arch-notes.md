@@ -8,10 +8,20 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Install shotcut
+
+```bash
+sudo pacman -S shotcut
+
+#you can also use their AppImage version and move that file to /usr/bin/ directory as well.
+```
+
 ## Install kdenlive
 
 ```bash
 sudo pacman -S kdenlive
+
+#you can also use their AppImage version and move that file to /usr/bin/ directory as well.
 ```
 
 ## install mongod on raspberry pi
