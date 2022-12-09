@@ -61,6 +61,7 @@
   - [Fireship](https://www.youtube.com/c/Fireship) \| Full Stack Expert
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia) \| Full Stack Expert
   - [Ben Awad](https://www.youtube.com/c/BenAwad97) \| React Expert
+  - [Roadside Coder](https://www.youtube.com/@RoadsideCoder) \| Full Stack Expert
   - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert
 
 **Blockchain**
