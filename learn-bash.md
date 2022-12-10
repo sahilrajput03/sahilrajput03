@@ -9,6 +9,17 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## Reading ping command output:
+
+> Read the "Approximate round trip times" section to obtain a general idea of your connection speed. The higher the average time in milliseconds, the slower the connection to the server. Ping times to computers and servers on your local network will usually be much faster than those on the Internet.
+
+Source: [Click here](https://www.techwalla.com/articles/how-to-ping-your-isp)
+
+![image](https://user-images.githubusercontent.com/31458531/206878016-8672f5c1-5378-4890-b953-5092f1c3cf1a.png)
+
+![image](https://user-images.githubusercontent.com/31458531/206878038-18156937-9f46-4843-a910-e10408dd6d8e.png)
+
+
 ## Make a script available to be run by dmenu
 
 ```bash
