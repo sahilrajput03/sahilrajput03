@@ -179,6 +179,7 @@ cra: 335mb
 - Learn Paypal: [Click here](learn-paypal.md)
 - Learn kdenlive: [Click here](learn-kdenlive.md)
 - Learn ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
+- Business Terms: [Click here](learn-business-terms.md)
 
 ## Teach coding to kids/students
 
