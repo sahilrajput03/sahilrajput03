@@ -181,6 +181,23 @@ cra: 335mb
 - Learn ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - Business Terms: [Click here](learn-business-terms.md)
 
+
+## Npm useful commands
+
+```txt
+# get documentation 
+npm repo react --no-browser
+
+# get outdate dependencies
+npm outdated
+
+# get version history
+npm v lodash versions
+
+# The audit command submits a description of the dependencies configured in your project to your default registry and asks for a report of known vulnerabilities.
+npm audit
+```
+
 ## What does `npm run xxx` do?
 
 [Click here](https://javascript.plainenglish.io/interviewer-what-happened-to-npm-run-xxx-cdcb37dbaf44)
