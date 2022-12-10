@@ -184,6 +184,8 @@ cra: 335mb
 
 ## Npm useful commands
 
+Source: [Click here](https://javascript.plainenglish.io/as-a-front-end-engineer-8-useful-npm-coding-techniques-that-you-should-use-bc30b8503ba4)
+
 ```txt
 # get documentation 
 npm repo react --no-browser
