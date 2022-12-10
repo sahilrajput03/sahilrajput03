@@ -185,6 +185,8 @@ cra: 335mb
 
 [Click here](https://javascript.plainenglish.io/interviewer-what-happened-to-npm-run-xxx-cdcb37dbaf44)
 
+Medium Handle on the author: [Click here](https://fatfish.medium.com/)
+
 ## Teach coding to kids/students
 
 - Naveen, Yamini, what company?
