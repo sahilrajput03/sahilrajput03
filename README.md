@@ -181,6 +181,10 @@ cra: 335mb
 - Learn ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - Business Terms: [Click here](learn-business-terms.md)
 
+## What does `npm run xxx` do?
+
+[Click here](https://javascript.plainenglish.io/interviewer-what-happened-to-npm-run-xxx-cdcb37dbaf44)
+
 ## Teach coding to kids/students
 
 - Naveen, Yamini, what company?
