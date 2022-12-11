@@ -246,3 +246,4 @@ Data Types Code of axios: [Click here](https://github.com/axios/axios/blob/v2.x/
 - ulimit value for server: [Click here](https://stackoverflow.com/questions/21432051/throttling-express-server)
 - `@nestjs/throttler`: [Click here](https://github.com/nestjs/throttler)
 - `express-throttle`: [Click here](https://github.com/Nullmage/express-throttle)
+- Yet another medium article: Rate limiting in Express: [Click here](https://medium.com/pixel-and-ink/rate-limiting-in-express-7a43ac14ed0c)
