@@ -9,6 +9,10 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
+## 30 linux bash aliases
+
+[Click here](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
+
 ## Reading ping command output:
 
 > Read the "Approximate round trip times" section to obtain a general idea of your connection speed. The higher the average time in milliseconds, the slower the connection to the server. Ping times to computers and servers on your local network will usually be much faster than those on the Internet.
