@@ -13,3 +13,5 @@
 
 - Calculate sales tax automatically: [Click here](https://developer.paypal.com/api/nvp-soap/paypal-payments-standard/integration-guide/ProfileAndTools/#link-calculatesalestaxautomatically)
 - Auto-calculate sales tax: [Click here](https://developer.paypal.com/api/nvp-soap/paypal-payments-standard/admin/checkout-settings/#auto-calculate-sales-tax)
+
+![image](https://user-images.githubusercontent.com/31458531/206914072-c30f324e-15bc-40cb-a2aa-a44021675141.png)
