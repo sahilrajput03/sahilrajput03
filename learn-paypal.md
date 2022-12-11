@@ -1,6 +1,6 @@
 # PayPal
 
-***PayPal Docs are fucking awesome to read. ~Sahil***
+***PayPal Docs are just awesome to read. ~Sahil***
 
 **Quick Links:**
 - Subscriptions: [Click here](https://developer.paypal.com/docs/subscriptions/)
@@ -9,3 +9,7 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
 
+## Tax Calcuation on items
+
+- Calculate sales tax automatically: [Click here](https://developer.paypal.com/api/nvp-soap/paypal-payments-standard/integration-guide/ProfileAndTools/#link-calculatesalestaxautomatically)
+- Auto-calculate sales tax: [Click here](https://developer.paypal.com/api/nvp-soap/paypal-payments-standard/admin/checkout-settings/#auto-calculate-sales-tax)
