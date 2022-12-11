@@ -238,3 +238,11 @@ Data Types Code of axios: [Click here](https://github.com/axios/axios/blob/v2.x/
 		password: password,
 	})
 	```
+
+## Make server to limit the total number of requets to be handled at a given point and make a robust client side mechanism to deal with such error in a sophisticated manner
+
+- [Axios Retry](https://github.com/softonic/axios-retry): Becoz we want to retry for a case when the server returns with a particular status code i.e., `too many connection` status or particular http status code.
+- `node-limiter-flexible`: [Click here](https://github.com/animir/node-rate-limiter-flexible), Source: [Article](https://dev.to/mattdclarke/how-to-rate-limit-a-login-route-in-express-using-node-rate-limiter-flexible-and-redis-1i1k) (Helps prevent DDos Attack as well).
+- ulimit value for server: [Click here](https://stackoverflow.com/questions/21432051/throttling-express-server)
+- `@nestjs/throttler`: [Click here](https://github.com/nestjs/throttler)
+- `express-throttle`: [Click here](https://github.com/Nullmage/express-throttle)
