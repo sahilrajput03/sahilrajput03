@@ -3,6 +3,7 @@
 ***PayPal Docs are just awesome to read. ~Sahil***
 
 **Quick Links:**
+- Sandbox Accounts: [Click here](https://developer.paypal.com/tools/sandbox/accounts/)
 - Subscriptions: [Click here](https://developer.paypal.com/docs/subscriptions/)
   - Customize Subscriptions to fit into your product UI: [Click here](Customize Subscriptions to fit into your product UI)
   - Manage Subscriptions on your account dashboard: [Click here](https://www.paypal.com/merchantapps/appcenter/acceptpayments/subscriptions)
