@@ -5,8 +5,10 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 - Reference project using nestjs: [Click here](https://docs.nestjs.com/fundamentals/circular-dependency)
 - Fixing circular dependency: Official Docs: [Click here](https://docs.nestjs.com/fundamentals/circular-dependency)
 - Testing with NestJS: [Click here](https://docs.nestjs.com/fundamentals/testing)
-
 - Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
+- Declartive Cron Jobs with NestJS: [Click here](https://docs.nestjs.com/techniques/task-scheduling#declarative-cron-jobs)
+
+**Other Cool things:**
 
 - **Using multiple gateways create different socket servers?**
 
