@@ -65,4 +65,5 @@
 
 - You can write documentation for a postman requets like that:
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/31458531/207377460-05b98813-c6e0-4b88-8a23-faf8a62d6a06.png)
+
