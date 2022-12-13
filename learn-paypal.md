@@ -30,7 +30,9 @@
 
 **Account Settings > Account access > API access > Update > Manage REST API apps credentials**
 
-**To be able to fetch transaction from my seller account I had to change this setting using my `PayPal sandbox developer account`**
+## Enable Fetch Transaction permission
+
+To be able to fetch transaction from my seller account I had to change this setting using my `PayPal sandbox developer account`**
 
 - *Paypal Developer Dashboard: [Click here](https://developer.paypal.com/dashboard/)*
 
