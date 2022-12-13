@@ -61,3 +61,8 @@ Other links to help you prorate:
 
 ![image](https://user-images.githubusercontent.com/31458531/207431204-1bf92dac-9248-4f7b-b1b5-1a22b99e9d13.png)
 
+## When creating a subscription
+
+When creating a subscription you can give the `start_date` to set the start date and time for this subscription. Also, if you just want the subscription to start immeditely you can simply delete that field from the payload of the request and in the response you'll see the current time automatically set by the paypal server.
+
+![image](https://user-images.githubusercontent.com/31458531/207449005-9554b18d-2246-4653-99f5-0a7bfa844afd.png)
