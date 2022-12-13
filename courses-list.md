@@ -6,7 +6,7 @@
 - **MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)
 - Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **Just me and Opensource**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
 - Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
-- No BS TS by Jack Herrington: [Click here](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
+- Typescript: No BS TS by Jack Herrington: [Click here](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 - Foundations of Decentralized Finance (DeFi): [Click here](https://www.linkedin.com/learning/foundations-of-decentralized-finance-defi)
 - todo-NestJS Fundamentals Course: [Click here](https://courses.nestjs.com/)
 - Advanced Expressjs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-express)
