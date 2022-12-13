@@ -38,7 +38,9 @@ To be able to fetch transaction from my seller account I had to change this sett
 
 ![image](https://user-images.githubusercontent.com/31458531/207420625-4486ddc0-33a3-4d4e-a081-579d8fca69f8.png)
 
-- Getting the subscription txns and their respective ids from the list of transactions we get by `List transactions` REST API of postman collection
+## Fetching transactions and especially subscription txns?
+
+**Getting the subscription txns and their respective ids from the list of transactions we get by `List transactions` REST API of postman collection**
 
 Source - API DOCS: [Click here](https://developer.paypal.com/docs/api/transaction-search/v1/)
 
@@ -46,7 +48,7 @@ Source - API DOCS: [Click here](https://developer.paypal.com/docs/api/transactio
 
 ![image](https://user-images.githubusercontent.com/31458531/207430163-5c5d3fa6-7c33-46cc-823f-196d36886a8f.png)
 
-- **Paypal Doesn't support proration automatically**
+## **Paypal Doesn't support proration automatically**
 
 Source - Docs: [Click here](https://developer.paypal.com/docs/subscriptions/customize/revise-subscriptions/#link-billingchanges)
 
