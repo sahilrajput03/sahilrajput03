@@ -66,3 +66,10 @@ Other links to help you prorate:
 When creating a subscription you can give the `start_date` to set the start date and time for this subscription. Also, if you just want the subscription to start immeditely you can simply delete that field from the payload of the request and in the response you'll see the current time automatically set by the paypal server.
 
 ![image](https://user-images.githubusercontent.com/31458531/207449005-9554b18d-2246-4653-99f5-0a7bfa844afd.png)
+
+## There is no way to un-cancel a request
+
+- You can update different different fields on a subscription **but updating `status` field is not allowed at all. ~IMO Sahil(well tested).**
+- Also, one the plan has been activated you cannot change the `start_date`
+
+![image](https://user-images.githubusercontent.com/31458531/207453681-28f2840d-55f6-4171-96d9-ea7e437cf3be.png)
