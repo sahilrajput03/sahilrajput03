@@ -82,7 +82,7 @@
 
 # Podcasts
 
-[Click here](https://undefined.fm/radio/atomic-css-with-adam-wathan-creator-of-tailwind-css)
+[Click here](https://undefined.fm/)
 
 # Books
 
