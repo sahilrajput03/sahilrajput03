@@ -17,7 +17,8 @@
   - Billing Cycles: [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/billing-cycles/)
   - Starting a subscription in a future date (and charge when billing cycle actually starts): [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/future-date/)
   - Upgrade or downgrade a subscription (Change subscription plan for a subscription): [Click here](https://developer.paypal.com/docs/subscriptions/customize/revise-subscriptions/)
-- Card Testing: [Click here](https://developer.paypal.com/tools/sandbox/card-testing/)
+- Card Testing: [Click here](https://developer.paypal.com/tools/sandbox/card-testing/) `"card": {"number": "4012888888881881", "expiry": "2028-03"`
+
 
 ![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
 
