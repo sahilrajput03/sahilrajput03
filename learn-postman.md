@@ -90,3 +90,7 @@ if (pm?.request?.body?.options?.raw?.language === 'json') {
 - Also you can make use explicit comment section to make notes as well:
 
 ![image](https://user-images.githubusercontent.com/31458531/207378369-41d78f06-e3d6-454a-adba-3ed0c0ce1015.png)
+
+- Hidden Headers?
+
+![image](https://user-images.githubusercontent.com/31458531/207421624-510f6c07-d366-44fc-ac24-1ee328041652.png)
