@@ -3,7 +3,7 @@
 ***PayPal Docs are just awesome to read. ~Sahil***
 
 **Quick Links:**
-Javasript SDK Reference: [Click here](https://developer.paypal.com/sdk/js/reference/#onapprove)
+- Javasript SDK Reference: [Click here](https://developer.paypal.com/sdk/js/reference/#onapprove)
 - **Official Postman collection by PayPal:** [Click here](https://developer.paypal.com/docs/subscriptions/integrate/) and press Run in postman button.
 - Sandbox Accounts: [Click here](https://developer.paypal.com/tools/sandbox/accounts/)
 - My Apps and Credential: [Click here](https://developer.paypal.com/dashboard/applications/sandbox)
