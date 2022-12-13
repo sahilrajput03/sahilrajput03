@@ -9,11 +9,9 @@
 
 **Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
-## Linux iptables command examples for new sysadmins
-
-TODO:
-
-[Click here](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
+**TODO:**
+- **Bash Shell Substitution:** [Click here](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
+- **Linux iptables command examples for new sysadmins:** [Click here](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
 
 ## 30 linux bash aliases
 
