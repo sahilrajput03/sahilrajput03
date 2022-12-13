@@ -37,3 +37,11 @@ To be able to fetch transaction from my seller account I had to change this sett
 - *Paypal Developer Dashboard: [Click here](https://developer.paypal.com/dashboard/)*
 
 ![image](https://user-images.githubusercontent.com/31458531/207420625-4486ddc0-33a3-4d4e-a081-579d8fca69f8.png)
+
+- Getting the subscription txns and their respective ids from the list of transactions we get by `List transactions` REST API of postman collection
+
+Source - API DOCS: [Click here](https://developer.paypal.com/docs/api/transaction-search/v1/)
+
+![image](https://user-images.githubusercontent.com/31458531/207430752-bf4f77e7-728f-41ec-990b-248eb16bb91a.png)
+
+![image](https://user-images.githubusercontent.com/31458531/207430163-5c5d3fa6-7c33-46cc-823f-196d36886a8f.png)
