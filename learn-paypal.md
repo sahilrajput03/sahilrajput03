@@ -3,6 +3,8 @@
 ***PayPal Docs are just awesome to read. ~Sahil***
 
 **Quick Links:**
+- Paypal Story Components: [Click here](https://paypal.github.io/react-paypal-js/) (Tip: Go to Docs Tab to get code for the active story)
+- Official Paypal React `@paypal/react-paypal-js`: [Github](https://github.com/paypal/react-paypal-js)
 - Javasript SDK Reference: [Click here](https://developer.paypal.com/sdk/js/reference/#onapprove)
 - **Official Postman collection by PayPal:** [Click here](https://developer.paypal.com/docs/subscriptions/integrate/) and press Run in postman button.
 - Sandbox Accounts: [Click here](https://developer.paypal.com/tools/sandbox/accounts/)
