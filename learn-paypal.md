@@ -15,6 +15,7 @@
   - Customize Subscriptions to fit into your product UI: [Click here](Customize Subscriptions to fit into your product UI)
   - Manage Subscriptions on your account dashboard: [Click here](https://www.paypal.com/merchantapps/appcenter/acceptpayments/subscriptions)
   - Billing Cycles: [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/billing-cycles/)
+  - Starting a subscription in a future date (and charge when billing cycle actually starts): [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/future-date/)
 - Card Testing: [Click here](https://developer.paypal.com/tools/sandbox/card-testing/)
 
 ![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
@@ -58,6 +59,3 @@ Other links to help you prorate:
 
 ![image](https://user-images.githubusercontent.com/31458531/207431204-1bf92dac-9248-4f7b-b1b5-1a22b99e9d13.png)
 
-## Starting a subscription in a future date (charge when subscription starts)
-
-Docs: [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/future-date/)
