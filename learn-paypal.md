@@ -45,3 +45,11 @@ Source - API DOCS: [Click here](https://developer.paypal.com/docs/api/transactio
 ![image](https://user-images.githubusercontent.com/31458531/207430752-bf4f77e7-728f-41ec-990b-248eb16bb91a.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/207430163-5c5d3fa6-7c33-46cc-823f-196d36886a8f.png)
+
+- **Paypal Doesn't support proration automatically**
+
+Other links to help you prorate:
+- Stackoverflow Answer: [Click here](https://stackoverflow.com/questions/71974648/how-to-charge-prorated-rate-on-paypal-subscription)
+- Another beautifully written article on Proration and how to do it: [Click here](https://gocardless.com/guides/posts/what-is-proration/)
+
+![image](https://user-images.githubusercontent.com/31458531/207431204-1bf92dac-9248-4f7b-b1b5-1a22b99e9d13.png)
