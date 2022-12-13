@@ -80,6 +80,10 @@
 **Rust**
 - [No Boilerplate](https://www.youtube.com/c/NoBoilerplate)
 
+# Podcasts
+
+[Click here](https://undefined.fm/radio/atomic-css-with-adam-wathan-creator-of-tailwind-css)
+
 # Books
 
 - BOOKS PORTAL - Programming Notes for Professionals books: [Click here](https://goalkicker.com/)
