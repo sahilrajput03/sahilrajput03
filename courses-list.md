@@ -82,7 +82,7 @@
 
 # Podcasts
 
-[Click here](https://undefined.fm/)
+- Undefined.fm by ~Jared Palmer and Ken Wheeler: [Click here](https://undefined.fm/)
 
 # Books
 
