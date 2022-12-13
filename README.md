@@ -181,6 +181,11 @@ cra: 335mb
 - Learn ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - Business Terms: [Click here](learn-business-terms.md)
 
+## popularity vs. active issues
+
+![image](https://user-images.githubusercontent.com/31458531/207324153-53c4c843-2d77-48d1-97b6-2cc39a40e3ea.png)
+
+![image](https://user-images.githubusercontent.com/31458531/207324224-b82583d9-fc32-4cb4-8e6d-dc6eaf01a01c.png)
 
 ## Npm useful commands
 
