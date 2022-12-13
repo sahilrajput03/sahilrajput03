@@ -47,6 +47,8 @@ Source - API DOCS: [Click here](https://developer.paypal.com/docs/api/transactio
 
 ![image](https://user-images.githubusercontent.com/31458531/207430752-bf4f77e7-728f-41ec-990b-248eb16bb91a.png)
 
+![image](https://user-images.githubusercontent.com/31458531/207435541-d89a8873-747f-48da-90e3-c88af380655a.png)
+
 ![image](https://user-images.githubusercontent.com/31458531/207430163-5c5d3fa6-7c33-46cc-823f-196d36886a8f.png)
 
 ## **Paypal Doesn't support proration automatically**
