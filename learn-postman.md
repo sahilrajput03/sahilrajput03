@@ -67,3 +67,26 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/207377460-05b98813-c6e0-4b88-8a23-faf8a62d6a06.png)
 
+
+- In a request payload you can now write comments with `//` and `/* */` format by adding that pre-script code
+
+Source Stackoverflow Answer: [Click here](https://stackoverflow.com/a/67467079/10012446)
+
+```js
+// Strip JSON Comments
+if (pm?.request?.body?.options?.raw?.language === 'json') {
+    const rawData = pm.request.body.toString();
+    const strippedData = rawData.replace(
+        /\\"|"(?:\\"|[^"])*"|(\/\/.*|\/\*[\s\S]*?\*\/)/g,
+        (m, g) => g ? "" : m
+    );
+    pm.request.body.update(JSON.stringify(JSON.parse(strippedData)));
+}
+
+// To set Content-Type again (see the original stackoverflow answer's comment section):
+// pm.request.upsertHeader({key: 'Content-Type', value: 'application/json'});
+```
+
+- Also you can make use explicit comment section to make notes as well:
+
+![image](https://user-images.githubusercontent.com/31458531/207378369-41d78f06-e3d6-454a-adba-3ed0c0ce1015.png)
