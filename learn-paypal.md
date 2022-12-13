@@ -48,6 +48,8 @@ Source - API DOCS: [Click here](https://developer.paypal.com/docs/api/transactio
 
 - **Paypal Doesn't support proration automatically**
 
+Source - Docs: [Click here](https://developer.paypal.com/docs/subscriptions/customize/revise-subscriptions/#link-billingchanges)
+
 Other links to help you prorate:
 - Stackoverflow Answer: [Click here](https://stackoverflow.com/questions/71974648/how-to-charge-prorated-rate-on-paypal-subscription)
 - Another beautifully written article on Proration and how to do it: [Click here](https://gocardless.com/guides/posts/what-is-proration/)
