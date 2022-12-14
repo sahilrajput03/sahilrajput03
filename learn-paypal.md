@@ -90,7 +90,7 @@ When creating a subscription you can give the `start_date` to set the start date
 
 ![image](https://user-images.githubusercontent.com/31458531/207453681-28f2840d-55f6-4171-96d9-ea7e437cf3be.png)
 
-## paypal webhook simulator
+## PayPal Webhook Simulator
 
 Please use this site to generate a free url which you can use to test webhook on paypal.
 
