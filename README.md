@@ -4,7 +4,7 @@ A Pragmatic software developer.
 
 Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.” Nature of mind is to wander around, its not problem its the way its designed. My job is to keep getting it back towards the goal.
 
-[listening today](https://www.youtube.com/watch?v=0mndNg99lbg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
+[relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
 
 Unwinding is hot no-sugar coffee!
 
