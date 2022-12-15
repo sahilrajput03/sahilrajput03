@@ -96,3 +96,16 @@ Please use this site to generate a free url which you can use to test webhook on
 
 - Webhooks simulator | Paypal: [Click here](https://developer.paypal.com/dashboard/webhooksSimulator)
 - Free Webhook testing Tool: [Click here](https://webhook.site/)
+
+## More on cards
+
+[Credit Card Generator](https://developer.paypal.com/api/rest/sandbox/card-testing/#link-creditcardgeneratorfortesting), [How to use Failed Cards](https://developer.paypal.com/tools/sandbox/card-testing/), [More 3DS Payments](https://developer.paypal.com/docs/checkout/advanced/customize/3d-secure/test/) and [More Test Accounts](https://developer.paypal.com/dashboard/accounts/).
+
+![image](https://user-images.githubusercontent.com/31458531/207940976-ec890948-fa5f-4d12-b50d-6155284fd07b.png)
+
+
+![image](https://user-images.githubusercontent.com/31458531/207941002-677b567f-1dca-4540-a045-341413a1b2a8.png)
+
+![image](https://user-images.githubusercontent.com/31458531/207941018-8c80e01f-f226-4797-b280-999ad491eb9b.png)
+
+![image](https://user-images.githubusercontent.com/31458531/207941058-d65d498a-f7fe-46ae-8c3b-136aa0ea9178.png)
