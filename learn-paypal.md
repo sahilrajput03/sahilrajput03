@@ -3,6 +3,7 @@
 ***PayPal Docs are just awesome to read. ~Sahil***
 
 **Quick Links:**
+- PayPal Developer Apps and Credentials: [Click here](https://developer.paypal.com/dashboard/applications/sandbox)
 - Paypal Story Components: [Click here](https://paypal.github.io/react-paypal-js/) (Tip: Go to Docs Tab to get code for the active story)
 - Official Paypal React `@paypal/react-paypal-js`: [Github](https://github.com/paypal/react-paypal-js)
 - Javasript SDK Reference: [Click here](https://developer.paypal.com/sdk/js/reference/#onapprove)
