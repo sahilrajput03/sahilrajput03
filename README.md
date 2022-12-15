@@ -181,6 +181,25 @@ cra: 335mb
 - Learn ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - Business Terms: [Click here](learn-business-terms.md)
 
+## Tracking a variable value change
+
+```js
+let a = false
+
+let id = setInterval(() => {
+	console.log('checking variable.', a)
+	if (a) {
+		console.log('value has changed!', a)
+		clearInterval(id)
+	}
+}, 1000)
+
+// Change value of variable a after 4 seconds
+setTimeout(() => {
+	a = true
+}, 4000)
+```
+
 ## Opening closing & Passing data from Child window to parent window in JavaScript & refreshing main
 
 [Click here](https://www.youtube.com/watch?v=vY_MF7KDMXU)
