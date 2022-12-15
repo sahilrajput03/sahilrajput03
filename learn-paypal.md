@@ -123,3 +123,7 @@ Please use this site to generate a free url which you can use to test webhook on
 // 	six: 'P-81C6483981287853TMONXJJQ',
 // }
 ```
+
+## Error: `Things don't appear to be working at the moment. Please try again later.`
+
+[Click here](https://www.paypal.com/us/smarthelp/article/ts2067)
