@@ -111,3 +111,15 @@ Please use this site to generate a free url which you can use to test webhook on
 ![image](https://user-images.githubusercontent.com/31458531/207941018-8c80e01f-f226-4797-b280-999ad491eb9b.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/207941058-d65d498a-f7fe-46ae-8c3b-136aa0ea9178.png)
+
+## Sandbox Details
+
+```txt
+// Sahil Personal Account (Sandbox Details)
+// const clientId =  'AZxr-cT_Indgclkxvqr_yUgFqWiYUJpHLmOKwrucdOseQsFzSrfsCRLaBNZKH9rT5RGCAFK4QgppxKGS'
+// const planIds = {
+// 	one: 'P-1U585596S70968643MONXJHI',
+// 	three: 'P-3J697311GS257702PMONXJIQ',
+// 	six: 'P-81C6483981287853TMONXJJQ',
+// }
+```
