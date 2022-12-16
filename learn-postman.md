@@ -94,3 +94,7 @@ if (pm?.request?.body?.options?.raw?.language === 'json') {
 - Hidden Headers?
 
 ![image](https://user-images.githubusercontent.com/31458531/207421624-510f6c07-d366-44fc-ac24-1ee328041652.png)
+
+- Thats how you can use param variables (**actually called `path variables` in postman)
+
+  ![image](https://user-images.githubusercontent.com/31458531/208105028-41ca37f7-77e9-41fd-a79f-312cbbcac948.png)
