@@ -5,6 +5,9 @@
 **Quick Links:**
 - PayPal Developer Apps and Credentials: [Click here](https://developer.paypal.com/dashboard/applications/sandbox)
   - Sandbox Test Account: [Click here](https://developer.paypal.com/dashboard/accounts)
+- Official Live Demo's of Paypal Buttons: [Click here](https://developer.paypal.com/demo/checkout/#/pattern/client)
+- HATEOS Links: [Click here](https://developer.paypal.com/api/rest/responses/#link-hateoaslinks)
+	- Link Relations: [Click here](https://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1)
 - Paypal Story Components: [Click here](https://paypal.github.io/react-paypal-js/) (Tip: Go to Docs Tab to get code for the active story)
 - Official Paypal React `@paypal/react-paypal-js`: [Github](https://github.com/paypal/react-paypal-js)
 - Javasript SDK Reference: [Click here](https://developer.paypal.com/sdk/js/reference/#onapprove)
