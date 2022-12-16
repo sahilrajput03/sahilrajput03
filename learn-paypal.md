@@ -60,6 +60,10 @@ To be able to fetch transaction from my seller account I had to change this sett
 
 ![image](https://user-images.githubusercontent.com/31458531/207420625-4486ddc0-33a3-4d4e-a081-579d8fca69f8.png)
 
+## Geting list of payments processed for a given `subscription_id`
+
+We can get a list of transactions made for a given subscription by using `List transactions for subscription` API (we pass a `subscription_id` as param) in postman. We can use this showing all the payment history for a given person if we store a `subscription_id` for each user in the database.
+
 ## Fetching transactions and especially subscription txns?
 
 **Getting the subscription txns and their respective ids from the list of transactions we get by `List transactions` REST API of postman collection**
