@@ -80,6 +80,9 @@
 **Rust**
 - [No Boilerplate](https://www.youtube.com/c/NoBoilerplate)
 
+**Microservices:**
+- [Asli Engineering by Arpit Bhayani](https://www.youtube.com/@AsliEngineering)
+
 # Podcasts
 
 - Undefined.fm by ~Jared Palmer and Ken Wheeler: [Click here](https://undefined.fm/)
