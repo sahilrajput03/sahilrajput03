@@ -20,6 +20,9 @@ Source: [Click here](https://unix.stackexchange.com/a/390519)
 
 ![image](https://user-images.githubusercontent.com/31458531/208236527-e372f8cf-239a-4a23-8f64-21f4c449c7e2.png)
 
+## block vs. deadlocks
+
+[Click here](https://youtu.be/pmxQGfasm54)
 
 ## Reading ping command output:
 
