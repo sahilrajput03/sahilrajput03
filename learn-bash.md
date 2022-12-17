@@ -14,6 +14,13 @@
 - **Linux iptables command examples for new sysadmins:** [Click here](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
 - **30 linux bash aliases:** [Click here](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 
+## What is `buff/cache` in `free -h` output?
+
+Source: [Click here](https://unix.stackexchange.com/a/390519)
+
+![image](https://user-images.githubusercontent.com/31458531/208236527-e372f8cf-239a-4a23-8f64-21f4c449c7e2.png)
+
+
 ## Reading ping command output:
 
 > Read the "Approximate round trip times" section to obtain a general idea of your connection speed. The higher the average time in milliseconds, the slower the connection to the server. Ping times to computers and servers on your local network will usually be much faster than those on the Internet.
