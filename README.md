@@ -10,6 +10,8 @@ Unwinding is hot no-sugar coffee!
 
 *Technologies I can't believe exists today: trpc, hasura and onegraph (graphiql-explorer).*
 
+**Laptop:** [ac179tx](https://support.hp.com/in-en/document/c04919819)
+
 ```bash
 echo Hello world! > /dev/null
 cat /dev/null
