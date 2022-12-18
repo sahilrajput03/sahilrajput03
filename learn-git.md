@@ -46,3 +46,7 @@ For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://s
 That can work actually.
 
 ![image](https://user-images.githubusercontent.com/31458531/206040759-0be29cd9-2033-40ba-bbb1-cc1fffc8a7c2.png)
+
+##  ♥💕❤😘 You can literally move your `.git` folder any where
+
+Yes, it sounds quite unbelievable but its quite magical how it does work actually. **Amazing Linus Torwald.**
