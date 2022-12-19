@@ -184,6 +184,7 @@ cra: 335mb
 - Learn kdenlive: [Click here](learn-kdenlive.md)
 - Learn ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - Business Terms: [Click here](learn-business-terms.md)
+- Use other machine for react server development: [Click here](remote-development.md)
 
 ## Mongodb Alternative
 
