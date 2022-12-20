@@ -8,6 +8,14 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install playwright on archlinux
+
+Source: [Click here](https://playwright.bootcss.com/python/docs/installation)
+
+```bash
+pip install playwright
+```
+
 ## Install shotcut
 
 ```bash
