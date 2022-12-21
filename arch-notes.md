@@ -1986,6 +1986,7 @@ The most amazing experience to solve this is via using `hh` cli tool, i.e., #see
 sudo pacman -S docker docker-compose
 
 sudo systemctl enable docker.service #So that docker automatically starts on system boot.
+sudo systemctl start docker
 
 # PLEASE REBOOT(reboot means reboot and not just logout and login) THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
 
