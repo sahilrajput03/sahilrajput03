@@ -186,6 +186,7 @@ cra: 335mb
 - Business Terms: [Click here](learn-business-terms.md)
 - Use other machine for react server development: [Click here](remote-development.md)
 - Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook)
+- Learn Playwright: [Click here](learn-playwright.md)
 
 ## Mongodb Alternative
 
