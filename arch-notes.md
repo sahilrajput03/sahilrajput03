@@ -8,6 +8,10 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Installing manjaro
+
+- Using opensoure drivers for installation, reference: [Click here](https://www.reddit.com/r/ManjaroLinux/comments/kdptte/help_i_dont_know_which_driver_to_install_on/)
+
 ## install playwright on archlinux
 
 Source: [Click here](https://playwright.bootcss.com/python/docs/installation)
