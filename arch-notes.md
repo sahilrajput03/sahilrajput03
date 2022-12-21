@@ -696,6 +696,9 @@ Source: https://www.shellcheck.net/
 ## install `yay` - a aur package manager
 
 ```bash
+sudo pacman -S git
+
+# OR from aur
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
