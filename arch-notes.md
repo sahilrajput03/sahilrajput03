@@ -11,8 +11,6 @@
 ## Installing manjaro
 
 - Installed i3 window manager community version of official Manjaro Iso: [Click here](https://manjaro.org/download/)
-
-
 - Using opensoure drivers for installation, reference: [Click here](https://www.reddit.com/r/ManjaroLinux/comments/kdptte/help_i_dont_know_which_driver_to_install_on/)
 
 ## install playwright on archlinux
