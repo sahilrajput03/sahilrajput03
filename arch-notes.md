@@ -12,12 +12,16 @@
 
 [Click here](https://unix.stackexchange.com/questions/415301/how-can-net-upgrade-size-be-negative)
 
-
-
 ## Installing manjaro
 
 - Installed i3 window manager community version of official Manjaro Iso: [Click here](https://manjaro.org/download/)
 - Using opensoure drivers for installation, reference: [Click here](https://www.reddit.com/r/ManjaroLinux/comments/kdptte/help_i_dont_know_which_driver_to_install_on/)
+
+```bash
+# for installing yay from aur you might face error i.e, `gcc not found` so you would need to do
+sudo pacman -S base-devel
+# and now using `makepkg -si` should work, Yikes!!!
+```
 
 ## install playwright on archlinux
 
