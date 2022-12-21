@@ -1987,18 +1987,15 @@ sudo pacman -S docker docker-compose
 
 sudo systemctl enable docker.service #So that docker automatically starts on system boot.
 sudo systemctl start docker
+# Fix permission issue for socket i.e., ```/var/run/docker.sock``` # Source: https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket#)
+sudo chmod 666 /var/run/docker.sock
 
 # PLEASE REBOOT(reboot means reboot and not just logout and login) THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
 
 # Test if docker is running GOOD via:
-sudo systemctl status docker
-# or
+sudo systemctl status docker # OR
 docker info # OR
 docker ps -aux
-
-sudo chmod 666 /var/run/docker.sock
-#    ^^^^^ This might be needed if you get some permission issue for socket i.e., ```/var/run/docker.sock```
-# src: https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket#)
 ````
 
 ## Installed postgresql in archos
