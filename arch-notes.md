@@ -741,24 +741,21 @@ Another article on making autocomplete functions: https://iridakos.com/programmi
 alias ke='kubectl exec -it'
 complete -F _complete_alias ke
 
-# I can autocomplete any alias now using a entry like above!! Yo!!
-# src: https://unix.stackexchange.com/a/332522/504112
-# FYI ^^^^^^^^^^^^^^^^^^^^^^^^^: This required two things installed + one config files(~/.bash_completion) setup, i.e.,
-# 1. `complete-alias`
-# AUR: bash-complete-alias
-# SRC: https://github.com/cykerway/complete-alias
+# I can autocomplete any alias now using a entry like above!! Yo!! # src: https://unix.stackexchange.com/a/332522/504112
+# STEPS:
 #
+# 1. Install `bash-complete-alias` from AUR, SRC: https://github.com/cykerway/complete-alias
+yay -S bash-complete-alias
 #
-# 2. `bash-completion`
-# ARCH PACKAGE: sudo pacman -S bash-completion
+# 2. Install `bash-completion`
+sudo pacman -S bash-completion
 #
-#
-# 3. Setup file: ~/.bash_completion, such that:
+# 3. Setup file: ~/.bash_completion (or you can simply this file from your `config` repository as well), such that:
 cat ~/.bash_completion
 if [ -f /usr/share/bash-complete-alias/complete_alias ] ; then
         . /usr/share/bash-complete-alias/complete_alias
 fi
-
+#
 ```
 
 ## install `jiq`
