@@ -83,6 +83,10 @@
 **Microservices:**
 - [Asli Engineering by Arpit Bhayani](https://www.youtube.com/@AsliEngineering)
 
+# Blogs:
+
+- https://tkdodo.eu/blog/
+
 # Podcasts
 
 - Undefined.fm by ~Jared Palmer and Ken Wheeler: [Click here](https://undefined.fm/)
