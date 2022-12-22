@@ -8,6 +8,13 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## is UUID of disk remains same all the time?
+
+Source: [Click here](https://serverfault.com/a/550401)
+
+![image](https://user-images.githubusercontent.com/31458531/209157278-290551d4-fc8c-406b-a020-2ce9180bb905.png)
+
+
 ## install ls alternate `exa`
 
 ```bash
