@@ -4,7 +4,7 @@
 
   FYI: You ca access this option from vscode's pallet as well.
 
-  ![image](https://user-images.githubusercontent.com/31458531/204292741-4947249f-6da7-49c7-be3e-127d894baec2.png)
+  ![image](https://user-images.githubusercontent.com/31458531/209343939-cc7690db-f8fd-489a-b674-61bfe15a0376.png)
 
 - Thats where you can find eslint configurations of airbnb: [Click here](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb/rules)
 
