@@ -1,6 +1,6 @@
 # Learn Eslint
 
-That rule is awesome:
+- **Fix all autofixable problems:**
 
 FYI: You ca access this option from vscode's pallet as well.
 
