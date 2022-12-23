@@ -189,6 +189,14 @@ cra: 335mb
 - Learn Playwright: [Click here](learn-playwright.md)
 - Friends Github Profiles: [Click here](friends-github.md)
 
+## Capacitor
+
+- Website: https://capacitorjs.com/
+- Github: https://github.com/ionic-team/capacitor (8.5k*)
+
+![image](https://user-images.githubusercontent.com/31458531/209407312-d54ea446-7e00-4ac3-a87d-d3dbce2bbefb.png)
+
+
 ## Mongodb Alternative
 
 PlanteScale, Pricing: [Click here](https://planetscale.com/pricing)
