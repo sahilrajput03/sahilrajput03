@@ -583,7 +583,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   sudo vim /etc/bluetooth/main.conf
   
   # Start the service and enable service to run on startup-
-  sudo systemctl start bluettoth
+  sudo systemctl start bluetooth
   sudo systemctl enable bluetooth
   
   # Verify
