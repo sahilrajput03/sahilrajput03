@@ -2,6 +2,7 @@
 
 - **SpaceVim:** https://github.com/SpaceVim/SpaceVim
 - Learn Mapping Keys in vim: https://vim.fandom.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1) 
+- Effective Neovim: Instant IDE @YouTube: [Click here](https://www.youtube.com/watch?v=stqUbv-5u2s&list=WL&index=2)
 
 # Quick Links
 - Old Vim notes: [Click here](vim-very-old.md)
