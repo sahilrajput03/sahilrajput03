@@ -13,6 +13,7 @@
 - Advanced NodeJs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-node-js)
 - *DevOps with Kubernetes, FSO part 12 and part 13.*
 - *Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
+- Neuro Linguistic Programming: [Click here](https://www.udemy.com/topic/neuro-linguistic-programming/)
 
 **General**
 
