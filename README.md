@@ -197,7 +197,7 @@ cra: 335mb
 ![image](https://user-images.githubusercontent.com/31458531/209407312-d54ea446-7e00-4ac3-a87d-d3dbce2bbefb.png)
 
 
-## Mongodb Alternative
+## Planetscale - Free MySql database service
 
 PlanteScale, Pricing: [Click here](https://planetscale.com/pricing)
 
