@@ -189,6 +189,14 @@ cra: 335mb
 - Learn Playwright: [Click here](learn-playwright.md)
 - Friends Github Profiles: [Click here](friends-github.md)
 
+
+## `defer` vs. `async` in script tag in html
+
+Source: [Click here](https://www.w3schools.com/tags/att_script_async.asp)
+
+![image](https://user-images.githubusercontent.com/31458531/209545352-c5104d24-0819-4afc-965a-e8361e39ff46.png)
+
+
 ## Capacitor
 
 - Website: https://capacitorjs.com/
