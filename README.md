@@ -188,6 +188,7 @@ cra: 335mb
 - Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook)
 - Learn Playwright: [Click here](learn-playwright.md)
 - Friends Github Profiles: [Click here](friends-github.md)
+- Learn Jira: [Click here](learn-jira.md)
 
 
 ## `defer` vs. `async` in script tag in html
