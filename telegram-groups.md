@@ -19,8 +19,8 @@
 
 **Other general telegram group lnks**
 
-> Credits:  Ronak Diyora
-
 - https://t.me/mongo_db
 - https://t.me/Python
 - https://t.me/thedevs
+
+> Credits:  Ronak Diyora
