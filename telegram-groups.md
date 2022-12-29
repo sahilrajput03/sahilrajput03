@@ -19,7 +19,7 @@
 
 **Other general telegram group lnks**
 
-Credits:  Ronak Diyora
+> Credits:  Ronak Diyora
 
 - https://t.me/mongo_db
 - https://t.me/Python
