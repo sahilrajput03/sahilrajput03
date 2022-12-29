@@ -17,10 +17,11 @@
 - 30 Days of Python: [Click here](https://t.me/ThirtyDaysOfPython)
 - Ai Creative Drawing: [Click here](https://t.me/+foxK4tA3PhZlY2Fl)
 
-**Other general telegram group lnks**
+**More technical groups**
+
+  > Credits:  Ronak Diyora
 
 - https://t.me/mongo_db
 - https://t.me/Python
 - https://t.me/thedevs
 
-  > Credits:  Ronak Diyora
