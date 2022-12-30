@@ -50,3 +50,15 @@ That can work actually.
 ##  ♥💕❤😘 You can literally move your `.git` folder any where
 
 Yes, it sounds quite unbelievable but its quite magical how it does work actually. **Amazing Linus Torwald.**
+
+## What is `.gitkeep` file
+
+TLDR: (its just a simple conventional hack by people to make a empty folder be indexable)
+
+**Docs: [.gitignore @ SCM](https://git-scm.com/docs/gitignore)**
+
+**Stackoverflow Answer: [Click here](https://stackoverflow.com/a/11579945/10012446)**
+
+![image](https://user-images.githubusercontent.com/31458531/210081179-d1641e53-a7d4-4b52-8859-f3c2fb2891dc.png)
+
+![image](https://user-images.githubusercontent.com/31458531/210081401-e0fef8bf-9cbe-48c2-ac3e-34d8bcfecb84.png)
