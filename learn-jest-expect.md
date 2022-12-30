@@ -4,6 +4,13 @@
 
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
+- **You can increase timeout for a single test like that:**
+
+Source: [Click here](https://stackoverflow.com/a/68812335/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/210116688-d0532a2e-c8ca-4434-b4c4-5c23c7b12cbf.png)
+
+
 - **Testing asynch operation with jest**
 
 ```js
