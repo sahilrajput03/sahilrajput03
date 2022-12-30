@@ -62,3 +62,7 @@ TLDR: (its just a simple conventional hack by people to make a empty folder be i
 ![image](https://user-images.githubusercontent.com/31458531/210081179-d1641e53-a7d4-4b52-8859-f3c2fb2891dc.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/210081401-e0fef8bf-9cbe-48c2-ac3e-34d8bcfecb84.png)
+
+## Addging `*` to a gitignore ignore all files including the `.gitignore` file as well
+
+![image](https://user-images.githubusercontent.com/31458531/210081727-e3c17409-4988-406a-bf33-5e4919e10227.png)
