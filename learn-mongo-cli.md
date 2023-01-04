@@ -11,6 +11,11 @@
 - Tutorials Point: [Tutorials point - Mongodb](https://www.tutorialspoint.com/mongodb/index.htm).
 - Online mongodb-cli Playground: [Click here - mongoplayground.net](https://mongoplayground.net/), [Click here 2](https://www.humongous.io/app/playground/mongodb)
 
+# Using mongoexport, mongorestore, etc
+
+- Which one is the preferred choice Mongodump VS Mongoexport for upgrading mongoDB database?: [Click here](https://stackoverflow.com/questions/44562993/which-one-is-the-preferred-choice-mongodump-vs-mongoexport-for-upgrading-mongodb)
+- Google Search: [Click here](https://www.google.com/search?q=mongomport+vs.+mongorestore)
+
 # Search using regex in db
 
 **FYI: Its good to do indexing if you have large number of records for efficient searching.**
