@@ -10,6 +10,7 @@
 - Traversy Media: [@gist](https://gist.github.com/bradtraversy/f407d642bdc3b31681bc7e56d95485b6), Video [@youtube](https://www.youtube.com/watch?v=-56x56UppqQ&t=867s).
 - Tutorials Point: [Tutorials point - Mongodb](https://www.tutorialspoint.com/mongodb/index.htm).
 - Online mongodb-cli Playground: [Click here - mongoplayground.net](https://mongoplayground.net/), [Click here 2](https://www.humongous.io/app/playground/mongodb)
+- Detect a file type restred db file: [Click here](https://stackoverflow.com/a/68232243/10012446)
 
 # Using mongoexport, mongorestore, etc
 
