@@ -24,6 +24,7 @@
 - <a href="https://jsonbackendserver.herokuapp.com" target="_blank">Json backendserver</a>
 - <a href="https://flycodesandbox.netlify.app" target="_blank">Fly 🚀︎ a codesandbox</a>
 - <a href="https://rpc-demo.herokuapp.com/" target="_blank">Demo of `rpc-middleware`</a>
+- <a href="https://device-width-react.vercel.app/" target="_blank">Device Width React</a>, <a href="https://github.com/sahilrajput03/video-chat-app-webrtc" target="_blank">Github Repository</a>
 
 #### Packages published @ `npm.com`/`yarnpkg.com`
 
