@@ -1,3 +1,18 @@
+
+# Why use `Object.is(a,b)` instead of `===` to check if values are equal?
+
+Source: [Click here](https://dmitripavlutin.com/object-is-vs-strict-equality-operator/)
+
+```txt
+// pros of Object.is() method
+Object.is(-0, +0); // => false
+Object.is(NaN, NaN); // => true
+
+// cons of tripple equality operator
+-0 === +0; // => true
+NaN === NaN; // => false
+```
+
 # Are indices/keys returned in `for..in` loop of string type?
 
 Yes, they are! This is unexpected to most people though, but typescript will sail your boat for sure. Love typescript!
