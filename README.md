@@ -190,6 +190,12 @@ cra: 335mb
 - Friends Github Profiles: [Click here](friends-github.md)
 - Learn Jira: [Click here](learn-jira.md)
 
+## Twitter Status Updte page is served by atlassian status update page
+
+[Click here](https://www.atlassian.com/software/statuspage)
+
+![image](https://user-images.githubusercontent.com/31458531/211155230-969e0d36-91ad-4709-86a1-e4bc2acce3cb.png)
+
 
 ## `defer` vs. `async` in script tag in html
 
