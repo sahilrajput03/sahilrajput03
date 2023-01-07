@@ -63,10 +63,9 @@ To set width for an image, you can use html tag as well:
   ```md
   [Click here](https://example.com)
   
+  To make the link italicized and bold you can do like that:
   ***[Click here](https://example.com)***
   ```
-
-  The second link would be ***italicized + bold** as well.
   
 - **Lists and sublists**: To make a list you can make use of `-` to make a list item. For e.g., 
 
