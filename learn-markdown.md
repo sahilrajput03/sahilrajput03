@@ -64,6 +64,7 @@ To set width for an image, you can use html tag as well:
   [Click here](https://example.com)
   
   To make the link italicized and bold you can do like that:
+  
   ***[Click here](https://example.com)***
   ```
   
@@ -82,17 +83,17 @@ To set width for an image, you can use html tag as well:
     - This is sublist item1 of list item2
     - This is sublist item2 of list item2
 
-- **Code snippets**: To create a inline (in same line as the text) you can use \`code here\` to make a text formatted as code which would look like `code here`. Also to create a block like text formatter as code, you can do like: (**NOTE: In place of `'''` you must use ` ``` ` when writing your markdown, I have done that to show on that on purpose**).
+- **Code snippets**: To create a inline (in same line as the text) you can use \`code here\` to make a text formatted as code which would look like `code here`. Also to create a block like text formatter as code, you can do like that:
 
-  ```
-  '''languageName
+  \```js
+  
   console.log("Hello world")
+  
   // more code here
   
-  '''
-  ```
+  \```
 
-  where *languageName* is **optional**, it can have values like txt, js, py, bash, markdown, etc.
+  in above we used `css` as language but we can use any languagae like `js`, `ts`, `html`, `txt`, `py`, `bash`, `markdown`, etc.
 
 - Striked out text
 
