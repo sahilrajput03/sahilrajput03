@@ -6,12 +6,12 @@
 
 - Using image:
 
-```
-![](image-url-here)
+  ```
+  ![](image-url-here)
 
-To set width for an image, you can use html tag as well:
-<img src="https://some_image.jpg" alt="drawing" width="230"/>
-```
+  To set width for an image, you can use html tag as well:
+  <img src="https://some_image.jpg" alt="drawing" width="230"/>
+  ```
 
 - **Headings**
 
