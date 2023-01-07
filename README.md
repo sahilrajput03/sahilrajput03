@@ -192,7 +192,8 @@ cra: 335mb
 
 ## Twitter Status Updte page is served by atlassian status update page
 
-[Click here](https://www.atlassian.com/software/statuspage)
+- Twitter Status Page: [Click here](https://api.twitterstat.us/)
+- Atlassian Docs: [Click here](https://www.atlassian.com/software/statuspage)
 
 ![image](https://user-images.githubusercontent.com/31458531/211155230-969e0d36-91ad-4709-86a1-e4bc2acce3cb.png)
 
