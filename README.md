@@ -189,6 +189,7 @@ cra: 335mb
 - Learn Playwright: [Click here](learn-playwright.md)
 - Friends Github Profiles: [Click here](friends-github.md)
 - Learn Jira: [Click here](learn-jira.md)
+- Learn RxJs: [Click here](learn-rxjs.md)
 
 ## Twitter Status Updte page is served by atlassian status update page
 
