@@ -13,3 +13,7 @@
 ![image](https://user-images.githubusercontent.com/31458531/211296496-18b264d2-2d1e-4634-aae3-fce69d735cb7.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/211296610-b1c11e1d-1de9-47f2-96f2-a8492d547072.png)
+
+## You can get time tracking reports like that
+
+![image](https://user-images.githubusercontent.com/31458531/211300083-d9083b9c-8410-4d37-b4e0-943de2e16c14.png)
