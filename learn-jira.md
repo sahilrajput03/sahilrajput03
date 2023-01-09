@@ -7,3 +7,9 @@
 ## You can view the creation date of a task
 
 ![image](https://user-images.githubusercontent.com/31458531/210079151-02231676-a150-482c-bc31-1b87b400dd02.png)
+
+## Using time tracking with Jira
+
+![image](https://user-images.githubusercontent.com/31458531/211296496-18b264d2-2d1e-4634-aae3-fce69d735cb7.png)
+
+![image](https://user-images.githubusercontent.com/31458531/211296610-b1c11e1d-1de9-47f2-96f2-a8492d547072.png)
