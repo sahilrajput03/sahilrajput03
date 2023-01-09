@@ -10,6 +10,10 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 **Other Cool things:**
 
+- **Thats how you can use a model in specification file (test file):**
+
+![image](https://user-images.githubusercontent.com/31458531/211314067-f5feadd3-8dec-439c-8000-231bda4aec5e.png)
+
 - **Using multiple gateways create different socket servers?**
 
   tldr; **NO**. They use same server instance if they have same ports. Source: [Click here](https://stackoverflow.com/questions/53123523/nestjs-multiple-websocketgateway)
