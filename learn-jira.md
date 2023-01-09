@@ -17,3 +17,7 @@
 ## You can get time tracking reports like that
 
 ![image](https://user-images.githubusercontent.com/31458531/211300083-d9083b9c-8410-4d37-b4e0-943de2e16c14.png)
+
+## View time logged by users
+
+https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-view-all-logged-time-by-users-in-Jira/ba-p/1633245
