@@ -18,6 +18,6 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/211300083-d9083b9c-8410-4d37-b4e0-943de2e16c14.png)
 
-## View time logged by users
-
-https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-view-all-logged-time-by-users-in-Jira/ba-p/1633245
+## Quick Links
+- How to view all logged time by users in Jira?: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-view-all-logged-time-by-users-in-Jira/ba-p/1633245)
+-  [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
