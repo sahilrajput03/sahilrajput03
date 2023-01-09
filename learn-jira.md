@@ -1,7 +1,8 @@
 # Leran Jira
 
 ## Quick Links
-- How to view all logged time by users in Jira?: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-view-all-logged-time-by-users-in-Jira/ba-p/1633245)
+- Jira Pricing Page: [Click here](https://www.atlassian.com/software/jira/pricing)
+- How to view all logged time by users in Jira?: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-view-all-logged-time-by-users-in-Jira/ba-p/1633245) (not directly provided by jira, but there are paid and free version of other extensions in jira for this)
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
