@@ -190,6 +190,7 @@ cra: 335mb
 - Friends Github Profiles: [Click here](friends-github.md)
 - Learn Jira: [Click here](learn-jira.md)
 - Learn RxJs: [Click here](learn-rxjs.md)
+- Learn Vitejs: [Click here](learn-vite.md)
 
 ## Twitter Status Updte page is served by atlassian status update page
 
