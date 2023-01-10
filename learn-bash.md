@@ -14,6 +14,19 @@
 - **Linux iptables command examples for new sysadmins:** [Click here](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
 - **30 linux bash aliases:** [Click here](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 
+## Use a bash prompt that shows the currently checkedout branch
+
+Source: [Medium Article](https://thucnc.medium.com/how-to-show-current-git-branch-with-colors-in-bash-prompt-380d05a24745)
+
+![image](https://user-images.githubusercontent.com/31458531/211627343-02a69f99-bb56-48b9-93d1-0710d2a509a1.png)
+
+```bash
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+export PS1="\u@\h \[\e[32m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
+```
+
 ## What is `buff/cache` in `free -h` output?
 
 Source: [Click here](https://unix.stackexchange.com/a/390519)
