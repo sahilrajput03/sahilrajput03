@@ -24,3 +24,13 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/211300083-d9083b9c-8410-4d37-b4e0-943de2e16c14.png)
 
+
+## You can set your profile details in jira there
+
+[Click here](https://id.atlassian.com/manage-profile/profile-and-visibility)
+
+![image](https://user-images.githubusercontent.com/31458531/211522913-2a9f6019-9bcb-4ade-a72d-05f19ef82710.png)
+
+## When you create a new task in Jira its not assigned to anyone (i.e., **Unassigned**)
+
+![image](https://user-images.githubusercontent.com/31458531/211523778-60606b1e-3941-46ce-af3c-37f29e15ef2a.png)
