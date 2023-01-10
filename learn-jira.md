@@ -34,3 +34,7 @@
 ## When you create a new task in Jira its not assigned to anyone (i.e., **Unassigned**)
 
 ![image](https://user-images.githubusercontent.com/31458531/211523778-60606b1e-3941-46ce-af3c-37f29e15ef2a.png)
+
+## You can change project key like that:
+
+![image](https://user-images.githubusercontent.com/31458531/211524068-81189f50-e7bd-4517-912a-e7a0eb09877b.png)
