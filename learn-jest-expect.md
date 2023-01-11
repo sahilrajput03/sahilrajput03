@@ -4,6 +4,17 @@
 
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
+- **Bare setup with just `expect` and typescript setup:**
+
+  ```bash
+  npm i expect ts-node ts-node-dev
+  touch a.ts
+  // add test script to package.json:
+  // "test": "tsnd a.ts",
+  Now you can run below command to start testing without even jest:
+  npm run test
+  ```
+
 - **For bettter testing use `expect().toEqual(...)`**
 
   **Tip:** If you don't have string matches you can use store sample date in `.json` file as well.
