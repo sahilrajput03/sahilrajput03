@@ -6,7 +6,7 @@
 
 - **Bare setup with just `expect` and typescript setup:**
 
-  - `npm init -y` and add script to `package.json` file: `"test": "tsnd a.ts",`
+  - `npm init -y` and add script to `package.json` file: `"test": "ts-node-dev --cls --respawn a.ts",`
   - `npm i expect ts-node ts-node-dev`
   - Now you can run below command to start testing without even jest: `touch a.ts && npm run test`
 
