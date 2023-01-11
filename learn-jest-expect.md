@@ -35,7 +35,7 @@ describe.only('something', () => {
 
 ```js
 it('does a lot of stuff exceeding default 5 sec timeout', async () => {
-  ...
+  // ...
 }, 10000)
 ```
 
