@@ -6,9 +6,8 @@
 
 - **Bare setup with just `expect` and typescript setup:**
 
-  - `npm init -y` and add script to `package.json` file: `"test": "jest --watchAll"`
-  - `mkdir __tests__ && touch __tests__/a.ts`
-  - `npm i -D expect jest @types/jest`
+  - `npm init -y && mkdir __tests__ && touch __tests__/a.ts && npm i -D expect jest @types/jest`
+  - Add script to `package.json` file: `"test": "jest --watchAll"`
   - Now you can run below command to start testing without even jest: `npm run test`
 
 - **For bettter testing use `expect().toEqual(...)`**
