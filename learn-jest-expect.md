@@ -31,6 +31,14 @@ describe.only('something', () => {
 
 - **Jest debugging command from official docs:** `node --inspect-brk node_modules/.bin/jest --runInBand [any other arguments here]`
 
+- **Define test timeout for a individual test like that:**
+
+```js
+it('does a lot of stuff exceeding default 5 sec timeout', async () => {
+  ...
+}, 10000)
+```
+
 - **You can define jest config for a single file basis by that**
 
 ![image](https://user-images.githubusercontent.com/31458531/203556828-7bfd2f7b-1886-4982-b35a-ccd68e476e29.png)
