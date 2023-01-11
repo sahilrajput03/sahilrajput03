@@ -9,9 +9,10 @@
   ```bash
   npm i expect ts-node ts-node-dev
   touch a.ts
-  // add test script to package.json:
-  // "test": "tsnd a.ts",
-  Now you can run below command to start testing without even jest:
+  # add test script to package.json:
+  # "test": "tsnd a.ts",
+  
+  # Now you can run below command to start testing without even jest:
   npm run test
   ```
 
