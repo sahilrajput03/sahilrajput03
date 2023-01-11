@@ -6,6 +6,10 @@
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
+## Thats the meaning of those time there on the top
+
+![image](https://user-images.githubusercontent.com/31458531/211866053-2a701db5-1842-4804-a2fb-9f44004ad848.png)
+
 ## Thats how you copy a link for a ticket
 
 ![image](https://user-images.githubusercontent.com/31458531/209659882-554de026-6ad9-4a02-9866-b00c31d87eb2.png)
