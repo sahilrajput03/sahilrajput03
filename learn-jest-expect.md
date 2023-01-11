@@ -4,6 +4,54 @@
 
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
+- **For bettter testing use `expect().toEqual(...)`**
+
+  **Tip:** If you don't have string matches you can use store sample date in `.json` file as well.
+
+  ```js
+  import expect from 'expect'
+	
+	const SIMPLE_MONGODB_ID_REGEX = /^[a-f\d]{24}$/i // 24 characters ~Sahil
+	
+	const response = [
+		{
+			_id: '63ab12b2fa6c5356d22a298d',
+			userName: 'yolo',
+			firstName: 'Nelson Mandela',
+			profilePic: 'http://localhost:4444/placeholders/default_user_icon.png',
+		},
+	]
+	
+	// Learn Usage of:
+	// 1. .toEqual(...)
+	// 2. expect.stringMatching(...)
+	// 3. expect.not.stringContaining(...)
+	
+	expect(response).toEqual([
+		{
+			_id: expect.stringMatching(SIMPLE_MONGODB_ID_REGEX),
+			userName: 'yolo',
+			firstName: 'Nelson Mandela',
+			profilePic: 'http://localhost:4444/placeholders/default_user_icon.png',
+		},
+	])
+	expect([{name: 'sahil rajput'}]).toEqual([
+		{
+			name: expect.stringContaining('sahil'),
+		},
+	])
+	expect([{name: 'sahil rajput'}]).toEqual([
+		{
+			name: expect.stringContaining('rajput'),
+		},
+	])
+	expect([{name: 'sahil rajput'}]).toEqual([
+		{
+			name: expect.not.stringContaining('om'),
+		},
+	])
+  ```
+
 - **Testing asynch operation with jest**
 
   ```js
