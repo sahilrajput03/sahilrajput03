@@ -8,8 +8,8 @@
 
   **Tip:** If you don't have string matches you can use store sample date in `.json` file as well.
 
-  ```js
-  import expect from 'expect'
+  	```js
+  	import expect from 'expect'
 	
 	const SIMPLE_MONGODB_ID_REGEX = /^[a-f\d]{24}$/i // 24 characters ~Sahil
 	
@@ -50,7 +50,7 @@
 			name: expect.not.stringContaining('om'),
 		},
 	])
-  ```
+  	```
 
 - **Testing asynch operation with jest**
 
