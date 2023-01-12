@@ -192,6 +192,10 @@ cra: 335mb
 - Learn RxJs: [Click here](learn-rxjs.md)
 - Learn Vitejs: [Click here](learn-vite.md)
 
+## Always show tabs in firefox mode in fullscreen
+
+[Click here](https://superuser.com/questions/43964/firefox-always-show-the-tabs-in-fullscreen-mode)
+
 ## Twitter Status Updte page is served by atlassian status update page
 
 - Twitter Status Page: [Click here](https://api.twitterstat.us/)
