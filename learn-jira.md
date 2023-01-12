@@ -6,6 +6,11 @@
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
+## We can edit/delete the time logged for an event as well
+
+![image](https://user-images.githubusercontent.com/31458531/212199481-659e6791-e4a7-4811-9516-0c2e109c11bd.png)
+
+
 ## Thats the meaning of those time there on the top
 
 ![image](https://user-images.githubusercontent.com/31458531/211866053-2a701db5-1842-4804-a2fb-9f44004ad848.png)
