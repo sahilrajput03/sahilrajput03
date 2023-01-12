@@ -42,3 +42,10 @@
 ## You can change project key like that:
 
 ![image](https://user-images.githubusercontent.com/31458531/211524068-81189f50-e7bd-4517-912a-e7a0eb09877b.png)
+
+
+## You can collape columns as well
+
+![image](https://user-images.githubusercontent.com/31458531/212152140-235af09a-c25d-4f99-998e-be21b0fb7e97.png)
+
+![image](https://user-images.githubusercontent.com/31458531/212152205-80c86050-0088-4d35-a5d3-982fc7a5abe0.png)
