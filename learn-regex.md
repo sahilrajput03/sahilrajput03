@@ -27,6 +27,10 @@ Source: https://regexone.com/
   - LEARN: `^` matches beginning of line and `$` matches end of the line.
 
 
+**Match for one of two words:**
+
+Source: [Click here](https://stackoverflow.com/questions/6863518/regex-match-one-of-two-words)
+
 **Lesson1**:
 
 Over the various lessons, you will be introduced to a number of special metacharacters used in regular expressions that can be used to match a specific type of character. In this case, the character `\d` can be used in place of any digit from 0 to 9. The preceding slash distinguishes it from the simple d character and indicates that it is a metacharacter.
