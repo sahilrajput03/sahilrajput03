@@ -9,7 +9,7 @@
   - `mkdir my-jest-app; cd my-jest-app; npm init -y; mkdir __tests__ && echo "test('simple', () => expect(1).toBe(1))" > __tests__/a.ts && npm i -D expect jest @types/jest`
   - Add script to `package.json` file: `"test": "jest --watchAll"`
   - Now you can run below command to start testing without even jest: `npm run test`
-  - IMPORTANT: For typescript support, you need to install deps: `npm i -D @babel/preset-env @babel/preset-typescript` and create a file in root project i.e, `babel.config.js` with below contents:
+  - IMPORTANT: For typescript support ([docs](https://jestjs.io/docs/getting-started#using-typescript)https://jestjs.io/docs/getting-started#using-typescript), you need to install deps: `npm i -D @babel/preset-env @babel/preset-typescript` and create a file in root project i.e, `babel.config.js` with below contents:
 
 ```js
 module.exports = {
