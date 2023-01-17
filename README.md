@@ -192,6 +192,10 @@ cra: 335mb
 - Learn RxJs: [Click here](learn-rxjs.md)
 - Learn Vitejs: [Click here](learn-vite.md)
 
+## Teach Yourself Computer Science
+
+[Click here](https://teachyourselfcs.com/)
+
 ## Always show tabs in firefox mode in fullscreen
 
 [Click here](https://superuser.com/questions/43964/firefox-always-show-the-tabs-in-fullscreen-mode)
