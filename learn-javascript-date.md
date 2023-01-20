@@ -1,6 +1,19 @@
-# epoch time made simple
+# Epoch time (or Unix timestamp in milliseconds) made simple
 
-![image](https://user-images.githubusercontent.com/31458531/213819220-3e156c4f-807b-49c0-8f86-9f51265beb41.png)
+Q. What is epoch time? Ans. **Basically the number of milliseconds since midnight, 1970-01-01.**
+
+```js
+// Unix timestamp in milliseconds
+k = Date.now() // 1674254700963
+
+// making 
+dateObject = new Date(k)
+
+// date object to epoch time
+l = dateObject.getTime() // 1674254700963
+l === k
+true
+```
 
 
 # My other gist of javascript date testings
