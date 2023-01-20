@@ -191,7 +191,7 @@ cra: 335mb
 - Learn Jira: [Click here](learn-jira.md)
 - Learn RxJs: [Click here](learn-rxjs.md)
 - Learn Vitejs: [Click here](learn-vite.md)
-- Learn Javascript Date: [Click here](https://gist.github.com/sahilrajput03/07de36ab5fd8c180b6ca6d125ac552a8)
+- Learn Javascript Date: [Click here](learn-javascript-date.md)
 
 ## Teach Yourself Computer Science
 
