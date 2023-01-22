@@ -1591,24 +1591,6 @@ Source: https://stackoverflow.com/a/64507176/10012446
 
 Press `prtscr` and press ctrl+a to select all the area on screen and now you can use pencil(P), arrow(A), line(D) and more tools in flameshot.
 
-## `chalk` usage
-
-Struck at `chalk - Error [ERR_REQUIRE_ESM]: require() of ES Module` ??
-
-Source: https://stackoverflow.com/a/70748594/10012446
-
-```bash
-npm uninstall chalk
-npm i chalk@4.1.2
-```
-
-now you can use:
-
-```js
-const chalk = require('chalk');
-console.log(chalk.blue('Hello world!')); 
-```
-
 ## todo-read
 
 - https://engineering.fb.com/2020/08/24/production-engineering/scaling-services-with-shard-manager
