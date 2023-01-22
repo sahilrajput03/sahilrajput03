@@ -193,6 +193,10 @@ cra: 335mb
 - Learn Vitejs: [Click here](learn-vite.md)
 - Learn Javascript Date: [Click here](learn-javascript-date.md)
 
+## Flutter vs. react native, market share?
+
+![image](https://user-images.githubusercontent.com/31458531/213924219-7b3d372d-dcaf-42e5-97c6-4c165e8c4b4b.png)
+
 ## Teach Yourself Computer Science
 
 [Click here](https://teachyourselfcs.com/)
