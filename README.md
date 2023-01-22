@@ -192,6 +192,7 @@ cra: 335mb
 - Learn RxJs: [Click here](learn-rxjs.md)
 - Learn Vitejs: [Click here](learn-vite.md)
 - Learn Javascript Date: [Click here](learn-javascript-date.md)
+- Learn Chalkjs: [Click here](learn-chalkjs.md)
 
 ## Flutter vs. react native, market share?
 
