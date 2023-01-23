@@ -30,16 +30,16 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
       }));
 
       const { data: data1 } = await lastValueFrom(httpService.get('/'));
-      console.log({ data1 });
+      console.log({ data1 }); // 101
 
       const { data: data2 } = await lastValueFrom(httpService.get('/'));
-      console.log({ data2 });
+      console.log({ data2 }); // 102
 
       const { data: data3 } = await lastValueFrom(httpService.get('/'));
-      console.log({ data3 });
+      console.log({ data3 }); // 100
 
       const { data: data4 } = await lastValueFrom(httpService.get('/'));
-      console.log({ data4 });
+      console.log({ data4 }); // 100
       expect(1).toBe(1);
     });
 ```
