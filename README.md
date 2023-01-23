@@ -476,10 +476,6 @@ https://github.com/Urigo/graphql-mesh
 
 ![image](https://user-images.githubusercontent.com/31458531/197555726-2f8a02da-9d64-4de2-bf45-80ef351c7bf8.png)
 
-## testgorilla is awesome
-
-https://www.testgorilla.com/
-
 ## industrial revolution?
 
 https://www.reddit.com/r/ethereum/comments/ybikdd/ai_and_the_blockchain_are_we_living_through_the/
