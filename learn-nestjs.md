@@ -8,6 +8,42 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 - Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
 - Declartive Cron Jobs with NestJS: [Click here](https://docs.nestjs.com/techniques/task-scheduling#declarative-cron-jobs)
 
+**http requests, and jest mocking:**
+
+```
+    it.only('cool testing', async () => {
+      jest.spyOn(httpService, 'get')
+      .mockImplementation(() => of({ data: 100, status: 202, statusText: '', headers: {}, config: {} }))
+      .mockImplementationOnce(() => of({
+        data: 101,
+        status: 202,
+        statusText: '',
+        headers: {},
+        config: {},
+      }))
+      .mockImplementationOnce(() => of({
+        data: 102,
+        status: 202,
+        statusText: '',
+        headers: {},
+        config: {},
+      }));
+
+      const { data: data1 } = await lastValueFrom(httpService.get('/'));
+      console.log({ data1 });
+
+      const { data: data2 } = await lastValueFrom(httpService.get('/'));
+      console.log({ data2 });
+
+      const { data: data3 } = await lastValueFrom(httpService.get('/'));
+      console.log({ data3 });
+
+      const { data: data4 } = await lastValueFrom(httpService.get('/'));
+      console.log({ data4 });
+      expect(1).toBe(1);
+    });
+```
+
 **Other Cool things:**
 
 - **Thats how you can use a model in specification file (test file):**
