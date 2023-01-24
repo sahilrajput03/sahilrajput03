@@ -12,6 +12,8 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 *Awesome Documemntation: [Click here](https://docs.nestjs.com/interceptors)*
 
+*Read my tap and catchError info @ my [learn-rxjs.md](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-rxjs.md)*
+
 ![image](https://user-images.githubusercontent.com/31458531/214398502-1777a7e9-8b39-4de0-8257-2a30886a0679.png)
 
 
