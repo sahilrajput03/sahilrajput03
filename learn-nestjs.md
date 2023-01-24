@@ -14,6 +14,7 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 *Read my tap and catchError info @ my [learn-rxjs.md](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-rxjs.md)*
 
+- Attach/get data of `request` object: [Click here-stackoverflow](https://stackoverflow.com/questions/67672251/nestjs-interceptor-append-data-to-incoming-request-header-or-body)
 ![image](https://user-images.githubusercontent.com/31458531/214398502-1777a7e9-8b39-4de0-8257-2a30886a0679.png)
 
 
