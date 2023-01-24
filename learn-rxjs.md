@@ -5,4 +5,5 @@
 
 - Usage of `tap` and `catchError` of rxjs in nestjs interceptor
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/31458531/214397713-e5242099-5e35-4492-8cb5-91eaf77da6d3.png)
+
