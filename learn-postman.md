@@ -98,3 +98,10 @@ if (pm?.request?.body?.options?.raw?.language === 'json') {
 - Thats how you can use param variables (**actually called `path variables` in postman**)
 
   ![image](https://user-images.githubusercontent.com/31458531/208105028-41ca37f7-77e9-41fd-a79f-312cbbcac948.png)
+
+
+- Set authorization "bearer token" header easily
+
+![image](https://user-images.githubusercontent.com/31458531/214358688-33fe42e6-7059-4f85-abed-b7e24372e6ef.png)
+
+![image](https://user-images.githubusercontent.com/31458531/214358881-046e94f9-4272-48ff-bbe6-e6e92ed0d20c.png)
