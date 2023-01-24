@@ -105,3 +105,9 @@ if (pm?.request?.body?.options?.raw?.language === 'json') {
 ![image](https://user-images.githubusercontent.com/31458531/214358688-33fe42e6-7059-4f85-abed-b7e24372e6ef.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/214358881-046e94f9-4272-48ff-bbe6-e6e92ed0d20c.png)
+
+- How to send file in http request
+
+[Click here](https://stackoverflow.com/a/39037889/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/214363835-ed9f954b-fc09-4732-b225-ad9f29cc1a2a.png)
