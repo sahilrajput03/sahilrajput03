@@ -8,6 +8,10 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 - Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
 - Declartive Cron Jobs with NestJS: [Click here](https://docs.nestjs.com/techniques/task-scheduling#declarative-cron-jobs)
 
+**Interceptors can be nested in this way I guess:**
+
+![image](https://user-images.githubusercontent.com/31458531/214608033-7b3aa0b8-508b-4429-9492-c2c7ddbf6259.png)
+
 **interceptors in nestjs:**
 
 - *Awesome Documemntation: [Click here](https://docs.nestjs.com/interceptors)*
