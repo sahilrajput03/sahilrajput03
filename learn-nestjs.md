@@ -18,6 +18,9 @@ In file `app.module.ts`, you can add a suitable provider like that:
 
 ![image](https://user-images.githubusercontent.com/31458531/214636096-887b864d-9f84-46c3-b4c6-97f189e68ebf.png)
 
+*USAGE:*
+
+![image](https://user-images.githubusercontent.com/31458531/214666762-5b4355b7-eb67-4289-91f9-26d7d5c113cf.png)
 
 **Interceptors can be nested in this way I guess:**
 
