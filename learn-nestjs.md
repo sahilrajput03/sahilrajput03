@@ -8,6 +8,15 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 - Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
 - Declartive Cron Jobs with NestJS: [Click here](https://docs.nestjs.com/techniques/task-scheduling#declarative-cron-jobs)
 
+**global interceptors in nestjs:**
+
+Source: [Click here](https://stackoverflow.com/a/50528691/10012446)
+
+In file `app.module.ts`, you can add a suitable provider like that:
+
+![image](https://user-images.githubusercontent.com/31458531/214636096-887b864d-9f84-46c3-b4c6-97f189e68ebf.png)
+
+
 **Interceptors can be nested in this way I guess:**
 
 ![image](https://user-images.githubusercontent.com/31458531/214608033-7b3aa0b8-508b-4429-9492-c2c7ddbf6259.png)
