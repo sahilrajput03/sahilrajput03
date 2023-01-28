@@ -1,6 +1,7 @@
 # Learn `curl`
 
-Watch video from [Traversy Media](https://www.youtube.com/watch?v=7XUibDYw4mc)
+- Watch video from [Traversy Media](https://www.youtube.com/watch?v=7XUibDYw4mc)
+- (todo: make more notes here) Amazing twitter thread from Rapid Api on learning Curl: [Click here](https://twitter.com/Rapid_API/status/1619038188403658753)
 
 ```bash
 # only response body (without response header)
