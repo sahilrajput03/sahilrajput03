@@ -2,7 +2,7 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
-## show 
+## disable pager in git output
 
 ```txt
 git --no-pager log
