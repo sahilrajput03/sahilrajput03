@@ -194,6 +194,7 @@ cra: 335mb
 - Learn Javascript Date: [Click here](learn-javascript-date.md)
 - Learn `Chalk` (node library): [Click here](learn-chalkjs.md)
 - Learn `Colors` (node library): [Click here](learn-colors-npm.md)
+- Learn Spirituality: [Click here](learn-spirituality.md)
 
 ## Flutter vs. react native, market share?
 
