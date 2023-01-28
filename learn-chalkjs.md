@@ -6,7 +6,7 @@ Docs: [Click here](https://github.com/chalk/chalk)
 - Becuase `chalk` has 225m and `colors` has 20m downloads per week (from their npm pages).
 - Because `chalk` has typescript support and `colors` does not.
 
-## Create a logger with chalkjs
+## Create a logger
 
 **Step 1:** Create a `logger.ts` file:
 
