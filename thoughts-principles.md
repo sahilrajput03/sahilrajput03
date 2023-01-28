@@ -140,4 +140,4 @@ Rust Programming Lanugage - Telegram Channel Works: https://t.me/rust_community
 
 Nobody can escape their karmas, not even me. ~Shiva
 
-Employeed don't leave companies, they leave employers ~ Marcus Buckingham
+Employeed don't leave companies, they leave employers. ~ Marcus Buckingham
