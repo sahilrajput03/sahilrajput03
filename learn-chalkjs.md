@@ -1,5 +1,7 @@
 # Learn chalkjs
 
+Docs: [Click here](https://github.com/chalk/chalk)
+
 **Why `chalk` and not `colors`?**
 - Becuase `chalk` has 225m and `colors` has 20m downloads per week (from their npm pages).
 - Because `chalk` has typescript support and `colors` does not.
