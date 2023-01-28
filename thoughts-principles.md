@@ -139,3 +139,5 @@ Companies layoff to avoid death spiral ~ Varun Mayya (referring: Skioya Report)
 Rust Programming Lanugage - Telegram Channel Works: https://t.me/rust_community
 
 Nobody can escape their karmas, not even me. ~Shiva
+
+Employeed don't leave companies, they leave employers.
