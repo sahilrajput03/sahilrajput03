@@ -1,5 +1,7 @@
 # Learn chalkjs
 
+**Why `chalk` and not `colors`? Becuase chalk has 225m and 20m downloads per week (from their npm pages).
+
 ## Create a logger with chalkjs
 
 ```ts
