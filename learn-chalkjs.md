@@ -8,13 +8,7 @@ Docs: [Click here](https://github.com/chalk/chalk)
 
 ## Create a logger with chalkjs
 
-```ts
-import logger from './logger'
-
-logger.success('hello', 'world')
-logger.error('hello', 'world')
-logger.info('hello', 'world')
-```
+**Step 1:** Create a `logger.ts` file:
 
 ```ts
 // file: logger.ts
@@ -25,6 +19,17 @@ export default {
 	error: (...args: string[]) => console.log(chalk.bold.redBright(...args)),
 	info: (...args: string[]) => console.log(chalk.bold.yellowBright(...args)),
 }
+```
+
+**Step 2:** Import your logger and start using it:
+
+```ts
+// any file where you want to use your logger, you can do:
+import logger from './logger'
+
+logger.success('hello', 'world')
+logger.error('hello', 'world')
+logger.info('hello', 'world')
 ```
 
 ## Struck at `chalk - Error [ERR_REQUIRE_ESM]: require() of ES Module` ?
