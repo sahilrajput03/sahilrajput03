@@ -1,5 +1,26 @@
 # Learn chalkjs
 
+## Create a logger with chalkjs
+
+```ts
+import logger from './logger'
+
+logger.success('hello', 'world')
+logger.error('hello', 'world')
+logger.info('hello', 'world')
+```
+
+```ts
+// file: logger.ts
+import chalk from 'chalk'
+
+export default {
+	success: (...args: string[]) => console.log(chalk.bold.greenBright(...args)),
+	error: (...args: string[]) => console.log(chalk.bold.redBright(...args)),
+	info: (...args: string[]) => console.log(chalk.bold.yellowBright(...args)),
+}
+```
+
 ## Struck at `chalk - Error [ERR_REQUIRE_ESM]: require() of ES Module` ?
 
 Source: https://stackoverflow.com/a/70748594/10012446
