@@ -7,7 +7,7 @@
 
 Drawbacks of `colors`?
 - Typescript support is not provided by library owners.
-- Chalkjs is much more widely used so do use that! My guide to chalkjs: [Click here](learn-chalkjs.md)
+- Chalkjs is much more widely used so do use that! **My guide to chalkjs: [Click here](learn-chalkjs.md)**
 
 ```js
 require('colors')
