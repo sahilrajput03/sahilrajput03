@@ -2,6 +2,13 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## show 
+
+```txt
+git --no-pager log
+git --no-pager show <commit_hash>
+```
+
 ## show all branch
 
 `git branch`: Prints all branches and \* indicated is the current branch.
