@@ -8,6 +8,8 @@ Docs: [Click here](https://github.com/chalk/chalk)
 
 ## Create a logger
 
+Demo example of logger in express: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/with-chalk-typescript)
+
 **Step 1:** Create a `logger.ts` file:
 
 ```ts
