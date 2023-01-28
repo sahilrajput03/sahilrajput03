@@ -1,6 +1,8 @@
 # Learn chalkjs
 
-**Why `chalk` and not `colors`? Becuase chalk has 225m and 20m downloads per week (from their npm pages).
+**Why `chalk` and not `colors`?**
+- Becuase `chalk` has 225m and `colors` has 20m downloads per week (from their npm pages).
+- Because `chalk` has typescript support and `colors` does not.
 
 ## Create a logger with chalkjs
 
