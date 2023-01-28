@@ -3,7 +3,11 @@
 ## Get colors on screen on nodejs
 
 - NPM: `npm i colors`
-- Docs/Github: [Click here](https://github.com/Marak/colors.js) 
+- Docs/Github: [Click here](https://github.com/Marak/colors.js)
+
+Drawbacks of `colors`?
+- Typescript support is not provided by library owners.
+- Chalkjs is much more widely used so do use that! My guide to chalkjs: [Click here](learn-chalkjs.md)
 
 ```js
 require('colors')
