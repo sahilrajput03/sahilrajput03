@@ -8,6 +8,15 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## install `unrar` to extract .rar files
+
+```bash
+sudo pacman -S unrar
+
+# extracting .rar file
+unrar x ./file-path-here.rar
+```
+
 ## insatll mongodump, mongorestore, etc
 
 ```bash
