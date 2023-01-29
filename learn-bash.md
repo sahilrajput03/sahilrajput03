@@ -14,6 +14,10 @@
 - **Linux iptables command examples for new sysadmins:** [Click here](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
 - **30 linux bash aliases:** [Click here](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 
+## Learn Asterisk
+
+Asterisk - Asterisk is a software implementation of a private branch exchange (PBX) - Youtube Playlist: [Click here](https://www.youtube.com/playlist?list=PLqLOutQTzEV-8mqy7tULOTSzo58oJRx44)
+
 ## Use a bash prompt that shows the currently checkedout branch
 
 Source: [Medium Article](https://thucnc.medium.com/how-to-show-current-git-branch-with-colors-in-bash-prompt-380d05a24745)
