@@ -10,6 +10,8 @@
 
 ## install `unrar` to extract .rar files
 
+Source: [Click here](https://unix.stackexchange.com/a/246537/504112)
+
 ```bash
 sudo pacman -S unrar
 
