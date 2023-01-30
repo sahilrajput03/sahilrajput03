@@ -6,6 +6,13 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## Make vscode autoimport to import via relative path instead of absolute path
+
+Source: [Click here](https://stackoverflow.com/a/53137571/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/215533320-b47f26e7-bd63-4a80-976a-359ec27d035b.png)
+
+
 ## Extensions:
 
 - [Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
