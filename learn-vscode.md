@@ -8,6 +8,8 @@
 
 ## Go to matching pair emmet
 
+I added a new shortcut.
+
 ![image](https://user-images.githubusercontent.com/31458531/215576861-6496664b-db65-4f13-85b1-409e4b1d1c86.png)
 
 
