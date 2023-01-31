@@ -1,32 +1,32 @@
 # Jest and expect
 
-**Jest Cheatsheet:** [Click here](https://devhints.io/jest)
-
+**Quick Links:**
+- **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
-- **Bare setup with just `expect` and typescript setup:**
+## Bare setup with just `expect` and typescript setup:
 
   - `mkdir my-jest-app; cd my-jest-app; npm init -y; mkdir __tests__ && echo "test('simple', () => expect(1).toBe(1))" > __tests__/a.ts && npm i -D expect jest @types/jest`
   - Add script to `package.json` file: `"test": "jest --watchAll"`
   - Now you can run below command to start testing without even jest: `npm run test`
   - IMPORTANT: For typescript support: [docs](https://jestjs.io/docs/getting-started#using-typescript), you need to install deps: `npm i -D @babel/preset-env @babel/preset-typescript` and create a file in root project i.e, `babel.config.js` with below contents:
 
-```js
-module.exports = {
-	presets: [
-	  ['@babel/preset-env', {targets: {node: 'current'}}],
-	  '@babel/preset-typescript',
-	],
-  };
-```
+	```js
+	module.exports = {
+		presets: [
+		  ['@babel/preset-env', {targets: {node: 'current'}}],
+		  '@babel/preset-typescript',
+		],
+	  };
+	```
 
-- **learn about mock functions:**
+## Learn about mock functions
 
 (check: `Why use mock testing functions` in telegram slasher-private-channel to know specifics learned)
 
 *Medium Article suggested by Eric's Suggested Article: [Click here](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)*
 
-- **For bettter testing use `expect().toEqual(...)`**
+## For bettter testing use `expect().toEqual(...)`
 
   **Tip:** If you don't have string matches you can use store sample date in `.json` file as well.
 
@@ -74,7 +74,7 @@ module.exports = {
 	])
   	```
 
-- **Testing asynch operation with jest**
+## Testing asynch operation with jest
 
   ```js
   describe.only('something', () => {
@@ -84,15 +84,19 @@ module.exports = {
     });
   });
   ```
-- Socket.io Testing with jest:  Click here: Official Docs - [Click here](https://socket.io/docs/v4/testing/)
+## Socket.io Testing with jest:
 
-- Amazingly defined funcion to wait for a callback function but reject after 2 seconds if didn't receive the event, YO!!
+Click here: Official Docs - [Click here](https://socket.io/docs/v4/testing/)
+
+## Amazingly defined funcion to wait for a callback function but reject after 2 seconds if didn't receive the event, YO!!
 
   ![image](https://user-images.githubusercontent.com/31458531/203509895-cc71e1db-36c1-4f62-be6b-d1e55a211d8f.png)
 
-- **Jest debugging command from official docs:** `node --inspect-brk node_modules/.bin/jest --runInBand [any other arguments here]`
+## Jest debugging command from official docs:
 
-- **Define test timeout for a individual test like that:**
+`node --inspect-brk node_modules/.bin/jest --runInBand [any other arguments here]`
+
+## Define test timeout for a individual test like that
 
   ```js
   it('does a lot of stuff exceeding default 5 sec timeout', async () => {
@@ -100,7 +104,7 @@ module.exports = {
   }, 10000)
   ```
 
-- **You can define jest config for a single file basis by that**
+## **You can define jest config for a single file basis by that**
 
   ![image](https://user-images.githubusercontent.com/31458531/211875277-0fa30c25-a9c0-4331-85ad-a32ac42fbb2f.png)
 
