@@ -20,6 +20,9 @@ module.exports = {
   };
 ```
 
+- **learn about mock functions:**
+
+By Eric's Suggested Article: [Click here](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
 
 - **For bettter testing use `expect().toEqual(...)`**
 
