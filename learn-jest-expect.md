@@ -22,6 +22,8 @@ module.exports = {
 
 - **learn about mock functions:**
 
+(check: `Why use mock testing functions` in telegram slasher-private-channel to know specifics learned)
+
 *Medium Article suggested by Eric's Suggested Article: [Click here](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)*
 
 - **For bettter testing use `expect().toEqual(...)`**
