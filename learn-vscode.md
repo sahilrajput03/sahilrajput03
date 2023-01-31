@@ -6,6 +6,10 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## You can automatically organize imports as well via that:
+
+![image](https://user-images.githubusercontent.com/31458531/215856355-b1d9f21b-81dc-4023-8976-41e8c27bc698.png)
+
 ## Go to matching pair emmet
 
 I added a new shortcut.
