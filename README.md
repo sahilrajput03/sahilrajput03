@@ -2,7 +2,7 @@
 
 A Pragmatic software developer. [fsf](https://www.fsf.org/).
 
-A have no limitations ~ Thomas Shelby
+I have no limitations ~ Thomas Shelby
 
 Discipline means choosing between what you want now and what you want most. ~Unkonwn
 
