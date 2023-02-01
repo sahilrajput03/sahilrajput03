@@ -4,7 +4,11 @@
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
-## Using `jest.spyOn(..., ...).mockImplementation(() => Promise.resolve(undefined))` along with `toHaveBeenCalledWith` assertions
+## Learn about mock functions and using `jest.spyOn(..., ...).mockImplementation(() => Promise.resolve(undefined))` along with `toHaveBeenCalledWith` assertions
+
+(check: `Why use mock testing functions` in telegram slasher-private-channel to know specifics learned)
+
+*Medium Article suggested by Eric's Suggested Article: [Click here](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)*
 
 ![image](https://user-images.githubusercontent.com/31458531/216039957-fc6e61a6-49df-4579-9676-07789174d52c.png)
 
@@ -24,13 +28,7 @@
 		],
 	  };
 	```
-
-## Learn about mock functions
-
-(check: `Why use mock testing functions` in telegram slasher-private-channel to know specifics learned)
-
-*Medium Article suggested by Eric's Suggested Article: [Click here](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)*
-
+	
 ## For bettter testing use `expect().toEqual(...)`
 
   **Tip:** If you don't have string matches you can use store sample date in `.json` file as well.
