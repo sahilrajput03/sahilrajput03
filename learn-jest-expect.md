@@ -4,6 +4,12 @@
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
+## How to check multiple arguments on multiple calls for jest spies
+
+Source: [Click here](https://stackoverflow.com/a/50600842/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/216117745-cbf22f17-a465-419b-948e-615ee0b78eae.png)
+
 ## Learn about mock functions and using `jest.spyOn(..., ...).mockImplementation(() => Promise.resolve(undefined))` along with `toHaveBeenCalledWith` assertions
 
 (check: `Why use mock testing functions` in telegram slasher-private-channel to know specifics learned)
