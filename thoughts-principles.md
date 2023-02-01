@@ -144,4 +144,4 @@ Employeed don't leave companies, they leave employers. ~ Marcus Buckingham
 
 I have no limitations. ~ Thomas Shelby
 
-Discipline means choosing between what you want now and what you want most. ~Unkonwn
+Discipline means choosing between what you want now and what you want most. ~ Unkonwn
