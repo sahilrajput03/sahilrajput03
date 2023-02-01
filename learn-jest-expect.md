@@ -4,6 +4,11 @@
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
+## Using `jest.spyOn(..., ...).mockImplementation(() => Promise.resolve(undefined))` along with `toHaveBeenCalledWith` assertions
+
+![image](https://user-images.githubusercontent.com/31458531/216039957-fc6e61a6-49df-4579-9676-07789174d52c.png)
+
+
 ## Bare setup with just `expect` and typescript setup:
 
   - `mkdir my-jest-app; cd my-jest-app; npm init -y; mkdir __tests__ && echo "test('simple', () => expect(1).toBe(1))" > __tests__/a.ts && npm i -D expect jest @types/jest`
