@@ -4,7 +4,7 @@ A Pragmatic software developer. [fsf](https://www.fsf.org/).
 
 I have no limitations ~ Thomas Shelby
 
-Discipline means choosing between what you want now and what you want most. ~Unkonwn
+Discipline means choosing between what you want now and what you want most. ~ Unkonwn
 
 Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.” Nature of mind is to wander around, its not problem its the way its designed. My job is to keep getting it back towards the goal.
 
