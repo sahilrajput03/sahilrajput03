@@ -6,6 +6,8 @@
 
 ## What's the difference between “foo.spec.ts” and “foo.test.ts"?
 
+Source: [Click here](https://softwareengineering.stackexchange.com/a/373367)
+
 ![image](https://user-images.githubusercontent.com/31458531/216784563-1f2bc4bd-530d-4f7e-8f03-40b45fb93a8c.png)
 
 
