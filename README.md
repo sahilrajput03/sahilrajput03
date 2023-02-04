@@ -202,7 +202,9 @@ cra: 335mb
 
 ## Google meet recording wiht tl;dv
 
-You can share your recorded video simply by that feature: ![image](https://user-images.githubusercontent.com/31458531/216770584-f4a423e6-318e-42bf-b50a-c74e14a6077e.png)
+You can share your recorded video simply by that feature:
+
+![image](https://user-images.githubusercontent.com/31458531/216770584-f4a423e6-318e-42bf-b50a-c74e14a6077e.png)
 
 ## Flutter vs. react native, market share?
 
