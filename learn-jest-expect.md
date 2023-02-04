@@ -4,6 +4,11 @@
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
+## What's the difference between “foo.spec.ts” and “foo.test.ts"?
+
+![image](https://user-images.githubusercontent.com/31458531/216784563-1f2bc4bd-530d-4f7e-8f03-40b45fb93a8c.png)
+
+
 ## How to check multiple arguments on multiple calls for jest spies
 
 Source: [Click here](https://stackoverflow.com/a/50600842/10012446)
