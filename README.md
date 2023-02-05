@@ -2,6 +2,8 @@
 
 A Pragmatic software developer. [fsf](https://www.fsf.org/).
 
+Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
+
 I have no limitations ~ Thomas Shelby
 
 Discipline means choosing between what you want now and what you want most. ~ Unkonwn
