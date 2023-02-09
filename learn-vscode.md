@@ -8,7 +8,7 @@
 
 ## Using a two-level fold works so awesome in a function/class where we hav lots of methods/functions
 
-![image](https://user-images.githubusercontent.com/31458531/217962752-54c3fde6-39c4-4b75-9e48-c320692df63c.png)
+![image](https://user-images.githubusercontent.com/31458531/217962827-95c039f4-8d31-4d45-a565-3d9802c63e3c.png)
 
 ## You can automatically organize imports as well via that:
 
