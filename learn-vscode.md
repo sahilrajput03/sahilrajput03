@@ -6,6 +6,10 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## Using a two-level fold works so awesome in a function/class where we hav lots of methods/functions
+
+![image](https://user-images.githubusercontent.com/31458531/217962752-54c3fde6-39c4-4b75-9e48-c320692df63c.png)
+
 ## You can automatically organize imports as well via that:
 
 ![image](https://user-images.githubusercontent.com/31458531/215856355-b1d9f21b-81dc-4023-8976-41e8c27bc698.png)
