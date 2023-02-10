@@ -1,5 +1,5 @@
 
-## merge duplicates with `reduce` array method
+## Merge duplicates with `reduce` array method
 
 Learn: **`reduce` method creates a item i.e, `accumulator` and does *not* mutate the original array at all.**
 
