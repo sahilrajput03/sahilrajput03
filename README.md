@@ -201,6 +201,7 @@ cra: 335mb
 - Learn `Chalk` (node library): [Click here](learn-chalkjs.md)
 - Learn `Colors` (node library): [Click here](learn-colors-npm.md)
 - Learn Spirituality: [Click here](learn-spirituality.md)
+- Learn Skype: [Click here](learn-skype.md)
 
 ## Google meet recording wiht tl;dv
 
