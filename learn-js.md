@@ -1,7 +1,7 @@
 
-## merge duplicates (learn reduce function)
+## merge duplicates with `reduce` array method
 
-FYI: `reduce` method creates a item i.e, `accumulator` and does *not* mutate the original array at all.
+Learn: **`reduce` method creates a item i.e, `accumulator` and does *not* mutate the original array at all.**
 
 Source: A comment in this answer: [Click here](https://stackoverflow.com/a/38294831/10012446)
 
