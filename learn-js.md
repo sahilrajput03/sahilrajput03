@@ -1,4 +1,29 @@
 
+## merge duplicates (learn reduce function)
+
+FYI: `reduce` method creates a item i.e, `accumulator` and does *not* mutate the original array at all.
+
+Source: A comment in this answer: [Click here](https://stackoverflow.com/a/38294831/10012446)
+
+```js
+let arr = [
+  { name: 'John', contributions: 2 },
+  { name: 'Mary', contributions: 4 },
+  { name: 'John', contributions: 1 },
+  { name: 'Mary', contributions: 1 }
+];
+
+
+let output = arr.reduce(function(accumulator, cur) {
+  let found = accumulator.find((elem) => elem.name == cur.name);
+  if (found) found.contributions = found.contributions + cur.contributions;
+  else accumulator.push(cur);
+  return accumulator;
+}, []);
+
+console.log(output) // [{"name": "John","contributions": 3},{"name": "Mary","contributions": 5}]
+```
+
 # Why use `Object.is(a,b)` instead of `===` to check if values are equal?
 
 Source: [Click here](https://dmitripavlutin.com/object-is-vs-strict-equality-operator/)
