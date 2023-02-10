@@ -14,6 +14,7 @@ let arr = [
 ];
 
 
+// we reduce our `arr` array to get `reduced array` i.e., output
 let output = arr.reduce(function(accumulator, cur) {
   let found = accumulator.find((elem) => elem.name == cur.name);
   if (found) found.contributions = found.contributions + cur.contributions;
