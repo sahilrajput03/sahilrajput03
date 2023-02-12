@@ -64,8 +64,9 @@ https://twitter.com/Insharamin/status/1571788158748196865
 ![image](https://user-images.githubusercontent.com/31458531/182295735-fea5b0da-79ed-434f-b24f-fa2eaed253b3.png)
 
 
-## other portfolios profiles with projects
+## Other Portfolios profiles with projects and PEOPLE
 
+- Pranav Joshi: [Click here](https://www.upwork.com/freelancers/pranavjoshi28)
 - Hammad Siddique: https://hammad.pro/
 - https://github.com/nandhakumar-rs: Also freelancer, working @totel currently.
 - Nandha Kumar: [Upwork Profile](https://www.upwork.com/freelancers/~013b67892e803aecec)
