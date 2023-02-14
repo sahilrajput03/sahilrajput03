@@ -28,7 +28,7 @@ Continuous working and small 5-10 min breaks works is love.
 
 Don't use gacp, instead use gac and only once in a day push to github.
 
-Don't worry about mistakes, just keep making them.
+Don't worry about mistakes, just keep making them. ~ Bhavish Aggarwal
 
 Fail fast, move fast ahead.
 
