@@ -3,9 +3,10 @@
 ***85% of below listed courses are 100% free and available to all.***
 
 **Todo**
-- Docker Tutorial for Beginners [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
-- Kubernetes Tutorial for Beginners [4h] : [Click here](https://youtu.be/X48VuDVv0do)
-- DevOps Roadmap by TechWorldNana: [Click here](https://youtu.be/G_nVMUtaqCk)
+- Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
+- Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
+- Kubernetes Tutorial for Beginners [4h] by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
+- DevOps Roadmap by `TechWorld with Nana`: [Click here](https://youtu.be/G_nVMUtaqCk)
 - **MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)
 - Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **Just me and Opensource**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
 - Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
