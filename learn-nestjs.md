@@ -10,9 +10,11 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 ***
 
-**`RouterModule` for adding a prefix to all paths of `Controllers` of a `Module`
+**`RouterModule` for adding a prefix to all paths of `Controllers` of a `Module`**
 
 Source: [Click here](https://docs.nestjs.com/recipes/router-module)
+
+**Note: In below way the module's controllers are accessible at the prefixed path only (no longer accessible without the `prefixed path`).**
 
 ![image](https://user-images.githubusercontent.com/31458531/219173592-d5d497e5-dce0-4a2f-a9ef-0049b3da0964.png)
 
