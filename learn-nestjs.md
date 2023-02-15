@@ -8,6 +8,17 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 - Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
 - Declartive Cron Jobs with NestJS: [Click here](https://docs.nestjs.com/techniques/task-scheduling#declarative-cron-jobs)
 
+***
+
+**`RouterModule` for adding a prefix to all paths of `Controllers` of a `Module`
+
+Source: [Click here](https://docs.nestjs.com/recipes/router-module)
+
+![image](https://user-images.githubusercontent.com/31458531/219173592-d5d497e5-dce0-4a2f-a9ef-0049b3da0964.png)
+
+Above image from source, we need to learn that adding `DashboardModule` to the list of `imports` is necessary and also adding `DashboardModule` to the `module` property inside the `RouterModule.register`'s array.
+
+
 **global interceptors in nestjs:**
 
 Interceptors | NestJs: [Click here](https://docs.nestjs.com/interceptors)
