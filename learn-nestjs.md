@@ -10,7 +10,7 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 ***
 
-**`Versioning`
+**`Versioning`**
 
 OFFICIAL DOCS: [Click here](https://docs.nestjs.com/techniques/versioning)
 
