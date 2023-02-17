@@ -7,21 +7,21 @@
 ## File deletion and exists check with jest
 
 ```ts
-    it.only('if given path is exists then it will return that same path', async () => {
-      function runTest() {
-        const tempFilePath = path.join(os.tmpdir(), 'myfile.jpg');
-        const fh = fs.openSync(tempFilePath, 'w');
-        fs.writeSync(fh, '.', 3);
-        fs.closeSync(fh);
-        expect(existsSync(tempFilePath)).toBe(true);
-        unlinkSync(tempFilePath);
-        expect(existsSync(tempFilePath)).toBe(false);
-      }
-      for (let i = 0; i < 10_000; i += 1) {
-        console.log('iter:', i);
-        runTest();
-      }
-    });
+it.only('if given path is exists then it will return that same path', async () => {
+  function runTest() {
+    const tempFilePath = path.join(os.tmpdir(), 'myfile.jpg');
+    const fh = fs.openSync(tempFilePath, 'w');
+    fs.writeSync(fh, '.', 3);
+    fs.closeSync(fh);
+    expect(existsSync(tempFilePath)).toBe(true);
+    unlinkSync(tempFilePath);
+    expect(existsSync(tempFilePath)).toBe(false);
+  }
+  for (let i = 0; i < 10_000; i += 1) {
+    console.log('iter:', i);
+    runTest();
+  }
+});
 ```
 
 ## What's the difference between “foo.spec.ts” and “foo.test.ts"?
