@@ -8,6 +8,13 @@ For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://s
 git --no-pager log
 git --no-pager show <commit_hash>
 ```
+Also, the best way is simply set pager to `cat`, life is amazing now!
+
+```txt
+# File: ~/.gitconfig
+[core]
+         pager = cat
+```
 
 ## show all branch
 
