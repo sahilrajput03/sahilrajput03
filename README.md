@@ -204,6 +204,7 @@ cra: 335mb
 - Learn `Colors` (node library): [Click here](learn-colors-npm.md)
 - Learn Spirituality: [Click here](learn-spirituality.md)
 - Learn Skype: [Click here](learn-skype.md)
+- Learn SEO: [Click here](learn-seo.md)
 
 ## Google meet recording wiht tl;dv
 
