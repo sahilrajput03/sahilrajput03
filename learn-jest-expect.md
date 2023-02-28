@@ -4,6 +4,24 @@
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
+## more assertions
+
+```ts
+// For services:
+expect(...).toEqual({
+	_id: expect.any(mongoose.Types.ObjectId),
+	createdAt: expect.any(Date),
+	updatedAt: expect.any(Date),
+})
+
+// For e2e:
+expect(...).toEqual({
+	_id: expect.stringMatching(SIMPLE_MONGODB_ID_REGEX),
+	createdAt: expect.any(String),
+	updatedAt: expect.any(String),
+})
+```
+
 ## File deletion and exists check with jest
 
 ```ts
