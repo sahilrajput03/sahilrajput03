@@ -206,6 +206,13 @@ cra: 335mb
 - Learn Skype: [Click here](learn-skype.md)
 - Learn SEO: [Click here](learn-seo.md)
 
+## What is it called when we start numbering enties from 0 instead of 1 ?
+
+***Zero-based index***
+
+![image](https://user-images.githubusercontent.com/31458531/222275704-ae861601-601c-4ab2-8fc8-908645962e97.png)
+
+
 ## Google meet recording wiht tl;dv
 
 You can share your recorded video simply by that feature:
