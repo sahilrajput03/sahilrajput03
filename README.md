@@ -1730,7 +1730,7 @@ Source: https://jestjs.io/docs/tutorial-react
 
 Source: https://academind.com/tutorials/localstorage-vs-cookies-xss . Wanna [read about cors from same author ?](https://academind.com/tutorials/cross-site-resource-sharing-cors). Mdn - [Restrict access to cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#restrict_access_to_cookies).
 
-- `DomPurify` - A library to clean thirdparty html if you want to use that on your website: [Github](https://github.com/cure53/DOMPurify)
+- `DomPurify` (discovered with Eric) - A library to clean thirdparty html if you want to use that on your website: [Github](https://github.com/cure53/DOMPurify)
 
 - Article - [Minimize your xss attacks cheatsheet from OWASP](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html).
 
