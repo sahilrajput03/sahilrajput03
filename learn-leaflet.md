@@ -1,12 +1,19 @@
 # Learn Leaflet
 
 - SO: How to set zoom level/view of leaflet map: [Click here](https://stackoverflow.com/questions/48450273/how-to-set-zoom-level-view-of-leaflet-map)
+- References: [Click here](https://leafletjs.com/reference.html)
 - **Panning:** It allows the user to scroll the map in any direction. This is useful when you wish to view the area immediately adjacent to the area currently shown on the screen. To pan the map, perform the following steps: 1. Using the pointer, click the map and drag the pointer in the direction you wish to pan the map.
 
 ## DOCS: Pan
 
 - Pan the map to a given center via `panTo(LatLng, PanOptions?)`
 - Pans the map by a given number of pixels (animated) via `panBy(<Point> offset, <Pan options> options?)`
+
+## My slasher Task: CONTINUE_ON_THIS_THREAD
+
+- SO: Zoom to fit all markers in Mapbox or Leaflet: [Click here](https://stackoverflow.com/questions/16845614/zoom-to-fit-all-markers-in-mapbox-or-leaflet)
+- DOCS: Zoom Levels: [Click here](https://leafletjs.com/examples/zoom-levels/)
+- MY MONGODB_NOTES: Finding distance between two gps locations: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs#finding-distance-between-two-gps-locations-point-to-point-and-not-the-actual-travelling-distance-by-roads)
 
 ## DOCS: `Map` > `Map Methods`
 
