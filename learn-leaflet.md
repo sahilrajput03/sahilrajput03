@@ -8,11 +8,11 @@
 - Pan the map to a given center via `panTo(LatLng, PanOptions?)`
 - Pans the map by a given number of pixels (animated) via `panBy(<Point> offset, <Pan options> options?)`
 
-## DOCS: `Map` > `Map Methods` > `Methods for modifying map state`
+## DOCS: `Map` > `Map Methods`
 
-[Click here](https://leafletjs.com/reference.html#map-methods-for-modifying-map-state)
+- **Methods for modifying map state:** [Click here](https://leafletjs.com/reference.html#map-methods-for-modifying-map-state)
 
-To zoom a given `LatLngBound`, I can use:
+To zoom to a given `LatLngBound`, I can use:
 
 - `fitBounds(LatLngBounds, fitBoundsOptions?)`: Sets a map view that contains the given geographical bounds with the maximum zoom level possible.
 - `flyToBounds(LatLngBounds, fitBoundsOptions?)`: Sets the view of the map with a smooth animation like flyTo, but takes a bounds parameter like fitBounds.
