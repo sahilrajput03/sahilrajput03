@@ -205,7 +205,7 @@ cra: 335mb
 - Learn Spirituality: [Click here](learn-spirituality.md)
 - Learn Skype: [Click here](learn-skype.md)
 - Learn SEO: [Click here](learn-seo.md)
-- Learn Leaflet: [Click here](learn-leaflet.md)
+- Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](learn-leaflet.md)
 
 ## What is it called when we start numbering enties from 0 instead of 1 ?
 
