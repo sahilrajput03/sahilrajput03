@@ -45,3 +45,27 @@ map.panTo({lng: 30, lat: 50});
 map.panTo({lat: 50, lng: 30});
 map.panTo(L.latLng(50, 30));
 ```
+
+## DOCS: Point
+
+Source: [Click here](https://leafletjs.com/reference.html#point)
+
+Represents a point with x and y coordinates in pixels.
+
+```ts
+var point = L.point(200, 300);
+
+// Creates a Point object with the given x and y coordinates. If optional round is set to true, rounds the x and y values.
+L.point(<Number> x, <Number> y, <Boolean> round?)
+
+// Expects an array of the form [x, y] instead.
+L.point(<Number[]> coords)
+
+// Expects a plain object of the form {x: Number, y: Number} instead.
+L.point(<Object> coords)
+
+
+// All Leaflet methods and options that accept Point objects also accept them in a simple Array form (unless noted otherwise), so these lines are equivalent:
+map.panBy([200, 300]);
+map.panBy(L.point(200, 300));
+```
