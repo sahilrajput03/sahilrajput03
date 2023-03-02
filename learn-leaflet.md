@@ -3,14 +3,18 @@
 - SO: How to set zoom level/view of leaflet map: [Click here](https://stackoverflow.com/questions/48450273/how-to-set-zoom-level-view-of-leaflet-map)
 - **Panning:** It allows the user to scroll the map in any direction. This is useful when you wish to view the area immediately adjacent to the area currently shown on the screen. To pan the map, perform the following steps: 1. Using the pointer, click the map and drag the pointer in the direction you wish to pan the map.
 
+## DOCS: Pan the map to a given center
+
+`panTo(LatLng, PanOptions?)`
+
 ## DOCS: `Map` > `Map Methods` > `Methods for modifying map state`
 
 [Click here](https://leafletjs.com/reference.html#map-methods-for-modifying-map-state)
 
 To zoom a given `LatLngBound`, I can use:
 
-1. `fitBounds(LatLngBounds, fitBoundsOptions)`
-2. `flyToBounds(LatLngBounds, fitBoundsOptions)`
+1. `fitBounds(LatLngBounds, fitBoundsOptions?)`
+2. `flyToBounds(LatLngBounds, fitBoundsOptions?)`
 
 ## DOCS: LatLngBounds: [Click here](https://leafletjs.com/reference.html#latlngbounds)
 
