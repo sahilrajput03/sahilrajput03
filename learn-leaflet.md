@@ -14,7 +14,15 @@
 - SO: Zoom to fit all markers in Mapbox or Leaflet: [Click here](https://stackoverflow.com/questions/16845614/zoom-to-fit-all-markers-in-mapbox-or-leaflet)
 - DOCS: Zoom Levels: [Click here](https://leafletjs.com/examples/zoom-levels/)
 - MY MONGODB_NOTES: Finding distance between two gps locations: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs#finding-distance-between-two-gps-locations-point-to-point-and-not-the-actual-travelling-distance-by-roads)
-- Marker: [Click here](https://leafletjs.com/reference.html#marker) - L.Marker is used to display clickable/draggable icons on the map. Extends Layer.
+- Marker: [Click here](https://leafletjs.com/reference.html#marker) - Instantiates a Marker object given a geographical point and optionally an options object. L.Marker is used to display clickable/draggable icons on the map. Extends Layer.
+
+    ```js
+    // syntax
+    L.marker(<LatLng> latlng, <Marker options> options?)
+
+    // Usage
+    L.marker([50.5, 30.5]).addTo(map);
+    ```
 - Layer: [Click here](https://leafletjs.com/reference.html#layer) - A set of methods from the Layer base class that all Leaflet layers use. Inherits all methods, options and events from L.Evented.
     ```js
     var layer = L.marker(latlng).addTo(map);
