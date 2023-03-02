@@ -4,11 +4,6 @@
 - References: [Click here](https://leafletjs.com/reference.html)
 - **Panning:** It allows the user to scroll the map in any direction. This is useful when you wish to view the area immediately adjacent to the area currently shown on the screen. To pan the map, perform the following steps: 1. Using the pointer, click the map and drag the pointer in the direction you wish to pan the map.
 
-## DOCS: Pan
-
-- Pan the map to a given center via `panTo(LatLng, PanOptions?)`
-- Pans the map by a given number of pixels (animated) via `panBy(<Point> offset, <Pan options> options?)`
-
 ## My slasher Task: CONTINUE_ON_THIS_THREAD
 
 - EventByLocation: [Click here](http://localhost:3000/app/events/by-location), Task Requirements: [Click here](https://docs.google.com/document/d/1LozEJH_3gu-sd_teSyiC7fOtDKPvusPyaofzZFnSVyM/edit#), Mockup: [Click here](https://www.figma.com/file/ZaeXUmYaMRnvIRk24rAA2r/Slasher-UI?node-id=3197%3A36245&t=mQalImJYVXTglBga-4)
@@ -55,9 +50,14 @@ map.fitBounds([
 ]);
 ```
 
+## DOCS: Pan
+
+- Pan the map to a given center via `panTo(LatLng, PanOptions?)`
+- Pans the map by a given number of pixels (animated) via `panBy(<Point> offset, <Pan options> options?)`
+
 ## DOCS: LatLng: [Click here](https://leafletjs.com/reference.html#latlng)
 
-  Represents a geographical point with a certain latitude and longitude.
+Represents a geographical point with a certain latitude and longitude.
 
 ```js
 var latlng = L.latLng(50.5, 30.5);
