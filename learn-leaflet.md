@@ -11,11 +11,12 @@
 
 ## My slasher Task: CONTINUE_ON_THIS_THREAD
 
+
+- EventByLocation: [Click here](http://localhost:3000/app/events/by-location), Task Requirements: [Click here](https://docs.google.com/document/d/1LozEJH_3gu-sd_teSyiC7fOtDKPvusPyaofzZFnSVyM/edit#), Mockup: [Click here](https://www.figma.com/file/ZaeXUmYaMRnvIRk24rAA2r/Slasher-UI?node-id=3197%3A36245&t=mQalImJYVXTglBga-4)
 - SO: Zoom to fit all markers in Mapbox or Leaflet: [Click here](https://stackoverflow.com/questions/16845614/zoom-to-fit-all-markers-in-mapbox-or-leaflet)
 - DOCS: Zoom Levels: [Click here](https://leafletjs.com/examples/zoom-levels/)
 - MY MONGODB_NOTES: Finding distance between two gps locations: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs#finding-distance-between-two-gps-locations-point-to-point-and-not-the-actual-travelling-distance-by-roads)
 - Marker: [Click here](https://leafletjs.com/reference.html#marker) - Instantiates a Marker object given a geographical point and optionally an options object. L.Marker is used to display clickable/draggable icons on the map. Extends Layer.
-
     ```js
     // syntax
     L.marker(<LatLng> latlng, <Marker options> options?)
