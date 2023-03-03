@@ -16,7 +16,7 @@ export class Post {
 
 - File: `custom-class-validator-validation-classes.ts`:
 
-```js
+```ts
 import { ValidatorConstraint, ValidatorConstraintInterface, ValidationArguments } from 'class-validator';
 import { LocationType } from '../types';
 
