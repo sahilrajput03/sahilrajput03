@@ -1,6 +1,6 @@
 # Learn postman
 
-- Thats how you set a collection specific variables:
+- Thats how you set collection specific variables:
 
 ![image](https://user-images.githubusercontent.com/31458531/222793410-a0ac7859-2b51-4bd4-a974-a311248ce499.png)
 
