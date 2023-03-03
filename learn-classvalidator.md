@@ -12,3 +12,26 @@ export class Post {
   tags: string[];
 }
 ```
+
+
+- File: `custom-class-validator-validation-classes.ts`:
+
+```js
+import { ValidatorConstraint, ValidatorConstraintInterface, ValidationArguments } from 'class-validator';
+import { LocationType } from '../types';
+
+@ValidatorConstraint({ name: 'isValidMongoDbLocation', async: false })
+export class IsValidMongoDbLocation implements ValidatorConstraintInterface {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars, class-methods-use-this
+  validate(location: Partial<LocationType>, args: ValidationArguments) {
+    return location?.type === 'Point'
+    && location?.coordinates?.length === 2
+    && location?.coordinates?.every((value) => typeof (value) === 'number');
+  }
+
+  // eslint-disable-next-line class-methods-use-this, @typescript-eslint/no-unused-vars
+  defaultMessage(args: ValidationArguments) {
+    return "The 'location' field must have a shape of { type: 'Point', coordinates: [number, number] }";
+  }
+}
+```
