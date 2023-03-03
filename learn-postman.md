@@ -1,5 +1,11 @@
 # Learn postman
 
+- Thats how you set a collection specific variables:
+
+![image](https://user-images.githubusercontent.com/31458531/222793410-a0ac7859-2b51-4bd4-a974-a311248ce499.png)
+
+![image](https://user-images.githubusercontent.com/31458531/222793609-a01131f5-9bf0-48e3-be60-691c0e93118d.png)
+
 - Thats how you export a postman collection:
 
 ![image](https://user-images.githubusercontent.com/31458531/192098914-a3438a9c-21cc-4fe0-9db3-fbd8bd3ee4fe.png)
