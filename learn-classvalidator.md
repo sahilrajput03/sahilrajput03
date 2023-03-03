@@ -16,6 +16,8 @@ export class Post {
 
 - File: `custom-class-validator-validation-classes.ts`:
 
+Docs: [Custom Validation Classes](https://github.com/typestack/class-validator#custom-validation-classes)
+
 ```ts
 import { ValidatorConstraint, ValidatorConstraintInterface, ValidationArguments } from 'class-validator';
 import { LocationType } from '../types';
