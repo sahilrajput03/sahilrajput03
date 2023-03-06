@@ -19,6 +19,8 @@ expect(...).toEqual({
 	_id: expect.stringMatching(SIMPLE_MONGODB_ID_REGEX),
 	createdAt: expect.any(String),
 	updatedAt: expect.any(String),
+        startDate: '2022-10-24T00:00:00.000Z', // using dates with luxon
+        endDate: '2022-10-25T23:59:59.000Z', // using dates with luxon
 })
 ```
 
