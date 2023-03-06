@@ -1,5 +1,7 @@
 # Learning bash
 
+**GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
+
 *RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic instinct to do `man cli-name` and read through it.*
 
 **Popular blogs:**
