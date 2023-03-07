@@ -12,6 +12,8 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 **Fixing circular-dependeny for nestjs - Awesome Article**
 
+Official Guide from NestJs: [Click here](https://docs.nestjs.com/fundamentals/circular-dependency)
+
 [Click here](https://blog.logrocket.com/avoid-circular-dependencies-nestjs/)
 
 Also, in slasher we can directly make user of models inside the controller's instead of using an serviceMethod of a different service. But this is only feasible if the logic we already have been using a service method for has very simple logic which can be put in controller directly without bringing a lot of complexities to the controller code.
