@@ -130,8 +130,6 @@ In marathons - Mile 20 is the starting line of the race.
 
 Some times you win. Sometimes you don’t win. But that’s not the same as losing.
 
-Discipline is about what you want now and what you want most. ~ Allhabadia
-
 I hate waiting on machine, the machine should wait on me ~ Varun mayya
 
 Companies layoff to avoid death spiral ~ Varun Mayya (referring: Skioya Report)
@@ -144,6 +142,32 @@ Employeed don't leave companies, they leave employers. ~ Marcus Buckingham
 
 I have no limitations. ~ Thomas Shelby
 
-Discipline means choosing between what you want now and what you want most. ~ Unkonwn
-
 Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
+
+Discipline is choosing between what you want now, and what you want most. ~ Abraham Lincon
+
+Law is nothing else but the best reason of wise men applied for ages to the transactions and business of mankind. ~ Abraham Lincon
+
+Nearly all men can stand adversity, but if you want to test a man's character, give him power. ~ Abraham Lincon
+
+That some achieve great success, is proof to all that others can achieve it as well. ~ Abraham Lincon
+
+I have always found that mercy bears richer fruits than strict justice. ~ Abraham Lincon
+
+Be sure to put your feet in the right place, then stand firm. ~ Abraham Lincon
+
+No man has good enough memory to be a successful liar. ~ Abraham Lincon
+
+The best way to predict your future is to create it. ~ Abraham Lincon
+
+I laught because I must not cry, that is all, that is all. ~ Abraham Lincon
+
+Character is like a tree and reputation like a shadow. The shadow is what we think of it, the tree is the real thing. ~ Abraham Lincon
+
+My concern is not whether God is on our side, my greatest concern is to be on God's side, for God is always right. ~ Abraham Lincon
+
+Give me six hours to chop down a tree and I will spend first four sharpening the axe. ~ Abraham Lincon
+
+America will never be destroyed from the outside. If we falter and lose our freedoms, it will be because we destroyed ourselves. ~ Abraham Lincon
+
+Those who look for the bad in people will surely find it. ~ Abraha Lincon
