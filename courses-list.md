@@ -2,6 +2,10 @@
 
 ***85% of below listed courses are 100% free and available to all.***
 
+**Other Courses (todo):**
+- Introduction to Marketing: [Click here](https://in.coursera.org/learn/wharton-marketing) (10 h)
+- Introduction to Financial Accounting: [Click here](https://www.coursera.org/learn/wharton-accounting) (13 h)
+
 **Todo**
 - Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
 - Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
