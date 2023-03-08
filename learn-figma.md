@@ -13,9 +13,15 @@
 - TODO - https://medium.com/ansh-mehra
 - Chrome New Tab Extension: [Click here](https://chrome.google.com/webstore/detail/muzli-2-stay-inspired/glcipcfhmopcgidicgdociohdoicpdfc?hl=en)
 
-## Resources for images, gifs, svgs ?: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
+## Resources for images, gifs, svgs ?:
 
-**Courses:**
+[Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
+
+## You can search superfast in your design file in figma
+
+![image](https://user-images.githubusercontent.com/31458531/223821353-2e097f86-eccb-4978-83d8-2bdc0c4dde7b.png)
+
+## Courses:
 - Learn Design (100% theory): [Click here](https://www.figma.com/resources/learn-design/lessons/)
 - TODO - Article: https://medium.com/@satjaleenmadan/little-figma-tricks-that-saved-my-time-75f65df684ac
 - TODO - Article: https://uxdesign.cc/10-figma-tricks-i-wish-i-knew-earlier-698e66a893f8
