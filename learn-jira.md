@@ -6,6 +6,15 @@
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
+## You can edit and update a sprint info like that
+
+![image](https://user-images.githubusercontent.com/31458531/223857154-0f84b1c9-1d14-4e3b-8163-ec610be9d908.png)
+
+**Edit Sprint Dialog Box -**
+
+![image](https://user-images.githubusercontent.com/31458531/223857248-20df36da-1313-4571-9156-f320d915a158.png)
+
+
 ## You can complete a sprint and move open issues simply like that
 
 ![image](https://user-images.githubusercontent.com/31458531/223856459-d3436f79-a06c-4104-a1cc-bdddbd2ee7b3.png)
