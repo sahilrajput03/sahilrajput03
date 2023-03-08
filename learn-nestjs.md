@@ -10,7 +10,7 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 ***
 
-**How do we perform data-type conversions in params and query dto's?
+**How do we perform data-type conversions in params and query dto's?**
 
 We can use `Type` decorator i.e, `@Type` from [`class-transformer`](https://github.com/typestack/class-transformer#working-with-nested-objects).
 
