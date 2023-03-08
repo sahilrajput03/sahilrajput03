@@ -171,3 +171,5 @@ Give me six hours to chop down a tree and I will spend first four sharpening the
 America will never be destroyed from the outside. If we falter and lose our freedoms, it will be because we destroyed ourselves. ~ Abraham Lincon
 
 Those who look for the bad in people will surely find it. ~ Abraha Lincon
+
+I Am a Slow Walker but I Never Walk Back – Abraham Lincoln: ~ Abraham Lincon
