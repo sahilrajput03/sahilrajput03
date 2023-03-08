@@ -12,6 +12,12 @@ y - year wise
 a - schedule wise (personal favourite)
 ```
 
+
+## You can email a list of people for an event like that
+
+![image](https://user-images.githubusercontent.com/31458531/223677550-8f84b2a1-db6d-47f2-9703-e6ca984f4789.png)
+
+
 ## You can now propose a different time for a meeting as well now
 
 ![image](https://user-images.githubusercontent.com/31458531/187061831-5e107b7e-665e-4a98-bbea-0933dd644c60.png)
