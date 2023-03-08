@@ -10,6 +10,17 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 ***
 
+**How do we perform data-type conversions in params and query dto's?
+
+We can use `Type` decorator i.e, `@Type` from [`class-transformer`](https://github.com/typestack/class-transformer#working-with-nested-objects).
+
+From official docs: 
+
+![image](https://user-images.githubusercontent.com/31458531/223854237-fc9dcb6f-762d-4723-b9b9-ac8b88bbaa1e.png)
+
+![image](https://user-images.githubusercontent.com/31458531/223854014-42ba73dd-427d-496a-b311-c3acbdf8d4d9.png)
+
+
 **Fixing circular-dependeny for nestjs - Awesome Article**
 
 **NOTE: My current slasher backend project has a good docs guide in the project readme as well.**
