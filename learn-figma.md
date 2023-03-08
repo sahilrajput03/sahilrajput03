@@ -19,6 +19,8 @@
 
 ## You can search superfast in your design file in figma
 
+Search in figma file by using `ctrl+f` and then you follow like that:
+
 ![image](https://user-images.githubusercontent.com/31458531/223821353-2e097f86-eccb-4978-83d8-2bdc0c4dde7b.png)
 
 ## Courses:
