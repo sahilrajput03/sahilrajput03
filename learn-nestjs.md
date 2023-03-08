@@ -12,6 +12,8 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 **Fixing circular-dependeny for nestjs - Awesome Article**
 
+**NOTE: My current slasher backend project has a good docs guide in the project readme as well.**
+
 Official Guide from NestJs: [Click here](https://docs.nestjs.com/fundamentals/circular-dependency)
 
 [Click here](https://blog.logrocket.com/avoid-circular-dependencies-nestjs/)
