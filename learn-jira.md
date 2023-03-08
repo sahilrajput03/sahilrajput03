@@ -6,6 +6,12 @@
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
+## You can complete a sprint and move open issues simply like that
+
+![image](https://user-images.githubusercontent.com/31458531/223856459-d3436f79-a06c-4104-a1cc-bdddbd2ee7b3.png)
+
+![image](https://user-images.githubusercontent.com/31458531/223855688-2f6b306d-4b8d-482d-ad31-eb5a642ad99c.png)
+
 ## You can open a ticket in new tab and copy link to the ticket by this
 
 ![image](https://user-images.githubusercontent.com/31458531/223523628-5cd7b192-596a-44a8-aca7-8317f2484801.png)
