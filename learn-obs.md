@@ -1,5 +1,12 @@
 # Readme
 
+## New video output bitrate set to 6000Kbps (original 2500Kbps)
+
+Date: 9 March, 2023
+
+![image](https://user-images.githubusercontent.com/31458531/224020169-4bec6fb4-787b-494a-8b44-80f33a056173.png)
+
+
 ## Weekend developers recording with alex
 
 Learings:
