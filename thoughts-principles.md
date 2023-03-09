@@ -174,4 +174,4 @@ Those who look for the bad in people will surely find it. ~ Abraha Lincon
 
 I Am a Slow Walker but I Never Walk Back – Abraham Lincoln: ~ Abraham Lincon
 
-After-college is way more important anyway.  That's where life really begins!
+After-college is way more important anyway.  That's where life really begins! ~ Eric
