@@ -44,6 +44,11 @@ var corner1 = L.latLng(40.712, -74.227),
 corner2 = L.latLng(40.774, -74.125),
 bounds = L.latLngBounds(corner1, corner2);
 
+// A LatLngBound value has coordinates for `top-right` and `bottom-left` points of the bounded rectangular region.
+// For e.g,  {_southWest: bottom_left_latLng, _northEast: top_right_latLng }
+// { "_southWest": {"lat": 41.050832274225485, "lng": -74.9698495599688}, "_northEast": {"lat": 41.05092210575319, "lng": -74.96973044003121}}
+
+
 // All Leaflet methods that accept LatLngBounds objects also accept them in a simple Array form (unless noted otherwise), so the bounds example above can be passed like this:
 map.fitBounds([
     [40.712, -74.227],
