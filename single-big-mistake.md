@@ -1,6 +1,6 @@
 # Single big mistakes I do often
 
-## 1. RTFM
+## 1. RTFM (Read The Fucking Manual)
 
 ## 2. NOT SCHEDULING THE TASKS FROM THE TASK LIST
 
