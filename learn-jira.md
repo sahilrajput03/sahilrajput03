@@ -8,7 +8,8 @@
 
 ## Restrict the option to export Issues
 
-OFFICIAL JIRA TICKET: Restrict the option to export Issues: [Click here](https://jira.atlassian.com/browse/JRACLOUD-74232)
+- OFFICIAL JIRA TICKET: Restrict the option to export Issues: [Click here](https://jira.atlassian.com/browse/JRACLOUD-74232)
+- OFFICIAL Article - How to restrict project access for teams in Jira Cloud: [Click here](https://confluence.atlassian.com/cloudkb/how-to-restrict-project-access-for-teams-in-jira-cloud-953142266.html#:~:text=Go%20to%20Jira%20settings%20%3E%20Issues,project%20role%20we%20previously%20created.)
 
 ## Creating a "Software Project - Scrum"
 
