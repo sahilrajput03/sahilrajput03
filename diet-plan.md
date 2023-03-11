@@ -32,7 +32,7 @@ Procedure:
 <ins>**Soya Fried Rice:**<ins>
 - (2m 58s) https://www.youtube.com/watch?v=P8DgpnKyS30
 
-<ins>**Making Fried rice:**<ins>
+<ins>**Fried rice:**<ins>
 
   - Procedure
     - Keep 1cup rice in 2.5 cup water for 15-20 mins. Keep 5.5 cup water + 1 full spoon salt + 1/4 of a neembu and start boiling...when started boiling add rice and boil till rice gets soft to crush (check by finger crushing and it should mash actually not break) and filter rice via sieve (chalni) and spread in full PLATE.
@@ -88,7 +88,7 @@ Procedure:
   - Chocos, Puffcorn, Coffee, MaggiMasala
   - **Eggs: (Boiling Time -6-7 minutes, after it has started boiling , or total of 10 mind after put on stove).**
 
-- **Making CHAWMIN**
+- **CHAWMIN**
 
   - Are Chawmin and Noodles different? : Noodles is basically a type of food that is made from dough, while chow-mein is a dish made with noodles. Actually, chow mein is coined from two words `chow` which means fried, and `mein` refers to noodles. So the moral of the story is all chow mein are noodles, but all noodles are not chow mein.
   - Prerequisites: Note: If the noodles are too long then break it into half .. and still they will be large enough to be enjoyed.
