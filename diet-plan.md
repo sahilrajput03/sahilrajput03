@@ -27,11 +27,11 @@ Ingredients:
 
 Procedure:
 
-- (5m 44s) - [video1](https://www.youtube.com/watch?v=OrgEumTgSl4)
-- (3m 25s) - [video2](https://youtu.be/m-U_ILG-7gs)
+- (5m 44s) - [video@YT](https://www.youtube.com/watch?v=OrgEumTgSl4)
+- (3m 25s) - [video@YT](https://youtu.be/m-U_ILG-7gs)
 
 <ins>**Soya Fried Rice:**</ins>
-- (2m 58s) https://www.youtube.com/watch?v=P8DgpnKyS30
+- (2m 58s) [video@YT](https://www.youtube.com/watch?v=P8DgpnKyS30)
 
 <ins>**Fried rice:**</ins>
 
