@@ -5,6 +5,13 @@
 - Recepie Book: [Click here](https://recipebook.io/)
 - Diet by Gurumann: [Click here](https://www.youtube.com/watch?v=dYUdpBkTcvA)
 
+# Sproutings
+
+- black channe
+- almonds, cashew (kaju), raisins
+- peanuts
+- soaked nutella badi (keep for 10 mins in boiled wated with black salt for taste)
+
 # Salad
 
 <ins>**Soya Chunk Salad Recipe (non-cooked):**</ins>
