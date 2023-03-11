@@ -127,7 +127,7 @@ cra: 335mb
 - **Calling server functions from client directly:** [Click here](learn-api-mount.md)
 - **JS Conf 2022:** [Click here](notes-js-conf-2022.md)
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](game-development.md)
-- **Diet Plan, Proteins:** [Click here](diet-plan.md)
+- **Food, Diet Plan, Proteins:** [Click here](food.md)
 - **Learn Google Calendar:** [Click here](learn-google-calendar.md)
 - **Single big mistake I made a lot times in last 3 years**: [Click here](single-big-mistake.md)
 - **Learn Obs:** [Click here](./learn-obs.md)
