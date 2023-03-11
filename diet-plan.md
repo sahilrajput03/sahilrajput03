@@ -8,6 +8,18 @@ Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
 
 # Recepies
 
+High Protein Soya chunks recepie:
+- (5m 44s) https://www.youtube.com/watch?v=OrgEumTgSl4
+- (3m 25s) https://youtu.be/m-U_ILG-7gs
+
+
+**"Soya Chunk Salad Recipe" (fyi: its salad recipe i.e., non-cooked)**
+- (6m 59s) - https://www.youtube.com/watch?v=Z9A1b6Lxn-s
+
+
+**Soya Fried Rice:**
+- (2m 58s) https://www.youtube.com/watch?v=P8DgpnKyS30
+
 **Making Fried rice:**
 
   - Procedure
@@ -134,4 +146,5 @@ Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
 
 - Remove coffee jhaag (use a full napkin):
 
-![image](https://user-images.githubusercontent.com/31458531/189655740-406aca63-0ea4-4397-8018-c706bb78bf1a.png)
+![image](https://user-images.githubusercontent.com/31458531/224502485-2d778897-dd6e-4cdb-9bef-20c751791783.png)
+
