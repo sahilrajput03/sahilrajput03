@@ -17,6 +17,8 @@ Also, the best way is simply set pager to `cat`, life is amazing now! ([source](
          pager = cat
 ```
 
+You can use `git config --global core.pager "cat"` to set `cat` as pager for git log.
+
 ## show all branch
 
 `git branch`: Prints all branches and \* indicated is the current branch.
