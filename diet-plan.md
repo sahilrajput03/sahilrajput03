@@ -35,18 +35,19 @@ Procedure:
 
 <ins>**Fried rice:**</ins>
 
-  - Procedure
-    - Keep 1cup rice in 2.5 cup water for 15-20 mins. Keep 5.5 cup water + 1 full spoon salt + 1/4 of a neembu and start boiling...when started boiling add rice and boil till rice gets soft to crush (check by finger crushing and it should mash actually not break) and filter rice via sieve (chalni) and spread in full PLATE.
-    - NOW IN ANOTHER PAN/KADAHI: BOIL 1.5 spoon oil and heat it and add gajar+1/2onion+beans+2 hari mirch(chooped)+5lahsun(chopped) and cook for 30 secs.
-    - NOW ADD namak+kaali-mirch+agino-motto+red-chilli-sauce+green-chilli-sauce+soya-sauce+some-onion and cook more. NOW add your plate's rice to the mixture in pan.
+Procedure
+- Keep 1cup rice in 2.5 cup water for 15-20 mins. Keep 5.5 cup water + 1 full spoon salt + 1/4 of a neembu and start boiling...when started boiling add rice and boil till rice gets soft to crush (check by finger crushing and it should mash actually not break) and filter rice via sieve (chalni) and spread in full PLATE.
+- NOW IN ANOTHER PAN/KADAHI: BOIL 1.5 spoon oil and heat it and add gajar+1/2onion+beans+2 hari mirch(chooped)+5lahsun(chopped) and cook for 30 secs.
+- NOW ADD namak+kaali-mirch+agino-motto+red-chilli-sauce+green-chilli-sauce+soya-sauce+some-onion and cook more. NOW add your plate's rice to the mixture in pan.
 
 <ins>**Porridge/Daliya**</ins>
 
-  - Commonly known as Dalia, Oats or Porridge.
-  - 4 Types: Wheat(Sweet/salty), Oats(Jayee ka dalia, patanjali), Barley(jo ka dalia), Mixgrain(patanjali).
-  - Procedure:
-    - Boil half cup of any dalia with 1.5(note: For wheat dalia - use 1.7 glass of water) glass of water and add salt, haldi, black pepper, , chopped green chilli, nutella badi and chopped capsicum, chopper cabbage(patta gobi), one potato (while the daila is boiling, so that capscium and cabbage leaves gets boiled otherwise capscium and cabbage leaves is not much easy to eat raw).
-    - Additives: {Mix below ingredients just before serving so enjoy the raw flavor of each thing -> Tomato, Onion, small pieces of cutted Kheera(not Muli)}, Maggi Masala or Chings Fried Rice masala (not Pasta masala), or {maggiMasala + Chings Manchurian} after you have stopped cooking dalia else the masala will not be much tasteful, Chilli Achar/other achaar. ;; Serving: You an use 2spoon ghee, curd with dalia to eat it too.
+- Commonly known as Dalia, Oats or Porridge.
+- 4 Types: Wheat(Sweet/salty), Oats(Jayee ka dalia, patanjali), Barley(jo ka dalia), Mixgrain(patanjali).
+
+Procedure:
+- Boil half cup of any dalia with 1.5(note: For wheat dalia - use 1.7 glass of water) glass of water and add salt, haldi, black pepper, , chopped green chilli, nutella badi and chopped capsicum, chopper cabbage(patta gobi), one potato (while the daila is boiling, so that capscium and cabbage leaves gets boiled otherwise capscium and cabbage leaves is not much easy to eat raw).
+- Additives: {Mix below ingredients just before serving so enjoy the raw flavor of each thing -> Tomato, Onion, small pieces of cutted Kheera(not Muli)}, Maggi Masala or Chings Fried Rice masala (not Pasta masala), or {maggiMasala + Chings Manchurian} after you have stopped cooking dalia else the masala will not be much tasteful, Chilli Achar/other achaar. ;; Serving: You an use 2spoon ghee, curd with dalia to eat it too.
 
 <ins>**CHAWMIN**</ins>
 
