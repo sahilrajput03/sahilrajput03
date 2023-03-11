@@ -6,6 +6,10 @@
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
+## Restrict the option to export Issues
+
+OFFICIAL JIRA TICKET: Restrict the option to export Issues: [Click here](https://jira.atlassian.com/browse/JRACLOUD-74232)
+
 ## Creating a "Software Project - Scrum"
 
 ![image](https://user-images.githubusercontent.com/31458531/224456557-5be6186b-62a1-4132-ad6b-9eba7782ca05.png)
