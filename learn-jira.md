@@ -10,6 +10,10 @@
 
 ![image](https://user-images.githubusercontent.com/31458531/224456557-5be6186b-62a1-4132-ad6b-9eba7782ca05.png)
 
+After creating the project it would look like that:
+
+![image](https://user-images.githubusercontent.com/31458531/224456786-b9a2a28e-74f3-4b8c-a199-7713f9e357f6.png)
+
 ## You can edit and update a sprint info like that
 
 ![image](https://user-images.githubusercontent.com/31458531/223857154-0f84b1c9-1d14-4e3b-8163-ec610be9d908.png)
