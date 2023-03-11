@@ -4,6 +4,12 @@
 
 ***Favourite markdown docs: https://daringfireball.net/projects/markdown/***
 
+- Underline text:
+
+```
+<ins>**This text will be bold and underlined**<ins>
+```
+
 - Using image:
 
   ```
