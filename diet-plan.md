@@ -1,33 +1,45 @@
 # What can I eat?
 
-- **High protein diets**
+Recepie Book: [Click here](https://recipebook.io/)
 
-- Cuisine of air fried Nutella + Paneer + Capscicum + Carrot like Sonia Mam did.
+Diet by Gurumann: [Click here](https://www.youtube.com/watch?v=dYUdpBkTcvA)
 
-Diet by Gurumann: https://www.youtube.com/watch?v=dYUdpBkTcvA
+# Salad
+
+**Soya Chunk Salad Recipe (non-cooked):**
+- (6m 59s) - https://www.youtube.com/watch?v=Z9A1b6Lxn-s
 
 # Recepies
 
-High Protein Soya chunks recepie:
-- (5m 44s) https://www.youtube.com/watch?v=OrgEumTgSl4
-- (3m 25s) https://youtu.be/m-U_ILG-7gs
+<ins>**High Protein Soya chunks recepie:**<ins>
 
+Ingredients:
+- 1 bown nutri (soak for 10 mins in 1 extra-large size bowl of boiled water with some black salt for soaked taste)
+- panner as needed
+- chooped carrot (1 medium sized) 
+- chopped/longslided capscicum
+- broccoli
+- chopped tomato (1/2)
+- chopped onion (1/2)
+- masale? - Black salt, garam masala, red-chilli powder.
+- soya sauce, tomato ketchup
 
-**"Soya Chunk Salad Recipe" (fyi: its salad recipe i.e., non-cooked)**
-- (6m 59s) - https://www.youtube.com/watch?v=Z9A1b6Lxn-s
+Procedure:
 
+- (5m 44s) - [video1](https://www.youtube.com/watch?v=OrgEumTgSl4)
+- (3m 25s) - [video2](https://youtu.be/m-U_ILG-7gs)
 
-**Soya Fried Rice:**
+<ins>**Soya Fried Rice:**<ins>
 - (2m 58s) https://www.youtube.com/watch?v=P8DgpnKyS30
 
-**Making Fried rice:**
+<ins>**Making Fried rice:**<ins>
 
   - Procedure
     - Keep 1cup rice in 2.5 cup water for 15-20 mins. Keep 5.5 cup water + 1 full spoon salt + 1/4 of a neembu and start boiling...when started boiling add rice and boil till rice gets soft to crush (check by finger crushing and it should mash actually not break) and filter rice via sieve (chalni) and spread in full PLATE.
     - NOW IN ANOTHER PAN/KADAHI: BOIL 1.5 spoon oil and heat it and add gajar+1/2onion+beans+2 hari mirch(chooped)+5lahsun(chopped) and cook for 30 secs.
     - NOW ADD namak+kaali-mirch+agino-motto+red-chilli-sauce+green-chilli-sauce+soya-sauce+some-onion and cook more. NOW add your plate's rice to the mixture in pan.
 
-**Making Porridge/Daliya**
+<ins>**Porridge/Daliya**<ins>
 
   - Commonly known as Dalia, Oats or Porridge.
   - 4 Types: Wheat(Sweet/salty), Oats(Jayee ka dalia, patanjali), Barley(jo ka dalia), Mixgrain(patanjali).
@@ -146,5 +158,5 @@ High Protein Soya chunks recepie:
 
 - Remove coffee jhaag (use a full napkin):
 
-![image](https://user-images.githubusercontent.com/31458531/224502485-2d778897-dd6e-4cdb-9bef-20c751791783.png)
+  ![image](https://user-images.githubusercontent.com/31458531/224502485-2d778897-dd6e-4cdb-9bef-20c751791783.png)
 
