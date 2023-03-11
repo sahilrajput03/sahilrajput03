@@ -6,9 +6,9 @@
 
 - Underline text:
 
-```
-<ins>**This text will be bold and underlined**<ins>
-```
+  ```
+  <ins>**This text will be bold and underlined**<ins>
+  ```
 
 - Using image:
 
