@@ -8,7 +8,7 @@
 # Salad
 
 <ins>**Soya Chunk Salad Recipe (non-cooked):**</ins>
-- (6m 59s) - https://www.youtube.com/watch?v=Z9A1b6Lxn-s
+- (6m 59s) - [video@YT](https://www.youtube.com/watch?v=Z9A1b6Lxn-s)
 
 # Recepies
 
