@@ -128,6 +128,11 @@ Procedure (Step-2):
 
 ![image](https://user-images.githubusercontent.com/31458531/224502485-2d778897-dd6e-4cdb-9bef-20c751791783.png)
 
+<ins>**Bread Recepies**</ins>
+- Bread with butter + milk
+- Bread with ghee + tea
+- Bread with peanutbutter + milk
+- Bread with ketup + milk
 
 ## Other Stuff
 
@@ -152,12 +157,6 @@ Procedure (Step-2):
 - **Banana shake**
   - Procedure:
     - Mixerblender, milk, sugar, banana, almonds, peanut butter (optional) and blend for 2 times each for 30 second.
-
-- **🍞 Bread Recepies**
-  - Bread with butter
-  - bread with ghee
-  - bread with peanutbutter + milk
-  - bread with ketup + milk
 
 - **OFFICE EATABLE STUFF**
 
