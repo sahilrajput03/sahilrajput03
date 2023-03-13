@@ -41,6 +41,10 @@ Card Used in Postman for testing:
 
 ![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
 
+## Customize the PayPal Buttons
+
+[Click here](https://developer.paypal.com/docs/regional/th/checkout/integration-features/customize-button)
+
 ## Tax Calcuation on items
 
 - Calculate sales tax automatically: [Click here](https://developer.paypal.com/api/nvp-soap/paypal-payments-standard/integration-guide/ProfileAndTools/#link-calculatesalestaxautomatically)
