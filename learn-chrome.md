@@ -7,6 +7,7 @@ Disabled below extensions becoz of too much memory usage(deteced from Google Chr
 
 # Chrome Extensions
 
+- [Talk-to-ChatGPT](https://chrome.google.com/webstore/detail/talk-to-chatgpt/hodadfhfagpiemkeoliaelelfbboamlk)
 - [Read Aloud: A Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp)
 - [Speechify Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
 - [Code Copier](https://chrome.google.com/webstore/detail/code-copier/polidkhcaghmmijeemenkiloblpdfphp/related?hl=en)
