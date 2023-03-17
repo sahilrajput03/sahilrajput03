@@ -177,3 +177,5 @@ I Am a Slow Walker but I Never Walk Back – Abraham Lincoln: ~ Abraham Lincon
 After-college is way more important anyway.  That's where life really begins! ~ Eric
 
 For he is fool, who knows only the truth but not the difference between the lies and the truth. ~ Krishan (=> Arjun)
+
+It is not right to seek revenge everytime but it is no right to forgive every time either. ~ Draupadi (=> Arjun)
