@@ -208,6 +208,7 @@ cra: 335mb
 - Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](learn-leaflet.md)
 - Learn classvalidator: [Click here](learn-classvalidator.md)
 - Learn Luxon: [Click here](learn-luxon.md)
+- Learn South Indian Bank | Internet Banking: [Click here](learn-south-india-bank)
 
 ## What is it called when we start numbering enties from 0 instead of 1 ?
 
