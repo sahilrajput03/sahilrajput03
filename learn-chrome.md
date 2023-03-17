@@ -7,6 +7,8 @@ Disabled below extensions becoz of too much memory usage(deteced from Google Chr
 
 # Chrome Extensions
 
+- Read Aloud: A Text to Speech Voice Reader: [Click here](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp)
+- Speechify Text to Speech Voice Reader: [Click here](https://chrome.google.com/webstore/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
 - [Code Copier](https://chrome.google.com/webstore/detail/code-copier/polidkhcaghmmijeemenkiloblpdfphp/related?hl=en)
 - [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) 
 - [Fea KeyLogger](https://chrome.google.com/webstore/detail/fea-keylogger/fgkghpghjcbfcflhoklkcincndlpobja?hl=en)
