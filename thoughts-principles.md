@@ -179,3 +179,5 @@ After-college is way more important anyway.  That's where life really begins! ~ 
 For he is fool, who knows only the truth but not the difference between the lies and the truth. ~ Krishan (=> Arjun)
 
 It is not right to seek revenge everytime but it is not right to forgive every time either. ~ Draupadi (=> Arjun)
+
+Sometimes luck can definitely make a difference! Trying hard is big part of luck! The more you try the more opportunities you have for luck to be on your side! In a sense you make your own luck!
