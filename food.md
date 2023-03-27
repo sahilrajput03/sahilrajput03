@@ -5,6 +5,10 @@
 - Recepie Book: [Click here](https://recipebook.io/)
 - Diet by Gurumann: [Click here](https://www.youtube.com/watch?v=dYUdpBkTcvA)
 
+# Have 1-2 glass of water on waking
+
+It helps you to feel fresh and juicy throughtout the day. And for the next 30m you can prepare for your before-exercise-meal, i.e., potato<8mins_boiled>-tomato-onion-cheese sandwich.
+
 # Sproutings
 
 - black channe
