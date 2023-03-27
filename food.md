@@ -7,7 +7,9 @@
 
 # Have 1-2 glass of water on waking
 
-It helps you to feel fresh and juicy throughtout the day. And for the next 30m you can prepare for your before-exercise-meal, i.e., potato(3min to start boil + 5mins boiling time with low simmer) along with **tomato-onion-cheese** ingredients for the sandwich along with some milk is awesome.
+It helps you to feel fresh and juicy throughtout the day. And for the next 30m you can prepare for your before-exercise-meal.
+
+You can prepare boiled potatoes (2 potatoes, 3min to start boil + 5mins boil time with low simmer). You can take **tomato, onion and cheese** as ingredients for the sandwich along with some milk is awesome.
 
 # Sproutings
 
