@@ -183,3 +183,5 @@ It is not right to seek revenge everytime but it is not right to forgive every t
 Sometimes luck can definitely make a difference! Trying hard is big part of luck! The more you try the more opportunities you have for luck to be on your side! In a sense you make your own luck! ~ Eric
 
 Hoga! Terse ni hoga toh kisi se ni hoga! ~ Tushar Kalia
+
+You can fool some of the people all of the time, and all of the people some of the time, but you can not fool all of the people all of the time. Abraham Lincoln
