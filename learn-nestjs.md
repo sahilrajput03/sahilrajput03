@@ -14,7 +14,13 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 ***
 
+**Scripts guide from official nestjs docs**
 
+Docs: [Click here](https://docs.nestjs.com/cli/scripts)
+
+![image](https://user-images.githubusercontent.com/31458531/228644053-91171826-edc9-43e3-910f-839f72a18c81.png)
+
+***
 
 **How do we perform data-type conversions in params and query dto's?**
 
