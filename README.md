@@ -210,6 +210,11 @@ cra: 335mb
 - Learn Luxon: [Click here](learn-luxon.md)
 - Learn South Indian Bank | Internet Banking: [Click here](learn-south-india-bank)
 
+## Is `js-cookies` bad?
+
+![image](https://user-images.githubusercontent.com/31458531/229240204-d07c03cc-74e6-4395-a3f9-2ea96768ac04.png)
+
+
 ## Deduping data
 
 ![image](https://user-images.githubusercontent.com/31458531/229239075-60fe6b26-f336-40cf-a059-f60fab39c86c.png)
