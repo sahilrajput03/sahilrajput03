@@ -210,6 +210,10 @@ cra: 335mb
 - Learn Luxon: [Click here](learn-luxon.md)
 - Learn South Indian Bank | Internet Banking: [Click here](learn-south-india-bank)
 
+## Deduping data
+
+![image](https://user-images.githubusercontent.com/31458531/229239075-60fe6b26-f336-40cf-a059-f60fab39c86c.png)
+
 ## What is it called when we start numbering enties from 0 instead of 1 ?
 
 ***Zero-based index***
