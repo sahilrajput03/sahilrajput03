@@ -210,7 +210,9 @@ cra: 335mb
 - Learn Luxon: [Click here](learn-luxon.md)
 - Learn South Indian Bank | Internet Banking: [Click here](learn-south-india-bank)
 
-## Install magisk on redmi note 5
+## Redmi note 5:
+
+**Install magisk on redmi note 5**
 
 Requirements: Your phone should have unlocked and have a custom recovery already installed (Orange Fox is a good one).
 
@@ -221,6 +223,10 @@ Simple process (notes):
 1. Download latest magisk.apk file from [here](https://github.com/topjohnwu/Magisk/releases).
 2. rename the file to magisk.apk to magisk.zip and install that zip file from custom recovery.
 3. rename the file magisk.zip to magisk.apk and install that. Not it should be good to go!
+
+**Hiding root from google-pay, etc banking apps(tested on redmi note 5 - 2-april-2023)**
+
+Source: [Click here](https://www.youtube.com/watch?v=gbR44Pxb-64)
 
 ## Learn using `pause` (,) and `delay` (;) while dialing calls
 
