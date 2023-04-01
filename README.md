@@ -210,6 +210,20 @@ cra: 335mb
 - Learn Luxon: [Click here](learn-luxon.md)
 - Learn South Indian Bank | Internet Banking: [Click here](learn-south-india-bank)
 
+## Learn using `pause` (,) and `delay` (;) while dialing calls
+
+Source: [Click here](https://www.computerhope.com/tips/tip232.htm#:~:text=Each%20comma%20entered%20creates%20a,901%22%20on%20your%20cell%20phone.)
+
+**TESTED AND VERIFIED**
+
+```txt
+Say you wanna call 18001234567, and wait for six seconds and then enter extension 901.
+Way 1: You can use pause i.e, calling  `18001234567,,,901` would wait for six seconds i.e, 1 comma is for 2 seconds, thus 3 commas for 6 seconds pause and then it'll send 901 extension.
+
+Way 2: You can call `18001234567;,901` now this will prompt you when to send the extension after the call is started. When you press "yes" on the prompt then it'll wait for 2 seconds and send the extension 901.
+````
+
+
 ## Is `js-cookies` bad?
 
 ![image](https://user-images.githubusercontent.com/31458531/229240204-d07c03cc-74e6-4395-a3f9-2ea96768ac04.png)
