@@ -214,6 +214,8 @@ cra: 335mb
 
 Source: [Click here](https://www.computerhope.com/tips/tip232.htm#:~:text=Each%20comma%20entered%20creates%20a,901%22%20on%20your%20cell%20phone.)
 
+Source: 2 - [Click here](https://www.quora.com/What-add-2-second-pause-feature-do-in-android-dialer)
+
 **TESTED AND VERIFIED**
 
 ```txt
