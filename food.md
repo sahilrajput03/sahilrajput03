@@ -59,7 +59,10 @@ Procedure
 - 4 Types: Wheat(Sweet/salty), Oats(Jayee ka dalia, patanjali), Barley(jo ka dalia), Mixgrain(patanjali).
 
 Procedure:
-- Boil half cup of any dalia with 1.5(note: For wheat dalia - use 1.7 glass of water) glass of water and add salt, haldi, black pepper, , chopped green chilli, nutella badi and chopped capsicum, chopper cabbage(patta gobi), one potato (while the daila is boiling, so that capscium and cabbage leaves gets boiled otherwise capscium and cabbage leaves is not much easy to eat raw).
+
+*Cooking Tip: For mix-grain you must do 1 whistle at medium flame and then having additional 7 whistle at low-flame(you must allow the 7th whistle to be kept and let it out on its own ~ typically takes 5-10 minutes and then open the cooker.*
+
+- Boil half cup of any dalia with 1.7 (for *all types*) glass of water in cooker and add salt, haldi, black pepper, chopped green chilli, nutella badi, chopped potato and chopped capsicum, chopped cabbage(patta gobi). While the daila is boiling capscium and cabbage leaves gets cooked properly.
 - Additives: {Mix below ingredients just before serving so enjoy the raw flavor of each thing -> Tomato, Onion, small pieces of cutted Kheera(not Muli)}, Maggi Masala or Chings Fried Rice masala (not Pasta masala), or {maggiMasala + Chings Manchurian} after you have stopped cooking dalia else the masala will not be much tasteful, Chilli Achar/other achaar. ;; Serving: You an use 2spoon ghee, curd with dalia to eat it too.
 
 <ins>**CHAWMIN**</ins>
