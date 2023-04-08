@@ -12,6 +12,8 @@ Please do it ASAP!
 
 ## Playwright mock responses for api calls
 
+Docs: [Click here](https://playwright.dev/docs/network)
+
 ![image](https://user-images.githubusercontent.com/31458531/230743178-0ab11038-a7c5-430d-b2d1-77bea3b01af7.png)
 
 ## Amazing 2
