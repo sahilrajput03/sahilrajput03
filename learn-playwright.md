@@ -1,5 +1,11 @@
 # Learn Playwright
 
+Quick Links:
+- Locator: [Click here](https://playwright.dev/docs/api/class-locator)
+- Locators: [Click here](https://playwright.dev/docs/locators)
+- Test-timeouts: [Click here](https://playwright.dev/docs/test-timeouts)
+- Test configuration: [Click here](https://playwright.dev/docs/test-configuration)
+
 A testing tool.
 
 ## TODO URGENT: Remove text related to slasher's internal code business and folder structure by bluriing it!
