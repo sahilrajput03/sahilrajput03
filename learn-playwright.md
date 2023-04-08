@@ -6,6 +6,10 @@ A testing tool.
 
 Please do it ASAP!
 
+## Awesome Debugging tip to debug chromium mock-api response issues
+
+![image](https://user-images.githubusercontent.com/31458531/230744216-0ed2a8bf-4db5-4154-bf7c-527713b0ea4b.png)
+
 ## Playwright mock responses for api calls
 
 ![image](https://user-images.githubusercontent.com/31458531/230743178-0ab11038-a7c5-430d-b2d1-77bea3b01af7.png)
