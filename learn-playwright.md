@@ -4,9 +4,13 @@ Quick Links:
 - Locator: [Click here](https://playwright.dev/docs/api/class-locator)
 - Locators: [Click here](https://playwright.dev/docs/locators)
 - Test-timeouts: [Click here](https://playwright.dev/docs/test-timeouts)
-- Test configuration: [Click here](https://playwright.dev/docs/test-configuration)
+- Test configuration: [Click here](https://playwright.dev/docs/test-configuration)e
 
 A testing tool.
+
+## Thats how you run a single file with playwrigt
+
+`npm run test:e2e -- e2e/home.test.ts`
 
 ## TODO URGENT: Remove text related to slasher's internal code business and folder structure by bluriing it!
 
