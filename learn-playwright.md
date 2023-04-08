@@ -2,6 +2,10 @@
 
 A testing tool.
 
+## Playwright mock responses for api calls
+
+![image](https://user-images.githubusercontent.com/31458531/230743178-0ab11038-a7c5-430d-b2d1-77bea3b01af7.png)
+
 ## Amazing 2
 
 ![image](https://user-images.githubusercontent.com/31458531/230742867-2062504f-0504-47f0-a284-0486fda56401.png)
