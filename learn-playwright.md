@@ -8,6 +8,107 @@ Quick Links:
 
 A testing tool.
 
+## Playwright Text Notes
+
+```txt
+Date Last Updated: 9/April/2023
+================================
+TODO: MAKE NOTES OUT OF ALL THESE
+=================================
+
+
+WAIT UNTIL NETWORK IDLE
+========================
+await page.waitForURL(homeUrl, {
+  waitUntil: 'networkidle',
+});
+
+
+WAIT FOR SOME TIME ON A PAGE
+============================
+await page.waitForTimeout(20_000);
+
+TO WAIT FOR A SELECTOR
+======================
+await page.waitForSelector('main');
+
+
+TO HELP WITH CHECKING URL AT ANY GIVEN TIME:
+============================================
+console.log(`Current URL-1: ${page.url()}`);
+await page.goto(pagePath, { timeout: 180_000 });
+console.log(`Current URL-2: ${page.url()}`);
+
+await page.waitForLoadState('networkidle');
+console.log(`Current URL-A: ${page.url()}`);
+
+const expectedUrl = `${baseURL}/app/home`;
+await page.waitForNavigation({ url: expectedUrl, timeout: 50_000 });
+console.log(`Current URL-B: ${page.url()}`);
+
+
+
+TO ENABLE UI FOR browser
+========================
++  const browser = await chromium.launch({ headless: false });
+
+
+THINGS WHICH FIXED THE ISSUE!
+================================
+// Improve test timeout to support slow systems.
+test.setTimeout(180_000); // Default = 10_000
+test.describe(pagePath, () => {...})
+// Make browser ready for testing
+setupMockResponses(page);
+// Increase navigation timeout to support slow systems.
+page.context().setDefaultNavigationTimeout(180_000); // Default = 10_000
+
+
+VIEW COMPLETE HTML OF PAGE
+==========================
+console.log('html?', await page.content());
+console.log('innerHTML?', await page.innerHTML('main'));
+console.log('innerText?', await page.innerText('main'));
+
+
+SET NAVIGATION TIMEOUT FOR A SINGLE NAVIGATION
+==============================================
+await page.goto(str, {
+  timeout: 180_000,
+  waitUntil: 'load', // "load" |  | "networkidle" | "commit" | 'domcontentloaded' | undefined
+});
+
+
+playwrignt.config.ts
+====================
+{
+
+  webServer: {
+    command: process.env.CI
+      ? `npm run serve-build -- -l ${port}`
+      : `cross-env NODE_ENV=test PORT=${port} npm run start`,
+    port,
+    // TIP: Use below to test with `react-scripts` server.
+    // Note: You would need to change the PORT value to 3000 as well.
+    // reuseExistingServer: true,
+  },
+}
+
+
+`setDefaultNavigationTimeout()` change navigation timeout for following methods
+======================================================================
+// page.goBack(), page.goForward(), page.goto(url[, options]),
+// page.reload(), page.setContent(), page.waitForNavigation()
+
+
+ DEBUGGING TIP
+ ==============
+ Use below instruction to pause chromium and then test on your own
+ and without automation. Use either of below options:
+ 1. await page.waitForTimeout(10000 * 1000);
+ 2. page.pause()
+```
+
 ## Thats how you run a single file with playwrigt
 
 `npm run test:e2e -- e2e/home.test.ts`
