@@ -25,18 +25,22 @@ Source: [Click here](https://www.youtube.com/watch?v=LTwg0kqdK4I)
 
 ## Playwright Text Notes
 
+**Timeouts (in order of my usage):**
+
 ```txt
 1. Navigation Timeout
 =====================
-`config.user.navigationTimeout` in `playwright.config.ts`
+`config.use.navigationTimeout` in `playwright.config.ts`
 (Default = 0 i.e., no timeout)
 
-// Increase navigation timeout to support slow systems
+// USAGE: Increase navigation timeout to support slow systems
 page.context().setDefaultNavigationTimeout(180_000); // Default = 0 (or value set in `config.use.navigationTimeout` in `playwright.config.ts`)
 
 
 2. `Test` and `beforeAll/afterAll` timeout
 ==========================================
+`config.timeout` in `playwright.config.ts`
+
 - For test: `test.setTimeout(180_000)` // DEFAULT = 30_000 (or value set in `config.timeout` in `playwright.config.ts`)
 - For `beforeAll/afterAll` timeout: `test.setTimeout(180_000)` (this doesn't seem to be settable via `playwright.config.ts`)
 
@@ -50,6 +54,7 @@ page.setDefaultTimeout(180_000)
 locator.click({ timeout: 180_000 })
 ```
 
+**Other:**
 
 ```txt
 Date Last Updated: 9/April/2023
