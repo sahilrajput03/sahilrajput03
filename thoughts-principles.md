@@ -187,3 +187,5 @@ Hoga! Terse ni hoga toh kisi se ni hoga! ~ Tushar Kalia
 You can fool some of the people all of the time, and all of the people some of the time, but you can not fool all of the people all of the time. ~ Abraham Lincoln
 
 Anything that you can make use of to trick your mind to work is the most essential thing to evolution if you're seeking evolution through worldly success. Be it the practise of listening music while working, if it works it works!
+
+On time is always late, always come before time. Being on time is often considered to be "late" because it doesn't allow for any unforeseen delays or complications that could arise. ~ Sudhanshu Jain (YTube)
