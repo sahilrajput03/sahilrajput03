@@ -1,5 +1,8 @@
 # Learn Playwright
 
+Tutorials:
+- Playwright Beginner Tutorial 3 | How to run tests: [Click here](https://www.youtube.com/watch?v=LTwg0kqdK4I)
+
 Quick Links:
 - Locator: [Click here](https://playwright.dev/docs/api/class-locator)
 - Locators: [Click here](https://playwright.dev/docs/locators)
@@ -7,6 +10,13 @@ Quick Links:
 - Test configuration: [Click here](https://playwright.dev/docs/test-configuration)e
 
 A testing tool.
+
+## Playwright Cheatsheet
+
+Source: [Click here](https://www.youtube.com/watch?v=LTwg0kqdK4I)
+
+![image](https://user-images.githubusercontent.com/31458531/230945015-2520e77a-a3ab-4a8c-8b5b-7b10174e6d07.png)
+
 
 ## Playwright Text Notes
 
