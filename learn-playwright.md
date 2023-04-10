@@ -4,8 +4,8 @@
 - Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8)
 
 Docs Links:
-- Running Tests: [Click here](https://playwright.dev/docs/running-tests)
-- Debugging Tests: [Click here](https://playwright.dev/docs/debug)
+- **Running Tests:** [Click here](https://playwright.dev/docs/running-tests)
+- **Debugging Tests:** [Click here](https://playwright.dev/docs/debug)
 - Locator: [Click here](https://playwright.dev/docs/api/class-locator)
 - Locators: [Click here](https://playwright.dev/docs/locators)
 - Test-timeouts: [Click here](https://playwright.dev/docs/test-timeouts)
