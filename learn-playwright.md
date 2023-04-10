@@ -26,6 +26,33 @@ Source: [Click here](https://www.youtube.com/watch?v=LTwg0kqdK4I)
 ## Playwright Text Notes
 
 ```txt
+Navigation Timeout
+==================
+`config.user.navigationTimeout` in `playwright.config.ts`
+(Default = 0 i.e., no timeout)
+
+// Increase navigation timeout to support slow systems
+page.context().setDefaultNavigationTimeout(180_000); // Default = 0 (or value set in `config.use.navigationTimeout` in `playwright.config.ts`)
+
+
+Default Timeout
+====================================================
+`config.use.actionTimeout` in `playwright.config.ts`
+(Default = 0 i.e., no timeout)
+
+E.g., For a single action we can override via: `locator.click({ timeout: 10000 })`
+
+FROM DOCS: Maximum time in milliseconds. Defaults to 0 - no timeout. The default value can be changed via `actionTimeout` option in the config, or by using the `browserContext.setDefaultTimeout()` or `page.setDefaultTimeout()` methods.
+
+`Test` and `beforeAll/afterAll` timeout
+==========================
+For test: `test.setTimeout(180_000)` // DEFAULT = 30_000 (or value set in `config.timeout` in `playwright.config.ts`)
+
+For `beforeAll/afterAll` timeout: `test.setTimeout(180_000)` (this doesn't seem to be settable via `playwright.config.ts`)
+```
+
+
+```txt
 Date Last Updated: 9/April/2023
 ================================
 
@@ -74,29 +101,6 @@ test.setTimeout(180_000); // Default = 10_000 or value set in file `playwright.c
 test.describe(pagePath, () => {...})
 // Make browser ready for testing
 setupMockResponses(page);
-
-
-Default Timeout
-====================================================
-`config.use.actionTimeout` in `playwright.config.ts`
-(Default = 0 i.e., no timeout)
-
-E.g., For a single action we can override via: `locator.click({ timeout: 10000 })`
-
-FROM DOCS: Maximum time in milliseconds. Defaults to 0 - no timeout. The default value can be changed via `actionTimeout` option in the config, or by using the browserContext.setDefaultTimeout() or page.setDefaultTimeout() methods.
-
-`Test` and `beforeAll/afterAll` timeout
-==========================
-test.setTimeout(180_000); // DEFAULT = 30_000
-
-
-Navigation Timeout
-==================
-`config.user.navigationTimeout` in `playwright.config.ts`
-(Default = 0 i.e., no timeout)
-
-// Increase navigation timeout to support slow systems
-page.context().setDefaultNavigationTimeout(180_000); // Default = 10_000
 
 
 VIEW COMPLETE HTML OF PAGE
