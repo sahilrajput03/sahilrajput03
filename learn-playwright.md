@@ -1,7 +1,7 @@
 # Learn Playwright
 
-Tutorials:
-- Playwright Beginner Tutorial 3 | How to run tests: [Click here](https://www.youtube.com/watch?v=LTwg0kqdK4I)
+**Tutorials:**
+- Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8)
 
 Quick Links:
 - Locator: [Click here](https://playwright.dev/docs/api/class-locator)
