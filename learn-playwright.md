@@ -27,7 +27,7 @@ Source: [Click here](https://www.youtube.com/watch?v=LTwg0kqdK4I)
 
 ```txt
 1. Navigation Timeout
-==================
+=====================
 `config.user.navigationTimeout` in `playwright.config.ts`
 (Default = 0 i.e., no timeout)
 
@@ -36,12 +36,12 @@ page.context().setDefaultNavigationTimeout(180_000); // Default = 0 (or value se
 
 
 2. `Test` and `beforeAll/afterAll` timeout
-=======================================
+==========================================
 - For test: `test.setTimeout(180_000)` // DEFAULT = 30_000 (or value set in `config.timeout` in `playwright.config.ts`)
 - For `beforeAll/afterAll` timeout: `test.setTimeout(180_000)` (this doesn't seem to be settable via `playwright.config.ts`)
 
 3. Default Timeout
-===============
+==================
 `config.use.actionTimeout` in `playwright.config.ts`
 (Default = 0 i.e., no timeout)
 
