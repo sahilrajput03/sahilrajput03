@@ -36,7 +36,7 @@ After creating the project it would look like that:
 
 ## You can open a ticket in new tab and copy link to the ticket by this
 
-![image](https://user-images.githubusercontent.com/31458531/223523628-5cd7b192-596a-44a8-aca7-8317f2484801.png)
+![image](https://user-images.githubusercontent.com/31458531/231019162-5afb86ff-d3dd-4a23-a1f1-1f58366ca02d.png)
 
 ## We can copy link of an issue by right clicking the ticket icon
 
