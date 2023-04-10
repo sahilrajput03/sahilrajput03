@@ -3,13 +3,19 @@
 **Tutorials:**
 - Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8)
 
-Quick Links:
+Docs Links:
+- Running Tests: [Click here](https://playwright.dev/docs/running-tests)
+- Debugging Tests: [Click here](https://playwright.dev/docs/debug)
 - Locator: [Click here](https://playwright.dev/docs/api/class-locator)
 - Locators: [Click here](https://playwright.dev/docs/locators)
 - Test-timeouts: [Click here](https://playwright.dev/docs/test-timeouts)
-- Test configuration: [Click here](https://playwright.dev/docs/test-configuration)e
+- Test configuration: [Click here](https://playwright.dev/docs/test-configuration)
 
 A testing tool.
+
+## Slowmo might be very effective for testing
+
+![image](https://user-images.githubusercontent.com/31458531/230953148-0b481449-9d93-4e1c-a01d-084142f7407e.png)
 
 ## Playwright Cheatsheet
 
