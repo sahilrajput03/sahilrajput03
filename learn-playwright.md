@@ -15,8 +15,7 @@ A testing tool.
 
 Source: [Click here](https://www.youtube.com/watch?v=LTwg0kqdK4I)
 
-![image](https://user-images.githubusercontent.com/31458531/230945015-2520e77a-a3ab-4a8c-8b5b-7b10174e6d07.png)
-
+![image](https://user-images.githubusercontent.com/31458531/230945947-ebd07c34-aaba-4e5a-8fcc-a9c4d3132921.png)
 
 ## Playwright Text Notes
 
