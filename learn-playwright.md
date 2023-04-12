@@ -1,7 +1,7 @@
 # Learn Playwright
 
 **Tutorials:**
-- Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8)
+- **TODO:** Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8)
 
 Docs Links:
 - **Running Tests:** [Click here](https://playwright.dev/docs/running-tests)
