@@ -8,6 +8,13 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## wifi doesn't start on boot? (manjaro problem)
+
+```bash
+sudo pacman -Syu
+sudo systemctl restart NetworkManager
+```
+
 ## install `unrar` to extract .rar files
 
 Source: [Click here](https://unix.stackexchange.com/a/246537/504112)
