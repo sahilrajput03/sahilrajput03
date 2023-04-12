@@ -12,6 +12,7 @@
 
 ```bash
 sudo pacman -Syu
+# restart network manager
 sudo systemctl restart NetworkManager
 ```
 
