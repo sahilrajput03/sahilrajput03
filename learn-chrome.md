@@ -67,3 +67,7 @@ Disabled below extensions becoz of too much memory usage(deteced from Google Chr
 - [Multiple Tools for Facebook](https://chrome.google.com/webstore/detail/multiple-tools-for-facebo/eojdckfcadamkapabechhbnkleligand)
 - [Convertio](https://chrome.google.com/webstore/detail/convertio/eppjkefeiehhflmgkhdooajgbkkegpcl?hl=en) - A Document format converter Better use web service @ https://convertio.co 
 - [Screen Recorder](https://chrome.google.com/webstore/detail/screen-recorder/hniebljpgcogalllopnjokppmgbhaden/related?hl=en) - (via Ratan)
+
+# Browser developer tools - Tips
+
+![image](https://user-images.githubusercontent.com/31458531/231622265-077fce2a-46a1-40a8-9a9d-c9cfc21c0777.png)
