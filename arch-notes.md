@@ -8,6 +8,17 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## My time wont sync with network time
+
+[Click here](https://forum.manjaro.org/t/my-time-wont-sync-with-network-time/93959)
+
+```bash
+systemctl start systemd-timesyncd.service
+```
+
+![image](https://user-images.githubusercontent.com/31458531/231935406-1e618dff-e71b-4451-bc45-aec27d6ebdd9.png)
+
+
 ## wifi doesn't start on boot? (manjaro problem)
 
 ```bash
