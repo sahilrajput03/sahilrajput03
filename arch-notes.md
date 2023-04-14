@@ -13,6 +13,7 @@
 [Click here](https://forum.manjaro.org/t/my-time-wont-sync-with-network-time/93959)
 
 ```bash
+// This command should start the time sync service.
 systemctl start systemd-timesyncd.service
 ```
 
