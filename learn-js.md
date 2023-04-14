@@ -1,4 +1,31 @@
 
+## `??=`, `||=` and `&&=` operators
+
+```js
+// assings only if the variable is null or undefined
+??=
+
+// assigns if null, undefined or any other falsy value
+||=
+
+// assigns only if the value already exists
+&&=
+
+
+# Examples:
+let car
+car ??= 'bar'
+// car is now 'bar'
+
+let bat = ''
+bat ||= 'something'
+// now bat is 'something'
+
+let cat = '   some test with spaces on both sides   '
+cat &&= cat.trim()
+// now cat is just 'some test with spaces on both sides'
+```
+
 ## Merge duplicates with `reduce` array method
 
 Learn: **`reduce` method creates a item i.e, `accumulator` and does *not* mutate the original array at all.**
