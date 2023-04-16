@@ -189,3 +189,5 @@ You can fool some of the people all of the time, and all of the people some of t
 Anything that you can make use of to trick your mind to work is the most essential thing to evolution if you're seeking evolution through worldly success. Be it the practise of listening music while working, if it works it works!
 
 On time is always late, always come before time. Being on time is often considered to be "late" because it doesn't allow for any unforeseen delays or complications that could arise. ~ Sudhanshu Jain (YTube)
+
+Jugglers and singers require applause. You are a lannister. Do you think I demanded a garland of rose everytim I suffered a wound on a battlefield? ~ Tywin Lanister
