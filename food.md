@@ -10,6 +10,7 @@
 - Water
 - Banana, Badam Shake
 - Lassi
+- Tea
 
 # Have 1-2 glass of water on waking
 
