@@ -13,6 +13,10 @@ Docs Links:
 
 A testing tool.
 
+## Latest changes made by Eric in slasher?
+
+[Commit](https://bitbucket.org/slasherapp/slasher-web-frontend/commits/da1ffcfe68c49f9c4d467aef397edac4880e0e95#Le2e/registration/security.test.tsF7T9)
+
 ## Slowmo might be very effective for testing
 
 ![image](https://user-images.githubusercontent.com/31458531/230953148-0b481449-9d93-4e1c-a01d-084142f7407e.png)
