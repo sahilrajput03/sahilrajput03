@@ -8,6 +8,17 @@
 **FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
 **FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
+## Using red filter on archlinux
+
+
+```bash
+# Install
+sudo pacman -S redshift
+
+# Usage: red 1000 - red 25000
+alias red='redshift -P -O'
+```
+
 ## My time wont sync with network time
 
 [Click here](https://forum.manjaro.org/t/my-time-wont-sync-with-network-time/93959)
