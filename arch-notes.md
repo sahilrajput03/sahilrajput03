@@ -10,6 +10,7 @@
 
 ## Using red filter on archlinux
 
+Docs: [Click here](https://linuxhint.com/night-light-apps-linux/)
 
 ```bash
 # Install
