@@ -16,8 +16,11 @@ Docs: [Click here](https://linuxhint.com/night-light-apps-linux/)
 # Install
 sudo pacman -S redshift
 
-# Usage: red 1000 - red 25000
+# Usage: red TEMPERATUR, e.g., red 1000, red 25000
 alias red='redshift -P -O'
+
+# Usage: redReset
+redshift -x
 ```
 
 ## My time wont sync with network time
