@@ -6,6 +6,10 @@
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
+## Amazing custom filters in Jira
+
+![image](https://user-images.githubusercontent.com/31458531/233391329-a7b2a4d9-e808-4317-84c8-729633f6a523.png)
+
 ## Restrict the option to export Issues
 
 - OFFICIAL JIRA TICKET: Restrict the option to export Issues: [Click here](https://jira.atlassian.com/browse/JRACLOUD-74232)
