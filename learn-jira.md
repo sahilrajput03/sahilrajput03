@@ -8,6 +8,12 @@
 
 ## Amazing custom filters in Jira
 
+A filter I made:
+
+![image](https://user-images.githubusercontent.com/31458531/233393413-cbfa442d-b9c4-451c-813b-bc0aef4b5fff.png)
+
+Other examples:
+
 ![image](https://user-images.githubusercontent.com/31458531/233391329-a7b2a4d9-e808-4317-84c8-729633f6a523.png)
 
 ## Restrict the option to export Issues
