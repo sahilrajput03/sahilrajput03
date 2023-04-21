@@ -16,6 +16,8 @@ A filter I made:
 
 Another filter I made:
 
+`(status = "Changes Requested" OR status = "In Progress" OR status = "To Do") AND assignee = currentUser()`
+
 ![image](https://user-images.githubusercontent.com/31458531/233698999-5e0136af-0bf8-47fc-a75f-01cb6b115379.png)
 
 Other examples:
