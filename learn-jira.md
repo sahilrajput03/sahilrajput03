@@ -12,6 +12,10 @@ A filter I made:
 
 ![image](https://user-images.githubusercontent.com/31458531/233393413-cbfa442d-b9c4-451c-813b-bc0aef4b5fff.png)
 
+Another filter I made:
+
+![image](https://user-images.githubusercontent.com/31458531/233698999-5e0136af-0bf8-47fc-a75f-01cb6b115379.png)
+
 Other examples:
 
 ![image](https://user-images.githubusercontent.com/31458531/233391329-a7b2a4d9-e808-4317-84c8-729633f6a523.png)
