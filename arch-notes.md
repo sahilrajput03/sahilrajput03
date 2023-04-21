@@ -2202,6 +2202,19 @@ sudo pacman -U nvm-*******-any.pkg.tar.zst
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 ```
 
+- Update `npm` version using `nvm`
+
+```bash
+# for my slasher project
+npm install -g npm@8.2.0
+
+# Source: https://stackoverflow.com/a/33575448
+# to get latest npm
+nvm install-latest-npm
+# or
+nvm install --latest-npm
+```
+
 #### Insall yarn my arch setup
 
 `npm i -g yarn`
