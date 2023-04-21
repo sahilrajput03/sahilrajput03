@@ -547,7 +547,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   /bin/bash
   ```
   
-- Install more utility AUR PACKAGES
+- Install more utility AUR PACKAGES, #install vscode, #install visual studio code, #install code
   
   ```bash
   ## FYI: With yay
