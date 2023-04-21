@@ -6,7 +6,7 @@ _**Why do i make notes when i can use the same video _source/ article source_ to
 
 ## Installing from scratch
 
-1. `dd if=pathToArchLinuxOS.iso of /dev/sda status=progress` : Setting up bootable pendrive. (if option means input file path). TIP: You can use `lsblk` _<stands for::listBlockDevices>_ to list all the devices plugged in at the moment.
+1. `dd if=pathToArchLinuxOS.iso of /dev/sda status=progress` : Setting up bootable pendrive. (if option means input file path). TIP: You can use `lsblk` _<stands for::listBlockDevices>_ to list all the devices plugged in at the moment. (for my latest dell laptop I used this command to create iso image: `sudo dd bs=4M if=/home/array/Downloads/manjaro-i3-22.0-230104-linux61.iso of=/dev/sdc status=progress oflag=sync`)
 2. `sudo su` to become root.
 TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` features in your boot menu as it can cause problems in installation of the os.
 3. `wifi-menu` to access wifi targets and connect to them (it is highly recommened).
