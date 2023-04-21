@@ -11,6 +11,14 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Fixing the `No disk drives found` issue in my new dell laptop (error shown in manjaro installer)
+
+![image](https://user-images.githubusercontent.com/31458531/233633405-4db348af-4f8c-4c97-9e62-61157da6a8d2.png)
+
+- It was setup with "RAID On" when windows was installed.
+- In manjaro installer I was not getting the "disk drives not found" issue so changing this to AHCI now.
+- I found this recommendation @ [Click here](https://forum.manjaro.org/t/manjaro-not-detecting-my-harddisk/39847/2)
+
 ## Using red filter on archlinux
 
 Docs: [Click here](https://linuxhint.com/night-light-apps-linux/)
