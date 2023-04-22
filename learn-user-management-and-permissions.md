@@ -1,5 +1,5 @@
 **Sources:**
-- **Creating new users (Linuxize's Article): [Click here](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/)
+- **Creating new users (Linuxize's Article):** [Click here](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/)
 - **Changing ownership of file/folders (recursively):** [Click here](https://askubuntu.com/a/693427)
 
 ```bash
