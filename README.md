@@ -210,6 +210,7 @@ cra: 335mb
 - Learn Luxon: [Click here](learn-luxon.md)
 - Learn South Indian Bank | Internet Banking: [Click here](learn-south-india-bank)
 - Learn Upwork (private repository): [Click here](learn-upwork)
+- Learn Flameshot: [Click here](learn-flameshot.md)
 
 ## Redmi note 5:
 
