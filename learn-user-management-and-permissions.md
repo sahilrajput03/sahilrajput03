@@ -56,7 +56,28 @@ su root
 sudo su
 
 
-########## PERMISSION MANAGEMENT
+########## OWNERSHIP AND PERMISSION MANAGEMENT
+Every Linux system have three types of owner:
+=============================================
+1. User: A user is the one who created the file. By default, whosoever, creates the file becomes the owner of the file. A user can create, delete, or modify the file.
+2. Group: A group can contain multiple users. All the users belonging to a group have same access permission for a file.
+3. Other: Any one who has access to the file other than user and group comes in the category of other. Other has neither created the file nor is a group member.
+
+
+IMPORTANT: For command `chown` use -R or --recursive (operate on files and directories recursively)
+
+# Change user owner and group owner of the file:
+chown -R USERNAME:GROUPNAME /PATH/TO/FILE
+
+# (*Most commonly used)
+# Usually a user owner is same name as the group owner of the file/folder, so we can omit group name and use : instead as well as syntatic sugar
+chown -R USERNAME: /PATH/TO/FILE
+
+# To only change the user and leave the group as it is, just specify USERNAME and no group name and no colon:
+chown -R USERNAME /PATH/TO/FILE
+
+# Checking permissoin and ownership with `ls -l` command
+========================================================
 
 ls -l
 # Output: (Each file/folder has this type of code in front of them)
@@ -68,14 +89,14 @@ ls -l
 # 890: read write execution permission for all other users.
 
 
-# user of the file:
+# change permissions for the user owner of file/folder:
 $ chmod +rwx filename
 
-# all the users in the group of the
+# change permission for all the users in the group owner of file/folder:
 chmod g+w filename
 chmod g-wx filename
 
-# others
+# change permission for all other users
 chmod o+w filename
 chmod o-rwx foldername
 
