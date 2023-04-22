@@ -11,7 +11,7 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
-## New learning from monajaro-i3 installation (default setup)
+## ♥💕❤ New learning from monajaro-i3 installation (default setup)
 
 1. `mod+m` makes the taskbar autohide and to see taskbar show automatically you need to press `mod` anytime you want).
 2. `mod+b` toggle b/w last workspace.
