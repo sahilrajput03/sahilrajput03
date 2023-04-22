@@ -433,8 +433,9 @@ flatpak install pkg-name
 # src: https://github.com/flameshot-org/flameshot/issues/2514
 # version 12 was released on jan 15, 2022 and arch package has no update for this yet..
 
-## USING .AppImage version of `flameshot` which is pretty insane that it doesn't require installation at all, and i simply needed to download the `flameshot-version-here.AppImage` from the release page i.e., https://github.com/flameshot-org/flameshot/releases .
-and it simply runs like hell, yikes!!!
+## USING .AppImage version of `flameshot` which is pretty insane that it doesn't require installation at all.
+# I simply needed to download the `flameshot-version-here.AppImage` from https://github.com/flameshot-org/flameshot/releases
+# sudo mv flameshot /usr/bin
 ```
 
 ## Install `handbrake` vide encoder that compresses a ton
