@@ -2,6 +2,13 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## Set email and name globally
+
+```bash
+git config --global user.name "Sahil Rajput"
+git config --global user.email "sahilrajput03@gmail.com"
+```
+
 ## disable pager in git output
 
 ```txt
