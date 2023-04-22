@@ -11,6 +11,12 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## New learning from monajaro-i3 installation (default setup)
+
+1. `mod+m` makes the taskbar autohide and to see taskbar show automatically you need to press `mod` anytime you want).
+2. `mod+b` toggle b/w last workspace.
+3. `mod+ <anyWorkspaceNumber>` switched to target workspace but when pressed again act as switching b/w current and last workspace.
+
 ## Fixing the `No disk drives found` issue in my new dell laptop (error shown in manjaro installer)
 
 ![image](https://user-images.githubusercontent.com/31458531/233633405-4db348af-4f8c-4c97-9e62-61157da6a8d2.png)
