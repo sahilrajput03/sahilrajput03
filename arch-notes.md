@@ -11,6 +11,22 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Fixing flameshow in new manajaro-i3 install
+
+You need to disable below lines as shown i.e, by adding a prefix of # for each of these lines:
+
+```
+# bindsym Print exec --no-startup-id i3-scrot
+# bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+# bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+```
+
+and you need to add this line for flameshot:
+
+```
+bindsym Print exec /usr/bin/flameshot gui
+```
+
 ## New version of linux released on 20 April, 2023
 
 Source: [Click here](https://www.kernel.org/)
