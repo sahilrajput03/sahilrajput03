@@ -8,7 +8,7 @@
 
 ## Git lens - Viewing diff for current file or all files of a commit
 
-![image](https://user-images.githubusercontent.com/31458531/233828555-8a6e0942-7e46-4834-9e03-c21a44c09f9d.png)
+![image](https://user-images.githubusercontent.com/31458531/233828591-713230ce-fb0d-427c-b847-ac54bd993aa0.png)
 
 ## Amazing three way commit view and comparing with base for both (current,incoming changes)
 
