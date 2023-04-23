@@ -14,6 +14,10 @@ Superawesome video: [Click here](https://youtu.be/HosPml1qkrg)
 
 ![image](https://user-images.githubusercontent.com/31458531/229890350-e5150491-5602-4de2-840e-ea20a230a945.png)
 
+## Git lens - Opening git diffs active file or all files of the commit
+
+![image](https://user-images.githubusercontent.com/31458531/233828499-8dfd4a2a-2897-4f09-9049-578d481d61ed.png)
+
 ## Git lens
 
 ![image](https://user-images.githubusercontent.com/31458531/229564560-d7e9518a-1a1f-45db-a2f4-7d0d51bc1a21.png)
