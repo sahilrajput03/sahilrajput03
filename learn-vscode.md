@@ -6,6 +6,10 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## Open Jira tickets or other work management tickets via `Autolinks` feature of git-lens
+
+![image](https://user-images.githubusercontent.com/31458531/233838213-2f0fb290-1428-4250-9e15-18c20d6f194c.png)
+
 ## Git lens - Viewing diff for current file or all files of a commit
 
 ![image](https://user-images.githubusercontent.com/31458531/233828591-713230ce-fb0d-427c-b847-ac54bd993aa0.png)
