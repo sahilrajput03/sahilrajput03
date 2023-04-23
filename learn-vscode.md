@@ -6,6 +6,10 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## Git lens - Viewing diff for current file or all files of a commit
+
+![image](https://user-images.githubusercontent.com/31458531/233828555-8a6e0942-7e46-4834-9e03-c21a44c09f9d.png)
+
 ## Amazing three way commit view and comparing with base for both (current,incoming changes)
 
 Superawesome video: [Click here](https://youtu.be/HosPml1qkrg)
