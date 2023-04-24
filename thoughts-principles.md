@@ -191,3 +191,5 @@ Anything that you can make use of to trick your mind to work is the most essenti
 On time is always late, always come before time. Being on time is often considered to be "late" because it doesn't allow for any unforeseen delays or complications that could arise. ~ Sudhanshu Jain (YTube)
 
 Jugglers and singers require applause. You are a lannister. Do you think I demanded a garland of rose everytim I suffered a wound on a battlefield? ~ Tywin Lanister
+
+Expectations are the source of all suffering. ~ Buddha
