@@ -11,6 +11,20 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Install `cloc` to show lines of code (LOC)
+
+```bash
+pacman -S cloc
+
+# Usage:
+cloc --exclude-dir=node_modules .
+```
+
+![image](https://user-images.githubusercontent.com/31458531/234203959-baf6067f-edc6-4c70-9a0a-f38ee67879f0.png)
+
+![image](https://user-images.githubusercontent.com/31458531/234204069-15a8318f-5730-400b-9a90-c602aa27ceb4.png)
+
+
 ## Fixing flameshow in new manajaro-i3 install
 
 You need to disable below lines as shown i.e, by adding a prefix of # for each of these lines:
