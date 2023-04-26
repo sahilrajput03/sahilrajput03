@@ -211,6 +211,7 @@ cra: 335mb
 - Learn South Indian Bank | Internet Banking: [Click here](learn-south-india-bank)
 - Learn Upwork (private repository): [Click here](learn-upwork)
 - Learn Flameshot: [Click here](learn-flameshot.md)
+- Learn Wordpress Editing: [Click here](learn-wordpress-editing.md)
 
 ## Redmi note 5:
 
