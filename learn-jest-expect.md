@@ -22,7 +22,8 @@ expect(...).toEqual({
 	createdAt: expect.any(String),
 	updatedAt: expect.any(String),
 	startDate: '2022-10-24T00:00:00.000Z', // using dates with `luxon.DateTime.fromISO('2022-10-17T00:00:00Z').toJSDate().toISOString()`
-	endDate: '2022-10-25T23:59:59.000Z', // using dates with `luxon.DateTime.fromISO('2022-10-17T00:00:00Z').toJSDate().toISOString()`
+	endDate: '2022-10-25T23:59:59.000Z', // using dates with `luxon.DateTime.fromISO('2022-10-25T23:59:59Z').toJSDate().toISOString()`
+	// NOTE the difference of extra .000 before Z
 })
 ```
 
