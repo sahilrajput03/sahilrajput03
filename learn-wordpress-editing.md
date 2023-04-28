@@ -12,9 +12,9 @@
 
 TODO: Learn to run wordpress site run locally by downloading it via ftp first!
 
-- **Wordpress code-editor is shit (Pages > Editing page> Edit in code editor) is shit because <br/> tag is inserted automatically on pasting the code from local vscode editor. Track this issue here: [click here](https://github.com/WordPress/gutenberg/issues/9056).**
+## Getting `<br/>` tags added to the code when pasting code to code editor while creating/editing post/page in wordpress
 
-Wow! This is the solution to the issue of pasting code doesn't work: [Click here](https://github.com/WordPress/gutenberg/issues/9056#issuecomment-451577523) i.e,
+Solution: [Click here](https://github.com/WordPress/gutenberg/issues/9056#issuecomment-451577523) i.e,
 
 ```text
 <!-- wp:html -->Paste your code here<!-- /wp:html -->
