@@ -239,56 +239,51 @@ Yes, pretty amazing experience!
 
 ## gzip - a gnu cli tool to compress
 
+ALIAS: `gzip`, `gunzip` and `zcat`
+
 Source: `Fireship.io` & https://linuxize.com/post/how-to-extract-unzip-tar-gz-file/.
 
 `gzip` can compress only files.
 
 ```bash
+# Compress a file
+gzip -c a.txt > a.gz
+ls
+ # OUTPUT: a.txt a.gz
+ 
+# Compress a file (inplace comression use by *CAUTION*)
+gzip array.png
+ls
+# OUTPUT: array.png.gz
 
-# COMPRESSING A DIRECTORY: src: https://unix.stackexchange.com/a/93158/504112
+# Get compression ratio of a `compressed ratio` with -l option (higher the ratio more more the compression):
+gzip -l array.png.gz
+# Output:
+#	compressed        uncompressed  ratio uncompressed_name
+#       2724                2735   1.4% array.png
+
+# Decompress
+gzip -d array.png.gz
+ls
+# Output: array.png
+```
+
+**Using `tar`:**
+
+- **Why `tar`?** Ans. In real world we need to archive a folder but gzip can only compress files so for that reason we need a archiver like `tar`. 
+- `Archiving` is the process of *combining multiple files into a single package* called an *archive*.
+- A tar (tape archive) file *format* is an archive created by tar, a UNIX-based utility used to package files together for *backup* or *distribution purposes*.
+- The word `tar` for the program is derived from "tape archiver" which is name of output file format.
+- Tar is program that can covert directories to a single file called tarball.
+
+```bash
+# Compress a directory: src: https://unix.stackexchange.com/a/93158/504112
 tar -zcvf archive.tar.gz directory/ 
 # LEARN: 
 # compress it using the z (gzip) algorithm
 # c (create) an archive from the files in directory (tar is recursive by default)
 # v (verbosely) list (on /dev/stderr so it doesn't affect piped commands) all the files it adds to the archive.
 # f (file) to give output to a archived file with `name archive.tar.gz`
-
-
-# COMPRESSING TO A TARGET FILE
-gzip -c a.txt > a.gz
-ls
- # OUTPUT: a.txt a.gz
- 
-# COMPRESSING (by deafult gzip compresses files in place)
-gzip array.png
-ls
-# OUTPUT: array.png.gz
-
-
-# -l to list the compression ratio (higher the ratio more will be the size reduced):
-gzip -l array.png.gz
-# Output:
-#	compressed        uncompressed  ratio uncompressed_name
-#       2724                2735   1.4% array.png
-
-# Decompressing
-gzip -d array.png.gz
-ls
-# Output: array.png
-
-# compressing again
-gzip array.png
-
-# Another way to decompress
-gunzip array.png.gz
-
-ls
-# Output: array.png
-
-#########
-# In real world we need to archive a folder but gzip can only compress files so for that reason we need a archiver like `tar`. 
-# FYI: The word `tar` for the program is derived from "tape archiver" though.
-# Tar is program that can covert directories to a single file called tarball
 
 # Usage (-z flag is to compress as well)
 # Example 1: Compressing single file/folder to a .tar file
