@@ -291,9 +291,15 @@ ls
 # Tar is program that can covert directories to a single file called tarball
 
 # Usage (-z flag is to compress as well)
-tar -czvf stuff.tar.gz scenes 
+# Example 1: Compressing single file/folder to a .tar file
+tar -czvf stuff.tar.gz scenes
 ls
-# Output: scenes  stuff.tar.gz
+# OUTPUT: scenes/  stuff.tar.gz
+
+# Example 2: Compressing multiple file/folders to a .tar file
+tar -czvf output.tar f1/ f2
+ls
+# OUTPUT: f1/ f2/ output.tar
 
 # Uncompress and untar
 tar -xvf stuff.tar
