@@ -240,30 +240,31 @@ Yes, pretty amazing experience!
 ## Using `zip`
 
 ```
-# zip help
+# Help
 zip -h
 
-### create zip file from a file
+# zip a file
 zip targetFile.zip sourceFile
 
-#### create zip file from folder
+# zip a folder
 # -r options menas recurse into directories
 zip -r targetFile.zip sourceFolder
 
-### split the zip into limited sized files
+# unzip
+unzip ccat-command.zip
+
+
+# zip and split in given size chunks
 # man zip: Use -s to set the split size and create a split archive.  The size is given as a number followed optionally by one of k (kB), m (MB), g (GB), or t (TB) (the default is m).  The  -sp  option  can  be used to pause zip between splits to allow changing removable media, for example, but read the descriptions and warnings for both -s and -sp below.
 zip -r -s 10m targetFile.zip directory/
 
-### unzipping splitted zip file
+# unzip a split zip file
 # Please refer: https://serverfault.com/a/760341
 
-### Unzip/zip the files with password
+# zip/unzip with password
 # -e options stands for `encrypt`
-zip -e targetFile.zip sourceFolder
 # source: https://www.tecmint.com/create-password-protected-zip-file-in-linux/
-
-### Unzipping:
-unzip ccat-command.zip
+zip -e targetFile.zip sourceFolder
 ```
 
 ## gzip - a gnu cli tool to compress
