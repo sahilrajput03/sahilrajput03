@@ -12,4 +12,4 @@
 
 TODO: Learn to run wordpress site run locally by downloading it via ftp first!
 
-- Wordpress code-editor is shit (Pages > Editing page> Edit in code editor) is shit because <br/> tag is inserted automatically on pasting the code from local vscode editor. Track this issue here: [click here](https://github.com/WordPress/gutenberg/issues/9056).
+- **Wordpress code-editor is shit (Pages > Editing page> Edit in code editor) is shit because <br/> tag is inserted automatically on pasting the code from local vscode editor. Track this issue here: [click here](https://github.com/WordPress/gutenberg/issues/9056).**
