@@ -19,3 +19,9 @@ Solution: [Click here](https://github.com/WordPress/gutenberg/issues/9056#issuec
 ```text
 <!-- wp:html -->Paste your code here<!-- /wp:html -->
 ```
+
+## Remove admin bar from the top of pages/posts for a user
+
+![image](https://user-images.githubusercontent.com/31458531/235245232-2573f76f-9b05-47c5-8b3c-5b45ef0880a1.png)
+
+![image](https://user-images.githubusercontent.com/31458531/235245166-39c23832-eb18-4cca-a4e4-e323fce7204f.png)
