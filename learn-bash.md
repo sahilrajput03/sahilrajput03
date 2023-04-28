@@ -251,7 +251,7 @@ tar -zcvf archive.tar.gz directory/
 # compress it using the z (gzip) algorithm
 # c (create) an archive from the files in directory (tar is recursive by default)
 # v (verbosely) list (on /dev/stderr so it doesn't affect piped commands) all the files it adds to the archive.
-# and store the output as a f (file) named archive.tar.gz
+# f (file) to give output to a archived file with `name archive.tar.gz`
 
 
 # COMPRESSING TO A TARGET FILE
