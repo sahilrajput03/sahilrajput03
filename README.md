@@ -212,6 +212,7 @@ cra: 335mb
 - Learn Upwork (private repository): [Click here](learn-upwork)
 - Learn Flameshot: [Click here](learn-flameshot.md)
 - Learn Wordpress Editing: [Click here](learn-wordpress-editing.md)
+- Learn Capacitor: [Click here](learn-capacitor.md)
 
 ## Redmi note 5:
 
