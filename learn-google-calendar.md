@@ -1,9 +1,15 @@
 # Google Calendar
 
-## Checker plus for Google Calendar
+## Checker plus for Google Calendar - 1
 
 ![image](https://user-images.githubusercontent.com/31458531/235355919-b09c9fde-b0fb-4954-8b3f-fb4caabfd6e6.png)
 
+
+## Checker plus for Google Calendar - 2
+
+You can snooze in interesting ways!!
+
+![image](https://user-images.githubusercontent.com/31458531/235356054-bdb0f470-4c91-492b-80ad-e66dbc92d961.png)
 
 ## You can toggle between view with key in google calendar
 
