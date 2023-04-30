@@ -1,6 +1,11 @@
 # Google Calendar
 
-You can toggle between view with keys:
+## Checker plus for Google Calendar
+
+![image](https://user-images.githubusercontent.com/31458531/235355919-b09c9fde-b0fb-4954-8b3f-fb4caabfd6e6.png)
+
+
+## You can toggle between view with key in google calendar
 
 ```txt
 d - day wise
