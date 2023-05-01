@@ -6,6 +6,12 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## Create Bitbucket pull request (#bitbucket pr) from vscode
+
+Extension id: `ramiroberrelleza.bitbucket-pull-requests`
+
+[Click here](https://marketplace.visualstudio.com/items?itemName=RamiroBerrelleza.bitbucket-pull-requests)
+
 ## Open Jira tickets or other work management tickets via `Autolinks` feature of git-lens
 
 ![image](https://user-images.githubusercontent.com/31458531/233838213-2f0fb290-1428-4250-9e15-18c20d6f194c.png)
