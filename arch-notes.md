@@ -1937,6 +1937,10 @@ man inotifywait
 
 ```bash
 yay -S android-studio
+
+# Installed on manjaro-i3 version (2 May, 2023):
+# SDK Location: /home/array/Android/Sdk
+# JDK Location: /opt/android-studio/jbr
 ```
 
 ## Setting up android environment with vscode (*Not works in the end part i.e, with vscode extension we're not able to generate apk builds*)
