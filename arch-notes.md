@@ -1941,6 +1941,9 @@ yay -S android-studio
 # Installed on manjaro-i3 version (2 May, 2023):
 # SDK Location: /home/array/Android/Sdk
 # JDK Location: /opt/android-studio/jbr
+
+# LEARN: adb is included in the Android SDK Platform Tools package. Download this package with the SDK Manager, which installs it at android_sdk /platform-tools/ .
+# adb Cli Location: /home/array/Android/Sdk/platform-tools/adb
 ```
 
 ## Setting up android environment with vscode (*Not works in the end part i.e, with vscode extension we're not able to generate apk builds*)
