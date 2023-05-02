@@ -1943,7 +1943,8 @@ yay -S android-studio
 # JDK Location: /opt/android-studio/jbr
 
 # LEARN: adb is included in the Android SDK Platform Tools package. Download this package with the SDK Manager, which installs it at android_sdk /platform-tools/ .
-# adb Cli Location: /home/array/Android/Sdk/platform-tools/adb
+# adb Cli Location: ~/Android/Sdk/platform-tools/adb
+# Add to /bin: sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
 ```
 
 ## Setting up android environment with vscode (*Not works in the end part i.e, with vscode extension we're not able to generate apk builds*)
