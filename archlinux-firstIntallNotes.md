@@ -2,6 +2,8 @@
 
 **Official archlinux installation guide**: [Click here](https://wiki.archlinux.org/title/installation_guide).
 
+**My Arch Notes**: [Click here](arch-notes.md)
+
 _**Why do i make notes when i can use the same video _source/ article source_ to install in the same manner the way I did it in the first place ?**_ _Ans._ Bcoz textual information can be divided into precise points in the way I understand the intention of what I need to do. And though video content has high bandwidth in terms of absorbing content but textual content can be very much helpful and text notes are irreplacably good in my experience when it comes to 2-3 years of down the line when i need to do solve the same problem again.
 
 ## Installing from scratch
