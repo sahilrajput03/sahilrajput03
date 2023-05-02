@@ -1933,7 +1933,7 @@ man inotifywait
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ (TESTED ~sahil)
 ````
 
-## Install android studio
+## Install android studio ♡ ♥💕❤😘 
 
 ```bash
 yay -S android-studio
