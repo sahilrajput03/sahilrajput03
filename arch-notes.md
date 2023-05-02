@@ -20,7 +20,7 @@ pacman -S cloc
 cloc --exclude-dir=node_modules .
 ```
 
-![image](https://user-images.githubusercontent.com/31458531/234203959-baf6067f-edc6-4c70-9a0a-f38ee67879f0.png)
+![image](https://user-images.githubusercontent.com/31458531/234203959-baf6067f-edc6-f4c70-9a0a-f38ee67879f0.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/234204069-15a8318f-5730-400b-9a90-c602aa27ceb4.png)
 
@@ -1942,12 +1942,18 @@ yay -S android-studio
 # SDK Location: /home/array/Android/Sdk
 # JDK Location: /opt/android-studio/jbr
 
-# LEARN: adb is included in the Android SDK Platform Tools package. Download this package with the SDK Manager, which installs it at android_sdk /platform-tools/ .
-# adb Cli Location: ~/Android/Sdk/platform-tools/adb
-# Add to /bin: sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
+# ISSUE: -bash: adb: command not found
+# LEARN: adb is included in the Android SDK Platform Tools package. Download this package with the SDK Manager, which installs it at ~/Android/Sdk/platform-tools/adb
+# Solution:
+#sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
+
+# ISSUE: -bash: emulator: command not found
+# Solution:
+# sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
 ```
 
-## Setting up android environment with vscode (*Not works in the end part i.e, with vscode extension we're not able to generate apk builds*)
+## Setting up android environment with vscode (*Not works in the end part i.e, with vscode extension we're not able to generate apk 
+builds*)
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
