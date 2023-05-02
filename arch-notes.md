@@ -1933,7 +1933,13 @@ man inotifywait
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ (TESTED ~sahil)
 ````
 
-## Setting up android environment with vscode
+## Install android studio
+
+```bash
+yay -S android-studio
+```
+
+## Setting up android environment with vscode (*Not works in the end part i.e, with vscode extension we're not able to generate apk builds*)
 
 Arch's article: https://wiki.archlinux.org/title/android#SDK_packages
 
