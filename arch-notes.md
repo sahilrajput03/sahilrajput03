@@ -24,7 +24,11 @@ sudo chmod 666 /var/run/docker.sock
 # PLEASE REBOOT(reboot means reboot and not just logout and login) THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
 
 yay -S google-chrome skypeforlinux-stable-bin visual-studio-code-bin mongodb-compass postman-bin nvm android-studio
-# To make `adb` and `emulator` accessible via cli
+
+# First install andoid studio by running below command
+android-studio
+
+# Now to make `adb` and `emulator` accessible via cli, we can run below commands
 sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
 sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
 ```
