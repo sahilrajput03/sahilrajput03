@@ -11,6 +11,24 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Please Keep this post on top always!!!!! ## New install softwares
+
+```bash
+sudo pacman -S vlc obs-studio docker qbittorrent docker-compose
+# To make nvm accessible via cli
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+# To make docker work
+sudo systemctl enable docker.service
+sudo systemctl start docker
+sudo chmod 666 /var/run/docker.sock
+# PLEASE REBOOT(reboot means reboot and not just logout and login) THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
+
+yay -S google-chrome skypeforlinux-stable-bin visual-studio-code-bin mongodb-compass postman-bin nvm android-studio
+# To make `adb` and `emulator` accessible via cli
+sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
+sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
+```
+
 ## Get bios version date
 
 ```bash
