@@ -11,6 +11,15 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Get bios version date
+
+```bash
+sudo dmidecode
+```
+
+![image](https://user-images.githubusercontent.com/31458531/235857732-47d0f580-6889-44c2-8eae-71c5068072d1.png)
+
+
 ## Install `cloc` to show lines of code (LOC) (25 April, 2023)
 
 ```bash
