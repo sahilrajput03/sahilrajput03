@@ -1968,6 +1968,8 @@ man inotifywait
 
 ```bash
 yay -S android-studio
+# Now you would need to complete installation by running
+android-studio
 
 # Installed on manjaro-i3 version (2 May, 2023):
 # SDK Location: /home/array/Android/Sdk
