@@ -1568,48 +1568,6 @@ Source: [css-tricks](https://css-tricks.com/finger-friendly-numerical-inputs-wit
 npm set-script prepare "husky install"
 ```
 
-## Handling spa with github pages
-
-Source: [Stackoverflow Answer](https://stackoverflow.com/a/46060999/10012446), also from github - [Github 404 Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
-
-Demo: https://spa-github-pages.rafgraph.dev/, Github: https://github.com/rafgraph/spa-github-pages
-
-**tldr;** `404.htm` file: [Click here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html).
-
-And script to be added in `index.html` file
-
-Source: [here](https://github.com/rafgraph/spa-github-pages/blob/gh-pages/index.html#L21-L42)
-
-```html
-<head>
-...
-...
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      }(window.location))
-    </script>
-	
-</head>
-```
-
 ## Proxy and base-code-structure for any possible server-functions library
 
 ![image](https://user-images.githubusercontent.com/31458531/170736427-683d331e-e62f-45bf-a535-8def2355b921.png)
