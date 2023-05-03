@@ -14,7 +14,7 @@
 ## Please Keep this post on top always!!!!! ## New install softwares
 
 ```bash
-sudo pacman -S vlc obs-studio docker qbittorrent docker-compose
+sudo pacman -S vlc obs-studio docker qbittorrent docker-compose tmux
 # To make nvm accessible via cli
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 # To make docker work
