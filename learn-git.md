@@ -2,6 +2,12 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## Make folder own (sometimes git show weird error because the ownder of git directory is root)
+
+This error generally happens when we copy git repositories from a portable hard disk.
+
+To fix this you can run command: `sudo chown -R array: test`. Here we are marking the owner and group-owner of `test` directory (including all its nested files/folder using option `-R`).
+
 ## Set email and name globally
 
 ```bash
