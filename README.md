@@ -215,6 +215,10 @@ cra: 335mb
 - Learn Wordpress Editing: [Click here](learn-wordpress-editing.md)
 - Learn Capacitor: [Click here](learn-capacitor.md)
 
+##  Data storage eviction policies in the browser
+
+MDN: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria)
+
 ## Redmi note 5:
 
 **Install magisk on redmi note 5**
