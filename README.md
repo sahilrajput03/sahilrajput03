@@ -215,6 +215,10 @@ cra: 335mb
 - Learn Wordpress Editing: [Click here](learn-wordpress-editing.md)
 - Learn Capacitor: [Click here](learn-capacitor.md)
 
+## Why refresh tokens?
+
+![image](https://user-images.githubusercontent.com/31458531/236353211-380a1136-52c4-4210-9643-d88220248490.png)
+
 ##  Data storage eviction policies in the browser
 
 MDN: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria)
