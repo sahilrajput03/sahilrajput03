@@ -201,3 +201,5 @@ Give love to all, hatred to none.
 If the world was blind, how many people would you impress.
 
 Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.
+
+In the end some of your greatest pains becomes your greatest strengths.
