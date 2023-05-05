@@ -205,3 +205,5 @@ Do not dwell in the past, do not dream of the future, concentrate the mind on th
 In the end some of your greatest pains becomes your greatest strengths.
 
 Today, you have 100% of your life left.
+
+Being alone is a power only few can handle.
