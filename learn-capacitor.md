@@ -17,3 +17,9 @@ Official Docs: [Click here](https://capacitorjs.com/docs/guides/security)
 ## How to store data in secure way in android application?
 
 ![image](https://user-images.githubusercontent.com/31458531/236354294-6f5aa505-cf49-4f21-a327-f6afce98c743.png)
+
+## Capacitor does used PRIVATE_MODE while storing data for the application
+
+Source: [Click here](https://github.com/ionic-team/capacitor-plugins/blob/main/preferences/android/src/main/java/com/capacitorjs/plugins/preferences/Preferences.java#L17)
+
+![image](https://user-images.githubusercontent.com/31458531/236380156-b5912405-7451-4e73-85da-cc9642bc0dbb.png)
