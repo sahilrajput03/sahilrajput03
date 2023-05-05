@@ -14,10 +14,6 @@ Open project in andoid studio by `npx open android` and run `Build` > Build Bund
 
 Official Docs: [Click here](https://capacitorjs.com/docs/guides/security)
 
-## How to store data in secure way in android application?
-
-![image](https://user-images.githubusercontent.com/31458531/236354294-6f5aa505-cf49-4f21-a327-f6afce98c743.png)
-
 ## Capacitor does used PRIVATE_MODE while storing data for the application
 
 Source: [Click here](https://github.com/ionic-team/capacitor-plugins/blob/main/preferences/android/src/main/java/com/capacitorjs/plugins/preferences/Preferences.java#L17)
@@ -29,3 +25,7 @@ Source: [Click here](https://github.com/ionic-team/capacitor-plugins/blob/main/p
 - Capacitor Docs - Data Storage in Capacitor: [Click here](https://capacitorjs.com/docs/guides/storage)
 - Android Docs: Save simple data with SharedPreferences: [Click here](https://developer.android.com/training/data-storage/shared-preferences)
 - A question posted by Eric - [Click here](https://github.com/ionic-team/capacitor/discussions/6565)
+
+## How to store data in secure way in android application?
+
+![image](https://user-images.githubusercontent.com/31458531/236354294-6f5aa505-cf49-4f21-a327-f6afce98c743.png)
