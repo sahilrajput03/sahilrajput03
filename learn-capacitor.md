@@ -13,3 +13,7 @@ Open project in andoid studio by `npx open android` and run `Build` > Build Bund
 ## Security Best Practises - Capacitor
 
 Official Docs: [Click here](https://capacitorjs.com/docs/guides/security)
+
+## How to store data in secure way in android application?
+
+![image](https://user-images.githubusercontent.com/31458531/236354294-6f5aa505-cf49-4f21-a327-f6afce98c743.png)
