@@ -193,3 +193,5 @@ On time is always late, always come before time. Being on time is often consider
 Jugglers and singers require applause. You are a lannister. Do you think I demanded a garland of rose everytim I suffered a wound on a battlefield? ~ Tywin Lanister
 
 Expectations are the source of all suffering. ~ Buddha
+
+Give a man a fish and you feed him for a day, teach a man to fish and you feed him for a lifetime.
