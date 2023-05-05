@@ -23,9 +23,11 @@ Source: [Click here](https://github.com/ionic-team/capacitor-plugins/blob/main/p
 
 ## Shared Preference
 - Capacitor Docs - Data Storage in Capacitor: [Click here](https://capacitorjs.com/docs/guides/storage)
+- Android Docs - [Click here](https://source.android.com/docs/security/app-sandbox) *(applications store data and have them owner by the process id)*
 - Android Docs: Save simple data with SharedPreferences: [Click here](https://developer.android.com/training/data-storage/shared-preferences)
 - A question posted by Eric - [Click here](https://github.com/ionic-team/capacitor/discussions/6565)
 
 ## How to store data in secure way in android application?
 
 ![image](https://user-images.githubusercontent.com/31458531/236354294-6f5aa505-cf49-4f21-a327-f6afce98c743.png)
+
