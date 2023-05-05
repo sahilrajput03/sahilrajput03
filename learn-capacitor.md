@@ -26,6 +26,6 @@ Source: [Click here](https://github.com/ionic-team/capacitor-plugins/blob/main/p
 
 
 ## Shared Preference
-
-- Save simple data with SharedPreferences: [Click here](https://developer.android.com/training/data-storage/shared-preferences)
+- Capacitor Docs - Data Storage in Capacitor: [Click here](https://capacitorjs.com/docs/guides/storage)
+- Android Docs: Save simple data with SharedPreferences: [Click here](https://developer.android.com/training/data-storage/shared-preferences)
 - A question posted by Eric - [Click here](https://github.com/ionic-team/capacitor/discussions/6565)
