@@ -215,6 +215,13 @@ cra: 335mb
 - Learn Wordpress Editing: [Click here](learn-wordpress-editing.md)
 - Learn Capacitor: [Click here](learn-capacitor.md)
 
+## Cookies read by javascript (Yes they are readable by javascript but httpOnly cookies are not readable by js)?
+
+	Source of below Image: [Click here(https://owasp.org/www-community/HttpOnly)
+
+![image](https://user-images.githubusercontent.com/31458531/236382659-d309edcf-c64e-486e-9f93-9aed366ea159.png)
+
+
 ## Android
 
 - Shared Preferences Storage is only accessible by the application itself: [Click here](https://developer.android.com/training/data-storage/shared-preferences#get-handle)
