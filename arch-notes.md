@@ -890,9 +890,6 @@ makepkg -si
 # Usage:
 yay -S google-chrome
 # source: https://linuxhint.com/install-google-chrome-manjaro/
-
-# Tip you can avoid to answer any prompt by using:
-yay -SYg package_name
 ```
 
 ## insatll `helm`
