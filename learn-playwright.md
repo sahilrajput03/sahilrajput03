@@ -37,9 +37,8 @@ Source: [Click here](https://www.youtube.com/watch?v=LTwg0kqdK4I)
 `config.use.navigationTimeout` in `playwright.config.ts`
 (Default = 0 i.e., no timeout)
 
-// USAGE: Increase navigation timeout to support slow systems
+// USAGE: Increase navigation timeout to support slow systems (applies to: page.goBack(), page.goForward(), page.goto(url[, options]), page.reload(), page.setContent(), page.waitForNavigation())
 page.context().setDefaultNavigationTimeout(180_000); // Default = 0 (or value set in `config.use.navigationTimeout` in `playwright.config.ts`)
-// This changes navigation timeout for following methods: page.goBack(), page.goForward(), page.goto(url[, options]), page.reload(), page.setContent(), page.waitForNavigation()
 
 
 2. `Test` and `beforeAll/afterAll` timeout
