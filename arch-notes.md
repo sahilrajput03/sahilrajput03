@@ -31,6 +31,9 @@ android-studio
 # Now to make `adb` and `emulator` accessible via cli, we can run below commands
 sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
 sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
+
+# Install node using .nvmrc file
+nvm install
 ```
 
 ## Get bios version date
@@ -2273,6 +2276,9 @@ cd nvm
 makepkg -s
 sudo pacman -U nvm-*******-any.pkg.tar.zst
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+
+# Instal node using a .nvmrc file by running where you have .nvmrc file in the current directory
+nvm install
 ```
 
 - Update `npm` version using `nvm`
