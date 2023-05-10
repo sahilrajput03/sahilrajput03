@@ -26,6 +26,7 @@ Similarly to get complete info for all flies we can use `--shortstat`:
 
 ```bash
  git diff a73c6a44ba HEAD --shortstat
+ # OUTPUT:
  14 files changed, 89 insertions(+), 40 deletions(-)
 ```
 
