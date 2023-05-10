@@ -13,10 +13,11 @@
 
 ## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
 
-Dell Laptop: 3 may, 2023 (manjaro-i3), Follow manual partitioning guide here on youtube: [Click here](https://www.youtube.com/watch?v=4KSf_ZfvMlM)
+- i3-manjaro comes with utility browser: `palemoon`
+- `dmenu` not working: [Click here](https://unix.stackexchange.com/a/573770/504112)
+- Dell Laptop: 3 may, 2023 (manjaro-i3), Follow manual partitioning guide here on youtube: [Click here](https://www.youtube.com/watch?v=4KSf_ZfvMlM)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/db01f600-ce91-46da-9f82-cdb08d15d7e2)
-
 
 ## Setup softwares quickly (♥ _please_keep_this_post _top)
 
