@@ -10,6 +10,8 @@ To fix this you can run command: `sudo chown -R array: test`. Here we are markin
 
 ## To show lines added and lines deleted log for commits
 
+To get lines added and lines deleted per file we can use `--numstat`:
+
 ```bash
 git diff a73c6a44ba HEAD --numstat
 # NOTE: ^^ Above command shows changes made after `a73c6a44ba` till current HEAD. (i.e, it doesn't include changes made in `a73c6a44ba` commit becoz thats how `git diff SHA1 SHA2` command works).
@@ -18,17 +20,13 @@ git diff a73c6a44ba HEAD --numstat
 7       0       src/components/layout/main-site-wrapper/authenticated/AuthenticatedPageWrapper.tsx
 11      1       src/components/ui/ReportModal.tsx
 14      2       src/components/ui/post/PostDetail.tsx
-9       0       src/redux/slices/userSlice.ts
-6       2       src/routes/home/Home.tsx
-8       9       src/routes/profile/Profile.tsx
-2       3       src/routes/profile/ProfileAbout/ProfileAbout.tsx
-2       3       src/routes/profile/ProfileFriends/ProfileFriendRequest/ProfileFriendRequest.tsx
-2       3       src/routes/profile/ProfileFriends/ProfileFriends.tsx
-10      8       src/routes/profile/ProfileHeader.tsx
-2       3       src/routes/profile/ProfilePhotos/ProfilePhotos.tsx
-2       3       src/routes/profile/ProfilePosts/ProfilePosts.tsx
-2       3       src/routes/profile/ProfileWatchList/ProfileWatchList.tsx
-12      0       src/utils/url-utils.ts
+```
+
+Similarly to get complete info for all flies we can use `--shortstat`:
+
+```bash
+ git diff a73c6a44ba HEAD --shortstat
+ 14 files changed, 89 insertions(+), 40 deletions(-)
 ```
 
 ## Set email and name globally
