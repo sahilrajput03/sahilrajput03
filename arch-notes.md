@@ -11,7 +11,14 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
-## Please Keep this post on top always!!!!! ## New install softwares
+## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
+
+Dell Laptop: 3 may, 2023 (manjaro-i3), Follow manual partitioning guide here on youtube: [Click here](https://www.youtube.com/watch?v=4KSf_ZfvMlM)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/db01f600-ce91-46da-9f82-cdb08d15d7e2)
+
+
+## Setup softwares quickly (♥ _please_keep_this_post _top)
 
 ```bash
 sudo pacman -S vlc obs-studio docker qbittorrent docker-compose tmux
