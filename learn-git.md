@@ -14,7 +14,7 @@ To fix this you can run command: `sudo chown -R array: test`. Here we are markin
 git diff a73c6a44ba HEAD --numstat
 # NOTE: ^^ Above command shows changes made after `a73c6a44ba` till current HEAD. (i.e, it doesn't include changes made in `a73c6a44ba` commit becoz thats how `git diff SHA1 SHA2` command works).
 # NOTE: Also, git diff a73c6a44ba  (this command shows changes made after commit `a73c6a44ba` till HEAD becoz thats how `git diff SHA` command works.
-# OUTPUT:
+# OUTPUT (first number is added lines and second number is deleted lines:
 7       0       src/components/layout/main-site-wrapper/authenticated/AuthenticatedPageWrapper.tsx
 11      1       src/components/ui/ReportModal.tsx
 14      2       src/components/ui/post/PostDetail.tsx
