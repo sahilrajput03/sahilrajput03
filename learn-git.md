@@ -30,7 +30,7 @@ Similarly to get complete info for all flies we can use `--shortstat`:
  14 files changed, 89 insertions(+), 40 deletions(-)
 ```
 
-To view for a single commit you can use:
+To view for a very old for single commit you can use:
 
 ```bash
 git show SHA --shortstat
