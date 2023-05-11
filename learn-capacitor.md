@@ -2,8 +2,11 @@
 
 ## Connect to adb over wifi
 
+Source: [Click here](https://help.famoco.com/developers/dev-env/adb-over-wifi/)
+
 ```bash
-# You need to open "adb wifi" application on mobile and mobile's ip address with port 5555 (you an find same address in "adb wifi" application too):
+# You need to open "adb wifi" application on mobile and mobile's ip address with
+# port 5555 (you an find same address in "adb wifi" application too):
 adb connect 192.168.18.4:5555
 ```
 
