@@ -38,6 +38,12 @@ yay -S google-chrome skypeforlinux-stable-bin visual-studio-code-bin mongodb-com
 android-studio
 # Also add below line to your .bashrc file
 export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+# install java/javac in system.
+sudo pacman -S jre11-openjdk
+java --version
+# install jdk
+sudo pacman -S jdk11-openjdk
+javac --version
 
 
 # Now to make `adb` and `emulator` accessible via cli, we can run below commands
@@ -1987,6 +1993,12 @@ yay -S android-studio
 android-studio
 # Also add below line to your .bashrc file
 export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+# install java/javac in system.
+sudo pacman -S jre11-openjdk
+java --version
+# install jdk
+sudo pacman -S jdk11-openjdk
+javac --version
 
 # Installed on manjaro-i3 version (2 May, 2023):
 # SDK Location: /home/array/Android/Sdk
@@ -2022,10 +2034,11 @@ https://developer.android.com/guide/topics/resources/providing-resources
 #### 1. java
 
 ```
-#install java/javac in system.
+# install java/javac in system.
 sudo pacman -S jre11-openjdk
 java --version
 
+# install jdk
 sudo pacman -S jdk11-openjdk
 javac --version
 ```
