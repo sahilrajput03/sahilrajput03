@@ -36,6 +36,9 @@ yay -S google-chrome skypeforlinux-stable-bin visual-studio-code-bin mongodb-com
 
 # First install andoid studio by running below command
 android-studio
+# Also add below line to your .bashrc file
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+
 
 # Now to make `adb` and `emulator` accessible via cli, we can run below commands
 sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
@@ -1982,6 +1985,8 @@ man inotifywait
 yay -S android-studio
 # Now you would need to complete installation by running
 android-studio
+# Also add below line to your .bashrc file
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 
 # Installed on manjaro-i3 version (2 May, 2023):
 # SDK Location: /home/array/Android/Sdk
