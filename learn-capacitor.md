@@ -1,5 +1,12 @@
 # Learn capacitor
 
+## Connect to adb over wifi
+
+```bash
+# You need to open "adb wifi" application on mobile and mobile's ip address with port 5555 (you an find same address in "adb wifi" application too):
+adb connect 192.168.18.4:5555
+```
+
 ## Disable overscroll stretch/bouncy effect
 
 [Click here](https://github.com/ionic-team/capacitor/issues/5384#issuecomment-1522580122)
