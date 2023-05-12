@@ -207,3 +207,5 @@ In the end some of your greatest pains becomes your greatest strengths.
 Today, you have 100% of your life left.
 
 Being alone is a power only few can handle.
+
+Sex is meaningless spritiual goal.
