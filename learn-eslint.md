@@ -1,5 +1,42 @@
 # Learn Eslint
 
+Setting 
+
+```json
+"[javascript]": {
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
+  "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+"[javascriptreact]": {
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
+  "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+"[typescript]": {
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
+  "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+"[typescriptreact]": {
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
+  "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+```
+
 - **Fix all autofixable problems:**
 
   FYI: You ca access this option from vscode's pallet as well.
