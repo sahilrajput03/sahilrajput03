@@ -209,3 +209,5 @@ Today, you have 100% of your life left.
 Being alone is a power only few can handle.
 
 Sex is meaningless spritiual goal.  ~ Sahil
+
+Difficulty shows what men are. ~ Epictetus
