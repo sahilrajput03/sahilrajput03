@@ -56,7 +56,7 @@ javac --version
 sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
 sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
 
-# IMPORTANT (capacitor): If you are getting error while building an apk with capacitor `ERR_UNSUITABLE_API_INSTALLATION`, you must install sdk for Android 10 to fix it. (see screenshot help below on this page)
+# ♥ IMPORTANT (capacitor): If you are getting error while building an apk with capacitor `ERR_UNSUITABLE_API_INSTALLATION`, you must install sdk for Android 10 to fix it. (see screenshot help below on this page)
 
 # Install node using .nvmrc file
 nvm install
@@ -2016,7 +2016,7 @@ javac --version
 # LEARN: adb is included in the Android SDK Platform Tools package. Download this package with the SDK Manager, which installs it at ~/Android/Sdk/platform-tools/adb
 # Solution:
 # sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
-# IMPORTANT (capacitor): If you are getting error while building an apk with capacitor `ERR_UNSUITABLE_API_INSTALLATION`, you must install sdk for Android 10 to fix it. (see screenshot help below on this page)
+# ♥ IMPORTANT (capacitor): If you are getting error while building an apk with capacitor `ERR_UNSUITABLE_API_INSTALLATION`, you must install sdk for Android 10 to fix it. (see screenshot help below on this page)
 
 # ISSUE: -bash: emulator: command not found
 # Solution:
