@@ -211,3 +211,5 @@ Being alone is a power only few can handle.
 Sex is meaningless spritiual goal.  ~ Sahil
 
 Difficulty shows what men are. ~ Epictetus
+
+While we wait for life - life passes. ~ Seneca
