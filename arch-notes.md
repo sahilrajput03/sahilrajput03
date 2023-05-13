@@ -2021,6 +2021,13 @@ javac --version
 # sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
 ```
 
+**Getting error ⚠️⚠️⚠️⚠️⚠️ like: `ERR_UNSUITABLE_API_INSTALLATION` when to try to build an apk using capacitor?**
+
+Also, to make a build you must have sdk for android 10, you can install it like that:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2d34a62d-b39c-4719-9c1d-ba29dca7532c)
+
+
 ## Setting up android environment with vscode (*Not works in the end part i.e, with vscode extension we're not able to generate apk 
 builds*)
 
