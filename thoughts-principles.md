@@ -221,3 +221,5 @@ Wealth consists not in having great posessions, but in having few wants. ~ Epict
 Be silent for the most part, or, if you speak, say only what is necessary and in a few words. ~ Epictetus
 
 All crelty springs from weakness. ~ Seneca
+
+Do every act of life as though it were the very last act of life. ~ Marcus Aurelius
