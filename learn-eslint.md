@@ -1,6 +1,6 @@
 # Learn Eslint
 
-Setting 
+## Autofix and Add missing imports on file save
 
 ```json
 "[javascript]": {
