@@ -223,3 +223,5 @@ Be silent for the most part, or, if you speak, say only what is necessary and in
 All crelty springs from weakness. ~ Seneca
 
 Do every act of life as though it were the very last act of life. ~ Marcus Aurelius
+
+Be tolerant with others and strict with yourself. ~ Marcus Aurelius
