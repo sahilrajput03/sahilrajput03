@@ -219,3 +219,5 @@ The one who puts the finishing touches on their life each day is never short of 
 Wealth consists not in having great posessions, but in having few wants. ~ Epictetus
 
 Be silent for the most part, or, if you speak, say only what is necessary and in a few words. ~ Epictetus
+
+All crelty springs from weakness. ~ Seneca
