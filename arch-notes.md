@@ -11,6 +11,13 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Capacitor changes in .bashrc file
+
+```bash
+# android studio path to environment variable (I don't remember if it were any useful or not ~Sahil)
+export CAPACITOR_ANDROID_STUDIO_PATH=/usr/bin/android-studio
+```
+
 ## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
 
 - i3-manjaro comes with utility browser: `palemoon`
