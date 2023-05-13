@@ -52,10 +52,11 @@ java --version
 sudo pacman -S jdk11-openjdk
 javac --version
 
-
 # Now to make `adb` and `emulator` accessible via cli, we can run below commands
 sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
 sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
+
+# IMPORTANT (capacitor): If you are getting error while building an apk with capacitor `ERR_UNSUITABLE_API_INSTALLATION`, you must install sdk for Android 10 to fix it.
 
 # Install node using .nvmrc file
 nvm install
@@ -2014,7 +2015,8 @@ javac --version
 # ISSUE: -bash: adb: command not found
 # LEARN: adb is included in the Android SDK Platform Tools package. Download this package with the SDK Manager, which installs it at ~/Android/Sdk/platform-tools/adb
 # Solution:
-#sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
+# sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
+# IMPORTANT (capacitor): If you are getting error while building an apk with capacitor `ERR_UNSUITABLE_API_INSTALLATION`, you must install sdk for Android 10 to fix it.
 
 # ISSUE: -bash: emulator: command not found
 # Solution:
