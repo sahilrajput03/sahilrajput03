@@ -1,5 +1,9 @@
 # Learn capacitor
 
+## You can view Device Manager in Android Studio via this
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b749dbbc-cefe-468f-9f3b-817f263d84e0)
+
 ## Connect to adb over wifi
 
 Source: [Click here](https://help.famoco.com/developers/dev-env/adb-over-wifi/)
