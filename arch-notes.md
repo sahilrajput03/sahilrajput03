@@ -2021,6 +2021,14 @@ javac --version
 # ISSUE: -bash: emulator: command not found
 # Solution:
 # sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
+
+##### LEARN `emulator` cli
+# List available AVDs
+emulator -list-avds
+# OUTPUT: Pixel_3a_API_33_x86_64
+
+# Run avd
+emulator -avd Pixel_3a_API_33_x86_64
 ```
 
 **Getting error ⚠️⚠️⚠️⚠️⚠️ like: `ERR_UNSUITABLE_API_INSTALLATION` when to try to build an apk using capacitor?**
