@@ -11,6 +11,10 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Setting google-chrome as default application with `xdg-open`?
+
+Check the file `.config/mimeapp.list` in `sahilrajput03/config` repository.
+
 ## Capacitor changes in .bashrc file
 
 ```bash
