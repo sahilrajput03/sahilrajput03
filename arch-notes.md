@@ -17,7 +17,7 @@ Check the file `.config/mimeapp.list` in `sahilrajput03/config` repository.
 
 ## Capacitor changes in .bashrc file
 
-UPDATE: 15 May, 2022
+UPDATE: 15 May, 2023
 
 ```bash
 # android studio path to environment variable (I don't remember if it were any useful or not ~Sahil)
