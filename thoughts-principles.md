@@ -225,3 +225,6 @@ All crelty springs from weakness. ~ Seneca
 Do every act of life as though it were the very last act of life. ~ Marcus Aurelius
 
 Be tolerant with others and strict with yourself. ~ Marcus Aurelius
+
+When you're really tired you make assumptions that reaching some goal would take x amount of time. It is Parkinson's Law that work expands to fill the time allotted for its completion.
+
