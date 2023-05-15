@@ -226,5 +226,4 @@ Do every act of life as though it were the very last act of life. ~ Marcus Aurel
 
 Be tolerant with others and strict with yourself. ~ Marcus Aurelius
 
-When you're really tired you make assumptions that reaching some goal would take x amount of time. It is Parkinson's Law that work expands to fill the time allotted for its completion.
-
+When you're really tired you make assumptions that reaching some goal would take x amount of time. It is Parkinson's Law that work expands to fill the time allotted for its completion. SOLUTION: Never watch time when you're tired, just set a timer and start working again on work, that's best way to break it.
