@@ -215,6 +215,12 @@ cra: 335mb
 - Learn Wordpress Editing: [Click here](learn-wordpress-editing.md)
 - Learn Capacitor: [Click here](learn-capacitor.md)
 
+## Telegram Projects on github
+
+- Old telegram webApp: https://github.com/zhukov/webogram
+- Telegram Web K: https://github.com/morethanwords/tweb
+- Telegram Web Z: https://github.com/Ajaxy/telegram-tt
+
 ## Cookies read by javascript (Yes they are readable by javascript but httpOnly cookies are not readable by js)?
 
 	Source of below Image: [Click here(https://owasp.org/www-community/HttpOnly)
