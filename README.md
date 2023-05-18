@@ -218,6 +218,7 @@ cra: 335mb
 ## Telegram Projects on github
 
 - Old telegram webApp: https://github.com/zhukov/webogram
+- Telegram Web A (official now): https://github.com/Ajaxy/telegram-tt
 - Telegram Web K: https://github.com/morethanwords/tweb
 - Telegram Web Z: https://github.com/Ajaxy/telegram-tt
 
