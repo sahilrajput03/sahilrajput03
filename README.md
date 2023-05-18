@@ -222,6 +222,10 @@ cra: 335mb
 - Telegram Web K: https://github.com/morethanwords/tweb
 - Telegram Web Z: https://github.com/Ajaxy/telegram-tt
 
+- Gramjs: https://github.com/gram-js/gramjs
+- Telethon: https://github.com/LonamiWebs/Telethon
+
+
 ## Cookies read by javascript (Yes they are readable by javascript but httpOnly cookies are not readable by js)?
 
 	Source of below Image: [Click here(https://owasp.org/www-community/HttpOnly)
