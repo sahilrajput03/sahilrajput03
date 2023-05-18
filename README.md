@@ -227,6 +227,12 @@ More official from telegram projects:
 - Gramjs: https://github.com/gram-js/gramjs
 - Telethon: https://github.com/LonamiWebs/Telethon
 
+## Husky pre-push hooks possible!!
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/25f4bee8-977d-46de-ae83-dc8fb9bcc496)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e77ba1d0-3243-4ca0-ba4f-e1132320ab8f)
+
 
 ## Cookies read by javascript (Yes they are readable by javascript but httpOnly cookies are not readable by js)?
 
