@@ -68,6 +68,7 @@ Disabled below extensions becoz of too much memory usage(deteced from Google Chr
 - [Convertio](https://chrome.google.com/webstore/detail/convertio/eppjkefeiehhflmgkhdooajgbkkegpcl?hl=en) - A Document format converter Better use web service @ https://convertio.co 
 - [Screen Recorder](https://chrome.google.com/webstore/detail/screen-recorder/hniebljpgcogalllopnjokppmgbhaden/related?hl=en) - (via Ratan)
 - [Password Alert](https://chrome.google.com/webstore/detail/password-alert/noondiphcddnnabmjcihcjfbhfklnnep) - Helps to avoid using same google password for other online accounts
+- [Highlighter](https://chrome.google.com/webstore/detail/highlighter/fdfcjfoifbjplmificlkdfneafllkgmn)
 
 # Browser developer tools - Tips
 
