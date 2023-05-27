@@ -4,6 +4,23 @@
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
+
+## Bare setup with just `expect` and typescript setup:
+
+  - `mkdir my-jest-app; cd my-jest-app; npm init -y; mkdir __tests__ && echo "test('simple', () => expect(1).toBe(1))" > __tests__/a.ts && npm i -D expect jest @types/jest`
+  - Add script to `package.json` file: `"test": "jest --watchAll"`
+  - Now you can run below command to start testing without even jest: `npm run test`
+  - IMPORTANT: For typescript support: [docs](https://jestjs.io/docs/getting-started#using-typescript), you need to install deps: `npm i -D @babel/preset-env @babel/preset-typescript` and create a file in root project i.e, `babel.config.js` with below contents:
+
+	```js
+	module.exports = {
+		presets: [
+		  ['@babel/preset-env', {targets: {node: 'current'}}],
+		  '@babel/preset-typescript',
+		],
+	  };
+	```
+
 ## more assertion helpers for `.toEqual`
 
 My Luxon Notes: Learn Luxon: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-luxon.md)
@@ -67,23 +84,6 @@ Source: [Click here](https://stackoverflow.com/a/50600842/10012446)
 *Medium Article suggested by Eric's Suggested Article: [Click here](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)*
 
 ![image](https://user-images.githubusercontent.com/31458531/216039957-fc6e61a6-49df-4579-9676-07789174d52c.png)
-
-
-## Bare setup with just `expect` and typescript setup:
-
-  - `mkdir my-jest-app; cd my-jest-app; npm init -y; mkdir __tests__ && echo "test('simple', () => expect(1).toBe(1))" > __tests__/a.ts && npm i -D expect jest @types/jest`
-  - Add script to `package.json` file: `"test": "jest --watchAll"`
-  - Now you can run below command to start testing without even jest: `npm run test`
-  - IMPORTANT: For typescript support: [docs](https://jestjs.io/docs/getting-started#using-typescript), you need to install deps: `npm i -D @babel/preset-env @babel/preset-typescript` and create a file in root project i.e, `babel.config.js` with below contents:
-
-	```js
-	module.exports = {
-		presets: [
-		  ['@babel/preset-env', {targets: {node: 'current'}}],
-		  '@babel/preset-typescript',
-		],
-	  };
-	```
 	
 ## For bettter testing use `expect().toEqual(...)`
 
