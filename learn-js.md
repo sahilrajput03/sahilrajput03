@@ -1,4 +1,22 @@
 
+## Learn global error handling
+
+```js
+process.on("unhandledRejection", (err) => {
+	console.log('caught rejection')
+	console.log('error?', err)
+})
+
+async function main() {
+	throw 'rock paper scissor'
+}
+main()
+
+# Output:
+caught rejection
+error? rock paper scissor
+```
+
 ## `??=`, `||=` and `&&=` operators
 
 ```js
