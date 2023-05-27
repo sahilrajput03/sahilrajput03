@@ -11,7 +11,9 @@ async function main() {
 	throw 'rock paper scissor'
 }
 main()
+```
 
+```js
 # Output:
 caught rejection
 error? rock paper scissor
