@@ -1,5 +1,9 @@
 # Learn postman
 
+- Important: Postman never read values form "Initial value" column ever.
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ce5455e8-3c53-406b-8eb7-0ec55aea05f5)
+
 - Inheriting authorization from authorization defined in collection settings
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cc299df3-9403-48ef-b44f-f6b1313d231b)
