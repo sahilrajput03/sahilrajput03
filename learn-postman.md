@@ -4,6 +4,8 @@
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cc299df3-9403-48ef-b44f-f6b1313d231b)
 
+Beware Beware Beware that you must remove "Inherit Authorization" from the signin/login requests otherwise your' backend may intercept those requests badly. (WARNIN: In slasher it actually does).
+
 - Setting variable at collection level: 
 
 ```js
