@@ -30,7 +30,7 @@ pm.environment.set("TOKEN1", jsonData.token);
 pm.collectionVariables.set("TOKEN1", jsonData.token);
 
 // 3. setting globally
-// pm.globals.set("TOKEN1", jsonData.token);
+pm.globals.set("TOKEN1", jsonData.token);
 ```
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1da05f53-30ab-40e5-926b-32b1758b46f9)
