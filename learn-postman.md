@@ -4,8 +4,11 @@
 
 ```js
 var jsonData = pm.response.json();
-pm.collectionVariables.set("TOKEN", jsonData.token); // setting collection variable
-// pm.globals.set("TOKEN", jsonData.token); // setting globally
+// setting collection variable
+pm.collectionVariables.set("TOKEN", jsonData.token);
+
+// setting globally
+// pm.globals.set("TOKEN", jsonData.token);
 ```
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1da05f53-30ab-40e5-926b-32b1758b46f9)
