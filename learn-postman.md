@@ -1,5 +1,9 @@
 # Learn postman
 
+- Inheriting authorization from authorization defined in collection settings
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cc299df3-9403-48ef-b44f-f6b1313d231b)
+
 - Setting variable at collection level: 
 
 ```js
