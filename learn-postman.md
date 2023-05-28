@@ -1,5 +1,16 @@
 # Learn postman
 
+- Setting variable at collection level: 
+
+```js
+var jsonData = pm.response.json();
+// pm.globals.set("TOKEN", jsonData.token); // setting globally
+pm.collectionVariables.set("TOKEN", jsonData.token); // setting collection variable
+```
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1da05f53-30ab-40e5-926b-32b1758b46f9)
+
+
 - Thats how you set collection specific variables:
 
 ![image](https://user-images.githubusercontent.com/31458531/222793410-a0ac7859-2b51-4bd4-a974-a311248ce499.png)
