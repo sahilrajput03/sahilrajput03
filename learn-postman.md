@@ -1,5 +1,11 @@
 # Learn postman
 
+- Choosing between collection variables vs. environment variables
+
+**NOTE: Environment variables always override collection variables.**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0d2d1a12-1106-407b-af67-10f7b99ae446)
+
 - Important: Postman never read values form "Initial value" column ever.
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ce5455e8-3c53-406b-8eb7-0ec55aea05f5)
