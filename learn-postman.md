@@ -4,7 +4,9 @@
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cc299df3-9403-48ef-b44f-f6b1313d231b)
 
-Beware Beware Beware that you must remove "Inherit Authorization" from the signin/login requests otherwise your' backend may intercept those requests badly. (WARNIN: In slasher it actually does).
+*Beware Beware Beware that you must remove "Inherit Authorization" from the signin/login requests as shown in below screenshot otherwise your' backend may intercept those requests badly. (WARNIN: In slasher it actually does).*
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/29902738-9d28-43f1-9a36-afa77812c4de)
 
 - Setting variable at collection level: 
 
