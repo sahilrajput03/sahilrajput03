@@ -22,11 +22,15 @@
 
 ```js
 var jsonData = pm.response.json();
-// setting collection variable
-pm.collectionVariables.set("TOKEN", jsonData.token);
 
-// setting globally
-// pm.globals.set("TOKEN", jsonData.token);
+// 1. setting in currently active environment (MOST COMMONLY NEEDED, Date: 28 May, 2023)
+pm.environment.set("TOKEN1", jsonData.token);
+
+// 2. setting collection variable
+pm.collectionVariables.set("TOKEN1", jsonData.token);
+
+// 3. setting globally
+// pm.globals.set("TOKEN1", jsonData.token);
 ```
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1da05f53-30ab-40e5-926b-32b1758b46f9)
