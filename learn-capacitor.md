@@ -1,5 +1,10 @@
 # Learn capacitor
 
+## Can we run a Capacitor PWA app offline?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6e70a061-0d38-46df-b30b-13d7cc308b95)
+
+
 ## You can view Device Manager in Android Studio via this
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b749dbbc-cefe-468f-9f3b-817f263d84e0)
