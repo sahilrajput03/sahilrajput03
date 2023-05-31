@@ -1,5 +1,9 @@
 # Learn capacitor
 
+## Get sample androidmanifest.xml files
+
+[Click here](https://github.com/search?q=androidmanifest.xml+lang%3Axml+default_notification_icon&type=code)
+
 ## Usnig custom notification icon and understanding mipmap, drawable, strings, colors, androidmanifest.xml
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f7811d61-ca4b-4d8b-b4cc-588b7cd8cdda)
