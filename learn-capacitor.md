@@ -10,7 +10,10 @@ mipmap vs. drawabled:
 
 You can send notification to devices by:
 
-- Firebase Console > Engage > Messaging > New campaign > Notifications. Now you need to add "Notification Title, Notification Text, Notification Image, Notification Name, etc" and then use `Send test message` to send the image.
+- Firebase Console > Engage > Messaging > New campaign > Notifications. Now you need to add "Notification Title, Notification Text, Notification Image, Notification Name, etc" and then use `Send test message` to send the notification.
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d488b7c1-19fe-48c1-ab8f-9a50cf14042a)
+
 
 ## Can we run a Capacitor PWA app offline?
 
