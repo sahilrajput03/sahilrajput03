@@ -14,6 +14,26 @@ You can send notification to devices by:
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d488b7c1-19fe-48c1-ab8f-9a50cf14042a)
 
+- Generating the notification icon:
+
+Source: [Online servcie](https://romannurik.github.io/AndroidAssetStudio/icons-notification.html)
+
+and then you can place the folder of the output the respective `res` directory in the android project. And now you just need to add below lines to `androidmanifest.xml` file:
+
+```xml
+<!-- Push Notification Icon -->
+<meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_notification" />
+<meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/primaryColor" />,
+```
+
+and also define the color in `colors.xml` file like that:
+
+```xml
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <color name="primaryColor">#ff1800</color>
+</resources>
+```
 
 ## Can we run a Capacitor PWA app offline?
 
