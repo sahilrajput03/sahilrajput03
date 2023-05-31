@@ -1,5 +1,17 @@
 # Learn capacitor
 
+## Usnig custom notification icon and understanding mipmap, drawable, strings, colors, androidmanifest.xml
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f7811d61-ca4b-4d8b-b4cc-588b7cd8cdda)
+
+mipmap vs. drawabled:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e7d52682-58ca-4d7b-80e1-8f6e0154e549)
+
+You can send notification to devices by:
+
+- Firebase Console > Engage > Messaging > New campaign > Notifications. Now you need to add "Notification Title, Notification Text, Notification Image, Notification Name, etc" and then use `Send test message` to send the image.
+
 ## Can we run a Capacitor PWA app offline?
 
 Source: [Click here](https://stackoverflow.com/a/64215322)
