@@ -1,5 +1,8 @@
 # Learn capacitor
 
+Quick Links:
+- Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
+
 ## Get sample androidmanifest.xml files
 
 [Click here](https://github.com/search?q=androidmanifest.xml+lang%3Axml+default_notification_icon&type=code)
