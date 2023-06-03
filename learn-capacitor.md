@@ -7,6 +7,41 @@ Quick Links:
 
 [Click here](https://github.com/search?q=androidmanifest.xml+lang%3Axml+default_notification_icon&type=code)
 
+## Setting up Deep Links
+
+**Capacitor Deep Link Docs:** [Click here](https://capacitorjs.com/docs/guides/deep-links#android-configuration)
+
+Andoid Configuration: [Click here](https://capacitorjs.com/docs/guides/deep-links#android-configuration)
+
+**Generating RSA using Android certificate:**
+
+```bash
+# NOTE: When generating the certificate it asks for 6-digit password (123456), person name, state, country, country-code.
+# create a certificate
+keytool -genkey -v -keystore my-release-key.keystore -alias ALIAS -keyalg RSA -keysize 2048 -validity 10000
+# Output: Generates a file `my-release-key.keystore`
+
+# get keystore details (sample password = 123456)
+keytool -list -v -keystore my-release-key.keystore
+
+# SHA256 Fingerprint:
+B0:01:D7:CE:4C:FE:91:FF:B9:DE:96:36:22:01:44:49:A2:D3:78:F9:C7:0D:DC:BA:56:1E:8A:B7:AF:A2:78:27
+```
+
+1. Statement List Generator: https://developers.google.com/digital-asset-links/tools/generator
+Use following details:
+```txt
+###### for testing ->> Hosting site domain: slasher-web-frontend.vercel.app
+>>>> Hosting site domain: 
+Package Name: cart.mywebsite.com
+App package fingerprint (SHA256): ___
+
+### IMPORTANT ### -> Save the generated statement in file `public/.well-known/assetlinks.json`.
+# Note (wow!): hosting-site-domain is *not* used to generate `assetlinks.json` file data at all.
+# So that means you never need to regenerate `assetlinks.json` data unless you change the app package name.
+```
+2. Update domain in `android/app/src/main/AndroidManifest.xml` file.
+
 ## Usnig custom notification icon and understanding mipmap, drawable, strings, colors, androidmanifest.xml
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f7811d61-ca4b-4d8b-b4cc-588b7cd8cdda)
