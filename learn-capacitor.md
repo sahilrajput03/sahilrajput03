@@ -9,6 +9,8 @@ Quick Links:
 
 ## Setting up Deep Links
 
+- Note: Deep Links works with both live-reload and static-apk build.
+
 **Capacitor Deep Link Docs:** [Click here](https://capacitorjs.com/docs/guides/deep-links#android-configuration)
 
 Andoid Configuration: [Click here](https://capacitorjs.com/docs/guides/deep-links#android-configuration)
