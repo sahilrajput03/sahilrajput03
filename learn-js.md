@@ -1,3 +1,7 @@
+# Learn Javascript
+
+**Quick Links:**
+- [Click here](notes-js-conf-2022.md)
 
 ## Learn global error handling
 
