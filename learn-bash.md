@@ -16,6 +16,16 @@
 - **Linux iptables command examples for new sysadmins:** [Click here](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
 - **30 linux bash aliases:** [Click here](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 
+## What does `set -o allexport` do?
+
+```bash
+# for example we can use it for this:
+set -o allexport && source ./deploy-cloudflare/.env.deploy/prod && npm run build && npx cap sync android && npx cap run android
+```
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5fb0722e-6b87-4122-8243-d50f74bde446)
+
+
 ## Learn Asterisk
 
 Asterisk - Asterisk is a software implementation of a private branch exchange (PBX) - Youtube Playlist: [Click here](https://www.youtube.com/playlist?list=PLqLOutQTzEV-8mqy7tULOTSzo58oJRx44)
