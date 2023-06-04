@@ -22,6 +22,15 @@ Andoid Configuration: [Click here](https://capacitorjs.com/docs/guides/deep-link
 # create a certificate
 keytool -genkey -v -keystore my-release-key.keystore -alias ALIAS -keyalg RSA -keysize 2048 -validity 10000
 # Output: Generates a file `my-release-key.keystore`
+# NOTE You would need following details to generate the certificate:
+# 1. Password - At least 6 digit
+# 2. First name and last name
+# 3. Name of organization Unit
+# 4. Name of organization
+# 5. Name of City or Locality
+# 6. State or Province
+# 7. Two letter country code
+
 
 # get keystore details (sample password = 123456)
 keytool -list -v -keystore my-release-key.keystore
