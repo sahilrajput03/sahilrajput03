@@ -60,7 +60,7 @@ javac --version
 
 #########
 #### NOTE for capacitor v5: you have to use `jdk17-openjdk` and `jre17-openjdk`
-# And add below to make use version 17 (this would work along with version 11 installed)
+# And add below line in .bashrc to make use version 17 (this would work along with version 11 installed)
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 #########
 
@@ -2023,7 +2023,7 @@ javac --version
 
 #########
 #### NOTE for capacitor v5: you have to use `jdk17-openjdk` and `jre17-openjdk`
-# And add below to make use version 17 (this would work along with version 11 installed)
+# And add below line in .bashrc to make use version 17 (this would work along with version 11 installed)
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 #########
 
@@ -2089,7 +2089,7 @@ javac --version
 
 #########
 #### NOTE for capacitor v5: you have to use `jdk17-openjdk` and `jre17-openjdk`
-# And add below to make use version 17 (this would work along with version 11 installed)
+# And add below line in .bashrc to make use version 17 (this would work along with version 11 installed)
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 #########
 ```
