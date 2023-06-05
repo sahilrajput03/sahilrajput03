@@ -3,6 +3,12 @@
 Quick Links:
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## What to ensure before publishing app to android store or ios store?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a2facfd6-1c79-4360-a1ed-f2dd3f042507)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cbadddcd-c33f-4cc7-93a2-18c9c069ae38)
+
 ## Get sample androidmanifest.xml files
 
 [Click here](https://github.com/search?q=androidmanifest.xml+lang%3Axml+default_notification_icon&type=code)
