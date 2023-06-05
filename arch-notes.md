@@ -2018,6 +2018,12 @@ java --version
 sudo pacman -S jdk11-openjdk
 javac --version
 
+
+#########
+#### NOTE for capacitor v5: you have to use `jdk17-openjdk` and `jre17-openjdk`
+#########
+
+
 # Installed on manjaro-i3 version (2 May, 2023):
 # SDK Location: /home/array/Android/Sdk
 # JDK Location: /opt/android-studio/jbr
@@ -2075,6 +2081,11 @@ java --version
 # install jdk
 sudo pacman -S jdk11-openjdk
 javac --version
+
+
+#########
+#### NOTE for capacitor v5: you have to use `jdk17-openjdk` and `jre17-openjdk`
+#########
 ```
 
 #### 2. install platform-tools
