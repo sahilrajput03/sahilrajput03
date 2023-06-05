@@ -58,6 +58,10 @@ java --version
 sudo pacman -S jdk11-openjdk
 javac --version
 
+#########
+#### NOTE for capacitor v5: you have to use `jdk17-openjdk` and `jre17-openjdk`
+#########
+
 # Now to make `adb` and `emulator` accessible via cli, we can run below commands
 sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
 sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
