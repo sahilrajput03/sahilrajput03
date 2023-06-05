@@ -2024,7 +2024,8 @@ javac --version
 #########
 #### NOTE for capacitor v5: you have to use `jdk17-openjdk` and `jre17-openjdk`
 # And add below to make use version 17 (this would work along with version 11 installed)
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk#########
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+#########
 
 
 # Installed on manjaro-i3 version (2 May, 2023):
