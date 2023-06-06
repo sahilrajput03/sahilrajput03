@@ -215,6 +215,12 @@ cra: 335mb
 - Learn Wordpress Editing: [Click here](learn-wordpress-editing.md)
 - Learn Capacitor: [Click here](learn-capacitor.md)
 
+## Use `saucelabs` to test apps in different browser
+
+*Suggested by damon*
+
+Source - https://saucelabs.com/
+
 ## Telegram Projects on github
 
 - Old telegram webApp: https://github.com/zhukov/webogram
