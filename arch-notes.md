@@ -455,6 +455,8 @@ lsusb
 
 **IMPORTANT: USE ctrl+alt+f to toggle fullscreen.**
 
+**IMPORTANT: USE ctrl+alt+m to toggle menu.**
+
 ```bash
 # Youtube: https://www.youtube.com/watch?v=-Otg7JFMuVw
 # Article: https://computingforgeeks.com/how-to-run-macos-on-kvm-qemu/
