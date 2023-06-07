@@ -455,7 +455,7 @@ lsusb
 
 **IMPORTANT: USE ctrl+alt+f to toggle fullscreen.**
 
-**IMPORTANT: USE ctrl+alt+m to toggle menu.**
+**IMPORTANT: USE ctrl+alt+m to toggle menu. (new - OneClick-macOS-Simple-KVM)**
 
 ```bash
 # Youtube: https://www.youtube.com/watch?v=-Otg7JFMuVw
