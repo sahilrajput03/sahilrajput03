@@ -3,6 +3,10 @@
 Quick Links:
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Deeplinking not working on ios OR subdomain deeplinking not working in IOS
+
+[Click here](https://www.donotreact.ml/jfolschinsky/about)
+
 ## What to ensure before publishing app to android store or ios store?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a2facfd6-1c79-4360-a1ed-f2dd3f042507)
