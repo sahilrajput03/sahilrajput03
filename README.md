@@ -1,6 +1,3 @@
-
-https://slasher-web-frontend.vercel.app/Jake_M/about
-
 <h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 A Pragmatic software developer. [fsf](https://www.fsf.org/).
@@ -19,7 +16,7 @@ Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curiou
 
 Unwinding is hot no-sugar coffee!
 
-*Technologies I can't believe exists today: trpc, hasura and onegraph (graphiql-explorer).*
+*More Technologies: trpc, hasura and onegraph (graphiql-explorer).*
 
 - **Laptop:** [ac179tx](https://support.hp.com/in-en/document/c04919819)
 - **SolidJS:** [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
