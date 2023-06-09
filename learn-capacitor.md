@@ -5,7 +5,8 @@ Quick Links:
 
 ## Deeplinking not working on ios OR subdomain deeplinking not working in IOS
 
-[Click here](https://www.donotreact.ml/jfolschinsky/about)
+- [1 - Deeplinking not working?](https://stackoverflow.com/questions/39181728/universal-links-deep-linking-not-working-on-iphone-but-works-on-ipad)
+- [2 - Deeplinking not working on subdomain](https://stackoverflow.com/a/70975020)
 
 ## What to ensure before publishing app to android store or ios store?
 
