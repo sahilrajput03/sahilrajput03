@@ -8,6 +8,12 @@ Quick Links:
 - [1 - Deeplinking not working?](https://stackoverflow.com/questions/39181728/universal-links-deep-linking-not-working-on-iphone-but-works-on-ipad)
 - [2 - Deeplinking not working on subdomain](https://stackoverflow.com/a/70975020)
 
+## For deeplinking to work in android 12 and android 13 you must enabled the selected link if you are testing the app from non-playstore builds (i.e., development builds)
+
+Source: [Click here](https://stackoverflow.com/a/72260741)
+
+Also, "the apps installed from Google app store automatically has all the links selected."
+
 ## What to ensure before publishing app to android store or ios store?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a2facfd6-1c79-4360-a1ed-f2dd3f042507)
