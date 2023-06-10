@@ -229,3 +229,5 @@ Be tolerant with others and strict with yourself. ~ Marcus Aurelius
 When you're really tired you make assumptions that reaching some goal would take x amount of time. It is Parkinson's Law that work expands to fill the time allotted for its completion. SOLUTION: Never watch time when you're tired, just set a timer and start working again on work, that's best way to break it.
 
 "Fate loves irony" i.e., events in our lives happens when the opposite of what we expect happens. 
+
+Stop being afraid, go find out what your life can be. Billie's Mother to Billie.
