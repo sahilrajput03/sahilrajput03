@@ -214,6 +214,7 @@ cra: 335mb
 - Learn Flameshot: [Click here](learn-flameshot.md)
 - Learn Wordpress Editing: [Click here](learn-wordpress-editing.md)
 - Learn Capacitor: [Click here](learn-capacitor.md)
+- Learn Development with AI: [Click here](learn-development-with-ai.md)
 
 ## Use `saucelabs` to test apps in different browser
 
