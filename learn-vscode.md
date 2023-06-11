@@ -6,6 +6,10 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## Primary Sidebar vs. Secondary Sidebar
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fcd868ec-19ba-42bf-8484-4058a9ef8065)
+
 ## Create Bitbucket pull request (#bitbucket pr) from vscode
 
 Extension id: `ramiroberrelleza.bitbucket-pull-requests`
