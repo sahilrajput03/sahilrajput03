@@ -6,6 +6,12 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## Use `Git Delete Branch` to delete branch
+
+**Why? Because it is more handy than to type branch's name in the terminal ♡ 💜**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b3b500b9-b8b0-44e1-a755-1c5087983bf8)
+
 ## Primary Sidebar vs. Secondary Sidebar
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fcd868ec-19ba-42bf-8484-4058a9ef8065)
