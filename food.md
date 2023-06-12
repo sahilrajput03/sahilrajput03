@@ -123,6 +123,10 @@ Procedure:
 - Now place the mixture in a air-tight container put it in freezer for 3 hrs and whip the whole mixture again. Again keep it freezer for 8-10 hrs for a good textured icecream.
 - Now its ready to be served.
 
+<ins>**6 easy momos recipes | 6 ways of dumplings design**</ins>
+
+[Click here](https://youtu.be/7yOYeC5PQ-M?list=PLnj9UGe965p1LfZSvfVK9oHSyP_mlyf5q)
+
 
 <ins>**Moong daal (optionally +arhar daal)**</ins>
 
