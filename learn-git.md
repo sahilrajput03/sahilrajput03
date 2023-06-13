@@ -2,6 +2,12 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## Show current branch name with ease
+
+```bash
+git branch --show-current
+```
+
 ## Make current user as owner of a git repository (sometimes git show weird error because the ownder of git directory is root)
 
 This error generally happens when we copy git repositories from a portable hard disk.
