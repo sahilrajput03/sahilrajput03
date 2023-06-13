@@ -8,6 +8,8 @@ Quick Links:
 1. Safe area is by default shown in android (i.e,. no need to add more area to conver for the sideareas of the top notch).
 2. Safe area in ios can be added by uisng options `background` and `contentInset?: 'always'`. (please refer project's config file for accuracy.
 
+Capacitor config API Docs: [Click here](https://capacitorjs.com/docs/config)
+
 ## Deeplinking not working on ios OR subdomain deeplinking not working in IOS
 
 - [1 - Deeplinking not working?](https://stackoverflow.com/questions/39181728/universal-links-deep-linking-not-working-on-iphone-but-works-on-ipad)
