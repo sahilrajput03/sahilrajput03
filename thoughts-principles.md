@@ -231,3 +231,5 @@ When you're really tired you make assumptions that reaching some goal would take
 "Fate loves irony" i.e., events in our lives happens when the opposite of what we expect happens. 
 
 Stop being afraid, go find out what your life can be. Billie's Mother to Billie.
+
+Lord, make me an instrument of thy peace. Where there is hatred, let me sow love. - Saint Francis of Assisi
