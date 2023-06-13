@@ -235,3 +235,5 @@ Stop being afraid, go find out what your life can be. Billie's Mother to Billie.
 Lord, make me an instrument of thy peace. Where there is hatred, let me sow love. ~ Saint Francis of Assisi
 
 Good judgement comes from experience, and a lot of that comes from bad judgement. ~ Will Rogers
+
+No act of kindness, no matter how small, is ever wasted. ~ Aesop
