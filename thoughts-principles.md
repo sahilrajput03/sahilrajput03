@@ -239,3 +239,27 @@ Good judgement comes from experience, and a lot of that comes from bad judgement
 No act of kindness, no matter how small, is ever wasted. ~ Aesop
 
 It is far better to be alone, than to be in bad company. ~ George Washington
+
+If you cannot do great things, then do small things in great way. ~ Napolean Hill
+
+Permancence, perseverance and persistence is spite of all obstacles, discouragements, and impossibilities: It is this, that in all things distinguishes the strong soul from the weak. ~ Thomas Carlyle
+
+Keep your face always towards the sunshine - and shadows will fall behind you. ~ Walt Whitman
+
+Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better. ~ Samuel Beckket
+
+The pessimist complains about the wind, the optimist expects it to chagne; the realist adjusts the sails. ~ William Arthur Ward
+
+Being entirely honest with oneself is a good exercise. ~ Sigmung Freud
+
+Don't judge each day by the harvest you reap but the seeds that you plant. ~ Robert Louis Stevenson
+
+When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us. ~ Helen Keller
+
+Honest is the first chapter in the book of wisdom. ~ Thomas Jefferson
+
+Go confidently in the direction of your dreams. Live the life you have imagined. ~ Henry David Thoreau
+
+Always remember that you're absolutely unique. Just like everyeone else. ~ Margaret Mead
+
+The only thing necessary for the triumph of evil is for good men to do nothing. ~ Edmund Burke
