@@ -237,3 +237,5 @@ Lord, make me an instrument of thy peace. Where there is hatred, let me sow love
 Good judgement comes from experience, and a lot of that comes from bad judgement. ~ Will Rogers
 
 No act of kindness, no matter how small, is ever wasted. ~ Aesop
+
+It is far better to be alone, than to be in bad company. ~ George Washington
