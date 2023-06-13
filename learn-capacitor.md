@@ -3,6 +3,11 @@
 Quick Links:
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Safe area take aways from slasher work
+
+1. Safe area is by default shown in android (i.e,. no need to add more area to conver for the sideareas of the top notch).
+2. Safe area in ios can be added by uisng options `background` and `contentInset?: 'always'`. (please refer project's config file for accuracy.
+
 ## Deeplinking not working on ios OR subdomain deeplinking not working in IOS
 
 - [1 - Deeplinking not working?](https://stackoverflow.com/questions/39181728/universal-links-deep-linking-not-working-on-iphone-but-works-on-ipad)
