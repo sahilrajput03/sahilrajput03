@@ -3,6 +3,10 @@
 Quick Links:
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Generatin and submitting apk to playstore
+
+[Clickh here](https://ionic.io/blog/building-and-releasing-your-capacitor-android-app)
+
 ## You can view the running devices in android studio from here
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/54aae504-0c49-4f53-957f-1b74a9d5d4ba)
