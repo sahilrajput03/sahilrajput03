@@ -7,7 +7,7 @@ Quick Links:
 
 ```bash
 # Get generated apk by capacitor's live-reload and static-build FROM ROOT DIRECTORY OF CAPACITOR PROJECT
-alias cd.apk='cd android/app/build/outputs/apk/debug/'
+alias cd.apkCapacitor='cd android/app/build/outputs/apk/debug/'
 # You'll see file with name `app-debug.apk`
 ```
 
