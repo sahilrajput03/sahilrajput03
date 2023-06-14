@@ -5,10 +5,10 @@ Quick Links:
 
 ## Scripts to generate and install apk via gradle
 
-```json
-    "fetch-apk": "rm -f app-debug.apk; mv android/app/build/outputs/apk/debug/app-debug.apk .",
-    "gradle-generate-apk": "rm -f app-debug.apk; ./android/gradlew assembleDebug --warning-mode=all --project-dir android/; npm run fetch-apk",
-    "gradle-generate-apk-and-install": "rm -f app-debug.apk; ./android/gradlew installDebug --warning-mode=all --project-dir android/; npm run fetch-apk"
+```bash
+# Get generated apk by capacitor's live-reload and static-build
+alias cd.apk='cd android/app/build/outputs/apk/debug/'
+# You'll see file with name `app-debug.apk`
 ```
 
 ## Generatin and submitting apk to playstore
