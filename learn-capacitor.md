@@ -3,6 +3,10 @@
 Quick Links:
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## You can view the running devices in android studio from here
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/54aae504-0c49-4f53-957f-1b74a9d5d4ba)
+
 ## Safe area take aways from slasher work
 
 1. Safe area is by default shown in android (i.e,. no need to add more area to conver for the sideareas of the top notch).
