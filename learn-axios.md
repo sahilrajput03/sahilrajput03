@@ -238,6 +238,13 @@ Data Types Code of axios: [Click here](https://github.com/axios/axios/blob/v2.x/
 		password: password,
 	})
 	```
+- Typing the `.then` value:
+
+	```ts
+	axios.get().then((res: AxiosResponse<string>) => {
+		res.data // string
+	}
+	```
 
 ## Make server to limit the total number of requets to be handled at a given point and make a robust client side mechanism to deal with such error in a sophisticated manner
 
