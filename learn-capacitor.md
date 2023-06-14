@@ -3,6 +3,14 @@
 Quick Links:
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Scripts to generate and install apk via gradle
+
+```json
+    "fetch-apk": "rm -f app-debug.apk; mv android/app/build/outputs/apk/debug/app-debug.apk .",
+    "gradle-generate-apk": "rm -f app-debug.apk; ./android/gradlew assembleDebug --warning-mode=all --project-dir android/; npm run fetch-apk",
+    "gradle-generate-apk-and-install": "rm -f app-debug.apk; ./android/gradlew installDebug --warning-mode=all --project-dir android/; npm run fetch-apk"
+```
+
 ## Generatin and submitting apk to playstore
 
 [Clickh here](https://ionic.io/blog/building-and-releasing-your-capacitor-android-app)
