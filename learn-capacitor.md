@@ -3,6 +3,10 @@
 Quick Links:
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Generate signed apks from capcitor commadn line
+
+Source: Docs - `Capacitor CLI - cap build`: [Click here](https://capacitorjs.com/docs/cli/commands/build)
+
 ## Scripts to generate and install apk via gradle
 
 ```bash
