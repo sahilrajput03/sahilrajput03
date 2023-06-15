@@ -12,7 +12,7 @@ npx cap build [options] <platform>
 
 # E.g, 
 npx cap build android
-# Unfortunately the output is -
+# UNFORTUNATE OUTPUT IS -
 # [error] Missing options. Please supply all options for android signing.
 #         (Keystore Path, Keystore Password, Keystore Key Alias, Keystore Key
 #         Password)
