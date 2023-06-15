@@ -7,6 +7,13 @@ Quick Links:
 
 Source: Docs - `Capacitor CLI - cap build`: [Click here](https://capacitorjs.com/docs/cli/commands/build)
 
+```bash
+npx cap build [options] <platform>
+
+# E.g, 
+npx cap build android
+```
+
 ## Scripts to generate and install apk via gradle
 
 ```bash
