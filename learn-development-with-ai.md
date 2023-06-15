@@ -8,4 +8,5 @@
 - Source: Deepfake Yourself Into Any Celebrity Using AI @ Youtube - [Click here](https://www.youtube.com/watch?v=LRdS4BAfgMo)
 
 Ai tools Suggested by Varun Mayya - 
-- Midjourney (opensource).
+- Midjourney (opensource)
+- Stable Diffusion (opensource)
