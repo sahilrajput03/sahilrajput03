@@ -12,6 +12,11 @@ Source: https://regexone.com/
 - Regex debugger**: https://regex101.com/
 
 ## Look Behind assertion `(?<!\S)`
+<details>
+  <summary>cool bddy</summary>
+
+  hahahah
+</details>
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fed1fbbc-8c78-4ace-bc0d-568df12c78d5)
 
