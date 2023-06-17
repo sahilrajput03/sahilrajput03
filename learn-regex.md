@@ -14,7 +14,7 @@ Source: https://regexone.com/
 ## Look Behind assertion `(?<!\S)`
 <details>
   <summary>cool bddy</summary>
-  ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fed1fbbc-8c78-4ace-bc0d-568df12c78d5)
+    <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fed1fbbc-8c78-4ace-bc0d-568df12c78d5" alt="drawing"/>
   hahahah
 </details>
 
