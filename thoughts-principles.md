@@ -263,3 +263,7 @@ Go confidently in the direction of your dreams. Live the life you have imagined.
 Always remember that you're absolutely unique. Just like everyeone else. ~ Margaret Mead
 
 The only thing necessary for the triumph of evil is for good men to do nothing. ~ Edmund Burke
+
+Think of your path. Imagine where you want to be. Then reverse engineer that. You'll see Z. Z requires Y to exist. Y requires X to exist. All the way back to A. ~ Damon Della Greca
+
+People tend to overthink and that trips them up. Keep it all simple. If there's a problem, it's easier to think of the solutions than get upset or frustrated. It's a choice, really. People can choose to be upset and make no progress or find the solution and succeed. ~ Damon Della Greca
