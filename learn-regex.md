@@ -8,9 +8,15 @@ Course: RegexOne - Learn Regular Expressions with simple, interactive exercises.
 
 Source: https://regexone.com/
 
-**Regex debugger**: https://regex101.com/
+**Quick Links:**
+- Regex debugger**: https://regex101.com/
 
-**random**:
+## Look Behind assertion `(?<!\S)`
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fed1fbbc-8c78-4ace-bc0d-568df12c78d5)
+
+
+## random*
   - Q. What is .* in simple terms?
     Ans. It means literally no text or any text. Yo!!
   - Q. With the use of parentheses and question mark we can do like: `(someText)?`
@@ -27,9 +33,14 @@ Source: https://regexone.com/
   - LEARN: `^` matches beginning of line and `$` matches end of the line.
 
 
-**Match for one of two words:**
+## Match for one of two words
 
 Source: [Click here](https://stackoverflow.com/questions/6863518/regex-match-one-of-two-words)
+
+
+
+
+## FROM COURSE
 
 **Lesson1**:
 
