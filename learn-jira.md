@@ -10,6 +10,15 @@
 
 **Docs of JQL:** [Click here](https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/)
 
+**Current filter used in project**
+
+```
+# NAME: Work Queue - Assignee
+# DESCRIPTION: Helps to know the queue of tasks assigned to you.
+# QUERY: assignee = currentUser() AND status = "Changes Requested" OR status = "In Progress" OR status = "To Do"
+
+```
+
 A filter I made:
 
 ![image](https://user-images.githubusercontent.com/31458531/233393413-cbfa442d-b9c4-451c-813b-bc0aef4b5fff.png)
