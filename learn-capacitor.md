@@ -36,14 +36,24 @@ alias cd.apkCapacitor='cd android/app/build/outputs/apk/debug/'
 ## Safe area take aways from slasher work
 
 1. Safe area is by default shown in android (i.e,. no need to add more area to conver for the sideareas of the top notch).
+
+```ts
+import { StatusBar } from '@capacitor/status-bar';
+// Display content under transparent status bar (Android only)
+StatusBar.setOverlaysWebView({ overlay: false });
+const topStatuBarBackgroundColorAndroidOnly = '000000';
+StatusBar.setBackgroundColor({ color: topStatuBarBackgroundColorAndroidOnly });
+```
+
+  
 2. Safe area in ios can be added by uisng options
 
-```
+```ts
 // file: capacitor.config.ts
-  backgroundColor: '000000',
-  ios: {
-    contentInset: 'automatic',
-  },
+backgroundColor: '000000',
+ios: {
+  contentInset: 'automatic',
+},
 ```
 
 Capacitor config API Docs: [Click here](https://capacitorjs.com/docs/config)
