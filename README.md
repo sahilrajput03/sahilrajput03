@@ -215,7 +215,7 @@ cra: 335mb
 - Learn Wordpress Editing: [Click here](learn-wordpress-editing.md)
 - Learn Capacitor: [Click here](learn-capacitor.md)
 - Learn Development with AI (Artificial Development): [Click here](learn-development-with-ai.md)
-- Learn PWA (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
+- Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 
 ## Use `saucelabs` to test apps in different browser
 
