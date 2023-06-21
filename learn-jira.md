@@ -15,7 +15,7 @@
 ```
 # NAME: Work Queue - Assignee
 # DESCRIPTION: Helps to know the queue of tasks assigned to you.
-# QUERY: assignee = currentUser() AND status = "Changes Requested" OR status = "In Progress" OR status = "To Do"
+# QUERY: (assignee = currentUser()) AND (status = "Changes Requested" OR status = "In Progress" OR status = "To Do")
 
 ```
 
