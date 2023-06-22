@@ -218,10 +218,6 @@ cra: 335mb
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 - Learn Remix: [Click here](learn-remix.md)
 
-## Learn remix
-
-- Remix Crash Course: [Click here](https://www.youtube.com/watch?v=RBYJTop1e-g)
-
 ## Use `saucelabs` to test apps in different browser
 
 *Suggested by damon*
