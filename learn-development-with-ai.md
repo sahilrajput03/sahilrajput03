@@ -18,4 +18,4 @@ Ai tools Suggested by Varun Mayya -
 
 More:
 - Is midjourney opensource: youtube - [Click here](https://www.youtube.com/watch?v=HSdp_Qe4VgY)
-- gpt-engineer (uses open ai key): [Github 28*](https://github.com/AntonOsika/gpt-engineer)
+- gpt-engineer - Github 28K* (uses OpenAI key): [Click here](https://github.com/AntonOsika/gpt-engineer)
