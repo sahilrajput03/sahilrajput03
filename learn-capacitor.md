@@ -3,6 +3,10 @@
 Quick Links:
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Publishing to PlayStore Android
+
+[Click here](https://appinventiv.com/blog/how-to-submit-app-to-google-play-store/)
+
 ## Internal Test Network
 
 [Click here](https://play.google.com/console/about/internal-testing/)
