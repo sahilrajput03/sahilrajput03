@@ -5,7 +5,7 @@ Quick Links:
 
 ## Publishing to PlayStore Android
 
-[Click here](https://appinventiv.com/blog/how-to-submit-app-to-google-play-store/)
+Article - [Click here](https://appinventiv.com/blog/how-to-submit-app-to-google-play-store/)
 
 ## Internal Test Network
 
