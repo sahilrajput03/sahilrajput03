@@ -3,6 +3,13 @@
 Quick Links:
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Internal Test Network
+
+[Click here](https://play.google.com/console/about/internal-testing/)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9f529f68-f7a6-44a1-bfac-579412b44332)
+
+
 ## Android 12+ splash screen
 
 Youtube - [Click here](https://www.youtube.com/watch?v=4Dh09c_iWFU)
