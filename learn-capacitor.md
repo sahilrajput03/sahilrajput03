@@ -4,6 +4,21 @@ Quick Links:
 - **TODO:** PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Learn android studio - `emulator` cli
+
+```bash
+##### LEARN `emulator` cli
+# List available AVDs
+emulator -list-avds
+# OUTPUT:
+# Pixel_3_XL_API_33
+# Pixel_3a_API_33_x86_64
+# Pixel_4_API_33
+
+# Run avd
+emulator -avd Pixel_3a_API_33_x86_64
+```
+
 ## Publishing to PlayStore Android
 
 Article - [Click here](https://appinventiv.com/blog/how-to-submit-app-to-google-play-store/)
