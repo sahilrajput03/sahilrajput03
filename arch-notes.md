@@ -2047,7 +2047,10 @@ export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 ##### LEARN `emulator` cli
 # List available AVDs
 emulator -list-avds
-# OUTPUT: Pixel_3a_API_33_x86_64
+# OUTPUT:
+# Pixel_3_XL_API_33
+# Pixel_3a_API_33_x86_64
+# Pixel_4_API_33
 
 # Run avd
 emulator -avd Pixel_3a_API_33_x86_64
