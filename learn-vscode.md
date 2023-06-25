@@ -6,6 +6,12 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## That's how you track which remote the vscode is tracking
+
+You need to hover that area on the bottom of vscode where the branch-name is shown like that-
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/05e7860d-fae4-4987-83f9-545fe29204bc)
+
 ## Use `Git Delete Branch` to delete branch
 
 **Why? Because it is more handy than to type branch's name in the terminal ♡ 💜**
