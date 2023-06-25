@@ -2,6 +2,12 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## Get tracking branch for current branch
+
+```bash
+git branch -vv --contains
+```
+
 ## Show current branch name with ease
 
 ```bash
