@@ -180,6 +180,9 @@ Procedure:
 - Bread with peanutbutter + milk
 - Bread with ketup + milk
 
+- Chicken - BUTTER GARLIC CHICKEN RECIPE: [Click here](https://www.youtube.com/watch?v=W8gnfLe8n04)
+- Chicken - Steak Recepie: [Click here](https://www.youtube.com/watch?v=5qS4Fnb9GMA)
+
 ## Other Stuff
 
 - **Haldi Milk**
