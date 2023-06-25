@@ -174,10 +174,6 @@ Procedure:
   - Now close the lid and let it cook for sometime on stove.
 </details>
 
-<ins>**Remove coffee foam (use a full napkin):**</ins>
-
-![image](https://user-images.githubusercontent.com/31458531/224502485-2d778897-dd6e-4cdb-9bef-20c751791783.png)
-
 <ins>**Bread Recepies**</ins>
 - Bread with butter + milk
 - Bread with ghee + tea
