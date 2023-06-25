@@ -2,16 +2,17 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
-## Get tracking branch for current branch
+## Some useful commands
 
 ```bash
-git branch -vv --contains
-```
-
-## Show current branch name with ease
-
-```bash
+# Get current branch name
 git branch --show-current
+
+# Get current branch and its tracking branch (upstream branch)
+git branch -vv --contains
+
+# Update tracking branch for current branch
+git branch -u origin/$(git branch --show-current)
 ```
 
 ## Make current user as owner of a git repository (sometimes git show weird error because the ownder of git directory is root)
