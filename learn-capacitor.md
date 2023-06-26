@@ -4,6 +4,18 @@ Quick Links:
 - **TODO:** PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Run capacitor app on a target device
+
+```bash
+npx cap run android --list
+# INFO: Using static build for capacitor
+# Name                                API      Target ID
+# -------------------------------------------------------------------
+# Pixel 3 XL API 33 (emulator)        API 33   Pixel_3_XL_API_33
+# Pixel_3a_API_33_x86_64 (emulator)   API 33   Pixel_3a_API_33_x86_64
+# Pixel 4 API 33 (emulator)           API 33   Pixel_4_API_33
+```
+
 ## Learn android studio - `emulator` cli
 
 ```bash
