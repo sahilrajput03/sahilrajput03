@@ -20,3 +20,4 @@ More:
 - Is midjourney opensource: youtube - [Click here](https://www.youtube.com/watch?v=HSdp_Qe4VgY)
 - gpt-engineer - Github 28K* (uses OpenAI key): [Click here](https://github.com/AntonOsika/gpt-engineer), Medium Article By Author: [Click here](https://medium.com/codingthesmartway-com-blog/the-future-of-coding-generating-a-full-codebase-from-a-prompt-with-gpt-engineer-3fcf6632a4a0)
 - privateGPT - Github 31K* - [Click here](https://github.com/imartinez/privateGPT), Medium Article: [Click here](https://medium.com/codingthesmartway-com-blog/privategpt-the-ultimate-solution-for-offline-secure-language-processing-that-turns-your-pdfs-into-b5cd4ee5db8e)
+- ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4bd2d24d-fd37-4694-99b2-6b44bb41d8ba)
