@@ -11,9 +11,17 @@ npx cap run android --list
 # INFO: Using static build for capacitor
 # Name                                API      Target ID
 # -------------------------------------------------------------------
+# Redmi M2010J19SI                    API 29   192.168.18.4:5555
 # Pixel 3 XL API 33 (emulator)        API 33   Pixel_3_XL_API_33
 # Pixel_3a_API_33_x86_64 (emulator)   API 33   Pixel_3a_API_33_x86_64
 # Pixel 4 API 33 (emulator)           API 33   Pixel_4_API_33
+
+# Run on a target device
+npx cap run android --target 192.168.18.4:5555
+
+# For ease with live-reload or production build you can use below aliases in ~/.bashrc file:
+capLiveReload_RedmiNote5
+capProd_RedmiNote5
 ```
 
 ## Learn android studio - `emulator` cli
