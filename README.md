@@ -218,6 +218,10 @@ cra: 335mb
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 - Learn Remix: [Click here](learn-remix.md)
 
+## Should we have "develop" and "staging" deployments in addition to production deployment?
+
+>  Ideally we should have development and staging environments separately. Where "develop" is always stable version of production, and staging is purely tesitng
+
 ## Use `saucelabs` to test apps in different browser
 
 *Suggested by damon*
