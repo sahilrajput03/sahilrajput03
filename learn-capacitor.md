@@ -8,7 +8,7 @@
 - **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
 - **Google Play blank screen loading forever Internal Testing and Public Alpha track:** [Click here](https://stackoverflow.com/questions/63253254/google-play-blank-screen-loading-forever-internal-testing-and-public-alpha-track)
 
-## Suepr learning about adding tester email to "Internal Testing"
+## Super learning about adding tester email to "Internal Testing"
 
 It takes 3-4 hours or may be 1-2 days so that any new tester added to tester-email-list to take into effect (before that it will show white screen when you try to browse the internal testing playstore link). 
 
