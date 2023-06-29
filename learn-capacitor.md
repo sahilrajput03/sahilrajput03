@@ -10,7 +10,7 @@
 
 ## Super learning about adding tester email to "Internal Testing"
 
-It takes 3-4 hours or may be 1-2 days so that any new tester added to tester-email-list to take into effect (before that it will show white screen when you try to browse the internal testing playstore link). 
+It takes 3-4 hours or may be 1-2 days so that any new tester email added to `tester-email-list` to take into effect (before that it will show white screen when you try to browse the internal testing playstore link). 
 
 ## Give developer permission to change app description and app screenshots
 
