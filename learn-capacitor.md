@@ -8,6 +8,10 @@
 - **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
 - **Google Play blank screen loading forever Internal Testing and Public Alpha track:** [Click here](https://stackoverflow.com/questions/63253254/google-play-blank-screen-loading-forever-internal-testing-and-public-alpha-track)
 
+## Give developer permission to change app description and app screenshots
+
+`Store Listing > Edit store listing`
+
 ## Change countries access to the app
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7cf42c8d-4930-4d34-83ff-c004e1978578)
