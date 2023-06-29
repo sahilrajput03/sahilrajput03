@@ -10,7 +10,7 @@
 
 ## Change countries access to the app
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8f646272-ac71-45e5-8a67-5b145e27d8ee)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7cf42c8d-4930-4d34-83ff-c004e1978578)
 
 ## Updating Testers and allowing testers
 
