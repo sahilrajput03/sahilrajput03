@@ -4,6 +4,10 @@ Quick Links:
 - **TODO:** PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Capacitor - Publishing to play console versions
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/90da8afc-3354-4af4-bf7e-b37c50f22eb1)
+
 ## Run capacitor app on a target device
 
 ```bash
