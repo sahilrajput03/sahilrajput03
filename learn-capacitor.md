@@ -11,7 +11,7 @@
 
 It takes 3-4 hours or may be 1-2 days so that any new tester email added to `tester-email-list` to take into effect (before that it will show white screen when you try to browse the internal testing playstore link). 
 
-**Google Play blank screen loading forever Internal Testing and Public Alpha track:** [Click here](https://stackoverflow.com/questions/63253254/google-play-blank-screen-loading-forever-internal-testing-and-public-alpha-track)
+**Source - Google Play blank screen loading forever Internal Testing and Public Alpha track:** [Click here](https://stackoverflow.com/questions/63253254/google-play-blank-screen-loading-forever-internal-testing-and-public-alpha-track)
 
 ## Give developer permission to change app description and app screenshots
 
