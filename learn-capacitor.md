@@ -10,7 +10,7 @@
 
 ## Give developer permission to change app description and app screenshots
 
-`Store Listing > Edit store listing`
+`Settings menu, select "Users & permissions" > Select the developer > Users & permissions > Store Listing > Edit store listing`
 
 ## Change countries access to the app
 
