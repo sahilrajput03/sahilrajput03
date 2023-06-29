@@ -1,10 +1,10 @@
 # Learn capacitor
 
-Quick Links:
+**Quick Links:**
 - **TODO:** PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
-Quick Links - PlayStore issues:
+**Quick Links - PlayStore issues:**
 - Google Play Alpha: App not available for this account: [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
 - Google Play blank screen loading forever Internal Testing and Public Alpha track: [Click here](https://stackoverflow.com/questions/63253254/google-play-blank-screen-loading-forever-internal-testing-and-public-alpha-track)
 
