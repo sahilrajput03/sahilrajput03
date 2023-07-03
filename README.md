@@ -218,6 +218,12 @@ cra: 335mb
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 - Learn Remix: [Click here](learn-remix.md)
 
+## Difference b/w `npm i` and `npm ci`
+
+Source: [Click here](https://stackoverflow.com/a/53325242)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5b7715f2-26fd-484e-85f1-f73cdb5cc8aa)
+
 ## Copy folder via `adb pull` command
 
 ```bash
