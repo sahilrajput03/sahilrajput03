@@ -229,6 +229,9 @@ Source: [Click here](https://stackoverflow.com/a/53325242)
 ```bash
 # This copies `snaptube` folder from internal disk to local `snaptube` folder
 adb pull /sdcard/snaptube
+
+# Push files to device
+adb push ./myfile.txt /sdcard/
 ```
 
 ## Should we have "develop" and "staging" deployments in addition to production deployment?
