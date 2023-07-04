@@ -258,7 +258,14 @@ sudo pacman -S shotcut
 ```bash
 sudo pacman -S kdenlive
 
-#you can also use their AppImage version and move that file to /usr/bin/ directory as well.
+# Install ladspa for noise reduction
+sudo pacman -S ladspa # may be optional, but it doesn't hurt at all
+# Necessary to get "Noise supression for Noise" option in *EFFECTS* under "LADSPA Plugins" category
+sudo pacman -S noise-suppression-for-voice
+
+
+# ----
+# You can also use their AppImage version and move that file to /usr/bin/ directory as well.
 ```
 
 ## install mongod on raspberry pi
