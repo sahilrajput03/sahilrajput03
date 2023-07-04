@@ -6,6 +6,10 @@
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 
+## Useful **Refresh** button to update recenty made commits locally on current branch
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f2e572bb-3010-4225-899b-3e218eb12c32)
+
 ## That's how you track which remote the vscode is tracking
 
 You need to hover that area on the bottom of vscode where the branch-name is shown like that-
