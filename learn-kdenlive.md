@@ -11,7 +11,7 @@
 
 - Audacity - Setting mic (i.e., earphone mic and system mic)
 
-![Uploading image.png…]()
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/71d2cb3d-b3bc-48dd-a60c-454631d9b6c7)
 
 - Initial Load screen:
 
