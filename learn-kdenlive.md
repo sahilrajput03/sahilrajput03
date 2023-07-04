@@ -9,6 +9,10 @@
 
 **Learn wiht Pictures:**
 
+- Audacity - Mic and Speaker - Control
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7d2d08b6-33b9-4f8b-a9f9-66c1e7349334)
+
 - Setting mic in kdenlive (system and headphone mic) **No need to restart kdenlive to take mic change into effect (tested)**
 
 Step 1/3:
