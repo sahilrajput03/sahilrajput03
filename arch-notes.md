@@ -260,7 +260,9 @@ sudo pacman -S kdenlive
 
 # Install ladspa for noise reduction
 sudo pacman -S ladspa # may be optional, but it doesn't hurt at all
+
 # Necessary to get "Noise supression for Noise" option in *EFFECTS* under "LADSPA Plugins" category
+# hint of this package - https://www.reddit.com/r/kdenlive/comments/10sjsbw/comment/j71xna7/?utm_source=share&utm_medium=web2x&context=3
 sudo pacman -S noise-suppression-for-voice
 
 
