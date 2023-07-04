@@ -11,15 +11,15 @@
 
 - Setting mic in kdenlive (system and headphone mic)
 
-Step 1:
+Step 1/3:
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/22e8053c-95a1-4fcd-91a1-cbed8fa3228b)
 
-Step 2:
+Step 2/3:
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e9eaf06b-aca9-4c87-b4fc-b8b69619b3c3)
 
-Step 3:
+Step 3/3:
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0e542747-d0e6-4bfb-aa41-3f98f3704eb3)
 
