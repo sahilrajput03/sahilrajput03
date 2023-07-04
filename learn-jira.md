@@ -6,6 +6,10 @@
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
+## Filter for custom fields can be added too like that
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4d8ab398-8aad-4ec1-a5d5-f8bc7c414bff)
+
 ## Amazing custom filters in Jira with JQL (Jira Query Language)
 
 **Docs of JQL:** [Click here](https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/)
