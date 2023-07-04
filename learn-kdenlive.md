@@ -9,6 +9,10 @@
 
 **Learn wiht Pictures:**
 
+- Noise removal with Kdenlive (`LADSPA Plugins` - `Noise Supression for Voice`)
+
+Source: (1min video) - [Click here](https://youtu.be/hj38IZLfmqM)
+
 - Audacity - Mic and Speaker - Control
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7d2d08b6-33b9-4f8b-a9f9-66c1e7349334)
