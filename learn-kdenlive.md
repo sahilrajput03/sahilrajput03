@@ -13,6 +13,10 @@
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/71d2cb3d-b3bc-48dd-a60c-454631d9b6c7)
 
+- Screen Recorder with Kdenlive
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d5e1a5bb-d2ff-49d0-97d8-02e0405e3a9b)
+
 - Initial Load screen:
 
   ![image](https://user-images.githubusercontent.com/31458531/206194015-5f0e7a52-25ff-455a-b3d7-8fee1f585a67.png)
