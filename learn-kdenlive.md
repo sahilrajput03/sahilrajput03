@@ -25,7 +25,7 @@ Step 1/3:
 
 Step 2/3:
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e9eaf06b-aca9-4c87-b4fc-b8b69619b3c3)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a0f2f154-a853-4387-8fde-c75c38ee27b6)
 
 Step 3/3:
 
