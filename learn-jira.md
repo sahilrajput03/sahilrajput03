@@ -6,6 +6,13 @@
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
+## Adding/Editing/Deleting Status in Jira
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b5209b58-581c-4d70-aa15-a9bc4d92fc9f)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9b71f704-a38a-41a9-898f-9ef444dfac93)
+
+
 ## Filter for custom fields can be added too like that
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4d8ab398-8aad-4ec1-a5d5-f8bc7c414bff)
