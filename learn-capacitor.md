@@ -7,7 +7,7 @@
 **Quick Links - PlayStore issues:**
 - **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
 
-## WORKING WAY OF producing the signed apk
+## WORKING ❤️ WAY ❤️ OF producing the signed apk
 
 1. Run `npm run build` in project
 2. Run `Build > Clean Project`.
