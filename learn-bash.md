@@ -1,4 +1,4 @@
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a8d21bbd-21c1-4e9e-8794-c26e1a7fe457)# Learning bash
+# Learning bash
 
 **GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
 
