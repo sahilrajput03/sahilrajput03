@@ -14,7 +14,7 @@ Ai tools Suggested by Varun Mayya -
 - Stable Diffusion - Github Repo (56.1K*): [Click here](https://github.com/CompVis/stable-diffusion)
 - Stable Diffusion v2 - Github Repo (24.6K*): [Click here](https://github.com/Stability-AI/stablediffusion)
 - Stable Diffusion - Web UI - Github Repo (83.8K*): [Click here](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-
+- MiniGPT-4 Github Repo (22K*): [Click here](https://github.com/Vision-CAIR/MiniGPT-4)
 
 More:
 - Is midjourney opensource: youtube - [Click here](https://www.youtube.com/watch?v=HSdp_Qe4VgY)
