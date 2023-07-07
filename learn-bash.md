@@ -204,7 +204,7 @@ cd $SCRIPTS_DIR_PATH/..
 sops -e .env > enc.env
 ```
 
-**Also, below answer on stackoverflow is a great answer too [from here](https://stackoverflow.com/a/59916) -**
+**❤️ Also, below answer on stackoverflow is a great answer too [from here](https://stackoverflow.com/a/59916) ❤️ -**
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/435656d9-8546-45c1-90f6-3ae500c41239)
 
