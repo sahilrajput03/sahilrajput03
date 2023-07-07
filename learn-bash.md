@@ -1,4 +1,4 @@
-# Learning bash
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a8d21bbd-21c1-4e9e-8794-c26e1a7fe457)# Learning bash
 
 **GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
 
@@ -203,6 +203,10 @@ SCRIPTS_DIR_PATH="$(dirname -- "${BASH_SOURCE[0]}")"
 cd $SCRIPTS_DIR_PATH/..
 sops -e .env > enc.env
 ```
+
+**Also, below answer on stackoverflow is a great answer too [from here](https://stackoverflow.com/a/59916) -**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/435656d9-8546-45c1-90f6-3ae500c41239)
 
 ## Using softlink to create a binary link in `/usr/bin` directory to make binaris available from everywhere
 
