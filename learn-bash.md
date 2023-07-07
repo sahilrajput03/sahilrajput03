@@ -197,6 +197,9 @@ So, below script will cause to execute the `sops` command to run from the parent
 ```bash
 #!/bin/bash
 SCRIPTS_DIR_PATH="$(dirname -- "${BASH_SOURCE[0]}")"
+# Use below statement for debugging via CLI for above variable path
+# CURRENT="$(pwd)"
+
 cd $SCRIPTS_DIR_PATH/..
 sops -e .env > enc.env
 ```
