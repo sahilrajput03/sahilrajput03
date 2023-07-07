@@ -211,6 +211,8 @@ sops -e .env > enc.env
 
 ## Using softlink to create a binary link in `/usr/bin` directory to make binaris available from everywhere
 
+⚠️⚠️ Please don't use soft links for any of your scripts because its impossible get path of `script` when you run a symlink (NOTE - `PATH_TO_DIRECTORY_OF_THIS_SCRIPT="$(dirname -- "${BASH_SOURCE[0]}")"` gives path the symlink and not the actualy script we are running. Thus always use functions with static paths to files/directories for referncing those. ⚠️⚠️
+
 ```bash
 # example 1
 # Make a soft link of `docker-compose` to /usr/bin directory
