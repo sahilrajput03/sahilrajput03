@@ -176,7 +176,7 @@ Source: Amazing quora answer with 5+ resources: https://qr.ae/pviIdi
 
 Simply use `reset` command to get your teminal back. YO!!  [Source](https://superuser.com/a/237405)
 
-## Confused with all the paths in scripts?
+## ❤️ ❤️ ❤️  Confused with all the paths in scripts? ❤️ ❤️ ❤️ 
 
 ```bash
 #!/bin/bash
