@@ -8,6 +8,20 @@
 **General - PlayStore issues:**
 - **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
 
+## SharedPreferences vs. `Cookies` usage in capacitor app
+
+- Should we use `Cookies` in capacitor native app OR
+- Should we use `SharedPrefernces` when we want to maintain persistent data for apps?
+
+**Issue faced in xxxxx-capacitor-app? **
+
+Q. Why logged-in session is persisted after signout action (clearing Cookies and SharedPreferences?
+
+So what I came up with some 6+ hours of testing and debugging this loggedin-session persists issue is this -
+that, the browser session used by capacitor environment in the mobile isn’t woring the way actualy browser work with Cookies api (or may be Capacitor team has tweaked that on purpose). And this resulted in Cookies being persisted in some cases like 1 in 7 cases further resulting in persisted user-session. So the only solution left was to opt out of using Cookies for native platform and using SharedPreferences without caching layer of Cookies like we were using before. This fixed the issue completely. **Cons?** Is SharedPrefernces slower now as compared to previousl approach? I personally think it has no effect on performace and to dig out deeper I found this StackOverflow answer talking about the read speed of same -  Read speed of SharedPreferences . The accepted answer says like that:
+
+They are in memory, after the first reference. The first time you retrieve a specific SharedPreferences (e.g., PreferenceManager.getDefaultSharedPreferences()), the data is loaded from disk, and kept around.
+
 ## WORKING ❤️ WAY ❤️ OF producing the signed apk
 
 NOTE: Why to use android studio and **not** capacitor CLI to build a signed APK? Because - It gives error when the APK is installed on android - "App is not installed." 
