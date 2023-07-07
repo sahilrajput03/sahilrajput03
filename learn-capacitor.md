@@ -10,6 +10,8 @@
 
 ## Is `deviceToken` change on each firebase setup for e.g., on login event on client app?
 
+ANOTHER Noting: My phone remembers the `deviceToken` no matter how many times logout/login is performed and each time `deviceToken` is accessible when signin is performed.
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/64feaf2e-7d34-4287-8efc-fc9f706181ff)
 
 ## SharedPreferences vs. `Cookies` usage in capacitor app
