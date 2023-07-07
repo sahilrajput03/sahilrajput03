@@ -543,7 +543,7 @@ I would point you to Wikipedia:
 
 A few points:
 
-- Symlinks, unlike hard links, can cross filesystems (most of the time).
+- Symlinks, unlike hard links, can work cross filesystems (most of the time).
 - Symlinks can point to directories.
 - Hard links point to a file and enable you to refer to the same file with more than one name.
 - As long as there is at least one link, the data is still available.
