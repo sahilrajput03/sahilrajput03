@@ -8,6 +8,10 @@
 **General - PlayStore issues:**
 - **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
 
+## Is `deviceToken` change on each firebase setup for e.g., on login event on client app?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/64feaf2e-7d34-4287-8efc-fc9f706181ff)
+
 ## SharedPreferences vs. `Cookies` usage in capacitor app
 
 - Should we use `Cookies` in capacitor native app OR
