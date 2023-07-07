@@ -13,7 +13,7 @@
 - Should we use `Cookies` in capacitor native app OR
 - Should we use `SharedPrefernces` when we want to maintain persistent data for apps?
 
-**Issue faced in xxxxx-capacitor-app? **
+**Issue faced in xxxxx-capacitor-app?**
 
 Q. Why logged-in session is persisted after signout action (clearing Cookies and SharedPreferences?
 
