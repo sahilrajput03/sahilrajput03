@@ -11,6 +11,21 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Get list of apps - manjaro linux
+
+Get a list of your apps:
+
+```bash
+ls -la /usr/share/applications
+```
+To save changes press Ctrl+O and ENTER.
+
+```bash
+sudo vim /usr/share/applications/<app-name>.desktop
+```
+
+Edit the `.desktop` file for your app(s) to read `Terminal=true`.
+
 ## Setting google-chrome as default application with `xdg-open`?
 
 Check the file `.config/mimeapp.list` in `sahilrajput03/config` repository.
