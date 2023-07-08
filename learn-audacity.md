@@ -1,5 +1,8 @@
 # Learn Audacity
 
+**Quick Links:**
+- Learn Kdenlive: [Click here](learn-kdenlive.md)
+
 - Audacity - Mic and Speaker - Control
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7d2d08b6-33b9-4f8b-a9f9-66c1e7349334)
