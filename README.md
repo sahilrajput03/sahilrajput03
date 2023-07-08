@@ -217,6 +217,7 @@ cra: 335mb
 - Learn Development with AI (Artificial Development): [Click here](learn-development-with-ai.md)
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 - Learn Remix: [Click here](learn-remix.md)
+- Learn Audacity: [Click here](learn-audacity.md)
 
 ## Difference b/w `npm i` and `npm ci`
 
