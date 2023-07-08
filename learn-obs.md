@@ -1,5 +1,11 @@
 # Readme
 
+## Lastly I did on currentManjaro (9 July, 2023) in order to fix the Global Audio Device detection in OBS
+
+[Click here](https://forum.manjaro.org/t/obs-studio-not-working-after-last-update/132445/27)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/440b3c66-0a93-4db1-81b0-5a6a548d7658)
+
 ## New video output bitrate set to 6000Kbps (original 2500Kbps)
 
 Source: [Click here](https://youtu.be/wt-ac45JQaU)
