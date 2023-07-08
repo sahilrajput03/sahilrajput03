@@ -1,6 +1,6 @@
 # Readme
 
-## Lastly I did on currentManjaro (9 July, 2023) in order to fix the Global Audio Device detection in OBS
+## Lastly I did on currentManjaro (9 July, 2023) in order to fix the Global Audio Device detection in OBS and sadly no result
 
 [Click here](https://forum.manjaro.org/t/obs-studio-not-working-after-last-update/132445/27)
 
