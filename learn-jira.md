@@ -6,6 +6,10 @@
 - Migrate between team-managed and company-managed projects: [Click here](https://support.atlassian.com/jira-software-cloud/docs/migrate-between-team-managed-and-company-managed-projects/)
 - How to see the report of logged time: [Click here](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/How-to-see-the-report-of-logged-time/qaq-p/1850289)
 
+## This section is helpful to view notifications in Jira
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8402093c-7338-43be-890e-3a7c0cff79f1)
+
 ## Adding/Editing/Deleting Status in Jira
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b5209b58-581c-4d70-aa15-a9bc4d92fc9f)
