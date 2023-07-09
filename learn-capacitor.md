@@ -4,13 +4,12 @@
 - **Learn Android: [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)**
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
-- Set up an open, closed, or internal test | PlayConsole: [Click here](https://support.google.com/googleplay/android-developer/answer/9845334)
 
-**General - PlayStore issues:**
-- **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
+**PlayConsole:**
+- Set up an open, closed, or internal test | **PlayConsole**: [Click here](https://support.google.com/googleplay/android-developer/answer/9845334)
+- Issue - **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
 
-## Some PlayStore notes
-
+**PlayStore notes:**
 - Country availability is changed across all tracks.
 - There are some monetization and country availability exceptions for internal tests. For details, go to the section on setting up an internal test.
 - Paid apps: If you’re testing a paid app using an open or closed test, testers still need to purchase it. If you’re testing a paid app using an internal test, testers can install your app for free.
