@@ -18,12 +18,6 @@ Article - [Click here](https://appinventiv.com/blog/how-to-submit-app-to-google-
 
 [Clickh here](https://ionic.io/blog/building-and-releasing-your-capacitor-android-app)
 
-## Internal Test Network
-
-[Click here](https://play.google.com/console/about/internal-testing/)
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9f529f68-f7a6-44a1-bfac-579412b44332)
-
 ## `LEARNING OF THE BAD DAY` Super learning about adding tester email to "Internal Testing"
 
 Source:  [StackOverflow](https://stackoverflow.com/questions/63253254/google-play-blank-screen-loading-forever-internal-testing-and-public-alpha-track)
