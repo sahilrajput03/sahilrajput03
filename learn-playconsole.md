@@ -14,7 +14,7 @@
 
 Article - [Click here](https://appinventiv.com/blog/how-to-submit-app-to-google-play-store/)
 
-## Generating and submitting apk to playstore
+## Generating and submitting apk to playstore | Capacitor Docs
 
 [Clickh here](https://ionic.io/blog/building-and-releasing-your-capacitor-android-app)
 
