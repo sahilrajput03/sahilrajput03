@@ -4,6 +4,7 @@
 - **Learn Android: [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)**
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
+- Set up an open, closed, or internal test | PlayConsole: [Click here](https://support.google.com/googleplay/android-developer/answer/9845334)
 
 **General - PlayStore issues:**
 - **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
