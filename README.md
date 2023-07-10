@@ -218,6 +218,7 @@ cra: 335mb
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 - Learn Remix: [Click here](learn-remix.md)
 - Learn Audacity: [Click here](learn-audacity.md)
+- Learn i3: [Click here](learn-i3.md)
 
 ## Difference b/w `npm i` and `npm ci`
 
