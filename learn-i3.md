@@ -2,9 +2,15 @@
 
 ## Finding window name for making them float
 
-Source: [Click here](https://unix.stackexchange.com/a/494168/504112)
+1. Source: [Click here](https://unix.stackexchange.com/a/494168/504112)
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/62a8f062-448c-4269-8ecd-94d3d6a70e62)
+  ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/62a8f062-448c-4269-8ecd-94d3d6a70e62)
+
+2. ♥ Get only `WM_NAME`, `WM_CLASS`, `WM_WINDOW_ROLE` and `WM_WINDOW_TYPE` (source - Same above stackoverflow answer of point 1).
+
+  `xprop2i3` is amazing you can check it [here in my own config repository](https://github.com/sahilrajput03/config/blob/main/scripts/xprop2i3.sh).
+
+  Tip: You can use my **alias** for it as well ie., `xprop213.sh` as well.
 
 ## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
 
