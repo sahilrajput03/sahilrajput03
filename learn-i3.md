@@ -4,7 +4,7 @@
 
 1. Source: [Click here](https://unix.stackexchange.com/a/494168/504112)
 
-  ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/62a8f062-448c-4269-8ecd-94d3d6a70e62)
+  ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/21c9eb94-7780-40dc-838c-924331dad30d)
 
 2. ♥ Get only `WM_NAME`, `WM_CLASS`, `WM_WINDOW_ROLE` and `WM_WINDOW_TYPE` (source - Same above stackoverflow answer of point 1).
 
