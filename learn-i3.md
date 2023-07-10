@@ -18,6 +18,14 @@
 xprop WM\_CLASS
 # Outpu:
 # WM\_CLASS(STRING) = "gnome-calculator", "Gnome-calculator"
+#### LEARN ####
+### The first part is `instance` for i3
+### The second part is `class` for i3
+
+### so to make them float for i3 it would work like that:
+for_window [instance="gnome-calculator"] floating enable
+# OR
+for_window [class="Gnome-calculator"] floating enable
 ```
 
 ## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
