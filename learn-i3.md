@@ -15,8 +15,9 @@
 3. ♥ To get only `WM_NAME` you can use this command too:
 
 ```bash
-xprop WM\_CLASS    
-WM\_CLASS(STRING) = "gnome-calculator", "Gnome-calculator"
+xprop WM\_CLASS
+# Outpu:
+# WM\_CLASS(STRING) = "gnome-calculator", "Gnome-calculator"
 ```
 
 ## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
