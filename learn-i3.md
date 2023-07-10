@@ -18,6 +18,7 @@
 xprop WM\_CLASS
 # Outpu:
 # WM\_CLASS(STRING) = "gnome-calculator", "Gnome-calculator"
+
 #### LEARN ####
 ### The first part is `instance` for i3
 ### The second part is `class` for i3
