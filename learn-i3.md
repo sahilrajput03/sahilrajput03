@@ -1,5 +1,11 @@
 # Learn i3
 
+## Finding window name for making them float
+
+Source: [Click here](https://unix.stackexchange.com/a/494168/504112)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/62a8f062-448c-4269-8ecd-94d3d6a70e62)
+
 ## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
 
 - i3-manjaro comes with utility browser: `palemoon`
