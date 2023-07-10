@@ -29,6 +29,8 @@ for_window [instance="gnome-calculator"] floating enable
 for_window [class="Gnome-calculator"] floating enable
 ```
 
+4. Another similar good reddit question: [Click here](https://www.reddit.com/r/i3wm/comments/re1f9c/for_window_rules_for_floating_doesnt_work_what_is/)
+
 ## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
 
 - i3-manjaro comes with utility browser: `palemoon`
