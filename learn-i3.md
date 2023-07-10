@@ -8,7 +8,7 @@
 
 2. ♥ Get only `WM_NAME`, `WM_CLASS`, `WM_WINDOW_ROLE` and `WM_WINDOW_TYPE` (source - Same above stackoverflow answer of point 1).
 
-  `xprop2i3` is amazing you can check it [here i.e, `xprop213.sh` in my own config repository](https://github.com/sahilrajput03/config/blob/main/scripts/xprop2i3.sh).
+  `xprop2i3` is amazing you can check it here i.e, [`xprop213.sh`](https://github.com/sahilrajput03/config/blob/main/scripts/xprop2i3.sh) in my own config repository.
 
   Tip: You can use my **alias** for it as well ie., `xprop213.sh` as well.
 
