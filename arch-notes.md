@@ -40,15 +40,6 @@ UPDATE: 15 May, 2023
 export CAPACITOR_ANDROID_STUDIO_PATH=/usr/bin/android-studio
 ```
 
-## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
-
-- i3-manjaro comes with utility browser: `palemoon`
-- `dmenu` not working: [Click here](https://unix.stackexchange.com/a/573770/504112)
-- You can fix private-key ssh file permission access denied issue when you try to clone: `cd ~/.ssh/myKeys; chmod 0400 *`
-- Dell Laptop: 3 may, 2023 (manjaro-i3), Follow manual partitioning guide here on youtube: [Click here](https://www.youtube.com/watch?v=4KSf_ZfvMlM)
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/db01f600-ce91-46da-9f82-cdb08d15d7e2)
-
 ## Setup softwares quickly (♥ _please_keep_this_post _top)
 
 ```bash
@@ -113,33 +104,11 @@ cloc --exclude-dir=node_modules .
 ![image](https://user-images.githubusercontent.com/31458531/234204069-15a8318f-5730-400b-9a90-c602aa27ceb4.png)
 
 
-## Fixing flameshow in new manajaro-i3 install
-
-You need to disable below lines as shown i.e, by adding a prefix of # for each of these lines:
-
-```
-# bindsym Print exec --no-startup-id i3-scrot
-# bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
-# bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
-```
-
-and you need to add this line for flameshot:
-
-```
-bindsym Print exec /usr/bin/flameshot gui
-```
-
 ## New version of linux released on 20 April, 2023
 
 Source: [Click here](https://www.kernel.org/)
 
 ![image](https://user-images.githubusercontent.com/31458531/233806792-b487f274-66c3-49f6-8dee-2d30d7610300.png)
-
-## ♥💕❤ New learning from monajaro-i3 installation (default setup)
-
-1. `mod+m` makes the taskbar autohide and to see taskbar show automatically you need to press `mod` anytime you want).
-2. `mod+b` toggle b/w last workspace.
-3. `mod+ <anyWorkspaceNumber>` switched to target workspace but when pressed again act as switching b/w current and last workspace.
 
 ## Fixing the `No disk drives found` issue in my new dell laptop (error shown in manjaro installer)
 
@@ -1773,16 +1742,6 @@ sudo pacman -S mupdf #mupdf doesn't allow continuous page scrolling so llpp is a
 
 #Usage:
 llpp/mupdf myfile.pdf
-```
-
-## Installed xorg-xprop in archlinux
-
-```bash
-sudo pacman -S xorg-xprop
-
-#Now you can use:
-xprop
-# Now use cross-hair cursor to click any window and get all the details of that window!! Its good for doing stuff (like making certain windows always float in i3 tiling manager or other similar stuff).
 ```
 
 ## Installed auto-jump in archlinux
