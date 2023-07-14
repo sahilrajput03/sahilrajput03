@@ -220,6 +220,10 @@ cra: 335mb
 - Learn Audacity: [Click here](learn-audacity.md)
 - Learn i3: [Click here](learn-i3.md)
 
+## Amazing tool to generate a long image for Pull Requests for reviewing over mobile
+
+Screen Capture - Chrome Extension: [Click here](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
+
 ## Difference b/w `npm i` and `npm ci`
 
 Source: [Click here](https://stackoverflow.com/a/53325242)
