@@ -12,6 +12,14 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Using mouse as trackpad and keyboard
+
+```bash
+yay -S remotemouse
+
+# on mobile you can use application named `remotemouse` from PlayStore as well
+```
+
 ## Get list of apps - manjaro linux
 
 Get a list of your apps:
