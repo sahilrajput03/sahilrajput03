@@ -1,4 +1,4 @@
-# Learn PlayConsole
+# Learn Google Play Console
 
 **PlayConsole:**
 - Set up an open, closed, or internal test | **PlayConsole**: [Click here](https://support.google.com/googleplay/android-developer/answer/9845334)
