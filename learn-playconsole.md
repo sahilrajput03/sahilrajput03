@@ -1,8 +1,8 @@
 # Learn Google Play Console
 
 **Quick Links:**
-- **Learn Capacitor:** [Click here](learn-capacitor.md)
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
+- **Learn Capacitor:** [Click here](learn-capacitor.md)
 
 **Play Console Docs, Issues:**
 - Set up an open, closed, or internal test | **PlayConsole**: [Click here](https://support.google.com/googleplay/android-developer/answer/9845334)
