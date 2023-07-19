@@ -12,7 +12,7 @@
 
 Resource: [1](https://stackoverflow.com/questions/33169618/an-android-app-remembers-its-data-after-uninstall-and-reinstall/33176898#33176898), [2](https://stackoverflow.com/questions/35517239/sharedpreferences-are-not-being-cleared-when-i-uninstall/35517411#35517411)
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9c80d769-e397-49fe-8e36-2d82f789bc8a)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5217396d-8316-4c9f-afb0-a9d09f285a74)
 
 ## Is `deviceToken` change on each firebase setup for e.g., on login event on client app?
 
