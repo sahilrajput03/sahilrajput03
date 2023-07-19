@@ -2,6 +2,7 @@
 
 **PlayConsole:**
 - Set up an open, closed, or internal test | **PlayConsole**: [Click here](https://support.google.com/googleplay/android-developer/answer/9845334)
+- Distribute app releases to specific countries: [Click here](https://support.google.com/googleplay/android-developer/answer/7550024?hl=en)
 - Issue - **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
 
 **PlayStore notes:**
