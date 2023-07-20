@@ -1,4 +1,4 @@
-### PLEASE REFER textual info @ https://github.com/sahilrajput03/learn-trading/blob/main/readme.md
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ff87dce2-8fbb-4824-8ee2-39e17b084280)### PLEASE REFER textual info @ https://github.com/sahilrajput03/learn-trading/blob/main/readme.md
 
 # Starting from 2023, with money now!
 
@@ -8,6 +8,21 @@
 1. Using multiple windows together on trading view without Pro subscriptions: [Click here](https://youtube.com/shorts/7freawstxUE?feature=share)
 2. Learn Tradingview @ youtube: [Click here](https://www.youtube.com/results?search_query=using+trading+view)
 
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/886f8421-bcda-47f0-af13-dc290593f8ef)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9779e295-cc98-4eda-95fe-4619fec3b19e)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1e99e819-158f-461e-9a8e-60602a5d67fd)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/98853458-6f9f-42d9-be0d-f7e95af9fa36)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9011f97f-f4d7-4b05-8ffb-7fe5adb94ca1)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1c1881e5-daf3-4b70-9909-8fe281d28567)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2e105274-e5f8-477d-b266-24ca66b73ea0)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/98c8c9a1-c2e8-4935-a8e9-32bcf58d522a)
 
 # Learn stocks
 
