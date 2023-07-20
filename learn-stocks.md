@@ -1,4 +1,4 @@
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ff87dce2-8fbb-4824-8ee2-39e17b084280)### PLEASE REFER textual info @ https://github.com/sahilrajput03/learn-trading/blob/main/readme.md
+### PLEASE REFER textual info @ https://github.com/sahilrajput03/learn-trading/blob/main/readme.md
 
 # Starting from 2023, with money now!
 
