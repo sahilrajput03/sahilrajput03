@@ -25,6 +25,11 @@
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/98c8c9a1-c2e8-4935-a8e9-32bcf58d522a)
 
+Popular Brokers
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6e111f97-85e9-4665-badf-b65d73cd5244)
+
+
 # Learn stocks
 
 todo: start from `7th video` i.e., Bollinger Bangs:
