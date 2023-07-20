@@ -2,6 +2,9 @@
 
 # Starting from 2023, with money now!
 
+**Using `in.tradingview.com`:**
+
+0. [in.tradingview.com](https://in.tradingview.com/)
 1. Using multiple windows together on trading view without Pro subscriptions: [Click here](https://youtube.com/shorts/7freawstxUE?feature=share)
 
 
