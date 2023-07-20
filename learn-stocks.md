@@ -2,7 +2,7 @@
 
 # Starting from 2023, with money now!
 
-Using multiple windows together on trading view without Pro subscriptions: [Click here](https://youtube.com/shorts/7freawstxUE?feature=share)
+1. Using multiple windows together on trading view without Pro subscriptions: [Click here](https://youtube.com/shorts/7freawstxUE?feature=share)
 
 
 # Learn stocks
