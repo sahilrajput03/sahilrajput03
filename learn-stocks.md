@@ -7,7 +7,7 @@
 0. Site - [in.tradingview.com](https://in.tradingview.com/)
 1. Using multiple windows together on trading view without Pro subscriptions: [Click here](https://youtube.com/shorts/7freawstxUE?feature=share)
 2. Learn Tradingview @ youtube: [Click here](https://www.youtube.com/results?search_query=using+trading+view)
-3. (Done, Awesome) - TradingView  Tutorial: [Click here](https://www.youtube.com/watch?v=sduv7ISh0Bw&t=1112s)
+3. (Done, Awesome, 2 amazing tips in the end) - TradingView  Tutorial: [Click here](https://www.youtube.com/watch?v=sduv7ISh0Bw&t=1112s)
 
 ## Standard view in trading view is opened from here
 
