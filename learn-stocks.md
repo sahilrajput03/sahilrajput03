@@ -9,6 +9,12 @@
 2. Learn Tradingview @ youtube: [Click here](https://www.youtube.com/results?search_query=using+trading+view)
 3. (currently doing) - TradingView  Tutorial: [Click here](https://www.youtube.com/watch?v=sduv7ISh0Bw&t=1112s)
 
+## Standard view in trading view is opened from here
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/c3ae4f14-2e43-49a1-9f33-1935fd2fdc0b)
+
+## Sidebar menus in tradingview.com
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/886f8421-bcda-47f0-af13-dc290593f8ef)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9779e295-cc98-4eda-95fe-4619fec3b19e)
