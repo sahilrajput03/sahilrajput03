@@ -2,6 +2,13 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## Use local time zone for git log
+
+Source: [Click here](https://stackoverflow.com/a/15905642/10012446)
+
+```
+git config --global log.date local
+```
 ## Some useful commands
 
 ```bash
