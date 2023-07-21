@@ -15,6 +15,10 @@
 - Paid apps: If you’re testing a paid app using an open or closed test, testers still need to purchase it. If you’re testing a paid app using an internal test, testers can install your app for free.
 
 
+## Promoting `Internal Testing` release to `Production` release
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b073acf1-edbe-4e8f-830e-aef56764a741)
+
 ## Publishing to PlayStore Android
 
 Article - [Click here](https://appinventiv.com/blog/how-to-submit-app-to-google-play-store/)
