@@ -3,6 +3,10 @@
 TODO:
 - Learn AWS by Just Me and Opensource @ YOUTUBE: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wMKAl2wcDXb7ko65V8KDBzG)
 
+## Cloud watch logs in AWS
+
+[Click here](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html)
+
 ## Files-upload-to-AWS-using-NodeJS-and-Angular
 
 [Click here](https://github.com/piratedeepak/Files-upload-to-AWS-using-NodeJS-and-Angular)
