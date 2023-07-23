@@ -595,7 +595,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   
   and now use below steps to connect to any device:
 
-  (If doesn't connect then use this link to help youself: [Click here](https://bbs.archlinux.org/viewtopic.php?id=270465&p=3))
+  **(If doesn't connect then use this link to help youself: [Click here](https://bbs.archlinux.org/viewtopic.php?id=270465&p=3))**
   
   ```bash
   # Install bluez-utils
