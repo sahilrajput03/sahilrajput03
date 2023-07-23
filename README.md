@@ -165,7 +165,8 @@ cra: 335mb
 - **Learn Mailservers:** [Click here](mail-server.md)
 - **Telegram Groups:** [Click here](telegram-groups.md)
 - **Javascript:**
-	- **Learn javascript:** [Click here](learn-js.md)
+	- **Learn NodeJS:** [Click here](learn-nodejs.md)
+	- **Learn Javascript:** [Click here](learn-js.md)
 	- **Learn from State of Javascript 2021:** [Click here](learn-state-of-javascript.md)
 	- **Prime Resources - Javascript:** [Click here](prime-resources-js.md)
 	- **DSA in Javascript:** [Click here](dsa-js.md)
