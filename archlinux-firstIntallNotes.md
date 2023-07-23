@@ -580,9 +580,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   
 - Setting up bluetooth in arch-
   ```
-  sudo pacman -S blueman
-  # now this package installed config file as well-
-  sudoCode /etc/bluetooth/main.conf
+  sudo pacman -S blueman # This installs config file at /etc/bluetooth/main.conf
   
   # Start the service and enable service to run on startup-
   sudo systemctl start bluetooth
