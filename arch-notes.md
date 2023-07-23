@@ -30,7 +30,7 @@ ls -la /usr/share/applications
 To save changes press Ctrl+O and ENTER.
 
 ```bash
-sudo vim /usr/share/applications/<app-name>.desktop
+sudoCode /usr/share/applications/<app-name>.desktop
 ```
 
 Edit the `.desktop` file for your app(s) to read `Terminal=true`.
@@ -1496,7 +1496,7 @@ makepkg -i
 
 ```bash
 # I set my video player to `mpv` by removing the handbrake from the order of applications preference, and thats it!
-sudo vim /usr/share/applications/mimeinfo.cache
+sudoCode /usr/share/applications/mimeinfo.cache
 # So I have a line like that for `video/mp4` and `video/x-matroska` mimetype respective for .mp4 and .mkv files:
 # video/mp4=mpv.desktop;vlc.desktop;
 # video/x-matroska=mpv.desktop;vlc.desktop;
@@ -1587,7 +1587,7 @@ http://localhost/ or http://127.0.0.1
 ```bash
 #Important files and config file paths:
 vi /usr/share/nginx/html/index.html
-sudo nvim /etc/nginx/nginx.conf
+sudoCode /etc/nginx/nginx.conf
 ```
 
 ## Installed `ab` i.e., `Apache HTTP server benchmarking tool`
@@ -2383,7 +2383,7 @@ source --help
 ## Define variables in arch-os
 
 ```
-sudo vim /etc/environment
+sudoCode /etc/environment
 # Now add some value pairs, i.e., v1=value1 one in each line and you would be able to test them i.e., `echo $v1` once after logout/login event.
 # Tip if you want to access the variables in current bash in hurry.., simply do like `. /etc/environment` to test your `/etc/environment` file in current bash shell only.
 ```
@@ -2559,7 +2559,7 @@ Source: [Using config files of x11 @ ArchWiki](https://wiki.archlinux.org/title/
 **tldr;**
 
 ```bash
-sudo nvim /etc/X11/xorg.conf.d/00-keyboard.conf
+sudoCode /etc/X11/xorg.conf.d/00-keyboard.conf
 ```
 
 and add below code in the tripple backticks:
