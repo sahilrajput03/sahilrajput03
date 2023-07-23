@@ -193,7 +193,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   umount -R /mnt
   
-  #If above command says: "Resource busy" then use below command instead, (-l is for lazy unmount option)-
+  # If above command says: "Resource busy" then use below command instead, (-l is for lazy unmount option)-
   umount -l /mnt
   ```
   
