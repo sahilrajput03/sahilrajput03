@@ -368,7 +368,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
 - Add transparency ability to terminal by-
   
   ```
-  sudo vim /etc/xdg/picom.conf
+  sudoCode /etc/xdg/picom.conf
   # and set the value of vsync as false. By default it is set true in here.
   ```
   
@@ -483,7 +483,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   
 - Enabling hibernation: Tip: You must have SWAP partition setup before you can use hiberation feature.
   ```
-  sudo vim /etc/mkinitcpio.conf
+  sudoCode /etc/mkinitcpio.conf
   
   # Find the line that says:
   HOOKS=(base udev autodetect modconf block filesystems keyboard fsk)
@@ -491,7 +491,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   HOOKS=(base udev autodetect modconf block filesystems keyboard resume fsck)
   
   ## Now edit another file
-  sudo vim /etc/default/grub
+  sudoCode /etc/default/grub
   # and add the linux swap partition with UUID entry to the GRUB_CMDLINE_DEFAULT variable-
   GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
   # and add a resume paramter with UUID value of the SWAP partition (here 899efccc-3a01-48bb-aa44-1de74cc9798a is UUID of my SWAP atm of installation)
@@ -582,7 +582,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   sudo pacman -S blueman
   # now this package installed config file as well-
-  sudo vim /etc/bluetooth/main.conf
+  sudoCode /etc/bluetooth/main.conf
   
   # Start the service and enable service to run on startup-
   sudo systemctl start bluetooth
@@ -592,7 +592,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   sudo systemctl status bluetooth
   
   # Enable bluetooth device on startup-
-  sudo vim /etc/bluetooth/main.conf
+  sudoCode /etc/bluetooth/main.conf
   # and add below line to it
   AutoEnable=true
   ```
@@ -635,7 +635,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   sudo pacman -S pulseaudio-bluetooth
   
-  sudo vim /etc/bluetooth/main.conf
+  sudoCode /etc/bluetooth/main.conf
   # and edit the line which says
   ControllerMode = dual
   # and finally it should look like 
