@@ -585,8 +585,6 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # Start the service and enable service to run on startup-
   sudo systemctl start bluetooth
   sudo systemctl enable bluetooth
-  
-  # Verify
   sudo systemctl status bluetooth
   
   # Enable bluetooth device on startup-
@@ -595,32 +593,31 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   AutoEnable=true
   ```
   
-  and now use
+  and now use below steps to connect to any device:
   
-  ```
+  ```bash
   # Install bluez-utils
-  sudo pacman -S bluez-utils
-  # now we have bluetoothctl cli tool
-  
+  sudo pacman -S bluez-utils # This installs `bluetoothctl` cli tool
+
+  # alias for `bluetoothctl` and it opens a subshell
   blc
-  # alias for `bluetoothctl`
-  # opens a subshell
-  
+
+  # power on the device
   power on
-  # turns on the bluetooth device
   
+  # enable auto connection with devices after you connect once with a device
   default-agent
-  # enables auto connection with devices after you connect once with a device
   
+  # output all nearby available devices
   scan on
-  # not it'll output all the available devices it finds nearby
   
+  # you can type just two letters starting of any visible devices and use <TAB> to autocomplete the address *(one time only)
   trust <mac_id>
-  # you can type just two letters starting of any visible devices and use <TAB> to autocomplete the address.
-  
+
+  # pair device *(one time only)
   pair <mac_id>
   
-  # You can see your paired devices using
+  # you can see your paired devices using
   devices
   
   # connect to your device
