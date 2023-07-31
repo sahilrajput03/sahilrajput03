@@ -273,3 +273,9 @@ If you're afraid of something - try to understand it better because the chances 
 Syadwad - Use "I think" or "I guess" with every sentence - But the problem with this is that conviction isn't there.
 
 Inductive Logic can't lead 100% objectivity. ~ Vikas Divya Kirti
+
+If you've got an idea, start today. There's no better time than now to get going. ~ Kevin Systrom (CEO/co-founder of Instgram)
+
+If you build a solution to a problem lots of people have , it's so easy to sell your product to the world. ~ Kevin Systrom (CEO/co-founder of Instgram)
+
+You don't have to be best, you have to be dangerous. You have to learn just enough to be dangerous to build an idea, concept it and show it to the world and then it turns out there are lots of other people inlcuding all 170 employees that works on Instagram who are much better at doing all that stuff than I am. But you need to find people who can be drawn to the idea that you build and then they end up taking it and making it even better. ~ Kevin Systrom (CEO/co-founder of Instgram)
