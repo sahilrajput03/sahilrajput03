@@ -8,6 +8,10 @@
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Redirect user to upate the app in android and ios (not tested personally)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/11c61ab4-013b-4e87-9360-a9fe970cc5d9)
+
 ## Auto signing after app install issue?
 
 Resource: [1](https://stackoverflow.com/questions/33169618/an-android-app-remembers-its-data-after-uninstall-and-reinstall/33176898#33176898), [2](https://stackoverflow.com/questions/35517239/sharedpreferences-are-not-being-cleared-when-i-uninstall/35517411#35517411)
