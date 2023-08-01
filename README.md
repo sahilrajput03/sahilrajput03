@@ -221,6 +221,11 @@ cra: 335mb
 - Learn Audacity: [Click here](learn-audacity.md)
 - Learn i3: [Click here](learn-i3.md)
 
+## Netflix files downloader
+
+- [github.com/Divxeas/Netflix-videos-downloader1/how.to.use.txt](https://github.com/Divxeas/Netflix-videos-downloader1/blob/main/how.to.use.txt)
+- [github.com/Mavrick102/flixcrack](https://github.com/Mavrick102/flixcrack)
+
 ## Amazing tool to generate a long image for Pull Requests for reviewing over mobile
 
 Screen Capture - Chrome Extension: [Click here](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
