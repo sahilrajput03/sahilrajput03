@@ -221,6 +221,7 @@ cra: 335mb
 - Learn Audacity: [Click here](learn-audacity.md)
 - Learn i3: [Click here](learn-i3.md)
 - Learn Cloudflare: [Click here](learn-cloudflare.md)
+- Learn Gist: [Click here](learn-gist.md)
 
 ## Netflix files downloader
 
