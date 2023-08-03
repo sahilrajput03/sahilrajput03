@@ -1,5 +1,15 @@
 # Learn postman
 
+- Delete workspace (#remove workspace)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1bb9f083-fb0f-41ca-a070-cdd452ec4cc8)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0efdacc0-ef79-43cb-afeb-1c4db84011e9)
+
+- TODO: Learn how teams work in postman
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0dc41b89-dcc5-4d60-8534-7b98b4f2b86c)
+
 - Choosing between collection variables vs. environment variables
 
 **NOTE: Environment variables always override collection variables.**
