@@ -2,6 +2,10 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## `double merge` or `round-trip merge`
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ea3f36b0-8db9-422c-bd14-2b0ad6a69155)
+
 ## Use local time zone for git log
 
 Source: [Click here](https://stackoverflow.com/a/15905642/10012446)
