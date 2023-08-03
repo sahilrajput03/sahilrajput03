@@ -97,7 +97,6 @@ cra: 335mb
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](vim.md)
 - **Learn Vscode:** [Click here](learn-vscode.md)
-- [Why DSA based interviews are stupid ?](dsa.md)
 - **Learn Photoshop:**[Click here](learn-photoshop.md)
 - **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
@@ -164,6 +163,7 @@ cra: 335mb
 - **Npm libaries I recommend:** [Click here](learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](mail-server.md)
 - **Telegram Groups:** [Click here](telegram-groups.md)
+- Why DSA based interviews are stupid?: [Click here](dsa.md)
 - **Javascript:**
 	- **Learn NodeJS:** [Click here](learn-nodejs.md)
 	- **Learn Javascript:** [Click here](learn-js.md)
