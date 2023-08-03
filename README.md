@@ -220,6 +220,8 @@ cra: 335mb
 - Learn Remix: [Click here](learn-remix.md)
 - Learn Audacity: [Click here](learn-audacity.md)
 - Learn i3: [Click here](learn-i3.md)
+- Adding site to Cloudflare Docs: [Click here](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/)
+- Learn Cloudflare: [Click here](learn-cloudflare.md)
 
 ## Netflix files downloader
 
