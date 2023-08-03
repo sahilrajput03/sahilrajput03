@@ -1,6 +1,6 @@
 # Learn postman
 
-- We can use params in postman with a beautiful syntax like that:
+- We can use params ❤️❤️ in postman with a beautiful syntax like that:
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5c41c439-4041-4a86-a060-5f83126add35)
 
