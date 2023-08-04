@@ -1,7 +1,7 @@
 # Learn Cloudflare
 
 - Adding site to Cloudflare Docs: [Click here](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/)
-
+- Manage DNS records: [Click here](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/)
 ## Polish
   - Activate Polish Docs: [Click here](https://developers.cloudflare.com/images/polish/activate-polish/)
 
