@@ -223,6 +223,10 @@ cra: 335mb
 - Learn Cloudflare: [Click here](learn-cloudflare.md)
 - Learn Gist: [Click here](learn-gist.md)
 
+## Google chrome is removing third party cookies soon (by the end of 2023 probably)
+
+Docs: [Click here](https://developer.chrome.com/en/docs/privacy-sandbox/third-party-cookie-phase-out/)
+
 ## Netflix files downloader
 
 - [github.com/Divxeas/Netflix-videos-downloader1/how.to.use.txt](https://github.com/Divxeas/Netflix-videos-downloader1/blob/main/how.to.use.txt)
