@@ -33,3 +33,7 @@ You might need to rename the bucket -
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f924013e-1505-4308-a7d7-1a9332dc1949)
 
 <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/25c6ed41-7e5b-4d60-b647-76069432f5fb" alt="drawing" width="600"/>
+
+**Image Resize Costs?**
+
+Good support question asked: [Click here](https://community.cloudflare.com/t/image-resize-billing-requests/344619)
