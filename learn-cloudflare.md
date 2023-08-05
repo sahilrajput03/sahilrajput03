@@ -20,9 +20,8 @@ Docs: [Click here](https://developers.cloudflare.com/images/)
 
 ## Connectinng S3 bucket to Cloudflare domain (or subdomain)
 
-Cloudflare Docs: [Click here](https://developers.cloudflare.com/support/third-party-software/others/configuring-an-amazon-web-services-static-site-to-use-cloudflare/#set-up-your-site-on-cloudflare)
-
-Step 2: Codecamp tutorial: [Click here](https://www.freecodecamp.org/news/cjn-how-to-point-your-domain-to-s3-website-bucket/)
+- **Cloudflare Docs:** [Click here](https://developers.cloudflare.com/support/third-party-software/others/configuring-an-amazon-web-services-static-site-to-use-cloudflare/#set-up-your-site-on-cloudflare)
+- **Aweosome - Codecamp tutorial:** [Click here](https://www.freecodecamp.org/news/cjn-how-to-point-your-domain-to-s3-website-bucket/)
 
 You might need to rename the bucket -
 
