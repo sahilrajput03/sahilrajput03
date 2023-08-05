@@ -37,3 +37,22 @@ You might need to rename the bucket -
 **Image Resize Costs?**
 
 Good support question asked: [Click here](https://community.cloudflare.com/t/image-resize-billing-requests/344619)
+
+```txt
+Q. What options do we have to optimize images and reduce bandwidth costs?
+
+1. Polish
+2. Mirage
+3. Image Resizng
+
+Q. What is the cost
+
+No additional cost for Polish and Mirage.
+For image resizing -
+
+Pro, Business plan:
+50,000 resizing requests included per month. After that, $9 per 50,000 uncached resizing requests per month.
+
+Enterprise customers:
+Up to 10 million images served per month, included.
+```
