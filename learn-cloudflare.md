@@ -22,4 +22,14 @@ Docs: [Click here](https://developers.cloudflare.com/images/)
 
 Cloudflare Docs: [Click here](https://developers.cloudflare.com/support/third-party-software/others/configuring-an-amazon-web-services-static-site-to-use-cloudflare/#set-up-your-site-on-cloudflare)
 
+Step 2: Codecamp tutorial: [Click here](https://www.freecodecamp.org/news/cjn-how-to-point-your-domain-to-s3-website-bucket/)
+
+You might need to rename the bucket -
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/647b594b-214d-48ed-bc85-8597cb333755)
+
+**otherwse you'll see error like that:**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f924013e-1505-4308-a7d7-1a9332dc1949)
+
 <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/25c6ed41-7e5b-4d60-b647-76069432f5fb" alt="drawing" width="600"/>
