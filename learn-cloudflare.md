@@ -21,7 +21,7 @@ Docs: [Click here](https://developers.cloudflare.com/images/)
 ## Connectinng S3 bucket to Cloudflare domain (or subdomain)
 
 - **Cloudflare Docs:** [Click here](https://developers.cloudflare.com/support/third-party-software/others/configuring-an-amazon-web-services-static-site-to-use-cloudflare/#set-up-your-site-on-cloudflare)
-- **Aweosome - Codecamp tutorial:** [Click here](https://www.freecodecamp.org/news/cjn-how-to-point-your-domain-to-s3-website-bucket/)
+- **Aweosome - Codecamp Tutorial | How to Point your Domain to an S3 Website Bucket:** [Click here](https://www.freecodecamp.org/news/cjn-how-to-point-your-domain-to-s3-website-bucket/)
 
 You might need to rename the bucket -
 
@@ -58,6 +58,6 @@ Up to 10 million images served per month, included.
 
 CloudFlare Images: 
 
-Implementation: [Click here](https://blog.cloudflare.com/announcing-cloudflare-images-beta/)_
+Implementation: [Click here](https://blog.cloudflare.com/announcing-cloudflare-images-beta/)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/32714b86-b4f1-475c-83df-d99e97d823db)
