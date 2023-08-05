@@ -56,3 +56,9 @@ Pro, Business plan:
 Enterprise customers:
 Up to 10 million images served per month, included.
 ```
+
+CloudFlare Images: 
+
+Implementation: [Click here](https://blog.cloudflare.com/announcing-cloudflare-images-beta/)_
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/32714b86-b4f1-475c-83df-d99e97d823db)
