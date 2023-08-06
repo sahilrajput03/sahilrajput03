@@ -1,46 +1,33 @@
 <h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
+```bash
+echo Hello world! > /dev/null
+cat /dev/null
+```
+
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
 - I have no limitations ~ Thomas Shelby
 - Discipline means choosing between what you want now and what you want most. ~ Unkonwn
 - There is not try, either you do it or don't. ~ Frank Oz (Star Wars)
 - Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.” Nature of mind is to wander around, its not problem its the way its designed. My job is to keep getting it back towards the goal.
-- Music Trail - [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
 - Unwinding is hot no-sugar coffee!
-
-*More Technologies: trpc, hasura and onegraph (graphiql-explorer).*
-
-- **Laptop:** [ac179tx](https://support.hp.com/in-en/document/c04919819)
-- **SolidJS:** [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
-- **Svelte:** [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
-
-```bash
-echo Hello world! > /dev/null
-cat /dev/null
-```
-
-### Benchmarks: React Project Size
-
-```txt
-# 10 Jul, 2022
-# INIT NEW REACT APP #
-vite: 41mb
-bun: 70mb
-cna: 187mb
-cra: 335mb
-```
-
-## Quick Links
-
-- Jump Starters: [Click here](jump-starters.md)
-- Tech Presentations
-	- [Presentation - Going that extra mile](https://docs.google.com/presentation/d/1uz8-Ae5sTgZYDmydfX-ESDO03oMBYAQ14rkJzPs4AxE/edit#slide=id.g2b178ca05c_0_3)
-	- [Presentation - Web Performance Swiggy Style](https://docs.google.com/presentation/d/1snxo-EKx6PseQeznhfr-VVTEQ71EAMOdbDQ0pNR5jEA/edit#slide=id.g6b802e0221_1_1286)
-- Developer Surveys: 
-	- Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
-	- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/)
-	- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
+- Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://www.dell.com/ae/business/p/latitude-14-5400-laptop/pd)
+- Music Trail - [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
+- *More Technologies: trpc, hasura and onegraph (graphiql-explorer).*
+- **New React Alternative Tech | Docs**
+	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
+	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
+	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
+- Quick Links
+	- Jump Starters: [Click here](jump-starters.md)
+	- Tech Presentations
+		- [Presentation - Going that extra mile](https://docs.google.com/presentation/d/1uz8-Ae5sTgZYDmydfX-ESDO03oMBYAQ14rkJzPs4AxE/edit#slide=id.g2b178ca05c_0_3)
+		- [Presentation - Web Performance Swiggy Style](https://docs.google.com/presentation/d/1snxo-EKx6PseQeznhfr-VVTEQ71EAMOdbDQ0pNR5jEA/edit#slide=id.g6b802e0221_1_1286)
+	- Developer Surveys: 
+		- Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
+		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/)
+		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
 
 ## References:
 
