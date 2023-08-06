@@ -5,7 +5,7 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
-- Feed: [Click here](feed.md)
+- **Feed:** [Click here](feed.md)
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
 - I have no limitations ~ Thomas Shelby
@@ -15,8 +15,8 @@ cat /dev/null
 - Unwinding is hot no-sugar coffee!
 - Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://www.dell.com/ae/business/p/latitude-14-5400-laptop/pd)
 - Music Trail - [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
-- *More Technologies: trpc, hasura and onegraph (graphiql-explorer).*
-- **New React Alternative Tech | Docs**
+- More Technologies: trpc, hasura and onegraph (graphiql-explorer).
+- New React Alternative Tech | Docs:
 	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
 	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
 	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
