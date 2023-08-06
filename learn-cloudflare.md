@@ -35,7 +35,7 @@ You might need to rename the bucket -
 
 **Image Resize Costs?**
 
-Good support question asked: [Click here](https://community.cloudflare.com/t/image-resize-billing-requests/344619)
+- Image resize billing requests | Community Support Cloudflare: [Click here](https://community.cloudflare.com/t/image-resize-billing-requests/344619)
 
 ```txt
 Q. What options do we have to optimize images and reduce bandwidth costs?
