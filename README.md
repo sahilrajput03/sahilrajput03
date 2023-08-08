@@ -199,3 +199,4 @@ cat /dev/null
 - Learn i3: [Click here](learn-i3.md)
 - Learn Cloudflare: [Click here](learn-cloudflare.md)
 - Learn Gist: [Click here](learn-gist.md)
+- Learn streaming mp3 file: [Click here](learn-streaming.md)
