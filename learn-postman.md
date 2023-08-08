@@ -167,3 +167,11 @@ if (pm?.request?.body?.options?.raw?.language === 'json') {
 [Click here](https://stackoverflow.com/a/39037889/10012446)
 
 ![image](https://user-images.githubusercontent.com/31458531/214363835-ed9f954b-fc09-4732-b225-ad9f29cc1a2a.png)
+
+In slasher:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4e056ab9-8046-486e-afb6-a6f77fb0663b)
+
+- We can fetch an image in postman as well:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e379c325-5144-4b1d-b63b-c09db2f7cc8f)
