@@ -21,3 +21,7 @@
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0d70ec43-973d-4297-a3c2-9ddc2176cc57)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cda65b37-58ff-49c7-96f3-f753c1328358)
+
+## You can delete a sheet file directly from google sheet like that
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/32f19b2d-f26f-47be-9158-836848b47673)
