@@ -22,6 +22,6 @@
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cda65b37-58ff-49c7-96f3-f753c1328358)
 
-## You can delete a sheet file directly from google sheet like that
+## You can delete a google doc file simly like that
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/32f19b2d-f26f-47be-9158-836848b47673)
