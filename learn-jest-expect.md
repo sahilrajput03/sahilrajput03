@@ -77,6 +77,20 @@ Source: [Click here](https://stackoverflow.com/a/50600842/10012446)
 
 ![image](https://user-images.githubusercontent.com/31458531/216117745-cbf22f17-a465-419b-948e-615ee0b78eae.png)
 
+## 1/2 mock
+
+Source (Jest Docs): [Click here](https://jestjs.io/docs/mock-functions#mock-implementations)
+
+```ts
+const myMockFn = jest
+  .fn(() => 'default')
+  .mockImplementationOnce(() => 'first call')
+  .mockImplementationOnce(() => 'second call');
+
+console.log(myMockFn(), myMockFn(), myMockFn(), myMockFn());
+// > 'first call', 'second call', 'default', 'default'
+```
+
 ## Learn about mock functions and using `jest.spyOn(..., ...).mockImplementation(() => Promise.resolve(undefined))` along with `toHaveBeenCalledWith` assertions
 
 (check: `Why use mock testing functions` in telegram slasher-private-channel to know specifics learned)
