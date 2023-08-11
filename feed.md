@@ -1,5 +1,11 @@
 # Feed
 
+## Ctrl+alt+a, Ctrl+alt+l produces special character in windows 10/11
+
+Solution: StackOverflow Answer: [Click here](https://stackoverflow.com/questions/54093453/vscode-ctrl-alt-l-adds-weird-character-need-to-get-rid-of-it)
+
+We had to set `English US` as the only keyboard in `Keyboard Settings` in Settings.
+
 ## Google chrome is removing third party cookies soon (by the end of 2023 probably)
 
 Docs: [Click here](https://developer.chrome.com/en/docs/privacy-sandbox/third-party-cookie-phase-out/)
