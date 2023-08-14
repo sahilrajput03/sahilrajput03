@@ -11,7 +11,7 @@
 ## Know what capacitor version are you on currently?
 
 ```bash
-# file; package.json
+# file: package.json
 
 # dependencies
 "@capacitor/android": "^5.2.3",
