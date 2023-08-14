@@ -8,6 +8,20 @@
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Know what capacitor version are you on currently?
+
+```bash
+# file; package.json
+
+# dependencies
+"@capacitor/android": "^5.2.3",
+"@capacitor/core": "^5.2.3",
+"@capacitor/ios": "^5.2.3",
+
+# dev dependencies
+"@capacitor/cli": "^5.2.3",
+```
+
 ## Change top status bar background color in android native code
 
 [Click here](https://stackoverflow.com/questions/22192291/how-to-change-the-status-bar-color-in-android)
