@@ -12,6 +12,16 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Manjaro Settings, switching manjoaro kernel
+
+```bash
+# open manjaro settinsg
+manjaro-settings-manager
+
+# open kernel switcher directly
+manjaro-settings-manager -m msm_kernel
+```
+
 ## Using mouse as trackpad and keyboard
 
 ```bash
