@@ -1,6 +1,6 @@
 # Feed
 
-## Waht is optimistic updates in UI?
+## What is optimistic updates in UI?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/44c4ccf1-7f56-413e-9c64-33b17ed44bb8)
 
