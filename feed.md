@@ -1,5 +1,11 @@
 # Feed
 
+## Waht is optimistic updates in UI?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/44c4ccf1-7f56-413e-9c64-33b17ed44bb8)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/26ed4a18-3923-49d5-931b-ad023f5701ea)
+
 ## Ctrl+alt+a, Ctrl+alt+l produces special character in windows 10/11
 
 Solution: StackOverflow Answer: [Click here](https://stackoverflow.com/questions/54093453/vscode-ctrl-alt-l-adds-weird-character-need-to-get-rid-of-it)
