@@ -168,6 +168,7 @@ cat /dev/null
 - Learn Chrome: [Click here](learn-chrome.md)
 - Social rules: [Click here](social-rules.md)
 - Learn React: [Click here](https://github.com/sahilrajput03/learn-react)
+- Google Publisher Tag (? PubwiseAds): [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md)
 - Learn Trpc: [Click here](learn-trpc.md)
 - Learn Paypal: [Click here](learn-paypal.md)
 - Learn kdenlive: [Click here](learn-kdenlive.md)
