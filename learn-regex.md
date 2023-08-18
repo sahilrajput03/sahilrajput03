@@ -13,11 +13,11 @@ Source: https://regexone.com/
 
 ## Eric's way of updating imports via regex is awesome
 
-```ts
-// find regex
+```bash
+# find regex
 import \{ apiUrl \} from (.+)(constants)';
 
-// replace regex
+# replace regex
 import { apiUrl } from $1env';
 ```
 
