@@ -14,7 +14,7 @@ Source: https://regexone.com/
 ## Eric's way of updating imports via regex is awesome
 
 ```
-# find and replace regex - **(New Awesome)**
+# find and replace regex - **(New Awesome)** ~ Author ~ Sahil
 import (.+)captchaSiteKey(.+) from (.+)(constants)';
 import $1captchaSiteKey$2 from $3env';
 
