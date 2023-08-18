@@ -13,7 +13,7 @@ Source: https://regexone.com/
 
 ## Eric's way of updating imports via regex is awesome
 
-```bash
+```
 # find regex
 import \{ apiUrl \} from (.+)(constants)';
 
