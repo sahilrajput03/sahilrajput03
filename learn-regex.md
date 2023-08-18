@@ -11,6 +11,18 @@ Source: https://regexone.com/
 **Quick Links:**
 - Regex debugger**: https://regex101.com/
 
+## Eric's way of updating imports via regex is awesome
+
+```ts
+// find regex
+import \{ apiUrl \} from (.+)(constants)';
+
+// replace regex
+import { apiUrl } from $1env';
+```
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e80752c1-7eb9-49d5-93e2-8c2cb85e284b)
+
 ## Look Behind assertion `(?<!\S)`
 
 <details>
