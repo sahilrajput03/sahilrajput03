@@ -14,11 +14,13 @@ Source: https://regexone.com/
 ## Eric's way of updating imports via regex is awesome
 
 ```
-# find regex
+# find and replace regex
 import \{ apiUrl \} from (.+)(constants)';
-
-# replace regex
 import { apiUrl } from $1env';
+
+# find and replace regex - Awesome Sahil
+import (.+)captchaSiteKey(.+) from (.+)(constants)';
+import $1captchaSiteKey$2 from $3env';
 ```
 
 From chat-gpt:
