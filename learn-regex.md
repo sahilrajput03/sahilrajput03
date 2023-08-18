@@ -14,7 +14,7 @@ Source: https://regexone.com/
 ## Eric's way of updating imports via regex is awesome
 
 ```
-# find and replace regex - **(New Awesome)** ~ Author ~ Sahil
+# FIND AND REPLACE REGEX - **(New Awesome)** ~ Author ~ Sahil
 import (.+)captchaSiteKey(.+) from (.+)(constants)';
 import $1captchaSiteKey$2 from $3env';
 
@@ -32,7 +32,7 @@ import { WORDPRESS_SITE_URL, captchaSiteKey, boomerang } from '../../../env';
 ------------------------------------------------------------------------------------------------------
 
 
-# find and replace regex
+# FIND AND REPLACE REGEX
 import \{ apiUrl \} from (.+)(constants)';
 import { apiUrl } from $1env';
 
