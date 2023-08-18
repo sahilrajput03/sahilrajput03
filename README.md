@@ -203,3 +203,4 @@ cat /dev/null
 - Learn Cloudflare: [Click here](learn-cloudflare.md)
 - Learn Gist: [Click here](learn-gist.md)
 - Learn streaming mp3 file: [Click here](learn-streaming.md)
+- Learn Google Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
