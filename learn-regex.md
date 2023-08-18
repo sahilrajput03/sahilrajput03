@@ -18,9 +18,26 @@ Source: https://regexone.com/
 import \{ apiUrl \} from (.+)(constants)';
 import { apiUrl } from $1env';
 
-# find and replace regex - Awesome Sahil
+Example works:
+================
+import { captchaSiteKey } from '../../../constants';
+-> ARE CHANGED TO: *(notice the env in the end)*
+import { captchaSiteKey } from '../../../env';
+
+------------------------------------------------------------------------------------------------------
+# find and replace regex - **(New Awesome)**
 import (.+)captchaSiteKey(.+) from (.+)(constants)';
 import $1captchaSiteKey$2 from $3env';
+
+All type of examples works:
+================
+import { captchaSiteKey } from '../../../constants';
+import { WORDPRESS_SITE_URL, captchaSiteKey } from '../../../constants';
+import { WORDPRESS_SITE_URL, captchaSiteKey, boomerang } from '../../../constants';
+-> ARE CHANGED TO: *(notice the env in the end)*
+import { captchaSiteKey } from '../../../env';
+import { WORDPRESS_SITE_URL, captchaSiteKey } from '../../../env';
+import { WORDPRESS_SITE_URL, captchaSiteKey, boomerang } from '../../../env';
 ```
 
 From chat-gpt:
