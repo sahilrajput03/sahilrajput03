@@ -9,7 +9,7 @@ Course: RegexOne - Learn Regular Expressions with simple, interactive exercises.
 Source: https://regexone.com/
 
 **Quick Links:**
-- Regex debugger**: https://regex101.com/
+- **Regex debugger**: https://regex101.com/
 
 ## Eric's way of updating imports via regex is awesome
 
