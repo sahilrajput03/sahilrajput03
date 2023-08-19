@@ -1,5 +1,9 @@
 # Readme
 
+# Noise supression is awesome with USB Mic ❤️❤️
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/49b2b577-5ee3-427f-aa5b-ab8e87a9bcf9" width="700"/>
+
 ## Lastly I did on currentManjaro (9 July, 2023) in order to fix the Global Audio Device detection in OBS and sadly no result
 
 [Click here](https://forum.manjaro.org/t/obs-studio-not-working-after-last-update/132445/27)
