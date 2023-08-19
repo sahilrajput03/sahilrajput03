@@ -1,5 +1,8 @@
 # Deployment
 
+**Quick Links:**
+- Learn Vercel Deployment: [Click here](learn-vercel.md)
+
 ## port forward with router
 
 Thats how I have configured some port and port ranges on my system.
