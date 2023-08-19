@@ -83,6 +83,7 @@ cat /dev/null
 - **Open Source Apps from All over the world** - [Click here](open-source-apps.md)
 - **Nocode tools** - [Click here](nocodetools.md)
 - **Learn Deployment** - [Click here](learn-deploy.md)
+- Learn Vercel Deployment: [Click here](learn-vercel.md)
 - **Learn User Mangement and Permissions** - [Click here](learn-user-management-and-permissions.md)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](favourite-youtube-channels.md)
