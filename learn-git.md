@@ -12,11 +12,11 @@ gh auth login
 
 ## Github opensource docs
 
-Repo: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json) Source: [Click here](https://gist.github.com/oanhnn/80a89405ab9023894df7)
+Repo: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 
 ## Setup your cli to work with multiple github accounts
 
-*NOTE: You might want to run command `ssh-add ~/.ssh/oanhnn_private_key` if you are doing this on ubuntu (tested no Samaksh Ubuntu).*
+*NOTE: You might want to run command `ssh-add ~/.ssh/oanhnn_private_key` if you are doing this on ubuntu (tested no Samaksh Ubuntu). Source: [Click here](https://gist.github.com/oanhnn/80a89405ab9023894df7)*
 
 First add your **public key** to github account you want access to. Then add entry correspondingly like below to your `~/.ssh/config` file.
 
