@@ -34,6 +34,13 @@ HOST github.com-sahilrajput03
  IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-2-private-key"
 ```
 
+Also, in your other than default account you can use below commadn to change name and email as well:
+
+```bash
+git config user.email "superman@org2.com"
+git config user.name  "Super Man"
+```
+
 
 ## `double merge` or `round-trip merge`
 
