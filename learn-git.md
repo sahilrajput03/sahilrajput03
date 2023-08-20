@@ -34,6 +34,21 @@ HOST github.com-sahilrajput03
  IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-2-private-key"
 ```
 
+Testing ssh connections:
+
+```bash
+ssh -T git@github.com
+# OUTPUT: Hi <username_here>! You've successfully authenticated, but GitHub does not provide shell access.
+
+ssh -T git@github.com-sahilrajput03
+# OUTPUT: Hi <username_here>! You've successfully authenticated, but GitHub does not provide shell access.
+
+# For Bitbucket
+ssh -T git@bitbucket.org
+# OUTPUT: authenticated via ssh key.
+# OUTPUT: You can use git to connect to Bitbucket. Shell access is disabled
+```
+
 Also, in your other than default account you can use below commadn to change name and email as well:
 
 ```bash
