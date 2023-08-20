@@ -12,7 +12,7 @@ gh auth login
 
 ## Github opensource docs
 
-Repo: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
+Repo: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json) Source: [Click here](https://gist.github.com/oanhnn/80a89405ab9023894df7)
 
 ## Setup your cli to work with multiple github accounts
 
