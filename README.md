@@ -205,4 +205,4 @@ cat /dev/null
 - Learn Gist: [Click here](learn-gist.md)
 - Learn streaming mp3 file: [Click here](learn-streaming.md)
 - Learn Google Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
-- Love Api, Github, Gist & other Apis: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d)
+- LoveApi, Github, Gist & other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d)
