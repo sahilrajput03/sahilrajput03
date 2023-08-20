@@ -51,7 +51,6 @@ cat /dev/null
 - **FSO contribution:** [Click here](my-fso-contribution.md)
 - **Github Actions:** [Click here](github-actions.md)
 - **Learn mongo-cli:** [Click here](learn-mongo-cli.md)
-- **Github HTTP Api:**: [Click here](https://docs.github.com/en/rest/reference/repos)
 - **Hindi:** [Click here](learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](learn-curl.md)
