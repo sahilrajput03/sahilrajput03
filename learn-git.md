@@ -1,5 +1,9 @@
 # Learn git
 
+**Quick Links:**
+- Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
+
+
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
 ## Simple way to setup ssh git-github connection with `gh` cli
@@ -9,10 +13,6 @@ Source - [Docs - Authenticating with GitHub from Git](https://docs.github.com/en
 ```bash
 gh auth login
 ```
-
-## Github opensource docs
-
-Repo: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 
 ## Setup your cli to work with multiple github accounts
 
