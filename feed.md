@@ -1198,21 +1198,6 @@ https://www.uisources.com/home
 - [Stackoverflow answer](https://stackoverflow.com/questions/59192944/why-is-expo-apk-file-very-large-even-with-just-one-screen-code)
 - [Being free from expo, and why you should?](https://medium.com/reactbrasil/being-free-from-expo-in-react-native-apps-310034a3729)
 
-## A better and easy way to setup github credentials on local git
-
-Source - [Docs - Authenticating with GitHub from Git](https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git)
-
-![image](https://user-images.githubusercontent.com/31458531/176989166-735c72ba-2f57-427a-9977-2b3cdd027cbb.png)
-
-## Github opensource docs
-
-Repo: [https://github.com/github/docs](https://github.com/github/docs) 
-
-Source: [Click here](https://github.com/github/docs/blob/main/package.json)
-
-![image](https://user-images.githubusercontent.com/31458531/176988979-62521720-2930-4308-bb87-7de261b7dfa0.png)
-
-
 ## Unicode symbols Website
 
 https://www.amp-what.com/unicode/search/up%20arrow
@@ -3168,24 +3153,6 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ssh-keygen -f myfile.ppk
 # Output: Two files will be generated i.e, priv key and public key respectively.
 # myfile.ppk  myfile.ppk.pub
-```
-
-## Setup your cli to work with different github accounts
-
-First add your **public key** to github account you want access to. Then add entry correspondingly like below to your `~/.ssh/config` file.
-
-`vi ~/.ssh/config`
-
-and enter code like below:
-
-```bash
-HOST github.com
- HostName github.com
- IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-1-private-key"
-
-HOST github.com-sahilrajput03
- HostName github.com
- IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-2-private-key"
 ```
 
 ## Get ur ip address
