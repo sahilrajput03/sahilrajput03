@@ -1,5 +1,13 @@
 # Feed
 
+## What is MVC pattern?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/12b169bd-85ef-413f-ba0e-39c2efdb3070)
+
+## What is condenser mic
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6f03d0db-2713-4160-8b8a-842d476e5d66)
+
 ## What is optimistic updates in UI?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/44c4ccf1-7f56-413e-9c64-33b17ed44bb8)
