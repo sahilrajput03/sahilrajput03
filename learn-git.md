@@ -2,6 +2,39 @@
 
 For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## Simple way to setup ssh git-github connection with `gh` cli
+
+Source - [Docs - Authenticating with GitHub from Git](https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git)
+
+```bash
+gh auth login
+```
+
+## Github opensource docs
+
+Repo: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
+
+## Setup your cli to work with multiple github accounts
+
+*NOTE: You might want to run command `ssh-add ~/.ssh/oanhnn_private_key` if you are doing this on ubuntu (tested no Samaksh Ubuntu).*
+
+First add your **public key** to github account you want access to. Then add entry correspondingly like below to your `~/.ssh/config` file.
+
+`vi ~/.ssh/config`
+
+and enter code like below:
+
+```bash
+HOST github.com
+ HostName github.com
+ IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-1-private-key"
+
+HOST github.com-sahilrajput03
+ HostName github.com
+ IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-2-private-key"
+```
+
+
 ## `double merge` or `round-trip merge`
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ea3f36b0-8db9-422c-bd14-2b0ad6a69155)
