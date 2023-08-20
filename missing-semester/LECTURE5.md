@@ -189,7 +189,7 @@ kill -KILL %2
 
 ## `ssh`
 
-```
+```bash
 # for archlinux, check if service is up or not?
 # Refer: https://github.com/sahilrajput03/sahilrajput03/blob/master/arch-notes.md#setting-up-ssh
 
