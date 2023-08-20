@@ -16,13 +16,11 @@ Repo: [https://github.com/github/docs](https://github.com/github/docs), [package
 
 ## Setup your cli to work with multiple github accounts
 
-*NOTE: You might want to run command `ssh-add ~/.ssh/oanhnn_private_key` if you are doing this on ubuntu (tested no Samaksh Ubuntu). Source: [Click here](https://gist.github.com/oanhnn/80a89405ab9023894df7)*
+Step 1: Generate a ssh-key value pair i.e, private and public key. Refer my own notes:  [Click here](generate-ssh-key-pairs.md)
 
-Step 0: Generate a ssh-key value pair i.e, private and public key. Refer my own notes:  [Click here](generate-ssh-key-pairs.md)
+Step 2: First add your **public key** to github account you want access to.
 
-Step 1: First add your **public key** to github account you want access to.
-
-Step 2: Then add entry correspondingly like below to your `~/.ssh/config` file -
+Step 3: Then add entry correspondingly like below to your `~/.ssh/config` file -
 
 ```bash
 HOST github.com
@@ -34,7 +32,10 @@ HOST github.com-sahilrajput03
  IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-2-private-key"
 ```
 
-Step 3: Testing ssh connections:
+*Step 4: (Optional: May not be needed for ArchLinux) You might want to run command `ssh-add ~/.ssh/oanhnn_private_key` if you are doing this on ubuntu (tested no Samaksh Ubuntu). Source: [Click here](https://gist.github.com/oanhnn/80a89405ab9023894df7)*
+
+
+Step 5: Testing ssh connections:
 
 ```bash
 ssh -T git@github.com
@@ -49,12 +50,14 @@ ssh -T git@bitbucket.org
 # OUTPUT: You can use git to connect to Bitbucket. Shell access is disabled
 ```
 
-Step 4: In your other than default account you can use below commadn to change name and email as well:
+Step 6: In your other than default account you can use below commadn to change name and email as well:
 
 ```bash
 git config user.email "superman@org2.com"
 git config user.name  "Super Man"
 ```
+
+That's all!
 
 ## `double merge` or `round-trip merge`
 
