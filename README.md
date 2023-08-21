@@ -117,7 +117,7 @@ cat /dev/null
 - **Learn Socket.io/Websockets:** [Click here](https://github.com/sahilrajput03/learn-websockets)
 - **Public Journal:** [Click here](public-journal.md)
 - **Learn React:** [Click here](https://github.com/sahilrajput03/learn-react)
-- **Learn `react-native`**: [Click here](https://github.com/sahilrajput03/learn-react-native)
+- **Learn React Native**: [Click here](https://github.com/sahilrajput03/learn-react-native)
 - New React Alternative Tech | Docs:
 	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
 	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
