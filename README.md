@@ -16,10 +16,6 @@ cat /dev/null
 - Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
 - More Technologies: trpc, hasura and onegraph (graphiql-explorer).
-- New React Alternative Tech | Docs:
-	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
-	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
-	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
 - Quick Links
 	- Jump Starters: [Click here](jump-starters.md)
 	- Tech Presentations
@@ -122,6 +118,10 @@ cat /dev/null
 - **Public Journal:** [Click here](public-journal.md)
 - **Learn React:** [Click here](https://github.com/sahilrajput03/learn-react)
 - **Learn `react-native`**: [Click here](https://github.com/sahilrajput03/learn-react-native)
+- New React Alternative Tech | Docs:
+	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
+	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
+	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
 - **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
 - **Learn Webflow:** - [Click here](learn-webflow.md)
 - **Weird Problems:** - [Click here](weird-problems.md)
