@@ -4,20 +4,19 @@
 
 ***Favourite markdown docs: https://daringfireball.net/projects/markdown/***
 
-- Underline text:
+- HTML in markdown
 
-  ```
-  <ins>**This text will be bold and underlined**<ins>
-  ```
+```html
+<h1 align="center">I am centered text.</h1>
+<div align="right">I am right centred text.</div>
+<ins>**This text will be bold and underlined**<ins>
 
-- Using image:
 
-  ```
-  ![](image-url-here)
-
-  To set width for an image, you can use html tag as well:
-  <img src="https://some_image.jpg" alt="drawing" width="700"/>
-  ```
+<!-- Using images -->
+![](image-url-here)
+<!-- To set width for an image, you can use html tag as well: -->
+<img src="https://some_image.jpg" alt="drawing" width="700"/>
+```
 
 - **Headings**
 
