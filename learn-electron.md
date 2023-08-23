@@ -1,3 +1,3 @@
 # Learn Electron
 
-*(TODO: Start making some applications with electron.)*
+*(TODO: Start making some simple applications with electron.)*
