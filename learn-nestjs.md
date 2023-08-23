@@ -8,7 +8,7 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 - Testing with NestJS: [Click here](https://docs.nestjs.com/fundamentals/testing)
 - Declartive Cron Jobs with NestJS: [Click here](https://docs.nestjs.com/techniques/task-scheduling#declarative-cron-jobs)
 - Learn `class-validator`: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-classvalidator.md)
-- Actively closing db connection to fast the script running in nestjs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#actively-closing-mongodb-connection-to-close-nestjs-app-immediately-when-we-run-custom-scripts)
+- **Actively closing db connection to fast the script running in nestjs:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#actively-closing-mongodb-connection-to-close-nestjs-app-immediately-when-we-run-custom-scripts)
 
 ***
 
