@@ -4,7 +4,10 @@
 
 ## Electro vs GTK?
 
-Compare Electron VS GTK and see what are their differences: [Click here](https://www.saashub.com/compare-electron-vs-gtk)
+- Compare Electron VS GTK and see what are their differences: [Click here](https://www.saashub.com/compare-electron-vs-gtk)
+- Hacker News - 1Password for Linux development preview: [Click here](https://news.ycombinator.com/item?id=24054112)
+	- Why shouldn't it be Electron? Should it be GTK? Why not QT?: [Click here](https://news.ycombinator.com/item?id=24056638)
+
 
 <div align="right"> Date: 22 Aug, 2023</div>
 
