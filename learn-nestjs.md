@@ -2,6 +2,7 @@
 
 REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
+- Learn RxJs: [Click here](./learn-rxjs.md)
 - Reference project using nestjs: [Click here](https://docs.nestjs.com/fundamentals/circular-dependency)
 - Fixing circular dependency: Official Docs: [Click here](https://docs.nestjs.com/fundamentals/circular-dependency)
 - Testing with NestJS: [Click here](https://docs.nestjs.com/fundamentals/testing)
