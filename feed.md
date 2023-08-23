@@ -2,6 +2,11 @@
 
 ***Note to me: Please add date for all posts from now on. ~ Thankyou***
 
+## 1Password
+
+- Developer Community: [Click here](https://developer.1password.com/community/)
+- Using 1Password CLI for secrets locally: [Click here](https://dev.to/hacksore/using-1password-cli-for-secrets-locally-326e)
+
 ## GitHub Plans to Roll Out Mandatory 2FA to Strengthen Security - techreport.com
 
 <div align="right">23 Aug, 2023</div>
