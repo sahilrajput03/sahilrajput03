@@ -6,7 +6,7 @@
 
 Electron is a desktop application framework developed by GitHub and created by Cheng Zhao. It allows for the development of desktop applications using front- and back-end infrastructure such as HTML, CSS, and JavaScript.
 
-- Learn Electron: [Click here](https://github.com/electron/electron)
+- Learn Electron: [Click here](learn-electron.md), Github: [Click here](https://github.com/electron/electron)
 - Compare Electron VS GTK and see what are their differences: [Click here](https://www.saashub.com/compare-electron-vs-gtk)
 - Hacker News - 1Password for Linux development preview: [Click here](https://news.ycombinator.com/item?id=24054112)
 	- Why shouldn't it be Electron? Should it be GTK? Why not QT?: [Click here](https://news.ycombinator.com/item?id=24056638)
