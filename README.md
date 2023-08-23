@@ -204,3 +204,4 @@ cat /dev/null
 - LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d)
 - Learn `ssh-keygen` | Generate ssh key pairs (#generating ssh key): [Click here](generate-ssh-key-pairs.md)
 - Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk)
+- Learn why you should not text your girlfriend?: [Click here](why-you-should-not-text-your-girlfriend-much.md)
