@@ -4,34 +4,34 @@
 
 ## Electro vs GTK?
 
-<div align="right">22 Aug, 2023</div>
-
 Compare Electron VS GTK and see what are their differences: [Click here](https://www.saashub.com/compare-electron-vs-gtk)
 
-## 1Password
+<div align="right"> Date: 22 Aug, 2023</div>
 
-<div align="right">22 Aug, 2023</div>
+## 1Password
 
 - Developer Community: [Click here](https://developer.1password.com/community/)
 - Using 1Password CLI for secrets locally: [Click here](https://dev.to/hacksore/using-1password-cli-for-secrets-locally-326e)
 
-## GitHub Plans to Roll Out Mandatory 2FA to Strengthen Security - techreport.com
+<div align="right">22 Aug, 2023</div>
 
-<div align="right">23 Aug, 2023</div>
+## GitHub Plans to Roll Out Mandatory 2FA to Strengthen Security - techreport.com
 
 [Click here](https://techreport.com/news/github-plan-to-roll-out-mandatory-2fa-to-strengthen-security/)
 
-## What is MVC pattern?
+<div align="right">23 Aug, 2023</div>
 
-<div align="right">22 Aug, 2023</div>
+## What is MVC pattern?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/12b169bd-85ef-413f-ba0e-39c2efdb3070)
 
+<div align="right">22 Aug, 2023</div>
+
 ## What is condenser mic
 
-<div align="right">18 Aug, 2023</div>
-
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6f03d0db-2713-4160-8b8a-842d476e5d66) 
+
+<div align="right">18 Aug, 2023</div>
 
 ## What is optimistic updates in UI?
 
