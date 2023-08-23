@@ -1,5 +1,9 @@
 # Thoughts, Principles
 
+Don't mistake my silence for ignorance, my calmness for acceptance and my kindness for weakness.
+
+<div align="right">Date: 23 August, 2023</div>
+
 The ecosystem made around kubernetes is proving that almost every company will leverage power from the open source softwares directly for their utilites of cloud softwares.
 
 Trust the smart people.
