@@ -1,5 +1,11 @@
 # Feed
 
+## GitHub Plans to Roll Out Mandatory 2FA to Strengthen Security
+
+[Click here](https://techreport.com/news/github-plan-to-roll-out-mandatory-2fa-to-strengthen-security/)
+
+<div align="right">23 Aug, 2023</div>
+
 ## What is MVC pattern?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/12b169bd-85ef-413f-ba0e-39c2efdb3070)
