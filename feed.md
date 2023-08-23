@@ -2,15 +2,19 @@
 
 ## GitHub Plans to Roll Out Mandatory 2FA to Strengthen Security
 
-[Click here](https://techreport.com/news/github-plan-to-roll-out-mandatory-2fa-to-strengthen-security/)
-
 <div align="right">23 Aug, 2023</div>
 
+[Click here](https://techreport.com/news/github-plan-to-roll-out-mandatory-2fa-to-strengthen-security/)
+
 ## What is MVC pattern?
+
+<div align="right">22 Aug, 2023</div>
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/12b169bd-85ef-413f-ba0e-39c2efdb3070)
 
 ## What is condenser mic
+
+<div align="right">18 Aug, 2023</div>
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6f03d0db-2713-4160-8b8a-842d476e5d66)
 
