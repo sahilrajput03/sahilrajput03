@@ -1,5 +1,7 @@
 # Feed
 
+**Note to me: Please add date for all posts from now on. ~ Thankyou**
+
 ## GitHub Plans to Roll Out Mandatory 2FA to Strengthen Security
 
 <div align="right">23 Aug, 2023</div>
