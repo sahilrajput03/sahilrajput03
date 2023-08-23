@@ -8,9 +8,9 @@
 
 Compare Electron VS GTK and see what are their differences: [Click here](https://www.saashub.com/compare-electron-vs-gtk)
 
-## 1Password
+<h1>1Password <span align="right">22 Aug, 2023</span> </h1>
 
-- Developer Community: [Click here](https://developer.1password.com/community/) <div align="right">22 Aug, 2023</div>
+- Developer Community: [Click here](https://developer.1password.com/community/)
 - Using 1Password CLI for secrets locally: [Click here](https://dev.to/hacksore/using-1password-cli-for-secrets-locally-326e)
 
 ## GitHub Plans to Roll Out Mandatory 2FA to Strengthen Security - techreport.com
