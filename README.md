@@ -5,6 +5,10 @@ echo Hello world! > /dev/null
 cat /dev/null
 ```
 
+<div align="right">
+	Browser this page as website: <a href="https://sahilrajput03.github.io/sahilrajput03">Click here</a>
+</div>
+
 # My feed: [Click here](feed.md)
 
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
