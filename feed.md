@@ -2,6 +2,10 @@
 
 ***Note to me: Please add date for all posts from now on. ~ Thankyou***
 
+## Electro vs GTK?
+
+Compare Electron VS GTK and see what are their differences: [Click here](https://www.saashub.com/compare-electron-vs-gtk)
+
 ## 1Password
 
 - Developer Community: [Click here](https://developer.1password.com/community/)
