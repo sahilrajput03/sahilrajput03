@@ -6,7 +6,7 @@ cat /dev/null
 ```
 
 <div align="right">
-	Browser this page as website: <a href="https://sahilrajput03.github.io/sahilrajput03">Click here</a>
+	Browser this page as website: <a href="https://sahilrajput03.github.io/sahilrajput03">sahilrajput03.github.io/sahilrajput03</a>
 </div>
 
 # My feed: [Click here](feed.md)
