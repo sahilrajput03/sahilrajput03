@@ -2,7 +2,7 @@
 
 ***Note to me: Please add date for all posts from now on. ~ Thankyou***
 
-## Electro vs GTK?
+## Electron vs GTK?
 
 Electron is a desktop application framework developed by GitHub and created by Cheng Zhao. It allows for the development of desktop applications using front- and back-end infrastructure such as HTML, CSS, and JavaScript.
 
