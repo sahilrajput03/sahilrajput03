@@ -2,22 +2,22 @@
 
 ***Note to me: Please add date for all posts from now on. ~ Thankyou***
 
-<div align="right">22 Aug, 2023</div>
-
 ## Electro vs GTK?
+
+<div align="right">22 Aug, 2023</div>
 
 Compare Electron VS GTK and see what are their differences: [Click here](https://www.saashub.com/compare-electron-vs-gtk)
 
-<div align="right">22 Aug, 2023</div>
-
 ## 1Password
+
+<div align="right">22 Aug, 2023</div>
 
 - Developer Community: [Click here](https://developer.1password.com/community/)
 - Using 1Password CLI for secrets locally: [Click here](https://dev.to/hacksore/using-1password-cli-for-secrets-locally-326e)
 
-<div align="right">23 Aug, 2023</div>
-
 ## GitHub Plans to Roll Out Mandatory 2FA to Strengthen Security - techreport.com
+
+<div align="right">23 Aug, 2023</div>-
 
 [Click here](https://techreport.com/news/github-plan-to-roll-out-mandatory-2fa-to-strengthen-security/)
 
