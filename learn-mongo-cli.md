@@ -1,7 +1,7 @@
 # Readme
 
 **Quick Links:**
-- sahilrajput03/learning-monogo-and-mongoosejs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
+- Learn mongo and mongoosejs - Github Repository: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
 
 **Some used mongodb operators**
 
