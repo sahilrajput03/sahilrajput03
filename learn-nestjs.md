@@ -13,6 +13,15 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 ***
 
+- **Using official nodejs libraries in nestjs:**
+
+```ts
+import * as path from 'node:path';
+import * as url from 'node:url';
+import * as fs from 'fs';
+import * as os from 'os';
+```
+
 - Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
 
 ***
