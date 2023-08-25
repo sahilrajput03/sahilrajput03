@@ -13,6 +13,13 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
 ***
 
+- HTTP module in NestJS is nothing but `axios` only. Browse docs here - [Click here](https://docs.nestjs.com/techniques/http-module)
+
+Source of below image - [Click here](https://docs.nestjs.com/techniques/http-module#using-axios-directly)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a5cf1e6c-3d8d-403d-9d27-0b426129ea22)
+
+
 - **Using official nodejs libraries in nestjs:**
 
 ```ts
