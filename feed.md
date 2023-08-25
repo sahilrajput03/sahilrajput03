@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## How many parallel mongodb insert query can I run in parallel with mongoosejs in nodejs?
+
+![image](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/assets/31458531/d8ce0d15-e7e2-46ab-a006-8377e3619224)
+
+<div align="right">Date: 25 Aug, 2023</div>
+
 ## How many maximum parallel files/images should I download via nodejs?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8061c0ad-9813-4221-99f8-e1bfb9fa16ec)
