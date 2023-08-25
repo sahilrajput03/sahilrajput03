@@ -16,6 +16,14 @@ Electron is a desktop application framework developed by GitHub and created by C
 
 <div align="right"> Date: 22 Aug, 2023</div>
 
+## How many maximum parallel files/images should I download via nodejs?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8061c0ad-9813-4221-99f8-e1bfb9fa16ec)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a352647d-32fc-40d9-9bf0-eb871ae6f61d)
+
+<div align="right">Date: 25 Aug, 2023</div>
+
 ## 1Password
 
 - Developer Community: [Click here](https://developer.1password.com/community/)
