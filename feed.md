@@ -1,6 +1,6 @@
 # Feed
 
-***Note to me: Please add date for all posts from now on. ~ Thankyou***
+<div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
 ## How many maximum parallel files/images should I download via nodejs?
 
