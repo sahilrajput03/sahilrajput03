@@ -22,11 +22,14 @@ More:
 - privateGPT - Github 31K* - [Click here](https://github.com/imartinez/privateGPT), Medium Article: [Click here](https://medium.com/codingthesmartway-com-blog/privategpt-the-ultimate-solution-for-offline-secure-language-processing-that-turns-your-pdfs-into-b5cd4ee5db8e)
 - Alakh Pandey - [Click here](https://www.youtube.com/watch?v=FtIEhrZD_5I)
 
+## From Alakh Pandey's Video
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4bd2d24d-fd37-4694-99b2-6b44bb41d8ba)
 
-
-***
-
-# Custom instruction with ChatGPT
+## Custom instruction with ChatGPT
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/44956b06-4516-49c1-90c5-232e27f8bd01)
+
+## Sharing ChatGPT conversations with people
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2cb86c1e-731d-432c-b85c-1b0b039ef59d)
