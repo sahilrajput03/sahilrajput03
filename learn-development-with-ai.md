@@ -23,3 +23,10 @@ More:
 - Alakh Pandey - [Click here](https://www.youtube.com/watch?v=FtIEhrZD_5I)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4bd2d24d-fd37-4694-99b2-6b44bb41d8ba)
+
+
+***
+
+# Custom instruction with ChatGPT
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/44956b06-4516-49c1-90c5-232e27f8bd01)
