@@ -30,6 +30,8 @@ More:
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/44956b06-4516-49c1-90c5-232e27f8bd01)
 
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9c132114-1589-49e0-978f-d62d98cc64eb)
+
 ## Sharing ChatGPT conversations with people
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2cb86c1e-731d-432c-b85c-1b0b039ef59d)
