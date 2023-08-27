@@ -7,10 +7,11 @@
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 - VsCode for Web (Official): [Click here](https://code.visualstudio.com/docs/editor/vscode-web)
 
-## Useful new shortcuts - DATE - 1 August, 2023
+## Useful new shortcuts - DATE - 27 August, 2023
 
-1. `ctrl+g g` for switching git section in vscode.
-2. `ctrl+1` to switch from any left bar menu (search/git/etc) to code editor.
+- Use `ctrl+enter` in pallete to open file to open to use `Open to the Side`. **This always open the file in the right column of the currently active column.**
+- `ctrl+g g` for switching git section in vscode.
+- `ctrl+1` to switch from any left bar menu (search/git/etc) to code editor.
 
 ## Useful **Refresh** button to update recenty made commits locally on current branch
 
