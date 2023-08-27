@@ -21,12 +21,8 @@
 1. (default from vscode)
 2. (default from vscode)
 3. (default from vscode)
-
-4. (default from vscode)
-{ "key": "ctrl+alt+-", "command": "workbench.action.navigateBack", "when": "canNavigateBack" }
-
-5. (default from vscode)
-{ "key": "ctrl+shift+-", "command": "workbench.action.navigateForward", "when": "canNavigateForward" }
+4. (default from vscode) { "key": "ctrl+shift+-", "command": "workbench.action.navigateForward", "when": "canNavigateForward" }
+5. (default from vscode) { "key": "ctrl+alt+-", "command": "workbench.action.navigateBack", "when": "canNavigateBack" }
 ```
 
 ## Useful **Refresh** button to update recenty made commits locally on current branch
