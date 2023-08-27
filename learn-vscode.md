@@ -9,9 +9,9 @@
 
 ## Useful new shortcuts - DATE - 27 August, 2023
 
-1 Use `ctrl+enter` in **Pallete** to open file with `Open to the Side` feature. **This always open the file in the right column of the currently active column.**
-2 `ctrl+g g` for switching git section in vscode.
-3 `ctrl+1` to switch from any left bar menu (search/git/etc) to code editor.
+1. Use `ctrl+enter` in **Pallete** to open file with `Open to the Side` feature. **This always open the file in the right column of the currently active column.**
+2. `ctrl+g g` for switching git section in vscode.
+3. `ctrl+1` to switch from any left bar menu (search/git/etc) to code editor.
 4. `ctrl shift -` to go forward in history (shift means uppercase i.e., move forward in time)
 5. `ctrl alt -` to go backward in history (move backward in time)
 
