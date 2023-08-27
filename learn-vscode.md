@@ -14,6 +14,7 @@
 3. `ctrl+1` to switch from any left bar menu (search/git/etc) to code editor.
 4. `ctrl shift -` to go forward in history (shift means uppercase i.e., move forward in time)
 5. `ctrl alt -` to go backward in history (move backward in time)
+6.  `alt+k s` to open keybindings
 
 **Some more information on above above keybindings:**
 
@@ -23,6 +24,7 @@
 3. (default from vscode)
 4. (default from vscode) { "key": "ctrl+shift+-", "command": "workbench.action.navigateForward", "when": "canNavigateForward" }
 5. (default from vscode) { "key": "ctrl+alt+-", "command": "workbench.action.navigateBack", "when": "canNavigateBack" }
+6. (my custom keybinding)
 ```
 
 ## Useful **Refresh** button to update recenty made commits locally on current branch
