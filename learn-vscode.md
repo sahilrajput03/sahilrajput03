@@ -27,6 +27,10 @@
 6. (my custom keybinding)
 ```
 
+**Navigate Errors fastly:**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7b94c99c-4a5e-4a3e-aa78-c8d178ea3dcb)
+
 ## Useful **Refresh** button to update recenty made commits locally on current branch
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f2e572bb-3010-4225-899b-3e218eb12c32)
