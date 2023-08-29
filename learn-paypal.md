@@ -39,6 +39,10 @@ Card Used in Postman for testing:
   State: California
   ```
 
+## Payment Data Transfer
+
+Docs - Payment Data Transfer: [Click here](https://developer.paypal.com/api/nvp-soap/payment-data-transfer/)
+
 ## We get nextBillingTime on showSubscription api
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/952664ea-59be-4331-8152-63061b102ccd)
