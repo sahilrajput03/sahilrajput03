@@ -34,6 +34,50 @@
   ```
 - **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
 
+## PayPal integration with 1. APIs OR PayPal SDK
+
+We can choose from two options for the PayPal integration i.e, 
+
+1. using a SDK from PayPal i.e, 
+
+- Npm (94k weekly downloads) - https://www.npmjs.com/package/@paypal/react-paypal-js
+- Github - https://github.com/paypal/react-paypal-js
+
+**OR**
+
+2. Using HTTP API via our backend.
+This basically works because PayPal provides a way to redirect the user to a specific "return-url" for e.g., slasher.tv along with subscriptionId, and thus we can make use of that page to help show the user the status of his payment.
+How does this work?
+1. User initiates a subscription which is also known as subscription-activation, there are two types:
+- a.) using PaPpal login
+- b.) using Card Details
+
+Users do this by hitting our slasher api, for e.g, /api/v1/podcast/activate-subscription and behind the scenes we'll call activate-subscription api on paypal server.
+
+2. We get an "approve-url" as result of the "activate-subscription" request and then we return that url to the user.
+
+3. Utilising "approve-url" -
+- a.) User navigates to that url and finishes the payment by his PayPal login credentials.
+- b) If the user wants to make payment via card user can send card-details as payload for the API call we did in the 1st step, thus the payment will be done right away! (wow!).
+
+4. (Note: This step is only for PayPal login payment type only): When user visit the "approve-url", he/she will be prompted to do the txn and will be redirected to a url like below -
+
+`https://example.com/app/podcasts/SUBSCRIPTION-RETURN-URL/return?subscription_id=I-VDA50T7LKCFY&ba_token=BA-1Y6871089W3522241&token=1MM66374W7146800L`
+
+Thus we can collect subscription_id and check for that subscription status after every 5 seconds while the user is still on this page (it is generally successful instantly though). And we can let the user know the txn is successful by calling a simple txn status or subscription status API on our backend. That's all.
+
+Let me know what your and Damon's preferences are, if possible please try communicating with Damon as these are minute details and don't make much difference after the process is complete.
+
+What are actual differences though in my view in the above two ways?
+1. (API > SDK) I think with controlled API requests, we would have more control.
+2.  (SDK > API) The npm library seems to be from official PayPal so it can be trusted too.
+3. (SDK > API) If we go with API requests then we would need to manage card details handling in frontend and which may be a one time thing but it would be reusable for future dating subscriptions too. (high effort task)
+4. (API > SDK) We would have more control on our frontend UI if we follow the API requests way.
+
+- More or less, I am equally biased on each way of implementation. Thanks.
+
+- Also, I tested both ways thoroughly it works fine either way.
+
 ## PayPal personal (buyer) vs. business account (seller)
 
 Login @ https://www.sandbox.paypal.com/signin
