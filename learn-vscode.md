@@ -7,6 +7,20 @@
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 - VsCode for Web (Official): [Click here](https://code.visualstudio.com/docs/editor/vscode-web)
 
+## Add eslint settings to your vscode directly
+
+`settings.json`
+
+```
+"eslint.options": {
+	"overrideConfig": {
+		"rules": {
+			"no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 0, "maxEOF": 0 }],
+		}
+	}
+}
+```
+
 ## Useful new shortcuts - DATE - 27 August, 2023
 
 1. Use `ctrl+enter` in **Pallete** to open file with `Open to the Side` feature. **This always open the file in the right column of the currently active column.**
