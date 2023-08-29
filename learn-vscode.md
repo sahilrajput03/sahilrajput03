@@ -11,7 +11,7 @@
 
 `settings.json`
 
-```
+```json
 "eslint.options": {
 	"overrideConfig": {
 		"rules": {
