@@ -48,7 +48,7 @@ Login @ https://www.sandbox.paypal.com/signin
 
 **Note - You should:**
 1. Go to `Account Settings` > `Website payments` > `Website Preferences` and enable both `Auto return` and `Payment data transfer`. For return url you may give `https://slasher.tv/app/paypal/return-url` but it isn't useful as you **must** definte the return url in each `create-subscription` (POST /v1//billing/subscriptions) API call.
-2. Read first point again. Thanks. 
+2. You may also definte `cancel_url` as well as that would be helpful to know when the payment is failed.
 
 ```txt
 return url = https://example.com/return
