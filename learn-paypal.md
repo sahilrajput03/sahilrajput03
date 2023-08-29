@@ -39,8 +39,6 @@ Card Used in Postman for testing:
   State: California
   ```
 
-![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
-
 ## You can browser `subscriptions` and `plans` in Selller Account (sandbox) like that
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a9604787-3ba1-418f-8d5f-e2ceb3bfbef7)
@@ -71,6 +69,9 @@ EMnAWe06ioGtouJs7gLYT9chK9-2jJ--7MKRXpI8FesmY_2Kp-d_7aCqff7M9moEJBvuXoBO4clKtY0v
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/29c9f440-d669-4aba-86d0-a53441a1ee82)
 
+## Get subscription details
+
+![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
 
 ## Customize the PayPal Buttons
 
