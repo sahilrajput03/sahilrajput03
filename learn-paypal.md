@@ -41,6 +41,10 @@ Card Used in Postman for testing:
 
 ## `onApprove` on paypal-react compponent function is only called when txn is approved (i.e., successful)
 
+So, we have either of two options:
+1. use `Transaction Search > List Transaction` in postman PayPal api collection.
+2. use `Subscriptions > Show subscriptions details` in postman PayPal api collection.
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d0599c26-0415-44f9-8389-ca4e9179dd6c)
 
 ## You can browser `subscriptions` and `plans` in Selller Account (sandbox) like that
