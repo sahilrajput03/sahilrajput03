@@ -1,12 +1,41 @@
-# Learn capacitor
+# Learn Capacitor
 
 **Quick Links:**
-- **Learn Android: [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)**
+- **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
+- **Learn Google Play Console:** [Click here](learn-playconsole.md)
+- Sunflower App - App in Kotlin (17k*): [Click here](https://github.com/android/sunflower/tree/main)
+
+**Capacitor Docs, Issues:**
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
-**General - PlayStore issues:**
-- **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
+## Know what capacitor version are you on currently?
+
+```bash
+# file: package.json
+
+# dependencies
+"@capacitor/android": "^5.2.3",
+"@capacitor/core": "^5.2.3",
+"@capacitor/ios": "^5.2.3",
+
+# dev dependencies
+"@capacitor/cli": "^5.2.3",
+```
+
+## Change top status bar background color in android native code
+
+[Click here](https://stackoverflow.com/questions/22192291/how-to-change-the-status-bar-color-in-android)
+
+## Redirect user to upate the app in android and ios (not tested personally)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/11c61ab4-013b-4e87-9360-a9fe970cc5d9)
+
+## Auto signing after app install issue?
+
+Resource: [1](https://stackoverflow.com/questions/33169618/an-android-app-remembers-its-data-after-uninstall-and-reinstall/33176898#33176898), [2](https://stackoverflow.com/questions/35517239/sharedpreferences-are-not-being-cleared-when-i-uninstall/35517411#35517411)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5217396d-8316-4c9f-afb0-a9d09f285a74)
 
 ## Is `deviceToken` change on each firebase setup for e.g., on login event on client app?
 
@@ -36,12 +65,6 @@ NOTE: Why to use android studio and **not** capacitor CLI to build a signed APK?
 2. Run `Build > Clean Project`.
 3. Run `Build > Signed Bundle / APK...` and continue with as required.
 4. APK/AAB will be generated at `/home/array/test/slasher/slasher-web-frontend/android/app/release`.
-
-## `LEARNING OF THE BAD DAY` Super learning about adding tester email to "Internal Testing"
-
-**Source - Google Play blank screen loading forever Internal Testing and Public Alpha track:** [Click here](https://stackoverflow.com/questions/63253254/google-play-blank-screen-loading-forever-internal-testing-and-public-alpha-track)
-
-It takes 3-4 hours or may be 1-2 days so that any new tester email added to `tester-email-list` to take into effect (before that it will show white screen when you try to browse the internal testing playstore link). 
 
 ## Give developer permission to change app description and app screenshots
 
@@ -94,17 +117,6 @@ emulator -list-avds
 emulator -avd Pixel_3a_API_33_x86_64
 ```
 
-## Publishing to PlayStore Android
-
-Article - [Click here](https://appinventiv.com/blog/how-to-submit-app-to-google-play-store/)
-
-## Internal Test Network
-
-[Click here](https://play.google.com/console/about/internal-testing/)
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9f529f68-f7a6-44a1-bfac-579412b44332)
-
-
 ## Android 12+ splash screen
 
 Youtube - [Click here](https://www.youtube.com/watch?v=4Dh09c_iWFU)
@@ -130,10 +142,6 @@ npx cap build android
 alias cd.apkCapacitor='cd android/app/build/outputs/apk/debug/'
 # You'll see file with name `app-debug.apk`
 ```
-
-## Generatin and submitting apk to playstore
-
-[Clickh here](https://ionic.io/blog/building-and-releasing-your-capacitor-android-app)
 
 ## You can view the running devices in android studio from here
 

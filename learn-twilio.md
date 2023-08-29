@@ -1,3 +1,11 @@
+# Learn Twilio
+
+# Use Your Fingerprint with 1Password to Authenticate the Twilio CLI
+
+Official Docs: [Click here](https://www.twilio.com/blog/use-your-fingerprint-with-1password-to-authenticate-twilio-cli)
+
+[Click here](https://www.twilio.com/blog/use-your-fingerprint-with-1password-to-authenticate-twilio-cli)
+
 # Learn Sending OTP's with twilio
 
 ```js

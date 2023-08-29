@@ -32,6 +32,8 @@ You can prepare boiled potatoes (2 potatoes, 3min to start boil + 5mins boil tim
 
 # Recepies
 
+Kheer - Youtube Shorts Video: [Click here](https://www.youtube.com/shorts/ZJy6GaTjCm8)
+
 <details>
   <summary><ins>High Protein Soya chunks recepie:</ins></summary>
   

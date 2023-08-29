@@ -5,6 +5,45 @@
 - **Open same solder in two windows of Vscode:** From command pallete(ctrl+shift+p), use `Workspaces: Duplicate Workspace in New Window` option. [Source](https://stackoverflow.com/a/51426734/10012446). Tip: Use dupl as filter to get that option faster.
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
+- VsCode for Web (Official): [Click here](https://code.visualstudio.com/docs/editor/vscode-web)
+
+## Add eslint settings to your vscode directly
+
+`settings.json`
+
+```json
+"eslint.options": {
+	"overrideConfig": {
+		"rules": {
+			"no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 0, "maxEOF": 0 }],
+		}
+	}
+}
+```
+
+## Useful new shortcuts - DATE - 27 August, 2023
+
+1. Use `ctrl+enter` in **Pallete** to open file with `Open to the Side` feature. **This always open the file in the right column of the currently active column.**
+2. `ctrl+g g` for switching git section in vscode.
+3. `ctrl+1` to switch from any left bar menu (search/git/etc) to code editor.
+4. `ctrl shift -` to go forward in history (shift means uppercase i.e., move forward in time)
+5. `ctrl alt -` to go backward in history (move backward in time)
+6.  `alt+k s` to open VS Code keybindings
+
+**Some more information on above above keybindings:**
+
+```txt
+1. (default from vscode)
+2. (default from vscode)
+3. (default from vscode)
+4. (default from vscode) { "key": "ctrl+shift+-", "command": "workbench.action.navigateForward", "when": "canNavigateForward" }
+5. (default from vscode) { "key": "ctrl+alt+-", "command": "workbench.action.navigateBack", "when": "canNavigateBack" }
+6. (my custom keybinding)
+```
+
+**Navigate Errors fastly ❤️ ❤️:**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7b94c99c-4a5e-4a3e-aa78-c8d178ea3dcb)
 
 ## Useful **Refresh** button to update recenty made commits locally on current branch
 

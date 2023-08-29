@@ -1,6 +1,7 @@
-# Learn kdenlive/Audacity
+# Learn kdenlive
 
 **Quick Links:**
+- Learn Audacity: [Click here](learn-audacity.md)
 - Full Playlist: https://www.youtube.com/playlist?list=PLqazFFzUAPc7uQaoGxYwxGLk4_6fQrBvE
   - Cutting video: Lesson 2 in above playlist.
 
@@ -15,11 +16,6 @@
 
   ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/24192c60-10d2-4d8d-bab3-91149762a428)
 
-
-- Audacity - Mic and Speaker - Control
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7d2d08b6-33b9-4f8b-a9f9-66c1e7349334)
-
 - Setting mic in kdenlive (system and headphone mic) **No need to restart kdenlive to take mic change into effect (tested)**
 
 Step 1/3:
@@ -33,11 +29,6 @@ Step 2/3:
 Step 3/3:
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0e542747-d0e6-4bfb-aa41-3f98f3704eb3)
-
-
-- Audacity - Setting mic (i.e., earphone mic and system mic), **Must close and re-open audacity to take changes into effect**
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/71d2cb3d-b3bc-48dd-a60c-454631d9b6c7)
 
 - Screen Recorder with Kdenlive
 

@@ -15,6 +15,8 @@
 - **Bash Shell Substitution:** [Click here](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
 - **Linux iptables command examples for new sysadmins:** [Click here](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
 - **30 linux bash aliases:** [Click here](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
+- ❤️ Learn Bash scripting official manjaro linux article - [Click here](https://forum.manjaro.org/t/tutorial-shell-scripting-by-way-of-an-illustrated-practical-example/66120)
+- ❤️Interactive vs. Non-Interactive shell❤️ : [Click here](https://phoenixnap.com/kb/bashrc-vs-bash-profile)
 
 ## What does `set -o allexport` do?
 
@@ -176,7 +178,7 @@ Source: Amazing quora answer with 5+ resources: https://qr.ae/pviIdi
 
 Simply use `reset` command to get your teminal back. YO!!  [Source](https://superuser.com/a/237405)
 
-## Confused with all the paths in scripts?
+## ❤️ ❤️ ❤️  Confused with all the paths in scripts? ❤️ ❤️ ❤️ 
 
 ```bash
 #!/bin/bash
@@ -190,18 +192,27 @@ dirname -- "${BASH_SOURCE[0]}"
 echo ${BASH_SOURCE[0]}
 ```
 
-#### Making pure executable scripts
+#### ❤️ Making pure executable scripts #get scripts path, #get current script path, #get path of the script ❤️
 
 So, below script will cause to execute the `sops` command to run from the parent directory of the `scripts` directory at all times no matter where do you execute the script from.
 
 ```bash
 #!/bin/bash
-SCRIPTS_DIR_PATH=$(dirname -- "${BASH_SOURCE[0]}")
+PATH_TO_DIRECTORY_OF_THIS_SCRIPT="$(dirname -- "${BASH_SOURCE[0]}")"
+# Use below statement for debugging via CLI for above variable path
+# PATH_TO_DIRECTORY_OF_THIS_SCRIPT="$(pwd)"
+
 cd $SCRIPTS_DIR_PATH/..
 sops -e .env > enc.env
 ```
 
+**❤️ Also, below answer on stackoverflow is a great answer too [from here](https://stackoverflow.com/a/59916) ❤️ -**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/435656d9-8546-45c1-90f6-3ae500c41239)
+
 ## Using softlink to create a binary link in `/usr/bin` directory to make binaris available from everywhere
+
+⚠️⚠️ Please don't use soft links for any of your scripts because its impossible get path of `script` when you run a symlink (NOTE - `PATH_TO_DIRECTORY_OF_THIS_SCRIPT="$(dirname -- "${BASH_SOURCE[0]}")"` gives path the symlink and not the actualy script we are running. Thus always use functions with static paths to files/directories for referncing those. ⚠️⚠️
 
 ```bash
 # example 1
@@ -536,7 +547,7 @@ I would point you to Wikipedia:
 
 A few points:
 
-- Symlinks, unlike hard links, can cross filesystems (most of the time).
+- Symlinks, unlike hard links, can work cross filesystems (most of the time).
 - Symlinks can point to directories.
 - Hard links point to a file and enable you to refer to the same file with more than one name.
 - As long as there is at least one link, the data is still available.

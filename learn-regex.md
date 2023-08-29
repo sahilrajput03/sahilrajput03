@@ -9,7 +9,43 @@ Course: RegexOne - Learn Regular Expressions with simple, interactive exercises.
 Source: https://regexone.com/
 
 **Quick Links:**
-- Regex debugger**: https://regex101.com/
+- **Regex debugger**: https://regex101.com/
+
+## Eric's way of updating imports via regex is awesome
+
+```
+# FIND AND REPLACE REGEX - **(New Awesome)** ~ Author ~ Sahil
+import (.+)captchaSiteKey(.+) from (.+)(constants)';
+import $1captchaSiteKey$2 from $3env';
+
+All type of examples works:
+================
+import { captchaSiteKey } from '../../../constants';
+import { WORDPRESS_SITE_URL, captchaSiteKey } from '../../../constants';
+import { WORDPRESS_SITE_URL, captchaSiteKey, boomerang } from '../../../constants';
+-> ARE CHANGED TO: *(notice the env in the end)*
+import { captchaSiteKey } from '../../../env';
+import { WORDPRESS_SITE_URL, captchaSiteKey } from '../../../env';
+import { WORDPRESS_SITE_URL, captchaSiteKey, boomerang } from '../../../env';
+
+
+------------------------------------------------------------------------------------------------------
+
+
+# FIND AND REPLACE REGEX
+import \{ apiUrl \} from (.+)(constants)';
+import { apiUrl } from $1env';
+
+Example works:
+================
+import { captchaSiteKey } from '../../../constants';
+-> ARE CHANGED TO: *(notice the env in the end)*
+import { captchaSiteKey } from '../../../env';
+```
+
+From chat-gpt:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e80752c1-7eb9-49d5-93e2-8c2cb85e284b)
 
 ## Look Behind assertion `(?<!\S)`
 

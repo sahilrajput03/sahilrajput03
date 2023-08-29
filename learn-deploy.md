@@ -1,16 +1,13 @@
 # Deployment
 
+**Quick Links:**
+- Learn Vercel Deployment: [Click here](learn-vercel.md)
+
 ## port forward with router
 
 Thats how I have configured some port and port ranges on my system.
 
 ![image](https://user-images.githubusercontent.com/31458531/187068589-0e04dab6-ad22-4410-b7aa-6a05704fc292.png)
-
-## Vercel recommends [pusher.com](https://pusher.com/channels) for deployment of realtime apps(i.e, requiring websockets (socket.io)
-
-Source: A comment on this [stackoverflow answer](https://stackoverflow.com/a/62547135)
-
-https://vercel.com/guides/deploying-pusher-channels-with-vercel
 
 ## Github Pages
 
@@ -230,25 +227,3 @@ You can use `CNAME` like below **(disadvantage is we can't redirect top level do
 
 Yes, absolutely. The key thing is that you must know how to debug pwa Installer Popup with lighthouse and fulfill those requirements. The thing I was haivng issue on this day(1 June, 2022) is that I was not adding a service worker to the app and that was necessary to get Installer Popup work as informed by the Lighthouse debugging in chrome devtools.
 ![image](https://user-images.githubusercontent.com/31458531/171352768-5a66dea9-270e-4056-b4b6-481c937eb510.png)
-
-## Direct domain to vercel hosting
-
-```txt
-NS1.VERCEL-DNS.COM
-NS2.VERCEL-DNS.COM
-```
-
-![image](https://user-images.githubusercontent.com/31458531/192787365-6c3c392c-af1b-4564-a509-1a406d107e73.png)
-
-
-## we can change the connected git repository of in a vercel project
-
-You need to first disconnect the connected repo and then you need to connect another git repo there, its very simply. Vercel is amazing.
-
-![image](https://user-images.githubusercontent.com/31458531/197267914-a6428018-289d-45c1-9d5c-01a758db355d.png)
-
-## vercel uses yarn by default
-
-So to use npm instead of yarn you can specify the build and run command like that:
-
-![](https://user-images.githubusercontent.com/31458531/196443722-ab84dc7f-7779-4fa3-be10-2096c04f29fc.png)

@@ -193,7 +193,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   umount -R /mnt
   
-  #If above command says: "Resource busy" then use below command instead, (-l is for lazy unmount option)-
+  # If above command says: "Resource busy" then use below command instead, (-l is for lazy unmount option)-
   umount -l /mnt
   ```
   
@@ -368,7 +368,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
 - Add transparency ability to terminal by-
   
   ```
-  sudo vim /etc/xdg/picom.conf
+  sudoCode /etc/xdg/picom.conf
   # and set the value of vsync as false. By default it is set true in here.
   ```
   
@@ -483,7 +483,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   
 - Enabling hibernation: Tip: You must have SWAP partition setup before you can use hiberation feature.
   ```
-  sudo vim /etc/mkinitcpio.conf
+  sudoCode /etc/mkinitcpio.conf
   
   # Find the line that says:
   HOOKS=(base udev autodetect modconf block filesystems keyboard fsk)
@@ -491,7 +491,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   HOOKS=(base udev autodetect modconf block filesystems keyboard resume fsck)
   
   ## Now edit another file
-  sudo vim /etc/default/grub
+  sudoCode /etc/default/grub
   # and add the linux swap partition with UUID entry to the GRUB_CMDLINE_DEFAULT variable-
   GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
   # and add a resume paramter with UUID value of the SWAP partition (here 899efccc-3a01-48bb-aa44-1de74cc9798a is UUID of my SWAP atm of installation)
@@ -579,50 +579,47 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   
 - Setting up bluetooth in arch-
-  ```
-  sudo pacman -S blueman
-  # now this package installed config file as well-
-  sudo vim /etc/bluetooth/main.conf
+  ```bash
+  sudo pacman -S blueman # This installs config file at /etc/bluetooth/main.conf
   
   # Start the service and enable service to run on startup-
   sudo systemctl start bluetooth
   sudo systemctl enable bluetooth
-  
-  # Verify
   sudo systemctl status bluetooth
   
   # Enable bluetooth device on startup-
-  sudo vim /etc/bluetooth/main.conf
+  sudoCode /etc/bluetooth/main.conf
   # and add below line to it
   AutoEnable=true
   ```
   
-  and now use
+  and now use below steps to connect to any device:
+
+  **(If doesn't connect then use this link to help youself: [Click here](https://bbs.archlinux.org/viewtopic.php?id=270465&p=3))**
   
-  ```
+  ```bash
   # Install bluez-utils
-  sudo pacman -S bluez-utils
-  # now we have bluetoothctl cli tool
-  
+  sudo pacman -S bluez-utils # This installs `bluetoothctl` cli tool
+
+  # alias for `bluetoothctl` and it opens a subshell
   blc
-  # alias for `bluetoothctl`
-  # opens a subshell
-  
+
+  # power on the device
   power on
-  # turns on the bluetooth device
   
+  # enable auto connection with devices after you connect once with a device
   default-agent
-  # enables auto connection with devices after you connect once with a device
   
+  # output all nearby available devices
   scan on
-  # not it'll output all the available devices it finds nearby
   
+  # you can type just two letters starting of any visible devices and use <TAB> to autocomplete the address *(one time only)
   trust <mac_id>
-  # you can type just two letters starting of any visible devices and use <TAB> to autocomplete the address.
-  
+
+  # pair device *(one time only)
   pair <mac_id>
   
-  # You can see your paired devices using
+  # you can see your paired devices using
   devices
   
   # connect to your device
@@ -635,7 +632,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   sudo pacman -S pulseaudio-bluetooth
   
-  sudo vim /etc/bluetooth/main.conf
+  sudoCode /etc/bluetooth/main.conf
   # and edit the line which says
   ControllerMode = dual
   # and finally it should look like 

@@ -1,5 +1,9 @@
 # Google Calendar
 
+## Reminders removed completely from google calendar and turned into tasks
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/edbc9928-0ccc-439d-a17f-261a326402de)
+
 ## Checker plus for Google Calendar - 1
 
 ![image](https://user-images.githubusercontent.com/31458531/235355919-b09c9fde-b0fb-4954-8b3f-fb4caabfd6e6.png)

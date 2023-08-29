@@ -14,7 +14,7 @@ Ai tools Suggested by Varun Mayya -
 - Stable Diffusion - Github Repo (56.1K*): [Click here](https://github.com/CompVis/stable-diffusion)
 - Stable Diffusion v2 - Github Repo (24.6K*): [Click here](https://github.com/Stability-AI/stablediffusion)
 - Stable Diffusion - Web UI - Github Repo (83.8K*): [Click here](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-
+- MiniGPT-4 Github Repo (22K*): [Click here](https://github.com/Vision-CAIR/MiniGPT-4)
 
 More:
 - Is midjourney opensource: youtube - [Click here](https://www.youtube.com/watch?v=HSdp_Qe4VgY)
@@ -22,4 +22,16 @@ More:
 - privateGPT - Github 31K* - [Click here](https://github.com/imartinez/privateGPT), Medium Article: [Click here](https://medium.com/codingthesmartway-com-blog/privategpt-the-ultimate-solution-for-offline-secure-language-processing-that-turns-your-pdfs-into-b5cd4ee5db8e)
 - Alakh Pandey - [Click here](https://www.youtube.com/watch?v=FtIEhrZD_5I)
 
+## From Alakh Pandey's Video
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4bd2d24d-fd37-4694-99b2-6b44bb41d8ba)
+
+## Custom instruction with ChatGPT
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/44956b06-4516-49c1-90c5-232e27f8bd01)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9c132114-1589-49e0-978f-d62d98cc64eb)
+
+## Sharing ChatGPT conversations with people
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2cb86c1e-731d-432c-b85c-1b0b039ef59d)

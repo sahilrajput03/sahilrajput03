@@ -2,13 +2,32 @@
 
 REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 
+- Learn RxJs: [Click here](./learn-rxjs.md)
 - Reference project using nestjs: [Click here](https://docs.nestjs.com/fundamentals/circular-dependency)
 - Fixing circular dependency: Official Docs: [Click here](https://docs.nestjs.com/fundamentals/circular-dependency)
 - Testing with NestJS: [Click here](https://docs.nestjs.com/fundamentals/testing)
 - Declartive Cron Jobs with NestJS: [Click here](https://docs.nestjs.com/techniques/task-scheduling#declarative-cron-jobs)
 - Learn `class-validator`: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-classvalidator.md)
+- **Actively closing db connection to fast the script running in nestjs:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#actively-closing-mongodb-connection-to-close-nestjs-app-immediately-when-we-run-custom-scripts)
+- **Lifecycle Events: [Click here](https://docs.nestjs.com/fundamentals/lifecycle-events#lifecycle-events-1)**
 
 ***
+
+- HTTP module in NestJS is nothing but `axios` only. Browse docs here - [Click here](https://docs.nestjs.com/techniques/http-module)
+
+Source of below image - [Click here](https://docs.nestjs.com/techniques/http-module#using-axios-directly)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a5cf1e6c-3d8d-403d-9d27-0b426129ea22)
+
+
+- **Using official nodejs libraries in nestjs:**
+
+```ts
+import * as path from 'node:path';
+import * as url from 'node:url';
+import * as fs from 'fs';
+import * as os from 'os';
+```
 
 - Writing tests with nestjs is awesome: ![image](https://user-images.githubusercontent.com/31458531/185789321-6399c11f-e652-49fd-bf98-7e7a7217fdc1.png)
 

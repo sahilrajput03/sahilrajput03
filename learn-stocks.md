@@ -1,5 +1,41 @@
 ### PLEASE REFER textual info @ https://github.com/sahilrajput03/learn-trading/blob/main/readme.md
 
+# Starting from 2023, with money now!
+
+**Using `in.tradingview.com`:**
+
+0. Site - [in.tradingview.com](https://in.tradingview.com/)
+1. Using multiple windows together on trading view without Pro subscriptions: [Click here](https://youtube.com/shorts/7freawstxUE?feature=share)
+2. Learn Tradingview @ youtube: [Click here](https://www.youtube.com/results?search_query=using+trading+view)
+3. (Done, Awesome, 2 amazing tips in the end) - TradingView  Tutorial: [Click here](https://www.youtube.com/watch?v=sduv7ISh0Bw&t=1112s)
+
+## Standard view in trading view is opened from here
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/c3ae4f14-2e43-49a1-9f33-1935fd2fdc0b)
+
+## Sidebar menus in tradingview.com
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/886f8421-bcda-47f0-af13-dc290593f8ef)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9779e295-cc98-4eda-95fe-4619fec3b19e)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1e99e819-158f-461e-9a8e-60602a5d67fd)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/98853458-6f9f-42d9-be0d-f7e95af9fa36)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9011f97f-f4d7-4b05-8ffb-7fe5adb94ca1)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1c1881e5-daf3-4b70-9909-8fe281d28567)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2e105274-e5f8-477d-b266-24ca66b73ea0)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/98c8c9a1-c2e8-4935-a8e9-32bcf58d522a)
+
+Popular Brokers (list on tradingview.com
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6e111f97-85e9-4665-badf-b65d73cd5244)
+
+
 # Learn stocks
 
 todo: start from `7th video` i.e., Bollinger Bangs:
@@ -7,8 +43,6 @@ todo: start from `7th video` i.e., Bollinger Bangs:
 ![image](https://user-images.githubusercontent.com/31458531/189545125-fd40c1eb-2b36-41d8-9075-43064ab7584c.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/189545208-083997b9-dce4-4189-93f9-253b6828a404.png)
-
-
 
 ## Resources:
 

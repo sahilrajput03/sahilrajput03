@@ -1,5 +1,9 @@
 # Thoughts, Principles
 
+Don't mistake my silence for ignorance, my calmness for acceptance and my kindness for weakness.
+
+<div align="right">Date: 23 August, 2023</div>
+
 The ecosystem made around kubernetes is proving that almost every company will leverage power from the open source softwares directly for their utilites of cloud softwares.
 
 Trust the smart people.
@@ -267,3 +271,17 @@ The only thing necessary for the triumph of evil is for good men to do nothing. 
 Think of your path. Imagine where you want to be. Then reverse engineer that. You'll see Z. Z requires Y to exist. Y requires X to exist. All the way back to A. ~ Damon Della Greca
 
 People tend to overthink and that trips them up. Keep it all simple. If there's a problem, it's easier to think of the solutions than get upset or frustrated. It's a choice, really. People can choose to be upset and make no progress or find the solution and succeed. ~ Damon Della Greca
+
+If you're afraid of something - try to understand it better because the chances are you don't and that's why its scary, its different. And you're resistant to that, so the best thiing anybody can do is atleast understanding the perspective and try to get it. ~ Damon
+
+Syadwad - Use "I think" or "I guess" with every sentence - But the problem with this is that conviction isn't there.
+
+Inductive Logic can't lead 100% objectivity. ~ Vikas Divya Kirti
+
+If you've got an idea, start today. There's no better time than now to get going. ~ Kevin Systrom (CEO/co-founder of Instgram)
+
+If you build a solution to a problem lots of people have , it's so easy to sell your product to the world. ~ Kevin Systrom (CEO/co-founder of Instgram)
+
+You don't have to be best, you have to be dangerous. You have to learn just enough to be dangerous to build an idea, concept it and show it to the world and then it turns out there are lots of other people inlcuding all 170 employees that works on Instagram who are much better at doing all that stuff than I am. But you need to find people who can be drawn to the idea that you build and then they end up taking it and making it even better. ~ Kevin Systrom (CEO/co-founder of Instgram)
+
+Don't judge a book by its cover.

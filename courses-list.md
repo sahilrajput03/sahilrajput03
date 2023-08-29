@@ -11,7 +11,7 @@
 - Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
 - Kubernetes Tutorial for Beginners [4h] by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
 - DevOps Roadmap by `TechWorld with Nana`: [Click here](https://youtu.be/G_nVMUtaqCk)
-- **MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)
+- ~~**MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)~~ , (Removed, please use the official docs and make more examples in your official `learning-monogo-and-mongoosejs` 
 - Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **Just me and Opensource**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
 - Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
 - Typescript: No BS TS by Jack Herrington: [Click here](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)

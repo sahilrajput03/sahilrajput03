@@ -1,7 +1,73 @@
 # Learn git
 
-For older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
+**Quick Links:**
+- Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
+- Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## Simple way to setup ssh git-github connection with `gh` cli
+
+Source - [Docs - Authenticating with GitHub from Git](https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git)
+
+```bash
+gh auth login
+```
+
+## Setup your cli to work with multiple github accounts
+
+Step 1: Generate a ssh-key value pair i.e, private and public key. Refer my own notes:  [Click here](generate-ssh-key-pairs.md)
+
+Step 2: First add your **public key** to github account you want access to.
+
+Step 3: Then add entry correspondingly like below to your `~/.ssh/config` file -
+
+```bash
+HOST github.com
+ HostName github.com
+ IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-1-private-key"
+
+HOST github.com-sahilrajput03
+ HostName github.com
+ IdentityFile "C:\Users\Array\Documents\ssh-keys\sahil-account-2-private-key"
+```
+
+*Step 4: (Optional: May not be needed for ArchLinux) You might want to run command `ssh-add ~/.ssh/oanhnn_private_key` if you are doing this on ubuntu (tested no Samaksh Ubuntu). Source: [Click here](https://gist.github.com/oanhnn/80a89405ab9023894df7)*
+
+
+Step 5: Testing ssh connections:
+
+```bash
+ssh -T git@github.com
+# OUTPUT: Hi <username_here>! You've successfully authenticated, but GitHub does not provide shell access.
+
+ssh -T git@github.com-sahilrajput03
+# OUTPUT: Hi <username_here>! You've successfully authenticated, but GitHub does not provide shell access.
+
+# For Bitbucket
+ssh -T git@bitbucket.org
+# OUTPUT: authenticated via ssh key.
+# OUTPUT: You can use git to connect to Bitbucket. Shell access is disabled
+```
+
+Step 6: In your other than default account you can use below commadn to change name and email as well:
+
+```bash
+git config user.email "superman@org2.com"
+git config user.name  "Super Man"
+```
+
+That's all!
+
+## `double merge` or `round-trip merge`
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ea3f36b0-8db9-422c-bd14-2b0ad6a69155)
+
+## Use local time zone for git log
+
+Source: [Click here](https://stackoverflow.com/a/15905642/10012446)
+
+```
+git config --global log.date local
+```
 ## Some useful commands
 
 ```bash

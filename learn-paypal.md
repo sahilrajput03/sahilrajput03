@@ -39,6 +39,38 @@ Card Used in Postman for testing:
   State: California
   ```
 
+## You can browser `subscriptions` and `plans` in Selller Account (sandbox) like that
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a9604787-3ba1-418f-8d5f-e2ceb3bfbef7)
+
+Now, you can use that button to toggle b/w group by product or group by plan view
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/94188d61-12b2-4147-90ae-1755416b1fca)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8969cf66-debc-4c8c-8e4d-7bfb870ee809)
+
+
+## I added slasher related clientId and clientSecret values here
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/020b1850-9bc8-40e6-b284-bd94b27e5d2a)
+
+## ClientId and ClientSecret by Postman's Public API Collection
+
+Date: 29 August, 2023
+
+```txt
+Clientid:
+AUv8rrc_P-EbP2E0mpb49BV7rFt3Usr-vdUZO8VGOnjRehGHBXkSzchr37SYF2GNdQFYSp72jh5QUhzG
+
+ClientSecret:
+EMnAWe06ioGtouJs7gLYT9chK9-2jJ--7MKRXpI8FesmY_2Kp-d_7aCqff7M9moEJBvuXoBO4clKtY0v
+```
+
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/29c9f440-d669-4aba-86d0-a53441a1ee82)
+
+## Get subscription details
+
 ![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
 
 ## Customize the PayPal Buttons
@@ -55,6 +87,15 @@ Card Used in Postman for testing:
 ## Getting client id and secret
 
 **Account Settings > Account access > API access > Update > Manage REST API apps credentials**
+
+Image: 1/2
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5c782e29-95df-42d4-880d-ee6af86762ef)
+
+Image: 2/2
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/56340b5c-199a-484f-b143-4d560a83045a)
+
 
 ## Enable Fetch Transaction permission
 

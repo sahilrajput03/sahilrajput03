@@ -1,5 +1,19 @@
 # Learn postman
 
+- We can use params ❤️❤️ in postman with a beautiful syntax like that:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5c41c439-4041-4a86-a060-5f83126add35)
+
+- Delete workspace (#remove workspace)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1bb9f083-fb0f-41ca-a070-cdd452ec4cc8)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0efdacc0-ef79-43cb-afeb-1c4db84011e9)
+
+- TODO: Learn how teams work in postman
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0dc41b89-dcc5-4d60-8534-7b98b4f2b86c)
+
 - Choosing between collection variables vs. environment variables
 
 **NOTE: Environment variables always override collection variables.**
@@ -38,9 +52,9 @@ pm.globals.set("TOKEN1", jsonData.token);
 
 - Thats how you set collection specific variables:
 
-![image](https://user-images.githubusercontent.com/31458531/222793410-a0ac7859-2b51-4bd4-a974-a311248ce499.png)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3710988a-3b88-40ca-8550-384d64636046)
 
-![image](https://user-images.githubusercontent.com/31458531/222793609-a01131f5-9bf0-48e3-be60-691c0e93118d.png)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/615d0dd9-6752-423c-828e-f450ad7636db)
 
 - Thats how you export a postman collection:
 
@@ -153,3 +167,11 @@ if (pm?.request?.body?.options?.raw?.language === 'json') {
 [Click here](https://stackoverflow.com/a/39037889/10012446)
 
 ![image](https://user-images.githubusercontent.com/31458531/214363835-ed9f954b-fc09-4732-b225-ad9f29cc1a2a.png)
+
+In slasher:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4e056ab9-8046-486e-afb6-a6f77fb0663b)
+
+- We can fetch an image in postman as well:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e379c325-5144-4b1d-b63b-c09db2f7cc8f)

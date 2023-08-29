@@ -2,6 +2,7 @@
 
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
+- **Learn i3:** [Click here](learn-i3.md)
 
 **FYI: `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.**
 
@@ -10,6 +11,39 @@
 
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
+
+## Manjaro Settings, switching manjoaro kernel
+
+```bash
+# open manjaro settinsg
+manjaro-settings-manager
+
+# open kernel switcher directly
+manjaro-settings-manager -m msm_kernel
+```
+
+## Using mouse as trackpad and keyboard
+
+```bash
+yay -S remotemouse
+
+# on mobile you can use application named `remotemouse` from PlayStore as well
+```
+
+## Get list of apps - manjaro linux
+
+Get a list of your apps:
+
+```bash
+ls -la /usr/share/applications
+```
+To save changes press Ctrl+O and ENTER.
+
+```bash
+sudoCode /usr/share/applications/<app-name>.desktop
+```
+
+Edit the `.desktop` file for your app(s) to read `Terminal=true`.
 
 ## Setting google-chrome as default application with `xdg-open`?
 
@@ -23,15 +57,6 @@ UPDATE: 15 May, 2023
 # android studio path to environment variable (I don't remember if it were any useful or not ~Sahil)
 export CAPACITOR_ANDROID_STUDIO_PATH=/usr/bin/android-studio
 ```
-
-## My Current Setup of manjaro-i3 (♥ _please_keep_this_post _top)
-
-- i3-manjaro comes with utility browser: `palemoon`
-- `dmenu` not working: [Click here](https://unix.stackexchange.com/a/573770/504112)
-- You can fix private-key ssh file permission access denied issue when you try to clone: `cd ~/.ssh/myKeys; chmod 0400 *`
-- Dell Laptop: 3 may, 2023 (manjaro-i3), Follow manual partitioning guide here on youtube: [Click here](https://www.youtube.com/watch?v=4KSf_ZfvMlM)
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/db01f600-ce91-46da-9f82-cdb08d15d7e2)
 
 ## Setup softwares quickly (♥ _please_keep_this_post _top)
 
@@ -97,33 +122,11 @@ cloc --exclude-dir=node_modules .
 ![image](https://user-images.githubusercontent.com/31458531/234204069-15a8318f-5730-400b-9a90-c602aa27ceb4.png)
 
 
-## Fixing flameshow in new manajaro-i3 install
-
-You need to disable below lines as shown i.e, by adding a prefix of # for each of these lines:
-
-```
-# bindsym Print exec --no-startup-id i3-scrot
-# bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
-# bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
-```
-
-and you need to add this line for flameshot:
-
-```
-bindsym Print exec /usr/bin/flameshot gui
-```
-
 ## New version of linux released on 20 April, 2023
 
 Source: [Click here](https://www.kernel.org/)
 
 ![image](https://user-images.githubusercontent.com/31458531/233806792-b487f274-66c3-49f6-8dee-2d30d7610300.png)
-
-## ♥💕❤ New learning from monajaro-i3 installation (default setup)
-
-1. `mod+m` makes the taskbar autohide and to see taskbar show automatically you need to press `mod` anytime you want).
-2. `mod+b` toggle b/w last workspace.
-3. `mod+ <anyWorkspaceNumber>` switched to target workspace but when pressed again act as switching b/w current and last workspace.
 
 ## Fixing the `No disk drives found` issue in my new dell laptop (error shown in manjaro installer)
 
@@ -1503,7 +1506,7 @@ makepkg -i
 
 ```bash
 # I set my video player to `mpv` by removing the handbrake from the order of applications preference, and thats it!
-sudo vim /usr/share/applications/mimeinfo.cache
+sudoCode /usr/share/applications/mimeinfo.cache
 # So I have a line like that for `video/mp4` and `video/x-matroska` mimetype respective for .mp4 and .mkv files:
 # video/mp4=mpv.desktop;vlc.desktop;
 # video/x-matroska=mpv.desktop;vlc.desktop;
@@ -1594,7 +1597,7 @@ http://localhost/ or http://127.0.0.1
 ```bash
 #Important files and config file paths:
 vi /usr/share/nginx/html/index.html
-sudo nvim /etc/nginx/nginx.conf
+sudoCode /etc/nginx/nginx.conf
 ```
 
 ## Installed `ab` i.e., `Apache HTTP server benchmarking tool`
@@ -1757,16 +1760,6 @@ sudo pacman -S mupdf #mupdf doesn't allow continuous page scrolling so llpp is a
 
 #Usage:
 llpp/mupdf myfile.pdf
-```
-
-## Installed xorg-xprop in archlinux
-
-```bash
-sudo pacman -S xorg-xprop
-
-#Now you can use:
-xprop
-# Now use cross-hair cursor to click any window and get all the details of that window!! Its good for doing stuff (like making certain windows always float in i3 tiling manager or other similar stuff).
 ```
 
 ## Installed auto-jump in archlinux
@@ -2400,7 +2393,7 @@ source --help
 ## Define variables in arch-os
 
 ```
-sudo vim /etc/environment
+sudoCode /etc/environment
 # Now add some value pairs, i.e., v1=value1 one in each line and you would be able to test them i.e., `echo $v1` once after logout/login event.
 # Tip if you want to access the variables in current bash in hurry.., simply do like `. /etc/environment` to test your `/etc/environment` file in current bash shell only.
 ```
@@ -2576,7 +2569,7 @@ Source: [Using config files of x11 @ ArchWiki](https://wiki.archlinux.org/title/
 **tldr;**
 
 ```bash
-sudo nvim /etc/X11/xorg.conf.d/00-keyboard.conf
+sudoCode /etc/X11/xorg.conf.d/00-keyboard.conf
 ```
 
 and add below code in the tripple backticks:
