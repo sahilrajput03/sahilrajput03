@@ -22,14 +22,8 @@
   - Billing Cycles: [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/billing-cycles/)
   - Starting a subscription in a future date (and charge when billing cycle actually starts): [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/future-date/)
   - Upgrade or downgrade a subscription (Change subscription plan for a subscription): [Click here](https://developer.paypal.com/docs/subscriptions/customize/revise-subscriptions/)
-- Card Testing: [Click here](https://developer.paypal.com/tools/sandbox/card-testing/)
-
-Card Used in Postman for testing:
-- `"card": {"number": "4012888888881881", "expiry": "2028-03"`
-- For testing with webui:
-
-  *Sample Card:*
-
+- Card Testing: [Click here](https://developer.paypal.com/tools/sandbox/card-testing/), Card Used in Postman for testing: `"card": {"number": "4012888888881881", "expiry": "2028-03"`
+- For testing with webui:  *Sample Card:*
   ```txt
   Card: 4012888888881881
   Expiry 03/28
@@ -38,6 +32,31 @@ Card Used in Postman for testing:
   City: Sacramento
   State: California
   ```
+- How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)
+
+## PayPal personal (buyer) vs. business account (seller)
+
+Login @ https://www.sandbox.paypal.com/signin
+
+- Seller/Business (note the @business) - `sb-xxxxxxxxxxxxx@business.example.com`
+- Personal/Buyer (note the @personal) - `sb-xxxxxxxxxxxxx@personal.example.com`
+
+## return url with PayPal
+
+- Website payment preferences Page in PayPal Dashboard: [Click here](https://www.sandbox.paypal.com/businessmanage/preferences/website)
+- 
+
+**Note - You should:**
+1. Go to `Account Settings` > `Website payments` > `Website Preferences` and enable both `Auto return` and `Payment data transfer`. For return url you may give `https://slasher.tv/app/paypal/return-url` but it isn't useful as you **must** definte the return url in each `create-subscription` (POST /v1//billing/subscriptions) API call.
+2. Read first point again. Thanks. 
+
+```txt
+return url = https://example.com/return
+https://example.com/return?subscription_id=I-VDA50T7LKCFY&ba_token=BA-1Y6871089W3522241&token=1MM66374W7146800L
+
+return url = https://example.com/page/subpage
+https://example.com/page/subpage?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654212191G&token=8Y12132035380693N
+```
 
 ## Payment Data Transfer
 
