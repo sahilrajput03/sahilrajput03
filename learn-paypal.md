@@ -41,6 +41,10 @@ Card Used in Postman for testing:
 
 ![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
 
+## I added slasher related clientId and clientSecret values here
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/020b1850-9bc8-40e6-b284-bd94b27e5d2a)
+
 ## ClientId and ClientSecret by Postman's Public API Collection
 
 Date: 29 August, 2023
