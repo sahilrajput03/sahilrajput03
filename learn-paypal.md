@@ -39,6 +39,10 @@ Card Used in Postman for testing:
   State: California
   ```
 
+## `onApprove` on paypal-react compponent function is only called when txn is approved (i.e., successful)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d0599c26-0415-44f9-8389-ca4e9179dd6c)
+
 ## You can browser `subscriptions` and `plans` in Selller Account (sandbox) like that
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a9604787-3ba1-418f-8d5f-e2ceb3bfbef7)
