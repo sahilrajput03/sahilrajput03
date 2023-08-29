@@ -41,6 +41,16 @@ Card Used in Postman for testing:
 
 ![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
 
+## ClientId and ClientSecret by Postman's Public API Collection
+
+```txt
+Clientid:
+AUv8rrc_P-EbP2E0mpb49BV7rFt3Usr-vdUZO8VGOnjRehGHBXkSzchr37SYF2GNdQFYSp72jh5QUhzG
+
+ClientSecret:
+EMnAWe06ioGtouJs7gLYT9chK9-2jJ--7MKRXpI8FesmY_2Kp-d_7aCqff7M9moEJBvuXoBO4clKtY0v
+```
+
 ## Customize the PayPal Buttons
 
 [Click here](https://developer.paypal.com/docs/regional/th/checkout/integration-features/customize-button)
