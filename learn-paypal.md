@@ -41,6 +41,17 @@ Card Used in Postman for testing:
 
 ![image](https://user-images.githubusercontent.com/31458531/205932125-4e91ac6d-9e77-4c62-b97d-a6d3e96edb5c.png)
 
+## You can browser `subscriptions` and `plans` in Selller Account (sandbox) like that
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a9604787-3ba1-418f-8d5f-e2ceb3bfbef7)
+
+Now, you can use that button to toggle b/w group by product or group by plan view
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/94188d61-12b2-4147-90ae-1755416b1fca)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8969cf66-debc-4c8c-8e4d-7bfb870ee809)
+
+
 ## I added slasher related clientId and clientSecret values here
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/020b1850-9bc8-40e6-b284-bd94b27e5d2a)
