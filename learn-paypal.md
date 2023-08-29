@@ -32,7 +32,7 @@
   City: Sacramento
   State: California
   ```
-- How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)
+- **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
 
 ## PayPal personal (buyer) vs. business account (seller)
 
@@ -43,8 +43,7 @@ Login @ https://www.sandbox.paypal.com/signin
 
 ## return url with PayPal
 
-- Website payment preferences Page in PayPal Dashboard: [Click here](https://www.sandbox.paypal.com/businessmanage/preferences/website)
-- 
+- **Website payment preferences Page in PayPal Dashboard: [Click here](https://www.sandbox.paypal.com/businessmanage/preferences/website)**
 
 **Note - You should:**
 1. Go to `Account Settings` > `Website payments` > `Website Preferences` and enable both `Auto return` and `Payment data transfer`. For return url you may give `https://slasher.tv/app/paypal/return-url` but it isn't useful as you **must** definte the return url in each `create-subscription` (POST /v1//billing/subscriptions) API call.
