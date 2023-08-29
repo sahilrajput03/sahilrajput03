@@ -50,11 +50,16 @@ Login @ https://www.sandbox.paypal.com/signin
 2. You may also definte `cancel_url` as well as that would be helpful to know when the payment is failed.
 
 ```txt
-return url = https://example.com/return
+- return url = https://example.com/return
 https://example.com/return?subscription_id=I-VDA50T7LKCFY&ba_token=BA-1Y6871089W3522241&token=1MM66374W7146800L
+- cancel_url =https://example.com/cancel
+https://example.com/cancel?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654212191G&token=4CJ88294AB124721F
 
-return url = https://example.com/page/subpage
+- return url = https://example.com/page/subpage
 https://example.com/page/subpage?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654212191G&token=8Y12132035380693N
+- "cancel_url": "https://example.com/page/subpage"
+??
+https://example.com/page/subpage?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654212191G&token=4CJ88294AB124721F
 ```
 
 ## Payment Data Transfer
