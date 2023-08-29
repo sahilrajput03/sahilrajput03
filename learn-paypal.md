@@ -16,7 +16,7 @@
 - My Apps and Credential: [Click here](https://developer.paypal.com/dashboard/applications/sandbox)
 - Subscriptions: [Click here](https://developer.paypal.com/docs/subscriptions/)
   - Start a subscription for a future date: [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/future-date/)
-  - Integrate Subscritpions: [Click here](https://developer.paypal.com/docs/subscriptions/integrate/)
+  - **Integrate Subscritpions: [Click here](https://developer.paypal.com/docs/subscriptions/integrate/)**
   - Customize Subscriptions to fit into your product UI: [Click here](Customize Subscriptions to fit into your product UI)
   - Manage Subscriptions on your account dashboard: [Click here](https://www.paypal.com/merchantapps/appcenter/acceptpayments/subscriptions)
   - Billing Cycles: [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/billing-cycles/)
