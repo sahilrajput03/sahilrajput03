@@ -58,7 +58,6 @@ https://example.com/cancel?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654
 - return url = https://example.com/page/subpage
 https://example.com/page/subpage?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654212191G&token=8Y12132035380693N
 - "cancel_url": "https://example.com/page/subpage"
-??
 https://example.com/page/subpage?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654212191G&token=4CJ88294AB124721F
 ```
 
