@@ -56,6 +56,15 @@ Card Used in Postman for testing:
 
 **Account Settings > Account access > API access > Update > Manage REST API apps credentials**
 
+Image: 1/2
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5c782e29-95df-42d4-880d-ee6af86762ef)
+
+Image: 2/2
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/56340b5c-199a-484f-b143-4d560a83045a)
+
+
 ## Enable Fetch Transaction permission
 
 To be able to fetch transaction from my seller account I had to change this setting using my `PayPal sandbox developer account`**
