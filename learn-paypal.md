@@ -39,6 +39,10 @@ Card Used in Postman for testing:
   State: California
   ```
 
+## We get nextBillingTime on showSubscription api
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/952664ea-59be-4331-8152-63061b102ccd)
+
 ## `onApprove` on paypal-react compponent function is only called when txn is approved (i.e., successful)
 
 So, we have either of two options:
