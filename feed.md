@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Web3 Job Market Trends Report Through the Crypto Bear Market
+
+[Click here](https://hackernoon.com/web3-job-market-trends-report-through-the-crypto-bear-market)
+
 ## I can use my mobile github app to login now that I have setup GITHUB 2FA
 
 ~Also, I can use my `Authenticator` (google app) to login into github as well.~ It didn't work may be its useful to reset my password? (need to verify).
