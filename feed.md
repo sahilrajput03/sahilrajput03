@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## I can use my mobile github app to login now that I have setup GITHUB 2FA
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6701f8c3-c2dc-4e1d-9be6-a61527dc23d8)
+
 ## Check RAM slots used in your laptop
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7863ecc5-eea3-473a-8ce5-19e36217f069)
