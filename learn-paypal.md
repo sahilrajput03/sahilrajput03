@@ -16,20 +16,14 @@
 - My Apps and Credential: [Click here](https://developer.paypal.com/dashboard/applications/sandbox)
 - Subscriptions: [Click here](https://developer.paypal.com/docs/subscriptions/)
   - Start a subscription for a future date: [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/future-date/)
-  - Integrate Subscritpions: [Click here](https://developer.paypal.com/docs/subscriptions/integrate/)
+  - **Integrate Subscritpions: [Click here](https://developer.paypal.com/docs/subscriptions/integrate/)**
   - Customize Subscriptions to fit into your product UI: [Click here](Customize Subscriptions to fit into your product UI)
   - Manage Subscriptions on your account dashboard: [Click here](https://www.paypal.com/merchantapps/appcenter/acceptpayments/subscriptions)
   - Billing Cycles: [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/billing-cycles/)
   - Starting a subscription in a future date (and charge when billing cycle actually starts): [Click here](https://developer.paypal.com/docs/multiparty/subscriptions/customize/future-date/)
   - Upgrade or downgrade a subscription (Change subscription plan for a subscription): [Click here](https://developer.paypal.com/docs/subscriptions/customize/revise-subscriptions/)
-- Card Testing: [Click here](https://developer.paypal.com/tools/sandbox/card-testing/)
-
-Card Used in Postman for testing:
-- `"card": {"number": "4012888888881881", "expiry": "2028-03"`
-- For testing with webui:
-
-  *Sample Card:*
-
+- Card Testing: [Click here](https://developer.paypal.com/tools/sandbox/card-testing/), Card Used in Postman for testing: `"card": {"number": "4012888888881881", "expiry": "2028-03"`
+- For testing with webui:  *Sample Card:*
   ```txt
   Card: 4012888888881881
   Expiry 03/28
@@ -38,6 +32,94 @@ Card Used in Postman for testing:
   City: Sacramento
   State: California
   ```
+- **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
+
+## PayPal integration with 1. APIs OR PayPal SDK
+
+We can choose from two options for the PayPal integration i.e, 
+
+1. using a SDK from PayPal i.e, 
+
+- Npm (94k weekly downloads) - https://www.npmjs.com/package/@paypal/react-paypal-js
+- Github - https://github.com/paypal/react-paypal-js
+
+**OR**
+
+2. Using HTTP API via our backend.
+This basically works because PayPal provides a way to redirect the user to a specific "return-url" for e.g., slasher.tv along with subscriptionId, and thus we can make use of that page to help show the user the status of his payment.
+How does this work?
+1. User initiates a subscription which is also known as subscription-activation, there are two types:
+- a.) using PaPpal login
+- b.) using Card Details
+
+Users do this by hitting our slasher api, for e.g, /api/v1/podcast/activate-subscription and behind the scenes we'll call activate-subscription api on paypal server.
+
+2. We get an "approve-url" as result of the "activate-subscription" request and then we return that url to the user.
+
+3. Utilising "approve-url" -
+- a.) User navigates to that url and finishes the payment by his PayPal login credentials.
+- b) If the user wants to make payment via card user can send card-details as payload for the API call we did in the 1st step, thus the payment will be done right away! (wow!).
+
+4. (Note: This step is only for PayPal login payment type only): When user visit the "approve-url", he/she will be prompted to do the txn and will be redirected to a url like below -
+
+`https://example.com/app/podcasts/SUBSCRIPTION-RETURN-URL/return?subscription_id=I-VDA50T7LKCFY&ba_token=BA-1Y6871089W3522241&token=1MM66374W7146800L`
+
+Thus we can collect subscription_id and check for that subscription status after every 5 seconds while the user is still on this page (it is generally successful instantly though). And we can let the user know the txn is successful by calling a simple txn status or subscription status API on our backend. That's all.
+
+Let me know what your and Damon's preferences are, if possible please try communicating with Damon as these are minute details and don't make much difference after the process is complete.
+
+What are actual differences though in my view in the above two ways?
+1. (API > SDK) I think with controlled API requests, we would have more control.
+2.  (SDK > API) The npm library seems to be from official PayPal so it can be trusted too.
+3. (SDK > API) If we go with API requests then we would need to manage card details handling in frontend and which may be a one time thing but it would be reusable for future dating subscriptions too. (high effort task)
+4. (API > SDK) We would have more control on our frontend UI if we follow the API requests way.
+
+- More or less, I am equally biased on each way of implementation. Thanks.
+
+- Also, I tested both ways thoroughly it works fine either way.
+
+## PayPal personal (buyer) vs. business account (seller)
+
+Login @ https://www.sandbox.paypal.com/signin
+
+- Seller/Business (note the @business) - `sb-xxxxxxxxxxxxx@business.example.com`
+- Personal/Buyer (note the @personal) - `sb-xxxxxxxxxxxxx@personal.example.com`
+
+## return url with PayPal
+
+- **Website payment preferences Page in PayPal Dashboard: [Click here](https://www.sandbox.paypal.com/businessmanage/preferences/website)**
+
+**Note - You should:**
+1. Go to `Account Settings` > `Website payments` > `Website Preferences` and enable both `Auto return` and `Payment data transfer`. For return url you may give `https://slasher.tv/app/paypal/return-url` but it isn't useful as you **must** definte the return url in each `create-subscription` (POST /v1//billing/subscriptions) API call.
+2. You may also definte `cancel_url` as well as that would be helpful to know when the payment is failed.
+
+```txt
+- return url = https://example.com/return
+https://example.com/return?subscription_id=I-VDA50T7LKCFY&ba_token=BA-1Y6871089W3522241&token=1MM66374W7146800L
+- cancel_url =https://example.com/cancel
+https://example.com/cancel?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654212191G&token=4CJ88294AB124721F
+
+- return url = https://example.com/page/subpage
+https://example.com/page/subpage?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654212191G&token=8Y12132035380693N
+- "cancel_url": "https://example.com/page/subpage"
+https://example.com/page/subpage?subscription_id=I-7M0U6C9DWEL3&ba_token=BA-0WY1453654212191G&token=4CJ88294AB124721F
+```
+
+## Payment Data Transfer
+
+Docs - Payment Data Transfer: [Click here](https://developer.paypal.com/api/nvp-soap/payment-data-transfer/)
+
+## We get nextBillingTime on showSubscription api
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/952664ea-59be-4331-8152-63061b102ccd)
+
+## `onApprove` on paypal-react compponent function is only called when txn is approved (i.e., successful)
+
+So, we have either of two options:
+1. use `Transaction Search > List Transaction` in postman PayPal api collection.
+2. use `Subscriptions > Show subscriptions details` in postman PayPal api collection.
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d0599c26-0415-44f9-8389-ca4e9179dd6c)
 
 ## You can browser `subscriptions` and `plans` in Selller Account (sandbox) like that
 
