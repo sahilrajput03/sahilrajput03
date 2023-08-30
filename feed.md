@@ -4,6 +4,8 @@
 
 ## I can use my mobile github app to login now that I have setup GITHUB 2FA
 
+**Also, I can use my `Authenticator` (google app) to login into github as well.
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6701f8c3-c2dc-4e1d-9be6-a61527dc23d8)
 
 ## Check RAM slots used in your laptop
