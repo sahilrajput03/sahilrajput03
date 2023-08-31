@@ -34,6 +34,13 @@
   ```
 - **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
 
+## Does paypal changes the subscriptionId when a subsciption is renewed?
+
+No. It keeps the `subscriptionId` same always (chatGPT).
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6dd6d685-eef4-42fb-8821-89ae18331453)
+
+
 ## PayPal integration with 1. APIs OR PayPal SDK
 
 We can choose from two options for the PayPal integration i.e, 
