@@ -11,6 +11,53 @@ Source: https://regexone.com/
 **Quick Links:**
 - **Regex debugger**: https://regex101.com/
 
+## Amazing re-Eric, using capture groups
+
+```
+#1 - convert string values to type `string` for typescript
+(: )(".+")
+$1string
+
+#2 - remove double quotes
+"(.+)"
+$1
+
+#3 - remove single quotes
+'(.+)'
+$1
+
+### Using #1 first and then #2, we can convert below data -
+{
+    "status": "ACTIVE",
+    "status_update_time": "2023-08-12T10:43:34Z",
+    "id": "I-M9J8SF67923L",
+    "plan_id": "P-0V745994RS513242CMOL2X3A",
+    "start_time": "2022-12-12T23:06:43Z",
+    "quantity": "1",
+    "shipping_amount": {
+        "currency_code": "USD",
+        "value": "0.0"
+    }
+}
+
+to below typescript type
+
+{
+  status: string,
+  status_update_time: string,
+  id: string,
+  plan_id: string,
+  start_time: string,
+  quantity: string,
+  shipping_amount: {
+      currency_code: string,
+      value: string
+  }
+}
+
+## AMAZING ###
+```
+
 ## Eric's way of updating imports via regex is awesome
 
 ```
