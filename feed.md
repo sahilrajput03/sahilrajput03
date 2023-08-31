@@ -2,15 +2,25 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## eCPM?
+
+It is a key ad performance metric used by publishers to monitor the revenue generated from the ads on their site.
+
+<div align="right">Date: 31 Aug, 2023</div>
+
 ## Web3 Job Market Trends Report Through the Crypto Bear Market
 
 [Click here](https://hackernoon.com/web3-job-market-trends-report-through-the-crypto-bear-market)
+
+<div align="right">Date: 30 Aug, 2023</div>
 
 ## I can use my mobile github app to login now that I have setup GITHUB 2FA
 
 ~Also, I can use my `Authenticator` (google app) to login into github as well.~ It didn't work may be its useful to reset my password? (need to verify).
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6701f8c3-c2dc-4e1d-9be6-a61527dc23d8)
+
+<div align="right">Date: 29 Aug, 2023</div>
 
 ## Check RAM slots used in your laptop
 
