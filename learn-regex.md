@@ -26,6 +26,7 @@ $1
 '(.+)'
 $1
 
+--- PRACTICALS ---
 ### Using #1 first and then #2, we can convert below data -
 {
     "status": "ACTIVE",
