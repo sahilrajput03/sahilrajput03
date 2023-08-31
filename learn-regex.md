@@ -22,7 +22,11 @@ $1string
 "(.+)"
 $1
 
-#3 - remove single quotes
+#3 - convert number to `number` type for typescript
+(: )\d+
+$1number
+
+#4 - remove single quotes
 '(.+)'
 $1
 
@@ -34,7 +38,8 @@ $1
     "id": "I-M9J8SF67923L",
     "plan_id": "P-0V745994RS513242CMOL2X3A",
     "start_time": "2022-12-12T23:06:43Z",
-    "quantity": "1",
+    "quantity-good": 1,
+    "quantity-nice": 234,
     "shipping_amount": {
         "currency_code": "USD",
         "value": "0.0"
@@ -49,7 +54,8 @@ to below typescript type
   id: string,
   plan_id: string,
   start_time: string,
-  quantity: string,
+  quantity-good: number,
+  quantity-nice: number,
   shipping_amount: {
       currency_code: string,
       value: string
