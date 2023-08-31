@@ -3,6 +3,7 @@
 ***PayPal Docs are just awesome to read. ~Sahil***
 
 **Quick Links:**
+- **My Notes - Learn Paypal Subscription And Database Schema: [Click here](./learn-paypal-subscription-and-database-schema.md)**
 - PayPal Developer Apps and Credentials: [Click here](https://developer.paypal.com/dashboard/applications/sandbox)
   - Sandbox Test Account: [Click here](https://developer.paypal.com/dashboard/accounts)
 - Official Live Demo's of Paypal Buttons: [Click here](https://developer.paypal.com/demo/checkout/#/pattern/client)
@@ -33,6 +34,10 @@
   State: California
   ```
 - **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
+
+# Learn Paypal Subscription And Database Schema
+
+[Click here](./learn-paypal-subscription-and-database-schema.md)
 
 ## Does paypal changes the subscriptionId when a subsciption is renewed?
 
