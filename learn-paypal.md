@@ -35,7 +35,14 @@
   ```
 - **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
 
-# Learn Paypal Subscription And Database Schema
+## Monthly edge case subscription charge and end date guidance from `Eric` (Thanks Eric)
+
+Link that may be helpful if you haven't seen it (about a monthly renewal timing edge case):
+
+- https://developer.paypal.com/api/nvp-soap/paypal-payments-standard/integration-guide/subscription-billing-cycles/#link-monthlybillingcycles
+- "Recurring payments are collected on the same day of the month. If the initial recurring payment falls on the 31st, PayPal eventually adjusts the billing cycle to the last of the month. If the initial recurring payment falls on the 29th or 30th, PayPal adjusts the billing cycle to the first of the month on the following February."
+
+## Learn Paypal Subscription And Database Schema
 
 [Click here](./learn-paypal-subscription-and-database-schema.md)
 
