@@ -213,3 +213,4 @@ cat /dev/null
 - Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](./generate-ssh-key-pairs.md)
 - Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk)
 - Why you should not text your girlfriend?: [Click here](./why-you-should-not-text-your-girlfriend-much.md)
+- Learn Anydesk: [Click here](learn-anydesk.md)
