@@ -2,6 +2,13 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## cashfree.com - Payments infrastructure for India
+
+- Website: https://www.cashfree.com/
+- Used by Samaksh in his job
+
+<div align="right">Date: 2 Sep, 2023</div>
+
 ## eCPM?
 
 It is a key ad performance metric used by publishers to monitor the revenue generated from the ads on their site.
