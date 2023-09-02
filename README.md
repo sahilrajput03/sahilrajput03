@@ -191,7 +191,7 @@ cat /dev/null
 - Learn `Colors` (node library): [Click here](./learn-colors-npm.md)
 - Learn Spirituality: [Click here](./learn-spirituality.md)
 - Learn Skype: [Click here](./learn-skype.md)
-- Learn SEO: [Click here](./learn-seo.md)
+- Learn SEO, react-helmet: [Click here](./learn-seo.md)
 - Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](./learn-leaflet.md)
 - Learn classvalidator: [Click here](./learn-classvalidator.md)
 - Learn Luxon: [Click here](./learn-luxon.md)
