@@ -35,6 +35,14 @@
   ```
 - **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
 
+## Important note about transactions in PayPal
+
+Transactions for a subscription won't exist unless the payment has been made, thus if you are fetching transactions for a subscription and it gives you resource doesn't exist erro then that means there the transaction is **not successful**.
+
+Also, when transaction is successful you can see the transaction in **Seller Account** like that:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f796e1f0-c95a-46e9-9a38-d4b0db6f5b82)
+
 ## To get all the transactions of a subscription
 
 We can set start_date and end_date like that -
