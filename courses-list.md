@@ -82,6 +82,9 @@
 **CSS**
 - [Kevin Powell](https://www.youtube.com/kepowob)
 
+**Flutter**
+- [Codepur](https://www.youtube.com/channel/UCFTM1FGjZSkoSPDZgtbp7hA) \| Flutter Expert
+
 **Linux**
   - [NetworkChuck ](https://www.youtube.com/c/NetworkChuck)
   - [PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
