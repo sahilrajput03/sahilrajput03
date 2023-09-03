@@ -100,10 +100,6 @@
 
 - https://tkdodo.eu/blog/
 
-# Podcasts
-
-- Undefined.fm by ~Jared Palmer and Ken Wheeler: [Click here](https://undefined.fm/)
-
 # Books
 
 - BOOKS PORTAL - Programming Notes for Professionals books: [Click here](https://goalkicker.com/)
