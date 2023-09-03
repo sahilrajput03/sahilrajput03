@@ -2,7 +2,7 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-## Generative AI is released in India
+## Google's Generative AI is released in India
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d2b120c5-8356-4ad2-9729-88de01d1cf74)
 
