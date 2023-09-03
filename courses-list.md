@@ -25,6 +25,7 @@
 
 **General**
 
+- Learn X in Y minutes: [Click here](https://learnxinyminutes.com/)
 - Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
 - Git: [Learn Git Branching](https://learngitbranching.js.org/)
 - Git: [ShortcutFoo](https://www.shortcutfoo.com/app/dojos/git)
