@@ -34,7 +34,7 @@ cat /dev/null
 		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
   - Podcasts:
 	- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
-	- Undefined.fm by ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
+	- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
 
 ## References:
 
