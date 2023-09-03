@@ -37,9 +37,9 @@
 
 ## Important note about transactions in PayPal
 
-Transactions for a subscription won't exist unless the payment has been made, thus if you are fetching transactions for a subscription and it gives you resource doesn't exist erro then that means there the transaction is **not successful**.
-
-Also, when transaction is successful you can see the transaction in **Seller Account** like that:
+- Transactions for a subscription won't exist unless the payment has been made, thus if you are fetching transactions for a subscription and it gives you resource doesn't exist erro then that means there the transaction is **not successful**.
+- Also, this stackoverflow answer says txn is created in around 5-10 minutes but in my experience the txn is created on paypal (+ accessible) as soon as the payment is completed.
+- Also, when transaction is successful you can see the transaction in **Seller Account** like that:
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f796e1f0-c95a-46e9-9a38-d4b0db6f5b82)
 
