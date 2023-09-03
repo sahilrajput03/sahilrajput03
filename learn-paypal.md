@@ -35,6 +35,47 @@
   ```
 - **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
 
+## Generate `access_token` with axios
+
+```js
+// src: https://gist.github.com/romaad/cc588abf691ba1e29c4a853983de8eb1
+const axios = require('axios');
+const qs = require('qs');
+
+const paypalApi = 'https://api-m.sandbox.paypal.com';
+
+// PLEASE FILL THESE BEFORE RUNNING THE CODE ####
+const clientId = '';
+const clientSecret = '';
+
+// We need this line to format the body in the expected way
+// for 'application/x-www-form-urlencoded'
+const payload = qs.stringify({ grant_type: 'client_credentials' });
+const headers = {
+  Accept: 'application/json',
+  'Accept-Language': 'en_US',
+  'content-type': 'application/x-www-form-urlencoded',
+};
+const auth = {
+  username: clientId,
+  password: clientSecret,
+};
+const config = {
+  headers, auth,
+};
+const main = async () => {
+  try {
+    const { data } = await axios.post(`${paypalApi}/v1/oauth2/token`, payload, config);
+    console.log('data?', data);
+  } catch (error) {
+    console.log('error?', error.name);
+    console.log('error?', error.message);
+  }
+};
+
+main();
+```
+
 ## Important note about transactions in PayPal
 
 - Transactions for a subscription won't exist unless the payment has been made, thus if you are fetching transactions for a subscription and it gives you resource doesn't exist erro then that means there the transaction is **not successful**.
