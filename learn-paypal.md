@@ -35,6 +35,12 @@
   ```
 - **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
 
+## To get all the transactions of a subscription
+
+We can set start_date and end_date like that -
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e0cb17d7-2e1f-4258-b835-6e83da3f142b)
+
 ## Monthly edge case subscription charge and end date guidance from `Eric` (Thanks Eric)
 
 Link that may be helpful if you haven't seen it (about a monthly renewal timing edge case):
