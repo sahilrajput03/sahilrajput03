@@ -30,6 +30,15 @@ $1number
 '(.+)'
 $1
 
+## MORE
+# 2.a (More accurate with : matching as well)
+'(.+)':
+$1:
+
+# 3.a (More accurate with : matching as well)
+"(.+)":
+$1:
+
 --- PRACTICALS ---
 ### Using #1 first and then #2, we can convert below data -
 {
