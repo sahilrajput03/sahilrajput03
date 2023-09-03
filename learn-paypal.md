@@ -35,6 +35,59 @@
   ```
 - **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
 
+## Get subscription details with axios using the access_token
+
+```js
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// src: https://gist.github.com/romaad/cc588abf691ba1e29c4a853983de8eb1
+const axios = require('axios');
+const qs = require('qs');
+
+const paypalApi = 'https://api-m.sandbox.paypal.com';
+
+// PLEASE FILL THESE BEFORE RUNNING THE CODE ####
+const clientId = '';
+const clientSecret = '';
+
+// We need this line to format the body in the expected way
+// for 'application/x-www-form-urlencoded'
+const payload = qs.stringify({
+  grant_type: 'client_credentials',
+  // Note: With `ignoreCache=true` a new token is issued ignoring the previously issued and still not expired token.
+  ignoreCache: true, // (default=false)
+});
+const headers = {
+  Accept: 'application/json',
+  'Accept-Language': 'en_US',
+  'content-type': 'application/x-www-form-urlencoded',
+};
+const auth = {
+  username: clientId,
+  password: clientSecret,
+};
+const config = {
+  headers, auth,
+};
+const main = async () => {
+  try {
+    const paypalSubscriptionId = 'I-B9YPX4SD1FX3';
+    const res1 = await axios.post(`${paypalApi}/v1/oauth2/token`, payload, config);
+
+    const { data } = await axios.get(`${paypalApi}/v1/billing/subscriptions/${paypalSubscriptionId}`, {
+      headers: {
+        Authorization: `Bearer ${res1.data.access_token}`,
+      },
+    });
+    console.log('data?', data);
+  } catch (error) {
+    console.log('error?', error.name);
+    console.log('error?', error.message);
+  }
+};
+
+main();
+```
+
 ## Generate `access_token` with axios
 
 ```js
@@ -50,7 +103,11 @@ const clientSecret = '';
 
 // We need this line to format the body in the expected way
 // for 'application/x-www-form-urlencoded'
-const payload = qs.stringify({ grant_type: 'client_credentials' });
+const payload = qs.stringify({
+  grant_type: 'client_credentials',
+  // Note: With `ignoreCache=true` a new token is issued ignoring the previously issued and still not expired token.
+  ignoreCache: true, // (default=false)
+});
 const headers = {
   Accept: 'application/json',
   'Accept-Language': 'en_US',
