@@ -4,6 +4,11 @@
 - My Conversations with ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
+**Docs Links:**
+- Whisper (Audio model by OpenAI, Speech to text): [Click here](https://platform.openai.com/docs/guides/speech-to-text)
+  -  Pricing: $0.006 / minute (rounded to the nearest second)
+
+
 ## Pricing
 
 Source Pricing: [Click here](https://openai.com/pricing#language-models)
