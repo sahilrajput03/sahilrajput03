@@ -1,3 +1,7 @@
+# TODO: do this
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8bb48247-e5fd-40e8-8b37-4412de44514f)
+
 <h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 ```bash
