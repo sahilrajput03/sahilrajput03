@@ -2,7 +2,11 @@
 
 **Learn NestJS:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-nestjs.md)
 
-- How do we perform data-type conversions in params and query dto's?
+## Performing mongodb id check on endpoints
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/23b069d3-afac-45af-832f-2bafe0d6c50b)
+
+## How do we perform data-type conversions in params and query dto's?
 
 We can use `Type` decorator i.e, `@Type` from [`class-transformer`](https://github.com/typestack/class-transformer#working-with-nested-objects).
 
@@ -13,7 +17,7 @@ From official docs:
 ![image](https://user-images.githubusercontent.com/31458531/223854014-42ba73dd-427d-496a-b311-c3acbdf8d4d9.png)
 
 
-- Validating Arrays: [Click here](https://github.com/typestack/class-validator#validating-arrays) - If your field is an array and you want to perform validation of each item in the array you must specify a special each: true decorator option:
+## Validating Arrays: [Click here](https://github.com/typestack/class-validator#validating-arrays) - If your field is an array and you want to perform validation of each item in the array you must specify a special each: true decorator option:
 
 ```js
 import { MinLength, MaxLength } from 'class-validator';
