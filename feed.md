@@ -2,6 +2,13 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Gaming Industry revenue is 6 times more than Movie Industry
+
+Source: [Click here](https://gameserrors.com/gaming-vs-movie-industry-revenue)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/edcec637-f7be-46aa-83cc-007153ad3cd4)
+
+
 ## What is OAuth 2? (Postman APIs follows this)
 
 - https://oauth.net/2/
