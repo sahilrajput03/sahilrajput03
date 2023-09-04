@@ -5,7 +5,7 @@
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
 **Docs Links:**
-- ChatGPT Release Notes of all versions: [Click here](https://help.openai.com/en/articles/6825453-chatgpt-release-notes#h_b1c7f24762)
+- ChatGPT Release Notes of all versions: [Click here](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
 - **Awesome** official set of articles on variety of topics, ranging from Billing to Usage of OpenAI APIs: [Click here](https://help.openai.com/en/)
 - Whisper (Audio model by OpenAI, Speech to text): [Click here](https://platform.openai.com/docs/guides/speech-to-text)
   -  Pricing: $0.006 / minute (rounded to the nearest second)
