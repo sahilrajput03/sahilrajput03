@@ -3,6 +3,10 @@
 - My Conversations with ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 
 
+**Quick Links:**
+
+- Pricing: [Click here](https://openai.com/pricing#language-models)
+
 ## Tokenizer
 
 Source: Official Tokenizer Page from ChatGPT: [platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)
