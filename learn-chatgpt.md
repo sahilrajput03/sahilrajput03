@@ -1,11 +1,14 @@
 # Learn ChatGPT
 
+**Quick Links:**
 - My Conversations with ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
-**Quick Links:**
+## Pricing
 
-- Pricing: [Click here](https://openai.com/pricing#language-models)
+Source Pricing: [Click here](https://openai.com/pricing#language-models)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2afe3188-6b1e-4c1c-8e26-f9d6d5377c04)
 
 ## Tokenizer
 
