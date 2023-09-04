@@ -4,6 +4,11 @@
 - My Conversations with ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
+**Courses I found on Coursera:**
+- Prompt Engineering for ChatGPT ~ Vanderbilt University (USA) comparable to Cornell University): [Click here[(https://www.coursera.org/learn/prompt-engineering)
+- Generative AI with Large Language Models: [Click here](https://www.coursera.org/learn/generative-ai-with-llms)
+- Build AI Apps with ChatGPT, Dall-E, and GPT-4: [Click here](https://www.coursera.org/learn/build-ai-apps-with-chatgpt-dalle-gpt4)
+
 **Docs Links:**
 - **OpenAI Platform:**
   - Overview: [Click here](https://platform.openai.com/)
