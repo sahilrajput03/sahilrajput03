@@ -2,6 +2,15 @@
 
 *You may practise markdown with live updates @ https://marked.js.org/demo/.*
 
+```diff
+- this is red
+```
+
+```diff
++ this is green
+```
+
+
 ***Favourite markdown docs: https://daringfireball.net/projects/markdown/***
 
 - HTML in markdown
