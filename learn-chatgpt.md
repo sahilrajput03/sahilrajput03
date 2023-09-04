@@ -5,9 +5,10 @@
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
 **Docs Links:**
-- **OpenAI Platform:** [Click here](https://platform.openai.com/)
-  - Documentation: [Click here](https://platform.openai.com/docs/introduction)
-  - API Referece: [Click here](https://platform.openai.com/docs/api-reference)
+- **OpenAI Platform:**
+  - Overview: [Click here](https://platform.openai.com/)
+  - **Documentation:** [Click here](https://platform.openai.com/docs/introduction)
+  - **API Referece:** [Click here](https://platform.openai.com/docs/api-reference)
   - Examples: [Click here](https://platform.openai.com/examples)
   - Playground: [Click here](https://platform.openai.com/playground)
 - ChatGPT **Release Notes of all versions**: [Click here](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
