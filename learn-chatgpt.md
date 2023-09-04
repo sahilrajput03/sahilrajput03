@@ -6,6 +6,7 @@
 
 **Docs Links:**
 - **OpenAI Platform:** [Click here](https://platform.openai.com/)
+  - Documentation: [Click here](https://platform.openai.com/docs/introduction)
 - ChatGPT **Release Notes of all versions**: [Click here](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
 - **Awesome** official set of articles on variety of topics, ranging from Billing to Usage of OpenAI APIs: [Click here](https://help.openai.com/en/)
 - Whisper (Audio model by OpenAI, Speech to text): [Click here](https://platform.openai.com/docs/guides/speech-to-text)
