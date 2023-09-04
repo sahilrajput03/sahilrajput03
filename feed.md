@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+# variable name `is`
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5843d072-2c7c-4e05-b13b-3342518e7767)
+
+<div align="right">Date: 5 Sep, 2023</div>
+
 ## Gaming Industry revenue is 6 times more than Movie Industry
 
 Source: [Click here](https://gameserrors.com/gaming-vs-movie-industry-revenue)
