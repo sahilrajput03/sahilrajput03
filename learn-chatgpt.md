@@ -4,6 +4,9 @@
 
 [Click here](https://platform.openai.com/docs/quickstart/adjust-your-settings)
 
+
+***
+
 ***ChatGPT was released publicy on 30 November 2022.***
 
 **Quick Links:**
