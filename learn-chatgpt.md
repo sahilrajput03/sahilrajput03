@@ -28,6 +28,15 @@
   -  Pricing: $0.006 / minute (rounded to the nearest second)
 
 
+## General Terminologies
+
+Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.openai.com/docs/quickstart/start-with-an-instruction)
+
+- The completions endpoint is the core of our API and provides a simple interface that’s extremely flexible and powerful. You input some text as a prompt, and the API will return a text completion that attempts to match whatever instructions or context you gave it.
+- Designing your prompt is essentially how you “program” the model.
+- Prompt design isn’t the only tool you have at your disposal. You can also control completions by adjusting your settings. One of the most important settings is called temperature.
+  - You may have noticed that if you submitted the same prompt multiple times in the examples above, the model would always return identical or very similar completions. This is because your temperature was set to 0.
+
 ## Pricing
 
 Source Pricing: [Click here](https://openai.com/pricing#language-models)
