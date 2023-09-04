@@ -8,6 +8,7 @@ Source: [Click here](https://gameserrors.com/gaming-vs-movie-industry-revenue)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/edcec637-f7be-46aa-83cc-007153ad3cd4)
 
+<div align="right">Date: 4 Sep, 2023</div>
 
 ## What is OAuth 2? (Postman APIs follows this)
 
