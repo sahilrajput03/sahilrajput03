@@ -2,7 +2,7 @@
 
 # TODO: Continue reading docs from here ..
 
-- [Click here](https://platform.openai.com/docs/quickstart/adjust-your-settings) - doc read (start making applications)
+- [Click here](https://platform.openai.com/docs/quickstart/build-your-application) - doc read (start making applications)
 - **5minutes youtube video: Awesome course and amazing free youtube courses here - [Click here](https://www.youtube.com/watch?v=dZL78JUxZ20)**
 - TODO: Check if the OpenAI API is free:
   - [1](https://www.youtube.com/watch?v=iWd96WmSshE)
