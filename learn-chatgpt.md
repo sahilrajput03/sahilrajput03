@@ -1,5 +1,9 @@
 # Learn ChatGPT
 
+# TODO: Continue reading docs from here ..
+
+[Click here](https://platform.openai.com/docs/quickstart/adjust-your-settings)
+
 ***ChatGPT was released publicy on 30 November 2022.***
 
 **Quick Links:**
@@ -36,6 +40,17 @@ Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.ope
 - Designing your prompt is essentially how you “program” the model.
 - Prompt design isn’t the only tool you have at your disposal. You can also control completions by adjusting your settings. One of the most important settings is called temperature.
   - You may have noticed that if you submitted the same prompt multiple times in the examples above, the model would always return identical or very similar completions. This is because your temperature was set to 0.
+  - Try re-submitting the same prompt a few times with temperature set to 1.
+  - See what happened? When temperature is above 0, submitting the same prompt results in different completions each time.
+  - Remember that the model predicts which text is most likely to follow the text preceding it. Temperature is a value between 0 and 1 that essentially lets you control how confident the model should be when making these predictions. Lowering temperature means it will take fewer risks, and completions will be more accurate and deterministic. Increasing temperature will result in more diverse completions.
+  - For your pet name generator, you probably want to be able to generate a lot of name ideas. A moderate temperature of 0.6 should work well.
+
+## DEEP DIVE - Understanding tokens and probabilities
+
+Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.openai.com/docs/quickstart/start-with-an-instruction)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e05aadc7-dea4-40ea-9954-7ce45ef13e25)
+
 
 ## Pricing
 
