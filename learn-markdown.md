@@ -2,6 +2,8 @@
 
 *You may practise markdown with live updates @ https://marked.js.org/demo/.*
 
+**Colorful Text hacks in Github Markdown:**
+
 ```diff
 - this is red
 ```
