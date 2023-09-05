@@ -2,6 +2,8 @@
 
 # TODO: Continue reading docs from here ..
 
+- Continue Course from here: [Click here](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/2/guidelines)
+  - My notes of above course here: [Click here](./chat-gpt-prompt-engineering-for-developers.md)
 - [Tutorials - Get started with the OpenAI API by building real AI apps step by step.](https://platform.openai.com/docs/tutorials)
 - **TODO: (must watch) - 5minutes youtube video: Awesome course and amazing free youtube courses here - [Click here](https://www.youtube.com/watch?v=dZL78JUxZ20)**
   - *Link to all courses in video description.*
