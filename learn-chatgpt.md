@@ -28,7 +28,7 @@
     - Build a ChatGPT plugin:
       - Introduction: [Click here](https://platform.openai.com/docs/plugins/introduction)
       - Example plugins: [Click here](https://platform.openai.com/docs/plugins/examples)
-  - **API Referece:** [Click here](https://platform.openai.com/docs/api-reference)
+  - **❤ API Referece ❤:** [Click here](https://platform.openai.com/docs/api-reference)
   - Examples: [Click here](https://platform.openai.com/examples)
   - Playground: [Click here](https://platform.openai.com/playground)
   - Forum/Community: [Click here](https://community.openai.com/categories)
