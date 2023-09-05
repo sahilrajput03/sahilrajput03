@@ -2,6 +2,17 @@
 
 *You may practise markdown with live updates @ https://marked.js.org/demo/.*
 
+**Colorful Text hacks in Github Markdown:**
+
+```diff
+- this is red
+```
+
+```diff
++ this is green
+```
+
+
 ***Favourite markdown docs: https://daringfireball.net/projects/markdown/***
 
 - HTML in markdown
@@ -10,7 +21,7 @@
 <h1 align="center">I am centered text.</h1>
 <div align="right">I am right centred text.</div>
 <ins>**This text will be bold and underlined**<ins>
-
+<b><span style="color: red;">hello</span></b>
 
 <!-- Using images -->
 ![](image-url-here)

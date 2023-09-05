@@ -1,3 +1,7 @@
+# TODO: do this
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8bb48247-e5fd-40e8-8b37-4412de44514f)
+
 <h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 ```bash
@@ -33,7 +37,8 @@ cat /dev/null
 		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/)
 		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
   - Podcasts:
-	  - StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
+	- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
+	- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
 
 ## References:
 
@@ -176,8 +181,8 @@ cat /dev/null
 - Google Publisher Tag (? PubwiseAds): [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md)
 - Learn Trpc: [Click here](./learn-trpc.md)
 - Learn Paypal: [Click here](./learn-paypal.md)
+- Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md)
 - Learn kdenlive: [Click here](./learn-kdenlive.md)
-- Learn ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - Business Terms: [Click here](./learn-business-terms.md)
 - Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook)
 - Learn Playwright: [Click here](./learn-playwright.md)
@@ -190,7 +195,7 @@ cat /dev/null
 - Learn `Colors` (node library): [Click here](./learn-colors-npm.md)
 - Learn Spirituality: [Click here](./learn-spirituality.md)
 - Learn Skype: [Click here](./learn-skype.md)
-- Learn SEO: [Click here](./learn-seo.md)
+- Learn SEO, react-helmet: [Click here](./learn-seo.md)
 - Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](./learn-leaflet.md)
 - Learn classvalidator: [Click here](./learn-classvalidator.md)
 - Learn Luxon: [Click here](./learn-luxon.md)
@@ -200,6 +205,7 @@ cat /dev/null
 - Learn Wordpress Editing: [Click here](./learn-wordpress-editing.md)
 - Learn Capacitor: [Click here](./learn-capacitor.md)
 - Learn Development with AI (Artificial Development): [Click here](./learn-development-with-ai.md)
+- Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 - Learn Remix: [Click here](./learn-remix.md)
 - Learn Audacity: [Click here](./learn-audacity.md)
@@ -212,3 +218,5 @@ cat /dev/null
 - Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](./generate-ssh-key-pairs.md)
 - Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk)
 - Why you should not text your girlfriend?: [Click here](./why-you-should-not-text-your-girlfriend-much.md)
+- Learn Anydesk: [Click here](learn-anydesk.md)
+- My youtube video ids: [Click here](./my-youtube-video-ids.md)

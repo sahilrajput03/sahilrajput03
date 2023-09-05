@@ -25,6 +25,7 @@
 
 **General**
 
+- Learn X in Y minutes: [Click here](https://learnxinyminutes.com/)
 - Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
 - Git: [Learn Git Branching](https://learngitbranching.js.org/)
 - Git: [ShortcutFoo](https://www.shortcutfoo.com/app/dojos/git)
@@ -81,6 +82,9 @@
 **CSS**
 - [Kevin Powell](https://www.youtube.com/kepowob)
 
+**Flutter**
+- [Codepur](https://www.youtube.com/channel/UCFTM1FGjZSkoSPDZgtbp7hA) \| Flutter Expert
+
 **Linux**
   - [NetworkChuck ](https://www.youtube.com/c/NetworkChuck)
   - [PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
@@ -95,10 +99,6 @@
 # Blogs:
 
 - https://tkdodo.eu/blog/
-
-# Podcasts
-
-- Undefined.fm by ~Jared Palmer and Ken Wheeler: [Click here](https://undefined.fm/)
 
 # Books
 

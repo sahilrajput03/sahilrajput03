@@ -2,6 +2,60 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+# variable name `is`
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5843d072-2c7c-4e05-b13b-3342518e7767)
+
+<div align="right">Date: 5 Sep, 2023</div>
+
+## Gaming Industry revenue is 6 times more than Movie Industry
+
+Source: [Click here](https://gameserrors.com/gaming-vs-movie-industry-revenue)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/edcec637-f7be-46aa-83cc-007153ad3cd4)
+
+<div align="right">Date: 4 Sep, 2023</div>
+
+## What is OAuth 2? (Postman APIs follows this)
+
+- https://oauth.net/2/
+- https://developer.paypal.com/api/rest/authentication/
+
+<div align="right">Date: 3 Sep, 2023</div>
+
+## Google's Generative AI is released in India
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d2b120c5-8356-4ad2-9729-88de01d1cf74)
+
+<div align="right">Date: 3 Sep, 2023</div>
+
+## cashfree.com - Payments infrastructure for India
+
+- Website: https://www.cashfree.com/
+- Used by Samaksh in his job
+
+<div align="right">Date: 2 Sep, 2023</div>
+
+## eCPM?
+
+It is a key ad performance metric used by publishers to monitor the revenue generated from the ads on their site.
+
+<div align="right">Date: 31 Aug, 2023</div>
+
+## Web3 Job Market Trends Report Through the Crypto Bear Market
+
+[Click here](https://hackernoon.com/web3-job-market-trends-report-through-the-crypto-bear-market)
+
+<div align="right">Date: 30 Aug, 2023</div>
+
+## I can use my mobile github app to login now that I have setup GITHUB 2FA
+
+~Also, I can use my `Authenticator` (google app) to login into github as well.~ It didn't work may be its useful to reset my password? (need to verify).
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6701f8c3-c2dc-4e1d-9be6-a61527dc23d8)
+
+<div align="right">Date: 29 Aug, 2023</div>
+
 ## Check RAM slots used in your laptop
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7863ecc5-eea3-473a-8ce5-19e36217f069)

@@ -12,6 +12,10 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Google drive upload doesn't work in manjaro
+
+Tested in my current Dell - Latutude 5400 and my HP - ac179tx laptop.
+
 ## Manjaro Settings, switching manjoaro kernel
 
 ```bash

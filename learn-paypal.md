@@ -3,6 +3,7 @@
 ***PayPal Docs are just awesome to read. ~Sahil***
 
 **Quick Links:**
+- **My Notes - Learn Paypal Subscription And Database Schema: [Click here](./learn-paypal-subscription-and-database-schema.md)**
 - PayPal Developer Apps and Credentials: [Click here](https://developer.paypal.com/dashboard/applications/sandbox)
   - Sandbox Test Account: [Click here](https://developer.paypal.com/dashboard/accounts)
 - Official Live Demo's of Paypal Buttons: [Click here](https://developer.paypal.com/demo/checkout/#/pattern/client)
@@ -33,6 +34,136 @@
   State: California
   ```
 - **How do I accept cards with Checkout using the Guest Checkout option?: [Click here](https://www.paypal.com/us/cshelp/article/how-do-i-accept-cards-with-checkout-using-the-guest-checkout-option--help307)**
+
+## Get subscription details with axios using the access_token
+
+```js
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// src: https://gist.github.com/romaad/cc588abf691ba1e29c4a853983de8eb1
+const axios = require('axios');
+const qs = require('qs');
+
+const paypalApi = 'https://api-m.sandbox.paypal.com';
+
+// PLEASE FILL THESE BEFORE RUNNING THE CODE ####
+const clientId = '';
+const clientSecret = '';
+
+// We need this line to format the body in the expected way
+// for 'application/x-www-form-urlencoded'
+const payload = qs.stringify({
+  grant_type: 'client_credentials',
+  // Note: With `ignoreCache=true` a new token is issued ignoring the previously issued and still not expired token.
+  ignoreCache: true, // (default=false)
+});
+const headers = {
+  Accept: 'application/json',
+  'Accept-Language': 'en_US',
+  'content-type': 'application/x-www-form-urlencoded',
+};
+const auth = {
+  username: clientId,
+  password: clientSecret,
+};
+const config = {
+  headers, auth,
+};
+const main = async () => {
+  try {
+    const paypalSubscriptionId = 'I-B9YPX4SD1FX3';
+    const res1 = await axios.post(`${paypalApi}/v1/oauth2/token`, payload, config);
+
+    const { data } = await axios.get(`${paypalApi}/v1/billing/subscriptions/${paypalSubscriptionId}`, {
+      headers: {
+        Authorization: `Bearer ${res1.data.access_token}`,
+      },
+    });
+    console.log('data?', data);
+  } catch (error) {
+    console.log('error?', error.name);
+    console.log('error?', error.message);
+  }
+};
+
+main();
+```
+
+## Generate `access_token` with axios
+
+```js
+// src: https://gist.github.com/romaad/cc588abf691ba1e29c4a853983de8eb1
+const axios = require('axios');
+const qs = require('qs');
+
+const paypalApi = 'https://api-m.sandbox.paypal.com';
+
+// PLEASE FILL THESE BEFORE RUNNING THE CODE ####
+const clientId = '';
+const clientSecret = '';
+
+// We need this line to format the body in the expected way
+// for 'application/x-www-form-urlencoded'
+const payload = qs.stringify({
+  grant_type: 'client_credentials',
+  // Note: With `ignoreCache=true` a new token is issued ignoring the previously issued and still not expired token.
+  ignoreCache: true, // (default=false)
+});
+const headers = {
+  Accept: 'application/json',
+  'Accept-Language': 'en_US',
+  'content-type': 'application/x-www-form-urlencoded',
+};
+const auth = {
+  username: clientId,
+  password: clientSecret,
+};
+const config = {
+  headers, auth,
+};
+const main = async () => {
+  try {
+    const { data } = await axios.post(`${paypalApi}/v1/oauth2/token`, payload, config);
+    console.log('data?', data);
+  } catch (error) {
+    console.log('error?', error.name);
+    console.log('error?', error.message);
+  }
+};
+
+main();
+```
+
+## Important note about transactions in PayPal
+
+- Transactions for a subscription won't exist unless the payment has been made, thus if you are fetching transactions for a subscription and it gives you resource doesn't exist erro then that means there the transaction is **not successful**.
+- Also, this stackoverflow answer says txn is created in around 5-10 minutes but in my experience the txn is created on paypal (+ accessible) as soon as the payment is completed.
+- Also, when transaction is successful you can see the transaction in **Seller Account** like that:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f796e1f0-c95a-46e9-9a38-d4b0db6f5b82)
+
+## To get all the transactions of a subscription
+
+We can set start_date and end_date like that -
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e0cb17d7-2e1f-4258-b835-6e83da3f142b)
+
+## Monthly edge case subscription charge and end date guidance from `Eric` (Thanks Eric)
+
+Link that may be helpful if you haven't seen it (about a monthly renewal timing edge case):
+
+- https://developer.paypal.com/api/nvp-soap/paypal-payments-standard/integration-guide/subscription-billing-cycles/#link-monthlybillingcycles
+- "Recurring payments are collected on the same day of the month. If the initial recurring payment falls on the 31st, PayPal eventually adjusts the billing cycle to the last of the month. If the initial recurring payment falls on the 29th or 30th, PayPal adjusts the billing cycle to the first of the month on the following February."
+
+## Learn Paypal Subscription And Database Schema
+
+[Click here](./learn-paypal-subscription-and-database-schema.md)
+
+## Does paypal changes the subscriptionId when a subsciption is renewed?
+
+No. It keeps the `subscriptionId` same always (chatGPT).
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6dd6d685-eef4-42fb-8821-89ae18331453)
+
 
 ## PayPal integration with 1. APIs OR PayPal SDK
 
