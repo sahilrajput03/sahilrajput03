@@ -4,6 +4,7 @@
 
 - [Tutorials - Get started with the OpenAI API by building real AI apps step by step.](https://platform.openai.com/docs/tutorials)
 - **TODO: (must watch) - 5minutes youtube video: Awesome course and amazing free youtube courses here - [Click here](https://www.youtube.com/watch?v=dZL78JUxZ20)**
+- All About AI - Youtube Channel: [Click here](https://www.youtube.com/@AllAboutAI/playlists)
 
 ***
 
