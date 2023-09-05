@@ -3,6 +3,7 @@
 # TODO: Continue reading docs from here ..
 
 - [Tutorials - Get started with the OpenAI API by building real AI apps step by step.](https://platform.openai.com/docs/tutorials)
+- **TODO: (must watch) - 5minutes youtube video: Awesome course and amazing free youtube courses here - [Click here](https://www.youtube.com/watch?v=dZL78JUxZ20)**
 
 ***
 
@@ -13,7 +14,6 @@
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
 **Courses I found on Coursera:**
-- **TODO: (must watch) - 5minutes youtube video: Awesome course and amazing free youtube courses here - [Click here](https://www.youtube.com/watch?v=dZL78JUxZ20)**
 - Prompt Engineering for ChatGPT ~ Vanderbilt University (USA) comparable to Cornell University): [Click here](https://www.coursera.org/learn/prompt-engineering)
 - Generative AI with Large Language Models: [Click here](https://www.coursera.org/learn/generative-ai-with-llms)
 - Build AI Apps with ChatGPT, Dall-E, and GPT-4: [Click here](https://www.coursera.org/learn/build-ai-apps-with-chatgpt-dalle-gpt4)
