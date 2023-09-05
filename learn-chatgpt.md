@@ -61,11 +61,7 @@ Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.ope
 ## Pricing
 
 Source Pricing: [Click here](https://openai.com/pricing#language-models)
-
-```txt
-Cost of 1k input tokens + cost of 1k output tokens 
-0.0015 $                +                  0.002 $ = 0.0035 $ (2.90 Rs.)
-```
+- **Cost of 1k input tokens + cost of 1k output tokens = (0.0015 + 0.002) = 0.0035 $ (2.90 Rs.)**
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2afe3188-6b1e-4c1c-8e26-f9d6d5377c04)
 
