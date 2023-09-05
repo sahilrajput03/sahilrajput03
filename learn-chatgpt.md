@@ -33,6 +33,7 @@
 - **Awesome** official set of articles on variety of topics, ranging from Billing to Usage of OpenAI APIs: [Click here](https://help.openai.com/en/)
 - Whisper (Audio model by OpenAI, Speech to text): [Click here](https://platform.openai.com/docs/guides/speech-to-text)
   -  Pricing: $0.006 / minute (rounded to the nearest second)
+-  Deprecations of Models: [Click here](https://platform.openai.com/docs/deprecations)
 
 ## Quickstart tutoril - OpenAI end notes
 
