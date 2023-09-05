@@ -2,7 +2,7 @@
 
 # TODO: Continue reading docs from here ..
 
-Tutorials - Get started with the OpenAI API by building real AI apps step by step: [Click here](https://platform.openai.com/docs/tutorials)
+- [Tutorials - Get started with the OpenAI API by building real AI apps step by step.](https://platform.openai.com/docs/tutorials)
 
 ***
 
