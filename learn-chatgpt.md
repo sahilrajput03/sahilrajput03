@@ -17,7 +17,7 @@
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
 **Courses I found on Coursera:**
-- Prompt Engineering for ChatGPT ~ Vanderbilt University (USA) comparable to Cornell University): [Click here[(https://www.coursera.org/learn/prompt-engineering)
+- Prompt Engineering for ChatGPT ~ Vanderbilt University (USA) comparable to Cornell University): [Click here](https://www.coursera.org/learn/prompt-engineering)
 - Generative AI with Large Language Models: [Click here](https://www.coursera.org/learn/generative-ai-with-llms)
 - Build AI Apps with ChatGPT, Dall-E, and GPT-4: [Click here](https://www.coursera.org/learn/build-ai-apps-with-chatgpt-dalle-gpt4)
 
@@ -61,6 +61,11 @@ Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.ope
 ## Pricing
 
 Source Pricing: [Click here](https://openai.com/pricing#language-models)
+
+```txt
+Cost of 1k input tokens + cost of 1k output tokens 
+0.0015 $                +                  0.002 $ = 0.0035 $ (2.90 Rs.)
+```
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2afe3188-6b1e-4c1c-8e26-f9d6d5377c04)
 
