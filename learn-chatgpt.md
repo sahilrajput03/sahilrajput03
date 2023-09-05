@@ -41,7 +41,6 @@ Source: [Click here](https://platform.openai.com/docs/quickstart/closing)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6a086262-8684-46b2-b1f8-6f85de38448e)
 
-
 ## Completions
 
 **Correct**
@@ -129,3 +128,9 @@ You can use the tool below to understand how a piece of text would be tokenized 
 A helpful rule of thumb is that **one token generally corresponds to ~4 characters of text for common English text**. This translates to **roughly ¾ of a word (so 100 tokens ~= 75 words)**.
 
 If you need a programmatic interface for tokenizing text, check out our [tiktoken](https://github.com/openai/tiktoken) package for Python. For JavaScript, the [gpt-3-encoder](https://www.npmjs.com/package/gpt-3-encoder) package for node.js works for most GPT-3 models.
+
+## Zero Retention
+
+Source - Docs: [Click here](https://platform.openai.com/docs/models/how-we-use-your-data)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2779056f-6b34-4280-9350-4278310ff025)
