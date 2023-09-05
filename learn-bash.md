@@ -23,9 +23,11 @@
 ```bash
 # way1
 date +%s
+# Output: 1693901048
 
 # way2
 echo $EPOCHSECONDS
+# Output: 1693901049
 ```
 
 ## What does `set -o allexport` do?
