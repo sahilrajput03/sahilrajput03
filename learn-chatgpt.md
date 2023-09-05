@@ -133,4 +133,7 @@ If you need a programmatic interface for tokenizing text, check out our [tiktoke
 
 Source - Docs: [Click here](https://platform.openai.com/docs/models/how-we-use-your-data)
 
+- To help identify abuse, API data may be retained for up to 30 days, after which it will be deleted (unless otherwise required by law). For trusted customers with sensitive applications, zero data retention may be available. With zero data retention, request and response bodies are not persisted to any logging mechanism and exist only in memory in order to serve the request.
+- Note that this data policy does not apply to OpenAI's non-API consumer services like ChatGPT or DALL·E Labs.
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2779056f-6b34-4280-9350-4278310ff025)
