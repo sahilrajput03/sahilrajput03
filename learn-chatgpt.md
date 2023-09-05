@@ -2,7 +2,7 @@
 
 # TODO: Continue reading docs from here ..
 
-- [Click here](https://platform.openai.com/docs/quickstart/build-your-application) - doc read (start making applications)
+Tutorials - Get started with the OpenAI API by building real AI apps step by step: [Click here](https://platform.openai.com/docs/tutorials)
 
 ***
 
