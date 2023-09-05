@@ -34,6 +34,13 @@
 - Whisper (Audio model by OpenAI, Speech to text): [Click here](https://platform.openai.com/docs/guides/speech-to-text)
   -  Pricing: $0.006 / minute (rounded to the nearest second)
 
+## Quickstart tutoril - OpenAI end notes
+
+Source: [Click here](https://platform.openai.com/docs/quickstart/closing)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6a086262-8684-46b2-b1f8-6f85de38448e)
+
+
 ## Completions
 
 **Correct**
