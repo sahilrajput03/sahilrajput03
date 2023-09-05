@@ -129,6 +129,12 @@ A helpful rule of thumb is that **one token generally corresponds to ~4 characte
 
 If you need a programmatic interface for tokenizing text, check out our [tiktoken](https://github.com/openai/tiktoken) package for Python. For JavaScript, the [gpt-3-encoder](https://www.npmjs.com/package/gpt-3-encoder) package for node.js works for most GPT-3 models.
 
+## Compartible models for each endpoint
+
+Source - Docs: [Click here](https://platform.openai.com/docs/models/model-endpoint-compatibility)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/73d08ce9-3582-4508-91e1-c9719fc9c2f1)
+
 ## Zero Retention
 
 Source - Docs: [Click here](https://platform.openai.com/docs/models/how-we-use-your-data)
