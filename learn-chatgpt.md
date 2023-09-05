@@ -75,6 +75,11 @@ Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.ope
   - Remember that the model predicts which text is most likely to follow the text preceding it. Temperature is a value between 0 and 1 that essentially lets you control how confident the model should be when making these predictions. Lowering temperature means it will take fewer risks, and completions will be more accurate and deterministic. Increasing temperature will result in more diverse completions.
   - For your pet name generator, you probably want to be able to generate a lot of name ideas. A moderate temperature of 0.6 should work well.
 
+Source of below image: [Click here](https://platform.openai.com/docs/models/gpt-3-5)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9d223818-4055-4658-a616-d28400c91a73)
+
+
 ## DEEP DIVE - Understanding tokens and probabilities
 
 Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.openai.com/docs/quickstart/start-with-an-instruction)
