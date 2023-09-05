@@ -86,6 +86,11 @@ Source Pricing: [Click here](https://openai.com/pricing#language-models)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/42d906e5-4710-4ba3-b487-b201a84c49f4)
 
+**❤️ ❤️ ❤️ Personalized model training ❤️ ❤️ ❤️ :**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cb78c0ab-6860-4449-bbc7-dd783a4fa979)
+
+
 ## Rate Limits
 
 Source: [Click here](https://platform.openai.com/account/rate-limits)
