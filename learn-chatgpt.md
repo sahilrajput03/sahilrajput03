@@ -82,11 +82,11 @@ Source Pricing: [Click here](https://openai.com/pricing#language-models)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2afe3188-6b1e-4c1c-8e26-f9d6d5377c04)
 
-1/2 - **Free Trial gives you 5$** (Date: 5 September, 2023).
+Image - 1/2 - **Free Trial gives you 5$** (Date: 5 September, 2023).
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/506fb091-8405-4922-bcf8-f6a855db146b)
 
-2/2 - **Free Trial gives you 5$** (Date: 5 September, 2023).
+Image - 2/2 - **Free Trial gives you 5$** (Date: 5 September, 2023).
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/42d906e5-4710-4ba3-b487-b201a84c49f4)
 
