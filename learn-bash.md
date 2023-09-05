@@ -18,6 +18,16 @@
 - ❤️ Learn Bash scripting official manjaro linux article - [Click here](https://forum.manjaro.org/t/tutorial-shell-scripting-by-way-of-an-illustrated-practical-example/66120)
 - ❤️Interactive vs. Non-Interactive shell❤️ : [Click here](https://phoenixnap.com/kb/bashrc-vs-bash-profile)
 
+## Get unix/epoch timestamp in linux
+
+```bash
+# way1
+date +%s
+
+# way2
+echo $EPOCHSECONDS
+```
+
 ## What does `set -o allexport` do?
 
 ```bash
