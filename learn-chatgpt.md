@@ -5,6 +5,8 @@
 - ChatGPT Prompt Engineering for Developers - Andrew Ng (Coursera Founder + OpenAI Tech Team): [Click here](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
   - Continue Course from here: [Click here](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/2/guidelines)
     - My notes of above course here: [Click here](./chat-gpt-prompt-engineering-for-developers.md)
+    - *Please complete this python course here: [Click here](https://github.com/sahilrajput03/learn-python/tree/master/30-days-python-asabeneh)*
+      - Also please past the output of all instruction in all files so code is readable when you want to revise that. Thanks. :)
 - [Tutorials - Get started with the OpenAI API by building real AI apps step by step.](https://platform.openai.com/docs/tutorials)
 - **TODO: (must watch) - 5minutes youtube video: Awesome course and amazing free youtube courses here - [Click here](https://www.youtube.com/watch?v=dZL78JUxZ20)**
   - *Link to all courses in video description.*
