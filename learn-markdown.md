@@ -2,6 +2,14 @@
 
 *You may practise markdown with live updates @ https://marked.js.org/demo/.*
 
+**Table:**
+
+ Month    | Savings |
+|-|-|
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
+
 **Colorful Text hacks in Github Markdown:**
 
 ```diff
