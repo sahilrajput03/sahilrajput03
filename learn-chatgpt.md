@@ -50,9 +50,6 @@
 10,000 words article  | 998 words 6,438 characters | Tokens: 1,285, Characters: 6484
 2,000 words article | 1,128 words 7,292 characters | Tokens: 1,491, Characters 7358
 
-- On  - . : 
-- On  - .  Fom Tokenizer: 
-
 <div align="right">Date: 7 Sep, 2023</div>
 
 ## Quickstart tutoril - OpenAI end notes
