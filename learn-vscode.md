@@ -7,6 +7,13 @@
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 - VsCode for Web (Official): [Click here](https://code.visualstudio.com/docs/editor/vscode-web)
 
+## VScode Amazing shortcuts
+
+- `fn+f12` - Go to Definition (**mostly useful**)
+- `fn+shift+f12` - Go to References
+- `fn+ctrl+f12` - Go to implementations
+- `fn+rightCtrl` - Show right click menu (**Awesome**)
+
 ## Add eslint settings to your vscode directly
 
 `settings.json`
