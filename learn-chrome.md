@@ -69,6 +69,7 @@ Disabled below extensions becoz of too much memory usage(deteced from Google Chr
 - [Screen Recorder](https://chrome.google.com/webstore/detail/screen-recorder/hniebljpgcogalllopnjokppmgbhaden/related?hl=en) - (via Ratan)
 - [Password Alert](https://chrome.google.com/webstore/detail/password-alert/noondiphcddnnabmjcihcjfbhfklnnep) - Helps to avoid using same google password for other online accounts
 - [Highlighter](https://chrome.google.com/webstore/detail/highlighter/fdfcjfoifbjplmificlkdfneafllkgmn)
+- [Autoskip for Youtube™ Ads](https://chrome.google.com/webstore/detail/autoskip-for-youtube-ads/hmbnhhcgiecenbbkgdoaoafjpeaboine/related)
 
 # Browser developer tools - Tips
 
