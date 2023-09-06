@@ -1,5 +1,9 @@
 # Learn postman
 
+- We can mark collections as starred so that they appear on the top like that -
+
+ ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b2024235-e6c3-4f3d-b523-c1bd7f667b70)
+
 - We can use params ❤️❤️ in postman with a beautiful syntax like that:
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5c41c439-4041-4a86-a060-5f83126add35)
