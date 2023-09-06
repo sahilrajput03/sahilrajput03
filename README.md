@@ -77,7 +77,8 @@ cat /dev/null
 - **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
 - **Learn CLI binaries:** [Click here](./learn-cli-binary.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **Thoughts, Principles:** [Click here](./thoughts-principles.md)
+- **❤️ Thoughts, Principles:** [Click here](./thoughts-principles.md)
+- **❤️ Social rules: [Click here](./social-rules.md)**
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](./vim.md)
 - **Learn Vscode:** [Click here](./learn-vscode.md)
@@ -177,7 +178,6 @@ cat /dev/null
 - Learn Storybook: [Click here](./learn-storybook.md)
 - Learn Eslint: [Click here](./learn-eslint.md)
 - Learn Chrome: [Click here](./learn-chrome.md)
-- Social rules: [Click here](./social-rules.md)
 - Google Publisher Tag (? PubwiseAds): [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md)
 - Learn Trpc: [Click here](./learn-trpc.md)
 - Learn Paypal: [Click here](./learn-paypal.md)
