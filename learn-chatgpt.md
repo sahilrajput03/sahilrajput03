@@ -53,6 +53,8 @@
 - On  - . : 
 - On  - .  Fom Tokenizer: 
 
+<div align="right">Date: 7 Sep, 2023</div>
+
 ## Quickstart tutoril - OpenAI end notes
 
 Source: [Click here](https://platform.openai.com/docs/quickstart/closing)
