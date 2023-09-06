@@ -43,6 +43,16 @@
   -  Pricing: $0.006 / minute (rounded to the nearest second)
 -  Deprecations of Models, Endpoints, etc: [Click here](https://platform.openai.com/docs/deprecations)
 
+## When I asked to generate 10,000 words article and 2,000 words article to ChatGPT
+
+ Query | wordcounter.net | platform.openai.com/tokenizer
+-|-|-
+10,000 words article  | 998 words 6,438 characters | Tokens: 1,285, Characters: 6484
+2,000 words article | 1,128 words 7,292 characters | Tokens: 1,491, Characters 7358
+
+- On  - . : 
+- On  - .  Fom Tokenizer: 
+
 ## Quickstart tutoril - OpenAI end notes
 
 Source: [Click here](https://platform.openai.com/docs/quickstart/closing)
