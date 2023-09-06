@@ -4,11 +4,19 @@
 
 **Table:**
 
- Month    | Savings |
-|-|-|
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+Month | Savings
+-|-
+January  | $250
+February | $80
+March    | $420
+
+```txt
+Month | Savings
+-|-
+January  | $250
+February | $80
+March    | $420
+```
 
 **Colorful Text hacks in Github Markdown:**
 
