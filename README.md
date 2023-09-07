@@ -15,7 +15,9 @@ cat /dev/null
 	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
 </div>
 
-# My feed: [Click here](feed.md)
+# My feed: [Click here](./feed.md)
+
+# Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
