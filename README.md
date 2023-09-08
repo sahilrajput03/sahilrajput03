@@ -39,7 +39,7 @@ cat /dev/null
 		- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
 		- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
 	- Fun
-		- A HORROR FILM & CULTURE PODCAST WITH A FEMINIST TWIST: [Click here](http://www.jerseyghouls.com)
+		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
 
 ## References:
 
