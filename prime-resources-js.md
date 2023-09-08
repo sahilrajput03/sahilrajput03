@@ -1,3 +1,7 @@
+# TODO: Move this page to coures page
+
+***
+
 # Javascript Resources (books + websites)
 
 - Mozilla Developer Network (MDN), Official Docs of Javascript - [WEB](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
