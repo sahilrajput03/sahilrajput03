@@ -35,8 +35,11 @@ cat /dev/null
 		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/), [2023](https://survey.stackoverflow.co/2023/)
 		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [2022](https://2022.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
   - Podcasts:
-	- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
-	- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
+	- Tech
+		- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
+		- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
+	- Fun
+		- A HORROR FILM & CULTURE PODCAST WITH A FEMINIST TWIST: [Click here](http://www.jerseyghouls.com)
 
 ## References:
 
