@@ -18,7 +18,7 @@
 ***ChatGPT was released publicy on 30 November 2022.***
 
 **Quick Links:**
-- **Leanr Development with Ai:** [Click here](./learn-development-with-ai.md)
+- **Learn Development with Ai:** [Click here](./learn-development-with-ai.md)
 - My Conversations with ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
@@ -53,7 +53,7 @@
 
 <div align="right">Date: 7 Sep, 2023</div>
 
-## Quickstart tutoril - OpenAI end notes
+## Quickstart tutorial - OpenAI end notes
 
 Source: [Click here](https://platform.openai.com/docs/quickstart/closing)
 
