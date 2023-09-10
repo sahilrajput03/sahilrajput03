@@ -6,6 +6,8 @@
   - app.autocodepro.com: [Click here](https://app.autocodepro.com/signin)
   - Smol Ai (9.3k*) Github Repository: [smol-ai/developerPublic](https://github.com/smol-ai/developer)
 - Deepfake Yourself Into Any Celebrity Using AI @ Youtube - [Click here](https://www.youtube.com/watch?v=LRdS4BAfgMo)
+- Voice Cloner - https://resemble.ai/
+- Awesome* Text to Speech - https://resemble.ai/ 
 
 ## Ai tools Suggested by Varun Mayya - 
 
