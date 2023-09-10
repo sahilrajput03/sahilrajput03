@@ -1,4 +1,4 @@
-# Leanr Development with Ai
+# Learn Development with Ai
 
 **Quick Links:**
 - **Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)**
