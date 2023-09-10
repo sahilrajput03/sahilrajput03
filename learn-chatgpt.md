@@ -13,8 +13,12 @@
 - All About AI - Youtube Channel: [Click here](https://www.youtube.com/@AllAboutAI/playlists), Website: [allabtai.com](https://www.allabtai.com/)
 - **❤️❤️ OpenAI Cookbook @ Github (Awesome): [Click here](https://github.com/openai/openai-cookbook)**
 - ChatGPT Tutorial for Beginners in Hindi (2023) ~ Ansh Mehra: [Click here](https://www.youtube.com/watch?v=Nz1MI8nsFTs)
-- FlowGPT: [Click here](https://flowgpt.com/)
-- SnakPrompt: [Click here](https://snackprompt.com/)
+  - FlowGPT: [Click here](https://flowgpt.com/)
+  - SnakPrompt: [Click here](https://snackprompt.com/)
+- ChatGPT Masterclass: Basic to Advanced: [Click here](https://www.youtube.com/watch?v=zEeHKSD0L9M)
+  - howtoprompt.in ~ Ansh Mehra: [Click here](https://www.howtoprompt.in/)
+- ChatGPT 4 BEST Prompts and FREE Resources for Beginners: [Click here](https://www.youtube.com/watch?v=7hSGI5sQUE4)
+
 ***
 
 ***ChatGPT was released publicy on 30 November 2022.***
