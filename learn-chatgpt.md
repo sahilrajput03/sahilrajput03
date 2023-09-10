@@ -11,7 +11,7 @@
 - **TODO: (must watch) - 5minutes youtube video: Awesome course and amazing free youtube courses here - [Click here](https://www.youtube.com/watch?v=dZL78JUxZ20)**
   - *Link to all courses in video description.*
 - All About AI - Youtube Channel: [Click here](https://www.youtube.com/@AllAboutAI/playlists), Website: [allabtai.com](https://www.allabtai.com/)
-- **OpenAI Cookbook @ Github (Awesome): [Click here](https://github.com/openai/openai-cookbook)**
+- **❤️❤️ OpenAI Cookbook @ Github (Awesome): [Click here](https://github.com/openai/openai-cookbook)**
 
 ***
 
