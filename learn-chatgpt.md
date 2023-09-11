@@ -19,7 +19,7 @@
   - howtoprompt.in ~ Ansh Mehra: [Click here](https://www.howtoprompt.in/)
 - *(TODO) ChatGPT 4 BEST Prompts and FREE Resources for Beginners: [Click here](https://www.youtube.com/watch?v=7hSGI5sQUE4)
 - *(TODO) Checkout these chat gpt extensions: [Click here](https://www.makeuseof.com/chatgpt-chrome-extensions-better-ai-prompts-answers-in-browsers/)
-
+  - *(TODO) Checkout all extensions: [Click here](https://github.com/C-Nedelcu/talk-to-chatgpt#press-coverage)
 ***
 
 ***ChatGPT was released publicy on 30 November 2022.***
