@@ -58,6 +58,11 @@
 10,000 words article  | 998 words 6,438 characters | Tokens: 1,285, Characters: 6484
 2,000 words article | 1,128 words 7,292 characters | Tokens: 1,491, Characters 7358
 
+## When I asked to write counting upto 2_500, 5_000 and 10_000.
+
+- It denies for 5_000 and 10_000
+- It writes for upto 2500 but I need to keep pressing the **Continue regenrating** after very 500 counting approximately.
+
 <div align="right">Date: 7 Sep, 2023</div>
 
 ## Quickstart tutorial - OpenAI end notes
