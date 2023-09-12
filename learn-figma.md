@@ -35,7 +35,7 @@ Then you can select smaller and bigger nudge -
 
 Search in figma file by using `ctrl+f` and then you follow like that:
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ac2e438c-ccc4-4218-85d8-1a6805c85c74)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4de108fd-78ab-46a0-b94a-b380ec707dd6)
 
 ## Courses:
 - Learn Design (100% theory): [Click here](https://www.figma.com/resources/learn-design/lessons/)
