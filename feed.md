@@ -4,7 +4,7 @@
 
 # What is typematic?
 
-The initial delay between pressing a key and the start of repetition is called the typematic delay. The time between key repeats once repetition begins is called the typematic rate.
+The initial delay between pressing a key and the start of repetition is called the _typematic delay_. The time between key repeats once repetition begins is called the _typematic rate_.
 
 <div align="right">Date: 12 Sep, 2023</div>
 
