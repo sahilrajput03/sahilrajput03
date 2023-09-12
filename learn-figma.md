@@ -18,6 +18,10 @@
 
 [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
+## Resizing controls have been changed in toolbar
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2d846275-881a-4252-bd59-6bbfaff70aa3)
+
 ## You can use `ctrl+alt` and hover mouse over items to see their spacing and alignments from different items like that
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f2a07e8c-2361-43e5-9ad5-7a57d233197c)
