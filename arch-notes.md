@@ -12,7 +12,9 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
-## Setting `typematic` so navigating in vscode is a bit faster (also mentioned in my feed)
+## Setting `typematic` (also mentioned in my feed)
+
+**Why?:** So that navigating in vscode is a bit faster with arrow keys.
 
 The initial delay between pressing a key and the start of repetition is called the typematic delay. The time between key repeats once repetition begins is called the typematic rate.
 
