@@ -22,7 +22,7 @@
 
 *FYI: Nudge means to touch or push someone or something gently.*
 
-What is nudge? When you select a item and move it via left/right/up/down arrow. **Also, if you press `shift+left/right/up/down` you can move items by bigger spaces.
+What is nudge? When you select a item and move it via left/right/up/down arrow. **Also, if you press `shift+left/right/up/down` you can move items by bigger spaces.**
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6c6854fe-ee86-4bcd-b8bc-e419ea19d46b)
 
