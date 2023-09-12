@@ -20,7 +20,7 @@
 
 ## You can set `Nudge Amount` like that
 
-*FYI: Nudge” means to touch or push someone or something gently. *
+*FYI: Nudge means to touch or push someone or something gently. *
 
 What is nudge? When you select a item and move it via left/right/up/down arrow. **Also, if you press `shift+left/right/up/down` you can move items by bigger spaces.
 
