@@ -18,6 +18,9 @@
 
 [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
+## You can use `ctrl+alt` and hover mouse over items to see their spacing and alignments from different items like that
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f2a07e8c-2361-43e5-9ad5-7a57d233197c)
 
 ## You can set `Nudge Amount` like that
 
@@ -146,6 +149,7 @@ Search in figma file by using `ctrl+f` and then you follow like that:
   - Say in a ***horizontal button auto layout*** you want to add more content to the button text but keep the padding (horizontal padding) constant which we most of the times want to have consistent padding around all the buttons irrespective if the button text is small or large, so what we can do to achive this by changing the setting for **OUR AUTO LAYOUT ITSELF** i.e, **width** as **Hug contents** in **Constraints and resizing** menu under **Design** tab, and also set the **padding around items** in the **Auto layout** menu as our desireable padding for our required button.
   - AMAZING: To make a simle text field a button you can make use of *Auto layout*. Say, create a text field and press `shift+a` and now you can use this auto layout to fill color to the auto layout box itself, cool(NO NEED to make separate rectangle for making buttons)! BONUS: When you change the text the color filled box will automatically adjus to the width of the text, yo!
   - ***Hug contents*** means to resize to the smallest possible size to surround all of its children with only leaving space for padding. The simple meaning of hug is that the containe will try to hug the contents so leaving no extra space except the padding.
+  - Setting **`Horizontal Spacing`** to `Fill Container` - ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0d8f83e0-0773-4a29-a017-f66e7baa8f75)
   - You can also make the entity be controlled automatically say left attached or right attached or center placed or stick to left_and_right edges with the help of properties under `Constraints and resizing` [See here for visual](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout#Constraints_and_resizing).
   - Add, edit, and remove objects in *Auto layout*: [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout#Add,_edit,_and_remove_objects).
   - Nested auto layout frames: Amazinlgly explaines - [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout#Nest_auto_layout_frames)
