@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+# What is typematic?
+
+The initial delay between pressing a key and the start of repetition is called the typematic delay. The time between key repeats once repetition begins is called the typematic rate.
+
+<div align="right">Date: 12 Sep, 2023</div>
+
 # Difference between Ionic and Capacitor?
 
 Source: [Click here](https://forum.ionicframework.com/t/what-is-the-difference-between-ionic-and-capacitor/226726)
