@@ -21,7 +21,7 @@
 
 Search in figma file by using `ctrl+f` and then you follow like that:
 
-![image](https://user-images.githubusercontent.com/31458531/223821353-2e097f86-eccb-4978-83d8-2bdc0c4dde7b.png)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ac2e438c-ccc4-4218-85d8-1a6805c85c74)
 
 ## Courses:
 - Learn Design (100% theory): [Click here](https://www.figma.com/resources/learn-design/lessons/)
