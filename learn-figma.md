@@ -1,7 +1,7 @@
 # Learning Figma
 
 - TODO: Official Article - Explore auto layout properties: [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Explore-auto-layout-properties#h_01G2RPRBBKVKXK0JV59NCSKEE0)
-  - **Please continue this official video** (same page above, time stamped): [Click here](https://youtu.be/floQKLsWAy4?t=336)
+  - **Please continue this official video** (same page above): [Click here](https://youtu.be/floQKLsWAy4?t=336) (time stamped)
 - **Ansh Mehra's Recommended 50-60hrs of Figma's Resources Tutorials:** [Source](https://www.youtube.com/watch?v=YEFCoRcP4Fw)
   - TODO - 10 Figma Plugins: https://twitter.com/Sahil_dev12/status/1610938078977490944
   - TODO - Playlist - Explore design features in Figma: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23)
