@@ -1,17 +1,17 @@
 # Learning Figma
 
 - TODO: Official Article - Explore auto layout properties: [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Explore-auto-layout-properties#h_01G2RPRBBKVKXK0JV59NCSKEE0)
-**Ansh Mehra's Recommended 50-60hrs of Figma's Resources Tutorials:** [Source](https://www.youtube.com/watch?v=YEFCoRcP4Fw)
-- TODO - 10 Figma Plugins: https://twitter.com/Sahil_dev12/status/1610938078977490944
-- TODO - Playlist - Explore design features in Figma: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23)
-- TODO - Playlist - Figma Tips: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx53btRMBES-ASBBm03-bUCJ)
-- TODO - Playlist - Office hours: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx4kKv1IdI-NdlKyCWwE6Ge6)
-- TODO - https://awesomefigtips.com/
-- TODO - https://figmalion.com/
-- More Resoucres [source](https://www.youtube.com/watch?v=iehzWCm8KHs)
-	- Case Studies of big companies - https://growth.design/
-	- Mobile Designs: https://mobbin.com/
-- TODO - https://medium.com/ansh-mehra
+- **Ansh Mehra's Recommended 50-60hrs of Figma's Resources Tutorials:** [Source](https://www.youtube.com/watch?v=YEFCoRcP4Fw)
+  - TODO - 10 Figma Plugins: https://twitter.com/Sahil_dev12/status/1610938078977490944
+  - TODO - Playlist - Explore design features in Figma: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23)
+  - TODO - Playlist - Figma Tips: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx53btRMBES-ASBBm03-bUCJ)
+  - TODO - Playlist - Office hours: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx4kKv1IdI-NdlKyCWwE6Ge6)
+  - TODO - https://awesomefigtips.com/
+  - TODO - https://figmalion.com/
+  - More Resoucres [source](https://www.youtube.com/watch?v=iehzWCm8KHs)
+	  - Case Studies of big companies - https://growth.design/
+	  - Mobile Designs: https://mobbin.com/
+  - TODO - https://medium.com/ansh-mehra
 - Chrome New Tab Extension: [Click here](https://chrome.google.com/webstore/detail/muzli-2-stay-inspired/glcipcfhmopcgidicgdociohdoicpdfc?hl=en)
 
 ## Resources for images, gifs, svgs ?:
