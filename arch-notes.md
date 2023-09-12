@@ -20,7 +20,7 @@ The initial delay between pressing a key and the start of repetition is called t
 
 ```bash
 # set a typematic delay to 200ms and a typematic rate to 30Hz
-xset r rate 200 30
+xset r rate 360 25
 
 # set default typematic delay to 660ms and a typematic rate to 25Hz
 xset r rate
