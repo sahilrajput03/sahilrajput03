@@ -61,6 +61,17 @@ Search in figma file by using `ctrl+f` and then you follow like that:
   - **FYI:** There are tons of free icon figma files shared by community on figma sites itself
   - For icons search **Free figma icons** on google to get such resources.
   - Charlie marietv summary of salaries: @ keep notes.
+  - Explore auto layout properties: (OFFICIAL - [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Explore-auto-layout-properties#h_01G2RPRBBKVKXK0JV59NCSKEE0)
+    - We can adjust the baseline of items in auto layout by doing that - ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/05c01c79-0360-4931-b936-3d96126a64db)
+    - We can change the order of stacking (first item on to or last item on top) by using `Canvas stacking` feature - ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/31809514-c2ab-4abd-87f0-f5af1cc6e751)
+
+- **Shortcuts:**
+  - Zoom to eye view or current view: ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/991d225a-7018-443a-b74b-fc95d2afb77b)
+  - ❤️❤️❤️ Navigating Layers ❤️❤️❤️:
+    - `enter` and `shift+enter` to go into and to parent layer
+    - `tab` and `shift+tab` to go to next and previous layers
+    - `alt+l` to collase layers (this is not working but you collapse layers by using quick menu `ctrl+?` and then typing `Collapse layers`
+    - Show/Hide keyboard shortcuts by `ctrl+shift+?`
 - **1st week of march**:
   - We can share styles across different files very easily with ***Team Library*** feature very easily. For demo check this timestamped video [here from figma itself](https://youtu.be/cCNLD5IZY34?t=209).
 - You can press and hold `alt` key while hovering over _text size_ numbers in the _Design tab_ to get a nice text ***size dragger*** to change the text size of textual number simply via mouse i.e, ***double headed arrow***.
