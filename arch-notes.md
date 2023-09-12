@@ -12,6 +12,19 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Setting `typematic` so navigating in vscode is a bit faster (also mentioned in my feed)
+
+The initial delay between pressing a key and the start of repetition is called the typematic delay. The time between key repeats once repetition begins is called the typematic rate.
+
+```bash
+# set a typematic delay to 200ms and a typematic rate to 30Hz
+xset r rate 200 30
+
+# set default typematic delay to 660ms and a typematic rate to 25Hz
+xset r rate
+```
+
+
 ## Google drive upload doesn't work in manjaro
 
 Tested in my current Dell - Latutude 5400 and my HP - ac179tx laptop.
