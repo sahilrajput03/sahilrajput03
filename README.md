@@ -15,6 +15,7 @@ cat /dev/null
 
 # Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 
+- TODO: Access google api with Postman: [Click here](https://blog.postman.com/how-to-access-google-apis-using-oauth-in-postman/)
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
 - I have no limitations ~ Thomas Shelby
