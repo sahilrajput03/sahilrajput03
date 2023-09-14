@@ -3,6 +3,10 @@
 **Quick Links:**
 - Js-Conf-2022: [Click here](notes-js-conf-2022.md)
 
+## ChatGPT says its okay to mix `await` and `catch` keywords
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f150e219-6633-44b9-8ae3-fec8552d8e42)
+
 ## Learn global error handling
 
 ```js
