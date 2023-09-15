@@ -12,6 +12,15 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## create windows 10 bootable usb from archlinux
+
+```bash
+sudo pacman -S woeusb
+
+# usage
+woeusb  --target-filesystem NTFS --device path/to/windows.iso /dev/sdX
+```
+
 ## windows 10 on kvm
 
 Awesome youtube tutorial - [Click here](https://youtu.be/2WDASJ0ye0A)
