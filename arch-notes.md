@@ -15,7 +15,7 @@
 ## create windows 10 bootable usb from archlinux
 
 ```bash
-sudo pacman -S woeusb
+yay -S woeusb
 
 # usage
 woeusb  --target-filesystem NTFS --device path/to/windows.iso /dev/sdX
