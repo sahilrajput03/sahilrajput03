@@ -2,6 +2,13 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+# Choosing b/w NodeJS based cronjobs vs. linux cron jobs
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/27365c99-3d97-431e-a9d5-4246e8a98f34)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/c45f186e-800a-478a-b897-6c415997f4dd)
+
+
 # What is typematic?
 
 The initial delay between pressing a key and the start of repetition is called the _typematic delay_. The time between key repeats once repetition begins is called the _typematic rate_.
