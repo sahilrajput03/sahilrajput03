@@ -12,6 +12,10 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## windows 10 on kvm
+
+Awesome youtube tutorial - [Click here](https://youtu.be/2WDASJ0ye0A)
+
 ## Setting `typematic` (also mentioned in my feed)
 
 **Why?:** So that navigating in vscode is a bit faster with arrow keys.
