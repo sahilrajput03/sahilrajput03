@@ -436,6 +436,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # Example:
   xrandr --output DP-2-1 --mode 2560x1440
   xrandr --output DP-2-1 --mode 1360x768 # For manjaro-i3's extended display (Date: 1 Sep, 2023)
+  xrandr --output HDMI-2 --mode 1360x768 # For manjaro-i3's extended display (Date: 16 Sep, 2023)
   ```
   
 - Ram usage
