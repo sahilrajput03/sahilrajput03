@@ -431,11 +431,10 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # For setting resolution for second monitor
   # SYNTAX:
   # xrandr --output MONITOR_NAME --mode DESIRED_RESOLUTION
-  # Example: (get MONITOR_NAME and DESIRED_RESOLUTION from xrandr command)
+  # Tip: You can MONITOR_NAME and DESIRED_RESOLUTION by using `xrandr` command
+  # Example:
   xrandr --output DP-2-1 --mode 2560x1440
-
-  # For manjaro-i3's extended display (Date: 1 Sep, 2023)
-  xrandr --output DP-2-1 --mode 1360x768
+  xrandr --output DP-2-1 --mode 1360x768 # For manjaro-i3's extended display (Date: 1 Sep, 2023)
   ```
   
 - Ram usage
