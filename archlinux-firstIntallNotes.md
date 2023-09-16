@@ -404,7 +404,8 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   
 - Install more essentials (some gui and other utilities) 
-  ```
+
+  ```bash
   sudo pacman -S lightdm xfce-terminal lightdm-gtk-greeter lightdm-gtk-greeter-settings dmenu nitrogen xorg flameshot unzip
   
   # Also make use of
