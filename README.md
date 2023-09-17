@@ -3,6 +3,7 @@
 ```bash
 echo Hello world! > /dev/null
 cat /dev/null
+() => {}
 ```
 
 <div align="right">
