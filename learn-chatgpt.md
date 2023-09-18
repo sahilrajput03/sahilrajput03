@@ -26,7 +26,7 @@
 
 **Quick Links:**
 - **Learn Development with Ai:** [Click here](./learn-development-with-ai.md)
-- My Conversations with ChatGPT: [Click here](./learn-chatgpt-conversation-log.md)
+- ❤️ My Conversations with ChatGPT: [Click here](./learn-chatgpt-conversation-log.md)
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
 **Courses I found on Coursera:**
