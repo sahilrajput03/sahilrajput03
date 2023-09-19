@@ -23,6 +23,8 @@ Add below `A records` for your custom domain dns setting in your domain provider
 
 ### github pages A records for `namecheap`
 
+Docs - How can I set up an A (address) record for my domain?: [Click here](https://www.namecheap.com/support/knowledgebase/article.aspx/319/2237/how-can-i-set-up-an-a-address-record-for-my-domain/)
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/12213b15-88e9-487d-8d2a-e3f1028ff6fe)
 
 ## Heroku
