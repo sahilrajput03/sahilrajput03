@@ -404,7 +404,8 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   
 - Install more essentials (some gui and other utilities) 
-  ```
+
+  ```bash
   sudo pacman -S lightdm xfce-terminal lightdm-gtk-greeter lightdm-gtk-greeter-settings dmenu nitrogen xorg flameshot unzip
   
   # Also make use of
@@ -431,11 +432,21 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # For setting resolution for second monitor
   # SYNTAX:
   # xrandr --output MONITOR_NAME --mode DESIRED_RESOLUTION
-  # Example: (get MONITOR_NAME and DESIRED_RESOLUTION from xrandr command)
+  # Tip: You can MONITOR_NAME and DESIRED_RESOLUTION by using `xrandr` command
+  # Example:
   xrandr --output DP-2-1 --mode 2560x1440
+  xrandr --output DP-2-1 --mode 1360x768 # For manjaro-i3's extended display (Date: 1 Sep, 2023)
+  xrandr --output HDMI-2 --mode 1360x768 # For manjaro-i3's extended display (Date: 16 Sep, 2023)
 
-  # For manjaro-i3's extended display (Date: 1 Sep, 2023)
-  xrandr --output DP-2-1 --mode 1360x768
+
+  # 16 Sept, 2023 - Update - Please always try to use `arandr` a frontend for `xrandr` cli
+  # sudo pacman -S arandr
+
+  # Usage
+  # =====
+  # arandr might throw as error: `xrandr failed xrandr returned error code xrandr cannot find mode none`
+  # To fix that you can add a mode first via command below and then you would be able to `arandr`
+  xrandr --addmode HDMI-2 1360x768
   ```
   
 - Ram usage

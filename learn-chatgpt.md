@@ -2,18 +2,31 @@
 
 # TODO: Continue reading docs from here ..
 
-- [Click here](https://platform.openai.com/docs/quickstart/build-your-application) - doc read (start making applications)
-- **5minutes youtube video: Awesome course and amazing free youtube courses here - [Click here](https://www.youtube.com/watch?v=dZL78JUxZ20)**
-- TODO: Check if the OpenAI API is free:
-  - [1](https://www.youtube.com/watch?v=iWd96WmSshE)
-  - [2](https://community.openai.com/t/is-chat-gpt-provided-for-free/86249)
-
+- ChatGPT Prompt Engineering for Developers - Andrew Ng (Coursera Founder + OpenAI Tech Team): [Click here](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+  - Continue Course from here: [Click here](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/2/guidelines)
+    - My notes of above course here: [Click here](./chat-gpt-prompt-engineering-for-developers.md)
+    - *Please complete this python course here: [Click here](https://github.com/sahilrajput03/learn-python/tree/master/30-days-python-asabeneh)*
+      - Also please past the output of all instruction in all files so code is readable when you want to revise that. Thanks. :)
+- [Tutorials - Get started with the OpenAI API by building real AI apps step by step.](https://platform.openai.com/docs/tutorials)
+- **TODO: (must watch) - 5minutes youtube video: Awesome course and amazing free youtube courses here - [Click here](https://www.youtube.com/watch?v=dZL78JUxZ20)**
+  - *Link to all courses in video description.*
+- All About AI - Youtube Channel: [Click here](https://www.youtube.com/@AllAboutAI/playlists), Website: [allabtai.com](https://www.allabtai.com/)
+- **❤️❤️ OpenAI Cookbook @ Github (Awesome): [Click here](https://github.com/openai/openai-cookbook)**
+- ChatGPT Tutorial for Beginners in Hindi (2023) ~ Ansh Mehra: [Click here](https://www.youtube.com/watch?v=Nz1MI8nsFTs)
+  - FlowGPT: [Click here](https://flowgpt.com/)
+  - SnakPrompt: [Click here](https://snackprompt.com/)
+- ChatGPT Masterclass: Basic to Advanced: [Click here](https://www.youtube.com/watch?v=zEeHKSD0L9M)
+  - howtoprompt.in ~ Ansh Mehra: [Click here](https://www.howtoprompt.in/)
+- *(TODO) ChatGPT 4 BEST Prompts and FREE Resources for Beginners: [Click here](https://www.youtube.com/watch?v=7hSGI5sQUE4)
+- *(TODO) Checkout these chat gpt extensions: [Click here](https://www.makeuseof.com/chatgpt-chrome-extensions-better-ai-prompts-answers-in-browsers/)
+  - *(TODO) Checkout all extensions: [Click here](https://github.com/C-Nedelcu/talk-to-chatgpt#press-coverage)
 ***
 
 ***ChatGPT was released publicy on 30 November 2022.***
 
 **Quick Links:**
-- My Conversations with ChatGPT: [Click here](https://gist.github.com/sahilrajput03/c209167002a8a52722b09fa73456e3a1)
+- **Learn Development with Ai:** [Click here](./learn-development-with-ai.md)
+- ❤️ My Conversations with ChatGPT: [Click here](./learn-chatgpt-conversation-log.md)
 - **Learn ChatGPT Api (Github Repository): [Click here](https://github.com/sahilrajput03/learn-chatgpt-api)**
 
 **Courses I found on Coursera:**
@@ -36,7 +49,47 @@
 - **Awesome** official set of articles on variety of topics, ranging from Billing to Usage of OpenAI APIs: [Click here](https://help.openai.com/en/)
 - Whisper (Audio model by OpenAI, Speech to text): [Click here](https://platform.openai.com/docs/guides/speech-to-text)
   -  Pricing: $0.006 / minute (rounded to the nearest second)
+-  Deprecations of Models, Endpoints, etc: [Click here](https://platform.openai.com/docs/deprecations)
 
+## When I asked to generate 10,000 and 2,000 words article to ChatGPT
+
+ Query | wordcounter.net | platform.openai.com/tokenizer
+-|-|-
+10,000 words article  | 998 words 6,438 characters | Tokens: 1,285, Characters: 6484
+2,000 words article | 1,128 words 7,292 characters | Tokens: 1,491, Characters 7358
+
+## When I asked to write counting upto 2_500, 5_000 and 10_000.
+
+- It denies for 5_000 and 10_000
+- It writes for upto 2500 but I need to keep pressing the **`Continue regenrating`** after very 500 counting approximately.
+
+<div align="right">Date: 7 Sep, 2023</div>
+
+## Quickstart tutorial - OpenAI end notes
+
+Source: [Click here](https://platform.openai.com/docs/quickstart/closing)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6a086262-8684-46b2-b1f8-6f85de38448e)
+
+## Completions
+
+**Correct**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/67245c92-5787-417b-9fc9-aa10635a05f7)
+
+**Incorrect:**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3d7239f6-18ab-42df-9ed5-6b40751bff11)
+
+## List of `gpt-3.5-turbo` models from api - `/models`
+
+```
+gpt-3.5-turbo-16k-0613
+gpt-3.5-turbo
+gpt-3.5-turbo-16k
+gpt-3.5-turbo-0613
+gpt-3.5-turbo-0301
+```
 
 ## General Terminologies
 
@@ -51,6 +104,11 @@ Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.ope
   - Remember that the model predicts which text is most likely to follow the text preceding it. Temperature is a value between 0 and 1 that essentially lets you control how confident the model should be when making these predictions. Lowering temperature means it will take fewer risks, and completions will be more accurate and deterministic. Increasing temperature will result in more diverse completions.
   - For your pet name generator, you probably want to be able to generate a lot of name ideas. A moderate temperature of 0.6 should work well.
 
+Source of below image: [Click here](https://platform.openai.com/docs/models/gpt-3-5)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9d223818-4055-4658-a616-d28400c91a73)
+
+
 ## DEEP DIVE - Understanding tokens and probabilities
 
 Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.openai.com/docs/quickstart/start-with-an-instruction)
@@ -58,13 +116,30 @@ Source: Official Quickstart Guide from OpenAI: [Click here](https://platform.ope
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e05aadc7-dea4-40ea-9954-7ce45ef13e25)
 
 
-## Pricing
+##  Pricing - 1/2 Most cost effective model
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2c1c031a-d7b1-4e44-a726-e626cb5b785f)
+
+## Pricing - 2/2
 
 Source Pricing: [Click here](https://openai.com/pricing#language-models)
 - **Cost of 1k input tokens + cost of 1k output tokens = (0.0015 + 0.002) = 0.0035 $ (2.90 Rs.)**
 - Article from Open AI - What are tokens and how to count them? : [Click here](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2afe3188-6b1e-4c1c-8e26-f9d6d5377c04)
+
+Image - 1/2 - **Free Trial gives you 5$** (Date: 5 September, 2023).
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/506fb091-8405-4922-bcf8-f6a855db146b)
+
+Image - 2/2 - **Free Trial gives you 5$** (Date: 5 September, 2023).
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/42d906e5-4710-4ba3-b487-b201a84c49f4)
+
+**❤️ ❤️ ❤️ Personalized model training ❤️ ❤️ ❤️ :**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cb78c0ab-6860-4449-bbc7-dd783a4fa979)
+
 
 ## Rate Limits
 
@@ -83,3 +158,18 @@ You can use the tool below to understand how a piece of text would be tokenized 
 A helpful rule of thumb is that **one token generally corresponds to ~4 characters of text for common English text**. This translates to **roughly ¾ of a word (so 100 tokens ~= 75 words)**.
 
 If you need a programmatic interface for tokenizing text, check out our [tiktoken](https://github.com/openai/tiktoken) package for Python. For JavaScript, the [gpt-3-encoder](https://www.npmjs.com/package/gpt-3-encoder) package for node.js works for most GPT-3 models.
+
+## Compartible models for each endpoint
+
+Source - Docs: [Click here](https://platform.openai.com/docs/models/model-endpoint-compatibility)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/73d08ce9-3582-4508-91e1-c9719fc9c2f1)
+
+## Zero Retention
+
+Source - Docs: [Click here](https://platform.openai.com/docs/models/how-we-use-your-data)
+
+- To help identify abuse, API data may be retained for up to 30 days, after which it will be deleted (unless otherwise required by law). For trusted customers with sensitive applications, zero data retention may be available. With zero data retention, request and response bodies are not persisted to any logging mechanism and exist only in memory in order to serve the request.
+- Note that this data policy does not apply to OpenAI's non-API consumer services like ChatGPT or DALL·E Labs.
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2779056f-6b34-4280-9350-4278310ff025)

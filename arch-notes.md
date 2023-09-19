@@ -12,6 +12,29 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## KVM: We can share files using web server made on host linux machine to the guest windows machine like that
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5635f6b3-2fd7-4858-a5db-de5af0b9d53c)
+
+## windows 10 on kvm
+
+Awesome youtube tutorial - [Click here](https://youtu.be/2WDASJ0ye0A)
+
+## Setting `typematic` (also mentioned in my feed)
+
+**Why?:** So that navigating in vscode is a bit faster with arrow keys.
+
+The initial delay between pressing a key and the start of repetition is called the *typematic delay*. The time between key repeats once repetition begins is called the *typematic rate*.
+
+```bash
+# set a typematic delay to 200ms and a typematic rate to 30Hz
+xset r rate 360 25
+
+# set default typematic delay to 660ms and a typematic rate to 25Hz
+xset r rate
+```
+
+
 ## Google drive upload doesn't work in manjaro
 
 Tested in my current Dell - Latutude 5400 and my HP - ac179tx laptop.

@@ -46,6 +46,9 @@ ssh -T git@github.com-sahilrajput03
 ssh -T git@bitbucket.org
 # OUTPUT: authenticated via ssh key.
 # OUTPUT: You can use git to connect to Bitbucket. Shell access is disabled
+
+# For GitLab
+ssh -T git@gitlab.com
 ```
 
 Step 6: In your other than default account you can use below commadn to change name and email as well:

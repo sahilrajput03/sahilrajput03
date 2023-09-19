@@ -1,22 +1,22 @@
-# TODO: do this
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8bb48247-e5fd-40e8-8b37-4412de44514f)
-
 <h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 ```bash
 echo Hello world! > /dev/null
 cat /dev/null
+() => {}
 ```
 
 <div align="right">
-	Website: <a href="https://sahilrajput03.github.io/sahilrajput03">sahilrajput03.github.io/sahilrajput03</a>
+	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
 	<br/>
 	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
 </div>
 
-# My feed: [Click here](feed.md)
+# My feed: [Click here](./feed.md)
 
+# Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+
+- TODO: Access google api with Postman: [Click here](https://blog.postman.com/how-to-access-google-apis-using-oauth-in-postman/)
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
 - I have no limitations ~ Thomas Shelby
@@ -34,11 +34,14 @@ cat /dev/null
 		- [Presentation - Web Performance Swiggy Style](https://docs.google.com/presentation/d/1snxo-EKx6PseQeznhfr-VVTEQ71EAMOdbDQ0pNR5jEA/edit#slide=id.g6b802e0221_1_1286)
 	- Developer Surveys: 
 		- Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
-		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/)
-		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
+		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/), [2023](https://survey.stackoverflow.co/2023/)
+		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [2022](https://2022.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
   - Podcasts:
-	- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
-	- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
+	- Tech
+		- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
+		- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
+	- Fun
+		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
 
 ## References:
 
@@ -77,7 +80,8 @@ cat /dev/null
 - **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
 - **Learn CLI binaries:** [Click here](./learn-cli-binary.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **Thoughts, Principles:** [Click here](./thoughts-principles.md)
+- **❤️ Thoughts, Principles:** [Click here](./thoughts-principles.md)
+- **❤️ Social rules: [Click here](./social-rules.md)**
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](./vim.md)
 - **Learn Vscode:** [Click here](./learn-vscode.md)
@@ -177,7 +181,6 @@ cat /dev/null
 - Learn Storybook: [Click here](./learn-storybook.md)
 - Learn Eslint: [Click here](./learn-eslint.md)
 - Learn Chrome: [Click here](./learn-chrome.md)
-- Social rules: [Click here](./social-rules.md)
 - Google Publisher Tag (? PubwiseAds): [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md)
 - Learn Trpc: [Click here](./learn-trpc.md)
 - Learn Paypal: [Click here](./learn-paypal.md)

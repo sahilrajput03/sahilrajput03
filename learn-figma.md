@@ -1,27 +1,49 @@
 # Learning Figma
 
-**Ansh Mehra's Recommended 50-60hrs of Figma's Resources Tutorials:** [Source](https://www.youtube.com/watch?v=YEFCoRcP4Fw)
-- TODO - 10 Figma Plugins: https://twitter.com/Sahil_dev12/status/1610938078977490944
-- TODO - Playlist - Explore design features in Figma: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23)
-- TODO - Playlist - Figma Tips: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx53btRMBES-ASBBm03-bUCJ)
-- TODO - Playlist - Office hours: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx4kKv1IdI-NdlKyCWwE6Ge6)
-- TODO - https://awesomefigtips.com/
-- TODO - https://figmalion.com/
-- More Resoucres [source](https://www.youtube.com/watch?v=iehzWCm8KHs)
-	- Case Studies of big companies - https://growth.design/
-	- Mobile Designs: https://mobbin.com/
-- TODO - https://medium.com/ansh-mehra
-- Chrome New Tab Extension: [Click here](https://chrome.google.com/webstore/detail/muzli-2-stay-inspired/glcipcfhmopcgidicgdociohdoicpdfc?hl=en)
+- TODO: Official Article - Explore auto layout properties: [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Explore-auto-layout-properties#h_01G2RPRBBKVKXK0JV59NCSKEE0)
+  - **Please continue this official video** (same page above): [Click here](https://youtu.be/floQKLsWAy4?t=336) (time stamped)
+- **Ansh Mehra's Recommended 50-60hrs of Figma's Resources Tutorials:** [Source](https://www.youtube.com/watch?v=YEFCoRcP4Fw)
+  - TODO - 10 Figma Plugins: https://twitter.com/Sahil_dev12/status/1610938078977490944
+  - TODO - Playlist - Explore design features in Figma: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23)
+  - TODO - Playlist - Figma Tips: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx53btRMBES-ASBBm03-bUCJ)
+  - TODO - Playlist - Office hours: [Click here](https://www.youtube.com/playlist?list=PLXDU_eVOJTx4kKv1IdI-NdlKyCWwE6Ge6)
+  - TODO - https://awesomefigtips.com/
+  - TODO - https://figmalion.com/
+  - More Resoucres [source](https://www.youtube.com/watch?v=iehzWCm8KHs)
+	  - Case Studies of big companies - https://growth.design/
+	  - Mobile Designs: https://mobbin.com/
+  - TODO - https://medium.com/ansh-mehra
+  - Chrome New Tab Extension: [Click here](https://chrome.google.com/webstore/detail/muzli-2-stay-inspired/glcipcfhmopcgidicgdociohdoicpdfc?hl=en)
 
 ## Resources for images, gifs, svgs ?:
 
 [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
 
+## Resizing controls have been changed in toolbar
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2d846275-881a-4252-bd59-6bbfaff70aa3)
+
+## You can use `ctrl+alt` and hover mouse over items to see their spacing and alignments from different items like that
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f2a07e8c-2361-43e5-9ad5-7a57d233197c)
+
+## You can set `Nudge Amount` like that
+
+*FYI: Nudge means to touch or push someone or something gently.*
+
+What is nudge? When you select a item and move it via left/right/up/down arrow. **Also, if you press `shift+left/right/up/down` you can move items by bigger spaces.**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/6c6854fe-ee86-4bcd-b8bc-e419ea19d46b)
+
+Then you can select smaller and bigger nudge -
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d5355a2e-f851-4d1f-b4a3-6407f4c0cca9)
+
 ## You can search superfast in your design file in figma
 
 Search in figma file by using `ctrl+f` and then you follow like that:
 
-![image](https://user-images.githubusercontent.com/31458531/223821353-2e097f86-eccb-4978-83d8-2bdc0c4dde7b.png)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4de108fd-78ab-46a0-b94a-b380ec707dd6)
 
 ## Courses:
 - Learn Design (100% theory): [Click here](https://www.figma.com/resources/learn-design/lessons/)
@@ -61,6 +83,16 @@ Search in figma file by using `ctrl+f` and then you follow like that:
   - **FYI:** There are tons of free icon figma files shared by community on figma sites itself
   - For icons search **Free figma icons** on google to get such resources.
   - Charlie marietv summary of salaries: @ keep notes.
+  - Explore auto layout properties: (OFFICIAL - [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Explore-auto-layout-properties#h_01G2RPRBBKVKXK0JV59NCSKEE0)
+    - We can adjust the baseline of items in auto layout by doing that - ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/05c01c79-0360-4931-b936-3d96126a64db)
+    - We can change the order of stacking (first item on to or last item on top) by using `Canvas stacking` feature - ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/31809514-c2ab-4abd-87f0-f5af1cc6e751)
+- **Shortcuts:**
+  - Zoom to eye view or current view: ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/991d225a-7018-443a-b74b-fc95d2afb77b)
+  - ❤️❤️❤️ Navigating Layers ❤️❤️❤️:
+    - `enter` and `shift+enter` to go into and to parent layer
+    - `tab` and `shift+tab` to go to next and previous layers
+    - `alt+l` to collase layers (this is **not working currently (12 Aug, 2023)** but you collapse layers by using quick menu `ctrl+?` and then typing `Collapse layers`
+    - Show/Hide keyboard shortcuts by `ctrl+shift+?`
 - **1st week of march**:
   - We can share styles across different files very easily with ***Team Library*** feature very easily. For demo check this timestamped video [here from figma itself](https://youtu.be/cCNLD5IZY34?t=209).
 - You can press and hold `alt` key while hovering over _text size_ numbers in the _Design tab_ to get a nice text ***size dragger*** to change the text size of textual number simply via mouse i.e, ***double headed arrow***.
@@ -108,20 +140,21 @@ Search in figma file by using `ctrl+f` and then you follow like that:
 - _Auto layout_ feature:
   - An _Auto layout_ entity in the _layers menu_ has a icon like two rectangles stacked vertically or horizontally depending on the direction you choose for the _Auto layout_.
   - Select one or more entites and press `shift+a` to enable _Auto layout_ menu in the right bar under Design menu.
-  - _Auto layout_: You can see the _Auto layout_ option in the right bar under _Design menu_ ONLY when you have selected TWO OR MORE entities. (TIP: You can still enable _Autolayout_ for single entity as well by using shortcut `shift+a`, thanks to Kevin).
-  - _Auto layout_ enables you to specify the positioning of one entity inside other entity(i.e., horizontally alignment and vertical alignment), you can do that by _Choosing Alignment and Padding_ option which is the last icon in the _Autolayout_ menu.
+  - _Auto layout_: You can see the _Auto layout_ option in the right bar under _Design menu_ ONLY when you have selected TWO OR MORE entities. (TIP: You can still enable _Auto Layout_ for single entity as well by using shortcut `shift+a`, thanks to Kevin).
+  - _Auto layout_ enables you to specify the positioning of one entity inside other entity(i.e., horizontally alignment and vertical alignment), you can do that by _Choosing Alignment and Padding_ option which is the last icon in the _auto layout_ menu.
   - A _Auto layout_ is almost like a flexbox, i.e., it can have direction horizontal or vertical. You may change the the direction by the two arrows in the _Auto layout_ menu.
-  - IMPORTANT TIP: in your _Auto layout_, say you want a group of items to be be act as a single entity then you can simply use the group option (`ctrl+g`) to group a list of items so that when you alter the attributes in your _Auto layout_ that has your group in it will behave as a single fixed entity. Yo! Thanks to kevin!
+  - IMPORTANT TIP: in your _auto layout_, say you want a group of items to be be act as a single entity then you can simply use the group option (`ctrl+g`) to group a list of items so that when you alter the attributes in your _Auto layout_ that has your group in it will behave as a single fixed entity. Yo! Thanks to kevin!
   - Source of below points: [click here](https://youtu.be/TyaGpGDFczw)
-  - You may set the space (margins) b/w items in autolayout items by adjusting *Spacing between items* option in the *Auto layout* menu. **FYI:** In case you have mixed padding right now and you want to get even padding all around, you may put the value like `10` in place of where `Mixed` text is written. **FYI:** To set manual padding you can toggle around in the Padding/alignment panel with the help of `<TAB>` key.
+  - You may set the space (margins) b/w items in auto layout items by adjusting *Spacing between items* option in the *Auto layout* menu. **FYI:** In case you have mixed padding right now and you want to get even padding all around, you may put the value like `10` in place of where `Mixed` text is written. **FYI:** To set manual padding you can toggle around in the Padding/alignment panel with the help of `<TAB>` key.
   - For the padding for the contents you can enter the padding values manually  as well say in order of top(bottom)-right(left) as `8,16` will set top-bottom as `8` and right-left as `16`. Also you can give value like in order of top, right, bottom, left as `10,20,30,40` and it'll fill it in the *padding panel*.
   - When you have text fields inside your *Auto layout*, you can fix the **width attribute** of the entity from **Fixed width** to **Fill container** in the **Resizing menu** and that way if we need to change the width of the our container *Auto layout* the text entities will scale horizontally with the our container, yo!
   - Another amazing benefit of using **Fill container** as width for text entities is that if we add more text content in the same text box then it'll simply wrap the text and thats looks really smooth though!
   - We can choose between **Space-between** and **Packed**  in the **Alignment and padding menu**(last icon in the *Auto layout* menu) when choosing the inbetween spacing (margins) for the entites in your *Auto layout*, and this way we can have settings like *space-around* or *space-between* the way we have in flexbox, yikes! And now if we scale our *Auto layout* the items would scale accoding to the settings you choose.
   - We cannot set height of anything as `0` and even if we add 0 as value to height input it'll ignore it and replace it with 1, so the fix for this is to put value i.e., `0.001` and that'll actually set the value to 0 which we actually wanted.
-  - Say in a ***horizontal button auto layout*** you want to add more content to the button text but keep the padding (horizontal padding) constant which we most of the times want to have consistent padding around all the buttons irrespective if the button text is small or large, so what we can do to achive this by changing the setting for **OUR AUTOLAYOUT ITSELF** i.e, **width** as **Hug contents** in **Constraints and resizing** menu under **Design** tab, and also set the **padding around items** in the **Auto layout** menu as our desireable padding for our required button.
-  - AMAZING: To make a simle text field a button you can make use of *Auto layout*. Say, create a text field and press `shift+a` and now you can use this autolayout to fill color to the auto layout box itself, cool(NO NEED to make separate rectangle for making buttons)! BONUS: When you change the text the color filled box will automatically adjus to the width of the text, yo!
+  - Say in a ***horizontal button auto layout*** you want to add more content to the button text but keep the padding (horizontal padding) constant which we most of the times want to have consistent padding around all the buttons irrespective if the button text is small or large, so what we can do to achive this by changing the setting for **OUR AUTO LAYOUT ITSELF** i.e, **width** as **Hug contents** in **Constraints and resizing** menu under **Design** tab, and also set the **padding around items** in the **Auto layout** menu as our desireable padding for our required button.
+  - AMAZING: To make a simle text field a button you can make use of *Auto layout*. Say, create a text field and press `shift+a` and now you can use this auto layout to fill color to the auto layout box itself, cool(NO NEED to make separate rectangle for making buttons)! BONUS: When you change the text the color filled box will automatically adjus to the width of the text, yo!
   - ***Hug contents*** means to resize to the smallest possible size to surround all of its children with only leaving space for padding. The simple meaning of hug is that the containe will try to hug the contents so leaving no extra space except the padding.
+  - Setting **`Horizontal Spacing`** to `Fill Container` - ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0d8f83e0-0773-4a29-a017-f66e7baa8f75)
   - You can also make the entity be controlled automatically say left attached or right attached or center placed or stick to left_and_right edges with the help of properties under `Constraints and resizing` [See here for visual](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout#Constraints_and_resizing).
   - Add, edit, and remove objects in *Auto layout*: [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout#Add,_edit,_and_remove_objects).
   - Nested auto layout frames: Amazinlgly explaines - [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Create-dynamic-designs-with-auto-layout#Nest_auto_layout_frames)

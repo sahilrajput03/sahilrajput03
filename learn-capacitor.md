@@ -9,6 +9,12 @@
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 
+## Using https in capacitor?
+
+- Capacitor Docs - Using HTTPS: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
+- Ionic Blog - Capacitor SSL Pinning: The Extra Layer of Security Your Mobile App Needs: [Click here](https://ionic.io/blog/capacitor-ssl-pinning)
+- A stackoverflow answer related to run google analytics via some hack: [Click here](https://stackoverflow.com/questions/73769130/google-firebase-analytics-not-working-on-ios-with-capacitor-4/75809789#75809789) 
+
 ## Know what capacitor version are you on currently?
 
 ```bash
