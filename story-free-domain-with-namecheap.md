@@ -1,6 +1,6 @@
 # free domain story with namecheap.com
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/091681c8-2863-4ba2-a714-1793dae00cdd)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/074f33ff-73c3-47f9-a7f6-247a697a173b)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ab7637a5-5ed0-4aae-aaae-dfe57e2efb4f)
 
