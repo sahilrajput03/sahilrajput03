@@ -2,7 +2,6 @@
 
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
-- 2 year free domain story from namecheap.com: [Click here](./story-free-domain-with-namecheap.md)
 
 ## port forward with router
 
