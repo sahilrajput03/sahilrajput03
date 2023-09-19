@@ -7,7 +7,7 @@ cat /dev/null
 ```
 
 <div align="right">
-	Website: <a href="https://sahilrajput03.github.io/sahilrajput03">sahilrajput03.github.io/sahilrajput03</a>
+	Website: <a href="https://sahilrajput.com">sahilrajput.com/sahilrajput03</a>
 	<br/>
 	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
 </div>
