@@ -21,6 +21,10 @@ Add below `A records` for your custom domain dns setting in your domain provider
 185.199.111.153
 ```
 
+### github pages A records for `namecheap`
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/12213b15-88e9-487d-8d2a-e3f1028ff6fe)
+
 ## Heroku
 
 Why heroku?
