@@ -7,13 +7,34 @@
 javascript:(() => alert('hello'))();
 
 # Today - Calendar Events
-javascript:(() => { let today = new Date().toISOString().split('T')[0].replaceAll('-', ''); window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${today}&end=${today}` })();
+javascript:(
+    () => { 
+        const today = new Date().toISOString().split('T')[0].replaceAll('-', '');
+        window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${today}&end=${today}`
+     }
+)();
+
 
 # Tomorrow - Calendar Events
-javascript:(() => { const today = new Date(); const tomorrow = new Date(today); tomorrow.setDate(today.getDate() + 1);let tomorrowFormatted = tomorrow.toISOString().split('T')[0].replaceAll('-', ''); window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${tomorrowFormatted}&end=${tomorrowFormatted}` })();
+javascript:(() => {
+    const today = new Date();
+    const tomorrow = new Date(today);
+    tomorrow.setDate(today.getDate() + 1);
+    let tomorrowFormatted = tomorrow.toISOString().split('T')[0].replaceAll('-', '');
+    window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${tomorrowFormatted}&end=${tomorrowFormatted}`
+})();
+
 
 # Day After Tomorrow - Calendar Events
-javascript:(() => { const today = new Date(); const dayAfterTomorrow = new Date(today); dayAfterTomorrow.setDate(today.getDate() + 2);let dayAfterTomorrowFormatted = dayAfterTomorrow.toISOString().split('T')[0].replaceAll('-', ''); window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${dayAfterTomorrowFormatted}&end=${dayAfterTomorrowFormatted}` })();
+javascript:(
+    () => { 
+        const today = new Date();
+        const dayAfterTomorrow = new Date(today);
+        dayAfterTomorrow.setDate(today.getDate() + 2);
+        let dayAfterTomorrowFormatted = dayAfterTomorrow.toISOString().split('T')[0].replaceAll('-', '');
+        window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${dayAfterTomorrowFormatted}&end=${dayAfterTomorrowFormatted}`;
+     }
+)();
 ```
 
 ## Reminders removed completely from google calendar and turned into tasks
