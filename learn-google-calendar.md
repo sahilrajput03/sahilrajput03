@@ -20,7 +20,7 @@ javascript:(() => {
     const today = new Date();
     const tomorrow = new Date(today);
     tomorrow.setDate(today.getDate() + 1);
-    let tomorrowFormatted = tomorrow.toISOString().split('T')[0].replaceAll('-', '');
+    const tomorrowFormatted = tomorrow.toISOString().split('T')[0].replaceAll('-', '');
     window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${tomorrowFormatted}&end=${tomorrowFormatted}`
 })();
 
