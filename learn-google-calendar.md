@@ -1,5 +1,21 @@
 # Google Calendar
 
+## Bookmark these for accessing per day events in calendar
+
+```bash
+# hello world with bookmark scripting
+javascript:(() => alert('hello'))();
+
+# Today - Calendar Events
+javascript:(() => { let today = new Date().toISOString().split('T')[0].replaceAll('-', ''); window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${today}&end=${today}`%20})();
+
+# Tomorrow - Calendar Events
+javascript:(() => { const today = new Date(); const tomorrow = new Date(today); tomorrow.setDate(today.getDate() + 1);let tomorrowFormatted = tomorrow.toISOString().split('T')[0].replaceAll('-', ''); window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${tomorrowFormatted}&end=${tomorrowFormatted}`%20})();
+
+# Day After Tomorrow - Calendar Events
+javascript:(() => { const today = new Date(); const dayAfterTomorrow = new Date(today); dayAfterTomorrow.setDate(today.getDate() + 2);let dayAfterTomorrowFormatted = dayAfterTomorrow.toISOString().split('T')[0].replaceAll('-', ''); window.location  = `https://calendar.google.com/calendar/u/0/r/search?start=${dayAfterTomorrowFormatted}&end=${dayAfterTomorrowFormatted}`%20})();
+```
+
 ## Reminders removed completely from google calendar and turned into tasks
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/edbc9928-0ccc-439d-a17f-261a326402de)
