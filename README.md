@@ -82,6 +82,7 @@ cat /dev/null
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **❤️ Thoughts, Principles:** [Click here](./thoughts-principles.md)
 - **❤️ Social rules: [Click here](./social-rules.md)**
+- **❤️Office Ethics: [Click here](./office-ethics.md)**
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](./vim.md)
 - **Learn Vscode:** [Click here](./learn-vscode.md)
