@@ -2,12 +2,23 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+# Executing javascript wiht a bookmark on a page
+
+```js
+javascript:(function() {
+console.log("Hello, World!");
+})();
+```
+
+<div align="right">Date: 20 Sep, 2023</div>
+
 # Choosing b/w NodeJS based cronjobs vs. linux cron jobs
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/27365c99-3d97-431e-a9d5-4246e8a98f34)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/c45f186e-800a-478a-b897-6c415997f4dd)
 
+<div align="right">Date: 14 Sep, 2023</div>
 
 # What is typematic?
 
