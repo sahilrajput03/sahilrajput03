@@ -15,6 +15,10 @@
 - Online mongodb-cli Playground: [Click here - mongoplayground.net](https://mongoplayground.net/), [Click here 2](https://www.humongous.io/app/playground/mongodb)
 - Detect a file type restred db file: [Click here](https://stackoverflow.com/a/68232243/10012446)
 
+# Exploring data with official mongodb extension with mogno playground **in vscode**
+
+Docs: [Click here](https://www.mongodb.com/docs/mongodb-vscode/playgrounds/)
+
 # Using mongoexport, mongorestore, etc
 
 - Which one is the preferred choice Mongodump VS Mongoexport for upgrading mongoDB database?: [Click here](https://stackoverflow.com/questions/44562993/which-one-is-the-preferred-choice-mongodump-vs-mongoexport-for-upgrading-mongodb)
