@@ -19,6 +19,8 @@
 
 Docs: [Click here](https://www.mongodb.com/docs/mongodb-vscode/playgrounds/)
 
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/18ea6c10-d8c1-4b4d-b60d-cde5c8019398)
+
 # Using mongoexport, mongorestore, etc
 
 - Which one is the preferred choice Mongodump VS Mongoexport for upgrading mongoDB database?: [Click here](https://stackoverflow.com/questions/44562993/which-one-is-the-preferred-choice-mongodump-vs-mongoexport-for-upgrading-mongodb)
