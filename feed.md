@@ -2,7 +2,7 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-# Executing javascript wiht a bookmark on a page
+# Executing javascript with a bookmark on a page
 
 ```js
 javascript:(function() {
