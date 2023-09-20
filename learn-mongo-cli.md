@@ -19,6 +19,8 @@
 
 Docs: [Click here](https://www.mongodb.com/docs/mongodb-vscode/playgrounds/)
 
+*FYI: Using my own way of creatinig files and running them on save with nodemon is much much better though.*
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/18ea6c10-d8c1-4b4d-b60d-cde5c8019398)
 
 # Using mongoexport, mongorestore, etc
