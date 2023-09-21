@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## httpOnly vs. secure cookies
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/24f96888-5061-4a84-bd95-865a948296e2)
+
 ## Executing javascript with a bookmark on a page
 
 ```js
