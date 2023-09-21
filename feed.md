@@ -2,7 +2,7 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-# Executing javascript with a bookmark on a page
+## Executing javascript with a bookmark on a page
 
 ```js
 javascript:(function() {
@@ -12,7 +12,7 @@ javascript:(function() {
 
 <div align="right">Date: 20 Sep, 2023</div>
 
-# Choosing b/w NodeJS based cronjobs vs. linux cron jobs
+## Choosing b/w NodeJS based cronjobs vs. linux cron jobs
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/27365c99-3d97-431e-a9d5-4246e8a98f34)
 
@@ -20,13 +20,13 @@ javascript:(function() {
 
 <div align="right">Date: 14 Sep, 2023</div>
 
-# What is typematic?
+## What is typematic?
 
 The initial delay between pressing a key and the start of repetition is called the _typematic delay_. The time between key repeats once repetition begins is called the _typematic rate_.
 
 <div align="right">Date: 12 Sep, 2023</div>
 
-# Difference between Ionic and Capacitor?
+## Difference between Ionic and Capacitor?
 
 Source: [Click here](https://forum.ionicframework.com/t/what-is-the-difference-between-ionic-and-capacitor/226726)
 
@@ -36,7 +36,7 @@ Correct, Capacitor is required to use native functionality in your Ionic app lik
 
 <div align="right">Date: 11 Sep, 2023</div>
 
-# variable name `is`
+## variable name `is`
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5843d072-2c7c-4e05-b13b-3342518e7767)
 
