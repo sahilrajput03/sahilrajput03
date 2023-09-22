@@ -1,5 +1,6 @@
 # Office Ethics
 
+- Fridays should be no exercise and jump start the day with tea.
 - Always message your manager when you start your day and 30 minutes before you close the day as it can help them realize that you're responsible, available and focussed on work instead of having them think that they always need to give separate time to manage you. Thus you are your own manager this way.
 - Always try to time-bound a task by using the jira tool if possible as it gives you more freedom, confidence and power to you in the long term as a responsible tech leader.
 - Always check all the ticket before you start your day or whenever tickets are assigned to you because some issue might be:
