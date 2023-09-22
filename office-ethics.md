@@ -7,5 +7,4 @@
   - need just your code review, which can be interesting to do and might only take 10 mins to do
   - just need some suggestion from you and thus clear you as the dependency on the task progress
   - very short task that it doesn't need to make the list look long, thus just fix it immediately if you can afford it. OR just prioritize that first on the task list as it'll give you confidence.
-
-
+- Laziness and procrastination will kill you if you don't kill them.
