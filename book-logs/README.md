@@ -1,5 +1,8 @@
 # Books
 
+**Quick Links:**
+- Reading Techniques: [Click here](reading-techniques.md)
+
 **Currently reading:**
 - Grit: The Power of Passion and Perseverance ~ Angela Duckworth ~ [Exerpt](grit.txt)
 - Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future ~ Ashlee Vance
@@ -26,7 +29,3 @@
 **Fictional:**
 
 - Five Point Someone - *Chetan Bhagat*, Half Girlfriend - Chetan Bhagat, One Night at the Call Centre - Chetan Bhagat, Revolution 2020 - Chetan Bhagat, Of Course I Love You - *Durjoy Datta*, Oh Yes, I'm Single!: And So is My Girlfriend! - *Durjoy Datta*, Space is Fake ~ *Varun Mayya*, Harry Potter 1 - Haryy Potter and the Socerer's Stone - *Joanne Rowling {or J. K. Rowling}*
-
-**Reading Techniques:**
-
-- [Click here](reading-techniques.md)
