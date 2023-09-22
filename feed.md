@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Google Text to speech in Cloud in Action
+
+Source: [Click here](https://cloud.google.com/text-to-speech/#put-text-to-speech-into-action)
+
+<div align="right">Date: 22 Sep, 2023</div>
+
 ## httpOnly vs. secure cookies, are they same?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/24f96888-5061-4a84-bd95-865a948296e2)
