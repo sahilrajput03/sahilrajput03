@@ -26,7 +26,7 @@ Other tools if you wanna try:
 
 Some voice models I like -
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/48168f08-828a-4672-a577-ad5b744b1f55)
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/48168f08-828a-4672-a577-ad5b744b1f55" width="200" />
 
 2. [ReadFast powered by Spritz](https://chrome.google.com/webstore/detail/readfast-powered-by-sprit/blbpafkooanpdcdcndkcckblghjddpke/related?hl=en)
 3. [Read fast - Speed Reading Extension](https://chrome.google.com/webstore/detail/read-fast-speed-reading-e/pnffahcjemjliibgcafjpklgmbeknldi?hl=en) (haven't tried at all)
