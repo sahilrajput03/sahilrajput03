@@ -22,6 +22,7 @@
 - *DevOps with Kubernetes, FSO part 12 and part 13.*
 - *Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
 - Neuro Linguistic Programming: [Click here](https://www.udemy.com/topic/neuro-linguistic-programming/)
+- Build 20+ mini projects using nothing but HTML5, CSS & JavaScript. No JS or CSS frameworks, no libraries, etc ~ By Traversy Media: [Click here](https://www.udemy.com/course/web-projects-with-vanilla-javascript/?referralCode=F9B7C7FED834F91ADE75)
 
 **General**
 
