@@ -23,6 +23,15 @@ pamixer -i 5
 
 # to decrease 5%
 pamixer -d 5
+
+
+##### Old i3 config file commands work directly in cli as well
+# increase 10%
+pactl set-sink-volume @DEFAULT_SINK@ +10%
+# decrease 10%
+pactl set-sink-volume @DEFAULT_SINK@ -10%
+# toggle mute/unmute
+pactl set-sink-mute @DEFAULT_SINK@ toggle
 ```
 
 ## KVM: We can share files using web server made on host linux machine to the guest windows machine like that
