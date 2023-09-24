@@ -15,10 +15,13 @@
 ## pipewire sound controls with commands
 
 ```bash
-#to increase 5%
+# install
+sudo pacman -S pamixer
+
+# to increase 5%
 pamixer -i 5
 
-#to decrease 5%
+# to decrease 5%
 pamixer -d 5
 ```
 
