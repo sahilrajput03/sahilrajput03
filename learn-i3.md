@@ -1,5 +1,12 @@
 # Learn i3
 
+## Get alsamixer floated
+
+```bash
+# get alsamixer
+ctrl+mod+m
+```
+
 ## Finding window name for making them float
 
 1. ♥ Source: [Click here](https://unix.stackexchange.com/a/494168/504112)
