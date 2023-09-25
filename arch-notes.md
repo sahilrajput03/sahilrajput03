@@ -19,6 +19,8 @@ Source: [Click here](https://unix.stackexchange.com/a/685714/504112)
 
 ```bash
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+
+# Please logout and login again to take this into effect
 ```
 
 ## Pipewire sound controls with commands
