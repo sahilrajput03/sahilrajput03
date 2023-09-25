@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Integrated end-to-end testing framework written in Node.js and using W3C Webdriver API. Developed at @browserstack
+
+Github: [Click here](https://github.com/nightwatchjs/nightwatch)
+
+<div align="right">Date: 22 Sep, 2023</div>
+
 ## Google Text to speech in Cloud in Action
 
 Source: [Click here](https://cloud.google.com/text-to-speech/#put-text-to-speech-into-action)
