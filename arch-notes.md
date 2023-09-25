@@ -12,7 +12,16 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
-## pipewire sound controls with commands
+
+## Fix emoji fonts in i3 + manajaro
+
+Source: [Click here](https://unix.stackexchange.com/a/685714/504112)
+
+```bash
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+```
+
+## Pipewire sound controls with commands
 
 ```bash
 # install
