@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Why CRA is not listed on react.dev docs?
+
+Check this issue's comment: [Click here](https://github.com/facebook/create-react-app/issues/13072#issuecomment-1475001972)
+
 ## Integrated end-to-end testing framework written in Node.js and using W3C Webdriver API. Developed at @browserstack
 
 Github: [Click here](https://github.com/nightwatchjs/nightwatch)
