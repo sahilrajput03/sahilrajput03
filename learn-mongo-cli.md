@@ -15,6 +15,19 @@
 - Online mongodb-cli Playground: [Click here - mongoplayground.net](https://mongoplayground.net/), [Click here 2](https://www.humongous.io/app/playground/mongodb)
 - Detect a file type restred db file: [Click here](https://stackoverflow.com/a/68232243/10012446)
 
+# Piyush's Project vs. Slasher's Project
+
+- In piyush's project, we got `userSchema.pre('save', () => {...})` method and it updates `password` field to be hashed i.e., `User.create({ password: 'plain-text'})` automatically saved password to hash. This is cool, and the current note-zipper project has the implementation for the `userFactory`. The big difference b/w `userFactory` of piyush's project and slasher project is that slasher's project uses transient properties which is not needed at all when we have auto hashing of passwords set on the schema.
+- In slasher's project, we have defiend custom schema methods i.e, `UserSchema.methods.setUnhashedPassword = () => {...}`  which  works like below:
+
+```js
+const user = new User(userRegisterDto);
+// set the hashed password manually on the user document
+user.setUnhashedPassword(userRegisterDto.password);
+// needed to updated in db
+await userDetails.save();
+```
+
 # Exploring data with official mongodb extension with mogno playground **in vscode**
 
 Docs: [Click here](https://www.mongodb.com/docs/mongodb-vscode/playgrounds/)
