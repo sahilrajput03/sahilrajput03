@@ -175,6 +175,9 @@ pacman -S cloc
 
 # Usage:
 cloc --exclude-dir=node_modules .
+
+# calculating lines of code by ignoring some folders and some types of languages
+cloc --exclude-dir=node_modules,.vscode,android,ios,build --exclude-lang=JSON,Text,SVG,Markdown,YAML,XML,HTML ./src
 ```
 
 ![image](https://user-images.githubusercontent.com/31458531/234203959-baf6067f-edc6-f4c70-9a0a-f38ee67879f0.png)
