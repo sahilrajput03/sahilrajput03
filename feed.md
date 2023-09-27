@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Cursor based pagination vs. Number based pagination?
+
+Prefer number based pagination when you have literally number on your view, i.e, if you have numbers ie., 1,2,3 on your pagination component then it makes sense to make use of number based pagination instead of cursor based pagination because with cursor based pagination we can not get items of a particular page i.e, we can not use `skip` value to skip some items.
+
+Cursor based pagination is good for messaging where you would load messages continuously only, i.e, there is no skipping of data. (For more info check search for `cursor based pagination` on my home page of github).
+
 ## Why CRA is not listed on react.dev docs?
 
 Check this issue's comment: [Click here](https://github.com/facebook/create-react-app/issues/13072#issuecomment-1475001972)
