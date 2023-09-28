@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+# zero based and one based indexing
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/659652d2-2e69-4534-bced-d979becb0ece)
+
 ## Cursor based pagination vs. Number based pagination?
 
 Prefer number based pagination when you have literally number on your view, i.e, if you have numbers ie., 1,2,3 on your pagination component then it makes sense to make use of number based pagination instead of cursor based pagination because with cursor based pagination we can not get items of a particular page i.e, we can not use `skip` value to skip some items.
