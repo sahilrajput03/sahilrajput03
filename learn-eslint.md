@@ -1,5 +1,12 @@
 # Learn Eslint
 
+## Disable eslint temporarily for a file (slasher tested)
+
+```
+// ! Please remove below line before making PR
+/* eslint-disable */
+```
+
 ## With Piyush - Setup Eslint in a backend project
 
 1. Install dependencies -
