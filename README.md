@@ -14,6 +14,8 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
+# Common mistakes in engligh: [Click here](learn-common-mistakes-in-english.md)
+
 Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
