@@ -53,6 +53,7 @@
 - Build An NFT Marketplace From Scratch - Blockchain DApp: [Udemy](https://www.udemy.com/course/build-an-nft-marketplace-from-scratch-blockchain-dapp/), Google Drive - [ Click here](https://drive.google.com/drive/folders/1o7eExDuepyTlyMUeospr1epx-xF9ELM9)
 - Become a Blockchain Developer: Ethereum + Solidity: [Click here](https://www.udemy.com/course/jpcourses-ethereum-smart-contract-programming-with-solidity-project)
 - Learn smart contracts and Dapp development for Ethereum: [Click here](https://pro.eattheblocks.com/p/6-figure-blockchain-developerLearn)
+- Learn javascript by a game: [Click here](https://js.coderslang.com/)
 
 **Javascript Docs and Prime Resources**
 
