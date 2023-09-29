@@ -590,7 +590,11 @@ sudo pacman -S epiphany
 [Source1](https://aur.archlinux.org/packages/bun-bin), [Source2](https://aur.archlinux.org/packages/bun).
 
 ```bash
-yay -S bun-bin
+# Official way of installing (29 Sept, 2022)
+curl -fsSL https://bun.sh/install | bash
+
+
+# yay -S bun-bin
 # used source1
 ```
 
