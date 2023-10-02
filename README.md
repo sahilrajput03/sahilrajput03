@@ -3,7 +3,7 @@
 ```bash
 echo Hello world! > /dev/null
 cat /dev/null
-() => {}
+!!(() => {})
 ```
 
 <div align="right">
@@ -14,9 +14,10 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
-# Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+# Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
 
-- TODO: Access google api with Postman: [Click here](https://blog.postman.com/how-to-access-google-apis-using-oauth-in-postman/)
+Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
 - I have no limitations ~ Thomas Shelby
@@ -40,6 +41,7 @@ cat /dev/null
 	- Tech
 		- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
 		- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
+		- General Musings ~ Kevin Powell: [Click here](https://open.spotify.com/show/1scASfrTESkNKPffUJ4CPW?utm_source=convertkit&utm_medium=email&utm_campaign=The+CSS+Mindset%20-%2011813412) 
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
 
@@ -82,6 +84,7 @@ cat /dev/null
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **❤️ Thoughts, Principles:** [Click here](./thoughts-principles.md)
 - **❤️ Social rules: [Click here](./social-rules.md)**
+- **❤️Office Ethics: [Click here](./office-ethics.md)**
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](./vim.md)
 - **Learn Vscode:** [Click here](./learn-vscode.md)
@@ -206,7 +209,9 @@ cat /dev/null
 - Learn Upwork (private repository): [Click here](./learn-upwork)
 - Learn Flameshot: [Click here](./learn-flameshot.md)
 - Learn Wordpress Editing: [Click here](./learn-wordpress-editing.md)
-- Learn Capacitor: [Click here](./learn-capacitor.md)
+- **Learn Capacitor:** [Click here](./learn-capacitor.md)
+- **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
+- **Learn Google Play Console:** [Click here](learn-playconsole.md)
 - Learn Development with AI (Artificial Development): [Click here](./learn-development-with-ai.md)
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
@@ -223,3 +228,4 @@ cat /dev/null
 - Why you should not text your girlfriend?: [Click here](./why-you-should-not-text-your-girlfriend-much.md)
 - Learn Anydesk: [Click here](learn-anydesk.md)
 - My youtube video ids: [Click here](./my-youtube-video-ids.md)
+- Learn Zerodha: [Click here](learn-zerodha.md)

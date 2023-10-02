@@ -2,20 +2,63 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-# Choosing b/w NodeJS based cronjobs vs. linux cron jobs
+# zero based and one based indexing
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/659652d2-2e69-4534-bced-d979becb0ece)
+
+## Cursor based pagination vs. Number based pagination?
+
+Prefer number based pagination when you have literally number on your view, i.e, if you have numbers ie., 1,2,3 on your pagination component then it makes sense to make use of number based pagination instead of cursor based pagination because with cursor based pagination we can not get items of a particular page i.e, we can not use `skip` value to skip some items.
+
+Cursor based pagination is good for messaging where you would load messages continuously only, i.e, there is no skipping of data. (For more info check search for `cursor based pagination` on my home page of github).
+
+## Why CRA is not listed on react.dev docs?
+
+Check this issue's comment: [Click here](https://github.com/facebook/create-react-app/issues/13072#issuecomment-1475001972)
+
+## Integrated end-to-end testing framework written in Node.js and using W3C Webdriver API. Developed at @browserstack
+
+Github: [Click here](https://github.com/nightwatchjs/nightwatch)
+
+<div align="right">Date: 22 Sep, 2023</div>
+
+## Google Text to speech in Cloud in Action
+
+Source: [Click here](https://cloud.google.com/text-to-speech/#put-text-to-speech-into-action)
+
+<div align="right">Date: 22 Sep, 2023</div>
+
+## httpOnly vs. secure cookies, are they same?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/24f96888-5061-4a84-bd95-865a948296e2)
+
+<div align="right">Date: 22 Sep, 2023</div>
+
+## Executing javascript with a bookmark on a page
+
+```js
+javascript:(function() {
+	console.log("Hello, World!");
+})();
+```
+
+<div align="right">Date: 20 Sep, 2023</div>
+
+## Choosing b/w NodeJS based cronjobs vs. linux cron jobs
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/27365c99-3d97-431e-a9d5-4246e8a98f34)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/c45f186e-800a-478a-b897-6c415997f4dd)
 
+<div align="right">Date: 14 Sep, 2023</div>
 
-# What is typematic?
+## What is typematic?
 
 The initial delay between pressing a key and the start of repetition is called the _typematic delay_. The time between key repeats once repetition begins is called the _typematic rate_.
 
 <div align="right">Date: 12 Sep, 2023</div>
 
-# Difference between Ionic and Capacitor?
+## Difference between Ionic and Capacitor?
 
 Source: [Click here](https://forum.ionicframework.com/t/what-is-the-difference-between-ionic-and-capacitor/226726)
 
@@ -25,7 +68,7 @@ Correct, Capacitor is required to use native functionality in your Ionic app lik
 
 <div align="right">Date: 11 Sep, 2023</div>
 
-# variable name `is`
+## variable name `is`
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5843d072-2c7c-4e05-b13b-3342518e7767)
 
@@ -214,16 +257,6 @@ More official from telegram projects:
 
 ![image](https://user-images.githubusercontent.com/31458531/236382659-d309edcf-c64e-486e-9f93-9aed366ea159.png)
 
-
-## Android
-
-- Shared Preferences Storage is only accessible by the application itself: [Click here](https://developer.android.com/training/data-storage/shared-preferences#get-handle)
-
-![image](https://user-images.githubusercontent.com/31458531/236378843-cf64bd11-3333-40c0-a7d9-ced1b74e4125.png)
-
-- Android Shared Preferences Storage: [Source](https://stackoverflow.com/a/9244620/10012446)
-
-![image](https://user-images.githubusercontent.com/31458531/236378634-80a988c0-ff74-41ea-bd8c-eb50aa393c26.png)
 
 ## Why refresh tokens?
 

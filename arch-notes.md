@@ -12,6 +12,39 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+
+## Fix emoji fonts in i3 + manajaro
+
+Source: [Click here](https://unix.stackexchange.com/a/685714/504112)
+
+```bash
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+
+# Please logout and login again to take this into effect
+```
+
+## Pipewire sound controls with commands
+
+```bash
+# install
+sudo pacman -S pamixer
+
+# to increase 5%
+pamixer -i 5
+
+# to decrease 5%
+pamixer -d 5
+
+
+##### Old i3 config file commands work directly in cli as well
+# increase 10%
+pactl set-sink-volume @DEFAULT_SINK@ +10%
+# decrease 10%
+pactl set-sink-volume @DEFAULT_SINK@ -10%
+# toggle mute/unmute
+pactl set-sink-mute @DEFAULT_SINK@ toggle
+```
+
 ## KVM: We can share files using web server made on host linux machine to the guest windows machine like that
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5635f6b3-2fd7-4858-a5db-de5af0b9d53c)
@@ -142,6 +175,9 @@ pacman -S cloc
 
 # Usage:
 cloc --exclude-dir=node_modules .
+
+# calculating lines of code by ignoring some folders and some types of languages
+cloc --exclude-dir=node_modules,.vscode,android,ios,build --exclude-lang=JSON,Text,SVG,Markdown,YAML,XML,HTML ./src
 ```
 
 ![image](https://user-images.githubusercontent.com/31458531/234203959-baf6067f-edc6-f4c70-9a0a-f38ee67879f0.png)
@@ -554,7 +590,11 @@ sudo pacman -S epiphany
 [Source1](https://aur.archlinux.org/packages/bun-bin), [Source2](https://aur.archlinux.org/packages/bun).
 
 ```bash
-yay -S bun-bin
+# Official way of installing (29 Sept, 2022)
+curl -fsSL https://bun.sh/install | bash
+
+
+# yay -S bun-bin
 # used source1
 ```
 

@@ -23,6 +23,11 @@ ALL YOU NEED TO DO IS:
 Other tools if you wanna try:
 
 1. [Read Aloud: A Text to Speech Voice Reader ~ Amazing](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en), Guide on integrating it to goodle doc: [Click here](https://blog.readaloud.app/2021/09/google-docs-update.html)
+
+Some voice models I like -
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/48168f08-828a-4672-a577-ad5b744b1f55" width="200" />
+
 2. [ReadFast powered by Spritz](https://chrome.google.com/webstore/detail/readfast-powered-by-sprit/blbpafkooanpdcdcndkcckblghjddpke/related?hl=en)
 3. [Read fast - Speed Reading Extension](https://chrome.google.com/webstore/detail/read-fast-speed-reading-e/pnffahcjemjliibgcafjpklgmbeknldi?hl=en) (haven't tried at all)
 4. Article on fast reading apps [here](https://www.readlax.com/blog/en/5_speed_reading_extensions_chrome).
