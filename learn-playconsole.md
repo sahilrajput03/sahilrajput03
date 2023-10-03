@@ -20,7 +20,7 @@
 
 The issue while publishing the app to any track, I was getting error that AdvertisingId permissino is not included in this build. The issue is described better here -
 
-**The solution of this error is that it was complaining on behalf of older build in other tracks which didn't have this permission in their `manifest.json` file. I did add the permission in current build but didn't have in other testing tracks i.e, open testing and internal testing tracks. So releasing the same build to all tracks did fix this warning instantly.
+**The solution of this error is that it was complaining on behalf of older build in other tracks which didn't have this permission in their `manifest.json` file. I did add the permission in current build but didn't have in other testing tracks i.e, open testing and internal testing tracks. So releasing the same build to all tracks did fix this warning instantly.**
 
 ## We need to send for review for google after you submit an AAB/APK?
 
