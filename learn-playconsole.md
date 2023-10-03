@@ -15,6 +15,11 @@
 - There are some monetization and country availability exceptions for internal tests. For details, go to the section on setting up an internal test.
 - Paid apps: If you’re testing a paid app using an open or closed test, testers still need to purchase it. If you’re testing a paid app using an internal test, testers can install your app for free.
 
+## We need to send for review for google after you submit an AAB/APK?
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/227028bc-9cf1-4350-8913-1b9a38c02dab" alt="drawing" width="700"/>
+
+
 ## Google is now removing releases for any android version whose android version hasn't been released in last 1 year
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ffcded5a-b9f0-450d-b4c0-c88b50af781b)
