@@ -17,6 +17,8 @@
 
 ## We need to send for review for google after you submit an AAB/APK?
 
+Tasg: publishing to play console, publish to play console, publish
+
 <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/227028bc-9cf1-4350-8913-1b9a38c02dab" alt="drawing" width="700"/>
 
 
