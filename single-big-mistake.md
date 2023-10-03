@@ -11,3 +11,4 @@
 Fix procrastination by:
 
   - Divide task into two parts, and keep dividing each part into further two parts. And start doing each of these tasks.
+  - Do the tasks right now which takes less than 5 mins.
