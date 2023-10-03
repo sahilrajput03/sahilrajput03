@@ -9,7 +9,7 @@
 - Voice Cloner - https://resemble.ai/
 - Awesome* Text to Speech - https://elevenlabs.io/speech-synthesis
 
-## Ai tools Suggested by Varun Mayya - 
+## Ai tools with github repos - 
 
 **Source: Continue Watching (time stamped): [Click here](https://youtu.be/LRdS4BAfgMo?t=1111)**
 - Midjourney - [midjourney.com](https://www.midjourney.com/), Bot - `InsightFace` to change faces in the desired imgaes
