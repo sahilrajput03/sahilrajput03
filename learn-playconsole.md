@@ -8,12 +8,26 @@
 - Set up an open, closed, or internal test \| **PlayConsole**: [Click here](https://support.google.com/googleplay/android-developer/answer/9845334) Amazing youtube video explanation about these three: [Click here](https://www.youtube.com/watch?v=AqFocbUV810&t=31s)
 - Distribute app releases to specific countries: [Click here](https://support.google.com/googleplay/android-developer/answer/7550024?hl=en)
 - Issue - **Google Play Alpha: App not available for this account:** [Click here](https://stackoverflow.com/questions/59090859/google-play-alpha-app-not-available-for-this-account)
-- Issue - **A manifest file in one of your active artifacts doesn't include the AD_ID permission:** [Click here](https://support.google.com/googleplay/android-developer/thread/235388030/a-manifest-file-in-one-of-your-active-artifacts-doesn-t-include-the-ad-id-permission?hl=en)
 
 **PlayStore notes:**
 - Country availability is changed across all tracks.
 - There are some monetization and country availability exceptions for internal tests. For details, go to the section on setting up an internal test.
 - Paid apps: If you’re testing a paid app using an open or closed test, testers still need to purchase it. If you’re testing a paid app using an internal test, testers can install your app for free.
+
+## ISSUE - Advertising id permission is not inlcuded in this build
+
+- Issue - **A manifest file in one of your active artifacts doesn't include the AD_ID permission:** [Click here](https://support.google.com/googleplay/android-developer/thread/235388030/a-manifest-file-in-one-of-your-active-artifacts-doesn-t-include-the-ad-id-permission?hl=en)
+
+The issue while publishing the app to any track, I was getting error that AdvertisingId permissino is not included in this build. The issue is described better here -
+
+**The solution of this error is that it was complaining on behalf of older build in other tracks which didn't have this permission in their `manifest.json` file. I did add the permission in current build but didn't have in other testing tracks i.e, open testing and internal testing tracks. So releasing the same build to all tracks did fix this warning instantly.**
+
+## We need to send for review for google after you submit an AAB/APK?
+
+Tasg: publishing to play console, publish to play console, publish
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/227028bc-9cf1-4350-8913-1b9a38c02dab" alt="drawing" width="700"/>
+
 
 ## Google is now removing releases for any android version whose android version hasn't been released in last 1 year
 

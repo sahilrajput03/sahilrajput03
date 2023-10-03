@@ -9,7 +9,7 @@
 - Voice Cloner - https://resemble.ai/
 - Awesome* Text to Speech - https://elevenlabs.io/speech-synthesis
 
-## Ai tools Suggested by Varun Mayya - 
+## Ai tools with github repos - 
 
 **Source: Continue Watching (time stamped): [Click here](https://youtu.be/LRdS4BAfgMo?t=1111)**
 - Midjourney - [midjourney.com](https://www.midjourney.com/), Bot - `InsightFace` to change faces in the desired imgaes
@@ -17,6 +17,7 @@
 - Stable Diffusion v2 - Github Repo (24.6K*): [Click here](https://github.com/Stability-AI/stablediffusion)
 - Stable Diffusion - Web UI - Github Repo (83.8K*): [Click here](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - MiniGPT-4 Github Repo (22K*): [Click here](https://github.com/Vision-CAIR/MiniGPT-4)
+- llama: [Click here](https://github.com/facebookresearch/llama), llama-recepies: [Click here](https://github.com/facebookresearch/llama-recipes)
 
 More:
 - Is midjourney opensource: youtube - [Click here](https://www.youtube.com/watch?v=HSdp_Qe4VgY)

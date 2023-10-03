@@ -13,6 +13,12 @@
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
 
+## Default file manager in i3
+
+```bash
+pcmanfm
+```
+
 ## Fix emoji fonts in i3 + manajaro
 
 Source: [Click here](https://unix.stackexchange.com/a/685714/504112)
