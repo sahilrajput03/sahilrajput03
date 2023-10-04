@@ -2,6 +2,13 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## ASIN
+
+- ASIN stands for Amazon Standard Identification Number. It's a unique 10-digit alphanumerical identifier that Amazon assigns to each of its products. ASINs are used to identify products in Amazon's database. 
+- Each ASIN is unique and associated with a particular product or product variation. For books, the ASIN is the same as the ISBN number. 
+- ASINs are Amazon's own system for managing its huge catalog. They're primarily used for product-identification within their product catalog of billions of items. 
+
+
 ## Can I Link to a Search Results Page on Amazon with My Affiliate Tag?
 
 [Click here](https://amalinkspro.com/blog/amazon-affiliate-link-to-search-results/)
