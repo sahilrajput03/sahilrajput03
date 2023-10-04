@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## How To Scrape Amazon.com Products & Reviews
+
+[Click here](https://scrapeops.io/web-scraping-playbook/how-to-scrape-amazon)
+
 ## ASIN
 
 - ASIN stands for Amazon Standard Identification Number. It's a unique 10-digit alphanumerical identifier that Amazon assigns to each of its products. ASINs are used to identify products in Amazon's database. 
