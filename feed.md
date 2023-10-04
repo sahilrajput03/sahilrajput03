@@ -7,6 +7,11 @@
 - PYTHONG - How To Build An Amazon Product Scraper With Node.js: [Click here](https://www.smashingmagazine.com/2021/10/building-amazon-product-scraper-nodejs/)
 - NODEJS - How To Scrape Amazon.com Products & Reviews [Click here](https://scrapeops.io/web-scraping-playbook/how-to-scrape-amazon)
 
+```js
+// Searching books on amazon via a url:
+// https://www.amazon.com/s?k=Christine+by+Stephen+King&i=stripbooks-intl-ship
+```
+
 <div align="right">Date: 4 Oct, 2023</div>
 
 ## ASIN
