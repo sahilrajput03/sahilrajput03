@@ -4,9 +4,9 @@
 
 ## Making amazon affiliate link programatically
 
-Stackoverflow: [Click here](https://stackoverflow.com/a/76639054/10012446)
-
-Amazon Docs (below screenshot): [Click here](https://affiliate-program.amazon.com/help/node/topic/GP38PJ6EUR6PFBEC)
+- Stackoverflow: [Click here](https://stackoverflow.com/a/76639054/10012446)
+- Amazon Docs (below screenshot) (for product-details page): [Click here](https://affiliate-program.amazon.com/help/node/topic/GP38PJ6EUR6PFBEC)
+- Link To Any Page (search results page): [Click here](https://affiliate-program.amazon.com/home/textlink/general)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5eacc836-300e-4f17-bc27-ab77939c46fc)
 
