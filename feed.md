@@ -2,9 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-## How To Scrape Amazon.com Products & Reviews
+## Producst scraping on amazong.com (#scrape)
 
-[Click here](https://scrapeops.io/web-scraping-playbook/how-to-scrape-amazon)
+- PYTHONG - How To Build An Amazon Product Scraper With Node.js: [Click here](https://www.smashingmagazine.com/2021/10/building-amazon-product-scraper-nodejs/)
+- NODEJS - How To Scrape Amazon.com Products & Reviews [Click here](https://scrapeops.io/web-scraping-playbook/how-to-scrape-amazon)
 
 <div align="right">Date: 4 Oct, 2023</div>
 
