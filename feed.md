@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## In amazon product details page, the only necessary thing is ASIN number
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/de52f474-e96e-4261-8f58-18cc66b6bcc7)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/c0418ed1-1c64-40b4-85fb-9e9d3bb910bc)
+
 ## Producst scraping on amazong.com (#scrape)
 
 - PYTHONG - How To Build An Amazon Product Scraper With Node.js: [Click here](https://www.smashingmagazine.com/2021/10/building-amazon-product-scraper-nodejs/)
