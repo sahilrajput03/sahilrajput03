@@ -6,20 +6,27 @@
 
 [Click here](https://scrapeops.io/web-scraping-playbook/how-to-scrape-amazon)
 
+<div align="right">Date: 4 Oct, 2023</div>
+
 ## ASIN
 
 - ASIN stands for Amazon Standard Identification Number. It's a unique 10-digit alphanumerical identifier that Amazon assigns to each of its products. ASINs are used to identify products in Amazon's database. 
 - Each ASIN is unique and associated with a particular product or product variation. For books, the ASIN is the same as the ISBN number. 
 - ASINs are Amazon's own system for managing its huge catalog. They're primarily used for product-identification within their product catalog of billions of items. 
 
+<div align="right">Date: 4 Oct, 2023</div>
 
 ## Can I Link to a Search Results Page on Amazon with My Affiliate Tag?
 
 [Click here](https://amalinkspro.com/blog/amazon-affiliate-link-to-search-results/)
 
+<div align="right">Date: 3 Oct, 2023</div>
+
 ## zero based and one based indexing
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/659652d2-2e69-4534-bced-d979becb0ece)
+
+<div align="right">Date: 29 Sept, 2023</div>
 
 ## Cursor based pagination vs. Number based pagination?
 
@@ -27,9 +34,13 @@ Prefer number based pagination when you have literally number on your view, i.e,
 
 Cursor based pagination is good for messaging where you would load messages continuously only, i.e, there is no skipping of data. (For more info check search for `cursor based pagination` on my home page of github).
 
+<div align="right">Date: 28 Sept, 2023</div>
+
 ## Why CRA is not listed on react.dev docs?
 
 Check this issue's comment: [Click here](https://github.com/facebook/create-react-app/issues/13072#issuecomment-1475001972)
+
+<div align="right">Date: 29 Sept, 2023</div>
 
 ## Integrated end-to-end testing framework written in Node.js and using W3C Webdriver API. Developed at @browserstack
 
