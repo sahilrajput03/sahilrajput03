@@ -2,7 +2,11 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-# zero based and one based indexing
+## Can I Link to a Search Results Page on Amazon with My Affiliate Tag?
+
+[Click here](https://amalinkspro.com/blog/amazon-affiliate-link-to-search-results/)
+
+## zero based and one based indexing
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/659652d2-2e69-4534-bced-d979becb0ece)
 
