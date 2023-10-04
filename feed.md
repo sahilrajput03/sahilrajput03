@@ -2,6 +2,15 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Making amazon affiliate link programatically
+
+Stackoverflow: [Click here](https://stackoverflow.com/a/76639054/10012446)
+
+Amazon Docs (below screenshot): [Click here](https://affiliate-program.amazon.com/help/node/topic/GP38PJ6EUR6PFBEC)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5eacc836-300e-4f17-bc27-ab77939c46fc)
+
+
 ## In amazon product details page, the only necessary thing is ASIN number
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/de52f474-e96e-4261-8f58-18cc66b6bcc7)
