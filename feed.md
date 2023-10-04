@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Link to any page (amazon)
+
+[Click here](https://affiliate-program.amazon.com/home/textlink/general)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/007dc22f-2cbf-47ef-ad35-0165d155b87f)
+
 ## Making amazon affiliate link programatically
 
 - Stackoverflow: [Click here](https://stackoverflow.com/a/76639054/10012446)
