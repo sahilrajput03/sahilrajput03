@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## React debugger in vscode
+
+[Click here](https://www.youtube.com/shorts/ZVbJTQbsh9E)
+
 ## Link to any page (amazon)
 
 [Click here](https://affiliate-program.amazon.com/home/textlink/general)
