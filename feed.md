@@ -69,7 +69,7 @@ Cursor based pagination is good for messaging where you would load messages cont
 
 <div align="right">Date: 28 Sept, 2023</div>
 
-## Why CRA is not listed on react.dev docs?
+## ❤️ Why CRA is not listed on react.dev docs?
 
 Check this issue's comment: [Click here](https://github.com/facebook/create-react-app/issues/13072#issuecomment-1475001972)
 
