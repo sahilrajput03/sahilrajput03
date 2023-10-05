@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.sahilrajput.twa",
+               "sha256_cert_fingerprints": ["AC:EA:C3:D6:59:6C:12:F6:8B:34:23:43:A5:CB:45:DA:D9:78:88:93:73:12:8B:70:1B:14:33:38:5C:43:2C:76"] }
+}]
