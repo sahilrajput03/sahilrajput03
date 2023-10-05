@@ -2,9 +2,64 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-# zero based and one based indexing
+## React debugger in vscode
+
+[Click here](https://www.youtube.com/shorts/ZVbJTQbsh9E)
+
+## Link to any page (amazon)
+
+[Click here](https://affiliate-program.amazon.com/home/textlink/general)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/007dc22f-2cbf-47ef-ad35-0165d155b87f)
+
+## Making amazon affiliate link programatically
+
+- Stackoverflow: [Click here](https://stackoverflow.com/a/76639054/10012446)
+- Amazon Docs (below screenshot) (for product-details page): [Click here](https://affiliate-program.amazon.com/help/node/topic/GP38PJ6EUR6PFBEC)
+- Link To Any Page (search results page): [Click here](https://affiliate-program.amazon.com/home/textlink/general)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5eacc836-300e-4f17-bc27-ab77939c46fc)
+
+
+## In amazon product details page, the only necessary thing is ASIN number
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/de52f474-e96e-4261-8f58-18cc66b6bcc7)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/c0418ed1-1c64-40b4-85fb-9e9d3bb910bc)
+
+<div align="right">Date: 4 Oct, 2023</div>
+
+## Producst scraping on amazong.com (#scrape)
+
+- PYTHONG - How To Build An Amazon Product Scraper With Node.js: [Click here](https://www.smashingmagazine.com/2021/10/building-amazon-product-scraper-nodejs/)
+- NODEJS - How To Scrape Amazon.com Products & Reviews [Click here](https://scrapeops.io/web-scraping-playbook/how-to-scrape-amazon)
+
+```js
+// Searching books on amazon via a url:
+// https://www.amazon.com/s?k=Christine+by+Stephen+King&i=stripbooks-intl-ship
+```
+
+<div align="right">Date: 4 Oct, 2023</div>
+
+## ASIN
+
+- ASIN stands for Amazon Standard Identification Number. It's a unique 10-digit alphanumerical identifier that Amazon assigns to each of its products. ASINs are used to identify products in Amazon's database. 
+- Each ASIN is unique and associated with a particular product or product variation. For books, the ASIN is the same as the ISBN number. 
+- ASINs are Amazon's own system for managing its huge catalog. They're primarily used for product-identification within their product catalog of billions of items. 
+
+<div align="right">Date: 4 Oct, 2023</div>
+
+## Can I Link to a Search Results Page on Amazon with My Affiliate Tag?
+
+[Click here](https://amalinkspro.com/blog/amazon-affiliate-link-to-search-results/)
+
+<div align="right">Date: 3 Oct, 2023</div>
+
+## zero based and one based indexing
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/659652d2-2e69-4534-bced-d979becb0ece)
+
+<div align="right">Date: 29 Sept, 2023</div>
 
 ## Cursor based pagination vs. Number based pagination?
 
@@ -12,9 +67,13 @@ Prefer number based pagination when you have literally number on your view, i.e,
 
 Cursor based pagination is good for messaging where you would load messages continuously only, i.e, there is no skipping of data. (For more info check search for `cursor based pagination` on my home page of github).
 
-## Why CRA is not listed on react.dev docs?
+<div align="right">Date: 28 Sept, 2023</div>
+
+## ❤️ Why CRA is not listed on react.dev docs?
 
 Check this issue's comment: [Click here](https://github.com/facebook/create-react-app/issues/13072#issuecomment-1475001972)
+
+<div align="right">Date: 29 Sept, 2023</div>
 
 ## Integrated end-to-end testing framework written in Node.js and using W3C Webdriver API. Developed at @browserstack
 
