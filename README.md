@@ -18,9 +18,9 @@ cat /dev/null
 
 # Stocks Blog: [Click here](blog-stocks.md)
 
-TODO: Continue watching this: [Click here](https://youtu.be/AvIhKVQXtjk?t=3043) (time stamped)
+# Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 
-## Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+# TODO: Continue watching this: [Click here](https://youtu.be/AvIhKVQXtjk?t=3043) (time stamped)
 
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
