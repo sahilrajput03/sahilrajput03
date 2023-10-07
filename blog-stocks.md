@@ -11,7 +11,10 @@ TODO:
 - learn how to short a stock on kite in day trading (to learn how it works, though I want to only do delivery stocks only)
 - learn how to use stop loss with delivery stocks
 
+
 ***
+
+# Footnote
 
 ### Thoughts on stock market
 - Stock market is patience tester ~ Nitin Kamath
@@ -20,8 +23,7 @@ TODO:
 ### Suggesteed Videos:
 - Vishal Malkan with Ranveer Allabhadia: [Click here](https://www.youtube.com/watch?v=GwwhmxS8IgE&t=191s&pp=ygUVIHN0b2NrIG1hcmtldCByYW52ZWVy)
 
-
-### Footnote
+### Blog writing
 
 This blog is mostly written using speech to text via "Voice In" chrome extension.
 
