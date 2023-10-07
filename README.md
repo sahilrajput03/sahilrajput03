@@ -16,6 +16,8 @@ cat /dev/null
 
 # Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
 
+# Stocks Blog: [Click here](blog-stocks.md)
+
 Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
