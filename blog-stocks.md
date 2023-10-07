@@ -6,6 +6,8 @@ I created my zerodha account 20 September, 2023 and I started seeing the price c
 
 In HDFC charts, I see that there is somewhat around 1% to 3% at max of change in price in day trading but there is around 10% change if I see chart of 1D and look for profit patterns, there is a pattern of around 15 days of so I guess.
 
+But how do I do the math of above i.e., 1% to 3% and the other 10% change in price? This is very simple, for e.g, if the price of stock is say 16,50 Rs, so this means we say 1% change (increase/decrease) in price when price of stock changes by 16.50 Rs. So, 1% change is ~16 Rs, 3% change is ~48 Rs and 10% change is 160 Rs, with this in mind one can easily have idea of % of change of stock price over a period of time say 10m or 1D candle stick charts.
+
 TODO:
 - learn how to view your own shares on kite
 - learn how to short a stock on kite in day trading (to learn how it works, though I want to only do delivery stocks only)
