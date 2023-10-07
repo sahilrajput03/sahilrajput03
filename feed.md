@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## SBI charges fee if you request to check the CIBIL score
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fc42a078-8bed-4fff-a433-88807309c9f7)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8c83fd32-c794-497b-9e26-4fa510f07cf3)
+
 ## React debugger in vscode
 
 [Click here](https://www.youtube.com/shorts/ZVbJTQbsh9E)
