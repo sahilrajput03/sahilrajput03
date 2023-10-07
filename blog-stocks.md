@@ -8,7 +8,7 @@ In HDFC charts, I see that there is somewhat around 1% to 3% of change in day tr
 
 TODO:
 - learn how to view your own shares on kite
-- learn how to short a stock on kite in day trading (to learn how it works, though I want to only do multiple-day trdaing only)
+- learn how to short a stock on kite in day trading (to learn how it works, though I want to only do delivery stocks only)
 - learn how to use stop loss with delivery stocks
 
 ***
@@ -21,7 +21,9 @@ TODO:
 - Vishal Malkan with Ranveer Allabhadia: [Click here](https://www.youtube.com/watch?v=GwwhmxS8IgE&t=191s&pp=ygUVIHN0b2NrIG1hcmtldCByYW52ZWVy)
 
 
-### This blog is mostly written using speech to text via "Voice In" chrome extension.
+### Footnote
+
+This blog is mostly written using speech to text via "Voice In" chrome extension.
 
 Tips:
 - Use `ctrl+l` to activate extension. It was default shortcut but I had to clear the keyboard shortcut and re-make the same extension.
