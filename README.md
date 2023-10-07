@@ -18,6 +18,8 @@ cat /dev/null
 
 # Stocks Blog: [Click here](blog-stocks.md)
 
+TODO: Continue watching this: [Click here](https://youtu.be/AvIhKVQXtjk?t=3043) (time stamped)
+
 Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
