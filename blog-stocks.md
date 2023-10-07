@@ -4,7 +4,7 @@
 
 I created my zerodha account 20 September, 2023 and I started seeing the price candles of HDFC bank.
 
-In HDFC charts, I see that there is somewhat around 1% to 3% of change in day trading but there is around 10% change if I see chart of 1D and look for profit patterns, there is a pattern of around 15 days of so I guess.
+In HDFC charts, I see that there is somewhat around 1% to 3% at max of change in price in day trading but there is around 10% change if I see chart of 1D and look for profit patterns, there is a pattern of around 15 days of so I guess.
 
 TODO:
 - learn how to view your own shares on kite
