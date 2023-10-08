@@ -17,8 +17,30 @@
 
 - Archlinux Docs (sudo.8): [Click here](https://man.archlinux.org/man/sudo.8.en)
 - Archlinux Docs (sudoers.5): [Click here](https://man.archlinux.org/man/sudoers.5.en)
+- Arch Docs | Disable per-terminal sudo: [Click here](https://wiki.archlinux.org/title/sudo#Disable_per-terminal_sudo)
+- Arch Docs | Reduce the number of times you have to type a password: [Click here](https://wiki.archlinux.org/title/sudo#Reduce_the_number_of_times_you_have_to_type_a_password)
 
 Default value = 5 (Number of minutes)
+
+To set this open /etc/sudoers
+
+```bash
+sudoCode /etc/sudoers
+# alternatively use below:
+sudo visudo /etc/sudoers
+```
+
+and add below lines to the end of the file:
+
+```bash
+# ~ Sahil ~
+# LEARN: Default value is 5 (in mins)
+# LEARN: Value can't be a fraciont i.e, 3.5
+# LEARN: Setting a value less than 0 means to never ask again ever
+Defaults:array timestamp_timeout=-1
+## ~ Sahi ~ Don't require password for each new terminal
+Defaults:array timestamp_type=global
+```
 
 ## Default file manager in i3
 
