@@ -22,8 +22,6 @@ Some more on zerodha and Nitin Kamath -
 
 **Introduction of Discount Brokerage:** Zerodha pioneered the concept of discount brokerage in India. Unlike traditional brokerages that charged a percentage of the transaction value as brokerage, Zerodha adopted a flat fee structure. This significantly reduced the cost of trading, making it more affordable for small investors.
 
-***TODO: fix links in above text:***
-
 [1]: https://fullstackopen.com/en/part0/general_info
 [2]: https://en.wikipedia.org/wiki/Mastery_learning
 [3]: https://startuptalky.com/nithin-kamath-zerodha/
