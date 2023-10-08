@@ -18,7 +18,7 @@
 Archlinux Docs (sudo.8): [Click here](https://man.archlinux.org/man/sudo.8.en)
 Archlinux Docs (sudoers.5): [Click here](https://man.archlinux.org/man/sudoers.5.en)
 
-5 minutes (300 secs)
+Default value = 5 (Number of minutes)
 
 ## Default file manager in i3
 
