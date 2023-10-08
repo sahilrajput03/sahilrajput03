@@ -11,8 +11,8 @@ FYI: The only step missing in above video is this one as suugested by one user i
 
 ## Calendar List API
 
-
 - CalendarList: list: [Click here](https://developers.google.com/calendar/api/v3/reference/calendarList/list) (APIs in **google's API playground**)
+- Oauth PlayGround: [Click here](https://developers.google.com/oauthplayground/) (never used it though)
 - Choose Scopes: [Click here](https://developers.google.com/calendar/api/auth)
 - **Scopes:**
 
