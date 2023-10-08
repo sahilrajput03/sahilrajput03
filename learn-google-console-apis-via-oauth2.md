@@ -1,5 +1,6 @@
 # Learn Google Console APIs via Oauth2
 
+- ❤️ Learn Google Cloud Console: [Click here](learn-google-cloud.md)
 - Official Postman \| Authorize Google APIs Using OAuth 2.0 @ YouTube: [Click here](https://www.youtube.com/watch?v=e-hOP3P-cW8)
   - Official Postman Article \| How to access Google APIs using OAuth 2.0 in Postman: [Click here](https://blog.postman.com/how-to-access-google-apis-using-oauth-in-postman/)
 
