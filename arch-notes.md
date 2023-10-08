@@ -13,6 +13,12 @@
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
 
+## Defautl timeout for password asking for a sudom command in archlinux?
+
+Archlinux Docs: [Click here](https://man.archlinux.org/man/sudo.8.en)
+
+5 minutes (300 secs)
+
 ## Default file manager in i3
 
 ```bash
