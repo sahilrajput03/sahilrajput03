@@ -46,7 +46,7 @@ But how do I do the math of above i.e., 1% to 3% and the other 10% change in pri
 
 ### Thoughts on stock market
 - Stock market is patience tester ~ Nitin Kamath
-- Always use Stop Loss of 5-10% ~ Vishal Malkan
+- Always use Stop Loss so in worst case you can avoid getting your arm cut but hand only. ~ Vishal Malkan
 
 ### Suggesteed Videos:
 - Vishal Malkan with Ranveer Allabhadia: [Click here](https://www.youtube.com/watch?v=GwwhmxS8IgE&t=191s&pp=ygUVIHN0b2NrIG1hcmtldCByYW52ZWVy)
