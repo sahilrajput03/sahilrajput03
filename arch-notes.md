@@ -15,6 +15,8 @@
 
 ## ❤️ ❤️ Default timeout for password asking delay for sudo commands in archlinux?
 
+Date: 8 Oct, 2023
+
 Tags: #diable password timeout, disable asking password on sudo, sudo password disable, timeout sudo password, delay sudo password ask
 
 - Archlinux Docs (sudo.8): [Click here](https://man.archlinux.org/man/sudo.8.en)
