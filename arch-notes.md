@@ -29,7 +29,7 @@ To disable password timeout, open the file `/etc/sudoers` by - `sudoCode /etc/su
 ```bash
 # ~ Sahil ~
 # LEARN: Default value is 5 (in mins)
-# LEARN: Value can't be a fraciont i.e, 3.5
+# LEARN: Value can't be a fraction i.e, 3.5
 # LEARN: Setting a value less than 0 means to never ask again ever
 Defaults:array timestamp_timeout=-1
 ## ~ Sahi ~ Don't require password for each new terminal
