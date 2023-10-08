@@ -27,7 +27,7 @@ https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/
 
 <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/12d0dba7-2473-4316-8654-edd7fd71b59a" width="600" />
 
-## Whenever I click on "Get New Access Token" button there (below screenshot), I 
+## When I click on "Get New Access Token" button, where is the token stored?
 
 screenshot: 1/2
 
