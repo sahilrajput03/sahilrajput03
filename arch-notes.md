@@ -15,7 +15,7 @@
 
 ## Defautl timeout for password asking for a sudo command in archlinux?
 
-tags: #diable password timeout, disable asking password on sudo, sudo password disable, timeout sudo password, delay sudo password ask
+Tags: #diable password timeout, disable asking password on sudo, sudo password disable, timeout sudo password, delay sudo password ask
 
 - Archlinux Docs (sudo.8): [Click here](https://man.archlinux.org/man/sudo.8.en)
 - Archlinux Docs (sudoers.5): [Click here](https://man.archlinux.org/man/sudoers.5.en)
@@ -32,7 +32,7 @@ sudoCode /etc/sudoers
 sudo visudo /etc/sudoers
 ```
 
-and add below lines to the end of the file:
+and add below lines to the end of the file **(NOTE: you must logout and login to take this file into effect)**:
 
 ```bash
 # ~ Sahil ~
