@@ -5,6 +5,12 @@ Disabled below extensions becoz of too much memory usage(deteced from Google Chr
 - Auto Youtube Quality
 - Metamask
 
+## Update default page zoom level and page font size
+
+Date: 8 Oct, 2023
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7619549a-5f2d-4ba6-b329-a7008516191a)
+
 # Chrome Extensions
 
 - [Talk-to-ChatGPT](https://chrome.google.com/webstore/detail/talk-to-chatgpt/hodadfhfagpiemkeoliaelelfbboamlk)
