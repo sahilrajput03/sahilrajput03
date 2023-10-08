@@ -23,15 +23,16 @@ FYI: The only step missing in above video is this one as suugested by one user i
 https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.readonly
 ```
 
-## Learn
+## Using credentials - OAuth 2 on collection itself (current usage)
 
-Whenever I click on "Get New Access Token" button there (below screenshot), I 
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/12d0dba7-2473-4316-8654-edd7fd71b59a" width="600" />
+
+## Whenever I click on "Get New Access Token" button there (below screenshot), I 
 
 screenshot: 1/2
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d69a3f57-fda1-429b-acd4-6ba764393702)
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d69a3f57-fda1-429b-acd4-6ba764393702" width="600" />
 
 screenshot: 2/2
 
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5c9b1b30-30a5-4df5-9edb-a3f85228f777)
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5c9b1b30-30a5-4df5-9edb-a3f85228f777" width="600" />
