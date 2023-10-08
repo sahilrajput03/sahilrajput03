@@ -20,3 +20,16 @@ FYI: The only step missing in above video is this one as suugested by one user i
 // NOTE: All below scopes can be used together as well by using space as delimiter:
 https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.readonly
 ```
+
+## Learn
+
+Whenever I click on "Get New Access Token" button there (below screenshot), I 
+
+screenshot: 1/2
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d69a3f57-fda1-429b-acd4-6ba764393702)
+
+screenshot: 2/2
+
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5c9b1b30-30a5-4df5-9edb-a3f85228f777)
