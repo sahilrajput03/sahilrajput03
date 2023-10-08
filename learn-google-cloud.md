@@ -1,5 +1,6 @@
 # Learn google cloud
 
+- Google Cloud Console: https://console.cloud.google.com/
 - **Navigating between settings in gcp vm instances and its firewall settings:**
   - Sidebar > Compute engine> vm instance
   - Sidebar > VPC > Firewall > "indianic one" and add or remove the ip's from there.
