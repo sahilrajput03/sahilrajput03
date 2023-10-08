@@ -24,7 +24,10 @@ Tags: #diable password timeout, disable asking password on sudo, sudo password d
 
 Default value = 5 (Number of minutes)
 
-To disable password timeout, open the file `/etc/sudoers` by - `sudoCode /etc/sudoers` or `sudo visudo /etc/sudoers` and add below lines to the end of the file **(NOTE: you must logout and login to take this file into effect)**:
+To disable password timeout, open the file `/etc/sudoers` by - `sudoCode /etc/sudoers` or `sudo visudo /etc/sudoers` and add below lines to the end of the file:
+
+- **(NOTE: you must logout and login to take this file into effect)**
+- **(NOTE: you must replace `array` with your own username you want to apply the settings to)**
 
 ```bash
 # ~ Sahil ~
