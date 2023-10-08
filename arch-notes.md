@@ -19,8 +19,8 @@ Tags: #diable password timeout, disable asking password on sudo, sudo password d
 
 - Archlinux Docs (sudo.8): [Click here](https://man.archlinux.org/man/sudo.8.en)
 - Archlinux Docs (sudoers.5): [Click here](https://man.archlinux.org/man/sudoers.5.en)
-- Arch Docs | Disable per-terminal sudo: [Click here](https://wiki.archlinux.org/title/sudo#Disable_per-terminal_sudo)
-- Arch Docs | Reduce the number of times you have to type a password: [Click here](https://wiki.archlinux.org/title/sudo#Reduce_the_number_of_times_you_have_to_type_a_password)
+- Arch Docs \| Disable per-terminal sudo: [Click here](https://wiki.archlinux.org/title/sudo#Disable_per-terminal_sudo)
+- Arch Docs \| Reduce the number of times you have to type a password: [Click here](https://wiki.archlinux.org/title/sudo#Reduce_the_number_of_times_you_have_to_type_a_password)
 
 Default value = 5 (Number of minutes)
 
