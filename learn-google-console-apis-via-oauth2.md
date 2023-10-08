@@ -13,7 +13,7 @@ FYI: The only step missing in above video is this one as suugested by one user i
 
 ## Calendar List API
 
-- We can try these APIs in google's playground as well via this:  https://developers.google.com/calendar/api/v3/reference/calendarList/list
+- We can try these APIs in **google's API playground** as well via this: [Click here](https://developers.google.com/calendar/api/v3/reference/calendarList/list)
 - **Scopes:**
 
 ```js
