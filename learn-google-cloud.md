@@ -2,7 +2,7 @@
 
 **Quick Links:**
 - Google Cloud Console: https://console.cloud.google.com/
-- Learn Google Console APIs via Oauth2: [Click here](learn-google-console-apis-via-oauth2.md)
+- ❤️ Learn Google Console APIs via Oauth2: [Click here](learn-google-console-apis-via-oauth2.md)
   
 - **Navigating between settings in gcp vm instances and its firewall settings:**
   - Sidebar > Compute engine> vm instance
