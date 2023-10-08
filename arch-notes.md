@@ -15,8 +15,8 @@
 
 ## Defautl timeout for password asking for a sudom command in archlinux?
 
-Archlinux Docs (sudo.8): [Click here](https://man.archlinux.org/man/sudo.8.en)
-Archlinux Docs (sudoers.5): [Click here](https://man.archlinux.org/man/sudoers.5.en)
+- Archlinux Docs (sudo.8): [Click here](https://man.archlinux.org/man/sudo.8.en)
+- Archlinux Docs (sudoers.5): [Click here](https://man.archlinux.org/man/sudoers.5.en)
 
 Default value = 5 (Number of minutes)
 
