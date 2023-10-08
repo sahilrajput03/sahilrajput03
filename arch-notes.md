@@ -13,7 +13,9 @@
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
 
-## Defautl timeout for password asking for a sudom command in archlinux?
+## Defautl timeout for password asking for a sudo command in archlinux?
+
+tags: #diable password timeout, disable asking password on sudo, sudo password disable, timeout sudo password, delay sudo password ask
 
 - Archlinux Docs (sudo.8): [Click here](https://man.archlinux.org/man/sudo.8.en)
 - Archlinux Docs (sudoers.5): [Click here](https://man.archlinux.org/man/sudoers.5.en)
