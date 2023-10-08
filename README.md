@@ -174,7 +174,7 @@ cat /dev/null
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
 - Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
 - **Leetcode: [Click here](./learn-leetcode.md)**
-- Learn Google Cloud: [Click here](./learn-google-cloud.md)
+- Learn Google Cloud Console: [Click here](./learn-google-cloud.md)
 - Learn auth0: [Click here](./learn-auth0.md)
 - Best of Javascript: [Click here](https://bestofjs.org/)
 - Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
