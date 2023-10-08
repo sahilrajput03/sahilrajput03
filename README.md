@@ -175,6 +175,7 @@ cat /dev/null
 - Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
 - **Leetcode: [Click here](./learn-leetcode.md)**
 - Learn Google Cloud Console: [Click here](./learn-google-cloud.md)
+- Learn Google Console APIs via Oauth2: [Click here](learn-google-console-apis-via-oauth2.md)
 - Learn auth0: [Click here](./learn-auth0.md)
 - Best of Javascript: [Click here](https://bestofjs.org/)
 - Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
