@@ -2,7 +2,7 @@
 
 - Open link in browser
 
- ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f9ad279d-0b21-406d-b64e-0c8848af23dc)
+<img width="500" src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f9ad279d-0b21-406d-b64e-0c8848af23dc" />
 
 - We can mark collections as starred so that they appear on the top like that -
 
