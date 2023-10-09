@@ -215,11 +215,14 @@ Data Types Code of axios: [Click here](https://github.com/axios/axios/blob/v2.x/
 - Typing `response data`:
 
 	```ts
-	// data is typed as `string`
-	const {data} = await axiosInstance.post<string>(paths.login, {
+	const { data } = await axiosInstance.post<string>(paths.login, {
 		username: email,
 		password: password,
 	})
+	// Learn: data is typed as `string`
+
+ 	const { data } = await axios.get<string>('/users');
+	// Learn: data is typed as `string`
 	```
 
 - Typing `response data` and `payload type`:
