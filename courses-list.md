@@ -9,8 +9,7 @@
 
 
 
-<details>
-<summary><b>Todo (personal)</b></summary>
+**Todo (personal):**
 
 - Todo check **mongodb course provided by Samaksh:** [1](https://drive.google.com/drive/folders/1ib0wbUEO3jKvXfIPikk9jB02zMiW4vzm), [2](https://drive.google.com/drive/folders/1Z82qjVu-ux283yLGIfDWFzl_73BbaCzF)
 - Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
@@ -30,12 +29,7 @@
 - Neuro Linguistic Programming: [Click here](https://www.udemy.com/topic/neuro-linguistic-programming/)
 - Build 20+ mini projects using nothing but HTML5, CSS & JavaScript. No JS or CSS frameworks, no libraries, etc ~ By Traversy Media: [Click here](https://www.udemy.com/course/web-projects-with-vanilla-javascript/?referralCode=F9B7C7FED834F91ADE75)
 
-</details>
-
-
-
-<details>
-<summary><b>General</b></summary>
+**General:**
 
 - Learn X in Y minutes: [Click here](https://learnxinyminutes.com/)
 - Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
@@ -65,9 +59,6 @@
 - Become a Blockchain Developer: Ethereum + Solidity: [Click here](https://www.udemy.com/course/jpcourses-ethereum-smart-contract-programming-with-solidity-project)
 - Learn smart contracts and Dapp development for Ethereum: [Click here](https://pro.eattheblocks.com/p/6-figure-blockchain-developerLearn)
 - Learn javascript by a game: [Click here](https://js.coderslang.com/)
-
-</details>
-
 
 **Javascript Docs and Prime Resources**
 
@@ -119,10 +110,6 @@
 
 # Books
 
-
-<details>
-<summary>Click to expand</summary>
-
 - BOOKS PORTAL - Programming Notes for Professionals books: [Click here](https://goalkicker.com/)
 - BOOK - Algorithms - Notes for Professionals: [Click here](https://sahilrajput03.github.io/AlgorithmsNotesForProfessionals.pdf)
 - BOOK - Bash - Notes for Professionals: [Click here](https://sahilrajput03.github.io/BashNotesForProfessionals.pdf)
@@ -150,6 +137,4 @@
 ***Shortcutfoo***: Choose shortcuts to practice - Vim, VSCode, Sublime, Emacs, Visual Studio, Excel, Commandline, Photoshop, git, TextMate, Eclipse, ReSharper, IntelliJ IDEA, RubyMine, AppCode, PyCharm, WebStorm/PhpStorm, Gmail, Regex, JQuery, Atom, Cloud9, Slack, Zendesk, Salesforce, Trello, JIRA, Logic Pro X, & Sketch
 
 TODO: [Qutebrowser](https://www.shortcutfoo.com/app/dojos/qutebrowser/learn) Excel, Jira, Gmail, git, Regex.
-
-</details>
 
