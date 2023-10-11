@@ -13,7 +13,7 @@
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
 
-## stop using `youtube-dl` and use 
+## Stop using `youtube-dl` and use 
 
 - Amazing reddit post: [Click here](https://www.reddit.com/r/archlinux/comments/119hsoj/stop_using_youtubedl_and_use_ytdlp_instead/)
 - Archlinux Wiki Page: [Click here](https://wiki.archlinux.org/title/Yt-dlp)
