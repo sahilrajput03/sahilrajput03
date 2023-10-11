@@ -52,6 +52,8 @@ cat /dev/null
 - Contact me: [Click here](https://sahilrajput03.ml/me)
 - My Works: [Click here](./my-works.md)
 - Resume: FullStack Blockchain Developer : [Click here](https://tinyurl.com/sahil-blockchain-dev),  [old](https://github.com/sahilrajput03/my_bin/raw/master/resume/sahil-rajput_resume-linux-feb-2022.pdf)
+- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
+- **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
 - Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - Dictionary: [Click here](./dictionary.md)
 - **Acronyms:** [Click here](./acroynms.md)
@@ -143,7 +145,6 @@ cat /dev/null
 	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
 	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
 	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
-- **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
 - **Learn Webflow:** - [Click here](./learn-webflow.md)
 - **Weird Problems:** - [Click here](./weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](./intro-guide-to-platforms.md)
@@ -172,7 +173,6 @@ cat /dev/null
 	- **Convert javascript object to json - cli tool** - [Click here](./obj-json.md)
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](./@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
-- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
 - **Leetcode: [Click here](./learn-leetcode.md)**
 - Learn Google Cloud Console: [Click here](./learn-google-cloud.md)
 	- ❤️ Learn Google Console APIs via Oauth2 with Postman: [Click here](learn-google-console-apis-via-oauth2.md)
