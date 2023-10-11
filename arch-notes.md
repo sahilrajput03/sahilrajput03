@@ -28,16 +28,22 @@ pacman -S yt-dlp
 # for usage, please refer - https://wiki.archlinux.org/title/Yt-dlp
 ```
 
-## install `mpv` player(its good player for streaming youtube videos(it internally uses `youtube-dl`)) and `youtube-dl`
+## ❤️ `youtube-dl` and `youtube-dl-gui`
 
 ```bash
-sudo pacman -S mpv youtube-dl
+sudo pacman -S youtube-dl
 # for gui (LEARN: yay fails to install this as mentioned by a user on the AUR page - https://aur.archlinux.org/packages/youtube-dl-gui:
 git clone https://aur.archlinux.org/youtube-dl-gui.git
 cd youtube-dl-gui
 makepkg -si
 # Usage:
 youtube-dl-gui
+```
+
+## install `mpv` player(its good player for streaming youtube videos(it internally uses `youtube-dl`)) and `youtube-dl`
+
+```bash
+yay -S mpv
 ```
 
 ## ❤️ ❤️ Default timeout for password asking delay for sudo commands in archlinux?
