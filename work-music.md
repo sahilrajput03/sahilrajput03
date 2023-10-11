@@ -1,3 +1,5 @@
 # Work Music
 
-[Listen to the Example Song](https://download.samplelib.com/mp3/sample-3s.mp3)
+<audio src="https://github.com/sahilrajput03/scripts-media/raw/main/Night-at-Work-Instrumental-Chill-Music-Mix.opus" controls>
+Your browser does not support the audio element.
+</audio>
