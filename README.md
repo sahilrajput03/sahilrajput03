@@ -14,11 +14,15 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
-# Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
+# Work Music: [Click here](./work-music.md)
 
-# Stocks Blog: [Click here](blog-stocks.md)
+**Quick Links:**
 
-# Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
+- Stocks Blog: [Click here](blog-stocks.md)
+- Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+
+*More:**
 
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
