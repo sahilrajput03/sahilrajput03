@@ -32,6 +32,9 @@ pacman -S yt-dlp
 
 ```bash
 sudo pacman -S youtube-dl
+```
+
+```bash
 # for gui (LEARN: yay fails to install this as mentioned by a user on the AUR page - https://aur.archlinux.org/packages/youtube-dl-gui:
 git clone https://aur.archlinux.org/youtube-dl-gui.git
 cd youtube-dl-gui
