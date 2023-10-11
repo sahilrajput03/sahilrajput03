@@ -28,7 +28,7 @@ pacman -S yt-dlp
 # for usage, please refer - https://wiki.archlinux.org/title/Yt-dlp
 ```
 
-TOOD: Checkout some gui software as well for much better usage -
+TOOD: Checkout some gui software as well for much better usage (refer same above archlinux page) -
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/71315aa2-2b82-480c-9d7e-1059ab224320)
 
