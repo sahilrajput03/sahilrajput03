@@ -13,6 +13,33 @@
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
 
+## stop using `youtube-dl` and use 
+
+- Amazing reddit post: [Click here](https://www.reddit.com/r/archlinux/comments/119hsoj/stop_using_youtubedl_and_use_ytdlp_instead/)
+- Archlinux Wiki Page: [Click here](https://wiki.archlinux.org/title/Yt-dlp)
+
+yt-dlp is a command-line program that lets you easily download videos and audio from more than a thousand websites. See the list of supported sites.
+
+Note: yt-dlp is a fork of youtube-dl that was created after the parent project became stagnant. The upstream youtube-dl[dead link 2023-09-16 ⓘ] can still be installed as youtube-dlAUR; commands on this page should still work, but check the list of differences.
+
+```bash
+pacman -S yt-dlp
+
+# for usage, please refer - https://wiki.archlinux.org/title/Yt-dlp
+```
+
+## install `mpv` player(its good player for streaming youtube videos(it internally uses `youtube-dl`)) and `youtube-dl`
+
+```bash
+sudo pacman -S mpv youtube-dl
+# for gui (LEARN: yay fails to install this as mentioned by a user on the AUR page - https://aur.archlinux.org/packages/youtube-dl-gui:
+git clone https://aur.archlinux.org/youtube-dl-gui.git
+cd youtube-dl-gui
+makepkg -si
+# Usage:
+youtube-dl-gui
+```
+
 ## ❤️ ❤️ Default timeout for password asking delay for sudo commands in archlinux?
 
 Date: 8 Oct, 2023
@@ -1430,12 +1457,6 @@ makepkg -si
 
 ```
 sudo pacman -S gnuplot
-```
-
-## install `mpv` player(its good player for streaming youtube videos(it internally uses `youtube-dl`)) and `youtube-dl`
-
-```
-sudo pacman -S mpv youtube-dl
 ```
 
 ## Install `st`
