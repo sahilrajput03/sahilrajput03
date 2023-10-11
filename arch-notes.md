@@ -13,12 +13,12 @@
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
 
-## ❤️ Stop using `youtube-dl` and use 
+## ❤️ Stop using `youtube-dl` and use `yt-dlp`
 
 - Amazing reddit post: [Click here](https://www.reddit.com/r/archlinux/comments/119hsoj/stop_using_youtubedl_and_use_ytdlp_instead/)
 - Archlinux Wiki Page: [Click here](https://wiki.archlinux.org/title/Yt-dlp)
 
-yt-dlp is a command-line program that lets you easily download videos and audio from more than a thousand websites. See the list of supported sites.
+`yt-dlp` is a command-line program that lets you easily download videos and audio from more than a thousand websites. See the list of supported sites.
 
 Note: yt-dlp is a fork of youtube-dl that was created after the parent project became stagnant. The upstream youtube-dl[dead link 2023-09-16 ⓘ] can still be installed as youtube-dlAUR; commands on this page should still work, but check the list of differences.
 
@@ -27,6 +27,10 @@ pacman -S yt-dlp
 
 # for usage, please refer - https://wiki.archlinux.org/title/Yt-dlp
 ```
+
+TOOD: Checkout some gui software as well for much better usage -
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/71315aa2-2b82-480c-9d7e-1059ab224320)
 
 ## `youtube-dl` and ❤️ `youtube-dl-gui`
 
