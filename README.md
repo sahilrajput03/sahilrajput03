@@ -50,6 +50,8 @@ cat /dev/null
 		- General Musings ~ Kevin Powell: [Click here](https://open.spotify.com/show/1scASfrTESkNKPffUJ4CPW?utm_source=convertkit&utm_medium=email&utm_campaign=The+CSS+Mindset%20-%2011813412) 
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
+  - Blogs:
+	  - https://blog.isquaredsoftware.com/
 
 ## References:
 
