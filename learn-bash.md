@@ -494,8 +494,8 @@ WantedBy=multi-user.target
 ```bash
 # we need to reload systemd files
 sudo systemctl daemon-reload
-sudo systemctl start nf
-# or we can use `sudo systemctl start nf.service`
+sudo systemctl start nf # or `sudo systemctl start nf.service`
+
 
 # See status, logs from the program, age of the process (since last start), and more:
 sudo systemctl status nf
