@@ -467,6 +467,7 @@ User=array
 ExecStart=bash /home/array/test/nf.sh
 # Restart defines no. consistent attempts to be done by systemd anytime to start the service anytime the service is killed by some external action(i.e., `systemctl stop` will not trigger restart actions).
 Restart=always
+
 [Install]
 WantedBy=multi-user.target
 ```
@@ -482,6 +483,7 @@ WorkingDirectory=/home/array/test/LemonJamsBot
 ExecStart=npm run dev
 # Restart defines no. consistent attempts to be done by systemd anytime to start the service anytime the service is killed by some external action(i.e., `systemctl stop` will not trigger restart actions).
 Restart=always
+
 [Install]
 WantedBy=multi-user.target
 ```
