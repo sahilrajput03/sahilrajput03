@@ -495,7 +495,6 @@ WantedBy=multi-user.target
 # we need to reload systemd files
 sudo systemctl daemon-reload
 sudo systemctl start nf # or `sudo systemctl start nf.service`
-
 # Enable service so it runs on system startup
 sudo systemctl enable nf
 
