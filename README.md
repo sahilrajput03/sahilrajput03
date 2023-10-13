@@ -107,7 +107,7 @@ cat /dev/null
 	- Play Console: [Click here](learn-playconsole.md)
 	- Cloud Console: [Click here](./learn-google-cloud.md)
 		- Console APIs via Oauth2 with Postman ❤️: [Click here](learn-google-console-apis-via-oauth2.md)
-	- Publisher Tag (? PubwiseAds): [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md)
+	- Publisher Tag: [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md) (PubwiseAds)
 	- Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 - **Open Source Apps from All over the world** - [Click here](./open-source-apps.md)
 - **Nocode tools** - [Click here](./nocodetools.md)
