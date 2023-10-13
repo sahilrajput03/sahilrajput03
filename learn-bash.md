@@ -496,16 +496,15 @@ WantedBy=multi-user.target
 sudo systemctl daemon-reload
 sudo systemctl start nf # or `sudo systemctl start nf.service`
 
+# Enable service so it runs on system startup
+sudo systemctl enable nf
 
-# See status, logs from the program, age of the process (since last start), and more:
+# Verify 1: See status, logs from the program, age of the process (since last start), and more:
 sudo systemctl status nf
 
-# You can follow live logs for the service via (node: order of options i.e, -fu is important), src: https://superuser.com/a/1292767/776589
-# fyi: This keeps logging output if you restart the service via: `sudo systemctl restart nf` yikes!!!
+# Verify 2: You can follow live logs for the service via (node: order of options i.e, -fu is important), src: https://superuser.com/a/1292767/776589
+# Note: Log output from `journalctl` show logs even when you restart the service via: `sudo systemctl restart nf`
 journalctl -fu nf
-
-# Fyi: you can setup this service to run on system startup as well
-sudo systemctl enable nf
 ```
 
 Now we can check if the dates are added in the `/tmp/tmp` file by
