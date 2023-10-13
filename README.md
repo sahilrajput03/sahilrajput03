@@ -103,7 +103,7 @@ cat /dev/null
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Github Actions:** [Click here](./github-actions.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
-- **Learn Google Development:
+- **Learn Google Development:**
 	- Play Console: [Click here](learn-playconsole.md)
 	- Cloud Console: [Click here](./learn-google-cloud.md)
 		- Console APIs via Oauth2 with Postman ❤️: [Click here](learn-google-console-apis-via-oauth2.md)
