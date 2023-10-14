@@ -18,6 +18,16 @@
 - ❤️ Learn Bash scripting official manjaro linux article - [Click here](https://forum.manjaro.org/t/tutorial-shell-scripting-by-way-of-an-illustrated-practical-example/66120)
 - ❤️Interactive vs. Non-Interactive shell❤️ : [Click here](https://phoenixnap.com/kb/bashrc-vs-bash-profile)
 
+## Get all services via systemd
+
+```bash
+# List all loaded services on your system (whether active; running, exited, or failed)
+systemctl --type=service
+
+# Display a list of all loaded systemd units (read the systemd documentation for more information about systemd units) including services, showing their status (whether active or not).
+systemctl
+```
+
 ## Get unix/epoch timestamp in linux
 
 ```bash
