@@ -24,6 +24,14 @@
 # List all loaded services on your system (whether active; running, exited, or failed)
 systemctl --type=service | cat
 
+# List active
+systemctl --type=service --state=active
+
+# List running
+systemctl --type=service --state=running
+
+
+
 # Display a list of all loaded systemd units (read the systemd documentation for more information about systemd units) including services, showing their status (whether active or not).
 systemctl | cat
 ```
