@@ -22,10 +22,10 @@
 
 ```bash
 # List all loaded services on your system (whether active; running, exited, or failed)
-systemctl --type=service
+systemctl --type=service | cat
 
 # Display a list of all loaded systemd units (read the systemd documentation for more information about systemd units) including services, showing their status (whether active or not).
-systemctl
+systemctl | cat
 ```
 
 ## Get unix/epoch timestamp in linux
