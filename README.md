@@ -119,7 +119,6 @@ cat /dev/null
 - **Learn WebRTC:** [Click here](./learn-webrtc.md)
 - **Learn nodejs or anyother development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container)
 - **Learn Login flow:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
-- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
@@ -177,7 +176,7 @@ cat /dev/null
 - **Telegram Groups:** [Click here](./telegram-groups.md)
 - Why DSA based interviews are stupid?: [Click here](./dsa.md)
 - **Javascript:**
-	- **Learn NodeJS:** [Click here](./learn-nodejs.md)
+	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 	- **Learn Javascript:** [Click here](./learn-js.md)
 	- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
 	- **Prime Resources - Javascript:** [Click here](./prime-resources-js.md)
