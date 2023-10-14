@@ -9,7 +9,7 @@
 - Lit Library for Web Components: [Click here](https://lit.dev/docs/getting-started/)
 - Download frontendmasters.com Courses: [Click here](https://frontendmasters.com/courses/web-components/introduction/)
 
-**Check my example here: - [Click here](https://github.com/sahilrajput03/learn-web-components)**
+**Check my example on Github Repository: - [Click here](https://github.com/sahilrajput03/learn-web-components)**
 
 <div align="right">Date: 15 Oct, 2023</div>
 
