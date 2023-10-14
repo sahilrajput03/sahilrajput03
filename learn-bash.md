@@ -23,6 +23,7 @@
 ```bash
 # List all loaded services on your system (whether active; running, exited, or failed)
 systemctl --type=service | cat
+# Note: I made a alias as well - ```alias listServices='systemctl --type=service | cat'```
 
 # List active
 systemctl --type=service --state=active
