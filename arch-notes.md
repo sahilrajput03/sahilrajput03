@@ -12,7 +12,7 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
-## `activitywatch-bin` for tracking screen time of apps
+## tracking screen time of apps `activitywatch-bin`
 
 - website: https://activitywatch.net/
 - github: https://github.com/ActivityWatch/activitywatch
