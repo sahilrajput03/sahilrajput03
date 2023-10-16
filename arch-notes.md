@@ -19,6 +19,9 @@
 
 ```bash
 yay -S activitywatch-bin
+
+# To enable this on system startup, add below line to your ~/.profile file
+[ -f /usr/bin/aw-qt ] && /usr/bin/aw-qt &
 ```
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ddb1b4fa-7ee9-4d68-9cf6-9ec7962a1e01)
