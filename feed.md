@@ -4,7 +4,11 @@
 
 ## Should I handle Oauth callback in frontend or backend?
 
+TLDR: In backend. 
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1a03a670-0394-4634-8081-2085431f43a5)
+
+<div align="right">Date: 16 Oct, 2023</div>
 
 ## Web Components ~ Samaksh
 
