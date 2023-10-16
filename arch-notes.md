@@ -12,6 +12,12 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Check if port is used by currently running application
+
+```bash
+lsof -i :5600
+```
+
 ## Tracking screen time of apps `activitywatch-bin`
 
 - website: https://activitywatch.net/
