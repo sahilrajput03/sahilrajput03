@@ -14,6 +14,8 @@
 
 ## Default terminal application in manjaro-i3 ?
 
+`urxvt`
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e4ae0ba6-c83e-40da-81fc-68db0daf5624)
 
 ## Check if port is used by currently running application
