@@ -31,7 +31,7 @@ cat /dev/null
 - There is not try, either you do it or don't. ~ Frank Oz (Star Wars)
 - Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.” Nature of mind is to wander around, its not problem its the way its designed. My job is to keep getting it back towards the goal.
 - Unwinding is hot no-sugar coffee!
-- Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
+- Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [web](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
 - More Technologies: trpc, hasura and onegraph (graphiql-explorer).
 - Quick Links
