@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Meta Stocks
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/80af9a9b-58a2-4157-863e-3e7abb52acfa)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ccaa2b8f-d62b-4ee1-a8aa-dccd5a47eddd)
+
 ## Should I handle Oauth callback in frontend or backend?
 
 TLDR: In backend. 
