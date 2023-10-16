@@ -9,7 +9,7 @@
 
 
 
-**Todo (personal):**
+**Todo (me):**
 
 - Todo check **mongodb course provided by Samaksh:** [1](https://drive.google.com/drive/folders/1ib0wbUEO3jKvXfIPikk9jB02zMiW4vzm), [2](https://drive.google.com/drive/folders/1Z82qjVu-ux283yLGIfDWFzl_73BbaCzF)
 - Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
