@@ -28,6 +28,9 @@
 - *Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
 - Neuro Linguistic Programming: [Click here](https://www.udemy.com/topic/neuro-linguistic-programming/)
 - Build 20+ mini projects using nothing but HTML5, CSS & JavaScript. No JS or CSS frameworks, no libraries, etc ~ By Traversy Media: [Click here](https://www.udemy.com/course/web-projects-with-vanilla-javascript/?referralCode=F9B7C7FED834F91ADE75)
+  - Amazing Android Courses:
+    - Android App Development Course with Kotlin & Java | Android: [Click here](https://www.udemy.com/course/android-app-development-course-with-kotlin-java-android/)
+    - (Jetpack, Architecture & More)Advanced Android Bootcamp 2023: [Click here](https://www.udemy.com/course/android-architecture-componentsmvvm-with-dagger-retrofit/)
 
 **General:**
 
@@ -60,9 +63,6 @@
   - Build An NFT Marketplace From Scratch - Blockchain DApp: [Udemy](https://www.udemy.com/course/build-an-nft-marketplace-from-scratch-blockchain-dapp/), Google Drive - [ Click here](https://drive.google.com/drive/folders/1o7eExDuepyTlyMUeospr1epx-xF9ELM9)
   - Become a Blockchain Developer: Ethereum + Solidity: [Click here](https://www.udemy.com/course/jpcourses-ethereum-smart-contract-programming-with-solidity-project)
   - Learn smart contracts and Dapp development for Ethereum: [Click here](https://pro.eattheblocks.com/p/6-figure-blockchain-developerLearn)
-  - Amazing Android Courses:
-    - Android App Development Course with Kotlin & Java | Android: [Click here](https://www.udemy.com/course/android-app-development-course-with-kotlin-java-android/)
-    - (Jetpack, Architecture & More)Advanced Android Bootcamp 2023: [Click here](https://www.udemy.com/course/android-architecture-componentsmvvm-with-dagger-retrofit/)
 
 **Javascript Docs and Prime Resources**
 
