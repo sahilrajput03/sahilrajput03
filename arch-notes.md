@@ -21,6 +21,7 @@
 yay -S activitywatch-bin
 ```
 
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ddb1b4fa-7ee9-4d68-9cf6-9ec7962a1e01)
 
 ## ❤️ Stop using `youtube-dl` and use `yt-dlp`
 
