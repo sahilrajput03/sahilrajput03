@@ -285,3 +285,7 @@ If you build a solution to a problem lots of people have , it's so easy to sell 
 You don't have to be best, you have to be dangerous. You have to learn just enough to be dangerous to build an idea, concept it and show it to the world and then it turns out there are lots of other people inlcuding all 170 employees that works on Instagram who are much better at doing all that stuff than I am. But you need to find people who can be drawn to the idea that you build and then they end up taking it and making it even better. ~ Kevin Systrom (CEO/co-founder of Instgram)
 
 Don't judge a book by its cover.
+
+**Overthinking weakens the intention.**
+
+**Karm kro, fal ki chinta mat kro.**
