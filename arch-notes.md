@@ -12,6 +12,15 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## `activitywatch-bin` for tracking screen time of apps
+
+- website: https://activitywatch.net/
+- github: https://github.com/ActivityWatch/activitywatch
+
+```bash
+yay -S activitywatch-bin
+```
+
 
 ## ❤️ Stop using `youtube-dl` and use `yt-dlp`
 
