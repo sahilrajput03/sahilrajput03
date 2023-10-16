@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Should I handle Oauth callback in frontend or backend?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1a03a670-0394-4634-8081-2085431f43a5)
+
 ## Web Components ~ Samaksh
 
 - MDN Docs - Web Components: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
