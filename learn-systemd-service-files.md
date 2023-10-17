@@ -19,7 +19,7 @@ systemctl --type=service --state=running
 systemctl | cat
 ```
 
-## Create a systemd service which you can setup to be run on system boot as well
+## Create a Systemd service which start on system boot
 
 ***NOTE: You don't need to reboot or logout/login to make the services take into effect.***
 
@@ -40,6 +40,10 @@ alias listServicesFiles='ls -l /etc/systemd/system/'
 $ ls -l /etc/systemd/system/sahil--*
 # -rw-r--r-- 1 root root 434 Oct 17 17:17 /etc/systemd/system/sahil--google-calendar-node.service
 # -rw-r--r-- 1 root root 418 Oct 17 16:43 /etc/systemd/system/sahil--slasher-frontend-dev.service
+
+# TIP: I gave permission to above files by below commmand:
+sudo chmod 644 /etc/systemd/system/sahil--google-calendar-node.service
+sudo chmod 644 /etc/systemd/system/sahil--slasher-frontend-dev.service
 ```
 
 1. Create a script
