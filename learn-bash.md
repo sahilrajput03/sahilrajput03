@@ -498,13 +498,14 @@ alias listServices='systemctl --type=service | cat'
 alias listServicesFiles='ls -l /etc/systemd/system/'
 ```
 
-***Tip: I should create all my custom services in my custom folder here:**
+***Tip: DO NOT TRY TO CREATE FILES UNDER CUSTOM DIRECTORY INSIDE /etc/systemd/system/sahil-services because it didn't work, (time wasted 2h).***
+
+**My current services with some info:**
 
 ```bash
-sudo mkdir /etc/systemd/system/sahil-services
-
-# All my service files can be put inside here now:
-ls /etc/systemd/system/sahil-services
+$ ls -l /etc/systemd/system/sahil--*
+-rw-r--r-- 1 root root 434 Oct 17 17:17 /etc/systemd/system/sahil--google-calendar-node.service
+-rw-r--r-- 1 root root 418 Oct 17 16:43 /etc/systemd/system/sahil--slasher-frontend-dev.service
 ```
 
 [Motivation -  Autostarting ~ Arch Docs](https://wiki.archlinux.org/title/autostarting)
