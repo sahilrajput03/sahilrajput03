@@ -19,7 +19,7 @@ Docs: [Click here](https://docs.deno.com/runtime/manual/getting_started/installa
 ```bash
 curl -fsSL https://deno.land/x/install/install.sh | sh
 
-# Now add below lines to your .bashrc file
+# NOW ADD BELOW LINES TO YOUR .bashrc FILE
 # deno
 export DENO_INSTALL="/home/array/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
