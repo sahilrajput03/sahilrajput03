@@ -498,6 +498,15 @@ alias listServices='systemctl --type=service | cat'
 alias listServicesFiles='ls -l /etc/systemd/system/'
 ```
 
+***Tip: I should create all my custom services in my custom folder here:**
+
+```bash
+sudo mkdir /etc/systemd/system/sahil-services
+
+# All my service files can be put inside here now:
+ls /etc/systemd/system/sahil-services
+```
+
 [Motivation -  Autostarting ~ Arch Docs](https://wiki.archlinux.org/title/autostarting)
 
 Src: [One](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6), [Two](https://tecadmin.net/run-shell-script-as-systemd-service/).
