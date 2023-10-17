@@ -489,6 +489,15 @@ Source: https://www.cyberciti.biz/faq/ubuntu-22-04-lts-set-up-openvpn-server-in-
 
 ## Create a systemd service which you can setup to be run on system boot as well
 
+***NOTE: You don't need to reboot or logout/login to make the services take into effect.***
+
+Tip: You can use these commands to see services you created:
+
+```bash
+alias listServices='systemctl --type=service | cat'
+alias listServicesFiles='ls -l /etc/systemd/system/'
+```
+
 [Motivation -  Autostarting ~ Arch Docs](https://wiki.archlinux.org/title/autostarting)
 
 Src: [One](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6), [Two](https://tecadmin.net/run-shell-script-as-systemd-service/).
