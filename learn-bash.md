@@ -18,6 +18,14 @@
 - ❤️ Learn Bash scripting official manjaro linux article - [Click here](https://forum.manjaro.org/t/tutorial-shell-scripting-by-way-of-an-illustrated-practical-example/66120)
 - ❤️Interactive vs. Non-Interactive shell❤️ : [Click here](https://phoenixnap.com/kb/bashrc-vs-bash-profile)
 
+## What does `wait` command do in bash script
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2b625d75-d8cb-4543-887f-4cdf0af07b78)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cba07f1f-3967-4b10-9e1d-ae477336ed2a)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b88b0e48-1e74-4cd3-b20d-bc849eb87361)
+
 ## Start and stop react frontend and backend server with single script
 
 ChatGPT Conversation: [Click here](https://chat.openai.com/share/01533cbf-aeb7-492c-b6de-a3b645c1317a)
