@@ -491,26 +491,24 @@ Source: https://www.cyberciti.biz/faq/ubuntu-22-04-lts-set-up-openvpn-server-in-
 
 ***NOTE: You don't need to reboot or logout/login to make the services take into effect.***
 
-Tip: You can use these commands to see services you created:
+[Motivation -  Autostarting ~ Arch Docs](https://wiki.archlinux.org/title/autostarting)
+
+Src: [One](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6), [Two](https://tecadmin.net/run-shell-script-as-systemd-service/).
 
 ```bash
+# Tip: You can use these commands to see services you created:
 alias listServices='systemctl --type=service | cat'
 alias listServicesFiles='ls -l /etc/systemd/system/'
-```
 
-***Tip: DO NOT TRY TO CREATE FILES UNDER CUSTOM DIRECTORY INSIDE /etc/systemd/system/sahil-services because it didn't work, (time wasted 2h).***
 
-**My current services with some info:**
+##### Tip: DO NOT TRY TO CREATE FILES UNDER CUSTOM DIRECTORY INSIDE /etc/systemd/system/sahil-services because it didn't work, (time wasted 2h).
 
-```bash
+
+# My current services with some info
 $ ls -l /etc/systemd/system/sahil--*
 # -rw-r--r-- 1 root root 434 Oct 17 17:17 /etc/systemd/system/sahil--google-calendar-node.service
 # -rw-r--r-- 1 root root 418 Oct 17 16:43 /etc/systemd/system/sahil--slasher-frontend-dev.service
 ```
-
-[Motivation -  Autostarting ~ Arch Docs](https://wiki.archlinux.org/title/autostarting)
-
-Src: [One](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6), [Two](https://tecadmin.net/run-shell-script-as-systemd-service/).
 
 1. Create a script
 
