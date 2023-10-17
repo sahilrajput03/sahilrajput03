@@ -1,8 +1,10 @@
 # archlinux-notes
 
+**Quick Links:**
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
 - **Learn i3:** [Click here](learn-i3.md)
+- **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
 
 **FYI: `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.**
 
