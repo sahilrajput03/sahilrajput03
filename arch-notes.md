@@ -12,6 +12,19 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Install deno
+
+Docs: [Click here](https://docs.deno.com/runtime/manual/getting_started/installation)
+
+```bash
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
+# Now add below lines to your .bashrc file
+# deno
+export DENO_INSTALL="/home/array/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+```
+
 ## Default terminal application in manjaro-i3 ?
 
 `urxvt`
