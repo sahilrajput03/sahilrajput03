@@ -20,6 +20,8 @@
 
 ## Start and stop react frontend and backend server with single script
 
+ChatGPT Conversation: [Click here](https://chat.openai.com/share/01533cbf-aeb7-492c-b6de-a3b645c1317a)
+
 ```bash
 #!/usr/bin/env bash
 
