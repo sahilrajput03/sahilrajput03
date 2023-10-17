@@ -248,6 +248,13 @@ sudo systemctl start docker
 sudo chmod 666 /var/run/docker.sock
 # PLEASE REBOOT(reboot means reboot and not just logout and login) THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
 
+# IMPORTANT: Add your user to docker group so that I don't need to run `sudo chmod 666 /var/run/docker.sock` after on each system boot
+sudo usermod -aG docker $USER
+# **NOTE**: You need logout and login so that user is added successfully to docker group
+# Veify if user is added successfully to docker gropu
+groups | grep docker
+# OUTPUT: sys network power libvirt autologin docker lp wheel array # Here we can see the `docker` entry here now.
+
 yay -S google-chrome skypeforlinux-stable-bin visual-studio-code-bin mongodb-compass postman-bin nvm android-studio
 
 # First install andoid studio by running below command
