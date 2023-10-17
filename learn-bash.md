@@ -18,6 +18,37 @@
 - ❤️ Learn Bash scripting official manjaro linux article - [Click here](https://forum.manjaro.org/t/tutorial-shell-scripting-by-way-of-an-illustrated-practical-example/66120)
 - ❤️Interactive vs. Non-Interactive shell❤️ : [Click here](https://phoenixnap.com/kb/bashrc-vs-bash-profile)
 
+## Start and stop react frontend and backend server with single script
+
+```bash
+#!/usr/bin/env bash
+
+# Function to stop both processes
+stop_processes() {
+  echo "Stopping processes..."
+  kill $frontend_pid $backend_pid
+  exit
+}
+
+# Start Express.js backend server
+echo "Starting Express.js server..."
+cd path/to/your/backend
+npm start &
+backend_pid=$!
+
+# Start Create React App frontend
+echo "Starting Create React App..."
+cd path/to/your/frontend
+npm start &
+frontend_pid=$!
+
+# Set up Ctrl+C handler
+trap stop_processes INT
+
+# Keep the script running
+wait
+```
+
 ## Get all services via systemd
 
 ```bash
