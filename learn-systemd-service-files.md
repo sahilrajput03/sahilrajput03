@@ -40,6 +40,7 @@ alias listServicesFiles='ls -l /etc/systemd/system/'
 $ ls -l /etc/systemd/system/sahil--*
 # -rw-r--r-- 1 root root 434 Oct 17 17:17 /etc/systemd/system/sahil--google-calendar-node.service
 # -rw-r--r-- 1 root root 418 Oct 17 16:43 /etc/systemd/system/sahil--slasher-frontend-dev.service
+# -rw-r--r-- 1 root root 465 Oct 17 18:48 /etc/systemd/system/sahil--slasher-mongodb-docker.service
 
 # TIP: I gave permission to above files by below commmand:
 sudo chmod 644 /etc/systemd/system/sahil--google-calendar-node.service
