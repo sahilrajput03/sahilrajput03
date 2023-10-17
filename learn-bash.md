@@ -1,18 +1,17 @@
 # Learning bash
 
+*RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic instinct to do `man cli-name` and read through it.*
+
 **Quick Links:**
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
-
-**GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
-
-*RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic instinct to do `man cli-name` and read through it.*
+- **Bash Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
+- **GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
 
 **Popular blogs:**
 - https://linuxize.com/ (5*)
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
-**Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
 **TODO READS:**
 - **Bash Shell Substitution:** [Click here](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
