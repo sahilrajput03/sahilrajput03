@@ -29,8 +29,8 @@ Src: [One](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-61
 
 ```bash
 # Tip: You can use these commands to see services you created:
-alias listServices='systemctl --type=service | cat'
-alias listServicesFiles='ls -l /etc/systemd/system/'
+alias listServicesSahil='systemctl --type=service | grep sahil--'
+alias listServicesSahilFiles='ls -l /etc/systemd/system/ | grep sahil--'
 
 
 ##### Tip: DO NOT TRY TO CREATE FILES UNDER CUSTOM DIRECTORY INSIDE /etc/systemd/system/sahil-services because it didn't work, (time wasted 2h).
