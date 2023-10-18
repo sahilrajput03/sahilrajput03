@@ -77,6 +77,10 @@ Date: 8 Oct, 2023
 - [Highlighter](https://chrome.google.com/webstore/detail/highlighter/fdfcjfoifbjplmificlkdfneafllkgmn)
 - [Autoskip for Youtube™ Ads](https://chrome.google.com/webstore/detail/autoskip-for-youtube-ads/hmbnhhcgiecenbbkgdoaoafjpeaboine/related)
 
+# We can store objects as global values temporarily for usage like that
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f24ecb4b-6347-4482-bb33-ed9dff93f72a)
+
 # Browser developer tools - Tips
 
 ![image](https://user-images.githubusercontent.com/31458531/231622265-077fce2a-46a1-40a8-9a9d-c9cfc21c0777.png)
