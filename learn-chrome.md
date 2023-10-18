@@ -5,12 +5,6 @@ Disabled below extensions becoz of too much memory usage(deteced from Google Chr
 - Auto Youtube Quality
 - Metamask
 
-## Update default page zoom level and page font size
-
-Date: 8 Oct, 2023
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7619549a-5f2d-4ba6-b329-a7008516191a)
-
 # Chrome Extensions
 
 - [Talk-to-ChatGPT](https://chrome.google.com/webstore/detail/talk-to-chatgpt/hodadfhfagpiemkeoliaelelfbboamlk)
@@ -76,6 +70,12 @@ Date: 8 Oct, 2023
 - [Password Alert](https://chrome.google.com/webstore/detail/password-alert/noondiphcddnnabmjcihcjfbhfklnnep) - Helps to avoid using same google password for other online accounts
 - [Highlighter](https://chrome.google.com/webstore/detail/highlighter/fdfcjfoifbjplmificlkdfneafllkgmn)
 - [Autoskip for Youtube™ Ads](https://chrome.google.com/webstore/detail/autoskip-for-youtube-ads/hmbnhhcgiecenbbkgdoaoafjpeaboine/related)
+
+## Update default page zoom level and page font size
+
+Date: 8 Oct, 2023
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7619549a-5f2d-4ba6-b329-a7008516191a)
 
 # We can store objects as global values temporarily for usage like that
 
