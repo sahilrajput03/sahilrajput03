@@ -3,6 +3,7 @@
 - [From John Gjengset - Why DSA based interviews are stupid ?](https://youtu.be/hmMbHB0zYrM?t=2880)
 - [Why Coding Interviews Are Broken! @Desi Coder](https://youtu.be/eERQF8wRawE)
 - [From theo (t3)](https://youtu.be/IH3Zcn2FL8E?t=5855)
+- [From Primegean](https://www.youtube.com/watch?si=X1TFP2wtLGDVl48Z&v=GLiFSAxB-Es&feature=youtu.be)
 - From quora:
 Does solving LeetCode problems make you a better software engineer?: [Click here](https://www.quora.com/Does-solving-LeetCode-problems-make-you-a-better-software-engineer)
 
