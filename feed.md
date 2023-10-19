@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Projects killed by google
+
+https://killedbygoogle.com/
+
 ## notion?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1d5f3f0f-fefb-4124-b512-96485511d7c7)
