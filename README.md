@@ -242,3 +242,4 @@ cat /dev/null
 - Learn Amazon Product Advertising API: [Click here](learn-amazon-product-advertising-api.md)
 - Web Components: [Click here](https://github.com/sahilrajput03/learn-web-components)
 - Learn Deno: [Click here](https://github.com/sahilrajput03/deno-playground)
+- Learn Flutter: [Click here](https://github.com/sahilrajput03/learn-flutter)
