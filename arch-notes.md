@@ -14,6 +14,12 @@
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
+## Install flutter
+
+```bash
+pacman -S flutter
+```
+
 ## Install deno
 
 Docs: [Click here](https://docs.deno.com/runtime/manual/getting_started/installation)
