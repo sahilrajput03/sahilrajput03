@@ -1,5 +1,57 @@
 # Learn Eslint
 
+## Custom eslint plugin
+
+```js
+// file: ./eslint-custom-plugins/eslint-plugin-noJestLogger.js
+/**
+ * Installing this to any project requires you to run:
+ * npm i --dev eslint-plugin-noJestLogger@file:./eslint-custom-plugins/eslint-plugin-noJestLogger.js
+ *
+ * In your .eslint.js file, you can add this plugin like this:
+ *
+ *   plugins: [
+ *     "@typescript-eslint/eslint-plugin",
+ *     'noJestLogger',
+ *   ],
+ *
+ *
+ * Now, you can define, warning level for it like this:
+ *
+ *   rules: {
+ *     /* Other plugins here...*
+ *     "noJestLogger/noJestLogger": "warn",
+ *   }
+ */
+
+const functionName = 'jestLogger';
+
+module.exports = {
+  rules: {
+    noJestLogger: {
+      create(context) {
+        return {
+          CallExpression(node) {
+            if (node.callee.name === functionName) {
+              context.report({
+                node,
+                message: 'Unexpected jestLogger statement',
+              });
+            }
+          },
+        };
+      },
+    },
+  },
+};
+```
+
+```
+// file: ./utils/logger-utils.ts
+// eslint-disable-next-line global-require, @typescript-eslint/no-var-requires
+export const jestLogger = require('console').log;
+```
+
 ## Disable eslint temporarily for a file (slasher tested)
 
 ```
