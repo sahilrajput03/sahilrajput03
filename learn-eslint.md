@@ -29,7 +29,7 @@ export const jestLogger = require('console').log;
  * Now, you can define, warning level for it like this:
  *
  *   rules: {
- *     /* Other plugins here...*
+ *     /* Other rules here...*
  *     "noJestLogger/noJestLogger": "warn",
  *   }
  */
