@@ -2,6 +2,16 @@
 
 ## Custom eslint plugin
 
+- file: `./utils/logger-utils.ts`
+
+```
+// file: ./utils/logger-utils.ts
+// eslint-disable-next-line global-require, @typescript-eslint/no-var-requires
+export const jestLogger = require('console').log;
+```
+
+- file: `./eslint-custom-plugins/eslint-plugin-noJestLogger.js`
+
 ```js
 // file: ./eslint-custom-plugins/eslint-plugin-noJestLogger.js
 /**
@@ -44,12 +54,6 @@ module.exports = {
     },
   },
 };
-```
-
-```
-// file: ./utils/logger-utils.ts
-// eslint-disable-next-line global-require, @typescript-eslint/no-var-requires
-export const jestLogger = require('console').log;
 ```
 
 ## Disable eslint temporarily for a file (slasher tested)
