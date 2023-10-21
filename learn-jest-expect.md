@@ -23,6 +23,8 @@
 
 ## Remove default console.log format of jest
 
+Also, added on stackoverflow: [Cilck here](https://stackoverflow.com/a/77337161/10012446)
+
 Create file: `logger-utils.ts` with following code:
 
 ```ts
@@ -56,7 +58,7 @@ console.log = jestLogger; // this thorws warning but let it be because we anyway
 console.log('hello');
 ```
 
-**other accepted solution from stackoverflow:**
+***FYI: Other accepted solution from stackoverflow:***
 
 Source (stackoverflow): [Click here](https://stackoverflow.com/a/68017229/10012446)
 
