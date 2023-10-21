@@ -23,6 +23,41 @@
 
 ## Remove default console.log format of jest
 
+Create file: `logger-utils.ts` with following code:
+
+```ts
+/**
+ * Usage:
+ * In any test file, use below code on top of file:
+
+  import { jestLogger } from '../../utils/logger-utils';
+  console.log = jestLogger;
+
+  Note: We don't want to directly use `jestLogger` because we do not
+  get eslint waring of no-console-log.
+  So, we should override console.log so that we get eslint warnings and
+  we don't end up getting log statements in our tests.
+
+*/
+
+// eslint-disable-next-line global-require, @typescript-eslint/no-var-requires
+export const jestLogger = require('console').log;
+```
+
+and now in your tests files, you can use:
+
+
+```ts
+// TOP OF THE FILE
+import { jestLogger } from '../../utils/logger-utils';
+console.log = jestLogger; // this thorws warning but let it be because we anyway we want to remove this after testing is complete.
+
+// in your tets
+console.log('hello');
+```
+
+**other accepted solution from stackoverflow:**
+
 Source (stackoverflow): [Click here](https://stackoverflow.com/a/68017229/10012446)
 
 ```ts
