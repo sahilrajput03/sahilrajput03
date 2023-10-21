@@ -21,6 +21,22 @@
 	  };
 	```
 
+## Remove default console.log format of jest
+
+Source (stackoverflow): [Click here](https://stackoverflow.com/a/68017229/10012446)
+
+```ts
+const jestConsole = console;
+
+beforeEach(() => {
+  global.console = require('console');
+});
+
+afterEach(() => {
+  global.console = jestConsole;
+});
+```
+
 ## more assertion helpers for `.toEqual`
 
 My Luxon Notes: Learn Luxon: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-luxon.md)
