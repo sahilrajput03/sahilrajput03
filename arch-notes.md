@@ -1,4 +1,4 @@
-# archlinux-notes
+# archlinux-notes 🚀
 
 **Quick Links:**
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
