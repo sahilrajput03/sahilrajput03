@@ -243,3 +243,4 @@ cat /dev/null
 - Web Components: [Click here](https://github.com/sahilrajput03/learn-web-components)
 - Learn Deno: [Click here](https://github.com/sahilrajput03/deno-playground)
 - Learn Flutter: [Click here](https://github.com/sahilrajput03/learn-flutter)
+- Learn Emojis 😇😃🚀😎😻💯💫💣: [Click here](https://tools.picsart.com/text/emojis/), [2](https://emojipedia.org/)
