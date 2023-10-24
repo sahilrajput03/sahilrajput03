@@ -14,8 +14,15 @@ luxon.DateTime.fromISO('2022-10-17T00:00:00Z').toJSDate().toISOString()
 
 // Create a Duration from a number of seconds
 const numberOfSeconds = 3600; // 1 hour
-const duration = luxon.Duration.fromObject({ seconds: numberOfSeconds });
-
-console.log(duration.toFormat("h 'hours,' m 'minutes,' s 'seconds'"));
+const duration1 = luxon.Duration.fromObject({ seconds: numberOfSeconds });
+console.log(duration1.toFormat("h 'hours,' m 'minutes,' s 'seconds'"));
 // OUTPUT: 1 hours, 0 minutes, 0 seconds
+
+
+const startTime = luxon.DateTime.now();
+// Do some computations....
+const now = luxon.DateTime.now();
+const duration2 = now.diff(startTime);
+console.log(duration2.toFormat("h 'hours,' m 'minutes,' s 'seconds'"));
+// OUTPUT: 0 hours, 0 minutes, 7 seconds
 ```
