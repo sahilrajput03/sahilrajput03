@@ -15,7 +15,7 @@
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 
 **❤️ FYI:**
-- You can say yes to all question for `pacman` cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow, you can test it via this as well - `yes | cat`.
+- You can say yes to all question for `pacman` cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 
 ## Install flutter
 
