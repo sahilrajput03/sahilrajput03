@@ -5,12 +5,13 @@ Tip: You can run below commands in browser console on site: https://moment.githu
 ```js
 // creating date from luxon
 const now = luxon.DateTime.now();
-```
 
-```js
+// creating ISO string from luxon date
+console.log(now.toJSDate().toISOString())
+// OUTPUT: '2023-10-24T16:34:17.155Z'
+
 // Creating date from ISO string
-luxon.DateTime.fromISO('2022-10-17T00:00:00Z').toJSDate().toISOString()
-// '2022-10-17T00:00:00.000Z'
+luxon.DateTime.fromISO('2022-10-17T00:00:00Z')
 ```
 
 **Duration:**
