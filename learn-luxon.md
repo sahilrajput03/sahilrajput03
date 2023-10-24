@@ -2,7 +2,13 @@
 
 Tip: You can run below commands in browser console on site: https://moment.github.io/luxon/
 
-```javascript
+```js
+// creating date from luxon
+const now = luxon.DateTime.now();
+```
+
+```js
+// Creating date from ISO string
 luxon.DateTime.fromISO('2022-10-17T00:00:00Z').toJSDate().toISOString()
 // '2022-10-17T00:00:00.000Z'
 ```
