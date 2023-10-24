@@ -19,7 +19,7 @@ console.log(duration1.toFormat("h 'hours,' m 'minutes,' s 'seconds'"));
 // OUTPUT: 1 hours, 0 minutes, 0 seconds
 
 
-// Create a Duration from difference b/w two time objects
+// Create a Duration from difference b/w two date objects
 const startTime = luxon.DateTime.now();
 // Do some computations....
 const now = luxon.DateTime.now();
