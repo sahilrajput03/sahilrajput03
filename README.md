@@ -244,4 +244,4 @@ cat /dev/null
 - Learn Deno: [Click here](https://github.com/sahilrajput03/deno-playground)
 - Learn Flutter: [Click here](https://github.com/sahilrajput03/learn-flutter)
 - Learn Emojis 😇😃🚀😎😻💯💫💣: [Click here](https://tools.picsart.com/text/emojis/), [2](https://emojipedia.org/)
-- Learn limiting concurrent requests with [`queue()`](https://caolan.github.io/async/v3/docs.html#queue) of [`async`](https://caolan.github.io/async/v3/) library (awesome): [Click here](https://github.com/sahilrajput03/learn-express/blob/main/learn-limiting-concurrent-requests.md)
+- 🚀 Learn limiting concurrent requests with [`queue()`](https://caolan.github.io/async/v3/docs.html#queue) of [`async`](https://caolan.github.io/async/v3/) library (awesome): [Click here](https://github.com/sahilrajput03/learn-express/blob/main/learn-limiting-concurrent-requests.md)
