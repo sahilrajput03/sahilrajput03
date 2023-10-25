@@ -13,6 +13,8 @@
 - `fn+shift+f12` - Go to References
 - `fn+ctrl+f12` - Go to implementations
 - `fn+rightCtrl` - Show right click menu (**Awesome**)
+- 🛑 `f8` to cycle through errors
+- 🚫 💣 `ctrl+k ctrl+i` replicate mouse over for e.g., to see an error
 
 ## Add eslint settings to your vscode directly
 
