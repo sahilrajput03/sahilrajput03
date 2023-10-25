@@ -25,3 +25,7 @@
 ## You can delete a google doc file simly like that
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/32f19b2d-f26f-47be-9158-836848b47673)
+
+## presentation tips
+
+https://www.youtube.com/shorts/USGYXVOtVpI?feature=share
