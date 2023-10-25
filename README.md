@@ -52,6 +52,7 @@ cat /dev/null
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
   - Blogs:
 	  - https://blog.isquaredsoftware.com/
+          - https://tim.blog/
 
 ## References:
 
