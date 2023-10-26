@@ -3,6 +3,7 @@
 *RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic instinct to do `man cli-name` and read through it.*
 
 **Quick Links:**
+- **WatchAll: [Click here](https://github.com/sahilrajput03/watchAll)**
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
 - **Bash Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 - **GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
