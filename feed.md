@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Mongodb compass has AI chat assistant as well
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3b9ba423-a8e3-4bf0-9748-5a3060b7fd30)
+
+<div align="right">Date: 26 Oct, 2023</div>
+
 ## Do adb device ids change after disconnect?
 
 TLDR: No (though probably yes if you run `adb restart` command)
