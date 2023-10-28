@@ -2,6 +2,14 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## TODO: (note the sorting methodology used in slashes)
+
+TODO_HERE
+
+## Bard is fast now
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/45ce9840-caea-4761-94bd-537d959e5455)
+
 ## Mongodb compass has AI chat assistant as well
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3b9ba423-a8e3-4bf0-9748-5a3060b7fd30)
