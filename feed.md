@@ -6,6 +6,11 @@
 
 TODO_HERE
 
+## Opensource AI avatar generator
+
+- https://photoshot.app/
+- https://github.com/shinework/photoshot
+
 ## Bard is fast now
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/45ce9840-caea-4761-94bd-537d959e5455)
