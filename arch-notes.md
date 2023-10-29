@@ -17,6 +17,24 @@
 **❤️ FYI:**
 - You can say yes to all question for `pacman` cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 
+## Format pendrive as exfat
+
+```bash
+sudo pacman -S exfat-utils
+
+# check the device path via
+sudo fdisk -l
+
+# unmount
+sudo umount /dev/sda1
+
+# format the partition to exFAT
+sudo mkfs.exfat /dev/sda1
+
+# remount
+sudo mount /dev/sda1 /mnt/sda1
+```
+
 ## Install flutter
 
 ```bash
