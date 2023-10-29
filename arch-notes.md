@@ -19,6 +19,10 @@
 
 ## Format pendrive as exfat
 
+The best format for a USB pendrive that needs to work on both Linux and Windows systems is typically FAT32 or exFAT. These file systems are widely supported by both operating systems and offer good compatibility.
+
+Also, exfat is a good choice for larger USB drives and when dealing with large files because FAT32 has limited functionality to store a maximum file size of 4 GB. So, `exfat` rocks!
+
 ```bash
 sudo pacman -S exfat-utils
 
