@@ -6,6 +6,12 @@
 
 TODO_HERE
 
+## FAT32 vs. exfat?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/88398467-239a-4470-acf7-84faf5fd250f)
+
+<div align="right">Date: 29 Oct, 2023</div>
+
 ## Opensource AI avatar generator
 
 - https://photoshot.app/
