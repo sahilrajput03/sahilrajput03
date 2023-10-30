@@ -1,4 +1,4 @@
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/14f3c5c0-c650-47c4-97c0-192c49a33309)# Feed
+# Feed
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
