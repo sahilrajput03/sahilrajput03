@@ -1,10 +1,15 @@
-# Feed
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/14f3c5c0-c650-47c4-97c0-192c49a33309)# Feed
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
 ## TODO: (note the sorting methodology used in slashes)
 
 TODO_HERE
+
+## hd, fhd, wqhd?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/96fe13b4-7b6a-4867-96fc-4ce41f6b2de2)
+
 
 ## FAT32 vs. exfat?
 
