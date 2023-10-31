@@ -289,3 +289,5 @@ Don't judge a book by its cover.
 **Overthinking weakens the intention.**
 
 **Karm kro, fal ki chinta mat kro.**
+
+**You don't need to control the greed but madness.** ~ Sahil
