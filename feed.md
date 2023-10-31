@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+- [google-pay](upi://pay?pa=9000000009@upi&pn=User1&tn=Test UPI&am=20&cu=INR&mc=1234&tr=01234)
+- [paytm](paytm://pay/upi/upi://pay?pa=9000000009@upi&pn=User1&tn=Test UPI&am=20&cu=INR&mc=1234&tr=01234)
+- [phonepay](intent://phonepe.com/#Intent;scheme=upi;package=com.phonepe.app;end)
+- [bhim](intent://bhimupi.in/#Intent;scheme=upi;package=com.npci.upi;end)
+- [other-upi](upi://pay?pa=9000000009@upi&pn=User1&tn=Test UPI&am=20&cu=INR&mc=1234&tr=01234)
+
 ## TODO: (note the sorting methodology used in slashes)
 
 TODO_HERE
