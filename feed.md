@@ -2,9 +2,9 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-## TODO: (note the sorting methodology used in slashes)
+## For sorting by name we can add a new field `sort_name` by which we can sort via the `after` id of the last set of items when we use cursor based pagination
 
-TODO_HERE
+For this we use: `sort_name=${doc.name}_{doc._id.toString()}` so this helps us establish cursor based pagination.
 
 ## Payments - Sample Deep Links 
 
