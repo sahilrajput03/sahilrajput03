@@ -2,6 +2,8 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Payments - Sample Deep Links 
+
 - [google-pay](upi://pay?pa=9000000009@upi&pn=User1&tn=Test UPI&am=20&cu=INR&mc=1234&tr=01234)
 - [paytm](paytm://pay/upi/upi://pay?pa=9000000009@upi&pn=User1&tn=Test UPI&am=20&cu=INR&mc=1234&tr=01234)
 - [phonepay](intent://phonepe.com/#Intent;scheme=upi;package=com.phonepe.app;end)
