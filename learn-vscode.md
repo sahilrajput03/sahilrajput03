@@ -15,6 +15,7 @@
 - `fn+rightCtrl` - Show right click menu (**Awesome**)
 - 🛑 `f8` to cycle through errors
 - 🚫 💣 `ctrl+k ctrl+i` replicate mouse over for e.g., to see an error
+- 🚀🚀 `ctrl+alt+rightArrow` and `ctrl+alt+leftArrow` to move a tab from one of two split editors to another
 
 ## Add eslint settings to your vscode directly
 
