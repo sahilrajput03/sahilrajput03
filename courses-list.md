@@ -6,9 +6,6 @@
 - Introduction to Marketing: [Click here](https://in.coursera.org/learn/wharton-marketing) (10 h)
 - Introduction to Financial Accounting: [Click here](https://www.coursera.org/learn/wharton-accounting) (13 h)
 
-
-
-
 **Todo (me):**
 
 - **TODO: AWS For Front-End Engineers, v2:**
