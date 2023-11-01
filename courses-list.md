@@ -11,6 +11,11 @@
 
 **Todo (me):**
 
+- TODO: AWS: AWS For Front-End Engineers, v2:
+  - Source: FontendMasters: [Click here](https://frontendmasters.com/courses/aws-v2/)
+  - CloudFront (CDN to help distribute so its quick and easy to load no matter where the customers are.)
+  - Routing, Amazon Certificate Manger (for ssl certs probably)
+  - Custom functionality to our CDN using lambda@Edge and CloudFront functions.
 - Todo check **mongodb course provided by Samaksh:** [1](https://drive.google.com/drive/folders/1ib0wbUEO3jKvXfIPikk9jB02zMiW4vzm), [2](https://drive.google.com/drive/folders/1Z82qjVu-ux283yLGIfDWFzl_73BbaCzF)
 - Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
 - Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
