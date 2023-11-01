@@ -11,7 +11,7 @@
 
 **Todo (me):**
 
-- TODO: AWS: AWS For Front-End Engineers, v2:
+- **TODO: AWS For Front-End Engineers, v2:**
   - Source: FontendMasters: [Click here](https://frontendmasters.com/courses/aws-v2/)
   - CloudFront (CDN to help distribute so its quick and easy to load no matter where the customers are.)
   - Routing, Amazon Certificate Manger (for ssl certs probably)
