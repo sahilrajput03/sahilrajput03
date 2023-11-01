@@ -18,7 +18,9 @@ cat /dev/null
 
 **Quick Links:**
 
-- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
+- English:
+	- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
+	 - English Vocab: [Click here](english-vocab.md)
 - Stocks Blog: [Click here](blog-stocks.md)
 - Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 
