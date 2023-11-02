@@ -2,6 +2,13 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## What is ERP
+
+Erp Serivce used by Zerodha (mentioned in their hello world article on their website):
+- ERPNext: ERPNext is the world's best free and open source ERP): [Click here](https://erpnext.com/)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/96b9c5f9-6168-4a3b-96a6-68d978e2e589)
+
 ## How can a store documents such that I can fetch them in a particular sequence
 
 Refer my notes on other page: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#how-can-a-store-documents-such-that-i-can-fetch-them-in-a-particular-sequence)
