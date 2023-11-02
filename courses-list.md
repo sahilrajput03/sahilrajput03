@@ -20,16 +20,18 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
   ~~**MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)~~ , (Removed, please use the official docs and make more examples in your official `learning-monogo-and-mongoosejs` 
 - Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
 - Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
-- Kubernetes Tutorial for Beginners [4h] by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
+- Kubernetes:
+  - Learn Kuberneted by ~ `Just me and Opensource`: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0)
+  - Kubernetes Tutorial for Beginners [4h] by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
+  - *DevOps with Kubernetes ~ `FullStackOpen` Part 12 and Part 13.*
 - DevOps Roadmap by `TechWorld with Nana`: [Click here](https://youtu.be/G_nVMUtaqCk)
-- Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **Just me and Opensource**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
+- Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **`Just me and Opensource`**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
 - Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
 - Typescript: No BS TS by Jack Herrington: [Click here](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 - Foundations of Decentralized Finance (DeFi): [Click here](https://www.linkedin.com/learning/foundations-of-decentralized-finance-defi)
 - todo-NestJS Fundamentals Course: [Click here](https://courses.nestjs.com/)
 - Advanced Expressjs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-express)
 - Advanced NodeJs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-node-js)
-- *DevOps with Kubernetes, FSO part 12 and part 13.*
 - *Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
 - Neuro Linguistic Programming: [Click here](https://www.udemy.com/topic/neuro-linguistic-programming/)
 - Build 20+ mini projects using nothing but HTML5, CSS & JavaScript. No JS or CSS frameworks, no libraries, etc ~ By Traversy Media: [Click here](https://www.udemy.com/course/web-projects-with-vanilla-javascript/?referralCode=F9B7C7FED834F91ADE75)
