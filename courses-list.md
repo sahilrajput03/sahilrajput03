@@ -17,6 +17,7 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
   - Custom functionality to our CDN using lambda@Edge and CloudFront functions.
 - **Mongodb:**
   - 5h - Youtube Playlist by `Just me and Opensource`: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wPvZJqUJhjyNtm7UedWR8Ps)
+  - 5h 40m - Youtube Playlist by `Enginnering Digest`: [Click here](https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1)
   -  Todo check by Samaksh: [1](https://drive.google.com/drive/folders/1ib0wbUEO3jKvXfIPikk9jB02zMiW4vzm), [2](https://drive.google.com/drive/folders/1Z82qjVu-ux283yLGIfDWFzl_73BbaCzF)
   ~~**MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)~~ , (Removed, please use the official docs and make more examples in your official `learning-monogo-and-mongoosejs` 
 - Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
