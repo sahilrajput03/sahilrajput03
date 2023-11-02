@@ -23,6 +23,7 @@ cat /dev/null
 	 - English Vocab 💫: [Click here](english-vocab.md)
 - Stocks Blog: [Click here](blog-stocks.md)
 - Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+- Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 
 *More:**
 
