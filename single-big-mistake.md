@@ -16,3 +16,5 @@ Fix procrastination by:
 ## 5. No taking hourly breaks. This may sometimes feel unnecessary but even in shorter run you are able to put more hours rather than few focussed hours. At the end of day, the more the hours that matters more than the few focussed hours. Yes, that's true at all time.
 
 ## 6. Not getting help from my co workers after 3+ hours of trying to fix a problem and not albe to progress. And belive me, 3+ hours is definiltey the borderline of help that you must seek at all fucking times.
+
+### 7. Not reading messages before clcking the "Send" button (really important as I don't write what I mean like 99.9% of times, SERIOULY)
