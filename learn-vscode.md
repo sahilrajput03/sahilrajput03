@@ -16,7 +16,7 @@
 - 🛑 `f8` to cycle through errors
 - 🚫 💣 `ctrl+k ctrl+i` replicate mouse over for e.g., to see an error
 - 🚀🚀 `ctrl+alt+rightArrow` and `ctrl+alt+leftArrow` to move a tab from one of two split editors to another
-- `ctrl+alt+j` to open `Join collaboration link text input`
+- 👻 `ctrl+alt+j` to open `Join collaboration link text input`
 
 ## Add eslint settings to your vscode directly
 
