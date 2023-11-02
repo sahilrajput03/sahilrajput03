@@ -13,15 +13,15 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 - **TODO: AWS For Front-End Engineers, v2 - FontendMasters:** [Click here](https://frontendmasters.com/courses/aws-v2/)
   - CloudFront (CDN to help distribute so its quick and easy to load no matter where the customers are.)
   - Routing, Amazon Certificate Manger (for ssl certs probably)
-  - Custom functionality to our CDN using lambda@Edge and CloudFront functions.
-- **Mongodb:**
+  - Custom functionality to our CDN using lambda@Edge and CloudFront functions. 
+- Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
+- Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
+- **Mongodb Courses:**
   - 5h - Youtube Playlist by `Just me and Opensource`: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wPvZJqUJhjyNtm7UedWR8Ps)
   - 5h 40m - Youtube Playlist by `Enginnering Digest`: [Click here](https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1)
   -  Todo check by Samaksh: [1](https://drive.google.com/drive/folders/1ib0wbUEO3jKvXfIPikk9jB02zMiW4vzm), [2](https://drive.google.com/drive/folders/1Z82qjVu-ux283yLGIfDWFzl_73BbaCzF)
-  ~~**MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)~~ , (Removed, please use the official docs and make more examples in your official `learning-monogo-and-mongoosejs` 
-- Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
-- Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
-- **Kubernetes:**
+  ~~**MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)~~ , (Removed, please use the official docs and make more examples in your official `learning-monogo-and-mongoosejs`
+- **Kubernetes Courses:**
   - Youtube Playlist by `Just me and Opensource`: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0)
   - 4h - Youtube Playlist (begineer) by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
   - `FullStackOpen` - Part 12 and Part 13.
