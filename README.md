@@ -14,7 +14,9 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
-# Work Music: [Click here](./work-music.md)
+#### Work Music: [Click here](./work-music.md)
+
+#### Entertainment: [Click here](entertainment.md)
 
 **Quick Links:**
 
