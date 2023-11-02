@@ -2,9 +2,17 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## How can a store documents such that I can fetch them in a particular sequence
+
+Refer my notes on other page: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#how-can-a-store-documents-such-that-i-can-fetch-them-in-a-particular-sequence)
+
+<div align="right">Date: 2 Nov, 2023</div>
+
 ## For sorting by name we can add a new field `sort_name` by which we can sort via the `after` id of the last set of items when we use cursor based pagination
 
 For this we use: `sort_name=${doc.name}_{doc._id.toString()}` so this helps us establish cursor based pagination.
+
+<div align="right">Date: 30 Oct, 2023</div>
 
 ## Payments - Sample Deep Links 
 
@@ -20,6 +28,7 @@ For this we use: `sort_name=${doc.name}_{doc._id.toString()}` so this helps us e
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/96fe13b4-7b6a-4867-96fc-4ce41f6b2de2)
 
+<div align="right">Date: 30 Oct, 2023</div>
 
 ## FAT32 vs. exfat?
 
