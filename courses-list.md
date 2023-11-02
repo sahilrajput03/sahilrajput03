@@ -21,9 +21,10 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 - Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
 - Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
 - Kubernetes:
-  - Learn Kuberneted by ~ `Just me and Opensource`: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0)
-  - Kubernetes Tutorial for Beginners [4h] by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
-  - *DevOps with Kubernetes ~ `FullStackOpen` Part 12 and Part 13.*
+  - Youtube Playlist by `Just me and Opensource`: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0)
+  - 4h - Youtube Playlist (begineer) by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
+  - `FullStackOpen` - Part 12 and Part 13.
+  - `DevOps with Kubernetes` Textual Course: [Click here](https://devopswithdocker.com/)
 - DevOps Roadmap by `TechWorld with Nana`: [Click here](https://youtu.be/G_nVMUtaqCk)
 - Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **`Just me and Opensource`**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
 - Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
