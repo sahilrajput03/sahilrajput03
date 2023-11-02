@@ -2,11 +2,11 @@
 
 ## This is really great playground feature to test eslint rules of typescript
 
-<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/de67d39f-4dd0-4151-b753-2f4bb5902d29" width="400" />
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/de67d39f-4dd0-4151-b753-2f4bb5902d29" width="500" />
 
-<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2d6ad63a-0d1c-427e-b201-cab3e6da707c" width="400" />
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2d6ad63a-0d1c-427e-b201-cab3e6da707c" width="500" />
 
-<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/afee3825-2727-4131-9b1e-6c87134efc2b" width="400" />
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/afee3825-2727-4131-9b1e-6c87134efc2b" width="500" />
 
 
 ## Custom eslint plugin
