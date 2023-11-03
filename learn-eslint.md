@@ -23,7 +23,7 @@ module.exports = {
     ],
 
     // Always have empty line in the end of file
-    eol-last: ["error", "always"]
+    'eol-last': ["error", "always"]
   },
 };
 ```
