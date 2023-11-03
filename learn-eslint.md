@@ -1,5 +1,30 @@
 # Learn Eslint
 
+## Install eslint for react rules
+
+```bash
+npm install eslint-plugin-react --save-dev
+```
+
+In your eslint config file you can do:
+
+```bash
+module.exports = {
+  // ... other ESLint settings
+  rules: {
+    // ... other rules
+    'no-multiple-empty-lines': [
+      'error',
+      {
+        max: 1, // Set the maximum number of empty lines to 1 (or any other value you prefer)
+        maxBOF: 1, // Set the maximum number of empty lines at the beginning of the file
+        maxEOF: 1, // Set the maximum number of empty lines at the end of the file
+      },
+    ],
+  },
+};
+```
+
 ## This is really great playground feature to test eslint rules of typescript
 
 <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/de67d39f-4dd0-4151-b753-2f4bb5902d29" width="600" />
