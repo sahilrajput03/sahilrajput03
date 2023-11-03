@@ -1,6 +1,6 @@
 # Learn Eslint
 
-## Install eslint for react rules
+## Install eslint in JSX for `no-multiple-empty-lines`
 
 ```bash
 npm install eslint-plugin-react --save-dev
