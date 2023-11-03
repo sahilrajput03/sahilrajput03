@@ -12,7 +12,7 @@ In your eslint config file you can do:
 module.exports = {
   // ... other ESLint settings
   rules: {
-    // ... other rules
+    // Never have multiple empty lines
     'no-multiple-empty-lines': [
       'error',
       {
@@ -21,6 +21,9 @@ module.exports = {
         maxEOF: 1, // Set the maximum number of empty lines at the end of the file
       },
     ],
+
+    // Always have empty line in the end of file
+    eol-last: ["error", "always"]
   },
 };
 ```
