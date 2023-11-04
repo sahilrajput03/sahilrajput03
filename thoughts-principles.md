@@ -18,8 +18,6 @@ There's not much corporate bureaucracy yet. So, I don't have to waste much time 
 
 A major secret to success is not stopping when you're tired but rather stopping when you are done.
 
-Waqt har jakham bhar deta hain. ~ Geeta
-
 Time and tide wait for none.
 
 'A genius is the man who can do the average thing when everyone else around him is losing his mind.' —Napoleon
@@ -294,3 +292,4 @@ Don't judge a book by its cover.
 
 **Love heals all wounds** ~ Mel (Virgin River)
 
+Waqt har jakham bhar deta hain. ~ Geeta
