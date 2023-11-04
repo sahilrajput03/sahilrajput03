@@ -1,6 +1,8 @@
 # archlinux-notes 🚀 ⚡
 
 **Quick Links:**
+- `config` Repo: [Click here](https://github.com/sahilrajput03/config)
+- `my_bin` Repo: [Click here](https://github.com/sahilrajput03/my_bin) (in process of moving data to my current notes pages)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
 - **Learn i3:** [Click here](learn-i3.md)
