@@ -1,5 +1,10 @@
 # archlinux-notes 🚀 ⚡
 
+
+**TODO:**
+- Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
+- Move my files from https://github.com/sahilrajput03/my_bin repo to my current notes.
+
 **Quick Links:**
 - `config` Repo: [Click here](https://github.com/sahilrajput03/config)
 - `my_bin` Repo: [Click here](https://github.com/sahilrajput03/my_bin) (in process of moving data to my current notes pages)
@@ -8,16 +13,11 @@
 - **Learn i3:** [Click here](learn-i3.md)
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
 
-**FYI: `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.**
-
-**FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
-**FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
-
-**TODO:**
-- Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
-
-**❤️ FYI:**
-- You can say yes to all question for `pacman` cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
+**FYI:**
+- `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.
+- `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)
+- Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles
+- ❤️ You can say yes to all question for `pacman` cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 
 ## Format pendrive as exfat
 
