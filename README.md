@@ -1,3 +1,6 @@
+
+# 💣💣 TODO: for me - Do the playwright course now!! 💣💣
+
 <h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 ```bash
