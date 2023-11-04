@@ -1,5 +1,6 @@
 
-# 💣💣 TODO: for me - Do the playwright course now!! 💣💣
+# 💣💣 TODO: for me - Do the playwright course now. 💣💣
+# 💣💣 TODO: Do the flutter codelab. 💣💣
 
 <h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
