@@ -2,6 +2,12 @@
 
 **Tutorials:**
 - **TODO:** Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8)
+  - **Test Generator and Generating Tests** (write tests with GUI):
+    - How To Record Tests (❤️ 5th video from above playlist): [Click here](https://www.youtube.com/watch?v=-F0eCZK_vxE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8&index=5)
+    - Official Docs:
+      - Test generator: [Click here](https://playwright.dev/docs/codegen)
+      - Generating tests: [Click here](https://playwright.dev/docs/codegen-intro)
+- Amazing Article: [Click here](https://www.lambdatest.com/playwright) (March 17 2023)
 
 Docs Links:
 - **Running Tests:** [Click here](https://playwright.dev/docs/running-tests)
