@@ -18,3 +18,5 @@ Fix procrastination by:
 ## 6. Not getting help from my co workers after 3+ hours of trying to fix a problem and not albe to progress. And belive me, 3+ hours is definiltey the borderline of help that you must seek at all fucking times.
 
 ## 7. Not reading messages before clcking the "Send" button (really important as I don't write what I mean like 99.9% of times, SERIOULY)
+
+## 8. Not doing full fledge courses when I get to fix some small things for e.g., I should have learned `PlayWright` a long time ago and have written staging tests for our social media.
