@@ -291,3 +291,6 @@ Don't judge a book by its cover.
 **Karm kro, fal ki chinta mat kro.**
 
 **You don't need to control the greed but madness.** ~ Sahil
+
+**Love heals all wounds** ~ Mel (Virgin River)
+
