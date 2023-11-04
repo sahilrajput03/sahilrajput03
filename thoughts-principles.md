@@ -293,3 +293,5 @@ Don't judge a book by its cover.
 **Love heals all wounds** ~ Mel (Virgin River)
 
 Waqt har jakham bhar deta hain. ~ Geeta
+
+Dream is not that which you see while sleeping, it is something that does not let you sleep. ~ APJ Abdul Kalam
