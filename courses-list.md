@@ -11,6 +11,7 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 **Todo (me):**
 
 - **AWS:**
+    - AWS Free official courses: [Click here](https://aws.amazon.com/training/digital/?cta=tctopbanner) (also see great image in the end of this document)
     - TERRAFORM: [Website](https://www.terraform.io/), [Github](https://github.com/hashicorp/terraform) (39.2k*)
       - **TODO: Read ARTICLES on terraform:**
         - Terraform: Building **Multi-Cloud Infrastructure for AWS and GCP**: A Comparative Analysis: [Click here](https://medium.com/engineered-publicis-sapient/building-aws-and-gcp-cloud-infrastructure-with-terraform-a-comparative-analysis-16380cfd9dfd)
@@ -160,3 +161,8 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 
 TODO: [Qutebrowser](https://www.shortcutfoo.com/app/dojos/qutebrowser/learn) Excel, Jira, Gmail, git, Regex.
 
+## AWS Free official courses
+
+AWS Free official courses: [Click here](https://aws.amazon.com/training/digital/?cta=tctopbanner) (also see great image in the end of this document)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5a3c7dae-c6e3-48bd-b1aa-65771a185a73)
