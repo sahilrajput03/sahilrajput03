@@ -23,6 +23,9 @@
 
 ```bash
 sudo pacman -S steam
+
+# you need to run below command otherwise your pc may logout when you try to run steam
+# src: https://www.reddit.com/r/archlinux/comments/q41nuc/launching_a_game_from_steam_logs_me_out_of_my/
 sudo pacman -R xf86-video-intel
 ```
 
