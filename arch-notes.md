@@ -19,6 +19,13 @@
 - Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles
 - ❤️ You can say yes to all question for `pacman` cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 
+## install steam
+
+```bash
+sudo pacman -S steam
+sudo pacman -R xf86-video-intel
+```
+
 ## Format pendrive as exfat
 
 The best format for a USB pendrive that needs to work on both Linux and Windows systems is typically FAT32 or exFAT. These file systems are widely supported by both operating systems and offer good compatibility.
