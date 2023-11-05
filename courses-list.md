@@ -11,7 +11,7 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 **Todo (me):**
 
 - **AWS:**
-  - **TODO: Read article on terraform:**
+  - **TODO: Read ARTICLES on terraform:**
     - Terraform: Building **Multi-Cloud Infrastructure for AWS and GCP**: A Comparative Analysis: [Click here](https://medium.com/engineered-publicis-sapient/building-aws-and-gcp-cloud-infrastructure-with-terraform-a-comparative-analysis-16380cfd9dfd)
     - STACKOVERFLOW - Question: Movement from AWS to GCP with terraform: [Click here](https://stackoverflow.com/a/60936052/10012446)
     - STACKOVERFLOW - Question: How to use Terraform in a cloud agnostic way: [Click here](https://stackoverflow.com/a/42791218/10012446)
