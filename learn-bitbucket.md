@@ -8,5 +8,5 @@
 ## Can i check pipeline status via bitbucket API?
 
 - Bitbucket Oauth, Official Docs: [Click here](https://developer.atlassian.com/cloud/bitbucket/rest/intro/#oauth-2-0)
-- Bard response: [Click here](https://g.co/bard/share/20f5944db839)https://g.co/bard/share/20f5944db839
+- Bard response: [Click here](https://g.co/bard/share/20f5944db839)
 
