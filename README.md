@@ -120,6 +120,7 @@ cat /dev/null
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Github Actions:** [Click here](./github-actions.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
+- Learn BitBucket | Pipelines: [Click here](learn-bitbucket.md)
 - **Learn Google Development:**
 	- Play Console: [Click here](learn-playconsole.md)
 	- Cloud Console: [Click here](./learn-google-cloud.md)
@@ -261,4 +262,3 @@ cat /dev/null
 - Learn Flutter: [Click here](https://github.com/sahilrajput03/learn-flutter)
 - Learn Emojis 😇😃🚀😎😻💯💫💣: [Click here](https://tools.picsart.com/text/emojis/), [2](https://emojipedia.org/)
 - 🚀 Learn limiting concurrent requests with [`queue()`](https://caolan.github.io/async/v3/docs.html#queue) of [`async`](https://caolan.github.io/async/v3/) library (awesome): [Click here](https://github.com/sahilrajput03/learn-express/blob/main/learn-limiting-concurrent-requests.md)
-- Learn BitBucket | Pipelines: [Click here](learn-bitbucket.md)
