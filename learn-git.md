@@ -7,11 +7,12 @@
 ## Remove branch remote
 
 ```bash
-# delete the remote branch from the remote repository, but it will not delete the local branch
-git branch -d feature-a
+# Delete the remote branch (will not delete the local branch)
+# Note: you don't need to prefix it with `/origin` because you already specified origin after the `push` option
+git push origin --delete myBranchName
 
-# delete the local branch
-git branch -d feature-a
+# Delete the local branch
+git branch -d myBranchName
 ```
 
 ## Simple way to setup ssh git-github connection with `gh` cli
