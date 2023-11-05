@@ -1,7 +1,11 @@
 
 # 💣💣 TODO: for me - Do the playwright course now. 💣💣
 
-After this is done, automate playstore apk deployment on playstore and also import send promote to "Production" + also send for google review. WOW!!
+After this is done, automate playstore apk deployment on playstore:
+1. file picker
+2. deploy
+3. promote to "Production"
+4. send for google review.
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
