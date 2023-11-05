@@ -4,7 +4,7 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
-## Remove branch remote
+## Remove remote branch and local branch
 
 ```bash
 # Delete the remote branch (will not delete the local branch)
