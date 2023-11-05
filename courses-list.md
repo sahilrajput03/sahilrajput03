@@ -11,11 +11,11 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 **Todo (me):**
 
 - **AWS:**
-  - **TODO: Read ARTICLES on terraform:**
-    - Terraform: Building **Multi-Cloud Infrastructure for AWS and GCP**: A Comparative Analysis: [Click here](https://medium.com/engineered-publicis-sapient/building-aws-and-gcp-cloud-infrastructure-with-terraform-a-comparative-analysis-16380cfd9dfd)
-    - STACKOVERFLOW - Question: Movement from AWS to GCP with terraform: [Click here](https://stackoverflow.com/a/60936052/10012446)
-    - STACKOVERFLOW - Question: How to use Terraform in a cloud agnostic way: [Click here](https://stackoverflow.com/a/42791218/10012446)
-  - TERRAFORM: [Website](https://www.terraform.io/), [Github](https://github.com/hashicorp/terraform) (39.2k*)
+    - TERRAFORM: [Website](https://www.terraform.io/), [Github](https://github.com/hashicorp/terraform) (39.2k*)
+      - **TODO: Read ARTICLES on terraform:**
+        - Terraform: Building **Multi-Cloud Infrastructure for AWS and GCP**: A Comparative Analysis: [Click here](https://medium.com/engineered-publicis-sapient/building-aws-and-gcp-cloud-infrastructure-with-terraform-a-comparative-analysis-16380cfd9dfd)
+        - STACKOVERFLOW - Question: Movement from AWS to GCP with terraform: [Click here](https://stackoverflow.com/a/60936052/10012446)
+        - STACKOVERFLOW - Question: How to use Terraform in a cloud agnostic way: [Click here](https://stackoverflow.com/a/42791218/10012446)
   - 3h 40m - AWS For Front-End Engineers, v2 - FontendMasters: [Click here](https://frontendmasters.com/courses/aws-v2/)
     - CloudFront (CDN to help distribute so its quick and easy to load no matter where the customers are.)
     - Routing, Amazon Certificate Manger (for ssl certs probably)
