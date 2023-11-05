@@ -120,7 +120,7 @@ cat /dev/null
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Github Actions:** [Click here](./github-actions.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
-- Learn BitBucket | Pipelines: [Click here](learn-bitbucket.md)
+- Learn BitBucket | Pipelines | Bitbucket API: [Click here](learn-bitbucket.md)
 - **Learn Google Development:**
 	- Play Console: [Click here](learn-playconsole.md)
 	- Cloud Console: [Click here](./learn-google-cloud.md)
