@@ -11,6 +11,8 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 **Todo (me):**
 
 - **AWS:**
+- **TODO: Read article on terraform:**
+  - Terraform: Building **Multi-Cloud Infrastructure for AWS and GCP**: A Comparative Analysis: [Click here](https://medium.com/engineered-publicis-sapient/building-aws-and-gcp-cloud-infrastructure-with-terraform-a-comparative-analysis-16380cfd9dfd)
   - 3h 40m - AWS For Front-End Engineers, v2 - FontendMasters: [Click here](https://frontendmasters.com/courses/aws-v2/)
     - CloudFront (CDN to help distribute so its quick and easy to load no matter where the customers are.)
     - Routing, Amazon Certificate Manger (for ssl certs probably)
