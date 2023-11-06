@@ -1,5 +1,10 @@
 # Learn Steam
 
+## LEARN
+
+- A lot of games are not developer for linux
+- A lot of games don't play probably because of lack of graphics card
+
 # Low end free steam games
 
 - https://www.google.com/search?q=low+spec+steam+free+games+for+linux
