@@ -2,7 +2,8 @@
 
 # Low end free steam games
 
-https://www.google.com/search?q=low+spec+steam+free+games+for+linux
+- https://www.google.com/search?q=low+spec+steam+free+games+for+linux
+- https://steamcommunity.com/app/221410/discussions/0/4263206669453991600/
 
 ## Find linux games
 
