@@ -2,7 +2,7 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-## should we maintiain categories in database or in backend database as enums
+## Should we maintiain categories in database or in backend database as enums
 
 [Click here](https://github.com/sahilrajput03/learn-express/blob/main/README.md#should-we-maintiain-categories-in-database-or-in-backend-database-as-enums)
 
