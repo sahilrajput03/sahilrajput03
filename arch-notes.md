@@ -572,13 +572,11 @@ Download AppImage simply via: https://trufflesuite.com/ganache/
 sudo mv ~/Downloads/ganache-2.5.4-linux-x86_64.AppImage /usr/bin/ganache-ui
 ```
 
-## Installed xournal
+## Installed xournalpp (pp means ++ i.e, xournal++)
 
-Github (9.4k*): [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp)
-
-Amazing pdf annotater: Source - [Stackoverflow Ansser](https://askubuntu.com/a/1288079/702911)
-
-[Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
+- Github (9.4k*): [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp)
+- Amazing pdf annotater: Source - [Stackoverflow Ansser](https://askubuntu.com/a/1288079/702911)
+- [Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
 
 ```bash
 # rename
