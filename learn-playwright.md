@@ -19,6 +19,60 @@ Docs Links:
 
 A testing tool.
 
+## Testing
+
+Source: [Click here](https://www.linkedin.com/posts/yuvrajvardhan_automationtesting-automation-testautomation-activity-7126168663207854081-pB1p?utm_source=share&utm_medium=member_desktop)
+
+9 types of API testing 👇👇👇
+
+📌 Smoke Testing
+➡️ Purpose: To quickly check if the API is functional.
+➡️ Focus: Basic functionality validation.
+➡️ Scope: Testing critical paths to ensure that the API is operational without major issues.
+
+📌 Functional Testing
+➡️ Purpose: To validate if the API functions as per its documented specifications.
+➡️ Focus: Testing specific functionality, input parameters, output results, and business logic.
+➡️ Scope: Evaluating the API for various use cases to ensure it meets the defined requirements and expectations.
+
+📌 Integration Testing
+➡️ Purpose: To test interactions between multiple APIs or services.
+➡️ Focus: Validation of data flow and communication between APIs.
+➡️ Scope: Ensuring that APIs can work seamlessly together in an end-to-end scenario, checking if they can exchange data and function collectively.
+
+📌 Regression Testing
+➡️ Purpose: To prevent new changes from breaking existing API functionality.
+➡️ Focus: Re-running previous test cases to check for any regression or unintended side effects.
+➡️ Scope: Verifying that the existing features and behaviors of the API remain intact after making changes or updates.
+
+📌 Load Testing
+➡️ Purpose: To assess API performance under expected loads.
+➡️ Focus: Measuring response times, throughput, and resource utilization during various load conditions.
+➡️ Scope: Testing the scalability of the API and identifying performance bottlenecks or resource limitations.
+
+📌 Stress Testing
+➡️ Purpose: To evaluate how the API performs under extreme loads beyond normal usage.
+➡️ Focus: Pushing the system to its limits to identify its breaking points.
+➡️ Scope: Assessing the robustness and error-handling capabilities of the API under severe stress, helping uncover potential issues.
+
+📌 Security Testing
+➡️ Purpose: To identify vulnerabilities and weaknesses in API security.
+➡️ Focus: Checking authentication, authorization, data protection, encryption, and other security measures.
+➡️ Scope: Protect the API against external threats, such as SQL injection, cross-site scripting (XSS), and unauthorized access.
+
+📌 UI Testing
+➡️ Purpose: To validate the interaction between the user interface and APIs.
+➡️ Focus: Ensuring that data is displayed correctly in the user interface when accessed through the API.
+➡️ Scope: Testing the integration of the API with the front-end components to guarantee a smooth user experience.
+
+📌 Fuzz Testing
+➡️ Purpose: To identify vulnerabilities and security issues in the API.
+➡️ Focus: Injecting unexpected, invalid, or malicious data to provoke unexpected behavior.
+➡️ Scope: Revealing potential vulnerabilities that could be exploited by attackers, such as buffer overflows, injection attacks, and data validation weaknesses.
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/506bb421-2346-40e8-a42d-a435d3a0af60)
+
+
 ## Latest changes made by Eric in slasher?
 
 [Commit](https://bitbucket.org/slasherapp/slasher-web-frontend/commits/da1ffcfe68c49f9c4d467aef397edac4880e0e95#Le2e/registration/security.test.tsF7T9)
