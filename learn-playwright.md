@@ -25,6 +25,7 @@ Source: [Click here](https://www.linkedin.com/posts/yuvrajvardhan_automationtest
 
 9 types of API testing 👇👇👇
 
+```
 📌 Smoke Testing
 ➡️ Purpose: To quickly check if the API is functional.
 ➡️ Focus: Basic functionality validation.
@@ -69,6 +70,7 @@ Source: [Click here](https://www.linkedin.com/posts/yuvrajvardhan_automationtest
 ➡️ Purpose: To identify vulnerabilities and security issues in the API.
 ➡️ Focus: Injecting unexpected, invalid, or malicious data to provoke unexpected behavior.
 ➡️ Scope: Revealing potential vulnerabilities that could be exploited by attackers, such as buffer overflows, injection attacks, and data validation weaknesses.
+```
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/506bb421-2346-40e8-a42d-a435d3a0af60)
 
