@@ -476,6 +476,7 @@ sudo pacman -S base-devel
 Source: [Click here](https://playwright.bootcss.com/python/docs/installation)
 
 ```bash
+# 11 Nov, 2023: This doesn't work because it requires me to set up an venv environment first
 pip install playwright
 ```
 
