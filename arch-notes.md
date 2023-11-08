@@ -21,6 +21,10 @@
 
 ## Install `gromit-mpx`
 
+Github: [Click here](https://github.com/bk138/gromit-mpx) (832*)
+
+This is really "screen annotation" or "screen drawing" app. 
+
 ```bash
 # install
 yay -S gromit-mpx --noconfirm
