@@ -19,7 +19,12 @@ Docs Links:
 
 A testing tool.
 
-## Testing
+
+## What is SDET?
+
+Software Development Engineer in Test
+
+## Different types of testing
 
 Source: [Click here](https://www.linkedin.com/posts/yuvrajvardhan_automationtesting-automation-testautomation-activity-7126168663207854081-pB1p?utm_source=share&utm_medium=member_desktop)
 
