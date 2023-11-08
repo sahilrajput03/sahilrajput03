@@ -19,6 +19,16 @@
 - Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 
+## Install `gromit-mpx`
+
+```bash
+# install
+yay -S gromit-mpx --noconfirm
+```
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/72b89a14-1b4f-41c2-94c1-3c39555f78a7)
+
+
 ## install steam
 
 ```bash
