@@ -36,6 +36,7 @@ cat /dev/null
 - Stocks Blog: [Click here](blog-stocks.md)
 - Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
+- **Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
 
 *More:**
 
