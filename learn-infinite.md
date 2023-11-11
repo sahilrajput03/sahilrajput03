@@ -4,6 +4,9 @@ So, what is this by the way?
 
 **Making coding tutorials with [Remotion](https://www.remotion.dev/).**
 
+Still why?
+- Checkout the showcase (possiblities) of Remotion: [Click here](https://www.remotion.dev/showcase)
+
 I can create coding tutorials and update the code in it with code. For e.g., I can make a course that I can update anytime and the example code shown in the video can show use the updated version of the tutorial because its all just code.
 
 Pros:
