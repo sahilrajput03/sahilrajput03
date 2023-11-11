@@ -265,4 +265,4 @@ cat /dev/null
 - Learn Steam (games): [Click here](learn-steam.md)
 - Learn KeepassXC: [Click here](learn-keepassxc.md)
 - Learn infinite: [Click here](learn-infinite.md)
-- Learn mocp (Music on Console): [Click here](learn-mocp.md)
+- 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
