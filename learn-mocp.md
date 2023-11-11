@@ -48,6 +48,11 @@ Usage:
 ```
 
 - Open current directory: `mocp .`
+
+Commonly used:
+- `n` for next song, `b` for previous song.
+- `[` and `]` to silent seek
+ 
 - Use `h` to show help as shown below:
 
 ```txt
