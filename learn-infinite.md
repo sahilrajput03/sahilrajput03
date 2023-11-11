@@ -8,5 +8,5 @@ Tradeoffs:
 - Never host on youtube because the content would be timeless as it will be updated anytime in future and with youtube.
 
 Pros:
-- I can update my coding tutorial and make the guided path to learn anything very optimal.
-- I can keep the video pause experience intact because user can switch the background autio and keep it playing anytime the user stop the tutorial.
+- I can update my coding tutorial and make the guided video with 100% upgradability in future, thus newer syntax and best practise updates can be made with time.
+- I can keep the video pause experience amazing because the background audio keep playing all the time even when the video is paused. The background audio can keep playing.
