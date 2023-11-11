@@ -16,6 +16,8 @@
 - `,` and `.` to increase/decrease volume 5% (use `<` and `>` to increase by 1%
 - `[` and `]` to silent seek
 - `[` / `]` to seek forward / backward by 5 seconds (UPDATED in config file: `SilentSeekTime = 5`)
+- `z` Add (or remove) a file to (from) queue
+- `Z`  the queue
 
 **From CLI:**
 ```txt
