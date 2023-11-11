@@ -117,7 +117,7 @@ Z              Clear the queue
 ## Help
 
 ```bash
-$ mocp -h
+mocp -h
 # Music On Console (version 2.5.2, revision 2930)
 # Usage:
 #  mocp [OPTIONS]... [FILE]...
@@ -139,27 +139,5 @@ $ mocp -h
 # -f --next              Play the next song
 # -r --previous          Play the previous song
 # -x --exit              Shutdown the server
-# -T --theme theme       Use the selected theme file (read from ~/.moc/themes
-#                        if the path is not absolute)
-# -C --config FILE       Use the specified config file instead of the default
-# -O --set-option NAME=VALUE
-#                        Override the configuration option NAME with VALUE
-# -M --moc-dir DIR       Use the specified MOC directory instead of the default
-# -P --pause             Pause
-# -U --unpause           Unpause
-# -G --toggle-pause      Toggle between playing and paused
-# -v --volume (+/-)LEVEL Adjust the PCM volume
-# -y --sync              Synchronize the playlist with other clients
-# -n --nosync            Don't synchronize the playlist with other clients
-# -A --ascii             Use ASCII characters to draw lines
-# -i --info              Print information about the currently playing file
-# -Q --format FORMAT     Print formatted information about the currently
-#                        playing file
-# -e --recursively       Alias for -a
-# -k --seek N            Seek by N seconds (can be negative)
-# -j --jump N{%,s}       Jump to some position of the current track
-# -o --on <controls>     Turn on a control (shuffle, autonext, repeat)
-# -u --off <controls>    Turn off a control (shuffle, autonext, repeat)
-# -t --toggle <controls> Toggle a control (shuffle, autonext, repeat)
 ```
 
