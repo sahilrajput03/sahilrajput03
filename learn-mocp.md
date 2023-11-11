@@ -5,7 +5,7 @@
 - Config file location: `~/.moc/config`
 - Open current directory: `mocp .`
 
-**Commonly used keybindings:**
+**🚀🚀Commonly used keybindings:**
 - `n` for next song, `b` for previous song.
 - `s` to stop
 - `[` and `]` to silent seek
