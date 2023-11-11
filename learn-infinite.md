@@ -13,6 +13,7 @@ Pros:
 - I can update my coding tutorial and make the guided video with 100% upgradability in future, thus newer syntax and best practise updates can be made with time.
 - I can keep the video pause experience amazing because user can play any music they want in youtube as backgroud music.
 - I can use image memes heavily to make content interesting. Though I can add videos with music in it but the tradeoff is that it would audio distraction because genereally I'm thinking to not add any audio in the final vidoe at all (or may be a [some music like this](https://www.youtube.com/watch?v=i43tkaTXtwI)).
+  - Check this data visualization too: [Click here](https://www.remotion.dev/showcase#Anx7p2jNQLUsSWBOjnEzdo9xvfC9spsVyL01sk7esrtY)
 - I can may be use audio in a very interesting way though, for e.g, check [music of this video](https://www.remotion.dev/showcase#J8H3dOuyC01ZurH9NnSvd17oS00FUPKns8HnTO02KyCF02k).
 
 Tradeoffs:
