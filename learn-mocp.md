@@ -7,7 +7,7 @@ Config file: `~/.moc/config`
  - `n` for next song, `b` for previous song.
  - `[` and `]` to silent seek
  - `,` and `.` to increase/decrease music (use `<` and `>` to increase song by 1%
- - `LEFT` / `RIGHT` to seek forward / backward by 5 seconds (UPDATED in config file: `SeekTime = 5`)
+ - `LEFT` / `RIGHT` to **seek forward / backward by 5 seconds** (UPDATED in config file: `SeekTime = 5`)
  - `[` / `]` to seek forward / backward by 5 seconds (UPDATED in config file: `SilentSeekTime = 5`)
 - Use `h` to show help as shown below:
 
