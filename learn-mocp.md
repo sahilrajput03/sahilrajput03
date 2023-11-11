@@ -316,7 +316,7 @@ OPTIONS
               Example: -t shuffle,r,n
                        would toggle shuffle, repeat and autonext all at once.
 
-       -j N{s|%}, --jump N{s|%}
+       -j N{s|PERCENTAGE_SIGN}, --jump N{s|PERCENTAGE_SIGN}
               Jump to some position in the current file.  N is the number of seconds (when followed by an ’s’) or the percent of total file time (when followed by a ’%’).
 
               Examples: -j 10s, -j 50%
