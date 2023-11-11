@@ -119,7 +119,7 @@ Z              Clear the queue
 ## Help
 
 ```txt
-$ mocp -h
+mocp -h
 Music On Console (version 2.5.2, revision 2930)
 Usage:
  mocp [OPTIONS]... [FILE]...
