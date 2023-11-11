@@ -1,5 +1,7 @@
 # Learn mocp
 
+**MOC - Console audio player**
+
 Config file: `~/.moc/config`
 
 - Open current directory: `mocp .`
