@@ -2,15 +2,15 @@
 
 **MOC - Console audio player**
 
-Config file: `~/.moc/config`
-
+- Config file location: `~/.moc/config`
 - Open current directory: `mocp .`
-- Commonly used:
- - `n` for next song, `b` for previous song.
- - `[` and `]` to silent seek
- - `,` and `.` to increase/decrease music (use `<` and `>` to increase song by 1%
- - `LEFT` / `RIGHT` to **seek forward / backward by 5 seconds** (UPDATED in config file: `SeekTime = 5`)
- - `[` / `]` to seek forward / backward by 5 seconds (UPDATED in config file: `SilentSeekTime = 5`)
+
+**Commonly used keybindings:**
+- `n` for next song, `b` for previous song.
+- `[` and `]` to silent seek
+- `,` and `.` to increase/decrease music (use `<` and `>` to increase song by 1%
+- `LEFT` / `RIGHT` to **seek forward / backward by 5 seconds** (UPDATED in config file: `SeekTime = 5`)
+- `[` / `]` to seek forward / backward by 5 seconds (UPDATED in config file: `SilentSeekTime = 5`)
 
 ## Other helpful keybindings:
 
