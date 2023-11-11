@@ -264,3 +264,4 @@ cat /dev/null
 - 🚀 Learn limiting concurrent requests with [`queue()`](https://caolan.github.io/async/v3/docs.html#queue) of [`async`](https://caolan.github.io/async/v3/) library (awesome): [Click here](https://github.com/sahilrajput03/learn-express/blob/main/learn-limiting-concurrent-requests.md)
 - Learn Steam (games): [Click here](learn-steam.md)
 - Learn KeepassXC: [Click here](learn-keepassxc.md)
+- Learn infinite: [Click here](learn-infinite.md)
