@@ -162,7 +162,7 @@ Usage:
 -u --off <controls>    Turn off a control (shuffle, autonext, repeat)
 -t --toggle <controls> Toggle a control (shuffle, autonext, repeat)
 ```
-Manual:
+# Manual
 
 ```txt
 $ man mocp | cat
