@@ -9,3 +9,4 @@ Tradeoffs:
 
 Pros:
 - I can update my coding tutorial and make the guided path to learn anything very optimal.
+- I can keep the video pause experience intact because user can switch the background autio and keep it playing anytime the user stop the tutorial.
