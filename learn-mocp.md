@@ -7,6 +7,7 @@
 
 **Commonly used keybindings:**
 - `n` for next song, `b` for previous song.
+- `s` to stop
 - `[` and `]` to silent seek
 - `,` and `.` to increase/decrease music (use `<` and `>` to increase song by 1%
 - `LEFT` / `RIGHT` to **seek forward / backward by 5 seconds** (UPDATED in config file: `SeekTime = 5`)
@@ -20,9 +21,9 @@
 # -q --enqueue           Add the files given on command line to the queue
 # -c --clear             Clear the playlist and exit
 # -p --play              Start playing from the first item on the playlist
-# -l --playit            Play files given on the command line without modifying
+# 🚀 -l --playit            Play files given on the command line without modifying
 #                        the playlist
-# -s --stop              Stop playing
+# 🚀 -s --stop              Stop playing
 # -f --next              Play the next song
 # -r --previous          Play the previous song
 # -x --exit              Shutdown the server
