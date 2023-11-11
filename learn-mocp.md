@@ -12,6 +12,22 @@
 - `LEFT` / `RIGHT` to **seek forward / backward by 5 seconds** (UPDATED in config file: `SeekTime = 5`)
 - `[` / `]` to seek forward / backward by 5 seconds (UPDATED in config file: `SilentSeekTime = 5`)
 
+**From CLI:**
+```txt
+# -m --music-dir         Start in MusicDir
+# -a --append            Append the files/directories/playlists passed in
+#                        the command line to playlist and exit
+# -q --enqueue           Add the files given on command line to the queue
+# -c --clear             Clear the playlist and exit
+# -p --play              Start playing from the first item on the playlist
+# -l --playit            Play files given on the command line without modifying
+#                        the playlist
+# -s --stop              Stop playing
+# -f --next              Play the next song
+# -r --previous          Play the previous song
+# -x --exit              Shutdown the server
+```
+
 ## Other helpful keybindings:
 
 - Use `h` to show help as shown below:
