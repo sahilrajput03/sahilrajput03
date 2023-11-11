@@ -52,6 +52,7 @@ Usage:
 Commonly used:
 - `n` for next song, `b` for previous song.
 - `[` and `]` to silent seek
+- `,` and `.` to increase/decrease music (use `<` and `>` to increase song by 1%
  
 - Use `h` to show help as shown below:
 
