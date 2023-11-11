@@ -6,6 +6,7 @@
 - Open current directory: `mocp .`
 
 **🚀🚀Commonly used keybindings:**
+- `a` Add a file/directory to the playlist
 - `space` to pause/play
 - `q` to exit player and continue playing in background
 - `n` for next song, `b` for previous song.
@@ -14,7 +15,6 @@
 - `,` and `.` to increase/decrease volume 5% (use `<` and `>` to increase by 1%
 - `[` and `]` to silent seek
 - `[` / `]` to seek forward / backward by 5 seconds (UPDATED in config file: `SilentSeekTime = 5`)
-- `a` Add a file/directory to the playlist
 
 **From CLI:**
 ```txt
