@@ -11,6 +11,9 @@ Config file: `~/.moc/config`
  - `,` and `.` to increase/decrease music (use `<` and `>` to increase song by 1%
  - `LEFT` / `RIGHT` to **seek forward / backward by 5 seconds** (UPDATED in config file: `SeekTime = 5`)
  - `[` / `]` to seek forward / backward by 5 seconds (UPDATED in config file: `SilentSeekTime = 5`)
+
+## Other helpful keybindings:
+
 - Use `h` to show help as shown below:
 
 ```txt
@@ -165,7 +168,7 @@ mocp -h
 
 
 
-# Manual
+## Manual
 
 ```txt
 $ man mocp | cat
