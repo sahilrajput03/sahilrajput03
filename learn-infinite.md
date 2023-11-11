@@ -12,6 +12,7 @@ I can create coding tutorials and update the code in it with code. For e.g., I c
 Pros:
 - I can update my coding tutorial and make the guided video with 100% upgradability in future, thus newer syntax and best practise updates can be made with time.
 - I can keep the video pause experience amazing because user can play any music they want in youtube as backgroud music.
+- I can use image memes heavily to make content interesting. Though I can add videos with music in it but the tradeoff is that it would audio distraction because genereally I'm thinking to not add any audio in the final vidoe at all (or may be a [some music like this](https://www.youtube.com/watch?v=i43tkaTXtwI)).
 
 Tradeoffs:
 - Never host on youtube because the content would be timeless as it will be updated anytime in future.
