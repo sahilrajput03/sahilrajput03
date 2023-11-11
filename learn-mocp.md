@@ -9,7 +9,7 @@
 - `n` for next song, `b` for previous song.
 - `s` to stop
 - `[` and `]` to silent seek
-- `,` and `.` to increase/decrease music (use `<` and `>` to increase song by 1%
+- `,` and `.` to increase/decrease volume 5% (use `<` and `>` to increase by 1%
 - `LEFT` / `RIGHT` to **seek forward / backward by 5 seconds** (UPDATED in config file: `SeekTime = 5`)
 - `[` / `]` to seek forward / backward by 5 seconds (UPDATED in config file: `SilentSeekTime = 5`)
 
