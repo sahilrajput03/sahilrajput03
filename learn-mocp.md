@@ -157,5 +157,9 @@ mocp -h
 #                        playing file
 # -e --recursively       Alias for -a
 # -k --seek N            Seek by N seconds (can be negative)
+
+# -o --on <controls>     Turn on a control (shuffle, autonext, repeat)
+# -u --off <controls>    Turn off a control (shuffle, autonext, repeat)
+# -t --toggle <controls> Toggle a control (shuffle, autonext, repeat)
 ```
 
