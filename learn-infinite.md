@@ -1,4 +1,6 @@
-# Learn Infinite
+# Fuck this bulshit - Text documentation is the best and always be the best all of my usecases! LOL
+
+## Learn Infinite
 
 So, what is this by the way?
 
