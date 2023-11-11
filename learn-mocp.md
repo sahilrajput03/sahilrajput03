@@ -7,6 +7,7 @@
 
 **🚀🚀Commonly used keybindings:**
 - `a` Add a file/directory to the playlist
+- `TAB` Switch between playlist and file list
 - `space` to pause/play
 - `q` to exit player and continue playing in background
 - `n` for next song, `b` for previous song.
