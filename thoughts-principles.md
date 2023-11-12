@@ -295,3 +295,5 @@ Don't judge a book by its cover.
 Waqt har jakham bhar deta hain. ~ Geeta
 
 Dream is not that which you see while sleeping, it is something that does not let you sleep. ~ APJ Abdul Kalam
+
+Champions aren't build on the days they feel motivated but the days they feel like quitting. ~ Unknown
