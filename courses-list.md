@@ -37,7 +37,6 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
       - 4h - Youtube Playlist (begineer) by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
       - `DevOps with Kubernetes` ~ Univ. Of Helsinki: [Click here](https://devopswithdocker.com/)
       - `FullStackOpen` - Part 11 and Part 12 ~ Univ. Of Helsinki: [Click here](https://fullstackopen.com/en/part11)
-- Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8) [6h]
 - Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
 - Typescript: No BS TS by Jack Herrington: [Click here](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 - Foundations of Decentralized Finance (DeFi): [Click here](https://www.linkedin.com/learning/foundations-of-decentralized-finance-defi)
@@ -82,6 +81,7 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
   - Build An NFT Marketplace From Scratch - Blockchain DApp: [Udemy](https://www.udemy.com/course/build-an-nft-marketplace-from-scratch-blockchain-dapp/), Google Drive - [ Click here](https://drive.google.com/drive/folders/1o7eExDuepyTlyMUeospr1epx-xF9ELM9)
   - Become a Blockchain Developer: Ethereum + Solidity: [Click here](https://www.udemy.com/course/jpcourses-ethereum-smart-contract-programming-with-solidity-project)
   - Learn smart contracts and Dapp development for Ethereum: [Click here](https://pro.eattheblocks.com/p/6-figure-blockchain-developerLearn)
+- Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8) [6h]
 
 **Javascript Docs and Prime Resources**
 
