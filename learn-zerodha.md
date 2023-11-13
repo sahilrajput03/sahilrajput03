@@ -6,7 +6,7 @@ Step: 1/3
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7d207b13-fa44-4006-b06f-6ea2a9a4b349)
 
-Step: 2/3, 3/3: **LEARN: Make sure you use `ctrl+s` to save your layout all the time.**
+Step: (2,3)/3: **LEARN: Make sure you use `ctrl+s` to save your layout all the time.**
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a7a7c78c-329e-48e1-b0c4-519a74cceca1)
 
