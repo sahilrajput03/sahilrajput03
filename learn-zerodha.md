@@ -1,6 +1,10 @@
 # Learn Zerodha
 
-Loading previously saved chart: 
+**Get multi window layout like that:**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4f44de1d-877c-4cd0-9c45-e8544dd7f6ff)
+
+**Loading previously saved chart:**
 
 Step: 1/3
 
