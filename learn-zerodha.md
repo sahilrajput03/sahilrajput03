@@ -2,7 +2,14 @@
 
 **Get multi window layout like that:**
 
+1/n
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4f44de1d-877c-4cd0-9c45-e8544dd7f6ff)
+
+2/n
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/271715f7-09d7-4a37-beec-ebe98217a2c3)
+
 
 **Loading previously saved chart:**
 
