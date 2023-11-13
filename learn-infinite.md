@@ -19,7 +19,7 @@ Pros:
   - https://www.remotion.dev/showcase#XJpfsCytTHSoAyVwfObPVXbNN64Thj2Z8pLvoqO1Ocs
   - Check this data visualization too: [Click here](https://www.remotion.dev/showcase#Anx7p2jNQLUsSWBOjnEzdo9xvfC9spsVyL01sk7esrtY)
 - I can may be use audio in a very interesting way though, for e.g, check [music of this video](https://www.remotion.dev/showcase#J8H3dOuyC01ZurH9NnSvd17oS00FUPKns8HnTO02KyCF02k).
-- I can use female voice to explain the code snippet i.e., voice over. For e.g, Sunny Leone, Kareena Kapoor, other famous personalities.
+- I can use female voice to explain the code snippet i.e., voice over. For e.g, Sunny Leone, Kareena Kapoor, other famous personalities i.e, the user wish for by checking the speaker from the drop-down.
 
 Tradeoffs:
 - Never host on youtube because the content would be timeless as it will be updated anytime in future.
