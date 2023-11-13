@@ -1,5 +1,9 @@
 # Learn Zerodha
 
+Loading previously saved chart: 
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7d207b13-fa44-4006-b06f-6ea2a9a4b349)
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/54de68c9-cdc6-4fd4-a948-c27e28fc4c6d)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1b3344dd-9ca9-4bef-81cf-24fd405a9e71)
