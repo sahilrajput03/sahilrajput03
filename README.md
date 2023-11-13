@@ -1,11 +1,3 @@
-# 💣💣 TODO: for me - Do the playwright course now. 💣💣
-
-After this is done, automate playstore apk deployment on playstore:
-1. file picker
-2. deploy
-3. promote to "Production"
-4. send for google review.
-
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
 <h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
