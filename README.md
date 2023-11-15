@@ -223,7 +223,9 @@ cat /dev/null
 - Learn Skype: [Click here](./learn-skype.md)
 - Learn SEO, react-helmet: [Click here](./learn-seo.md)
 - Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](./learn-leaflet.md)
-- Learn classvalidator: [Click here](./learn-classvalidator.md)
+- Validation Library:
+	- Learn Zod: [Click here](https://github.com/sahilrajput03/learn-zod)
+	- Learn classvalidator: [Click here](./learn-classvalidator.md)
 - Learn Luxon: [Click here](./learn-luxon.md)
 - Learn South Indian Bank - Internet Banking: [Click here](./learn-south-india-bank)
 - Learn Upwork (private repository): [Click here](./learn-upwork)
