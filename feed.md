@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Comparison for custom validation libraries for data on backend
+
+[Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#comparison-for-custom-validation-libraries-for-data-on-backend)
+
 ## Should we maintiain categories in database or in backend database as enums
 
 [Click here](https://github.com/sahilrajput03/learn-express/blob/main/README.md#should-we-maintiain-categories-in-database-or-in-backend-database-as-enums)
