@@ -10,13 +10,7 @@ Welcome to Sahil Rajput \| Tech Blog! This Privacy Policy is designed to help yo
 
 ### 2.1 Personal Information:
 
-We may collect certain personally identifiable information, including but not limited to:
-
-Sahil Rajput
-
-sahilrajput03@gmail.com
-
-Usage data (e.g., pages visited, interactions with the app)
+We may collect certain personally identifiable information e.g., usage data (e.g., pages visited, interactions with the app).
 
 ### 2.2 Non-personal Information:
 
@@ -26,13 +20,10 @@ We may also collect non-personal information that does not directly identify you
 
 We use the collected information for the following purposes:
 
-To provide and maintain our app
-
-To improve and enhance user experience
-
-To send you updates, newsletters, and other communications
-
-To respond to your inquiries and provide support
+- To provide and maintain our app
+- To improve and enhance user experience
+- To send you updates, newsletters, and other communications
+- To respond to your inquiries and provide support
 
 ## 4. Data Security
 
@@ -42,18 +33,14 @@ We prioritize the security of your personal information and employ reasonable me
 
 Our app may use third-party services, such as analytics tools and advertising networks, which may collect information about your use of the app. These third-party services are governed by their respective privacy policies.
 
-## 6. Advertising
-
-We may display advertisements within our app. Advertisers may collect information about your interaction with their ads, and this is subject to the privacy policies of the respective advertisers.
-
-## 7. Changes to This Privacy Policy
+## 6. Changes to This Privacy Policy
 
 We reserve the right to update this Privacy Policy at any time. We will notify you of any changes by posting the new Privacy Policy on this page.
 
-## 8. Contact Us
+## 7. Contact Us
 
 If you have any questions or concerns about our Privacy Policy, please contact us at sahilrajput03@gmail.com.
 
-## 9. Consent
+## 8. Consent
 
 By using our app, you consent to the terms of this Privacy Policy.
