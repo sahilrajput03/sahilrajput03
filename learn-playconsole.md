@@ -14,6 +14,12 @@
 - There are some monetization and country availability exceptions for internal tests. For details, go to the section on setting up an internal test.
 - Paid apps: If you’re testing a paid app using an open or closed test, testers still need to purchase it. If you’re testing a paid app using an internal test, testers can install your app for free.
 
+## Choose signing key
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/66a1123c-1a22-4bb4-a525-a117a7c97974)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/53b81b68-966a-4729-b837-c1138a589f6a)
+
 ## ISSUE - Advertising id permission is not inlcuded in this build
 
 - Issue - **A manifest file in one of your active artifacts doesn't include the AD_ID permission:** [Click here](https://support.google.com/googleplay/android-developer/thread/235388030/a-manifest-file-in-one-of-your-active-artifacts-doesn-t-include-the-ad-id-permission?hl=en)
