@@ -17,7 +17,9 @@
 ## Choose signing key
 
 ```bash
-java -jar ./pepk-src.jar \
+# Note: The `pepk.jar` file is from https://stackoverflow.com/a/52472918/10012446
+# Note: I am using pepk.jar from above source because google's official `pepk-src.jar` file is not working and throws error when tried to use.
+java -jar ./pepk.jar \
 --keystore=./play-console-android-06-oct-2023.keystore \
 --alias=$KEYSTORE_ALIAS \
 --output=output.zip \
