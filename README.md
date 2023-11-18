@@ -22,6 +22,7 @@ cat /dev/null
 
 **Quick Links:**
 
+- Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
 - English:
 	- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
 	 - English Vocab 💫: [Click here](english-vocab.md)
