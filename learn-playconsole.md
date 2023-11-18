@@ -31,7 +31,7 @@ java -jar ./pepk.jar \
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/53b81b68-966a-4729-b837-c1138a589f6a)
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2b40c6e0-3827-453e-9df8-026a74419168)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4d41fba5-7448-4a9b-9601-9db8dc9aef5c)
 
 ## ISSUE - Advertising id permission is not inlcuded in this build
 
