@@ -1,5 +1,8 @@
 # Learn Development with Ai
 
+**TODO:**
+- Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
+
 **Quick Links:**
 - **Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)**
 - Building Chrome Extensions with SmolAI - with Varun Mayya, Tanmay Bhatt: [Click here](https://www.youtube.com/watch?v=Ey9xEBgG96E)
