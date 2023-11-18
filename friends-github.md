@@ -7,7 +7,7 @@ https://github.com/AlexVishwa lxvishwakarma@gmail.com,slxv21@hotmail.com
 https://github.com/Amanpreet1199 kauramanpreet1199@gmail.com
 https://github.com/dhanur350 dhanur297@gmail.com
 https://github.com/JeevanGarg
-https://github.com/Nirmal201
+https://github.com/Nirmal201 ninu201@gmail.com
 https://github.com/piyushpratek piyushprateek231996@gmail.com
 https://github.com/sahilrajput03 sahilrajput03@gmail.com
 https://github.com/tekipeps tekena157@gmail.com
