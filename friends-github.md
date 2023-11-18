@@ -2,9 +2,9 @@
 
 ```txt
 https://github.com/aayyuusshh21 aayyuusshh21@gmail.com
-https://github.com/abhikashyap9
+https://github.com/abhikashyap9 abhikashyap9909@gmail.com
 https://github.com/AlexVishwa lxvishwakarma@gmail.com,slxv21@hotmail.com
-https://github.com/Amanpreet1199
+https://github.com/Amanpreet1199 kauramanpreet1199@gmail.com
 https://github.com/dhanur350 dhanur297@gmail.com
 https://github.com/JeevanGarg
 https://github.com/Nirmal201
