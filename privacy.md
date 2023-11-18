@@ -4,7 +4,7 @@ Effective Date: 19 November, 2023
 
 ## 1. Introduction
 
-Welcome to Sahil Rajput | Tech Blog! This Privacy Policy is designed to help you understand how we collect, use, and safeguard your personal information when you use our mobile application.
+Welcome to Sahil Rajput \| Tech Blog! This Privacy Policy is designed to help you understand how we collect, use, and safeguard your personal information when you use our mobile application.
 
 ## 2. Information We Collect
 
