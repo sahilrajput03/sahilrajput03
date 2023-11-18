@@ -14,6 +14,10 @@
 - There are some monetization and country availability exceptions for internal tests. For details, go to the section on setting up an internal test.
 - Paid apps: If you’re testing a paid app using an open or closed test, testers still need to purchase it. If you’re testing a paid app using an internal test, testers can install your app for free.
 
+## Initial Play Console App publishing to *Production*
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/257cac4f-b4d6-42f2-8e74-983b973fd574)
+
 ## Choose signing key
 
 ```bash
