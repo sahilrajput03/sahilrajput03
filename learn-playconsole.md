@@ -17,7 +17,12 @@
 ## Choose signing key
 
 ```bash
-java -jar ./pepk-src.jar --keystore=./play-console-android-06-oct-2023.keystore --alias=$KEYSTORE_ALIAS --output=output.zip --include-cert --rsa-aes-encryption --encryption-key-path=./encryption_public_key.pem
+java -jar ./pepk-src.jar \
+--keystore=./play-console-android-06-oct-2023.keystore \
+--alias=$KEYSTORE_ALIAS \
+--output=output.zip \
+--include-cert --rsa-aes-encryption \
+--encryption-key-path=./encryption_public_key.pem
 ```
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/66a1123c-1a22-4bb4-a525-a117a7c97974)
