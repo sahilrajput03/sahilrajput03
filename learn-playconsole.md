@@ -20,6 +20,8 @@
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/53b81b68-966a-4729-b837-c1138a589f6a)
 
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2b40c6e0-3827-453e-9df8-026a74419168)
+
 ## ISSUE - Advertising id permission is not inlcuded in this build
 
 - Issue - **A manifest file in one of your active artifacts doesn't include the AD_ID permission:** [Click here](https://support.google.com/googleplay/android-developer/thread/235388030/a-manifest-file-in-one-of-your-active-artifacts-doesn-t-include-the-ad-id-permission?hl=en)
