@@ -6,6 +6,10 @@
   - Website: https://www.langchain.com/
   - Github 68k* python: [Click here](https://github.com/langchain-ai/langchain/tree/master)
   - Github 9k* js: [Click here](https://github.com/langchain-ai/langchainjs)
+ 
+**ChatGPT Trick:**
+- Let's think step by step (paper on this phrase): [Click here](https://community.openai.com/t/zero-shot-perfection-with-prompt-let-s-think-step-by-step/18609)
+
 **TODO:**
 - Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
 - Large Language Models and The End of Programming - CS50 Tech Talk with Dr. Matt Welsh: [Click here](https://www.youtube.com/watch?v=JhCl-GeT4jw)
