@@ -1,6 +1,6 @@
 # Learn Development with Ai
 
-**~ Syed Amanullah:**
+**By Syed Amanullah:**
 - Langchain:
   - **ChatBot:** https://chat.langchain.com/ (Code @ https://github.com/langchain-ai/chat-langchain)
   - Website: https://www.langchain.com/
