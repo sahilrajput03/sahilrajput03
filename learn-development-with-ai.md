@@ -1,7 +1,9 @@
 # Learn Development with Ai
 
 **By Syed:**
-- Langchain: https://www.langchain.com/
+- Langchain:
+  - **ChatBot:** https://chat.langchain.com/ (Code @ https://github.com/langchain-ai/chat-langchain)
+  - Website: https://www.langchain.com/
   - Github 68k* python: [Click here](https://github.com/langchain-ai/langchain/tree/master)
   - Github 9k* js: [Click here](https://github.com/langchain-ai/langchainjs)
 **TODO:**
