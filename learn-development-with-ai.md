@@ -1,7 +1,12 @@
 # Learn Development with Ai
 
+**By Syed:**
+- Langchain: https://www.langchain.com/
+  - Github 68k* python: [Click here](https://github.com/langchain-ai/langchain/tree/master)
+  - Github 9k* js: [Click here](https://github.com/langchain-ai/langchainjs)
 **TODO:**
 - Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
+- Large Language Models and The End of Programming - CS50 Tech Talk with Dr. Matt Welsh: [Click here](https://www.youtube.com/watch?v=JhCl-GeT4jw)
 
 **Quick Links:**
 - **Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)**
