@@ -5,7 +5,7 @@
 - https://egghead.io/courses/auth0-tips-and-tricks-2401
 
 
-**Code:**
+## Code
 
 ```js
 // file: check.js
