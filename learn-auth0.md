@@ -1,5 +1,10 @@
 # Learn auth0
 
+## Courses
+
+- https://egghead.io/courses/auth0-tips-and-tricks-2401
+
+
 **Code:**
 
 ```js
