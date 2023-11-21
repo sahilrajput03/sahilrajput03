@@ -11,7 +11,7 @@
 - Let's think step by step (paper on this phrase): [Click here](https://community.openai.com/t/zero-shot-perfection-with-prompt-let-s-think-step-by-step/18609)
 
 **Awesome Talks:**
-- Ilya Sutskever - TED: [Click here](https://www.youtube.com/watch?v=SEkGLj0bwAU)
+- Ilya Sutskever - Chief Scientist @ OpenAi - TED: [Click here](https://www.youtube.com/watch?v=SEkGLj0bwAU)
 
 **TODO:**
 - Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
