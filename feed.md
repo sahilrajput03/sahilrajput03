@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Linkedin is owned by Microsoft
+
+Wikipedia: [Click here](https://en.wikipedia.org/wiki/LinkedIn#:~:text=LinkedIn%20(%2Fl%C9%AA%C5%8Bk,wholly%20owned%20subsidiary%20of%20Microsoft.)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/69092c6e-9a88-476b-a512-a77d615552a5)
+
 ## Comparison for custom validation libraries for data on backend
 
 [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#comparison-for-custom-validation-libraries-for-data-on-backend)
