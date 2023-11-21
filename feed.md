@@ -4,7 +4,7 @@
 
 ## Linkedin is owned by Microsoft
 
-Wikipedia: [Click here](https://en.wikipedia.org/wiki/LinkedIn#:~:text=LinkedIn%20(%2Fl%C9%AA%C5%8Bk,wholly%20owned%20subsidiary%20of%20Microsoft.)
+Wikipedia: [Click here](https://en.wikipedia.org/wiki/LinkedIn)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/69092c6e-9a88-476b-a512-a77d615552a5)
 
