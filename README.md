@@ -261,3 +261,4 @@ cat /dev/null
 - Learn KeepassXC: [Click here](learn-keepassxc.md)
 - Learn infinite: [Click here](learn-infinite.md)
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
+- Learn LinkedIn: [Click here](learn-linkedin.md)
