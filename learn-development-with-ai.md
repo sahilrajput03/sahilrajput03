@@ -1,5 +1,17 @@
 # Learn Development with Ai
 
+**jeffrey hiton & Ilya Sutskever:**
+- **(TODO)** VIDEO: Ilya Sutskever: Deep Learning | Lex Fridman Podcast #94: [Click here](https://www.youtube.com/watch?v=13CZPWmke6A)
+- Geoffrey Hinton:
+  - Ilya Sutskever: The Man Who Destroyed OpenAI: [Click here](https://www.youtube.com/watch?v=zlRnTw77eaY)
+  - **(MUST MUST WATCH)** Super awesome video: [Click here](https://www.youtube.com/watch?v=-9cW4Gcn5WY)
+  - Article about  leaving Google: [Click here](https://www.theguardian.com/technology/2023/may/02/geoffrey-hinton-godfather-of-ai-quits-google-warns-dangers-of-machine-learning)
+  - https://www.youtube.com/watch?v=Wf-s9C9uf7U
+- Elon Musk:
+  - Video with Lex Fredman - SHORT: [Click here](https://www.youtube.com/watch?v=aHsunc60Xms)
+- More:
+  - https://www.youtube.com/watch?v=F9cO3-MLHOM
+
 **By Syed Amanullah:**
 - Langchain:
   - **ChatBot:** https://chat.langchain.com/ (Code @ https://github.com/langchain-ai/chat-langchain)
