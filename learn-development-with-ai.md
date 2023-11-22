@@ -8,6 +8,8 @@
   - **(MUST MUST WATCH)** Super awesome video: [Click here](https://www.youtube.com/watch?v=-9cW4Gcn5WY)
   - Article about  leaving Google: [Click here](https://www.theguardian.com/technology/2023/may/02/geoffrey-hinton-godfather-of-ai-quits-google-warns-dangers-of-machine-learning)
   - https://www.youtube.com/watch?v=Wf-s9C9uf7U
+- Sam and Mira
+  - LOVELY - Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
 - Elon Musk:
   - Video with Lex Fredman - SHORT: [Click here](https://www.youtube.com/watch?v=aHsunc60Xms)
 - More:
@@ -24,7 +26,6 @@
 - Let's think step by step (paper on this phrase): [Click here](https://community.openai.com/t/zero-shot-perfection-with-prompt-let-s-think-step-by-step/18609)
 
 **TODO:**
-- Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
 - Large Language Models and The End of Programming - CS50 Tech Talk with Dr. Matt Welsh: [Click here](https://www.youtube.com/watch?v=JhCl-GeT4jw)
 
 **Quick Links:**
