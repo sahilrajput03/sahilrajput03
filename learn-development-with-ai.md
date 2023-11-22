@@ -1,6 +1,8 @@
 # Learn Development with Ai
 
-**jeffrey hiton & Ilya Sutskever:**
+**Ai Explained:**
+  - 21 Nov, 2023: [Click here](https://www.youtube.com/watch?v=dyakih3oYpk)
+- **Ilya Sutskever (Student of Jeffrey Hiton):**
   - **(TODO)** VIDEO: Ilya Sutskever: Deep Learning | Lex Fridman Podcast #94: [Click here](https://www.youtube.com/watch?v=13CZPWmke6A)
   - TED - Ilya Sutskever - Chief Scientist @ OpenAi: [Click here](https://www.youtube.com/watch?v=SEkGLj0bwAU)
 - Geoffrey Hinton:
