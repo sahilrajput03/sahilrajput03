@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Azure vs. AWS for pricing?
+
+[Click here](https://azure.microsoft.com/en-in/pricing/azure-vs-aws)
+
 ## Linkedin is owned by Microsoft
 
 Wikipedia: [Click here](https://en.wikipedia.org/wiki/LinkedIn)
