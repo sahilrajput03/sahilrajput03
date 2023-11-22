@@ -1,5 +1,7 @@
 # Learn Development with Ai
 
+**News**:
+  - INTELLIGENCER: Why Was Sam Altman Fired As CEO of OpenAI?: [Click here](https://nymag.com/intelligencer/2023/11/why-was-sam-altman-fired-as-ceo-of-openai.html)
 **Ai Explained:**
   - 21 Nov, 2023: [Click here](https://www.youtube.com/watch?v=dyakih3oYpk)
 - **Ilya Sutskever (Student of Jeffrey Hiton):**
