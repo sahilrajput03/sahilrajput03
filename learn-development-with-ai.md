@@ -1,7 +1,8 @@
 # Learn Development with Ai
 
 **jeffrey hiton & Ilya Sutskever:**
-- **(TODO)** VIDEO: Ilya Sutskever: Deep Learning | Lex Fridman Podcast #94: [Click here](https://www.youtube.com/watch?v=13CZPWmke6A)
+  - **(TODO)** VIDEO: Ilya Sutskever: Deep Learning | Lex Fridman Podcast #94: [Click here](https://www.youtube.com/watch?v=13CZPWmke6A)
+  - TED - Ilya Sutskever - Chief Scientist @ OpenAi: [Click here](https://www.youtube.com/watch?v=SEkGLj0bwAU)
 - Geoffrey Hinton:
   - Ilya Sutskever: The Man Who Destroyed OpenAI: [Click here](https://www.youtube.com/watch?v=zlRnTw77eaY)
   - **(MUST MUST WATCH)** Super awesome video: [Click here](https://www.youtube.com/watch?v=-9cW4Gcn5WY)
@@ -21,9 +22,6 @@
  
 **ChatGPT Trick:**
 - Let's think step by step (paper on this phrase): [Click here](https://community.openai.com/t/zero-shot-perfection-with-prompt-let-s-think-step-by-step/18609)
-
-**Awesome Talks:**
-- Ilya Sutskever - Chief Scientist @ OpenAi - TED: [Click here](https://www.youtube.com/watch?v=SEkGLj0bwAU)
 
 **TODO:**
 - Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
