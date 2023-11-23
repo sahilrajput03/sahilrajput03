@@ -14,6 +14,38 @@
 - There are some monetization and country availability exceptions for internal tests. For details, go to the section on setting up an internal test.
 - Paid apps: If you’re testing a paid app using an open or closed test, testers still need to purchase it. If you’re testing a paid app using an internal test, testers can install your app for free.
 
+## Initial Play Console App publishing to *Production*
+
+https://support.google.com/googleplay/android-developer/answer/10787469?hl=en#types&zippy=%2Cdata-types
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/257cac4f-b4d6-42f2-8e74-983b973fd574)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8f627f9a-6dd6-41d0-bb7f-d763adc550aa)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/77f35ab8-1ccb-4118-ac0a-8cce11cde112)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7f9e8c93-de97-4c61-8a75-ba92f78f5a07)
+
+
+## Choose signing key
+
+```bash
+# Note: The `pepk.jar` file is from https://stackoverflow.com/a/52472918/10012446
+# Note: I am using pepk.jar from above source because google's official `pepk-src.jar` file is not working and throws error when tried to use.
+java -jar ./pepk.jar \
+--keystore=./play-console-android-06-oct-2023.keystore \
+--alias=$KEYSTORE_ALIAS \
+--output=output.zip \
+--include-cert --rsa-aes-encryption \
+--encryption-key-path=./encryption_public_key.pem
+```
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/66a1123c-1a22-4bb4-a525-a117a7c97974)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/53b81b68-966a-4729-b837-c1138a589f6a)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4d41fba5-7448-4a9b-9601-9db8dc9aef5c)
+
 ## ISSUE - Advertising id permission is not inlcuded in this build
 
 - Issue - **A manifest file in one of your active artifacts doesn't include the AD_ID permission:** [Click here](https://support.google.com/googleplay/android-developer/thread/235388030/a-manifest-file-in-one-of-your-active-artifacts-doesn-t-include-the-ad-id-permission?hl=en)

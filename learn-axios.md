@@ -215,28 +215,35 @@ Data Types Code of axios: [Click here](https://github.com/axios/axios/blob/v2.x/
 - Typing `response data`:
 
 	```ts
-	// data is typed as `string`
-	const {data} = await axiosInstance.post<string>(paths.login, {
+	 // 1. GET Request
+ 	const { data } = await axios.get<string>('/users');
+	// Learn: data is typed as `string`
+
+	// 2. POST Request - Typing `response data`:
+	const { data } = await axiosInstance.post<string>(paths.login, {
 		username: email,
 		password: password,
 	})
-	```
+	// Learn: data is typed as `string`
 
-- Typing `response data` and `payload type`:
 
-	```ts
+	// 3. POST Request - Typing `response data` and `payload type`:
 	interface dataT {
-		access_token: number
+		name: string,
+ 		email: string,
+		age: number	
 	}
 	interface payloadT {
 		username: string
 		password: string
 	}
-	// data is typed 'dataT', and payload is typed `payloadT` (first `any` has no significance ~ IMO ~ Sahil)
-	const {data} = await axiosInstance.post<any, AxiosResponse<dataT>, payloadT>(paths.login, {
-		username: email,
-		password: password,
+	// Learn: First `any` has no significance IMO ~ Sahil)
+	const { data } = await axiosInstance.post<any, AxiosResponse<dataT>, payloadT>(paths.login, {
+		// Learn: Below payload is typed `payloadT`
+		username: "myusername",
+		password: "mypassword"
 	})
+	// Learn: data is typed `dataT`
 	```
 - Typing the `.then` value:
 

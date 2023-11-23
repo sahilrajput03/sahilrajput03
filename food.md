@@ -5,6 +5,12 @@
 - Recepie Book: [Click here](https://recipebook.io/)
 - Diet by Gurumann: [Click here](https://www.youtube.com/watch?v=dYUdpBkTcvA)
 
+**EXPERIMENTS:**
+- Neem with turmeric: [Click here](https://www.youtube.com/shorts/K3ISt-wztUY)
+- Drink Ashgouard Juice Daily to improve INTELLECT
+  - [Click here](https://www.youtube.com/watch?v=BQB149EEXkY)
+  - You must ^^ add **honey, pepper (kaali mirch)** (salt and lemon as per taste ) to it so that cooling effect is neutralised in it because ashgourd juice is has cooling nature to the body.
+
 ## Drinks
 
 - Water

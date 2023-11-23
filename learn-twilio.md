@@ -1,5 +1,8 @@
 # Learn Twilio
 
+**Quick Links:**
+- Messaging Pricing - Twilio: [Click here](https://www.twilio.com/en-us/pricing/messaging)
+
 # Use Your Fingerprint with 1Password to Authenticate the Twilio CLI
 
 Official Docs: [Click here](https://www.twilio.com/blog/use-your-fingerprint-with-1password-to-authenticate-twilio-cli)

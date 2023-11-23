@@ -1,5 +1,9 @@
 # Learn google cloud
 
+**Quick Links:**
+- Google Cloud Console: https://console.cloud.google.com/
+- ❤️ Learn Google Console APIs via Oauth2: [Click here](learn-google-console-apis-via-oauth2.md)
+  
 - **Navigating between settings in gcp vm instances and its firewall settings:**
   - Sidebar > Compute engine> vm instance
   - Sidebar > VPC > Firewall > "indianic one" and add or remove the ip's from there.
@@ -39,6 +43,10 @@
   gcloud beta compute ssh --zone "us-central1-a" "instance-2"  --project "myProject" --ssh-key-file myPublic.pub
   ```
 
+
+## Navigation to API Library
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1cd88b8c-b054-4dba-9788-dd43a3fed8c5)
 
 **Cloud Functions:**
 

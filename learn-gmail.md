@@ -43,3 +43,7 @@ Control: `^`, Shift: `#`
 ## Emptying Trash Folder
 
 ![image](https://user-images.githubusercontent.com/31458531/190856930-7a402127-c541-4c3a-ace7-24d968fb26ad.png)
+
+## Selecting dark theme (dark mode) in Gmail
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/780998f4-2944-4314-a866-7dd968e452cf)

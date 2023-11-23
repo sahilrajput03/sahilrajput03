@@ -1,6 +1,6 @@
 # Learn Leaflet
 
-- **Testing Examples:** [sahilrajput03/learn-leaflet](https://github.com/sahilrajput03/learn-leaflet)
+- **Github Repository - Testing Examples:** [sahilrajput03/learn-leaflet](https://github.com/sahilrajput03/learn-leaflet)
 - **DOCS: References:** [Click here](https://leafletjs.com/reference.html)
 - **Panning:** It allows the user to scroll the map in any direction. This is useful when you wish to view the area immediately adjacent to the area currently shown on the screen. To pan the map, perform the following steps: 1. Using the pointer, click the map and drag the pointer in the direction you wish to pan the map.
 - Quick Start: Standalone Example: [Click here](https://leafletjs.com/examples/quick-start/example.html)

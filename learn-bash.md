@@ -1,15 +1,18 @@
 # Learning bash
 
-**GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
-
 *RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic instinct to do `man cli-name` and read through it.*
+
+**Quick Links:**
+- **WatchAll: [Click here](https://github.com/sahilrajput03/watchAll)**
+- **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
+- **Bash Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
+- **GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
 
 **Popular blogs:**
 - https://linuxize.com/ (5*)
 - https://linuxjournal.com (5*)
 - https://linuxhint.com/ (3*)
 
-**Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 
 **TODO READS:**
 - **Bash Shell Substitution:** [Click here](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
@@ -17,6 +20,47 @@
 - **30 linux bash aliases:** [Click here](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 - ❤️ Learn Bash scripting official manjaro linux article - [Click here](https://forum.manjaro.org/t/tutorial-shell-scripting-by-way-of-an-illustrated-practical-example/66120)
 - ❤️Interactive vs. Non-Interactive shell❤️ : [Click here](https://phoenixnap.com/kb/bashrc-vs-bash-profile)
+
+## What does `wait` command do in bash script
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2b625d75-d8cb-4543-887f-4cdf0af07b78)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/cba07f1f-3967-4b10-9e1d-ae477336ed2a)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b88b0e48-1e74-4cd3-b20d-bc849eb87361)
+
+## Start and stop react frontend and backend server with single script
+
+ChatGPT Conversation: [Click here](https://chat.openai.com/share/01533cbf-aeb7-492c-b6de-a3b645c1317a)
+
+```bash
+#!/usr/bin/env bash
+
+# Function to stop both processes
+stop_processes() {
+  echo "Stopping processes..."
+  kill $frontend_pid $backend_pid
+  exit
+}
+
+# Start Express.js backend server
+echo "Starting Express.js server..."
+cd path/to/your/backend
+npm start &
+backend_pid=$!
+
+# Start Create React App frontend
+echo "Starting Create React App..."
+cd path/to/your/frontend
+npm start &
+frontend_pid=$!
+
+# Set up Ctrl+C handler
+trap stop_processes INT
+
+# Keep the script running
+wait
+```
 
 ## Get unix/epoch timestamp in linux
 
@@ -422,97 +466,9 @@ Amazing complete answer @ [Stackoverflow](https://stackoverflow.com/a/3798609/10
 
 > The general idea is that make supports (reasonably) minimal rebuilds -- i.e., you tell it what parts of your program depend on what other parts. When you update some part of the program, it only rebuilds the parts that depend on that. While you could do this with a shell script, it would be a lot more work (explicitly checking the last-modified dates on all the files, etc.) The only obvious alternative with a shell script is to rebuild everything every time. 
 
-
 ## Start a openvpn server in 5 minutes - TODO
 
 Source: https://www.cyberciti.biz/faq/ubuntu-22-04-lts-set-up-openvpn-server-in-5-minutes/?utm_source=Social_Media&utm_medium=Twitter&utm_campaign=May_06_2022
-
-## Create a systemd service which you can setup to be run on system boot as well
-
-[Motivation -  Autostarting ~ Arch Docs](https://wiki.archlinux.org/title/autostarting)
-
-Src: [One](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6), [Two](https://tecadmin.net/run-shell-script-as-systemd-service/).
-
-1. Create a script
-
-```bash
-vi ~/test/nf.sh
-sudo chmod +x ~/test/nf.sh
-```
-
-*Now paste below text to that file*
-
-```bash
-while true; do
-	echo "Hello $(date)" >> /tmp/tmp
-	sleep 2
-done
-```
-
-2. Create a service file, by
-
-```bash
-sudo nvim /etc/systemd/system/nf.service
-```
-
-*Now paste below text to that file*
-
-```
-[Unit]
-Description=This is fun service description, sahil.
-
-[Service]
-User=array
-# WorkingDirectory=/home/array/test
-ExecStart=bash /home/array/test/nf.sh
-Restart=always
-# Restart defines no. consistent attempts to be done by systemd anytime to start the service anytime the service is killed by some external action(i.e., `systemctl stop` will not trigger restart actions).
-
-[Install]
-WantedBy=multi-user.target
-```
-
-**or run a npm command:**
-```
-[Unit]
-Description=This is fun service description, sahil.
-
-[Service]
-User=array
-WorkingDirectory=/home/array/test/LemonJamsBot
-ExecStart=npm run dev
-Restart=always
-# Restart defines no. consistent attempts to be done by systemd anytime to start the service anytime the service is killed by some external action(i.e., `systemctl stop` will not trigger restart actions).
-
-[Install]
-WantedBy=multi-user.target
-```
-
-
-3. Now we need to reload service by `systemd` so it loads our new service and then we can start our service:
-
-```bash
-# we need to reload systemd files
-sudo systemctl daemon-reload
-sudo systemctl start nf
-# or we can use `sudo systemctl start nf.service`
-
-# See status, logs from the program, age of the process (since last start), and more:
-sudo systemctl status nf
-
-# You can follow live logs for the service via (node: order of options i.e, -fu is important), src: https://superuser.com/a/1292767/776589
-# fyi: This keeps logging output if you restart the service via: `sudo systemctl restart nf` yikes!!!
-journalctl -fu nf
-
-# Fyi: you can setup this service to run on system startup as well
-sudo systemctl enable nf
-```
-
-Now we can check if the dates are added in the `/tmp/tmp` file by
-
-```bash
-cat /tmp/tmp
-```
 
 ## Want to know your disk usage and free disk space
 

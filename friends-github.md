@@ -1,19 +1,5 @@
 # Friends Github
 
-```txt
-https://github.com/aayyuusshh21
-https://github.com/abhikashyap9
-https://github.com/AlexVishwa
-https://github.com/Amanpreet1199
-https://github.com/dhanur350
-https://github.com/JeevanGarg
-https://github.com/negivivek1101
-https://github.com/Nirmal201
-https://github.com/piyushpratek
-https://github.com/rakshitmehra15
-https://github.com/sahilrajput03
-https://github.com/tekipeps
-https://github.com/samakshgrover
-```
+*Now on google docs: [Click here](https://docs.google.com/document/d/1xL5udHdJkA-hjBpO0001_-aa7_EIm1zLg3h-cHAGhbA/edit) (intutively made it private)*
 
 Browse some other amazing people @ https://github.com/sahilrajput03?tab=following

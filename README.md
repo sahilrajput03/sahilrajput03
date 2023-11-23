@@ -1,3 +1,5 @@
+# 💣💣 TODO: Do the flutter codelab. 💣💣
+
 <h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 ```bash
@@ -14,9 +16,22 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
-# Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
+#### Work Music: [Click here](./work-music.md)
 
-Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+#### Entertainment: [Click here](entertainment.md)
+
+**Quick Links:**
+
+- Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
+- English:
+	- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
+	 - English Vocab 💫: [Click here](english-vocab.md)
+- Stocks Blog: [Click here](blog-stocks.md)
+- Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+- Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
+- **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
+
+*More:**
 
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
@@ -25,7 +40,7 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - There is not try, either you do it or don't. ~ Frank Oz (Star Wars)
 - Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.” Nature of mind is to wander around, its not problem its the way its designed. My job is to keep getting it back towards the goal.
 - Unwinding is hot no-sugar coffee!
-- Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
+- Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [web](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
 - More Technologies: trpc, hasura and onegraph (graphiql-explorer).
 - Quick Links
@@ -44,12 +59,17 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 		- General Musings ~ Kevin Powell: [Click here](https://open.spotify.com/show/1scASfrTESkNKPffUJ4CPW?utm_source=convertkit&utm_medium=email&utm_campaign=The+CSS+Mindset%20-%2011813412) 
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
+  - Blogs:
+	  - https://blog.isquaredsoftware.com/
+          - https://tim.blog/
 
 ## References:
 
 - Contact me: [Click here](https://sahilrajput03.ml/me)
 - My Works: [Click here](./my-works.md)
-- Resume: FullStack Blockchain Developer : [Click here](https://tinyurl.com/sahil-blockchain-dev),  [old](https://github.com/sahilrajput03/my_bin/raw/master/resume/sahil-rajput_resume-linux-feb-2022.pdf)
+- **Blockchain Development:**
+	- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
+	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
 - Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - Dictionary: [Click here](./dictionary.md)
 - **Acronyms:** [Click here](./acroynms.md)
@@ -75,7 +95,6 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - **Learn Figma:** [Click here](./learn-figma.md)
 - **Learn FigJam:** [Click here](./learn-figjam.md)
 - **Learn qutebrowser:** [Click here](./qutebrowser.md)
-- **Learn Zerodha Varasity:** [Click here](./learn-zerodha-varasity.md)
 - **Learn Urdu:** [Click here](./learn-urdu/)
 - **Learn Algorithms:**: [Click here](./learn-algorithms.md) 
 - **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
@@ -93,6 +112,13 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
 - **Github Actions:** [Click here](./github-actions.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
+- Learn BitBucket | Pipelines | Bitbucket API: [Click here](learn-bitbucket.md)
+- **Learn Google Development:**
+	- Play Console: [Click here](learn-playconsole.md)
+	- Cloud Console: [Click here](./learn-google-cloud.md)
+		- Console APIs via Oauth2 with Postman ❤️: [Click here](learn-google-console-apis-via-oauth2.md)
+	- Publisher Tag: [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md) (PubwiseAds)
+	- Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 - **Open Source Apps from All over the world** - [Click here](./open-source-apps.md)
 - **Nocode tools** - [Click here](./nocodetools.md)
 - **Learn Deployment** - [Click here](./learn-deploy.md)
@@ -103,7 +129,6 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - **Learn WebRTC:** [Click here](./learn-webrtc.md)
 - **Learn nodejs or anyother development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container)
 - **Learn Login flow:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
-- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
@@ -141,7 +166,6 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
 	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
 	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
-- **Learn blockchain:** - [Click here](https://github.com/sahilrajput03/learn-blockchain)
 - **Learn Webflow:** - [Click here](./learn-webflow.md)
 - **Weird Problems:** - [Click here](./weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](./intro-guide-to-platforms.md)
@@ -162,7 +186,7 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - **Telegram Groups:** [Click here](./telegram-groups.md)
 - Why DSA based interviews are stupid?: [Click here](./dsa.md)
 - **Javascript:**
-	- **Learn NodeJS:** [Click here](./learn-nodejs.md)
+	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 	- **Learn Javascript:** [Click here](./learn-js.md)
 	- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
 	- **Prime Resources - Javascript:** [Click here](./prime-resources-js.md)
@@ -170,9 +194,7 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 	- **Convert javascript object to json - cli tool** - [Click here](./obj-json.md)
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](./@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
-- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
 - **Leetcode: [Click here](./learn-leetcode.md)**
-- Learn Google Cloud: [Click here](./learn-google-cloud.md)
 - Learn auth0: [Click here](./learn-auth0.md)
 - Best of Javascript: [Click here](https://bestofjs.org/)
 - Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
@@ -184,7 +206,6 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - Learn Storybook: [Click here](./learn-storybook.md)
 - Learn Eslint: [Click here](./learn-eslint.md)
 - Learn Chrome: [Click here](./learn-chrome.md)
-- Google Publisher Tag (? PubwiseAds): [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md)
 - Learn Trpc: [Click here](./learn-trpc.md)
 - Learn Paypal: [Click here](./learn-paypal.md)
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md)
@@ -203,7 +224,9 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - Learn Skype: [Click here](./learn-skype.md)
 - Learn SEO, react-helmet: [Click here](./learn-seo.md)
 - Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](./learn-leaflet.md)
-- Learn classvalidator: [Click here](./learn-classvalidator.md)
+- Validation Library:
+	- Learn Zod: [Click here](https://github.com/sahilrajput03/learn-zod)
+	- Learn classvalidator: [Click here](./learn-classvalidator.md)
 - Learn Luxon: [Click here](./learn-luxon.md)
 - Learn South Indian Bank - Internet Banking: [Click here](./learn-south-india-bank)
 - Learn Upwork (private repository): [Click here](./learn-upwork)
@@ -211,7 +234,6 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - Learn Wordpress Editing: [Click here](./learn-wordpress-editing.md)
 - **Learn Capacitor:** [Click here](./learn-capacitor.md)
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
-- **Learn Google Play Console:** [Click here](learn-playconsole.md)
 - Learn Development with AI (Artificial Development): [Click here](./learn-development-with-ai.md)
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
@@ -221,7 +243,6 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - Learn Cloudflare: [Click here](./learn-cloudflare.md)
 - Learn Gist: [Click here](./learn-gist.md)
 - Learn streaming mp3 file: [Click here](./learn-streaming.md)
-- Learn Google Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 - LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d)
 - Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](./generate-ssh-key-pairs.md)
 - Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk)
@@ -229,4 +250,15 @@ Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - Learn Anydesk: [Click here](learn-anydesk.md)
 - My youtube video ids: [Click here](./my-youtube-video-ids.md)
 - Learn Zerodha: [Click here](learn-zerodha.md)
+- **Learn Zerodha Varasity:** [Click here](./learn-zerodha-varasity.md)
 - Learn Amazon Product Advertising API: [Click here](learn-amazon-product-advertising-api.md)
+- Web Components: [Click here](https://github.com/sahilrajput03/learn-web-components)
+- Learn Deno: [Click here](https://github.com/sahilrajput03/deno-playground)
+- Learn Flutter: [Click here](https://github.com/sahilrajput03/learn-flutter)
+- Learn Emojis 😇😃🚀😎😻💯💫💣: [Click here](https://tools.picsart.com/text/emojis/), [2](https://emojipedia.org/)
+- 🚀 Learn limiting concurrent requests with [`queue()`](https://caolan.github.io/async/v3/docs.html#queue) of [`async`](https://caolan.github.io/async/v3/) library (awesome): [Click here](https://github.com/sahilrajput03/learn-express/blob/main/learn-limiting-concurrent-requests.md)
+- Learn Steam (games): [Click here](learn-steam.md)
+- Learn KeepassXC: [Click here](learn-keepassxc.md)
+- Learn infinite: [Click here](learn-infinite.md)
+- 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
+- Learn LinkedIn: [Click here](learn-linkedin.md)

@@ -4,6 +4,17 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## Remove remote branch and local branch
+
+```bash
+# Delete the remote branch (will not delete the local branch)
+# Note: you don't need to prefix it with `/origin` because you already specified origin after the `push` option
+git push origin --delete myBranchName
+
+# Delete the local branch
+git branch -d myBranchName
+```
+
 ## Simple way to setup ssh git-github connection with `gh` cli
 
 Source - [Docs - Authenticating with GitHub from Git](https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git)

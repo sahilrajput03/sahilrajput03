@@ -2,6 +2,17 @@
 
 *You may practise markdown with live updates @ https://marked.js.org/demo/.*
 
+**Foldable section:**
+
+```txt
+<details>
+<summary>Click to expand</summary>
+
+whatever
+
+</details>
+```
+
 **Table:**
 
 Month | Savings

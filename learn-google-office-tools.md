@@ -11,6 +11,10 @@
 - Learn animations in Presentation [Source1](https://www.youtube.com/watch?v=H2zAx21LxOY), use other youtube videos(google has official videos too)
 - Publish to web is really good feature: ![image](https://user-images.githubusercontent.com/31458531/176400141-18c2e4ee-e97c-4a5a-b562-5679507e8bba.png)
 
+## 🚀🚀 This is super awesome thing
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3f9f58e0-9464-4f3e-936f-6c9aedda0e0d)
+
 ## Create new page without empty lines in Doc in google doc:
 
 ![image](https://user-images.githubusercontent.com/31458531/180400465-20115d09-c69a-4d50-8cad-0d479fb7c12c.png)
@@ -25,3 +29,7 @@
 ## You can delete a google doc file simly like that
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/32f19b2d-f26f-47be-9158-836848b47673)
+
+## presentation tips
+
+https://www.youtube.com/shorts/USGYXVOtVpI?feature=share

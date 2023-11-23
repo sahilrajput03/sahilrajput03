@@ -1,5 +1,101 @@
 # Learn Eslint
 
+**Quick Links:**
+- My eslint files: [Click here](https://github.com/sahilrajput03/config/tree/main/files)
+
+## Install eslint in JSX for `no-multiple-empty-lines`
+
+```bash
+npm install eslint-plugin-react --save-dev
+```
+
+In your eslint config file you can do:
+
+```bash
+module.exports = {
+  // ... other ESLint settings
+  rules: {
+    // Never have multiple empty lines
+    'no-multiple-empty-lines': [
+      'error',
+      {
+        max: 1, // Set the maximum number of empty lines to 1 (or any other value you prefer)
+        maxBOF: 1, // Set the maximum number of empty lines at the beginning of the file
+        maxEOF: 1, // Set the maximum number of empty lines at the end of the file
+      },
+    ],
+
+    // Always have empty line in the end of file
+    'eol-last': ["error", "always"]
+  },
+};
+```
+
+## This is really great playground feature to test eslint rules of typescript
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/de67d39f-4dd0-4151-b753-2f4bb5902d29" width="600" />
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2d6ad63a-0d1c-427e-b201-cab3e6da707c" width="600" />
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/afee3825-2727-4131-9b1e-6c87134efc2b" width="600" />
+
+
+## Custom eslint plugin
+
+- file: `./utils/logger-utils.ts`
+
+```
+// file: ./utils/logger-utils.ts
+// eslint-disable-next-line global-require, @typescript-eslint/no-var-requires
+export const jestLogger = require('console').log;
+```
+
+- file: `./eslint-custom-plugins/eslint-plugin-noJestLogger.js`
+
+```js
+// file: ./eslint-custom-plugins/eslint-plugin-noJestLogger.js
+/**
+ * Installing this to any project requires you to run:
+ * npm i --dev eslint-plugin-noJestLogger@file:./eslint-custom-plugins/eslint-plugin-noJestLogger.js
+ *
+ * In your .eslint.js file, you can add this plugin like this:
+ *
+ *   plugins: [
+ *     "@typescript-eslint/eslint-plugin",
+ *     'noJestLogger',
+ *   ],
+ *
+ *
+ * Now, you can define, warning level for it like this:
+ *
+ *   rules: {
+ *     /* Other rules here...*
+ *     "noJestLogger/noJestLogger": "warn",
+ *   }
+ */
+
+const functionName = 'jestLogger';
+
+module.exports = {
+  rules: {
+    noJestLogger: {
+      create(context) {
+        return {
+          CallExpression(node) {
+            if (node.callee.name === functionName) {
+              context.report({
+                node,
+                message: 'Unexpected jestLogger statement',
+              });
+            }
+          },
+        };
+      },
+    },
+  },
+};
+```
+
 ## Disable eslint temporarily for a file (slasher tested)
 
 ```

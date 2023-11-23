@@ -1,17 +1,189 @@
-# archlinux-notes
+# archlinux-notes 🚀 ⚡
 
-- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
-- **Learn i3:** [Click here](learn-i3.md)
-
-**FYI: `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.**
-
-**FYI: `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)**
-**FYI: Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles**
 
 **TODO:**
 - Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
+- Move my files from https://github.com/sahilrajput03/my_bin repo to my current notes.
 
+**Quick Links:**
+- `config` Repo: [Click here](https://github.com/sahilrajput03/config)
+- `my_bin` Repo: [Click here](https://github.com/sahilrajput03/my_bin) (in process of moving data to my current notes pages)
+- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
+- **Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
+- **Learn i3:** [Click here](learn-i3.md)
+- **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
+
+**FYI:**
+- `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.
+- `config` files : [sahilrajput03/config](https://github.com/sahilrajput03/config)
+- Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles
+- ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
+- 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
+
+## Install `gromit-mpx`
+
+Github: [Click here](https://github.com/bk138/gromit-mpx) (832*)
+
+This is really "screen annotation" or "screen drawing" app. 
+
+```bash
+# install
+yay -S gromit-mpx --noconfirm
+```
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/72b89a14-1b4f-41c2-94c1-3c39555f78a7)
+
+
+## install steam
+
+```bash
+sudo pacman -S steam
+
+# you need to run below command otherwise your pc may logout when you try to run steam
+# src: https://www.reddit.com/r/archlinux/comments/q41nuc/launching_a_game_from_steam_logs_me_out_of_my/
+sudo pacman -R xf86-video-intel
+```
+
+## Format pendrive as exfat
+
+The best format for a USB pendrive that needs to work on both Linux and Windows systems is typically FAT32 or exFAT. These file systems are widely supported by both operating systems and offer good compatibility.
+
+Also, exfat is a good choice for larger USB drives and when dealing with large files because FAT32 has limited functionality to store a maximum file size of 4 GB. So, `exfat` rocks!
+
+```bash
+sudo pacman -S exfat-utils
+
+# check the device path via
+sudo fdisk -l
+
+# unmount
+sudo umount /dev/sda1
+
+# format the partition to exFAT
+sudo mkfs.exfat /dev/sda1
+
+# remount
+sudo mount /dev/sda1 /mnt/sda1
+```
+
+## Install flutter
+
+```bash
+pacman -S flutter
+```
+
+## Install deno
+
+Docs: [Click here](https://docs.deno.com/runtime/manual/getting_started/installation)
+
+```bash
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
+# NOW ADD BELOW LINES TO YOUR .bashrc FILE
+# deno
+export DENO_INSTALL="/home/array/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+```
+
+## Default terminal application in manjaro-i3 ?
+
+**UPDATE: 20, Nov, 2023 - I do not use urxvt and use `kitty` instead.**
+
+`urxvt`
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e4ae0ba6-c83e-40da-81fc-68db0daf5624)
+
+## Check if port is used by currently running application
+
+```bash
+lsof -i :5600
+```
+
+## Tracking screen time of apps `activitywatch-bin`
+
+- website: https://activitywatch.net/
+- github: https://github.com/ActivityWatch/activitywatch
+
+```bash
+yay -S activitywatch-bin
+
+# To enable this on system startup, add below line to your ~/.profile file
+[ -f /usr/bin/aw-qt ] && /usr/bin/aw-qt &
+```
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ddb1b4fa-7ee9-4d68-9cf6-9ec7962a1e01)
+
+## ❤️ Stop using `youtube-dl` and use `yt-dlp`
+
+- Amazing reddit post: [Click here](https://www.reddit.com/r/archlinux/comments/119hsoj/stop_using_youtubedl_and_use_ytdlp_instead/)
+- Archlinux Wiki Page: [Click here](https://wiki.archlinux.org/title/Yt-dlp)
+
+`yt-dlp` is a command-line program that lets you easily download videos and audio from more than a thousand websites. See the list of supported sites.
+
+Note: yt-dlp is a fork of youtube-dl that was created after the parent project became stagnant. The upstream youtube-dl[dead link 2023-09-16 ⓘ] can still be installed as youtube-dlAUR; commands on this page should still work, but check the list of differences.
+
+```bash
+pacman -S yt-dlp
+
+# for usage, please refer - https://wiki.archlinux.org/title/Yt-dlp
+```
+
+TOOD: Checkout some gui software as well for much better usage (refer same above archlinux page) -
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/71315aa2-2b82-480c-9d7e-1059ab224320)
+
+## `youtube-dl` and ❤️ `youtube-dl-gui`
+
+youtube-dl-guil:
+- Github (6k*): [Click here](https://github.com/jely2002/youtube-dl-gui)
+
+```bash
+sudo pacman -S youtube-dl
+```
+
+
+```bash
+# for gui (LEARN: yay fails to install this as mentioned by a user on the AUR page - https://aur.archlinux.org/packages/youtube-dl-gui:
+git clone https://aur.archlinux.org/youtube-dl-gui.git
+cd youtube-dl-gui
+makepkg -si
+# Usage:
+youtube-dl-gui
+```
+
+## install `mpv` player(its good player for streaming youtube videos(it internally uses `youtube-dl`)) and `youtube-dl`
+
+```bash
+yay -S mpv
+```
+
+## ❤️ ❤️ Default timeout for password asking delay for sudo commands in archlinux?
+
+Date: 8 Oct, 2023
+
+Tags: #diable password timeout, disable asking password on sudo, sudo password disable, timeout sudo password, delay sudo password ask
+
+- Archlinux Docs (sudo.8): [Click here](https://man.archlinux.org/man/sudo.8.en)
+- Archlinux Docs (sudoers.5): [Click here](https://man.archlinux.org/man/sudoers.5.en)
+- Arch Docs \| Disable per-terminal sudo: [Click here](https://wiki.archlinux.org/title/sudo#Disable_per-terminal_sudo)
+- Arch Docs \| Reduce the number of times you have to type a password: [Click here](https://wiki.archlinux.org/title/sudo#Reduce_the_number_of_times_you_have_to_type_a_password)
+
+Default value = 5 (Number of minutes)
+
+To disable password timeout, open the file `/etc/sudoers` by - `sudoCode /etc/sudoers` or `sudo visudo /etc/sudoers` and add below lines to the end of the file:
+
+- **(NOTE: you must logout and login to take this file into effect)**
+- **(NOTE: you must replace `array` with your own username you want to apply the settings to)**
+
+```bash
+# ~ Sahil ~
+# LEARN: Default value is 5 (in mins)
+# LEARN: Value can't be a fraction i.e, 3.5
+# LEARN: Setting a value less than 0 means to never ask again ever
+Defaults:array timestamp_timeout=-1
+## ~ Sahi ~ Don't require password for each new terminal
+Defaults:array timestamp_type=global
+```
 
 ## Default file manager in i3
 
@@ -135,6 +307,13 @@ sudo systemctl enable docker.service
 sudo systemctl start docker
 sudo chmod 666 /var/run/docker.sock
 # PLEASE REBOOT(reboot means reboot and not just logout and login) THE SYSTEM ONCE PLEASE TO BE ABLE TO GET DOCKER FUNCTIONING. src: https://stackoverflow.com/a/55911400/10012446
+
+# IMPORTANT: Add your user to docker group so that I don't need to run `sudo chmod 666 /var/run/docker.sock` after on each system boot
+sudo usermod -aG docker $USER
+# **NOTE**: You need logout and login so that user is added successfully to docker group
+# Veify if user is added successfully to docker gropu
+groups | grep docker
+# OUTPUT: sys network power libvirt autologin docker lp wheel array # Here we can see the `docker` entry here now.
 
 yay -S google-chrome skypeforlinux-stable-bin visual-studio-code-bin mongodb-compass postman-bin nvm android-studio
 
@@ -314,6 +493,7 @@ sudo pacman -S base-devel
 Source: [Click here](https://playwright.bootcss.com/python/docs/installation)
 
 ```bash
+# 11 Nov, 2023: This doesn't work because it requires me to set up an venv environment first
 pip install playwright
 ```
 
@@ -395,11 +575,11 @@ Download AppImage simply via: https://trufflesuite.com/ganache/
 sudo mv ~/Downloads/ganache-2.5.4-linux-x86_64.AppImage /usr/bin/ganache-ui
 ```
 
-## Installed xournal
+## Installed xournalpp (pp means ++ i.e, xournal++)
 
-Amazing pdf annotater: Source - [Stackoverflow Ansser](https://askubuntu.com/a/1288079/702911)
-
-[Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
+- Github (9.4k*): [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp)
+- Amazing pdf annotater: Source - [Stackoverflow Ansser](https://askubuntu.com/a/1288079/702911)
+- [Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
 
 ```bash
 # rename
@@ -1402,12 +1582,6 @@ makepkg -si
 
 ```
 sudo pacman -S gnuplot
-```
-
-## install `mpv` player(its good player for streaming youtube videos(it internally uses `youtube-dl`)) and `youtube-dl`
-
-```
-sudo pacman -S mpv youtube-dl
 ```
 
 ## Install `st`

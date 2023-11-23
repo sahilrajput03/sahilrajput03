@@ -6,26 +6,53 @@
 - Introduction to Marketing: [Click here](https://in.coursera.org/learn/wharton-marketing) (10 h)
 - Introduction to Financial Accounting: [Click here](https://www.coursera.org/learn/wharton-accounting) (13 h)
 
-**Todo**
-- Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
-- Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
-- Kubernetes Tutorial for Beginners [4h] by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
-- DevOps Roadmap by `TechWorld with Nana`: [Click here](https://youtu.be/G_nVMUtaqCk)
-- ~~**MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)~~ , (Removed, please use the official docs and make more examples in your official `learning-monogo-and-mongoosejs` 
-- Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **Just me and Opensource**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
+https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
+
+**Todo (me):**
+
+- **AWS:**
+    - AWS Free official courses: [Click here](https://aws.amazon.com/training/digital/?cta=tctopbanner) (also see great image in the end of this document)
+    - TERRAFORM: [Website](https://www.terraform.io/), [Github](https://github.com/hashicorp/terraform) (39.2k*)
+      - **TODO: Read ARTICLES on terraform:**
+        - Terraform: Building **Multi-Cloud Infrastructure for AWS and GCP**: A Comparative Analysis: [Click here](https://medium.com/engineered-publicis-sapient/building-aws-and-gcp-cloud-infrastructure-with-terraform-a-comparative-analysis-16380cfd9dfd)
+        - STACKOVERFLOW - Question: Movement from AWS to GCP with terraform: [Click here](https://stackoverflow.com/a/60936052/10012446)
+        - STACKOVERFLOW - Question: How to use Terraform in a cloud agnostic way: [Click here](https://stackoverflow.com/a/42791218/10012446)
+  - 3h 40m - AWS For Front-End Engineers, v2 - FontendMasters: [Click here](https://frontendmasters.com/courses/aws-v2/)
+    - CloudFront (CDN to help distribute so its quick and easy to load no matter where the customers are.)
+    - Routing, Amazon Certificate Manger (for ssl certs probably)
+    - Custom functionality to our CDN using lambda@Edge and CloudFront functions. 
+- **Mongodb Courses:**
+  - 5h - Youtube Playlist by `Just me and Opensource`: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wPvZJqUJhjyNtm7UedWR8Ps)
+  - 5h 40m - Youtube Playlist by `Enginnering Digest`: [Click here](https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1)
+  -  Todo check by Samaksh: [1](https://drive.google.com/drive/folders/1ib0wbUEO3jKvXfIPikk9jB02zMiW4vzm), [2](https://drive.google.com/drive/folders/1Z82qjVu-ux283yLGIfDWFzl_73BbaCzF)
+  ~~**MongoDb: 216 Video:** [Click here](https://www.youtube.com/playlist?list=PL3NS2RZMnkWCpw-zo_7KLdMRGXCD0OMR7)~~ , (Removed, please use the official docs and make more examples in your official `learning-monogo-and-mongoosejs`
+- DEV OPS:
+    - DevOps Roadmap by `TechWorld with Nana`: [Click here](https://youtu.be/G_nVMUtaqCk)
+    - **Docker Courses:**
+        - Docker Course by `TechWorld with Nana` [1h]: [Click here](https://youtu.be/pg19Z8LL06w)
+        - Docker Tutorial for Beginners by `TechWorld with Nana` [3h]: [Click here](https://youtu.be/3c-iBn73dDE)
+        - Docker, Kubernetes, Traefik v2 in Kubernetes,MongoDB, MySQL Cluster and Replication,  AWS, Elastic Search ~ **`Just me and Opensource`**: [Click here](https://www.youtube.com/@justmeandopensource/playlists)
+    - **Kubernetes Courses:**
+      - Youtube Playlist by `Just me and Opensource`: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0)
+      - 4h - Youtube Playlist (begineer) by `TechWorld with Nana`: [Click here](https://youtu.be/X48VuDVv0do)
+      - `DevOps with Kubernetes` ~ Univ. Of Helsinki: [Click here](https://devopswithdocker.com/)
+      - `FullStackOpen` - Part 11 and Part 12 ~ Univ. Of Helsinki: [Click here](https://fullstackopen.com/en/part11)
 - Typescript fundamentals on egghead (7$/month): [Click here](https://egghead.io/lessons/typescript-use-the-optional-chaining-operator-in-typescript), For now I can read articles from his blog for free: [Click here](https://mariusschulz.com/blog)
 - Typescript: No BS TS by Jack Herrington: [Click here](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 - Foundations of Decentralized Finance (DeFi): [Click here](https://www.linkedin.com/learning/foundations-of-decentralized-finance-defi)
 - todo-NestJS Fundamentals Course: [Click here](https://courses.nestjs.com/)
 - Advanced Expressjs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-express)
 - Advanced NodeJs(linkedin): [Click here](https://www.linkedin.com/learning/advanced-node-js)
-- *DevOps with Kubernetes, FSO part 12 and part 13.*
 - *Certified Hyperledger Fabric Administrator: [Click here](https://training.linuxfoundation.org/certification/certified-hyperledger-fabric-administrator-chfa/)*
 - Neuro Linguistic Programming: [Click here](https://www.udemy.com/topic/neuro-linguistic-programming/)
 - Build 20+ mini projects using nothing but HTML5, CSS & JavaScript. No JS or CSS frameworks, no libraries, etc ~ By Traversy Media: [Click here](https://www.udemy.com/course/web-projects-with-vanilla-javascript/?referralCode=F9B7C7FED834F91ADE75)
+  - Amazing Android Courses:
+    - Android App Development Course with Kotlin & Java | Android: [Click here](https://www.udemy.com/course/android-app-development-course-with-kotlin-java-android/)
+    - (Jetpack, Architecture & More)Advanced Android Bootcamp 2023: [Click here](https://www.udemy.com/course/android-architecture-componentsmvvm-with-dagger-retrofit/)
 
-**General**
+**General:**
 
+- Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8) [6h]
 - Learn X in Y minutes: [Click here](https://learnxinyminutes.com/)
 - Shortcutfoo (See end of page) - [Click here](https://www.shortcutfoo.com/)
 - Git: [Learn Git Branching](https://learngitbranching.js.org/)
@@ -50,16 +77,17 @@
 - From helsinki: https://studies.cs.helsinki.fi/stats/
 - Introduction to Kubernetes: [Click here](https://www.edx.org/course/introduction-to-kubernetes)
 - Kube by example: [Click here](https://kubebyexample.com/)
-- Build An NFT Marketplace From Scratch - Blockchain DApp: [Udemy](https://www.udemy.com/course/build-an-nft-marketplace-from-scratch-blockchain-dapp/), Google Drive - [ Click here](https://drive.google.com/drive/folders/1o7eExDuepyTlyMUeospr1epx-xF9ELM9)
-- Become a Blockchain Developer: Ethereum + Solidity: [Click here](https://www.udemy.com/course/jpcourses-ethereum-smart-contract-programming-with-solidity-project)
-- Learn smart contracts and Dapp development for Ethereum: [Click here](https://pro.eattheblocks.com/p/6-figure-blockchain-developerLearn)
 - Learn javascript by a game: [Click here](https://js.coderslang.com/)
+- #Blockchain
+  - Build An NFT Marketplace From Scratch - Blockchain DApp: [Udemy](https://www.udemy.com/course/build-an-nft-marketplace-from-scratch-blockchain-dapp/), Google Drive - [ Click here](https://drive.google.com/drive/folders/1o7eExDuepyTlyMUeospr1epx-xF9ELM9)
+  - Become a Blockchain Developer: Ethereum + Solidity: [Click here](https://www.udemy.com/course/jpcourses-ethereum-smart-contract-programming-with-solidity-project)
+  - Learn smart contracts and Dapp development for Ethereum: [Click here](https://pro.eattheblocks.com/p/6-figure-blockchain-developerLearn)
 
 **Javascript Docs and Prime Resources**
 
 - [Click here](prime-resources-js.md)
 
-# Awesome Youtube channels
+# Awesome Tech Youtube channels
 
 **Awesome Playlist**
 - Small Projects Playlist by Kyle: [Click here](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8DWL14Wud_m8NeNNbYKOkj)
@@ -74,18 +102,22 @@
   - [Fireship](https://www.youtube.com/c/Fireship) \| Full Stack Expert
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia) \| Full Stack Expert
   - [Ben Awad](https://www.youtube.com/c/BenAwad97) \| React Expert
-  - [Roadside Coder](https://www.youtube.com/@RoadsideCoder) \| Full Stack Expert
-  - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert
+  - [Roadside Coder](https://www.youtube.com/@RoadsideCoder) \| Full Stack Expert (#India)
+  - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert (#India)
+  - [Toofani Coder](https://www.youtube.com/@toofanicoder) \| Full Stack Expert (#India)
+  - [Varun Mayya](https://www.youtube.com/@VarunMayya) \| Techology (#India) 
 
-**Blockchain**
-  - [Code Eater](https://www.youtube.com/c/CodeEater21) \| Blockchain Expert
-  - [Web3 Club](https://www.youtube.com/channel/UCJbA7dA_YPbnef0vEBFuhKQ/videos) \| Blockchain Expert
+**#Blockchain**
+  - [Code Eater](https://www.youtube.com/c/CodeEater21) \| Blockchain Expert (#India)
+  - [Web3 Club](https://www.youtube.com/channel/UCJbA7dA_YPbnef0vEBFuhKQ/videos) \| Blockchain Expert (#India)
+  - [Smart Contract Programmer](https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA)
+  - [Eat the blocks](https://www.youtube.com/@EatTheBlocks)
 
 **CSS**
 - [Kevin Powell](https://www.youtube.com/kepowob)
 
 **Flutter**
-- [Codepur](https://www.youtube.com/channel/UCFTM1FGjZSkoSPDZgtbp7hA) \| Flutter Expert
+- [Codepur](https://www.youtube.com/channel/UCFTM1FGjZSkoSPDZgtbp7hA) \| Flutter Expert (#India)
 
 **Linux**
   - [NetworkChuck ](https://www.youtube.com/c/NetworkChuck)
@@ -96,7 +128,7 @@
 - [No Boilerplate](https://www.youtube.com/c/NoBoilerplate)
 
 **Microservices:**
-- [Asli Engineering by Arpit Bhayani](https://www.youtube.com/@AsliEngineering)
+- [Asli Engineering by Arpit Bhayani](https://www.youtube.com/@AsliEngineering) (#India)
 
 # Blogs:
 
@@ -131,3 +163,9 @@
 ***Shortcutfoo***: Choose shortcuts to practice - Vim, VSCode, Sublime, Emacs, Visual Studio, Excel, Commandline, Photoshop, git, TextMate, Eclipse, ReSharper, IntelliJ IDEA, RubyMine, AppCode, PyCharm, WebStorm/PhpStorm, Gmail, Regex, JQuery, Atom, Cloud9, Slack, Zendesk, Salesforce, Trello, JIRA, Logic Pro X, & Sketch
 
 TODO: [Qutebrowser](https://www.shortcutfoo.com/app/dojos/qutebrowser/learn) Excel, Jira, Gmail, git, Regex.
+
+## AWS Free official courses
+
+AWS Free official courses: [Click here](https://aws.amazon.com/training/digital/?cta=tctopbanner) (also see great image in the end of this document)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5a3c7dae-c6e3-48bd-b1aa-65771a185a73)

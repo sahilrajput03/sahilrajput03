@@ -2,6 +2,175 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## 😍🙂😎🤡 Live brain reading directly via brain scan:
+
+[Click here](https://youtu.be/uiGl6oF5-cE)
+
+## How many thanksgiving days are there in USA?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ec215afe-4217-4f29-84dd-d673a47a3a00)
+
+## Stages of Development and Testing
+
+Source: [Click here](https://chat.openai.com/share/14916c2b-6f48-418a-8a57-313545a1ef93)
+
+In software development, different types of releases denote various stages of development and testing. Here are some common types:
+
+- **Alpha Release**: This is an early version of the software that is typically not feature-complete. It is released to a limited audience, often within the development team, for initial testing and feedback.
+
+- **Beta Release**: A more polished version compared to alpha, beta releases have most features implemented but may still contain bugs. They are released to a larger group of users for broader testing and to gather user feedback.
+
+- **Gamma Release**: Unlike alpha and beta, gamma releases are not as commonly used or standardized in the software development process. The terms alpha and beta are more widely recognized and adopted in industry practices.
+
+- **Release Candidate (RC)**: This is a version that is considered feature-complete and stable. If no critical bugs are found during testing, the release candidate becomes the final release.
+
+- **General Availability (GA) or Release to Manufacturing (RTM):** This is the final version of the software that is ready for public use. It has passed all testing phases and is deemed stable for widespread deployment.
+
+- **Canaray Releases** ([source](https://martinfowler.com/bliki/CanaryRelease.html)):  Canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
+
+These terms may vary slightly in usage between different development teams and projects.
+
+<div align="right">Date: 23 Nov, 2023</div>
+
+## Azure vs. AWS for pricing?
+
+[Click here](https://azure.microsoft.com/en-in/pricing/azure-vs-aws)
+
+<div align="right">Date: 22 Nov, 2023</div>
+
+## Linkedin is owned by Microsoft
+
+Wikipedia: [Click here](https://en.wikipedia.org/wiki/LinkedIn)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/69092c6e-9a88-476b-a512-a77d615552a5)
+
+<div align="right">Date: 22 Nov, 2023</div>
+
+## Comparison for custom validation libraries for data on backend
+
+[Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#comparison-for-custom-validation-libraries-for-data-on-backend)
+
+<div align="right">Date: 15 Nov, 2023</div>
+
+## Should we maintiain categories in database or in backend database as enums
+
+[Click here](https://github.com/sahilrajput03/learn-express/blob/main/README.md#should-we-maintiain-categories-in-database-or-in-backend-database-as-enums)
+
+## What is ERP
+
+Erp Serivce used by Zerodha (mentioned in their hello world article on their website):
+- ERPNext: ERPNext is the world's best free and open source ERP): [Click here](https://erpnext.com/)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/96b9c5f9-6168-4a3b-96a6-68d978e2e589)
+
+## How can a store documents such that I can fetch them in a particular sequence
+
+Refer my notes on other page: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#how-can-a-store-documents-such-that-i-can-fetch-them-in-a-particular-sequence)
+
+<div align="right">Date: 2 Nov, 2023</div>
+
+## For sorting by name we can add a new field `sort_name` by which we can sort via the `after` id of the last set of items when we use cursor based pagination
+
+For this we use: `sort_name=${doc.name}_{doc._id.toString()}` so this helps us establish cursor based pagination.
+
+<div align="right">Date: 30 Oct, 2023</div>
+
+## Payments - Sample Deep Links 
+
+*Make sure you use website to click below links from mobile (not on github page).*
+
+- [google-pay](upi://pay?pa=9000000009@upi&pn=User1&tn=Test UPI&am=20&cu=INR&mc=1234&tr=01234)
+- [paytm](paytm://pay/upi/upi://pay?pa=9000000009@upi&pn=User1&tn=Test UPI&am=20&cu=INR&mc=1234&tr=01234)
+- [phonepay](intent://phonepe.com/#Intent;scheme=upi;package=com.phonepe.app;end)
+- [bhim](intent://bhimupi.in/#Intent;scheme=upi;package=com.npci.upi;end)
+- [other-upi](upi://pay?pa=9000000009@upi&pn=User1&tn=Test UPI&am=20&cu=INR&mc=1234&tr=01234)
+
+## hd, fhd (full hd), wqhd?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/96fe13b4-7b6a-4867-96fc-4ce41f6b2de2)
+
+<div align="right">Date: 30 Oct, 2023</div>
+
+## FAT32 vs. exfat?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/88398467-239a-4470-acf7-84faf5fd250f)
+
+<div align="right">Date: 29 Oct, 2023</div>
+
+## Opensource AI avatar generator
+
+- https://photoshot.app/
+- https://github.com/shinework/photoshot
+
+## Bard is fast now
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/45ce9840-caea-4761-94bd-537d959e5455)
+
+## Mongodb compass has AI chat assistant as well
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3b9ba423-a8e3-4bf0-9748-5a3060b7fd30)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e2226aea-94b1-4da4-a0b3-e9f394a88cbd)
+
+we get completions for aggregate pipelines as well:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e1592571-a216-4db9-8ef1-c04a2c3fa680)
+
+<div align="right">Date: 26 Oct, 2023</div>
+
+## Do adb device ids change after disconnect?
+
+TLDR: No (though probably yes if you run `adb restart` command)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/08bb4402-93f3-45bc-aff2-a4dcddb00bae)
+
+<div align="right">Date: 21 Oct, 2023</div>
+
+## Projects killed by google
+
+https://killedbygoogle.com/
+
+<div align="right">Date: 20 Oct, 2023</div>
+
+## notion?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1d5f3f0f-fefb-4124-b512-96485511d7c7)
+
+<div align="right">Date: 17 Oct, 2023</div>
+
+## Meta Stocks
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/80af9a9b-58a2-4157-863e-3e7abb52acfa)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ccaa2b8f-d62b-4ee1-a8aa-dccd5a47eddd)
+
+<div align="right">Date: 17 Oct, 2023</div>
+
+## Should I handle Oauth callback in frontend or backend?
+
+TLDR: In backend. 
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1a03a670-0394-4634-8081-2085431f43a5)
+
+<div align="right">Date: 16 Oct, 2023</div>
+
+## Web Components ~ Samaksh
+
+- MDN Docs - Web Components: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
+- MDN Examples: [Click here](https://github.com/mdn/web-components-examples)
+- Lit Library for Web Components: [Click here](https://lit.dev/docs/getting-started/)
+- Download frontendmasters.com Courses: [Click here](https://frontendmasters.com/courses/web-components/introduction/)
+
+**Check my example on Github Repository: - [Click here](https://github.com/sahilrajput03/learn-web-components)**
+
+<div align="right">Date: 15 Oct, 2023</div>
+
+## SBI charges fee if you request to check the CIBIL score
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8c83fd32-c794-497b-9e26-4fa510f07cf3)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fc42a078-8bed-4fff-a433-88807309c9f7)
+
 ## React debugger in vscode
 
 [Click here](https://www.youtube.com/shorts/ZVbJTQbsh9E)
@@ -2152,12 +2321,6 @@ Proof of convertion trial @ https://www.convertjson.com/yaml-to-json.htm
 - https://www.freeformatter.com/json-to-xml-converter.html#ad-output
 
 - https://www.convertjson.com/json-to-xml.htm
-
-## What is canaray releases ?
-
-Canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
-
-Source: https://martinfowler.com/bliki/CanaryRelease.html
 
 ## What is reverse psychology?
 
