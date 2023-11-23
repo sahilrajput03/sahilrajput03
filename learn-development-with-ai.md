@@ -5,21 +5,22 @@
 **Ai Explained:**
   - 21 Nov, 2023: [Click here](https://www.youtube.com/watch?v=dyakih3oYpk)
 - **Ilya Sutskever (Student of Jeffrey Hiton):**
-  - **(TODO)** VIDEO: Ilya Sutskever: Deep Learning | Lex Fridman Podcast #94: [Click here](https://www.youtube.com/watch?v=13CZPWmke6A)
+  - *TODO:* VIDEO: Ilya Sutskever: Deep Learning | Lex Fridman Podcast #94: [Click here](https://www.youtube.com/watch?v=13CZPWmke6A)
   - TED - Ilya Sutskever - Chief Scientist @ OpenAi: [Click here](https://www.youtube.com/watch?v=SEkGLj0bwAU)
 - Geoffrey Hinton:
   - Ilya Sutskever: The Man Who Destroyed OpenAI: [Click here](https://www.youtube.com/watch?v=zlRnTw77eaY)
-  - **(MUST MUST WATCH)** Super awesome video: [Click here](https://www.youtube.com/watch?v=-9cW4Gcn5WY)
+  - *TODO:* VIDEO Ilya: the AI scientist shaping the world: [Click here](https://www.youtube.com/watch?v=9iqn1HhFJ6c)
+  - *TODO:* VIDEO Godfather in Conversation: Why Geoffrey Hinton @ University of Toronto: [Click here](https://www.youtube.com/watch?v=-9cW4Gcn5WY)
   - Article about  leaving Google: [Click here](https://www.theguardian.com/technology/2023/may/02/geoffrey-hinton-godfather-of-ai-quits-google-warns-dangers-of-machine-learning)
   - https://www.youtube.com/watch?v=Wf-s9C9uf7U
 - Sam and Mira
-  - TODO - Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
-  - TODO: https://www.youtube.com/watch?v=U9mJuUkhUzk
+  - *TODO:* VIDEO Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
+  - *TODO:* VIDEO *(continue watching)* [Click here](https://www.youtube.com/watch?v=U9mJuUkhUzk)
 - Elon Musk:
   - Video with Lex Fredman - SHORT: [Click here](https://www.youtube.com/watch?v=aHsunc60Xms)
 - More:
-  - TODO: 2,851 Miles: [Click here](https://www.youtube.com/watch?v=F9cO3-MLHOM)
-  - TODO: Satya Nadella & Sam Altman (Bloomberg Originals): [Click here](https://www.youtube.com/watch?v=6ydFDwv-n8w)
+  - *TODO:* 2,851 Miles: [Click here](https://www.youtube.com/watch?v=F9cO3-MLHOM)
+  - *TODO:* Satya Nadella & Sam Altman (Bloomberg Originals): [Click here](https://www.youtube.com/watch?v=6ydFDwv-n8w)
 
 **By Syed Amanullah:**
 - Langchain:
