@@ -2,6 +2,26 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Software Release versions
+
+Source: [Click here](https://chat.openai.com/share/14916c2b-6f48-418a-8a57-313545a1ef93)
+
+In software development, different types of releases denote various stages of development and testing. Here are some common types:
+
+- **Alpha Release**: This is an early version of the software that is typically not feature-complete. It is released to a limited audience, often within the development team, for initial testing and feedback.
+
+- **Beta Release**: A more polished version compared to alpha, beta releases have most features implemented but may still contain bugs. They are released to a larger group of users for broader testing and to gather user feedback.
+
+- **Gamma Release**: Unlike alpha and beta, gamma releases are not as commonly used or standardized in the software development process. The terms alpha and beta are more widely recognized and adopted in industry practices.
+
+- **Release Candidate (RC)**: This is a version that is considered feature-complete and stable. If no critical bugs are found during testing, the release candidate becomes the final release.
+
+- **General Availability (GA) or Release to Manufacturing (RTM):** This is the final version of the software that is ready for public use. It has passed all testing phases and is deemed stable for widespread deployment.
+
+- **Canaray Releases**: [source](https://martinfowler.com/bliki/CanaryRelease.html) Canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
+
+These terms may vary slightly in usage between different development teams and projects.
+
 ## Azure vs. AWS for pricing?
 
 [Click here](https://azure.microsoft.com/en-in/pricing/azure-vs-aws)
@@ -2289,12 +2309,6 @@ Proof of convertion trial @ https://www.convertjson.com/yaml-to-json.htm
 - https://www.freeformatter.com/json-to-xml-converter.html#ad-output
 
 - https://www.convertjson.com/json-to-xml.htm
-
-## What is canaray releases ?
-
-Canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
-
-Source: https://martinfowler.com/bliki/CanaryRelease.html
 
 ## What is reverse psychology?
 
