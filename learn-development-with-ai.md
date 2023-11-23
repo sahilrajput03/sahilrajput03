@@ -17,7 +17,7 @@
   - *TODO:* VIDEO Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
   - *TODO:* VIDEO *(continue watching)* [Click here](https://www.youtube.com/watch?v=U9mJuUkhUzk)
 - Elon Musk:
-  - Video with Lex Fredman - SHORT: [Click here](https://www.youtube.com/watch?v=aHsunc60Xms)
+  - *TODO:* Video with Lex Fredman - SHORT: [Click here](https://www.youtube.com/watch?v=aHsunc60Xms)
 - More:
   - *TODO:* 2,851 Miles: [Click here](https://www.youtube.com/watch?v=F9cO3-MLHOM)
   - *TODO:* Satya Nadella & Sam Altman (Bloomberg Originals): [Click here](https://www.youtube.com/watch?v=6ydFDwv-n8w)
