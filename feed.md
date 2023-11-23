@@ -2,7 +2,7 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
-## Software Release versions
+## Stages of Development and Testing
 
 Source: [Click here](https://chat.openai.com/share/14916c2b-6f48-418a-8a57-313545a1ef93)
 
@@ -18,7 +18,7 @@ In software development, different types of releases denote various stages of de
 
 - **General Availability (GA) or Release to Manufacturing (RTM):** This is the final version of the software that is ready for public use. It has passed all testing phases and is deemed stable for widespread deployment.
 
-- **Canaray Releases**: [source](https://martinfowler.com/bliki/CanaryRelease.html) Canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
+- **Canaray Releases** ([source](https://martinfowler.com/bliki/CanaryRelease.html)):  Canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
 
 These terms may vary slightly in usage between different development teams and projects.
 
