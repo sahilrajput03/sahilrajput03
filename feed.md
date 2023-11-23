@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Live brain reading directly via brain scan:
+
+[Click here](https://youtu.be/uiGl6oF5-cE)
+
 ## How many thanksgiving days are there in USA?
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ec215afe-4217-4f29-84dd-d673a47a3a00)
