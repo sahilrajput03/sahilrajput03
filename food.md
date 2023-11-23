@@ -11,6 +11,10 @@
   - [Click here](https://www.youtube.com/watch?v=BQB149EEXkY)
   - You must ^^ add **honey, pepper (kaali mirch)** (salt and lemon as per taste ) to it so that cooling effect is neutralised in it because ashgourd juice is has cooling nature to the body.
 
+## How long can white eggs last without getting stale?
+
+The shelf life of an unrefrigerated egg is 7 to 10 days and for refrigerated egg it's about 30 to 45 days. [Source](https://timesofindia.indiatimes.com/life-style/health-fitness/diet/how-to-tell-if-your-eggs-are-fresh-or-have-expired/articleshow/50930165.cms#:~:text=you're%20wrong.-,It%20is%20often%20noted%20that%20eggs%20are%20still%20good%20to,days%2C%E2%80%9D%20notes%20Dr%20Batra.)
+
 ## Drinks
 
 - Water
