@@ -18,7 +18,8 @@
 - Elon Musk:
   - Video with Lex Fredman - SHORT: [Click here](https://www.youtube.com/watch?v=aHsunc60Xms)
 - More:
-  - https://www.youtube.com/watch?v=F9cO3-MLHOM
+  - TODO: 2,851 Miles: [Click here](https://www.youtube.com/watch?v=F9cO3-MLHOM)
+  - TODO: Satya Nadella & Sam Altman (Bloomberg Originals): [Click here](https://www.youtube.com/watch?v=6ydFDwv-n8w)
 
 **By Syed Amanullah:**
 - Langchain:
