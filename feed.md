@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## How many thanksgiving days are there in USA?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ec215afe-4217-4f29-84dd-d673a47a3a00)
+
 ## Stages of Development and Testing
 
 Source: [Click here](https://chat.openai.com/share/14916c2b-6f48-418a-8a57-313545a1ef93)
