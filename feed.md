@@ -22,9 +22,13 @@ In software development, different types of releases denote various stages of de
 
 These terms may vary slightly in usage between different development teams and projects.
 
+<div align="right">Date: 23 Nov, 2023</div>
+
 ## Azure vs. AWS for pricing?
 
 [Click here](https://azure.microsoft.com/en-in/pricing/azure-vs-aws)
+
+<div align="right">Date: 22 Nov, 2023</div>
 
 ## Linkedin is owned by Microsoft
 
