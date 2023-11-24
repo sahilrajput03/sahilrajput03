@@ -2,6 +2,14 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Companion Mode in google meet
+
+Docs: [Click here](https://support.google.com/meet/answer/11295507?hl=en)
+
+TLDR; When you want to share screen from laptop you feel that that:
+- mic should be used from my phone because of better quality
+- camera should be used from mobile too because you want to talk to people eye-to-eye when you are talking to facing towards mobile (i.e., people).
+
 ## 😍🙂😎🤡 Live brain reading directly via brain scan:
 
 [Click here](https://youtu.be/uiGl6oF5-cE)
