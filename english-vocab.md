@@ -1,6 +1,6 @@
 # Learn English Vocab
 
-2. Some phrases:
+2. **no later than** and **not earlier than**:
 
   - SENTENCE 1 - "The ads should be published no later than 7 AM EST on Monday"
   - SENTENCE 2 - "But not earlier than Monday at 12 AM EST"
