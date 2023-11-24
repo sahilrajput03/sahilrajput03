@@ -2,13 +2,13 @@
 
 2. Some phrases:
 
-SENTENCE 1 - "The ads should be published no later than 7 AM EST on Monday"
+  - SENTENCE 1 - "The ads should be published no later than 7 AM EST on Monday"
+  - SENTENCE 2 - "But not earlier than Monday at 12 AM EST"
 
-SENTENCE 2 - "But not earlier than Monday at 12 AM EST"
+    **Explanations:**
 
-In SENTENCE 1, "no later than" means that the action should be done by the specified time, and it's okay to do it earlier.
-
-In SENTENCE 2, the action should begin on Monday at the earliest and should **not** start before midnight (12 AM) Eastern Standard Time (EST).
+  - In SENTENCE 1, "no later than" means that the action should be done by the specified time, and it's okay to do it earlier.
+  - In SENTENCE 2, the action should begin on Monday at the earliest and should **not** start before midnight (12 AM) Eastern Standard Time (EST).
 
 1. Unsolicited advice:
 
