@@ -16,6 +16,7 @@
 - Sam and Mira
   - *TODO:* VIDEO Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
   - *TODO:* VIDEO *(continue watching)* [Click here](https://www.youtube.com/watch?v=U9mJuUkhUzk)
+  - *TODO:* VIDEO: [Click here](https://www.youtube.com/watch?v=0lJKucu6HJc)
 - Elon Musk:
   - *TODO:* Video with Lex Fredman - SHORT: [Click here](https://www.youtube.com/watch?v=aHsunc60Xms)
 - More:
