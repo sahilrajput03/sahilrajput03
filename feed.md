@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Multiple notificaiton are enabled for all participants in google meet
+
+Source: [Click here](https://support.google.com/calendar/thread/203331082/i-keep-getting-repeated-notifications-for-the-same-event?hl=en#:~:text=You%20can%20have%20up%20to,against%20each%20calendar%20you%20use.)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/06269300-210e-4b42-a4b4-97df5bffae32)
+
 ## Companion Mode in google meet
 
 Docs: [Click here](https://support.google.com/meet/answer/11295507?hl=en)
