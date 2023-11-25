@@ -1,4 +1,4 @@
-# 💣💣 TODO: Do the flutter codelab. 💣💣
+<h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 ```bash
 echo Hello world! > /dev/null
@@ -261,4 +261,4 @@ cat /dev/null
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 - Learn LinkedIn: [Click here](learn-linkedin.md)
 
-<h1 align="center">🤺︎ Hi there 👋 Trying what I can ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
+# 💣💣 TODO: Do the flutter codelab. 💣💣
