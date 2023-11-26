@@ -12,6 +12,8 @@ Source: [Click here](https://support.google.com/calendar/thread/203331082/i-keep
 
 Docs: [Click here](https://support.google.com/meet/answer/11295507?hl=en)
 
+- **In Companion mode, on laptop your mic and video are turned off to avoid any audio feedback.**
+
 TLDR; When you want to share screen from laptop you feel that that:
 - mic should be used from my phone because of better quality
 - camera should be used from mobile too because you want to talk to people eye-to-eye when you are talking to facing towards mobile (i.e., people).
