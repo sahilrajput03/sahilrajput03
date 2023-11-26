@@ -26,11 +26,13 @@ systemctl | cat
 # Detect if a service i.e., services in `systemctl` is enabled (starts on boot) ?
 systemctl is-enabled code-server@array
 
-# When the service is enabled: sudo systemctl enable code-server@array
-# Output: enabled
+# When the service is enabled
+sudo systemctl enable code-server@array
+# OUTPUT: enabled
 
-# When the service is disabled: sudo systemctl disable code-server@array
-# Output: disabled
+# When the service is disabled
+sudo systemctl disable code-server@array
+# OUTPUT: disabled
 ```
 
 ## Create a Systemd service which start on system boot
