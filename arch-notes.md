@@ -2422,23 +2422,6 @@ speedtest
 
 Src: https://archlinux.org/packages/community/any/speedtest-cli/
 
-## Detect if a service i.e., services in `systemctl` is enabled (starts on boot) ?
-
-```bash
-systemctl is-enabled code-server@array
-#src: https://unix.stackexchange.com/a/599587/504112
-
-# when the service is enabled: sudo systemctl enable code-server@array
-#Output: enabled
-
-# when the service is disabled: sudo systemctl disable code-server@array
-#Output: disabled
-```
-
-src: https://unix.stackexchange.com/a/599587/504112
-
-read lots of below from: https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
-
 ## Recursiveness in ls or tree
 
 ```
