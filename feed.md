@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## CRM for Gmail
+
+[Click here](https://chromewebstore.google.com/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik)
+
 ## Multiple notificaiton are enabled for all participants in google meet
 
 Source: [Click here](https://support.google.com/calendar/thread/203331082/i-keep-getting-repeated-notifications-for-the-same-event?hl=en#:~:text=You%20can%20have%20up%20to,against%20each%20calendar%20you%20use.)
