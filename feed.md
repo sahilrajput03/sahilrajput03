@@ -4,7 +4,7 @@
 
 ## CRM for Gmail
 
-[Click here](https://chromewebstore.google.com/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik)
+Chrome Extension: [Click here](https://chromewebstore.google.com/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik)
 
 ## Multiple notificaiton are enabled for all participants in google meet
 
