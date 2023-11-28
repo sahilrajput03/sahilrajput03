@@ -16,7 +16,11 @@
 
 ## Initial Play Console App publishing to *Production*
 
-https://support.google.com/googleplay/android-developer/answer/10787469?hl=en#types&zippy=%2Cdata-types
+**First time review time taken by Play Console?**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/81390e04-a327-4e71-8c22-d19b76971a2b)
+
+- **User Data Collection - Play Console:** [Click here](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en#types&zippy=%2Cdata-types)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/257cac4f-b4d6-42f2-8e74-983b973fd574)
 
