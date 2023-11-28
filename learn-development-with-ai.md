@@ -1,5 +1,8 @@
 # Learn Development with Ai
 
+**Links:**
+- Github ARTICLE - Step-by-step guide to building a large language model app: [Click here](https://github.blog/2023-10-30-the-architecture-of-todays-llm-applications/)
+
 **News**:
   - ARTICLE - Intelligencer: Why Was Sam Altman Fired As CEO of OpenAI?: [Click here](https://nymag.com/intelligencer/2023/11/why-was-sam-altman-fired-as-ceo-of-openai.html)
 **Ai Explained:**
