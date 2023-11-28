@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## #Testing, #Tester Jokes
+
+[Click here](https://www.linkedin.com/posts/radhe-saini-4100b5193_the-developers-mentality-as-it-should-be-activity-7133097884572336129--Ap5?utm_source=share&utm_medium=member_desktop)
+
 ## Bengaluru software engineer hacks IndiGo’s website
 
 Source: [Click here](https://www.tribuneindia.com/news/trending/bengaluru-software-engineer-hacks-indigos-website-to-retrieve-his-lost-luggage-382149)
