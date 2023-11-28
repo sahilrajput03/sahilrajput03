@@ -2,6 +2,14 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## bug, developer, tester, project manager jokes
+
+[Click here](https://www.linkedin.com/posts/jseyehunts_juniordeveloper-bug-production-activity-7134893104238665728-W_8V?utm_source=share&utm_medium=member_desktop)
+
+## Satya Nadela in 1993
+
+[Click here](https://www.linkedin.com/posts/dr-elson-joy_entrepreneurship-career-startup-activity-7132814803680514048-pUdU?utm_source=share&utm_medium=member_desktop)
+
 ## #Testing, #Tester Jokes
 
 [Click here](https://www.linkedin.com/posts/radhe-saini-4100b5193_the-developers-mentality-as-it-should-be-activity-7133097884572336129--Ap5?utm_source=share&utm_medium=member_desktop)
