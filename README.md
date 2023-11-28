@@ -260,5 +260,7 @@ cat /dev/null
 - Learn infinite: [Click here](learn-infinite.md)
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 - Learn LinkedIn: [Click here](learn-linkedin.md)
+- Using Vslive Share: [Click here](learn-vs-live-share.md)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
+
