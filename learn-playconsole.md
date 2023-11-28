@@ -18,7 +18,7 @@
 
 **First time review time taken by Play Console?**
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/81390e04-a327-4e71-8c22-d19b76971a2b)
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/81390e04-a327-4e71-8c22-d19b76971a2b" width="300" ></img>
 
 <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5b6fed9c-2639-4f01-b3df-26231f468002" width="300" ></img>
 
