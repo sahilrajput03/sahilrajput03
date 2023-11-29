@@ -76,10 +76,6 @@ You need to hover that area on the bottom of vscode where the branch-name is sho
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fcd868ec-19ba-42bf-8484-4058a9ef8065)
 
-## Create Bitbucket pull request (#bitbucket pr) from vscode
-
-Extension id: `ramiroberrelleza.bitbucket-pull-requests`
-
 [Click here](https://marketplace.visualstudio.com/items?itemName=RamiroBerrelleza.bitbucket-pull-requests)
 
 ## Open Jira tickets or other work management tickets via `Autolinks` feature of git-lens
@@ -140,10 +136,6 @@ Below worked awesomely for me:
 
 ![image](https://user-images.githubusercontent.com/31458531/215534923-b4cfd663-90ce-4f92-b8ce-5f70360b45a3.png)
 
-## Extensions:
-
-- [Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-
 ## In vscode you can reference file as links as well
 
 Source: [Click here](https://stackoverflow.com/a/3760547/10012446)
@@ -184,12 +176,17 @@ Consider using a `.vscode/tasks.json` file (you can autogenerate this file with 
 }
 ```
 
+## Vscode Extensions
 
-## bookmarks extension - awesome
+**Install All my Extensions:** [Click here](https://github.com/sahilrajput03/config/blob/main/__manjaro_current/.config/Code/User/MyExtensionInstaller.sh)
 
-https://stackoverflow.com/a/41757766/10012446
+- [Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- Create Bitbucket pull request, Extension id: `ramiroberrelleza.bitbucket-pull-requests`
+- TODO Tree Extension: [officia vscode video](https://www.youtube.com/shorts/GNJfxriE83Q)
+- Bookmarks Extension: [source-stackoverflow](https://stackoverflow.com/a/41757766/10012446)
 
 ![image](https://user-images.githubusercontent.com/31458531/202106832-5ce4fdc5-b644-42dd-b252-297f3d647426.png)
+
 
 ## Change project folder very fast
 

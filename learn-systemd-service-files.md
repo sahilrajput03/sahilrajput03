@@ -13,10 +13,26 @@ systemctl --type=service --state=active
 # List running
 systemctl --type=service --state=running
 
-
-
 # Display a list of all loaded systemd units (read the systemd documentation for more information about systemd units) including services, showing their status (whether active or not).
 systemctl | cat
+
+
+### ---- ###
+# Source:
+# 1. https://unix.stackexchange.com/a/599587/504112
+# 2. https://unix.stackexchange.com/a/599587/504112
+# 3. https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
+
+# Detect if a service i.e., services in `systemctl` is enabled (starts on boot) ?
+systemctl is-enabled code-server@array
+
+# When the service is enabled
+sudo systemctl enable code-server@array
+# OUTPUT: enabled
+
+# When the service is disabled
+sudo systemctl disable code-server@array
+# OUTPUT: disabled
 ```
 
 ## Create a Systemd service which start on system boot

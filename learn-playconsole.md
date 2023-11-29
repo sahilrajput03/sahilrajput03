@@ -16,7 +16,13 @@
 
 ## Initial Play Console App publishing to *Production*
 
-https://support.google.com/googleplay/android-developer/answer/10787469?hl=en#types&zippy=%2Cdata-types
+**First time review time taken by Play Console?**
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/81390e04-a327-4e71-8c22-d19b76971a2b" width="600" ></img>
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5b6fed9c-2639-4f01-b3df-26231f468002" width="300" ></img>
+
+- **User Data Collection - Play Console:** [Click here](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en#types&zippy=%2Cdata-types)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/257cac4f-b4d6-42f2-8e74-983b973fd574)
 
@@ -26,6 +32,13 @@ https://support.google.com/googleplay/android-developer/answer/10787469?hl=en#ty
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/7f9e8c93-de97-4c61-8a75-ba92f78f5a07)
 
+**Publishing Overview:**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/81bc4d20-7c11-48bf-9c7d-be60415aa324)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f4ba3f51-78ec-41e2-bdbb-3df6b51cefb0)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8944b7a3-1c14-4f59-9515-7eefca5538ec)
 
 ## Choose signing key
 

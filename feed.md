@@ -2,6 +2,42 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## bug, developer, tester, project manager jokes
+
+[Click here](https://www.linkedin.com/posts/jseyehunts_juniordeveloper-bug-production-activity-7134893104238665728-W_8V?utm_source=share&utm_medium=member_desktop)
+
+## Satya Nadela in 1993
+
+[Click here](https://www.linkedin.com/posts/dr-elson-joy_entrepreneurship-career-startup-activity-7132814803680514048-pUdU?utm_source=share&utm_medium=member_desktop)
+
+## #Testing, #Tester Jokes
+
+[Click here](https://www.linkedin.com/posts/radhe-saini-4100b5193_the-developers-mentality-as-it-should-be-activity-7133097884572336129--Ap5?utm_source=share&utm_medium=member_desktop)
+
+## Bengaluru software engineer hacks IndiGo’s website
+
+Source: [Click here](https://www.tribuneindia.com/news/trending/bengaluru-software-engineer-hacks-indigos-website-to-retrieve-his-lost-luggage-382149)
+
+## CRM for Gmail
+
+Chrome Extension: [Click here](https://chromewebstore.google.com/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik)
+
+## Multiple notificaiton are enabled for all participants in google meet
+
+Source: [Click here](https://support.google.com/calendar/thread/203331082/i-keep-getting-repeated-notifications-for-the-same-event?hl=en#:~:text=You%20can%20have%20up%20to,against%20each%20calendar%20you%20use.)
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/06269300-210e-4b42-a4b4-97df5bffae32)
+
+## Companion Mode in google meet
+
+Docs: [Click here](https://support.google.com/meet/answer/11295507?hl=en)
+
+- **In Companion mode, on laptop your mic and video are turned off to avoid any audio feedback.**
+
+TLDR; When you want to share screen from laptop you feel that that:
+- mic should be used from my phone because of better quality
+- camera should be used from mobile too because you want to talk to people eye-to-eye when you are talking to facing towards mobile (i.e., people).
+
 ## 😍🙂😎🤡 Live brain reading directly via brain scan:
 
 [Click here](https://youtu.be/uiGl6oF5-cE)

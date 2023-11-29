@@ -1,5 +1,8 @@
 # Learn Development with Ai
 
+**Links:**
+- Github ARTICLE - Step-by-step guide to building a large language model app: [Click here](https://github.blog/2023-10-30-the-architecture-of-todays-llm-applications/)
+
 **News**:
   - ARTICLE - Intelligencer: Why Was Sam Altman Fired As CEO of OpenAI?: [Click here](https://nymag.com/intelligencer/2023/11/why-was-sam-altman-fired-as-ceo-of-openai.html)
 **Ai Explained:**
@@ -16,6 +19,7 @@
 - Sam and Mira
   - *TODO:* VIDEO Continue watching this: [Click here](https://youtu.be/byYlC2cagLw?t=1413)
   - *TODO:* VIDEO *(continue watching)* [Click here](https://www.youtube.com/watch?v=U9mJuUkhUzk)
+  - *TODO:* VIDEO: [Click here](https://www.youtube.com/watch?v=0lJKucu6HJc)
 - Elon Musk:
   - *TODO:* Video with Lex Fredman - SHORT: [Click here](https://www.youtube.com/watch?v=aHsunc60Xms)
 - More:
