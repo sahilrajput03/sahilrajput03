@@ -10,6 +10,7 @@ cat /dev/null
 	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
 	<br/>
 	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
+	<br/>
 	Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a>
 </div>
 
