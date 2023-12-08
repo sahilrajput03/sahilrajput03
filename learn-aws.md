@@ -7,6 +7,10 @@
 **TODO:**
 - Learn AWS by Just Me and Opensource @ YOUTUBE: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wMKAl2wcDXb7ko65V8KDBzG)
 
+## Making particular object public in s3bucket
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0d6579a5-eeec-408f-94d5-46cc8634774f)
+
 ## My aws account is permanently closed, what to do?
 
 TLDR: Use a alias email e.g, `sahilrajput03+aws@gmail.com`
