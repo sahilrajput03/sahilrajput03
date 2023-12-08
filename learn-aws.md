@@ -6,7 +6,11 @@
 **TODO:**
 - Learn AWS by Just Me and Opensource @ YOUTUBE: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wMKAl2wcDXb7ko65V8KDBzG)
 
-## My aws account is permanently closed
+## My aws account is permanently closed, what to do?
+
+TLDR: Use a alias email e.g, `sahilrajput03+aws@gmail.com`
+
+**Note: I have another `sahilrajput03@live.com` AWS account already, so that's fun to use at the moment.**
 
 Amazing Reddit Post: [Click here](https://www.reddit.com/r/aws/comments/1185k0g/your_aws_account_was_permanently_closed/)
 
