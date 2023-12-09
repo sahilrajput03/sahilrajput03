@@ -4,7 +4,7 @@
 
 ## Monolith vs. Microservice example
 
-From ChatGPT: [Click here]([url](https://chat.openai.com/share/12898d8a-d76f-4829-b9c1-1c251541fca5))
+From ChatGPT: [Click here](https://chat.openai.com/share/12898d8a-d76f-4829-b9c1-1c251541fca5)
 
 ## What is natural language?
 
