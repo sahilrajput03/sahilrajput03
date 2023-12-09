@@ -2,6 +2,14 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Monolith vs. Microservice example
+
+From ChatGPT: [Click here]([url](https://chat.openai.com/share/12898d8a-d76f-4829-b9c1-1c251541fca5))
+
+## What is natural language?
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/71023163-184a-43f5-8258-c1ea98bae463)
+
 ## bug, developer, tester, project manager jokes
 
 [Click here](https://www.linkedin.com/posts/jseyehunts_juniordeveloper-bug-production-activity-7134893104238665728-W_8V?utm_source=share&utm_medium=member_desktop)
