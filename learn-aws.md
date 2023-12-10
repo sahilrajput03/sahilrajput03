@@ -2,7 +2,7 @@
 
 **Quick Links:**
 - Ec2 On Demand Pricing: [Click here](https://aws.amazon.com/ec2/pricing/on-demand/)
-- Official Youtube Video - Introduction to S3 Bucket: [Click here](https://youtu.be/_I14_sXHO8U)
+- Official Youtube Channel \| Introduction to S3 Bucket: [Click here](https://youtu.be/_I14_sXHO8U)
 
 **TODO:**
 - Learn AWS by Just Me and Opensource @ YOUTUBE: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wMKAl2wcDXb7ko65V8KDBzG)
