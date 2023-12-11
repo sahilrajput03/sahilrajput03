@@ -9,6 +9,28 @@ Official Docs: [Click here](https://www.twilio.com/blog/use-your-fingerprint-wit
 
 [Click here](https://www.twilio.com/blog/use-your-fingerprint-with-1password-to-authenticate-twilio-cli)
 
+## Sending messgae with bash script
+
+```sh
+#!/bin/bash
+
+# Account Credentials
+ACCOUNT_SID="AC53baa952eadb365bde2f2bfa8fed92fe"
+AUTH_TOKEN="91e764de39efaa2574d6a0859ee93d39"
+FROM="+14243651339"
+
+# Send message
+PHONE_NUMBER="+918360267243"
+MESSAGE="Hello world, from Lucify!"
+
+curl "https://api.twilio.com/2010-04-01/Accounts/AC53baa952eadb365bde2f2bfa8fed92fe/Messages.json" \
+	-X POST \
+	--data-urlencode "To=$PHONE_NUMBER" \
+	--data-urlencode "From=$FROM" \
+	--data-urlencode "Body=$MESSAGE" \
+	-u $ACCOUNT_SID:$AUTH_TOKEN
+```
+
 # Learn Sending OTP's with twilio
 
 ```js
