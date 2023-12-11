@@ -15,13 +15,13 @@ Official Docs: [Click here](https://www.twilio.com/blog/use-your-fingerprint-wit
 #!/bin/bash
 
 # Account Credentials
-ACCOUNT_SID="AC53baa952eadb365bde2f2bfa8fed92fe"
-AUTH_TOKEN="91e764de39efaa2574d6a0859ee93d39"
-FROM="+14243651339"
+ACCOUNT_SID=""
+AUTH_TOKEN=""
+FROM=""
 
 # Send message
-PHONE_NUMBER="+918360267243"
-MESSAGE="Hello world, from Lucify!"
+PHONE_NUMBER="+919999999999"
+MESSAGE="Helloworld!"
 
 curl "https://api.twilio.com/2010-04-01/Accounts/AC53baa952eadb365bde2f2bfa8fed92fe/Messages.json" \
 	-X POST \
