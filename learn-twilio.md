@@ -23,7 +23,7 @@ FROM=""
 PHONE_NUMBER="+919999999999"
 MESSAGE="Helloworld!"
 
-curl "https://api.twilio.com/2010-04-01/Accounts/AC53baa952eadb365bde2f2bfa8fed92fe/Messages.json" \
+curl "https://api.twilio.com/2010-04-01/Accounts/$ACCOUNT_SID/Messages.json" \
 	-X POST \
 	--data-urlencode "To=$PHONE_NUMBER" \
 	--data-urlencode "From=$FROM" \
