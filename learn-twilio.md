@@ -9,7 +9,32 @@ Official Docs: [Click here](https://www.twilio.com/blog/use-your-fingerprint-wit
 
 [Click here](https://www.twilio.com/blog/use-your-fingerprint-with-1password-to-authenticate-twilio-cli)
 
-## Sending messgae with bash script
+## Sending messgae
+
+### with typescript
+
+```js
+const url = `https://api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages.json`
+const phoneNumber = "+919999999999"
+const message = "Hello world!"
+
+// Application/x-www-form-urlencoded is a content type used to submit data through HTML forms on the web. It is the default format for HTML forms. 
+const formUrlEncodedPayload = new URLSearchParams({
+    To: phoneNumber,
+    From: TWILIO_FROM!,
+    Body: message
+})
+const config = {
+    auth: {
+        username: TWILIO_ACCOUNT_SID!,
+        password: TWILIO_AUTH_TOKEN!
+    }
+}
+const response = await axios.post(url, formUrlEncodedPayload, config);
+// console.log('response?', response.data);
+```
+
+### with bash script
 
 ```sh
 #!/bin/bash
@@ -30,6 +55,17 @@ curl "https://api.twilio.com/2010-04-01/Accounts/$ACCOUNT_SID/Messages.json" \
 	--data-urlencode "Body=$MESSAGE" \
 	-u $ACCOUNT_SID:$AUTH_TOKEN
 ```
+
+### with Postman
+
+Image - 1/2
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/0461d513-ea8c-47c0-aba9-befd8b1dcb34)
+
+Image - 2/2
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/00a00c26-1ca1-4187-9180-057a15ba6390)
+
 
 # Learn Sending OTP's with twilio
 
