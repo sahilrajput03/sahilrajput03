@@ -30,3 +30,7 @@ So to use npm instead of yarn you can specify the build and run command like tha
 
 <img src="https://user-images.githubusercontent.com/31458531/196443722-ab84dc7f-7779-4fa3-be10-2096c04f29fc.png" alt="drawing" width="700"/>
 
+
+## Nested vitejs folder deployment commadns to be used
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/eaba7aee-6bf3-41a9-9662-504c2847ba9e)
