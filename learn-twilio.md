@@ -14,10 +14,11 @@ Official Docs: [Click here](https://www.twilio.com/blog/use-your-fingerprint-wit
 ### with typescript
 
 ```js
-const url = `https://api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages.json`
+// Recepient info and message
 const phoneNumber = "+919999999999"
 const message = "Hello world!"
 
+const url = `https://api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages.json`
 // Application/x-www-form-urlencoded is a content type used to submit data through HTML forms on the web. It is the default format for HTML forms. 
 const formUrlEncodedPayload = new URLSearchParams({
     To: phoneNumber,
