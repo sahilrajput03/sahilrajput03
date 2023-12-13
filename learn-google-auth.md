@@ -4,9 +4,9 @@
 - GoogleApis: [npm](https://www.npmjs.com/package/googleapis): [Click here](https://developers.google.com/apis-explorer)
 - react-oauth: [npm](https://www.npmjs.com/package/@react-oauth/google), [github](https://github.com/MomenSherif/react-oauth)
 
-  ## Implementing google signin (Totel Scam Project)
+## Implementing google signin (Totel Scam Project)
 
-  Source (original Totel project notes): [Click here](https://github.com/sahilrajput03/learn-websockets/blob/main/making-totel-chat.md)
+Source (original Totel project notes): [Click here](https://github.com/sahilrajput03/learn-websockets/blob/main/making-totel-chat.md)
 
 - Google APIs console: [Click here](https://console.developers.google.com/apis)
 - Source: [Official google signin docs](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid)
