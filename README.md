@@ -263,6 +263,7 @@ cat /dev/null
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 - Learn LinkedIn: [Click here](learn-linkedin.md)
 - Using Vslive Share: [Click here](learn-vs-live-share.md)
+- Learn Google Auth: [Click here](learn-google-auth.md)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
