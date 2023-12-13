@@ -105,7 +105,13 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
   - [Roadside Coder](https://www.youtube.com/@RoadsideCoder) \| Full Stack Expert (#India)
   - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert (#India)
   - [Toofani Coder](https://www.youtube.com/@toofanicoder) \| Full Stack Expert (#India)
-  - [Varun Mayya](https://www.youtube.com/@VarunMayya) \| Techology (#India) 
+  - [Varun Mayya](https://www.youtube.com/@VarunMayya) \| Techology (#India)
+  - Recommended by Aliasgar:
+      - Code With Antonio: [Click here](https://www.youtube.com/@codewithantonio)
+      - Coding With Dawid: [Click here](https://www.youtube.com/@CodingWithDawid)
+      - Florin Pop: [Click here](https://www.youtube.com/@FlorinPop)
+      - Josh tried coding: [Click here](https://www.youtube.com/@joshtriedcoding)
+      - JavaScript Mastery: [Click here](https://www.youtube.com/c/javascriptmastery)
 
 **#Blockchain**
   - [Code Eater](https://www.youtube.com/c/CodeEater21) \| Blockchain Expert (#India)
