@@ -36,3 +36,12 @@ const duration2 = now.diff(startTime);
 console.log(duration2.toFormat("h 'hours,' m 'minutes,' s 'seconds'"));
 // OUTPUT: 0 hours, 0 minutes, 7 seconds
 ```
+
+**Weekday:**
+
+```
+DateTime.(...)
+            .setZone("Europe/Berlin") // to get time in a particular timezone
+            .plus({month: 1}) // to add certain days
+            .endOf('month') // to get end of that month
+```
