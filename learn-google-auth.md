@@ -4,6 +4,13 @@
 - GoogleApis: [npm](https://www.npmjs.com/package/googleapis): [Click here](https://developers.google.com/apis-explorer)
 - react-oauth: [npm](https://www.npmjs.com/package/@react-oauth/google), [github](https://github.com/MomenSherif/react-oauth)
 
+## Authorization issue - 13 Dec 2023
+
+**UPDATE: 13 Dec 2023 - This happens only when pushed to vercel site (subdomain) and I am hoping that the issue will be gone after the app is switched to "production" as suggested by an answerer in the above stackoverflow question.**
+
+- Google query to explore more: [Click here](https://www.google.com/search?q=vercel+domain+the+current+origin+isn%27t+registered+with+the+google+oauth+client)
+- Stackoverflow question from above google search: [Click here](https://stackoverflow.com/questions/42566296/google-api-authentication-not-valid-origin-for-the-client)
+
 ## Implementing google signin (Totel Scam Project)
 
 **Quick Links:**
