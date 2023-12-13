@@ -117,6 +117,7 @@ cat /dev/null
 	- Play Console: [Click here](learn-playconsole.md)
 	- Cloud Console: [Click here](./learn-google-cloud.md)
 		- Console APIs via Oauth2 with Postman ❤️: [Click here](learn-google-console-apis-via-oauth2.md)
+	- Login with Google in a website: [Click here](learn-google-auth.md)
 	- Publisher Tag: [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md) (PubwiseAds)
 	- Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 - **Open Source Apps from All over the world** - [Click here](./open-source-apps.md)
@@ -263,7 +264,6 @@ cat /dev/null
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 - Learn LinkedIn: [Click here](learn-linkedin.md)
 - Using Vslive Share: [Click here](learn-vs-live-share.md)
-- Learn Google Auth: [Click here](learn-google-auth.md)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
