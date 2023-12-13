@@ -6,6 +6,8 @@
 
   ## Implementing google signin (Totel Scam Project)
 
+  Source (original Totel project notes): [Click here](https://github.com/sahilrajput03/learn-websockets/blob/main/making-totel-chat.md)
+
 - Google APIs console: [Click here](https://console.developers.google.com/apis)
 - Source: [Official google signin docs](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid)
 - Follow along video by an amazing person: [@youtube](https://youtu.be/XjOEKbHkAeo)
