@@ -40,6 +40,16 @@ console.log(duration2.toFormat("h 'hours,' m 'minutes,' s 'seconds'"));
 **Weekday:**
 
 ```
+// Get the day of the week. 1 is Monday and 7 is Sunday
+DateTime.(...)
+            .weekday
+// OUTPUT: 1,2,3,4,5,6,7
+```
+
+**Time zone, plus, endOf:**
+
+```
+// Others
 DateTime.(...)
             .setZone("Europe/Berlin") // to get time in a particular timezone
             .plus({month: 1}) // to add certain days
