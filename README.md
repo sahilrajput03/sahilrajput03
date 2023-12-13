@@ -126,7 +126,7 @@ cat /dev/null
 - Learn Vercel Deployment: [Click here](./learn-vercel.md)
 - **Learn User Mangement and Permissions** - [Click here](./learn-user-management-and-permissions.md)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
-- **Favourite youtube channels**: [Click here](./favourite-youtube-channels.md)
+- **Favourite youtube channels**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/courses-list.md#awesome-tech-youtube-channels)
 - **Learn WebRTC:** [Click here](./learn-webrtc.md)
 - **Learn nodejs or anyother development in containers with debugger support:** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container)
 - **Learn Login flow:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
