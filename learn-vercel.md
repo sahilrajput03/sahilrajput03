@@ -33,4 +33,11 @@ So to use npm instead of yarn you can specify the build and run command like tha
 
 ## Nested vitejs folder deployment commadns to be used
 
+Way1:
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/eaba7aee-6bf3-41a9-9662-504c2847ba9e)
+
+
+Way2:
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d9985c63-d2c2-4b87-ad01-2a13117b8e34)
