@@ -2,6 +2,8 @@
 
 Tip: You can run below commands in browser console on site: https://moment.github.io/luxon/
 
+Full Sheet: [Click here](https://moment.github.io/luxon/demo/global.html)
+
 ```js
 // creating date from luxon
 const now = luxon.DateTime.now();
