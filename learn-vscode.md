@@ -20,9 +20,9 @@
 
 ## Duet AI in vscode ~ Google
 
-Docs - [Click here](https://cloud.google.com/code/docs/vscode/auth_success)
-
-Fireship Io's Video: [Click here](https://youtu.be/7h732qLxtAk)
+- **Duet AI for Developers (Free until -  February 1, 2024):** [Click here](https://cloud.google.com/duet-ai?hl=en)
+- **Docs:** [Click here](https://cloud.google.com/code/docs/vscode/auth_success)
+- **Fireship Io's Video:** [Click here](https://youtu.be/7h732qLxtAk)
 
 1 / n
 
