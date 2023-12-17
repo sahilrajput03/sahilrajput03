@@ -18,6 +18,10 @@
 - 🚀🚀 `ctrl+alt+rightArrow` and `ctrl+alt+leftArrow` to move a tab from one of two split editors to another
 - 👻 `ctrl+alt+j` to open `Join collaboration link text input`
 
+## Duet AI in vscode ~ Google
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3a7fd9a5-073e-41e5-b33c-e39627cd193d)
+
 ## Add eslint settings to your vscode directly
 
 `settings.json`
