@@ -22,6 +22,8 @@
 
 Docs - [Click here](https://cloud.google.com/code/docs/vscode/auth_success)
 
+Fireship Io's Video: [Click here](https://youtu.be/7h732qLxtAk)
+
 1 / n
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3a7fd9a5-073e-41e5-b33c-e39627cd193d)
