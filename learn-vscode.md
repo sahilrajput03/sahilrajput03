@@ -20,7 +20,15 @@
 
 ## Duet AI in vscode ~ Google
 
+1 / n
+
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3a7fd9a5-073e-41e5-b33c-e39627cd193d)
+
+2 / n
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1fed5bf7-33b2-4882-bd50-f36aa6016af4)
+
+
 
 ## Add eslint settings to your vscode directly
 
