@@ -1,5 +1,9 @@
 # Learn kdenlive
 
+## Shortcuts
+
+Shortcuts: **Ctrl+alt+,**
+
 **Quick Links:**
 - Learn Audacity: [Click here](learn-audacity.md)
 - Full Playlist: https://www.youtube.com/playlist?list=PLqazFFzUAPc7uQaoGxYwxGLk4_6fQrBvE
