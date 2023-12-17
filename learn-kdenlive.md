@@ -2,7 +2,11 @@
 
 ## Shortcuts
 
-Shortcuts: **Ctrl+alt+,**
+Open Shortcuts: **Ctrl+alt+,**
+
+- `home`: Go to start of the timeline
+- `end`: Go to end of the timeline
+- `space`: play/pause
 
 ## Quick Links
 - Learn Audacity: [Click here](learn-audacity.md)
