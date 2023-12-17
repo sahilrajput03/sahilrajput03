@@ -5,7 +5,6 @@
 ## Quick Links
 - Learn Audacity: [Click here](learn-audacity.md)
 - Full Playlist: https://www.youtube.com/playlist?list=PLqazFFzUAPc7uQaoGxYwxGLk4_6fQrBvE
-  - Cutting video: Lesson 2 in above playlist.
 
 **Video Editing Terminologies:**
 - Scrubbing: Moving the playback in the playback line. Thats called scrubbing.
