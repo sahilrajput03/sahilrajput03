@@ -4,7 +4,7 @@
 
 Shortcuts: **Ctrl+alt+,**
 
-**Quick Links:**
+## Quick Links
 - Learn Audacity: [Click here](learn-audacity.md)
 - Full Playlist: https://www.youtube.com/playlist?list=PLqazFFzUAPc7uQaoGxYwxGLk4_6fQrBvE
   - Cutting video: Lesson 2 in above playlist.
