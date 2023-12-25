@@ -3,6 +3,18 @@
 - Using Express.js with Vercel | Docs: [Click here](https://vercel.com/guides/using-express-with-vercel)https://vercel.com/guides/using-express-with-vercel
 - Google Search (very helpful): [Click here](https://www.google.com/search?q=deployh+nodejs+to+vercel&oq=deployh+nodejs+to+vercel)
 
+## `vercel.json` to route all routes to `index.html` page for vitejs + vercel deployment
+
+Source: [Click here](https://stackoverflow.com/a/73752429/10012446)
+
+File: `vercel.json`
+
+```
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+```
+
 ## Vercel recommends [pusher.com](https://pusher.com/channels) for deployment of realtime apps(i.e, requiring websockets (socket.io)
 
 Source: A comment on this [stackoverflow answer](https://stackoverflow.com/a/62547135)
