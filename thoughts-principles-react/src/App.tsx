@@ -10,7 +10,7 @@ import { useAutoAnimate } from '@formkit/auto-animate/react'
 
 const baseUrl = '/thoughts-principles-react/dist'
 
-const toggleRandomThoughtsTime = 15_00 // 5_000
+const toggleRandomThoughtsTime = 15_000 // 5_000
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
