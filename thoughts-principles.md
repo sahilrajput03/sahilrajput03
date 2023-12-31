@@ -1,4 +1,7 @@
-# Thoughts, Principles
+
+# NOTE: Please delete this file ASAP of 31 Jan 2023 because I'm using a completely separate `thoughts.md` (located at `thoughts-principles-react/public/thoughts.md` file) for serving for my new react's build for thoughts and principles page.
+
+## Thoughts, Principles
 
 Don't mistake my silence for ignorance, my calmness for acceptance and my kindness for weakness.
 
