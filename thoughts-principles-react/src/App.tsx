@@ -2,6 +2,19 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import { getRandomItems } from './utils'
 
+// https://github.com/remarkjs/react-markdown
+import Markdown from 'react-markdown'
+
+// To render html contained in markdown
+// Officially recommended by `react-markdown`: source: https://github.com/remarkjs/react-markdown#appendix-a-html-in-markdown
+import rehypeRaw from 'rehype-raw'
+
+// To manipulate markdown links AS WELL AS achor tags <a> present in html present in markdown
+// I use this plugin so that my markdown links are updated with `target="_blank"`
+// Officially recommended by `react-markdown`: source: https://github.com/remarkjs/react-markdown/blob/main/changelog.md#900---2023-09-27
+// Library: https://github.com/rehypejs/rehype-external-links
+import rehypeExternalLinks from 'rehype-external-links'
+
 const baseUrl = '/thoughts-principles-react/dist'
 
 function App() {
@@ -49,15 +62,19 @@ function App() {
   return (
     <>
       <h1>Thoughts, Principles</h1>
-      <button style={{ marginBottom: 50 }} onClick={toggleShowAll}>{!showAll ? "Show all 🚀" : "Show random 😍"}</button>
+      <button style={{ marginBottom: 50 }} onClick={toggleShowAll}>{!showAll ? "Show all 🚀" : "Show random 🚀"}</button>
 
-      {showAll && thoughts.map((thought) => <li>{thought}</li>)}
-      {!showAll && randomThoughts.map((thought) => <li>{thought as string}</li>)}
+      {showAll && thoughts.map((thought) => <Thought thought={thought} />)}
+      {!showAll && randomThoughts.map((thought) => <Thought thought={thought} />)}
 
       <br />
       Thankyou
     </>
   )
+}
+
+const Thought = ({ thought }: { thought: string }) => {
+  return <Markdown rehypePlugins={[rehypeRaw, () => rehypeExternalLinks({ target: '_blank' })]}>{thought}</Markdown>
 }
 
 export default App
