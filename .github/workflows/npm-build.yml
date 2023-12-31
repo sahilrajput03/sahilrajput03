@@ -38,6 +38,7 @@ jobs:
       # Runs npm install and npm run build commands
       - name: Run npm commands
         run: |
+          pwd
           npm i
           npm run build
 
