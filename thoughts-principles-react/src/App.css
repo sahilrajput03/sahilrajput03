@@ -3,3 +3,9 @@
   padding: 2rem;
   text-align: left;
 }
+
+.footnotes {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

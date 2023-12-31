@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Thoughts And Principles
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You can write markdown + html in file `thoughts.md`.
 
-Currently, two official plugins are available:
+Currently I'm splitting the whole file with `\n\n` i.e., two new line characters to get markdown and then parse that markdown.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I am rendering each block of text as markdown via `react-markdown` library. Source: [remarkjs/react-markdown](https://github.com/remarkjs/react-markdown)
 
-## Expanding the ESLint configuration
+In this markdown rendering, I added two plugins:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- `rehype-raw`: This plugin helps to render html contained in markdown.
+  - Officially recommended by `react-markdown` [here](https://github.com/remarkjs/react-markdown#appendix-a-html-in-markdown).
+  - Plugin Github: [rehypejs/rehype-raw](https://github.com/rehypejs/rehype-raw)
+- `rehype-external-links`: This plugin helps to manipulate markdown links AS WELL AS achor tags `<a>` present in html present in markdown.
+  - I am using this plugin so that my markdown links are updated with `target="_blank"`
+  - Officially recommended by `react-markdown` [here](https://github.com/remarkjs/react-markdown/blob/main/changelog.md#900---2023-09-27).
+  - Plugin Github: [rehypejs/rehype-external-links](https://github.com/rehypejs/rehype-external-links)
