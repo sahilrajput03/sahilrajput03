@@ -1,3 +1,5 @@
+- New thought here2.
+
 - Don't mistake my silence for ignorance, my calmness for acceptance and my kindness for weakness.
 
 - The ecosystem made around kubernetes is proving that almost every company will leverage power from the open source softwares directly for their utilites of cloud softwares.
@@ -294,4 +296,4 @@
 
 - Champions aren't build on the days they feel motivated but the days they feel like quitting. ~ Unknown
 
-Ego is the enemy of growth ~ Illya Sutskever
+- Ego is the enemy of growth ~ Illya Sutskever
