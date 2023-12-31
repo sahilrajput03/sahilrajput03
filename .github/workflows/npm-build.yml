@@ -42,7 +42,7 @@ jobs:
         run: |
           # Using pwd here to debug the path of the directoy in which the commands will run
           pwd
-          npm i
+          npm ci
           npm run build
 
       # Commits the changes with the specified message

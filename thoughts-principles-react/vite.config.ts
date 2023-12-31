@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   // src: https://stackoverflow.com/a/69746868/10012446
-  base: 'thoughts-principles-react/dist', // 👈
+  base: '/thoughts-principles-react/dist', // 👈
 })
