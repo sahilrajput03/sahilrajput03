@@ -1,3 +1,5 @@
 node_modules
 package-lock.json
+# Include `package-lock.json` file for my `thoughts-principles-react` project
+!thoughts-principles-react/package-lock.json
 .secrets-for-act
