@@ -1,4 +1,4 @@
-- New thought here.
+- New thought here2.
 
 - Don't mistake my silence for ignorance, my calmness for acceptance and my kindness for weakness.
 
