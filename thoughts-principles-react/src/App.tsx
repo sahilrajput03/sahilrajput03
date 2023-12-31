@@ -62,7 +62,7 @@ function App() {
 
       <div className='footnotes'>
         Source: <a href="https://github.com/sahilrajput03/sahilrajput03/tree/master/thoughts-principles-react">
-          Github4
+          Github5
         </a>
       </div>
     </>
