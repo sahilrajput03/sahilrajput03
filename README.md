@@ -64,6 +64,7 @@ cat /dev/null
   - Blogs:
 	  - https://blog.isquaredsoftware.com/
           - https://tim.blog/
+          - https://ionic.io/blog
 
 ## References:
 
