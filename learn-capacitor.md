@@ -1,5 +1,8 @@
 # Learn Capacitor
 
+**TODO:**
+- Do capacitor course: [Click here](https://www.udemy.com/course/capacitor-crash-course/)
+
 **Quick Links:**
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
 - **Learn Google Play Console:** [Click here](learn-playconsole.md)
