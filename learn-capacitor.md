@@ -17,6 +17,9 @@
 **Companies usig capacitor:**
 - Burger King Mobile App and Web App: [Click here](https://ionic.io/resources/articles/burger-king-design-system)
 
+**Implementing Push notifications in Capacitor:**
+- Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
+
 ## Using https in capacitor?
 
 - Capacitor Docs - Using HTTPS: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
