@@ -17,6 +17,14 @@
 - Ionic Blog - Capacitor SSL Pinning: The Extra Layer of Security Your Mobile App Needs: [Click here](https://ionic.io/blog/capacitor-ssl-pinning)
 - A stackoverflow answer related to run google analytics via some hack: [Click here](https://stackoverflow.com/questions/73769130/google-firebase-analytics-not-working-on-ios-with-capacitor-4/75809789#75809789) 
 
+## Open XCode or Android Studio with capacitor's cli
+
+```bash
+npx cap open ios
+
+npx cap open android
+```
+
 ## Know what capacitor version are you on currently?
 
 ```bash
