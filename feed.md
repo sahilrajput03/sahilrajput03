@@ -2,6 +2,13 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Erlang, Elixir
+
+Erlang:
+- Erlang (language): [Click here](https://www.erlang-solutions.com/capabilities/erlang/)
+- Elixir (language): [Click here](https://elixir-lang.org/)
+	- 8 Compaies using elixir in production: [Click here](https://serokell.io/blog/elixir-companies)
+
 ## 9 types of API testing 👇👇
 
 Source: [Click here](https://www.linkedin.com/posts/yuvrajvardhan_automationtesting-automation-testautomation-activity-7126168663207854081-pB1p/?utm_source=share&utm_medium=member_android)
