@@ -7,7 +7,7 @@
 ## Update git remote
 
 ```bash
-git remote set-url origin remote-link-here
+git remote set-url origin ssh_remote_link_here
 ```
 
 ## Pusihg to respective branch on remote
