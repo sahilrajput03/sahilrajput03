@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Temporary policy: Generative AI (e.g., ChatGPT) is banned
+
+Official StackOverflow Question Here: [Click here](https://meta.stackoverflow.com/questions/421831/temporary-policy-generative-ai-e-g-chatgpt-is-banned?cb=1)
+
 ## Erlang, Elixir
 
 Erlang:
