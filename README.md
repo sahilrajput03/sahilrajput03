@@ -58,7 +58,8 @@ cat /dev/null
 	- Tech
 		- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
 		- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
-		- General Musings ~ Kevin Powell: [Click here](https://open.spotify.com/show/1scASfrTESkNKPffUJ4CPW?utm_source=convertkit&utm_medium=email&utm_campaign=The+CSS+Mindset%20-%2011813412) 
+		- General Musings ~ Kevin Powell: [Click here](https://open.spotify.com/show/1scASfrTESkNKPffUJ4CPW?utm_source=convertkit&utm_medium=email&utm_campaign=The+CSS+Mindset%20-%2011813412)
+		- The Rainmatter Podcast ~ Zerodha: [Click here](https://podcasters.spotify.com/pod/show/rainmatter) 
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
   - Blogs:
