@@ -295,3 +295,13 @@
 - Champions aren't build on the days they feel motivated but the days they feel like quitting. ~ Unknown
 
 - Ego is the enemy of growth ~ Illya Sutskever
+
+- When something is important enough, you do it even if the odds are not in your favor. ~ Elon Musk
+
+- Life is too short for long-term grudges. ~ Elon Musk
+
+- If something's important enough, you should try. Even if - the probable outcome is failure.  ~ Elon Musk
+
+- If you're trying to create a company, it's like baking a cake. You have to have all the ingredients in the right proportion. ~ Elon Musk
+
+- One of the biggest mistakes people generally make and I'm guilty of it too, is wishful thinking. You want something to be true, even if it isn't true. And so you ignore the real truth because of what you want to be true. This is a very difficult trap to avoid. ~ Elon Musk
