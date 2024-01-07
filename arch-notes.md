@@ -9,7 +9,7 @@
 - `config` Repo: [Click here](https://github.com/sahilrajput03/config)
 - `my_bin` Repo: [Click here](https://github.com/sahilrajput03/my_bin) (in process of moving data to my current notes pages)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
+- **🚀🚀🚀🚀🚀Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
 - **Learn i3:** [Click here](learn-i3.md)
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
 
@@ -19,6 +19,12 @@
 - Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
+
+## Install yarn
+
+```bash
+sudo pacman -S yarn
+```
 
 ## Install `gromit-mpx`
 
