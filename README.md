@@ -21,7 +21,7 @@ cat /dev/null
 #### Wif Hoff - Breathing 🫁🫁 
 
 - Website: [Click here](https://www.wimhofmethod.com/)
-- Guide Wim Hof Breathing:
+- Guided Wim Hof Breathing:
 	- 1 - [Click here](https://youtu.be/tybOi4hjZFQ)
  	- 2 - [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
