@@ -73,6 +73,7 @@ cat /dev/null
 	  - https://blog.isquaredsoftware.com/
           - https://tim.blog/
           - https://ionic.io/blog
+          - https://web.dev/articles (awesome web development articles)
 
 ## References:
 
