@@ -74,6 +74,7 @@ cat /dev/null
           - https://tim.blog/
           - https://ionic.io/blog
           - https://web.dev/articles (awesome web development articles)
+          - https://web.dev/blog (awesome web development blogs)
 
 ## References:
 
