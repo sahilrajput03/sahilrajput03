@@ -12,6 +12,8 @@
 
 ## Adding/Editing/Deleting Status in Jira
 
+***BUG: Issues disappeared when migrating to new workflow: [Click here](https://community.atlassian.com/t5/Jira-Software-questions/Issues-disappeared-when-migrating-to-new-workflow/qaq-p/1041877)***
+
 There are two ways to open "Edit Workflow" section.
 
 1. Using Settings:
