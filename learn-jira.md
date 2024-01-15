@@ -16,19 +16,19 @@ There are two ways to open "Edit Workflow" section.
 
 1. Using Settings:
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b5209b58-581c-4d70-aa15-a9bc4d92fc9f)
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b5209b58-581c-4d70-aa15-a9bc4d92fc9f" width="700" />
 
 2. From backlog directly:
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f0e32e26-f67b-4bd4-a18d-50695f3000ca)
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f0e32e26-f67b-4bd4-a18d-50695f3000ca" width="700" />
 
-Now, you can edit any status from here:
+Click on "Edit Workflow" from here:
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9b71f704-a38a-41a9-898f-9ef444dfac93)
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9b71f704-a38a-41a9-898f-9ef444dfac93" width="700" />
 
-after that you can update your workflow from here:
+You can add more statuses like that:
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/93aed37a-17de-49fe-8f5f-e18e8cbf9504)
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a733f053-29f4-42ba-b732-cd15075b07fe" width="700" />
 
 ## Filter for custom fields can be added too like that
 
