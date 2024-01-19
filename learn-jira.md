@@ -1,4 +1,4 @@
-# Leran Jira
+# Learn Jira
 
 ## Quick Links
 - Jira Pricing Page: [Click here](https://www.atlassian.com/software/jira/pricing)
@@ -12,10 +12,25 @@
 
 ## Adding/Editing/Deleting Status in Jira
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b5209b58-581c-4d70-aa15-a9bc4d92fc9f)
+***BUG: Issues disappeared when migrating to new workflow: [Click here](https://community.atlassian.com/t5/Jira-Software-questions/Issues-disappeared-when-migrating-to-new-workflow/qaq-p/1041877)***
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9b71f704-a38a-41a9-898f-9ef444dfac93)
+There are two ways to open "Edit Workflow" section.
 
+1. Using Settings:
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b5209b58-581c-4d70-aa15-a9bc4d92fc9f" width="700" />
+
+2. From backlog directly:
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/f0e32e26-f67b-4bd4-a18d-50695f3000ca" width="700" />
+
+Click on "Edit Workflow" from here:
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9b71f704-a38a-41a9-898f-9ef444dfac93" width="700" />
+
+You can add more statuses like that:
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a733f053-29f4-42ba-b732-cd15075b07fe" width="700" />
 
 ## Filter for custom fields can be added too like that
 

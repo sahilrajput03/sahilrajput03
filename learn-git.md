@@ -4,6 +4,20 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+## Update git remote
+
+```bash
+git remote set-url origin ssh_remote_link_here
+```
+
+## Pusihg to respective branch on remote
+
+```bash
+# file: ~/.gitconfig (tested on windows)
+[push]
+        default = current
+```
+
 ## Remove remote branch and local branch
 
 ```bash

@@ -1,5 +1,8 @@
 # Learn Capacitor
 
+**TODO:**
+- Do capacitor course: [Click here](https://www.udemy.com/course/capacitor-crash-course/)
+
 **Quick Links:**
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
 - **Learn Google Play Console:** [Click here](learn-playconsole.md)
@@ -11,11 +14,25 @@
 - Using HTTPS scheme for capacitor app - Docs: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
   - How to run Capacitor webView with https in IOS: [Click here](https://github.com/ionic-team/capacitor/discussions/3714)
 
+**Companies usig capacitor:**
+- Burger King Mobile App and Web App: [Click here](https://ionic.io/resources/articles/burger-king-design-system)
+
+**Implementing Push notifications in Capacitor:**
+- Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
+
 ## Using https in capacitor?
 
 - Capacitor Docs - Using HTTPS: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
 - Ionic Blog - Capacitor SSL Pinning: The Extra Layer of Security Your Mobile App Needs: [Click here](https://ionic.io/blog/capacitor-ssl-pinning)
 - A stackoverflow answer related to run google analytics via some hack: [Click here](https://stackoverflow.com/questions/73769130/google-firebase-analytics-not-working-on-ios-with-capacitor-4/75809789#75809789) 
+
+## Open XCode or Android Studio with capacitor's cli
+
+```bash
+npx cap open ios
+
+npx cap open android
+```
 
 ## Know what capacitor version are you on currently?
 

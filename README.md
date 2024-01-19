@@ -18,6 +18,13 @@ cat /dev/null
 
 #### Work Music: [Click here](./work-music.md)
 
+#### Wif Hoff - Breathing 🫁🫁 
+
+- Website: [Click here](https://www.wimhofmethod.com/)
+- Guided Wim Hof Breathing:
+	- 1 - [Click here](https://youtu.be/tybOi4hjZFQ)
+ 	- 2 - [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
+
 #### Entertainment: [Click here](entertainment.md)
 
 **Quick Links:**
@@ -58,12 +65,16 @@ cat /dev/null
 	- Tech
 		- StackOverflow Podcast: [Click here](https://stackoverflow.blog/podcast/)
 		- Undefined.fm ~ Jared Palmer & Ken Wheeler: [Click here](https://undefined.fm/)
-		- General Musings ~ Kevin Powell: [Click here](https://open.spotify.com/show/1scASfrTESkNKPffUJ4CPW?utm_source=convertkit&utm_medium=email&utm_campaign=The+CSS+Mindset%20-%2011813412) 
+		- General Musings ~ Kevin Powell: [Click here](https://open.spotify.com/show/1scASfrTESkNKPffUJ4CPW?utm_source=convertkit&utm_medium=email&utm_campaign=The+CSS+Mindset%20-%2011813412)
+		- The Rainmatter Podcast ~ Zerodha: [Click here](https://podcasters.spotify.com/pod/show/rainmatter) 
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
   - Blogs:
 	  - https://blog.isquaredsoftware.com/
           - https://tim.blog/
+          - https://ionic.io/blog
+          - https://web.dev/articles (awesome web development articles)
+          - https://web.dev/blog (awesome web development blogs)
 
 ## References:
 
@@ -103,7 +114,7 @@ cat /dev/null
 - **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
 - **Learn CLI binaries:** [Click here](./learn-cli-binary.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **❤️ Thoughts, Principles:** [Click here](./thoughts-principles-react/dist) ([old](./thoughts-principles.md))
+- **❤️ Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist/) ([old](./thoughts-principles.md))
 - **❤️ Social rules: [Click here](./social-rules.md)**
 - **❤️Office Ethics: [Click here](./office-ethics.md)**
 - **Url shorteners:** [Bitly](https://bitly.com/)
