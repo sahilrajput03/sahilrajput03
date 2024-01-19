@@ -78,6 +78,14 @@ function App() {
           : randomThoughts.map((thought) => <Thought key={thought} thought={thought} />)}
       </div>
 
+      {<div>
+        <h1>TODO <div style={{ color: 'red' }}>(URGENT)</div>: Add new list from below pages here in the "show all" section & also make different markdown files so that below files as well: </h1>
+        <li>Office Ethics: <a target='_blank' href="https://github.com/sahilrajput03/sahilrajput03/blob/main/office-ethics.md">Click here</a></li>
+        <li>Social Rules: <a target='_blank' href="https://github.com/sahilrajput03/sahilrajput03/blob/main/social-rules.md">Click here</a></li>
+        <li>Single Big Mistakes: <a target='_blank' href="https://github.com/sahilrajput03/sahilrajput03/blob/main/single-big-mistake.md">Click here</a></li>
+
+      </div>}
+
       <div className='footnotes'>
         Source: <a href="https://github.com/sahilrajput03/sahilrajput03/tree/master/thoughts-principles-react">
           Click here
