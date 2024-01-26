@@ -277,6 +277,7 @@ cat /dev/null
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 - Learn LinkedIn: [Click here](learn-linkedin.md)
 - Using Vslive Share: [Click here](learn-vs-live-share.md)
+- Learn Ubuntu (google doc): [Click here](https://docs.google.com/document/d/1eDQQOdAXI2ihob4qvysJMdphUeUdeizZXN1V90QHXeA/edit#heading=h.rf9dmev5p4oq)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
