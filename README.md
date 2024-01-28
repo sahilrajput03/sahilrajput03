@@ -75,6 +75,7 @@ cat /dev/null
           - https://ionic.io/blog
           - https://web.dev/articles (awesome web development articles)
           - https://web.dev/blog (awesome web development blogs)
+          - Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
 
 ## References:
 
