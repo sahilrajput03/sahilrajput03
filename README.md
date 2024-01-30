@@ -281,7 +281,7 @@ cat /dev/null
 - Learn Ubuntu (google doc): [Click here](https://docs.google.com/document/d/1eDQQOdAXI2ihob4qvysJMdphUeUdeizZXN1V90QHXeA/edit)
 - Learn google apps script: [Click here](https://github.com/sahilrajput03/learn-google-apps-script)
 - Learn macOS: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?pli=1)
-	- Learn macos (samaksh): [Click here](https://docs.google.com/document/d/1N310qOwvRuu1K3zzpChj3Tt6qPMhtFQ7W2RGSSIrw8U/edit#heading=h.ggwji2r8315h)
+	- Learn macOS - Samaksh: [Click here](https://docs.google.com/document/d/1N310qOwvRuu1K3zzpChj3Tt6qPMhtFQ7W2RGSSIrw8U/edit#heading=h.ggwji2r8315h)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
