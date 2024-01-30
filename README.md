@@ -25,11 +25,16 @@ cat /dev/null
 	- 1 - [Click here](https://youtu.be/tybOi4hjZFQ)
  	- 2 - [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
+## Bounce your productiveness with these videos
+
+- I learned a system for remembering everything: [Click here](https://www.youtube.com/watch?v=Rvey9g0VgY0)
+- - Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
+
 #### Entertainment: [Click here](entertainment.md)
 
 **Quick Links:**
 
-- Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
+
 - English:
 	- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
 	 - English Vocab 💫: [Click here](english-vocab.md)
