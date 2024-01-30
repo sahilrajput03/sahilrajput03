@@ -280,6 +280,7 @@ cat /dev/null
 - Using Vslive Share: [Click here](learn-vs-live-share.md)
 - Learn Ubuntu (google doc): [Click here](https://docs.google.com/document/d/1eDQQOdAXI2ihob4qvysJMdphUeUdeizZXN1V90QHXeA/edit)
 - Learn google apps script: [Click here](https://github.com/sahilrajput03/learn-google-apps-script)
+- Learn macOS: [Click here](̌https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?pli=1)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
