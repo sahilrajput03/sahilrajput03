@@ -305,3 +305,9 @@
 - If you're trying to create a company, it's like baking a cake. You have to have all the ingredients in the right proportion. ~ Elon Musk
 
 - One of the biggest mistakes people generally make and I'm guilty of it too, is wishful thinking. You want something to be true, even if it isn't true. And so you ignore the real truth because of what you want to be true. This is a very difficult trap to avoid. ~ Elon Musk
+
+- Stop waiting for right time, the time isn't waiting for you.
+
+- You do not find a happy life, you make it.
+
+- As you know life is an echo, we get what we give.
