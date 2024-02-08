@@ -25,11 +25,16 @@ cat /dev/null
 	- 1 - [Click here](https://youtu.be/tybOi4hjZFQ)
  	- 2 - [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
+## Be Productive with videos 📽️ 🎬
+
+- I learned a system for remembering everything: [Click here](https://www.youtube.com/watch?v=Rvey9g0VgY0)
+- Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
+
 #### Entertainment: [Click here](entertainment.md)
 
 **Quick Links:**
 
-- Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
+
 - English:
 	- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
 	 - English Vocab 💫: [Click here](english-vocab.md)
@@ -38,7 +43,7 @@ cat /dev/null
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 - **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
 
-*More:**
+**More:**
 
 - A Pragmatic software developer. [fsf](https://www.fsf.org/).
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
@@ -75,6 +80,7 @@ cat /dev/null
           - https://ionic.io/blog
           - https://web.dev/articles (awesome web development articles)
           - https://web.dev/blog (awesome web development blogs)
+          - Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
 
 ## References:
 
@@ -277,6 +283,12 @@ cat /dev/null
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 - Learn LinkedIn: [Click here](learn-linkedin.md)
 - Using Vslive Share: [Click here](learn-vs-live-share.md)
+- Learn Ubuntu (google doc): [Click here](https://docs.google.com/document/d/1eDQQOdAXI2ihob4qvysJMdphUeUdeizZXN1V90QHXeA/edit)
+- Learn google apps script: [Click here](https://github.com/sahilrajput03/learn-google-apps-script)
+- Learn macOS: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?pli=1)
+	- Learn macOS - Samaksh: [Click here](https://docs.google.com/document/d/1N310qOwvRuu1K3zzpChj3Tt6qPMhtFQ7W2RGSSIrw8U/edit#heading=h.ggwji2r8315h)
+- Learn making hardcover from paperback books: [Click here](https://docs.google.com/document/d/14abXkjtuNyZAQW2QZMUxIcQmfEK7i3IZxaT_0NC7C0k/edit#heading=h.prohzhw7w5zw)
+- Charge battery when it hits below 30% and above 80%: [1](https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/), [2](https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 

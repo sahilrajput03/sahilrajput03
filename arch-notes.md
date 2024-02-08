@@ -20,6 +20,13 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## Turn off the bell sound in kitty terminal when you press ESC or when pressing TAB key multiple times 
+
+```bash
+# Add below line to .config/kitty/kitty.conf (do create that file if it doesn't already)
+enable_audio_bell no
+```
+
 ## Install yarn
 
 ```bash
@@ -52,7 +59,13 @@ sudo pacman -R xf86-video-intel
 
 ## Format pendrive as exfat
 
-The best format for a USB pendrive that needs to work on both Linux and Windows systems is typically FAT32 or exFAT. These file systems are widely supported by both operating systems and offer good compatibility.
+- Formatting pendrive using gparted in archlinux: 
+
+```bash
+sudo pacman -S gparted
+```
+
+- Using CLI: The best format for a USB pendrive that needs to work on both Linux and Windows systems is typically FAT32 or exFAT. These file systems are widely supported by both operating systems and offer good compatibility.
 
 Also, exfat is a good choice for larger USB drives and when dealing with large files because FAT32 has limited functionality to store a maximum file size of 4 GB. So, `exfat` rocks!
 

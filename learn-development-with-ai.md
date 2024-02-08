@@ -32,6 +32,10 @@
   - Website: https://www.langchain.com/
   - Github 68k* python: [Click here](https://github.com/langchain-ai/langchain/tree/master)
   - Github 9k* js: [Click here](https://github.com/langchain-ai/langchainjs)
+  - Date: 23 Jan, 2023
+    - Kaggle - [Click here](https://www.kaggle.com/) - Kaggle is the world's largest data science community with powerful tools and resources to help you achieve your data science goals. [What is Kaggle (official)](https://www.kaggle.com/discussions/general/328265)
+    - Rag is a type of LLM: [Click here](https://www.google.com/search?q=rag+llm&oq=rag+llm)
+    - Lang chain
  
 **ChatGPT Trick:**
 - Let's think step by step (paper on this phrase): [Click here](https://community.openai.com/t/zero-shot-perfection-with-prompt-let-s-think-step-by-step/18609)
@@ -73,7 +77,3 @@ More:
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/44956b06-4516-49c1-90c5-232e27f8bd01)
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/9c132114-1589-49e0-978f-d62d98cc64eb)
-
-## Sharing ChatGPT conversations with people
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2cb86c1e-731d-432c-b85c-1b0b039ef59d)
