@@ -124,6 +124,8 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 
 **Flutter**
 - [Codepur](https://www.youtube.com/channel/UCFTM1FGjZSkoSPDZgtbp7hA) \| Flutter Expert (#India)
+- By Samaksh:
+    - Flutter State Management Course 💙: [Click here](https://www.youtube.com/playlist?list=PL6yRaaP0WPkUf-ff1OX99DVSL1cynLHxO)
 
 **Linux**
   - [NetworkChuck ](https://www.youtube.com/c/NetworkChuck)
