@@ -32,6 +32,10 @@ Scalper vs. Swing Trader:
 
 Wow Paper trading experience with Ethereum Coin (crypto are traded 24x7 all the time, so go try paper trading and enjoy buying, selling, charting at tradingview website and trade in real time with real trading but fake money of 1 million dollars, which is cool though!)
 
+Here is the final charting picture at the end of 2.5 hour session, it wasn't easy but it was fun! Simple lessions are - Predict, make order as soon as you see opportunity, then immediately update/modify your "Stop Loss" & "Take Profit" values for that order, Trust yourself, and you may update your "Stop Loss" or "Take Profit" as per your convenience or as per the state of the stock's current price, this is really amazing thing I didn't know because we can now just review the Profit & Loss expectations with respect of the current stock price instead of the price value at which we bought. Wow!   
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/8adf9d05-32ee-4858-815e-dd426e15fdab)
+
 Using paper trading I earned around 557.2 $ (46,255 Rs) in around 2.5 hours, I risked around 250,579 dollars ( 100 quantity * 2505.79 price = 250579 $ = 2.08 crore rupees). LOL, simply saying its like risking lakhs of rupees to make few thousands, it can be a thing to play once in a while like when you're really are insane person. Scalping isn't anything real, for some reason its disheartening but its feels so damm true to me. 
 
 What now?
