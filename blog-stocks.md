@@ -2,6 +2,8 @@
 
 ## 11 Feb 2024
 
+***(TODO: Need editng for this blog though as I haven't got time to edit this yet. Note: Please do it now if possible.)***
+
 Source: [Click here](https://www.youtube.com/watch?v=yajQVRUFuXM&list=WL&index=1&t=25s)
 
 I learned we must be disciplied in stocks as well, i.e, we must take care of three things:
