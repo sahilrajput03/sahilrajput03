@@ -45,7 +45,7 @@ I still might try to do some scalping in future with any stock with say 50k or 6
 Ok, final lessons of today:
 
 - Don't run after scalping, be a trend trader instead
-  - Though I still like this person here and he teaches that first you should be doing demoing for few months and only when you're comfortable you should start with small amount like 8-10 thousand of rupees only (100$). And he says you would probably blow that money, but that would be a great lesson to begin in the market actually. Video link - [Click here](https://www.youtube.com/watch?v=Rtuz8xJAokE).
+  - Though I still like this person here (video link - [Click here](https://www.youtube.com/watch?v=Rtuz8xJAokE)) and he teaches that first you should be doing demoing for few months and only when you're comfortable you should start with small amount like 8-10 thousand of rupees only (100$). And he says you would probably blow that money, but that would be a great lesson to begin in the market actually.
 - Trust your instincts and then stick to your trend. (Adjusting stop loss after you have already gained some profit already is a really amazing thing 😍) ((need to check if Zerodha kite allows to do this. In trading view it's so damm cool thing to update the "StopLoss" in graphical manner.).
 
 ## 8 Oct, 2023
