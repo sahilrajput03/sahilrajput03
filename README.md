@@ -43,6 +43,7 @@ cat /dev/null
 	- **Learn Stocks:** [Click here](./learn-stocks.md)
 	- **Learn Zerodha:** [Click here](learn-zerodha.md)
 	- **Learn Zerodha Varasity:** [Click here](./learn-zerodha-varasity.md)
+	 - Doc - Learn Trading - Sahil Rajput: [Click here](https://docs.google.com/document/d/1pv_pvsd06fB1vJnPOoGTdX6KVfdg_vJsbci5Blz-DFs/edit)
 - Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 - **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
