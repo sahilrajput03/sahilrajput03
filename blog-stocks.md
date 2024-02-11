@@ -28,7 +28,7 @@ Trading live with paper trading for Ethereum chain gave me such an awesome exper
 
 Scalper vs. Swing Trader:
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/854134a5-ef8c-4a86-934c-098d90d41066)
+<img width="650" src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/854134a5-ef8c-4a86-934c-098d90d41066" />
 
 Wow Paper trading experience with Ethereum Coin (crypto are traded 24x7 all the time, so go try paper trading and enjoy buying, selling, charting at tradingview website and trade in real time with real trading but fake money of 1 million dollars, which is cool though!)
 
