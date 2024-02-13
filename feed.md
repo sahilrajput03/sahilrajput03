@@ -2,6 +2,12 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Cloud Egress Costs
+
+AWS, AZURE, Cloudflare, Heroku, Render, Vercel cloud pricing comparison.
+
+[Click here](https://getdeploying.com/reference/data-egress)
+
 ## Temporary policy: Generative AI (e.g., ChatGPT) is banned
 
 Official StackOverflow Question Here: [Click here](https://meta.stackoverflow.com/questions/421831/temporary-policy-generative-ai-e-g-chatgpt-is-banned?cb=1)
