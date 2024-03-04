@@ -293,6 +293,7 @@ cat /dev/null
 - Charge battery when it hits below 30% and above 80%: [1](https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/), [2](https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life)
 - learn-raspberryPi (backupd files): [Click here](https://github.com/sahilrajput03/learn-raspberrypi)
 - Learn RaspberryPi: [Click here](https://github.com/sahilrajput03/learn-raspberry)
+- Learn React Query: [Click here](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
