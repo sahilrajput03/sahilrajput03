@@ -24,7 +24,7 @@
 
 You might need to create gem file because by default github repos doesn't have but under the hood when the website is deployed; github actions installs ruby, bundler, jekyll, other necessary dependencies in the deployment pipeline.
 
-<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ae5aed94-c284-4029-99c5-c6309b149dca" size="700" />
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ae5aed94-c284-4029-99c5-c6309b149dca" size="500" />
 
 We can generate the gem file like this:
 
@@ -41,6 +41,10 @@ source "https://rubygems.org"
 
 # gem "rails"
 ```
+
+We add jekyll to the project i.e, update to `Gemfile` is by running  `bundle add jekyll`. 
+
+Also, you may use `bundle install` to install the depencies of ruby project to install ruby libraries defined in `Gemfile`.
 
 ## Install Jekyll on archlinux
 
