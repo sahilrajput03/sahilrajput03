@@ -22,6 +22,8 @@
 
 # Install Ruby on archlinux
 
+Source: [Click here](https://gist.github.com/bast/9f5c2843d3e9bc4744e7016b56d8fe8e)
+
 ```bash
 sudo pacman -S ruby ruby-rdoc gcc make
 
