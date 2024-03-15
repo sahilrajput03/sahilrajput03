@@ -20,12 +20,19 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
-## Turn off the bell sound in kitty terminal when you press ESC or when pressing TAB key multiple times 
+## Kitty Config File (Tags: kitty)
+
+You can open kitty config file directly by using `ctrl+shift+f2` or you open with code via `co .config/kitty/kitty.conf`. You might need to create this file if this file doesn't already exists there.
 
 ```bash
-# Add below line to .config/kitty/kitty.conf (do create that file if it doesn't already)
+# Turn off the bell sound in kitty terminal when you press ESC or when pressing TAB key multiple times 
 enable_audio_bell no
+
+# set font size (1)
+font_size 8.0
 ```
+
+[(1)](https://www.reddit.com/r/KittyTerminal/comments/l2iuyr/comment/gk5obvw/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 ## Install yarn
 
