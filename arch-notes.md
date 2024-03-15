@@ -20,7 +20,20 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
-# Install Ruby on archlinux
+## Install Jekyll on archlinux
+
+Requirements: Ruby must be installed. (search for "Install Ruby on Archlinux" section on this page).
+
+```bash
+gem update --user-install
+gem install jekyll --user-install
+
+jekyll -v
+# Output:
+jekyll 4.3.3
+```
+
+# Install Ruby on Archlinux
 
 Source: [Click here](https://gist.github.com/bast/9f5c2843d3e9bc4744e7016b56d8fe8e)
 
