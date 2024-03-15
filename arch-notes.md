@@ -20,6 +20,22 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+# Install Ruby on archlinux
+
+```bash
+sudo pacman -S ruby ruby-rdoc gcc make
+
+gem update --user-install
+gem install jekyll --user-install
+```
+
+Add below to `.bashrc` file:
+
+```bash
+ruby_path=".local/share/gem/ruby/3.0.0/bin/"
+export PATH="$ruby_path:$PATH"
+```
+
 ## Kitty Config File (Tags: kitty)
 
 You can open kitty config file directly by using `ctrl+shift+f2` or you open with code via `co .config/kitty/kitty.conf`. You might need to create this file if this file doesn't already exists there.
@@ -109,6 +125,9 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 # deno
 export DENO_INSTALL="/home/array/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+deno_path="/home/array/.deno"
+export PATH="$ruby_path:$PATH"
 ```
 
 ## Default terminal application in manjaro-i3 ?
