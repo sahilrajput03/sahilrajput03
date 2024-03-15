@@ -20,6 +20,28 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## Running github pages locally
+
+You might need to create gem file because by default github repos doesn't have but under the hood when the website is deployed; github actions installs ruby, bundler, jekyll, other necessary dependencies in the deployment pipeline.
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ae5aed94-c284-4029-99c5-c6309b149dca" size="700" />
+
+We can generate the gem file like this:
+
+```bash
+bundle init
+```
+
+A `Gemfile` will be created by above command with following text:
+
+```bash
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# gem "rails"
+```
+
 ## Install Jekyll on archlinux
 
 Requirements: Ruby must be installed. (search for "Install Ruby on Archlinux" section on this page).
