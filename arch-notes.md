@@ -53,7 +53,11 @@ Also, you may use `bundle install` to install the depencies of ruby project to i
 ```
 # Install Jekyll
 bundle add jekyll
-# Run your application as the command below with live reload:
+```
+
+**Run jekyll development server**
+
+```bash
 jekyll serve --livereload
 ```
 
