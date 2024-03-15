@@ -30,6 +30,8 @@ We can generate the gem file like this:
 
 ```bash
 bundle init
+# insatll gems (ruby libraries)
+bundle install
 ```
 
 A `Gemfile` will be created by above command with following text:
@@ -45,6 +47,15 @@ source "https://rubygems.org"
 We add jekyll to the project i.e, update to `Gemfile` is by running  `bundle add jekyll`. 
 
 Also, you may use `bundle install` to install the depencies of ruby project to install ruby libraries defined in `Gemfile`.
+
+**Install Jekyll, source -** https://stackoverflow.com/a/78101514
+
+```
+# Install Jekyll
+bundle add jekyll
+# Run your application as the command below with live reload:
+jekyll serve --livereload
+```
 
 ## Install Jekyll on archlinux
 
