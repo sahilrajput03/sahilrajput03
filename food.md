@@ -1,5 +1,7 @@
 # What can I eat?
 
+- Moong Sprouted Study by US Medicine: [Click here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9654080/)
+
 <ins>**Quick Links:**</ins>
 
 - Recepie Book: [Click here](https://recipebook.io/)
