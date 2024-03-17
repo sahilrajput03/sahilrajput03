@@ -20,6 +20,7 @@ cat /dev/null
 
 #### Wif Hoff - Breathing 🫁🫁 
 
+- 7 Apps every small business must use: [Click here](https://www.youtube.com/watch?v=OEJ3B-_6xyc)
 - Website: [Click here](https://www.wimhofmethod.com/)
 - Guided Wim Hof Breathing:
 	- 1 - [Click here](https://youtu.be/tybOi4hjZFQ)
