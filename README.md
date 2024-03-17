@@ -48,6 +48,8 @@ cat /dev/null
 - Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 - **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
+- Learn NFC:
+	- Link: [1](https://www.youtube.com/shorts/rqoUHzrWrU0), [2](https://www.youtube.com/shorts/kqds9w9BF-0?feature=share), [3](https://www.youtube.com/shorts/Mp9oZTlDhI8?feature=share), [4](https://www.youtube.com/shorts/vi3vwWKiS94?feature=share)
 
 **More:**
 
