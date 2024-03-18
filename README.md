@@ -26,6 +26,11 @@ cat /dev/null
 	- 1 - [Click here](https://youtu.be/tybOi4hjZFQ)
  	- 2 - [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
+
+## Depressions & Mental Health Support
+
+- wannatalkaboutit.com: [Click here](https://www.wannatalkaboutit.com/)
+
 ## Be Productive with videos 📽️ 🎬
 
 - I learned a system for remembering everything: [Click here](https://www.youtube.com/watch?v=Rvey9g0VgY0)
