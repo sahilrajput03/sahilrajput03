@@ -250,6 +250,7 @@ cat /dev/null
 - Learn RxJs: [Click here](./learn-rxjs.md)
 - Learn Vitejs: [Click here](./learn-vite.md)
 - Learn Javascript Date: [Click here](./learn-javascript-date.md)
+- Learn Luxon (DateTime): [Click here](./learn-luxon.md)
 - Learn `Chalk` (node library): [Click here](./learn-chalkjs.md)
 - Learn `Colors` (node library): [Click here](./learn-colors-npm.md)
 - Learn Spirituality: [Click here](./learn-spirituality.md)
@@ -259,7 +260,6 @@ cat /dev/null
 - Validation Library:
 	- Learn Zod: [Click here](https://github.com/sahilrajput03/learn-zod)
 	- Learn classvalidator: [Click here](./learn-classvalidator.md)
-- Learn Luxon: [Click here](./learn-luxon.md)
 - Learn South Indian Bank - Internet Banking: [Click here](./learn-south-india-bank)
 - Learn Upwork (private repository): [Click here](./learn-upwork)
 - Learn Flameshot: [Click here](./learn-flameshot.md)
