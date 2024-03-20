@@ -1,2 +1,3 @@
 include: [".well-known"]
-exclude: ["thoughts-principles-react"]
+# We must exclude `node_modules` otherwise jekyll compiles the node_modules code as well and thus fails when we run `bundle exec jekyll serve --livereload` command.
+exclude: ["thoughts-principles-react/node_modules/*"]
