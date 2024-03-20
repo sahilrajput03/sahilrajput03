@@ -9,7 +9,10 @@
 https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 
 **Todo (me):**
-
+- React:
+    - https://www.joyofreact.com  ~ Josh W Comeau
+- CSS:
+    - https://css-for-js.dev ~ Josh W Comeau
 - **AWS:**
     - AWS Free official courses: [Click here](https://aws.amazon.com/training/digital/?cta=tctopbanner) (also see great image in the end of this document)
     - TERRAFORM: [Website](https://www.terraform.io/), [Github](https://github.com/hashicorp/terraform) (39.2k*)
