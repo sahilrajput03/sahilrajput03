@@ -305,7 +305,7 @@ cat /dev/null
 - Learn RaspberryPi: [Click here](https://github.com/sahilrajput03/learn-raspberry)
 - Learn React Query: [Click here](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
 - Learn Sandpack: [Click here](https://github.com/sahilrajput03/learn-sandpack) ([view live](https://learn-sandpack.vercel.app/))
-- (🚀🚀) Learn Jekyll and running github pages locally: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md)
+- 🚀🚀 Learn Jekyll and running github pages locally: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
