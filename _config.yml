@@ -1,1 +1,2 @@
 include: [".well-known"]
+exclude: ["thoughts-principles-react"]

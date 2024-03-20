@@ -6,3 +6,4 @@ package-lock.json
 
 # Ruby 
 *.gem
+_site
