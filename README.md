@@ -133,7 +133,9 @@ cat /dev/null
 - **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
 - **Learn CLI binaries:** [Click here](./learn-cli-binary.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **❤️ Thoughts, Principles:** [Click here](./thoughts-principles-react/dist/), [web](https://sahilrajput.com/thoughts-principles-react/dist/), ([old](./thoughts-principles.md))
+- **❤️ Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist/) *(Absolute URL to page on sahilrajput.com domain)*
+	- [./thoughts-principles-react/dist/](./thoughts-principles-react/dist/) *(For livereload development, when rendred as website and will open code files when opened from github.com domain)*
+	- [old](./thoughts-principles.md)
 - **❤️ Social rules: [Click here](./social-rules.md)**
 - **❤️Office Ethics: [Click here](./office-ethics.md)**
 - **Url shorteners:** [Bitly](https://bitly.com/)

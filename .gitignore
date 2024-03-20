@@ -6,4 +6,5 @@ package-lock.json
 
 # Ruby 
 *.gem
+# When we run live reload server with `sudo bundle exec jekyll serve --livereload` it outputs to `_site` directory.
 _site
