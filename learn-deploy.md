@@ -3,7 +3,7 @@
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 
-## Slasher is delpoyed on cloudflare Pages
+## Slas*er is delpoyed on cloudflare Pages
 
 [Click here](https://pages.cloudflare.com/)
 
