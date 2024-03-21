@@ -307,7 +307,7 @@ cat /dev/null
 - Learn Sandpack: [Click here](https://github.com/sahilrajput03/learn-sandpack) ([view live](https://learn-sandpack.vercel.app/))
 - 🚀🚀 Learn Jekyll and running github pages locally: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md)
 - Shark Tank Season 1 - Youtube: [Click here](https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w)
-- Shiv Mahapuran: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66)
+- Shiv Mahapuran - Youtube: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
