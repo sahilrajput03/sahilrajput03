@@ -2,6 +2,10 @@
 
 **File backup of `main.cf` file of postfix:** [Click here](https://gist.github.com/sahilrajput03/69cf3bf053e8817da8caf52c5c39c25a)
 
+## Asterisk Youtube Playlist
+
+[Click here](https://www.youtube.com/playlist?list=PLqLOutQTzEV-8mqy7tULOTSzo58oJRx44)
+
 ## Awesome Sendinblue guide
 
 [Click here](sendinblue.md)
