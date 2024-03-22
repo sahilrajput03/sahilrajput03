@@ -70,6 +70,8 @@ More:
 
 ## Nvidia's Chat Software
 
+AI Courses by Nvidia: [Click here](https://twitter.com/heyshrutimishra/status/1771206798881825005)
+
 Now one can run chatbot locally within a folder in Windows OS.
 
 GPU Requirement: **NVIDIA GeForce™ RTX 30 or 40 Series GPU or NVIDIA RTX™ Ampere or Ada Generation GPU with at least 8GB of VRAM**
