@@ -68,6 +68,13 @@ More:
 - privateGPT - Github 31K* - [Click here](https://github.com/imartinez/privateGPT), Medium Article: [Click here](https://medium.com/codingthesmartway-com-blog/privategpt-the-ultimate-solution-for-offline-secure-language-processing-that-turns-your-pdfs-into-b5cd4ee5db8e)
 - Alakh Pandey - [Click here](https://www.youtube.com/watch?v=FtIEhrZD_5I)
 
+## From nvidia's Chat Software
+
+Now one can run chatbot locally within a folder in Windows OS.
+
+- Chat with RTX: [Click here](https://blogs.nvidia.com/blog/chat-with-rtx-available-now/)
+- Download from here - [Click here](https://www.nvidia.com/en-gb/ai-on-rtx/chat-with-rtx-generative-ai/)
+
 ## From Alakh Pandey's Video
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/4bd2d24d-fd37-4694-99b2-6b44bb41d8ba)
