@@ -68,9 +68,11 @@ More:
 - privateGPT - Github 31K* - [Click here](https://github.com/imartinez/privateGPT), Medium Article: [Click here](https://medium.com/codingthesmartway-com-blog/privategpt-the-ultimate-solution-for-offline-secure-language-processing-that-turns-your-pdfs-into-b5cd4ee5db8e)
 - Alakh Pandey - [Click here](https://www.youtube.com/watch?v=FtIEhrZD_5I)
 
-## From nvidia's Chat Software
+## Nvidia's Chat Software
 
 Now one can run chatbot locally within a folder in Windows OS.
+
+GPU Requirement: **NVIDIA GeForce™ RTX 30 or 40 Series GPU or NVIDIA RTX™ Ampere or Ada Generation GPU with at least 8GB of VRAM**
 
 - Chat with RTX: [Click here](https://blogs.nvidia.com/blog/chat-with-rtx-available-now/)
 - Download from here - [Click here](https://www.nvidia.com/en-gb/ai-on-rtx/chat-with-rtx-generative-ai/)
