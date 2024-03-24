@@ -1,4 +1,4 @@
-<h1 align="center">🤺︎ Hi there 👋 Trying what I can 123 ! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
+<h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 ```bash
 echo Hello world! > /dev/null
@@ -306,8 +306,9 @@ cat /dev/null
 - Learn React Query: [Click here](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
 - Learn Sandpack: [Click here](https://github.com/sahilrajput03/learn-sandpack) ([view live](https://learn-sandpack.vercel.app/))
 - 🚀🚀 Learn Jekyll and running github pages locally: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md)
-- Shark Tank Season 1 - Youtube: [Click here](https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w)
-- Shiv Mahapuran - Youtube: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66)
+- Media:
+	- Shark Tank Season 1 - Youtube: [Click here](https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w)
+	- Shiv Mahapuran - Youtube: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66)
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 
