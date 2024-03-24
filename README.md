@@ -300,7 +300,7 @@ cat /dev/null
 - Learn macOS: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?pli=1)
 	- Learn macOS - Samaksh: [Click here](https://docs.google.com/document/d/1N310qOwvRuu1K3zzpChj3Tt6qPMhtFQ7W2RGSSIrw8U/edit#heading=h.ggwji2r8315h)
 - Learn making hardcover from paperback books: [Click here](https://docs.google.com/document/d/14abXkjtuNyZAQW2QZMUxIcQmfEK7i3IZxaT_0NC7C0k/edit#heading=h.prohzhw7w5zw)
-- Charge battery when it hits below 30% and above 80%: [1](https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/), [2](https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life)
+- Charge battery when it hits below 30% and stop charging when it reaches 80%: [1](https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/), [2](https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life)
 - learn-raspberryPi (backupd files): [Click here](https://github.com/sahilrajput03/learn-raspberrypi)
 - Learn RaspberryPi: [Click here](https://github.com/sahilrajput03/learn-raspberry)
 - Learn React Query: [Click here](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
