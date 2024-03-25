@@ -29,7 +29,8 @@ Others:
 
 (Source of below image - 📖 Article - **Dyno Types:** [Click here](https://devcenter.heroku.com/articles/dyno-types))
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/c1693531-11a3-4f3e-9f8c-cd6944254d07)
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/e555cc12-ae4f-403e-a479-b85433b7b30b)
+
 
 ## Why Heroku?
 
