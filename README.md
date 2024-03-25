@@ -313,11 +313,7 @@ cat /dev/null
 - Media:
 	- Shark Tank Season 1 - Youtube: [Click here](https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w)
 	- Shiv Mahapuran - Youtube: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66)
-- Using `Xournal` *([notes from archilinux page](./arch-notes.md#installed-xournalpp-pp-means--ie-xournal))*:
-	- Sample PDF: [Click here](./sample-files/sample.pdf)
-	- Xournalpp file of above file: [Click here](./sample-files/sample.xopp)
-	  - *Note: When exporting above `.xopp` file to pdf and saving over original pdf file then it warns us not to overwrite over background pdf file as that would create issues. By default Xournalpp exports the pdf file with the same name as of pdf file with a suffixes of `_annotated`.*
-	- Annotated PDF file (exported via `File > Export as PDF` feature using above `xopp` file): [Click here](./sample-files/sample_annotated.pdf)
+- Learn `Xournal`: [Click here](./arch-notes.md#installed-xournalpp-pp-means--ie-xournal):
 
 # 💣💣 TODO: Do the flutter codelab. 💣💣
 

@@ -27,7 +27,7 @@ Others:
 
 **What is process type in heroku?**
 
-- **📖 Docs Article - Procfile**: [Click here](https://devcenter.heroku.com/articles/procfile))
+- **📖 Docs Article - Procfile**: [Click here](https://devcenter.heroku.com/articles/procfile)
 - My annotated pdf: [Click here](./learn-heroku-files/Procfile_annotated.pdf)
 
 ## Scaling

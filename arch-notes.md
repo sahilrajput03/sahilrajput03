@@ -679,23 +679,17 @@ sudo mv ~/Downloads/ganache-2.5.4-linux-x86_64.AppImage /usr/bin/ganache-ui
 ## Installed xournalpp (pp means ++ i.e, xournal++)
 
 - Github (9.4k*): [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp)
-- Amazing pdf annotater: Source - [Stackoverflow Ansser](https://askubuntu.com/a/1288079/702911)
-- [Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
-
-```bash
-# rename
-mv xournalpp-1.1.1-x86_64.AppImage xournalpp
-
-# move to user binaries (so it'll be accessible by all users and demnu as well):
-sudo mv xournalpp /usr/bin/
-
-# alias
-xo
-```
-- **Saving the annotated PDF file: "File > Export as PDF"**
-- Best Toolbars in Xournalpp: "View > Toolbars" and choose either `Minimal Left` or `Xournal++`.
+- Amazing pdf annotater: Source - [Stackoverflow Answer](https://askubuntu.com/a/1288079/702911)
+- [Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases), then rename it via `mv xournalpp-1.1.1-x86_64.AppImage xournalpp`. Finally move it to user installed binaries so its accessible by all users and demnu as well by running `sudo mv xournalpp /usr/bin/`. Also, you also had a alias for it `xo`, but usually you would want to run `xournal` from dmenu.
+- **Example use of sample pdf file with Xournalpp**:
+	- Sample PDF: [Click here](./sample-files/sample.pdf)
+	- Xournalpp file of above file: [Click here](./sample-files/sample.xopp)
+	  - *Note: When exporting above `.xopp` file to pdf and saving over original pdf file then it warns us not to overwrite over background pdf file as that would create issues. By default Xournalpp exports the pdf file with the same name as of pdf file with a suffixes of `_annotated`.*
+	- **Annotated PDF file (exported via `File > Export as PDF` feature using above `xopp` file): [Click here](./sample-files/sample_annotated.pdf)**
+- ❤️ Use this website to invert colors of any pdf to get PDF in dark mode: [Click here](https://www.pdfconvertonline.com/invert-pdf/)
+- **🚀 Saving the annotated PDF file: "File > Export as PDF"**
 - 😍 I used this for annotating notes of blockchain pdf's: [Click here](https://github.com/sahilrajput03/learn-blockchain/tree/main/docs__tokenStandards__yellowPaper)
-- 🤑🤑🤑 Set toolbar position by **View > Toolbar > Minimal Left**
+- 🤑 Set toolbar position by **View > Toolbar > `Minimal Left` or `Xournal++`**
 - **Fix issue of 1st page is aligned towards to right:** You can fix this (below) issue by going to `Edit > Preferences > Drawing Area > Paired Pages` (source of fixing this issue: [Click here](https://github.com/xournalpp/xournalpp/issues/3522))
 
 	Step: 1/3
