@@ -1,5 +1,8 @@
 # Learn Heroku Deployment
 
+**Quick Links:**
+- Learn deployment: [Click here](learn-deploy.md)
+
 ## Heroku Pricing
 
 Plan | Eco | Basic
