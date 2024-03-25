@@ -681,6 +681,7 @@ sudo mv ~/Downloads/ganache-2.5.4-linux-x86_64.AppImage /usr/bin/ganache-ui
 - Github (9.4k*): [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp)
 - Amazing pdf annotater: Source - [Stackoverflow Ansser](https://askubuntu.com/a/1288079/702911)
 - [Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
+- 😍 I used this for annotating notes of blockchain pdf's: [Click here](https://github.com/sahilrajput03/learn-blockchain/tree/main/docs__tokenStandards__yellowPaper)
 
 ```bash
 # rename
