@@ -1,9 +1,14 @@
-# Deploy expressjs application
+# Learn Vercel Deployment
 
-- Using Express.js with Vercel | Docs: [Click here](https://vercel.com/guides/using-express-with-vercel)https://vercel.com/guides/using-express-with-vercel
+**Quick Links:**
+- Learn Deployment: [Click here](./learn-deploy.md)
+
+## TODO: Deploy ExpressJs Application with Vercel
+
+- Using Express.js with Vercel | Docs: [Click here](https://vercel.com/guides/using-express-with-vercel)
 - Google Search (very helpful): [Click here](https://www.google.com/search?q=deployh+nodejs+to+vercel&oq=deployh+nodejs+to+vercel)
 
-## `vercel.json` to route all routes to `index.html` page for vitejs + vercel deployment
+## Route all paths to `index.html` page for a vite application by updating `vercel.json` file
 
 Source: [Click here](https://stackoverflow.com/a/73752429/10012446)
 

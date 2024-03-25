@@ -1,5 +1,8 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
+- Every action you take is for the type of person you wish to become.
+- You do not rise to the level of your goals. You fall to the level of your systems.
+
 ```bash
 echo Hello world! > /dev/null
 cat /dev/null
@@ -77,6 +80,7 @@ cat /dev/null
 		- Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
 		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/), [2023](https://survey.stackoverflow.co/2023/)
 		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [2022](https://2022.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
+			- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
   - Tech Magazines:
 	- Analytics India Magazine: [Click here](https://twitter.com/Analyticsindiam)
   - Podcasts:

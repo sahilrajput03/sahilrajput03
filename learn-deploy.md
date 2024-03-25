@@ -2,12 +2,41 @@
 
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
+- Learn Heroku Deployment: [Click here](learn-heroku.md)
+
+## Nodejs Hosting:
+
+1. Render
+2. Heroku
+3. Linode (linode is made on top of akamai)
+4. Akamai
+5. Vercel (todo: learn how to deploy express on Vercel)
+
+## 💯💥 MongoDB Atlas Pricing
+
+- *Shared Plan* - The cheapest option.
+- *Serverless Plan* - *Pay as you go* may also be a good option.
+- *Dedicated Plan* - *Starts from $57 per month* may also be a good option as per requirement.
+
+**Shared Plan** has three cluster tiers to choose from -
+
+M0 - Free | M2 - $9/month (₹750) | M5 - $25/month (₹2100)
+-|-|-|
+
+Links:
+- Check all plans [here](https://www.mongodb.com/pricing).
+- **Docs** - Limitations of `M0` (free cluster), `M2`, and `M5`: [Click here](https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/)
+
+Asking from Copilot for limitations of M0 tier (25 March 2024) - 
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d21c8bfb-6ab6-4a6c-8ca2-bb1ad7d3e9d9" width="750" />
+
 
 ## Slas*er is delpoyed on cloudflare Pages
 
 [Click here](https://pages.cloudflare.com/)
 
-## port forward with router
+## Port forward with router
 
 Thats how I have configured some port and port ranges on my system.
 
@@ -29,29 +58,6 @@ Add below `A records` for your custom domain dns setting in your domain provider
 - **Docs - How can I set up an A (address) record for my domain?: [Click here](https://www.namecheap.com/support/knowledgebase/article.aspx/319/2237/how-can-i-set-up-an-a-address-record-for-my-domain/)**
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/12213b15-88e9-487d-8d2a-e3f1028ff6fe)
-
-## Heroku
-
-Why heroku?
-
-Heroku provides https enabled backend server in no time which is too good for no-budget apps testing. You can create as many applications as you want with the condition that you can have only 5 apps in one account and you can create infinite heroku accounts with `emailId+1@email.com` hack. Yo!
-
-You can serve a nested folder project in heroku using a custom `build-pack` as well. Find it working @ [video-chat-app-webrtc](https://github.com/sahilrajput03/video-chat-app-webrtc/tree/hash-router#guide-to-publish-a-nested-project-folder-serving-to-heroku) and also @ [sahilrajput03/learn-websockets](https://github.com/sahilrajput03/learn-websockets/tree/main)
-- simply use your bash function:
-  ```bash
-  heroku.setSubDirectoryBuildpack mySubdirectoryHere
-  # It is an alias, find about it @ https://github.com/sahilrajput03/config/blob/main/.bash_functions#L319-L325
-  ```
-
-Heroku has database as a service as well. [Check here](https://www.heroku.com/postgres).
-
-See my command list @ [Gist](https://gist.github.com/sahilrajput03/c44778f281e5f9856827e7c0f264ffa5).
-
-TEKENA's way of deploying a nested folder: ![image](https://user-images.githubusercontent.com/31458531/183259528-7911885a-a66c-4432-9c0d-de0a7a4d68d9.png)
-
-- Why you should use `heroku local` command to test `Procfile` command?
-
-![image](https://user-images.githubusercontent.com/31458531/187038465-49871dd9-43a5-429f-bf53-88d8433234e5.png)
 
 # Dns Settings
 
