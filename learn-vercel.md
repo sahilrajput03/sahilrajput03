@@ -1,7 +1,7 @@
 # Deploy expressjs application
 
 **Quick Links:**
-- Learn Deployment: [Click here](./learn-deployment.md)
+- Learn Deployment: [Click here](./learn-deploy.md)
 
 **Other Links:**
 - Using Express.js with Vercel | Docs: [Click here](https://vercel.com/guides/using-express-with-vercel)https://vercel.com/guides/using-express-with-vercel
