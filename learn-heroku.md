@@ -3,7 +3,13 @@
 **Quick Links:**
 - Learn Deployment: [Click here](learn-deploy.md)
 
+**Heroku Doc Links:**
+- The Process Model: [Click here](https://devcenter.heroku.com/articles/process-model)
+- Release Phase: [Click here](https://devcenter.heroku.com/articles/release-phase)
+
 ## Heroku Pricing
+
+Pricing: [Click here](https://www.heroku.com/pricing)
 
 Plan | Eco | Basic
 -|-|-|
