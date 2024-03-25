@@ -9,6 +9,7 @@
   - Is there an alternative to having "virtual audio cables"?: [Click here](https://www.reddit.com/r/linux/comments/6fjo7k/is_there_an_alternative_to_having_virtual_audio/)
   - fuzzthepiguy: [Click here](https://fuzzthepiguy.tech/linux-cable/)
   - How to send audio from OBS to google meet?: [Click here](https://www.reddit.com/r/obs/comments/x4p6j6/how_to_send_audio_from_obs_to_google_meet/) (it is suggested to use [NDI](https://ndi.video/download-ndi-sdk/) ([for archlinux](https://www.google.com/search?q=ndi+archlinux)) - which sounds awesome as explained by the answerer)
+    - Streaming phone's camera to OBS: [Click here](https://www.youtube.com/watch?v=cX8fo74m6nc)
   - FOR WINDOWS: Doing this in Windows | YouTube: [Click here](https://youtu.be/MT0ub3GUbds)
 
 ## What's with the name of k3s?
