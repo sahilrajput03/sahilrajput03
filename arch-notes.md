@@ -691,10 +691,9 @@ sudo mv xournalpp /usr/bin/
 
 # alias
 xo
-
-# TIP: You can go to "File > Export as PDF" to export the annotated pdf, yo! 
 ```
-
+- **Saving the annotated PDF file: "File > Export as PDF"**
+- Best Toolbars in Xournalpp: "View > Toolbars" and choose either `Minimal Left` or `Xournal++`.
 - 😍 I used this for annotating notes of blockchain pdf's: [Click here](https://github.com/sahilrajput03/learn-blockchain/tree/main/docs__tokenStandards__yellowPaper)
 - 🤑🤑🤑 Set toolbar position by **View > Toolbar > Minimal Left**
 - **Fix issue of 1st page is aligned towards to right:** You can fix this (below) issue by going to `Edit > Preferences > Drawing Area > Paired Pages` (source of fixing this issue: [Click here](https://github.com/xournalpp/xournalpp/issues/3522))

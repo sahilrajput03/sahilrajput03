@@ -2,7 +2,7 @@
 
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
-- Learn Heroku Deployment: [Click here](learn-heroku.md)
+- Learn Heroku Deployment: [Click here](./learn-heroku.md)
 
 ## Nodejs Hosting:
 
