@@ -3,6 +3,16 @@
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 
+## Heroku Pricing
+
+**Plans:**
+- Eco Plan - 5$/month (₹420) - 512 MB RAM (offers 1000 Eco Dyno Hours i.e, if you have one app that can easily run for 31 days i.e, 31*24 = 744 hours)
+- Basic Plan - 7$/month (₹580) - 512 MB RAM
+
+Others:
+- DOCS: The Process Model: [Click here](https://devcenter.heroku.com/articles/process-model)
+- StackOverflow: What is the difference between Process Types and Dynos in Heroku: [Click here](https://stackoverflow.com/questions/46546275/what-is-the-difference-between-process-types-and-dynos-in-heroku)
+
 ## 💯💥 MongoDB Atlas Pricing
 
 - *Shared Plan* - The cheapest option.
