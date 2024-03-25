@@ -21,6 +21,8 @@ Others:
 
 **What is process type in heroku?**
 
+(Source of below image - **Article - Procfile**: [Click here](https://devcenter.heroku.com/articles/procfile))
+
 <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5bc9c149-8a8e-448a-a53f-67fa46d69017" />
 
 
