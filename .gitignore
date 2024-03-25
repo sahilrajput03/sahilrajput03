@@ -8,3 +8,6 @@ package-lock.json
 *.gem
 # When we run live reload server with `sudo bundle exec jekyll serve --livereload` it outputs to `_site` directory.
 _site
+
+# It's a good idea to add the .jekyll-metadata file to your .gitignore file because it helps Jekyll keep track of which files have not been modified since the site was last built, and which files will be regenerated on the next build. This file is not included in the generated site.
+.jekyll-metadata
