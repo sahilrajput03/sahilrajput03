@@ -21,12 +21,17 @@ Others:
 
 **What is process type in heroku?**
 
-(Source of below image - **Article - Procfile**: [Click here](https://devcenter.heroku.com/articles/procfile))
+(Source of below image - **📖 Article - Procfile**: [Click here](https://devcenter.heroku.com/articles/procfile))
 
 <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5bc9c149-8a8e-448a-a53f-67fa46d69017" />
 
+## Scaling
 
-## Why heroku?
+(Source of below image - 📖 Article - **Dyno Types:** [Click here](https://devcenter.heroku.com/articles/dyno-types))
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/c1693531-11a3-4f3e-9f8c-cd6944254d07)
+
+## Why Heroku?
 
 **Sample `Procfile`s:**
 - [learn-websockets/chat-app](https://github.com/sahilrajput03/learn-websockets/blob/main/learn-socket.io/chat-app/Procfile)
