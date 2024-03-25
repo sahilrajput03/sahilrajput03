@@ -681,8 +681,6 @@ sudo mv ~/Downloads/ganache-2.5.4-linux-x86_64.AppImage /usr/bin/ganache-ui
 - Github (9.4k*): [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp)
 - Amazing pdf annotater: Source - [Stackoverflow Ansser](https://askubuntu.com/a/1288079/702911)
 - [Donwloaded appImage version](https://github.com/xournalpp/xournalpp/releases) and moved it to user installable binaries:
-- 😍 I used this for annotating notes of blockchain pdf's: [Click here](https://github.com/sahilrajput03/learn-blockchain/tree/main/docs__tokenStandards__yellowPaper)
-- 🤑🤑🤑 Set toolbar position by **View > Toolbar > Minimal Left**
 
 ```bash
 # rename
@@ -697,17 +695,42 @@ xo
 # TIP: You can go to "File > Export as PDF" to export the annotated pdf, yo! 
 ```
 
+- 😍 I used this for annotating notes of blockchain pdf's: [Click here](https://github.com/sahilrajput03/learn-blockchain/tree/main/docs__tokenStandards__yellowPaper)
+- 🤑🤑🤑 Set toolbar position by **View > Toolbar > Minimal Left**
+- **Fix issue of 1st page is aligned towards to right:** You can fix this (below) issue by going to `Edit > Preferences > Drawing Area > Paired Pages`
+
+	1/2
+  
+	![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b6b1f398-3893-484c-a3b1-f6c02c5b6bbc)
+
+	2/2
+
+	![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1f56401c-81ff-4e53-9b40-77850c18383a)
+
+	**After doing above setting you must uncheck and then recheck `Pair Pages` option from `Edit` menu.**
+
+
 - Downlaod Source: https://github.com/xournalpp/xournalpp/releases
 
-	1/5 ![image](https://user-images.githubusercontent.com/31458531/195139957-04e120dc-8098-4ff2-8e9e-89efdfe7a628.png)
-	
-	2/5 ![image](https://user-images.githubusercontent.com/31458531/195139681-60b8cbfc-058b-482e-9367-296417bc5e9e.png)
-	
-	3/5 ![image](https://user-images.githubusercontent.com/31458531/195135088-eb28f3dc-e2d8-476e-9990-2d9b8473ab30.png)
+	1/5
 
-	4/5 ![image](https://user-images.githubusercontent.com/31458531/195132041-2998b19c-b007-49de-b3ff-c4f5a03592fc.png)
+	![image](https://user-images.githubusercontent.com/31458531/195139957-04e120dc-8098-4ff2-8e9e-89efdfe7a628.png)
 	
-	5/5 ![image](https://user-images.githubusercontent.com/31458531/195132850-7ef4505a-9f58-43d0-ac38-9ae5e67e0b93.png)
+	2/5
+
+	![image](https://user-images.githubusercontent.com/31458531/195139681-60b8cbfc-058b-482e-9367-296417bc5e9e.png)
+	
+	3/5
+
+	![image](https://user-images.githubusercontent.com/31458531/195135088-eb28f3dc-e2d8-476e-9990-2d9b8473ab30.png)
+
+	4/5
+
+	![image](https://user-images.githubusercontent.com/31458531/195132041-2998b19c-b007-49de-b3ff-c4f5a03592fc.png)
+	
+	5/5
+
+	![image](https://user-images.githubusercontent.com/31458531/195132850-7ef4505a-9f58-43d0-ac38-9ae5e67e0b93.png)
 
 ## Installed `kitty` terminal and made it as default termial
 
