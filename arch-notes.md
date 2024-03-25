@@ -699,15 +699,15 @@ xo
 - 🤑🤑🤑 Set toolbar position by **View > Toolbar > Minimal Left**
 - **Fix issue of 1st page is aligned towards to right:** You can fix this (below) issue by going to `Edit > Preferences > Drawing Area > Paired Pages` (source of fixing this issue: [Click here](https://github.com/xournalpp/xournalpp/issues/3522))
 
-	1/2
+	Step: 1/3
   
 	![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/b6b1f398-3893-484c-a3b1-f6c02c5b6bbc)
 
-	2/2
+	Step: 2/3
 
 	![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/1f56401c-81ff-4e53-9b40-77850c18383a)
 
-	**After doing above setting you must uncheck and then recheck `Pair Pages` option from `Edit` menu.**
+	**Step: 3/3 - After doing above setting you must uncheck and then recheck `Pair Pages` option from `Edit` menu.**
 
 
 - Downlaod Source: https://github.com/xournalpp/xournalpp/releases
