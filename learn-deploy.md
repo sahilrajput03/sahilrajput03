@@ -22,7 +22,7 @@ Links:
 
 [Click here](https://pages.cloudflare.com/)
 
-## port forward with router
+## Port forward with router
 
 Thats how I have configured some port and port ranges on my system.
 
