@@ -2,6 +2,10 @@
 
 <div align="right"><i>Note to me: Please add date for all posts from now on. ~ Thankyou</i></div>
 
+## Output audio from obs to google meet
+
+- **Google Search - VB CABLE For Linux:** [Click here](https://www.google.com/search?q=VB+CABLE+for+linux)
+
 ## What's with the name of k3s?
 
 Source: [Click here](https://docs.k3s.io/)
