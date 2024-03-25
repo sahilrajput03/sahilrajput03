@@ -4,6 +4,14 @@
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 - Learn Heroku Deployment: [Click here](learn-heroku.md)
 
+## Nodejs Hosting:
+
+1. Render
+2. Heroku
+3. Linode (linode is made on top of akamai)
+4. Akamai
+5. Vercel (todo: learn how to deploy express on Vercel)
+
 ## 💯💥 MongoDB Atlas Pricing
 
 - *Shared Plan* - The cheapest option.
