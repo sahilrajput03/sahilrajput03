@@ -697,7 +697,7 @@ xo
 
 - 😍 I used this for annotating notes of blockchain pdf's: [Click here](https://github.com/sahilrajput03/learn-blockchain/tree/main/docs__tokenStandards__yellowPaper)
 - 🤑🤑🤑 Set toolbar position by **View > Toolbar > Minimal Left**
-- **Fix issue of 1st page is aligned towards to right:** You can fix this (below) issue by going to `Edit > Preferences > Drawing Area > Paired Pages`
+- **Fix issue of 1st page is aligned towards to right:** You can fix this (below) issue by going to `Edit > Preferences > Drawing Area > Paired Pages` (source of fixing this issue: [Click here](https://github.com/xournalpp/xournalpp/issues/3522))
 
 	1/2
   
