@@ -11,7 +11,7 @@
 
 **Shared Plan** has three cluster tiers to choose from -
 
-M0 (Free) | M2 ($9/month) | M5 ($25/month)
+M0 - Free | M2 - $9/month (₹750) | M5 - $25/month (₹2100)
 -|-|-|
 
 Links:
