@@ -3,7 +3,7 @@
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 
-## MongoDB Atlas Pricing
+## 💯💥 MongoDB Atlas Pricing
 
 - *Shared Plan* - The cheapest option.
 - *Serverless Plan* - *Pay as you go* may also be a good option.
