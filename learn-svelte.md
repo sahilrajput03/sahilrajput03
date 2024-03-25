@@ -1,5 +1,21 @@
 # Learn Svelte
 
+**+ves:**
+- Linkedin Post: [Click here](https://www.linkedin.com/pulse/from-react-svelte-frontend-future-work-damon-vestervand-3hjsf/)
+- **HackMd - SvelteJS: My ecosystem is bigger than yours: [Click here](https://hackmd.io/@roguegpu) ([Article reading by Primegan](https://www.youtube.com/watch?v=bh-e700IlmQ))**
+- Svelte is more popular than Solidjs - The Difference you didn’t know existed between Solid.js and Svelte: [Click here](https://medium.com/@shariq.ahmed525/the-difference-you-didnt-know-existed-between-solid-js-and-svelte-7ad6591abc10)
+
+
+**-ves:**
+- Google Search: Why svelte is not popular: [Click here](https://www.google.com/search?q=why+svelte+is+not+popular)
+- *TODO: Nov 16, 2020* - Why people aren’t switching to Svelte yet: [Click here](https://blog.logrocket.com/why-people-arent-switching-to-svelte-yet/)
+
+***
+
+- Tutorial by FireshipIo: [Click here](https://www.youtube.com/watch?v=043h4ugAj4c)
+
+***
+
 - **2024's New article on Svelte on Linkedin: [Click here](https://www.linkedin.com/pulse/from-react-svelte-frontend-future-work-damon-vestervand-3hjsf/)**
 - Learn svelte by doing: https://svelte.dev/tutorial/making-an-app
 - Learn svelte by fireshipio: https://youtu.be/043h4ugAj4c
