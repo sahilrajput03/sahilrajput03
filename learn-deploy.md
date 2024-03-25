@@ -3,6 +3,17 @@
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 
+## MongoDB Atlas Pricing
+
+**Shared Plan** ([Click here](https://www.mongodb.com/pricing#mdb-modal-shared))
+
+Shared Plan has following cluster tiers available:
+- Atlas M0 (Free Cluster), M2, and M5 Limits.
+
+**Note:**
+- *Serverless Plan* - *Pay as you go* may also be a good option.
+- *Dedicated Plan* - *Starts from $57 per month* may also be a good option as per requirement.
+
 ## Slas*er is delpoyed on cloudflare Pages
 
 [Click here](https://pages.cloudflare.com/)
