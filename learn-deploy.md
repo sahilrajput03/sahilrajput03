@@ -5,10 +5,16 @@
 
 ## MongoDB Atlas Pricing
 
-**Shared Plan** ([Click here](https://www.mongodb.com/pricing#mdb-modal-shared))
+The cheapest seems to be **Shared Plan**.
 
-Shared Plan has following cluster tiers available:
-- Atlas M0 (Free Cluster), M2, and M5 Limits.
+**Shared Plan** has three cluster tiers to choose from:
+
+M0 (Free) | M2 ($9/month) | M5 ($25/month)
+-|-|-|
+
+Links:
+- Check all plans [here](https://www.mongodb.com/pricing).
+- **Docs** - Limitations of `M0` (free cluster), `M2`, and `M5`: [Click here](https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/)
 
 **Note:**
 - *Serverless Plan* - *Pay as you go* may also be a good option.
