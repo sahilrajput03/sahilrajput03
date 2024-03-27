@@ -12,3 +12,8 @@
 
 **Vine Crops:**
 - Vine crops can produce substantial yields and save space in small gardens, but they can take longer to grow to maturity than bush varieties. E.g., Wisteria, Bougainvillea, Clematis, Honeysuckle, Jasmine, Climbing Hydrangea, Grapes, Rocktrumpet, etc.
+
+
+Automation with Small Single-Board Computers (SBCs) like raspberrypi:
+
+- Plant Watering System with new Blynk update: [Click here](https://www.youtube.com/shorts/5scMCeQZv-4)
