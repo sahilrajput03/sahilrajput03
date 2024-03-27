@@ -1,6 +1,7 @@
 # Learn Hyperocal Farms
 
 - YouTube - One Of The World’s Largest Indoor Farms Is Using Advanced Tech To Build A More Resilient Food System: [Click here](https://www.youtube.com/watch?v=mYdt6CAwKAY)
+- YouTube - The farming robots that will feed the world | Hard Reset: [Click here](https://www.youtube.com/watch?v=hBkhUClyJvs)
 
 **LED Usage in Farming:**
 
