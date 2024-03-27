@@ -17,3 +17,4 @@
 Automation with Small Single-Board Computers (SBCs) like raspberrypi:
 
 - Plant Watering System with new Blynk update: [Click here](https://www.youtube.com/shorts/5scMCeQZv-4)
+- Vertical Farming with Spicy Moustache: [Click here](https://www.youtube.com/shorts/y-6B1ckyoKU)
