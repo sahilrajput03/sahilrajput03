@@ -2,6 +2,7 @@
 
 **Links:**
 - Github ARTICLE - Step-by-step guide to building a large language model app: [Click here](https://github.blog/2023-10-30-the-architecture-of-todays-llm-applications/)
+- ChatGPT 4 competitors: [Click here](https://www.youtube.com/shorts/I2Q97T5jiDo?feature=share)
 
 **News**:
   - ARTICLE - Intelligencer: Why Was Sam Altman Fired As CEO of OpenAI?: [Click here](https://nymag.com/intelligencer/2023/11/why-was-sam-altman-fired-as-ceo-of-openai.html)
