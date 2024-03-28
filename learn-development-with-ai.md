@@ -61,6 +61,7 @@
 - Stable Diffusion - Web UI - Github Repo (83.8K*): [Click here](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - MiniGPT-4 Github Repo (22K*): [Click here](https://github.com/Vision-CAIR/MiniGPT-4)
 - llama: [Click here](https://github.com/facebookresearch/llama), llama-recepies: [Click here](https://github.com/facebookresearch/llama-recipes)
+- Devika (opensource alternate to Devin): [Click here](https://github.com/stitionai/devika)
 
 More:
 - Is midjourney opensource: youtube - [Click here](https://www.youtube.com/watch?v=HSdp_Qe4VgY)
