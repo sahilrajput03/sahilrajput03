@@ -5,6 +5,7 @@
 - ChatGPT 4 competitors: [Click here](https://www.youtube.com/shorts/I2Q97T5jiDo?feature=share)
 
 With v0:
+- TODO: Try v0 to build something, try it for a day whole like 8-10 hours.
 - Twitter Post by Lee Robinson (12 Feb 2024): [Click here](https://twitter.com/leeerob/status/1757046921657463142)
 - Jared Palmer is VP of AI, Creator of v0 (source: twitter): [Click here](https://twitter.com/jaredpalmer)
 
