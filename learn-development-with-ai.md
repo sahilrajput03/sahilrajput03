@@ -7,7 +7,10 @@
 With v0:
 - TODO: Try v0 to build something, try it for a day whole like 8-10 hours.
 - Twitter Post by Lee Robinson (12 Feb 2024): [Click here](https://twitter.com/leeerob/status/1757046921657463142)
-- Jared Palmer is VP of AI, Creator of v0 (source: twitter): [Click here](https://twitter.com/jaredpalmer)
+- Jared Palmer:
+  - is VP of AI
+  - Creator of v0 (source: twitter): [Click here](https://twitter.com/jaredpalmer)
+  - Jared's Project - `Turborepo` is acquired by Vercel: [Click here](https://techcrunch.com/2021/12/09/vercel-acquires-turborepo/) 
 
 **News**:
   - ARTICLE - Intelligencer: Why Was Sam Altman Fired As CEO of OpenAI?: [Click here](https://nymag.com/intelligencer/2023/11/why-was-sam-altman-fired-as-ceo-of-openai.html)
