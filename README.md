@@ -315,7 +315,7 @@ cat /dev/null
 	- Shiv Mahapuran - Youtube: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66)
 - Learn `Xournal`: [Click here](./arch-notes.md#installed-xournalpp-pp-means--ie-xournal):
 - Learn Hyperlocal Farm: [Click here](./learn-hyperlocal-farms.md)
-
-# 💣💣 TODO: Do the flutter codelab. 💣💣
+- Learn Airbnb: [Click here](learn-airbnb.md)
+- TODO: Do the flutter codelab. 💣💣
 
 
