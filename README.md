@@ -318,4 +318,4 @@ cat /dev/null
 - Learn Airbnb: [Click here](learn-airbnb.md)
 - TODO: Do the flutter codelab. 💣💣
 - Learn Microfrontend: [Click here](learn-microfrontend.md)
-- VERCEL: Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
+- VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
