@@ -2,6 +2,15 @@
 
 **Links:**
 - Github ARTICLE - Step-by-step guide to building a large language model app: [Click here](https://github.blog/2023-10-30-the-architecture-of-todays-llm-applications/)
+- ChatGPT 4 competitors: [Click here](https://www.youtube.com/shorts/I2Q97T5jiDo?feature=share)
+
+With v0:
+- TODO: Try v0 to build something, try it for a day whole like 8-10 hours.
+- Twitter Post by Lee Robinson (12 Feb 2024): [Click here](https://twitter.com/leeerob/status/1757046921657463142)
+- Jared Palmer:
+  - is VP of AI
+  - Creator of v0 (source: twitter): [Click here](https://twitter.com/jaredpalmer)
+  - Jared's Project - `Turborepo` is acquired by Vercel: [Click here](https://techcrunch.com/2021/12/09/vercel-acquires-turborepo/) 
 
 **News**:
   - ARTICLE - Intelligencer: Why Was Sam Altman Fired As CEO of OpenAI?: [Click here](https://nymag.com/intelligencer/2023/11/why-was-sam-altman-fired-as-ceo-of-openai.html)
@@ -61,6 +70,7 @@
 - Stable Diffusion - Web UI - Github Repo (83.8K*): [Click here](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - MiniGPT-4 Github Repo (22K*): [Click here](https://github.com/Vision-CAIR/MiniGPT-4)
 - llama: [Click here](https://github.com/facebookresearch/llama), llama-recepies: [Click here](https://github.com/facebookresearch/llama-recipes)
+- Devika (opensource alternate to Devin): [Click here](https://github.com/stitionai/devika)
 
 More:
 - Is midjourney opensource: youtube - [Click here](https://www.youtube.com/watch?v=HSdp_Qe4VgY)

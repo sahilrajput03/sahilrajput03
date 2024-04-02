@@ -314,7 +314,8 @@ cat /dev/null
 	- Shark Tank Season 1 - Youtube: [Click here](https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w)
 	- Shiv Mahapuran - Youtube: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66)
 - Learn `Xournal`: [Click here](./arch-notes.md#installed-xournalpp-pp-means--ie-xournal):
-
-# 💣💣 TODO: Do the flutter codelab. 💣💣
-
-
+- Learn Hyperlocal Farm: [Click here](./learn-hyperlocal-farms.md)
+- Learn Airbnb: [Click here](learn-airbnb.md)
+- TODO: Do the flutter codelab. 💣💣
+- Learn Microfrontend: [Click here](learn-microfrontend.md)
+- VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
