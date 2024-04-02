@@ -70,7 +70,7 @@ cat /dev/null
 - Unwinding is hot no-sugar coffee!
 - Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [web](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
-- More Technologies: trpc, hasura and onegraph (graphiql-explorer).
+- More Technologies: trpc (ALERT: Please check my learn-trpc page), hasura and onegraph (graphiql-explorer).
 - Quick Links
 	- Jump Starters: [Click here](jump-starters.md)
 	- Tech Presentations
@@ -244,7 +244,7 @@ cat /dev/null
 - Learn Storybook: [Click here](./learn-storybook.md)
 - Learn Eslint: [Click here](./learn-eslint.md)
 - Learn Chrome: [Click here](./learn-chrome.md)
-- Learn Trpc: [Click here](./learn-trpc.md)
+- Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md)
 - Learn Paypal: [Click here](./learn-paypal.md)
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md)
 - Learn kdenlive: [Click here](./learn-kdenlive.md)
