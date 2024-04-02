@@ -9,4 +9,15 @@ Quick Links:
 
 # Since `create-t3-app` also uses `trpc` thus do not use this new framework from theo too
 
+## Some video references to check if you still want to use `trpc` or `create-t3-app`
+
+Inspiring Blog by Jack Herrington: [https://www.pronextjs.dev/storing-jwts](https://www.pronextjs.dev/storing-jwts)
+
+tRPC:
+
+- Officially from Theo: [Click here](https://create.t3.gg/en/introduction)
+- From WebDevSimplified: [Click here](https://www.youtube.com/watch?v=UfUbBWIFdJs&t=15s)
+- From Jack Herrington: [Click here](https://www.youtube.com/watch?v=qCLV0Iaq9zU)
+- From Jack Herrington: [Click here](https://youtu.be/Lam0cYOEst8)
+
 Thanks.
