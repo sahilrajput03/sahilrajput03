@@ -2726,6 +2726,10 @@ npm install -g npm@8.2.0
 nvm install-latest-npm
 # or
 nvm install --latest-npm
+
+# set default version
+nvm alias default 20.12.1
+
 ```
 
 #### Insall yarn my arch setup
