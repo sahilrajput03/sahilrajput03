@@ -19,6 +19,8 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
+#### Trademarks: OneUniverse, Same Roof
+
 #### Work Music: [Click here](./work-music.md)
 
 #### Wif Hoff - Breathing 🫁🫁 
