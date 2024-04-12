@@ -11,6 +11,7 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 **Todo (me):**
 - React:
     - https://www.joyofreact.com  ~ Josh W Comeau
+    - Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
 - CSS:
     - https://css-for-js.dev ~ Josh W Comeau
 - **AWS:**
