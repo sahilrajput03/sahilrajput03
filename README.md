@@ -321,3 +321,4 @@ cat /dev/null
 - TODO: Do the flutter codelab. 💣💣
 - Learn Microfrontend: [Click here](learn-microfrontend.md)
 - VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
+- Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
