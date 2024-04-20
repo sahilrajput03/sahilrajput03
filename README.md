@@ -1,8 +1,8 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
-- Talent (quality/perfection) < Hardwork < **Consistency**
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
+- Talent (quality/perfection) < Hardwork < **Consistency**
 
 ```bash
 echo Hello world! > /dev/null
