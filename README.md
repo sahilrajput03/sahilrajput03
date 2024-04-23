@@ -162,7 +162,12 @@ cat /dev/null
 	- Publisher Tag: [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md) (PubwiseAds)
 	- Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 - **Open Source Apps from All over the world** - [Click here](./open-source-apps.md)
-- **Nocode tools** - [Click here](./nocodetools.md)
+- **Nocode tools**:
+  - List of nocode tools - Tweet: [Click here](https://twitter.com/JustinSaaS/status/1516457662900314119)
+  - Site Builder:
+    - [wix.com](https://www.wix.com/)
+    - [webflow.com](https://webflow.com/)
+    - [carrd.co](https://carrd.co) - Simple, free, fully responsive one-page sites for pretty much anything.
 - **Learn Deployment** - [Click here](./learn-deploy.md)
 - Learn Vercel Deployment: [Click here](./learn-vercel.md)
 - **Learn User Mangement and Permissions** - [Click here](./learn-user-management-and-permissions.md)
