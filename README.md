@@ -163,7 +163,7 @@ cat /dev/null
 	- Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 - **Open Source Apps from All over the world** - [Click here](./open-source-apps.md)
 - **Nocode tools**:
-  - List of nocode tools - Tweet: [Click here](https://twitter.com/JustinSaaS/status/1516457662900314119)
+  - **List of nocode tools - Tweet:** [Click here](https://twitter.com/JustinSaaS/status/1516457662900314119)
   - Site Builder:
     - [wix.com](https://www.wix.com/)
     - [webflow.com](https://webflow.com/)
