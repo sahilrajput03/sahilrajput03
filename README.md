@@ -24,6 +24,8 @@ cat /dev/null
 
 #### Work Music: [Click here](./work-music.md)
 
+#### Sahil's Vocabulary 🚶: [Click here](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
+
 #### Wif Hoff - Breathing 🫁🫁 
 
 - 7 Apps every small business must use: [Click here](https://www.youtube.com/watch?v=OEJ3B-_6xyc)
