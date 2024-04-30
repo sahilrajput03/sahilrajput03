@@ -3,6 +3,9 @@
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
 - Talent (quality/perfection) < Hardwork < **Consistency**
+- Local Ips:
+  - Apples @ 192.168.1.4
+  - Dell @ 192.168.1.21
 
 ```bash
 echo Hello world! > /dev/null
