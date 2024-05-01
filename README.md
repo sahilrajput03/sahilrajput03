@@ -240,7 +240,7 @@ cat /dev/null
 	- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
 	- **Prime Resources - Javascript:** [Click here](./prime-resources-js.md)
 	- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa)
-	- **Learn Algorithms:**: [Click here](./learn-algorithms.md) 
+	- **Learn Algorithms:** [Click here](./learn-algorithms.md) 
 	- **Convert javascript object to json - cli tool** - [Click here](./obj-json.md)
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](./@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
