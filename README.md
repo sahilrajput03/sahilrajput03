@@ -2,6 +2,9 @@
 
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
+- Talent (quality/perfection) < Hardwork < **Consistency**
+- Ips: 192.168.1.4 (a), 192.168.1.21 (d)
+
 
 ```bash
 echo Hello world! > /dev/null
@@ -19,7 +22,11 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
+#### Trademarks: OneUniverse, Same Roof
+
 #### Work Music: [Click here](./work-music.md)
+
+#### Sahil's Vocabulary 🚶: [Click here](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
 
 #### Wif Hoff - Breathing 🫁🫁 
 
@@ -70,7 +77,7 @@ cat /dev/null
 - Unwinding is hot no-sugar coffee!
 - Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [web](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
-- More Technologies: trpc, hasura and onegraph (graphiql-explorer).
+- More Technologies: trpc (ALERT: Please check my learn-trpc page), hasura and onegraph (graphiql-explorer).
 - Quick Links
 	- Jump Starters: [Click here](jump-starters.md)
 	- Tech Presentations
@@ -159,7 +166,13 @@ cat /dev/null
 	- Publisher Tag: [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md) (PubwiseAds)
 	- Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 - **Open Source Apps from All over the world** - [Click here](./open-source-apps.md)
-- **Nocode tools** - [Click here](./nocodetools.md)
+- **Nocode tools**:
+  - **List of nocode tools - Tweet:** [Click here](https://twitter.com/JustinSaaS/status/1516457662900314119)
+  - Site Builder:
+    - [wix.com](https://www.wix.com/)
+    - [webflow.com](https://webflow.com/)
+      - **Learn Webflow:** - [Click here](./learn-webflow.md)
+    - [carrd.co](https://carrd.co) - Simple, free, fully responsive one-page sites for pretty much anything.
 - **Learn Deployment** - [Click here](./learn-deploy.md)
 - Learn Vercel Deployment: [Click here](./learn-vercel.md)
 - **Learn User Mangement and Permissions** - [Click here](./learn-user-management-and-permissions.md)
@@ -205,7 +218,6 @@ cat /dev/null
 	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
 	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
 	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
-- **Learn Webflow:** - [Click here](./learn-webflow.md)
 - **Weird Problems:** - [Click here](./weird-problems.md)
 - **Intro Guides to Platforms:** [Click here](./intro-guide-to-platforms.md)
 - **Learn axios:** [Click here](./learn-axios.md)
@@ -244,7 +256,7 @@ cat /dev/null
 - Learn Storybook: [Click here](./learn-storybook.md)
 - Learn Eslint: [Click here](./learn-eslint.md)
 - Learn Chrome: [Click here](./learn-chrome.md)
-- Learn Trpc: [Click here](./learn-trpc.md)
+- Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md)
 - Learn Paypal: [Click here](./learn-paypal.md)
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md)
 - Learn kdenlive: [Click here](./learn-kdenlive.md)
@@ -319,3 +331,4 @@ cat /dev/null
 - TODO: Do the flutter codelab. 💣💣
 - Learn Microfrontend: [Click here](learn-microfrontend.md)
 - VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
+- Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
