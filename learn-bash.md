@@ -2933,11 +2933,11 @@ echo ${x}yz       #Concatenation variables with other string or variable.
 
 var=01234
 echo ${var:3}
-# Output: 34    #I.e., from index 3(including) to the end.
+# Output: 34    #I.e., from index 3 (including) upto the end of string.
 
 var=01234
 echo ${var:0:4}
-0123
+# Output: 0123 #I.e., from index 0 (including) and 4 represents length of the substring to be extracted
 
 echo ${var:1:4}
 1234
