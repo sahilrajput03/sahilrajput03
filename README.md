@@ -8,6 +8,7 @@
   - WYSIWYG
     - Faster Usage than markdown. In Google doc there is **no need to verify the if the markdown code outputs desired page output.**
   - Editable on Google Doc app on mobile
+- You only loose information which is not easily accessible.
 
 ```bash
 echo Hello world! > /dev/null
