@@ -30,7 +30,7 @@ cat /dev/null
 
 #### Work Music: [Click here](./work-music.md)
 
-#### Sahil's Vocabulary 🚶: [Click here](vocab.html), [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
+#### Sahil's Vocabulary 🚶: [Click here](vocab.html) | [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
 
 #### Wif Hoff - Breathing 🫁🫁 
 
