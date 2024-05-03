@@ -5,7 +5,7 @@
 
 **Copy link to a heading in a doc:**
 
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/40b4d105-33e6-445b-8e27-961dee631f85)
+<img width="500" src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/40b4d105-33e6-445b-8e27-961dee631f85" />
 
 ## Google Slide Tutorial
 
