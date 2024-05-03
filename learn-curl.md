@@ -4,6 +4,9 @@
 - (todo: make more notes here) Amazing twitter thread from Rapid Api on learning Curl: [Click here](https://twitter.com/Rapid_API/status/1619038188403658753)
 
 ```bash
+# Run script without downloading (you need sudo as per your requirement)
+sudo curl https://cli-assets.heroku.com/install.sh | sh
+
 # only response body (without response header)
 curl localhost:3000
 

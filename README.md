@@ -4,7 +4,11 @@
 - You do not rise to the level of your goals. You fall to the level of your systems.
 - Talent (quality/perfection) < Hardwork < **Consistency**
 - Ips: 192.168.1.4 (a), 192.168.1.21 (d)
-
+- Prefering Google Doc over Markdown Pages:
+  - WYSIWYG
+    - Faster Usage than markdown. In Google doc there is **no need to verify the if the markdown code outputs desired page output.**
+  - Editable on Google Doc app on mobile
+- You only loose information which you don't want to make accessible.
 
 ```bash
 echo Hello world! > /dev/null

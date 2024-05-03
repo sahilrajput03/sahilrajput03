@@ -4,6 +4,16 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+#### Little git tip
+
+- If you would have specified
+
+  ```
+  git push origin master:my_work
+  ```
+
+  then you would have pushed your local `master` to `origin/my_work`. If you don't use the `:my_work` part, then the destination defaults to the same branch as given as source.
+
 ## Update git remote
 
 ```bash
