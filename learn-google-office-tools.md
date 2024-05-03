@@ -6,7 +6,7 @@
 ## Google Doc Tutorial
 
 **Render a google doc via iframe:**
-- Check this file here: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/vocab.html)
+- Check this file here: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/vocab.html), Output: [sahilrajput.com/vocab.html](https://sahilrajput.com/vocab.html)
 
 **Copy link to a heading in a doc:**
 
