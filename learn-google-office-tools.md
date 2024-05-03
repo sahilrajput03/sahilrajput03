@@ -3,6 +3,10 @@
 **Google Office:**
 - You can create a new line in an excel cell by pressing `alt+Enter` key.
 
+**Copy link to a heading in a doc:**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/40b4d105-33e6-445b-8e27-961dee631f85)
+
 ## Google Slide Tutorial
 
 - Google Slides - Full Tutorial - **Prolific Oaktree** - [17 mins @youtube](https://www.youtube.com/watch?v=KFPB68S7L54)
