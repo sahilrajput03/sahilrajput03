@@ -71,6 +71,7 @@ With v0:
 - MiniGPT-4 Github Repo (22K*): [Click here](https://github.com/Vision-CAIR/MiniGPT-4)
 - llama: [Click here](https://github.com/facebookresearch/llama), llama-recepies: [Click here](https://github.com/facebookresearch/llama-recipes)
 - Devika (opensource alternate to Devin): [Click here](https://github.com/stitionai/devika)
+- ComfyUI: [Click here](https://github.com/comfyanonymous/ComfyUI), [reddit news](https://www.reddit.com/r/StableDiffusion/comments/1156d1n/comfyui_an_extremely_powerful_stable_diffusion/), (source: Varun Mayya @ [Youtube](https://www.youtube.com/shorts/xKNjqhMroSQ))
 
 More:
 - Is midjourney opensource: youtube - [Click here](https://www.youtube.com/watch?v=HSdp_Qe4VgY)
