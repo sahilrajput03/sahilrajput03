@@ -6,7 +6,7 @@
 
 - Recepie Book: [Click here](https://recipebook.io/)
 - Diet by Gurumann: [Click here](https://www.youtube.com/watch?v=dYUdpBkTcvA)
-- Different Types of Lentils (Dals): [Click here](https://www.myweekendkitchen.in/types-of-lentils-pulses-english-hindi/)
+- **Different Types of Lentils (Dals): [Click here](https://www.myweekendkitchen.in/types-of-lentils-pulses-english-hindi/)**
 
 **EXPERIMENTS:**
 - Neem with turmeric: [Click here](https://www.youtube.com/shorts/K3ISt-wztUY)
