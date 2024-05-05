@@ -21,9 +21,12 @@ The shelf life of an unrefrigerated egg is 7 to 10 days and for refrigerated egg
 ## Drinks
 
 - Water
-- Banana, Badam Shake
+- Banana Shake
+- Badam Shake
+- Cholocate Shake
 - Lassi
 - Tea
+- Hot/Cold Coffee
 
 # Have 1-2 glass of water on waking
 
