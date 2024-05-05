@@ -190,10 +190,13 @@ Procedure:
 </details>
 
 <ins>**Bread Recepies**</ins>
-- Bread with butter + milk
-- Bread with ghee + tea
-- Bread with peanutbutter + milk
-- Bread with ketup + milk
+
+**Drinks with bread recipies: Hot Milk, Tea, Chocolate Shake**
+
+- Bread with butter
+- Bread with ghee
+- Bread with peanutbutter ([check this short on youtube](https://www.youtube.com/shorts/B4Q7vQ9M7fw))
+- Bread with Stuffing (Potato, Onion & Tomato)
 
 - Chicken - BUTTER GARLIC CHICKEN RECIPE: [Click here](https://www.youtube.com/watch?v=W8gnfLe8n04)
 - Chicken - Steak Recepie: [Click here](https://www.youtube.com/watch?v=5qS4Fnb9GMA)
