@@ -118,7 +118,7 @@ cat /dev/null
 - **Blockchain Development:**
 	- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
-- Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
+- **DevOps with Docker | MOOC | Unviersity of Helsinki: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - Dictionary: [Click here](./dictionary.md)
 - **Acronyms:** [Click here](./acroynms.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
