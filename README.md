@@ -4,7 +4,7 @@
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
 - Talent (quality/perfection) < Hardwork < **Consistency**
-- Ips: 192.168.1.4 (a), 192.168.1.21 (d)
+- Ips: 192.168.1.4 (a), 192.168.1.21 (d), 192.168.1.11 (r)
 - Prefering Google Doc over Markdown Pages:
   - WYSIWYG
     - Faster Usage than markdown. In Google doc there is **no need to verify the if the markdown code outputs desired page output.**
