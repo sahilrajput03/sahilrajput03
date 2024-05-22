@@ -196,13 +196,18 @@ Procedure:
 
 **Drinks with bread recipies: Hot Milk, Tea, Chocolate Shake**
 
-- Bread with butter
-- Bread with ghee
-- Bread with peanutbutter ([check this short on youtube](https://www.youtube.com/shorts/B4Q7vQ9M7fw))
-- Bread with Stuffing (Potato, Onion & Tomato)
+Bread with:
+- butter
+- ghee
+- with stuffing of potato, onion & tomato
+- honey
+- honey and peanut butter
+- peanutbutter ([check this short on youtube](https://www.youtube.com/shorts/B4Q7vQ9M7fw))
 
-- Chicken - BUTTER GARLIC CHICKEN RECIPE: [Click here](https://www.youtube.com/watch?v=W8gnfLe8n04)
-- Chicken - Steak Recepie: [Click here](https://www.youtube.com/watch?v=5qS4Fnb9GMA)
+<ins>**Chicken Recepies**</ins>
+
+- chicken - BUTTER GARLIC CHICKEN RECIPE: [Click here](https://www.youtube.com/watch?v=W8gnfLe8n04)
+- chicken - Steak Recepie: [Click here](https://www.youtube.com/watch?v=5qS4Fnb9GMA)
 
 ## Other Stuff
 
