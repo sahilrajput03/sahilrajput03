@@ -11,7 +11,7 @@ Source: https://regexone.com/
 **Quick Links:**
 - **Regex debugger**: https://regex101.com/
 
-## Amazion regex thing is
+## Amazon regex thing is
 
 `^(?!.*[\r\n])[a-zA-Z0-9.?!;:]*$`
 
