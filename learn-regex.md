@@ -11,6 +11,12 @@ Source: https://regexone.com/
 **Quick Links:**
 - **Regex debugger**: https://regex101.com/
 
+## Amaziong regex thing is
+
+`^(?!.*[\r\n])[a-zA-Z0-9.?!;:]*$`
+
+Note: Above regex is used by rishabh to only include special characters `.?!;:`, alpha numeric text and there should be no new line character.
+
 ## Amazing re-Eric, using capture groups
 
 ```
