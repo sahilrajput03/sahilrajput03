@@ -1,5 +1,7 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
+`^( ?,!.*[\r\n])[a-zA-Z0-9.?!;:]*$`
+
 - Why do we need to play games? Play the connection instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
