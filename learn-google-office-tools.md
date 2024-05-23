@@ -7,6 +7,8 @@
 
 Enable markdown from **Tools > Preferences > Automatically detect Markdown**.
 
+The drawback of this practise is that whenever you press # it will convert to a heading as it does in markdown.
+
 ## Google Doc Tutorial
 
 **Render a google doc via iframe:**
