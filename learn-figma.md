@@ -15,9 +15,35 @@
   - TODO - https://medium.com/ansh-mehra
   - Chrome New Tab Extension: [Click here](https://chrome.google.com/webstore/detail/muzli-2-stay-inspired/glcipcfhmopcgidicgdociohdoicpdfc?hl=en)
 
-## Resources for images, gifs, svgs ?:
+### images, gifs, svgs images #free images, #random image #place holderimage
 
-[Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#images-free-images-random-image-place-holderimage)
+```bash
+# COLOR THEMES
+https://coolors.co/
+
+# ICONS
+https://iconarchive.com/
+
+
+# PHOTOS
+https://unsplash.com
+https://pixabay.com/
+https://undraw.co # Open Source Illustrations(svgs):
+
+# FOR APIS:
+# 1. picsum.photos // TIP : To get a selected image, use redirected image link instead
+https://picsum.photos/300/400 	# Reactangular images (w:300, h:400)
+https://picsum.photos/100 	# Square images
+https://picsum.photos/200 	# ...can go upto... /1000
+
+
+# 2. placekitten.com
+https://placekitten.com/ 	# Search your cat image
+http://placekitten.com/200/300	# (w:300, h:400)
+https://placekitten.com/200/301 # HACK: Get to get different cat from above
+
+# FYI: https://unsplash.it/ redirects to https://picum.photos
+```
 
 ## Resizing controls have been changed in toolbar
 
