@@ -21,6 +21,7 @@
 # COLOR THEMES
 https://coolors.co/
 
+
 # ICONS
 https://iconarchive.com/
 
@@ -35,7 +36,6 @@ https://undraw.co # Open Source Illustrations(svgs):
 https://picsum.photos/300/400 	# Reactangular images (w:300, h:400)
 https://picsum.photos/100 	# Square images
 https://picsum.photos/200 	# ...can go upto... /1000
-
 
 # 2. placekitten.com
 https://placekitten.com/ 	# Search your cat image
