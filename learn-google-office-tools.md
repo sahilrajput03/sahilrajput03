@@ -3,6 +3,10 @@
 **Google Office:**
 - You can create a new line in an excel cell by pressing `alt+Enter` key.
 
+## To have code block work using ` as it works in markdown
+
+Enable markdown from **Tools > Preferences > Automatically detect Markdown**.
+
 ## Google Doc Tutorial
 
 **Render a google doc via iframe:**
