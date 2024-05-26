@@ -31,11 +31,6 @@
 		- https://picsum.photos/100 	# Square images
 		- https://picsum.photos/200 	# ...can go upto... /1000
 
-	- 2. placekitten.com
-		- https://placekitten.com/ 	# Search your cat image
-		- http://placekitten.com/200/300	# (w:300, h:400)
-		- https://placekitten.com/200/301 # HACK: Get to get different cat from above
-
 FYI: https://unsplash.it/ redirects to https://picum.photos
 
 ## Resizing controls have been changed in toolbar
