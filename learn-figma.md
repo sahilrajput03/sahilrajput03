@@ -17,7 +17,7 @@
 
 ### images, gifs, svgs images #free images, #random image #place holderimage
 
-- Color themes:
+- Color themes
 	- https://coolors.co/
 - Icons
 	- https://iconarchive.com/
