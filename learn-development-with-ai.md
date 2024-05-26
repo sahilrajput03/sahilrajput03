@@ -79,7 +79,12 @@ More:
 - privateGPT - Github 31K* - [Click here](https://github.com/imartinez/privateGPT), Medium Article: [Click here](https://medium.com/codingthesmartway-com-blog/privategpt-the-ultimate-solution-for-offline-secure-language-processing-that-turns-your-pdfs-into-b5cd4ee5db8e)
 - Alakh Pandey - [Click here](https://www.youtube.com/watch?v=FtIEhrZD_5I)
 
-## Technical documentation helper  [kapa.ai](https://kapa.ai)
+## voice, text to speech
+
+1. **Free Real Time - Voice Changer:** [voice.ai](voice.ai)
+2. Text to speech - elevenlabs: [Click here](https://elevenlabs.io/pricing)
+
+## AI BOT for Technical documentation helper  [kapa.ai](https://kapa.ai)
 
 Open docker's documentation: [Click here](https://docs.docker.com/)
 
