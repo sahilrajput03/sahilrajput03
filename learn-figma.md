@@ -24,14 +24,14 @@
 - Images
 	- [https://unsplash.com](https://unsplash.com)
 	- [https://pixabay.com](https://pixabay.com)
-	- [https://undraw.co](https://undraw.co) Open Source Illustrations(svgs): 
+	- [https://undraw.co](https://undraw.co) - Open Source Illustrations(svgs)
 - Images for APIs
-	- 1. picsum.photos (TIP : To get a particular image link, use redirected image link from the below links)
+	- 1. picsum.photos (Tip: To get a particular image link, use redirected image link from the below links)
 		- [https://picsum.photos/300/400](https://picsum.photos/300/400) - Reactangular images (w:300, h:400)
 		- [https://picsum.photos/100](https://picsum.photos/100) - Square images
-		- [https://picsum.photos/200](https://picsum.photos/200) - You can go upto... 
+			- [https://picsum.photos/200](https://picsum.photos/200)
 
-FYI: https://unsplash.it/ redirects to https://picum.photos
+FYI: [https://unsplash.it](https://unsplash.it) redirects to [https://picum.photos](https://picum.photos)
 
 ## Resizing controls have been changed in toolbar
 
