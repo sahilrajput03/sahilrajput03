@@ -1,13 +1,17 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
-- Why do we need to play games? Play the connection instead.
+- Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
 - Talent (quality/perfection) < Hardwork < **Consistency**
 - Ips: 192.168.1.4 (a), 192.168.1.21 (d), 192.168.1.11 (r)
-- Prefering Google Doc over Markdown Pages:
+- I prefer making notes in Google Doc rather than in markdown or any other software like notion because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc. *Below are some features of Google Doc that you might helpful too:*
+	- give people exclusive acces as per need i.e., read, write or read/write.
+	- can be published to web via direct link using "Publish to web" feature. You can find it here "File > Share feature > Publish to web".
+	- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document (non coders) for e.g., as its embedded on [this page](https://sahilrajput.com/vocab.html).
   - WYSIWYG
-    - Faster Usage than markdown. In Google doc there is **no need to verify the if the markdown code outputs desired page output.**
+    - Faster Usage than markdown.
+    - There is syntax language to be learned.
   - Editable on Google Doc app on mobile
 - You only loose information which you don't want to make accessible.
 
