@@ -62,7 +62,6 @@ cat /dev/null
 
 - English:
 	- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
-	 - English Vocab 💫: [Click here](english-vocab.md)
 - **Stocks, Trading, Zerodha:**
 	- Stocks Blog: [Click here](https://docs.google.com/document/d/1r_Y1KKSI4DQ0gjWynQVGRX6W7V0fMZCKzT5WldlamTU/edit#heading=h.y03v6kzl6nf)
 	- Learn Stocks: [Click here](./learn-stocks.md)
