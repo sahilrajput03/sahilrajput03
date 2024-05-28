@@ -8,7 +8,7 @@
 - I prefer making notes in Google Doc rather than in markdown or any other software like notion because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc. *Below are some features of Google Doc that you might helpful too:*
 	- give people exclusive acces using email for read or write permissions 
 	- can be published to web via direct link using "Publish to web" feature. You can find it here "File > Share feature > Publish to web".
-	- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document. This could be really helpful thing particularly for non coders. You can get the embed code for the document by going to "File > Share feature > Embed". Here is an [example](https://sahilrajput.com/vocab.html) you can check this Tip: Use `option + cmd + u` (macos) or `ctrl + u` (on mac/linux) to see the source code of the html page.
+	- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document. This could be really helpful thing particularly for non coders. You can get the embed code for the document by going to "File > Share feature > Embed". Here is an [example](https://sahilrajput.com/vocab.html) which you can check and you can actually view the source code of the html page via `option + cmd + u` (macos) or `ctrl + u` (on mac/linux).
   - WYSIWYG
     - Faster Usage than markdown.
     - There is syntax language to be learned.
