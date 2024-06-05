@@ -3,6 +3,13 @@
 **Google Office:**
 - You can create a new line in an excel cell by pressing `alt+Enter` key.
 
+## Make two or three column view in google docs
+
+Help page from Google Docs: [Click here](https://support.google.com/docs/answer/7029052?hl=en&co=GENIE.Platform%3DDesktop)
+
+1. Click Format and then Columns.
+2. Select the number of columns you want.
+
 ## To have code block work using ` as it works in markdown
 
 Enable markdown from **Tools > Preferences > Automatically detect Markdown**.
