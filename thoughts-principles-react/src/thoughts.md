@@ -313,3 +313,5 @@
 - As you know life is an echo, we get what we give.
 
 - Life is awesome, isn't it?
+
+- Life is fun!
