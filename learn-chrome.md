@@ -5,6 +5,18 @@ Disabled below extensions becoz of too much memory usage(deteced from Google Chr
 - Auto Youtube Quality
 - Metamask
 
+# Lots of unnecessary logs `DOM changed detected: Re-initialize code copier` each time any useEffect is run?
+
+You can see unnecessary logs in below screenshot and the culprit is `Code Copier` chrome extension. 
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/33345bba-7ac7-4c82-8cdd-415d464f113e" width="800" />
+
+Since this extension is useful we choose keep this extension enabled and do appropriate changes to disable this extension on localhost and other development sites.
+
+To disable these logs completely on `localhost` you can simply go to the extension settings of `Code Copier` and then follow below screenshot to disable those logs on localhost domain. NOTE: You would need to aditionally add more domain by separating with comma to disable logs on additional sites as per need.
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/dee87648-efbc-491c-87e1-a51dda7d4bd4" width="800" />
+
 # Chrome Extensions
 
 - [Talk-to-ChatGPT](https://chrome.google.com/webstore/detail/talk-to-chatgpt/hodadfhfagpiemkeoliaelelfbboamlk)
