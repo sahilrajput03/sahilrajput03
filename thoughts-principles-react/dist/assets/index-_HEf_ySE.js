@@ -224,7 +224,7 @@ Error generating stack: `+i.message+`
 
 - I Am a Slow Walker but I Never Walk Back – Abraham Lincoln: ~ Abraham Lincon
 
-- After-college is way more important anyway.  That's where life really begins! ~ Eric
+- After-college is way more important anyway. That's where life really begins! ~ Eric
 
 - For he is fool, who knows only the truth but not the difference between the lies and the truth. ~ Krishan (=> Arjun)
 
@@ -258,7 +258,7 @@ Error generating stack: `+i.message+`
 
 - Being alone is a power only few can handle.
 
-- Sex is meaningless spritiual goal.  ~ Sahil
+- Sex is meaningless spritiual goal. ~ Sahil
 
 - Difficulty shows what men are. ~ Epictetus
 
@@ -278,7 +278,7 @@ Error generating stack: `+i.message+`
 
 - When you're really tired you make assumptions that reaching some goal would take x amount of time. It is Parkinson's Law that work expands to fill the - time allotted for its completion. SOLUTION: Never watch time when you're tired, just set a timer and start working again on work, that's best way to break it.
 
-- "Fate loves irony" i.e., events in our lives happens when the opposite of what we expect happens. 
+- "Fate loves irony" i.e., events in our lives happens when the opposite of what we expect happens.
 
 - Stop being afraid, go find out what your life can be. Billie's Mother to Billie.
 
@@ -352,7 +352,7 @@ Error generating stack: `+i.message+`
 
 - Life is too short for long-term grudges. ~ Elon Musk
 
-- If something's important enough, you should try. Even if - the probable outcome is failure.  ~ Elon Musk
+- If something's important enough, you should try. Even if - the probable outcome is failure. ~ Elon Musk
 
 - If you're trying to create a company, it's like baking a cake. You have to have all the ingredients in the right proportion. ~ Elon Musk
 
@@ -362,6 +362,9 @@ Error generating stack: `+i.message+`
 
 - You do not find a happy life, you make it.
 
-- As you know life is an echo, we get what we give.`,yb=1e3;function _b(){const[e,t]=ut.useState(!0),[n]=ut.useState((Hs==null?void 0:Hs.split(`
+- As you know life is an echo, we get what we give.
+
+- Life is awesome, isn't it?
+`,yb=1e3;function _b(){const[e,t]=ut.useState(!0),[n]=ut.useState((Hs==null?void 0:Hs.split(`
 
 `))||[]),[r,u]=ut.useState([]),[i]=Tb(),[a,o]=ut.useState(!1);if(ut.useEffect(()=>{Yi.list=[...n],u([Rf()]),t(!1)},[]),ut.useEffect(()=>{if(a)return;const c=setInterval(()=>{u(f=>[Rf(),...f])},yb);return()=>clearInterval(c)},[a,n]),e)return fe.jsx("div",{children:"..."});const l=()=>{o(!a)};return fe.jsxs(fe.Fragment,{children:[fe.jsx("h1",{children:"Thoughts, Principles"}),fe.jsx("button",{style:{marginBottom:50},onClick:l,children:a?"Show random 🚀":"Show all 🚀"}),fe.jsx("div",{ref:i,children:a?n.map(c=>fe.jsx(Hd,{thought:c})):r.map(c=>fe.jsx(Hd,{thought:c},c))}),fe.jsxs("div",{children:[fe.jsxs("h1",{children:["TODO ",fe.jsx("div",{style:{color:"red"},children:"(URGENT)"}),': Add new list from below pages here in the "show all" section & also make different markdown files so that below files as well: ']}),fe.jsxs("li",{children:["Office Ethics: ",fe.jsx("a",{target:"_blank",href:"https://github.com/sahilrajput03/sahilrajput03/blob/main/office-ethics.md",children:"Click here"})]}),fe.jsxs("li",{children:["Social Rules: ",fe.jsx("a",{target:"_blank",href:"https://github.com/sahilrajput03/sahilrajput03/blob/main/social-rules.md",children:"Click here"})]}),fe.jsxs("li",{children:["Single Big Mistakes: ",fe.jsx("a",{target:"_blank",href:"https://github.com/sahilrajput03/sahilrajput03/blob/main/single-big-mistake.md",children:"Click here"})]})]}),fe.jsxs("div",{className:"footnotes",children:["Source: ",fe.jsx("a",{href:"https://github.com/sahilrajput03/sahilrajput03/tree/master/thoughts-principles-react",children:"Click here"})]})]})}const Hd=({thought:e})=>fe.jsx(v_,{rehypePlugins:[QC,()=>rb({target:"_blank"})],children:e});Us.createRoot(document.getElementById("root")).render(fe.jsx(t1.StrictMode,{children:fe.jsx(_b,{})}));
