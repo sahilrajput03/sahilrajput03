@@ -24,7 +24,7 @@
 		- internet conectivity over broadband
 		- electricity on site
 - Why raspberry pi over AWS?
-	- Cheaper in cost i.e., you would save cost around 8-10 thousand probably as if it were hosted on aws as you can host multiple applications on raspberry pi.
+	- Cheaper in cost i.e., you would save cost around 8-10 thousand probably as if it were hosted on aws as you can host multiple applications on 8GB raspberry pi.
 
 ```bash
 echo Hello world! > /dev/null
