@@ -8,35 +8,25 @@ import rehypeRaw from 'rehype-raw'
 import rehypeExternalLinks from 'rehype-external-links'
 import { useAutoAnimate } from '@formkit/auto-animate/react'
 
-const baseUrl = '/thoughts-principles-react/dist'
+// Import markdown files
+import thoughts1 from './thoughts1.md';
 
-const toggleRandomThoughtsTime = 15_000 // 5_000
+const toggleRandomThoughtsTime = 1_000 // 5_000
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
-  const [thoughts, setThoughts] = useState<string[]>([])
+  const [thoughts] = useState<string[]>(thoughts1?.split('\n\n') || [])
   const [randomThoughts, setRandomThoughts] = useState([])
-  // console.log('randomThoughts?', randomThoughts);
 
   const [animationRef] = useAutoAnimate()
 
   const [showAll, setShowAll] = useState(false)
 
   useEffect(() => {
-    fetch(`${baseUrl}/thoughts.md`)
-      .then(response => response.text())
-      .then((text: string) => {
-        const thoughtList = text.split('\n\n');
-        thoughtsData.list = [...thoughtList] as any
-
-        setThoughts(thoughtList)
-        setRandomThoughts([getRandomThought()] as any)
-        setIsLoading(false)
-      })
-
-    return () => {
-
-    }
+    // Make copy of `thoughts`
+    thoughtsData.list = [...thoughts] as any
+    setRandomThoughts([getRandomThought()] as any)
+    setIsLoading(false)
   }, [])
 
   useEffect(() => {
@@ -56,7 +46,7 @@ function App() {
   }, [showAll, thoughts])
 
   // Do not show anything until contents are loaded
-  if (isLoading) { return null }
+  if (isLoading) { return <div>...</div> }
 
   const toggleShowAll = () => {
     setShowAll(!showAll)
