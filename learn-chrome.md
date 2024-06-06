@@ -17,6 +17,10 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 
 <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/dee87648-efbc-491c-87e1-a51dda7d4bd4" width="800" />
 
+**After saving the domain as shown below simply refresh the page e.g., for localhost if you added that there and you would notice only a single log notifying that.**
+
+<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/3b4fb0aa-2d82-456a-a2f3-6b0c86d6051d" width="800" />
+
 # Chrome Extensions
 
 - [Talk-to-ChatGPT](https://chrome.google.com/webstore/detail/talk-to-chatgpt/hodadfhfagpiemkeoliaelelfbboamlk)
