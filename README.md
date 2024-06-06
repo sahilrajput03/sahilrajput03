@@ -14,6 +14,15 @@
     - There is syntax language to be learned.
   - Editable on Google Doc app on mobile
 - You only loose information which you don't want to make accessible.
+- AWS (any cloud) over Raspberry pi
+	- Raspberry pi needs re-installation of OS if linux gets messed up.
+	- Raspberry pi needs additional installation of docker/k3s
+	- Raspberry pi needs to be handled over broadband (router settings) via port forwarding to make it accessible over internet.
+	- Raspberry pi would need static ip (monthly paid) or any other no-ip service to make the dynamic ip actually work for any project to work over longer duration of times.
+	- Raspberry pi would need to be setuped for access over ssh.
+	- Raspberry pi is strictly dependent on factors like:
+		- internet conectivity over broadband
+		- electricity on site
 
 ```bash
 echo Hello world! > /dev/null
