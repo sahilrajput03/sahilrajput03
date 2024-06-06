@@ -27,3 +27,6 @@ dist-ssr
 
 # macos
 .DS_Store
+
+# Ignore Vite temporary build files
+vite.config.ts.timestamp-*.mjs
