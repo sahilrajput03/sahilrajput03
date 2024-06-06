@@ -15,10 +15,10 @@ import thoughtsMarkdown from './thoughts.md';
 
 const thoughts = thoughtsMarkdown?.split('\n\n') || []
 
-const toggleRandomThoughtsTime = 3_000 // 5_000
+const toggleRandomThoughtsTime = 8_000 // 5_000
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true)
+  const isComponentMountedRef = useRef<boolean>(false)
   const unlistedRandomThoughtsRef = useRef<string[]>(thoughts)
   const [randomThoughts, setRandomThoughts] = useState<string[]>([])
 
@@ -45,15 +45,16 @@ function App() {
         clearInterval(intervalId)
       }
 
-      // Remove previous randomThought(s) and set a new randomThought(s)
-      // setRandomThoughts(getNewRandomItem(thoughts) as any)
-
-      const i = getRandomIndexOfArray(unlistedRandomThoughtsRef.current)
-      const randomThought = unlistedRandomThoughtsRef.current[i]
-      unlistedRandomThoughtsRef.current = getItemsExceptAtIndex(unlistedRandomThoughtsRef.current, i)
+      const randomIndex = getRandomIndexOfArray(unlistedRandomThoughtsRef.current)
+      const randomThought = unlistedRandomThoughtsRef.current[randomIndex]
+      unlistedRandomThoughtsRef.current = getItemsExceptAtIndex(unlistedRandomThoughtsRef.current, randomIndex)
 
       setRandomThoughts((prev) => [randomThought, ...prev])
-      setIsLoading(false)
+    }
+
+    if (!isComponentMountedRef.current) {
+      addNewRandomThought()
+      isComponentMountedRef.current = true
     }
 
     intervalId = setInterval(addNewRandomThought, toggleRandomThoughtsTime)
@@ -65,9 +66,6 @@ function App() {
     }
   }, [showAll, thoughts])
 
-  // Do not show anything until contents are loaded
-  if (isLoading) { return <div>...</div> }
-
   const toggleShowAll = () => {
     setShowAll(!showAll)
     // TODO: Use below code if you want to clear all random thoughts when we click the "Show random" button
@@ -76,6 +74,9 @@ function App() {
     //   setRandomThoughts(getNewRandomItem(thoughts) as any)
     // }
   }
+
+  // Do not show anything until contents are loaded
+  if (!isComponentMountedRef) { return <div>...</div> }
 
   return (
     <>
