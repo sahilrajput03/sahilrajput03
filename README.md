@@ -14,7 +14,7 @@
     - There is syntax language to be learned.
   - Editable on Google Doc app on mobile
 - You only loose information which you don't want to make accessible.
-- AWS (any cloud) over Raspberry pi
+- Why AWS (any cloud) over Raspberry pi
 	- Raspberry pi needs re-installation of OS if linux gets messed up.
 	- Raspberry pi needs additional installation of docker/k3s
 	- Raspberry pi needs to be handled over broadband (router settings) via port forwarding to make it accessible over internet.
@@ -23,6 +23,8 @@
 	- Raspberry pi is strictly dependent on factors like:
 		- internet conectivity over broadband
 		- electricity on site
+- Why raspberry pi over AWS?
+	- Cheaper in cost i.e., you would save cost around 8-10 thousand probably as if it were hosted on aws as you can host multiple applications on raspberry pi.
 
 ```bash
 echo Hello world! > /dev/null
