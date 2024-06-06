@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './App.css'
-import { getRandomThought, thoughtsData } from './utils'
+import { getCurrentTime, getItemsExceptAtIndex, getRandomIndexOfArray } from './utils'
 
 import Markdown from 'react-markdown'
 // Rehype plugins
@@ -9,40 +9,60 @@ import rehypeExternalLinks from 'rehype-external-links'
 import { useAutoAnimate } from '@formkit/auto-animate/react'
 
 // Import markdown files
-import thoughts1 from './thoughts1.md';
+import thoughtsMarkdown from './thoughts.md';
 
-const toggleRandomThoughtsTime = 1_000 // 5_000
+// import thoughtsMarkdown from './thoughtsTest.md'; // Use this import for testing purpose.
+
+const thoughts = thoughtsMarkdown?.split('\n\n') || []
+
+const toggleRandomThoughtsTime = 3_000 // 5_000
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
-  const [thoughts] = useState<string[]>(thoughts1?.split('\n\n') || [])
-  const [randomThoughts, setRandomThoughts] = useState([])
+  const unlistedRandomThoughtsRef = useRef<string[]>(thoughts)
+  const [randomThoughts, setRandomThoughts] = useState<string[]>([])
 
   const [animationRef] = useAutoAnimate()
 
   const [showAll, setShowAll] = useState(false)
 
   useEffect(() => {
-    // Make copy of `thoughts`
-    thoughtsData.list = [...thoughts] as any
-    setRandomThoughts([getRandomThought()] as any)
-    setIsLoading(false)
-  }, [])
-
-  useEffect(() => {
+    console.log('>>> [START 🚀] effect')
+    let intervalId;
     // Do not schedule interval when we switch to `showAll` view
-    if (showAll) { return; }
+    if (showAll) {
+      console.log('INFO: Since `showAll` is true we do not do anything and simply return.')
+      return;
+    }
 
-    const timer = setInterval(() => {
+    function addNewRandomThought() {
+      // console.log('`addNewRandomThought()` called...')
+      console.log('🌟 [FUNCTION CALL] addNewRandomThought() at', getCurrentTime())
+
+      // We clear interval at the start of this function to stop interval execution of `addNewRandomThought()` and also to avoid memory leak.
+      if (unlistedRandomThoughtsRef.current.length === 1) {
+        console.log('** 🛑 Cleared interval execution with', { intervalId }, 'to prevent memory leaks.')
+        clearInterval(intervalId)
+      }
 
       // Remove previous randomThought(s) and set a new randomThought(s)
       // setRandomThoughts(getNewRandomItem(thoughts) as any)
 
-      // Append to previous randomThought(s)
-      setRandomThoughts((prev) => [getRandomThought(), ...prev] as any)
-    }, toggleRandomThoughtsTime)
+      const i = getRandomIndexOfArray(unlistedRandomThoughtsRef.current)
+      const randomThought = unlistedRandomThoughtsRef.current[i]
+      unlistedRandomThoughtsRef.current = getItemsExceptAtIndex(unlistedRandomThoughtsRef.current, i)
 
-    return () => clearInterval(timer)
+      setRandomThoughts((prev) => [randomThought, ...prev])
+      setIsLoading(false)
+    }
+
+    intervalId = setInterval(addNewRandomThought, toggleRandomThoughtsTime)
+    console.log(`Execution of addNewRandomThought() every 3 seconds started with`, { intervalId })
+
+    return () => {
+      clearInterval(intervalId)
+      console.log('<<< [END ✅] cleanup + 🛑 Cleared interval execution with', { intervalId })
+    }
   }, [showAll, thoughts])
 
   // Do not show anything until contents are loaded
