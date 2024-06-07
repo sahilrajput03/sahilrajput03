@@ -28,12 +28,14 @@ function App() {
 
   useEffect(() => {
     console.log('>>> [START 🚀] effect')
-    let intervalId;
+
     // Do not schedule interval when we switch to `showAll` view
     if (showAll) {
       console.log('INFO: Since `showAll` is true we do not do anything and simply return.')
       return;
     }
+
+    let intervalId;
 
     function addNewRandomThought() {
       // console.log('`addNewRandomThought()` called...')

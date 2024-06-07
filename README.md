@@ -347,8 +347,8 @@ cat /dev/null
 
 ## Writings, Reads**
 
-- **❤️ Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist/) *(Absolute URL to page on sahilrajput.com domain)*
+- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist/) *(Absolute URL to page on sahilrajput.com domain)*
 	- [./thoughts-principles-react/dist/](./thoughts-principles-react/dist/) *(For livereload development, when rendred as website and will open code files when opened from github.com domain)*
 	- [old](./thoughts-principles.md)
 
-- ❤️ Office Ethics, ❤️ Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
+- Office Ethics, Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
