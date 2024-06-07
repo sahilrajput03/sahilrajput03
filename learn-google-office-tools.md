@@ -12,7 +12,7 @@ Help page from Google Docs: [Click here](https://support.google.com/docs/answer/
 
 ## To have code block work using ` as it works in markdown
 
-Enable markdown from **Tools > Preferences > Automatically detect Markdown**.
+**Tools > Preferences > Automatically detect Markdown**.
 
 The drawback of this practise is that whenever you press # it will convert to a heading as it does in markdown.
 
