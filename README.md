@@ -345,9 +345,9 @@ cat /dev/null
 - VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 - Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
 
-## Writings, Reads**
+## Original & Curated Articles
 
-- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist/) *(Absolute URL to page on sahilrajput.com domain)*
+- **Thoughts, Principles:** [https://sahilrajput.com/thoughts-principles-react/dist](https://sahilrajput.com/thoughts-principles-react/dist)
 	- [./thoughts-principles-react/dist/](./thoughts-principles-react/dist/) *(For livereload development, when rendred as website and will open code files when opened from github.com domain)*
 	- [old](./thoughts-principles.md)
 
