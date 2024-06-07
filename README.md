@@ -121,7 +121,7 @@ cat /dev/null
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
   - Blogs:
-	- DR. WERNER VOGELS, CTO, AMAZON.COM
+	- Dr. Werner Vogels, CTO, Amazon.com
 		- [LinkedIn](https://www.linkedin.com/in/wernervogels/)
 		- Blog: [allthingsdistributed.com](https://www.allthingsdistributed.com/)
 	- https://blog.isquaredsoftware.com/
