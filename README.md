@@ -66,8 +66,6 @@ cat /dev/null
 - I learned a system for remembering everything: [Click here](https://www.youtube.com/watch?v=Rvey9g0VgY0)
 - Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
 
-#### Entertainment: [Click here](entertainment.md)
-
 #### Original & Curated Articles
 
 - **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist)
