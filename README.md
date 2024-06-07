@@ -57,19 +57,23 @@ cat /dev/null
  	- 2 - [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
 
-### Depressions & Mental Health Support
+#### Depressions & Mental Health Support
 
 - wannatalkaboutit.com: [Click here](https://www.wannatalkaboutit.com/)
 
-## Be Productive with videos 📽️ 🎬
+#### Be Productive with videos 📽️ 🎬
 
 - I learned a system for remembering everything: [Click here](https://www.youtube.com/watch?v=Rvey9g0VgY0)
 - Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
 
 #### Entertainment: [Click here](entertainment.md)
 
-**Quick Links:**
+#### Original & Curated Articles
 
+- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist)
+- Office Ethics, Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
+
+**Quick Links:**
 
 - English:
 	- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
@@ -344,8 +348,3 @@ cat /dev/null
 - Learn Microfrontend: [Click here](learn-microfrontend.md)
 - VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 - Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
-
-## Original & Curated Articles
-
-- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist)
-- Office Ethics, Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
