@@ -152,6 +152,7 @@ cat /dev/null
 - **Learn Curl:** [Click here](./learn-curl.md)
 - **Learn Git:** [Click here](./learn-git.md)
 - **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
+- **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
 - **Learn Gmail:** [Click here](./learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **Learn Regex:** [Click here](./learn-regex.md)
