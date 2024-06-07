@@ -162,11 +162,6 @@ cat /dev/null
 - **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
 - **Learn CLI binaries:** [Click here](./learn-cli-binary.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **❤️ Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist/) *(Absolute URL to page on sahilrajput.com domain)*
-	- [./thoughts-principles-react/dist/](./thoughts-principles-react/dist/) *(For livereload development, when rendred as website and will open code files when opened from github.com domain)*
-	- [old](./thoughts-principles.md)
-- **❤️ Social rules: [Click here](./social-rules.md)**
-- **❤️Office Ethics: [Click here](./office-ethics.md)**
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](./vim.md)
 - **Learn Vscode:** [Click here](./learn-vscode.md)
@@ -216,7 +211,6 @@ cat /dev/null
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](./game-development.md)
 - **Food, Diet Plan, Proteins:** [Click here](./food.md)
 - **Learn Google Calendar:** [Click here](./learn-google-calendar.md)
-- **Single big mistake I made a lot times in last 3 years**: [Click here](./single-big-mistake.md)
 - **Learn Obs:** [Click here](./learn-obs.md)
 - **Challau.com metaverse:** [Click here](./challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
@@ -350,3 +344,11 @@ cat /dev/null
 - Learn Microfrontend: [Click here](learn-microfrontend.md)
 - VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 - Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
+
+## Writings, Reads**
+
+- **❤️ Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist/) *(Absolute URL to page on sahilrajput.com domain)*
+	- [./thoughts-principles-react/dist/](./thoughts-principles-react/dist/) *(For livereload development, when rendred as website and will open code files when opened from github.com domain)*
+	- [old](./thoughts-principles.md)
+
+- ❤️ Office Ethics, ❤️ Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)

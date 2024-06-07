@@ -15,7 +15,7 @@ import thoughtsMarkdown from './thoughts.md';
 
 const thoughts = thoughtsMarkdown?.split('\n\n') || []
 
-const toggleRandomThoughtsTime = 8_000 // 5_000
+const toggleRandomThoughtsTime = 8_000 // 8_000
 
 function App() {
   const isComponentMountedRef = useRef<boolean>(false)
@@ -37,7 +37,7 @@ function App() {
 
     function addNewRandomThought() {
       // console.log('`addNewRandomThought()` called...')
-      console.log('🌟 [FUNCTION CALL] addNewRandomThought() at', getCurrentTime())
+      console.log('🌟 [FUNCTION CALL] addNewRandomThought() at', getCurrentTime(), { intervalId })
 
       // We clear interval at the start of this function to stop interval execution of `addNewRandomThought()` and also to avoid memory leak.
       if (unlistedRandomThoughtsRef.current.length === 1) {
@@ -52,19 +52,20 @@ function App() {
       setRandomThoughts((prev) => [randomThought, ...prev])
     }
 
-    if (!isComponentMountedRef.current) {
+    const componentHasNotMounted = !isComponentMountedRef.current
+    if (componentHasNotMounted) {
       addNewRandomThought()
       isComponentMountedRef.current = true
+    } else {
+      intervalId = setInterval(addNewRandomThought, toggleRandomThoughtsTime)
+      console.log(`Execution of addNewRandomThought() every ${toggleRandomThoughtsTime / 1_000} seconds started with`, { intervalId })
     }
-
-    intervalId = setInterval(addNewRandomThought, toggleRandomThoughtsTime)
-    console.log(`Execution of addNewRandomThought() every 3 seconds started with`, { intervalId })
 
     return () => {
       clearInterval(intervalId)
       console.log('<<< [END ✅] cleanup + 🛑 Cleared interval execution with', { intervalId })
     }
-  }, [showAll, thoughts])
+  }, [showAll])
 
   const toggleShowAll = () => {
     setShowAll(!showAll)
