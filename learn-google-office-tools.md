@@ -8,6 +8,8 @@
 - `@now` will output as `Jun 9, 2024 4:39 AM`
 - `@today` will output as `Jun 9, 2024`
 
+Note: This is actually a `Smart Chip`, you can manually add a Date via `Inset > Smart Chips > Date`.
+
 ## Does heading comes under title or the other way in google doc?
 
 Source: ChatGPT
