@@ -3,7 +3,7 @@
 **Google Office:**
 - You can create a new line in an excel cell by pressing `alt+Enter` key.
 
-## We can add date or date+time in google doc without actually writing it
+## 🚀 🩷 🚀 🩷 We can add date or date+time in google doc without actually writing it
 
 - `@now` will output as `Jun 9, 2024 4:39 AM`
 - `@today` will output as `Jun 9, 2024`
