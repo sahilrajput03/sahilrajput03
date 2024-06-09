@@ -56,12 +56,12 @@ function App() {
 
     const componentHasNotMounted = !isComponentMountedRef.current
     if (componentHasNotMounted) {
-      addNewRandomThought()
+      addNewRandomThought() // We want to run `addNewRandomThought()` instantly without any delay for the first time i.e., on component mount.
       isComponentMountedRef.current = true
-    } else {
-      intervalId = setInterval(addNewRandomThought, toggleRandomThoughtsTime)
-      console.log(`Execution of addNewRandomThought() every ${toggleRandomThoughtsTime / 1_000} seconds started with`, { intervalId })
     }
+
+    intervalId = setInterval(addNewRandomThought, toggleRandomThoughtsTime)
+    console.log(`Execution of addNewRandomThought() every ${toggleRandomThoughtsTime / 1_000} seconds started with`, { intervalId })
 
     return () => {
       clearInterval(intervalId)
