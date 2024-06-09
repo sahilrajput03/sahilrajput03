@@ -3,6 +3,7 @@
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
+- YAGNI principle: You aren't gonna need it. Don't over engineer and assume that everything must be fully customizable and flexible. This is something that software engineers run often into: making highly customizable solutions for the sake of unwanted ("un-needed") flexibility. It can be more difficult to maintain and evolve.
 - Talent (quality/perfection) < Hardwork < **Consistency**
 - Ips: 192.168.1.4 (a), 192.168.1.21 (d), 192.168.1.11 (r)
 - I prefer making notes in Google Doc rather than in markdown or any other software like notion because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc. *Below are some features of Google Doc that you might helpful too:*
@@ -96,7 +97,12 @@ cat /dev/null
 - There is not try, either you do it or don't. ~ Frank Oz (Star Wars)
 - Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.” Nature of mind is to wander around, its not problem its the way its designed. My job is to keep getting it back towards the goal.
 - Unwinding is hot no-sugar coffee!
-- Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [web](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
+- Laptops:
+	- [MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)](https://support.apple.com/en-in/111339)
+	- [Dell Latitude 5400](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
+	- [HP Notebook - 15-ac179tx](https://support.hp.com/in-en/document/c04919819)
+- Speaker:
+	- [Boat Stone 650](https://support.boat-lifestyle.com/articles/stone-speakers/stone-650/6218b3b72b115f64864d7ee4), [User Manual](https://media.croma.com/image/upload/v1676364686/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/User%20Manual/221786_User%20Manual.pdf)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
 - More Technologies: trpc (ALERT: Please check my learn-trpc page), hasura and onegraph (graphiql-explorer).
 - Quick Links
@@ -120,12 +126,15 @@ cat /dev/null
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
   - Blogs:
-	  - https://blog.isquaredsoftware.com/
-          - https://tim.blog/
-          - https://ionic.io/blog
-          - https://web.dev/articles (awesome web development articles)
-          - https://web.dev/blog (awesome web development blogs)
-          - Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
+	- Dr. Werner Vogels, CTO, Amazon.com
+		- [LinkedIn](https://www.linkedin.com/in/wernervogels/)
+		- Blog: [allthingsdistributed.com](https://www.allthingsdistributed.com/)
+	- https://blog.isquaredsoftware.com/
+   	- https://tim.blog/
+	- https://ionic.io/blog
+	- https://web.dev/articles (awesome web development articles)
+	- https://web.dev/blog (awesome web development blogs)
+	- Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
 
 ## References:
 
@@ -151,6 +160,8 @@ cat /dev/null
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](./learn-curl.md)
 - **Learn Git:** [Click here](./learn-git.md)
+- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
+- **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
 - **Learn Gmail:** [Click here](./learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **Learn Regex:** [Click here](./learn-regex.md)
@@ -199,7 +210,7 @@ cat /dev/null
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
-- **Office Utility Tools:** [Click here](./learn-google-office-tools.md), [Doc](https://docs.google.com/document/), [Slide](https://docs.google.com/presentation/), [Sheet](https://docs.google.com/spreadsheets)
+- **Office Utility Tools (Google Doc, Google Sheet, Google Slide):** [Click here](./learn-google-office-tools.md)
 - **Why kubernetes?** [Click here](./why-kubernetes.md)
 - **How to workrave?** [Click here](./why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](./modern-software-development-courses.md)

@@ -3,6 +3,19 @@
 **Google Office:**
 - You can create a new line in an excel cell by pressing `alt+Enter` key.
 
+## 🚀 🩷 🚀 🩷 We can add date or date+time in google doc without actually writing it
+
+- `@now` will output as `Jun 9, 2024 4:39 AM`
+- `@today` will output as `Jun 9, 2024`
+
+Note: This is actually a `Smart Chip`, you can manually add a Date via `Inset > Smart Chips > Date`.
+
+## Does heading comes under title or the other way in google doc?
+
+Source: ChatGPT
+
+In Google Docs, the "Title" refers to the main title of your document, typically placed at the top. "Heading" refers to the various levels of headings or subheadings within your document, which are used to organize and structure your content hierarchically. So, in this context, headings come under the title.
+
 ## Make two or three column view in google docs
 
 Help page from Google Docs: [Click here](https://support.google.com/docs/answer/7029052?hl=en&co=GENIE.Platform%3DDesktop)
