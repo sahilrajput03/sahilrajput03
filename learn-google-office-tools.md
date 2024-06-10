@@ -3,11 +3,11 @@
 **Google Office:**
 - You can create a new line in an excel cell by pressing `alt+Enter` key.
 
-## Fix all Spelling and Grammar errors in the doc in a row with manual review
+## 🚀🚀 Fix all Spelling and Grammar errors in the doc in a row with manual review
 
 You can do this by selecting `Tools > Spelling and grammar > Spelling and grammar check`.
 
-## 🚀 🚀 We can add date or date+time in google doc without actually writing it
+## 🚀🚀 We can add date or date+time in google doc without actually writing it
 
 - `@now` will output as `Jun 9, 2024 4:39 AM`
 - `@today` will output as `Jun 9, 2024`
