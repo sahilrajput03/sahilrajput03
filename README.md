@@ -222,7 +222,7 @@ cat /dev/null
 - **Calling server functions from client directly:** [Click here](./learn-api-mount.md)
 - **JS Conf 2022:** [Click here](./notes-js-conf-2022.md)
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](./game-development.md)
-- **Food, Diet Plan, Proteins:** [Click here](./food.md)
+- **Food, Diet Plan, Proteins:** [Click here](https://docs.google.com/document/d/1iLl-g8UoypLcXANbiaTp4Y4fqiPw1ulybeK5gdjgV40/edit?usp=sharing)
 - **Learn Google Calendar:** [Click here](./learn-google-calendar.md)
 - **Learn Obs:** [Click here](./learn-obs.md)
 - **Challau.com metaverse:** [Click here](./challau-metaverse.md)
