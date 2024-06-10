@@ -275,7 +275,6 @@ cat /dev/null
 - Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
 - Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)
 - Learn Jest/expect: [Click here](./learn-jest-expect.md)
-- Lear AWS: [Click here](./learn-aws.md)
 - Learn Elastic Search: [Click here](./learn-elastic-search.md)
 - Suble and Impactful Mistakes with Exceptions: [Click here](./subtle-impactful-exceptions.md)
 - Learn Storybook: [Click here](./learn-storybook.md)
