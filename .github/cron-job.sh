@@ -6,7 +6,7 @@
 # echo TOKEN - $TOKEN
 
 while [[ -z $text ]] ; do
-	text=$(shuf "$(dirname $0)/../thoughts-principles.md" -n1 | grep '.')
+	text=$(shuf "$(dirname $0)/../thoughts-principles-react/src/thoughts.md" -n1 | grep '.')
 done
 
 echo  text is: $text
