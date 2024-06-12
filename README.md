@@ -221,7 +221,6 @@ cat /dev/null
 - **Learn act:** [Click here](./learn-act.md)
 - **Why and how linux?** [Click here](./why-and-how-linux.md)
 - **Service Worker:** [Click here](./learn-service-worker.md)
-- **Wake up:** [Click here](./learn-wake-up.md)
 - **Learn Serverless:** [Click here](./learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](./learn-api-mount.md)
 - **JS Conf 2022:** [Click here](./notes-js-conf-2022.md)
