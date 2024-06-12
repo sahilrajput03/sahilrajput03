@@ -211,7 +211,10 @@ cat /dev/null
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
 - **Office Utility Tools (Google Doc, Google Sheet, Google Slide):** [Click here](./learn-google-office-tools.md)
-- **Why kubernetes?** [Click here](./why-kubernetes.md)
+- **Kubernetes:**
+	- **Why kubernetes?** [Click here](./why-kubernetes.md)
+	- **devopswithkubernetes**: [Click here](https://github.com/sahilrajput03/devopswithkubernetes)
+	- **kube-cluster-dwk**: [Click here](https://github.com/sahilrajput03/kube-cluster-dwk)
 - **How to workrave?** [Click here](./why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](./modern-software-development-courses.md)
 - **Learn act:** [Click here](./learn-act.md)
