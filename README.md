@@ -308,6 +308,7 @@ cat /dev/null
 - Learn Wordpress Editing: [Click here](./learn-wordpress-editing.md)
 - **Learn Capacitor:** [Click here](./learn-capacitor.md)
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
+- Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/11RhQBo-wzvzVdUFe3RwAjhnuTGqSk8hRS5EGyv1lUGE/edit)
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 - Learn Remix: [Click here](./learn-remix.md)
