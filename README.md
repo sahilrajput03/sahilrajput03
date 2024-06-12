@@ -210,10 +210,11 @@ cat /dev/null
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
 - **Office Utility Tools (Google Doc, Google Sheet, Google Slide):** [Click here](./learn-google-office-tools.md)
-- **DevOps with Docker | MOOC | Unviersity of Helsinki:** [Click here](https://github.com/sahilrajput03/dockerHelsinki)
+- **Docker:**
+	- **devopswithdocker:** [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - **Kubernetes:**
-	- **Why kubernetes?** [Click here](./why-kubernetes.md)
 	- **devopswithkubernetes**: [Click here](https://github.com/sahilrajput03/devopswithkubernetes)
+	- **Why kubernetes?** [Click here](./why-kubernetes.md)
 	- **kube-cluster-dwk**: [Click here](https://github.com/sahilrajput03/kube-cluster-dwk)
 - **How to workrave?** [Click here](./why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](./modern-software-development-courses.md)
