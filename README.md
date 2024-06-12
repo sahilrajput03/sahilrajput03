@@ -143,7 +143,6 @@ cat /dev/null
 - **Blockchain Development:**
 	- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
-- **DevOps with Docker | MOOC | Unviersity of Helsinki:** [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - Dictionary: [Click here](./dictionary.md)
 - **Acronyms:** [Click here](./acroynms.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
@@ -211,6 +210,7 @@ cat /dev/null
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
 - **Office Utility Tools (Google Doc, Google Sheet, Google Slide):** [Click here](./learn-google-office-tools.md)
+- **DevOps with Docker | MOOC | Unviersity of Helsinki:** [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - **Kubernetes:**
 	- **Why kubernetes?** [Click here](./why-kubernetes.md)
 	- **devopswithkubernetes**: [Click here](https://github.com/sahilrajput03/devopswithkubernetes)
