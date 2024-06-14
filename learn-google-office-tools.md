@@ -3,6 +3,11 @@
 **Google Office:**
 - You can create a new line in an excel cell by pressing `alt+Enter` key.
 
+## TODO: Test if you want to set default zoom level in google docs
+
+Source: [Click here](https://www.reddit.com/r/googledocs/comments/127fn0m/default_the_zoom_level_in_google_docs/)
+Chrome Extension - [Google Workspace Zoom Default](https://chromewebstore.google.com/detail/google-workspace-zoom-def/nflkcdlimipkgbacnfnhfecjgmojhklo?hl=en-GB&authuser=0)
+
 ## 🚀🚀 Fix all Spelling and Grammar errors in the doc in a row with manual review
 
 You can do this by selecting `Tools > Spelling and grammar > Spelling and grammar check`.
