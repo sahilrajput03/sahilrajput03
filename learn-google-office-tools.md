@@ -11,6 +11,7 @@ You can do this by selecting `Tools > Spelling and grammar > Spelling and gramma
 
 - `@now` will output as `Jun 9, 2024 4:39 AM`
 - `@today` will output as `Jun 9, 2024`
+- `@date` will output as `Jun 14, 2024` (this is useful when you want to set date other than today)
 
 Note: This is actually a `Smart Chip`, you can manually add a Date via `Inset > Smart Chips > Date`.
 
