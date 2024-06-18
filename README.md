@@ -1,5 +1,6 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
+- **TODO:** Learn payment via Paytm and Google Pay in application like it does in amazon android app.
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
