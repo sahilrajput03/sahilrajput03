@@ -361,3 +361,4 @@ cat /dev/null
 - VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 - Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
 - Learn YAML (yml): [Click here](https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0)
+- Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile)
