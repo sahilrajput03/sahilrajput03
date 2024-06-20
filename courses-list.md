@@ -8,6 +8,10 @@
 
 https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 
+**YouTube Channels followed by EzsNippet:**
+
+[Click here](https://www.youtube.com/shorts/EV3HRrlbfP0?feature=share)
+
 **Todo (me):**
 - React:
     - https://www.joyofreact.com  ~ Josh W Comeau

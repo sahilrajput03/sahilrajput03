@@ -1082,17 +1082,6 @@ Don’t just assume that because you are using a VPN that your traffic is hidden
 
 Additionally, if LE really, really wanted to know what you are doing, they could put taps on line at the VPN provider to figure things out without needing their logs. But you’d need to be a pretty bad guy for that, not someone just searching for porn or other questionable content.
 
-
-
-## An amazing way to store q/a's in yaml format so that one can parse this data from a file from github
-
-I.e., storing array of arrays in yaml.
-
-Inspiration: [Click here](https://stackoverflow.com/a/62141585/10012446)
-
-![image](https://user-images.githubusercontent.com/31458531/193640569-13fc81c0-60f9-4048-bfc7-53f6539b5f90.png)
-
-
 ## ai powerd writing tool
 
 ![image](https://user-images.githubusercontent.com/31458531/193507143-f94e874c-ab30-434d-b8bf-37fd54487ba2.png)
@@ -2397,43 +2386,6 @@ There are multiple reasons for wanting to scale an application. The most common 
 Figuring out autoscaling with HorizontalPodAutoscalers can be one of the more challening tasks. Choosing which resources to look at and when to scale is not easy. In our case, we only stress the CPU. But your applications may need to scale based on, and take into consideration, a number of resources e.g. network, disk or memory.
 ```
 
-## Difference between `|`, `|>`, `>` and `>-` in yaml ?
-
-```yaml
-Key1: >
-  Line 1
-  LIne 2
-
-# (no newline character after in the end)
-Key2: >-
-  Line 1
-  Line 2
-
-Key3: |
-  Line 1
-  LINE 2
-
-#  (no newline character after in the end)
-Key4: |-
-  Line 1
-  LINE 2
-```
-
-is converted to json
-
-```json
-{
-   "Key1": "Line 1 LIne 2\n",
-   "Key2": "Line 1 Line 2",
-   "Key3": "Line 1\nLINE 2\n",
-   "Key4": "Line 1\nLINE 2"
-}
-```
-
-Source: https://stackoverflow.com/a/3790497/10012446
-
-Proof of convertion trial @ https://www.convertjson.com/yaml-to-json.htm
-
 ## Using select menus in bash
 
 [learn-bash.md#using-select-menus-in-bash](./learn-bash.md#using-select-menus-in-bash)
@@ -3198,147 +3150,6 @@ try {
 
 // ~sahill: for reading file
 const file = await readFile(filepath)
-```
-
-## Frontmatter ?
-
-**And.** Its reffered to **yaml code in the start of blog post file**. Popularized by jekyll in first. Read about [Front matter at Jekyll](https://jekyllrb.com/docs/front-matter/).
-
-For converting yaml to js object you can use [`front-matter`](https://github.com/jxson/front-matter) package from npm and thats awesome. Atleast _Ryan Florence_ uses this in his remix's quick start guide. So it must be good! 💯 And this front-matter does whats its description says **Extract YAML front matter from strings** in the github repo.
-
-Why use `front-matter` package which is not much popular and simply use some other yaml to js-object/json converter package from npm ?
-
-**Ans.** Bcoz when we need to read file such as blog post we know that its just first few lines between === or --- or some pattern like that made by different blog post frameworks (e.g., jekyll and gatsby). **_So if we use front-matter then it manages and deals with yaml + non yaml(i.e. content of blog-post) on its own. So this way using a library like front-matter rocks! 💯_**
-
-## Yaml curiosity ?
-
-**FYI: Yaml to json converter**:  [onlineyamltools.com](https://www.convertjson.com/yaml-to-json.htm)
-
-Example:
-
-```yaml
-indian:
-  - 1
-  - 2 > 3
-  - '2'
-  - true
-  - 'true'
-  - truthy
-  - null
-  - 'null'
-  - cost: 5
-  - otherPeople:
-    rohit: 10
-    admins:
-      aman: 10
-      alergy:
-      - dust
-      - particles
-india: 10
-```
-
-converts to:
-
-```json
-{
-  "indian": [
-    1,
-    "2 > 3",
-    "2",
-    true,
-    "true",
-    "truthy",
-    null,
-    "null",
-    {
-      "cost": 5
-    },
-    {
-      "otherPeople": null,
-      "rohit": 10,
-      "admins": {
-        "aman": 10,
-        "alergy": [
-          "dust",
-          "particles"
-        ]
-      }
-    }
-  ],
-  "india": 10
-}
-```
-
-[yaml.org](https://yaml.org/) - Yaml official site.
-
-Q. What is the need of `-` when we can have something like
-
-```yaml
-# Example from https://yaml.org ~sahil.
-YAML on GitHub: # github.com/yaml/
-  YAML Specs: yaml-spec/
-  YAML 1.2 Grammar: yaml-grammar/
-  YAML Test Suite: yaml-test-suite/
-  YAML Issues: issues/
-```
-
-and we can do nest multiple items under a particular property (if we talk about nesting in terms of entities) ?
-
-**Ans.** Its designed to **pass values** whereas other entities with `:` are **key-value pairs**. A `-` in yaml means start of a list though so we can pass multiple values via this list too.
-
-[Ref 1-amaz](https://www.reddit.com/r/ansible/comments/5jhff3/when_to_use_dash_in_yaml/?utm_source=amp&utm_medium=&utm_content=post_body), [Ref 2-seems amazing too](https://community.home-assistant.io/t/when-to-use-in-yaml-files/62790)
-
-From Ref 1's:
-
-```txt
-It may help to convert to JSON.
-
-Hyphens indicate list items. Lists can contain:
-
-1. simple values like strings:
-
-YAML e.g.1
-
-- "string1"
-- "string2"
-
-In JSON:
-
-["string1", "string2"]
-They can also contain sets of key-value pairs:
-
-YAML e.g.2
-
-- item1key1: "string1"
-  item1key2: "string2"
-- item2key1: "string3"
-  item2key2: "string4"
-
-In JSON:
-
-[{
-  item1key1: "string1",
-  item1key2: "string2"
-},{
-  item2key1: "string3",
-  item2key2: "string4"
-}]
-That's what tasks is. Each hyphen starts a new list item (a task), and each list item may have multiple key-value pairs (properties of the task).
-```
-
-and another reddit comment about the formatting in the yaml file that helps in readability:
-
-```
-Good explanation. I think also what is confusing him is that the list is lumped up in one 'paragraph'. For readability, I would format the above code as:
-
-tasks:
-    - name: date/time stamp
-      command: /usr/bin/date
-      register: timestamp_start
-
-    - debug: var=timestamp_start
-
-    - name: another task
 ```
 
 ## Testing side by side everywhere you write code:

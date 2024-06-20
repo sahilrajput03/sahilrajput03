@@ -1,5 +1,6 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
+- **TODO:** Learn payment via Paytm and Google Pay in application like it does in amazon android app.
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
@@ -143,7 +144,6 @@ cat /dev/null
 - **Blockchain Development:**
 	- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
-- **DevOps with Docker | MOOC | Unviersity of Helsinki:** [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - Dictionary: [Click here](./dictionary.md)
 - **Acronyms:** [Click here](./acroynms.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
@@ -211,13 +211,17 @@ cat /dev/null
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
 - **Office Utility Tools (Google Doc, Google Sheet, Google Slide):** [Click here](./learn-google-office-tools.md)
-- **Why kubernetes?** [Click here](./why-kubernetes.md)
+- **Docker:**
+	- **devopswithdocker:** [Click here](https://github.com/sahilrajput03/dockerHelsinki)
+- **Kubernetes:**
+	- **devopswithkubernetes**: [Click here](https://github.com/sahilrajput03/devopswithkubernetes)
+	- **Why kubernetes?** [Click here](./why-kubernetes.md)
+	- **kube-cluster-dwk**: [Click here](https://github.com/sahilrajput03/kube-cluster-dwk)
 - **How to workrave?** [Click here](./why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](./modern-software-development-courses.md)
 - **Learn act:** [Click here](./learn-act.md)
 - **Why and how linux?** [Click here](./why-and-how-linux.md)
 - **Service Worker:** [Click here](./learn-service-worker.md)
-- **Wake up:** [Click here](./learn-wake-up.md)
 - **Learn Serverless:** [Click here](./learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](./learn-api-mount.md)
 - **JS Conf 2022:** [Click here](./notes-js-conf-2022.md)
@@ -356,3 +360,5 @@ cat /dev/null
 - Learn Microfrontend: [Click here](learn-microfrontend.md)
 - VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 - Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
+- Learn YAML (yml): [Click here](https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0)
+- Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile)

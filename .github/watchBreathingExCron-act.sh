@@ -6,4 +6,4 @@ nodemon \
     -w .github/breathingEx-job.sh
 
 # FYI: -j is alias for --job, it specifies the job to run.
-# FYI: Job name is NOT yaml filename or the `.name` in yaml file, but its `.jobs.anyJobNameInAnyYamlFile`
+# FYI: Job name is NOT yaml filename or the `.name` but `.jobs.anyJobNameInAnyYamlFile` in workflow yaml file.
