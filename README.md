@@ -210,7 +210,7 @@ cat /dev/null
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
-- **Office Utility Tools (Google Doc, Google Sheet, Google Slide):** [Click here](./learn-google-office-tools.md)
+- **Learn Google Office Utility Tools (Docs, Sheets, Slides):** [Click here](https://docs.google.com/document/d/1CvC-N3daE9P8k2d-joGwLtRez9Vm4La0o23w1xCLJOw/edit)
 - **Docker:**
 	- **devopswithdocker:** [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - **Kubernetes:**
