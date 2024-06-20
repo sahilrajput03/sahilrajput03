@@ -219,7 +219,7 @@ cat /dev/null
 	- **kube-cluster-dwk**: [Click here](https://github.com/sahilrajput03/kube-cluster-dwk)
 - **How to workrave?** [Click here](./why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](./modern-software-development-courses.md)
-- **Learn act:** [Click here](./learn-act.md)
+- **Learn act:** [Click here](https://docs.google.com/document/d/1BcGk9VR4KrBxgqBY1mrfOZEwI7N4gfD780t5R6dQHxc/edit)
 - **Why and how linux?** [Click here](./why-and-how-linux.md)
 - **Service Worker:** [Click here](./learn-service-worker.md)
 - **Learn Serverless:** [Click here](./learn-serverless.md)
