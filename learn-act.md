@@ -1,11 +1,10 @@
 ## Learn `act`
 
 **Quick Links:**
-- Docs: https://nektosact.com/
+- Docs: [https://nektosact.com](https://nektosact.com)
   - Secrets file format: [Click here](https://nektosact.com/usage/index.html?highlight=secret#envsecrets-files-structure)
 - Github (51.7k*): https://github.com/nektos/act
 - Repos where I use `act.sh` files: [sahilrajput03/sahilrajput03](https://github.com/sahilrajput03/sahilrajput03/tree/master/.github)
-- 
 
 ### Using `act` with a file watching service for even more faster debugging
 
@@ -30,7 +29,7 @@ nodemon \
 
 ## Reset image choice usage for `act`
 
-When running any act script for the first time we get following info (text code block) with a choice of image to select from and you should only select the **`medium`** image (default) one.
+When you run any act `act` command for the first time we get the choice to select the image from `Large size image`, `Medium size image` or `Micro size image`. I tested `Micro size image` image and it throws error when our job contains any script file, thus you need to select the **`medium`** image (default) one.
 
 **Q. What's wrong with the `micro size image`?**
 
