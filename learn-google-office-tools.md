@@ -1,7 +1,11 @@
-# Office Utility Tools
+# TODO: make this google doc as well ASAP - Office Utility Tools
 
 **Google Office:**
 - You can create a new line in an excel cell by pressing `alt+Enter` key.
+
+## Using emojis in google doc
+
+Just press `:` anywhere and you'll get dropdown to select any emoji.
 
 ## TODO: Test if you want to set default zoom level in google docs
 
