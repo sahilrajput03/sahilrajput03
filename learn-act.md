@@ -1,5 +1,9 @@
 ## Learn act
 
+**Quick Links:**
+- Docs: https://nektosact.com/
+- Github (51.7k*): https://github.com/nektos/act
+
 Make a script file in root of your repository i.e., `act.sh`
 
 ***Fyi: It is necessary to run to run act.sh file from the root of the repository.***
