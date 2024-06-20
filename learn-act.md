@@ -2,8 +2,10 @@
 
 **Quick Links:**
 - Docs: https://nektosact.com/
+  - Secrets file format: [Click here](https://nektosact.com/usage/index.html?highlight=secret#envsecrets-files-structure)
 - Github (51.7k*): https://github.com/nektos/act
 - Repos where I use `act.sh` files: [sahilrajput03/sahilrajput03](https://github.com/sahilrajput03/sahilrajput03/tree/master/.github)
+- 
 
 ### Using `act` with a file watching service for even more faster debugging
 
