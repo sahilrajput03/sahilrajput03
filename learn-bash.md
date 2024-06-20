@@ -456,7 +456,7 @@ comment
 
 Sample 1: https://github.com/kubernetes-hy/material-example/blob/master/app10-go/controller/Makefile
 
-Sample 2: https://github.com/sahilrajput03/sahilrajput03/blob/master/missing-semester/make-lecture8/Makefile
+Sample 2: https://github.com/sahilrajput03/sahilrajput03/blob/main/missing-semester/lecture8-make/Makefile
 
 Why even use `makefile` instead of some script file say `makefile.sh`?
 
