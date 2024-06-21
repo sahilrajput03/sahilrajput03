@@ -1,4 +1,4 @@
-# Learning Figma
+# TODO: Migrate this document to Google Doc instead - Learning Figma
 
 - TODO: Official Article - Explore auto layout properties: [Click here](https://help.figma.com/hc/en-us/articles/360040451373-Explore-auto-layout-properties#h_01G2RPRBBKVKXK0JV59NCSKEE0)
   - **Please continue this official video** (same page above): [Click here](https://youtu.be/floQKLsWAy4?t=336) (time stamped)
