@@ -169,7 +169,7 @@ cat /dev/null
 - **Learn Regex:** [Click here](./learn-regex.md)
 - **Learn Markdown:** [Click here](./learn-markdown.md)
 - **Learn Perl:** [Click here](./learn-perl.md)
-- **Learn Figma:** [Click here](./learn-figma.md)
+- **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit)
 - **Learn FigJam:** [Click here](./learn-figjam.md)
 - **Learn qutebrowser:** [Click here](./qutebrowser.md)
 - **Learn Urdu:** [Click here](./learn-urdu/)
