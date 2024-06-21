@@ -86,6 +86,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - [Password Alert](https://chrome.google.com/webstore/detail/password-alert/noondiphcddnnabmjcihcjfbhfklnnep) - Helps to avoid using same google password for other online accounts
 - [Highlighter](https://chrome.google.com/webstore/detail/highlighter/fdfcjfoifbjplmificlkdfneafllkgmn)
 - [Autoskip for Youtube™ Ads](https://chrome.google.com/webstore/detail/autoskip-for-youtube-ads/hmbnhhcgiecenbbkgdoaoafjpeaboine/related)
+- [Bypass Google Redirect Notice](chrome://extensions/?id=cebdpiiapajkceonikbjoikdchpnbdid)
 
 ## Update default page zoom level and page font size
 
