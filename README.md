@@ -44,7 +44,7 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
-# Personal Tech Journal: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
+# Personal - Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
 
 #### Trademarks: OneUniverse, Same Roof
 
