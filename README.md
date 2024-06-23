@@ -1,7 +1,7 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 - **TODO:** Learn payment via Paytm and Google Pay in application like it does in amazon android app.
-	- The experience of payment (tested with paytm) is awesome as the on selecting paytm the app automatically opens paytm and on completion of payment it automatically is redirected back to blinkit as well.
+	- Also, the experience of payment in Blinkit (tested with paytm) is awesome as the on selecting paytm the app automatically opens paytm and on completion of payment it automatically is redirected back to blinkit as well.
 - Inspiration is perishable - act on it immediately. ~ Naval
 	- Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving.
 - Don't need to play games, connect instead.
