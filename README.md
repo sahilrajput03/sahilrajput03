@@ -1,6 +1,8 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 - **TODO:** Learn payment via Paytm and Google Pay in application like it does in amazon android app.
+- Inspiration is perishable - act on it immediately. ~ Naval
+	- Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving.
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
@@ -44,7 +46,7 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
-# Personal - Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
+# Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
 
 #### Trademarks: OneUniverse, Same Roof
 
