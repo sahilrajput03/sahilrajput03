@@ -313,3 +313,5 @@
 - Life is awesome, isn't it?
 
 - Life is fun!
+
+- 11 Life lessons from Naval Ravikant: [Click here](https://www.youtube.com/watch?v=TmAO9jBqJf4)
