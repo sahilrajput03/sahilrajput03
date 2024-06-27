@@ -87,7 +87,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - [Highlighter](https://chrome.google.com/webstore/detail/highlighter/fdfcjfoifbjplmificlkdfneafllkgmn)
 - [Autoskip for Youtube™ Ads](https://chrome.google.com/webstore/detail/autoskip-for-youtube-ads/hmbnhhcgiecenbbkgdoaoafjpeaboine/related)
 - [Bypass Google Redirect Notice](chrome://extensions/?id=cebdpiiapajkceonikbjoikdchpnbdid)
-- Clickable Links: [Click here](https://chromewebstore.google.com/detail/mgamelhnfokapndfdodnmfiningckjia)
+- [Clickable Links](https://chromewebstore.google.com/detail/mgamelhnfokapndfdodnmfiningckjia)
 
 ## Update default page zoom level and page font size
 
