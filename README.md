@@ -57,9 +57,9 @@ cat /dev/null
 
 #### Sahil's Vocabulary 🚶: [Click here](vocab.html) | [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
 
-#### Transcribe youtube video:
+#### Transcribe youtube video or shorts:
 
-- https://tactiq.io/tools/youtube-transcript
+- [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
 
 #### Wif Hoff - Breathing 🫁🫁 
 
