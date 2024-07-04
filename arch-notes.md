@@ -22,7 +22,10 @@
 
 ## Clipboard in manjaro
 
-`Ctrl+alt+h` or you can always manage it from the bottom right tray icon.
+- View Clipboard History: `Ctrl+alt+h` or you can always manage it from the bottom right tray icon.
+- Manage Clipboard History: `Ctrl+alt+f`
+  - Select few using `ctrl` key and click on "Remove" to delete those.
+  - Click on "Remove all" to remove all entries.
 
 ## Running github pages locally
 
