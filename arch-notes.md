@@ -22,6 +22,8 @@
 
 ## Clipboard in manjaro
 
+It is installed by default in manjaro but if you're using archlinux then you can install it via from this AUR - [clipit](https://aur.archlinux.org/packages/clipit)
+
 - View Clipboard History: `Ctrl+alt+h` or you can always manage it from the bottom right tray icon.
 - Manage Clipboard History: `Ctrl+alt+f`
   - Select few using `ctrl` key and click on "Remove" to delete those.
