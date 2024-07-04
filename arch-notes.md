@@ -20,6 +20,10 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## Clipboard in manjaro
+
+`Ctrl+alt+h`
+
 ## Running github pages locally
 
 You might need to create gem file because by default github repos doesn't have but under the hood when the website is deployed; github actions installs ruby, bundler, jekyll, other necessary dependencies in the deployment pipeline.
