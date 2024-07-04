@@ -22,7 +22,7 @@
 
 ## Clipboard in manjaro
 
-`Ctrl+alt+h`
+`Ctrl+alt+h` or you can always manage it from the bottom right tray icon.
 
 ## Running github pages locally
 
