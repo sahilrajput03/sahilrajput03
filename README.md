@@ -59,6 +59,10 @@ cat /dev/null
 
 - [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
 
+#### Convert pdf to docx (for usage with google docs)
+
+[https://pdf2docx.com/](https://pdf2docx.com/)
+
 #### Wif Hoff - Breathing 🫁🫁 
 
 - 7 Apps every small business must use: [Click here](https://www.youtube.com/watch?v=OEJ3B-_6xyc)
