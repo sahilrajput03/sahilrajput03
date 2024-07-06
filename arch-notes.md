@@ -20,6 +20,15 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## Clipboard in manjaro
+
+It is installed by default in manjaro but if you're using archlinux then you can install it via from this AUR - [clipit](https://aur.archlinux.org/packages/clipit)
+
+- View Clipboard History: `Ctrl+alt+h` or you can always manage it from the bottom right tray icon.
+- Manage Clipboard History: `Ctrl+alt+f`
+  - Select few using `ctrl` key and click on "Remove" to delete those.
+  - Click on "Remove all" to remove all entries.
+
 ## Running github pages locally
 
 You might need to create gem file because by default github repos doesn't have but under the hood when the website is deployed; github actions installs ruby, bundler, jekyll, other necessary dependencies in the deployment pipeline.

@@ -4,33 +4,9 @@
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 - Learn Heroku Deployment: [Click here](./learn-heroku.md)
 
-## Nodejs Hosting:
+## ❤️ Google Doc - Hosting Charges - Backend & Databases - by Sahil
 
-1. Render
-2. Heroku
-3. Linode (linode is made on top of akamai)
-4. Akamai
-5. Vercel (todo: learn how to deploy express on Vercel)
-
-## 💯💥 MongoDB Atlas Pricing
-
-- *Shared Plan* - The cheapest option.
-- *Serverless Plan* - *Pay as you go* may also be a good option.
-- *Dedicated Plan* - *Starts from $57 per month* may also be a good option as per requirement.
-
-**Shared Plan** has three cluster tiers to choose from -
-
-M0 - Free | M2 - $9/month (₹750) | M5 - $25/month (₹2100)
--|-|-|
-
-Links:
-- Check all plans [here](https://www.mongodb.com/pricing).
-- **Docs** - Limitations of `M0` (free cluster), `M2`, and `M5`: [Click here](https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/)
-
-Asking from Copilot for limitations of M0 tier (25 March 2024) - 
-
-<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/d21c8bfb-6ab6-4a6c-8ca2-bb1ad7d3e9d9" width="750" />
-
+[Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 
 ## Slas*er is delpoyed on cloudflare Pages
 

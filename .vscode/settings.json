@@ -1,0 +1,9 @@
+{
+  // Disable format on save on README.md file. Source: https://chatgpt.com/c/89956a3f-4692-4294-bee8-787e167d4c97 
+  "files.associations": {
+    "README.md": "plaintext"
+  },
+  "[plaintext]": {
+    "editor.formatOnSave": false
+  }
+}

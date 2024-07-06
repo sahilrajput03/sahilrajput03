@@ -1,14 +1,36 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
+- **TODO:** Learn payment via Paytm and Google Pay in application like it does in amazon android app.
+	- Also, the experience of payment in Blinkit (tested with paytm) is awesome as the on selecting paytm the app automatically opens paytm and on completion of payment it automatically is redirected back to blinkit as well.
+- Inspiration is perishable - act on it immediately. ~ Naval
+	- Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving.
+- Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
+- YAGNI principle: You aren't gonna need it. Don't over engineer and assume that everything must be fully customizable and flexible. This is something that software engineers run often into: making highly customizable solutions for the sake of unwanted ("un-needed") flexibility. It can be more difficult to maintain and evolve.
 - Talent (quality/perfection) < Hardwork < **Consistency**
-- Ips: 192.168.1.4 (a), 192.168.1.21 (d)
-- Prefering Google Doc over Markdown Pages:
+- Ips: 192.168.1.4 (a), 192.168.1.21 (d), 192.168.1.11 (r)
+- I prefer making notes in Google Doc rather than in markdown or any other software like notion because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc. *Below are some features of Google Doc that you might helpful too:*
+	- give people exclusive acces using email for read or write permissions 
+	- can be published to web via direct link using "Publish to web" feature. You can find it here "File > Share feature > Publish to web".
+	- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document. This could be really helpful thing particularly for non coders. You can get the embed code for the document by going to "File > Share feature > Embed". Here is an [example](https://sahilrajput.com/vocab.html) which you can check and you can actually view the source code of the html page via `option + cmd + u` (macos) or `ctrl + u` (on mac/linux).
   - WYSIWYG
-    - Faster Usage than markdown. In Google doc there is **no need to verify the if the markdown code outputs desired page output.**
+    - Faster Usage than markdown.
+    - There is syntax language to be learned.
   - Editable on Google Doc app on mobile
 - You only loose information which you don't want to make accessible.
+- Why AWS (any cloud) over Raspberry pi
+	- Raspberry pi needs re-installation of OS if linux gets messed up.
+	- Raspberry pi needs additional installation of docker/k3s
+	- Raspberry pi needs to be handled over broadband (router settings) via port forwarding to make it accessible over internet.
+	- Raspberry pi would need static ip (monthly paid) or any other no-ip service to make the dynamic ip actually work for any project to work over longer duration of times.
+	- Raspberry pi would need to be setuped for access over ssh.
+	- Raspberry pi is strictly dependent on factors like:
+		- internet conectivity over broadband
+		- electricity on site
+- Why raspberry pi over AWS?
+	- Cheaper in cost i.e., you would save cost around 8-10 thousand probably as if it were hosted on aws as you can host multiple applications on 8GB raspberry pi.
+- Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
 
 ```bash
 echo Hello world! > /dev/null
@@ -26,11 +48,21 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
+# Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
+
 #### Trademarks: OneUniverse, Same Roof
 
 #### Work Music: [Click here](./work-music.md)
 
-#### Sahil's Vocabulary 🚶: [Click here](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
+#### Sahil's Vocabulary 🚶: [Click here](vocab.html) | [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
+
+#### Transcribe youtube video or shorts:
+
+- [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
+
+#### Convert pdf to docx (for usage with google docs)
+
+[https://pdf2docx.com/](https://pdf2docx.com/)
 
 #### Wif Hoff - Breathing 🫁🫁 
 
@@ -41,23 +73,24 @@ cat /dev/null
  	- 2 - [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
 
-### Depressions & Mental Health Support
+#### Depressions & Mental Health Support
 
 - wannatalkaboutit.com: [Click here](https://www.wannatalkaboutit.com/)
 
-## Be Productive with videos 📽️ 🎬
+#### Be Productive with videos 📽️ 🎬
 
 - I learned a system for remembering everything: [Click here](https://www.youtube.com/watch?v=Rvey9g0VgY0)
 - Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
 
-#### Entertainment: [Click here](entertainment.md)
+#### Original & Curated Articles
+
+- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist)
+- Office Ethics, Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
 
 **Quick Links:**
 
-
 - English:
 	- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
-	 - English Vocab 💫: [Click here](english-vocab.md)
 - **Stocks, Trading, Zerodha:**
 	- Stocks Blog: [Click here](https://docs.google.com/document/d/1r_Y1KKSI4DQ0gjWynQVGRX6W7V0fMZCKzT5WldlamTU/edit#heading=h.y03v6kzl6nf)
 	- Learn Stocks: [Click here](./learn-stocks.md)
@@ -79,7 +112,12 @@ cat /dev/null
 - There is not try, either you do it or don't. ~ Frank Oz (Star Wars)
 - Curiosità is defined by Micheal J. Geib and Leonardo as “an insatiable curious approach to life and an unrelenting quest for continuous learning.” Nature of mind is to wander around, its not problem its the way its designed. My job is to keep getting it back towards the goal.
 - Unwinding is hot no-sugar coffee!
-- Laptop: [ac179tx](https://support.hp.com/in-en/document/c04919819), [web](https://support.hp.com/in-en/document/c04919819), [Latitude 5400 Business Laptop](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
+- Laptops:
+	- [MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)](https://support.apple.com/en-in/111339)
+	- [Dell Latitude 5400](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
+	- [HP Notebook - 15-ac179tx](https://support.hp.com/in-en/document/c04919819)
+- Speaker:
+	- [Boat Stone 650](https://support.boat-lifestyle.com/articles/stone-speakers/stone-650/6218b3b72b115f64864d7ee4), [User Manual](https://media.croma.com/image/upload/v1676364686/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/User%20Manual/221786_User%20Manual.pdf)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
 - More Technologies: trpc (ALERT: Please check my learn-trpc page), hasura and onegraph (graphiql-explorer).
 - Quick Links
@@ -103,12 +141,15 @@ cat /dev/null
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
   - Blogs:
-	  - https://blog.isquaredsoftware.com/
-          - https://tim.blog/
-          - https://ionic.io/blog
-          - https://web.dev/articles (awesome web development articles)
-          - https://web.dev/blog (awesome web development blogs)
-          - Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
+	- Dr. Werner Vogels, CTO, Amazon.com
+		- [LinkedIn](https://www.linkedin.com/in/wernervogels/)
+		- Blog: [allthingsdistributed.com](https://www.allthingsdistributed.com/)
+	- https://blog.isquaredsoftware.com/
+   	- https://tim.blog/
+	- https://ionic.io/blog
+	- https://web.dev/articles (awesome web development articles)
+	- https://web.dev/blog (awesome web development blogs)
+	- Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
 
 ## References:
 
@@ -117,7 +158,6 @@ cat /dev/null
 - **Blockchain Development:**
 	- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
-- Quick: **Docker helsinki**: [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - Dictionary: [Click here](./dictionary.md)
 - **Acronyms:** [Click here](./acroynms.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
@@ -134,12 +174,14 @@ cat /dev/null
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](./learn-curl.md)
 - **Learn Git:** [Click here](./learn-git.md)
+- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
+- **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
 - **Learn Gmail:** [Click here](./learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **Learn Regex:** [Click here](./learn-regex.md)
 - **Learn Markdown:** [Click here](./learn-markdown.md)
 - **Learn Perl:** [Click here](./learn-perl.md)
-- **Learn Figma:** [Click here](./learn-figma.md)
+- **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit)
 - **Learn FigJam:** [Click here](./learn-figjam.md)
 - **Learn qutebrowser:** [Click here](./qutebrowser.md)
 - **Learn Urdu:** [Click here](./learn-urdu/)
@@ -147,11 +189,6 @@ cat /dev/null
 - **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
 - **Learn CLI binaries:** [Click here](./learn-cli-binary.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **❤️ Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist/) *(Absolute URL to page on sahilrajput.com domain)*
-	- [./thoughts-principles-react/dist/](./thoughts-principles-react/dist/) *(For livereload development, when rendred as website and will open code files when opened from github.com domain)*
-	- [old](./thoughts-principles.md)
-- **❤️ Social rules: [Click here](./social-rules.md)**
-- **❤️Office Ethics: [Click here](./office-ethics.md)**
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](./vim.md)
 - **Learn Vscode:** [Click here](./learn-vscode.md)
@@ -187,21 +224,24 @@ cat /dev/null
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
-- **Office Utility Tools:** [Click here](./learn-google-office-tools.md), [Doc](https://docs.google.com/document/), [Slide](https://docs.google.com/presentation/), [Sheet](https://docs.google.com/spreadsheets)
-- **Why kubernetes?** [Click here](./why-kubernetes.md)
+- **Learn Google Office Utility Tools (Docs, Sheets, Slides):** [Click here](https://docs.google.com/document/d/1CvC-N3daE9P8k2d-joGwLtRez9Vm4La0o23w1xCLJOw/edit)
+- **Docker:**
+	- **devopswithdocker:** [Click here](https://github.com/sahilrajput03/dockerHelsinki)
+- **Kubernetes:**
+	- **devopswithkubernetes**: [Click here](https://github.com/sahilrajput03/devopswithkubernetes)
+	- **Why kubernetes?** [Click here](./why-kubernetes.md)
+	- **kube-cluster-dwk**: [Click here](https://github.com/sahilrajput03/kube-cluster-dwk)
 - **How to workrave?** [Click here](./why-and-how-to-workrave.md)
 - **Modern Software Development Courses - India:** [Click here](./modern-software-development-courses.md)
-- **Learn act:** [Click here](./learn-act.md)
+- **Learn act:** [Click here](https://docs.google.com/document/d/1BcGk9VR4KrBxgqBY1mrfOZEwI7N4gfD780t5R6dQHxc/edit)
 - **Why and how linux?** [Click here](./why-and-how-linux.md)
 - **Service Worker:** [Click here](./learn-service-worker.md)
-- **Wake up:** [Click here](./learn-wake-up.md)
 - **Learn Serverless:** [Click here](./learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](./learn-api-mount.md)
 - **JS Conf 2022:** [Click here](./notes-js-conf-2022.md)
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](./game-development.md)
-- **Food, Diet Plan, Proteins:** [Click here](./food.md)
+- **Food, Diet Plan, Proteins:** [Click here](https://docs.google.com/document/d/1iLl-g8UoypLcXANbiaTp4Y4fqiPw1ulybeK5gdjgV40/edit?usp=sharing)
 - **Learn Google Calendar:** [Click here](./learn-google-calendar.md)
-- **Single big mistake I made a lot times in last 3 years**: [Click here](./single-big-mistake.md)
 - **Learn Obs:** [Click here](./learn-obs.md)
 - **Challau.com metaverse:** [Click here](./challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
@@ -253,7 +293,6 @@ cat /dev/null
 - Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
 - Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)
 - Learn Jest/expect: [Click here](./learn-jest-expect.md)
-- Lear AWS: [Click here](./learn-aws.md)
 - Learn Elastic Search: [Click here](./learn-elastic-search.md)
 - Suble and Impactful Mistakes with Exceptions: [Click here](./subtle-impactful-exceptions.md)
 - Learn Storybook: [Click here](./learn-storybook.md)
@@ -287,7 +326,7 @@ cat /dev/null
 - Learn Wordpress Editing: [Click here](./learn-wordpress-editing.md)
 - **Learn Capacitor:** [Click here](./learn-capacitor.md)
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
-- Learn Development with AI (Artificial Development): [Click here](./learn-development-with-ai.md)
+- Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/11RhQBo-wzvzVdUFe3RwAjhnuTGqSk8hRS5EGyv1lUGE/edit)
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 - Learn Remix: [Click here](./learn-remix.md)
@@ -335,3 +374,5 @@ cat /dev/null
 - Learn Microfrontend: [Click here](learn-microfrontend.md)
 - VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 - Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
+- Learn YAML (yml): [Click here](https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0)
+- Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile)

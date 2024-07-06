@@ -172,7 +172,7 @@
 
 - I Am a Slow Walker but I Never Walk Back – Abraham Lincoln: ~ Abraham Lincon
 
-- After-college is way more important anyway.  That's where life really begins! ~ Eric
+- After-college is way more important anyway. That's where life really begins! ~ Eric
 
 - For he is fool, who knows only the truth but not the difference between the lies and the truth. ~ Krishan (=> Arjun)
 
@@ -206,8 +206,6 @@
 
 - Being alone is a power only few can handle.
 
-- Sex is meaningless spritiual goal.  ~ Sahil
-
 - Difficulty shows what men are. ~ Epictetus
 
 - While we wait for life - life passes. ~ Seneca
@@ -226,7 +224,7 @@
 
 - When you're really tired you make assumptions that reaching some goal would take x amount of time. It is Parkinson's Law that work expands to fill the - time allotted for its completion. SOLUTION: Never watch time when you're tired, just set a timer and start working again on work, that's best way to break it.
 
-- "Fate loves irony" i.e., events in our lives happens when the opposite of what we expect happens. 
+- "Fate loves irony" i.e., events in our lives happens when the opposite of what we expect happens.
 
 - Stop being afraid, go find out what your life can be. Billie's Mother to Billie.
 
@@ -300,7 +298,7 @@
 
 - Life is too short for long-term grudges. ~ Elon Musk
 
-- If something's important enough, you should try. Even if - the probable outcome is failure.  ~ Elon Musk
+- If something's important enough, you should try. Even if - the probable outcome is failure. ~ Elon Musk
 
 - If you're trying to create a company, it's like baking a cake. You have to have all the ingredients in the right proportion. ~ Elon Musk
 
@@ -311,3 +309,9 @@
 - You do not find a happy life, you make it.
 
 - As you know life is an echo, we get what we give.
+
+- Life is awesome, isn't it?
+
+- Life is fun!
+
+- 11 Life lessons from Naval Ravikant: [Click here](https://www.youtube.com/watch?v=TmAO9jBqJf4)

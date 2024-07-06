@@ -454,11 +454,15 @@ comment
 
 ## Learn Makefile
 
-Sample 1: https://github.com/kubernetes-hy/material-example/blob/master/app10-go/controller/Makefile
+**Quick Links:**
+- Amazing Tutorial to learn Makefile (lovely): https://makefiletutorial.com/, [Github](https://github.com/theicfire/makefiletutorial) - 4.6k*
+	- Twitter of this person: [Click here](https://twitter.com/chaselambda)
 
-Sample 2: https://github.com/sahilrajput03/sahilrajput03/blob/master/missing-semester/make-lecture8/Makefile
+**My usages:**
+- Sample 1: https://github.com/kubernetes-hy/material-example/blob/master/app10-go/controller/Makefile
+- Sample 2: https://github.com/sahilrajput03/sahilrajput03/blob/main/missing-semester/lecture8-make/Makefile
 
-Why even use `makefile` instead of some script file say `makefile.sh`?
+*(*Why even use `makefile` instead of some script file say `makefile.sh`?**
 
 Amazing complete answer @ [Stackoverflow](https://stackoverflow.com/a/3798609/10012446).
 

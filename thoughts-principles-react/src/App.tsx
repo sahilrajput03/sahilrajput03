@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './App.css'
-import { getRandomThought, thoughtsData } from './utils'
+import { getCurrentTime, getItemsExceptAtIndex, getRandomIndexOfArray } from './utils'
 
 import Markdown from 'react-markdown'
 // Rehype plugins
@@ -8,55 +8,66 @@ import rehypeRaw from 'rehype-raw'
 import rehypeExternalLinks from 'rehype-external-links'
 import { useAutoAnimate } from '@formkit/auto-animate/react'
 
-const baseUrl = '/thoughts-principles-react/dist'
+// Import markdown files
+import thoughtsMarkdown from './thoughts.md';
 
-const toggleRandomThoughtsTime = 15_000 // 5_000
+// import thoughtsMarkdown from './thoughtsTest.md'; // Use this import for testing purpose.
+
+const thoughts = thoughtsMarkdown?.split('\n\n') || []
+
+const toggleRandomThoughtsTime = 8_000 // 8_000
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true)
-  const [thoughts, setThoughts] = useState<string[]>([])
-  const [randomThoughts, setRandomThoughts] = useState([])
-  // console.log('randomThoughts?', randomThoughts);
+  const isComponentMountedRef = useRef<boolean>(false)
+  const unlistedRandomThoughtsRef = useRef<string[]>(thoughts)
+  const [randomThoughts, setRandomThoughts] = useState<string[]>([])
 
   const [animationRef] = useAutoAnimate()
 
   const [showAll, setShowAll] = useState(false)
 
   useEffect(() => {
-    fetch(`${baseUrl}/thoughts.md`)
-      .then(response => response.text())
-      .then((text: string) => {
-        const thoughtList = text.split('\n\n');
-        thoughtsData.list = [...thoughtList] as any
+    console.log('>>> [START 🚀] effect')
 
-        setThoughts(thoughtList)
-        setRandomThoughts([getRandomThought()] as any)
-        setIsLoading(false)
-      })
+    // Do not schedule interval when we switch to `showAll` view
+    if (showAll) {
+      console.log('INFO: Since `showAll` is true we do not do anything and simply return.')
+      return;
+    }
+
+    let intervalId;
+
+    function addNewRandomThought() {
+      // console.log('`addNewRandomThought()` called...')
+      console.log('🌟 [FUNCTION CALL] addNewRandomThought() at', getCurrentTime(), { intervalId })
+
+      // We clear interval at the start of this function to stop interval execution of `addNewRandomThought()` and also to avoid memory leak.
+      if (unlistedRandomThoughtsRef.current.length === 1) {
+        console.log('** 🛑 Cleared interval execution with', { intervalId }, 'to prevent memory leaks.')
+        clearInterval(intervalId)
+      }
+
+      const randomIndex = getRandomIndexOfArray(unlistedRandomThoughtsRef.current)
+      const randomThought = unlistedRandomThoughtsRef.current[randomIndex]
+      unlistedRandomThoughtsRef.current = getItemsExceptAtIndex(unlistedRandomThoughtsRef.current, randomIndex)
+
+      setRandomThoughts((prev) => [randomThought, ...prev])
+    }
+
+    const componentHasNotMounted = !isComponentMountedRef.current
+    if (componentHasNotMounted) {
+      addNewRandomThought() // We want to run `addNewRandomThought()` instantly without any delay for the first time i.e., on component mount.
+      isComponentMountedRef.current = true
+    }
+
+    intervalId = setInterval(addNewRandomThought, toggleRandomThoughtsTime)
+    console.log(`Execution of addNewRandomThought() every ${toggleRandomThoughtsTime / 1_000} seconds started with`, { intervalId })
 
     return () => {
-
+      clearInterval(intervalId)
+      console.log('<<< [END ✅] cleanup + 🛑 Cleared interval execution with', { intervalId })
     }
-  }, [])
-
-  useEffect(() => {
-    // Do not schedule interval when we switch to `showAll` view
-    if (showAll) { return; }
-
-    const timer = setInterval(() => {
-
-      // Remove previous randomThought(s) and set a new randomThought(s)
-      // setRandomThoughts(getNewRandomItem(thoughts) as any)
-
-      // Append to previous randomThought(s)
-      setRandomThoughts((prev) => [getRandomThought(), ...prev] as any)
-    }, toggleRandomThoughtsTime)
-
-    return () => clearInterval(timer)
-  }, [showAll, thoughts])
-
-  // Do not show anything until contents are loaded
-  if (isLoading) { return null }
+  }, [showAll])
 
   const toggleShowAll = () => {
     setShowAll(!showAll)
@@ -66,6 +77,9 @@ function App() {
     //   setRandomThoughts(getNewRandomItem(thoughts) as any)
     // }
   }
+
+  // Do not show anything until contents are loaded
+  if (!isComponentMountedRef) { return <div>...</div> }
 
   return (
     <>
@@ -77,14 +91,6 @@ function App() {
           ? thoughts.map((thought) => <Thought thought={thought} />)
           : randomThoughts.map((thought) => <Thought key={thought} thought={thought} />)}
       </div>
-
-      {<div>
-        <h1>TODO <div style={{ color: 'red' }}>(URGENT)</div>: Add new list from below pages here in the "show all" section & also make different markdown files so that below files as well: </h1>
-        <li>Office Ethics: <a target='_blank' href="https://github.com/sahilrajput03/sahilrajput03/blob/main/office-ethics.md">Click here</a></li>
-        <li>Social Rules: <a target='_blank' href="https://github.com/sahilrajput03/sahilrajput03/blob/main/social-rules.md">Click here</a></li>
-        <li>Single Big Mistakes: <a target='_blank' href="https://github.com/sahilrajput03/sahilrajput03/blob/main/single-big-mistake.md">Click here</a></li>
-
-      </div>}
 
       <div className='footnotes'>
         Source: <a href="https://github.com/sahilrajput03/sahilrajput03/tree/master/thoughts-principles-react">
