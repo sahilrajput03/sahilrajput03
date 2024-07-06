@@ -1,3 +1,7 @@
+title: sahilrajput.com # Title text on top of home page.
+description: > # Description of the site for meta tags (SEO) (multiple lines allowed)
+  Tech Blog by Sahil Rajput.
+
 include: [".well-known"]
 # We must exclude `node_modules` otherwise jekyll compiles the node_modules code as well and thus fails when we run `bundle exec jekyll serve --livereload` command.
 exclude: ["thoughts-principles-react/node_modules/*"]
