@@ -12,6 +12,8 @@
 - **🚀🚀🚀🚀🚀Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
 - **Learn i3:** [Click here](learn-i3.md)
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
+- **Linux Kernel Source Code:** [https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) ([source](https://en.wikipedia.org/wiki/Linux_kernel))
+	- cgit: A hyperfast web frontend for git repositories written in C: [Click here](https://git.zx2c4.com/cgit/about/) (only for linux)
 
 **FYI:**
 - `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.
