@@ -85,7 +85,7 @@ cat /dev/null
 
 #### Original & Curated Articles
 
-- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles-react/dist)
+- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles)
 - Office Ethics, Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
 
 **Quick Links:**
