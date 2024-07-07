@@ -48,6 +48,8 @@ jobs:
       # Commits the changes with the specified message
       - name: Commit changes
         run: |
+          # Go to parent directory of default `working-directory` i.e., here it is parent of `./thoughts-principles-react`
+          cd ..
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add .
