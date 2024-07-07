@@ -17,5 +17,5 @@ export default defineConfig({
     }
   ],
   // src: https://stackoverflow.com/a/69746868/10012446
-  base: '/thoughts-principles-react/dist', // 👈
+  base: '/thoughts-principles', // 👈
 })
