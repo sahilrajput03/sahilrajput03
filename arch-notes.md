@@ -28,11 +28,13 @@
 pcmanfm
 ```
 
-Amazing: It shows your connected pendrives and harddisks automatically (wihout manully mounting, tested with my Backup+ 3tb harddisk)
+**Amazing:** It shows your connected pendrives and harddisks automatically (wihout manully mounting, tested with my Backup+ 3tb harddisk)
 
-Learn: **You just need to simply open pcmanfm from dmenu or terminal and you'll see your harddisk there.**
+Note: You just need to simply open pcmanfm from dmenu or terminal and you'll see your harddisk there.
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a0dc240f-3965-4ba0-a602-54f914161f0b)
+
+**Learn:** In pcmanfm, the best folder/file view is `Thumbnail` view (ctrl+3). To set via gui, you can go to `View > Folder View Mode > Thumbnail View`
 
 ## Clipboard in manjaro
 
