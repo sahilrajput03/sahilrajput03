@@ -22,6 +22,13 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## pcmanfm - it shows your connected pendrives and harddisks (tested with my backup+ harddisk)
+
+Learn: **You just need to simply open pcmanfm from dmenu or terminal and you'll see your harddisk there.**
+
+![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a0dc240f-3965-4ba0-a602-54f914161f0b)
+
+
 ## Clipboard in manjaro
 
 It is installed by default in manjaro but if you're using archlinux then you can install it via from this AUR - [clipit](https://aur.archlinux.org/packages/clipit)
