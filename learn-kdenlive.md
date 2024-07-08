@@ -2,6 +2,8 @@
 
 **🤩😍 Google Doc: [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit?usp=sharing)** 🤩😍
 
+**TODO: Move all content to the above google doc page please.**
+
 ## Quick Links
 - Learn Audacity: [Click here](learn-audacity.md)
 - Full Playlist: https://www.youtube.com/playlist?list=PLqazFFzUAPc7uQaoGxYwxGLk4_6fQrBvE
