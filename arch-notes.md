@@ -22,12 +22,17 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
-## pcmanfm - it shows your connected pendrives and harddisks (tested with my backup+ harddisk)
+## Default file manager in i3
+
+```bash
+pcmanfm
+```
+
+Amazing: It shows your connected pendrives and harddisks automatically (wihout manully mounting, tested with my Backup+ 3tb harddisk)
 
 Learn: **You just need to simply open pcmanfm from dmenu or terminal and you'll see your harddisk there.**
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/a0dc240f-3965-4ba0-a602-54f914161f0b)
-
 
 ## Clipboard in manjaro
 
@@ -302,12 +307,6 @@ To disable password timeout, open the file `/etc/sudoers` by - `sudoCode /etc/su
 Defaults:array timestamp_timeout=-1
 ## ~ Sahi ~ Don't require password for each new terminal
 Defaults:array timestamp_type=global
-```
-
-## Default file manager in i3
-
-```bash
-pcmanfm
 ```
 
 ## Fix emoji fonts in i3 + manajaro
