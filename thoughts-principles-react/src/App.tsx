@@ -83,7 +83,7 @@ function App() {
 
   return (
     <>
-      <h1>Thoughts, Principles</h1>
+      <h1>Thoughts, Principles 1</h1>
       <button style={{ marginBottom: 50 }} onClick={toggleShowAll}>{!showAll ? "Show all 🚀" : "Show random 🚀"}</button>
 
       <div ref={animationRef}>
