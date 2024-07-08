@@ -9,9 +9,7 @@ lerna-debug.log*
 
 node_modules
 
-# NOTE: I do want the `dist` directory to be published so uncommenting this
-# TODO: Refix `dist` ignorance and removal of commited files after my setup of using `thoughts-and-principles` page
-# dist
+dist
 dist-ssr
 *.local
 
