@@ -377,6 +377,6 @@ cat /dev/null
 - Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
 - Learn YAML (yml): [Click here](https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0)
 - Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile)
-
+- Learn GIMP: [Click here](https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
