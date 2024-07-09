@@ -9,7 +9,7 @@
 - `config` Repo: [Click here](https://github.com/sahilrajput03/config)
 - `my_bin` Repo: [Click here](https://github.com/sahilrajput03/my_bin) (in process of moving data to my current notes pages)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-- **🚀🚀🚀🚀🚀Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
+- **🚀🚀🚀 Arch firstInstallNotes**: [Click here](archlinux-firstIntallNotes.md)
 - **Learn i3:** [Click here](learn-i3.md)
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
 - **Linux Kernel Source Code:** [https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) ([source](https://en.wikipedia.org/wiki/Linux_kernel))
