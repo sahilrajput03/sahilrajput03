@@ -14,6 +14,7 @@
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
 - **Linux Kernel Source Code:** [https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) ([source](https://en.wikipedia.org/wiki/Linux_kernel))
 	- cgit: A hyperfast web frontend for git repositories written in C: [Click here](https://git.zx2c4.com/cgit/about/) (only for linux)
+ - Bootable USB with `dd`: [Click here](https://docs.google.com/document/d/1PCd6bBOs8mxzfoUrKATMH_P1o0eCLRvtTZav045xaN0/edit#heading=h.3sb1xtx1yd1d) (Doc)
 
 **FYI:**
 - `makepkg -si` is functions internally to do both of these following command `makepkg -s` and `sudo pacman -U myfile.pkg.tar.zst`.
