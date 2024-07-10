@@ -315,3 +315,7 @@
 - Life is fun!
 
 - 11 Life lessons from Naval Ravikant: [Click here](https://www.youtube.com/watch?v=TmAO9jBqJf4)
+
+- Whenever you are half-hearted in anything, it lingers longer.
+
+- Hindus say, Anam Brahma, food is divine, a gift from God.
