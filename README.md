@@ -106,6 +106,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- Learn Zerodha Varasity: [Click here](./learn-zerodha-varasity.md)
 	- Doc - Learn Trading - Sahil Rajput: [Click here](https://docs.google.com/document/d/1pv_pvsd06fB1vJnPOoGTdX6KVfdg_vJsbci5Blz-DFs/edit)
 - Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+- TamronHallShow (Journalist): [@TamronHallShow](https://www.youtube.com/@TamronHallShow/videos)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 - **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
 - Learn NFC:
