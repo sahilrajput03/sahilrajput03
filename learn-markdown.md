@@ -2,7 +2,7 @@
 
 **Quick Links:**
 - You may practise markdown with live updates at [marked.js.org/demo/](https://marked.js.org/demo/)
-- You can also refer syntax from xinyminutes.com for [markdown here](https://learnxinyminutes.com/docs/markdown/).
+- You can also refer syntax from [learnxinyminutes.com](https://learnxinyminutes.com/) for [markdown here](https://learnxinyminutes.com/docs/markdown/).
 
 **Foldable section:**
 
