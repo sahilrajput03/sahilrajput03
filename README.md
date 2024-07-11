@@ -68,7 +68,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Convert ogg to mp3 (for source for openai's STT): [cloudconvert.com](https://cloudconvert.com/ogg-to-mp3)
 - Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
 - Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
-- Record voice (mp3): [online-voice-recorder.com](https://online-voice-recorder.com/)
+- Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 
 #### Wif Hoff - Breathing 🫁🫁 
 
