@@ -21,6 +21,10 @@
 - ❤️ Learn Bash scripting official manjaro linux article - [Click here](https://forum.manjaro.org/t/tutorial-shell-scripting-by-way-of-an-illustrated-practical-example/66120)
 - ❤️Interactive vs. Non-Interactive shell❤️ : [Click here](https://phoenixnap.com/kb/bashrc-vs-bash-profile)
 
+## Convert ogg to mp3 file (#audio)
+
+`ffmpeg -i inputFile.ogg outputFile.mp3`
+
 ## What does `wait` command do in bash script
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/2b625d75-d8cb-4543-887f-4cdf0af07b78)
