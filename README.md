@@ -1,7 +1,5 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
-- **TODO:** Learn payment via Paytm and Google Pay in application like it does in amazon android app.
-	- Also, the experience of payment in Blinkit (tested with paytm) is awesome as the on selecting paytm the app automatically opens paytm and on completion of payment it automatically is redirected back to blinkit as well.
 - Inspiration is perishable - act on it immediately. ~ Naval
 	- Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving.
 - Don't need to play games, connect instead.
@@ -48,6 +46,13 @@ cat /dev/null
 </div>
 
 # My feed: [Click here](./feed.md)
+
+# Proxy Sites
+
+Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
+
+- 1337x.to: [Click here](https://freeproxy.io/o.php?u=http://1337x.to)
+- thepiratebay.org: [Click here](https://thepiratebay.org)
 
 # Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
 
@@ -99,6 +104,7 @@ cat /dev/null
 	- Learn Zerodha Varasity: [Click here](./learn-zerodha-varasity.md)
 	- Doc - Learn Trading - Sahil Rajput: [Click here](https://docs.google.com/document/d/1pv_pvsd06fB1vJnPOoGTdX6KVfdg_vJsbci5Blz-DFs/edit)
 - Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+- TamronHallShow (Journalist): [@TamronHallShow](https://www.youtube.com/@TamronHallShow/videos)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 - **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
 - Learn NFC:
@@ -379,5 +385,6 @@ cat /dev/null
 - Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile)
 - Learn GIMP: [Click here](https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit)
 - Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
+- Learn Svelte: [Click here](https://github.com/sahilrajput03/learn-svelte)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
