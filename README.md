@@ -66,9 +66,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 - Transcribe youtube video or shorts: [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
 - Convert ogg to mp3 (for source for openai's STT): [Click here](https://cloudconvert.com/ogg-to-mp3)
-- Convert markdown to docx converter:
-	- [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well)*
-	- Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
+- Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
 - Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
 
 #### Wif Hoff - Breathing 🫁🫁 
