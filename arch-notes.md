@@ -23,6 +23,14 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## Lx appearance
+
+Change theme in manajaro.
+
+```bash
+lxappearance
+```
+
 ## Default file manager in i3
 
 ```bash
