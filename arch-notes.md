@@ -27,6 +27,8 @@
 
 Change theme in manajaro.
 
+Default Theme: *Matcha-light-sea*
+
 ```bash
 lxappearance
 ```
