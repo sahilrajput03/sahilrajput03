@@ -386,5 +386,9 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Learn GIMP: [Click here](https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit)
 - Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
 - Learn Svelte: [Click here](https://github.com/sahilrajput03/learn-svelte)
+- Learn C: [Click here](https://github.com/sahilrajput03/learn-c)
+- Learn C++: [Click here](https://github.com/sahilrajput03/learning_cpp)
+- Learn IoT and C: [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op)
+- 
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
