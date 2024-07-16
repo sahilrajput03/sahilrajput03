@@ -157,6 +157,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- https://web.dev/articles (awesome web development articles)
 	- https://web.dev/blog (awesome web development blogs)
 	- Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
+	- https://www.stephanetheteacher.com/
 
 ## References:
 
