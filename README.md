@@ -389,5 +389,6 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Learn C: [Click here](https://github.com/sahilrajput03/learn-c)
 - Learn C++: [Click here](https://github.com/sahilrajput03/learning_cpp)
 - Learn IoT and C (Document): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op)
+- Learn SolidJS: [Click here](https://github.com/sahilrajput03/learning-solidjs)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
