@@ -53,6 +53,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 - 1337x.to: [Click here](https://freeproxy.io/o.php?u=http://1337x.to)
 - thepiratebay.org: [Click here](https://freeproxy.io/o.php?u=https://thepiratebay.org)
+- torrentgalaxy.to: [Click here](https://torrentgalaxy.to/) ([try proxy](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/))
 
 # Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
 
