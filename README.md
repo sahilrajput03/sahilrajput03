@@ -1,7 +1,6 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
-- Inspiration is perishable - act on it immediately. ~ Naval
-	- Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving.
+- Inspiration is perishable - act on it immediately. Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving. ~ Naval
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
@@ -393,5 +392,6 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Learn C++: [Click here](https://github.com/sahilrajput03/learning_cpp)
 - Learn IoT and C (Document): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op)
 - Learn SolidJS: [Click here](https://github.com/sahilrajput03/learning-solidjs)
+- Learn AWS (Amazon Web Services): [Click here](https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
