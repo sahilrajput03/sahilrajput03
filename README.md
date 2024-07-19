@@ -163,7 +163,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 ## References:
 
-- Contact me: [Click here](https://sahilrajput03.ml/me)
+- Contact me: [Click here](/me)
 - My Works: [Click here](./my-works.md)
 - **Blockchain Development:**
 	- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
