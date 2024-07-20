@@ -48,7 +48,7 @@ cat /dev/null
 
 ## Superprof .co.in: [Click here](https://www.superprof.co.in)
 
-## IndiaMart .com: [Click here](https://www.indiamart.com/)
+## Indiamart .com: [Click here](https://www.indiamart.com/)
 
 # Proxy Sites of Torrent Sites
 
