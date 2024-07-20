@@ -46,6 +46,10 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
+## Superprof .co.in: [Click here](https://www.superprof.co.in)
+
+## IndiaMart .com: [Click here](https://www.indiamart.com/)
+
 # Proxy Sites of Torrent Sites
 
 Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
