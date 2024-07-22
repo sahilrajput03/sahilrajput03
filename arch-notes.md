@@ -24,6 +24,24 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+
+## Available Login Shells in manjaro-i3
+
+```
+cat /etc/shells
+# Output:
+# Pathnames of valid login shells.
+# See shells(5) for details.
+
+/bin/sh
+/bin/bash
+/bin/zsh
+/usr/bin/zsh
+/usr/bin/git-shell
+/bin/rbash
+/usr/bin/rbash
+```
+
 ## Fixed bug of time not syncing on system startup (and also on reboot).
 
 Src: [Answer on Reddit ](https://www.reddit.com/r/archlinux/comments/iehv82/my_time_isnt_synchronized_help/)
