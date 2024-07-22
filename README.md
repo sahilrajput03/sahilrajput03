@@ -126,7 +126,8 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Laptops:
 	- [MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)](https://support.apple.com/en-in/111339)
 	- [Dell Latitude 5400](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
-		- OS: Manjaro, Kernel Version: 6.1.51-1-MANJARO (`uname -r`) 
+		- OS: Manjaro, Kernel Version: 6.1.51-1-MANJARO (`uname -r`)
+		- Terminal Application: Kitty
 	- [HP Notebook - 15-ac179tx](https://support.hp.com/in-en/document/c04919819)
 	- [Raspberry Pi 4 model-b](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), Processor: `Quad core ARM Cortex-A72 processor`, Specification page [here](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/).
 - Speaker:
