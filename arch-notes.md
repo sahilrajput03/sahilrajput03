@@ -23,6 +23,50 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## Fixed bug of time not syncing on system startup (and also on reboot).
+
+Src: [Answer on Reddit ](https://www.reddit.com/r/archlinux/comments/iehv82/my_time_isnt_synchronized_help/)
+
+```bash
+timedatectl
+# Output
+    Local time: Mon 2024-07-22 08:07:04 IST
+           Universal time: Mon 2024-07-22 02:37:04 UTC
+                 RTC time: Thu 2023-05-04 20:53:33
+                Time zone: Asia/Kolkata (IST, +0530)
+System clock synchronized: no
+              NTP service: inactive
+          RTC in local TZ: no
+```
+
+**Note:** The NTP service in above logs is `inactive` and we can enable it via:
+
+```bash
+# Enable ntp service
+sudo timedatectl set-ntp true
+```
+
+We can verify if NTP service is now active via `timedatectl` command now:
+
+```bash
+# The NTP service should be active now, we can verify it via:
+timedatectl
+# Output of timedatectl (after running sudo timedatectl set-ntp true command)
+  Local time: Mon 2024-07-22 08:13:07 IST
+           Universal time: Mon 2024-07-22 02:43:07 UTC
+                 RTC time: Mon 2024-07-22 02:43:07
+                Time zone: Asia/Kolkata (IST, +0530)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+```
+
+We can also verify it via:
+
+```bash
+systemctl status systemd-timesyncd.service
+```
+
 ## Lx appearance
 
 Change theme in manajaro.
