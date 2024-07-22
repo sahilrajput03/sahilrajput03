@@ -7,6 +7,7 @@
 
 
 **-ves:**
+- No comments allowed inside jsx or html. [Check this issue](https://github.com/sveltejs/rfcs/pull/43).
 - Google Search: Why svelte is not popular: [Click here](https://www.google.com/search?q=why+svelte+is+not+popular)
 - *TODO: Nov 16, 2020* - Why people aren’t switching to Svelte yet: [Click here](https://blog.logrocket.com/why-people-arent-switching-to-svelte-yet/)
 
