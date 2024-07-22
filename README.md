@@ -130,7 +130,6 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
 - More Technologies: trpc (ALERT: Please check my learn-trpc page), hasura and onegraph (graphiql-explorer).
 - Quick Links
-	- Jump Starters: [Click here](jump-starters.md)
 	- Tech Presentations
 		- [Presentation - Going that extra mile](https://docs.google.com/presentation/d/1uz8-Ae5sTgZYDmydfX-ESDO03oMBYAQ14rkJzPs4AxE/edit#slide=id.g2b178ca05c_0_3)
 		- [Presentation - Web Performance Swiggy Style](https://docs.google.com/presentation/d/1snxo-EKx6PseQeznhfr-VVTEQ71EAMOdbDQ0pNR5jEA/edit#slide=id.g6b802e0221_1_1286)
