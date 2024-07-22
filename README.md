@@ -1,7 +1,6 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
-- Inspiration is perishable - act on it immediately. ~ Naval
-	- Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving.
+- Inspiration is perishable - act on it immediately. Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving. ~ Naval
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
@@ -47,12 +46,17 @@ cat /dev/null
 
 # My feed: [Click here](./feed.md)
 
-# Proxy Sites
+## Superprof .co.in: [Click here](https://www.superprof.co.in)
+
+## Indiamart .com: [Click here](https://www.indiamart.com/)
+
+# Proxy Sites of Torrent Sites
 
 Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 - 1337x.to: [Click here](https://freeproxy.io/o.php?u=http://1337x.to)
-- thepiratebay.org: [Click here](https://thepiratebay.org)
+- thepiratebay.org: [Click here](https://freeproxy.io/o.php?u=https://thepiratebay.org)
+- torrentgalaxy.to: [Click here](https://torrentgalaxy.to/) ([proxy](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/))
 
 # Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
 
@@ -62,13 +66,13 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 #### Sahil's Vocabulary 🚶: [Click here](vocab.html) | [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
 
-#### Transcribe youtube video or shorts:
+#### Transcribe, Convert 
 
-- [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
-
-#### Convert pdf to docx (for usage with google docs)
-
-[https://pdf2docx.com/](https://pdf2docx.com/)
+- Transcribe youtube video or shorts: [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
+- Convert ogg to mp3 (for source for openai's STT): [Check Learn bash page](./learn-bash.md)
+- Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
+- Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
+- Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 
 #### Wif Hoff - Breathing 🫁🫁 
 
@@ -123,6 +127,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- [MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)](https://support.apple.com/en-in/111339)
 	- [Dell Latitude 5400](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
 	- [HP Notebook - 15-ac179tx](https://support.hp.com/in-en/document/c04919819)
+	- [Raspberry Pi 4 model-b](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), Processor: `Quad core ARM Cortex-A72 processor`, Specification page [here](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/).
 - Speaker:
 	- [Boat Stone 650](https://support.boat-lifestyle.com/articles/stone-speakers/stone-650/6218b3b72b115f64864d7ee4), [User Manual](https://media.croma.com/image/upload/v1676364686/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/User%20Manual/221786_User%20Manual.pdf)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
@@ -157,10 +162,11 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- https://web.dev/articles (awesome web development articles)
 	- https://web.dev/blog (awesome web development blogs)
 	- Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
+	- https://www.stephanetheteacher.com/
 
 ## References:
 
-- Contact me: [Click here](https://sahilrajput03.ml/me)
+- Contact me: [Click here](/me)
 - My Works: [Click here](./my-works.md)
 - **Blockchain Development:**
 	- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
@@ -386,5 +392,10 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Learn GIMP: [Click here](https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit)
 - Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
 - Learn Svelte: [Click here](https://github.com/sahilrajput03/learn-svelte)
+- Learn C: [Click here](https://github.com/sahilrajput03/learn-c)
+- Learn C++: [Click here](https://github.com/sahilrajput03/learning_cpp)
+- Learn IoT and C (Document): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op)
+- Learn SolidJS: [Click here](https://github.com/sahilrajput03/learning-solidjs)
+- Learn AWS (Amazon Web Services): [Click here](https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
