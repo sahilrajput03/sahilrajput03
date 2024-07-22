@@ -1,7 +1,6 @@
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
-- Inspiration is perishable - act on it immediately. ~ Naval
-	- Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving.
+- Inspiration is perishable - act on it immediately. Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving. ~ Naval
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
 - You do not rise to the level of your goals. You fall to the level of your systems.
@@ -46,6 +45,10 @@ cat /dev/null
 </div>
 
 # My feed: [Click here](./feed.md)
+
+## Superprof .co.in: [Click here](https://www.superprof.co.in)
+
+## Indiamart .com: [Click here](https://www.indiamart.com/)
 
 # Proxy Sites of Torrent Sites
 
@@ -123,6 +126,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Laptops:
 	- [MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)](https://support.apple.com/en-in/111339)
 	- [Dell Latitude 5400](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
+		- OS: Manjaro, Kernel Version: 6.1.51-1-MANJARO (`uname -r`) 
 	- [HP Notebook - 15-ac179tx](https://support.hp.com/in-en/document/c04919819)
 	- [Raspberry Pi 4 model-b](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), Processor: `Quad core ARM Cortex-A72 processor`, Specification page [here](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/).
 - Speaker:
@@ -152,13 +156,18 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- Dr. Werner Vogels, CTO, Amazon.com
 		- [LinkedIn](https://www.linkedin.com/in/wernervogels/)
 		- Blog: [allthingsdistributed.com](https://www.allthingsdistributed.com/)
-	- https://blog.isquaredsoftware.com/
-   	- https://tim.blog/
+	- https://blog.isquaredsoftware.com (core maintainer of `redux` and `redux-toolkit`)
+   	- Tim Ferriss: https://tim.blog
 	- https://ionic.io/blog
 	- https://web.dev/articles (awesome web development articles)
 	- https://web.dev/blog (awesome web development blogs)
 	- Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
-	- https://www.stephanetheteacher.com/
+	- https://www.stephanetheteacher.com (aws, apache kafka)
+	- **Popular Linux Blogs:**
+		- https://linuxize.com/ (5*)
+		- https://linuxjournal.com (5*)
+		- https://linuxhint.com/ (3*)
+
 
 ## References:
 
@@ -392,5 +401,6 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Learn C++: [Click here](https://github.com/sahilrajput03/learning_cpp)
 - Learn IoT and C (Document): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op)
 - Learn SolidJS: [Click here](https://github.com/sahilrajput03/learning-solidjs)
+- Learn AWS (Amazon Web Services): [Click here](https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>

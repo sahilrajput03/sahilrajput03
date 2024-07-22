@@ -7,12 +7,7 @@
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
 - **Bash Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 - **GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
-
-**Popular blogs:**
-- https://linuxize.com/ (5*)
-- https://linuxjournal.com (5*)
-- https://linuxhint.com/ (3*)
-
+- **Learn KVM:** [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit)
 
 **TODO READS:**
 - **Bash Shell Substitution:** [Click here](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
@@ -443,10 +438,6 @@ sudo passwd --status postgres
 - https://linuxways.net/centos/top-5-open-source-virtualization-software-for-linux/
 - Vagrant and its alternatives: https://stackshare.io/vagrant/alternatives
 - Docker vs. Vagrant: https://keyua.org/blog/docker-vs-vagrant-for-development/
-
-## Why install `ubuntu-server` on kvm machines?
-
-It comes with tmux builtin so its fun!
 
 ## multiline commenting in bash
 
