@@ -158,12 +158,17 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 		- [LinkedIn](https://www.linkedin.com/in/wernervogels/)
 		- Blog: [allthingsdistributed.com](https://www.allthingsdistributed.com/)
 	- https://blog.isquaredsoftware.com/
-   	- https://tim.blog/
+   	- Tim Ferriss: https://tim.blog
 	- https://ionic.io/blog
 	- https://web.dev/articles (awesome web development articles)
 	- https://web.dev/blog (awesome web development blogs)
 	- Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
-	- https://www.stephanetheteacher.com/
+	- https://www.stephanetheteacher.com (aws, apache kafka)
+	- **Popular Linux Blogs:**
+		- https://linuxize.com/ (5*)
+		- https://linuxjournal.com (5*)
+		- https://linuxhint.com/ (3*)
+
 
 ## References:
 
