@@ -444,10 +444,6 @@ sudo passwd --status postgres
 - Vagrant and its alternatives: https://stackshare.io/vagrant/alternatives
 - Docker vs. Vagrant: https://keyua.org/blog/docker-vs-vagrant-for-development/
 
-## Why install `ubuntu-server` on kvm machines?
-
-It comes with tmux builtin so its fun!
-
 ## multiline commenting in bash
 
 ```bash
