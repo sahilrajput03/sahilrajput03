@@ -27,7 +27,7 @@
 
 ## Available Login Shells in manjaro-i3
 
-```
+```bash
 cat /etc/shells
 # Output:
 # Pathnames of valid login shells.
