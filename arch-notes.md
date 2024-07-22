@@ -398,14 +398,6 @@ pactl set-sink-volume @DEFAULT_SINK@ -10%
 pactl set-sink-mute @DEFAULT_SINK@ toggle
 ```
 
-## KVM: We can share files using web server made on host linux machine to the guest windows machine like that
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5635f6b3-2fd7-4858-a5db-de5af0b9d53c)
-
-## windows 10 on kvm
-
-Awesome youtube tutorial - [Click here](https://youtu.be/2WDASJ0ye0A)
-
 ## Setting `typematic` (also mentioned in my feed)
 
 **Why?:** So that navigating in vscode is a bit faster with arrow keys.
@@ -901,61 +893,6 @@ sudo pacman -S usbutils
 
 # Usage:
 lsusb
-```
-
-## install macos-simple-kvm
-
-**IMPORTANT: USE ctrl+alt+g to toggle mouse into/out from qemu screen.**
-
-**IMPORTANT: USE ctrl+alt+f to toggle fullscreen.**
-
-**IMPORTANT: USE ctrl+alt+m to toggle menu. (new - OneClick-macOS-Simple-KVM)**
-
-```bash
-# Youtube: https://www.youtube.com/watch?v=-Otg7JFMuVw
-# Article: https://computingforgeeks.com/how-to-run-macos-on-kvm-qemu/
-
-# Source Project: https://github.com/foxlet/macOS-Simple-KVM
-gcl git@github.com:foxlet/macOS-Simple-KVM.git
-cd macOS-Simple-KVM
-
-# Download (500M) and uncompress it to `BaseSystem.img` (2G)
-./jumpstart.sh
-
-# Create disk image (20G) is minimum as they say in FAQ's: https://github.com/foxlet/macOS-Simple-KVM/blob/master/docs/FAQs.md
-# This creates a file `MyDisk.qcow2` (of size 196K) in current directory.
-# HELP: Use `Enter` to press the ```Boot Install Macos``` BUTTON. ALSO IN DISK UTILITY, You need to format the disk.
-qemu-img create -f qcow2 MyDisk.qcow2 28G
-# FYI: For 25.21G is mimimum requirement for `catalina - macos` ~Sahil
-
-## Addbelow lines to basic.sh file (remove `#` though from each line):
-#    -drive id=SystemDisk,if=none,file=MyDisk.qcow2 \
-#    -device ide-hd,bus=sata.4,drive=SystemDisk \
-
-### SRC: https://github.com/foxlet/macOS-Simple-KVM/blob/master/docs/guide-performance.md
-## Also add memory usage to
-#    -m 6G \
-## add cpu cores as well by chaing below line
-#     -smp 4,cores=2 \
-# to...
-#     -smp cores=4,threads=8,sockets=1 \
-    
-
-# Run basic.sh to start macos installation (need to use this to run macos everytime):
-./basic.sh
-# FYI: `Clover` is used as boot manager for macos-simple-kvm and other hackintoshes as well.
-
-# While installation
-# 1. You need to go to `Disk Utility` and select the largest disk (which corresponds to disk file we created earlier with `qemu-img` command)
-# 2. Click on `Erase` and and choose some name for disk `disk1` and choose format as `APFS` and click on `Erase` now.
-# 3. Now go back from `Disk Utility` and choose `Reinstall macos`, yo!! It will simply install!
-
-## AFTER INSTALLATION WE CAN IMPROVE THE PERFORMANE VIA
-- increasing `Memory Allocation`
-- increasing `number of `CPU cores`
-- increasing `number of threads cpu can handle`
-- increasing `screen resolution`
-- adding any passthroughs through say for e.g., GPU
 ```
 
 ## Installed `epiphany`
@@ -1512,51 +1449,6 @@ sudo pacman -S lolcat
 # Usage:
 lolcat myFile
 # Output: lovely rainbow text!
-```
-
-## install `kvm`
-
-TIP: You can define to set any virtual machine to be started on boot and that would be cool, though!
-
-```bash
-# Follow article from: https://linuxhint.com/install_configure_kvm_archlinux/
-
-
-# Then you can open virt-manager
-sudo virt-maanger
-# NOTE SUDO IS IMPORTANT!
-
-# To free your mouse from the virtmanager, you may use `ctrl+alt` combination. YO!
-
-# Issue in setting the network for the image while making virtual machine?
-# Like as mentioned here: https://github.com/kubernetes/minikube/issues/828
-# BUT WHAT WORKED FOR ME IS, this: https://github.com/kubernetes/minikube/issues/828#issuecomment-981267700
-```
-
-### managing `kvm`'s vm with cli tool
-
-```bash
-# IMP: You must precede virsh with `sudo`, else it won't work idk why!
-
-# List all vms
-virsh list --all
-
-# List all vms including stopped vms
-virsh list --state-shutoff
-
-## For example sake in below examples, consider debian11 as my vm name which i got from above list of vms-
-
-# start vm
-virsh start debian11
-
-# stop vm
-virsh shutdown debian11
-
-# FOR MORE HELP AND OPTIONS:
-virsh shutdown --help
-virsh start --help
-
-# Descent article and source of above info: https://kifarunix.com/start-and-stop-kvm-virtual-machines-from-command-line/
 ```
 
 ## installed `jq`
