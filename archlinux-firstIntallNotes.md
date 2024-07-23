@@ -34,7 +34,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # For fresh way of setting up(you may ensure that there are no current partition in the drive using `p` to print the partitions).
   # Make partition with `n` and press 1 to make it primary. Press <Enter> key for "First Sector", and type +200M for "Last Sector" to create a 200Mb partition. And type `y` to remove "Signature" then. Now use `p` to check if you got the partition there which you just made (this would show up as partition `sdb1`).
   
-  ### /// now make another partition in similar way for the (SWAP partition for system hibernation purpose):
+  ### /// now make another primary partition in similar way for the (SWAP partition for system hibernation purpose):
   # `n<Enter>p<Enter> +12G<Enter>   and now verify the same with p<Enter> (this would show up as partition `sdb2`)
   
   ### /// now create a partition for archlinux installation i.e., system partition:
