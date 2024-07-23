@@ -45,11 +45,11 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   # FYI: We're using end block as end of the drive for the user data partition now.
   
   ####### Above process would make a partition table like below (You may use p<Enter> to print partition table)
-                  type    partition_type
-  /dev/sdb1 200M  linux   primary
-  /dev/sdb2 12G   linux   extended
-  /dev/sdb3 25G   linux   primary
-  /dev/sdb4 260G  linux   extended
+                  type    partition_type    (Future Mount Point)
+  /dev/sdb1 200M  linux   primary            /boot
+  /dev/sdb2 12G   linux   extended           <none> (todo: need to verify this)
+  /dev/sdb3 25G   linux   primary            /
+  /dev/sdb4 260G  linux   extended           /mnt/home
   
   
   ### FINISHING??
