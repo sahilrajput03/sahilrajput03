@@ -130,15 +130,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   systemctl enable NetworkManager
   ```
   
-  13. (IGNORE THIS STEP COMPLETELY IF YOU ARE DOING UEFI though) _**UEFI > Legacy Boot**_  But if you are using Legacy Boot follow below code (else you can follow the later part where i install grub for uefi later in this post):
-  ```
-  grup-install --target=i386-pc /dev/sda
-  #YES PROBABLY ITS sda only (not sdb or sdc).
-  # MAKE SURE THAT YOU USE CORRECT ^^^^^ device here(its sda here coz i am currently logged into my current system if you are following the tutorial in order.
-  
-  # Make config file for grub-
-  grub-mkconfig -o /boot/grub/grub.cfg
-  ```
+  13. -
   14. Set password for root user-
   ```
   passwd
@@ -226,8 +218,9 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   %wheel ALL=(ALL) ALL
   ```
   
-- **Installing GRUB for UEFI**-
+- **Installing GRUB**-
   ```
+  ########## For UEFI ########
   pacman -S grub
   pacman -S efibootmgr dosfstools os-prober mtools
 
@@ -236,7 +229,16 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   mount /dev/sda1 /boot/EFI
   grub-install --target=x86_64-efi --bootloader-id=grub-uefi --efi-directory=/boot/EFI
   #FYI: If grub-install says /boot/EFI is not efi partition:: then you need to change partition type{by `mkfs.fat -F32 /dev/sdb1`} and partition file system{by `fdisk /dev/sdb` and then using t<Enter>1<Enter>} of a partition only after unmounting the partition first , otherwise it won't actually work.
+
+
+  ########### For Legacy
+  If you are using Legacy Boot then follow below code:
+  grub-install --target=i386-pc /dev/sda
+  
+  # Make config file for grub-
+  grub-mkconfig -o /boot/grub/grub.cfg
   ```
+  
 - Generate grub config file-
   ```
   grub-mkconfig -o /boot/grub/grub.cfg
