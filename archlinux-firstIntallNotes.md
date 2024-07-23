@@ -12,7 +12,7 @@ _**Why do i make notes when i can use the same video _source/ article source_ to
 2. `sudo su` to become root.
 TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` features in your boot menu as it can cause problems in installation of the os.
 3. `wifi-menu` to access wifi targets and connect to them (it is highly recommened).
-4. `timedatectl set-ntp true` to set the time.
+4. Enable NTP service (for automatic time syncing via internet) `timedatectl set-ntp true` to set the time.
 5. Now, we need to create partitions:
   
   ```
