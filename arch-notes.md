@@ -24,6 +24,13 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## Removing a program with all its subdependencies together to by pass the uninstall error by pacman (Tags: #uninstall i3wm, #remove i3wm, #delete i3wm)
+
+It is reality in case of practising uninstalling i3-wm. You can simply run below command to fix such cases for similar uninstallation as it does with the case of i3-wm.
+
+```bash
+sudo pacman -Rsc i3-wm
+```
 
 ## Available Login Shells in manjaro-i3
 
