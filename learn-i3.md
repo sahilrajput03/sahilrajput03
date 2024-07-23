@@ -1,5 +1,11 @@
 # Learn i3
 
+## Uninstall i3wm
+
+(Note: This post is intentionally not put here because we personified this example solving into removing a dependency with nested dependencies because they are not directly uninstallable unless we remove every dependenct dependencies to pacman to remove).
+
+[Click here to open post](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md#removing-a-program-with-all-its-subdependencies-together-to-by-pass-the-uninstall-error-by-pacman-tags-uninstall-i3wm-remove-i3wm-delete-i3wm)
+
 ## Get alsamixer floated
 
 ```bash
