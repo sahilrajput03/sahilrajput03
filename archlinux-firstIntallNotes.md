@@ -31,25 +31,25 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   t : change partition type ## THIS MIGHT BE USEFUL LATER IF YOU CHOOSE UEFI INSTALLATION MODE to change the partition type of sdb1 to EFI.
   # FYI: UEFI IS BETTER THAN LEGACY
   
-  # For fresh way of setting up(you may ensure that there are no current partition in the drive using `p` to print the partitions).
-  # Make partition with `n` and press 1 to make it primary. Press <Enter> key for "First Sector", and type +200M for "Last Sector" to create a 200Mb partition. And type `y` to remove "Signature" then. Now use `p` to check if you got the partition there which you just made (this would show up as partition `sdb1`).
+  # For fresh way of setting up (you may ensure that there are no current partition in the drive using `p` to print the partitions).
+  # Make partition with `n` and press p to make it primary. Press <Enter> key for "First Sector", and type +200M for "Last Sector" to create a 200Mb partition. And type `y` to remove "Signature" then. Now use `p` to check if you got the partition there which you just made (this would show up as partition `sdb1`).
   
-  ### /// now make another primary partition in similar way for the (SWAP partition for system hibernation purpose):
-  # `n<Enter>p<Enter> +12G<Enter>   and now verify the same with p<Enter> (this would show up as partition `sdb2`)
+  ### /// now make an extended partition in similar way for the (SWAP partition for system hibernation purpose):
+  # `n<Enter>e<Enter> +12G<Enter>   and now verify the same with p<Enter> (this would show up as partition `sdb2`)
   
-  ### /// now create a partition for archlinux installation i.e., system partition:
+  ### /// now create a primary partition for archlinux installation i.e., system partition:
   n<Enter>p<Enter>+25G<Enter>y<Enter>   and now verify the same with p<Enter> (this would show up as partition `sdb3`)
   
-  ### /// now create a user data partition
-  n<Enter>p<Enter><Enter>Y and now verify the same with p<Enter> (this would show up as partition `sdb4`)
+  ### /// now create an extended partition for user data
+  n<Enter>e<Enter><Enter>Y and now verify the same with p<Enter> (this would show up as partition `sdb4`)
   # FYI: We're using end block as end of the drive for the user data partition now.
   
   ####### Above process would make a partition table like below (You may use p<Enter> to print partition table)
-                  type
-  /dev/sdb1 200M  linux
-  /dev/sdb2 12G   linux
-  /dev/sdb3 25G   linux
-  /dev/sdb4 260G  linux
+                  type    partition_type
+  /dev/sdb1 200M  linux   primary
+  /dev/sdb2 12G   linux   extended
+  /dev/sdb3 25G   linux   primary
+  /dev/sdb4 260G  linux   extended
   
   
   ### FINISHING??
