@@ -219,11 +219,11 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   ```
   
 - **Installing GRUB**-
-  ```
-  ########## For UEFI ########
+  ```bash
   pacman -S grub
   pacman -S efibootmgr dosfstools os-prober mtools
-
+  
+  ########## For UEFI ########
   # Mount boot partition
   mkdir /boot/EFI
   mount /dev/sda1 /boot/EFI
