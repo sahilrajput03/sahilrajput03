@@ -12,7 +12,7 @@ _**Why do i make notes when i can use the same video _source/ article source_ to
 2. `sudo su` to become root.
 TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` features in your boot menu as it can cause problems in installation of the os.
 3. `wifi-menu` to access wifi targets and connect to them (it is highly recommened).
-4. `timedatectl set-ntp true` to set the time.
+4. Enable NTP service (for automatic time syncing via internet) `timedatectl set-ntp true` to set the time.
 5. Now, we need to create partitions:
   
   ```
@@ -31,25 +31,25 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   t : change partition type ## THIS MIGHT BE USEFUL LATER IF YOU CHOOSE UEFI INSTALLATION MODE to change the partition type of sdb1 to EFI.
   # FYI: UEFI IS BETTER THAN LEGACY
   
-  # For fresh way of setting up(you may ensure that there are no current partition in the drive using `p` to print the partitions).
-  # Make partition with `n` and press 1 to make it primary. Press <Enter> key for "First Sector", and type +200M for "Last Sector" to create a 200Mb partition. And type `y` to remove "Signature" then. Now use `p` to check if you got the partition there which you just made (this would show up as partition `sdb1`).
+  # For fresh way of setting up (you may ensure that there are no current partition in the drive using `p` to print the partitions).
+  # Make partition with `n` and press p to make it primary. Press <Enter> key for "First Sector", and type +200M for "Last Sector" to create a 200Mb partition. And type `y` to remove "Signature" then. Now use `p` to check if you got the partition there which you just made (this would show up as partition `sdb1`).
   
-  ### /// now make another partition in similar way for the (SWAP partition for system hibernation purpose):
-  # `n<Enter>p<Enter> +12G<Enter>   and now verify the same with p<Enter> (this would show up as partition `sdb2`)
+  ### /// now make an extended partition in similar way for the (SWAP partition for system hibernation purpose):
+  # `n<Enter>e<Enter> +12G<Enter>   and now verify the same with p<Enter> (this would show up as partition `sdb2`)
   
-  ### /// now create a partition for archlinux installation i.e., system partition:
+  ### /// now create a primary partition for archlinux installation i.e., system partition:
   n<Enter>p<Enter>+25G<Enter>y<Enter>   and now verify the same with p<Enter> (this would show up as partition `sdb3`)
   
-  ### /// now create a user data partition
-  n<Enter>p<Enter><Enter>Y and now verify the same with p<Enter> (this would show up as partition `sdb4`)
+  ### /// now create an extended partition for user data
+  n<Enter>e<Enter><Enter>Y and now verify the same with p<Enter> (this would show up as partition `sdb4`)
   # FYI: We're using end block as end of the drive for the user data partition now.
   
   ####### Above process would make a partition table like below (You may use p<Enter> to print partition table)
-                  type
-  /dev/sdb1 200M  linux
-  /dev/sdb2 12G   linux
-  /dev/sdb3 25G   linux
-  /dev/sdb4 260G  linux
+                  type    partition_type    (Future Mount Point)
+  /dev/sdb1 200M  linux   primary            /boot
+  /dev/sdb2 12G   linux   extended           <none> (todo: need to verify this)
+  /dev/sdb3 25G   linux   primary            /
+  /dev/sdb4 260G  linux   extended           /mnt/home
   
   
   ### FINISHING??
@@ -130,15 +130,7 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   systemctl enable NetworkManager
   ```
   
-  13. (IGNORE THIS STEP COMPLETELY IF YOU ARE DOING UEFI though) _**UEFI > Legacy Boot**_  But if you are using Legacy Boot follow below code (else you can follow the later part where i install grub for uefi later in this post):
-  ```
-  grup-install --target=i386-pc /dev/sda
-  #YES PROBABLY ITS sda only (not sdb or sdc).
-  # MAKE SURE THAT YOU USE CORRECT ^^^^^ device here(its sda here coz i am currently logged into my current system if you are following the tutorial in order.
-  
-  # Make config file for grub-
-  grub-mkconfig -o /boot/grub/grub.cfg
-  ```
+  13. -
   14. Set password for root user-
   ```
   passwd
@@ -226,17 +218,27 @@ TIP: Please ensure that you have ***disabled*** `legacy mode` and `secure boot` 
   %wheel ALL=(ALL) ALL
   ```
   
-- **Installing GRUB for UEFI**-
-  ```
+- **Installing GRUB**-
+  ```bash
   pacman -S grub
   pacman -S efibootmgr dosfstools os-prober mtools
-
+  
+  ########## For UEFI ########
   # Mount boot partition
   mkdir /boot/EFI
   mount /dev/sda1 /boot/EFI
   grub-install --target=x86_64-efi --bootloader-id=grub-uefi --efi-directory=/boot/EFI
   #FYI: If grub-install says /boot/EFI is not efi partition:: then you need to change partition type{by `mkfs.fat -F32 /dev/sdb1`} and partition file system{by `fdisk /dev/sdb` and then using t<Enter>1<Enter>} of a partition only after unmounting the partition first , otherwise it won't actually work.
+
+
+  ########### For Legacy
+  If you are using Legacy Boot then follow below code:
+  grub-install --target=i386-pc /dev/sda
+  
+  # Make config file for grub-
+  grub-mkconfig -o /boot/grub/grub.cfg
   ```
+  
 - Generate grub config file-
   ```
   grub-mkconfig -o /boot/grub/grub.cfg

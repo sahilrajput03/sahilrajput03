@@ -1,3 +1,4 @@
+
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
 - Inspiration is perishable - act on it immediately. Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving. ~ Naval
@@ -126,6 +127,8 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Laptops:
 	- [MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)](https://support.apple.com/en-in/111339)
 	- [Dell Latitude 5400](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
+		- OS: Manjaro, Kernel Version: 6.1.51-1-MANJARO (`uname -r`)
+		- Terminal Emulator([?](https://en.wikipedia.org/wiki/Terminal_emulator)): [Kitty](https://sw.kovidgoyal.net/kitty/)
 	- [HP Notebook - 15-ac179tx](https://support.hp.com/in-en/document/c04919819)
 	- [Raspberry Pi 4 model-b](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), Processor: `Quad core ARM Cortex-A72 processor`, Specification page [here](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/).
 - Speaker:
@@ -133,7 +136,6 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
 - More Technologies: trpc (ALERT: Please check my learn-trpc page), hasura and onegraph (graphiql-explorer).
 - Quick Links
-	- Jump Starters: [Click here](jump-starters.md)
 	- Tech Presentations
 		- [Presentation - Going that extra mile](https://docs.google.com/presentation/d/1uz8-Ae5sTgZYDmydfX-ESDO03oMBYAQ14rkJzPs4AxE/edit#slide=id.g2b178ca05c_0_3)
 		- [Presentation - Web Performance Swiggy Style](https://docs.google.com/presentation/d/1snxo-EKx6PseQeznhfr-VVTEQ71EAMOdbDQ0pNR5jEA/edit#slide=id.g6b802e0221_1_1286)
@@ -156,13 +158,18 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- Dr. Werner Vogels, CTO, Amazon.com
 		- [LinkedIn](https://www.linkedin.com/in/wernervogels/)
 		- Blog: [allthingsdistributed.com](https://www.allthingsdistributed.com/)
-	- https://blog.isquaredsoftware.com/
-   	- https://tim.blog/
+	- https://blog.isquaredsoftware.com (core maintainer of `redux` and `redux-toolkit`)
+   	- Tim Ferriss: https://tim.blog
 	- https://ionic.io/blog
 	- https://web.dev/articles (awesome web development articles)
 	- https://web.dev/blog (awesome web development blogs)
 	- Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
-	- https://www.stephanetheteacher.com/
+	- https://www.stephanetheteacher.com (aws, apache kafka)
+	- **Popular Linux Blogs:**
+		- https://linuxize.com/ (5*)
+		- https://linuxjournal.com (5*)
+		- https://linuxhint.com/ (3*)
+
 
 ## References:
 
@@ -174,8 +181,11 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Dictionary: [Click here](./dictionary.md)
 - **Acronyms:** [Click here](./acroynms.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
-- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](./arch-notes.md)
-- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](./learn-bash.md)
+- Linux:
+	- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](./arch-notes.md)
+	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](./learn-bash.md)
+	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
+	- Learn Systemd: [Click here](https://docs.google.com/document/d/1aOpEVHh8_3Z3bEP8J-2RiGITiN25tg_d35p8v4zUZWE/edit)
 - **Book logs:** [Click here](./book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses:** [Click here](./courses-list.md)
