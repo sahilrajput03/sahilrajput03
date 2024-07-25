@@ -75,6 +75,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
 - Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
+- Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 
 #### Wif Hoff - Breathing 🫁🫁 
 
