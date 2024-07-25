@@ -1,5 +1,7 @@
 # Learn Systemd Service Files
 
+Todo: Move all content to this [doc](https://docs.google.com/document/d/1aOpEVHh8_3Z3bEP8J-2RiGITiN25tg_d35p8v4zUZWE/edit#heading=h.u6r9z5a3fq2h).
+
 ## Get all services via systemd
 
 ```bash
