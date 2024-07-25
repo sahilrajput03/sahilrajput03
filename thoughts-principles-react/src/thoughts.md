@@ -319,3 +319,7 @@
 - Whenever you are half-hearted in anything, it lingers longer.
 
 - Hindus say, Anam Brahma, food is divine, a gift from God.
+
+- "God is doing and doing is god." ~ Vinay
+
+- "You're the last hope of your parents." ~ Sahil
