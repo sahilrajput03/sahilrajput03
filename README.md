@@ -1,7 +1,7 @@
 
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
-- 1995	July 16	Launch	Amazon launches its online bookstore. - [Wikipedia](https://en.wikipedia.org/wiki/History_of_Amazon#:~:text=Online%20bookstore%20and%20IPO,-After%20reading%20a&text=Amazon%20was%20founded%20in%20the,with%20World%20Wide%20Web%20access.)
+- 1995	July 16	Launch	Amazon launches its online bookstore. - [Wikipedia](https://en.wikipedia.org/wiki/History_of_Amazon)
 - Inspiration is perishable - act on it immediately. Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving. ~ Naval
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
