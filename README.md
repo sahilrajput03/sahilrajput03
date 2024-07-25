@@ -157,9 +157,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
   - Blogs:
-	- Dr. Werner Vogels, CTO, Amazon.com
-		- [LinkedIn](https://www.linkedin.com/in/wernervogels/)
-		- Blog: [allthingsdistributed.com](https://www.allthingsdistributed.com/)
+	- Dr. Werner Vogels (CTO, Amazon.com): [allthingsdistributed.com](https://www.allthingsdistributed.com/) ([LinkedIn](https://www.linkedin.com/in/wernervogels/))
 	- https://blog.isquaredsoftware.com (core maintainer of `redux` and `redux-toolkit`)
    	- Tim Ferriss: https://tim.blog
 	- https://ionic.io/blog
