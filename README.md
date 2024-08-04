@@ -1,6 +1,7 @@
 
 <h1 align="center">🤺︎ Hi there 👋! <img src="https://www.linuxquestions.org/questions/images/smilies/emot-tiphat.gif" /></h1>
 
+- Relying on complex tools to manage and build your system is going to hurt the end-users. "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding. — Aaron Griffin ([wikipedia](https://en.wikipedia.org/wiki/Arch_Linux))
 - 1995	July 16: Amazon launches its online bookstore. - [Wikipedia](https://en.wikipedia.org/wiki/History_of_Amazon)
 - Inspiration is perishable - act on it immediately. Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving. ~ Naval
 - Don't need to play games, connect instead.
@@ -36,8 +37,8 @@
 ॐ सर्वे भवन्तु सुखिनः			Om Sarve Bhavantu Sukhinah)			- Om, May All be Happy,
 सर्वे सन्तु निरामयाः । 			Sarve Santu Niraamayaah) 			- May All be Free from Illness.
 सर्वे भद्राणि पश्यन्तु 			Sarve Bhadraanni Pashyantu)			- May All See what is Auspicious,
-मा कश्चिद्दुःखभाग्भवेत् । 		Maa Kashcid-Duhkha-Bhaag-Bhavet)	- May no one Suffer.
-ॐ शान्तिः शान्तिः शान्तिः ॥ 	Om Shaantih Shaantih Shaantih)		- Om Peace, Peace, Peace.
+मा कश्चिद्दुःखभाग्भवेत् । 		Maa Kashcid-Duhkha-Bhaag-Bhavet)		- May no one Suffer.
+ॐ शान्तिः शान्तिः शान्तिः ॥ 		Om Shaantih Shaantih Shaantih)			- Om Peace, Peace, Peace.
 ```
 
 ```bash
@@ -64,15 +65,13 @@ cat /dev/null
 
 Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
-- 1337x.to: [Click here](https://freeproxy.io/o.php?u=http://1337x.to)
-- thepiratebay.org: [Click here](https://freeproxy.io/o.php?u=https://thepiratebay.org)
-- torrentgalaxy.to: [Click here](https://torrentgalaxy.to/) ([proxy](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/))
+- 1337x: [proxied](https://freeproxy.io/o.php?u=http://1337x.to), [https://1337x.to](https://1337x.to/)
+- thepiratebay: [proxied](https://freeproxy.io/o.php?u=https://thepiratebay.org), [https://thepiratebay.org](https://thepiratebay.org)
+- torrentgalaxy: [proxied](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/), [https://torrentgalaxy.to/](https://torrentgalaxy.to/)
 
 # Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
 
 #### Trademarks: OneUniverse, Same Roof
-
-#### Work Music: [Click here](./work-music.md)
 
 #### Sahil's Vocabulary 🚶: [Click here](vocab.html) | [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
 
@@ -143,7 +142,14 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- [Raspberry Pi 4 model-b](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), Processor: `Quad core ARM Cortex-A72 processor`, Specification page [here](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/).
 - Speaker:
 	- [Boat Stone 650](https://support.boat-lifestyle.com/articles/stone-speakers/stone-650/6218b3b72b115f64864d7ee4), [User Manual](https://media.croma.com/image/upload/v1676364686/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/User%20Manual/221786_User%20Manual.pdf)
-- Listening, Music Trail - [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg), [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw), [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8), [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx), [lofi](https://youtu.be/rtTI1rh9U5M)
+- Listening, Music Trail:
+	- [Seeds of Growth (1111hz) | 1 hour handpan music | Malte Marten](https://www.youtube.com/watch?v=NSKxvLWqyOY)
+	- [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg)
+	- [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
+	- [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8)
+	- [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx)
+	- [lofi](https://youtu.be/rtTI1rh9U5M)
+	- Work Music: [Click here](./work-music.md)
 - More Technologies: trpc (ALERT: Please check my learn-trpc page), hasura and onegraph (graphiql-explorer).
 - Quick Links
 	- Tech Presentations
@@ -276,7 +282,6 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - **Learn Obs:** [Click here](./learn-obs.md)
 - **Challau.com metaverse:** [Click here](./challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
-- **Learning Svelte:** [Click here](./learn-svelte.md)
 - **Indus valley Reports:** [Click here](./learn-indus-valley-reports.md)
 - **Avalon Meta:** [Click here](./avalon-meta.md)
 - **Learn Hasura:** [Click here](./learn-hasura.md)
