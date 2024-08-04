@@ -65,9 +65,9 @@ cat /dev/null
 
 Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
-- 1337x.to: [Click here](https://freeproxy.io/o.php?u=http://1337x.to)
-- thepiratebay.org: [Click here](https://freeproxy.io/o.php?u=https://thepiratebay.org)
-- torrentgalaxy.to: [Click here](https://torrentgalaxy.to/) ([proxy](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/))
+- 1337x.to: [proxied here](https://freeproxy.io/o.php?u=http://1337x.to), [https://1337x.to](https://1337x.to/)
+- thepiratebay.org: [proxied](https://freeproxy.io/o.php?u=https://thepiratebay.org), [https://thepiratebay.org](https://thepiratebay.org)
+- torrentgalaxy.to: [proxied](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/), [https://torrentgalaxy.to/](https://torrentgalaxy.to/)
 
 # Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
 
