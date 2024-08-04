@@ -73,8 +73,6 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 #### Trademarks: OneUniverse, Same Roof
 
-#### Work Music: [Click here](./work-music.md)
-
 #### Sahil's Vocabulary 🚶: [Click here](vocab.html) | [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
 
 #### Transcribe, Convert 
@@ -151,6 +149,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8)
 	- [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx)
 	- [lofi](https://youtu.be/rtTI1rh9U5M)
+	- Work Music: [Click here](./work-music.md)
 - More Technologies: trpc (ALERT: Please check my learn-trpc page), hasura and onegraph (graphiql-explorer).
 - Quick Links
 	- Tech Presentations
