@@ -37,8 +37,8 @@
 ॐ सर्वे भवन्तु सुखिनः			Om Sarve Bhavantu Sukhinah)			- Om, May All be Happy,
 सर्वे सन्तु निरामयाः । 			Sarve Santu Niraamayaah) 			- May All be Free from Illness.
 सर्वे भद्राणि पश्यन्तु 			Sarve Bhadraanni Pashyantu)			- May All See what is Auspicious,
-मा कश्चिद्दुःखभाग्भवेत् । 		Maa Kashcid-Duhkha-Bhaag-Bhavet)	- May no one Suffer.
-ॐ शान्तिः शान्तिः शान्तिः ॥ 	Om Shaantih Shaantih Shaantih)		- Om Peace, Peace, Peace.
+मा कश्चिद्दुःखभाग्भवेत् । 		Maa Kashcid-Duhkha-Bhaag-Bhavet)		- May no one Suffer.
+ॐ शान्तिः शान्तिः शान्तिः ॥ 		Om Shaantih Shaantih Shaantih)			- Om Peace, Peace, Peace.
 ```
 
 ```bash
@@ -65,7 +65,7 @@ cat /dev/null
 
 Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
-- 1337x: [proxied here](https://freeproxy.io/o.php?u=http://1337x.to), [https://1337x.to](https://1337x.to/)
+- 1337x: [proxied](https://freeproxy.io/o.php?u=http://1337x.to), [https://1337x.to](https://1337x.to/)
 - thepiratebay: [proxied](https://freeproxy.io/o.php?u=https://thepiratebay.org), [https://thepiratebay.org](https://thepiratebay.org)
 - torrentgalaxy: [proxied](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/), [https://torrentgalaxy.to/](https://torrentgalaxy.to/)
 
