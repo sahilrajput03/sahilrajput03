@@ -143,7 +143,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Speaker:
 	- [Boat Stone 650](https://support.boat-lifestyle.com/articles/stone-speakers/stone-650/6218b3b72b115f64864d7ee4), [User Manual](https://media.croma.com/image/upload/v1676364686/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/User%20Manual/221786_User%20Manual.pdf)
 - Listening, Music Trail:
-	- [Seeds of Growth (1111hz) | 1 hour handpan music | Malte Marten](https://www.youtube.com/watch?v=NSKxvLWqyOY)
+	- [Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten](https://www.youtube.com/watch?v=NSKxvLWqyOY)
 	- [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg)
 	- [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
 	- [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8)
