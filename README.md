@@ -144,7 +144,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Speaker:
 	- [Boat Stone 650](https://support.boat-lifestyle.com/articles/stone-speakers/stone-650/6218b3b72b115f64864d7ee4), [User Manual](https://media.croma.com/image/upload/v1676364686/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/User%20Manual/221786_User%20Manual.pdf)
 - Router:
-	- TP-Link - Archer AX10 (AX1500 Wi-Fi 6 Router): [Click here](https://www.tp-link.com/in/home-networking/wifi-router/archer-ax10/)
+	- TP-Link - Archer AX10 (AX1500 Wi-Fi 6 Router): [Click here](https://www.tp-link.com/in/home-networking/wifi-router/archer-ax10/) ([amazon](https://www.amazon.in/TP-Link-Archer-AX10-Triple-Core-Wireless/dp/B07YP3T5H7))
 - Listening, Music Trail:
 	- [Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten](https://www.youtube.com/watch?v=NSKxvLWqyOY)
 	- [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg)
