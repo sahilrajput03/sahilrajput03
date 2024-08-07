@@ -147,7 +147,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- TP-Link - Archer AX10 (AX1500 Wi-Fi 6 Router): [Click here](https://www.tp-link.com/in/home-networking/wifi-router/archer-ax10/) ([amazon](https://www.amazon.in/TP-Link-Archer-AX10-Triple-Core-Wireless/dp/B07YP3T5H7))
 - Listening, Music Trail:
 	- [Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten](https://www.youtube.com/watch?v=NSKxvLWqyOY)
-	- [lofi](https://www.youtube.com/watch?v=GGrrch3k9zg)
+	- [Youtube Channel - lofi vibes](https://www.youtube.com/@lofi_vibe)
 	- [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
 	- [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8)
 	- [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx)
