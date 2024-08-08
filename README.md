@@ -59,6 +59,8 @@ Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 **Unit Conversions**
 
 ```txt
+Length
+======
 1 m ≈ 3.3 ft (precisely 3.28084)
 1 m ≈ 39.4 inch (precisely 39.3701)
 
@@ -80,8 +82,8 @@ Conversion Trick For $ and ₹
 1. To convert $ to ₹ we can multiply the value with 10 and 8 in sequence. (Refer ^1 at bottom)
 2. To convert ₹ to $ we can divide the value with 10 and 8 in sequence (Refer ^1 at bottom)
 
-Reference
-=========
+References
+==========
 ^1: 10 and 8.3 are multiplicative factors of 83
 ```
 
