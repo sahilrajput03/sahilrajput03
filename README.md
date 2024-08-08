@@ -84,7 +84,7 @@ Conversion Trick For $ and ₹
 
 References
 ==========
-^1: 10 and 8.3 are multiplicative factors of 83
+^1: 10 and 8.3 are multiplicative factors of 83 because 10 x 8.3 equals 83.
 ```
 
 
