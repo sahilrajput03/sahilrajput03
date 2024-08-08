@@ -66,17 +66,23 @@ Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 10^⁹ = 1 Billion = 100 Crore
 10^¹² = 1 Trillion = 100k Crore  =  100 Thousand Crore  =  1 Lakh Crore
 
+Currency
+========
 $ to ₹ Conversion factor: 83 ₹/$
 ₹ to $ Conversion factor: 0.012 $/₹
 
-Simple Dollar to Rupees Conversion Trick
-========================================     (^1: 10 and 8.3 are multiplicative factors of 83)
-1. To convert $ to ₹ we can multiply the value with 10 and 8 in sequence. (Refer ^1)
-2. To convert ₹ to $ we can divide the value with 10 and 8 in sequence (Refer ^1)
+$ 1 Million  = ₹ 8.3 Crore
+$ 1 Billion  = ₹ 8.3k Crore
+$ 1 Trillion = ₹ 83 Lakh Crore = ₹ 8300k Crore
 
-$ 1 Million = ₹ 8.3 Crore
-$ 1 Billion = ₹ 8.3k Crore
-$ 1 Trillion = ₹8300k Crore = 83 Lakh Crore
+Conversion Trick For $ and ₹
+============================
+1. To convert $ to ₹ we can multiply the value with 10 and 8 in sequence. (Refer ^1 at bottom)
+2. To convert ₹ to $ we can divide the value with 10 and 8 in sequence (Refer ^1 at bottom)
+
+Reference
+=========
+^1: 10 and 8.3 are multiplicative factors of 83
 ```
 
 
