@@ -47,6 +47,13 @@ cat /dev/null
 !!(() => {})
 ```
 
+```js
+// Note:
+// 1. slice() method returns shallow copied array.
+// 2. first argument is inclusive and second argument is **non-inclusive**
+const newArray = myArray.slice(startIdx, endIdx + 1);
+```
+
 <div align="right">
 	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
 	<br/>
