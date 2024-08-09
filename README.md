@@ -70,6 +70,11 @@ Length
 10^⁹ = 1 Billion = 100 Crore
 10^¹² = 1 Trillion = 100k Crore  =  100 Thousand Crore  =  1 Lakh Crore
 
+Mass
+====
+1 kg ≈ 2.2 lbs (pounds)
+1 lbs ≈ 0.45 kg
+
 Currency
 ========
 $ to ₹ Conversion factor: 83 ₹/$
