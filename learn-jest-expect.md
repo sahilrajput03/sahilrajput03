@@ -23,60 +23,7 @@
 
 ## Remove default console.log format of jest
 
-Also, added on stackoverflow: [Cilck here](https://stackoverflow.com/a/77337161/10012446)
-
-Create file: `logger-utils.ts` with following code:
-
-```ts
-/**
- * Why use `jestLogger` in tests instead of regular console.log in our tests file?
- * > Because the default version of console.log in tests environment is manipulated by Jest
- * environment so that each log prints the line and filename of the log. This ends up in
- * lot of verbosity and thus hinders the debugging experience to some users.
- * Usage:
- * In any test file, use below code on top of file:
-
-  import { jestLogger } from '../../utils/logger-utils';
-  console.log = jestLogger;
-
-  Note: We don't want to directly use `jestLogger` because we do not
-  get eslint waring of no-console-log.
-  So, we should override console.log so that we get eslint warnings and
-  we don't end up getting log statements in our tests.
-
-*/
-
-// eslint-disable-next-line global-require, @typescript-eslint/no-var-requires
-export const jestLogger = require('console').log;
-```
-
-and now in your tests files, you can use:
-
-
-```ts
-// TOP OF THE FILE
-import { jestLogger } from '../../utils/logger-utils';
-console.log = jestLogger; // this thorws warning but let it be because we anyway we want to remove this after testing is complete.
-
-// in your tets
-console.log('hello');
-```
-
-***FYI: Other accepted solution from stackoverflow:***
-
-Source (stackoverflow): [Click here](https://stackoverflow.com/a/68017229/10012446)
-
-```ts
-const jestConsole = console;
-
-beforeEach(() => {
-  global.console = require('console');
-});
-
-afterEach(() => {
-  global.console = jestConsole;
-});
-```
+Check this issue on jest's github: [Click here](https://github.com/jestjs/jest/issues/10322#issuecomment-1304375267)
 
 ## more assertion helpers for `.toEqual`
 

@@ -18,6 +18,10 @@
 - 🚀🚀 `ctrl+alt+rightArrow` and `ctrl+alt+leftArrow` to move a tab from one of two split editors to another
 - 👻 `ctrl+alt+j` to open `Join collaboration link text input`
 
+## External browser for opening links can now be set in vscode
+
+Check this setting in vscode: `workbench.externalBrowser`
+
 ## Duet AI in vscode ~ Google
 
 - **Duet AI for Developers (Free until -  February 1, 2024):** [Click here](https://cloud.google.com/duet-ai?hl=en)
