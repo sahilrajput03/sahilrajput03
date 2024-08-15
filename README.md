@@ -228,6 +228,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- Dr. Werner Vogels (CTO, Amazon.com): [allthingsdistributed.com](https://www.allthingsdistributed.com/) ([LinkedIn](https://www.linkedin.com/in/wernervogels/))
 	- https://blog.isquaredsoftware.com (core maintainer of `redux` and `redux-toolkit`)
    	- Tim Ferriss: https://tim.blog
+    	- https://zackoverflow.dev
 	- https://ionic.io/blog
 	- https://web.dev/articles (awesome web development articles)
 	- https://web.dev/blog (awesome web development blogs)
