@@ -119,6 +119,44 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 # Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz) \| [Old feed](./feed.md)
 
+# English Channels in India
+
+Source: List of English-language television channels in India \| Wikipedia: [Click here](https://en.wikipedia.org/wiki/List_of_English-language_television_channels_in_India)
+
+```txt
+National channels (INDIA)
+=========================
+CNN-News18
+DD India
+India Today
+Mirror Now
+NDTV 24x7
+NewsX
+Republic TV
+Times Now
+WION
+
+International channels (INDIA)
+==============================
+ABC Australia
+Al Jazeera English
+BBC World News
+Bloomberg Television
+CNA
+CNN
+Deutsche Welle
+France 24
+NHK World
+Press TV
+RT
+
+Business
+========
+CNBC TV18
+ET Now
+NDTV BQ Prime
+```
+
 #### Trademarks: OneUniverse, Same Roof
 
 #### Sahil's Vocabulary 🚶: [Click here](vocab.html) | [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
