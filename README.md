@@ -123,34 +123,11 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 Source: List of English-language television channels in India \| Wikipedia: [Click here](https://en.wikipedia.org/wiki/List_of_English-language_television_channels_in_India)
 
-**National channels (INDIA)**
-- CNN-News18
-- DD India
-- India Today
-- Mirror Now
-- NDTV 24x7
-- NewsX
-- Republic TV
-- Times Now
-- WION
+**National channels (INDIA)**: CNN-News18, DD India, India Today, Mirror Now, NDTV 24x7, NewsX, Republic TV, Times Now, WION
 
-**International channels (INDIA)**
-- ABC Australia
-- Al Jazeera English
-- BBC World News
-- Bloomberg Television
-- CNA
-- CNN
-- Deutsche Welle
-- France 24
-- NHK World
-- Press TV
-- RT
+**International channels (INDIA)**: ABC Australia , Al Jazeera English , BBC World News , Bloomberg Television , CNA , CNN , Deutsche Welle , France 24 , NHK World , Press TV , RT
 
-**Business**
-- CNBC TV18
-- ET Now
-- NDTV BQ Prime
+**Business**: CNBC TV18, ET Now, NDTV BQ Prime
 
 #### Trademarks: OneUniverse, Same Roof
 
