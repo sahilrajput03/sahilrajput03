@@ -482,5 +482,9 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Learn IoT and C (Document): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op)
 - Learn SolidJS: [Click here](https://github.com/sahilrajput03/learning-solidjs)
 - Learn AWS (Amazon Web Services): [Click here](https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10)
+- Status Page Technologies:
+	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage)
+ 		- Used by OpenAI: [Click here](https://status.openai.com/uptime)
+ 	- Other alternatives of *statuspage* on Google: [Click here](https://www.google.com/search?q=status+page+like+services)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
