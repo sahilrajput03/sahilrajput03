@@ -5,6 +5,7 @@
 
 - Relying on complex tools to manage and build your system is going to hurt the end-users. "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding. — Aaron Griffin ([wikipedia](https://en.wikipedia.org/wiki/Arch_Linux))
 - 1995	July 16: Amazon launches its online bookstore. - [Wikipedia](https://en.wikipedia.org/wiki/History_of_Amazon)
+	- General public access to the internet in India began on 15 August 1995. ([wikipedia](https://en.wikipedia.org/wiki/Internet_in_India))
 - Inspiration is perishable - act on it immediately. Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving. ~ Naval
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
