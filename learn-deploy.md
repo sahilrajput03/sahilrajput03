@@ -4,6 +4,12 @@
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 - Learn Heroku Deployment: [Click here](./learn-heroku.md)
 
+## Listing my website on google.com
+
+#sahilrajput.com, #search, #google search console
+
+[Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.tic0f082m2l9)
+
 ## Noip, tunnel, etc - Jio Fiber
 
 Reddit Post: [Click here](https://www.reddit.com/r/india/comments/dwrn33/port_forwarding_in_jio_fiber_router/)
