@@ -118,7 +118,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - thepiratebay: [proxied](https://freeproxy.io/o.php?u=https://thepiratebay.org), [https://thepiratebay.org](https://thepiratebay.org)
 - torrentgalaxy: [proxied](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/), [https://torrentgalaxy.to/](https://torrentgalaxy.to/)
 
-# Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz) \| [Old feed](./feed.md)
+# Tech Journal & Blogging: [Click here](tech.html) \| [Old feed](./feed.md)
 
 ## English Channels in India
 
