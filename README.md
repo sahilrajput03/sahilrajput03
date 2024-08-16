@@ -5,6 +5,7 @@
 
 - Relying on complex tools to manage and build your system is going to hurt the end-users. "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding. — Aaron Griffin ([wikipedia](https://en.wikipedia.org/wiki/Arch_Linux))
 - 1995	July 16: Amazon launches its online bookstore. - [Wikipedia](https://en.wikipedia.org/wiki/History_of_Amazon)
+	- General public access to the internet in India began on 15 August 1995. ([wikipedia](https://en.wikipedia.org/wiki/Internet_in_India))
 - Inspiration is perishable - act on it immediately. Inspiration doesn’t last – it needs action, which can soon lead to momentum, which keeps you moving. ~ Naval
 - Don't need to play games, connect instead.
 - Every action you take is for the type of person you wish to become.
@@ -105,8 +106,6 @@ References
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/RAX_I4AgjiU" title="8 Hours of Relaxing Campfire by a Lake at Sunset in 4k UHD, Stress Relief, Meditation &amp; Deep Sleep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# My feed: [Click here](./feed.md)
-
 ## Superprof .co.in: [Click here](https://www.superprof.co.in)
 
 ## Indiamart .com: [Click here](https://www.indiamart.com/)
@@ -119,7 +118,15 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - thepiratebay: [proxied](https://freeproxy.io/o.php?u=https://thepiratebay.org), [https://thepiratebay.org](https://thepiratebay.org)
 - torrentgalaxy: [proxied](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/), [https://torrentgalaxy.to/](https://torrentgalaxy.to/)
 
-# Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz)
+# Tech Journal & Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.nl4xqbu0ohbz) \| [Old feed](./feed.md)
+
+## English Channels in India
+
+Source: **List of English-language television channels in India \| Wikipedia:** [Click here](https://en.wikipedia.org/wiki/List_of_English-language_television_channels_in_India)
+
+- **National channels**: CNN-News18, DD India, India Today, Mirror Now, NDTV 24x7, NewsX, Republic TV, Times Now, WION
+- **International channels**: ABC Australia , Al Jazeera English , BBC World News , Bloomberg Television , CNA , CNN , Deutsche Welle , France 24 , NHK World , Press TV , RT
+- **Business**: CNBC TV18, ET Now, NDTV BQ Prime
 
 #### Trademarks: OneUniverse, Same Roof
 
@@ -228,6 +235,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- Dr. Werner Vogels (CTO, Amazon.com): [allthingsdistributed.com](https://www.allthingsdistributed.com/) ([LinkedIn](https://www.linkedin.com/in/wernervogels/))
 	- https://blog.isquaredsoftware.com (core maintainer of `redux` and `redux-toolkit`)
    	- Tim Ferriss: https://tim.blog
+    	- https://zackoverflow.dev
 	- https://ionic.io/blog
 	- https://web.dev/articles (awesome web development articles)
 	- https://web.dev/blog (awesome web development blogs)
@@ -474,5 +482,9 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Learn IoT and C (Document): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op)
 - Learn SolidJS: [Click here](https://github.com/sahilrajput03/learning-solidjs)
 - Learn AWS (Amazon Web Services): [Click here](https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10)
+- Status Page Technologies:
+	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage)
+ 		- Used by OpenAI: [Click here](https://status.openai.com/uptime)
+ 	- Other alternatives of *statuspage* on Google: [Click here](https://www.google.com/search?q=status+page+like+services)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
