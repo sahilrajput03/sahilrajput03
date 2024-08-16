@@ -4,7 +4,7 @@
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 - Learn Heroku Deployment: [Click here](./learn-heroku.md)
 
-## Listing my website sahilrajput.com on google.com
+## Listing my website sahilrajput.com on Google Search Engine
 
 #sahilrajput.com, #search, #google search console
 
