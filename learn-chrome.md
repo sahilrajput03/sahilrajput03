@@ -5,6 +5,10 @@ Disabled below extensions becoz of too much memory usage(deteced from Google Chr
 - Auto Youtube Quality
 - Metamask
 
+# Awesome feature by chrome where chrome automatically suspends the tabs which are not use from some time
+
+![image](https://github.com/user-attachments/assets/6662a92b-a0d2-494c-9409-22e48eb4010a)
+
 # Lots of unnecessary logs `DOM changed detected: Re-initialize code copier` each time any useEffect is run?
 
 You can see unnecessary logs in below screenshot and the culprit is `Code Copier` chrome extension. 
