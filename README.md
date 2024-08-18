@@ -57,6 +57,9 @@ cat /dev/null
 const newArray = myArray.slice(startIdx, endIdx + 1);
 ```
 
+**Online Markets I use:**
+- Flikart, Amazon, Zomato, Blinkit, Blinkit Lit, Swiggy, Zepto, Bigbasket, IndiaMART
+
 Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 
 **Unit Conversions**
