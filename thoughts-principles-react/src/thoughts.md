@@ -323,3 +323,7 @@
 - "God is doing and doing is god." ~ Vinay
 
 - "You're the last hope of your parents." ~ Sahil
+
+- Excellence is not an act but a habit. ~ Aristotle
+
+- Even habits need to be performed consciously. ~ Sahil
