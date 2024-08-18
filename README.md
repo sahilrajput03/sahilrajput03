@@ -99,6 +99,11 @@ References
 ```
 
 
+## Document Order
+
+- This document is organized in reverse chronological order, with the most recent entries appearing first and earlier entries following in descending order.
+- This document is organized in chronological order, with the earliest entries appearing first and more recent entries following in ascending order.
+
 <div align="right">
 	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
 	<br/>
