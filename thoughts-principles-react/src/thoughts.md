@@ -335,3 +335,5 @@
 - Bas ye last kaam kr lete hain. ~ Sahil
 
 - Silence is also my language. ~ Sahil
+
+- Do things move progressively. Those things can be easy, small and subtle. ~ Sahil
