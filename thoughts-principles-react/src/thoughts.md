@@ -349,3 +349,9 @@
 - There is no other joy like the joy of being in discipline and defeating your own weaknesses. ~ Sahil
 
 - Make your work interesting by listening to melodies, beats or piano. Or get up from your seat and work while standing. ~ Sahil
+
+- Learn the art of remembering important things by making hook notes. Reading books gives you the art of forgetting too. Make hook notes of books in google docs so you can refer them from anywhere via mobile. Hook means you create brdige between your compressed notes to the actual books and you can forsure go back to the book too, which is great! ~ Sahil
+
+- Forgive the ones you love. Friends, girlfriends, sister, brother, mom, dad & yourself unconditionally. ~ Sahil
+
+- Reading is the best way out of stress, anxiety, illness. ~ Sahil
