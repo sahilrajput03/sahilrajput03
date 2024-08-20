@@ -347,3 +347,5 @@
 - Semantic: Any solution that fixes the inability is solution. ~ Sahil
 
 - There is no other joy like the joy of being in discipline and defeating your own weaknesses. ~ Sahil
+
+- Make your work interesting by listening to melodies, beats or piano. Or get up from your seat and work while standing. ~ Sahil
