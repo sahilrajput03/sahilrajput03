@@ -337,3 +337,5 @@
 - Silence is also my language. ~ Sahil
 
 - Do things move progressively. Those things can be easy, small and subtle. ~ Sahil
+
+- Fear is temporary. Regret is forever.
