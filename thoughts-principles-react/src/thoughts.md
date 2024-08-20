@@ -327,3 +327,5 @@
 - Excellence is not an act but a habit. ~ Aristotle
 
 - Even habits need to be performed consciously. ~ Sahil
+
+- You almost always have hints of fixing the problems. ~ Sahil
