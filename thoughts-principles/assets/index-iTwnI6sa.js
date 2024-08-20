@@ -400,6 +400,12 @@ Error generating stack: `+i.message+`
 
 - There is no other joy like the joy of being in discipline and defeating your own weaknesses. ~ Sahil
 
-- Make your work interesting by listening to melodies, beats or piano. Or get up from your seat and work while standing. ~ Sahil`,Bd=(Fs==null?void 0:Fs.split(`
+- Make your work interesting by listening to melodies, beats or piano. Or get up from your seat and work while standing. ~ Sahil
+
+- Learn the art of remembering important things by making hook notes. Reading books gives you the art of forgetting too. Make hook notes of books in google docs so you can refer them from anywhere via mobile. Hook means you create brdige between your compressed notes to the actual books and you can forsure go back to the book too, which is great! ~ Sahil
+
+- Forgive the ones you love. Friends, girlfriends, sister, brother, mom, dad & yourself unconditionally. ~ Sahil
+
+- Reading is the best way out of stress, anxiety, illness. ~ Sahil`,Bd=(Fs==null?void 0:Fs.split(`
 
 `))||[],Fd=8e3;function Cb(){const e=pt.useRef(!1),t=pt.useRef(Bd),[n,r]=pt.useState([]),[u]=Ab(),[i,a]=pt.useState(!1);pt.useEffect(()=>{if(console.log(">>> [START 🚀] effect"),i){console.log("INFO: Since `showAll` is true we do not do anything and simply return.");return}let l;function c(){console.log("🌟 [FUNCTION CALL] addNewRandomThought() at",pg(),{intervalId:l}),t.current.length===1&&(console.log("** 🛑 Cleared interval execution with",{intervalId:l},"to prevent memory leaks."),clearInterval(l));const d=hg(t.current),m=t.current[d];t.current=dg(t.current,d),r(p=>[m,...p])}return!e.current&&(c(),e.current=!0),l=setInterval(c,Fd),console.log(`Execution of addNewRandomThought() every ${Fd/1e3} seconds started with`,{intervalId:l}),()=>{clearInterval(l),console.log("<<< [END ✅] cleanup + 🛑 Cleared interval execution with",{intervalId:l})}},[i]);const o=()=>{a(!i)};return e?Be.jsxs(Be.Fragment,{children:[Be.jsx("h1",{children:"Thoughts, Principles"}),Be.jsx("button",{style:{marginBottom:50},onClick:o,children:i?"Show random 🚀":"Show all 🚀"}),Be.jsx("div",{ref:u,children:i?Bd.map(l=>Be.jsx(Hd,{thought:l})):n.map(l=>Be.jsx(Hd,{thought:l},l))}),Be.jsxs("div",{className:"footnotes",children:["Source: ",Be.jsx("a",{href:"https://github.com/sahilrajput03/sahilrajput03/tree/master/thoughts-principles-react",children:"Click here"})]})]}):Be.jsx("div",{children:"..."})}const Hd=({thought:e})=>Be.jsx(M_,{rehypePlugins:[KC,()=>ab({target:"_blank"})],children:e}),bb=Be.jsx(t1.StrictMode,{children:Be.jsx(Cb,{})});Hs.createRoot(document.getElementById("root")).render(bb);
