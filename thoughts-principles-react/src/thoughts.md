@@ -329,3 +329,9 @@
 - Even habits need to be performed consciously. ~ Sahil
 
 - You almost always have hints of fixing the problems. ~ Sahil
+
+- Chalo thora aur kar lete hain. ~ Sahil
+
+- Bas ye last kaam kr lete hain. ~ Sahil
+
+- Silence is also my language. ~ Sahil
