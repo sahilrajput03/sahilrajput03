@@ -343,3 +343,7 @@
 - When your nose is dropping and you’re sweating as hell and that isn’t any distraction that is called focus. ~ Sahil
 
 - Time is relative and hang it. ~ Einstein
+
+- Semantic: Any solution that fixes the inability is solution. ~ Sahil
+
+- There is no other joy like the joy of being in discipline and defeating your own weaknesses. ~ Sahil
