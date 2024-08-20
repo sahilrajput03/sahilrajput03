@@ -103,7 +103,7 @@ References
 
 ### What is Selling?
 
-Source: https://www.youtube.com/shorts/m5SMBtF1QGs
+Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 **PEU:**
 - Product: Gather and prepare detailed information about your product, covering every aspect and feature. You should also understand the needs and desires of the other person that your product can fulfill.
