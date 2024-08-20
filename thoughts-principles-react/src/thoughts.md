@@ -339,3 +339,7 @@
 - Do things move progressively. Those things can be easy, small and subtle. ~ Sahil
 
 - Fear is temporary. Regret is forever.
+
+- When your nose is dropping and you’re sweating as hell and that isn’t any distraction that is called focus. ~ Sahil
+
+- Time is relative and hang it. ~ Einstein
