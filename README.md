@@ -116,10 +116,10 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 - This feature is about using youtube's official collection music audios made by different authors for purpose of background audio.
 - For `multi-language audio` feature check it on your tech journal or check this official [youtube help page](https://support.google.com/youtube/answer/13338784?hl=en).
 
-Sahi: Most of these tracks have license like "... standalone distribution of these files is not permitted)." as you can check by clicking on `License Type` icon corresponding to each audio clip.
-
 - YouTube Audio Library: [Click here](https://studio.youtube.com/channel/UCY-Byvxaa6NYubLZqbMJX2A/music)
 - Add YouTube Audio Track to your Video: [Click here](https://support.google.com/youtube/answer/94316?hl=en)
+
+*Sahil:* Most of these tracks have license like "... standalone distribution of these files is not permitted)." as you can check by clicking on `License Type` icon corresponding to each audio clip.
 
 ## Document Order
 
