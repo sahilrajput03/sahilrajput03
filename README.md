@@ -110,6 +110,15 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 - Emotion: Any customer only wants to buy a product because of either fear or aspiration.
 - Urgency: You need to tell the customer that this is the thing the customer needs today.
 
+## YouTube Audio Library
+
+Note: This feature is about using youtube's official collection music audios made by different authors for purpose of background audio. Note: For `multi-language audio` feature check it on your tech journal or check this official [youtube help page](https://support.google.com/youtube/answer/13338784?hl=en).
+
+Sahi: Most of these tracks have license like "... standalone distribution of these files is not permitted)." as you can check by clicking on `License Type` icon corresponding to each audio clip.
+
+- YouTube Audio Library: [Click here](https://studio.youtube.com/channel/UCY-Byvxaa6NYubLZqbMJX2A/music)
+- Add YouTube Audio Track to your Video: [Click here](https://support.google.com/youtube/answer/94316?hl=en)
+
 ## Document Order
 
 - This document is organized in reverse chronological order, with the most recent entries appearing first and earlier entries following in descending order.
