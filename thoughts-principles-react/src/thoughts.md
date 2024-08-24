@@ -357,3 +357,5 @@
 - Reading is the best way out of stress, anxiety, illness. ~ Sahil
 
 - Do you find success boring and failure intriguing because success marks an end, while failure signals that the journey continues? ~ Sahil
+
+- When you hit something bitter in life and you say its bad, and it could be neem? ~ Sahil
