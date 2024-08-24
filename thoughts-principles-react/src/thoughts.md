@@ -355,3 +355,5 @@
 - Forgive the ones you love. Friends, girlfriends, sister, brother, mom, dad & yourself unconditionally. ~ Sahil
 
 - Reading is the best way out of stress, anxiety, illness. ~ Sahil
+
+- Do you find success boring and failure intriguing because success marks an end, while failure signals that the journey continues? ~ Sahil
