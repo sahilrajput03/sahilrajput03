@@ -176,14 +176,18 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 
-#### Wif Hoff - Breathing 🫁🫁 
+## Reset Immune System - 🫁  ❤️ Wif Hoff - Breathing 🫁 ❤️
+
+Website: [wimhofmethod.com](https://www.wimhofmethod.com/)
+
+- **Tutorial** - Wim Hof breathing tutorial by Wim Hof: [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
+- Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30 breath cycle)*
+- Heavy Pace Breathing - Guided Wim Hof Method Breathing: [Click here](https://youtu.be/tybOi4hjZFQ) *(135s / 30 breath cycle)*
+
+
+#### Business Apps
 
 - 7 Apps every small business must use: [Click here](https://www.youtube.com/watch?v=OEJ3B-_6xyc)
-- Website: [Click here](https://www.wimhofmethod.com/)
-- Guided Wim Hof Breathing:
-	- 1 - [Click here](https://youtu.be/tybOi4hjZFQ)
- 	- 2 - [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
-
 
 #### Depressions & Mental Health Support
 
