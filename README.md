@@ -176,14 +176,21 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 
-#### Wif Hoff - Breathing 🫁🫁 
+##  ❤️ 🫁 Reset Immune System - Wif Hoff - Breathing
+
+Website: [wimhofmethod.com](https://www.wimhofmethod.com/)
+
+**Tutorial** - Wim Hof breathing tutorial by Wim Hof: [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
+
+**Practical:**
+- Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30bc)*
+- Heavy Pace Breathing - Guided Wim Hof Method Breathing: [Click here](https://youtu.be/tybOi4hjZFQ) *(135s / 30bc)*
+
+*\*bc = breath cycle*
+
+#### Business Apps
 
 - 7 Apps every small business must use: [Click here](https://www.youtube.com/watch?v=OEJ3B-_6xyc)
-- Website: [Click here](https://www.wimhofmethod.com/)
-- Guided Wim Hof Breathing:
-	- 1 - [Click here](https://youtu.be/tybOi4hjZFQ)
- 	- 2 - [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
-
 
 #### Depressions & Mental Health Support
 
@@ -240,6 +247,7 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Visuals:
 	- Healing Journey (4k 12hrs Relaxing AI Graphic Visuals): [Click here](https://www.youtube.com/watch?v=L1vrPpM4eyM) *(search keyword - lsd visuals @ youtube)*
 - Listening, Music Trail:
+	- Buddha's Flute : Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
 	- Buddha's Flute : Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
 	- Playlist - Music from the World of Osho: [Click here](https://www.youtube.com/playlist?list=PLF65129A023A5E45A)
 	- [Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten](https://www.youtube.com/watch?v=NSKxvLWqyOY)
