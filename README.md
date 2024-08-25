@@ -180,10 +180,13 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 
 Website: [wimhofmethod.com](https://www.wimhofmethod.com/)
 
-- **Tutorial** - Wim Hof breathing tutorial by Wim Hof: [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
-- Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30 breath cycle)*
-- Heavy Pace Breathing - Guided Wim Hof Method Breathing: [Click here](https://youtu.be/tybOi4hjZFQ) *(135s / 30 breath cycle)*
+**Tutorial** - Wim Hof breathing tutorial by Wim Hof: [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
+**Practical:**
+- Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30bc)*
+- Heavy Pace Breathing - Guided Wim Hof Method Breathing: [Click here](https://youtu.be/tybOi4hjZFQ) *(135s / 30bc)*
+
+*\*bc = breath cycle*
 
 #### Business Apps
 
