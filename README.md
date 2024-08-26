@@ -252,7 +252,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- TP-Link - Archer AX10 (AX1500 Wi-Fi 6 Router): [Click here](https://www.tp-link.com/in/home-networking/wifi-router/archer-ax10/) ([amazon](https://www.amazon.in/TP-Link-Archer-AX10-Triple-Core-Wireless/dp/B07YP3T5H7))
 - Visuals:
 	- Healing Journey (4k 12hrs Relaxing AI Graphic Visuals): [Click here](https://www.youtube.com/watch?v=L1vrPpM4eyM) *(search keyword - lsd visuals @ youtube)*
-- **Listening (#music trail, #work music:*)
+- **Listening** (#music trail, #work music:)
 	- **Buddha's Flute Music:**
 		- ❤️ Buddha's Flute :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
 		- Buddha's Flute :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
