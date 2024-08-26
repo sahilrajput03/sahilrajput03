@@ -206,6 +206,12 @@ Website: [wimhofmethod.com](https://www.wimhofmethod.com/)
 - **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles)
 - Office Ethics, Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
 
+#### Continents
+
+Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Continent)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Continental_models-Australia.gif" width="600" />
+
 **Quick Links:**
 
 - English:
