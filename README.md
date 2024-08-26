@@ -255,14 +255,14 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Listening, Music Trail:**
 	- **Buddha's Flute Music:**
 		- ❤️ Buddha's Flute :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
- 		- Buddha's Flute :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
-		- Buddha's Flute : Healing Forest | Inner Balance, Positivity and Prosperity: 
+		- Buddha's Flute :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
+		- Buddha's Flute : Healing Forest \| Inner Balance, Positivity and Prosperity: 
 	- **Playlist - Music from the World of Osho:** [Click here](https://www.youtube.com/playlist?list=PLF65129A023A5E45A)
 	- Handpan Music:
-		- [Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten](https://www.youtube.com/watch?v=NSKxvLWqyOY)
- 	- **Lucid Dreaming Music - YouTube Channel:**
+		- Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten [Click here](https://www.youtube.com/watch?v=NSKxvLWqyOY)
+	- **Lucid Dreaming Music - YouTube Channel:**
 		- 1111Hz Connect with the Universe - Receive guide from the Universe: [Click here](https://www.youtube.com/watch?v=JV4JbYK-TIg)
-		- 963 Hz Frequency of God | Miracles and infinite blessings will reach your life | Health and money #2: [Click here](https://youtu.be/7fv9gK1mv6w)
+		- 963 Hz Frequency of God \| Miracles and infinite blessings will reach your life \| Health and money #2: [Click here](https://youtu.be/7fv9gK1mv6w)
 		- Listen to this and attract: love, beauty, peace, good luck and harmony \| Lucid Dreaming Music: [Click here](https://youtu.be/ohLovDnOc8o)
 	- [Youtube Channel - lofi vibes](https://www.youtube.com/@lofi_vibe)
 	- [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
