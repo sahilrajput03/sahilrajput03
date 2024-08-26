@@ -257,6 +257,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Buddha's Flute : Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
 	- Playlist - Music from the World of Osho: [Click here](https://www.youtube.com/playlist?list=PLF65129A023A5E45A)
 	- [Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten](https://www.youtube.com/watch?v=NSKxvLWqyOY)
+	- Listen to this and attract: love, beauty, peace, good luck and harmony \| Lucid Dreaming Music: [Click here](https://youtu.be/ohLovDnOc8o)
  	- [1111Hz Connect with the Universe - Receive guide from the Universe](https://www.youtube.com/watch?v=JV4JbYK-TIg)
 	- [Youtube Channel - lofi vibes](https://www.youtube.com/@lofi_vibe)
 	- [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
