@@ -129,9 +129,10 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 # Breathing Videos by James Nestor
 
+❤️ Breathing Videos: [Click here](https://www.mrjamesnestor.com/breathing-videos)
+
 ❤️ Interesting Page of *James Nestor - Wikipedia: [Click here](https://en.wikipedia.org/wiki/James_Nestor)*
 
-[Click here](https://www.mrjamesnestor.com/breathing-videos)
 
 ## Document Order
 
