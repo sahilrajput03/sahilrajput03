@@ -32,7 +32,7 @@
 	- Raspberry pi is strictly dependent on factors like:
 		- internet conectivity over broadband
 		- electricity on site
-- No fucking wires
+	- No fucking wires
 - **Why raspberry pi** over AWS?
 	- Cheaper in cost i.e., you would save cost around 8-10 thousand probably as if it were hosted on aws as you can host multiple applications on 8GB raspberry pi.
 - Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
