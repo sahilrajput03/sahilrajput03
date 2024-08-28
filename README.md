@@ -156,7 +156,7 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 ## Indiamart .com: [Click here](https://www.indiamart.com/)
 
-## English & Hindi Typing Courses
+## 🙂 English & Hindi Typing Courses
 
 - English: [Click here](https://sarkariselection.com/Typing/English-Typing-Test)
 - Hindi (Mangal) (Unicode): [Click here](https://sarkariselection.com/Typing/HindiMangalTyping) *([My doc - Learn Hindi Typing](https://docs.google.com/document/d/1aeN_werJhPslbBdTMxS7qASN0wMDMW62ETuwdBhqHVA/edit))*
@@ -164,6 +164,7 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 *Note: Mangal is part of the Unicode standard, which means it supports a wide range of Devanagari characters and is more compatible with modern software and devices.*
 
+*❤️ Note: Learn Typing on Mobile: [Click here](https://sarkariselection.com/ComputerTypingOnMobile))
 
 # Proxy Sites of Torrent Sites
 
