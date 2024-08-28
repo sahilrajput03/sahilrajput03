@@ -156,6 +156,12 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 ## Indiamart .com: [Click here](https://www.indiamart.com/)
 
+## Hindi & English Typing Courses
+
+- English: [Click here](https://sarkariselection.com/Typing/English-Typing-Test)
+- Hindi (Mangal) (Unicode): [Click here](https://sarkariselection.com/Typing/HindiMangalTyping)
+- Hindi (Kruti Dev): [Click here](https://sarkariselection.com/Typing/HindiKrutiDevTyping) *(Note: Prefer Mangal as its unicode thus can be run without needing to install any font on any system or device)*
+
 # Proxy Sites of Torrent Sites
 
 Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
