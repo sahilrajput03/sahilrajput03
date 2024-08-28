@@ -156,7 +156,7 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 ## Indiamart .com: [Click here](https://www.indiamart.com/)
 
-## Hindi & English Typing Courses
+## English & Hindi Typing Courses
 
 - English: [Click here](https://sarkariselection.com/Typing/English-Typing-Test)
 - Hindi (Mangal) (Unicode): [Click here](https://sarkariselection.com/Typing/HindiMangalTyping) *([My doc - Learn Hindi Typing](https://docs.google.com/document/d/1aeN_werJhPslbBdTMxS7qASN0wMDMW62ETuwdBhqHVA/edit))*
