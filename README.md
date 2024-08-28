@@ -159,7 +159,7 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 ## 🙂 English & Hindi Typing Courses
 
 - English: [Click here](https://sarkariselection.com/Typing/English-Typing-Test)
-- Hindi (Mangal) (Unicode): [Click here](https://sarkariselection.com/Typing/HindiMangalTyping) *([My doc - Learn Hindi Typing](https://docs.google.com/document/d/1aeN_werJhPslbBdTMxS7qASN0wMDMW62ETuwdBhqHVA/edit))*
+- Hindi (Mangal) (Unicode): [Click here](https://sarkariselection.com/Typing/HindiMangalTyping) *([My Private Doc - Learn Hindi Typing](https://docs.google.com/document/d/1aeN_werJhPslbBdTMxS7qASN0wMDMW62ETuwdBhqHVA/edit))*
 - Hindi (Kruti Dev): [Click here](https://sarkariselection.com/Typing/HindiKrutiDevTyping)
 
 *Note: Mangal is part of the Unicode standard, which means it supports a wide range of Devanagari characters and is more compatible with modern software and devices.*
