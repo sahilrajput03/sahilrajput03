@@ -164,7 +164,7 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 *Note: Mangal is part of the Unicode standard, which means it supports a wide range of Devanagari characters and is more compatible with modern software and devices.*
 
-*❤️ Note: Learn Typing on Mobile: [Click here](https://sarkariselection.com/ComputerTypingOnMobile))
+*❤️ Note: Learn Typing on Mobile: [Click here](https://sarkariselection.com/ComputerTypingOnMobile))*
 
 # Proxy Sites of Torrent Sites
 
