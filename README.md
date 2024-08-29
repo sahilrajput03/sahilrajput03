@@ -278,7 +278,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Buddha's Flute Music:**
 		- ❤️ Buddha's Flute :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
 		- Buddha's Flute :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
-		- Buddha's Flute : Healing Forest \| Inner Balance, Positivity and Prosperity: 
+		- Buddha's Flute : Healing Forest \| Inner Balance, Positivity and Prosperity:
+	- **Buddha's Flute:** [Click here](https://youtu.be/GN5q747x1zI) (different channel)
 	- **Playlist - Music from the World of Osho:** [Click here](https://www.youtube.com/playlist?list=PLF65129A023A5E45A)
 	- Handpan Music:
 		- Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten [Click here](https://www.youtube.com/watch?v=NSKxvLWqyOY)
