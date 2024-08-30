@@ -13,9 +13,10 @@
 - Pyjama Profit ~ *Abhinav Chhikara and Varun Mayya*
 
 **Science, Psychology, Spiritual, etc**
-- Breath: The New Science of a Lost Art
+- Breath: The New Science of a Lost Art ~ *James Nestor*
 - Being in Love ~ *Osho*
-- Atomic Habits
+- Dopamine Nation ~ *Anna Lembke*
+- Atomic Habits ~ *James Clear*
 - The Autobiography of a yogi ~ *Paramahansa Yogananda*
 - Power of Subconscious Mind ~ *Joseph Murphy*
 - Alchemist ~ *Paulo Coelho*
