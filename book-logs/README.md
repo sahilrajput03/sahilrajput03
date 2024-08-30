@@ -7,7 +7,7 @@
 - No Rules Rules: Netflix and the Culture of Reinvention ~ Erin Meyer and Reed Hastings
 
 **Code**
-- The Code Book ~ *Simon Singh* [Download](the-code-book.md)
+- The Code Book ~ *Simon Singh* [Book Logs](the-code-book.md)
 - Eloquent Javascript ~ *Marijn Haverbeke*
 - Faster 100 Ways to Improve your Digital Life - *Ankit Fadia*
 - Pyjama Profit ~ *Abhinav Chhikara and Varun Mayya*
