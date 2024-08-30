@@ -3,6 +3,8 @@
 
 <h6 align="center">A crazy spirit</h6>
 
+- "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
+	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
 - Relying on complex tools to manage and build your system is going to hurt the end-users. "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding. — Aaron Griffin ([wikipedia](https://en.wikipedia.org/wiki/Arch_Linux))
 - 1995	July 16: Amazon launches its online bookstore. - [Wikipedia](https://en.wikipedia.org/wiki/History_of_Amazon)
 	- General public access to the internet in India began on 15 August 1995. ([wikipedia](https://en.wikipedia.org/wiki/Internet_in_India))
@@ -22,7 +24,7 @@
     - There is syntax language to be learned.
   - Editable on Google Doc app on mobile
 - You only loose information which you don't want to make accessible.
-- Why AWS (any cloud) over Raspberry pi
+- **Why AWS** (any cloud) over Raspberry pi
 	- Raspberry pi needs re-installation of OS if linux gets messed up.
 	- Raspberry pi needs additional installation of docker/k3s
 	- Raspberry pi needs to be handled over broadband (router settings) via port forwarding to make it accessible over internet.
@@ -31,7 +33,8 @@
 	- Raspberry pi is strictly dependent on factors like:
 		- internet conectivity over broadband
 		- electricity on site
-- Why raspberry pi over AWS?
+	- No fucking wires
+- **Why raspberry pi** over AWS?
 	- Cheaper in cost i.e., you would save cost around 8-10 thousand probably as if it were hosted on aws as you can host multiple applications on 8GB raspberry pi.
 - Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
 - **Kyle Simpson:** I think the biggest problem with learning JavaScript right now is that it's so distracting to see such a broad and complex ecosystem where almost every week somebody's coming out with a whole new pattern a new framework a new way of doing things so the goal posts keep moving for you and you learn new things and think “I learned just enough and I'm on the right track” and then you find out that everybody else is learning or doing something different and my advice for that is to just pick one thing and focus on it and instead of trying to feel like you have to learn every single thing all at once nobody can do that.
@@ -121,9 +124,18 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 *Sahil:* Most of these tracks have license like "... standalone distribution of these files is not permitted)." as you can check by clicking on `License Type` icon corresponding to each audio clip.
 
+# Royal Society Prizes for Science Books
+
+*Breath by James Nestor is the finalist for the year 2021.*
+
+[Click here](https://en.wikipedia.org/wiki/Royal_Society_Prizes_for_Science_Books)
+
 # Breathing Videos by James Nestor
 
-[Click here](https://www.mrjamesnestor.com/breathing-videos)
+❤️ Breathing Videos: [Click here](https://www.mrjamesnestor.com/breathing-videos)
+
+❤️ Interesting Page of *James Nestor - Wikipedia: [Click here](https://en.wikipedia.org/wiki/James_Nestor)*
+
 
 ## Document Order
 
@@ -143,6 +155,16 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 ## Superprof .co.in: [Click here](https://www.superprof.co.in)
 
 ## Indiamart .com: [Click here](https://www.indiamart.com/)
+
+## 🙂 English & Hindi Typing Courses
+
+- English: [Click here](https://sarkariselection.com/Typing/English-Typing-Test)
+- Hindi (Mangal) (Unicode): [Click here](https://sarkariselection.com/Typing/HindiMangalTyping) *([My Private Doc - Learn Hindi Typing](https://docs.google.com/document/d/1aeN_werJhPslbBdTMxS7qASN0wMDMW62ETuwdBhqHVA/edit))*
+- Hindi (Kruti Dev): [Click here](https://sarkariselection.com/Typing/HindiKrutiDevTyping)
+
+*Note: Mangal is part of the Unicode standard, which means it supports a wide range of Devanagari characters and is more compatible with modern software and devices.*
+
+*❤️ Note: Learn Typing on Mobile: [Click here](https://sarkariselection.com/ComputerTypingOnMobile))*
 
 # Proxy Sites of Torrent Sites
 
@@ -256,7 +278,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Buddha's Flute Music:**
 		- ❤️ Buddha's Flute :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
 		- Buddha's Flute :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
-		- Buddha's Flute : Healing Forest \| Inner Balance, Positivity and Prosperity: 
+		- Buddha's Flute : Healing Forest \| Inner Balance, Positivity and Prosperity:
+	- **Buddha's Flute:** [Click here](https://youtu.be/GN5q747x1zI) (different channel)
 	- **Playlist - Music from the World of Osho:** [Click here](https://www.youtube.com/playlist?list=PLF65129A023A5E45A)
 	- Handpan Music:
 		- Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten [Click here](https://www.youtube.com/watch?v=NSKxvLWqyOY)
