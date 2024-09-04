@@ -511,7 +511,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
 - Learn Remix: [Click here](./learn-remix.md)
-- Learn Audacity: [Click here](./learn-audacity.md)
+- Learn Audacity: [Click here](https://docs.google.com/document/d/1RB2Kc2O3_mbiZcrCOcXwQZNOG3d48-1cWNz8t88llyE/edit)
 - Learn i3: [Click here](./learn-i3.md)
 - Learn Cloudflare: [Click here](./learn-cloudflare.md)
 - Learn Gist: [Click here](./learn-gist.md)
