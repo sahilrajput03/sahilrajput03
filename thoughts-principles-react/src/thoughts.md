@@ -361,3 +361,5 @@
 - When you hit something bitter in life and you say its bad, and it could be neem? ~ Sahil
 
 - Work Igniter: Lets continuously do minimum possible work and leave the work. ~ Sahil
+
+- Success is 1% inspiration and 99% perspiration. ~ Thomas Edisor
