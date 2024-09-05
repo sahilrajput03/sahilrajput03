@@ -205,11 +205,11 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Website: [wimhofmethod.com](https://www.wimhofmethod.com/)
 - Tutorial - Wim Hof breathing tutorial by Wim Hof: [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 - **Wim Hof Method:**
-  - Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30bc)*
+  - ❤️ Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30bc)*
   - Heavy Pace Breathing - Guided Wim Hof Method Breathing: [Click here](https://youtu.be/tybOi4hjZFQ) *(135s / 30bc)*
 - **Breathe With Sandy:**
-  - Psychedelic Breathwork I Fast Tempo I 33 Breaths (3 rounds): [Click here](https://youtu.be/zmn_7wr0Pk4)
-  - Breathwork To Help Support The Release Of DMT (3 Rounds Of Guided Breathing): [Click here](https://www.youtube.com/watch?v=ONsvMaytg_0)
+  - **❤️ EASY** -  Psychedelic Breathwork I Fast Tempo I 33 Breaths (3 rounds): [Click here](https://youtu.be/zmn_7wr0Pk4)
+  - **INTENSE** - Breathwork To Help Support The Release Of DMT (3 Rounds Of Guided Breathing): [Click here](https://www.youtube.com/watch?v=ONsvMaytg_0)
 
 *\*bc = breath cycle*
 
