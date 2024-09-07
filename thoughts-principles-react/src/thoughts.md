@@ -84,7 +84,9 @@
 
 - Practise your conversation skills in english with people @ some talking platforms for 1 hour atleast eachday. Apps: [Open Talk 1](https://play.google.com/store/apps/details?id=com.jeetproductions.opentalk&hl=en_IN&gl=US), [Open Talk 2](https://play.google.com/store/apps/details?id=com.ielts_speaking_iqraa&hl=en_IN&gl=US)
 
-- Release DMT via 10 minutes breathing exercise. Visit(time-stamped) https://youtu.be/lwlEJ2O-6HM?list=LL&t=350
+- Wim Hof Method - https://www.youtube.com/watch?v=0BNejY1e9ik
+
+- Psychedelic Breathwork - https://www.youtube.com/watch?v=zmn_7wr0Pk4
 
 - 'Think globally, act locally' ~ Run your GitHub Actions locally! ~ https://github.com/nektos/act (23 k Stars)
 
