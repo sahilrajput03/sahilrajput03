@@ -414,6 +414,9 @@ Error generating stack: `+i.message+`
 
 - Work Igniter: Lets continuously do minimum possible work and leave the work. ~ Sahil
 
-- Success is 1% inspiration and 99% perspiration. ~ Thomas Edisor`,Bd=(Fs==null?void 0:Fs.split(`
+- Success is 1% inspiration and 99% perspiration. ~ Thomas Edisor
+
+- When something is important enough, you do it even if the odds are not in your favor. ~ Elon Musk
+`,Bd=(Fs==null?void 0:Fs.split(`
 
 `))||[],Fd=8e3;function Cb(){const e=pt.useRef(!1),t=pt.useRef(Bd),[n,r]=pt.useState([]),[u]=Ab(),[i,a]=pt.useState(!1);pt.useEffect(()=>{if(console.log(">>> [START 🚀] effect"),i){console.log("INFO: Since `showAll` is true we do not do anything and simply return.");return}let l;function c(){console.log("🌟 [FUNCTION CALL] addNewRandomThought() at",pg(),{intervalId:l}),t.current.length===1&&(console.log("** 🛑 Cleared interval execution with",{intervalId:l},"to prevent memory leaks."),clearInterval(l));const d=hg(t.current),m=t.current[d];t.current=dg(t.current,d),r(p=>[m,...p])}return!e.current&&(c(),e.current=!0),l=setInterval(c,Fd),console.log(`Execution of addNewRandomThought() every ${Fd/1e3} seconds started with`,{intervalId:l}),()=>{clearInterval(l),console.log("<<< [END ✅] cleanup + 🛑 Cleared interval execution with",{intervalId:l})}},[i]);const o=()=>{a(!i)};return e?Be.jsxs(Be.Fragment,{children:[Be.jsx("h1",{children:"Thoughts, Principles"}),Be.jsx("button",{style:{marginBottom:50},onClick:o,children:i?"Show random 🚀":"Show all 🚀"}),Be.jsx("div",{ref:u,children:i?Bd.map(l=>Be.jsx(Hd,{thought:l})):n.map(l=>Be.jsx(Hd,{thought:l},l))}),Be.jsxs("div",{className:"footnotes",children:["Source: ",Be.jsx("a",{href:"https://github.com/sahilrajput03/sahilrajput03/tree/master/thoughts-principles-react",children:"Click here"})]})]}):Be.jsx("div",{children:"..."})}const Hd=({thought:e})=>Be.jsx(M_,{rehypePlugins:[KC,()=>ab({target:"_blank"})],children:e}),bb=Be.jsx(t1.StrictMode,{children:Be.jsx(Cb,{})});Hs.createRoot(document.getElementById("root")).render(bb);
