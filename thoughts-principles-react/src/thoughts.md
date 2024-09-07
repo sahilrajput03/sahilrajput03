@@ -363,3 +363,5 @@
 - Work Igniter: Lets continuously do minimum possible work and leave the work. ~ Sahil
 
 - Success is 1% inspiration and 99% perspiration. ~ Thomas Edisor
+
+- When something is important enough, you do it even if the odds are not in your favor. ~ Elon Musk
