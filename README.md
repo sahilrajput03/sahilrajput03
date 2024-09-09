@@ -287,7 +287,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Visuals:
 	- Healing Journey (4k 12hrs Relaxing AI Graphic Visuals): [Click here](https://www.youtube.com/watch?v=L1vrPpM4eyM) *(search keyword - lsd visuals @ youtube)*
 - **Listening** (#music trail, #work music:)
-	- **Buddha's Flute Music:**
+	- **Flute Music:**
 		- ❤️ Buddha's Flute: Dreamy Landscape \| Peaceful Flute: [Click here](https://youtu.be/fGE30O8wWFg)
 		- ❤️ Buddha's Flute: 🏢 Melodies of Wisdom \| The Buddha and His Flute: [Click here](https://youtu.be/vPBh9Gy8z-g)
 		- ❤️ Buddha's Flute Music :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
