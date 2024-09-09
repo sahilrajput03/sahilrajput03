@@ -288,12 +288,12 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Healing Journey (4k 12hrs Relaxing AI Graphic Visuals): [Click here](https://www.youtube.com/watch?v=L1vrPpM4eyM) *(search keyword - lsd visuals @ youtube)*
 - **Listening** (#music trail, #work music:)
 	- **Buddha's Flute Music:**
-		- ❤️ Buddha's Flute :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
-		- Buddha's Flute :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
-		- Buddha's Flute : Healing Forest \| Inner Balance, Positivity and Prosperity:
-	- **Buddha's Flute:** [Click here](https://youtu.be/GN5q747x1zI) (different channel)
-		- 🍎 (**work music**) 🏢 Melodies of Wisdom | The Buddha and His Flute: [Click here](https://youtu.be/vPBh9Gy8z-g)
-		- ❤️ Reaching for the Sky \| A Monk's Journey to Tranquility: [Click here](https://www.youtube.com/watch?v=EjOOYm0l5IU)
+		- ❤️ Buddha's Flute: Dreamy Landscape \| Peaceful Flute: [Click here](https://youtu.be/fGE30O8wWFg)
+		- ❤️ Buddha's Flute: 🏢 Melodies of Wisdom \| The Buddha and His Flute: [Click here](https://youtu.be/vPBh9Gy8z-g)
+		- ❤️ Buddha's Flute Music :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
+		- Buddha's Flute Music :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
+		- Buddha's Flute Music : Healing Forest \| Inner Balance, Positivity and Prosperity:
+		- ❤️ Buddha's Flute: Reaching for the Sky \| A Monk's Journey to Tranquility: [Click here](https://www.youtube.com/watch?v=EjOOYm0l5IU)
 	- **Playlist - Music from the World of Osho:** [Click here](https://www.youtube.com/playlist?list=PLF65129A023A5E45A)
 	- Handpan Music:
 		- Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten [Click here](https://www.youtube.com/watch?v=NSKxvLWqyOY)
