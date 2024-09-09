@@ -39,6 +39,15 @@
 - Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
 - **Kyle Simpson:** I think the biggest problem with learning JavaScript right now is that it's so distracting to see such a broad and complex ecosystem where almost every week somebody's coming out with a whole new pattern a new framework a new way of doing things so the goal posts keep moving for you and you learn new things and think “I learned just enough and I'm on the right track” and then you find out that everybody else is learning or doing something different and my advice for that is to just pick one thing and focus on it and instead of trying to feel like you have to learn every single thing all at once nobody can do that.
 
+
+## 🥕🍎 In command `ts-node-dev --transpile-only tg.ts` what does the flag do --transpile-only? (ChatGPT)
+
+The `--transpile-only` flag in the `ts-node-dev` command tells TypeScript Node (`ts-node`) to skip type checking when running the TypeScript code. Normally, TypeScript checks the types as it compiles the code, which can slow down the process.
+
+When using `--transpile-only`, TypeScript only transpiles the code (i.e., converts TypeScript to JavaScript) without performing any type checks. This can make the development process faster, especially in situations where you rely on external tools (like an IDE or a separate build step) to handle type checking.
+
+<hr />
+
 ```txt
 ॐ सर्वे भवन्तु सुखिनः			Om Sarve Bhavantu Sukhinah)			- Om, May All be Happy,
 सर्वे सन्तु निरामयाः । 			Sarve Santu Niraamayaah) 			- May All be Free from Illness.
