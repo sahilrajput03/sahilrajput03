@@ -330,6 +330,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
   - Blogs:
 	- Dr. Werner Vogels (CTO, Amazon.com): [allthingsdistributed.com](https://www.allthingsdistributed.com/) ([LinkedIn](https://www.linkedin.com/in/wernervogels/))
+	- https://extendsclass.com/blog
 	- https://katia.gg
 	- https://blog.isquaredsoftware.com (core maintainer of `redux` and `redux-toolkit`)
    	- Tim Ferriss: https://tim.blog
