@@ -10,6 +10,8 @@ Source: https://regexone.com/
 
 **Quick Links:**
 - **Regex debugger**: https://regex101.com/
+- Awewome Regex Debugger: [https://extendsclass.com/regex-tester.html](https://extendsclass.com/regex-tester.html)
+    - Source: [Extendsclass.com](https://extendsclass.com)
 
 ## Amazon regex thing is
 
