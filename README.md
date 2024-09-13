@@ -498,7 +498,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md)
 - Learn Paypal: [Click here](./learn-paypal.md)
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md)
-- Learn kdenlive: [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit)
+- Learn Kdenlive (video editor): [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit)
 - Business Terms: [Click here](./learn-business-terms.md)
 - Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook)
 - Learn Playwright: [Click here](./learn-playwright.md)
