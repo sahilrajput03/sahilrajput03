@@ -39,6 +39,15 @@
 - Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
 - **Kyle Simpson:** I think the biggest problem with learning JavaScript right now is that it's so distracting to see such a broad and complex ecosystem where almost every week somebody's coming out with a whole new pattern a new framework a new way of doing things so the goal posts keep moving for you and you learn new things and think “I learned just enough and I'm on the right track” and then you find out that everybody else is learning or doing something different and my advice for that is to just pick one thing and focus on it and instead of trying to feel like you have to learn every single thing all at once nobody can do that.
 
+
+## 🥕🍎 In command `ts-node-dev --transpile-only tg.ts` what does the flag do `--transpile-only`? (ChatGPT)
+
+The `--transpile-only` flag in the `ts-node-dev` command tells TypeScript Node (`ts-node`) to skip type checking when running the TypeScript code. Normally, TypeScript checks the types as it compiles the code, which can slow down the process.
+
+When using `--transpile-only`, TypeScript only transpiles the code (i.e., converts TypeScript to JavaScript) without performing any type checks. This can make the development process faster, especially in situations where you rely on external tools (like an IDE or a separate build step) to handle type checking.
+
+<hr />
+
 ```txt
 ॐ सर्वे भवन्तु सुखिनः			Om Sarve Bhavantu Sukhinah)			- Om, May All be Happy,
 सर्वे सन्तु निरामयाः । 			Sarve Santu Niraamayaah) 			- May All be Free from Illness.
@@ -278,12 +287,14 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Visuals:
 	- Healing Journey (4k 12hrs Relaxing AI Graphic Visuals): [Click here](https://www.youtube.com/watch?v=L1vrPpM4eyM) *(search keyword - lsd visuals @ youtube)*
 - **Listening** (#music trail, #work music:)
-	- **Buddha's Flute Music:**
-		- ❤️ Buddha's Flute :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
-		- Buddha's Flute :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
-		- Buddha's Flute : Healing Forest \| Inner Balance, Positivity and Prosperity:
-	- **Buddha's Flute:** [Click here](https://youtu.be/GN5q747x1zI) (different channel)
-		- ❤️ Reaching for the Sky \| A Monk's Journey to Tranquility: [Click here](https://www.youtube.com/watch?v=EjOOYm0l5IU)
+	- **Flute Music:**
+		- ❤️ ❤️ Calming **Rain** Meditation \| Serenity in Sound and Nature: [Click here](https://youtu.be/4zO4KtF6EdE)
+		- ❤️ Buddha's Flute: Dreamy Landscape \| Peaceful Flute: [Click here](https://youtu.be/fGE30O8wWFg)
+		- ❤️ Buddha's Flute: 🏢 Melodies of Wisdom \| The Buddha and His Flute: [Click here](https://youtu.be/vPBh9Gy8z-g)
+		- ❤️ ❤️ Buddha's Flute Music :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
+		- Buddha's Flute Music :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
+		- Buddha's Flute Music : Healing Forest \| Inner Balance, Positivity and Prosperity:
+		- ❤️ Buddha's Flute: Reaching for the Sky \| A Monk's Journey to Tranquility: [Click here](https://www.youtube.com/watch?v=EjOOYm0l5IU)
 	- **Playlist - Music from the World of Osho:** [Click here](https://www.youtube.com/playlist?list=PLF65129A023A5E45A)
 	- Handpan Music:
 		- Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten [Click here](https://www.youtube.com/watch?v=NSKxvLWqyOY)
@@ -319,6 +330,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
   - Blogs:
 	- Dr. Werner Vogels (CTO, Amazon.com): [allthingsdistributed.com](https://www.allthingsdistributed.com/) ([LinkedIn](https://www.linkedin.com/in/wernervogels/))
+	- https://extendsclass.com/blog
+	- https://katia.gg
 	- https://blog.isquaredsoftware.com (core maintainer of `redux` and `redux-toolkit`)
    	- Tim Ferriss: https://tim.blog
     	- https://zackoverflow.dev
@@ -485,7 +498,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md)
 - Learn Paypal: [Click here](./learn-paypal.md)
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md)
-- Learn kdenlive: [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit)
+- Learn Kdenlive (video editor): [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit)
 - Business Terms: [Click here](./learn-business-terms.md)
 - Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook)
 - Learn Playwright: [Click here](./learn-playwright.md)
