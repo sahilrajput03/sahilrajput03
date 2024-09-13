@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5.5 Breaths Per Minute</title>
+  </head>
+
+  <body>
+    <!-- Audio element is hidden on purpose -->
+    <audio style="display: none" id="myAudio" controls>
+      <source src="./ping-1.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <br />
+
+    <h3>5.5 Breaths Per Minute</h3>
+
+    <p>
+      Press the button and wait for the first 'ting' sound to begin inhaling.
+      Exhale on the next 'ting' sound, and continue this cycle until the sound
+      stops ringing.
+    </p>
+    <p>The session lasts for a total of 5 minutes.</p>
+
+    <button id="mybutton" onclick="startBreathing()">
+      Start optimal breathing
+    </button>
+
+    <script>
+      const defaultButtonText = "Start optimal breathing";
+      let intervalId = null;
+      let timer_5mins = null;
+
+      function reset() {
+        let myButton = document.getElementById("mybutton");
+        myButton.textContent = defaultButtonText;
+        console.log("intervalId", intervalId);
+        console.log("timer_5mins", timer_5mins);
+        clearTimeout(timer_5mins);
+        timer_5mins = null;
+        clearInterval(intervalId);
+        intervalId = null;
+      }
+
+      function startBreathing() {
+        let myButton = document.getElementById("mybutton");
+
+        if (intervalId) {
+          reset();
+          return;
+        }
+
+        let audio = document.getElementById("myAudio");
+        myButton.textContent = "Stop";
+        intervalId = setInterval(() => {
+          audio.play();
+        }, 4_500);
+        /**
+         * Why after 4500 i.e., 4.5 seconds?
+         * Because: We need 5.5 breaths in 60 seconds i.e., 1 breath in 11 seconds.
+         * So 1 inhale = 1 exhale = 11 - 2 (sound of ting) = 9 / 2 = 4.5 sec
+         */
+
+        timer_5mins = setTimeout(() => {
+          reset();
+        }, 5 * 60_000); // 5 mins (5 * 60_000)
+      }
+    </script>
+  </body>
+</html>
