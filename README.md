@@ -217,7 +217,9 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Tutorial - Wim Hof breathing tutorial by Wim Hof: [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
 **Practices**
-- 5.5 Breaths per minute for 5 minutes: [sahilrajput.com/breathe](https://sahilrajput.com/breathe)
+- **Sahil**
+	- Why Wim Hof Breathing ~ Sahil: [Click here](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit)
+	- 5.5 Breaths per minute for 5 minutes: [sahilrajput.com/breathe](https://sahilrajput.com/breathe)
 - **Wim Hof Method:**
   - ❤️ Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30bc)*
   - Heavy Pace Breathing - Guided Wim Hof Method Breathing: [Click here](https://youtu.be/tybOi4hjZFQ) *(135s / 30bc)*
