@@ -4,7 +4,7 @@
 <h6 align="center">A crazy spirit</h6>
 
 <h6 align="right">
-	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>, <a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a></p>
+	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>, <a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>, <a href="https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit">Tummo Breathing</a>
 </h6>
 
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
@@ -218,7 +218,8 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 
 **Practices**
 - **Sahil**
-	- Why Wim Hof Breathing ~ Sahil: [Click here](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit)
+	- Why Tummo Breathing? ~ Sahil: [Click here](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit)
+		- Note: Wim Hof Breathing or Breathe With Sandy are modern versions of Tummo Breathing.
 	- 5.5 Breaths per minute for 5 minutes: [sahilrajput.com/breathe](https://sahilrajput.com/breathe)
 - **Wim Hof Method:**
   - ❤️ Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30bc)*
