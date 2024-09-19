@@ -3,6 +3,13 @@
 
 <h6 align="center">A crazy spirit</h6>
 
+<h6 align="right">
+	<a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>, <a href="https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit">Tummo Breathing</a>, <a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
+	<br />
+	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>), <a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>
+
+</h6>
+
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
 	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
 - Relying on complex tools to manage and build your system is going to hurt the end-users. "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding. — Aaron Griffin ([wikipedia](https://en.wikipedia.org/wiki/Arch_Linux))
@@ -207,13 +214,16 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 
-##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork
+##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork ([Doc](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit#heading=h.e38aiba2an6c))
 
 - Website: [wimhofmethod.com](https://www.wimhofmethod.com/)
 - Tutorial - Wim Hof breathing tutorial by Wim Hof: [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
+*Note: Wim Hof Breathing or Breathe With Sandy are modern versions of Tummo Breathing.*
+
 **Practices**
-- 5.5 Breaths per minute for 5 minutes: [sahilrajput.com/breathe](https://sahilrajput.com/breathe)
+- **Sahil**
+	- 5.5 Breaths per minute for 5 minutes: [sahilrajput.com/breathe](https://sahilrajput.com/breathe)
 - **Wim Hof Method:**
   - ❤️ Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30bc)*
   - Heavy Pace Breathing - Guided Wim Hof Method Breathing: [Click here](https://youtu.be/tybOi4hjZFQ) *(135s / 30bc)*
@@ -222,6 +232,10 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
   - **INTENSE** - Breathwork To Help Support The Release Of DMT (3 Rounds Of Guided Breathing): [Click here](https://www.youtube.com/watch?v=ONsvMaytg_0)
 
 *\*bc = breath cycle*
+
+**Why Wim Hoff breathing?**
+
+It's gonna boost both your immune system and calmness in a compound effect each day throughout life.
 
 #### Business Apps
 
@@ -586,5 +600,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage)
  		- Used by OpenAI: [Click here](https://status.openai.com/uptime)
  	- Other alternatives of *statuspage* on Google: [Click here](https://www.google.com/search?q=status+page+like+services)
+- **Learn Sanskrit:** [Click here](https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit)
+- SBI Bank Cyber Security Guidelines, Hindi: [Click here](https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit) 
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
