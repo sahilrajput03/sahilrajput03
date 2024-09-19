@@ -4,8 +4,14 @@
 <h6 align="center">A crazy spirit</h6>
 
 <h6 align="right">
-	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>, <a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>, <a href="https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit">Tummo Breathing</a>, <a href="https://sahilrajput.com/vocab.html">Vocab</a> (<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">doc</a>)
+	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>, <a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>, <a href="https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit">Tummo Breathing</a>,
+	<br />
+	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>, <a href="https://sahilrajput.com/vocab.html">Vocab</a> (<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">doc</a>)
+
 </h6>
+
+<h6 align="right">
+	</h6>
 
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
 	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
