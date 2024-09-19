@@ -211,16 +211,15 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 
-##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork
+##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork ([Doc](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit#heading=h.e38aiba2an6c))
 
 - Website: [wimhofmethod.com](https://www.wimhofmethod.com/)
 - Tutorial - Wim Hof breathing tutorial by Wim Hof: [Click here](https://www.youtube.com/watch?v=nzCaZQqAs9I)
 
 **Practices**
 - **Sahil**
-	- Why Tummo Breathing? ~ Sahil: [Click here](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit)
-		- Note: Wim Hof Breathing or Breathe With Sandy are modern versions of Tummo Breathing.
 	- 5.5 Breaths per minute for 5 minutes: [sahilrajput.com/breathe](https://sahilrajput.com/breathe)
+	- Note: Wim Hof Breathing or Breathe With Sandy are modern versions of Tummo Breathing.	
 - **Wim Hof Method:**
   - ❤️ Slow Pace Breathing - Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace): [Click here](https://www.youtube.com/watch?v=0BNejY1e9ik) *(113s / 30bc)*
   - Heavy Pace Breathing - Guided Wim Hof Method Breathing: [Click here](https://youtu.be/tybOi4hjZFQ) *(135s / 30bc)*
@@ -229,6 +228,10 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
   - **INTENSE** - Breathwork To Help Support The Release Of DMT (3 Rounds Of Guided Breathing): [Click here](https://www.youtube.com/watch?v=ONsvMaytg_0)
 
 *\*bc = breath cycle*
+
+**Why Wim Hoff breathing?**
+
+It's gonna boost both your immune system and calmness in a compound effect each day throughout life.
 
 #### Business Apps
 
