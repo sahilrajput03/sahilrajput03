@@ -70,10 +70,18 @@ cat /dev/null
 ```
 
 ```js
+SLICE Array Method
+==================
 // Note:
 // 1. slice() method returns shallow copied array.
 // 2. first argument is inclusive and second argument is **non-inclusive**
 const newArray = myArray.slice(startIdx, endIdx + 1);
+
+SORTING Array Method
+=======
+myNumbers.sort(); // sorts in ascending order (default)
+myNumbers.sort((a, b) => a - b); // sorts in ascending order
+myNumbers.sort((a, b) => b - a); // sorts in descending order
 ```
 
 **Online Markets I use:**
