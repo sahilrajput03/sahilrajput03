@@ -7,7 +7,9 @@
 	<a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>, <a href="https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit">Tummo Breathing</a>, <a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
 	<br />
 	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>), <a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>
+<br />
 
+ <a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>
 </h6>
 
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
@@ -327,23 +329,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- The Rainmatter Podcast ~ Zerodha: [Click here](https://podcasters.spotify.com/pod/show/rainmatter) 
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
-  - Blogs:
-	- Dr. Werner Vogels (CTO, Amazon.com): [allthingsdistributed.com](https://www.allthingsdistributed.com/) ([LinkedIn](https://www.linkedin.com/in/wernervogels/))
-	- https://extendsclass.com/blog
-	- https://katia.gg
-	- https://blog.isquaredsoftware.com (core maintainer of `redux` and `redux-toolkit`)
-   	- Tim Ferriss: https://tim.blog
-    	- https://zackoverflow.dev
-	- https://ionic.io/blog
-	- https://web.dev/articles (awesome web development articles)
-	- https://web.dev/blog (awesome web development blogs)
-	- Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
-	- https://www.stephanetheteacher.com (aws, apache kafka)
-	- **Popular Linux Blogs:**
-		- https://linuxize.com/ (5*)
-		- https://linuxjournal.com (5*)
-		- https://linuxhint.com/ (3*)
-
 
 ## References:
 
