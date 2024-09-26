@@ -7,7 +7,9 @@
 	<a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>, <a href="https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit">Tummo Breathing</a>, <a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
 	<br />
 	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>), <a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>
+<br />
 
+ <a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>
 </h6>
 
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
@@ -70,10 +72,18 @@ cat /dev/null
 ```
 
 ```js
+SLICE Array Method
+==================
 // Note:
 // 1. slice() method returns shallow copied array.
 // 2. first argument is inclusive and second argument is **non-inclusive**
 const newArray = myArray.slice(startIdx, endIdx + 1);
+
+SORTING Array Method
+=======
+myNumbers.sort(); // sorts in ascending order (default)
+myNumbers.sort((a, b) => a - b); // sorts in ascending order
+myNumbers.sort((a, b) => b - a); // sorts in descending order
 ```
 
 **Online Markets I use:**
@@ -213,6 +223,7 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
+- Soundcloud Downloader: [Click here](https://sclouddownloader.net/)
 
 ##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork ([Doc](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit#heading=h.e38aiba2an6c))
 
@@ -244,6 +255,8 @@ It's gonna boost both your immune system and calmness in a compound effect each 
 #### Depressions & Mental Health Support
 
 - wannatalkaboutit.com: [Click here](https://www.wannatalkaboutit.com/)
+- icallhelpline.org: [Click here](https://icallhelpline.org/)
+- pw.live/prerna: [Click here](https://www.pw.live/prerna)
 
 #### Be Productive with videos 📽️ 🎬
 
@@ -299,30 +312,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- [Boat Stone 650](https://support.boat-lifestyle.com/articles/stone-speakers/stone-650/6218b3b72b115f64864d7ee4), [User Manual](https://media.croma.com/image/upload/v1676364686/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/User%20Manual/221786_User%20Manual.pdf)
 - Router:
 	- TP-Link - Archer AX10 (AX1500 Wi-Fi 6 Router): [Click here](https://www.tp-link.com/in/home-networking/wifi-router/archer-ax10/) ([amazon](https://www.amazon.in/TP-Link-Archer-AX10-Triple-Core-Wireless/dp/B07YP3T5H7))
-- Visuals:
-	- Healing Journey (4k 12hrs Relaxing AI Graphic Visuals): [Click here](https://www.youtube.com/watch?v=L1vrPpM4eyM) *(search keyword - lsd visuals @ youtube)*
-- **Listening** (#music trail, #work music:)
-	- **Flute Music:**
-		- ❤️ ❤️ Calming **Rain** Meditation \| Serenity in Sound and Nature: [Click here](https://youtu.be/4zO4KtF6EdE)
-		- ❤️ Buddha's Flute: Dreamy Landscape \| Peaceful Flute: [Click here](https://youtu.be/fGE30O8wWFg)
-		- ❤️ Buddha's Flute: 🏢 Melodies of Wisdom \| The Buddha and His Flute: [Click here](https://youtu.be/vPBh9Gy8z-g)
-		- ❤️ ❤️ Buddha's Flute Music :  Healing Mind \| Music for Meditation & Zen: [Click here](https://youtu.be/64z2OGuZmcU?list=PLF65129A023A5E45A)
-		- Buddha's Flute Music :  Dreamy Landscape \| Inner Balance, Positivity and Prosperity: [Click here](https://www.youtube.com/watch?v=HWwhGzIBQA4)
-		- Buddha's Flute Music : Healing Forest \| Inner Balance, Positivity and Prosperity:
-		- ❤️ Buddha's Flute: Reaching for the Sky \| A Monk's Journey to Tranquility: [Click here](https://www.youtube.com/watch?v=EjOOYm0l5IU)
-	- **Playlist - Music from the World of Osho:** [Click here](https://www.youtube.com/playlist?list=PLF65129A023A5E45A)
-	- Handpan Music:
-		- Seeds of Growth (1111hz) - 1 hour handpan music - Malte Marten [Click here](https://www.youtube.com/watch?v=NSKxvLWqyOY)
-	- **Lucid Dreaming Music - YouTube Channel:**
-		- 1111Hz Connect with the Universe - Receive guide from the Universe: [Click here](https://www.youtube.com/watch?v=JV4JbYK-TIg)
-		- 963 Hz Frequency of God \| Miracles and infinite blessings will reach your life \| Health and money #2: [Click here](https://youtu.be/7fv9gK1mv6w)
-		- Listen to this and attract: love, beauty, peace, good luck and harmony \| Lucid Dreaming Music: [Click here](https://youtu.be/ohLovDnOc8o)
-	- [Youtube Channel - lofi vibes](https://www.youtube.com/@lofi_vibe)
-	- [relaxing](https://www.youtube.com/watch?v=PAvDi3bS6uw)
-	- [snowy](https://www.youtube.com/watch?v=L3kL7zwNYP8)
-	- [heating](https://www.youtube.com/watch?v=7MdZL5hqye4&list=PLBfwD_NnDB3qWo0n11nNtjR2I4xwjlesx)
-	- [lofi](https://youtu.be/rtTI1rh9U5M)
-	- Work Music: [Click here](./work-music.md)
 - More Technologies: trpc (ALERT: Please check my learn-trpc page), hasura and onegraph (graphiql-explorer).
 - Quick Links
 	- Tech Presentations
@@ -343,23 +332,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- The Rainmatter Podcast ~ Zerodha: [Click here](https://podcasters.spotify.com/pod/show/rainmatter) 
 	- Fun
 		- A Horror Film & Culture Podcast With a Feminist Twist: [Click here](http://www.jerseyghouls.com)
-  - Blogs:
-	- Dr. Werner Vogels (CTO, Amazon.com): [allthingsdistributed.com](https://www.allthingsdistributed.com/) ([LinkedIn](https://www.linkedin.com/in/wernervogels/))
-	- https://extendsclass.com/blog
-	- https://katia.gg
-	- https://blog.isquaredsoftware.com (core maintainer of `redux` and `redux-toolkit`)
-   	- Tim Ferriss: https://tim.blog
-    	- https://zackoverflow.dev
-	- https://ionic.io/blog
-	- https://web.dev/articles (awesome web development articles)
-	- https://web.dev/blog (awesome web development blogs)
-	- Google Workspace Blog: [Click here](https://workspace.google.com/blog/developers-practitioners)
-	- https://www.stephanetheteacher.com (aws, apache kafka)
-	- **Popular Linux Blogs:**
-		- https://linuxize.com/ (5*)
-		- https://linuxjournal.com (5*)
-		- https://linuxhint.com/ (3*)
-
 
 ## References:
 
@@ -602,5 +574,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
  	- Other alternatives of *statuspage* on Google: [Click here](https://www.google.com/search?q=status+page+like+services)
 - **Learn Sanskrit:** [Click here](https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit)
 - SBI Bank Cyber Security Guidelines, Hindi: [Click here](https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit) 
+- Learn Python: [Click here](https://github.com/sahilrajput03/learn-python) ([doc](https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji) (inprocess of migration))
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
