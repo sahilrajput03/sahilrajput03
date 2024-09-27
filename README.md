@@ -163,10 +163,11 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 ❤️ Interesting Page of *James Nestor - Wikipedia: [Click here](https://en.wikipedia.org/wiki/James_Nestor)*
 
 
-## Document Order
+## Document Order & Titles Notice for Google Docs
 
 - This document is organized in reverse chronological order, with the most recent entries appearing first and earlier entries following in descending order.
 - This document is organized in chronological order, with the earliest entries appearing first and more recent entries following in ascending order.
+- <Note: A document must have two titles such that titles appear in the outline. Thus do not remove this.>
 
 <div align="right">
 	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
