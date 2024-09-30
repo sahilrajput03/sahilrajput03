@@ -385,10 +385,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 - Learn BitBucket | Pipelines | Bitbucket API: [Click here](learn-bitbucket.md)
 - **Learn Google Development:**
-	- Play Console: [Click here](learn-playconsole.md)
-	- Cloud Console: [Click here](./learn-google-cloud.md)
+	- Learn Google Play Console: [Click here](learn-playconsole.md)
+	- Learn Google Cloud Platform (Google Cloud Console): [Click here](./learn-google-cloud.md)
 		- Console APIs via Oauth2 with Postman: [Click here](learn-google-console-apis-via-oauth2.md)
-	- Login with Google in a website: [Click here](learn-google-auth.md)
+	- Learn Login with Google (website): [Click here](learn-google-auth.md)
 	- Learn Google Analytics (GA) vs. Google Publisher Tags (GPT): [Click here](https://docs.google.com/document/d/1N05jA51Qx0NAkNL2zFoTI-bN6qeRB3QvauyhlUbb8cE/edit#heading=h.eh1wskjta02t)
 		- Learn Google Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 		- Learn Publisher Tag via PubwiseAds: [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md) (PubwiseAds)
