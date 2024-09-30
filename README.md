@@ -392,7 +392,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn Google Analytics (GA) vs. Google Publisher Tags (GPT): [Click here](https://docs.google.com/document/d/1N05jA51Qx0NAkNL2zFoTI-bN6qeRB3QvauyhlUbb8cE/edit#heading=h.eh1wskjta02t)
 		- Learn Google Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 		- Learn Publisher Tag via PubwiseAds: [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md) (PubwiseAds)
-	- Learn google Apps Script: [Click here](https://github.com/sahilrajput03/learn-google-apps-script)
+	- Learn Google Apps Script: [Click here](https://github.com/sahilrajput03/learn-google-apps-script)
 	- Learn Google Calendar: [Click here](./learn-google-calendar.md)
 	- Learn Google Office Utility Tools (Docs, Sheets, Slides): [Click here](https://docs.google.com/document/d/1CvC-N3daE9P8k2d-joGwLtRez9Vm4La0o23w1xCLJOw/edit)
 	- Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
