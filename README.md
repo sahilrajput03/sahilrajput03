@@ -578,5 +578,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - SBI Bank Cyber Security Guidelines, Hindi: [Click here](https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit) 
 - Learn Python: [Click here](https://github.com/sahilrajput03/learn-python) ([doc](https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji) (inprocess of migration))
 - Learn Outlook: [Click here](https://docs.google.com/document/d/1YpexQLJNdNrQhjidRt38bC49hcgiIO_hAPqfGSEds8Y/edit#heading=h.2mmi0x1sciq7)
+- Learn Adobe Acrobat Reader: [Click here](https://docs.google.com/document/d/1H66PnT3q8uUXEdSePyw89X4E5UpaTeXEYEGo03LUeig/edit#heading=h.faibccl9c26h)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
