@@ -406,7 +406,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
     - [carrd.co](https://carrd.co) - Simple, free, fully responsive one-page sites for pretty much anything.
     - [shopify.com/in/pricing](https://www.shopify.com/in/pricing)
 - **Learn Deployment** - [Click here](./learn-deploy.md)
-- Learn Vercel Deployment: [Click here](./learn-vercel.md)
+	- Learn Vercel Deployment: [Click here](./learn-vercel.md)
+ 	- Learn Heroku Deployment: [Click here](./learn-heroku.md)
 - **Learn User Mangement and Permissions** - [Click here](./learn-user-management-and-permissions.md)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/courses-list.md#awesome-tech-youtube-channels)
