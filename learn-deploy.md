@@ -3,7 +3,7 @@
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 - Learn Heroku Deployment: [Click here](./learn-heroku.md)
-
+- ❤️ Google Doc - Hosting Charges - Backend & Databases (mongodb, etc): [Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 ## Listing my website sahilrajput.com on Google Search Engine
 
 #sahilrajput.com, #search, #google search console
@@ -13,10 +13,6 @@
 ## Noip, tunnel, etc - Jio Fiber
 
 Reddit Post: [Click here](https://www.reddit.com/r/india/comments/dwrn33/port_forwarding_in_jio_fiber_router/)
-
-## ❤️ Google Doc - Hosting Charges - Backend & Databases - by Sahil
-
-[Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 
 ## Slas*er is delpoyed on cloudflare Pages
 
