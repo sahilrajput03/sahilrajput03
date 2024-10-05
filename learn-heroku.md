@@ -2,6 +2,7 @@
 
 **Quick Links:**
 - Learn Deployment: [Click here](learn-deploy.md)
+- Learn Vercel Deployment: [Click here](learn-vercel.md)
 
 **Heroku Doc Links:**
 - The Process Model: [Click here](https://devcenter.heroku.com/articles/process-model)
