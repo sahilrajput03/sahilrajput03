@@ -2,7 +2,7 @@
 
 **Quick Links:**
 - Learn Deployment: [Click here](./learn-deploy.md)
-- Learn Heroku: [Click here](learn-heroku.md)
+- Learn Heroku Depoyment: [Click here](learn-heroku.md)
 
 ## TODO: Deploy ExpressJs Application with Vercel
 
