@@ -203,6 +203,8 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 # Tech Journal & Blogging: [Click here](tech.html) \| [Old feed](./feed.md)
 
+# General Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.fjrkl2aasat#heading=h.n9bge0scwmnc)
+
 ## English Channels in India
 
 Source: **List of English-language television channels in India \| Wikipedia:** [Click here](https://en.wikipedia.org/wiki/List_of_English-language_television_channels_in_India)
