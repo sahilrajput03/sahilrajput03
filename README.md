@@ -460,7 +460,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn nestjs:** [Click here](./learn-nestjs.md) 
 - **Learn push notificaitons:** [Click here](./learn-push-notifications.md)
 - **Learn heroku webhooks:** [Click here](./learn-web-hooks.md)
-- **Learn Twilio** [Click here](./learn-twilio.md)
+- **Learn Twilio** [Click here](https://docs.google.com/document/d/1cUv_ofHediEo_VbUt63qrm3XXxrn6QMVjfQd3o9pbEA/edit?tab=t.0#heading=h.j4kdrmy99caa)
 - **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](./learn-why-websites-first-not-mobile-apps.md)
 - **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md)
 - **Learn proxy in js:** [Click here](./learn-proxy.md)
