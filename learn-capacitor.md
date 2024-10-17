@@ -14,8 +14,9 @@
 - Using HTTPS scheme for capacitor app - Docs: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
   - How to run Capacitor webView with https in IOS: [Click here](https://github.com/ionic-team/capacitor/discussions/3714)
 
-**Companies usig capacitor:**
+**Companies usig capacitor / Apps made with Capacitor:**
 - Burger King Mobile App and Web App: [Click here](https://ionic.io/resources/articles/burger-king-design-system)
+- [https://ionic.io/resources/case-studies](https://ionic.io/resources/case-studies)
 
 **Implementing Push notifications in Capacitor:**
 - Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
