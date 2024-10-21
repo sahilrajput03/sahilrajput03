@@ -19,6 +19,7 @@
 
 **Implementing Push notifications in Capacitor:**
 - Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
+- Install updates into apps without needing to update app from playstore: [https://capawesome.io/cloud/live-updates/](https://capawesome.io/cloud/live-updates/)
 
 ## Using https in capacitor?
 
