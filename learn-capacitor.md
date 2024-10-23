@@ -21,6 +21,7 @@
 
 Capawesome follows the sponsorware release strategy, that enables developers to be compensated for their open-source work with fewer downsides than traditional open-source funding models. This means that new plugins are first exclusively released to sponsors as part of Insiders. ([source - Sponsos > Insiders](https://capawesome.io/sponsors/insiders/#how-to-become-an-insider))
 
+- [Github Repo](https://github.com/capawesome-team/capacitor-plugins), [Website](https://capawesome.io/)
 - [Libraries](https://capawesome.io/sponsors/insiders/) (via private github repositories) bounded via sponsorware wall are:
   - Bluetooth Low Energy
   - File Compressor
@@ -28,7 +29,7 @@ Capawesome follows the sponsorware release strategy, that enables developers to 
   - Printer
   - Wifi
   - Zip
-- Subscription: [Click here](https://polar.sh/capawesome-team/)
+- Subscription ([source](https://polar.sh/capawesome-team/)):
   - 15$ for non-commercial use
   - 50$ for commercial use
 
