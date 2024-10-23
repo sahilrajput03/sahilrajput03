@@ -359,6 +359,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Enlightment:** [Cick here](./enlightenment.md)
 - **FSO contribution:** [Click here](./my-fso-contribution.md)
 - **Learn mongo-cli:** [Click here](./learn-mongo-cli.md)
+	- Learning monogo and mongoosejs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
 - **Hindi:** [Click here](./learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](./learn-curl.md)
