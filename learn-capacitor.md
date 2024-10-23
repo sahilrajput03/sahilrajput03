@@ -29,9 +29,12 @@ Capawesome follows the sponsorware release strategy, that enables developers to 
   - Printer
   - Wifi
   - Zip
-- Subscription ([source](https://polar.sh/capawesome-team/)):
+- Subscription ([source](https://polar.sh/capawesome-team/)) ([pricing page](https://capawesome.io/cloud/pricing/)):
   - 15$ for non-commercial use
   - 50$ for commercial use
+- ***Note: This project requires sponsorware (private npm served by private github repos)***
+  - **capacitor-plugin-demo** ([github repo](https://github.com/robingenz/capacitor-plugin-demo)) - ⚡️ Simple Ionic Angular app to demonstrate the use of certain Capacitor plugins.
+    - Premium packages required: `@capawesome/capacitor-posthog` & `@capawesome/capacitor-torch` ([check here](https://github.com/robingenz/capacitor-plugin-demo/blob/main/package.json))
 
 **Implementing Push notifications in Capacitor:**
 - Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
