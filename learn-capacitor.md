@@ -35,6 +35,10 @@ Capawesome follows the sponsorware release strategy, that enables developers to 
 - ***Note: This project requires sponsorware (private npm served by private github repos)***
   - **capacitor-plugin-demo** ([github repo](https://github.com/robingenz/capacitor-plugin-demo)) - ⚡️ Simple Ionic Angular app to demonstrate the use of certain Capacitor plugins.
     - Premium packages required: `@capawesome/capacitor-posthog` & `@capawesome/capacitor-torch` ([check here](https://github.com/robingenz/capacitor-plugin-demo/blob/main/package.json))
+- Foreground Service:
+  - Android Developers > Develop > Reference | Manifest.permission: [Click here](https://developer.android.com/reference/android/Manifest.permission#MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL)
+  - [YouTube Search - Foreground Service](https://www.youtube.com/results?search_query=foreround+service+android)
+  - CapAwesome - Foreground Service Plugin: [Click here](https://capawesome.io/plugins/android-foreground-service/)
 
 **Implementing Push notifications in Capacitor:**
 - Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
