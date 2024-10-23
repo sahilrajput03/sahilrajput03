@@ -30,7 +30,7 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
     - Custom functionality to our CDN using lambda@Edge and CloudFront functions. 
 - **Mongodb Courses:**
   - 5h - Youtube Playlist by `Just me and Opensource`: [Click here](https://www.youtube.com/playlist?list=PL34sAs7_26wPvZJqUJhjyNtm7UedWR8Ps)
-  - **(Do it asap) ❤️❤️ Awesome** 5h 40m - Youtube Playlist by `Enginnering Digest`: [Click here](https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1)
+  - <ins>**(Do it asap) ❤️❤️ Awesome** 5h 40m - Youtube Playlist by `Enginnering Digest`: [Click here](https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1) </ins>
       - Video 33: Capped Collection: [Click here](https://www.youtube.com/watch?v=khq2wvnWo5M&list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1&index=33)
       - Video 35: MongoDB Replication & Sharding: Scaling Your Database for Performance: [Click here](https://www.youtube.com/watch?v=bSulWZtc2n8&list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1&index=36)
   -  Todo check by Samaksh: [1](https://drive.google.com/drive/folders/1ib0wbUEO3jKvXfIPikk9jB02zMiW4vzm), [2](https://drive.google.com/drive/folders/1Z82qjVu-ux283yLGIfDWFzl_73BbaCzF)
