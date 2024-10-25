@@ -1,5 +1,17 @@
 ## Telegram Groups
 
+- https://t.me/DailyMotivations
+- https://t.me/RealDailyLifeHacks
+- https://t.me/Didyoureallyknow
+
+- https://t.me/Wallpapers_Phone_HD_4k_3D_Mobile
+- https://t.me/animals
+- https://t.me/free_pictures
+- https://t.me/Animals_Nature
+- https://t.me/+neBM_ArNG6wzMzE0 (wallpapers)
+
+## Technical Groups/Channels
+
 **MERN**
 
 - Developer Weekends: [Click here](https://t.me/developerWeekends)
@@ -11,6 +23,7 @@
 - FullStackDevs Nigeria: [Click here](https://t.me/flstknigeria)
 - Geeks Developers: [Click here](https://t.me/geeksdev)
 - Css Resources: [Click here](https://t.me/learning_css_01)
+- TheDevs: [Click here](https://t.me/thedevs)
 
 **Python:**
 - 30 Days of Python: [Click here](https://t.me/ThirtyDaysOfPython)
@@ -19,7 +32,3 @@
 
 **MongoDB:**
 - MongoDB: [Click here](https://t.me/mongo_db)
-
-**More technical groups**
-- TheDevs: [Click here](https://t.me/thedevs)
-
