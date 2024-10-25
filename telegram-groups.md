@@ -12,16 +12,14 @@
 - Geeks Developers: [Click here](https://t.me/geeksdev)
 - Css Resources: [Click here](https://t.me/learning_css_01)
 
-**Others**
-
+**Python:**
 - 30 Days of Python: [Click here](https://t.me/ThirtyDaysOfPython)
+- Python: [Click here](https://t.me/Python)
 - Ai Creative Drawing: [Click here](https://t.me/+foxK4tA3PhZlY2Fl)
 
+**MongoDB:**
+- MongoDB: [Click here](https://t.me/mongo_db)
+
 **More technical groups**
-
-  > Credits:  Ronak Diyora
-
-- https://t.me/mongo_db
-- https://t.me/Python
-- https://t.me/thedevs
+- TheDevs: [Click here](https://t.me/thedevs)
 
