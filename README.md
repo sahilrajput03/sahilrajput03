@@ -385,6 +385,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Photoshop:**[Click here](./learn-photoshop.md)
 - **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
+- **Telegram Groups:** [Click here](./telegram-groups.md)
 - **Github Actions:** [Click here](./github-actions.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 - Learn BitBucket \| Pipelines \| Bitbucket API: [Click here](learn-bitbucket.md)
@@ -472,7 +473,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn stripe`:** [Click here](./learn-stripe.md)
 - **Npm libaries I recommend:** [Click here](./learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](./mail-server.md)
-- **Telegram Groups:** [Click here](./telegram-groups.md)
 - Why DSA based interviews are stupid?: [Click here](./dsa.md)
 - **Javascript:**
 	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
