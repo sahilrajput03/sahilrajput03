@@ -89,6 +89,8 @@ myNumbers.sort((a, b) => b - a); // sorts in descending order
 **Online Markets I use:**
 - Flikart, Amazon, Zomato, Blinkit, Blinkit Lit, Swiggy, Zepto, Bigbasket, IndiaMART
 
+**Public Clipboard:** [Click here](https://docs.google.com/document/d/1jMZ0jPnSLbkJEJR8vm8mO6JhUoctfa1f5k6tTfpajfY/edit?tab=t.0)
+
 Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 
 **Unit Conversions**
