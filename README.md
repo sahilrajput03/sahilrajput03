@@ -115,6 +115,8 @@ Mass
 
 Currency
 ========
+**For fastest conversion from dollar to inr you can simply multiply by 100 (~84).**
+
 $ to ₹ Conversion factor: 83 ₹/$
 ₹ to $ Conversion factor: 0.012 $/₹
 
