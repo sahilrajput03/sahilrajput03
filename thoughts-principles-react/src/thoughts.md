@@ -1,4 +1,4 @@
-- The ability to stop your thoughts is helpful in times when you don’t need to use your brain. This saves a tremendous amount of energy and keeps you distraction free. ~ Sahil
+- The ability to stop your thoughts is helpful in times when you don’t need to use your brain. This saves a tremendous amount of energy and keeps you away from entangling in non-essential tasks. ~ Sahil
 
 - "Our greatest weakness lies In giving up. The most certain way to succeed is always to try just one more time."  ~ Thomas A. Edison 
 
