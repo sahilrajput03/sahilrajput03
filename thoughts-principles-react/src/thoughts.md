@@ -1,3 +1,5 @@
+- "Our greatest weakness lies In giving up. The most certain way to succeed is always to try just one more time."  ~ Thomas A. Edison 
+
 - Get out of your mind, execute and be out in real world out there. ~ Sahil
 
 - Don't mistake my silence for ignorance, my calmness for acceptance and my kindness for weakness.
