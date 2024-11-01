@@ -3,6 +3,36 @@
 **Quick Links:**
 - Js-Conf-2022: [Click here](notes-js-conf-2022.md)
 
+## Math.trunc(...)
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc)
+
+Unlike the other three Math methods: Math.floor(), Math.ceil() and Math.round(), the way Math.trunc() works is very simple. It truncates (cuts off) the dot and the digits to the right of it, no matter whether the argument is a positive or negative number.
+
+```css
+console.log(Math.trunc(13.37));
+// Expected output: 13
+
+console.log(Math.trunc(42.84));
+// Expected output: 42
+
+console.log(Math.trunc(0.123));
+// Expected output: 0
+
+console.log(Math.trunc(-0.123));
+// Expected output: -0
+
+Math.trunc(-Infinity); // -Infinity
+Math.trunc("-1.123"); // -1
+Math.trunc(-0.123); // -0
+Math.trunc(-0); // -0
+Math.trunc(0); // 0
+Math.trunc(0.123); // 0
+Math.trunc(13.37); // 13
+Math.trunc(42.84); // 42
+Math.trunc(Infinity); // Infinity
+```
+
 ## ChatGPT says its okay to mix `await` and `catch` keywords
 
 **My tests works too:**
