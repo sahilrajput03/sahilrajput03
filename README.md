@@ -597,5 +597,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Cloudinary: [Click here](https://docs.google.com/document/d/1a2lUrjw_Yb83VS1vdbY4VdRRXGZ_gU6WLnNv3v9z_Ic/edit?tab=t.0)
 	- Cloudinary primarily provides cloud-based media management, enabling users to store, optimize, transform, and deliver images and videos efficiently across web and mobile platforms.
 - Learn HTMx: [Click here](https://docs.google.com/document/d/1O2PPUAtUGDW5janNboDhcPpq53F-B3H1Lt2hhdgShhE/edit?tab=t.0)
+- Funny Loading Messages: [Click here](https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
