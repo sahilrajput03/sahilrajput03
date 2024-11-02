@@ -167,6 +167,9 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 ❤️ Interesting Page of *James Nestor - Wikipedia: [Click here](https://en.wikipedia.org/wiki/James_Nestor)*
 
+## Speech to text (#speechtotext, #speech-to-text)
+
+[dictation.io/speech](https://dictation.io/speech)
 
 ## Document Order & Titles Notice for Google Docs
 
