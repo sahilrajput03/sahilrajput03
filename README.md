@@ -372,8 +372,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Hindi:** [Click here](./learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](./learn-curl.md)
-- **Learn Git:** [Click here](./learn-git.md)
-- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
+- Git & Github:
+	- **Learn Git:** [Click here](./learn-git.md)
+	- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
+	- How to write commit messages: [Click here](how-to-write-commit-messages.md)
 - **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
 - **Learn Gmail:** [Click here](./learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
