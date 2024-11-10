@@ -422,7 +422,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
     - [shopify.com/in/pricing](https://www.shopify.com/in/pricing)
     	- Ecommerce Website Making \| Google Doc: [Click here](https://docs.google.com/document/d/13J6uBmzyjOI4g-oQ9TFz98KBR0hPdzX-wroAUEfZEZw/edit#heading=h.gg3ysj1q9gx4)
      - [https://bubble.io](https://bubble.io/)
-     - [Wordpres](https://wordpress.org/) (no-code or low-code platform)
+     - [https://wordpress.org](https://wordpress.org/) (no-code or low-code platform) ([hosting](https://wordpress.org/hosting/))
 - **Learn Deployment** - [Click here](./learn-deploy.md)
 	- Learn Vercel Deployment: [Click here](./learn-vercel.md)
  	- Learn Heroku Deployment: [Click here](./learn-heroku.md)
