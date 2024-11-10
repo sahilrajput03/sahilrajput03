@@ -25,14 +25,15 @@
 - YAGNI principle: You aren't gonna need it. Don't over engineer and assume that everything must be fully customizable and flexible. This is something that software engineers run often into: making highly customizable solutions for the sake of unwanted ("un-needed") flexibility. It can be more difficult to maintain and evolve.
 - Talent (quality/perfection) < Hardwork < **Consistency**
 - Ips: 192.168.1.4 (a), 192.168.1.21 (d), 192.168.1.11 (r)
-- I prefer making notes in Google Doc rather than in markdown or any other software like notion because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc. *Below are some features of Google Doc that you might helpful too:*
-	- give people exclusive acces using email for read or write permissions 
-	- can be published to web via direct link using "Publish to web" feature. You can find it here "File > Share feature > Publish to web".
-	- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document. This could be really helpful thing particularly for non coders. You can get the embed code for the document by going to "File > Share feature > Embed". Here is an [example](https://sahilrajput.com/vocab.html) which you can check and you can actually view the source code of the html page via `option + cmd + u` (macos) or `ctrl + u` (on mac/linux).
-  - WYSIWYG
-    - Faster Usage than markdown.
-    - There is syntax language to be learned.
-  - Editable on Google Doc app on mobile
+- I prefer making notes in Google Doc rather than in markdown or any other software like notion because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc (WYSIWYG):
+	- *Below are some features of Google Doc that you might helpful too:*
+		- Notes are about more about note making experience than to refer notes. In Google Docs the experience of notes making is awesome.
+		- give people exclusive acces using email for read or write permissions 
+		- can be published to web via direct link using "Publish to web" feature. You can find it here "File > Share feature > Publish to web".
+		- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document. This could be really helpful thing particularly for non coders. You can get the embed code for the document by going to "File > Share feature > Embed". Here is an [example](https://sahilrajput.com/vocab.html) which you can check and you can actually view the source code of the html page via `option + cmd + u` (macos) or `ctrl + u` (on mac/linux).
+		- Faster Usage than markdown.
+		- There is syntax language to be learned.
+		- Editable on Google Doc app on mobile.
 - You only loose information which you don't want to make accessible.
 - **Why AWS** (any cloud) over Raspberry pi
 	- Raspberry pi needs re-installation of OS if linux gets messed up.
