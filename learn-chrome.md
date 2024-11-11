@@ -100,6 +100,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - [Autoskip for Youtube™ Ads](https://chrome.google.com/webstore/detail/autoskip-for-youtube-ads/hmbnhhcgiecenbbkgdoaoafjpeaboine/related)
 - [Bypass Google Redirect Notice](chrome://extensions/?id=cebdpiiapajkceonikbjoikdchpnbdid)
 - [Clickable Links](https://chromewebstore.google.com/detail/mgamelhnfokapndfdodnmfiningckjia)
+- [WhisperAI - AI driven Speech-to-text](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en) (❤️ Awesome)
 
 ## Update default page zoom level and page font size
 

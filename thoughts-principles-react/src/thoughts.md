@@ -1,3 +1,11 @@
+- “In every human, there is a sense that something infinite has been lost.” – Niels Bohr
+
+- The ability to stop your thoughts is helpful in times when you don’t need to use your brain. This saves a tremendous amount of energy and keeps you away from entangling in non-essential tasks. ~ Sahil
+
+- "Our greatest weakness lies In giving up. The most certain way to succeed is always to try just one more time."  ~ Thomas A. Edison 
+
+- Get out of your mind, execute and be out in real world out there. ~ Sahil
+
 - Don't mistake my silence for ignorance, my calmness for acceptance and my kindness for weakness.
 
 - The ecosystem made around kubernetes is proving that almost every company will leverage power from the open source softwares directly for their utilites of cloud softwares.

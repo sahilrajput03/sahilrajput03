@@ -12,6 +12,7 @@
  <a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>
 </h6>
 
+- Always keep a REPL on of nodejs for fast testing. ~ Sahil
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
 	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
 - Relying on complex tools to manage and build your system is going to hurt the end-users. "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding. — Aaron Griffin ([wikipedia](https://en.wikipedia.org/wiki/Arch_Linux))
@@ -24,14 +25,15 @@
 - YAGNI principle: You aren't gonna need it. Don't over engineer and assume that everything must be fully customizable and flexible. This is something that software engineers run often into: making highly customizable solutions for the sake of unwanted ("un-needed") flexibility. It can be more difficult to maintain and evolve.
 - Talent (quality/perfection) < Hardwork < **Consistency**
 - Ips: 192.168.1.4 (a), 192.168.1.21 (d), 192.168.1.11 (r)
-- I prefer making notes in Google Doc rather than in markdown or any other software like notion because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc. *Below are some features of Google Doc that you might helpful too:*
-	- give people exclusive acces using email for read or write permissions 
-	- can be published to web via direct link using "Publish to web" feature. You can find it here "File > Share feature > Publish to web".
-	- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document. This could be really helpful thing particularly for non coders. You can get the embed code for the document by going to "File > Share feature > Embed". Here is an [example](https://sahilrajput.com/vocab.html) which you can check and you can actually view the source code of the html page via `option + cmd + u` (macos) or `ctrl + u` (on mac/linux).
-  - WYSIWYG
-    - Faster Usage than markdown.
-    - There is syntax language to be learned.
-  - Editable on Google Doc app on mobile
+- I prefer making notes in Google Doc rather than in markdown or any other software like notion because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc (WYSIWYG):
+	- *Below are some features of Google Doc that you might helpful too:*
+		- Notes are about more about note making experience than to refer notes. In Google Docs the experience of notes making is awesome.
+		- give people exclusive acces using email for read or write permissions 
+		- can be published to web via direct link using "Publish to web" feature. You can find it here "File > Share feature > Publish to web".
+		- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document. This could be really helpful thing particularly for non coders. You can get the embed code for the document by going to "File > Share feature > Embed". Here is an [example](https://sahilrajput.com/vocab.html) which you can check and you can actually view the source code of the html page via `option + cmd + u` (macos) or `ctrl + u` (on mac/linux).
+		- Faster Usage than markdown.
+		- There is syntax language to be learned.
+		- Editable on Google Doc app on mobile.
 - You only loose information which you don't want to make accessible.
 - **Why AWS** (any cloud) over Raspberry pi
 	- Raspberry pi needs re-installation of OS if linux gets messed up.
@@ -89,6 +91,8 @@ myNumbers.sort((a, b) => b - a); // sorts in descending order
 **Online Markets I use:**
 - Flikart, Amazon, Zomato, Blinkit, Blinkit Lit, Swiggy, Zepto, Bigbasket, IndiaMART
 
+**Public Clipboard:** [Click here](https://docs.google.com/document/d/1jMZ0jPnSLbkJEJR8vm8mO6JhUoctfa1f5k6tTfpajfY/edit?tab=t.0)
+
 Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 
 **Unit Conversions**
@@ -112,6 +116,8 @@ Mass
 
 Currency
 ========
+**For fastest conversion from dollar to inr you can simply multiply by 100 (~84 ₹/$).**
+
 $ to ₹ Conversion factor: 83 ₹/$
 ₹ to $ Conversion factor: 0.012 $/₹
 
@@ -162,6 +168,9 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 ❤️ Interesting Page of *James Nestor - Wikipedia: [Click here](https://en.wikipedia.org/wiki/James_Nestor)*
 
+## Speech to text (#speechtotext, #speech-to-text)
+
+[dictation.io/speech](https://dictation.io/speech)
 
 ## Document Order & Titles Notice for Google Docs
 
@@ -178,6 +187,8 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 </div>
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/RAX_I4AgjiU" title="8 Hours of Relaxing Campfire by a Lake at Sunset in 4k UHD, Stress Relief, Meditation &amp; Deep Sleep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+![social-media-game](https://github.com/user-attachments/assets/9ff89485-1199-4635-aef5-d76fcb0050d9)
 
 ## Superprof .co.in: [Click here](https://www.superprof.co.in)
 
@@ -227,6 +238,7 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 - Soundcloud Downloader: [Click here](https://sclouddownloader.net/)
+- Srt to text: [Click here](https://gotranscript.com/subtitle-converter)
 
 ##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork ([Doc](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit#heading=h.e38aiba2an6c))
 
@@ -322,7 +334,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- [Presentation - Web Performance Swiggy Style](https://docs.google.com/presentation/d/1snxo-EKx6PseQeznhfr-VVTEQ71EAMOdbDQ0pNR5jEA/edit#slide=id.g6b802e0221_1_1286)
 	- Developer Surveys: 
 		- Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
-		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/), [2023](https://survey.stackoverflow.co/2023/)
+		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/), [2023](https://survey.stackoverflow.co/2023/), [2024](https://survey.stackoverflow.co/2024)
 		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [2022](https://2022.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
 			- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
   - Tech Magazines:
@@ -354,23 +366,23 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Book logs:** [Click here](./book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses:** [Click here](./courses-list.md)
-- **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
 - **Enlightment:** [Cick here](./enlightenment.md)
 - **FSO contribution:** [Click here](./my-fso-contribution.md)
 - **Learn mongo-cli:** [Click here](./learn-mongo-cli.md)
+	- Learning monogo and mongoosejs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
 - **Hindi:** [Click here](./learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](./learn-curl.md)
-- **Learn Git:** [Click here](./learn-git.md)
-- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
+- Git & Github:
+	- **Learn Git:** [Click here](./learn-git.md)
+	- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
+	- How to write commit messages: [Click here](how-to-write-commit-messages.md)
 - **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
 - **Learn Gmail:** [Click here](./learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
 - **Learn Regex:** [Click here](./learn-regex.md)
 - **Learn Markdown:** [Click here](./learn-markdown.md)
 - **Learn Perl:** [Click here](./learn-perl.md)
-- **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit)
-- **Learn FigJam:** [Click here](./learn-figjam.md)
 - **Learn qutebrowser:** [Click here](./qutebrowser.md)
 - **Learn Urdu:** [Click here](./learn-urdu/)
 - **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
@@ -383,6 +395,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Photoshop:**[Click here](./learn-photoshop.md)
 - **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
+- **Telegram Groups:** [Click here](./telegram-groups.md)
 - **Github Actions:** [Click here](./github-actions.md)
 - **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 - Learn BitBucket \| Pipelines \| Bitbucket API: [Click here](learn-bitbucket.md)
@@ -408,6 +421,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
     - [carrd.co](https://carrd.co) - Simple, free, fully responsive one-page sites for pretty much anything.
     - [shopify.com/in/pricing](https://www.shopify.com/in/pricing)
     	- Ecommerce Website Making \| Google Doc: [Click here](https://docs.google.com/document/d/13J6uBmzyjOI4g-oQ9TFz98KBR0hPdzX-wroAUEfZEZw/edit#heading=h.gg3ysj1q9gx4)
+     - [https://bubble.io](https://bubble.io/)
+     - [https://wordpress.org](https://wordpress.org/) (no-code or low-code platform) ([hosting](https://wordpress.org/hosting/))
 - **Learn Deployment** - [Click here](./learn-deploy.md)
 	- Learn Vercel Deployment: [Click here](./learn-vercel.md)
  	- Learn Heroku Deployment: [Click here](./learn-heroku.md)
@@ -469,7 +484,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn stripe`:** [Click here](./learn-stripe.md)
 - **Npm libaries I recommend:** [Click here](./learn-npm-libraries.md)
 - **Learn Mailservers:** [Click here](./mail-server.md)
-- **Telegram Groups:** [Click here](./telegram-groups.md)
 - Why DSA based interviews are stupid?: [Click here](./dsa.md)
 - **Javascript:**
 	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
@@ -483,8 +497,12 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Leetcode: [Click here](./learn-leetcode.md)**
 - Learn auth0: [Click here](./learn-auth0.md)
 - Best of Javascript: [Click here](https://bestofjs.org/)
-- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
-- Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)
+- **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
+	- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
+	- Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)
+- **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit)
+	- Website Designs: [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb)
+- **Learn FigJam:** [Click here](./learn-figjam.md)
 - Learn Jest/expect: [Click here](./learn-jest-expect.md)
 - Learn Elastic Search: [Click here](./learn-elastic-search.md)
 - Suble and Impactful Mistakes with Exceptions: [Click here](./subtle-impactful-exceptions.md)
@@ -584,5 +602,13 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Python: [Click here](https://github.com/sahilrajput03/learn-python) ([doc](https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji) (inprocess of migration))
 - Learn Outlook: [Click here](https://docs.google.com/document/d/1YpexQLJNdNrQhjidRt38bC49hcgiIO_hAPqfGSEds8Y/edit#heading=h.2mmi0x1sciq7)
 - Learn Adobe Acrobat Reader: [Click here](https://docs.google.com/document/d/1H66PnT3q8uUXEdSePyw89X4E5UpaTeXEYEGo03LUeig/edit#heading=h.faibccl9c26h)
+- Learn Cloudinary: [Click here](https://docs.google.com/document/d/1a2lUrjw_Yb83VS1vdbY4VdRRXGZ_gU6WLnNv3v9z_Ic/edit?tab=t.0)
+	- Cloudinary primarily provides cloud-based media management, enabling users to store, optimize, transform, and deliver images and videos efficiently across web and mobile platforms.
+- Learn HTMx: [Click here](https://docs.google.com/document/d/1O2PPUAtUGDW5janNboDhcPpq53F-B3H1Lt2hhdgShhE/edit?tab=t.0)
+- Funny Loading Messages: [Click here](https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32)
+- Meme makers: [Click here](https://docs.google.com/document/d/14WQUE71-JsCF2sVOgVbsrxtbJgvw_AfnGrbx9V0YR4g/edit?tab=t.0)
+- Learn Mastodon: [Click here](https://docs.google.com/document/d/1jDg0bbDG2fLH_OsctFAHJ1JMxToaBhCieWBHhuZTaOs/edit?tab=t.0)
+- Learn NDE: [Click here](https://docs.google.com/document/d/1xkDQfzA-6MsIiTaGL5y4_Hvy1v1vhinJQ6QDQ8UdZ7U/edit?tab=t.0)
+- UUID Generator (#hash, #hashid): [www.uuidgenerator.net](https://www.uuidgenerator.net)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>

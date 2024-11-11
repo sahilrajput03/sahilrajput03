@@ -7,6 +7,9 @@
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
 - **Learn Google Play Console:** [Click here](learn-playconsole.md)
 - Sunflower App - App in Kotlin (17k*): [Click here](https://github.com/android/sunflower/tree/main)
+- **Companies usig capacitor / Apps made with Capacitor:**
+  - Burger King Mobile App and Web App: [Click here](https://ionic.io/resources/articles/burger-king-design-system)
+  - [https://ionic.io/resources/case-studies](https://ionic.io/resources/case-studies)
 
 **Capacitor Docs, Issues:**
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
@@ -14,11 +17,32 @@
 - Using HTTPS scheme for capacitor app - Docs: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
   - How to run Capacitor webView with https in IOS: [Click here](https://github.com/ionic-team/capacitor/discussions/3714)
 
-**Companies usig capacitor:**
-- Burger King Mobile App and Web App: [Click here](https://ionic.io/resources/articles/burger-king-design-system)
+**CapAwesome:**
+
+Capawesome follows the sponsorware release strategy, that enables developers to be compensated for their open-source work with fewer downsides than traditional open-source funding models. This means that new plugins are first exclusively released to sponsors as part of Insiders. ([source - Sponsos > Insiders](https://capawesome.io/sponsors/insiders/#how-to-become-an-insider))
+
+- [Github Repo](https://github.com/capawesome-team/capacitor-plugins), [Website](https://capawesome.io/)
+- [Libraries](https://capawesome.io/sponsors/insiders/) (via private github repositories) bounded via sponsorware wall are:
+  - Bluetooth Low Energy
+  - File Compressor
+  - NFC
+  - Printer
+  - Wifi
+  - Zip
+- Subscription ([source](https://polar.sh/capawesome-team/)) ([pricing page](https://capawesome.io/cloud/pricing/)):
+  - 15$ for non-commercial use
+  - 50$ for commercial use
+- ***Note: This project requires sponsorware (private npm served by private github repos)***
+  - **capacitor-plugin-demo** ([github repo](https://github.com/robingenz/capacitor-plugin-demo)) - ⚡️ Simple Ionic Angular app to demonstrate the use of certain Capacitor plugins.
+    - Premium packages required: `@capawesome/capacitor-posthog` & `@capawesome/capacitor-torch` ([check here](https://github.com/robingenz/capacitor-plugin-demo/blob/main/package.json))
+- Foreground Service:
+  - Android Developers > Develop > Reference | Manifest.permission: [Click here](https://developer.android.com/reference/android/Manifest.permission#MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL)
+  - [YouTube Search - Foreground Service](https://www.youtube.com/results?search_query=foreround+service+android)
+  - CapAwesome - Foreground Service Plugin: [Click here](https://capawesome.io/plugins/android-foreground-service/)
 
 **Implementing Push notifications in Capacitor:**
 - Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
+- Install updates into apps without needing to update app from playstore: [https://capawesome.io/cloud/live-updates/](https://capawesome.io/cloud/live-updates/)
 
 ## Using https in capacitor?
 
