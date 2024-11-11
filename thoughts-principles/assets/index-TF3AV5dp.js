@@ -412,7 +412,7 @@ Error generating stack: `+i.message+`
 
 - Make your work interesting by listening to melodies, beats or piano. Or get up from your seat and work while standing. ~ Sahil
 
-- Learn the art of remembering important things by making hook notes. Reading books gives you the art of forgetting too. Make hook notes of books in google docs so you can refer them from anywhere via mobile. Hook means you create brdige between your compressed notes to the actual books and you can forsure go back to the book too, which is great! ~ Sahil
+- Learn the art of remembering important things by making hook notes. Reading books gives you the art of forgetting too. Make hook notes of books in Google Docs so you can refer them from anywhere via mobile. Hook means you create bridge between your mind, compressed notes to the the teachings of the books and you can for sure go back to the book too, which is great! ~ Sahil
 
 - Forgive the ones you love. Friends, girlfriends, sister, brother, mom, dad & yourself unconditionally. ~ Sahil
 
@@ -420,7 +420,7 @@ Error generating stack: `+i.message+`
 
 - Do you find success boring and failure intriguing because success marks an end, while failure signals that the journey continues? ~ Sahil
 
-- When you hit something bitter in life and you say its bad, and it could be neem? ~ Sahil
+- When you hit something bitter in life and you say its bad, and it could be like neem or actually neem (haha)? ~ Sahil
 
 - Work Igniter: Lets continuously do minimum possible work and leave the work. ~ Sahil
 
