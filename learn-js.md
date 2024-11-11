@@ -20,6 +20,32 @@ myNumbers.sort((a, b) => a - b); // sorts in ascending order
 myNumbers.sort((a, b) => b - a); // sorts in descending order
 ```
 
+##  Disadvantages of structuredClone? (ChatGPT)
+
+*Note: I found about it in [svelte's docs here](https://svelte.dev/docs/svelte/$state)*
+
+The structuredClone method, which deep-clones JavaScript objects, has several potential drawbacks, despite its convenience:
+
+Limited Browser Support: While structuredClone is widely supported in modern browsers, older browsers (like some versions of Internet Explorer) do not support it, which could be an issue for applications needing compatibility with legacy systems.
+
+Performance Overhead for Large Objects: structuredClone may be slower than alternatives (such as manual deep cloning) when handling very large or complex objects, as it has to replicate each property and handle circular references. For simple objects, the performance difference may not be noticeable, but with deeply nested or large objects, it could lead to noticeable delays.
+
+Serialization Constraints: structuredClone only works with data types that are serializable in JavaScript. This means it cannot clone objects with:
+
+- Functions
+- Class instances (unless they have a defined serialization method)
+- Proxies
+- Some types of non-standard properties
+- Attempting to clone such objects will result in errors, making structuredClone unsuitable for objects containing non-serializable elements.
+
+Loss of Prototypes and Methods: The cloning process strips away prototypes, methods, and non-enumerable properties, meaning that if you rely on methods or class instances, they won't carry over to the cloned object. Only pure data objects (without methods) are fully compatible.
+
+Potential for Silent Errors: Because it throws errors when encountering non-cloneable data types, developers need to catch these errors. Otherwise, structuredClone may fail silently if not handled, leading to debugging challenges.
+
+Limited Support for Circular References: While it supports circular structures in arrays and objects, certain complex circular references may not clone as expected, requiring additional handling.
+
+For cases that need method retention, prototype inheritance, or support for non-serializable values, alternative approaches, like libraries (e.g., Lodash's cloneDeep), custom cloning functions, or JSON serialization (if limited to simple objects), might be more suitable.
+
 ## Math.trunc(...)
 
 [Source - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc)
