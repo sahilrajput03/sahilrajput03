@@ -610,5 +610,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Fediverse \| Mastodon: [Click here](https://docs.google.com/document/d/1jDg0bbDG2fLH_OsctFAHJ1JMxToaBhCieWBHhuZTaOs/edit?tab=t.0)
 - Learn NDE: [Click here](https://docs.google.com/document/d/1xkDQfzA-6MsIiTaGL5y4_Hvy1v1vhinJQ6QDQ8UdZ7U/edit?tab=t.0)
 - UUID Generator (#hash, #hashid): [www.uuidgenerator.net](https://www.uuidgenerator.net)
+- Learn Machine Learning: [Click here](https://docs.google.com/document/d/1ctpjEF820WJtDRjtKNpyOfNPcUbwC2EMuhEfBcBrIIc/edit?tab=t.0)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
