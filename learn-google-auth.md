@@ -2,7 +2,7 @@
 
 - Google Auth Library: [npm](https://www.npmjs.com/package/google-auth-library): This is Google's officially supported node.js client library for using OAuth 2.0 authorization and authentication with Google APIs.
 - GoogleApis: [npm](https://www.npmjs.com/package/googleapis): [Click here](https://developers.google.com/apis-explorer)
-- `@react-oauth/google`: [npm](https://www.npmjs.com/package/@react-oauth/google), [github](https://github.com/MomenSherif/react-oauth) (Used in [sahilrajput03/react-google-oauth](https://github.com/sahilrajput03/react-google-oauth))
+- `@react-oauth/google`: [npm](https://www.npmjs.com/package/@react-oauth/google), [github](https://github.com/MomenSherif/react-oauth) (used in [sahilrajput03/react-google-oauth](https://github.com/sahilrajput03/react-google-oauth))
 
 ## Authorization issue - 13 Dec 2023
 
