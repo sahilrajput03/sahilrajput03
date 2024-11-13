@@ -12,7 +12,8 @@
  <a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>
 </h6>
 
-- Always keep a REPL on of nodejs for fast testing. ~ Sahil
+- Development tips:
+	- Always keep a REPL on of nodejs for fast testing. ~ Sahil
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
 	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
 - Relying on complex tools to manage and build your system is going to hurt the end-users. "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding. — Aaron Griffin ([wikipedia](https://en.wikipedia.org/wiki/Arch_Linux))
@@ -611,5 +612,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn NDE: [Click here](https://docs.google.com/document/d/1xkDQfzA-6MsIiTaGL5y4_Hvy1v1vhinJQ6QDQ8UdZ7U/edit?tab=t.0)
 - UUID Generator (#hash, #hashid): [www.uuidgenerator.net](https://www.uuidgenerator.net)
 - Learn Machine Learning: [Click here](https://docs.google.com/document/d/1ctpjEF820WJtDRjtKNpyOfNPcUbwC2EMuhEfBcBrIIc/edit?tab=t.0)
+- Syncing backend and frontned code (e.g, types.ts fil) and have isomorphinc aka universal directory (file/files) across repositories (fronend,backend): [Click here](./isomorphic-code.md)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
