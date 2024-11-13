@@ -612,6 +612,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn NDE: [Click here](https://docs.google.com/document/d/1xkDQfzA-6MsIiTaGL5y4_Hvy1v1vhinJQ6QDQ8UdZ7U/edit?tab=t.0)
 - UUID Generator (#hash, #hashid): [www.uuidgenerator.net](https://www.uuidgenerator.net)
 - Learn Machine Learning: [Click here](https://docs.google.com/document/d/1ctpjEF820WJtDRjtKNpyOfNPcUbwC2EMuhEfBcBrIIc/edit?tab=t.0)
-- Syncing backend and frontned code (e.g, types.ts fil) and have isomorphinc aka universal directory (file/files) across repositories (fronend,backend): [Click here](./isomorphic-code.md)
+- Syncing backend and frontned code (e.g, `types.ts` file) and have isomorphinc aka universal directory (file/files) across repositories (fronend,backend): [Click here](./isomorphic-code.md)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
