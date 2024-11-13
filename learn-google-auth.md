@@ -17,6 +17,8 @@
 - My Github Repo: [sahilrajput03/react-google-oauth](https://github.com/sahilrajput03/react-google-oauth)
   - Deploye at: https://example-react-google-oauth.vercel.app/
   - Source (original Totel project notes): [Click here](https://github.com/sahilrajput03/learn-websockets/blob/main/making-totel-chat.md)
+  - OTHER SIMILAR PROJECT (might be helpful) found on GITHUB via search:
+    - (react+java) [spring-boot-react-oauth2-social-login-demo](https://github.com/callicoder/spring-boot-react-oauth2-social-login-demo)
 - Google APIs console: [Click here](https://console.developers.google.com/apis)
   - Source: [Official google signin docs](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid)
   - Follow along video by an amazing person: [@youtube](https://youtu.be/XjOEKbHkAeo)
