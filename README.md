@@ -13,6 +13,7 @@
 </h6>
 
 - Development tips:
+	- Use VsCode' default markdown preview to edit markdown files.
 	- Always keep a REPL on of nodejs for fast testing. ~ Sahil
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
 	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
