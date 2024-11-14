@@ -18,6 +18,16 @@ SORTING Array Method
 myNumbers.sort(); // sorts in ascending order (default)
 myNumbers.sort((a, b) => a - b); // sorts in ascending order
 myNumbers.sort((a, b) => b - a); // sorts in descending order
+
+REDUCE ARRAY METHOD
+======
+ar = [ 1, 2, 3 ]
+ar.reduce((a,b) => a+b, 0) // Output: 6
+
+push/pop/shift/unshift all mutate array.
+=====
+`push` and `pop` works on end of array
+`unshift` and `shift` works on start of array
 ```
 
 ##  Disadvantages of structuredClone? (ChatGPT)
