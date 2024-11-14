@@ -16,6 +16,7 @@
 	- Use VsCode' default markdown preview to edit markdown files.
 	- Always keep a REPL on of nodejs for fast testing. ~ Sahil
 	- Sleep Function: `await new Promise(r => setTimeout(r, 2000))`
+- Learn Aryuveda: [Click here](https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0)
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
 	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
 - Relying on complex tools to manage and build your system is going to hurt the end-users. "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding. — Aaron Griffin ([wikipedia](https://en.wikipedia.org/wiki/Arch_Linux))
