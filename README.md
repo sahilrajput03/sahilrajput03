@@ -86,8 +86,8 @@ const newArray = myArray.slice(startIdx, endIdx + 1);
 
 SORTING Array Method
 =======
-myNumbers.sort(); // sorts in ascending order (default)
-myNumbers.sort((a, b) => a - b); // sorts in ascending order
+myNumbers.sort(); // sorts in ascending order [DEFAULT]
+myNumbers.sort((a, b) => a - b); // sorts in ascending order [DEFAULT]
 myNumbers.sort((a, b) => b - a); // sorts in descending order
 
 REDUCE ARRAY METHOD
