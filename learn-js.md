@@ -3,7 +3,7 @@
 **Quick Links:**
 - Js-Conf-2022: [Click here](notes-js-conf-2022.md)
 
-## Slice and Sorting Method (This is on homepage as well)
+## Stay Hungry, Stay Foolish (This is on homepage as well)
 
 ```css
 SLICE Array Method
