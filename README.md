@@ -77,6 +77,8 @@ cat /dev/null
 !!(() => {})
 ```
 
+## Javascript Cheatsheet - Sahil
+
 ```js
 SLEEP FUNCTION
 ==============
