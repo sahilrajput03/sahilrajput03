@@ -28,6 +28,16 @@ PUSH/POP/SHIFT/UNSHIFT - all mutate array
 =====
 `push` and `pop` works on end of array
 `unshift` and `shift` works on start of array
+
+USING FETCH
+===========
+const response = await fetch('/todo', {
+	method: 'POST',
+	body: JSON.stringify({ description }),
+	headers: {
+		'Content-Type': 'application/json'
+	}
+});
 ```
 
 ##  Disadvantages of structuredClone? (ChatGPT)
