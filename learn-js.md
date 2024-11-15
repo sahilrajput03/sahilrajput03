@@ -3,42 +3,9 @@
 **Quick Links:**
 - Js-Conf-2022: [Click here](notes-js-conf-2022.md)
 
-## Stay Hungry, Stay Foolish (This is on homepage as well)
+## ❤️ Javascript Cheatsheet - Sahil
 
-```css
-SLICE Array Method
-==================
-// Note:
-// 1. slice() method returns shallow copied array.
-// 2. first argument is inclusive and second argument is **non-inclusive**
-const newArray = myArray.slice(startIdx, endIdx + 1);
-
-SORTING Array Method
-=======
-myNumbers.sort(); // sorts in ascending order [DEFAULT]
-myNumbers.sort((a, b) => a - b); // sorts in ascending order [DEFAULT]
-myNumbers.sort((a, b) => b - a); // sorts in descending order
-
-REDUCE ARRAY METHOD
-======
-ar = [ 1, 2, 3 ]
-ar.reduce((a,b) => a+b, 0) // Output: 6
-
-PUSH/POP/SHIFT/UNSHIFT - all mutate array
-=====
-`push` and `pop` works on end of array
-`unshift` and `shift` works on start of array
-
-USING FETCH
-===========
-const response = await fetch('/todo', {
-	method: 'POST',
-	body: JSON.stringify({ description }),
-	headers: {
-		'Content-Type': 'application/json'
-	}
-});
-```
+[Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/README.md#javascript-cheatsheet---sahil)
 
 ##  Disadvantages of structuredClone? (ChatGPT)
 
