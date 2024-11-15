@@ -12,7 +12,7 @@
 </h6>
 
 - Development tips:
-- Get summary of any video in google gemini. ❤️
+- Get summary of any video in any language in Google Gemini. ❤️
 	- Use VsCode' default markdown preview to edit markdown files.
 	- Always keep a REPL on of nodejs for fast testing. ~ Sahil
 	- HTTP Statuses: [http.dog](https://http.dog)
