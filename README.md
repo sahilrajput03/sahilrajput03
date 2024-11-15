@@ -135,9 +135,14 @@ Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 
 **Unit Conversions**
 
+<i>Tags: #metre, #foot, #feet, #centimeter</i>
+
+A small scale is 15cm long.
+
 ```txt
-Length
+Length 			
 ======
+1 ft ≈ 30.48 cm
 1 m ≈ 3.3 ft (precisely 3.28084)
 1 m ≈ 39.4 inch (precisely 39.3701)
 1 km ≈ 0.62 miles (precisely 0.621371)
