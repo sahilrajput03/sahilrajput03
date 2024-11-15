@@ -15,7 +15,7 @@
 - Development tips:
 	- Use VsCode' default markdown preview to edit markdown files.
 	- Always keep a REPL on of nodejs for fast testing. ~ Sahil
-	- Sleep Function: `await new Promise(r => setTimeout(r, 2000))`
+ 	- https://http.dog/
 - Learn Aryuveda: [Click here](https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0)
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
 	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
@@ -78,6 +78,11 @@ cat /dev/null
 ```
 
 ```js
+SLEEP FUNCTION
+==============
+await new Promise(r => setTimeout(r, 2000))
+
+
 SLICE Array Method
 ==================
 // Note:
