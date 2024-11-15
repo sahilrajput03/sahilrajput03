@@ -111,8 +111,11 @@ PUSH/POP/SHIFT/UNSHIFT - all mutate array
 USING FETCH
 ===========
 // client-side
+const response = await fetch('/roll'); // 'GET'
+const { number } = await response.json();
+
 const response = await fetch('/todo', {
-	method: 'POST',
+	method: 'POST', // 'PUT', 'DELETE', 'PATCH'
 	body: JSON.stringify({ description }),
 	headers: {
 		'Content-Type': 'application/json'
