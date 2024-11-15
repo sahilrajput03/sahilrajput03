@@ -108,6 +108,7 @@ PUSH/POP/SHIFT/UNSHIFT - all mutate array
 
 USING FETCH
 ===========
+// client-side
 const response = await fetch('/todo', {
 	method: 'POST',
 	body: JSON.stringify({ description }),
@@ -115,6 +116,10 @@ const response = await fetch('/todo', {
 		'Content-Type': 'application/json'
 	}
 });
+const { description } = await response.json();
+
+// server-side
+const { description } = await request.json();
 ```
 
 **Online Markets I use:**
