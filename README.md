@@ -11,8 +11,9 @@
 <a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>), <a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>
 </h6>
 
+- Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
 - Development tips:
-- Get summary of any video in any language in Google Gemini. ❤️
+	- Get summary of any video in any language in Google Gemini. ❤️
 	- Use VsCode' default markdown preview to edit markdown files.
 	- Always keep a REPL on of nodejs for fast testing. ~ Sahil
 	- HTTP Statuses: [http.dog](https://http.dog)
@@ -659,6 +660,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Ayurveda: [Click here](https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0)
 - Learn Dyaan/Meditation: [Click here](https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.tc9ukx6oxone)
 	- Learn Heartfullness: [Click here](https://docs.google.com/document/d/1WPbWXvXWyJTcpFLigm52cOa90IwAp1nI8aZ8FgUj-CQ/edit?tab=t.0)
- - Glass: [Click here](https://docs.google.com/document/d/1SyhqXZqsq6dkSkaAdikwtOFawT8kxYT857aOnzmY0ok/edit?tab=t.0)
+ - Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
