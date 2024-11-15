@@ -102,6 +102,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - [Clickable Links](https://chromewebstore.google.com/detail/mgamelhnfokapndfdodnmfiningckjia)
 - [WhisperAI - AI driven Speech-to-text](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en) (❤️ Awesome)
 - Distraction free for Linkedin™: [Click here](https://chromewebstore.google.com/detail/distraction-free-for-link/kigfnbfbpfpgphbocdkmeablbgdbpfke)
+- UnAddict: [Click here](https://chromewebstore.google.com/detail/stayfree-website-blocker/elfaihghhjjoknimpccccmkioofjjfkf)
 
 ## Update default page zoom level and page font size
 
