@@ -101,10 +101,10 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - [Autoskip for Youtube™ Ads](https://chrome.google.com/webstore/detail/autoskip-for-youtube-ads/hmbnhhcgiecenbbkgdoaoafjpeaboine/related)
 - [Bypass Google Redirect Notice](chrome://extensions/?id=cebdpiiapajkceonikbjoikdchpnbdid)
 - [Clickable Links](https://chromewebstore.google.com/detail/mgamelhnfokapndfdodnmfiningckjia)
-- SPEECH TO TEXT:
+- **SPEECH TO TEXT:**
   - [WhisperAI - AI driven Speech-to-text](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en) (❤️ uses OpenAI's Whisper Model, also known as `Blabby`)
   - Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko) (❤️)
-- TEXT TO SPEECH:
+- **TEXT TO SPEECH:**
   - [Read Aloud: A Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp)
   - [Speechify Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
 - Distraction free for Linkedin™: [Click here](https://chromewebstore.google.com/detail/distraction-free-for-link/kigfnbfbpfpgphbocdkmeablbgdbpfke)
