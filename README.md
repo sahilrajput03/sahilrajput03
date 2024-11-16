@@ -555,6 +555,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Storybook: [Click here](./learn-storybook.md)
 - Learn Eslint: [Click here](./learn-eslint.md)
 - Learn Chrome: [Click here](./learn-chrome.md)
+	- Chrome Extensions (internal link in above doc): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions)
 - Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md)
 - Learn Paypal: [Click here](./learn-paypal.md)
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md)
