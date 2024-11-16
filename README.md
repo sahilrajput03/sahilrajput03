@@ -347,6 +347,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Speech to Text: *(#speechtotext, #speech-to-text)*
 	- [dictation.io/speech](https://dictation.io/speech) (web)
  	- WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en)
+	- Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko) (❤️) ([English Voice Commands](https://dictanote.co/voicein/voicecommands/en/))
 - Learn NFC:
 	- Link: [1](https://www.youtube.com/shorts/rqoUHzrWrU0), [2](https://www.youtube.com/shorts/kqds9w9BF-0?feature=share), [3](https://www.youtube.com/shorts/Mp9oZTlDhI8?feature=share), [4](https://www.youtube.com/shorts/vi3vwWKiS94?feature=share)
 
