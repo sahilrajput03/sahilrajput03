@@ -1,3 +1,5 @@
+- Relax your body slowly from toe to head via guiding (mental suggestions), then relax your breathing slowly and then relax your thoughts slowly. Sleep! ~ Sahil
+
 - “In every human, there is a sense that something infinite has been lost.” – Niels Bohr
 
 - The ability to stop your thoughts is helpful in times when you don’t need to use your brain. This saves a tremendous amount of energy and keeps you away from entangling in non-essential tasks. ~ Sahil
