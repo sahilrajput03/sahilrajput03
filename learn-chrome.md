@@ -39,8 +39,6 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 # Chrome Extensions
 
 - [Talk-to-ChatGPT](https://chrome.google.com/webstore/detail/talk-to-chatgpt/hodadfhfagpiemkeoliaelelfbboamlk)
-- [Read Aloud: A Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp)
-- [Speechify Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
 - [Code Copier](https://chrome.google.com/webstore/detail/code-copier/polidkhcaghmmijeemenkiloblpdfphp/related?hl=en)
 - [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) 
 - [Fea KeyLogger](https://chrome.google.com/webstore/detail/fea-keylogger/fgkghpghjcbfcflhoklkcincndlpobja?hl=en)
@@ -106,6 +104,10 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - SPEECH TO TEXT:
   - [WhisperAI - AI driven Speech-to-text](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en) (❤️ uses OpenAI's Whisper Model, also known as `Blabby`)
   - Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko) (❤️)
+- TEXT TO SPEECH:
+  - [Read Aloud: A Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp)
+  - [Speechify Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
+  
 - Distraction free for Linkedin™: [Click here](https://chromewebstore.google.com/detail/distraction-free-for-link/kigfnbfbpfpgphbocdkmeablbgdbpfke)
 - UnAddict: [Click here](https://chromewebstore.google.com/detail/stayfree-website-blocker/elfaihghhjjoknimpccccmkioofjjfkf)
 
