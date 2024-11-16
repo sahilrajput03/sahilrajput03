@@ -1,5 +1,8 @@
 # Learn Chrome
 
+**Quick Links:**
+- Chrome Extensions: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions)
+
 Disabled below extensions becoz of too much memory usage(deteced from Google Chrome inbuilt task manager):
 - Grammarly
 - Auto Youtube Quality
