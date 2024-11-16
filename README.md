@@ -126,6 +126,33 @@ const { description } = await response.json();
 
 // server-side
 const { description } = await request.json();
+
+
+GETTER AND SETTERS IN AN OBJECT
+===============================
+// 1
+const obj = {
+    countValue: 42,
+    get count() {
+        return this.countValue;
+    },
+    set count(value) {
+        this.countValue = value;
+    }
+};
+
+console.log(obj.count); // 42
+obj.count = 43;
+console.log(obj.count); // 43
+// WHEREAS FUNCTION DEFINED WITH `function` KEYWORD OR ARROW-FUNCTION-SYNTAX BEHAVES HAS GENERAL FUNCTIONS UNLIKE GETTER/SETTERS:
+// -----------------------------------------------------------------------------------------------------------------------------
+// Read more differenes here - https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md#geeter-setters-in-object
+const obj = {
+  countValue: 42,
+  count: () => this.countValue, // Note: `this` here doesn't refer to the object.
+};
+
+console.log(obj.count()); // undefined, because `this` does not refer to `obj`.
 ```
 
 **Online Markets I use:**
