@@ -144,6 +144,7 @@ const obj = {
 console.log(obj.count); // 42
 obj.count = 43;
 console.log(obj.count); // 43
+
 // WHEREAS FUNCTION DEFINED WITH `function` KEYWORD OR ARROW-FUNCTION-SYNTAX BEHAVES HAS GENERAL FUNCTIONS UNLIKE GETTER/SETTERS:
 // -----------------------------------------------------------------------------------------------------------------------------
 // Read more differenes here - https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md#geeter-setters-in-object
