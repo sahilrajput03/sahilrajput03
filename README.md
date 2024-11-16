@@ -213,10 +213,6 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 ❤️ Interesting Page of *James Nestor - Wikipedia: [Click here](https://en.wikipedia.org/wiki/James_Nestor)*
 
-## Speech to text (#speechtotext, #speech-to-text)
-
-[dictation.io/speech](https://dictation.io/speech)
-
 ## Document Order & Titles Notice for Google Docs
 
 - This document is organized in reverse chronological order, with the most recent entries appearing first and earlier entries following in descending order.
@@ -348,8 +344,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - TamronHallShow (Journalist): [@TamronHallShow](https://www.youtube.com/@TamronHallShow/videos)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 - **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
-- Speech to Text:
-	- [dictation.io/speech](https://dictation.io/speech)
+- Speech to Text: *(#speechtotext, #speech-to-text)*
+	- [dictation.io/speech](https://dictation.io/speech) (web)
  	- WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en)
 - Learn NFC:
 	- Link: [1](https://www.youtube.com/shorts/rqoUHzrWrU0), [2](https://www.youtube.com/shorts/kqds9w9BF-0?feature=share), [3](https://www.youtube.com/shorts/Mp9oZTlDhI8?feature=share), [4](https://www.youtube.com/shorts/vi3vwWKiS94?feature=share)
