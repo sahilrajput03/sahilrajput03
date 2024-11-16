@@ -7,48 +7,9 @@
 
 [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/README.md#javascript-cheatsheet---sahil)
 
-## Getter Property in an object
-
-what is difference between:
-
-```
-let obj = {
-  get count() { return count }
-}
-
-let obj = {
-count: () =>  count,
-}
-
-```
-
-Difference:
-
-```js
-// 1
-const obj = {
-  countValue: 42,
-  get count() {
-    return this.countValue;
-  },
-};
-
-console.log(obj.count); // 42
-```
-
-```js
-// 2
-const obj = {
-  countValue: 42,
-  count: () => this.countValue, // Note: `this` here doesn't refer to the object.
-};
-
-console.log(obj.count()); // undefined, because `this` does not refer to `obj`.
-```
+## Geeter, Setters in Object
 
 ![image](https://github.com/user-attachments/assets/62fb6146-2b84-430a-9796-41a57e6b86f7)
-
-
 
 ##  Disadvantages of structuredClone? (ChatGPT)
 
