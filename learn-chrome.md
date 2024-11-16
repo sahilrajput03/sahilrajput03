@@ -107,7 +107,6 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - TEXT TO SPEECH:
   - [Read Aloud: A Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp)
   - [Speechify Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
-  
 - Distraction free for Linkedin™: [Click here](https://chromewebstore.google.com/detail/distraction-free-for-link/kigfnbfbpfpgphbocdkmeablbgdbpfke)
 - UnAddict: [Click here](https://chromewebstore.google.com/detail/stayfree-website-blocker/elfaihghhjjoknimpccccmkioofjjfkf)
 
