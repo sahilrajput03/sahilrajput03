@@ -3,7 +3,7 @@
 **Quick Links:**
 - Chrome Extensions: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions)
 
-**Currently Disabled Extensions:** (becoz of too much memory usage analysed from Google Chrome inbuilt task manager)
+**Currently Disabled Extensions:** *(becoz of too much memory usage analysed from Google Chrome inbuilt task manager)*
 - Grammarly
 - Auto Youtube Quality
 - Metamask
