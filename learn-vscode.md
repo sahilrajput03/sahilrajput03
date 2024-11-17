@@ -212,6 +212,7 @@ Consider using a `.vscode/tasks.json` file (you can autogenerate this file with 
 
 **Install All my Extensions:** [Click here](https://github.com/sahilrajput03/config/blob/main/__manjaro_current/.config/Code/User/MyExtensionInstaller.sh)
 
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) (official site of [editorconfig](https://editorconfig.org/))
 - [Colorful Comments Refreshed](https://marketplace.visualstudio.com/items?itemName=AllemandInstable.colorful-comments-refreshed)
 - [Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 - Create Bitbucket pull request, Extension id: `ramiroberrelleza.bitbucket-pull-requests`
