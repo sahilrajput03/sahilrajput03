@@ -694,5 +694,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Accessibility: [Click here](https://docs.google.com/document/d/1FsP4uZQl3oMRb9LKOuU1jzrvEvigce-NyllIXp2LweQ/edit?tab=t.0#heading=h.xl4iqlcuuql3)
 - Learn `.editorconfig` file : [Click here](https://editorconfig.org/) (https://editorconfig.org/)
 	- Formal Specification (mentioned on above site): [Click here](https://spec.editorconfig.org)
+	- Used in svelte website project: [Click here](https://github.com/sveltejs/svelte/blob/main/.editorconfig)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
