@@ -299,6 +299,7 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 
 #### Transcribe, Convert 
 
+- Text Wrap, Line Break Online (e.g., say comments to wrap after 80 chars): [Click here](https://www.joydeepdeb.com/tools/line-break.html)
 - Transcribe youtube video or shorts: [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
 	- For videos not having subtitles the above method won't work though you can use OpenAi's STT api. You can first download the m4a audio file of the youtube video by downloading the audio file from this site - [https://www.multidownloader.net](https://www.multidownloader.net). *Note: OpenAi's STT supports m4a format so you need no converstion.*
 - Convert ogg to mp3 (for source for openai's STT): [Check Learn bash page](./learn-bash.md)
