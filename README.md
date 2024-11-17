@@ -692,6 +692,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn Heartfullness: [Click here](https://docs.google.com/document/d/1WPbWXvXWyJTcpFLigm52cOa90IwAp1nI8aZ8FgUj-CQ/edit?tab=t.0)
 - Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
 - Learn Accessibility: [Click here](https://docs.google.com/document/d/1FsP4uZQl3oMRb9LKOuU1jzrvEvigce-NyllIXp2LweQ/edit?tab=t.0#heading=h.xl4iqlcuuql3)
-- Editorconfig: [Click here](https://editorconfig.org/) (https://editorconfig.org/)
+- Learn `.editorconfig` file : [Click here](https://editorconfig.org/) (https://editorconfig.org/)
+	- Formal Specification (mentioned on above site): [Click here](https://spec.editorconfig.org)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
