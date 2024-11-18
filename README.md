@@ -695,5 +695,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn `.editorconfig` file : [Click here](https://editorconfig.org/) (https://editorconfig.org/)
 	- Formal Specification (mentioned on above site): [Click here](https://spec.editorconfig.org)
 	- Used in svelte website project: [Click here](https://github.com/sveltejs/svelte/blob/main/.editorconfig)
+- Learn Java: [Click here](https://github.com/sahilrajput03/learning_java)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
