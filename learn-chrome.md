@@ -110,6 +110,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - Distraction free for Linkedin™: [Click here](https://chromewebstore.google.com/detail/distraction-free-for-link/kigfnbfbpfpgphbocdkmeablbgdbpfke)
 - UnAddict: [Click here](https://chromewebstore.google.com/detail/stayfree-website-blocker/elfaihghhjjoknimpccccmkioofjjfkf)
 - Debugger for Google Analytics 4 (GA4): [Click here](https://chromewebstore.google.com/detail/debugger-for-google-analy/nomnoimacbncclfbnfaingniikblfbji)
+- Svelte DevTools: [Click here](https://chromewebstore.google.com/detail/svelte-devtools/kfidecgcdjjfpeckbblhmfkhmlgecoff)
 
 
 ## Update default page zoom level and page font size
