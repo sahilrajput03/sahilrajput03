@@ -109,6 +109,8 @@ To disable these logs completely on `localhost` you can simply go to the extensi
   - [Speechify Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
 - Distraction free for Linkedin™: [Click here](https://chromewebstore.google.com/detail/distraction-free-for-link/kigfnbfbpfpgphbocdkmeablbgdbpfke)
 - UnAddict: [Click here](https://chromewebstore.google.com/detail/stayfree-website-blocker/elfaihghhjjoknimpccccmkioofjjfkf)
+- Debugger for Google Analytics 4 (GA4): [Click here](https://chromewebstore.google.com/detail/debugger-for-google-analy/nomnoimacbncclfbnfaingniikblfbji)
+
 
 ## Update default page zoom level and page font size
 
