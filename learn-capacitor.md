@@ -10,24 +10,24 @@
 - **Companies usig capacitor / Apps made with Capacitor:**
   - Burger King Mobile App and Web App: [Click here](https://ionic.io/resources/articles/burger-king-design-system)
   - [https://ionic.io/resources/case-studies](https://ionic.io/resources/case-studies)
-- **SVELTE+capacitor:**
+- **❤️ SVELTE+capacitor, **
+  - 💙 This week in svelte video on youtube: [Click here](https://youtu.be/jfBjmczZwRc)
   - Building Mobile Apps with SvelteKit and Capacitor: [Click here](https://capgo.app/blog/creating-mobile-apps-with-sveltekit-and-capacitor/#about-capacitor)
   - Github: [svelte-capacitor](https://github.com/drannex42/svelte-capacitor)
     - ❤️ *(search for SSR on this page)* [sveltekit-capacitor](https://github.com/kesc23/sveltekit-capacitor)
       - Launch article about it: [Click here](https://forum.ionicframework.com/t/sveltekit-ionic-6-has-landed/228077)
     -  ❤️ Build Android Bundle (AAB) and iOS bundlers via GITHUB ACTIONS: [Click here](https://www.google.com/search?q=build+capcitor+apk+with+github+actions)
       - [Official Capacitor Docs on this](https://capacitorjs.com/docs/guides/ci-cd)
+- Ionic UI Components:
+  - [https://ionicframework.com/docs/components](https://ionicframework.com/docs/components)
+    - SVELTE's Port of Ionic Component UI [github.comTommertom/svelte-ionic-app](https://github.com/Tommertom/svelte-ionic-app)
+    - Wesite: [https://ionic-svelte.firebaseapp.com/components/Slides](https://ionic-svelte.firebaseapp.com/components/Slides)
 
 **Capacitor Docs, Issues:**
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 - Using HTTPS scheme for capacitor app - Docs: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
   - How to run Capacitor webView with https in IOS: [Click here](https://github.com/ionic-team/capacitor/discussions/3714)
-- Ionic UI Components:
-  - https://ionicframework.com/docs/components
-  - ❤️ **SVELTE:**
-    - [github.comTommertom/svelte-ionic-app](https://github.com/Tommertom/svelte-ionic-app)
-    - Wesite: [https://ionic-svelte.firebaseapp.com/components/Slides](https://ionic-svelte.firebaseapp.com/components/Slides)
 
 **CapAwesome:**
 
