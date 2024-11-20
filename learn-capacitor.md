@@ -10,6 +10,10 @@
 - **Companies usig capacitor / Apps made with Capacitor:**
   - Burger King Mobile App and Web App: [Click here](https://ionic.io/resources/articles/burger-king-design-system)
   - [https://ionic.io/resources/case-studies](https://ionic.io/resources/case-studies)
+- **Svelte+capacitor:**
+  - Building Mobile Apps with SvelteKit and Capacitor: [Click here](https://capgo.app/blog/creating-mobile-apps-with-sveltekit-and-capacitor/#about-capacitor)
+  - Github: [svelte-capacitor](https://github.com/drannex42/svelte-capacitor)
+    - [sveltekit-capacitor](https://github.com/kesc23/sveltekit-capacitor)
 
 **Capacitor Docs, Issues:**
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
