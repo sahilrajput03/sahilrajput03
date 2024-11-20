@@ -11,7 +11,7 @@
   - Burger King Mobile App and Web App: [Click here](https://ionic.io/resources/articles/burger-king-design-system)
   - [https://ionic.io/resources/case-studies](https://ionic.io/resources/case-studies)
 - **❤️ SVELTE+capacitor**
-  - 💙 This week in svelte video on youtube: [Click here](https://youtu.be/jfBjmczZwRc)
+  - *Source of below resources: 💙 This week in svelte video on youtube: [Click here](https://youtu.be/jfBjmczZwRc)*
   - Building Mobile Apps with SvelteKit and Capacitor: [Click here](https://capgo.app/blog/creating-mobile-apps-with-sveltekit-and-capacitor/#about-capacitor)
   - Github: [svelte-capacitor](https://github.com/drannex42/svelte-capacitor)
     - ❤️ *(search for SSR on this page)* [sveltekit-capacitor](https://github.com/kesc23/sveltekit-capacitor)
@@ -20,7 +20,7 @@
       - [Official Capacitor Docs on this](https://capacitorjs.com/docs/guides/ci-cd)
 - Ionic UI Components:
   - [https://ionicframework.com/docs/components](https://ionicframework.com/docs/components)
-    - SVELTE's Port of Ionic Component UI [github.comTommertom/svelte-ionic-app](https://github.com/Tommertom/svelte-ionic-app)
+    -  ❤️ SVELTE's Port of Ionic Component UI [github.comTommertom/svelte-ionic-app](https://github.com/Tommertom/svelte-ionic-app)
     - Wesite: [https://ionic-svelte.firebaseapp.com/components/Slides](https://ionic-svelte.firebaseapp.com/components/Slides)
 
 **Capacitor Docs, Issues:**
