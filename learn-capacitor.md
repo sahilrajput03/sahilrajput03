@@ -22,8 +22,11 @@
 - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
 - Using HTTPS scheme for capacitor app - Docs: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
   - How to run Capacitor webView with https in IOS: [Click here](https://github.com/ionic-team/capacitor/discussions/3714)
-- [github.comTommertom/svelte-ionic-app](https://github.com/Tommertom/svelte-ionic-app)
-  - Wesite: [https://ionic-svelte.firebaseapp.com/components/Slides](https://ionic-svelte.firebaseapp.com/components/Slides)
+- Ionic UI Components:
+  - https://ionicframework.com/docs/components
+  - ❤️ **SVELTE:**
+    - [github.comTommertom/svelte-ionic-app](https://github.com/Tommertom/svelte-ionic-app)
+    - Wesite: [https://ionic-svelte.firebaseapp.com/components/Slides](https://ionic-svelte.firebaseapp.com/components/Slides)
 
 **CapAwesome:**
 
