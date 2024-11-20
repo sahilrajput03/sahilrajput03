@@ -10,7 +10,7 @@
 - **Companies usig capacitor / Apps made with Capacitor:**
   - Burger King Mobile App and Web App: [Click here](https://ionic.io/resources/articles/burger-king-design-system)
   - [https://ionic.io/resources/case-studies](https://ionic.io/resources/case-studies)
-- **❤️ SVELTE+capacitor, **
+- **❤️ SVELTE+capacitor**
   - 💙 This week in svelte video on youtube: [Click here](https://youtu.be/jfBjmczZwRc)
   - Building Mobile Apps with SvelteKit and Capacitor: [Click here](https://capgo.app/blog/creating-mobile-apps-with-sveltekit-and-capacitor/#about-capacitor)
   - Github: [svelte-capacitor](https://github.com/drannex42/svelte-capacitor)
