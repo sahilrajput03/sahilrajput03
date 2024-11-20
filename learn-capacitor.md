@@ -14,6 +14,8 @@
   - Building Mobile Apps with SvelteKit and Capacitor: [Click here](https://capgo.app/blog/creating-mobile-apps-with-sveltekit-and-capacitor/#about-capacitor)
   - Github: [svelte-capacitor](https://github.com/drannex42/svelte-capacitor)
     - [sveltekit-capacitor](https://github.com/kesc23/sveltekit-capacitor)
+    - Build Android Bundle (AAB) and iOS bundlers via GITHUB ACTIONS ❤️: [Click here](https://www.google.com/search?q=build+capcitor+apk+with+github+actions)
+      - [Official Capacitor Docs on this](https://capacitorjs.com/docs/guides/ci-cd)
 
 **Capacitor Docs, Issues:**
 - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
