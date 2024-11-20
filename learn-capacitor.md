@@ -44,6 +44,10 @@ Capawesome follows the sponsorware release strategy, that enables developers to 
 - Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
 - Install updates into apps without needing to update app from playstore: [https://capawesome.io/cloud/live-updates/](https://capawesome.io/cloud/live-updates/)
 
+## We can use android widget with capacitor
+
+An Android Widget is a small, interactive component placed on the home screen to provide quick access to app features or real-time information (e.g., weather, clock, or music controls). Widgets update dynamically and can be customized for better usability.
+
 ## Using https in capacitor?
 
 - Capacitor Docs - Using HTTPS: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
