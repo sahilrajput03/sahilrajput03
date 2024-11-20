@@ -14,6 +14,7 @@
   - Building Mobile Apps with SvelteKit and Capacitor: [Click here](https://capgo.app/blog/creating-mobile-apps-with-sveltekit-and-capacitor/#about-capacitor)
   - Github: [svelte-capacitor](https://github.com/drannex42/svelte-capacitor)
     - ❤️ *(search for SSR on this page)* [sveltekit-capacitor](https://github.com/kesc23/sveltekit-capacitor)
+    - Launch article about it: [Click here](https://forum.ionicframework.com/t/sveltekit-ionic-6-has-landed/228077)
     -  ❤️ Build Android Bundle (AAB) and iOS bundlers via GITHUB ACTIONS: [Click here](https://www.google.com/search?q=build+capcitor+apk+with+github+actions)
       - [Official Capacitor Docs on this](https://capacitorjs.com/docs/guides/ci-cd)
 
