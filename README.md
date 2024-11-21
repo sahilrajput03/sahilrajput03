@@ -696,5 +696,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Formal Specification (mentioned on above site): [Click here](https://spec.editorconfig.org)
 	- Used in svelte website project: [Click here](https://github.com/sveltejs/svelte/blob/main/.editorconfig)
 - Learn Java: [Click here](https://github.com/sahilrajput03/learning_java)
+- When was electricity, motor, bulb?: [Click here](https://docs.google.com/document/d/1rBAz5F1Y6Qtt7fUyCtGM4ltU67Utjd29vY63QrIua5U/edit?tab=t.0)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
