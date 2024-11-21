@@ -292,6 +292,7 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - **National channels**: CNN-News18, DD India, India Today, Mirror Now, NDTV 24x7, NewsX, Republic TV, Times Now, WION
 - **International channels**: ABC Australia , Al Jazeera English , BBC World News , Bloomberg Television , CNA , CNN , Deutsche Welle , France 24 , NHK World , Press TV , RT
 - **Business**: CNBC TV18, ET Now, NDTV BQ Prime
+- American News Channel: New Yorker [Click here](https://www.newyorker.com/)
 
 #### Trademarks: OneUniverse, Same Roof
 
