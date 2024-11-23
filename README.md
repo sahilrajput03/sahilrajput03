@@ -80,6 +80,8 @@ cat /dev/null
 
 ## Javascript Cheatsheet - Sahil
 
+- **Learn Javascript:** [Click here](./learn-js.md)
+
 ```js
 SLEEP FUNCTION
 ==============
@@ -93,21 +95,29 @@ SLICE Array Method
 // 2. first argument is inclusive and second argument is **non-inclusive**
 const newArray = myArray.slice(startIdx, endIdx + 1);
 
+
+
 SORTING Array Method
 =======
 myNumbers.sort(); // sorts in ascending order [DEFAULT]
 myNumbers.sort((a, b) => a - b); // sorts in ascending order [DEFAULT]
 myNumbers.sort((a, b) => b - a); // sorts in descending order
 
+
+
 REDUCE ARRAY METHOD
 ======
 ar = [ 1, 2, 3 ]
 ar.reduce((a,b) => a+b, 0) // Output: 6
 
+
+
 PUSH/POP/SHIFT/UNSHIFT - all mutate array
 =====
 `push` and `pop` works on end of array
 `unshift` and `shift` works on start of array
+
+
 
 USING FETCH
 ===========
@@ -126,6 +136,7 @@ const { description } = await response.json();
 
 // server-side
 const { description } = await request.json();
+
 
 
 GETTER AND SETTERS IN AN OBJECT
@@ -154,6 +165,14 @@ const obj = {
 };
 
 console.log(obj.count()); // undefined, because `this` does not refer to `obj`.
+
+
+
+~~
+==
+// In JS, the ~~ symbol is often referred to as the double tilde. It is a shorthand trick for converting a number to an integer by dropping its decimal part (similar to Math.floor() for positive numbers). ~~ relies on bitwise operations, which are implemented at a lower level in JavaScript. Using ~~ is limited to 32-bit signed integers. For usage with any numeric value please prefer using `Math.trunc()` instead. (from ChatGPT)
+console.log(~~4.5);    // Output: 4
+console.log(~~-4.5);   // Output: -4
 ```
 
 **Online Markets I use:**
