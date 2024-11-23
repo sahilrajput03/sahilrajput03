@@ -1,5 +1,6 @@
 # Learn service worker
 
+- 23 November, 2024 (I found this) - Rich Harris's Gist notes on Service Workers: [Click here](https://gist.github.com/Rich-Harris/fd6c3c73e6e707e312d7c5d7d0f3b2f9)
 - Helper article: https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/background-syncs
 - Article coverint `workbox` as well: [Click here](https://blog.bitsrc.io/using-service-workers-with-react-27a4c5e2d1a9)
 - Intro To Service Workers & Caching @ youtube By traversy media: [Click here](https://www.youtube.com/watch?v=ksXwaWHCW6k), [Code here](https://github.com/sahilrajput03/simple_service_worker)
