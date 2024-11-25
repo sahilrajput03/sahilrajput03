@@ -717,5 +717,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Used in svelte website project: [Click here](https://github.com/sveltejs/svelte/blob/main/.editorconfig)
 - Learn Java: [Click here](https://github.com/sahilrajput03/learning_java)
 - When was electricity, motor, bulb?: [Click here](https://docs.google.com/document/d/1rBAz5F1Y6Qtt7fUyCtGM4ltU67Utjd29vY63QrIua5U/edit?tab=t.0)
+- Is .NET and ASP.NET the same? (ChatGPT): [Click here](https://docs.google.com/document/d/1jj8PMJA5rOrKwH0X0mtaaoMRdV4StxhQdqaTsok6Lb0/edit?tab=t.0#heading=h.favfgh2zw0g9)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
