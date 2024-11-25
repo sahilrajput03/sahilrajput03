@@ -311,7 +311,9 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - **National channels**: CNN-News18, DD India, India Today, Mirror Now, NDTV 24x7, NewsX, Republic TV, Times Now, WION
 - **International channels**: ABC Australia , Al Jazeera English , BBC World News , Bloomberg Television , CNA , CNN , Deutsche Welle , France 24 , NHK World , Press TV , RT
 - **Business**: CNBC TV18, ET Now, NDTV BQ Prime
-- American News Channel: New Yorker [Click here](https://www.newyorker.com/)
+- America
+	- New Yorker: [https://www.newyorker.com](https://www.newyorker.com)
+	- New York Times - [https://www.nytimes.com](https://www.nytimes.com)
 
 #### Trademarks: OneUniverse, Same Roof
 
@@ -329,6 +331,7 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 - Soundcloud Downloader: [Click here](https://sclouddownloader.net/)
 - Srt to text: [Click here](https://gotranscript.com/subtitle-converter)
+- Create forms easily: [tally.so](https://tally.so)
 
 ##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork ([Doc](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit#heading=h.e38aiba2an6c))
 
@@ -397,6 +400,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- [dictation.io/speech](https://dictation.io/speech) (web)
  	- WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
 	- Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko) (❤️), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
+	- Speech To Text: [Click here](https://speechelo.com)
 - Learn NFC:
 	- Link: [1](https://www.youtube.com/shorts/rqoUHzrWrU0), [2](https://www.youtube.com/shorts/kqds9w9BF-0?feature=share), [3](https://www.youtube.com/shorts/Mp9oZTlDhI8?feature=share), [4](https://www.youtube.com/shorts/vi3vwWKiS94?feature=share)
 
