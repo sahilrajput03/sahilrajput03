@@ -4,7 +4,7 @@
 
 - The ability to stop your thoughts is helpful in times when you don’t need to use your brain. This saves a tremendous amount of energy and keeps you away from entangling in non-essential tasks. ~ Sahil
 
-- "Our greatest weakness lies In giving up. The most certain way to succeed is always to try just one more time."  ~ Thomas A. Edison 
+- "Our greatest weakness lies In giving up. The most certain way to succeed is always to try just one more time." ~ Thomas A. Edison
 
 - Get out of your mind, execute and be out in real world out there. ~ Sahil
 
@@ -377,3 +377,9 @@
 - Success is 1% inspiration and 99% perspiration. ~ Thomas Edisor
 
 - When something is important enough, you do it even if the odds are not in your favor. ~ Elon Musk
+
+- Trueself. When you are truly you. ~ Ratanjeet
+
+- Hindi Thoughts of Osho - https://oshoworld.com/osho-quotes-in-hindi
+
+- Individuals make society. Individuals are the atomic part of society. ~ Sahil
