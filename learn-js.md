@@ -181,22 +181,23 @@ String act as array with index and values like that:
 
 
 
-# `Object.assign()` is it anyuseful?
+# `Object.assign()`
 
 **TLDR: Its amazing.** Source: Comment on SO Question [Click here](https://stackoverflow.com/questions/66459300/better-syntax-for-assigning-a-same-name-value-to-object-key-javascript)
 
 ```js
 const name = 'David'
-
-const person = {
-  name : ''
-}
+const person = { name : 'sahil' }
 
 // instead of doing
 person.name = name
 
-// you can simply do
+// ❤️ you can simply do
 Object.assign(person, { name })
+// Object.assign(window, { person }) // this is equivalent to `window.person = persons`
+
+// ❤️
+Object.assign(window, { person }).person // this prints updated value of `window.person`
 ```
 
 
