@@ -1,3 +1,9 @@
+- Comparison can be used like if you're in good condition you can look upon who are above you and chase to reach there.
+
+- Comparison can be used like if you're in bad condition you can look upon who are below you and feel better that you're in better position.
+
+- Comparison is the theif of joy. ~ President Theodore Roosevelt
+
 - Relax your body slowly from toe to head via guiding (mental suggestions), then relax your breathing slowly and then relax your thoughts slowly. Sleep! ~ Sahil
 
 - “In every human, there is a sense that something infinite has been lost.” – Niels Bohr
