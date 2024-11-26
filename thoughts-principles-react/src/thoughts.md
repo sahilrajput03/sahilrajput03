@@ -383,3 +383,7 @@
 - Hindi Thoughts of Osho - https://oshoworld.com/osho-quotes-in-hindi
 
 - Individuals make society. Individuals are the atomic part of society. ~ Sahil
+
+- भोजन करते समय हमें यह कहना चाहिए, “अन्नं ब्रह्म” (अन्न ही ईश्वर है).
+
+- "अन्नं ब्रह्मा रसो विष्णुः पक्ता देवो महेश्वरः" का अर्थ है कि अन्न ही ब्रह्मा है, अन्न से जो रस बनता है, वही विष्णु है, और पका हुआ अन्न महेश्वर का स्वरूप है.
