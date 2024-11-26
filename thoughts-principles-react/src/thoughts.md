@@ -1,6 +1,8 @@
-- Comparison can be used like if you're in good condition you can look upon who are above you and chase to reach there.
+- Ego is begging for undivided attention. Dhyaan is giving undivided attention. ~ Osho (KKD - Lecture 19)
 
-- Comparison can be used like if you're in bad condition you can look upon who are below you and feel better that you're in better position.
+- Comparison can be used like if you're in good condition you can look upon who are above you and chase to reach there. ~ Sahil
+
+- Comparison can be used like if you're in bad condition you can look upon who are below you and feel better that you're in better position. ~ Naiyer
 
 - Comparison is the theif of joy. ~ President Theodore Roosevelt
 
