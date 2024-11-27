@@ -8,6 +8,8 @@
 
 Source: [Click here](https://davidwalsh.name/default-commit-message)
 
+Note: Make sure you restart vscode after you use below commands.
+
 ```bash
 git config --global commit.template ~/.gitmessage
 echo Update. > ~/.gitmessage
