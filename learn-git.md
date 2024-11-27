@@ -4,6 +4,13 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+### Set default git commit message
+
+```bash
+git config --global commit.template ~/.gitmessage
+echo Update. > ~/.gitmessage
+```
+
 #### Little git tip
 
 - If you would have specified
