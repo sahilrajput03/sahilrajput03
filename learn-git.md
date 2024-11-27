@@ -6,6 +6,8 @@
 
 ### Set default git commit message
 
+Source: [Click here](https://davidwalsh.name/default-commit-message)
+
 ```bash
 git config --global commit.template ~/.gitmessage
 echo Update. > ~/.gitmessage
