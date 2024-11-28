@@ -373,7 +373,7 @@ It's gonna boost both your immune system and calmness in a compound effect each 
 
 #### Original & Curated Articles
 
-- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles)
+- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles) ([markdown](https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md)) (#thoughts)
 - Office Ethics, Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
 
 #### Continents
