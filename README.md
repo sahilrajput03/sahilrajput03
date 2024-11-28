@@ -527,6 +527,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
      - [https://wordpress.org](https://wordpress.org/) (no-code or low-code platform) ([hosting](https://wordpress.org/hosting/))
 - **Learn Deployment** - [Click here](./learn-deploy.md)
 	- Learn Vercel Deployment: [Click here](./learn-vercel.md)
+		- ❤️ VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
  	- Learn Heroku Deployment: [Click here](./learn-heroku.md)
 - **Learn User Mangement and Permissions** - [Click here](./learn-user-management-and-permissions.md)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
@@ -685,7 +686,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Airbnb: [Click here](learn-airbnb.md)
 - TODO: Do the flutter codelab. 💣💣
 - Learn Microfrontend: [Click here](learn-microfrontend.md)
-- VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 - Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
 - Learn YAML (yml): [Click here](https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0)
 - Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile)
