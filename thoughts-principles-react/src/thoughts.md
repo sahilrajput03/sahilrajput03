@@ -1,3 +1,5 @@
+- Realization: Write the approach in plain english before you implement the feature/bug/code actually to help you avoid pitfalls beforehand if there is any.  ~ Sahil
+
 - Ego is begging for undivided attention. Dhyaan is giving undivided attention. ~ Osho (KKD - Lecture 19)
 
 - Comparison can be used like if you're in good condition you can look upon who are above you and chase to reach there. ~ Sahil
