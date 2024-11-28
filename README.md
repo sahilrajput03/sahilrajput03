@@ -403,6 +403,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Speech To Text: [Click here](https://speechelo.com)
 - Text To Spech (TTS):
 	- Use Chrome Mobile's feature of "Listen to this page". Its awesome because it offers highlight of text while reading and changing speed of reading as well.
+	- Use OpenAI Playground or OpenAI's API
+	- Learn Coqui: [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
 - Learn NFC:
 	- Link: [1](https://www.youtube.com/shorts/rqoUHzrWrU0), [2](https://www.youtube.com/shorts/kqds9w9BF-0?feature=share), [3](https://www.youtube.com/shorts/Mp9oZTlDhI8?feature=share), [4](https://www.youtube.com/shorts/vi3vwWKiS94?feature=share)
 
@@ -724,5 +726,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Java: [Click here](https://github.com/sahilrajput03/learning_java)
 - When was electricity, motor, bulb?: [Click here](https://docs.google.com/document/d/1rBAz5F1Y6Qtt7fUyCtGM4ltU67Utjd29vY63QrIua5U/edit?tab=t.0)
 - Is .NET and ASP.NET the same? (ChatGPT): [Click here](https://docs.google.com/document/d/1jj8PMJA5rOrKwH0X0mtaaoMRdV4StxhQdqaTsok6Lb0/edit?tab=t.0#heading=h.favfgh2zw0g9)
+- Learn Coqui (TTS): [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
