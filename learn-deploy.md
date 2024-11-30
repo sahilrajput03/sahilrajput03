@@ -4,6 +4,8 @@
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 - Learn Heroku Deployment: [Click here](./learn-heroku.md)
 - ❤️ Google Doc - Hosting Charges - Backend & Databases (mongodb, etc): [Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
+- [fly.io](https://fly.io/)
+
 ## Listing my website sahilrajput.com on Google Search Engine
 
 #sahilrajput.com, #search, #google search console
