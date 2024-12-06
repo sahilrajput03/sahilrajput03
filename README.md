@@ -174,7 +174,28 @@ obj.count = 43;
 console.log(obj.count); // 43
 
 
+
+
 // Example 2:
+let input = {
+    a: 1,
+    b: 2,
+    get sum() {
+        return input.a + input.b;
+
+    }
+};
+
+console.log(input.sum); // 3
+
+input.a = 3;
+input.b = 4;
+console.log(input.sum); // 7
+
+
+
+
+// Example 3:
 function add(input) {
     return {
         get value() {
@@ -192,6 +213,9 @@ console.log(total.value); // 3
 input.a = 3;
 input.b = 4;
 console.log(total.value); //7
+
+
+
 
 // WHEREAS FUNCTION DEFINED WITH `function` KEYWORD OR ARROW-FUNCTION-SYNTAX BEHAVES HAS GENERAL FUNCTIONS UNLIKE GETTER/SETTERS:
 // -----------------------------------------------------------------------------------------------------------------------------
