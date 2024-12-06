@@ -2783,6 +2783,8 @@ sudo pacman -Syu
 
 ## Installed code-server via below commands (#vscode  in browser, #editor in browser)
 
+For macos, [click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?tab=t.0).
+
 src:
 
 ```
