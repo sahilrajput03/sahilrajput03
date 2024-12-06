@@ -2781,7 +2781,7 @@ If you get some error then you can use `sudo pacman -Syu` to upgrade the system 
 sudo pacman -Syu
 ```
 
-Installed code-server via below commands
+## Installed code-server via below commands (#vscode  in browser, #editor in browser)
 
 src:
 
