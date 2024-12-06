@@ -20,6 +20,14 @@
 	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a>
 </h6>
 
+<div align="right">
+	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
+	<br/>
+	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
+	<br/>
+	Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a>
+</div>
+
 - Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
 - Development tips:
 	- Get summary of any video in any language in Google Gemini. ❤️
@@ -263,14 +271,6 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 - This document is organized in reverse chronological order, with the most recent entries appearing first and earlier entries following in descending order.
 - This document is organized in chronological order, with the earliest entries appearing first and more recent entries following in ascending order.
 - <Note: A document must have two titles such that titles appear in the outline. Thus do not remove this.>
-
-<div align="right">
-	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
-	<br/>
-	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
-	<br/>
-	Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a>
-</div>
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/RAX_I4AgjiU" title="8 Hours of Relaxing Campfire by a Lake at Sunset in 4k UHD, Stress Relief, Meditation &amp; Deep Sleep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
