@@ -16,7 +16,7 @@
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
 	<a href="#unit-conversions">Unit Conversions</a>,
 	<a href="#english-and-hindi-typing-courses">English and Hindi Typing Courses</a>,
-	<a href="#transcribe-convert-download">Transcribe / Convert / Download</a>,
+	<a href="#transcribe-convert-download">Transcribe / Convert / Download</a>
 </h6>
 
 - Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
