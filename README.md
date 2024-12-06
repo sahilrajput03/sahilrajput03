@@ -158,7 +158,7 @@ const { description } = await request.json();
 
 GETTER AND SETTERS IN AN OBJECT
 ===============================
-// 1
+// Example 1:
 const obj = {
     countValue: 42,
     get count() {
@@ -173,6 +173,26 @@ console.log(obj.count); // 42
 obj.count = 43;
 console.log(obj.count); // 43
 
+
+// Example 2:
+function add(input) {
+    return {
+        get value() {
+            return input.a + input.b;
+
+        }
+    };
+}
+
+let input = { a: 1, b: 2 };
+
+let total = add(input);
+console.log(total.value); // 3
+
+input.a = 3;
+input.b = 4;
+console.log(total.value); //7
+
 // WHEREAS FUNCTION DEFINED WITH `function` KEYWORD OR ARROW-FUNCTION-SYNTAX BEHAVES HAS GENERAL FUNCTIONS UNLIKE GETTER/SETTERS:
 // -----------------------------------------------------------------------------------------------------------------------------
 // Read more differenes here - https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md#geeter-setters-in-object
@@ -186,7 +206,7 @@ console.log(obj.count()); // undefined, because `this` does not refer to `obj`.
 
 
 ~~
-==
+===============================
 // In JS, the ~~ symbol is often referred to as the double tilde. It is a shorthand trick for converting a number to an integer by dropping its decimal part (similar to Math.floor() for positive numbers). ~~ relies on bitwise operations, which are implemented at a lower level in JavaScript. Using ~~ is limited to 32-bit signed integers. For usage with any numeric value please prefer using `Math.trunc()` instead. (from ChatGPT)
 console.log(~~4.5);    // Output: 4
 console.log(~~-4.5);   // Output: -4
