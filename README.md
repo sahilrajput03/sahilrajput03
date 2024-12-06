@@ -4,13 +4,18 @@
 <h6 align="center">A crazy spirit</h6>
 
 <h6 align="right">
-<a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>,
-<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Dhyaan/Meditation</a>,
-<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
-<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
-<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>), <a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>
+	<a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>,
+	<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Dhyaan/Meditation</a>,
+	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
+	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
+	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>),
+	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>
 </h6>
 
+<h6 align="right">
+	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>
+	<a href="#unit-conversions">Unit Conversions</a>
+</h6>
 - Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
 - Development tips:
 	- Get summary of any video in any language in Google Gemini. ❤️
@@ -182,7 +187,7 @@ console.log(~~-4.5);   // Output: -4
 
 Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 
-**Unit Conversions**
+#### Unit Conversions
 
 <i>Tags: #metre, #foot, #feet, #centimeter</i>
 
