@@ -15,6 +15,7 @@
 <h6 align="right">
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
 	<a href="#unit-conversions">Unit Conversions</a>
+	<a href="#english-and-hindi-typing-courses">English and Hindi Typing Courses</a>
 </h6>
 
 - Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
@@ -277,7 +278,7 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 ## Indiamart .com: [Click here](https://www.indiamart.com/)
 
-## 🙂 English & Hindi Typing Courses
+## English and Hindi Typing Courses
 
 - English: [Click here](https://sarkariselection.com/Typing/English-Typing-Test)
 - Hindi (Mangal) (Unicode): [Click here](https://sarkariselection.com/Typing/HindiMangalTyping) *([My Private Doc - Learn Hindi Typing](https://docs.google.com/document/d/1aeN_werJhPslbBdTMxS7qASN0wMDMW62ETuwdBhqHVA/edit))*
