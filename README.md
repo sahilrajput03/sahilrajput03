@@ -14,6 +14,7 @@
 
 <h6 align="right">
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
+	<a href="https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.ikhvinwu2trf">MacOS Vscode Shortcuts</a>, 
 	<a href="#unit-conversions">Unit Conversions</a>,
 	<a href="#transcribe-convert-download">Transcribe/Convert/Download</a>,
 	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a>
