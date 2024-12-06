@@ -15,7 +15,7 @@
 <h6 align="right">
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
 	<a href="#unit-conversions">Unit Conversions</a>,
-	<a href="#english-and-hindi-typing-courses">English and Hindi Typing Courses</a>,
+	<a href="#english-and-hindi-typing-courses">English / Hindi Typing Courses</a>,
 	<a href="#transcribe-convert-download">Transcribe / Convert / Download</a>
 </h6>
 
