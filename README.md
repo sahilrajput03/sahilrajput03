@@ -242,17 +242,6 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 - Emotion: Any customer only wants to buy a product because of either fear or aspiration.
 - Urgency: You need to tell the customer that this is the thing the customer needs today.
 
-## YouTube Audio Library
-
-1. *Note: This feature is about using youtube's official collection music audios made by different authors for purpose of background audio.*
-2. *Note: For `multi-language audio` feature check it on your tech journal or check this official [youtube help page](https://support.google.com/youtube/answer/13338784?hl=en).*
-
-
-- YouTube Audio Library: [Click here](https://studio.youtube.com/channel/UCY-Byvxaa6NYubLZqbMJX2A/music)
-- Add YouTube Audio Track to your Video: [Click here](https://support.google.com/youtube/answer/94316?hl=en)
-
-*Sahil:* Most of these tracks have license like "... standalone distribution of these files is not permitted)." as you can check by clicking on `License Type` icon corresponding to each audio clip.
-
 # Royal Society Prizes for Science Books
 
 *Breath by James Nestor is the finalist for the year 2021.*
@@ -734,5 +723,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - When was electricity, motor, bulb?: [Click here](https://docs.google.com/document/d/1rBAz5F1Y6Qtt7fUyCtGM4ltU67Utjd29vY63QrIua5U/edit?tab=t.0)
 - Is .NET and ASP.NET the same? (ChatGPT): [Click here](https://docs.google.com/document/d/1jj8PMJA5rOrKwH0X0mtaaoMRdV4StxhQdqaTsok6Lb0/edit?tab=t.0#heading=h.favfgh2zw0g9)
 - Learn Coqui (TTS): [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
+- Learn YouTube: [Click here](https://docs.google.com/document/d/1t5TkoOwuV1we5Iz5SdCrwl0rrO81PtJq7ja7e7f0y10/edit?tab=t.0#heading=h.28mi74v8cmec)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
