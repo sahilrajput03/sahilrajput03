@@ -14,8 +14,19 @@
 
 <h6 align="right">
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
-	<a href="#unit-conversions">Unit Conversions</a>
+	<a href="https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.ikhvinwu2trf">MacOS Vscode Shortcuts</a>, 
+	<a href="#unit-conversions">Unit Conversions</a>,
+	<a href="#transcribe-convert-download">Transcribe/Convert/Download</a>,
+	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a>
 </h6>
+
+<div align="right">
+	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
+	<br/>
+	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
+	<br/>
+	Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a>
+</div>
 
 - Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
 - Development tips:
@@ -147,7 +158,7 @@ const { description } = await request.json();
 
 GETTER AND SETTERS IN AN OBJECT
 ===============================
-// 1
+// Example 1:
 const obj = {
     countValue: 42,
     get count() {
@@ -162,6 +173,50 @@ console.log(obj.count); // 42
 obj.count = 43;
 console.log(obj.count); // 43
 
+
+
+
+// Example 2:
+let input = {
+    a: 1,
+    b: 2,
+    get sum() {
+        return input.a + input.b;
+
+    }
+};
+
+console.log(input.sum); // 3
+
+input.a = 3;
+input.b = 4;
+console.log(input.sum); // 7
+
+
+
+
+// Example 3:
+function add(input) {
+    return {
+        get value() {
+            return input.a + input.b;
+
+        }
+    };
+}
+
+let input = { a: 1, b: 2 };
+
+let total = add(input);
+console.log(total.value); // 3
+
+input.a = 3;
+input.b = 4;
+console.log(total.value); //7
+
+
+
+
 // WHEREAS FUNCTION DEFINED WITH `function` KEYWORD OR ARROW-FUNCTION-SYNTAX BEHAVES HAS GENERAL FUNCTIONS UNLIKE GETTER/SETTERS:
 // -----------------------------------------------------------------------------------------------------------------------------
 // Read more differenes here - https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md#geeter-setters-in-object
@@ -175,7 +230,7 @@ console.log(obj.count()); // undefined, because `this` does not refer to `obj`.
 
 
 ~~
-==
+===============================
 // In JS, the ~~ symbol is often referred to as the double tilde. It is a shorthand trick for converting a number to an integer by dropping its decimal part (similar to Math.floor() for positive numbers). ~~ relies on bitwise operations, which are implemented at a lower level in JavaScript. Using ~~ is limited to 32-bit signed integers. For usage with any numeric value please prefer using `Math.trunc()` instead. (from ChatGPT)
 console.log(~~4.5);    // Output: 4
 console.log(~~-4.5);   // Output: -4
@@ -261,14 +316,6 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 - This document is organized in chronological order, with the earliest entries appearing first and more recent entries following in ascending order.
 - <Note: A document must have two titles such that titles appear in the outline. Thus do not remove this.>
 
-<div align="right">
-	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
-	<br/>
-	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
-	<br/>
-	Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a>
-</div>
-
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/RAX_I4AgjiU" title="8 Hours of Relaxing Campfire by a Lake at Sunset in 4k UHD, Stress Relief, Meditation &amp; Deep Sleep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![social-media-game](https://github.com/user-attachments/assets/9ff89485-1199-4635-aef5-d76fcb0050d9)
@@ -277,7 +324,7 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 ## Indiamart .com: [Click here](https://www.indiamart.com/)
 
-## 🙂 English & Hindi Typing Courses
+## English and Hindi Typing Courses
 
 - English: [Click here](https://sarkariselection.com/Typing/English-Typing-Test)
 - Hindi (Mangal) (Unicode): [Click here](https://sarkariselection.com/Typing/HindiMangalTyping) *([My Private Doc - Learn Hindi Typing](https://docs.google.com/document/d/1aeN_werJhPslbBdTMxS7qASN0wMDMW62ETuwdBhqHVA/edit))*
@@ -314,7 +361,7 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 
 #### Sahil's Vocabulary 🚶: [Click here](vocab.html) | [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
 
-#### Transcribe, Convert 
+#### Transcribe, Convert, Download
 
 - Text Wrap, Line Break Online (e.g., say comments to wrap after 80 chars): [Click here](https://www.joydeepdeb.com/tools/line-break.html)
 - Transcribe youtube video or shorts: [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
@@ -327,6 +374,8 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Soundcloud Downloader: [Click here](https://sclouddownloader.net/)
 - Srt to text: [Click here](https://gotranscript.com/subtitle-converter)
 - Create forms easily: [tally.so](https://tally.so)
+- Download YouTube Videos:
+	- [Cobalt.tools](https://cobalt.tools/) ([github](https://github.com/imputnet/cobalt))
 
 ##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork ([Doc](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit#heading=h.e38aiba2an6c))
 
