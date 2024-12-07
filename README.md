@@ -10,6 +10,8 @@
 	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
 	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>, <a target="_blank" href="file:///Users/apple/Documents/github_repos/test-google-sheet-caching/web.html">local</a>, <a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a></h6>
 
+[](file:///Users/apple/Documents/github_repos/test-google-sheet-caching/web.html)
+
 <h6 align="right">
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
 	<a href="https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.ikhvinwu2trf">MacOS Vscode Shortcuts</a>, 
