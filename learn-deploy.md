@@ -6,9 +6,20 @@
 - ❤️ Google Doc - Hosting Charges - Backend & Databases (mongodb, etc): [Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 - [fly.io](https://fly.io/)
 
+## What is ttl and should i set lower ttl value so my domain update dns record values faster? Be concise.
+
+TTL (Time-to-Live) in DNS specifies how long a DNS record is cached by a resolver before refreshing. It's measured in seconds.
+
+Setting a lower TTL (e.g., 300 seconds) allows DNS updates to propagate faster, which is useful for dynamic changes. However, it can increase DNS query traffic and load on your server.
+
+**Recommendation:**
+
+Use low TTL (e.g., 300s) temporarily when planning updates.
+Switch back to higher TTL (e.g., 3600s or more) for stability and efficiency after the changes are complete.
+
 ## Listing my website sahilrajput.com on Google Search Engine
 
-#sahilrajput.com, #search, #google search console
+Tags: #sahilrajput.com, #search, #google search console
 
 [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit#heading=h.tic0f082m2l9)
 
