@@ -520,6 +520,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Curl:** [Click here](./learn-curl.md)
 - Git & Github:
 	- **Learn Git:** [Click here](./learn-git.md)
+	- **Leanr Git Large File Storage (LFS):** : [Click here](https://docs.google.com/document/d/1HFKzirTi9qran6kXTgV6uZaqalOF_wwCsPuL-u0e0ew/edit?tab=t.0#heading=h.r53gdoqrdh0h)
 	- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
 	- How to write commit messages: [Click here](how-to-write-commit-messages.md)
 - **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
