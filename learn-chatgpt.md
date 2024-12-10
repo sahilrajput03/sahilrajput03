@@ -51,6 +51,13 @@
   -  Pricing: $0.006 / minute (rounded to the nearest second)
 -  Deprecations of Models, Endpoints, etc: [Click here](https://platform.openai.com/docs/deprecations)
 
+## Be concise vs. in brief (tldr, `Be concise` is better)
+
+![image](https://github.com/user-attachments/assets/cba7bc50-e276-48e7-97a3-30b821c2d5b6)
+
+![image](https://github.com/user-attachments/assets/67082717-3b64-4e93-b3be-9723a40cb291)
+
+
 ## chat gpt can now hear and speak - Official Docs
 
 ***NOTE: Only for plus and enterprice users.***
