@@ -4,6 +4,12 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+### Rename remote in git
+
+```bash
+git remote rename <old_name> <new_name>
+```
+
 ### Set default git commit message
 
 Source: [Click here](https://davidwalsh.name/default-commit-message)
