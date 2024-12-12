@@ -20,7 +20,7 @@ export default {
 ```
 
 
-## Vue.js and Vite? Are they related?
+## Vue.js and Vite? Are they related? (ChatGPT)
 
 - https://github.com/vitejs/vite
 - https://github.com/vuejs/core
