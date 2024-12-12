@@ -668,7 +668,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Friends Github Profiles: [Click here](./friends-github.md)
 - Learn Jira: [Click here](./learn-jira.md)
 - Learn RxJs: [Click here](./learn-rxjs.md)
-- Learn Vitejs: [Click here](./learn-vite.md)
+- Learn Vitejs and VitePress: [Click here](./learn-vite.md)
 - Learn Javascript Date: [Click here](./learn-javascript-date.md)
 - Learn Luxon (DateTime): [Click here](./learn-luxon.md)
 - Learn `Chalk` (node library): [Click here](./learn-chalkjs.md)
