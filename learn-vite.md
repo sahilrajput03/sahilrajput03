@@ -1,5 +1,9 @@
 # Learn Vite
 
+## Env Variables and Modes
+
+Source - [https://vite.dev/guide/env-and-mode.html#modes](https://vite.dev/guide/env-and-mode.html)
+
 ## To serve over `https` with vite dev server
 
 Source: [Click here](https://stackoverflow.com/a/72998216/10012446)
