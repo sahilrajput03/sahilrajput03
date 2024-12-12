@@ -13,6 +13,7 @@
 - Pyjama Profit ~ *Abhinav Chhikara and Varun Mayya*
 
 **Science, Psychology, Spiritual, etc**
+- Kahe Kabir Deewana by Osho (Google Doc for Book Logs, Discourse Link Osho Resources Google Doc)
 - Breath: The New Science of a Lost Art ~ *James Nestor*
 - Being in Love ~ *Osho*
 - Dopamine Nation ~ *Anna Lembke*
