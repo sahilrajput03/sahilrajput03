@@ -1,4 +1,4 @@
-# Learn Vite
+# Learn Vite, VitePress
 
 ## Env Variables and Modes
 
@@ -19,6 +19,13 @@ export default {
 }
 ```
 
+## Vitepress is Static Site Generator which power documentaiton sites for Vite, Vuejs, and many more
+
+Docs: [https://vitepress.dev](https://vitepress.dev)
+
+It is tremendously amazing for creating docs.
+
+Try It Online: You can try VitePress directly in your browser on StackBlitz: [https://vitepress.new](https://vitepress.new)
 
 ## Vue.js and Vite? Are they related? (ChatGPT)
 
