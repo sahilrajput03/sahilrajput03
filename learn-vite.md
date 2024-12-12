@@ -18,3 +18,22 @@ export default {
   ]
 }
 ```
+
+
+## Vue.js and Vite? Are they related?
+
+- https://github.com/vitejs/vite
+- https://github.com/vuejs/core
+
+Both Vue.js and Vite were created by Evan You, a well-known developer in the JavaScript ecosystem. Here's a bit more detail:
+
+1. Vue.js:
+- Created by Evan You in 2014.
+- It started as a personal project, aiming to combine the best features of AngularJS and React while remaining lightweight and easy to use.
+- Over time, Vue.js gained massive popularity and became one of the leading JavaScript frameworks.
+2. Vite:
+- Created by Evan You in 2020.
+- The motivation for Vite came from the challenges of modern front-end development, particularly slow builds and hot module replacement (HMR) performance in tools like Webpack for large applications.
+- Evan leveraged his experience from Vue.js to design Vite as a next-generation build tool that prioritizes speed and simplicity.
+
+While Evan You created both projects, each has since grown into its own ecosystem with contributions from a broader community of developers.
