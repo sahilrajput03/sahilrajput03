@@ -1,5 +1,8 @@
 # Learn Playwright
 
+**Quick Links:**
+- Github Repo: [sahilrajput03/learn-playwright](https://github.com/sahilrajput03/learn-playwright)
+
 **Tutorials:**
 - **TODO:** Playwright Beginner Tutorials: [Click here](https://www.youtube.com/watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8) [6h]
   - **Test Generator and Generating Tests** (write tests with GUI):
