@@ -10,6 +10,7 @@ REPOSITORY - https://github.com/sahilrajput03/learn-nestjs/
 - Learn `class-validator`: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-classvalidator.md)
 - **Actively closing db connection to fast the script running in nestjs:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/README.md#actively-closing-mongodb-connection-to-close-nestjs-app-immediately-when-we-run-custom-scripts)
 - **Lifecycle Events: [Click here](https://docs.nestjs.com/fundamentals/lifecycle-events#lifecycle-events-1)**
+- For totel project reference you can search for `totel` keyword in this page - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-auth.md)
 
 ***
 
