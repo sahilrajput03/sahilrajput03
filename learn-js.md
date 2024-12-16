@@ -11,7 +11,7 @@
 
 ![image](https://github.com/user-attachments/assets/62fb6146-2b84-430a-9796-41a57e6b86f7)
 
-## How is console.log and console.error different in nodejs? (ChatGPT)
+## 😇 How is console.log and console.error different in nodejs? (ChatGPT)
 
 [Click here (Google Doc)](https://docs.google.com/document/d/1iz7n75o82j_T_5J2PGPqz1ucKUune9fSjcMfpzsC9kI/edit?tab=t.0#heading=h.k6pynfy5tvsc)
 
