@@ -626,7 +626,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Twilio** [Click here](https://docs.google.com/document/d/1cUv_ofHediEo_VbUt63qrm3XXxrn6QMVjfQd3o9pbEA/edit?tab=t.0#heading=h.j4kdrmy99caa)
 - **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](./learn-why-websites-first-not-mobile-apps.md)
 - **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md)
-- **Learn proxy in js:** [Click here](./learn-proxy.md)
 - **Learn postman:** [Click here](./learn-postman.md)
 - **Learn redux-toolkit:** [Click here](./learn-redux-toolkit.md)
 - **Learn stripe`:** [Click here](./learn-stripe.md)
@@ -636,6 +635,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Javascript:**
 	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 	- **Learn Javascript:** [Click here](./learn-js.md)
+		- **Learn Proxy in Javascript:** [Click here](https://github.com/sahilrajput03/js-object-proxy)
 	- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
 	- **Prime Resources - Javascript:** [Click here](./prime-resources-js.md)
 	- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa)
