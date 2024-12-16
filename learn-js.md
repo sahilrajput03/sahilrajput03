@@ -9,7 +9,7 @@
 
 ## Geeter, Setters in Object
 
-![image](https://github.com/user-attachments/assets/62fb6146-2b84-430a-9796-41a57e6b86f7)
+<img src="https://github.com/user-attachments/assets/62fb6146-2b84-430a-9796-41a57e6b86f7" alt="drawing" width="600"/>
 
 ## 😇 How is console.log and console.error different in nodejs? (ChatGPT)
 
