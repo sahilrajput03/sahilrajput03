@@ -642,6 +642,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Convert javascript object to json - cli tool** - [Click here](./obj-json.md)
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](./@ts-check.md)
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
+  - Reverse proxy with `express-http-proxy` (npm library): [sahilrajput03/reverseProxy](https://github.com/sahilrajput03/reverseProxy)
 - **Leetcode: [Click here](./learn-leetcode.md)**
 - Learn auth0: [Click here](./learn-auth0.md)
 - Best of Javascript: [Click here](https://bestofjs.org/)
