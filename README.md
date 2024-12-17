@@ -776,5 +776,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Coqui (TTS): [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
 - Learn YouTube: [Click here](https://docs.google.com/document/d/1t5TkoOwuV1we5Iz5SdCrwl0rrO81PtJq7ja7e7f0y10/edit?tab=t.0#heading=h.28mi74v8cmec)
 - Learn Generating Authenticator code (TOTP) programatically for browser automation login purpose (like google login / aws login): [Click here](https://github.com/sahilrajput03/learn-playwright/blob/e014dd04078449c175d65f265f370b729e756bc0/test-otplib-authenticator.js)
+- Browser For Terminal: [Click here](https://github.com/sahilrajput03/browser-for-terminal)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
