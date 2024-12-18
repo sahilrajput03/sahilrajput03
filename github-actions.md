@@ -27,6 +27,30 @@ For sample workflow files, refer repos: https://github.com/sahilrajput03/sahilra
 - Github actions by default has `secrets.GITHUB_TOKEN` secret which is helpful to authenticate on our basis in the github workflows. [Click here](https://docs.github.com/en/github-ae@latest/actions/security-guides/automatic-token-authentication). You may see the usage in the same previous link or [click here](https://github.com/kubernetes-hy/material-example/blob/master/.github/workflows/gitops-app.yml) which is a course material example from [Ch4 Part4@dwk course](https://devopswithkubernetes.com/part-4/3-gitops)).
 
 
+## Disable a workflow *(without removing the file from workflows directory)*
+
+Method 1: Disable a Workflow through the GitHub UI
+
+1. Go to your GitHub repository.
+2. Click on the Actions tab.
+3. Find the workflow you want to disable in the list of workflows.
+4. Click on the three dots (ellipsis) next to the workflow name.
+5. Select Disable Workflow.
+6. This will stop the workflow from triggering on future events.
+
+Method 2: Disable a Workflow by Modifying the .yml File
+
+```
+# on:
+#   push:
+#     branches:
+#       - main
+
+# NOTE: Sine github actions vscode extension throws error for that (vscode extension: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+#     We can instead do this:
+# push: []
+```
+
 ## ❤️ What does workflow_dispatch: means in github actiosn workflow file? (ChatGPT)
 
 In a GitHub Actions workflow file, workflow_dispatch: is an event that allows you to manually trigger a workflow. This is useful when you want to execute a workflow on demand rather than relying on automated events like push, pull_request, or a scheduled cron job.
