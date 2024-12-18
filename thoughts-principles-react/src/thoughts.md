@@ -1,4 +1,10 @@
-- Realization: Write the approach in plain english before you implement the feature/bug/code actually to help you avoid pitfalls beforehand if there is any.  ~ Sahil
+- You only enjoy your work when you focus and you become focus when doing the work. ~ Sahil
+
+- Ahankaar na naash --- jo jaisa hai usme khush/sukhi ho jana. ~ Premanand
+
+- To start exercise routine you should start it with 5mins per day.
+
+- Realization: Write the approach in plain english before you implement the feature/bug/code actually to help you avoid pitfalls beforehand if there is any. ~ Sahil
 
 - Ego is begging for undivided attention. Dhyaan is giving undivided attention. ~ Osho (KKD - Lecture 19)
 
