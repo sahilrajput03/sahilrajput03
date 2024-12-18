@@ -27,6 +27,10 @@ For sample workflow files, refer repos: https://github.com/sahilrajput03/sahilra
 - Github actions by default has `secrets.GITHUB_TOKEN` secret which is helpful to authenticate on our basis in the github workflows. [Click here](https://docs.github.com/en/github-ae@latest/actions/security-guides/automatic-token-authentication). You may see the usage in the same previous link or [click here](https://github.com/kubernetes-hy/material-example/blob/master/.github/workflows/gitops-app.yml) which is a course material example from [Ch4 Part4@dwk course](https://devopswithkubernetes.com/part-4/3-gitops)).
 
 
+## ❤️ What does workflow_dispatch: means in github actiosn workflow file? (ChatGPT)
+
+In a GitHub Actions workflow file, workflow_dispatch: is an event that allows you to manually trigger a workflow. This is useful when you want to execute a workflow on demand rather than relying on automated events like push, pull_request, or a scheduled cron job.
+
 ### Can't see getting your workflow run on changing files in directories you have set track to ?
 
 > If you want to read about filter pattern, you can read @ [here](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet).
