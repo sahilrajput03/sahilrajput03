@@ -249,12 +249,17 @@ So, below script will cause to execute the `sops` command to run from the parent
 ```bash
 #!/bin/bash
 
+SCRIPT_DIR="$(dirname -- "${BASH_SOURCE[0]}")"
+
 # --- USE CASE 1 --- Importing file relative to current script file path
-source $(dirname -- "${BASH_SOURCE[0]}")/variables.sh
+source "$SCRIPT_DIR/variables.sh"
+
+# Inline way ❤️
+source "$(dirname -- "${BASH_SOURCE[0]}")/variables.sh"
+
 
 
 # --- USE CASE 2 --- changing directory to run a command from path relative to current script path
-SCRIPT_DIR="$(dirname -- "${BASH_SOURCE[0]}")"
 cd $SCRIPT_DIR/..
 sops -e .env > enc.env
 ```
