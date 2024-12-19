@@ -237,14 +237,9 @@ Simply use `reset` command to get your teminal back. YO!!  [Source](https://supe
 
 ```bash
 #!/bin/bash
-# Prints the directory from which the script is executed, i.e., EXECUTION_PATH
-echo $PWD
-
-# Prints the relative DIRECTORY PATH of this file
-dirname -- "${BASH_SOURCE[0]}"
-
-# Prints the relative FILE PATH w.r.t the EXECUTION_PATH
-echo ${BASH_SOURCE[0]}
+echo $PWD				# Print EXECUTION_PATH
+dirname -- "${BASH_SOURCE[0]}"		# Print relative directory of this file
+echo ${BASH_SOURCE[0]}			# Prints relative FILE PATH w.r.t the EXECUTION_PATH
 ```
 
 #### ❤️ Making pure executable scripts #get scripts path, #get current script path, #get path of the script ❤️
@@ -253,11 +248,14 @@ So, below script will cause to execute the `sops` command to run from the parent
 
 ```bash
 #!/bin/bash
-PATH_TO_DIRECTORY_OF_THIS_SCRIPT="$(dirname -- "${BASH_SOURCE[0]}")"
-# Use below statement for debugging via CLI for above variable path
-# PATH_TO_DIRECTORY_OF_THIS_SCRIPT="$(pwd)"
 
-cd $SCRIPTS_DIR_PATH/..
+# --- USE CASE 1 --- Importing file relative to current script file path
+source $(dirname -- "${BASH_SOURCE[0]}")/variables.sh
+
+
+# --- USE CASE 2 --- changing directory to run a command from path relative to current script path
+SCRIPT_DIR="$(dirname -- "${BASH_SOURCE[0]}")"
+cd $SCRIPT_DIR/..
 sops -e .env > enc.env
 ```
 
