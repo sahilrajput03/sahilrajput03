@@ -1,4 +1,4 @@
-- Value of money --- bread, clothes and house. ~ Unknown
+- Value of money --- bread, clothes and house (roti-kapra-makaan). ~ Unknown
 
 - I like glass materials because they are transparent. Transparency builds trust and confidence. ~ Sahil
 
