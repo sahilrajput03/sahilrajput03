@@ -9,11 +9,14 @@
 	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
 	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
 	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>, <a href="http://localhost:8081/vocab">local</a>),
-	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>,
-	<a href="https://sahilrajput.com/thoughts-principles">Thoughts & Principles</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md">md</a>)
-	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>
+	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>
 </h6>
 
+<h6 align="right">
+	<a href="https://sahilrajput.com/thoughts-principles">Thoughts & Principles</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md">md</a>),
+	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>
+	<a href="https://svelte.monktechnoworld.com/glass-slideshow">Glass Thoughts</a>
+</h6>
 
 <h6 align="right">
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
@@ -31,7 +34,9 @@
 	Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a>
 </div>
 
-- Glass Thoughts: [Click here](https://svelte.monktechnoworld.com/glass-slideshow)
+<br />
+<br />
+
 - Development tips:
 	- Get summary of any video in any language in Google Gemini. ❤️
 	- Use VsCode' default markdown preview to edit markdown files.
