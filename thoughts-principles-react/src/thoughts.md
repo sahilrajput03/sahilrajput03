@@ -1,3 +1,5 @@
+- Value of money --- bread, clothes and house. ~ Unknown
+
 - I like glass materials because they are transparent. Transparency builds trust and confidence. ~ Sahil
 
 - You only enjoy your work when you focus and you become focus when doing the work. ~ Sahil
