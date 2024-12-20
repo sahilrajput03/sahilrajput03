@@ -1,34 +1,5 @@
 
-<style type="text/css">
-  a {
-	color: deeppink;
-	text-decoration: underline;
-  }
-
-
-  /* ---- DARK MOE STYLES BELOW ---- */
-  /* ---- DARK MOE STYLES BELOW ---- */
-  /* ---- DARK MOE STYLES BELOW ---- */
-  @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #222;
-    color: #fff;
-  }
-  
-  /* Style links in dark mode */
-  a {
-    color: deeppink;
-	text-decoration: underline;
-  }
-  
-  /* Style buttons in dark mode */
-  button {
-    background-color: #444;
-    color: white;
-    border: 1px solid #666;
-  }
-}
-</style>
+<link rel="stylesheet" type="text/css" href="./a.css">
 
 <h1 align="center">Sahil Rajput</h1>
 
