@@ -56,7 +56,7 @@ Error generating stack: `+i.message+`
 
 - Ahankaar na naash --- jo jaisa hai usme khush/sukhi ho jana. ~ Premanand
 
-- To start exercise routine you should start it with 5 mins per day and keep increasing it by 5mins each day until you reach 1 hour / day exercise routine. It works as boon. ~ Premanand
+- To start exercise routine you should start it with 5 mins per day and keep increasing it by 5mins each day until you reach 1 hour/day exercise routine. It works as boon. ~ Premanand
 
 - Realization: Write the approach in plain english before you implement the feature/bug/code actually to help you avoid pitfalls beforehand if there is any. ~ Sahil
 
