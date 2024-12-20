@@ -14,7 +14,7 @@
 
 <h6 align="right">
 	<a href="https://sahilrajput.com/thoughts-principles">Thoughts & Principles</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md">md</a>),
-	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>
+	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>,
 	<a href="https://svelte.monktechnoworld.com/glass-slideshow">Glass Thoughts</a>
 </h6>
 
