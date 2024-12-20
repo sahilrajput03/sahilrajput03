@@ -8,7 +8,11 @@
 	<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Dhyaan/Meditation</a>,
 	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
 	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
-	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>, <a href="http://localhost:8081/vocab">local</a>), <a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a></h6>
+	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>, <a href="http://localhost:8081/vocab">local</a>),
+	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>,
+	<a href="https://sahilrajput.com/thoughts-principles">Thoughts & Principles:</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md">md</a>)
+</h6>
+
 
 <h6 align="right">
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
@@ -26,7 +30,7 @@
 	Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a>
 </div>
 
-- Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
+- Glass Thoughts: [Click here](https://svelte.monktechnoworld.com/glass-slideshow)
 - Development tips:
 	- Get summary of any video in any language in Google Gemini. ❤️
 	- Use VsCode' default markdown preview to edit markdown files.
@@ -415,7 +419,7 @@ It's gonna boost both your immune system and calmness in a compound effect each 
 
 #### Original & Curated Articles
 
-- **Thoughts, Principles:** [Click here](https://sahilrajput.com/thoughts-principles) *([markdown](https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md)) (#thoughts, Life's Cheatcodes)*
+- **Thoughts & Principles:** [Click here](https://sahilrajput.com/thoughts-principles) *([Source: md file](https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md)) (#thoughts, Life's Cheatcodes)*
 - Office Ethics, Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
 
 #### Continents
