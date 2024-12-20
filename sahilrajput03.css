@@ -1,8 +1,17 @@
+/* NOTE: if you define these styles directly in README.md
+file then you'll be able to get HRM support. FOR NOW YOU HAVE TO REFRESH THE
+PAGE IN BROWER :(  :(  :(   :(
+*/
+
 a {
 	color: deeppink;
 	text-decoration: underline;
-  }
+}
 
+  /* Code snippet's background color */
+  .highlight, .language-txt, pre {
+    background-color: #e7e7e763 !important;
+  }
 
   /* ---- DARK MOE STYLES BELOW ---- */
   /* ---- DARK MOE STYLES BELOW ---- */
@@ -17,6 +26,11 @@ a {
   a {
     color: deeppink;
 	text-decoration: underline;
+  }
+
+  /* Code snippet's background color */
+  .highlight, .language-txt, pre {
+    background-color: black !important;
   }
   
   /* Style buttons in dark mode */
