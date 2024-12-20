@@ -10,7 +10,7 @@
 	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
 	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput.com/vocab.html">web</a>, <a href="http://localhost:8081/vocab">local</a>),
 	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>,
-	<a href="https://sahilrajput.com/thoughts-principles">Thoughts & Principles:</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md">md</a>)
+	<a href="https://sahilrajput.com/thoughts-principles">Thoughts & Principles</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md">md</a>)
 </h6>
 
 
