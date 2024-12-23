@@ -5,6 +5,7 @@
 **Other Courses (todo):**
 - Introduction to Marketing: [Click here](https://in.coursera.org/learn/wharton-marketing) (10 h)
 - Introduction to Financial Accounting: [Click here](https://www.coursera.org/learn/wharton-accounting) (13 h)
+- PostgreSQL for Everybody: [Click here](https://online.umich.edu/series/postgresql-for-everybody/?utm_source=youtube&utm_medium=video-ad&utm_campaign=series-postgresql-for-everybody&utm_content=keywords-pg4e-dr-chuck-video&gad_source=2)
 
 https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 
