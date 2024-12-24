@@ -2,7 +2,7 @@
 
 All Gmail Shortcuts: [Click here](https://support.google.com/mail/answer/6594)
 
-- Get link of any mail: [src](https://stackoverflow.com/a/65670524/10012446)
+- ❤️ Get link of a email in Gmail: [src](https://stackoverflow.com/a/65670524/10012446)
   - TLDR;
     - You must have the reading pane set to "No split".
     - Click on any email to open it and now copy the url from the browser.
