@@ -7,6 +7,23 @@ All Gmail Shortcuts: [Click here](https://support.google.com/mail/answer/6594)
     - You must have the reading pane set to "No split".
     - Click on any email to open it and now copy the url from the browser.
 
+## ❤️ MACOS - Brilliant Gmail shortcuts
+
+- `Enter` (open email)
+- `u` (close conversation/go back to list) [SEXY]
+- ❤️ **Navigate between emails conversation _(same as vim for `j` and `k`)_**
+  - `fn+j` (next email conversation)
+  - `fn+k` (previous email conversation)
+- `n` (next message in a conversation)
+- `p` (previous message in a conversation)
+- `=` (mark an email important)
+- `-` (mark email non important)
+- `ga` (go to "All Mail")
+- `gi` (go to inbox)
+- **(Sadly: There is no shortcut to go to "Important mails")**
+
+## Shortcuts
+
 Control: `^`, Shift: `#`
 
 | Shortcut | Description                                       |
