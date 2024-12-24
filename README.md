@@ -519,6 +519,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Linux:
 	- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](./arch-notes.md)
 	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](./learn-bash.md)
+		- **Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash)
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
 	- Learn Systemd: [Click here](https://docs.google.com/document/d/1aOpEVHh8_3Z3bEP8J-2RiGITiN25tg_d35p8v4zUZWE/edit)
 - **Book logs:** [Click here](./book-logs/README.md)
@@ -791,5 +792,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Generating Authenticator code (TOTP) programatically for browser automation login purpose (like google login / aws login): [Click here](https://github.com/sahilrajput03/learn-playwright/blob/e014dd04078449c175d65f265f370b729e756bc0/test-otplib-authenticator.js)
 - Browser For Terminal (svelte): [Click here](https://github.com/sahilrajput03/browser-for-terminal)
 - Learn Markdown Autodocs: [Click here](https://docs.google.com/document/d/1kg532M0dHBGgLTuRvc5RznHdRJX_P259rlyof6784Vg/edit?tab=t.0)
+- ❤️ Learn Code Runner: [Click here](https://docs.google.com/document/d/1xLXMFJSQide-kGKkkDRA2sjpApDR-eBlddl0cWyZJOE/edit?tab=t.0#heading=h.i48pxvjshf90)
+- Record Terminal: https://asciinema.org
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>

@@ -5,9 +5,9 @@
 **Quick Links:**
 - **WatchAll: [Click here](https://github.com/sahilrajput03/watchAll)**
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
-- **Bash Unit tests**: [Click here](https://github.com/sahilrajput03/learning-bash)
 - **GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
 - **Learn KVM:** [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit)
+- **❤️❤️Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash)
 
 **TODO READS:**
 - **Bash Shell Substitution:** [Click here](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
