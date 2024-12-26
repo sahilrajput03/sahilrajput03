@@ -113,10 +113,10 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
   - [Fireship](https://www.youtube.com/c/Fireship) \| Full Stack Expert
   - [Traversy Media](https://www.youtube.com/c/TraversyMedia) \| Full Stack Expert
   - [Ben Awad](https://www.youtube.com/c/BenAwad97) \| React Expert
-  - [Roadside Coder](https://www.youtube.com/@RoadsideCoder) \| Full Stack Expert (#India)
-  - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert (#India)
-  - [Toofani Coder](https://www.youtube.com/@toofanicoder) \| Full Stack Expert (#India)
-  - [Piyush Garg Dev](https://www.youtube.com/@piyushgargdev) (#India
+  - [Roadside Coder](https://www.youtube.com/@RoadsideCoder) \| Full Stack Expert (#India) - (YouTube Subs: 129k)
+  - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert (#India) - (YouTube Subs: 95k)
+  - [Toofani Coder](https://www.youtube.com/@toofanicoder) \| Full Stack Expert (#India) - (YouTube Subs: 13k)
+  - [Piyush Garg Dev](https://www.youtube.com/@piyushgargdev) (#India) - (YouTube Subs: 200k)
   - [Varun Mayya](https://www.youtube.com/@VarunMayya) \| Techology (#India)
   - Recommended by Aliasgar:
       - Code With Antonio: [Click here](https://www.youtube.com/@codewithantonio)
