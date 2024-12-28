@@ -13,3 +13,6 @@ _site
 
 # Ignore auto save files of Xournalpp
 *.autosave.xopp
+
+# Ignore .DS_Store
+.DS_Store
