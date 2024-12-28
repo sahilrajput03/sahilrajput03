@@ -333,6 +333,11 @@ Note: yt-dlp is a fork of youtube-dl that was created after the parent project b
 pacman -S yt-dlp
 
 # for usage, please refer - https://wiki.archlinux.org/title/Yt-dlp
+
+
+#### Common Usage (from: https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file) ####
+# Download 1080p video with audio form youtube
+yt-dlp -f "bestvideo[height=1080]+bestaudio" <YouTube-URL>
 ```
 
 TOOD: Checkout some gui software as well for much better usage (refer same above archlinux page) -
