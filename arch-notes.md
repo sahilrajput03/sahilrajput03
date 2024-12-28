@@ -327,7 +327,7 @@ yay -S activitywatch-bin
 
 `yt-dlp` is a command-line program that lets you easily download videos and audio from more than a thousand websites. See the list of supported sites.
 
-Note: yt-dlp is a fork of youtube-dl that was created after the parent project became stagnant. The upstream youtube-dl[dead link 2023-09-16 ⓘ] can still be installed as youtube-dlAUR; commands on this page should still work, but check the list of differences.
+Note: `yt-dlp` is a fork of youtube-dl that was created after the parent project became stagnant. The upstream youtube-dl[dead link 2023-09-16 ⓘ] can still be installed as youtube-dlAUR; commands on this page should still work, but check the list of differences.
 
 ```bash
 pacman -S yt-dlp
@@ -337,7 +337,7 @@ pacman -S yt-dlp
 
 #### Common Usage (from: https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file) ####
 # Download 1080p video with audio form youtube
-yt-dlp -f "bestvideo[height=1080]+bestaudio" <YouTube-URL>
+yt-dlp -f "bestvideo[height=1080]+bestaudio" "<YouTube-URL>"
 ```
 
 TOOD: Checkout some gui software as well for much better usage (refer same above archlinux page) -
