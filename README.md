@@ -11,12 +11,12 @@
 	<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Dhyaan/Meditation</a>,
 	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
 	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
-	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput03.github.io/vocab-files/vocab">web (cached)</a>, <a href="https://sahilrajput.com/vocab.html">web (doc)</a>, <a href="http://localhost:8081/vocab">local</a>),
+	<a href="https://sahilrajput.com/thoughts-principles">Thoughts & Principles</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md">md</a>),
 	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>
 </h6>
 
 <h6 align="right">
-	<a href="https://sahilrajput.com/thoughts-principles">Thoughts & Principles</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md">md</a>),
+	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput03.github.io/vocab-files/vocab">web (cached)</a>, <a href="https://sahilrajput.com/vocab.html">web (doc)</a>, <a href="http://localhost:8081/vocab">local</a>),
 	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>,
 	<a href="https://svelte.monktechnoworld.com/glass-slideshow">Glass Thoughts</a>
 </h6>
