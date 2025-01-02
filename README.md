@@ -16,7 +16,7 @@
 </h6>
 
 <h6 align="right">
-	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput03.github.io/vocab-files/vocab">web (cached)</a>, <a href="https://sahilrajput.com/vocab.html">web (doc)</a>, <a href="http://localhost:8081/vocab">local</a>),
+	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput03.github.io/vocab-files/vocab">web-cached</a>, <a href="https://sahilrajput.com/vocab.html">web-doc</a>, <a href="http://localhost:8081/vocab">local</a>),
 	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>,
 	<a href="https://svelte.monktechnoworld.com/glass-slideshow">Glass Thoughts</a>
 </h6>
