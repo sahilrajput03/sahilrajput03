@@ -117,6 +117,7 @@ https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
   - [6 Pack Programmer](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw) \| Full Stack Expert (#India) - (YouTube Subs: 95k)
   - [Toofani Coder](https://www.youtube.com/@toofanicoder) \| Full Stack Expert (#India) - (YouTube Subs: 13k)
   - [Piyush Garg Dev](https://www.youtube.com/@piyushgargdev) (#India) - (YouTube Subs: 200k)
+  - [https://www.youtube.com/@aru_code](https://www.youtube.com/@aru_code)
   - [Varun Mayya](https://www.youtube.com/@VarunMayya) \| Techology (#India)
   - Recommended by Aliasgar:
       - Code With Antonio: [Click here](https://www.youtube.com/@codewithantonio)
