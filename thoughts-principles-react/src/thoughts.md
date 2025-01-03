@@ -1,3 +1,7 @@
+- Its difficult to forget first love for both males and females commonly. ~ Sahil
+
+- Difference between belief and to know is like to know what thirst is and when thirst is quenched. ~ Sahil
+
 - Value of money --- bread, clothes and house (roti-kapra-makaan). ~ Unknown
 
 - I like glass materials because they are transparent. Transparency builds trust and confidence. ~ Sahil
