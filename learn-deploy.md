@@ -1,10 +1,14 @@
-# Deployment - Todo: move this doc to a new google doc
+![image](https://github.com/user-attachments/assets/31170745-81e7-4191-9f3a-a4c038c6786d)# Deployment - Todo: move this doc to a new google doc
 
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 - Learn Heroku Deployment: [Click here](./learn-heroku.md)
 - ❤️ Google Doc - Hosting Charges - Backend & Databases (mongodb, etc): [Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 - [fly.io](https://fly.io/)
+
+## Alibabacloud's own website is not working well LOL
+
+![image](https://github.com/user-attachments/assets/9f5e116d-bc03-4658-bfec-a2bb422ae156)
 
 ## Cloudflare
 
