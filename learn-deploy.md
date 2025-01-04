@@ -6,11 +6,12 @@
 - ❤️ Google Doc - Hosting Charges - Backend & Databases (mongodb, etc): [Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 - [fly.io](https://fly.io/)
 
-## Cloudflare for backend server?
+## Cloudflare
 
-tldr; **No**
-
-![image](https://github.com/user-attachments/assets/e5470430-012a-405c-a304-4f26b7a37ca3)
+- cloudflare american company that serves google, microsoft.
+- Cloudflare for backend server?
+  - tldr; **No**
+  <img src="https://github.com/user-attachments/assets/e5470430-012a-405c-a304-4f26b7a37ca3" alt="drawing" width="600"/>
 
 ## What is ttl and should i set lower ttl value so my domain update dns record values faster? Be concise.
 
