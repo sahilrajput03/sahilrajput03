@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/31170745-81e7-4191-9f3a-a4c038c6786d)# Deployment - Todo: move this doc to a new google doc
+# Deployment - Todo: move this doc to a new google doc
 
 **Quick Links:**
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
