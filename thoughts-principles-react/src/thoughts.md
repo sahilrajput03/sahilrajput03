@@ -1,3 +1,5 @@
+- Chitta murde ko jalayi hai. Chinta jinde ko jalati hai. ~ Vijay Tea
+
 - Money gives your freedom. Freedom gives your happiness. ~ Sahil
 
 - Its difficult to forget first love for both males and females commonly. ~ Sahil
