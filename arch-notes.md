@@ -40,6 +40,17 @@ Archlinux Packages:
 	- [Github](https://github.com/any1/wayvnc) 1.2k*
   - RealVNC Server: [Click here](https://aur.archlinux.org/packages/realvnc-vnc-server) (15 upvote, 0.00 Popularity)
 
+Currently I'm using: RealVNC Server because it simply works!
+
+```bash
+# Install
+yay -S x11vnc
+
+# Run vnc server
+x11vnc
+# You can connect from mobile or any other system using: 192.168.1.53:5900
+```
+
 ## Removing a program with all its subdependencies together to by pass the uninstall error by pacman (Tags: #uninstall i3wm, #remove i3wm, #delete i3wm)
 
 It is reality in case of practising uninstalling i3-wm. You can simply run below command to fix such cases for similar uninstallation as it does with the case of i3-wm.
