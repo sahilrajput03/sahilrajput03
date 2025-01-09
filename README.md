@@ -450,8 +450,12 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
 - TamronHallShow (Journalist): [@TamronHallShow](https://www.youtube.com/@TamronHallShow/videos)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
-- **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
-- Text to speech (also has openai's AI text to speech): [ttsmp3.com](https://ttsmp3.com)
+- TTS:
+	- **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
+	- Text to speech (also has openai's AI text to speech): [ttsmp3.com](https://ttsmp3.com) [1000 tokens limit/day]
+	- For downloading small clips you can probably use chrome extension - [Chrome Audio Capture](https://chromewebstore.google.com/detail/chrome-audio-capture/kfokdmfpdnokpmpbjhjbcabgligoelgp) to download froma below two sites because they don't allow download in free plan. *(for commercial use -- I advise to get a premium plan to help support them)*
+	- [murf.ai/text-to-speech](https://murf.ai/text-to-speech)
+	- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
 - Speech to Text: *(#speechtotext, #speech-to-text)*
 	- [dictation.io/speech](https://dictation.io/speech) (web)
  	- WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
