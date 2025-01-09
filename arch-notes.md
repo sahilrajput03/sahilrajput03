@@ -23,6 +23,23 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## VNC
+
+Source: [Reddit Post](https://www.reddit.com/r/archlinux/comments/y70dbt/is_vnc_the_best_way_to_connect_remotely_to_a_arch/?rdt=62877)
+
+Archlinux Packages:
+- Tiger VNC: [Click here](https://archlinux.org/packages/extra/x86_64/tigervnc/)
+	- [website](https://tigervnc.org/)
+	- [Github](https://github.com/TigerVNC/tigervnc) 5.3k*
+	- Wiki: [Click here](https://wiki.archlinux.org/title/TigerVNC)
+ - X11Vnc: [Click here](https://archlinux.org/packages/extra/x86_64/x11vnc/)
+ 	- Wiki: [Click here](https://wiki.archlinux.org/title/X11vnc)
+	- [Github](https://github.com/LibVNC/x11vnc) 735*
+  - WayVNC: [Click here](https://archlinux.org/packages/extra/x86_64/wayvnc/)
+  	- General Commands Manual: [Click here](https://man.archlinux.org/man/wayvnc.1)
+	- [Github](https://github.com/any1/wayvnc) 1.2k*
+  - RealVNC Server: [Click here](https://aur.archlinux.org/packages/realvnc-vnc-server) (15 upvote, 0.00 Popularity)
+
 ## Removing a program with all its subdependencies together to by pass the uninstall error by pacman (Tags: #uninstall i3wm, #remove i3wm, #delete i3wm)
 
 It is reality in case of practising uninstalling i3-wm. You can simply run below command to fix such cases for similar uninstallation as it does with the case of i3-wm.
