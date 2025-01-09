@@ -453,7 +453,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - TTS:
 	- **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
 	- Text to speech (also has openai's AI text to speech): [ttsmp3.com](https://ttsmp3.com) [1000 tokens limit/day]
-	- For downloading small clips you can probably use chrome extension - [Chrome Audio Capture](https://chromewebstore.google.com/detail/chrome-audio-capture/kfokdmfpdnokpmpbjhjbcabgligoelgp) to download froma below two sites because they don't allow download in free plan. *(for commercial use -- I advise to get a premium plan to help support them)*
+	- For downloading small clips you can probably use chrome extension - [Chrome Audio Capture](https://chromewebstore.google.com/detail/chrome-audio-capture/kfokdmfpdnokpmpbjhjbcabgligoelgp) to download from below two sites because they don't allow download in their free plan yet. *(for commercial use -- I advise to get a premium plan to help support them)*
 		- [murf.ai/text-to-speech](https://murf.ai/text-to-speech)
 		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
 - Speech to Text: *(#speechtotext, #speech-to-text)*
