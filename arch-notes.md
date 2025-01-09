@@ -48,7 +48,7 @@ yay -S x11vnc
 
 # Run vnc server
 x11vnc
-# You can connect from mobile or any other system using: 192.168.1.53:5900
+# You can connect from mobile or any other system using: 192.168.1.53:5900 using RealVNC (client) in android or RealVNC from your MacOS
 ```
 
 ## Removing a program with all its subdependencies together to by pass the uninstall error by pacman (Tags: #uninstall i3wm, #remove i3wm, #delete i3wm)
