@@ -2,7 +2,6 @@
 
 
 **TODO:**
-- Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 - Move my files from https://github.com/sahilrajput03/my_bin repo to my current notes.
 
 **Quick Links:**
