@@ -1,10 +1,31 @@
 # Deployment - Todo: move this doc to a new google doc
 
 **Quick Links:**
+
 - Learn Vercel Deployment: [Click here](learn-vercel.md)
 - Learn Heroku Deployment: [Click here](./learn-heroku.md)
 - ❤️ Google Doc - Hosting Charges - Backend & Databases (mongodb, etc): [Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 - [fly.io](https://fly.io/)
+
+## Monolith vs. Microservice architecture
+
+### What is monolith architecture? Be concise and give ex. (ChatGPT)
+
+Monolith architecture is a software design where all components (UI, business logic, and database access) are integrated into a single, unified application. It operates as one cohesive unit, making it simpler to develop and deploy initially but harder to scale and modify over time.
+
+**Example:** A traditional e-commerce application where user authentication, product catalog, payment processing, and order management are all part of a single codebase and deployed together.
+
+### What is Microservice architecture? (ChatGPT)
+
+Microservice architecture is a software design pattern where an application is broken into small, independent services, each responsible for a specific function. These services communicate through APIs, enabling flexibility, scalability, and independent deployment.
+
+**Example:** An e-commerce system where:
+
+- Authentication Service handles user login.
+- Product Service manages the catalog.
+- Payment Service processes payments.
+- Order Service handles order placement.
+- Each service operates independently and can be developed or scaled separately.
 
 ## Alibabacloud's own website is not working well LOL
 
@@ -15,7 +36,7 @@
 - cloudflare american company that serves google, microsoft.
 - Cloudflare for backend server?
   - tldr; **No**
-  <img src="https://github.com/user-attachments/assets/e5470430-012a-405c-a304-4f26b7a37ca3" alt="drawing" width="600"/>
+    <img src="https://github.com/user-attachments/assets/e5470430-012a-405c-a304-4f26b7a37ca3" alt="drawing" width="600"/>
 
 ## What is ttl and should i set lower ttl value so my domain update dns record values faster? Be concise.
 
@@ -38,7 +59,7 @@ Tags: #sahilrajput.com, #search, #google search console
 
 Reddit Post: [Click here](https://www.reddit.com/r/india/comments/dwrn33/port_forwarding_in_jio_fiber_router/)
 
-## Slas*er is delpoyed on cloudflare Pages
+## Slas\*er is delpoyed on cloudflare Pages
 
 [Click here](https://pages.cloudflare.com/)
 
@@ -73,7 +94,7 @@ FYI: Every ddns [domain expires in 30 days](https://www.noip.com/support/knowled
 
 http://master61.ddns.net points to my `public ip` using https://www.noip.com/ service.
 
-***I registered http://master61.ddns.net on 26 April, 2022 most probably or on next day.***
+**_I registered http://master61.ddns.net on 26 April, 2022 most probably or on next day._**
 
 DDNS is only available for `A records` not `CNAME records`.
 
@@ -81,15 +102,13 @@ For domains:
 
 http://wwww.servicelife.ml, http://wwww.fixedlife.ml, http://wwww.lostlife.ml I DNS settings as:
 
-| Name | Type | TTL | Target |
-| ---- | ---- | --- | ------ |
-| www | CNAME | 3600 | master61.ddns.net |
+| Name | Type  | TTL  | Target            |
+| ---- | ----- | ---- | ----------------- |
+| www  | CNAME | 3600 | master61.ddns.net |
 
 And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on.., on via my router to some local machine then I would be able to access all these ports via each of these sites i.e., @ http://wwww.servicelife.ml:3001, http://wwww.fixedlife.ml:3001, http://wwww.lostlife.ml:3001. For port 80 we don't need to specify the port at all. [Source](https://webmasters.stackexchange.com/a/27013).
 
 **NOTE:** You won't be able to acces via root level domain though, coz thats not possbile. For more info read "You cannot set cname for root level domain i.e., ..." from "Oher DNS records related information" section.
-
-
 
 ## Oher DNS records related information
 
@@ -132,11 +151,11 @@ Another fee ssl provider for lifetime is [sslforfree.com](https://www.sslforfree
 
 **Q. How many ssl certificates can I produce using `certbot`:**
 
-*Short Answer:* No Limit (or atleast enough for [personal use](https://letsencrypt.org/docs/rate-limits/#:~:text=The%20main%20limit%20is%20Certificates,Domain%20(50%20per%20week).))
+_Short Answer:_ No Limit (or atleast enough for [personal use](<https://letsencrypt.org/docs/rate-limits/#:~:text=The%20main%20limit%20is%20Certificates,Domain%20(50%20per%20week).>))
 
 **Q. Why doesn't my domain doesn’t work without ‘www.’?**
 
-*Short answer:* You can't use `CNAME` record but `A` record to resolve the issue. [Reference from FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
+_Short answer:_ You can't use `CNAME` record but `A` record to resolve the issue. [Reference from FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
 
 ## What is DDNS ?
 
@@ -154,7 +173,7 @@ Amazing(This way of updating works really awesome i.e., the ip address is update
 
 ## DDNS function works AWESOME!!
 
-*From my current router firmware vvv*
+_From my current router firmware vvv_
 
 - Step1:
 
@@ -168,7 +187,7 @@ Amazing(This way of updating works really awesome i.e., the ip address is update
 
 - Credentials in keypass
 - Important: Cloudns **one account allows for one domain management only** but its real good dns service!
-- ***Accounts:domains list: sr03:pintak22.ml, sr03+1:wastelife.ml and sr03+2:servicelife.ml***
+- **_Accounts:domains list: sr03:pintak22.ml, sr03+1:wastelife.ml and sr03+2:servicelife.ml_**
 
 **Source (Please check if the nameservers have changed? It took me complete day to find out that it has been changed recently):** https://www.cloudns.net/wiki/article/355/
 
@@ -196,25 +215,25 @@ Simply go to this url @ [https://www.cloudns.net/livechat/](https://www.cloudns.
 
 - An ideal dns records for any site (coz this will work for all the dynamic subdomain handling as well) :
 
-**In the below screenshot dns settings we can use see the wildcard subdomain of `CNAME record` type (i.e. `*.fixedlife.ml`) BUT you may use an `A record` (*also shown how to do that in later screenshots and we'll also setup DDNS url to get the IP address updated automatically using cron*) instead if you want to map an ip to the domain instead of `master61.ddns.net`.**
+**In the below screenshot dns settings we can use see the wildcard subdomain of `CNAME record` type (i.e. `*.fixedlife.ml`) BUT you may use an `A record` (_also shown how to do that in later screenshots and we'll also setup DDNS url to get the IP address updated automatically using cron_) instead if you want to map an ip to the domain instead of `master61.ddns.net`.**
 
 BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
-  **For freenom nameserver-**
+**For freenom nameserver-**
 
-  ![image](https://user-images.githubusercontent.com/31458531/165990542-2101937b-8b0e-496d-adbd-6d5328b82b93.png)
+![image](https://user-images.githubusercontent.com/31458531/165990542-2101937b-8b0e-496d-adbd-6d5328b82b93.png)
 
-  **For dns records @ `cloudns.net`-**
+**For dns records @ `cloudns.net`-**
 
-  ![image](https://user-images.githubusercontent.com/31458531/165983580-80185d4a-a2d7-46de-9116-9b5eaa0fe754.png)
+![image](https://user-images.githubusercontent.com/31458531/165983580-80185d4a-a2d7-46de-9116-9b5eaa0fe754.png)
 
-  **In above screenshot, 4 nameserver should only be created like shown below. They are only required for root domain only.**
+**In above screenshot, 4 nameserver should only be created like shown below. They are only required for root domain only.**
 
-  ![image](https://user-images.githubusercontent.com/31458531/165983634-73126e55-f973-4226-a1ba-08a5011751b7.png)
+![image](https://user-images.githubusercontent.com/31458531/165983634-73126e55-f973-4226-a1ba-08a5011751b7.png)
 
-  **A redirect for root level domain so it always goes to www path along with path supplied -**
-  
-  ![image](https://user-images.githubusercontent.com/31458531/165983951-12ea3503-8a2d-418e-ab73-9095b7d8857a.png)
+**A redirect for root level domain so it always goes to www path along with path supplied -**
+
+![image](https://user-images.githubusercontent.com/31458531/165983951-12ea3503-8a2d-418e-ab73-9095b7d8857a.png)
 
 **A wildcard `CNAME record` to handle all the subdomains by ourself in the server -**
 
@@ -222,7 +241,7 @@ BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
 **ALSO: We can use `A record` for wildcard entry to handle all the subdomains by ourself in the server (DIRECT IP ADDRESS, we'll update this using cloudns's ddns url service) -**
 
-***ALERT: Use only one of `A record` or `CNAME record` to handle the wildcard subdomain entry.***
+**_ALERT: Use only one of `A record` or `CNAME record` to handle the wildcard subdomain entry._**
 
 ![image](https://user-images.githubusercontent.com/31458531/165985364-8dedf83e-d62f-4643-9ac9-dd2f92f3ac5e.png)
 
@@ -232,18 +251,15 @@ BELOW IMAGE DNS RECORDS WORKS 100% AS EXPECTED.
 
 ![image](https://user-images.githubusercontent.com/31458531/165985124-765453ad-e761-41b2-aa62-c6230b92f92f.png)
 
-
 ## For direct freenom domain to CNAME (master61.ddns.net)
- 
-You can use `CNAME` like below **(disadvantage is we can't redirect top level domain and we can't use wildcard subdomains for redirection as well as we used with `cloudns`).
-  
-  ![image](https://user-images.githubusercontent.com/31458531/165908790-4f8b28f7-ae5e-4dea-935e-7e270e34e168.png)
 
+You can use `CNAME` like below \*\*(disadvantage is we can't redirect top level domain and we can't use wildcard subdomains for redirection as well as we used with `cloudns`).
+
+![image](https://user-images.githubusercontent.com/31458531/165908790-4f8b28f7-ae5e-4dea-935e-7e270e34e168.png)
 
 **This is great site for checking current dns setting of a domain:** https://www.dns.computer/check/pintak22.ml .
 
 **Dynamic dns for cloudns**: To be done so that i may update my `A record` to point to my public ip directly using their ddns service (INSTEAD of current setup i.e, using cloudns's domain as cname for each of the domain I have) leveragin @ https://www.cloudns.net/wiki/article/36/
-
 
 ## Fyi freenom domains work good with pwa install popups ?
 
