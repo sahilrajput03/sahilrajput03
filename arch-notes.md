@@ -2,7 +2,6 @@
 
 
 **TODO:**
-- Learn about ProxyJump: [Click here](https://www.infoworld.com/article/3619278/proxyjump-is-safer-than-ssh-agent-forwarding.html) (You can check Eric's explanation too from skype).
 - Move my files from https://github.com/sahilrajput03/my_bin repo to my current notes.
 
 **Quick Links:**
@@ -23,6 +22,34 @@
 - Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
+
+## VNC
+
+Source: [Reddit Post](https://www.reddit.com/r/archlinux/comments/y70dbt/is_vnc_the_best_way_to_connect_remotely_to_a_arch/?rdt=62877)
+
+Archlinux Packages:
+- Tiger VNC: [Click here](https://archlinux.org/packages/extra/x86_64/tigervnc/)
+	- [website](https://tigervnc.org/)
+	- [Github](https://github.com/TigerVNC/tigervnc) 5.3k*
+	- Wiki: [Click here](https://wiki.archlinux.org/title/TigerVNC)
+ - X11Vnc: [Click here](https://archlinux.org/packages/extra/x86_64/x11vnc/)
+ 	- Wiki: [Click here](https://wiki.archlinux.org/title/X11vnc)
+	- [Github](https://github.com/LibVNC/x11vnc) 735*
+  - WayVNC: [Click here](https://archlinux.org/packages/extra/x86_64/wayvnc/)
+  	- General Commands Manual: [Click here](https://man.archlinux.org/man/wayvnc.1)
+	- [Github](https://github.com/any1/wayvnc) 1.2k*
+  - RealVNC Server: [Click here](https://aur.archlinux.org/packages/realvnc-vnc-server) (15 upvote, 0.00 Popularity)
+
+Currently I'm using: RealVNC Server because it simply works!
+
+```bash
+# Install
+yay -S x11vnc
+
+# Run vnc server
+x11vnc
+# You can connect from mobile or any other system using: 192.168.1.53:5900 using RealVNC (client) in android or RealVNC from your MacOS
+```
 
 ## Removing a program with all its subdependencies together to by pass the uninstall error by pacman (Tags: #uninstall i3wm, #remove i3wm, #delete i3wm)
 
