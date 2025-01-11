@@ -9,6 +9,10 @@
 - Using Express.js with Vercel | Docs: [Click here](https://vercel.com/guides/using-express-with-vercel)
 - Google Search (very helpful): [Click here](https://www.google.com/search?q=deployh+nodejs+to+vercel&oq=deployh+nodejs+to+vercel)
 
+## open terminal in vercel running instance
+
+[https://github.com/vercel/vercel/discussions/5188](https://github.com/vercel/vercel/discussions/5188)
+
 ## Route all paths to `index.html` page for a vite application by updating `vercel.json` file
 
 Source: [Click here](https://stackoverflow.com/a/73752429/10012446)
