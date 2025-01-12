@@ -5,6 +5,12 @@
 - `@react-oauth/google`: [npm](https://www.npmjs.com/package/@react-oauth/google), [github](https://github.com/MomenSherif/react-oauth) (used in [sahilrajput03/react-google-oauth](https://github.com/sahilrajput03/react-google-oauth))
 - `react-google-login`: [npm](https://www.npmjs.com/package/react-google-login), [github](https://github.com/anthonyjgrove/react-google-login) **(package is no longer maintained as mentioed on its github repo)**
 
+## Login with google with svelte (backend + frontend)
+
+*Deployed at vercel.com and render.com (tested and working well on both platforms).*
+
+[https://github.com/sahilrajput03/lucia-example-sveltekit-google-oauth](https://github.com/sahilrajput03/lucia-example-sveltekit-google-oauth)
+
 ## 😇 Some links related to Google Login
 
 Date: 11 Jan 2025 - [Google Doc - Some Links for Login with google](https://docs.google.com/document/d/17OOuj1H5YP176FP_xbkgIeGFQHfdgwNKbBq35ojVHxM/edit?pli=1&tab=t.0)
