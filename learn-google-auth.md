@@ -5,6 +5,10 @@
 - `@react-oauth/google`: [npm](https://www.npmjs.com/package/@react-oauth/google), [github](https://github.com/MomenSherif/react-oauth) (used in [sahilrajput03/react-google-oauth](https://github.com/sahilrajput03/react-google-oauth))
 - `react-google-login`: [npm](https://www.npmjs.com/package/react-google-login), [github](https://github.com/anthonyjgrove/react-google-login) **(package is no longer maintained as mentioed on its github repo)**
 
+## 😇 Some links related to Google Login
+
+Date: 11 Jan 2025 - [Google Doc - Some Links for Login with google](https://docs.google.com/document/d/17OOuj1H5YP176FP_xbkgIeGFQHfdgwNKbBq35ojVHxM/edit?pli=1&tab=t.0)
+
 ## Authorization issue - 13 Dec 2023
 
 **UPDATE: 13 Dec 2023 - This happens only when pushed to vercel site (subdomain) and I am hoping that the issue will be gone after the app is switched to "production" as suggested by an answerer in the above stackoverflow question.**
