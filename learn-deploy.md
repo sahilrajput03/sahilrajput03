@@ -7,7 +7,11 @@
 - ❤️ Google Doc - Hosting Charges - Backend & Databases (mongodb, etc): [Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 - [fly.io](https://fly.io/)
 
-## Monolith vs. Microservice architecture
+## ❤️ Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend
+
+Google Document - Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend: [Click here](https://docs.google.com/document/d/15PieWH56pzC5Uh7WlCZit4nGOqfetmGi1aNqlmLymh4/edit?tab=t.0)
+
+## ❤️ Monolith vs. Microservice architecture
 
 ### What is monolith architecture? Be concise and give ex. (ChatGPT)
 
