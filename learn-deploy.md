@@ -10,7 +10,7 @@
 ## ❤️ Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend
 
 ⭐⭐ Google Document - Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend: [Click here](https://docs.google.com/document/d/15PieWH56pzC5Uh7WlCZit4nGOqfetmGi1aNqlmLymh4/edit?tab=t.0)
-  -  Monorepo vs. Polyrepo (in bottom of this file)
+  -  Monorepo vs. Polyrepo (in bottom of above google doc)
 
 ## ❤️ Monolith vs. Microservice architecture
 
