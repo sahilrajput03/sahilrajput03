@@ -1,3 +1,5 @@
+- It is just like you can not leave your view point. They can't lose their view point too. ~ Sahil
+
 - Chitta murde ko jalayi hai. Chinta jinde ko jalati hai. ~ Vijay Tea
 
 - Money gives your freedom. Freedom gives your happiness. ~ Sahil
