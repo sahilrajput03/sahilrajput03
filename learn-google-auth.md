@@ -30,7 +30,7 @@ Date: 11 Jan 2025 - [Google Doc - Some Links for Login with google](https://docs
 ## Implementing google signin (Totel Scam Project)
 
 **Quick Links:**
-- My Github Repo: [sahilrajput03/react-google-oauth](https://github.com/sahilrajput03/react-google-oauth)
+- React + NestJS: [sahilrajput03/react-google-oauth](https://github.com/sahilrajput03/react-google-oauth)
   - Deploye at: https://example-react-google-oauth.vercel.app/
   - Source (original Totel project notes): [Click here](https://github.com/sahilrajput03/learn-websockets/blob/main/making-totel-chat.md)
   - OTHER SIMILAR PROJECT (might be helpful) found on GITHUB via search:
