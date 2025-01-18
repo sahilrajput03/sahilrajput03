@@ -807,6 +807,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn OneCard: [Click here](https://docs.google.com/document/d/1pT_FQOE30KTWwcuYdYT-ZjQACIm4ozKbbM6s76Lfsqs/edit?tab=t.0)
 - qr generators: [Click here](https://docs.google.com/document/d/1neH211qetPGM9-WpeiQE1WSoIRo_TqdHYK7BudqVIC0/edit?tab=t.0)
 - Get words from book (in Learn Expressjs repo): [Click here](https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text)
+- Learn Openai (github repository): [Click here](https://github.com/sahilrajput03/learn-openai)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 
