@@ -598,7 +598,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/courses-list.md#awesome-tech-youtube-channels)
 - **Learn WebRTC:** [Click here](./learn-webrtc.md)
-- **Learn Login flow:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
 - **Useful Android App:** [Click here](./usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](./free-lancing.md)
@@ -653,6 +652,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Javascript:**
 	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container)
+		- **Learn Login flow:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
 	- **Learn Javascript:** [Click here](./learn-js.md)
 		- **Learn Proxy in Javascript:** [Click here](https://github.com/sahilrajput03/js-object-proxy)
 	- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
