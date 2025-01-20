@@ -569,7 +569,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn Google Play Console: [Click here](learn-playconsole.md)
 	- Learn Google Cloud Platform (Google Cloud Console): [Click here](./learn-google-cloud.md)
 		- Console APIs via Oauth2 with Postman: [Click here](learn-google-console-apis-via-oauth2.md)
-	- Learn Login with Google (website): [Click here](learn-google-auth.md)
+	- Learn Login with Google: [Click here](learn-google-auth.md)
 	- Learn Google Analytics (GA) vs. Google Publisher Tags (GPT): [Click here](https://docs.google.com/document/d/1N05jA51Qx0NAkNL2zFoTI-bN6qeRB3QvauyhlUbb8cE/edit#heading=h.eh1wskjta02t)
 		- Learn Google Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 		- Can Google index content that is rendered in the browser with JavaScript: [Click here](https://docs.google.com/document/d/1uTQeWrv6En4MYkPtX5RPNeRLtDv2mpsveVBhSRlETrg/edit?tab=t.0#heading=h.ucpnwfvh6ide)
