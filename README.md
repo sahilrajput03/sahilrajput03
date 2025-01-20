@@ -654,6 +654,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container)
 		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
 	- **Learn Javascript:** [Click here](./learn-js.md)
+		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md)
 		- **Learn Proxy in Javascript:** [Click here](https://github.com/sahilrajput03/js-object-proxy)
 	- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
 	- **Prime Resources - Javascript:** [Click here](./prime-resources-js.md)
