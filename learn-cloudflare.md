@@ -5,6 +5,12 @@
 ## Polish
   - Activate Polish Docs: [Click here](https://developers.cloudflare.com/images/polish/activate-polish/)
 
+## Cloudflare Worker
+
+- What is cloudflare worker? Example (ChatGPT): [Click here](https://chatgpt.com/c/67913584-e774-8007-a271-f0b22785efd6)
+- Pricing: [Click here](https://developers.cloudflare.com/workers/platform/pricing/)
+- Limits: [Click here](https://developers.cloudflare.com/workers/platform/limits/#worker-limits)
+
 ## Image Optimization and Polish
 
 Docs: [Click here](https://developers.cloudflare.com/images/)
