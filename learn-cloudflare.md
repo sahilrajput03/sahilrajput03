@@ -2,6 +2,18 @@
 
 - Adding site to Cloudflare Docs: [Click here](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/)
 - Manage DNS records: [Click here](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/)
+
+## Turnstile
+
+Cloudflare bot prevention on signups/forms: [https://blog.cloudflare.com/turnstile-ga](https://blog.cloudflare.com/turnstile-ga)
+   - Link from above article: [Community Resources](https://developers.cloudflare.com/turnstile/community-resources) (There is a svelte library)
+     - Demo: [https://demo.turnstile.workers.dev](https://demo.turnstile.workers.dev)
+       - Github: [Click here](https://github.com/cloudflare/turnstile-demo-workers)
+     - For Svelte: [npm](https://www.npmjs.com/package/svelte-turnstile), [Demo](https://svelte-turnstile.willow.codes/)
+     - For React:
+       - @marsidev/react-turnstile: [npm](https://www.npmjs.com/package/@marsidev/react-turnstile), [github](https://github.com/marsidev/react-turnstile), [Demo](https://react-turnstile.vercel.app/basic)
+
+
 ## Polish
   - Activate Polish Docs: [Click here](https://developers.cloudflare.com/images/polish/activate-polish/)
 
