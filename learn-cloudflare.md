@@ -13,6 +13,9 @@ Cloudflare bot prevention on signups/forms: [https://blog.cloudflare.com/turnsti
      - For React:
        - @marsidev/react-turnstile: [npm](https://www.npmjs.com/package/@marsidev/react-turnstile), [github](https://github.com/marsidev/react-turnstile), [Demo](https://react-turnstile.vercel.app/basic)
 
+## openai uses cloudflare and it showed error like this on 23 Jan 2025
+
+<img src="https://github.com/user-attachments/assets/4efacb92-0ba0-495d-a4ad-13030e36a6aa" alt="drawing" width="700"/>
 
 ## Polish
   - Activate Polish Docs: [Click here](https://developers.cloudflare.com/images/polish/activate-polish/)
