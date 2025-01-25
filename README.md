@@ -653,7 +653,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Javascript:**
 	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
  		- Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node)
-			- tldr;
+			- tldr
 				- spawn child process (preffered for non js programs)
 				- fork child process (preffered for js programs)
 				- worker_threads (preffered for multi threading in same process for cpu intensive tasks)
