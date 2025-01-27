@@ -684,6 +684,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Suble and Impactful Mistakes with Exceptions: [Click here](./subtle-impactful-exceptions.md)
 - Learn Storybook: [Click here](./learn-storybook.md)
 - Learn Eslint: [Click here](./learn-eslint.md)
+- Learn Prettier: [Click here](https://docs.google.com/document/d/1T-VclkyzwAxoJ519c5P9xRrn0ZjRtQF-Ueu1GviMJYo/edit?tab=t.0)
 - Learn Chrome: [Click here](./learn-chrome.md)
 	- Chrome Extensions (internal link in above doc): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions)
 - Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md)
@@ -818,7 +819,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Openai (github repository): [Click here](https://github.com/sahilrajput03/learn-openai)
 - Learn npm: [Click here](https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0)
 - Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: [Click here](https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0)
-- Learn Prettier: [Click here](https://docs.google.com/document/d/1T-VclkyzwAxoJ519c5P9xRrn0ZjRtQF-Ueu1GviMJYo/edit?tab=t.0)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 
