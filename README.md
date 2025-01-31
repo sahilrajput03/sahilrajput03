@@ -579,6 +579,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn Google Apps Script: [Click here](https://github.com/sahilrajput03/learn-google-apps-script)
 	- Learn Google Calendar: [Click here](./learn-google-calendar.md)
 	- Learn Google Office Utility Tools (Docs, Sheets, Slides): [Click here](https://docs.google.com/document/d/1CvC-N3daE9P8k2d-joGwLtRez9Vm4La0o23w1xCLJOw/edit)
+		- Tags: `Learn google docs`
 	- Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
 - **Open Source Apps from All over the world** - [Click here](./open-source-apps.md)
 - **Nocode tools**:
