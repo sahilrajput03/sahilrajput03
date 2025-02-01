@@ -822,6 +822,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: [Click here](https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0)
 - Learn Read the Docs (please use vitepress instead): [Click here](https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md)
 - Learn nps: [Click here](https://docs.google.com/document/d/1EcbKSm-csGMfun5SBLhgc1HQeDUzX2zRf_4oAZRRzbs/edit?tab=t.0)
+- Learn algolia: [Click here](https://docs.google.com/document/d/1WMaQCZ4rf4xs5mwJtBITiIwrJySLomLO_4YuNmK1X4k/edit?tab=t.0#heading=h.tdd10xy6k6gb)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 
