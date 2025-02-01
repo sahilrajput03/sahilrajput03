@@ -221,7 +221,7 @@ Consider using a `.vscode/tasks.json` file (you can autogenerate this file with 
 - TODO Tree Extension: [officia vscode video](https://www.youtube.com/shorts/GNJfxriE83Q)
 - Bookmarks Extension: [source-stackoverflow](https://stackoverflow.com/a/41757766/10012446)
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) - [Learn Code Runner - Google Doc](https://docs.google.com/document/d/1xLXMFJSQide-kGKkkDRA2sjpApDR-eBlddl0cWyZJOE/edit?tab=t.0#heading=h.i48pxvjshf90)
-- Rewrap Revived: [Click here](https://marketplace.visualstudio.com/items?itemName=dnut.rewrap-revived)
+- ❤️ Rewrap Revived: [Click here](https://marketplace.visualstudio.com/items?itemName=dnut.rewrap-revived)
 	- A tool to wrap your comments in 80 width characters.
 	- Usage: On any comment press `option+q` to wrap comments.
 	- Also: You can select line to wrap only that particular comment line (otherwise line above and below are wrapped considering all of it as a single comment).
