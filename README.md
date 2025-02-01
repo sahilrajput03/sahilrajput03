@@ -2,6 +2,18 @@
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" type="text/css" href="./sahilrajput03.css">
 
+<!-- may be I can add below code dynamically so my readme at gihtub doesn't show js code there -->
+<input
+	type="text"
+	id="searchBox"
+	oninput="() => { alert('hello')}"
+	placeholder="Search"
+/>
+<ul id="results">
+	<li><a target="_blank" href="https://github.com/sahilrajput03/learning_expressjs">Learn Expressjs</a></li>
+	<li><a target="_blank" href="https://sahilrajput.com/learn-markdown">Learn Markdown</a></li>
+</ul>
+
 <h1 align="center">Sahil Rajput</h1>
 
 <h6 align="center">A crazy spirit</h6>
