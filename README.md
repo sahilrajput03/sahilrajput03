@@ -1,7 +1,5 @@
-<script src="/searchLinksUtil.js"></script>
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
-<!-- Import local stylesheet (ChatGPT)  -->
 
 <div align="right">
 	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
@@ -11,6 +9,8 @@
 
 <h6 align="center">A crazy spirit</h6>
 
+<!-- STARTS-HERE ---- SEARCH FUNCTIONALITY -->
+<!-- NOTE: script tag for `searchLinksUtil.js` file in shown as it is on github's readme's page and it looks very dirty at the top of the page --- thus I'm putting the script tag at middle of the page to prevent showing it at the top. You can search it via "searchLinksUtil.js" -->
 <div class="search-container">
 	<input
 		type="text"
@@ -20,6 +20,7 @@
 	/>
 	<ul id="search-results"></ul>
 </div>
+<!-- ENDS-HERE ---- SEARCH FUNCTIONALITY -->
 
 
 <h6 align="right">
@@ -345,6 +346,10 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 - <Note: A document must have two titles such that titles appear in the outline. Thus do not remove this.>
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/RAX_I4AgjiU" title="8 Hours of Relaxing Campfire by a Lake at Sunset in 4k UHD, Stress Relief, Meditation &amp; Deep Sleep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- Import local stylesheet (ChatGPT)  -->
+<script src="/searchLinksUtil.js"></script>
+
 
 ![social-media-game](https://github.com/user-attachments/assets/9ff89485-1199-4635-aef5-d76fcb0050d9)
 

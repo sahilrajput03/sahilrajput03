@@ -5,5 +5,3 @@ description: > # Description of the site for meta tags (SEO) (multiple lines all
 include: [".well-known"]
 # We must exclude `node_modules` otherwise jekyll compiles the node_modules code as well and thus fails when we run `bundle exec jekyll serve --livereload` command.
 exclude: ["thoughts-principles-react/node_modules/*"]
-# variable
-# script_path: "/assets/js/script.js"
