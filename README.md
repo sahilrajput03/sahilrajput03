@@ -2,9 +2,14 @@
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" type="text/css" href="./sahilrajput03.css">
 
+<h6 align="right">
+	<a style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
+</h6>
+
 <h1 align="center">Sahil Rajput</h1>
 
 <h6 align="center">A crazy spirit</h6>
+
 
 <h6 align="right">
 	<a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>,
