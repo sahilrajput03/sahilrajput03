@@ -14,9 +14,14 @@
 	<li><a target="_blank" href="https://sahilrajput.com/learn-markdown">Learn Markdown</a></li>
 </ul>
 
+<div align="right">
+	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
+</div>
+
 <h1 align="center">Sahil Rajput</h1>
 
 <h6 align="center">A crazy spirit</h6>
+
 
 <h6 align="right">
 	<a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>,
@@ -573,7 +578,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](./vim.md)
-- **Learn Vscode:** [Click here](./learn-vscode.md)
+- **Learn Vscode:** [Click here](./learn-vscode)
 - **Learn Photoshop:**[Click here](./learn-photoshop.md)
 - **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
@@ -591,6 +596,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn Google Apps Script: [Click here](https://github.com/sahilrajput03/learn-google-apps-script)
 	- Learn Google Calendar: [Click here](./learn-google-calendar.md)
 	- Learn Google Office Utility Tools (Docs, Sheets, Slides): [Click here](https://docs.google.com/document/d/1CvC-N3daE9P8k2d-joGwLtRez9Vm4La0o23w1xCLJOw/edit)
+		- Tags: `Learn google docs`
 	- Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
 - **Open Source Apps from All over the world** - [Click here](./open-source-apps.md)
 - **Nocode tools**:
@@ -696,6 +702,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Suble and Impactful Mistakes with Exceptions: [Click here](./subtle-impactful-exceptions.md)
 - Learn Storybook: [Click here](./learn-storybook.md)
 - Learn Eslint: [Click here](./learn-eslint.md)
+- Learn Prettier: [Click here](https://docs.google.com/document/d/1T-VclkyzwAxoJ519c5P9xRrn0ZjRtQF-Ueu1GviMJYo/edit?tab=t.0)
 - Learn Chrome: [Click here](./learn-chrome.md)
 	- Chrome Extensions (internal link in above doc): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions)
 - Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md)
@@ -830,6 +837,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Openai (github repository): [Click here](https://github.com/sahilrajput03/learn-openai)
 - Learn npm: [Click here](https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0)
 - Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: [Click here](https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0)
+- Learn Read the Docs (please use vitepress instead): [Click here](https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md)
+- Learn nps: [Click here](https://docs.google.com/document/d/1EcbKSm-csGMfun5SBLhgc1HQeDUzX2zRf_4oAZRRzbs/edit?tab=t.0)
+- Learn algolia: [Click here](https://docs.google.com/document/d/1WMaQCZ4rf4xs5mwJtBITiIwrJySLomLO_4YuNmK1X4k/edit?tab=t.0#heading=h.tdd10xy6k6gb)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
+
 
