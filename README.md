@@ -20,7 +20,6 @@
 		oninput="searchFunction(event)"
 		placeholder="Search here..."
 	/>
-	
 	<ul id="search-results"></ul>
 </div>
 
