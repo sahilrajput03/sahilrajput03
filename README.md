@@ -2,7 +2,8 @@
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
 <!-- Import local stylesheet (ChatGPT)  -->
-<script src="/searchLinksUtil.js"></script>
+<head><script src="/searchLinksUtil.js"></script></head>
+
 <div align="right">
 	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
 </div>
