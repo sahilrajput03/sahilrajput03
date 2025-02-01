@@ -561,7 +561,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](./vim.md)
-- **Learn Vscode:** [Click here](./learn-vscode.md)
+- **Learn Vscode:** [Click here](./learn-vscode)
 - **Learn Photoshop:**[Click here](./learn-photoshop.md)
 - **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
