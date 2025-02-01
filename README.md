@@ -1,7 +1,6 @@
 
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
-
 <!-- Import local stylesheet (ChatGPT)  -->
 <script src="{{site.baseurl}}/searchLinksUtil.js"></script>
 
