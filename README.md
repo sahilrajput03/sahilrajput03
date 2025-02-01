@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
 
 <!-- Import local stylesheet (ChatGPT)  -->
-<script src="{{ site.baseurl }}/searchLinksUtil.js"></script>
+<script src="{{site.baseurl}}/searchLinksUtil.js"></script>
 
 <div align="right">
 	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
@@ -21,8 +21,7 @@
 		placeholder="Search here..."
 	/>
 	
-	<ul id="search-results">
-	</ul>
+	<ul id="search-results"></ul>
 </div>
 
 
