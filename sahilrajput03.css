@@ -1,38 +1,40 @@
 /* NOTE: if you define these styles directly in README.md
-file then you'll be able to get HRM support. FOR NOW YOU HAVE TO REFRESH THE
-PAGE IN BROWER :(  :(  :(   :(
+file then you'll be able to get HRM support. FOR NOW YOU HAVE TO HARD REFRESH THE
+PAGE IN BROWER via ctrl+shift+r  :(  :(  :(   :(
 */
 
 a {
-	color: deeppink;
-	text-decoration: underline;
+  color: deeppink;
+  text-decoration: underline;
 }
 
-  /* Code snippet's background color */
-  .highlight, .language-txt, pre {
-    background-color: #e7e7e763 !important;
-  }
+/* Code snippet's background color */
+.highlight,
+.language-txt,
+pre {
+  background-color: #e7e7e763 !important;
+}
 
-  /* ---- DARK MOE STYLES BELOW ---- */
-  /* ---- DARK MOE STYLES BELOW ---- */
-  /* ---- DARK MOE STYLES BELOW ---- */
-  @media (prefers-color-scheme: dark) {
+/* * STARTS-HERE ---- DARK MOE STYLES BELOW ---- */
+@media (prefers-color-scheme: dark) {
   body {
     background-color: #222;
     color: #fff;
   }
-  
+
   /* Style links in dark mode */
   a {
     color: deeppink;
-	text-decoration: underline;
+    text-decoration: underline;
   }
 
   /* Code snippet's background color */
-  .highlight, .language-txt, pre {
+  .highlight,
+  .language-txt,
+  pre {
     background-color: black !important;
   }
-  
+
   /* Style buttons in dark mode */
   button {
     background-color: #444;
@@ -40,3 +42,33 @@ a {
     border: 1px solid #666;
   }
 }
+/* * ENDS-HERE ---- DARK MOE STYLES BELOW ---- */
+
+/* * STARTS-HERE Search Feature Related Design */
+.search-container {
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.search-container > input {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.search-container > ul {
+  list-style-type: none;
+}
+.search-container > #search-results {
+  text-align: center;
+}
+/*  mobile/tab specific design */
+@media (max-width: 800px) {
+  /* Testing only */
+  body {
+    /* margin: 50rem; */
+  }
+  .search-container {
+    padding: 1rem 1rem !important;
+  }
+}
+/* * ENDS-HERE Search Feature Related Design */

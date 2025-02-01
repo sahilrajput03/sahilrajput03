@@ -1,18 +1,9 @@
 
 <!-- Import local stylesheet  -->
-<link rel="stylesheet" type="text/css" href="./sahilrajput03.css">
+<link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
 
-<!-- may be I can add below code dynamically so my readme at gihtub doesn't show js code there -->
-<input
-	type="text"
-	id="searchBox"
-	oninput="() => { alert('hello')}"
-	placeholder="Search"
-/>
-<ul id="results">
-	<li><a target="_blank" href="https://github.com/sahilrajput03/learning_expressjs">Learn Expressjs</a></li>
-	<li><a target="_blank" href="https://sahilrajput.com/learn-markdown">Learn Markdown</a></li>
-</ul>
+<!-- Import local stylesheet (ChatGPT)  -->
+<script src="{{ site.baseurl }}/searchLinksUtil.js"></script>
 
 <div align="right">
 	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
@@ -21,6 +12,18 @@
 <h1 align="center">Sahil Rajput</h1>
 
 <h6 align="center">A crazy spirit</h6>
+
+<div class="search-container">
+	<input
+		type="text"
+		id="search-input"
+		oninput="searchFunction(event)"
+		placeholder="Search here..."
+	/>
+	
+	<ul id="search-results">
+	</ul>
+</div>
 
 
 <h6 align="right">
