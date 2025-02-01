@@ -2,9 +2,9 @@
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" type="text/css" href="./sahilrajput03.css">
 
-<h6 align="right">
+<div align="right">
 	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
-</h6>
+</div>
 
 <h1 align="center">Sahil Rajput</h1>
 
