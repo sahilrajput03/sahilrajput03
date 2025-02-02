@@ -676,44 +676,42 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 				- `spawn` child process (preffered for non js programs)
 				- `fork` child process (preffered for js programs)
 				- `worker_threads` (preffered for multi threading in same process for cpu intensive tasks)
-		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container)
-		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
-		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md)
-	- **Learn Javascript:** [Click here](./learn-js.md)
-		- **Learn Proxy in Javascript:** [Click here](https://github.com/sahilrajput03/js-object-proxy)
-	- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
-	- **Prime Resources - Javascript:** [Click here](./prime-resources-js.md)
-	- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa)
-	- **Convert javascript object to json - cli tool** - [Click here](./obj-json.md)
-	- **Typescript typechecking in javascript files with jsdoc:** [Click here](./@ts-check.md)
-- **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx)
-  - Reverse proxy with `express-http-proxy` (npm library): [sahilrajput03/reverseProxy](https://github.com/sahilrajput03/reverseProxy)
-- **Leetcode: [Click here](./learn-leetcode.md)**
-- Learn auth0: [Click here](./learn-auth0.md)
-- Best of Javascript: [Click here](https://bestofjs.org/)
-- **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
-	- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)
-	- Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)
-- **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit)
-	- Website Designs: [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb)
+		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
+		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
+		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
+	- **Learn Javascript:** [Click here](./learn-js.md){: search-title="Learn Javascript"}
+		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
+	- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md){: search-title="Learn from State of Javascript 2021"}
+	- **Prime Resources - Javascript:** [Click here](./prime-resources-js.md){: search-title="Prime Resources - Javascript"}
+	- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa){: search-title="DSA in Javascript, Course"}
+	- **Convert javascript object to json - cli tool** - [Click here](./obj-json.md){: search-title="Convert javascript object to json - cli tool"}
+	- **Typescript typechecking in javascript files with jsdoc:** [Click here](./@ts-check.md){: search-title="Typescript typechecking in javascript files with jsdoc"}
+- **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx){: search-title="Nginx config files"}
+  - Reverse proxy with `express-http-proxy` (npm library): [sahilrajput03/reverseProxy](https://github.com/sahilrajput03/reverseProxy){: search-title="Reverse proxy with `express-http-proxy` (npm library)"}
+- **Leetcode: [Click here](./learn-leetcode.md)**{: search-title="Leetcode"}
+- Learn auth0: [Click here](./learn-auth0.md){: search-title="Learn auth0"}
+- Best of Javascript: [Click here](https://bestofjs.org/){: search-title="Best of Javascript"}
+- **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail){: search-title="Css Design Trail"}
+	- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md){: search-title="Learn Bootstrap"}
+	- Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md){: search-title="Learn Styled Components"}
+- **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit){: search-title="Learn Figma"}
+	- Website Designs: [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb){: search-title="Website Designs"}
 - **Learn FigJam:** [Click here](./learn-figjam.md)
-- Learn Jest/expect: [Click here](./learn-jest-expect.md)
-- Learn Elastic Search: [Click here](./learn-elastic-search.md)
-- Suble and Impactful Mistakes with Exceptions: [Click here](./subtle-impactful-exceptions.md)
-- Learn Storybook: [Click here](./learn-storybook.md)
-- Learn Eslint: [Click here](./learn-eslint.md)
-- Learn Prettier: [Click here](https://docs.google.com/document/d/1T-VclkyzwAxoJ519c5P9xRrn0ZjRtQF-Ueu1GviMJYo/edit?tab=t.0)
-- Learn Chrome: [Click here](./learn-chrome.md)
-	- Chrome Extensions (internal link in above doc): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions)
-- Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md)
-- Learn Paypal: [Click here](./learn-paypal.md)
-- Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md)
-- Learn Kdenlive (video editor): [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit)
-- Business Terms: [Click here](./learn-business-terms.md)
-- Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook)
-- Learn Playwright: [Click here](./learn-playwright.md)
-- Friends Github Profiles: [Click here](./friends-github.md)
-- Learn Jira: [Click here](./learn-jira.md)
+- Learn Jest/expect: [Click here](./learn-jest-expect.md){: search-title="Learn Jest/expect"}
+- Learn Elastic Search: [Click here](./learn-elastic-search.md){: search-title="Learn Elastic Search"}
+- Learn Storybook: [Click here](./learn-storybook.md){: search-title="Learn Storybook"}
+- Learn Eslint: [Click here](./learn-eslint.md){: search-title="Learn Eslint"}
+- Learn Prettier: [Click here](https://docs.google.com/document/d/1T-VclkyzwAxoJ519c5P9xRrn0ZjRtQF-Ueu1GviMJYo/edit?tab=t.0){: search-title="Learn Prettier"}
+- Learn Chrome: [Click here](./learn-chrome.md){: search-title="Learn Chrome"}
+	- Chrome Extensions (internal link in above doc): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions){: search-title="Chrome Extensions (inside Learn Chrome Doc)"}
+- Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md){: search-title="Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever)"}
+- Learn Paypal: [Click here](./learn-paypal.md){: search-title="Learn Paypal"}
+- Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md){: search-title="Learn Paypal Subscription And Database Schema"}
+- Learn Kdenlive (video editor): [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit){: search-title="Learn Kdenlive (video editor)"}
+- Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook){: search-title="Learn storyboook"}
+- Learn Playwright: [Click here](./learn-playwright.md){: search-title="Learn Playwright"}
+- Friends Github Profiles: [Click here](./friends-github.md){: search-title="Friends Github Profiles"}
+- Learn Jira: [Click here](./learn-jira.md){: search-title="Learn Jira"}
 - Learn RxJs: [Click here](./learn-rxjs.md){: search-title="Learn RxJs"}
 - ❤️ Learn Vitejs, VitePress, Vitest: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0){: search-title="❤️ Learn Vitejs, VitePress, Vitest"}
 - Learn Javascript Date: [Click here](./learn-javascript-date.md){: search-title="Learn Javascript Date"}
@@ -839,6 +837,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Read the Docs (please use vitepress instead): [Click here](https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md){: search-title="Learn Read the Docs"}
 - Learn nps: [Click here](https://docs.google.com/document/d/1EcbKSm-csGMfun5SBLhgc1HQeDUzX2zRf_4oAZRRzbs/edit?tab=t.0){: search-title="Learn nps"}
 - Learn Algolia: [Click here](https://docs.google.com/document/d/1WMaQCZ4rf4xs5mwJtBITiIwrJySLomLO_4YuNmK1X4k/edit?tab=t.0#heading=h.tdd10xy6k6gb){: search-title="Learn Algolia"}
+- Google Docs:
+	- Suble and Impactful Mistakes with Exceptions: [Click here](./subtle-impactful-exceptions.md){: search-title="Suble and Impactful Mistakes with Exceptions"}
+	- Business Terms: [Click here](./learn-business-terms.md){: search-title="Business Terms"}
+
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 
