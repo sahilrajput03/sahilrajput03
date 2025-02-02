@@ -51,7 +51,7 @@ pre {
   display: flex;
   flex-direction: column;
 }
-.search-container > input {
+.search-container > #search-input {
   margin-bottom: 10px;
   text-align: center;
 }
