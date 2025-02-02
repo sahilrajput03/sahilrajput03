@@ -672,10 +672,13 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Javascript:**
 	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
 		- Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node)
-			- tldr
-				- `spawn` child process (preffered for non js programs)
-				- `fork` child process (preffered for js programs)
-				- `worker_threads` (preffered for multi threading in same process for cpu intensive tasks)
+			- Few topics covered in above project's readme:
+				- `spawn` vs. `fork` vs. `worker_threads`
+					- `spawn` child process (preffered for non js programs)
+					- `fork` child process (preffered for js programs)
+					- `worker_threads` (preffered for multi threading in same process for cpu intensive tasks)
+				- Is unix socket same as nodejs sockets? Be concise. (ChatGPT)
+					- Difference between sockets vs. web sockets. Be concise. (ChatGPT)
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container)
 		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md)
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md)
