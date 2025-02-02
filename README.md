@@ -843,3 +843,4 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 
 
+***Note to Sahil: Search Index done from bottom till "Learn Sanskrit" link (moving upwards).***
