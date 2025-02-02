@@ -791,34 +791,34 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage)
  		- Used by OpenAI: [Click here](https://status.openai.com/uptime)
  	- Other alternatives of *statuspage* on Google: [Click here](https://www.google.com/search?q=status+page+like+services)
-- **Learn Sanskrit:** [Click here](https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit)
-- SBI Bank Cyber Security Guidelines, Hindi: [Click here](https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit) 
-- Learn Python: [Click here](https://github.com/sahilrajput03/learn-python) ([doc](https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji) (inprocess of migration))
-- Learn Outlook: [Click here](https://docs.google.com/document/d/1YpexQLJNdNrQhjidRt38bC49hcgiIO_hAPqfGSEds8Y/edit#heading=h.2mmi0x1sciq7)
-- Learn Adobe Acrobat Reader: [Click here](https://docs.google.com/document/d/1H66PnT3q8uUXEdSePyw89X4E5UpaTeXEYEGo03LUeig/edit#heading=h.faibccl9c26h)
-- Learn Cloudinary: [Click here](https://docs.google.com/document/d/1a2lUrjw_Yb83VS1vdbY4VdRRXGZ_gU6WLnNv3v9z_Ic/edit?tab=t.0)
+- **Learn Sanskrit:** [Click here](https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit){: search-title="Learn Sanskrit"}
+- SBI Bank Cyber Security Guidelines, Hindi: [Click here](https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit){: search-title="SBI Bank Cyber Security Guidelines, Hindi"}
+- Learn Python: [Click here](https://github.com/sahilrajput03/learn-python){: search-title="Learn Python - Github Repo"} ([doc](https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji){: search-title="Learn Python - Doc"} (inprocess of migration))
+- Learn Outlook: [Click here](https://docs.google.com/document/d/1YpexQLJNdNrQhjidRt38bC49hcgiIO_hAPqfGSEds8Y/edit#heading=h.2mmi0x1sciq7){: search-title="Learn Outlook"}
+- Learn Adobe Acrobat Reader: [Click here](https://docs.google.com/document/d/1H66PnT3q8uUXEdSePyw89X4E5UpaTeXEYEGo03LUeig/edit#heading=h.faibccl9c26h){: search-title="Learn Adobe Acrobat Reader"}
+- Learn Cloudinary: [Click here](https://docs.google.com/document/d/1a2lUrjw_Yb83VS1vdbY4VdRRXGZ_gU6WLnNv3v9z_Ic/edit?tab=t.0){: search-title="Learn Cloudinary"}
 	- Cloudinary primarily provides cloud-based media management, enabling users to store, optimize, transform, and deliver images and videos efficiently across web and mobile platforms.
-	- [sahilrajput03/learn-cloudinary](https://github.com/sahilrajput03/learn-cloudinary)
-- Learn HTMx: [Click here](https://docs.google.com/document/d/1O2PPUAtUGDW5janNboDhcPpq53F-B3H1Lt2hhdgShhE/edit?tab=t.0)
-- Funny Loading Messages: [Click here](https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32)
-- Meme makers: [Click here](https://docs.google.com/document/d/14WQUE71-JsCF2sVOgVbsrxtbJgvw_AfnGrbx9V0YR4g/edit?tab=t.0)
-- Learn Fediverse \| Mastodon: [Click here](https://docs.google.com/document/d/1jDg0bbDG2fLH_OsctFAHJ1JMxToaBhCieWBHhuZTaOs/edit?tab=t.0)
-- Learn NDE: [Click here](https://docs.google.com/document/d/1xkDQfzA-6MsIiTaGL5y4_Hvy1v1vhinJQ6QDQ8UdZ7U/edit?tab=t.0)
-- UUID Generator (#hash, #hashid): [www.uuidgenerator.net](https://www.uuidgenerator.net)
-- Learn Machine Learning: [Click here](https://docs.google.com/document/d/1ctpjEF820WJtDRjtKNpyOfNPcUbwC2EMuhEfBcBrIIc/edit?tab=t.0)
-- Syncing backend and frontned code (e.g, `types.ts` file) and have isomorphinc aka universal directory (file/files) across repositories (fronend,backend): [Click here](./isomorphic-code.md)
-- Learn Ayurveda: [Click here](https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0)
-- Learn Dyaan/Meditation: [Click here](https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.tc9ukx6oxone)
-	- Learn Heartfullness: [Click here](https://docs.google.com/document/d/1WPbWXvXWyJTcpFLigm52cOa90IwAp1nI8aZ8FgUj-CQ/edit?tab=t.0)
-- Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass)
-- Learn Accessibility: [Click here](https://docs.google.com/document/d/1FsP4uZQl3oMRb9LKOuU1jzrvEvigce-NyllIXp2LweQ/edit?tab=t.0#heading=h.xl4iqlcuuql3)
-- Learn `.editorconfig` file : [Click here](https://editorconfig.org/) (https://editorconfig.org/)
+	- [sahilrajput03/learn-cloudinary](https://github.com/sahilrajput03/learn-cloudinary){: search-title="sahilrajput03/learn-cloudinary"}
+- Learn HTMx: [Click here](https://docs.google.com/document/d/1O2PPUAtUGDW5janNboDhcPpq53F-B3H1Lt2hhdgShhE/edit?tab=t.0){: search-title="Learn HTMx"}
+- Funny Loading Messages: [Click here](https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32){: search-title="Funny Loading Messages"}
+- Meme makers: [Click here](https://docs.google.com/document/d/14WQUE71-JsCF2sVOgVbsrxtbJgvw_AfnGrbx9V0YR4g/edit?tab=t.0){: search-title="Meme makers"}
+- Learn Fediverse \| Mastodon: [Click here](https://docs.google.com/document/d/1jDg0bbDG2fLH_OsctFAHJ1JMxToaBhCieWBHhuZTaOs/edit?tab=t.0){: search-title="Learn Fediverse \| Mastodon"}
+- Learn NDE: [Click here](https://docs.google.com/document/d/1xkDQfzA-6MsIiTaGL5y4_Hvy1v1vhinJQ6QDQ8UdZ7U/edit?tab=t.0){: search-title="Learn NDE"}
+- UUID Generator in Web (#hash, #hashid): [www.uuidgenerator.net](https://www.uuidgenerator.net){: search-title="UUID Generator in Web"}
+- Learn Machine Learning: [Click here](https://docs.google.com/document/d/1ctpjEF820WJtDRjtKNpyOfNPcUbwC2EMuhEfBcBrIIc/edit?tab=t.0){: search-title="Learn Machine Learning"}
+- Syncing backend and frontned code (e.g, `types.ts` file) and have isomorphinc aka universal directory (file/files) across repositories (fronend,backend): [Click here](./isomorphic-code.md){: search-title="Syncing backend and frontned code (e.g, `types.ts` file) and have isomorphinc aka universal directory (file/files) across repositories (fronend,backend)"}
+- Learn Ayurveda: [Click here](https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0){: search-title="Learn Ayurveda"}
+- Learn Dyaan/Meditation: [Click here](https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.tc9ukx6oxone){: search-title="Learn Dyaan/Meditation"}
+	- Learn Heartfullness: [Click here](https://docs.google.com/document/d/1WPbWXvXWyJTcpFLigm52cOa90IwAp1nI8aZ8FgUj-CQ/edit?tab=t.0){: search-title="Learn Heartfullness"}
+- Glass Thoughts: [Click here](https://sveltev5.vercel.app/glass){: search-title="Glass Thoughts"}
+- Learn Accessibility: [Click here](https://docs.google.com/document/d/1FsP4uZQl3oMRb9LKOuU1jzrvEvigce-NyllIXp2LweQ/edit?tab=t.0#heading=h.xl4iqlcuuql3){: search-title="Learn Accessibility"}
+- Learn `.editorconfig` file : [Click here](https://editorconfig.org/){: search-title="Learn `.editorconfig` file"}
 	- Formal Specification (mentioned on above site): [Click here](https://spec.editorconfig.org)
 	- Used in svelte website project: [Click here](https://github.com/sveltejs/svelte/blob/main/.editorconfig)
-- Learn Java: [Click here](https://github.com/sahilrajput03/learning_java)
-- When was electricity, motor, bulb?: [Click here](https://docs.google.com/document/d/1rBAz5F1Y6Qtt7fUyCtGM4ltU67Utjd29vY63QrIua5U/edit?tab=t.0)
-- Is .NET and ASP.NET the same? (ChatGPT): [Click here](https://docs.google.com/document/d/1jj8PMJA5rOrKwH0X0mtaaoMRdV4StxhQdqaTsok6Lb0/edit?tab=t.0#heading=h.favfgh2zw0g9)
-- Learn Coqui (TTS): [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
+- Learn Java: [Click here](https://github.com/sahilrajput03/learning_java){: search-title="Learn Java"}
+- When was electricity, motor, bulb?: [Click here](https://docs.google.com/document/d/1rBAz5F1Y6Qtt7fUyCtGM4ltU67Utjd29vY63QrIua5U/edit?tab=t.0){: search-title="When was electricity, motor, bulb?"}
+- Is .NET and ASP.NET the same? (ChatGPT): [Click here](https://docs.google.com/document/d/1jj8PMJA5rOrKwH0X0mtaaoMRdV4StxhQdqaTsok6Lb0/edit?tab=t.0#heading=h.favfgh2zw0g9){: search-title="Is .NET and ASP.NET the same? (ChatGPT)"}
+- Learn Coqui (TTS): [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0){: search-title="Learn Coqui (TTS)"}
 - Learn YouTube: [Click here](https://docs.google.com/document/d/1t5TkoOwuV1we5Iz5SdCrwl0rrO81PtJq7ja7e7f0y10/edit?tab=t.0#heading=h.28mi74v8cmec){: search-title="Learn YouTube"}
 - Learn Generating Authenticator code (TOTP) programatically for browser automation login purpose (like google login / aws login): [Click here](https://github.com/sahilrajput03/learn-playwright/blob/e014dd04078449c175d65f265f370b729e756bc0/test-otplib-authenticator.js){: search-title="Learn Generating Authenticator code (TOTP) programatically for browser automation login purpose (like google login / aws login)"}
 - Browser For Terminal (svelte): [Click here](https://github.com/sahilrajput03/browser-for-terminal){: search-title="Browser For Terminal (svelte)"}
