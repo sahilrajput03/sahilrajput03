@@ -1,6 +1,9 @@
 // Select the container
 const container = document.querySelector(".search-container");
 
+// Why not algolia?
+// I'm not using algolia because it is overkill for my local links search use case. Also free algolia only allows you to have only 1000 links to be indexed which is really low for search links thing.
+
 // Dynamically add the <textarea> inside the <div class="search-container"> 
 // Note: I'm adding it dynamically because otherwise I'm seeing textarea element in my readme.md file on github which looks a bit dirty on github.
 const textarea = document.createElement("textarea");
