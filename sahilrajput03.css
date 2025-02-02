@@ -46,6 +46,8 @@ pre {
 
 /* * STARTS-HERE Search Feature Related Design */
 .search-container {
+  /* This min-height is to prevent content shift when textarea is added dynamically. */
+  min-height: 88px;
   padding: 1rem 5rem;
   border-radius: 1rem;
   display: flex;

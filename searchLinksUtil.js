@@ -1,3 +1,18 @@
+// Select the container
+const container = document.querySelector(".search-container");
+
+// Dynamically add the <textarea> inside the <div class="search-container"> 
+// Note: I'm adding it dynamically because otherwise I'm seeing textarea element in my readme.md file on github which looks a bit dirty on github.
+const textarea = document.createElement("textarea");
+// I made it a textarea instead of an input element because on mobile we see credit card related helpful entities when we use input tag
+textarea.rows = 1;
+textarea.type = "text";
+textarea.id = "search-input";
+textarea.placeholder = "Search here...";
+textarea.setAttribute("oninput", "searchFunction(event)");
+
+// Add the textarea as the first element
+container.prepend(textarea);
 
 async function searchFunction(e) {
     const searchQuery = e.target.value.toLowerCase();

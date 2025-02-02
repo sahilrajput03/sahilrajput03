@@ -12,7 +12,8 @@
 <!-- STARTS-HERE ---- SEARCH FUNCTIONALITY -->
 <!-- NOTE: script tag for `searchLinksUtil.js` file in shown as it is on github's readme's page and it looks very dirty at the top of the page --- thus I'm putting the script tag at middle of the page to prevent showing it at the top. You can search it via "searchLinksUtil.js" -->
 <div class="search-container">
-	<textarea rows="1" type="text" id="search-input" oninput="searchFunction(event)" placeholder="Search here..." ></textarea> <ul id="search-results"></ul>
+	<!-- textarea input would come here.. -->
+	<ul id="search-results"></ul>
 </div>
 <!-- ENDS-HERE ---- SEARCH FUNCTIONALITY -->
 
