@@ -578,6 +578,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Vim-notes:** [Click here](./vim.md)
 - **Learn Vscode:** [Click here](./learn-vscode)
+	- Using Vslive Share: [Click here](learn-vs-live-share.md){: search-title="Using Vslive Share"}
 - **Learn Photoshop:**[Click here](./learn-photoshop.md)
 - **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
 - **Why telegram (not whatsapp):** [Click here](why-telegram.md)
@@ -713,83 +714,82 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Playwright: [Click here](./learn-playwright.md)
 - Friends Github Profiles: [Click here](./friends-github.md)
 - Learn Jira: [Click here](./learn-jira.md)
-- Learn RxJs: [Click here](./learn-rxjs.md)
-- ❤️ Learn Vitejs, VitePress, Vitest: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0)
-- Learn Javascript Date: [Click here](./learn-javascript-date.md)
-- Learn Luxon (DateTime): [Click here](./learn-luxon.md)
-- Learn `Chalk` (node library): [Click here](./learn-chalkjs.md)
-- Learn `Colors` (node library): [Click here](./learn-colors-npm.md)
-- Learn Spirituality: [Click here](./learn-spirituality.md)
-- Learn Skype: [Click here](./learn-skype.md)
-- Learn SEO, react-helmet: [Click here](./learn-seo.md)
-- Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](./learn-leaflet.md)
+- Learn RxJs: [Click here](./learn-rxjs.md){: search-title="Learn RxJs"}
+- ❤️ Learn Vitejs, VitePress, Vitest: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0){: search-title="❤️ Learn Vitejs, VitePress, Vitest"}
+- Learn Javascript Date: [Click here](./learn-javascript-date.md){: search-title="Learn Javascript Date"}
+- Learn Luxon (DateTime): [Click here](./learn-luxon.md){: search-title="Learn Luxon (DateTime)"}
+- Learn `Chalk` (node library): [Click here](./learn-chalkjs.md){: search-title="Learn `Chalk` (node library)"}
+- Learn `Colors` (node library): [Click here](./learn-colors-npm.md){: search-title="Learn `Colors` (node library)"}
+- Learn Spirituality: [Click here](./learn-spirituality.md){: search-title="Learn Spirituality"}
+- Learn Skype: [Click here](./learn-skype.md){: search-title="Learn Skype"}
+- Learn SEO, react-helmet: [Click here](./learn-seo.md){: search-title="Learn SEO, react-helmet"}
+- Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](./learn-leaflet.md){: search-title="Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓)"}
 - Validation Library:
-	- Learn Zod: [Click here](https://github.com/sahilrajput03/learn-zod)
-	- Learn classvalidator: [Click here](./learn-classvalidator.md)
-- Learn South Indian Bank - Internet Banking: [Click here](./learn-south-india-bank)
-- Learn Upwork (private repository): [Click here](./learn-upwork)
-- Learn Flameshot: [Click here](./learn-flameshot.md)
-- Learn Wordpress Editing: [Click here](./learn-wordpress-editing.md)
-- **Learn Capacitor:** [Click here](./learn-capacitor.md)
-- **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
-- Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/11RhQBo-wzvzVdUFe3RwAjhnuTGqSk8hRS5EGyv1lUGE/edit)
-- Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md)
-- Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main)
-- Learn Remix: [Click here](./learn-remix.md)
-- Learn Audacity: [Click here](https://docs.google.com/document/d/1RB2Kc2O3_mbiZcrCOcXwQZNOG3d48-1cWNz8t88llyE/edit)
-- Learn i3: [Click here](./learn-i3.md)
-- Learn Cloudflare: [Click here](./learn-cloudflare.md)
-- Learn Gist: [Click here](./learn-gist.md)
-- Learn streaming mp3 file: [Click here](./learn-streaming.md)
-- LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d)
-- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](./generate-ssh-key-pairs.md)
-- Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk)
-- Why you should not text your girlfriend?: [Click here](./why-you-should-not-text-your-girlfriend-much.md)
-- Learn Anydesk: [Click here](learn-anydesk.md)
-- My youtube video ids: [Click here](./my-youtube-video-ids.md)
-- Learn Amazon Product Advertising API: [Click here](learn-amazon-product-advertising-api.md)
-- Web Components: [Click here](https://github.com/sahilrajput03/learn-web-components)
-- Learn Deno: [Click here](https://github.com/sahilrajput03/deno-playground)
-- Learn Flutter: [Click here](https://github.com/sahilrajput03/learn-flutter)
-- Learn Emojis 😇😃🚀😎😻💯💫💣: [Click here](https://tools.picsart.com/text/emojis/), [2](https://emojipedia.org/)
-- 🚀 Learn limiting concurrent requests with [`queue()`](https://caolan.github.io/async/v3/docs.html#queue) of [`async`](https://caolan.github.io/async/v3/) library (awesome): [Click here](https://github.com/sahilrajput03/learn-express/blob/main/learn-limiting-concurrent-requests.md)
-- Learn Steam (games): [Click here](learn-steam.md)
-- Learn KeepassXC: [Click here](learn-keepassxc.md)
-- Learn infinite: [Click here](learn-infinite.md)
-- 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
-- Learn LinkedIn: [Click here](learn-linkedin.md)
-- Using Vslive Share: [Click here](learn-vs-live-share.md)
-- Learn Ubuntu: [Click here](https://docs.google.com/document/d/1eDQQOdAXI2ihob4qvysJMdphUeUdeizZXN1V90QHXeA/edit)
-- Learn macOS: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?pli=1)
-	- Learn macOS - Samaksh: [Click here](https://docs.google.com/document/d/1N310qOwvRuu1K3zzpChj3Tt6qPMhtFQ7W2RGSSIrw8U/edit#heading=h.ggwji2r8315h)
-- Learn making hardcover from paperback books: [Click here](https://docs.google.com/document/d/14abXkjtuNyZAQW2QZMUxIcQmfEK7i3IZxaT_0NC7C0k/edit#heading=h.prohzhw7w5zw)
-- Charge battery when it hits below 30% and stop charging when it reaches 80%: [1](https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/), [2](https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life)
-- learn-raspberryPi (backupd files): [Click here](https://github.com/sahilrajput03/learn-raspberrypi)
-- Learn RaspberryPi: [Click here](https://github.com/sahilrajput03/learn-raspberry)
-- Learn React Query: [Click here](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
-- Learn Sandpack: [Click here](https://github.com/sahilrajput03/learn-sandpack) ([view live](https://learn-sandpack.vercel.app/))
-- 🚀🚀 Learn Jekyll and running github pages locally: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md)
+	- Learn Zod: [Click here](https://github.com/sahilrajput03/learn-zod){: search-title="Learn Zod"}
+	- Learn classvalidator: [Click here](./learn-classvalidator.md){: search-title="Learn classvalidator"}
+- Learn South Indian Bank - Internet Banking: [Click here](./learn-south-india-bank){: search-title="Learn South Indian Bank - Internet Banking"}
+- Learn Upwork (private repository): [Click here](./learn-upwork){: search-title="Learn Upwork (private repository)"}
+- Learn Flameshot: [Click here](./learn-flameshot.md){: search-title="Learn Flameshot"}
+- Learn Wordpress Editing: [Click here](./learn-wordpress-editing.md){: search-title="Learn Wordpress Editing"}
+- **Learn Capacitor:** [Click here](./learn-capacitor.md){: search-title="Learn Capacitor"}
+- **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md){: search-title="Learn Android"}
+- Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/11RhQBo-wzvzVdUFe3RwAjhnuTGqSk8hRS5EGyv1lUGE/edit){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
+- Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md){: search-title="Learn ChatGPT (My Notes)"}
+- Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main){: search-title="Learn PWA/TWA/WebAPK (Progressive Web Applications)"}
+- Learn Remix: [Click here](./learn-remix.md){: search-title="Learn Remix"}
+- Learn Audacity: [Click here](https://docs.google.com/document/d/1RB2Kc2O3_mbiZcrCOcXwQZNOG3d48-1cWNz8t88llyE/edit){: search-title="Learn Audacity"}
+- Learn i3: [Click here](./learn-i3.md){: search-title="Learn i3"}
+- Learn Cloudflare: [Click here](./learn-cloudflare.md){: search-title="Learn Cloudflare"}
+- Learn Gist: [Click here](./learn-gist.md){: search-title="Learn Gist"}
+- Learn streaming mp3 file: [Click here](./learn-streaming.md){: search-title="Learn streaming mp3 file"}
+- LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d){: search-title="LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤"}
+- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](./generate-ssh-key-pairs.md){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
+- Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk){: search-title="Learn GTK (GUI Development in C, Linux)"}
+- Why you should not text your girlfriend?: [Click here](./why-you-should-not-text-your-girlfriend-much.md){: search-title="Why you should not text your girlfriend?"}
+- Learn Anydesk: [Click here](learn-anydesk.md){: search-title="Learn Anydesk"}
+- My youtube video ids: [Click here](./my-youtube-video-ids.md){: search-title="My youtube video ids"}
+- Learn Amazon Product Advertising API: [Click here](learn-amazon-product-advertising-api.md){: search-title="Learn Amazon Product Advertising API"}
+- Web Components: [Click here](https://github.com/sahilrajput03/learn-web-components){: search-title="Web Components"}
+- Learn Deno: [Click here](https://github.com/sahilrajput03/deno-playground){: search-title="Learn Deno"}
+- Learn Flutter: [Click here](https://github.com/sahilrajput03/learn-flutter){: search-title="Learn Flutter"}
+- Learn Emojis 😇😃🚀😎😻💯💫💣: [Click here](https://tools.picsart.com/text/emojis/), [2](https://emojipedia.org/){: search-title="Learn Emojis 😇😃🚀😎😻💯💫💣"}
+- 🚀 Learn limiting concurrent requests with [`queue()`](https://caolan.github.io/async/v3/docs.html#queue) of [`async`](https://caolan.github.io/async/v3/) library (awesome): [Click here](https://github.com/sahilrajput03/learn-express/blob/main/learn-limiting-concurrent-requests.md){: search-title="🚀 Learn limiting concurrent requests with queue() of async library (awesome)"}
+- Learn Steam (games): [Click here](learn-steam.md){: search-title="Learn Steam (games)"}
+- Learn KeepassXC: [Click here](learn-keepassxc.md){: search-title="Learn KeepassXC"}
+- Learn infinite: [Click here](learn-infinite.md){: search-title="Learn infinite"}
+- 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md){: search-title="🚀🚀 Learn mocp (Music on Console)"}
+- Learn LinkedIn: [Click here](learn-linkedin.md){: search-title="Learn LinkedIn"}
+- Learn Ubuntu: [Click here](https://docs.google.com/document/d/1eDQQOdAXI2ihob4qvysJMdphUeUdeizZXN1V90QHXeA/edit){: search-title="Learn Ubuntu"}
+- Learn macOS: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?pli=1){: search-title="Learn macOS (Sahil)"}
+	- Learn macOS - Samaksh: [Click here](https://docs.google.com/document/d/1N310qOwvRuu1K3zzpChj3Tt6qPMhtFQ7W2RGSSIrw8U/edit#heading=h.ggwji2r8315h){: search-title="Learn macOS - Samaksh"}
+- Learn making hardcover from paperback books: [Click here](https://docs.google.com/document/d/14abXkjtuNyZAQW2QZMUxIcQmfEK7i3IZxaT_0NC7C0k/edit#heading=h.prohzhw7w5zw){: search-title="Learn making hardcover from paperback books"}
+- Charge battery when it hits below 30% and stop charging when it reaches 80%: [1](https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/){: search-title="Reddit - Charge battery when it hits below 30% and stop charging when it reaches 80%"}, [2](https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life){: search-title="Quora - Charge battery when it hits below 30% and stop charging when it reaches 80%"}
+- Learn RaspberryPi: [Click here](https://github.com/sahilrajput03/learn-raspberry){: search-title="Learn RaspberryPi"}
+	- learn-raspberryPi (github repo) (backupd files): [Click here](https://github.com/sahilrajput03/learn-raspberrypi){: search-title="learn-raspberryPi (github repo) (backupd files)"}
+- Learn React Query: [Click here](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e){: search-title="Learn React Query"}
+- Learn Sandpack: [Click here](https://github.com/sahilrajput03/learn-sandpack) ([view live](https://learn-sandpack.vercel.app/){: search-title="Learn Sandpack"})
+- 🚀🚀 Learn Jekyll and running github pages locally: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md){: search-title="🚀🚀 Learn Jekyll and running github pages locally"}
 - Media:
-	- Shark Tank Season 1 - Youtube: [Click here](https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w)
-	- Shiv Mahapuran - Youtube: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66)
-- Learn `Xournal`: [Click here](./arch-notes.md#installed-xournalpp-pp-means--ie-xournal):
-- Learn Hyperlocal Farm: [Click here](./learn-hyperlocal-farms.md)
-- Learn Airbnb: [Click here](learn-airbnb.md)
+	- Shark Tank Season 1 - Youtube: [Click here](https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w){: search-title="Shark Tank Season 1 - Youtube"}
+	- Shiv Mahapuran - Youtube: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66){: search-title="Shiv Mahapuran - Youtube"}
+- Learn `Xournal`: [Click here](./arch-notes.md#installed-xournalpp-pp-means--ie-xournal){: search-title="Learn `Xournal`"}:
+- Learn Hyperlocal Farm: [Click here](./learn-hyperlocal-farms.md){: search-title="Learn Hyperlocal Farm"}
+- Learn Airbnb: [Click here](learn-airbnb.md){: search-title="Learn Airbnb"}
 - TODO: Do the flutter codelab. 💣💣
-- Learn Microfrontend: [Click here](learn-microfrontend.md)
-- Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion)
-- Learn YAML (yml): [Click here](https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0)
-- Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile)
-- Learn GIMP: [Click here](https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit)
-- Learn Svelte: [Click here](https://github.com/sahilrajput03/learn-svelte)
-- Learn C: [Click here](https://github.com/sahilrajput03/learn-c)
-- Learn C++: [Click here](https://github.com/sahilrajput03/learning_cpp)
-- Learn IoT and C (Document): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op)
-- Learn SolidJS: [Click here](https://github.com/sahilrajput03/learning-solidjs)
-- Learn AWS (Amazon Web Services): [Click here](https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10)
+- Learn Microfrontend: [Click here](learn-microfrontend.md){: search-title="Learn Microfrontend"}
+- Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion){: search-title="Learn Framer Motion"}
+- Learn YAML (yml): [Click here](https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0){: search-title="Learn YAML (yml)"}
+- Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile){: search-title="Learn Makefile"}
+- Learn GIMP: [Click here](https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit){: search-title="Learn GIMP"}
+- Learn Svelte: [Click here](https://github.com/sahilrajput03/learn-svelte){: search-title="Learn Svelte"}
+- Learn C: [Click here](https://github.com/sahilrajput03/learn-c){: search-title="Learn C"}
+- Learn C++: [Click here](https://github.com/sahilrajput03/learning_cpp){: search-title="Learn C++"}
+- Learn IoT and C (Doc): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op){: search-title="Learn IoT and C (Doc)"}
+- Learn SolidJS: [Click here](https://github.com/sahilrajput03/learning-solidjs){: search-title="Learn SolidJS"}
+- Learn AWS (Amazon Web Services): [Click here](https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10){: search-title="Learn AWS (Amazon Web Services)"}
 - Status Page Technologies:
-	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage)
- 		- Used by OpenAI: [Click here](https://status.openai.com/uptime)
+	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage){: search-title="Statuas Page Service by Atlassian"}
+ 		- Used by OpenAI: [Click here](https://status.openai.com/uptime){: search-title="OpenAI Status Page Technology"}
  	- Other alternatives of *statuspage* on Google: [Click here](https://www.google.com/search?q=status+page+like+services)
 - **Learn Sanskrit:** [Click here](https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit){: search-title="Learn Sanskrit"}
 - SBI Bank Cyber Security Guidelines, Hindi: [Click here](https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit){: search-title="SBI Bank Cyber Security Guidelines, Hindi"}
@@ -843,4 +843,4 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 
 
-***Note to Sahil: Search Index done from bottom till "Learn Sanskrit" link (moving upwards).***
+***Note to Sahil: Search Index done from bottom till "Learn RxJs" link (moving upwards).***
