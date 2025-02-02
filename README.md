@@ -19,7 +19,7 @@
 
 
 <h6 align="right">
-	<a href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>,
+	<a search-title="Exercise Routines" href="https://docs.google.com/document/d/1GKPpUBaB5xF8gFRawAjqoosYa0bN2elMDegBwAydWDE/edit">Exercise Routines</a>,
 	<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Dhyaan/Meditation</a>,
 	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
 	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
@@ -819,26 +819,26 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - When was electricity, motor, bulb?: [Click here](https://docs.google.com/document/d/1rBAz5F1Y6Qtt7fUyCtGM4ltU67Utjd29vY63QrIua5U/edit?tab=t.0)
 - Is .NET and ASP.NET the same? (ChatGPT): [Click here](https://docs.google.com/document/d/1jj8PMJA5rOrKwH0X0mtaaoMRdV4StxhQdqaTsok6Lb0/edit?tab=t.0#heading=h.favfgh2zw0g9)
 - Learn Coqui (TTS): [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
-- Learn YouTube: [Click here](https://docs.google.com/document/d/1t5TkoOwuV1we5Iz5SdCrwl0rrO81PtJq7ja7e7f0y10/edit?tab=t.0#heading=h.28mi74v8cmec){: title="Learn YouTube"}
-- Learn Generating Authenticator code (TOTP) programatically for browser automation login purpose (like google login / aws login): [Click here](https://github.com/sahilrajput03/learn-playwright/blob/e014dd04078449c175d65f265f370b729e756bc0/test-otplib-authenticator.js){: title="Learn Generating Authenticator code (TOTP) programatically for browser automation login purpose (like google login / aws login)"}
-- Browser For Terminal (svelte): [Click here](https://github.com/sahilrajput03/browser-for-terminal){: title="Browser For Terminal (svelte)"}
-- Learn Markdown Autodocs: [Click here](https://docs.google.com/document/d/1kg532M0dHBGgLTuRvc5RznHdRJX_P259rlyof6784Vg/edit?tab=t.0){: title="Learn Markdown Autodocs"}
-- ❤️ Learn Code Runner: [Click here](https://docs.google.com/document/d/1xLXMFJSQide-kGKkkDRA2sjpApDR-eBlddl0cWyZJOE/edit?tab=t.0#heading=h.i48pxvjshf90){: title="❤️ Learn Code Runner"}
-- asciinema.org - Record and share your terminal sessions, the simple way: [Click here](https://asciinema.org){: title="asciinema.org - Record and share your terminal sessions, the simple way."}
-- Development on Android with Temux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r){: title="Development on Android with Temux"}
-- Learn Medusa: [Click here](https://docs.google.com/document/d/165AHcMpImHilElvtQQCXaOINBgAIOJDQDhIzilCi5bI/edit?tab=t.0){: title="Learn Medusa"}
-- Learn pnpm: [Click here](https://docs.google.com/document/d/1LkIzHHBajGRGiOn1Zd3-S4frKyl8zCttUxg6Qv6cUxY/edit?tab=t.0#heading=h.fkuov2w06tv0){: title="Learn pnpm"}
-- Learn PostgresSQL and SQLite: [Click here](https://github.com/sahilrajput03/learning_sql/tree/main){: title="Learn PostgresSQL and SQLite"}
-- ❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend: [Click here](https://docs.google.com/document/d/15PieWH56pzC5Uh7WlCZit4nGOqfetmGi1aNqlmLymh4/edit?tab=t.0){: title="❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend"}
-- Learn OneCard: [Click here](https://docs.google.com/document/d/1pT_FQOE30KTWwcuYdYT-ZjQACIm4ozKbbM6s76Lfsqs/edit?tab=t.0){: title="Learn OneCard"}
-- qr generators: [Click here](https://docs.google.com/document/d/1neH211qetPGM9-WpeiQE1WSoIRo_TqdHYK7BudqVIC0/edit?tab=t.0){: title="qr generators"}
-- Get words from book (in Learn Expressjs repo): [Click here](https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text){: title="Get words from book (in Learn Expressjs repo)"}
-- Learn Openai (github repository): [Click here](https://github.com/sahilrajput03/learn-openai){: title="Learn Openai (github repository)"}
-- Learn npm: [Click here](https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0){: title="Learn npm"}
-- Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: [Click here](https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0){: title="Libraries and tools available for creating application walkthroughs or guided tours for frontend applications"}
-- Learn Read the Docs (please use vitepress instead): [Click here](https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md){: title="Learn Read the Docs"}
-- Learn nps: [Click here](https://docs.google.com/document/d/1EcbKSm-csGMfun5SBLhgc1HQeDUzX2zRf_4oAZRRzbs/edit?tab=t.0){: title="Learn nps"}
-- Learn Algolia: [Click here](https://docs.google.com/document/d/1WMaQCZ4rf4xs5mwJtBITiIwrJySLomLO_4YuNmK1X4k/edit?tab=t.0#heading=h.tdd10xy6k6gb){: title="Learn Algolia"}
+- Learn YouTube: [Click here](https://docs.google.com/document/d/1t5TkoOwuV1we5Iz5SdCrwl0rrO81PtJq7ja7e7f0y10/edit?tab=t.0#heading=h.28mi74v8cmec){: search-title="Learn YouTube"}
+- Learn Generating Authenticator code (TOTP) programatically for browser automation login purpose (like google login / aws login): [Click here](https://github.com/sahilrajput03/learn-playwright/blob/e014dd04078449c175d65f265f370b729e756bc0/test-otplib-authenticator.js){: search-title="Learn Generating Authenticator code (TOTP) programatically for browser automation login purpose (like google login / aws login)"}
+- Browser For Terminal (svelte): [Click here](https://github.com/sahilrajput03/browser-for-terminal){: search-title="Browser For Terminal (svelte)"}
+- Learn Markdown Autodocs: [Click here](https://docs.google.com/document/d/1kg532M0dHBGgLTuRvc5RznHdRJX_P259rlyof6784Vg/edit?tab=t.0){: search-title="Learn Markdown Autodocs"}
+- ❤️ Learn Code Runner: [Click here](https://docs.google.com/document/d/1xLXMFJSQide-kGKkkDRA2sjpApDR-eBlddl0cWyZJOE/edit?tab=t.0#heading=h.i48pxvjshf90){: search-title="❤️ Learn Code Runner"}
+- asciinema.org - Record and share your terminal sessions, the simple way: [Click here](https://asciinema.org){: search-title="asciinema.org - Record and share your terminal sessions, the simple way."}
+- Development on Android with Temux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r){: search-title="Development on Android with Temux"}
+- Learn Medusa: [Click here](https://docs.google.com/document/d/165AHcMpImHilElvtQQCXaOINBgAIOJDQDhIzilCi5bI/edit?tab=t.0){: search-title="Learn Medusa"}
+- Learn pnpm: [Click here](https://docs.google.com/document/d/1LkIzHHBajGRGiOn1Zd3-S4frKyl8zCttUxg6Qv6cUxY/edit?tab=t.0#heading=h.fkuov2w06tv0){: search-title="Learn pnpm"}
+- Learn PostgresSQL and SQLite: [Click here](https://github.com/sahilrajput03/learning_sql/tree/main){: search-title="Learn PostgresSQL and SQLite"}
+- ❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend: [Click here](https://docs.google.com/document/d/15PieWH56pzC5Uh7WlCZit4nGOqfetmGi1aNqlmLymh4/edit?tab=t.0){: search-title="❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend"}
+- Learn OneCard: [Click here](https://docs.google.com/document/d/1pT_FQOE30KTWwcuYdYT-ZjQACIm4ozKbbM6s76Lfsqs/edit?tab=t.0){: search-title="Learn OneCard"}
+- qr generators: [Click here](https://docs.google.com/document/d/1neH211qetPGM9-WpeiQE1WSoIRo_TqdHYK7BudqVIC0/edit?tab=t.0){: search-title="qr generators"}
+- Get words from book (in Learn Expressjs repo): [Click here](https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text){: search-title="Get words from book (in Learn Expressjs repo)"}
+- Learn Openai (github repository): [Click here](https://github.com/sahilrajput03/learn-openai){: search-title="Learn Openai (github repository)"}
+- Learn npm: [Click here](https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0){: search-title="Learn npm"}
+- Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: [Click here](https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0){: search-title="Libraries and tools available for creating application walkthroughs or guided tours for frontend applications"}
+- Learn Read the Docs (please use vitepress instead): [Click here](https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md){: search-title="Learn Read the Docs"}
+- Learn nps: [Click here](https://docs.google.com/document/d/1EcbKSm-csGMfun5SBLhgc1HQeDUzX2zRf_4oAZRRzbs/edit?tab=t.0){: search-title="Learn nps"}
+- Learn Algolia: [Click here](https://docs.google.com/document/d/1WMaQCZ4rf4xs5mwJtBITiIwrJySLomLO_4YuNmK1X4k/edit?tab=t.0#heading=h.tdd10xy6k6gb){: search-title="Learn Algolia"}
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 

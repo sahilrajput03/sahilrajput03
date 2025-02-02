@@ -27,19 +27,24 @@ async function searchFunction(e) {
 
     // Get all links from the page
     const dynamicSearchLinks = Array.from(document.querySelectorAll("a"))
-        .map((a) => ({
-            title: a.title,
-            url: a.href,
-        }))
-        .filter(item => !!item.title); // Filter anchor tags which has title attribute (we assign title attribute to a markdown link by adding suffix like `{: title="Learn Algolia"}`)
-    // console.log("🚀 ~ dynamicSearchLinks?", dynamicSearchLinks);
+        .filter(item => !!item.getAttribute('search-title')) // Filter anchor tags which has title attribute (we assign title attribute to a markdown link by adding suffix like `{: title="Learn Algolia"}`)
+        .map((item) => ({
+            'search-title': item.getAttribute('search-title'), // i am using kebab case (using hyphens) instead of camelCase because if I use camelCase it is converted to camelcase (bad casing for second `c` character).
+            url: item.href,
+        }));
+    // console.log("🚀 ~ dynamicSearchLinks:", dynamicSearchLinks);
+
+    // Note to Sahil: I am using a suffix like `{: search-title="Learn Algolia"}` in markdown to identify the title of the link instead of parsing the text before the "click here" anchor tags because ---
+    // 1. it is complex to extract the exact desired text before those anchor tags and it can sometimes be part of <li> item and sometimes not for e.g, when there are two links in the same line.
+    // 2. Also, it is again harder to extract the text when the text before the "click here" anchor tag is sometimes inside <strong> tags because of bold style set using markdown's **text** syntax.
+    // 3. It is important that links which do not have "click here" text e.g., "Blog Recommendation" and other links in top navigation bar so I can simply use those links directly by assigning "title" attribute to those links.
 
     searchResultsEl.innerHTML = [...SEARCH_LINKS, ...dynamicSearchLinks]
-        .filter(item => item.title.toLowerCase().includes(searchQuery))
+        .filter(item => item['search-title'].toLowerCase().includes(searchQuery))
         .slice(0, 5) // return only first 5 items
         .map(
             (item) =>
-                `<li><a target="_blank" href="${item.url}">${item.title}</a></li>`
+                `<li><a target="_blank" href="${item.url}">${item['search-title']}</a></li>`
         )
         .join("");
 
@@ -50,7 +55,7 @@ async function searchFunction(e) {
 // suffix hints - (Github Repo), (Github)
 var SEARCH_LINKS = [
     {
-        title: "Svelte @ monk techno world",
+        'search-title': "Svelte @ monk techno world",
         url: "https://svelte.monktechnoworld.com/"
     },
 ];
