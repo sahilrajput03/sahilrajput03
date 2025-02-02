@@ -24,7 +24,17 @@ async function searchFunction(e) {
         searchResultsEl.innerHTML = null;
         return;
     }
-    searchResultsEl.innerHTML = searchLinks
+
+    // Get all links from the page
+    const dynamicSearchLinks = Array.from(document.querySelectorAll("a"))
+        .map((a) => ({
+            title: a.title,
+            url: a.href,
+        }))
+        .filter(item => !!item.title); // Filter anchor tags which has title attribute (we assign title attribute to a markdown link by adding suffix like `{: title="Learn Algolia"}`)
+    // console.log("🚀 ~ dynamicSearchLinks?", dynamicSearchLinks);
+
+    searchResultsEl.innerHTML = [...SEARCH_LINKS, ...dynamicSearchLinks]
         .filter(item => item.title.toLowerCase().includes(searchQuery))
         .slice(0, 5) // return only first 5 items
         .map(
@@ -38,17 +48,9 @@ async function searchFunction(e) {
 // NOTE TO SAHIL: Do not optimize this process to fetch from a separate json file because that cause more issues than the level of simplicity it is supposed to give because json is actually much more delicate which you can break most of times without noticing it because of a comma or adding a comment (because json doesn't support comments in it) or other syntax issues. THUS STICK TO THIS PATTERN ie., to have links in this same file for ease of use.
 
 // suffix hints - (Github Repo), (Github)
-var searchLinks = [
+var SEARCH_LINKS = [
     {
-        title: "Learn Expressjs (Github Repo)",
-        url: "https://github.com/sahilrajput03/learning_expressjs"
-    },
-    {
-        title: "Learn Markdown (Github)",
-        url: "https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-markdown.md"
-    },
-    {
-        title: "Learn Markdown",
-        url: "https://sahilrajput.com/learn-markdown"
+        title: "Svelte @ monk techno world",
+        url: "https://svelte.monktechnoworld.com/"
     },
 ];
