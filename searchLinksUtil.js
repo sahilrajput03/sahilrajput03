@@ -41,6 +41,7 @@ async function searchFunction(e) {
     // 1. it is complex to extract the exact desired text before those anchor tags and it can sometimes be part of <li> item and sometimes not for e.g, when there are two links in the same line.
     // 2. Also, it is again harder to extract the text when the text before the "click here" anchor tag is sometimes inside <strong> tags because of bold style set using markdown's **text** syntax.
     // 3. It is important that links which do not have "click here" text e.g., "Blog Recommendation" and other links in top navigation bar so I can simply use those links directly by assigning "title" attribute to those links.
+    // 4.  I'm preferred search-title way because it gives me explicit control of managing my search results whereas if I were using a brute force way to get list of links from website it would be too noisy and harder to add logics to control different types of links because all links on the page are not in uniform pattern. Also I would like to have different search title (name appearing in search results) for some specific links and it can only be done using a special control field like 'search-title' attribute on anchor links.
 
     searchResultsEl.innerHTML = [...SEARCH_LINKS, ...dynamicSearchLinks]
         .filter(item => item['search-title'].toLowerCase().includes(searchQuery))
