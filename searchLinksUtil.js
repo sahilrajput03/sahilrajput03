@@ -75,7 +75,6 @@ var SEARCH_LINKS = [
 // STARTS-HERE: Feature to sroll to bottom with a fixed image in bottom-right
 // add scroll to bottom icon
 const scrollToBottomEl = document.createElement("img");
-scrollToBottomEl.src = "./site-assets/scroll-to-bottom-1.png"; // Replace with your image URL 
 scrollToBottomEl.alt = "Scroll to Bottom";
 
 // Apply styles to position it at the lower bottom
@@ -93,12 +92,31 @@ scrollToBottomEl.style.width = size; // Set image width
 scrollToBottomEl.style.height = size; // Set image height
 scrollToBottomEl.style.zIndex = "1000"; // Ensure it's above other elements
 
+// Function to check if user is at the bottom
+function isAtBottom() { return window.innerHeight + window.scrollY >= document.body.offsetHeight; }
+
+// Note: Both of these functions do not work good to set appropriate scrollToBottom/scrollToTop image as per initial scroll position when page loaded so I am setting `scrollToBottomIcon` on page load for now.
+// document.addEventListener("DOMContentLoaded", updateScrollToBottomOrTopIcon);
+// window.onload = updateScrollToBottomOrTopIcon;
+const bottomScrollImgSrc = "./site-assets/scroll-to-bottom-1.png";
+scrollToBottomEl.src = bottomScrollImgSrc; // set scroll to bottom image by default
+
+const updateScrollToBottomOrTopIcon = () => {
+    if (isAtBottom()) {
+        scrollToBottomEl.src = bottomScrollImgSrc;
+    } else {
+        scrollToBottomEl.src = "./site-assets/scroll-to-top-1.png";
+    }
+};
+
 // Function to scroll to bottom
 scrollToBottomEl.addEventListener("click", () => {
-    window.scrollTo({
-        top: document.body.scrollHeight,
-        behavior: "instant" // Smooth scrolling effect
-    });
+    updateScrollToBottomOrTopIcon();
+    if (isAtBottom()) {
+        window.scrollTo({ top: 0, behavior: "instant" }); // Scroll to top
+    } else {
+        window.scrollTo({ top: document.body.scrollHeight, behavior: "instant" }); // Scroll to bottom
+    }
 });
 
 // Append to the body
