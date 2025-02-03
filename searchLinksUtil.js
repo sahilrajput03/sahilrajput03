@@ -71,3 +71,36 @@ var SEARCH_LINKS = [
         url: "https://svelte.monktechnoworld.com/"
     },
 ];
+
+// STARTS-HERE: Feature to sroll to bottom with a fixed image in bottom-right
+// add scroll to bottom icon
+const scrollToBottomEl = document.createElement("img");
+scrollToBottomEl.src = "./site-assets/scroll-to-bottom-1.png"; // Replace with your image URL 
+scrollToBottomEl.alt = "Scroll to Bottom";
+
+// Apply styles to position it at the lower bottom
+scrollToBottomEl.style.position = "fixed";
+scrollToBottomEl.style.bottom = "10px"; // Adjust as needed
+scrollToBottomEl.style.right = "10px"; // Adjust as needed
+
+let size;
+if (window.innerWidth < 800) {
+    size = "60px";
+} else {
+    size = "80px";
+}
+scrollToBottomEl.style.width = size; // Set image width
+scrollToBottomEl.style.height = size; // Set image height
+scrollToBottomEl.style.zIndex = "1000"; // Ensure it's above other elements
+
+// Function to scroll to bottom
+scrollToBottomEl.addEventListener("click", () => {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "instant" // Smooth scrolling effect
+    });
+});
+
+// Append to the body
+document.body.appendChild(scrollToBottomEl);
+// ENDS-HERE: Feature to sroll to bottom with a fixed image in bottom-right
