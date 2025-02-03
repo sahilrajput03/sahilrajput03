@@ -654,28 +654,31 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
 	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
 	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
-- **Weird Problems:** - [Click here](./weird-problems.md)
-- **Intro Guides to Platforms:** [Click here](./intro-guide-to-platforms.md)
-- **Learn axios:** [Click here](./learn-axios.md)
-- **Learn nestjs:** [Click here](./learn-nestjs.md) 
-- **Learn push notificaitons:** [Click here](./learn-push-notifications.md)
-- **Learn heroku webhooks:** [Click here](./learn-web-hooks.md)
-- **Learn Twilio** [Click here](https://docs.google.com/document/d/1cUv_ofHediEo_VbUt63qrm3XXxrn6QMVjfQd3o9pbEA/edit?tab=t.0#heading=h.j4kdrmy99caa)
-- **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](./learn-why-websites-first-not-mobile-apps.md)
-- **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md)
-- **Learn postman:** [Click here](./learn-postman.md)
-- **Learn redux-toolkit:** [Click here](./learn-redux-toolkit.md)
-- **Learn stripe`:** [Click here](./learn-stripe.md)
-- **Npm libaries I recommend:** [Click here](./learn-npm-libraries.md)
-- **Learn Mailservers:** [Click here](./mail-server.md)
-- Why DSA based interviews are stupid?: [Click here](./dsa.md)
+- **Weird Problems:** - [Click here](./weird-problems.md){: search-title="Weird Problems"}
+- **Intro Guides to Platforms:** [Click here](./intro-guide-to-platforms.md){: search-title="Intro Guides to Platforms"}
+- **Learn axios:** [Click here](./learn-axios.md){: search-title="Learn axios"}
+- **Learn nestjs:** [Click here](./learn-nestjs.md){: search-title="Learn nestjs"}
+- **Learn push notificaitons:** [Click here](./learn-push-notifications.md){: search-title="Learn push notificaitons"}
+- **Learn heroku webhooks:** [Click here](./learn-web-hooks.md){: search-title="Learn heroku webhooks"}
+- **Learn Twilio** [Click here](https://docs.google.com/document/d/1cUv_ofHediEo_VbUt63qrm3XXxrn6QMVjfQd3o9pbEA/edit?tab=t.0#heading=h.j4kdrmy99caa){: search-title="Learn Twilio"}
+- **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](./learn-why-websites-first-not-mobile-apps.md){: search-title="Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps"}
+- **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md){: search-title="Learn Typescript"}
+- **Learn postman:** [Click here](./learn-postman.md){: search-title="Learn postman"}
+- **Learn redux-toolkit:** [Click here](./learn-redux-toolkit.md){: search-title="Learn redux-toolkit"}
+- **Learn stripe:** [Click here](./learn-stripe.md){: search-title="Learn stripe"}
+- **Npm libaries I recommend:** [Click here](./learn-npm-libraries.md){: search-title="Npm libaries I recommend"}
+- **Learn Mailservers:** [Click here](./mail-server.md){: search-title="Learn Mailservers"}
+- Why DSA based interviews are stupid?: [Click here](./dsa.md){: search-title="Why DSA based interviews are stupid?"}
 - **Javascript:**
-	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs)
-		- Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node)
-			- tldr
-				- `spawn` child process (preffered for non js programs)
-				- `fork` child process (preffered for js programs)
-				- `worker_threads` (preffered for multi threading in same process for cpu intensive tasks)
+	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs"}
+		- Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node"}
+			- Few topics covered in above project's readme:
+				- `spawn` vs. `fork` vs. `worker_threads`
+					- `spawn` child process (preffered for non js programs)
+					- `fork` child process (preffered for js programs)
+					- `worker_threads` (preffered for multi threading in same process for cpu intensive tasks)
+				- Is unix socket same as nodejs sockets? Be concise. (ChatGPT)
+					- Difference between sockets vs. web sockets. Be concise. (ChatGPT)
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
 		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
@@ -845,4 +848,4 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 
 
-***Note to Sahil: Search Index done from bottom till "Learn RxJs" link (moving upwards).***
+***Note to Sahil: Search Index done from bottom till "*Weird Problems" link (moving upwards).***
