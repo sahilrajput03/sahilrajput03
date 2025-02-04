@@ -847,6 +847,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Suble and Impactful Mistakes with Exceptions: [Click here](./subtle-impactful-exceptions.md){: search-title="Suble and Impactful Mistakes with Exceptions"}
 	- Business Terms: [Click here](./learn-business-terms.md){: search-title="Business Terms"}
 - Learn `tiged` (alternate of degit): [Click here](https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0){: search-title="Learn `tiged` (alternate of degit)"}
+- Learn `tiged` (alternate of degit): <a href="https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0" search-title="Learn `tiged` (alternate of degit) (uses a tag)">Click here</a>
+	- (Using a tag, I think I can make use of a tags to help clean my readme on github thus my website will function as it were. Thanks)
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 
