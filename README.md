@@ -47,7 +47,10 @@
 	<br/>
 	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
 	<br/>
-	Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a>
+	Android App:  <a href="/apk/Tech_Blog_by_Sahil_Rajput_base.apk">Tech Blog by Sahil Rajput</a>
+	<!-- OLD PlayStore link -->
+	<!-- Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a> -->
+	
 </div>
 
 <br />
