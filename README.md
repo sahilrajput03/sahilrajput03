@@ -649,10 +649,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Socket.io/Websockets:** [Click here](https://github.com/sahilrajput03/learn-websockets)
 - **Public Journal:** [Click here](./public-journal.md)
 - **Learn React:** [Click here](https://github.com/sahilrajput03/learn-react)
-- **Learn React Native**: [Click here](https://github.com/sahilrajput03/learn-react-native)
+- **Learn React Native**: [Click here](https://github.com/sahilrajput03/learn-react-native){: search-title="Learn React Native"}
 - New React Alternative Tech - Docs:
-	- SolidJS: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE)
-	- Svelte: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao)
+	- SolidJS - Ryan Carniato - The World Beyond Components: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE){: search-title="SolidJS - Ryan Carniato - The World Beyond Components"}
+	- Svelte - Rich Harris - Rethinking reactivity - YouTube: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao){: search-title="Svelte - Rich Harris - Rethinking reactivity - YouTube"}
 	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
 - **Weird Problems:** - [Click here](./weird-problems.md){: search-title="Weird Problems"}
 - **Intro Guides to Platforms:** [Click here](./intro-guide-to-platforms.md){: search-title="Intro Guides to Platforms"}
@@ -848,4 +848,4 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
 
 
-***Note to Sahil: Search Index done from bottom till "*Weird Problems" link (moving upwards).***
+***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
