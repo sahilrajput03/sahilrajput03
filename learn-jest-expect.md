@@ -48,6 +48,53 @@ expect(...).toEqual({
 })
 ```
 
+### Difference between `toEqual` and `toStrictEqual` (ChatGPT)
+
+[Click here](https://chatgpt.com/c/67a678bf-6134-8007-8b12-23a754d77be1)
+
+**`toEqual`**
+
+```js
+test('toEqual ignores undefined properties', () => {
+  expect({ a: 1, b: undefined }).toEqual({ a: 1 });
+});
+✅ Test passes because toEqual ignores undefined properties.
+```
+
+**`toStrictEqual`**
+
+Example 1:
+
+```js
+test('toStrictEqual does not ignore undefined properties', () => {
+  expect({ a: 1, b: undefined }).toStrictEqual({ a: 1 });
+});
+❌ Test fails because b: undefined is explicitly different.
+```
+
+Example 2:
+
+```js
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+test('toStrictEqual checks class instances', () => {
+  expect(new Person('Alice')).toStrictEqual({ name: 'Alice' });
+});
+❌ Test fails because { name: 'Alice' } is a plain object, while new Person('Alice') is an instance of Person.
+```
+
+**Summary:** *Use toStrictEqual when you want precise comparisons, including class instances and undefined properties. Use toEqual when you need looser deep equality.*
+
+## Summary: When NOT to Use `toMatchObject`
+
+Source: [ChatGPT](https://chatgpt.com/c/67a678bf-6134-8007-8b12-23a754d77be1)
+
+![image](https://github.com/user-attachments/assets/1bef115c-356c-47e9-8f41-eb8192858fdd)
+
 ## File deletion and exists check with jest
 
 ```ts
