@@ -25,7 +25,7 @@
 
 Check this issue on jest's github: [Click here](https://github.com/jestjs/jest/issues/10322#issuecomment-1304375267)
 
-## more assertion helpers for `.toEqual`
+## ❤️ `.toEqual` Use this as much as possible (or even better `.toStrictEqual`)
 
 My Luxon Notes: Learn Luxon: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-luxon.md)
 
