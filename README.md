@@ -715,7 +715,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md){: search-title="Learn Paypal Subscription And Database Schema"}
 - Learn Kdenlive (video editor): [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit){: search-title="Learn Kdenlive (video editor)"}
 - Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook){: search-title="Learn storyboook"}
-- Learn Playwright: [Click here](./learn-playwright.md){: search-title="Learn Playwright"}
 - Friends Github Profiles: [Click here](./friends-github.md){: search-title="Friends Github Profiles"}
 - Learn Jira: [Click here](./learn-jira.md){: search-title="Learn Jira"}
 - Learn RxJs: [Click here](./learn-rxjs.md){: search-title="Learn RxJs"}
