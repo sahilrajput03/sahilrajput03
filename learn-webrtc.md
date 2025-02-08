@@ -1,5 +1,24 @@
 # Web RTC Based References
 
+My projects:
+- https://github.com/sahilrajput03/video-chat-app-webrtc
+- https://svelte.monktechnoworld.com/webrtc-demo
+  - Code @ Github repo: [Click here](https://github.com/sahilrajput03/learn-svelte/blob/main/my-app-s5/src/routes/webrtc-demo/%2Bpage.svelte)
+
+## Socket io & webrtc
+
+<ins>**Do socket io in frontend uses webrtc underneath. Be concise. (ChatGPT)**</ins>
+
+No, Socket.IO does not use WebRTC underneath. It primarily uses WebSockets and falls back to other transport mechanisms like HTTP long polling if needed. WebRTC, on the other hand, is designed for peer-to-peer communication, including real-time audio, video, and data transfer.
+
+<ins>**Can socket in front end work without backend? (ChatGPT)**</ins>
+
+No, a socket in the frontend (e.g., using Socket.IO or WebSockets) typically requires a backend to establish and manage connections. However, WebRTC can enable direct peer-to-peer communication without a backend, though a signaling server is still needed to initiate connections.
+
+<ins>**When was webrtc launched?**</ins>
+
+WebRTC was officially announced by Google in May 2011 and became an open-source project. It was later standardized by the World Wide Web Consortium (W3C) and the Internet Engineering Task Force (IETF). The first stable browser implementations appeared around 2013-2014.
+
 ## Project Based Videos
 
 - Fireship           - WebRTC in 100 Seconds, [Click here](https://www.youtube.com/watch?v=1BfCnjr_Vjg)

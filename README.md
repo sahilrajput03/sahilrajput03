@@ -673,7 +673,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Mailservers:** [Click here](./mail-server.md){: search-title="Learn Mailservers"}
 - Why DSA based interviews are stupid?: [Click here](./dsa.md){: search-title="Why DSA based interviews are stupid?"}
 - **Javascript:**
-	- **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs"}
+	- ❤️ Learn Jest/expect: [Click here](./learn-jest-expect.md){: search-title="Learn Jest/expect"}
+	- ❤️ **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs"}
 		- Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node"}
 			- Few topics covered in above project's readme:
 				- `spawn` vs. `fork` vs. `worker_threads`
@@ -703,7 +704,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit){: search-title="Learn Figma"}
 	- Website Designs: [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb){: search-title="Website Designs"}
 - **Learn FigJam:** [Click here](./learn-figjam.md)
-- Learn Jest/expect: [Click here](./learn-jest-expect.md){: search-title="Learn Jest/expect"}
 - Learn Elastic Search: [Click here](./learn-elastic-search.md){: search-title="Learn Elastic Search"}
 - Learn Storybook: [Click here](./learn-storybook.md){: search-title="Learn Storybook"}
 - Learn Eslint: [Click here](./learn-eslint.md){: search-title="Learn Eslint"}

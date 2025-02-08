@@ -1,6 +1,7 @@
 # Jest and expect
 
 **Quick Links:**
+- ❤️ with-jest-supertest-axios: [learn-express/with-jest-supertest-axios](https://github.com/sahilrajput03/learn-express/tree/main/with-jest-supertest-axios)
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
@@ -25,7 +26,7 @@
 
 Check this issue on jest's github: [Click here](https://github.com/jestjs/jest/issues/10322#issuecomment-1304375267)
 
-## more assertion helpers for `.toEqual`
+## ❤️ `.toEqual` Use this as much as possible (or even better `.toStrictEqual`)
 
 My Luxon Notes: Learn Luxon: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-luxon.md)
 
@@ -47,6 +48,53 @@ expect(...).toEqual({
 	// NOTE the difference of extra .000 before Z
 })
 ```
+
+### Difference between `toEqual` and `toStrictEqual` (ChatGPT)
+
+[Click here](https://chatgpt.com/c/67a678bf-6134-8007-8b12-23a754d77be1)
+
+**`toEqual`**
+
+```js
+test('toEqual ignores undefined properties', () => {
+  expect({ a: 1, b: undefined }).toEqual({ a: 1 });
+});
+✅ Test passes because toEqual ignores undefined properties.
+```
+
+**`toStrictEqual`**
+
+Example 1:
+
+```js
+test('toStrictEqual does not ignore undefined properties', () => {
+  expect({ a: 1, b: undefined }).toStrictEqual({ a: 1 });
+});
+❌ Test fails because b: undefined is explicitly different.
+```
+
+Example 2:
+
+```js
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+test('toStrictEqual checks class instances', () => {
+  expect(new Person('Alice')).toStrictEqual({ name: 'Alice' });
+});
+❌ Test fails because { name: 'Alice' } is a plain object, while new Person('Alice') is an instance of Person.
+```
+
+**Summary:** *Use toStrictEqual when you want precise comparisons, including class instances and undefined properties. Use toEqual when you need looser deep equality.*
+
+## Summary: When NOT to Use `toMatchObject`
+
+Source: [ChatGPT](https://chatgpt.com/c/67a678bf-6134-8007-8b12-23a754d77be1)
+
+![image](https://github.com/user-attachments/assets/1bef115c-356c-47e9-8f41-eb8192858fdd)
 
 ## File deletion and exists check with jest
 
