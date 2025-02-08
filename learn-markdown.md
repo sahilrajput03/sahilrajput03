@@ -145,3 +145,7 @@ March    | $420
 ```
 Use ~~double tildes around the words~~.
 ```
+
+## Why not to use kramdown?
+
+Because the links appear badly in markdown rendereed on github repo's readme.
