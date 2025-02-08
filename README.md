@@ -852,7 +852,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
 - Learn `tiged` (alternate of degit): [Click here](https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0){: search-title="Learn `tiged` (alternate of degit)"}
 - Learn `tiged` (alternate of degit): <a href="https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0" search-title="Learn `tiged` (alternate of degit) (uses a tag)">Click here</a>
-
 ```
 
 
