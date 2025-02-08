@@ -2,7 +2,6 @@
 
 **Quick Links:**
 - ❤️ with-jest-supertest-axios: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/with-jest-supertest-axios)
-  - *Implemented in `learn-multer` & `qr-solution project`*
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
