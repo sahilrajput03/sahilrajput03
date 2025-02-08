@@ -860,3 +860,4 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
+***Note to Sahil: kramdown to anchor tags (html) done from bottom till "Glass Thoughts" link (moving upwards).***
