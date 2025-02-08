@@ -1,7 +1,7 @@
 # Jest and expect
 
 **Quick Links:**
-- ❤️ with-jest-supertest-axios: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/with-jest-supertest-axios)
+- ❤️ with-jest-supertest-axios: [learn-express/with-jest-supertest-axios](https://github.com/sahilrajput03/learn-express/tree/main/with-jest-supertest-axios)
 - **Jest Cheatsheet:** [Click here](https://devhints.io/jest)
 - **react testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 
