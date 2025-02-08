@@ -785,6 +785,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile){: search-title="Learn Makefile"}
 - Learn GIMP: [Click here](https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit){: search-title="Learn GIMP"}
 - Learn Svelte: [Click here](https://github.com/sahilrajput03/learn-svelte){: search-title="Learn Svelte"}
+- Learn Playwright: [Click here](https://github.com/sahilrajput03/learn-playwright){: search-title="Learn Playwright"}
 - Learn C: [Click here](https://github.com/sahilrajput03/learn-c){: search-title="Learn C"}
 - Learn C++: [Click here](https://github.com/sahilrajput03/learning_cpp){: search-title="Learn C++"}
 - Learn IoT and C (Doc): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op){: search-title="Learn IoT and C (Doc)"}
