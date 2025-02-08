@@ -653,6 +653,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Public Journal:** [Click here](./public-journal.md)
 - **Learn React:** [Click here](https://github.com/sahilrajput03/learn-react)
 - **Learn React Native**: [Click here](https://github.com/sahilrajput03/learn-react-native){: search-title="Learn React Native"}
+- ❤️Funny Loading Messages: <a href="https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32" search-title="Funny Loading Messages">Click here</a>
+- ❤️Meme makers: <a href="https://docs.google.com/document/d/14WQUE71-JsCF2sVOgVbsrxtbJgvw_AfnGrbx9V0YR4g/edit?tab=t.0" search-title="Meme makers">Click here</a>
 - New React Alternative Tech - Docs:
 	- SolidJS - Ryan Carniato - The World Beyond Components: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE){: search-title="SolidJS - Ryan Carniato - The World Beyond Components"}
 	- Svelte - Rich Harris - Rethinking reactivity - YouTube: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao){: search-title="Svelte - Rich Harris - Rethinking reactivity - YouTube"}
@@ -800,20 +802,18 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Python: [Click here](https://github.com/sahilrajput03/learn-python){: search-title="Learn Python - Github Repo"} ([doc](https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji){: search-title="Learn Python - Doc"} (inprocess of migration))
 - Learn Outlook: [Click here](https://docs.google.com/document/d/1YpexQLJNdNrQhjidRt38bC49hcgiIO_hAPqfGSEds8Y/edit#heading=h.2mmi0x1sciq7){: search-title="Learn Outlook"}
 - Learn Adobe Acrobat Reader: [Click here](https://docs.google.com/document/d/1H66PnT3q8uUXEdSePyw89X4E5UpaTeXEYEGo03LUeig/edit#heading=h.faibccl9c26h){: search-title="Learn Adobe Acrobat Reader"}
-- Learn Cloudinary: [Click here](https://docs.google.com/document/d/1a2lUrjw_Yb83VS1vdbY4VdRRXGZ_gU6WLnNv3v9z_Ic/edit?tab=t.0){: search-title="Learn Cloudinary"}
+- Learn Cloudinary: <a href="https://docs.google.com/document/d/1a2lUrjw_Yb83VS1vdbY4VdRRXGZ_gU6WLnNv3v9z_Ic/edit?tab=t.0" search-title="Learn Cloudinary">Click here</a>
 	- Cloudinary primarily provides cloud-based media management, enabling users to store, optimize, transform, and deliver images and videos efficiently across web and mobile platforms.
-	- [sahilrajput03/learn-cloudinary](https://github.com/sahilrajput03/learn-cloudinary){: search-title="sahilrajput03/learn-cloudinary"}
-- Learn HTMx: [Click here](https://docs.google.com/document/d/1O2PPUAtUGDW5janNboDhcPpq53F-B3H1Lt2hhdgShhE/edit?tab=t.0){: search-title="Learn HTMx"}
-- Funny Loading Messages: [Click here](https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32){: search-title="Funny Loading Messages"}
-- Meme makers: [Click here](https://docs.google.com/document/d/14WQUE71-JsCF2sVOgVbsrxtbJgvw_AfnGrbx9V0YR4g/edit?tab=t.0){: search-title="Meme makers"}
-- Learn Fediverse \| Mastodon: [Click here](https://docs.google.com/document/d/1jDg0bbDG2fLH_OsctFAHJ1JMxToaBhCieWBHhuZTaOs/edit?tab=t.0){: search-title="Learn Fediverse \| Mastodon"}
-- Learn NDE: [Click here](https://docs.google.com/document/d/1xkDQfzA-6MsIiTaGL5y4_Hvy1v1vhinJQ6QDQ8UdZ7U/edit?tab=t.0){: search-title="Learn NDE"}
-- UUID Generator in Web (#hash, #hashid): [www.uuidgenerator.net](https://www.uuidgenerator.net){: search-title="UUID Generator in Web"}
-- Learn Machine Learning: [Click here](https://docs.google.com/document/d/1ctpjEF820WJtDRjtKNpyOfNPcUbwC2EMuhEfBcBrIIc/edit?tab=t.0){: search-title="Learn Machine Learning"}
-- Syncing backend and frontned code (e.g, `types.ts` file) and have isomorphinc aka universal directory (file/files) across repositories (fronend,backend): [Click here](./isomorphic-code.md){: search-title="Syncing backend and frontned code (e.g, `types.ts` file) and have isomorphinc aka universal directory (file/files) across repositories (fronend,backend)"}
-- Learn Ayurveda: [Click here](https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0){: search-title="Learn Ayurveda"}
-- Learn Dyaan/Meditation: [Click here](https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.tc9ukx6oxone){: search-title="Learn Dyaan/Meditation"}
-	- Learn Heartfullness: [Click here](https://docs.google.com/document/d/1WPbWXvXWyJTcpFLigm52cOa90IwAp1nI8aZ8FgUj-CQ/edit?tab=t.0){: search-title="Learn Heartfullness"}
+	- <a href="https://github.com/sahilrajput03/learn-cloudinary" search-title="sahilrajput03/learn-cloudinary">sahilrajput03/learn-cloudinary</a>
+- Learn HTMx: <a href="https://docs.google.com/document/d/1O2PPUAtUGDW5janNboDhcPpq53F-B3H1Lt2hhdgShhE/edit?tab=t.0" search-title="Learn HTMx">Click here</a>
+- Learn Fediverse \| Mastodon: <a href="https://docs.google.com/document/d/1jDg0bbDG2fLH_OsctFAHJ1JMxToaBhCieWBHhuZTaOs/edit?tab=t.0" search-title="Learn Fediverse | Mastodon">Click here</a>
+- Learn NDE: <a href="https://docs.google.com/document/d/1xkDQfzA-6MsIiTaGL5y4_Hvy1v1vhinJQ6QDQ8UdZ7U/edit?tab=t.0" search-title="Learn NDE">Click here</a>
+- UUID Generator in Web (#hash, #hashid): <a href="https://www.uuidgenerator.net" search-title="UUID Generator in Web">www.uuidgenerator.net</a>
+- Learn Machine Learning: <a href="https://docs.google.com/document/d/1ctpjEF820WJtDRjtKNpyOfNPcUbwC2EMuhEfBcBrIIc/edit?tab=t.0" search-title="Learn Machine Learning">Click here</a>
+- Syncing backend and frontned code (e.g, `types.ts` file) and have isomorphinc aka universal directory (file/files) across repositories (fronend, backend): <a href="./isomorphic-code.md" search-title="Syncing backend and frontend code (e.g., `types.ts` file) and having an isomorphic aka universal directory (file/files) across repositories (frontend, backend)">Click here</a>
+- Learn Ayurveda: <a href="https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0" search-title="Learn Ayurveda">Click here</a>
+- Learn Dyaan/Meditation: <a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.tc9ukx6oxone" search-title="Learn Dyaan/Meditation">Click here</a>
+	- Learn Heartfullness: <a href="https://docs.google.com/document/d/1WPbWXvXWyJTcpFLigm52cOa90IwAp1nI8aZ8FgUj-CQ/edit?tab=t.0" search-title="Learn Heartfullness">Click here</a>
 - Glass Thoughts: <a href="https://sveltev5.vercel.app/glass" search-title="Glass Thoughts">Click here</a>
 - Learn Accessibility: <a href="https://docs.google.com/document/d/1FsP4uZQl3oMRb9LKOuU1jzrvEvigce-NyllIXp2LweQ/edit?tab=t.0#heading=h.xl4iqlcuuql3" search-title="Learn Accessibility">Click here</a>
 - Learn `.editorconfig` file : <a href="https://editorconfig.org/" search-title="Learn `.editorconfig` file">Click here</a>
@@ -860,4 +860,4 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
-***Note to Sahil: kramdown to anchor tags (html) done from bottom till "Glass Thoughts" link (moving upwards).***
+***Note to Sahil: kramdown to anchor tags (html) done from bottom till "Learn Cloudinary" link (moving upwards).***
