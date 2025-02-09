@@ -868,3 +868,6 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 
 
 ✅ **NOTE:** For files ending with .md (e.g., searh for `./learn-js.md`) which are in this same repository need to have have full aboslute path to their github pages paths. This would be very helpful in future when I'm gonna move my website to svelte totally as I will not have a single html page other than this page. <ins>The plan is to render this page totally as html markup inside the svelte component and not make use of markdown (markdown to html converstaion) at all thus I will be able to leverage all facilities of moder svelte development framework. ❤️</ins>
+
+- **⭐️PROMPTS FOR GROQ**
+	- Convert the kramdown to html when i give you and keep the search-title attribute as it is and do not return anything else.
