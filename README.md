@@ -792,7 +792,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn C++: <a href="https://github.com/sahilrajput03/learning_cpp" search-title="Learn C++">Click here</a>
 - Learn IoT and C (Doc): <a href="https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op" search-title="Learn IoT and C (Doc)">Click here</a>
 - Learn SolidJS: <a href="https://github.com/sahilrajput03/learning-solidjs" search-title="Learn SolidJS">Click here</a>
-- ❤️❤️❤️ KRAMDOWN TO HTML LINKS ADDED AND NEED TO TEST ABOVE LINKS FROM HERE ... ❤️❤️❤️
 - Learn AWS (Amazon Web Services): <a href="https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10" search-title="Learn AWS (Amazon Web Services)">Click here</a>
 - Status Page Technologies:
 	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage){: search-title="Status Page Service by Atlassian"}
