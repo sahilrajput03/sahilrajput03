@@ -2,6 +2,9 @@
 
 ***85% of below listed courses are 100% free and available to all.***
 
+**TODO:**
+- ❤️Networking and Streams - James Halliday: [Click here](https://frontendmasters.com/courses/networking-streams/)
+
 **Other Courses (todo):**
 - Introduction to Marketing: [Click here](https://in.coursera.org/learn/wharton-marketing) (10 h)
 - Introduction to Financial Accounting: [Click here](https://www.coursera.org/learn/wharton-accounting) (13 h)
