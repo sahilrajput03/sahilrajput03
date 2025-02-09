@@ -781,11 +781,11 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Hyperlocal Farm: <a href="./learn-hyperlocal-farms" search-title="Learn Hyperlocal Farm">Click here</a>
 - Learn Airbnb: <a href="learn-airbnb.md" search-title="Learn Airbnb">Click here</a>
 - TODO: Do the flutter codelab. 💣💣
-- Learn Microfrontend: <a href="learn-microfrontend.md" search-title="Learn Microfrontend">Click here</a>
+- Learn Microfrontend: <a href="./learn-microfrontend" search-title="Learn Microfrontend">Click here</a>
 - Learn Framer Motion: <a href="https://github.com/sahilrajput03/learn-framer-motion" search-title="Learn Framer Motion">Click here</a>
 - Learn YAML (yml): <a href="https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0" search-title="Learn YAML (yml)">Click here</a>
 - Learn Makefile: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile" search-title="Learn Makefile">Click here</a>
-- Learn GIMP: <a href="https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit" search-title="Learn GIMP">Click here</a>
+- Learn GIMP: <a href="https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit" search-title="	">Click here</a>
 - Learn Svelte: <a href="https://github.com/sahilrajput03/learn-svelte" search-title="Learn Svelte">Click here</a>
 - Learn Playwright: <a href="https://github.com/sahilrajput03/learn-playwright" search-title="Learn Playwright">Click here</a>
 - Learn C: <a href="https://github.com/sahilrajput03/learn-c" search-title="Learn C">Click here</a>
