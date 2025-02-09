@@ -767,41 +767,43 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Ubuntu: [Click here](https://docs.google.com/document/d/1eDQQOdAXI2ihob4qvysJMdphUeUdeizZXN1V90QHXeA/edit){: search-title="Learn Ubuntu"}
 - Learn macOS: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?pli=1){: search-title="Learn macOS (Sahil)"}
 	- Learn macOS - Samaksh: [Click here](https://docs.google.com/document/d/1N310qOwvRuu1K3zzpChj3Tt6qPMhtFQ7W2RGSSIrw8U/edit#heading=h.ggwji2r8315h){: search-title="Learn macOS - Samaksh"}
-- Learn making hardcover from paperback books: [Click here](https://docs.google.com/document/d/14abXkjtuNyZAQW2QZMUxIcQmfEK7i3IZxaT_0NC7C0k/edit#heading=h.prohzhw7w5zw){: search-title="Learn making hardcover from paperback books"}
-- Charge battery when it hits below 30% and stop charging when it reaches 80%: [1](https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/){: search-title="Reddit - Charge battery when it hits below 30% and stop charging when it reaches 80%"}, [2](https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life){: search-title="Quora - Charge battery when it hits below 30% and stop charging when it reaches 80%"}
-- Learn RaspberryPi: [Click here](https://github.com/sahilrajput03/learn-raspberry){: search-title="Learn RaspberryPi"}
-	- learn-raspberryPi (github repo) (backupd files): [Click here](https://github.com/sahilrajput03/learn-raspberrypi){: search-title="learn-raspberryPi (github repo) (backupd files)"}
-- Learn React Query: [Click here](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e){: search-title="Learn React Query"}
-- Learn Sandpack: [Click here](https://github.com/sahilrajput03/learn-sandpack) ([view live](https://learn-sandpack.vercel.app/){: search-title="Learn Sandpack"})
-- 🚀🚀 Learn Jekyll and running github pages locally: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md){: search-title="🚀🚀 Learn Jekyll and running github pages locally"}
+- Learn making hardcover from paperback books: <a href="https://docs.google.com/document/d/14abXkjtuNyZAQW2QZMUxIcQmfEK7i3IZxaT_0NC7C0k/edit#heading=h.prohzhw7w5zw" search-title="Learn making hardcover from paperback books">Click here</a>
+- Charge battery when it hits below 30% and stop charging when it reaches 80%: <a href="https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/" search-title="Reddit - Charge battery when it hits below 30% and stop charging when it reaches 80%">1</a>, <a href="https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life" search-title="Quora - Charge battery when it hits below 30% and stop charging when it reaches 80%">2</a>
+- Learn RaspberryPi: <a href="https://github.com/sahilrajput03/learn-raspberry" search-title="Learn RaspberryPi">Click here</a>
+	- learn-raspberryPi (github repo) (backuped files): <a href="https://github.com/sahilrajput03/learn-raspberrypi" search-title="learn-raspberryPi (github repo) (backuped files)">Click here</a>
+- Learn React Query: <a href="https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e" search-title="Learn React Query">Click here</a>
+- Learn Sandpack: <a href="https://github.com/sahilrajput03/learn-sandpack">Click here</a> (<a href="https://learn-sandpack.vercel.app/" search-title="Learn Sandpack">view live</a>)
+- 🚀🚀 Learn Jekyll and running github pages locally: <a href="https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md" search-title="🚀🚀 Learn Jekyll and running github pages locally">Click here</a>
 - Media:
-	- Shark Tank Season 1 - Youtube: [Click here](https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w){: search-title="Shark Tank Season 1 - Youtube"}
-	- Shiv Mahapuran - Youtube: [Click here](https://www.youtube.com/playlist?list=PL57F01972FF119B66){: search-title="Shiv Mahapuran - Youtube"}
-- Learn `Xournal`: [Click here](./arch-notes.md#installed-xournalpp-pp-means--ie-xournal){: search-title="Learn `Xournal`"}:
-- Learn Hyperlocal Farm: [Click here](./learn-hyperlocal-farms.md){: search-title="Learn Hyperlocal Farm"}
-- Learn Airbnb: [Click here](learn-airbnb.md){: search-title="Learn Airbnb"}
+	- Shark Tank Season 1 - Youtube: <a href="https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w" search-title="Shark Tank Season 1 - Youtube">Click here</a>
+	- Shiv Mahapuran - Youtube: <a href="https://www.youtube.com/playlist?list=PL57F01972FF119B66" search-title="Shiv Mahapuran - Youtube">Click here</a>
+- Learn `Xournal`: <a href="./arch-notes/#installed-xournalpp-pp-means--ie-xournal" search-title="Learn `Xournal`">Click here</a>
+- Learn Hyperlocal Farm: <a href="./learn-hyperlocal-farms" search-title="Learn Hyperlocal Farm">Click here</a>
+- Learn Airbnb: <a href="learn-airbnb.md" search-title="Learn Airbnb">Click here</a>
 - TODO: Do the flutter codelab. 💣💣
-- Learn Microfrontend: [Click here](learn-microfrontend.md){: search-title="Learn Microfrontend"}
-- Learn Framer Motion: [Click here](https://github.com/sahilrajput03/learn-framer-motion){: search-title="Learn Framer Motion"}
-- Learn YAML (yml): [Click here](https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0){: search-title="Learn YAML (yml)"}
-- Learn Makefile: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile){: search-title="Learn Makefile"}
-- Learn GIMP: [Click here](https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit){: search-title="Learn GIMP"}
-- Learn Svelte: [Click here](https://github.com/sahilrajput03/learn-svelte){: search-title="Learn Svelte"}
-- Learn Playwright: [Click here](https://github.com/sahilrajput03/learn-playwright){: search-title="Learn Playwright"}
-- Learn C: [Click here](https://github.com/sahilrajput03/learn-c){: search-title="Learn C"}
-- Learn C++: [Click here](https://github.com/sahilrajput03/learning_cpp){: search-title="Learn C++"}
-- Learn IoT and C (Doc): [Click here](https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op){: search-title="Learn IoT and C (Doc)"}
-- Learn SolidJS: [Click here](https://github.com/sahilrajput03/learning-solidjs){: search-title="Learn SolidJS"}
-- Learn AWS (Amazon Web Services): [Click here](https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10){: search-title="Learn AWS (Amazon Web Services)"}
+- Learn Microfrontend: <a href="learn-microfrontend.md" search-title="Learn Microfrontend">Click here</a>
+- Learn Framer Motion: <a href="https://github.com/sahilrajput03/learn-framer-motion" search-title="Learn Framer Motion">Click here</a>
+- Learn YAML (yml): <a href="https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0" search-title="Learn YAML (yml)">Click here</a>
+- Learn Makefile: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile" search-title="Learn Makefile">Click here</a>
+- Learn GIMP: <a href="https://docs.google.com/document/d/1dCsc5U7XAOIaPub1OlSsJk4FectuRPj3ceqFlz_Js8Q/edit" search-title="Learn GIMP">Click here</a>
+- Learn Svelte: <a href="https://github.com/sahilrajput03/learn-svelte" search-title="Learn Svelte">Click here</a>
+- Learn Playwright: <a href="https://github.com/sahilrajput03/learn-playwright" search-title="Learn Playwright">Click here</a>
+- Learn C: <a href="https://github.com/sahilrajput03/learn-c" search-title="Learn C">Click here</a>
+- Learn C++: <a href="https://github.com/sahilrajput03/learning_cpp" search-title="Learn C++">Click here</a>
+- Learn IoT and C (Doc): <a href="https://docs.google.com/document/d/1lN2vAJOs3Y2MBMWyNfH0RZHajUYMwEZD_Tl9QI1fssM/edit#heading=h.38q71c1y77op" search-title="Learn IoT and C (Doc)">Click here</a>
+- Learn SolidJS: <a href="https://github.com/sahilrajput03/learning-solidjs" search-title="Learn SolidJS">Click here</a>
+- ❤️❤️❤️ KRAMDOWN TO HTML LINKS ADDED AND NEED TO TEST ABOVE LINKS FROM HERE ... ❤️❤️❤️
+- Learn AWS (Amazon Web Services): <a href="https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10" search-title="Learn AWS (Amazon Web Services)">Click here</a>
 - Status Page Technologies:
-	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage){: search-title="Statuas Page Service by Atlassian"}
- 		- Used by OpenAI: [Click here](https://status.openai.com/uptime){: search-title="OpenAI Status Page Technology"}
- 	- Other alternatives of *statuspage* on Google: [Click here](https://www.google.com/search?q=status+page+like+services)
-- **Learn Sanskrit:** [Click here](https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit){: search-title="Learn Sanskrit"}
-- SBI Bank Cyber Security Guidelines, Hindi: [Click here](https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit){: search-title="SBI Bank Cyber Security Guidelines, Hindi"}
-- Learn Python: [Click here](https://github.com/sahilrajput03/learn-python){: search-title="Learn Python - Github Repo"} ([doc](https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji){: search-title="Learn Python - Doc"} (inprocess of migration))
-- Learn Outlook: [Click here](https://docs.google.com/document/d/1YpexQLJNdNrQhjidRt38bC49hcgiIO_hAPqfGSEds8Y/edit#heading=h.2mmi0x1sciq7){: search-title="Learn Outlook"}
-- Learn Adobe Acrobat Reader: [Click here](https://docs.google.com/document/d/1H66PnT3q8uUXEdSePyw89X4E5UpaTeXEYEGo03LUeig/edit#heading=h.faibccl9c26h){: search-title="Learn Adobe Acrobat Reader"}
+	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage){: search-title="Status Page Service by Atlassian"}
+ 		- Used by OpenAI: [Click here](https://status.openai.com/uptime){: search-title="OpenAI - Status Page"}
+ 	- Other alternatives of *statuspage* - Google Search: <a href="https://www.google.com/search?q=status+page+like+services" search-title="Other alternatives of *statuspage* - Google Search">Click here</a>
+- **Learn Sanskrit:** <a href="https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit" search-title="Learn Sanskrit">Click here</a>
+- SBI Bank Cyber Security Guidelines, Hindi: <a href="https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit" search-title="SBI Bank Cyber Security Guidelines, Hindi">Click here</a>
+- Learn Python Repo: <a href="https://github.com/sahilrajput03/learn-python" search-title="Learn Python - Github Repo">Click here</a>
+	- Learn Python Doc: <a href="https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji" search-title="Learn Python - Doc">Click here</a> (inprocess of migration)
+- Learn Outlook: <a href="https://docs.google.com/document/d/1YpexQLJNdNrQhjidRt38bC49hcgiIO_hAPqfGSEds8Y/edit#heading=h.2mmi0x1sciq7" search-title="Learn Outlook">Click here</a>
+- Learn Adobe Acrobat Reader: <a href="https://docs.google.com/document/d/1H66PnT3q8uUXEdSePyw89X4E5UpaTeXEYEGo03LUeig/edit#heading=h.faibccl9c26h" search-title="Learn Adobe Acrobat Reader">Click here</a>
 - Learn Cloudinary: <a href="https://docs.google.com/document/d/1a2lUrjw_Yb83VS1vdbY4VdRRXGZ_gU6WLnNv3v9z_Ic/edit?tab=t.0" search-title="Learn Cloudinary">Click here</a>
 	- Cloudinary primarily provides cloud-based media management, enabling users to store, optimize, transform, and deliver images and videos efficiently across web and mobile platforms.
 	- <a href="https://github.com/sahilrajput03/learn-cloudinary" search-title="sahilrajput03/learn-cloudinary">sahilrajput03/learn-cloudinary</a>
@@ -847,6 +849,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Subtle and Impactful Mistakes with Exceptions: <a href="subtle-impactful-exceptions.html" search-title="Subtle and Impactful Mistakes with Exceptions">Click here</a>
 	- Business Terms: <a href="learn-business-terms.html" search-title="Business Terms abc">Click here</a>
 - Learn `tiged` (alternate of degit): <a href="https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0" search-title="Learn `tiged` (alternate of degit) (uses a tag)">Click here</a>
+- ❤️ running-files-in-browser: <a href="https://github.com/sahilrajput03/running-files-in-browser" search-title="running-files-in-browser (#Running files in browser)">Click here</a>
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
@@ -859,4 +862,5 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
-***Note to Sahil: kramdown to anchor tags (html) done from bottom till "Learn Cloudinary" link (moving upwards).***
+
+***Note to Sahil: kramdown to anchor tags (html) done from bottom till "Learn macOS - Samaksh" link (moving upwards).***
