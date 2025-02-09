@@ -45,7 +45,7 @@ async function searchFunction(e) {
 
     searchResultsEl.innerHTML = [...SEARCH_LINKS, ...dynamicSearchLinks]
         .filter(item => item['search-title'].toLowerCase().includes(searchQuery))
-        .slice(0, 5) // return only first 5 items
+        .slice(0, 8) // return only first 8 items
         .map(
             (item) =>
                 `<li><a target="_blank" href="${item.url}">${item['search-title']}</a></li>`

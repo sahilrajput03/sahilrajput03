@@ -778,10 +778,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Shark Tank Season 1 - Youtube: <a href="https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w" search-title="Shark Tank Season 1 - Youtube">Click here</a>
 	- Shiv Mahapuran - Youtube: <a href="https://www.youtube.com/playlist?list=PL57F01972FF119B66" search-title="Shiv Mahapuran - Youtube">Click here</a>
 - Learn `Xournal`: <a href="./arch-notes/#installed-xournalpp-pp-means--ie-xournal" search-title="Learn `Xournal`">Click here</a>
-- Learn Hyperlocal Farm: <a href="./learn-hyperlocal-farms" search-title="Learn Hyperlocal Farm">Click here</a>
+- Learn Hyperlocal Farm: <a href="./learn-hyperlocal-farms.md" search-title="Learn Hyperlocal Farm">Click here</a>
 - Learn Airbnb: <a href="learn-airbnb.md" search-title="Learn Airbnb">Click here</a>
 - TODO: Do the flutter codelab. 💣💣
-- Learn Microfrontend: <a href="./learn-microfrontend" search-title="Learn Microfrontend">Click here</a>
+- Learn Microfrontend: <a href="./learn-microfrontend.md" search-title="Learn Microfrontend">Click here</a>
 - Learn Framer Motion: <a href="https://github.com/sahilrajput03/learn-framer-motion" search-title="Learn Framer Motion">Click here</a>
 - Learn YAML (yml): <a href="https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0" search-title="Learn YAML (yml)">Click here</a>
 - Learn Makefile: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile" search-title="Learn Makefile">Click here</a>
@@ -864,3 +864,8 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
 
 ***Note to Sahil: kramdown to anchor tags (html) done from bottom till "Learn macOS - Samaksh" link (moving upwards).***
+
+<hr />
+
+
+✅ **NOTE:** For files ending with .md (e.g., searh for `./learn-js.md`) which are in this same repository need to have have full aboslute path to their github pages paths. This would be very helpful in future when I'm gonna move my website to svelte totally as I will not have a single html page other than this page. <ins>The plan is to render this page totally as html markup inside the svelte component and not make use of markdown (markdown to html converstaion) at all thus I will be able to leverage all facilities of moder svelte development framework. ❤️</ins>
