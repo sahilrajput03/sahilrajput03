@@ -873,3 +873,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 
 - **⭐️PROMPTS FOR GROQ**
 	- Convert the kramdown to html when i give you and keep the search-title attribute as it is and do not return anything else.
+
+**TODO:** 
+- Exclude files from compilation of all markdown files except README.md file in sahilrajput.com site.
+	- Source: https://chatgpt.com/c/67aa12d6-b1bc-8007-bd50-09628051edb6
