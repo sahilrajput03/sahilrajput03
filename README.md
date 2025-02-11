@@ -124,7 +124,7 @@ cat /dev/null
 
 ## Javascript Cheatsheet - Sahil
 
-- **Learn Javascript:** [Click here](./learn-js.md)
+- **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md)
 
 ```js
 SLEEP FUNCTION
@@ -373,7 +373,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - thepiratebay: [proxied](https://freeproxy.io/o.php?u=https://thepiratebay.org), [https://thepiratebay.org](https://thepiratebay.org)
 - torrentgalaxy: [proxied](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/), [https://torrentgalaxy.to/](https://torrentgalaxy.to/)
 
-# Tech Journal & Blogging: [Click here](tech.html) \| [Old feed](./feed.md)
+# Tech Journal & Blogging: [Click here](tech.html) \| [Old feed](https://github.com/sahilrajput03/sahilrajput03/blob/main/feed.md)
 
 # General Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.fjrkl2aasat#heading=h.n9bge0scwmnc)
 
@@ -397,7 +397,7 @@ Source: **List of English-language television channels in India \| Wikipedia:** 
 - Text Wrap, Line Break Online (e.g., say comments to wrap after 80 chars): [Click here](https://www.joydeepdeb.com/tools/line-break.html)
 - Transcribe youtube video or shorts: [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
 	- For videos not having subtitles the above method won't work though you can use OpenAi's STT api. You can first download the m4a audio file of the youtube video by downloading the audio file from this site - [https://www.multidownloader.net](https://www.multidownloader.net). *Note: OpenAi's STT supports m4a format as input file 😇*
-- Convert ogg to mp3 (for source for openai's STT): [Check Learn bash page](./learn-bash.md)
+- Convert ogg to mp3 (for source for openai's STT): [Check Learn bash page](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
 - Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
 - Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
@@ -460,14 +460,13 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 **Quick Links:**
 
 - English:
-	- Common mistakes in english: [Click here](learn-common-mistakes-in-english.md)
 - **Stocks, Trading, Zerodha:**
 	- Stocks Blog: [Click here](https://docs.google.com/document/d/1r_Y1KKSI4DQ0gjWynQVGRX6W7V0fMZCKzT5WldlamTU/edit#heading=h.y03v6kzl6nf)
-	- Learn Stocks: [Click here](./learn-stocks.md)
-	- Learn Zerodha: [Click here](learn-zerodha.md)
-	- Learn Zerodha Varasity: [Click here](./learn-zerodha-varasity.md)
+	- Learn Stocks: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-stocks.md)
+	- Learn Zerodha: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-zerodha.md)
+	- Learn Zerodha Varasity: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-zerodha-varasity.md)
 	- Doc - Learn Trading - Sahil Rajput: [Click here](https://docs.google.com/document/d/1pv_pvsd06fB1vJnPOoGTdX6KVfdg_vJsbci5Blz-DFs/edit)
-- Newspaper Feed: [Click here](./learn-newspaper-analysis.md)
+- Newspaper Feed: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-newspaper-analysis.md)
 - TamronHallShow (Journalist): [@TamronHallShow](https://www.youtube.com/@TamronHallShow/videos)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 - TTS:
@@ -520,7 +519,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
 		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/), [2023](https://survey.stackoverflow.co/2023/), [2024](https://survey.stackoverflow.co/2024)
 		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [2022](https://2022.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
-			- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md)
+			- **Learn from State of Javascript 2021:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-state-of-javascript.md)
   - Tech Magazines:
 	- Analytics India Magazine: [Click here](https://twitter.com/Analyticsindiam)
   - Podcasts:
@@ -535,31 +534,29 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 ## References:
 
 - Contact me: [Click here](/me)
-- My Works: [Click here](./my-works.md)
+- My Works: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-works.md)
 - **Blockchain Development:**
-	- Blockchain Portfolio: [Click here](./blockchain_portfolio.md)
+	- Blockchain Portfolio: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/blockchain_portfolio.md)
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
-- Dictionary: [Click here](./dictionary.md)
-- **Acronyms:** [Click here](./acroynms.md)
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - Linux:
-	- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](./arch-notes.md)
-	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](./learn-bash.md)
+	- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md)
+	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
 		- **Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash)  (with autodocs readme)
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
 	- Learn Systemd: [Click here](https://docs.google.com/document/d/1aOpEVHh8_3Z3bEP8J-2RiGITiN25tg_d35p8v4zUZWE/edit)
-- **Book logs:** [Click here](./book-logs/README.md)
+- **Book logs:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
-- **Courses:** [Click here](./courses-list.md)
-- **Enlightment:** [Cick here](./enlightenment.md)
-- **FSO contribution:** [Click here](./my-fso-contribution.md)
+- **Courses:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/courses-list.md)
+- **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
+- **FSO contribution:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
 - Learning monogo and mongoosejs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
-	- **Learn mongo-cli:** [Click here](./learn-mongo-cli.md)
-- **Hindi:** [Click here](./learn-hindi.md)
+	- **Learn mongo-cli:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-mongo-cli.md)
+- **Hindi:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
-- **Learn Curl:** [Click here](./learn-curl.md)
+- **Learn Curl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-curl.md)
 - Git & Github:
-	- **Learn Git:** [Click here](./learn-git.md)
+	- **Learn Git:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-git.md)
 	- **Leanr Git Large File Storage (LFS):** [Click here](https://docs.google.com/document/d/1HFKzirTi9qran6kXTgV6uZaqalOF_wwCsPuL-u0e0ew/edit?tab=t.0#heading=h.r53gdoqrdh0h)
 	- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
 		- **Learn act:** [Click here](https://docs.google.com/document/d/1BcGk9VR4KrBxgqBY1mrfOZEwI7N4gfD780t5R6dQHxc/edit)
@@ -567,41 +564,41 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
 	- How to write commit messages: [Click here](how-to-write-commit-messages.md)
 - **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
-- **Learn Gmail:** [Click here](./learn-gmail.md)
+- **Learn Gmail:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
-- **Learn Regex:** [Click here](./learn-regex.md)
-- **Learn Markdown:** [Click here](./learn-markdown.md)
-- **Learn Perl:** [Click here](./learn-perl.md)
-- **Learn qutebrowser:** [Click here](./qutebrowser.md)
-- **Learn Urdu:** [Click here](./learn-urdu/)
+- **Learn Regex:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-regex.md)
+- **Learn Markdown:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-markdown.md)
+- **Learn Perl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-perl.md)
+- **Learn qutebrowser:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/qutebrowser.md)
+- **Learn Urdu:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-urdu/readme.md)
 - **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
 - **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
-- **Learn CLI binaries:** [Click here](./learn-cli-binary.md)
+- **Learn CLI binaries:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cli-binary.md)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Url shorteners:** [Bitly](https://bitly.com/)
-- **Vim-notes:** [Click here](./vim.md)
-- **Learn Vscode:** [Click here](./learn-vscode)
-	- Using Vslive Share: [Click here](learn-vs-live-share.md){: search-title="Using Vslive Share"}
-- **Learn Photoshop:**[Click here](./learn-photoshop.md)
+- **Vim-notes:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/vim.md)
+- **Learn Vscode:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vscode.md)
+	- Using Vslive Share: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vs-live-share.md){: search-title="Using Vslive Share"}
+- **Learn Photoshop:**[Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-photoshop.md)
 - **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
-- **Why telegram (not whatsapp):** [Click here](why-telegram.md)
-- **Telegram Groups:** [Click here](./telegram-groups.md)
-- Learn BitBucket \| Pipelines \| Bitbucket API: [Click here](learn-bitbucket.md)
+- **Why telegram (not whatsapp):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-telegram.md)
+- **Telegram Groups:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/telegram-groups.md)
+- Learn BitBucket \| Pipelines \| Bitbucket API: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bitbucket.md)
 - **Learn Google Development:**
-	- Learn Google Play Console: [Click here](learn-playconsole.md)
-	- Learn Google Cloud Platform (Google Cloud Console): [Click here](./learn-google-cloud.md)
-		- Console APIs via Oauth2 with Postman: [Click here](learn-google-console-apis-via-oauth2.md)
-	- Learn Login with Google: [Click here](learn-google-auth.md)
+	- Learn Google Play Console: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-playconsole.md)
+	- Learn Google Cloud Platform (Google Cloud Console): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-cloud.md)
+		- Console APIs via Oauth2 with Postman: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-console-apis-via-oauth2.md)
+	- Learn Login with Google: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-auth.md)
 	- Learn Google Analytics (GA) vs. Google Publisher Tags (GPT): [Click here](https://docs.google.com/document/d/1N05jA51Qx0NAkNL2zFoTI-bN6qeRB3QvauyhlUbb8cE/edit#heading=h.eh1wskjta02t)
 		- Learn Google Analytics: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/google-analytics-custom-solution)
 		- Can Google index content that is rendered in the browser with JavaScript: [Click here](https://docs.google.com/document/d/1uTQeWrv6En4MYkPtX5RPNeRLtDv2mpsveVBhSRlETrg/edit?tab=t.0#heading=h.ucpnwfvh6ide)
 		- Learn Publisher Tag via PubwiseAds: [Click here](https://github.com/sahilrajput03/learn-react/blob/main/pubwise-ads-integration/README.md) (PubwiseAds)
 	- Learn Google Apps Script: [Click here](https://github.com/sahilrajput03/learn-google-apps-script)
-	- Learn Google Calendar: [Click here](./learn-google-calendar.md)
+	- Learn Google Calendar: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-calendar.md)
 	- Learn Google Office Utility Tools (Docs, Sheets, Slides): [Click here](https://docs.google.com/document/d/1CvC-N3daE9P8k2d-joGwLtRez9Vm4La0o23w1xCLJOw/edit)
 		- Tags: `Learn google docs`
 	- Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
-- **Open Source Apps from All over the world** - [Click here](./open-source-apps.md)
+- **Open Source Apps from All over the world** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/open-source-apps.md)
 - **Nocode tools**:
   - **List of nocode tools - Tweet:** [Click here](https://twitter.com/JustinSaaS/status/1516457662900314119)
   - Site Builder:
@@ -613,44 +610,45 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
     	- Ecommerce Website Making \| Google Doc: [Click here](https://docs.google.com/document/d/13J6uBmzyjOI4g-oQ9TFz98KBR0hPdzX-wroAUEfZEZw/edit#heading=h.gg3ysj1q9gx4)
      - [https://bubble.io](https://bubble.io/)
      - [https://wordpress.org](https://wordpress.org/) (no-code or low-code platform) ([hosting](https://wordpress.org/hosting/))
-- **Learn Deployment** - [Click here](./learn-deploy.md)
-	- Learn Vercel Deployment: [Click here](./learn-vercel.md)
+- **Learn Deployment** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-deploy.md)
+	- Learn Vercel Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vercel.md)
 		- ❤️ VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
- 	- Learn Heroku Deployment: [Click here](./learn-heroku.md)
-- **Learn User Mangement and Permissions** - [Click here](./learn-user-management-and-permissions.md)
+ 	- Learn Heroku Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-heroku.md)
+- **Learn User Mangement and Permissions** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-user-management-and-permissions.md)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/courses-list.md#awesome-tech-youtube-channels)
-- **Learn WebRTC:** [Click here](./learn-webrtc.md)
+- **Learn WebRTC:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-webrtc.md)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
-- **Useful Android App:** [Click here](./usefult-android-apps.md)
-- **Learn Freelancing:** [Click here](./free-lancing.md)
+- **Useful Android App:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/usefult-android-apps.md)
+- **Learn Freelancing:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/free-lancing.md)
+- Learn Upwork (private repository): [Click here](https://github.com/sahilrajput03/learn-upwork){: search-title="Learn Upwork (private repository)"}
 - **Docker:**
 	- **devopswithdocker:** [Click here](https://github.com/sahilrajput03/dockerHelsinki)
 - **Kubernetes:**
 	- **devopswithkubernetes**: [Click here](https://github.com/sahilrajput03/devopswithkubernetes)
-	- **Why kubernetes?** [Click here](./why-kubernetes.md)
+	- **Why kubernetes?** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-kubernetes.md)
 	- **kube-cluster-dwk**: [Click here](https://github.com/sahilrajput03/kube-cluster-dwk)
-- **How to workrave?** [Click here](./why-and-how-to-workrave.md)
-- **Modern Software Development Courses - India:** [Click here](./modern-software-development-courses.md)
-- **Why and how linux?** [Click here](./why-and-how-linux.md)
-- **Service Worker:** [Click here](./learn-service-worker.md)
-- **Learn Serverless:** [Click here](./learn-serverless.md)
+- **How to workrave?** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-and-how-to-workrave.md)
+- **Modern Software Development Courses - India:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/modern-software-development-courses.md)
+- **Why and how linux?** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-and-how-linux.md)
+- **Service Worker:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-service-worker.md)
+- **Learn Serverless:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-serverless.md)
 - **Calling server functions from client directly:** [Click here](./learn-api-mount.md)
-- **JS Conf 2022:** [Click here](./notes-js-conf-2022.md)
-- **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](./game-development.md)
+- **JS Conf 2022:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/notes-js-conf-2022.md)
+- **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/game-development.md)
 - **Food, Diet Plan, Proteins:** [Click here](https://docs.google.com/document/d/1iLl-g8UoypLcXANbiaTp4Y4fqiPw1ulybeK5gdjgV40/edit?usp=sharing)
-- **Learn Obs:** [Click here](./learn-obs.md)
-- **Challau.com metaverse:** [Click here](./challau-metaverse.md)
+- **Learn Obs:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-obs.md)
+- **Challau.com metaverse:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
-- **Indus valley Reports:** [Click here](./learn-indus-valley-reports.md)
-- **Avalon Meta:** [Click here](./avalon-meta.md)
-- **Learn Hasura:** [Click here](./learn-hasura.md)
-- **OneGraph:** [Click here](./learn-one-graph.md)
+- **Indus valley Reports:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-indus-valley-reports.md)
+- **Avalon Meta:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/avalon-meta.md)
+- **Learn Hasura:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hasura.md)
+- **OneGraph:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-one-graph.md)
 - **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), [Another article @ apollo](https://www.apollographql.com/blog/graphql/pagination/understanding-pagination-rest-graphql-and-relay/), Inspiration - Kaltsoon's Sequelize Cursor based pagination npm package: [Click here](https://github.com/Kaltsoon/sequelize-cursor-pagination)
-- **Youtube Hacks:**: [Click here](./youtube-hacks.md)
-- **Learn Travis:** [Click here](./learn-travis.md)
+- **Youtube Hacks:**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/youtube-hacks.md)
+- **Learn Travis:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-travis.md)
 - **Learn Socket.io/Websockets:** [Click here](https://github.com/sahilrajput03/learn-websockets)
-- **Public Journal:** [Click here](./public-journal.md)
+- **Public Journal:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/public-journal.md)
 - **Learn React:** [Click here](https://github.com/sahilrajput03/learn-react)
 - **Learn React Native**: [Click here](https://github.com/sahilrajput03/learn-react-native){: search-title="Learn React Native"}
 - ❤️Funny Loading Messages: <a href="https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32" search-title="Funny Loading Messages">Click here</a>
@@ -659,23 +657,23 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- SolidJS - Ryan Carniato - The World Beyond Components: [Click here](https://www.youtube.com/watch?v=O6xtMrDEhcE){: search-title="SolidJS - Ryan Carniato - The World Beyond Components"}
 	- Svelte - Rich Harris - Rethinking reactivity - YouTube: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao){: search-title="Svelte - Rich Harris - Rethinking reactivity - YouTube"}
 	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
-- **Weird Problems:** - [Click here](./weird-problems.md){: search-title="Weird Problems"}
-- **Intro Guides to Platforms:** [Click here](./intro-guide-to-platforms.md){: search-title="Intro Guides to Platforms"}
-- **Learn axios:** [Click here](./learn-axios.md){: search-title="Learn axios"}
-- **Learn nestjs:** [Click here](./learn-nestjs.md){: search-title="Learn nestjs"}
-- **Learn push notificaitons:** [Click here](./learn-push-notifications.md){: search-title="Learn push notificaitons"}
-- **Learn heroku webhooks:** [Click here](./learn-web-hooks.md){: search-title="Learn heroku webhooks"}
+- **Weird Problems:** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/weird-problems.md){: search-title="Weird Problems"}
+- **Intro Guides to Platforms:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/intro-guide-to-platforms.md){: search-title="Intro Guides to Platforms"}
+- **Learn axios:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-axios.md){: search-title="Learn axios"}
+- **Learn nestjs:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-nestjs.md){: search-title="Learn nestjs"}
+- **Learn push notificaitons:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-push-notifications.md){: search-title="Learn push notificaitons"}
+- **Learn heroku webhooks:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-web-hooks.md){: search-title="Learn heroku webhooks"}
 - **Learn Twilio** [Click here](https://docs.google.com/document/d/1cUv_ofHediEo_VbUt63qrm3XXxrn6QMVjfQd3o9pbEA/edit?tab=t.0#heading=h.j4kdrmy99caa){: search-title="Learn Twilio"}
-- **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](./learn-why-websites-first-not-mobile-apps.md){: search-title="Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps"}
+- **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-why-websites-first-not-mobile-apps.md){: search-title="Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps"}
 - **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md){: search-title="Learn Typescript"}
-- **Learn postman:** [Click here](./learn-postman.md){: search-title="Learn postman"}
-- **Learn redux-toolkit:** [Click here](./learn-redux-toolkit.md){: search-title="Learn redux-toolkit"}
-- **Learn stripe:** [Click here](./learn-stripe.md){: search-title="Learn stripe"}
-- **Npm libaries I recommend:** [Click here](./learn-npm-libraries.md){: search-title="Npm libaries I recommend"}
-- **Learn Mailservers:** [Click here](./mail-server.md){: search-title="Learn Mailservers"}
-- Why DSA based interviews are stupid?: [Click here](./dsa.md){: search-title="Why DSA based interviews are stupid?"}
+- **Learn postman:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-postman.md){: search-title="Learn postman"}
+- **Learn redux-toolkit:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-redux-toolkit.md){: search-title="Learn redux-toolkit"}
+- **Learn stripe:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-stripe.md){: search-title="Learn stripe"}
+- **Npm libaries I recommend:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-npm-libraries.md){: search-title="Npm libaries I recommend"}
+- **Learn Mailservers:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/mail-server.md){: search-title="Learn Mailservers"}
+- Why DSA based interviews are stupid?: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/dsa.md){: search-title="Why DSA based interviews are stupid?"}
 - **Javascript:**
-	- ❤️ Learn Jest/expect: [Click here](./learn-jest-expect.md){: search-title="Learn Jest/expect"}
+	- ❤️ Learn Jest/expect: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-jest-expect.md){: search-title="Learn Jest/expect"}
 	- ❤️ **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs"}
 		- Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node"}
 			- Few topics covered in above project's readme:
@@ -688,71 +686,70 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
 		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
-	- **Learn Javascript:** [Click here](./learn-js.md){: search-title="Learn Javascript"}
+	- **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md){: search-title="Learn Javascript"}
 		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
-	- **Learn from State of Javascript 2021:** [Click here](./learn-state-of-javascript.md){: search-title="Learn from State of Javascript 2021"}
-	- **Prime Resources - Javascript:** [Click here](./prime-resources-js.md){: search-title="Prime Resources - Javascript"}
+	- **Learn from State of Javascript 2021:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-state-of-javascript.md){: search-title="Learn from State of Javascript 2021"}
+	- **Prime Resources - Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/prime-resources-js.md){: search-title="Prime Resources - Javascript"}
 	- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa){: search-title="DSA in Javascript, Course"}
-	- **Convert javascript object to json - cli tool** - [Click here](./obj-json.md){: search-title="Convert javascript object to json - cli tool"}
-	- **Typescript typechecking in javascript files with jsdoc:** [Click here](./@ts-check.md){: search-title="Typescript typechecking in javascript files with jsdoc"}
+	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
+	- **Typescript typechecking in javascript files with jsdoc:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/@ts-check.md){: search-title="Typescript typechecking in javascript files with jsdoc"}
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx){: search-title="Nginx config files"}
   - Reverse proxy with `express-http-proxy` (npm library): [sahilrajput03/reverseProxy](https://github.com/sahilrajput03/reverseProxy){: search-title="Reverse proxy with `express-http-proxy` (npm library)"}
-- **Leetcode: [Click here](./learn-leetcode.md)**{: search-title="Leetcode"}
-- Learn auth0: [Click here](./learn-auth0.md){: search-title="Learn auth0"}
+- **Leetcode: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-leetcode.md)**{: search-title="Leetcode"}
+- Learn auth0: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-auth0.md){: search-title="Learn auth0"}
 - Best of Javascript: [Click here](https://bestofjs.org/){: search-title="Best of Javascript"}
 - **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail){: search-title="Css Design Trail"}
 	- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md){: search-title="Learn Bootstrap"}
 	- Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md){: search-title="Learn Styled Components"}
 - **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit){: search-title="Learn Figma"}
 	- Website Designs: [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb){: search-title="Website Designs"}
-- **Learn FigJam:** [Click here](./learn-figjam.md)
-- Learn Elastic Search: [Click here](./learn-elastic-search.md){: search-title="Learn Elastic Search"}
-- Learn Storybook: [Click here](./learn-storybook.md){: search-title="Learn Storybook"}
-- Learn Eslint: [Click here](./learn-eslint.md){: search-title="Learn Eslint"}
+- **Learn FigJam:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-figjam.md)
+- Learn Elastic Search: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-elastic-search.md){: search-title="Learn Elastic Search"}
+- Learn Storybook: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-storybook.md){: search-title="Learn Storybook"}
+- Learn Eslint: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-eslint.md){: search-title="Learn Eslint"}
 - Learn Prettier: [Click here](https://docs.google.com/document/d/1T-VclkyzwAxoJ519c5P9xRrn0ZjRtQF-Ueu1GviMJYo/edit?tab=t.0){: search-title="Learn Prettier"}
-- Learn Chrome: [Click here](./learn-chrome.md){: search-title="Learn Chrome"}
+- Learn Chrome: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md){: search-title="Learn Chrome"}
 	- Chrome Extensions (internal link in above doc): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions){: search-title="Chrome Extensions (inside Learn Chrome Doc)"}
-- Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](./learn-trpc.md){: search-title="Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever)"}
-- Learn Paypal: [Click here](./learn-paypal.md){: search-title="Learn Paypal"}
+- Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-trpc.md){: search-title="Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever)"}
+- Learn Paypal: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-paypal.md){: search-title="Learn Paypal"}
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md){: search-title="Learn Paypal Subscription And Database Schema"}
 - Learn Kdenlive (video editor): [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit){: search-title="Learn Kdenlive (video editor)"}
 - Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook){: search-title="Learn storyboook"}
-- Friends Github Profiles: [Click here](./friends-github.md){: search-title="Friends Github Profiles"}
-- Learn Jira: [Click here](./learn-jira.md){: search-title="Learn Jira"}
-- Learn RxJs: [Click here](./learn-rxjs.md){: search-title="Learn RxJs"}
+- Friends Github Profiles: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/friends-github.md){: search-title="Friends Github Profiles"}
+- Learn Jira: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-jira.md){: search-title="Learn Jira"}
+- Learn RxJs: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-rxjs.md){: search-title="Learn RxJs"}
 - ❤️ Learn Vitejs, VitePress, Vitest: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0){: search-title="❤️ Learn Vitejs, VitePress, Vitest"}
-- Learn Javascript Date: [Click here](./learn-javascript-date.md){: search-title="Learn Javascript Date"}
-- Learn Luxon (DateTime): [Click here](./learn-luxon.md){: search-title="Learn Luxon (DateTime)"}
-- Learn `Chalk` (node library): [Click here](./learn-chalkjs.md){: search-title="Learn `Chalk` (node library)"}
-- Learn `Colors` (node library): [Click here](./learn-colors-npm.md){: search-title="Learn `Colors` (node library)"}
-- Learn Spirituality: [Click here](./learn-spirituality.md){: search-title="Learn Spirituality"}
-- Learn Skype: [Click here](./learn-skype.md){: search-title="Learn Skype"}
-- Learn SEO, react-helmet: [Click here](./learn-seo.md){: search-title="Learn SEO, react-helmet"}
-- Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](./learn-leaflet.md){: search-title="Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓)"}
+- Learn Javascript Date: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-javascript-date.md){: search-title="Learn Javascript Date"}
+- Learn Luxon (DateTime): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-luxon.md){: search-title="Learn Luxon (DateTime)"}
+- Learn `Chalk` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chalkjs.md){: search-title="Learn `Chalk` (node library)"}
+- Learn `Colors` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-colors-npm.md){: search-title="Learn `Colors` (node library)"}
+- Learn Spirituality: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-spirituality.md){: search-title="Learn Spirituality"}
+- Learn Skype: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-skype.md){: search-title="Learn Skype"}
+- Learn SEO, react-helmet: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-seo.md){: search-title="Learn SEO, react-helmet"}
+- Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-leaflet.md){: search-title="Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓)"}
 - Validation Library:
 	- Learn Zod: [Click here](https://github.com/sahilrajput03/learn-zod){: search-title="Learn Zod"}
-	- Learn classvalidator: [Click here](./learn-classvalidator.md){: search-title="Learn classvalidator"}
-- Learn South Indian Bank - Internet Banking: [Click here](./learn-south-india-bank){: search-title="Learn South Indian Bank - Internet Banking"}
-- Learn Upwork (private repository): [Click here](./learn-upwork){: search-title="Learn Upwork (private repository)"}
-- Learn Flameshot: [Click here](./learn-flameshot.md){: search-title="Learn Flameshot"}
-- Learn Wordpress Editing: [Click here](./learn-wordpress-editing.md){: search-title="Learn Wordpress Editing"}
-- **Learn Capacitor:** [Click here](./learn-capacitor.md){: search-title="Learn Capacitor"}
+	- Learn classvalidator: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-classvalidator.md){: search-title="Learn classvalidator"}
+- Learn South Indian Bank - Internet Banking: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-south-india-bank.md){: search-title="Learn South Indian Bank - Internet Banking"}
+- Learn Flameshot: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-flameshot.md){: search-title="Learn Flameshot"}
+- Learn Wordpress Editing: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-wordpress-editing.md){: search-title="Learn Wordpress Editing"}
+- **Learn Capacitor:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-capacitor.md){: search-title="Learn Capacitor"}
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md){: search-title="Learn Android"}
 - Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/11RhQBo-wzvzVdUFe3RwAjhnuTGqSk8hRS5EGyv1lUGE/edit){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md){: search-title="Learn ChatGPT (My Notes)"}
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main){: search-title="Learn PWA/TWA/WebAPK (Progressive Web Applications)"}
-- Learn Remix: [Click here](./learn-remix.md){: search-title="Learn Remix"}
+- Learn Remix: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-remix.md){: search-title="Learn Remix"}
 - Learn Audacity: [Click here](https://docs.google.com/document/d/1RB2Kc2O3_mbiZcrCOcXwQZNOG3d48-1cWNz8t88llyE/edit){: search-title="Learn Audacity"}
-- Learn i3: [Click here](./learn-i3.md){: search-title="Learn i3"}
-- Learn Cloudflare: [Click here](./learn-cloudflare.md){: search-title="Learn Cloudflare"}
-- Learn Gist: [Click here](./learn-gist.md){: search-title="Learn Gist"}
-- Learn streaming mp3 file: [Click here](./learn-streaming.md){: search-title="Learn streaming mp3 file"}
+- Learn i3: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-i3.md){: search-title="Learn i3"}
+- Learn Cloudflare: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cloudflare.md){: search-title="Learn Cloudflare"}
+- Learn Gist: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-gist.md){: search-title="Learn Gist"}
+- Learn streaming mp3 file: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-streaming.md){: search-title="Learn streaming mp3 file"}
 - LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d){: search-title="LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤"}
-- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](./generate-ssh-key-pairs.md){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
+- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/generate-ssh-key-pairs.md){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
 - Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk){: search-title="Learn GTK (GUI Development in C, Linux)"}
-- Why you should not text your girlfriend?: [Click here](./why-you-should-not-text-your-girlfriend-much.md){: search-title="Why you should not text your girlfriend?"}
+- Why you should not text your girlfriend?: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-you-should-not-text-your-girlfriend-much.md){: search-title="Why you should not text your girlfriend?"}
 - Learn Anydesk: [Click here](learn-anydesk.md){: search-title="Learn Anydesk"}
-- My youtube video ids: [Click here](./my-youtube-video-ids.md){: search-title="My youtube video ids"}
+- My youtube video ids: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-youtube-video-ids.md){: search-title="My youtube video ids"}
 - Learn Amazon Product Advertising API: [Click here](learn-amazon-product-advertising-api.md){: search-title="Learn Amazon Product Advertising API"}
 - Web Components: [Click here](https://github.com/sahilrajput03/learn-web-components){: search-title="Web Components"}
 - Learn Deno: [Click here](https://github.com/sahilrajput03/deno-playground){: search-title="Learn Deno"}
@@ -777,11 +774,11 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Media:
 	- Shark Tank Season 1 - Youtube: <a href="https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w" search-title="Shark Tank Season 1 - Youtube">Click here</a>
 	- Shiv Mahapuran - Youtube: <a href="https://www.youtube.com/playlist?list=PL57F01972FF119B66" search-title="Shiv Mahapuran - Youtube">Click here</a>
-- Learn `Xournal`: <a href="./arch-notes/#installed-xournalpp-pp-means--ie-xournal" search-title="Learn `Xournal`">Click here</a>
-- Learn Hyperlocal Farm: <a href="./learn-hyperlocal-farms.md" search-title="Learn Hyperlocal Farm">Click here</a>
-- Learn Airbnb: <a href="learn-airbnb.md" search-title="Learn Airbnb">Click here</a>
+- Learn `Xournal`: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md#installed-xournalpp-pp-means--ie-xournal" search-title="Learn `Xournal`">Click here</a>
+- Learn Hyperlocal Farm: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hyperlocal-farms.md" search-title="Learn Hyperlocal Farm">Click here</a>
+- Learn Airbnb: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-airbnb.md" search-title="Learn Airbnb">Click here</a>
 - TODO: Do the flutter codelab. 💣💣
-- Learn Microfrontend: <a href="./learn-microfrontend.md" search-title="Learn Microfrontend">Click here</a>
+- Learn Microfrontend: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-microfrontend.md" search-title="Learn Microfrontend">Click here</a>
 - Learn Framer Motion: <a href="https://github.com/sahilrajput03/learn-framer-motion" search-title="Learn Framer Motion">Click here</a>
 - Learn YAML (yml): <a href="https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0" search-title="Learn YAML (yml)">Click here</a>
 - Learn Makefile: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md#learn-makefile" search-title="Learn Makefile">Click here</a>
@@ -811,7 +808,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn NDE: <a href="https://docs.google.com/document/d/1xkDQfzA-6MsIiTaGL5y4_Hvy1v1vhinJQ6QDQ8UdZ7U/edit?tab=t.0" search-title="Learn NDE">Click here</a>
 - UUID Generator in Web (#hash, #hashid): <a href="https://www.uuidgenerator.net" search-title="UUID Generator in Web">www.uuidgenerator.net</a>
 - Learn Machine Learning: <a href="https://docs.google.com/document/d/1ctpjEF820WJtDRjtKNpyOfNPcUbwC2EMuhEfBcBrIIc/edit?tab=t.0" search-title="Learn Machine Learning">Click here</a>
-- Syncing backend and frontned code (e.g, `types.ts` file) and have isomorphinc aka universal directory (file/files) across repositories (fronend, backend): <a href="./isomorphic-code.md" search-title="Syncing backend and frontend code (e.g., `types.ts` file) and having an isomorphic aka universal directory (file/files) across repositories (frontend, backend)">Click here</a>
+- Syncing backend and frontned code (e.g, `types.ts` file) and have isomorphinc aka universal directory (file/files) across repositories (fronend, backend): <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/isomorphic-code.md" search-title="Syncing backend and frontend code (e.g., `types.ts` file) and having an isomorphic aka universal directory (file/files) across repositories (frontend, backend)">Click here</a>
 - Learn Ayurveda: <a href="https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0" search-title="Learn Ayurveda">Click here</a>
 - Learn Dyaan/Meditation: <a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.tc9ukx6oxone" search-title="Learn Dyaan/Meditation">Click here</a>
 	- Learn Heartfullness: <a href="https://docs.google.com/document/d/1WPbWXvXWyJTcpFLigm52cOa90IwAp1nI8aZ8FgUj-CQ/edit?tab=t.0" search-title="Learn Heartfullness">Click here</a>
@@ -869,11 +866,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 <hr />
 
 
-✅ **NOTE:** For files ending with .md (e.g., searh for `./learn-js.md`) which are in this same repository need to have have full aboslute path to their github pages paths. This would be very helpful in future when I'm gonna move my website to svelte totally as I will not have a single html page other than this page. <ins>The plan is to render this page totally as html markup inside the svelte component and not make use of markdown (markdown to html converstaion) at all thus I will be able to leverage all facilities of moder svelte development framework. ❤️</ins>
+✅ **NOTE:** For files ending with .md (e.g., searh for `./learn-js.md`) are not direct links to github repository's page links. <ins>The plan is to render this page totally as html markup inside the svelte component near future and not make use of markdown (markdown to html converstaion) at all thus I will be able to leverage all facilities of modern svelte development framework. ❤️</ins>
 
 - **⭐️PROMPTS FOR GROQ**
 	- Convert the kramdown to html when i give you and keep the search-title attribute as it is and do not return anything else.
-
-**TODO:** 
-- Exclude files from compilation of all markdown files except README.md file in sahilrajput.com site.
-	- Source: https://chatgpt.com/c/67aa12d6-b1bc-8007-bd50-09628051edb6
