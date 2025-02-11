@@ -13,9 +13,17 @@ Cloudflare bot prevention on signups/forms: [https://blog.cloudflare.com/turnsti
      - For React:
        - @marsidev/react-turnstile: [npm](https://www.npmjs.com/package/@marsidev/react-turnstile), [github](https://github.com/marsidev/react-turnstile), [Demo](https://react-turnstile.vercel.app/basic)
 
-## openai uses cloudflare and it showed error like this on 23 Jan 2025
+## Sites using cloudflare
+
+### 1. Openai uses cloudflare and it showed error like this on 23 Jan 2025**
 
 <img src="https://github.com/user-attachments/assets/4efacb92-0ba0-495d-a4ad-13030e36a6aa" alt="drawing" width="700"/>
+
+### 2. Deepseek site
+
+As soon as sign up on google is clicked we are redirected to this page:
+
+<img src="https://github.com/user-attachments/assets/cc41e7fb-8e0a-4d54-9971-29704853dcde" alt="drawing" width="300"/>
 
 ## Polish
   - Activate Polish Docs: [Click here](https://developers.cloudflare.com/images/polish/activate-polish/)
