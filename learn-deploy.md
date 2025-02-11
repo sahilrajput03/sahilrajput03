@@ -9,7 +9,7 @@
 
 ## Managing live traffic handling in akamai or any other linux
 
-Make use of two cloned repos and run the server in one directory --- and when you need to update the code to new code you can simply try running the second server and if that runs without issues (e.g, not yet installed new dependencies, or any other compiling issues). When you're ready and confident that new code works in the second folder you can simply stop the server from first folder and start from second folder. That's it!
+Make use of two cloned repos and run the server in one directory --- and when you need to update the code to new code you can simply pull code in the second repo try running the second server and if that runs without issues (e.g, not yet installed new dependencies, or any other compiling issues). When you're ready and confident that new code works in the second folder you can simply stop the server from first folder and start from second folder. That's it!
 
 ## ❤️ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend
 
