@@ -11,6 +11,8 @@
 
 Make use of two cloned repos and run the server in one directory --- and when you need to update the code to new code you can simply pull code in the second repo try running the second server and if that runs without issues (e.g, not yet installed new dependencies, or any other compiling issues). When you're ready and confident that new code works in the second folder you can simply stop the server from first folder and start from second folder. That's it!
 
+You can also check "NGINX Failover with Backup Server" from ChatGPT: [Click here](https://chatgpt.com/c/67ab3cf5-4d44-8007-8a2e-e9e0a20e543a)
+
 ## ❤️ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend
 
 ⭐⭐ Google Document - [Click here](https://docs.google.com/document/d/15PieWH56pzC5Uh7WlCZit4nGOqfetmGi1aNqlmLymh4/edit?tab=t.0)
