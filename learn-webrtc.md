@@ -1,5 +1,8 @@
 # Web RTC Based References
 
+**Q. with webrtc how many people can talk to on video call without system performance issues?** [ChatGPT](https://chatgpt.com/c/67ad19b0-4b34-8007-ae19-5adb27dc8e9f) (tldr; 3-8 people)
+
+
 My projects:
 - https://github.com/sahilrajput03/video-chat-app-webrtc
 - https://svelte.monktechnoworld.com/webrtc-demo (using peerjs package)
