@@ -5,6 +5,7 @@
 - Move my files from https://github.com/sahilrajput03/my_bin repo to my current notes.
 
 **Quick Links:**
+- ❤️❤️❤️❤️  Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0#heading=h.xd4w27931f3h)
 - `config` Repo: [Click here](https://github.com/sahilrajput03/config)
 - `my_bin` Repo: [Click here](https://github.com/sahilrajput03/my_bin) (in process of moving data to my current notes pages)
 - **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
