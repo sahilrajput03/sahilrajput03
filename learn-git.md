@@ -4,6 +4,13 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+### ignored directory with `.keep` file negation
+
+```gitignore
+.ignored/*
+!.ignored/.keep
+```
+
 ### Rename remote in git
 
 ```bash
