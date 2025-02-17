@@ -3,6 +3,9 @@
 **Quick Links:**
 - Learn Deployment: [Click here](./learn-deploy.md)
 - Learn Heroku Depoyment: [Click here](learn-heroku.md)
+- VERCEL DOCS:
+  - ❤️ Docs - Introducing Wildcard Domains: [Click here](https://vercel.com/blog/wildcard-domains)
+  - ❤️ Docs - Can I use wildcard domains without switching to Vercel Nameservers?: [Click here](https://vercel.com/guides/wildcard-domain-without-vercel-nameservers)
 
 ## TODO: Deploy ExpressJs Application with Vercel
 
