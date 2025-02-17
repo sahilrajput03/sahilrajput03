@@ -4,7 +4,7 @@
 - Learn Deployment: [Click here](./learn-deploy.md)
 - Learn Heroku Depoyment: [Click here](learn-heroku.md)
 - VERCEL DOCS:
-    - **❤️  ❤️  ❤️ Wildcard Subdomian Usage:**
+    - **❤️ ❤️ ❤️ Wildcard Subdomian Usage:**
         - Docs - Domains per project Limits: [Click here](https://vercel.com/docs/limits/overview#domains)
             - **tldr: 50 for hobby and unlimited domains per project in `Pro Plan` (20$/month)**
         - ❤️ Docs - Introducing Wildcard Domains: [Click here](https://vercel.com/blog/wildcard-domains)
