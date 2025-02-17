@@ -599,17 +599,23 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- Tags: `Learn google docs`
 	- Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
 - **Open Source Apps from All over the world** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/open-source-apps.md)
-- **Nocode tools**:
-  - **List of nocode tools - Tweet:** [Click here](https://twitter.com/JustinSaaS/status/1516457662900314119)
-  - Site Builder:
+- *Nocode tools vs. Low Code Tools:*
+      - No-code tools require no programming skills to build applications, offering visual interfaces for users to drag and drop elements to create software.
+      - Low-code tools allow users to build applications with minimal coding, typically involving a mix of pre-built components and some custom code for more complex functions.
+      - No-code is more beginner-friendly, while low-code offers more flexibility for advanced users.
+  - **Nocode tools**:
+    - **List of nocode tools - Tweet:** [Click here](https://twitter.com/JustinSaaS/status/1516457662900314119)
+    - [mmm.page](https://mmm.page) - [hosted on Vercel](https://vercel.com/blog/super-serves-thousands-of-domains-on-one-project-with-next-js-and-vercel)
+    - [notion.com](https://www.notion.com)
+    - [super.so](https://super.so) (Create Custom Websites with Notion) - [hosted on Vercel](https://vercel.com/blog/how-vercel-helps-mmm-page-manage-over-30-000-custom-domains)
     - [wix.com](https://www.wix.com/)
-    - [webflow.com](https://webflow.com/)
-      - **Learn Webflow:** - [Click here](https://docs.google.com/document/d/1Y3XydED5IhfUVO1hZHAYOVvO0vP3wrMuFrKpmltLzXc/edit?tab=t.0)
     - [carrd.co](https://carrd.co) - Simple, free, fully responsive one-page sites for pretty much anything.
+    - [bubble.io](https://bubble.io/)
     - [shopify.com/in/pricing](https://www.shopify.com/in/pricing)
     	- Ecommerce Website Making \| Google Doc: [Click here](https://docs.google.com/document/d/13J6uBmzyjOI4g-oQ9TFz98KBR0hPdzX-wroAUEfZEZw/edit#heading=h.gg3ysj1q9gx4)
-     - [https://bubble.io](https://bubble.io/)
-     - [https://wordpress.org](https://wordpress.org/) (no-code or low-code platform) ([hosting](https://wordpress.org/hosting/))
+     - [wordpress.org](https://wordpress.org/), ([hosting](https://wordpress.org/hosting/))
+    - [webflow.com](https://webflow.com/)
+      - **Learn Webflow:** - [Click here](https://docs.google.com/document/d/1Y3XydED5IhfUVO1hZHAYOVvO0vP3wrMuFrKpmltLzXc/edit?tab=t.0)
 - **Learn Deployment** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-deploy.md)
 	- Learn Vercel Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vercel.md)
 		- ❤️ VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
