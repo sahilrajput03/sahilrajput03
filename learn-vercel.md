@@ -3,6 +3,18 @@
 **Quick Links:**
 - Learn Deployment: [Click here](./learn-deploy.md)
 - Learn Heroku Depoyment: [Click here](learn-heroku.md)
+- VERCEL DOCS:
+    - **❤️ ❤️ ❤️ Wildcard Subdomian Usage:**
+        - Docs - Domains per project Limits: [Click here](https://vercel.com/docs/limits/overview#domains)
+            - **tldr: 50 for hobby and unlimited domains per project in `Pro Plan` (20$/month)**
+        - ❤️ Docs - Introducing Wildcard Domains: [Click here](https://vercel.com/blog/wildcard-domains)
+        - ❤️ Docs - Can I use wildcard domains without switching to Vercel Nameservers?: [Click here](https://vercel.com/guides/wildcard-domain-without-vercel-nameservers)
+        - ❤️ Docs -  How can I serve multiple projects under a single domain?: [Click here](https://vercel.com/guides/how-can-i-serve-multiple-projects-under-a-single-domain)
+    - Platforms Starter Kit (✅Ready to deploy): [Click here](https://vercel.com/templates/next.js/platforms-starter-kit)
+        - Search for keywords - `Multi-tenancy`, `multi-tenant application` in above page.
+        - Official Blogs:
+            - Vercel - Blog Customers: Super serves thousands of domains from a single codebase with Next.js and Vercel: [Click here](https://vercel.com/blog/super-serves-thousands-of-domains-on-one-project-with-next-js-and-vercel)
+            - Vercel - Blog Customers: How Vercel helps mmm.page manage over 30,000 sites: [Click here](https://vercel.com/blog/how-vercel-helps-mmm-page-manage-over-30-000-custom-domains)
 
 ## TODO: Deploy ExpressJs Application with Vercel
 

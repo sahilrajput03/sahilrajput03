@@ -551,7 +551,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
 - **FSO contribution:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
 - Learning monogo and mongoosejs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
-	- **Learn mongo-cli:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-mongo-cli.md)
+	- **Learn mongo-cli:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/learn-mongo-cli.md)
 - **Hindi:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-curl.md)
@@ -599,17 +599,23 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- Tags: `Learn google docs`
 	- Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
 - **Open Source Apps from All over the world** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/open-source-apps.md)
-- **Nocode tools**:
-  - **List of nocode tools - Tweet:** [Click here](https://twitter.com/JustinSaaS/status/1516457662900314119)
-  - Site Builder:
+- *Nocode tools vs. Low Code Tools:*
+      - No-code tools require no programming skills to build applications, offering visual interfaces for users to drag and drop elements to create software.
+      - Low-code tools allow users to build applications with minimal coding, typically involving a mix of pre-built components and some custom code for more complex functions.
+      - No-code is more beginner-friendly, while low-code offers more flexibility for advanced users.
+  - **Nocode tools**:
+    - **List of nocode tools - Tweet:** [Click here](https://twitter.com/JustinSaaS/status/1516457662900314119)
+    - [mmm.page](https://mmm.page) - [hosted on Vercel](https://vercel.com/blog/super-serves-thousands-of-domains-on-one-project-with-next-js-and-vercel)
+    - [notion.com](https://www.notion.com)
+    - [super.so](https://super.so) (Create Custom Websites with Notion) - [hosted on Vercel](https://vercel.com/blog/how-vercel-helps-mmm-page-manage-over-30-000-custom-domains)
     - [wix.com](https://www.wix.com/)
-    - [webflow.com](https://webflow.com/)
-      - **Learn Webflow:** - [Click here](https://docs.google.com/document/d/1Y3XydED5IhfUVO1hZHAYOVvO0vP3wrMuFrKpmltLzXc/edit?tab=t.0)
     - [carrd.co](https://carrd.co) - Simple, free, fully responsive one-page sites for pretty much anything.
+    - [bubble.io](https://bubble.io/)
     - [shopify.com/in/pricing](https://www.shopify.com/in/pricing)
     	- Ecommerce Website Making \| Google Doc: [Click here](https://docs.google.com/document/d/13J6uBmzyjOI4g-oQ9TFz98KBR0hPdzX-wroAUEfZEZw/edit#heading=h.gg3ysj1q9gx4)
-     - [https://bubble.io](https://bubble.io/)
-     - [https://wordpress.org](https://wordpress.org/) (no-code or low-code platform) ([hosting](https://wordpress.org/hosting/))
+     - [wordpress.org](https://wordpress.org/), ([hosting](https://wordpress.org/hosting/))
+    - [webflow.com](https://webflow.com/)
+      - **Learn Webflow:** - [Click here](https://docs.google.com/document/d/1Y3XydED5IhfUVO1hZHAYOVvO0vP3wrMuFrKpmltLzXc/edit?tab=t.0)
 - **Learn Deployment** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-deploy.md)
 	- Learn Vercel Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vercel.md)
 		- ❤️ VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
@@ -848,6 +854,11 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - ❤️ running-files-in-browser: <a href="https://github.com/sahilrajput03/running-files-in-browser" search-title="running-files-in-browser (#Running files in browser)">Click here</a>
 - Privacy Page Examples:
 	- Telegram Privacy Policy https://telegram.org/privacy
+ - ❤️ Watch youtube with friends (Tags: #watch youtube together, #watch together, #watch videos together): [Click here](https://docs.google.com/document/d/1nwVkznZWRmZ54rAF47EZxPeisB_ewWeVJ8FiKRfMX8w/edit?tab=t.0#heading=h.6o93yg7tpo0z)
+- ❤️❤️❤️❤️  Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0)
+- Learn nodemon: [Click here](https://docs.google.com/document/d/1x2VFYiR9O2sTGj64WFNulsYd0NxRgrjd8EQkuEHFZy4/edit?tab=t.0)
+- Learn pm2: [Click here](https://docs.google.com/document/d/1f1_6fMv2B5TbGpWoMHdZQ2irZ8IRZCKH37k_SUpQvAI/edit?tab=t.0)
+- Learn rendering pdf in a website: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.

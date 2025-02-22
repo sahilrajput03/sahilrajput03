@@ -1,8 +1,10 @@
 # Learn Luxon
 
-Tip: You can run below commands in browser console on site: https://moment.github.io/luxon/
+**Quick Links:**
+- ❤️moment vs. luxon on npmtrends.com: https://npmtrends.com/luxon-vs-moment-vs-moment-timezone
+- Luxon - Full Sheet: [Click here](https://moment.github.io/luxon/demo/global.html)
 
-Full Sheet: [Click here](https://moment.github.io/luxon/demo/global.html)
+Tip: You can run below commands in browser console on site: https://moment.github.io/luxon/
 
 ```js
 // creating date from luxon
