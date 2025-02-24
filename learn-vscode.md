@@ -227,6 +227,7 @@ Consider using a `.vscode/tasks.json` file (you can autogenerate this file with 
 	- Usage: On any comment press `option+q` to wrap comments.
 	- Also: You can select line to wrap only that particular comment line (otherwise line above and below are wrapped considering all of it as a single comment).
 - ❤️ UUID Generator: [Click here](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator)
+- ❤️ advanced-new-file: [Click here](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
 
 ![image](https://user-images.githubusercontent.com/31458531/202106832-5ce4fdc5-b644-42dd-b252-297f3d647426.png)
 
