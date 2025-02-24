@@ -8,17 +8,6 @@
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 - VsCode for Web (Official): [Click here](https://code.visualstudio.com/docs/editor/vscode-web)
 
-## VScode Amazing shortcuts
-
-- `fn+f12` - Go to Definition (**mostly useful**)
-- `fn+shift+f12` - Go to References
-- `fn+ctrl+f12` - Go to implementations
-- `fn+rightCtrl` - Show right click menu (**Awesome**)
-- 🛑 `f8` to cycle through errors
-- 🚫 💣 `ctrl+k ctrl+i` replicate mouse over for e.g., to see an error
-- 🚀🚀 `ctrl+alt+rightArrow` and `ctrl+alt+leftArrow` to move a tab from one of two split editors to another
-- 👻 `ctrl+alt+j` to open `Join collaboration link text input`
-
 ## External browser for opening links can now be set in vscode
 
 Check this setting in vscode: `workbench.externalBrowser`
