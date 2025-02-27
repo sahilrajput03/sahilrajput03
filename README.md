@@ -683,7 +683,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Javascript:**
 	- ❤️ Learn Jest/expect: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-jest-expect.md){: search-title="Learn Jest/expect"}
 	- ❤️ **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs"}
-		- Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node"}
+		- ❤️ Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node"}
+		- ❤️ Learn mocha: [Click here](https://docs.google.com/document/d/19lJnR9d93wplsKpdd7pfqqXUgKTWL2HZNYyo64mkFSE/edit?tab=t.0)
 			- Few topics covered in above project's readme:
 				- `spawn` vs. `fork` vs. `worker_threads`
 					- `spawn` child process (preffered for non js programs)

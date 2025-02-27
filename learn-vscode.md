@@ -1,22 +1,12 @@
 # Learn vscode
 
+- **❤️Learn VsCode - Google Doc:** [Click here](https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.kzus0jlf648n)
 - **My Vscode _settings.json_ and _keybindings.json_:** [Click here](https://github.com/sahilrajput03/config/tree/main/Code/User)
 - **Vscode Tips and Trick (Official Docs):** [Click here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - **Open same solder in two windows of Vscode:** From command pallete(ctrl+shift+p), use `Workspaces: Duplicate Workspace in New Window` option. [Source](https://stackoverflow.com/a/51426734/10012446). Tip: Use dupl as filter to get that option faster.
 - Terminal Renaming and Colouring: [Click here](https://www.youtube.com/shorts/9QC2SDkWyvI?feature=share)
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 - VsCode for Web (Official): [Click here](https://code.visualstudio.com/docs/editor/vscode-web)
-
-## VScode Amazing shortcuts
-
-- `fn+f12` - Go to Definition (**mostly useful**)
-- `fn+shift+f12` - Go to References
-- `fn+ctrl+f12` - Go to implementations
-- `fn+rightCtrl` - Show right click menu (**Awesome**)
-- 🛑 `f8` to cycle through errors
-- 🚫 💣 `ctrl+k ctrl+i` replicate mouse over for e.g., to see an error
-- 🚀🚀 `ctrl+alt+rightArrow` and `ctrl+alt+leftArrow` to move a tab from one of two split editors to another
-- 👻 `ctrl+alt+j` to open `Join collaboration link text input`
 
 ## External browser for opening links can now be set in vscode
 
@@ -226,6 +216,7 @@ Consider using a `.vscode/tasks.json` file (you can autogenerate this file with 
 	- Usage: On any comment press `option+q` to wrap comments.
 	- Also: You can select line to wrap only that particular comment line (otherwise line above and below are wrapped considering all of it as a single comment).
 - ❤️ UUID Generator: [Click here](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator)
+- ❤️ advanced-new-file: [Click here](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
 
 ![image](https://user-images.githubusercontent.com/31458531/202106832-5ce4fdc5-b644-42dd-b252-297f3d647426.png)
 

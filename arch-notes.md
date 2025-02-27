@@ -145,6 +145,11 @@ Note: You just need to simply open pcmanfm from dmenu or terminal and you'll see
 
 **Learn:** In pcmanfm, the best folder/file view is `Thumbnail` view (ctrl+3). To set via gui, you can go to `View > Folder View Mode > Thumbnail View`
 
+**To open current folder in terminal you can simply use shortcut `f4` as shown in this screenshot:**
+
+![image](https://github.com/user-attachments/assets/1ad1b5af-da85-45c6-8872-46c6460fa219)
+
+
 ## Clipboard in manjaro
 
 It is installed by default in manjaro but if you're using archlinux then you can install it via from this AUR - [clipit](https://aur.archlinux.org/packages/clipit)
