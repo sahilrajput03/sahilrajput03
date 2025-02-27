@@ -1,4 +1,6 @@
-<a href="/sahil-contact.vcf" download="download.vcf"> Save Contact </a>
+
+<!--  Note the file is already saved as well. -->
+<!--  <a href="/sahil-contact.vcf" download="download.vcf"> Save Contact </a> -->
 
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
