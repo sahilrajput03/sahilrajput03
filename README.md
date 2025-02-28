@@ -841,7 +841,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Development on Android with Temux: <a href="https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r" search-title="Development on Android with Temux">Click here</a>
 - Learn Medusa: <a href="https://docs.google.com/document/d/165AHcMpImHilElvtQQCXaOINBgAIOJDQDhIzilCi5bI/edit?tab=t.0" search-title="Learn Medusa">Click here</a>
 - Learn pnpm: <a href="https://docs.google.com/document/d/1LkIzHHBajGRGiOn1Zd3-S4frKyl8zCttUxg6Qv6cUxY/edit?tab=t.0#heading=h.fkuov2w06tv0" search-title="Learn pnpm">Click here</a>
-- Learn PostgresSQL and SQLite: <a href="https://github.com/sahilrajput03/learning_sql/tree/main" search-title="Learn PostgresSQL and SQLite">Click here</a>
+- Learn PostgresSQL and SQLite (+prisma): <a href="https://github.com/sahilrajput03/learning_sql/tree/main" search-title="Learn PostgresSQL and SQLite (+prisma)">Click here</a> 
 - ❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend: <a href="https://docs.google.com/document/d/15PieWH56pzC5Uh7WlCZit4nGOqfetmGi1aNqlmLymh4/edit?tab=t.0" search-title="❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend">Click here</a>
 - Learn OneCard: <a href="https://docs.google.com/document/d/1pT_FQOE30KTWwcuYdYT-ZjQACIm4ozKbbM6s76Lfsqs/edit?tab=t.0" search-title="Learn OneCard">Click here</a>
 - qr generators: <a href="https://docs.google.com/document/d/1neH211qetPGM9-WpeiQE1WSoIRo_TqdHYK7BudqVIC0/edit?tab=t.0" search-title="qr generators">Click here</a>
