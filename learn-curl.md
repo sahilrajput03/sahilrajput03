@@ -2,6 +2,7 @@
 
 - Watch video from [Traversy Media](https://www.youtube.com/watch?v=7XUibDYw4mc)
 - (todo: make more notes here) Amazing twitter thread from Rapid Api on learning Curl: [Click here](https://twitter.com/Rapid_API/status/1619038188403658753)
+- ❤️ **[Complete Manual - `man curl`](man-curl.txt)** (5k+ lines of manual)
 
 ```bash
 # Run script without downloading (you need sudo as per your requirement)
@@ -58,6 +59,12 @@ curl -X POST \
 	-H "Content-Type: application/json" \
 	-d '{"chat_id": "1", "text": "2", "parse_mode": "HTML"}' \
 	'https://api.telegram.org/bot<BOT_TOKEN>/sendMessage'
+
+# Sending payload from a json file (`a.json`) in a POST request [TESTED]
+curl -X POST \
+	-H "Content-Type: application/json" \
+	-d @a.json \
+	localhost:8080/api/health
 
 # For using multiple request headers use format like this:
 `curl -H "X-Header1: value1" -H "X-Header2: value2" localhost:8080`
@@ -383,10 +390,3 @@ curl -h all
 #  -w, --write-out <format> Use output FORMAT after completion
 #      --xattr              Store metadata in extended file attributes
 ```
-
-***[Complete Manual - `man curl`](man-curl.txt)***
-
-Tip: Click below image to open 5k+ manual pages of `curl`.
-
-
-[![Check out ^^ above complete manual page](https://media0.giphy.com/media/l4hLVfpZQf1Ca0bhm/giphy.gif)](man-curl.txt)
