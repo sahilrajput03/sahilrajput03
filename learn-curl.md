@@ -60,7 +60,7 @@ curl -X POST \
 	-d '{"chat_id": "1", "text": "2", "parse_mode": "HTML"}' \
 	'https://api.telegram.org/bot<BOT_TOKEN>/sendMessage'
 
-# Sending payload from a json file (`a.json`) in a POST request [TESTED]
+# ❤️ Sending payload from a json file (`a.json`) in a POST request [TESTED]
 curl -X POST \
 	-H "Content-Type: application/json" \
 	-d @a.json \
