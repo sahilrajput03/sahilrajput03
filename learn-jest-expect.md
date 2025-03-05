@@ -90,11 +90,18 @@ test('toStrictEqual checks class instances', () => {
 
 **Summary:** *Use toStrictEqual when you want precise comparisons, including class instances and undefined properties. Use toEqual when you need looser deep equality.*
 
-## Summary: When NOT to Use `toMatchObject`
+
+**Summary: When NOT to Use `toMatchObject`**
 
 Source: [ChatGPT](https://chatgpt.com/c/67a678bf-6134-8007-8b12-23a754d77be1)
 
-![image](https://github.com/user-attachments/assets/1bef115c-356c-47e9-8f41-eb8192858fdd)
+❌ Avoid `toMatchObject` When... | ✅ Use Instead
+-|-
+Exact object comparison is required | toStrictEqual
+Checking for missing/extra properties | toStrictEqual
+Matching objects inside arrays | toContainEqual
+Comparing objects with undefined values &nbsp;&nbsp;&nbsp;&nbsp;| toStrictEqual
+Verifying class instances | toBeInstanceOf
 
 ## File deletion and exists check with jest
 
