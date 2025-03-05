@@ -120,14 +120,33 @@ it.only('if given path is exists then it will return that same path', async () =
 
 Source: [Click here](https://softwareengineering.stackexchange.com/a/373367)
 
-![image](https://user-images.githubusercontent.com/31458531/216784563-1f2bc4bd-530d-4f7e-8f03-40b45fb93a8c.png)
+It is just a "matter of taste" as you describe it. Just a way to group your test files, so that the test runners know what files to load / look in for test methods.
 
+(If you look at the documentation for runner like Jasmine and mocha. You configure "file globs" to tell them how to find the files to run. Some thing like `/**/*.test.ts`)
+
+In your projects, you could configure anything you want. (Or even just move all your test code to a "test" folder, and not have any special file name conventions)
+
+The `*.test.ts` and `*.spec.ts` are just common conventions recommended by the different testing frameworks.
 
 ## How to check multiple arguments on multiple calls for jest spies
 
-Source: [Click here](https://stackoverflow.com/a/50600842/10012446)
+- Inspiration: [Click here](https://stackoverflow.com/a/50600842/10012446) (includes the link to below referred `expect` docs.
+- Source of below text - `expect` Docs: [Click here](https://jestjs.io/docs/expect#tohavebeennthcalledwithnthcall-arg1-arg2-)
 
-![image](https://user-images.githubusercontent.com/31458531/216117745-cbf22f17-a465-419b-948e-615ee0b78eae.png)
+**`.toHaveBeenNthCalledWith(nthCall, arg1, arg2, ....)`** *[Also under the alias: `.nthCalledWith(nthCall, arg1, arg2, ...)`]*
+
+If you have a mock function, you can use .toHaveBeenNthCalledWith to test what arguments it was nth called with. For example, let's say you have a drinkEach(drink, Array<flavor>) function that applies f to a bunch of flavors, and you want to ensure that when you call it, the first flavor it operates on is 'lemon' and the second one is 'octopus'. You can write:
+
+```ts
+test('drinkEach drinks each drink', () => {
+  const drink = jest.fn();
+  drinkEach(drink, ['lemon', 'octopus']);
+  expect(drink).toHaveBeenNthCalledWith(1, 'lemon');
+  expect(drink).toHaveBeenNthCalledWith(2, 'octopus');
+});
+```
+
+*Note: The nth argument must be positive integer starting from 1.*
 
 ## 1/2 mock
 
@@ -229,7 +248,8 @@ Click here: Official Docs - [Click here](https://socket.io/docs/v4/testing/)
   }, 10000)
   ```
 
-## **You can define jest config for a single file basis by that**
+## **You can define jest config (e.g., test timeout for paricular file) for a single file basis by that**
 
-  ![image](https://user-images.githubusercontent.com/31458531/211875277-0fa30c25-a9c0-4331-85ad-a32ac42fbb2f.png)
-
+```bash
+jest.setTimeout(20_000)
+```
