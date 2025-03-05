@@ -234,7 +234,23 @@ Click here: Official Docs - [Click here](https://socket.io/docs/v4/testing/)
 
 ## Amazingly defined funcion to wait for a callback function but reject after 2 seconds if didn't receive the event, YO!!
 
-  ![image](https://user-images.githubusercontent.com/31458531/203509895-cc71e1db-36c1-4f62-be6b-d1e55a211d8f.png)
+Inspiratin: `slas***-web-new/test/helpers/gateway-test-helpers.ts`
+
+```ts
+export async function waitForAuthSuccessMessage(client: Socket) {
+  return new Promise<void>((resolve, reject) => {
+    const timeout = setTimeout(() => {
+      reject(new Error('Did not receive authSuccess message in a reasonable amount of time'));
+    }, AUTH_SUCCESS_WAIT_TIMEOUT);
+
+    client.once('authSuccess', (payload) => {
+      expect(payload).toEqual({ success: true });
+      clearTimeout(timeout);
+      resolve();
+    });
+  });
+}
+```
 
 ## Jest debugging command from official docs:
 
