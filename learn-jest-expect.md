@@ -88,7 +88,7 @@ test('toStrictEqual checks class instances', () => {
 ❌ Test fails because { name: 'Alice' } is a plain object, while new Person('Alice') is an instance of Person.
 ```
 
-**Summary:** *Use toStrictEqual when you want precise comparisons, including class instances and undefined properties. Use toEqual when you need looser deep equality.*
+*So, use toStrictEqual when you want precise comparisons, including class instances and undefined properties. Use toEqual when you need looser deep equality.*
 
 
 **Summary: When NOT to Use `toMatchObject`**
