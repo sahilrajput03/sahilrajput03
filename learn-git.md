@@ -6,18 +6,17 @@
 
 ### Creating branch rules
 
-1/3
+**1/3** Create new branch ruleset:
 
-![image](https://github.com/user-attachments/assets/f213d4fd-e8fa-4fb9-882d-38a447876f58)
+<img src="https://github.com/user-attachments/assets/f213d4fd-e8fa-4fb9-882d-38a447876f58" alt="drawing" width="700"/>
 
-2/3
+**2/3** Give name to the ruleset and add desired bypass roles i.e., people to who the rules will not apply:
 
-![image](https://github.com/user-attachments/assets/24f4dda6-67b0-49b8-a3da-d5fad53cd51c)
+<img src="https://github.com/user-attachments/assets/24f4dda6-67b0-49b8-a3da-d5fad53cd51c" alt="drawing" width="700"/>
 
 **3/3 - Rules:**
 
-![image](https://github.com/user-attachments/assets/e0def612-d85e-4419-b721-f8c4be4cf0e3)
-
+<img src="https://github.com/user-attachments/assets/e0def612-d85e-4419-b721-f8c4be4cf0e3" alt="drawing" width="700"/>
 
 ### `head` branch vs. `base` branch in git? be concise. (ChatGPT)
 
