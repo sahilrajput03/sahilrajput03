@@ -4,6 +4,40 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+### Merge `squash` and `rebase`, which one of these is best? be concise.
+
+It depends on your goal:
+
+- Squash: Best for keeping a clean history by merging multiple commits into one before merging to the main branch.
+- Rebase: Best for keeping a linear history by applying changes on top of the latest branch state.
+
+If you want a single, clean commit, squash is better. If you want to integrate changes smoothly while preserving individual commits, rebase is better.
+
+**Give me an example of git command to work with rebase.**
+
+Here’s an example of how to use git rebase:
+
+Rebasing your branch onto main
+
+```bash
+git checkout feature-branch
+git fetch origin
+git rebase origin/main
+
+# Interactive rebase - This lets you edit, squash, or reorder commits during the rebase process.
+# git rebase -i origin/main
+
+
+# You would need to force push your feature branch if you have pushed to to feature branch before you ran `rebase` command because you have overwritten the commit history
+# git push origin feature-branch --force
+
+
+# Safer Alternative: Instead of `--force`, a safer option is `--force-with-lease`:
+git push origin feature-branch --force-with-lease
+# This ensures you don’t accidentally overwrite someone else’s changes.
+# It only forces the push if the remote hasn’t changed since your last fetch.
+```
+
 ### ignored directory with `.keep` file negation
 
 ```gitignore
