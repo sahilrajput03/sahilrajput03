@@ -7,7 +7,7 @@
 
 [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/README.md#javascript-cheatsheet---sahil)
 
-# Class
+## Class
 
 - Javascript Info - Class: [Click here](https://javascript.info/class)
 - From ChatGPT: [Click here](https://chatgpt.com/c/67cb7040-a3a0-8007-bf5f-3fe13a9f77e9)
