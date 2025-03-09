@@ -22,12 +22,12 @@ isNil(void 0); // => true
 isNil(NaN); // => false
 
 // Example - isUndefined(..)
-console.log(isUndefined(void 0)) // true
-console.log(isUndefined(null)) // false
+isUndefined(void 0) // true
+isUndefined(null) // false
 
 // Example - isNull(..)
-console.log(isNull(null)); // true
-console.log(isNull(void 0)) // false
+isNull(null); // true
+isNull(void 0) // false
 
 // Example - mapValues(..)
 const obj = { a: 1, b: 2, c: 3 };
