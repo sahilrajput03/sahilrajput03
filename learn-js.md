@@ -7,7 +7,7 @@
 
 [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/README.md#javascript-cheatsheet---sahil)
 
-## Lodash common functions
+## Common Lodash functions
 
 Lodash Docs: [Click here](https://lodash.com/docs/4.17.15)
 
