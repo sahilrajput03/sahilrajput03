@@ -9,8 +9,12 @@
 
 ## Lodash common functions
 
+Lodash Docs: [Click here](https://lodash.com/docs/4.17.15)
+
 ```ts
 import { isUndefined, isNull, isNil, pick, mapValues, fromPairs, toPairs, map } from 'lodash'
+
+// Obvious - clone, cloneDeep
 
 // Example - isUndefined(..)
 console.log(isUndefined(void 0)) // true
@@ -25,13 +29,13 @@ isNil(null); // => true
 isNil(void 0); // => true
 isNil(NaN); // => false
 
-// Example 1.
+// Example - mapValues(..)
 const obj = { a: 1, b: 2, c: 3 };
 // mapValues - To transforms only values, not the keys (equivalent to `Object.entries(obj).map(fn)`)
 console.log(mapValues(obj, (value, key) => value * 2));
 // { a: 2, b: 4, c: 6 }
 
-// Example 3:
+// Example - A custom function using fromPairs, map and toPairs from `lodash`
 // objectMap - To transform both the keys and values
 const objectMap = (obj, fn) => fromPairs(map(toPairs(obj), fn));
 //
