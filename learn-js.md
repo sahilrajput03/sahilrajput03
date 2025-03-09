@@ -10,22 +10,35 @@
 ## Lodash common functions
 
 ```ts
-import { pick, mapValues, fromPairs, toPairs, map } from 'lodash'
+import { isUndefined, isNull, isNil, pick, mapValues, fromPairs, toPairs, map } from 'lodash'
 
-// Examples:
+// Example - isUndefined(..)
+console.log(isUndefined(void 0)) // true
+console.log(isUndefined(null)) // false
+
+// Example - isNull(..)
+console.log(isNull(null)); // true
+console.log(isNull(void 0)) // false
+
+// Example - isNil(..) [Checks if value is null or undefined.]
+isNil(null); // => true
+isNil(void 0); // => true
+isNil(NaN); // => false
+
+// Example 1.
 const obj = { a: 1, b: 2, c: 3 };
 // mapValues - To transforms only values, not the keys (equivalent to `Object.entries(obj).map(fn)`)
 console.log(mapValues(obj, (value, key) => value * 2));
 // { a: 2, b: 4, c: 6 }
 
+// Example 3:
 // objectMap - To transform both the keys and values
 const objectMap = (obj, fn) => fromPairs(map(toPairs(obj), fn));
-
+//
 const obj = { a: 1, b: 2, c: 3 };
 const result = objectMap(obj, ([key, value]) => [`new_${key}`, value * 2]);
 console.log(result);
 // Output: { new_a: 2, new_b: 4, new_c: 6 }
-
 ```
 
 ## ❤️ Class - `Objeck.keys(..)`, `Object.getOwnPropertyNames(..)`, etc
