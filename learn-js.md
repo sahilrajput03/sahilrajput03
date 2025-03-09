@@ -7,6 +7,27 @@
 
 [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/README.md#javascript-cheatsheet---sahil)
 
+## Lodash common functions
+
+```ts
+import { pick, mapValues, fromPairs, toPairs, map } from 'lodash'
+
+// Examples:
+const obj = { a: 1, b: 2, c: 3 };
+// mapValues - To transforms only values, not the keys (equivalent to `Object.entries(obj).map(fn)`)
+console.log(mapValues(obj, (value, key) => value * 2));
+// { a: 2, b: 4, c: 6 }
+
+// objectMap - To transform both the keys and values
+const objectMap = (obj, fn) => fromPairs(map(toPairs(obj), fn));
+
+const obj = { a: 1, b: 2, c: 3 };
+const result = objectMap(obj, ([key, value]) => [`new_${key}`, value * 2]);
+console.log(result);
+// Output: { new_a: 2, new_b: 4, new_c: 6 }
+
+```
+
 ## ❤️ Class - `Objeck.keys(..)`, `Object.getOwnPropertyNames(..)`, etc
 
 - Javascript Info - Class: [Click here](https://javascript.info/class)
