@@ -12,9 +12,9 @@
 Lodash Docs: [Click here](https://lodash.com/docs/4.17.15)
 
 ```ts
-import { isUndefined, isNull, isNil, pick, mapValues, fromPairs, toPairs, map } from 'lodash'
+import { isUndefined, isNull, isNil, pick, mapValues, fromPairs, toPairs, map, clone, cloneDeep } from 'lodash'
 
-// Obvious - clone, cloneDeep
+// Simple obvious functions - clone(..), cloneDeep(..)
 
 // Example - isUndefined(..)
 console.log(isUndefined(void 0)) // true
