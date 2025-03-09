@@ -12,9 +12,14 @@
 Lodash Docs: [Click here](https://lodash.com/docs/4.17.15)
 
 ```ts
-import { isUndefined, isNull, isNil, pick, mapValues, fromPairs, toPairs, map, clone, cloneDeep } from 'lodash'
+import { isNil, isUndefined, isNull, pick, mapValues, fromPairs, toPairs, map, clone, cloneDeep } from 'lodash'
 
 // Simple obvious functions - clone(..), cloneDeep(..)
+
+// Example - isNil(..) [Checks if value is null or undefined.]
+isNil(null); // => true
+isNil(void 0); // => true
+isNil(NaN); // => false
 
 // Example - isUndefined(..)
 console.log(isUndefined(void 0)) // true
@@ -23,11 +28,6 @@ console.log(isUndefined(null)) // false
 // Example - isNull(..)
 console.log(isNull(null)); // true
 console.log(isNull(void 0)) // false
-
-// Example - isNil(..) [Checks if value is null or undefined.]
-isNil(null); // => true
-isNil(void 0); // => true
-isNil(NaN); // => false
 
 // Example - mapValues(..)
 const obj = { a: 1, b: 2, c: 3 };
