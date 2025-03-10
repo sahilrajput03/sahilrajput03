@@ -904,8 +904,10 @@ sudo ln -s /home/array/test/b.sh /usr/bin/
 	- [serveo.net](https://serveo.net)
  	- cloudflare tunnel
 	- ❤❤ tailscale: `sudo pacman -S go && yay -S tailscale-git && sudo systemctl status tailscaled && sudo systemctl enable tailscaled && sudo systemctl start tailscaled`. (Note: I was having issues to get the service start as it was restarting again and again. I checked with Claudeai and I resolved the issue by simply restarting the issue and that's it.)
+		- I generated a script for linux in tailscale's admin panel for linux and run this command to setup - `sudo tailscale up --auth-key=tskey-auth-xxxxxxx` to set it up. (Check keepass for original command). I used 90 days period while generating above because that's the most it offers).
 		- It is a tool for vpn support to be able to ssh to friend's system for collaboration.
 		- [https://tailscale.com](https://tailscale.com/)
+  		- 
 
 
 ```bash
