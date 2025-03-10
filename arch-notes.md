@@ -32,6 +32,8 @@
 
 I tried to setup my systems to connect via vpn on macos, linux and android and it works pretty smooth. The experience with vscode ssh login is cool too but I need to setup in a way that user `user1` is not able view files of my current user (currently it can view files of my active user).
 
+- `ssh mbp-tailscale` can be used on both linux and mbp to login to `user1` in mbp. (10 march 2025).
+
 ## VNC
 
 Source: [Reddit Post](https://www.reddit.com/r/archlinux/comments/y70dbt/is_vnc_the_best_way_to_connect_remotely_to_a_arch/?rdt=62877)
