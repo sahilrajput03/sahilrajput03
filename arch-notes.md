@@ -903,6 +903,10 @@ sudo ln -s /home/array/test/b.sh /usr/bin/
    		- View password by going to: [https://loca.lt/mytunnelpassword](https://loca.lt/mytunnelpassword)
 	- [serveo.net](https://serveo.net)
  	- cloudflare tunnel
+	- ❤❤ tailscale: `sudo pacman -S tailscale`
+		- It is a tool for vpn support to be able to ssh to friend's system for collaboration.
+		- [https://tailscale.com](https://tailscale.com/)
+
 
 ```bash
 yay -s ngrok
