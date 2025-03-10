@@ -903,7 +903,7 @@ sudo ln -s /home/array/test/b.sh /usr/bin/
    		- View password by going to: [https://loca.lt/mytunnelpassword](https://loca.lt/mytunnelpassword)
 	- [serveo.net](https://serveo.net)
  	- cloudflare tunnel
-	- ❤❤ tailscale: `sudo pacman -S go && yay -S tailscale-git`
+	- ❤❤ tailscale: `sudo pacman -S go && yay -S tailscale-git && sudo systemctl status tailscaled && sudo systemctl enable tailscaled && sudo systemctl start tailscaled`. (Note: I was having issues to get the service start as it was restarting again and again. I checked with Claudeai and I resolved the issue by simply restarting the issue and that's it.)
 		- It is a tool for vpn support to be able to ssh to friend's system for collaboration.
 		- [https://tailscale.com](https://tailscale.com/)
 
