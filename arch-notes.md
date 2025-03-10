@@ -6,6 +6,7 @@
 
 **Quick Links:**
 - MANJARO:
+	- Manjaro pacman update issues Notes in Google Doc: [Click here](https://docs.google.com/document/d/1DY9H2ahQbg7wMEVyKKJvJm7bNBS0-dy97gK6ZvSn1gc/edit?tab=t.0#heading=h.bjq9i04dl4fe)
 	- Open system settings in Manjaro: Run command in terminal - `system-settings`
 	- Settings: Opening via `mod+z` > Settings > **Manjaro settings manager**
 - ❤️❤️❤️❤️  Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0#heading=h.xd4w27931f3h)
