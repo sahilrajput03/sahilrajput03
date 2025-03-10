@@ -28,6 +28,10 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
+## ❤️ tailscale experience
+
+I tried to setup my systems to connect via vpn on macos, linux and android and it works pretty smooth. The experience with vscode ssh login is cool too but I need to setup in a way that user `user1` is not able view files of my current user (currently it can view files of my active user).
+
 ## VNC
 
 Source: [Reddit Post](https://www.reddit.com/r/archlinux/comments/y70dbt/is_vnc_the_best_way_to_connect_remotely_to_a_arch/?rdt=62877)
