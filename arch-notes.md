@@ -892,6 +892,13 @@ sudo ln -s /home/array/test/b.sh /usr/bin/
 
 ## installed ngrok
 
+**Ngrok alternatives**
+- Is there any free port forwarding service like ngrok? ChatGPT: [Click here](https://chatgpt.com/c/67cef4de-5ec0-8007-abe3-3b515729e982)
+	- [localtunnel](https://theboroer.github.io/localtunnel-www/): [github](https://github.com/localtunnel/localtunnel)
+ 		- Usage: `npm install -g localtunnel`, `lt --port 3000`
+	- [serveo.net](https://serveo.net)
+ 	- cloudflare tunnel
+
 ```bash
 yay -s ngrok
 
