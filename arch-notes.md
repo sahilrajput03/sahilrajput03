@@ -907,8 +907,6 @@ sudo ln -s /home/array/test/b.sh /usr/bin/
 		- I generated a script for linux in tailscale's admin panel for linux and run this command to setup - `sudo tailscale up --auth-key=tskey-auth-xxxxxxx` to set it up. (Check keepass for original command). I used 90 days period while generating above because that's the most it offers).
 		- It is a tool for vpn support to be able to ssh to friend's system for collaboration.
 		- [https://tailscale.com](https://tailscale.com/)
-  		- 
-
 
 ```bash
 yay -s ngrok
