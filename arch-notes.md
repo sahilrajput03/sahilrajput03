@@ -28,7 +28,7 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
-## how to use ssh config file to restrict access of a user to particular folder only?
+## How to use ssh config file to restrict access of a user to particular folder only?
 
 [Claude.ai](https://claude.ai/chat/e6c4b718-ebb0-453c-91b3-f6e2975787fe)
 - [I tried on macbook but I couldn't do it propertly because in macbook I feel lot of configurations need to be done].
