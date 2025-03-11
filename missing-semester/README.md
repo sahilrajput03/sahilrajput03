@@ -859,11 +859,16 @@ ssh-keygen -o -a 100 -t ed25519
 # ssh-copy-id array@arch-os # It will use the first valid public key it finds from these locations: ~/.ssh/id_rsa.pub, ~/.ssh/id_dsa.pub, ~/.ssh/id_ecdsa.pub, ~/.ssh/id_ed25519.pub, ~/.ssh/id_xmss.pub
 ssh-copy-id -i .ssh/id_ed25519 foobar@remote # Appends the public key to the end of `.ssh/authorized_keys` on target machine.
 # other way manually copying via `tee` command:
-cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip tee .ssh/authorized_keys
-# Here we are saying that take the standard input from cat command and dump it to .ssh/authorized keys file.
-# You can confirm the contents of file `.ssh/authorized_keys` on remote machine and it should show something like this:
+cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip "cat > .ssh/authorized_keys" # To overwrite the `authorized_keys` file on target machine with the public key
+cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip "cat >> .ssh/authorized_keys" # To append the public key in the `authorized_keys` file on target machine
+cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip tee .ssh/authorized_keys # To overwrite the `authorized_keys` file on target machine with the public key
+cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip tee -a .ssh/authorized_keys # To append the public key in the end of `authorized_keys` file on target machine
+# Here we are saying that take the standard input from cat command and dump it to .ssh/authorized keys file on target machine
+#
+# You can confirm the contents of file `.ssh/authorized_keys` on target machine and it should show something like this:
 # cat .ssh/authorized_keys
 # ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAJukbqVgN5JuBRxIl/1d7YRmr5lW9TuctR5Cgmhi3yO array@arch-os
+# Note: This file can contain comments with by appenind any line with # just like bash. Also, using `ssh-copy-id -i ..` command does not deletes any comment in the `authorized_keys` file.
 
 
 ### AND NOW IF WE TRY TO SSH:
