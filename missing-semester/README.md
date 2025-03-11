@@ -857,10 +857,14 @@ ssh-keygen -o -a 100 -t ed25519
 ### COPY OUR (NEW) GENERATED PUBLIC KEY TO TARGET REMOTE SERVER:
 ## FANCY COMMAND:
 # ssh-copy-id array@arch-os # It will use the first valid public key it finds from these locations: ~/.ssh/id_rsa.pub, ~/.ssh/id_dsa.pub, ~/.ssh/id_ecdsa.pub, ~/.ssh/id_ed25519.pub, ~/.ssh/id_xmss.pub
-ssh-copy-id -i .ssh/id_ed25519 foobar@remote
+ssh-copy-id -i .ssh/id_ed25519 foobar@remote # Appends the public key to the end of `.ssh/authorized_keys` on target machine.
 # other way manually copying via `tee` command:
 cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip tee .ssh/authorized_keys
 # Here we are saying that take the standard input from cat command and dump it to .ssh/authorized keys file.
+# You can confirm the contents of file `.ssh/authorized_keys` on remote machine and it should show something like this:
+# cat .ssh/authorized_keys
+# ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAJukbqVgN5JuBRxIl/1d7YRmr5lW9TuctR5Cgmhi3yO array@arch-os
+
 
 ### AND NOW IF WE TRY TO SSH:
 ssh array@arch-os
