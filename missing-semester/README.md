@@ -855,10 +855,10 @@ ssh-keygen -o -a 100 -t ed25519
 # Bcoz if somebody got your priavte key they won't be able to use it unless they have the passphrase you have set, so its a good thing to set a passphrase!
 
 ### COPY OUR (NEW) GENERATED PUBLIC KEY TO TARGET REMOTE SERVER:
-## FANCY COMMAND:
-# ssh-copy-id array@arch-os # It will use the first valid public key it finds from these locations: ~/.ssh/id_rsa.pub, ~/.ssh/id_dsa.pub, ~/.ssh/id_ecdsa.pub, ~/.ssh/id_ed25519.pub, ~/.ssh/id_xmss.pub
+ssh-copy-id array@arch-os # It will use the first valid public key it finds from these locations: ~/.ssh/id_rsa.pub, ~/.ssh/id_dsa.pub, ~/.ssh/id_ecdsa.pub, ~/.ssh/id_ed25519.pub, ~/.ssh/id_xmss.pub
+# OR  (Note: I prefer to use below command always because we explicitly provide which public key should be copied to `.ssh/authorized_keys` on target machine.)
 ssh-copy-id -i .ssh/id_ed25519 foobar@remote # Appends the public key to the end of `.ssh/authorized_keys` on target machine.
-# other way manually copying via `tee` command:
+# Other ways to copy specified public key to `authorized_keys` file on target machine  via `tee` command:
 cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip "cat > .ssh/authorized_keys" # To overwrite the `authorized_keys` file on target machine with the public key
 cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip "cat >> .ssh/authorized_keys" # To append the public key in the `authorized_keys` file on target machine
 cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip tee .ssh/authorized_keys # To overwrite the `authorized_keys` file on target machine with the public key
