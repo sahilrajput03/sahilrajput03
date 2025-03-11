@@ -67,7 +67,7 @@ Every Linux system have three types of owner:
 
 # To know which user and group owns the file/foldr you can check like that:
 ls -l /Users/apple 
-# OUTPUT: (Here user `apple` and group `staff` owns these files/folders):
+# OUTPUT: (Here user `apple` is owner of these files/folders AND group `staff` owns these files/folders):
 total 144
 drwx------@   5 apple  staff    160 Apr 20  2024 Applications
 drwxr-xr-x@   5 apple  staff    160 Mar 11 07:39 Calibre Library
