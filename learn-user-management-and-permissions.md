@@ -65,6 +65,16 @@ Every Linux system have three types of owner:
 2. Group: A group can contain multiple users. All the users belonging to a group have same access permission for a file.
 3. Other: Any one who has access to the file other than user and group comes in the category of other. Other has neither created the file nor is a group member.
 
+# To know which user and group owns the file/foldr you can check like that:
+ls -l /Users/apple 
+# OUTPUT: (Here user `apple` and group `staff` owns these files/folders):
+total 144
+drwx------@   5 apple  staff    160 Apr 20  2024 Applications
+drwxr-xr-x@   5 apple  staff    160 Mar 11 07:39 Calibre Library
+drwx------@  21 apple  staff    672 Mar  9 00:49 Desktop
+drwx------@  21 apple  staff    672 Feb 24 01:13 Documents
+drwx------@ 138 apple  staff   4416 Mar 11 11:09 Downloads
+
 
 IMPORTANT: For command `chown` use -R or --recursive (operate on files and directories recursively)
 
