@@ -485,6 +485,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
  	- ❤️ WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
 	- ❤️ Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
 	- speechelo.com: [Click here](https://speechelo.com)
+- [turboscribe.ai](https://turboscribe.ai)
 - Text To Spech (TTS):
 	- Use Chrome Mobile's feature of "Listen to this page". Its awesome because it offers highlight of text while reading and changing speed of reading as well.
 	- Use OpenAI Playground or OpenAI's API
