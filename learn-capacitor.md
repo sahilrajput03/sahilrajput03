@@ -3,7 +3,7 @@
 **TODO:**
 - Do capacitor course: [Click here](https://www.udemy.com/course/capacitor-crash-course/)
 - TODO: Test this plugin to test background task (e.g, to call an api every 5 mins): [Click here](https://github.com/angeloraso/capacitor-background-mode/tree/main)
-  - [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi)
+  - [https://dontkillmyapp.com](https://dontkillmyapp.com)
 
 **Quick Links:**
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
