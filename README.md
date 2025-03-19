@@ -47,11 +47,10 @@
 </h6>
 
 <div align="right">
-	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
-	<br/>
-	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
-	<br/>
-	Android App:  <a href="/apk/Tech_Blog_by_Sahil_Rajput_base.apk">Tech Blog by Sahil Rajput</a>
+	Website: <a href="https://sahilrajput.com">sahilrajput.com</a><br/>
+	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a><br/>
+	Android App:  <a href="/apk/Tech_Blog_by_Sahil_Rajput_base.apk">Tech Blog by Sahil Rajput</a><br/>
+	YouTube Playlists:  <a href="https://www.youtube.com/@SahilRajput03/playlists">youtube.com/@SahilRajput03/playlists</a><br/>
 	<!-- OLD PlayStore link -->
 	<!-- Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a> -->
 	
