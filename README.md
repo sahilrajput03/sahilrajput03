@@ -617,6 +617,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
     - [shopify.com/in/pricing](https://www.shopify.com/in/pricing)
     	- Ecommerce Website Making \| Google Doc: [Click here](https://docs.google.com/document/d/13J6uBmzyjOI4g-oQ9TFz98KBR0hPdzX-wroAUEfZEZw/edit#heading=h.gg3ysj1q9gx4)
      - [wordpress.org](https://wordpress.org/), ([hosting](https://wordpress.org/hosting/))
+     - Artificial Intelligence Tools:
+     	- [lovable.dev](https://lovable.dev/)
     - [webflow.com](https://webflow.com/)
       - **Learn Webflow:** - [Click here](https://docs.google.com/document/d/1Y3XydED5IhfUVO1hZHAYOVvO0vP3wrMuFrKpmltLzXc/edit?tab=t.0)
 - **Learn Deployment** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-deploy.md)
