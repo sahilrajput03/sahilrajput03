@@ -113,6 +113,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - Svelte DevTools: [Click here](https://chromewebstore.google.com/detail/svelte-devtools/kfidecgcdjjfpeckbblhmfkhmlgecoff)
 - ❤️ Video DownloadHelper: [Click here](https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk)
   - Inspiration: Reddit - How do you download videos from websites that don't allow it? [Click here](https://www.reddit.com/r/DataHoarder/comments/n5yi5m/how_do_you_download_videos_from_websites_that/)
+- ❤️ Custom Css For Website: [Click here](https://chromewebstore.google.com/detail/custom-css-by-denis/cemphncflepgmgfhcdegkbkekifodacd)
 
 
 ## Update default page zoom level and page font size
