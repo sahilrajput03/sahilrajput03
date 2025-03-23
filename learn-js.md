@@ -3,6 +3,10 @@
 **Quick Links:**
 - Js-Conf-2022: [Click here](notes-js-conf-2022.md)
 
+## Why amazon.com uses `href="javascript:void(0)"`  on their rating links?
+
+The javascript:void(0) serves as a placeholder URL that doesn't navigate to a new page when clicked. (ChatGPT)
+
 ## ❤️ Javascript Cheatsheet - Sahil
 
 [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/README.md#javascript-cheatsheet---sahil)
