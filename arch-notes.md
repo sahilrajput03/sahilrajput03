@@ -32,7 +32,7 @@
 
 I tried to setup my systems to connect via vpn on macos, linux and android and it works pretty smooth. The experience with vscode ssh login is cool too but I need to setup in a way that user `user1` is not able view files of my current user (currently it can view files of my active user).
 
-**Does ip of a device on tailscale changes or stay consistent?"
+**Does ip of a device on tailscale changes or stay consistent?**
 - Tailscale assigns each device a unique, static IP address within your tailnet, typically in the 100.x.x.x range. This IP does not change as long as the device remains part of the tailnet.
 - However, if you remove and re-add a device, it might get a new IP. Additionally, the device’s public IP (used for internet connections) can change based on the network it connects to, but that doesn’t affect the Tailscale internal IP.
 
