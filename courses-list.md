@@ -3,7 +3,8 @@
 ***85% of below listed courses are 100% free and available to all.***
 
 **TODO:**
-- ❤️Networking and Streams - James Halliday: [Click here](https://frontendmasters.com/courses/networking-streams/)
+- ❤️ Networking and Streams - James Halliday: [Click here](https://frontendmasters.com/courses/networking-streams/)
+- ❤️(from Helsinki) Ai in Society: [courses.mooc.fi/org/uh-cs/courses/ai-in-societ](https://courses.mooc.fi/org/uh-cs/courses/ai-in-society)
 - ❤️ (from Helsinki) Cyber ​​Security Base 2025 - a free course series about cyber security: [https://cybersecuritybase.mooc.fi](https://cybersecuritybase.mooc.fi/)
     -  Introduction to Cyber ​​Security
     -  Securing Software
