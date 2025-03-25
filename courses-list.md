@@ -4,7 +4,13 @@
 
 **TODO:**
 - ❤️Networking and Streams - James Halliday: [Click here](https://frontendmasters.com/courses/networking-streams/)
-
+- ❤️ (from Helsinki) Cyber ​​Security Base 2025 - a free course series about cyber security: [https://cybersecuritybase.mooc.fi](https://cybersecuritybase.mooc.fi/)
+    -  Introduction to Cyber ​​Security
+    -  Securing Software
+    -  Course Project 1
+    -  Advanced Topics
+    -  Course Project II
+    -  Capture The Flag
 **Other Courses (todo):**
 - Introduction to Marketing: [Click here](https://in.coursera.org/learn/wharton-marketing) (10 h)
 - Introduction to Financial Accounting: [Click here](https://www.coursera.org/learn/wharton-accounting) (13 h)
