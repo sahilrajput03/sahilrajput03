@@ -4,7 +4,7 @@
 
 **TODO:**
 - ❤️ Networking and Streams - James Halliday: [Click here](https://frontendmasters.com/courses/networking-streams/)
-- ❤️(from Helsinki) Ai in Society: [courses.mooc.fi/org/uh-cs/courses/ai-in-societ](https://courses.mooc.fi/org/uh-cs/courses/ai-in-society)
+- ❤️ (from Helsinki) Ai in Society: [courses.mooc.fi/org/uh-cs/courses/ai-in-societ](https://courses.mooc.fi/org/uh-cs/courses/ai-in-society)
 - ❤️ (from Helsinki) Cyber ​​Security Base 2025 - a free course series about cyber security: [https://cybersecuritybase.mooc.fi](https://cybersecuritybase.mooc.fi/)
     -  Introduction to Cyber ​​Security
     -  Securing Software
@@ -12,6 +12,7 @@
     -  Advanced Topics
     -  Course Project II
     -  Capture The Flag
+- ❤️ (from Helsinki)  [java-programming.mooc.fi](https://java-programming.mooc.fi/)
 **Other Courses (todo):**
 - Introduction to Marketing: [Click here](https://in.coursera.org/learn/wharton-marketing) (10 h)
 - Introduction to Financial Accounting: [Click here](https://www.coursera.org/learn/wharton-accounting) (13 h)
