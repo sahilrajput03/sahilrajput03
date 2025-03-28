@@ -4,6 +4,7 @@
 
 **TODO:**
 - ❤️ Networking and Streams - James Halliday: [Click here](https://frontendmasters.com/courses/networking-streams/)
+- Ramada Js (js library for helper functions like lodash) Course on YouTube: [Click here](https://www.youtube.com/playlist?list=PLrhzvIcii6GMeyUfpn-o5xVCH3_UykrzI)
 - [mooc.fi/en/courses/?tag=en](https://www.mooc.fi/en/courses/?tag=en)
     - ❤️ [java-programming.mooc.fi](https://java-programming.mooc.fi/)
     - ❤️ Ai in Society: [courses.mooc.fi/org/uh-cs/courses/ai-in-societ](https://courses.mooc.fi/org/uh-cs/courses/ai-in-society)
