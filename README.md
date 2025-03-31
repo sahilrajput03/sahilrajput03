@@ -744,7 +744,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn classvalidator: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-classvalidator.md){: search-title="Learn classvalidator"}
 - Learn South Indian Bank - Internet Banking: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-south-india-bank.md){: search-title="Learn South Indian Bank - Internet Banking"}
 - Learn Flameshot: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-flameshot.md){: search-title="Learn Flameshot"}
-- Learn Wordpress Editing: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-wordpress-editing.md){: search-title="Learn Wordpress Editing"}
 - **Learn Capacitor:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-capacitor.md){: search-title="Learn Capacitor"}
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md){: search-title="Learn Android"}
 - Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/11RhQBo-wzvzVdUFe3RwAjhnuTGqSk8hRS5EGyv1lUGE/edit){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
@@ -867,7 +866,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn nodemon: [Click here](https://docs.google.com/document/d/1x2VFYiR9O2sTGj64WFNulsYd0NxRgrjd8EQkuEHFZy4/edit?tab=t.0)
 - Learn pm2: [Click here](https://docs.google.com/document/d/1f1_6fMv2B5TbGpWoMHdZQ2irZ8IRZCKH37k_SUpQvAI/edit?tab=t.0)
 - Learn rendering pdf in a website: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
-- Learn wordpress: [Click here](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0)
+- Learn wordpress development: [Doc](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0), [Github](https://github.com/sahilrajput03/learn-wordpress-development)
 - Development on Android with Temux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
 
 ```md
