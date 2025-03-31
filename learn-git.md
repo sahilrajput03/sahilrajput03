@@ -4,7 +4,62 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
-### ignored directory with `.keep` file negation
+### Creating branch rules
+
+**1/3** Create new branch ruleset:
+
+<img src="https://github.com/user-attachments/assets/f213d4fd-e8fa-4fb9-882d-38a447876f58" alt="drawing" width="700"/>
+
+**2/3** Give name to the ruleset and add desired bypass roles i.e., people to who the rules will not apply:
+
+<img src="https://github.com/user-attachments/assets/24f4dda6-67b0-49b8-a3da-d5fad53cd51c" alt="drawing" width="700"/>
+
+**3/3 - Rules:**
+
+<img src="https://github.com/user-attachments/assets/e0def612-d85e-4419-b721-f8c4be4cf0e3" alt="drawing" width="700"/>
+
+### `head` branch vs. `base` branch in git? be concise. (ChatGPT)
+
+In Git:
+
+- `head` branch: The current branch you're working on.
+- `base` branch: The branch you're merging into or comparing against, typically the target branch.
+
+### Merge `squash` and `rebase`, which one of these is best? be concise.
+
+It depends on your goal:
+
+- Squash: Best for keeping a clean history by merging multiple commits into one before merging to the main branch.
+- Rebase: Best for keeping a linear history by applying changes on top of the latest branch state.
+
+If you want a single, clean commit, squash is better. If you want to integrate changes smoothly while preserving individual commits, rebase is better.
+
+**Give me an example of git command to work with rebase.**
+
+Here’s an example of how to use git rebase:
+
+Rebasing your branch onto main
+
+```bash
+git checkout feature-branch
+git fetch origin
+git rebase origin/main
+
+# Interactive rebase - This lets you edit, squash, or reorder commits during the rebase process.
+# git rebase -i origin/main
+
+
+# You would need to force push your feature branch if you have pushed to to feature branch before you ran `rebase` command because you have overwritten the commit history
+# git push origin feature-branch --force
+
+
+# Safer Alternative: Instead of `--force`, a safer option is `--force-with-lease`:
+git push origin feature-branch --force-with-lease
+# This ensures you don’t accidentally overwrite someone else’s changes.
+# It only forces the push if the remote hasn’t changed since your last fetch.
+```
+
+### Ignored directory with `.keep` file negation
 
 ```gitignore
 .ignored/*

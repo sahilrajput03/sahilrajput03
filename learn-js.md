@@ -3,9 +3,58 @@
 **Quick Links:**
 - Js-Conf-2022: [Click here](notes-js-conf-2022.md)
 
+## Why amazon.com uses `href="javascript:void(0)"`  on their rating links?
+
+The javascript:void(0) serves as a placeholder URL that doesn't navigate to a new page when clicked. (ChatGPT)
+
 ## ❤️ Javascript Cheatsheet - Sahil
 
 [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/README.md#javascript-cheatsheet---sahil)
+
+## Common Lodash functions
+
+Lodash Docs: [Click here](https://lodash.com/docs/4.17.15)
+
+```ts
+import { isNil, isUndefined, isNull, pick, mapValues, fromPairs, toPairs, map, clone, cloneDeep } from 'lodash'
+
+// Simple obvious functions - clone(..), cloneDeep(..)
+
+// Example - isNil(..) [Checks if value is null or undefined.]
+isNil(null); // => true
+isNil(void 0); // => true
+isNil(NaN); // => false
+
+// Example - isUndefined(..)
+isUndefined(void 0) // true
+isUndefined(null) // false
+
+// Example - isNull(..)
+isNull(null); // true
+isNull(void 0) // false
+
+// Example - mapValues(..)
+const obj = { a: 1, b: 2, c: 3 };
+// mapValues - To transforms only values, not the keys (equivalent to `Object.entries(obj).map(fn)`)
+console.log(mapValues(obj, (value, key) => value * 2));
+// { a: 2, b: 4, c: 6 }
+
+// Example - A custom function using fromPairs, map and toPairs from `lodash`
+// objectMap - To transform both the keys and values
+const objectMap = (obj, fn) => fromPairs(map(toPairs(obj), fn));
+//
+const obj = { a: 1, b: 2, c: 3 };
+const result = objectMap(obj, ([key, value]) => [`new_${key}`, value * 2]);
+console.log(result);
+// Output: { new_a: 2, new_b: 4, new_c: 6 }
+```
+
+## ❤️ Class - `Objeck.keys(..)`, `Object.getOwnPropertyNames(..)`, etc
+
+- Javascript Info - Class: [Click here](https://javascript.info/class)
+- From ChatGPT: [Click here](https://chatgpt.com/c/67cb7040-a3a0-8007-bf5f-3fe13a9f77e9)
+	-  objeck.keys and Object.getOwnPropertyNames same?
+	-  explain enumerable properties usage.
 
 ## Geeter, Setters in Object
 

@@ -47,14 +47,12 @@
 </h6>
 
 <div align="right">
-	Website: <a href="https://sahilrajput.com">sahilrajput.com</a>
-	<br/>
-	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a>
-	<br/>
-	Android App:  <a href="/apk/Tech_Blog_by_Sahil_Rajput_base.apk">Tech Blog by Sahil Rajput</a>
+	Website: <a href="https://sahilrajput.com">sahilrajput.com</a><br/>
+	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a><br/>
+	Android App:  <a href="/apk/Tech_Blog_by_Sahil_Rajput_base.apk">Tech Blog by Sahil Rajput</a><br/>
+	❤️YouTube Playlists:  <a href="https://www.youtube.com/@SahilRajput03/playlists">youtube.com/@sahilrajput03/playlists</a>
 	<!-- OLD PlayStore link -->
 	<!-- Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a> -->
-	
 </div>
 
 <br />
@@ -482,9 +480,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
 - Speech to Text: *(#speechtotext, #speech-to-text)*
 	- [dictation.io/speech](https://dictation.io/speech) (web)
- 	- WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
-	- Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko) (❤️), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
-	- Speech To Text: [Click here](https://speechelo.com)
+ 	- ❤️ WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
+	- ❤️ Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
+	- speechelo.com: [Click here](https://speechelo.com)
+	- [turboscribe.ai](https://turboscribe.ai)
 - Text To Spech (TTS):
 	- Use Chrome Mobile's feature of "Listen to this page". Its awesome because it offers highlight of text while reading and changing speed of reading as well.
 	- Use OpenAI Playground or OpenAI's API
@@ -544,7 +543,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - Linux:
-	- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md)
+	- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md) (#ngrok)
 	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
 		- **Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash)  (with autodocs readme)
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
@@ -554,7 +553,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Courses:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/courses-list.md)
 - **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
 - **FSO contribution:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
-- Learning monogo and mongoosejs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
+- Learning mongo and mongoosejs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
 	- **Learn mongo-cli:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/learn-mongo-cli.md)
 - **Hindi:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
@@ -618,6 +617,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
     - [shopify.com/in/pricing](https://www.shopify.com/in/pricing)
     	- Ecommerce Website Making \| Google Doc: [Click here](https://docs.google.com/document/d/13J6uBmzyjOI4g-oQ9TFz98KBR0hPdzX-wroAUEfZEZw/edit#heading=h.gg3ysj1q9gx4)
      - [wordpress.org](https://wordpress.org/), ([hosting](https://wordpress.org/hosting/))
+     - Artificial Intelligence Tools:
+     	- [lovable.dev](https://lovable.dev/)
     - [webflow.com](https://webflow.com/)
       - **Learn Webflow:** - [Click here](https://docs.google.com/document/d/1Y3XydED5IhfUVO1hZHAYOVvO0vP3wrMuFrKpmltLzXc/edit?tab=t.0)
 - **Learn Deployment** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-deploy.md)
@@ -685,7 +686,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Javascript:**
 	- ❤️ Learn Jest/expect: [Click here](https://docs.google.com/document/d/1PU8G6tpEYLJxXMgHoK5c37UFMbSXtENzpyIOohVsD_I/edit?tab=t.0){: search-title="Learn Jest/expect"}
 	- ❤️ **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs"}
-		- ❤️ Learn mocha: [Click here](https://docs.google.com/document/d/19lJnR9d93wplsKpdd7pfqqXUgKTWL2HZNYyo64mkFSE/edit?tab=t.0)
+		- ❤️ Learn mocha: [Doc](https://docs.google.com/document/d/19lJnR9d93wplsKpdd7pfqqXUgKTWL2HZNYyo64mkFSE/edit?tab=t.0), [learn-express/learn-mocha](https://github.com/sahilrajput03/learn-express/blob/main/learn-mocha/README.md)
 		- ❤️ Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node"}
 			- Few topics covered in above project's readme:
 				- `spawn` vs. `fork` vs. `worker_threads`
@@ -697,7 +698,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
 		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
-	- **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md){: search-title="Learn Javascript"}
+	- **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md){: search-title="Learn Javascript (#lodash)"} (`#lodash`)
 		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
 	- **Learn from State of Javascript 2021:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-state-of-javascript.md){: search-title="Learn from State of Javascript 2021"}
 	- **Prime Resources - Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/prime-resources-js.md){: search-title="Prime Resources - Javascript"}
@@ -743,7 +744,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn classvalidator: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-classvalidator.md){: search-title="Learn classvalidator"}
 - Learn South Indian Bank - Internet Banking: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-south-india-bank.md){: search-title="Learn South Indian Bank - Internet Banking"}
 - Learn Flameshot: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-flameshot.md){: search-title="Learn Flameshot"}
-- Learn Wordpress Editing: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-wordpress-editing.md){: search-title="Learn Wordpress Editing"}
 - **Learn Capacitor:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-capacitor.md){: search-title="Learn Capacitor"}
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md){: search-title="Learn Android"}
 - Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/11RhQBo-wzvzVdUFe3RwAjhnuTGqSk8hRS5EGyv1lUGE/edit){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
@@ -859,11 +859,15 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - ❤️ running-files-in-browser: <a href="https://github.com/sahilrajput03/running-files-in-browser" search-title="running-files-in-browser (#Running files in browser)">Click here</a>
 - Privacy Page Examples:
 	- Telegram Privacy Policy https://telegram.org/privacy
+	- Recaho: [Click here](https://www.recaho.com/qrCodePhotoMenu) (click on Terms and Conditions the page)
+	- coqui.ai: [coqui.ai/privacy](https://coqui.ai/privacy)
  - ❤️ Watch youtube with friends (Tags: #watch youtube together, #watch together, #watch videos together): [Click here](https://docs.google.com/document/d/1nwVkznZWRmZ54rAF47EZxPeisB_ewWeVJ8FiKRfMX8w/edit?tab=t.0#heading=h.6o93yg7tpo0z)
 - ❤️❤️❤️❤️  Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0)
 - Learn nodemon: [Click here](https://docs.google.com/document/d/1x2VFYiR9O2sTGj64WFNulsYd0NxRgrjd8EQkuEHFZy4/edit?tab=t.0)
 - Learn pm2: [Click here](https://docs.google.com/document/d/1f1_6fMv2B5TbGpWoMHdZQ2irZ8IRZCKH37k_SUpQvAI/edit?tab=t.0)
 - Learn rendering pdf in a website: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
+- Learn wordpress development: [Doc](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0), [Github](https://github.com/sahilrajput03/learn-wordpress-development)
+- Development on Android with Temux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.

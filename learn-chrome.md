@@ -102,8 +102,8 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - [Bypass Google Redirect Notice](chrome://extensions/?id=cebdpiiapajkceonikbjoikdchpnbdid)
 - [Clickable Links](https://chromewebstore.google.com/detail/mgamelhnfokapndfdodnmfiningckjia)
 - **SPEECH TO TEXT:**
-  - [WhisperAI - AI driven Speech-to-text](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en) (❤️ uses OpenAI's Whisper Model, also known as `Blabby`), Start/Stop Shortcut: `ctrl+space`
-  - Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko) (❤️), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
+  - ❤️ [WhisperAI - AI driven Speech-to-text](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en) (uses OpenAI's Whisper Model, also known as `Blabby`), Start/Stop Shortcut: `ctrl+space`
+  - ❤️ Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
 - **TEXT TO SPEECH:**
   - [Read Aloud: A Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp)
   - [Speechify Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
@@ -113,6 +113,8 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - Svelte DevTools: [Click here](https://chromewebstore.google.com/detail/svelte-devtools/kfidecgcdjjfpeckbblhmfkhmlgecoff)
 - ❤️ Video DownloadHelper: [Click here](https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk)
   - Inspiration: Reddit - How do you download videos from websites that don't allow it? [Click here](https://www.reddit.com/r/DataHoarder/comments/n5yi5m/how_do_you_download_videos_from_websites_that/)
+- ❤️ Custom Css For Website: [Click here](https://chromewebstore.google.com/detail/custom-css-by-denis/cemphncflepgmgfhcdegkbkekifodacd)
+  - ❤️ I am using this to hide chats in the left side menu by adding - `#LeftColumn{	visibility: hidden; }` on `https://web.telegram.org` to help distraction.
 
 
 ## Update default page zoom level and page font size

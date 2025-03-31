@@ -5,6 +5,10 @@
 - Move my files from https://github.com/sahilrajput03/my_bin repo to my current notes.
 
 **Quick Links:**
+- MANJARO:
+	- Manjaro pacman update issues Notes in Google Doc: [Click here](https://docs.google.com/document/d/1DY9H2ahQbg7wMEVyKKJvJm7bNBS0-dy97gK6ZvSn1gc/edit?tab=t.0#heading=h.bjq9i04dl4fe)
+	- Open system settings in Manjaro: Run command in terminal - `system-settings`
+	- Settings: Opening via `mod+z` > Settings > **Manjaro settings manager**
 - ❤️❤️❤️❤️  Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0#heading=h.xd4w27931f3h)
 - `config` Repo: [Click here](https://github.com/sahilrajput03/config)
 - `my_bin` Repo: [Click here](https://github.com/sahilrajput03/my_bin) (in process of moving data to my current notes pages)
@@ -23,6 +27,21 @@
 - Other people's config files: https://github.com/jonhoo/configs/, https://github.com/davidpdrsn/dotfiles/, https://github.com/anishathalye/dotfiles, https://github.com/JJGO/dotfiles
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
+
+## ❤️ tailscale experience
+
+I tried to setup my systems to connect via vpn on macos, linux and android and it works pretty smooth. The experience with vscode ssh login is cool too but I need to setup in a way that user `user1` is not able view files of my current user (currently it can view files of my active user).
+
+**Does ip of a device on tailscale changes or stay consistent?**
+- Tailscale assigns each device a unique, static IP address within your tailnet, typically in the 100.x.x.x range. This IP does not change as long as the device remains part of the tailnet.
+- However, if you remove and re-add a device, it might get a new IP. Additionally, the device’s public IP (used for internet connections) can change based on the network it connects to, but that doesn’t affect the Tailscale internal IP.
+
+- `ssh mbp-tailscale` can be used on both linux and mbp to login to `user1` in mbp. (10 march 2025).
+
+**How to use sshd config file to restrict access of a user to particular folder only?**
+- [Claude.ai](https://claude.ai/chat/e6c4b718-ebb0-453c-91b3-f6e2975787fe)
+	- [I tried on macbook but I couldn't do it propertly because in macbook I feel lot of configurations need to be done].
+		- You can check some config files in the bottom of this ssh config file - `sudo code /etc/ssh/sshd_config` (from [chatGPT](https://chatgpt.com/c/67cfdb88-b4bc-8007-9ad2-e5e439f5bf76)) but the issue with that I couldn't connect with vscode-ssh way probably because I was trying the easy way via - `ForceCommand /bin/bash -c "cd /Users/user1/Documents && /bin/bash"` and I need to propertly set it up as mentioned in the claudeai's prompt above instead. TODO_LATER: I'll try this later again when I have motivation to do this and for now I don't have any purpose to solve via this.
 
 ## VNC
 
@@ -891,6 +910,18 @@ sudo ln -s /home/array/test/b.sh /usr/bin/
 - His old youtube video: https://www.youtube.com/watch?v=iNX8wFqmk0Y
 
 ## installed ngrok
+
+**Ngrok alternatives**
+- Is there any free port forwarding service like ngrok? ChatGPT: [Click here](https://chatgpt.com/c/67cef4de-5ec0-8007-abe3-3b515729e982)
+	- [localtunnel](https://theboroer.github.io/localtunnel-www/): [github](https://github.com/localtunnel/localtunnel)
+ 		- Usage: `npm install -g localtunnel`, `lt --port 3000`
+   		- View password by going to: [https://loca.lt/mytunnelpassword](https://loca.lt/mytunnelpassword)
+	- [serveo.net](https://serveo.net)
+ 	- cloudflare tunnel
+	- ❤❤ tailscale: `sudo pacman -S go && yay -S tailscale-git && sudo systemctl status tailscaled && sudo systemctl enable tailscaled && sudo systemctl start tailscaled`. (Note: I was having issues to get the service start as it was restarting again and again. I checked with Claudeai and I resolved the issue by simply restarting the issue and that's it.)
+		- I generated a script for linux in tailscale's admin panel for linux and run this command to setup - `sudo tailscale up --auth-key=tskey-auth-xxxxxxx` to set it up. (Check keepass for original command). I used 90 days period while generating above because that's the most it offers).
+		- It is a tool for vpn support to be able to ssh to friend's system for collaboration.
+		- [https://tailscale.com](https://tailscale.com/)
 
 ```bash
 yay -s ngrok

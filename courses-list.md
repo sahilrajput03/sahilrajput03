@@ -3,14 +3,30 @@
 ***85% of below listed courses are 100% free and available to all.***
 
 **TODO:**
-- ❤️Networking and Streams - James Halliday: [Click here](https://frontendmasters.com/courses/networking-streams/)
-
+- ❤️ Networking and Streams - James Halliday: [Click here](https://frontendmasters.com/courses/networking-streams/)
+- Ramada Js (js library for helper functions like lodash) Course on YouTube: [Click here](https://www.youtube.com/playlist?list=PLrhzvIcii6GMeyUfpn-o5xVCH3_UykrzI)
+- [mooc.fi/en/courses/?tag=en](https://www.mooc.fi/en/courses/?tag=en)
+    - ❤️ [java-programming.mooc.fi](https://java-programming.mooc.fi/)
+    - ❤️ Ai in Society: [courses.mooc.fi/org/uh-cs/courses/ai-in-societ](https://courses.mooc.fi/org/uh-cs/courses/ai-in-society)
+    - ❤️ Cyber ​​Security Base 2025 - a free course series about cyber security: [https://cybersecuritybase.mooc.fi](https://cybersecuritybase.mooc.fi/)
+        -  Introduction to Cyber ​​Security
+        -  Securing Software
+        -  Course Project 1
+        -  Advanced Topics
+        -  Course Project II
+        -  Capture The Flag
+    - [Novel Wood-Based Materials](https://courses.mooc.fi/org/uh-forest-sciences/courses/novel-wood-based-materials)
+    - [Python Programming MOOC 2025](https://programming-25.mooc.fi/)
 **Other Courses (todo):**
 - Introduction to Marketing: [Click here](https://in.coursera.org/learn/wharton-marketing) (10 h)
 - Introduction to Financial Accounting: [Click here](https://www.coursera.org/learn/wharton-accounting) (13 h)
 - PostgreSQL for Everybody: [Click here](https://online.umich.edu/series/postgresql-for-everybody/?utm_source=youtube&utm_medium=video-ad&utm_campaign=series-postgresql-for-everybody&utm_content=keywords-pg4e-dr-chuck-video&gad_source=2)
+- Python:
+    - ❤️❤️ YouTube Channel - Corey Schafer: [Click here](https://www.youtube.com/c/Coreyms/playlists)
+        - Python Tutorials Playlist: [Click here](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
+    - Textual Course - Github - 30 days of Python: [Click here](https://github.com/Asabeneh/30-Days-Of-Python)
+- YouTube Playlist - MongoDB Playlist in Hindi by Engineering Digest: [Click here](https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1)
 
-https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1
 
 **YouTube Channels followed by EzsNippet:**
 
