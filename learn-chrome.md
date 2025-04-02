@@ -71,6 +71,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - [Fireshot - Take Webpage Screenshots Entirely - FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=en) 
 - [Toggle Fullscreen](https://chrome.google.com/webstore/detail/toggle-fullscreen/ddpejemcmlhbjppfdndmonifbiaindkl?hl=en) 
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
+  - Reddit - Ublock Origin is gone (2 April 2025): - TLDR: No you just need to enable it from its extension page - [Click here](https://www.reddit.com/r/youtube/comments/1j2ec76/ublock_origin_is_gone/)
 - [User-Agent Switcher for Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg#:~:text=The%20User%2DAgent%20Switcher%20for,want%20to%20spoof%20every%20time.) 
 - [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) 
 - [Xtreme Download Manager - Download manager for chrome](https://chrome.google.com/webstore/detail/xtreme-download-manager/dkckaoghoiffdbomfbbodbbgmhjblecj?hl=en) 
