@@ -923,7 +923,7 @@ ngrok http 3002
 
 ### ❤️ tailscale experience
 
-**NOTE: ❌❌ Tailscale vpn's ip and hostname is not at all accessible form out of the VPN network. ❌❌**
+**NOTE: ❌❌ Tailscale vpn's ip and hostname is not at all accessible form out of the VPN network. [TESTED & CONFIRMED] ❌❌**
 
 I tried to setup my systems to connect via vpn on macos, linux and android and it works pretty smooth. The experience with vscode ssh login is cool too but I need to setup in a way that user `user1` is not able view files of my current user (currently it can view files of my active user).
 
