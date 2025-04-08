@@ -136,7 +136,7 @@ cat /dev/null
 - Encourages Better Responses: People are more likely to respond thoughtfully when they receive thoughtful texts.
 - Minimizes Misinterpretation: Text lacks tone and body language. Being intentional with words helps bridge that gap.
 
-**How to text better and avoid confusion, concisely:**
+**How to text better and avoid confusion:**
 - Be clear – Say exactly what you mean.
 - Use punctuation – It helps with tone and meaning.
 - Avoid sarcasm/jokes that can be misread.
