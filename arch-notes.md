@@ -28,16 +28,6 @@
 - ❤️ You can say yes to all question for **`pacman`** or **`yay`** cli using `--noconfirm` command. E.g., `sudo pacman -Syu --noconfirm`. Also, another genral way is to do it like this: `yes | pacman blah blah blah`. Wow 🤩, you can test it via this as well - `yes | cat`.
 - 🚀🚀 Learn mocp (Music on Console): [Click here](learn-mocp.md)
 
-## ❤️ tailscale experience
-
-I tried to setup my systems to connect via vpn on macos, linux and android and it works pretty smooth. The experience with vscode ssh login is cool too but I need to setup in a way that user `user1` is not able view files of my current user (currently it can view files of my active user).
-
-**Does ip of a device on tailscale changes or stay consistent?**
-- Tailscale assigns each device a unique, static IP address within your tailnet, typically in the 100.x.x.x range. This IP does not change as long as the device remains part of the tailnet.
-- However, if you remove and re-add a device, it might get a new IP. Additionally, the device’s public IP (used for internet connections) can change based on the network it connects to, but that doesn’t affect the Tailscale internal IP.
-
-- `ssh mbp-tailscale` can be used on both linux and mbp to login to `user1` in mbp. (10 march 2025).
-
 **How to use sshd config file to restrict access of a user to particular folder only?**
 - [Claude.ai](https://claude.ai/chat/e6c4b718-ebb0-453c-91b3-f6e2975787fe)
 	- [I tried on macbook but I couldn't do it propertly because in macbook I feel lot of configurations need to be done].
@@ -930,6 +920,18 @@ yay -s ngrok
 ngrok http 3002
 # fyi: you may use `ngrokinfo` as its my alis to know about ngrok anytime.
 ```
+
+### ❤️ tailscale experience
+
+**NOTE: ❌❌ Tailscale vpn's ip and hostname is not at all accessible form out of the VPN network. ❌❌**
+
+I tried to setup my systems to connect via vpn on macos, linux and android and it works pretty smooth. The experience with vscode ssh login is cool too but I need to setup in a way that user `user1` is not able view files of my current user (currently it can view files of my active user).
+
+**Does ip of a device on tailscale changes or stay consistent?**
+- Tailscale assigns each device a unique, static IP address within your tailnet, typically in the 100.x.x.x range. This IP does not change as long as the device remains part of the tailnet.
+- However, if you remove and re-add a device, it might get a new IP. Additionally, the device’s public IP (used for internet connections) can change based on the network it connects to, but that doesn’t affect the Tailscale internal IP.
+
+- `ssh mbp-tailscale` can be used on both linux and mbp to login to `user1` in mbp. (10 march 2025).
 
 ## installed skype
 
