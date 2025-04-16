@@ -897,6 +897,9 @@ cp myFile array@arch-os:myFile
 scp 2.png pi:/tmp
 # Learn: File will be created inside /tmp folder in targer user.
 
+# Copy from remote server to current folder in local machine (here poco is a ssh profile)
+scp poco:~/.bashrc .
+
 ##USING rsync:
 #>> You can install rsync to archlinux very easily with (sudo pacman -S rsync)
 rsync -avP . user@hostname:cmd
