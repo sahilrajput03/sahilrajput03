@@ -33,6 +33,34 @@
 	- [I tried on macbook but I couldn't do it propertly because in macbook I feel lot of configurations need to be done].
 		- You can check some config files in the bottom of this ssh config file - `sudo code /etc/ssh/sshd_config` (from [chatGPT](https://chatgpt.com/c/67cfdb88-b4bc-8007-9ad2-e5e439f5bf76)) but the issue with that I couldn't connect with vscode-ssh way probably because I was trying the easy way via - `ForceCommand /bin/bash -c "cd /Users/user1/Documents && /bin/bash"` and I need to propertly set it up as mentioned in the claudeai's prompt above instead. TODO_LATER: I'll try this later again when I have motivation to do this and for now I don't have any purpose to solve via this.
 
+## Crontab Formats
+
+```txt
+*     *     *     *     *     command_to_run
+-     -     -     -     -
+|     |     |     |     |
+|     |     |     |     +----- Day of week (0 - 7) (Sunday=0 or 7)
+|     |     |     +------- Month (1 - 12)
+|     |     +--------- Day of month (1 - 31)
+|     +----------- Hour (0 - 23)
++------------- Minute (0 - 59)
+
+
+✅ EXAMPLE CRONTAB ENTRIES
+=======================
+Every minute
+* * * * * /path/to/script.sh
+
+Every day at 7:30 AM
+30 7 * * * /path/to/script.sh
+
+Every Monday at 1:00 PM
+0 13 * * 1 /path/to/script.sh
+
+Every 5 minutes
+*/5 * * * * /path/to/script.sh
+```
+
 ## I just added this to my alias in macos to list ssh profiles easily
 
 ```bash
