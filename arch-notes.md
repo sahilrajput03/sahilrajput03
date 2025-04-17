@@ -50,6 +50,7 @@
 =======================
 Every minute
 * * * * * /path/to/script.sh
+* * * * * date > ~/.crontabTest.txt
 
 Every day at 7:30 AM
 30 7 * * * /path/to/script.sh
