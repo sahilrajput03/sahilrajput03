@@ -4,6 +4,7 @@
 
 # Javascript Resources (books + websites)
 
+- Javascript for Everyone by Asabeneh: [Click here](https://github.com/Asabeneh/JavaScript-for-Everyone)
 - Mozilla Developer Network (MDN), Official Docs of Javascript - [WEB](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Javascritp.info - [WEB](http://javascript.info/)
 - Eloquent Javascript - [WEB](https://eloquentjavascript.net/), [PDF](https://eloquentjavascript.net/Eloquent_JavaScript.pdf), [PDF(MOBILE VERSION)](https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf).
@@ -13,7 +14,7 @@
 **Courses**:
 
 - FullStackOpen 2022: [WEB](https://fullstackopen.com/en/), [Course Stats](https://studies.cs.helsinki.fi/stats/courses/fullstackopen)
-- Other Awsome Tech courses - [Click here](courses-list.md)
+- Other Awesome Tech courses - [Click here](courses-list.md)
 
 **HTML and CSS**:
 - HTML @ MDN (Mozilla Developer Network) - [WEB](https://developer.mozilla.org/en-US/docs/Web/HTML)
