@@ -729,7 +729,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
   - Reverse proxy with `express-http-proxy` (npm library): [sahilrajput03/reverseProxy](https://github.com/sahilrajput03/reverseProxy){: search-title="Reverse proxy with `express-http-proxy` (npm library)"}
 - **Leetcode: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-leetcode.md)**{: search-title="Leetcode"}
 - Learn auth0: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-auth0.md){: search-title="Learn auth0"}
-- Best of Javascript: [Click here](https://bestofjs.org/){: search-title="Best of Javascript"}
 - **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail){: search-title="Css Design Trail"}
 	- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md){: search-title="Learn Bootstrap"}
 	- Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md){: search-title="Learn Styled Components"}
