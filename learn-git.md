@@ -4,6 +4,12 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+### You can forcefully add a ingored file/folder in git
+
+```bash
+git add -f path/to/file/or/folder
+```
+
 ### Creating branch rules
 
 **1/3** Create new branch ruleset:

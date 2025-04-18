@@ -124,6 +124,28 @@ cat /dev/null
 !!(() => {})
 ```
 
+## Text Better
+
+**Some profound reasons why to text better?**
+
+- Preserves Relationships: Clear texting prevents unnecessary misunderstandings, which can quietly damage trust or cause friction.
+- Reflects Emotional Intelligence: Thoughtful communication shows you care how your words affect others—a sign of maturity and empathy.
+- Saves Time and Energy: One well-written message can avoid a back-and-forth of clarifications, saving both people effort.
+- Builds Respect: When you text clearly and respectfully, people feel valued. It encourages mutual respect.
+- Shapes Your Digital Identity: How you text forms a big part of how others perceive you—are you thoughtful, vague, rude, reliable?
+- Encourages Better Responses: People are more likely to respond thoughtfully when they receive thoughtful texts.
+- Minimizes Misinterpretation: Text lacks tone and body language. Being intentional with words helps bridge that gap.
+
+**How to text better and avoid confusion:**
+- Be clear – Say exactly what you mean.
+- Use punctuation – It helps with tone and meaning.
+- Avoid sarcasm/jokes that can be misread.
+- Reply to all questions – Don’t skip parts.
+- Use names or quotes in group chats – To clarify who/what you're replying to.
+- Break long messages into short paragraphs – Easier to read.
+- Re-read before sending – Spot confusion before it happens.
+- Ask if unclear – “Did that make sense?” or “Let me know if that’s confusing.”
+
 ## Javascript Cheatsheet - Sahil
 
 - **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md)
@@ -543,7 +565,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - Linux:
-	- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md) (#ngrok)
+	- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md) (#ngrok, #tailscale)
 	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
 		- **Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash)  (with autodocs readme)
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
@@ -867,7 +889,11 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn pm2: [Click here](https://docs.google.com/document/d/1f1_6fMv2B5TbGpWoMHdZQ2irZ8IRZCKH37k_SUpQvAI/edit?tab=t.0)
 - Learn rendering pdf in a website: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
 - Learn wordpress development: [Doc](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0), [Github](https://github.com/sahilrajput03/learn-wordpress-development)
-- Development on Android with Temux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
+- Development on Android with Termux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
+- Good Printable Webpages:
+  - All MDN Pages: [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
+  - Articles from - Harvard: Professional & Executive Development Blog: [Click here](https://professional.dce.harvard.edu/blog/)
+
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.

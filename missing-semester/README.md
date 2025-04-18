@@ -863,7 +863,7 @@ cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip "cat > .ssh/authorized_keys"
 cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip "cat >> .ssh/authorized_keys" # To append the public key in the `authorized_keys` file on target machine
 cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip tee .ssh/authorized_keys # To overwrite the `authorized_keys` file on target machine with the public key
 cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip tee -a .ssh/authorized_keys # To append the public key in the end of `authorized_keys` file on target machine
-# Here we are saying that take the standard input from cat command and dump it to .ssh/authorized keys file on target machine
+# Here we are saying that take the standard input from cat command and dump it to .ssh/authorized_keys file on target machine
 #
 # You can confirm the contents of file `.ssh/authorized_keys` on target machine and it should show something like this:
 # cat .ssh/authorized_keys
@@ -896,6 +896,9 @@ cp myFile array@arch-os:myFile
 # Copy to a absolute path
 scp 2.png pi:/tmp
 # Learn: File will be created inside /tmp folder in targer user.
+
+# Copy from remote server to current folder in local machine (here poco is a ssh profile)
+scp poco:~/.bashrc .
 
 ##USING rsync:
 #>> You can install rsync to archlinux very easily with (sudo pacman -S rsync)
