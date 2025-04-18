@@ -3,6 +3,7 @@
 **Quick Links:**
 - Js-Conf-2022: [Click here](notes-js-conf-2022.md)
 - A place to find the best open source projects related to the web platform: JS, HTML, CSS, but also TypeScript, Node.js, Deno, Bun: [bestofjs.org](https://bestofjs.org)
+- Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 
 ## Why amazon.com uses `href="javascript:void(0)"`  on their rating links?
 
