@@ -113,7 +113,7 @@
   - Learn smart contracts and Dapp development for Ethereum: [Click here](https://pro.eattheblocks.com/p/6-figure-blockchain-developerLearn)
 - ocaml: [Click here](https://www.youtube.com/@chshersh/featured)
 
-**Javascript Docs and Prime Resources**
+**❤️Javascript Docs and Courses**
 
 - Javascript for Everyone by Asabeneh: [Click here](https://github.com/Asabeneh/JavaScript-for-Everyone)
 - Mozilla Developer Network (MDN), Official Docs of Javascript - [WEB](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
