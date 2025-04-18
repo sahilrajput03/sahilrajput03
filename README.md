@@ -723,7 +723,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md){: search-title="Learn Javascript (#lodash)"} (`#lodash`)
 		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
 	- **Learn from State of Javascript 2021:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-state-of-javascript.md){: search-title="Learn from State of Javascript 2021"}
-	- **Prime Resources - Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/prime-resources-js.md){: search-title="Prime Resources - Javascript"}
 	- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa){: search-title="DSA in Javascript, Course"}
 	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/@ts-check.md){: search-title="Typescript typechecking in javascript files with jsdoc"}
