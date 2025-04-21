@@ -5,6 +5,46 @@
 - A place to find the best open source projects related to the web platform: JS, HTML, CSS, but also TypeScript, Node.js, Deno, Bun: [bestofjs.org](https://bestofjs.org)
 - Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 
+
+## ❤️ what are glob imports in js?
+
+❤️From Sahil: For e.g, how svelte uses +page.of each folder to register router for frontend application. Similarly how nextjs manage routes from project/file structure.
+
+[From ChatGPT](https://chatgpt.com/c/680502d2-27c8-8007-b3d3-c82b4597c329)
+
+In JavaScript (especially when using tools like Vite, Webpack, or Rollup), glob imports refer to importing multiple files at once using a file path pattern (glob pattern)—similar to wildcards in the terminal.
+
+They are not part of native JavaScript, but are supported by build tools for convenience.
+
+Example (Vite):
+
+```js
+const modules = import.meta.glob('./modules/*.js');
+```
+
+This will dynamically import all `.js` files inside the modules folder.
+
+**🍎What `import.meta.glob()` returns:**
+- It returns an object where:
+- The keys are the file paths.
+- The values are functions that return a dynamic import (i.e., Promise of the module).
+
+**Example:**
+
+```js
+const modules = import.meta.glob('./modules/*.js');
+
+for (const path in modules) {
+  modules[path]().then((mod) => {
+    console.log(`Loaded ${path}`, mod);
+  });
+}
+```
+
+**🚀Why use glob imports?**
+- Useful for loading many modules without manually importing each one.
+- Great for auto-registering components, routes, etc.
+
 ## Why amazon.com uses `href="javascript:void(0)"`  on their rating links?
 
 The javascript:void(0) serves as a placeholder URL that doesn't navigate to a new page when clicked. (ChatGPT)
