@@ -500,6 +500,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- For downloading small clips you can probably use chrome extension - [Chrome Audio Capture](https://chromewebstore.google.com/detail/chrome-audio-capture/kfokdmfpdnokpmpbjhjbcabgligoelgp) to download from below two sites because they don't allow download in their free plan yet. *(for commercial use -- I advise to get a premium plan to help support them)*
 		- [murf.ai/text-to-speech](https://murf.ai/text-to-speech)
 		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
+- Video Cutter: [online-video-cutter.com](https://online-video-cutter.com/)
 - Speech to Text: *(#speechtotext, #speech-to-text)*
 	- [dictation.io/speech](https://dictation.io/speech) (web)
  	- ❤️ WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
