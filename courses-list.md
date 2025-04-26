@@ -26,6 +26,7 @@
         - Python Tutorials Playlist: [Click here](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
     - Textual Course - Github - 30 days of Python: [Click here](https://github.com/Asabeneh/30-Days-Of-Python)
 - YouTube Playlist - MongoDB Playlist in Hindi by Engineering Digest: [Click here](https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1)
+- [42berlin.de](https://42berlin.de/)
 
 
 **YouTube Channels followed by EzsNippet:**
