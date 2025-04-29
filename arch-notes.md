@@ -575,8 +575,6 @@ export CAPACITOR_ANDROID_STUDIO_PATH=/usr/bin/android-studio
 
 ```bash
 sudo pacman -S vlc obs-studio docker qbittorrent docker-compose tmux
-# To make nvm accessible via cli
-echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 # To make docker work
 sudo systemctl enable docker.service
 sudo systemctl start docker
@@ -591,6 +589,11 @@ groups | grep docker
 # OUTPUT: sys network power libvirt autologin docker lp wheel array # Here we can see the `docker` entry here now.
 
 yay -S google-chrome skypeforlinux-stable-bin visual-studio-code-bin mongodb-compass postman-bin nvm android-studio
+
+# Make nvm accessible via cli
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+# For NVM notes, please refer - https://github.com/sahilrajput03/nvm-autoswitching/blob/main/README.md
+
 
 # First install andoid studio by running below command
 android-studio
@@ -614,9 +617,6 @@ sudo ln -s ~/Android/Sdk/platform-tools/adb /bin/adb
 sudo ln -s ~/Android/Sdk/emulator/emulator /bin/emulator
 
 # ♥ IMPORTANT (capacitor): If you are getting error while building an apk with capacitor `ERR_UNSUITABLE_API_INSTALLATION`, you must install sdk for Android 10 to fix it. (see screenshot help below on this page)
-
-# Install node using .nvmrc file
-nvm install
 ```
 
 ## Get bios version date
@@ -2796,38 +2796,6 @@ git clone https://aur.archlinux.org/packages/sqliteman/
 cd sqliteman
 makepkg -s
 sudo pacman -U sqliteman-1.2.2-12-x86_64.pkg.tar.zst
-```
-
-## Installing nvm:
-
-src: [AUR](https://aur.archlinux.org/packages/nvm/)
-
-```bash
-git clone https://aur.archlinux.org/nvm.git
-cd nvm
-makepkg -s
-sudo pacman -U nvm-*******-any.pkg.tar.zst
-echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
-
-# Instal node using a .nvmrc file by running where you have .nvmrc file in the current directory
-nvm install
-```
-
-- Update `npm` version using `nvm`
-
-```bash
-# for my slasher project
-npm install -g npm@8.2.0
-
-# Source: https://stackoverflow.com/a/33575448
-# to get latest npm
-nvm install-latest-npm
-# or
-nvm install --latest-npm
-
-# set default version
-nvm alias default 20.12.1
-
 ```
 
 #### Insall yarn my arch setup
