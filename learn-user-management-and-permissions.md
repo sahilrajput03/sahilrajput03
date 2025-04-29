@@ -56,7 +56,7 @@ groups dave
 sudo -iu root whoami
 # Output: root
 # -i means run a login shell, what is login shell? Ans. https://unix.stackexchange.com/questions/38175/difference-between-login-shell-and-non-login-shell
-# -u neabs run command as a specific user
+# -u means run command as a specific user
 
 # Get currently logged in user
 echo $USER
