@@ -2779,11 +2779,6 @@ sudo mount /dev/sdc sdc1/
 sudo umount /dev/sdc #To un mount.
 ```
 
-## change root password
-
-```
-sudo -i passwd
-```
 
 ## insatlled sqliteman
 
