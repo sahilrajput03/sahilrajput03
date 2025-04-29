@@ -1,9 +1,10 @@
 # Learning bash
 
-*RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic instinct to do `man cli-name` and read through it.*
+_RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic instinct to do `man cli-name` and read through it._
 
 **Quick Links:**
-- ❤️❤️❤️❤️  Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0#heading=h.xd4w27931f3h)
+
+- ❤️❤️❤️❤️ Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0#heading=h.xd4w27931f3h)
 - **WatchAll: [Click here](https://github.com/sahilrajput03/watchAll)**
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
 - **GNU: Bash Reference Manual:** [Click here](https://www.gnu.org/software/bash/manual/bash.html)
@@ -11,6 +12,7 @@
 - **❤️❤️Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash) (with autodocs readme)
 
 **TODO READS:**
+
 - **Bash Shell Substitution:** [Click here](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html)
 - **Linux iptables command examples for new sysadmins:** [Click here](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
 - **30 linux bash aliases:** [Click here](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
@@ -83,7 +85,6 @@ set -o allexport && source ./deploy-cloudflare/.env.deploy/prod && npm run build
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/5fb0722e-6b87-4122-8243-d50f74bde446)
 
-
 ## Learn Asterisk
 
 Asterisk - Asterisk is a software implementation of a private branch exchange (PBX) - Youtube Playlist: [Click here](https://www.youtube.com/playlist?list=PLqLOutQTzEV-8mqy7tULOTSzo58oJRx44)
@@ -120,7 +121,6 @@ Source: [Click here](https://www.techwalla.com/articles/how-to-ping-your-isp)
 ![image](https://user-images.githubusercontent.com/31458531/206878016-8672f5c1-5378-4890-b953-5092f1c3cf1a.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/206878038-18156937-9f46-4843-a910-e10408dd6d8e.png)
-
 
 ## Make a script available to be run by dmenu
 
@@ -169,14 +169,11 @@ Run `htop`
 
 ![image](https://user-images.githubusercontent.com/31458531/196249793-256e8a3b-8c93-43c7-823b-1a9e237f074d.png)
 
-
-
 ## i3wm shows Load Average on the status bar
 
 From htop:
 
 ![image](https://user-images.githubusercontent.com/31458531/196246403-3af8c7df-ad56-4e3d-949a-96c2ad09953f.png)
-
 
 ## make a script to be run by root user only
 
@@ -214,7 +211,6 @@ and in this case the time taken is 17.969 seconds
 
 ![image](https://user-images.githubusercontent.com/31458531/194763174-5d6b4aee-9932-4dc9-b757-bdf3c4ecfd95.png)
 
-
 ## compre two folders via cli `diff`
 
 https://stackoverflow.com/a/15197050/10012446
@@ -232,9 +228,9 @@ Source: Amazing quora answer with 5+ resources: https://qr.ae/pviIdi
 
 ## Cannot type in termnal after pressing ctrl+c on any running program?
 
-Simply use `reset` command to get your teminal back. YO!!  [Source](https://superuser.com/a/237405)
+Simply use `reset` command to get your teminal back. YO!! [Source](https://superuser.com/a/237405)
 
-## ❤️ ❤️ ❤️  Confused with all the paths in scripts? ❤️ ❤️ ❤️ 
+## ❤️ ❤️ ❤️ Confused with all the paths in scripts? ❤️ ❤️ ❤️
 
 ```bash
 #!/bin/bash
@@ -358,7 +354,7 @@ Source: `Fireship.io` & https://linuxize.com/post/how-to-extract-unzip-tar-gz-fi
 gzip -c a.txt > a.gz
 ls
  # OUTPUT: a.txt a.gz
- 
+
 # Compress a file (inplace comression use by *CAUTION*)
 gzip array.png
 ls
@@ -378,16 +374,16 @@ ls
 
 **Using `tar`:**
 
-- **Why `tar`?** Ans. In real world we need to archive a folder but gzip can only compress files so for that reason we need a archiver like `tar`. 
-- `Archiving` is the process of *combining multiple files into a single package* called an *archive*.
-- A tar (tape archive) file *format* is an archive created by tar, a UNIX-based utility used to package files together for *backup* or *distribution purposes*.
+- **Why `tar`?** Ans. In real world we need to archive a folder but gzip can only compress files so for that reason we need a archiver like `tar`.
+- `Archiving` is the process of _combining multiple files into a single package_ called an _archive_.
+- A tar (tape archive) file _format_ is an archive created by tar, a UNIX-based utility used to package files together for _backup_ or _distribution purposes_.
 - The word `tar` for the program is derived from "tape archiver" which is name of output file format.
 - Tar is program that can covert directories to a single file called tarball.
 
 ```bash
 # Compress a directory: src: https://unix.stackexchange.com/a/93158/504112
-tar -zcvf archive.tar.gz directory/ 
-# LEARN: 
+tar -zcvf archive.tar.gz directory/
+# LEARN:
 # compress it using the z (gzip) algorithm
 # c (create) an archive from the files in directory (tar is recursive by default)
 # v (verbosely) list (on /dev/stderr so it doesn't affect piped commands) all the files it adds to the archive.
@@ -428,12 +424,12 @@ sudo passwd --status postgres
 **Full 3 hour Bash Scripting course from linuxhint:** [Click here](https://www.youtube.com/watch?v=e7BufAVwDiM).
 
 ## Learn alsamixer, #MASTER alsamixer and pulseaudio
-  
-  - Yyou can toggle mute any device with `m`.
-  - You can toggle sound card with `s` or via `f6`.
-  - You increase sound with `w` and decrease with `x` of any device. FYI: Use `q`/`z` and `e`/`c` for each side speakers. Yo!
-  - You can play sound throught two devices (say laptop speaker and earphone) as well i.e., unmute any the other device  and then increase the sound. 
-  - If you messed any settings like volume control or any sort of thing you can simply reset things with `pulseaudio -k` command (this restarts pulseaudio with default settings for all sound cards).
+
+- Yyou can toggle mute any device with `m`.
+- You can toggle sound card with `s` or via `f6`.
+- You increase sound with `w` and decrease with `x` of any device. FYI: Use `q`/`z` and `e`/`c` for each side speakers. Yo!
+- You can play sound throught two devices (say laptop speaker and earphone) as well i.e., unmute any the other device and then increase the sound.
+- If you messed any settings like volume control or any sort of thing you can simply reset things with `pulseaudio -k` command (this restarts pulseaudio with default settings for all sound cards).
 
 ## Top 5 virtual machines softwares in industry
 
@@ -452,20 +448,22 @@ comment
 ## Learn Makefile
 
 **Quick Links:**
-- Amazing Tutorial to learn Makefile (lovely): https://makefiletutorial.com/, [Github](https://github.com/theicfire/makefiletutorial) - 4.6k*
-	- Twitter of this person: [Click here](https://twitter.com/chaselambda)
+
+- Amazing Tutorial to learn Makefile (lovely): https://makefiletutorial.com/, [Github](https://github.com/theicfire/makefiletutorial) - 4.6k\*
+  - Twitter of this person: [Click here](https://twitter.com/chaselambda)
 
 **My usages:**
+
 - Sample 1: https://github.com/kubernetes-hy/material-example/blob/master/app10-go/controller/Makefile
 - Sample 2: https://github.com/sahilrajput03/sahilrajput03/blob/main/missing-semester/lecture8-make/Makefile
 
-*(*Why even use `makefile` instead of some script file say `makefile.sh`?**
+*(*Why even use `makefile` instead of some script file say `makefile.sh`?\*\*
 
 Amazing complete answer @ [Stackoverflow](https://stackoverflow.com/a/3798609/10012446).
 
 **tldr**
 
-> The general idea is that make supports (reasonably) minimal rebuilds -- i.e., you tell it what parts of your program depend on what other parts. When you update some part of the program, it only rebuilds the parts that depend on that. While you could do this with a shell script, it would be a lot more work (explicitly checking the last-modified dates on all the files, etc.) The only obvious alternative with a shell script is to rebuild everything every time. 
+> The general idea is that make supports (reasonably) minimal rebuilds -- i.e., you tell it what parts of your program depend on what other parts. When you update some part of the program, it only rebuilds the parts that depend on that. While you could do this with a shell script, it would be a lot more work (explicitly checking the last-modified dates on all the files, etc.) The only obvious alternative with a shell script is to rebuild everything every time.
 
 ## Start a openvpn server in 5 minutes - TODO
 
@@ -551,7 +549,6 @@ echo "Backup of ~/scripts directory succeeded."
 mv $TEMP/node_modules /home/array/scripts/bull/
 ```
 
-
 ```bash
 mktemp
 # Output: /tmp/tmp.VVmWziFwYh
@@ -580,10 +577,10 @@ GNU Core utils - Comes preinstalled on all GNU/Linux System
 ```bash
 ##################### uname
 uname
-# Output (kernel name): Linux 
+# Output (kernel name): Linux
 
 uname -a
-# Output (all infor about kernel): 
+# Output (all infor about kernel):
 # Linux arch-os 5.16.16-arch1-1 #1 SMP PREEMPT Mon, 21 Mar 2022 22:59:40 +0000 x86_64 GNU/Linux
 # Here:
 # "Linux" is kernel name
@@ -663,7 +660,7 @@ array
 
 #user permission, #user create, #create user, #login as user, #login for different user, #different user login
 
-Source: [Click here](learn-user-management-and-permissions.md)
+Source: [Click here](https://docs.google.com/document/d/1peofLDv8DlPUg_88r9RnB7rkrPcVLH12Fm7sG44JT0E/edit?tab=t.0#heading=h.e6i7bkol4bkr)
 
 ## Never use quote/s around possble exapansions coz it prevents that!
 
@@ -701,9 +698,10 @@ echo $a
 # Output:
 10=20
 ```
+
 ## What is the user `${myVariable}` when we can achieve `$myVariable` ?
 
-NO YOU are wrong, they `${` is helpful in cases where `$myVariable` fails, for e.g., 
+NO YOU are wrong, they `${` is helpful in cases where `$myVariable` fails, for e.g.,
 
 ```bash
 name="john doe"
@@ -881,7 +879,7 @@ searchTextInFilesRecursively ()
 }
 ```
 
-## `test` in bash 
+## `test` in bash
 
 Manual pages: [Click here](test-manual-pages.txt)
 
@@ -894,9 +892,9 @@ Manual pages: [Click here](test-manual-pages.txt)
 
        -z STRING
               the length of STRING is zero
-	      
+
 ### WOW, INTERESTING FACT here...
-# -n STRING and STRING are equivalent, that means you can simply use 
+# -n STRING and STRING are equivalent, that means you can simply use
 test "$USER"
 echo $?
 # Output: 0 (exit code is 0 (TRUE), bocz user string exists in system environment variables)
@@ -917,6 +915,7 @@ The <(list) syntax is supported by both, bash and zsh. It provides a way to pass
 ```bash
 diff <(ls dirA) <(ls dirB)
 ```
+
 <(list) connects the output of list with a file in /dev/fd, if supported by the system, otherwise a named pipe (FIFO) is used (which also depends on support by the system; neither manual says what happens if both mechanisms are not supported, presumably it aborts with an error). The name of the file is then passed as argument on the command line.
 
 ## Network utility is awesome
@@ -963,7 +962,7 @@ curl localhost:8080 -d '{"message": "life is amazing"}'
 # Accept: */*
 # Content-Length: 30
 # Content-Type: application/x-www-form-urlencoded
-# 
+#
 # {"message": "life is amazing"}
 ```
 
@@ -1055,9 +1054,9 @@ help
 # Type `help name' to find out more about the function `name'.
 # Use `info bash' to find out more about the shell in general.
 # Use `man -k' or `info' to find out more about commands not in this list.
-# 
+#
 # A star (*) next to a name means that the command is disabled.
-# 
+#
 #  job_spec [&]                                                                                  history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...]
 #  (( expression ))                                                                              if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [ else COMMANDS; ] fi
 #  . filename [arguments]                                                                        jobs [-lnprs] [jobspec ...] or jobs -x command [args]
@@ -1159,12 +1158,12 @@ pgrep copyq
 man kill
 # OUTPUT
 # The command kill sends the specified signal to the specified processes or process groups.
-# 
+#
 # If no signal is specified, the TERM signal is sent. The default action for this signal is to terminate the process. This signal should be used in preference to the KILL signal
 # (number 9), since a process may install a handler for the TERM signal in order to perform clean-up steps before terminating in an orderly fashion. If a process does not
 # terminate after a TERM signal has been sent, then the KILL signal may be used; be aware that the latter signal cannot be caught, and so does not give the target process the
 # opportunity to perform any clean-up before terminating.
-# 
+#
 # Most modern shells have a builtin kill command, with a usage rather similar to that of the command described here. The --all, --pid, and --queue options, and the possibility to
 # specify processes by command name, are local extensions.
 ```
@@ -1220,6 +1219,7 @@ if [ -n "$(pgrep -f battery-status)" ]; then echo "Process is *running*.."; else
 # -z with ! operator to check for non-zero length string bcoz -z check for zero length strings
 # Using -z will make program exit with 0 if string is empty
 ```
+
 ## Expand your alias in shell lively before your eyes ?
 
 ```bash
@@ -1342,7 +1342,7 @@ nf
 ## source: https://unix.stackexchange.com/a/1498/504112
 ```
 
-## `tac` 
+## `tac`
 
 Prints the content of a file exactly like cat but in reverse order of lines.
 
@@ -1361,7 +1361,7 @@ echo -n foobar | sha256sum
 
 FYI: `SHA-1` is less secure than `SHA-256` and `SHA-3`. Source: click [here](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html) and [here](https://shattered.it/).
 
-***Any sha1 `digest` is 40 chars long in length.***
+**_Any sha1 `digest` is 40 chars long in length._**
 
 ```
 echo Hello > file.txt
@@ -1412,13 +1412,14 @@ BUGS
        plemented in b2sum(1)
 ```
 
-**Other available: `sha**` programs in linux**: 
+**Other available: `sha**` programs in linux\*\*:
 
 ```bash
 sha<tab><tab>
 
 sha        sha1sum    sha224sum  sha256sum  sha384sum  sha512sum  shasum
 ```
+
 ## random with `shuf`
 
 ```
@@ -1453,7 +1454,7 @@ vyom's related question: https://stackoverflow.com/a/73010590/10012446
 
 Source: https://missing.csail.mit.edu/2020/data-wrangling/
 
-Video Lecture soure: https://www.youtube.com/watch?v=sz_dsktIjt4 
+Video Lecture soure: https://www.youtube.com/watch?v=sz_dsktIjt4
 
 ```bash
 
@@ -1659,13 +1660,13 @@ line1
 line2
 line3
 
-# With s option we are saying to join lines to single line, and 
+# With s option we are saying to join lines to single line, and
 # with option d we are saying to use , as delimiter for joining.
 $ paste -s -d, file.txt
 line1,line2,line3
 ```
 
-## head / tail 
+## head / tail
 
 ```bash
 #usage:
@@ -1721,7 +1722,7 @@ $ sort test.txt | uniq -c
       1 x
       4 y
       1 z
-      
+
 
 # We can sort these entries by their count nubmers as well:
 # FYI: I modified the duplicate entries so thats why the duplicate count has changed like that:
@@ -1781,7 +1782,7 @@ $ find
 
 `Awk` is abbreviated from the names of the developers – Aho, Weinberger, and Kernighan.
 
-`sed` stands *stream editor*, yes that means find, modify or replace text or do all together with the use of pipe interface(though we can use files directly to operate on them too).
+`sed` stands _stream editor_, yes that means find, modify or replace text or do all together with the use of pipe interface(though we can use files directly to operate on them too).
 
 ```bash
 sed -i 's/\b[0-9]\{3\}\b/number/g' file.txt
@@ -1792,7 +1793,7 @@ sed -i 's/\b[0-9]\{3\}\b/number/g' file.txt
 
 All the options discussed are [from this arcticle - How to Use sed to Find and Replace String in Files](https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/#disqus_thread).
 
-```bash
+````bash
 $ pwd
 /home/array/test/learning-find-grep-sed-xarg
 $ tree
@@ -1866,12 +1867,12 @@ $ man grep
 #              only  if  they  are  on  the  command line.  Note that if no file operand is
 #              given, B<grep> searches the working directory.  This is equivalent to the -d
 #              recurse option.
-#              
+#
 #       -l, --files-with-matches
 #              Suppress normal output; instead print the name of each input file from which
 #              output would normally have been printed.  Scanning  each  input  file  stops
 #              upon first match.
-#              
+#
 #       -Z, --null
 #              Output  a  zero byte (the ASCII NUL character) instead of the character that
 #              normally follows a file name.  For example, grep -lZ  outputs  a  zero  byte
@@ -1914,7 +1915,7 @@ grep -rlZ 'foo' . | xargs -0 sed -i.bak 's/foo/bar/g'
 
 # -i option for case Insensitive search
 grep -ri 'searchText' .
-```
+````
 
 ## `awk` rocks hard!!
 
@@ -2054,11 +2055,11 @@ date -d 'Fri Feb  4 19:32:03 UTC 2022'                                          
 
 ## Play with time ?
 
-***Whats epoch time ?*** Ans. *Time in seconds sice `1/1/1970 @ 00:00:00 UTC`*. Also known as *Unix time* or *Posix time*.
+**_Whats epoch time ?_** Ans. _Time in seconds sice `1/1/1970 @ 00:00:00 UTC`_. Also known as _Unix time_ or _Posix time_.
 
-***IST ?*** Ans. *Indian Standard Time*.
+**_IST ?_** Ans. _Indian Standard Time_.
 
-***`@` is prefixed before epoch time.***
+**_`@` is prefixed before epoch time._**
 
 TIMEZONES:
 
@@ -2078,7 +2079,6 @@ https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 #Amazing converter site
 https://www.epochconverter.com/
 ```
-
 
 ```bash
 #>>> CURRENT TIME
@@ -2123,7 +2123,7 @@ $TZ=Asia/Karachi date
 
 ### CONVERT DIFFERNT TIME ZONE TO LOCAL TIME ZONE
 date -d 'Thu Feb  3 11:18:45 PM AKST 2022'
-#OUTPUT: Fri Feb  4 01:48:45 PM IST 2022 
+#OUTPUT: Fri Feb  4 01:48:45 PM IST 2022
 #OUTPUT is local time (IST stands for Indian Standard Time)
 
 
@@ -2162,9 +2162,9 @@ cat myFile.txt | xclip -selection clipboard
 Source: https://www.cyberciti.biz/faq/bsd-appleosx-linux-bash-shell-run-command-n-times/
 
 ```bash
-## run command 10 times 
+## run command 10 times
 for i in {1..10}; do commandNameHere; done
- 
+
 ## run script 10 times
 for i in {1..10}; do /path/to/cache.script.sh; done
 ```
@@ -2200,7 +2200,7 @@ paplay ~/my-file.extension
 paplay --list-file-formats
 ```
 
-## Using commands cat, tac, less, more, head, tail ?**
+## Using commands cat, tac, less, more, head, tail ?\*\*
 
 Source1: https://www.tecmint.com/linux-more-command-and-less-command-examples
 
@@ -2210,7 +2210,7 @@ Source3: Archlinux's [cron docs](https://wiki.archlinux.org/title/cron).
 
 ## Using crontab
 
-- Running some task on boot(after reboot): 
+- Running some task on boot(after reboot):
 
 Source: https://stackoverflow.com/a/56374472/10012446
 
@@ -2221,7 +2221,7 @@ Source: https://stackoverflow.com/a/56374472/10012446
 
 Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Source: https://www.tecmint.com/online-cron-job-generator-and-tester-for-linux/
 
-```bash
+````bash
 # Use below command to access crontab:
 crontab -l #List current user's crontab jobs. (or you can use: cat /var/spool/cron/array)
 crontab -e #Edt crontab entries of current user.
@@ -2232,7 +2232,7 @@ crontab -e #Edt crontab entries of current user.
 # ^^ these commands will execute in every 60 seconds and actually it ticks on 0th second of every minute of the system clock.
 
 ## FYI: WOW:: You can check with ```date``` to check the current time with current seconds to know when text in cc.text file will be appended coz command gets executed on 0th second in every minute! Yikes!!
-```
+````
 
 #### Debug crontab's command when your jobs aren't running at all or something else is not working as expected ?? ~Sahil
 
@@ -2308,7 +2308,7 @@ all=("$a" "$b")
 for t in "${all[@]}"; do
 	echo Message: $t
 done
-# OUTPUT: 
+# OUTPUT:
 # Message: I am foo
 # Message: I am bar
 
@@ -2321,8 +2321,6 @@ done
 # What a b
 # What c d
 ```
-
-
 
 **Amazing cli tool with bash**
 
@@ -2375,7 +2373,7 @@ src: https://stackoverflow.com/a/1194890/10012446
 **Graceful exit**
 
 > A graceful exit (or graceful handling) is a simple programming idiom wherein a program detects a serious error condition and "exits gracefully" in a controlled manner as a result. Often the program prints a descriptive error message to a terminal or log as part of the graceful exit.
-Wikipedia - [Source](https://en.wikipedia.org/wiki/Graceful_exit).
+> Wikipedia - [Source](https://en.wikipedia.org/wiki/Graceful_exit).
 
 **Using tee command**
 
@@ -2428,10 +2426,9 @@ man df
 # NAME: df - report file system space usage
 ```
 
-
 **Usage of `test` command**
 
-To know if you are piping 
+To know if you are piping
 
 ```
 if test -t 1; then
@@ -2448,7 +2445,6 @@ fi
  # Useful when you need tract all ouput to a file forever. Src: https://www.linuxjournal.com/content/bash-redirections-using-exec
 ```
 
-
 **Usage of `trap COMMAND SIGNAL`**
 
 Source: [AMMAAZZIINGG guide](https://www.linuxjournal.com/content/bash-trap-command) to full usage of `trap` command..
@@ -2456,7 +2452,7 @@ Source: [AMMAAZZIINGG guide](https://www.linuxjournal.com/content/bash-trap-comm
 ```bash
 #!/bin/bash
 trap 'rm abc.txt' exit
-# 1. Will remove abc.txt file on pressing ctrl+c. 
+# 1. Will remove abc.txt file on pressing ctrl+c.
 touch abc.txt
 echo Created a file abc.txt
 sleep 5
@@ -2470,7 +2466,6 @@ echo Bye
 # Source: https://stackoverflow.com/a/31202968/10012446
 # Source2: https://bash.cyberciti.biz/guide/How_to_clear_trap#:~:text=Enter%20number%20(%2D9999%20to%20exit)%20%3A%20999%20999%20is%20an,exit)%20%3A%20%2D9999%20Bye!
 ```
-
 
 **Usage of `dirname` and `basename`:**
 
@@ -2501,18 +2496,17 @@ dirname folder1/folder2/myfile.sh
 # Output: folder1/folder2
 ```
 
-***
+---
 
 ## `$@` vs. `$*`? What you should use.
 
-
 ```
 # Recommened: Read original posters' full answer: https://superuser.com/a/247131/776589
-$#    Stores the number of command-line arguments that 
+$#    Stores the number of command-line arguments that
       were passed to the shell program.
-$?    Stores the exit value of the last command that was 
+$?    Stores the exit value of the last command that was
       executed.
-$0    Stores the first word of the entered command (the 
+$0    Stores the first word of the entered command (the
       name of the shell program).
 $*    Stores all the arguments that were entered on the
       command line ($1 $2 ...).
@@ -2528,7 +2522,7 @@ $0 = ./command, $1 = -yes etc.
 
 ```
 
-***
+---
 
 ```bash
 # Lucky things:
@@ -2564,7 +2558,7 @@ mat
 pat
 zat
 
-cat words2 
+cat words2
 car bar mat pat zat air
 
 sort words2 # or sort < words2
@@ -2572,6 +2566,7 @@ sort words2 # or sort < words2
 car bar mat pat zat air   #LOL: this isn't sorted.
 
 ```
+
 ## Use switch cases in bash:
 
 Eg1.
@@ -2634,6 +2629,7 @@ do
 
 done
 ```
+
 ## Use grep to get only the matched patter only with `-o` flag
 
 ```
@@ -2660,15 +2656,14 @@ kill $(pgrep -f battery-status)     #This will kill all the returning proceses v
 
 [Source](https://www.cyberciti.biz/faq/how-to-return-pid-of-a-last-command-in-linux-unix/)
 
-```
+````
 echo $!
 # Ouput: Prints the pid of the last process you ran (i.e., only the commands which you ran in background by suffixing wiht & in the end. I.e., ```echo Sahil &```.
-```
-
+````
 
 ## Using ps -aux and dont' show grep entry in that:
 
-```
+````
 # FYI:
 echo $!
 # Ouput: Prints the pid of the last process you ran (i.e., only the commands which you ran in background by suffixing wiht & in the end. I.e., ```echo Sahil &```.
@@ -2676,7 +2671,7 @@ echo $!
 ps -aux | grep -v grep | grep $!
 # or
 ps -aux | grep $! | grep -v grep
-```
+````
 
 ## Get path of the script file that we are executing
 
@@ -2684,6 +2679,7 @@ ps -aux | grep $! | grep -v grep
 MY_PATH=$(dirname "$0")
 echo "$MY_PATH"
 ```
+
 [source](https://stackoverflow.com/a/630387/10012446) and it worked in my pomodoro script to be run from anywhere using an alias like below in `~/.bashrc` file:
 
 ```
@@ -2699,7 +2695,7 @@ while [ condition ]; do
    command3
 done
 
-# E.g, 
+# E.g,
 while true; do echo I am cool; sleep 1; done
 while true; do dig jujn.ml; sleep 1; clear; done
 # FYI: for dig you can make use of `watch`, -n is option for time
@@ -2837,7 +2833,7 @@ if ! [ '' ]; then echo its falsy value; fi
 
 Equality operators, (#Comparison Operators) and && and || operator:
 
-# What the heck is ge, le, lt, gt ?? 
+# What the heck is ge, le, lt, gt ??
 # Refer this amazing source: https://tldp.org/LDP/abs/html/comparison-ops.html
 
 if ((10>5 && 5>1 )); then echo cool; fi
@@ -2845,7 +2841,7 @@ if ((10>5 && 5>1 )); then echo cool; fi
 
 if ((10>5 && 5>50 )); then echo cool; fi
 # output: --no-output bcoz one of above condition failed i.e., 5>50 .
- 
+
 if (( 1 > 0 )); then echo one is greater than zero; fi
 # ouput: one is greater than zero
 
@@ -2869,8 +2865,8 @@ if [ $my_error_flag -eq 1 ] && [ $my_error_flag_o -eq 2 ]; then .....
 FOOTNOTES:
 **output means its an exception.
 ```
-Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
+Comparining numbers in bash: https://stackoverflow.com/a/18668580
 
 ### Fun with variables
 
@@ -2986,7 +2982,6 @@ if (( c < 4 )); then (( c++ )); echo Incremented and new value is $c; fi
 # outputt: SPECIAL:: executing above statements MULTIPLE times will increment c's value till it gets 4.
 ```
 
-
 **So my connection with mongo works really good now:**
 
-	![image](https://user-images.githubusercontent.com/31458531/202874726-bab7304d-d8cf-4a7c-9ef8-c16b653d0147.png)
+    ![image](https://user-images.githubusercontent.com/31458531/202874726-bab7304d-d8cf-4a7c-9ef8-c16b653d0147.png)

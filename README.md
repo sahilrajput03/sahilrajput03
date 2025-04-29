@@ -649,7 +649,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn Vercel Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vercel.md)
 		- ❤️ VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 	- Learn Heroku Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-heroku.md)
-- **Learn User Management and Permissions** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-user-management-and-permissions.md)
+- **Learn User Management and Permissions** - [Click here](https://docs.google.com/document/d/1peofLDv8DlPUg_88r9RnB7rkrPcVLH12Fm7sG44JT0E/edit?tab=t.0#heading=h.e6i7bkol4bkr)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/courses-list.md#awesome-tech-youtube-channels)
 - **Learn WebRTC:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-webrtc.md)
