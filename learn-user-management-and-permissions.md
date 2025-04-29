@@ -17,6 +17,15 @@ listAlUsers
 # root bin daemon mail ftp http nobody dbus systemd-journal-remote systemd-network systemd-oom systemd-resolve systemd-timesync systemd-coredump uuidd polkitd array avahi lightdm git rtkit named postgres mongodb usbmux tss dnsmasq libvirt-qemu asterisk
 
 
+########## CREATE A USER
+sudo useradd username
+# To create appropriate home directory for the user as well(by default its home directory for a new user is not created). Fyi: This creates a `username` directory as well @ path: /home/username
+sudo useradd -m username
+
+
+########## DELETE A USER
+sudo userdel username
+
 
 ########## RUN A LOGIN SHELL
 su -l
@@ -133,14 +142,4 @@ chmod 327 foldername will give write and execute (3) permission for the user, w 
 ########## PRINT PROCESSES OF A USER
 ps -u array
 ps -u root
-
-
-##### Create user
-sudo useradd username
-# To create appropriate home directory for the user as well(by default its home directory for a new user is not created). Fyi: This creates a `username` directory as well @ path: /home/username
-sudo useradd -m username
-
-
-# Delete user
-sudo userdel username
 ```
