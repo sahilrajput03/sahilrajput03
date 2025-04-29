@@ -33,6 +33,12 @@
 	- [I tried on macbook but I couldn't do it propertly because in macbook I feel lot of configurations need to be done].
 		- You can check some config files in the bottom of this ssh config file - `sudo code /etc/ssh/sshd_config` (from [chatGPT](https://chatgpt.com/c/67cfdb88-b4bc-8007-9ad2-e5e439f5bf76)) but the issue with that I couldn't connect with vscode-ssh way probably because I was trying the easy way via - `ForceCommand /bin/bash -c "cd /Users/user1/Documents && /bin/bash"` and I need to propertly set it up as mentioned in the claudeai's prompt above instead. TODO_LATER: I'll try this later again when I have motivation to do this and for now I don't have any purpose to solve via this.
 
+## Recover default `.bashrc` file in archlinux from skel directory
+
+```sh
+cp /etc/skel/.bashrc .
+```
+
 ## Crontab Formats
 
 ```txt
