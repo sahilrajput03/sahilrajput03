@@ -141,6 +141,9 @@ sudo useradd -m username
 # Change password of a user
 sudo passwd username
 
+## change password of root user (archlinux [tested])
+sudo -i passwd
+
 # Delete user
 sudo userdel username
 ```
