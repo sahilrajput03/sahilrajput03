@@ -883,22 +883,29 @@ ssh array@arch-os
 
 
 #### FOR COPYING FILES #####
-# Copy file to home directory of a target user
+# 1.1 Copy to relative path (copies to ~/Documents directory)
+scp myFile linode:Documents
+# Above is a shorthand for below command
+scp myFile linode:~/Documents
+
+# 1.2 Copy file to home directory of a target user
 scp myFile pi:
 # Learn: The semicolon in above command is necessary.
 
-# Copy and rename file or copy to a target folder
-cp myFile array@arch-os:myFile
-# LEARN: 1: If myFile is a directory in folder in target user's home directory then our file `myFile` will be pasted inside that folder.
-# LEARN: 2: If myFile doesn't exist in target users's home directory then file will be created there.
-# LEARN: 3: If a file already exist in target user's home directory then that file will be overwritten with the content of our source file.
+# 1.3 Copy and rename file:
+scp myFile linode:myFile
+# LEARN: 1: If "~/myFile" is a directory in remote machine then the file `myFile` will be pasted inside that folder.
+# LEARN: 2: If "~/myFile" doesn't exist in remote target then file will be created there (overwritten if file with same name already present).
 
-# Copy to a absolute path
-scp 2.png pi:/tmp
+# 2.1 Copy to an absolute path
+scp myFile linode:/tmp
 # Learn: File will be created inside /tmp folder in targer user.
 
-# Copy from remote server to current folder in local machine (here poco is a ssh profile)
-scp poco:~/.bashrc .
+# 3. Copy from remote machine to local machine in current folder
+scp linode:~/.bashrc .
+
+# 4. Syntax for using user with hostname directly:
+scp myFile array@arch-os:myFile
 
 ##USING rsync:
 #>> You can install rsync to archlinux very easily with (sudo pacman -S rsync)
