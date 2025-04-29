@@ -905,6 +905,7 @@ scp myFile linode:/tmp
 
 # 3. Copy from remote machine to local machine in current folder
 scp linode:~/.bashrc .
+scp -r "linode:~/.ssh/myKeys/*" ~/.ssh/myKeys
 
 # 4. Syntax for using user with hostname directly:
 scp myFile array@arch-os:myFile
