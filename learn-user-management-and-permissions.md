@@ -27,7 +27,10 @@ su -l
 sudo passwd
 
 # Changes password of a specific user (possible only if you are in sudoer group)
-sudo passwd mary  
+sudo passwd mary
+
+## change password of root user (archlinux [tested])
+sudo -i passwd
 
 
 
@@ -137,12 +140,6 @@ sudo useradd username
 # To create appropriate home directory for the user as well(by default its home directory for a new user is not created). Fyi: This creates a `username` directory as well @ path: /home/username
 sudo useradd -m username
 
-
-# Change password of a user
-sudo passwd username
-
-## change password of root user (archlinux [tested])
-sudo -i passwd
 
 # Delete user
 sudo userdel username
