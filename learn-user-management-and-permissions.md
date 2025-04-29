@@ -94,11 +94,11 @@ chown -R USERNAME /PATH/TO/FILE
 ls -l
 # Output: (Each file/folder has this type of code in front of them)
 # xxxxxxxxxx
-# 1234567890
-# 1: file/directory significance.
-# 234: read write execution permission for the user owner of the file.
-# 567: read write execution permission for the user owner's group of the file.
-# 890: read write execution permission for all other users.
+# ABBBCCCDDD
+# A: file/directory significance.
+# BBB: read write execution permission for the user owner of the file.
+# CCC: read write execution permission for the user owner's group of the file.
+# DDD: read write execution permission for all other users.
 
 
 # change permissions for the user owner of file/folder:
