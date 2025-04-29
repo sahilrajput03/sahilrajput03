@@ -903,9 +903,10 @@ scp myFile linode:myFile
 scp myFile linode:/tmp
 # Learn: File will be created inside /tmp folder in targer user.
 
-# 3. Copy from remote machine to local machine in current folder
+# 3.1 Copy from remote machine to local machine in current folder
 scp linode:~/.bashrc .
-scp -r "linode:~/.ssh/myKeys/*" ~/.ssh/myKeys
+# 3.2 Copy files of a directory to an existing folder in local machine [TESTED - Does not delete files other than which needs to be overwritten]
+scp -r "linode:~/.ssh/myKeys/*" ~/test1
 
 # 4. Syntax for using user with hostname directly:
 scp myFile array@arch-os:myFile
