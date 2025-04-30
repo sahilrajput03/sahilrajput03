@@ -898,6 +898,9 @@ scp myFile linode:myFile
 # LEARN: 1: If "~/myFile" is a directory in remote machine then the file `myFile` will be pasted inside that folder.
 # LEARN: 2: If "~/myFile" doesn't exist in remote target then file will be created there (overwritten if file with same name already present).
 
+# 1.4 Copy multiple files
+scp ~/.ssh/myKeys/linode-april-2025.ppk* linode.root:/home/user1/.ssh/myKeys/
+
 # 2.1 Copy to an absolute path
 scp myFile linode:/tmp
 # Learn: File will be created inside /tmp folder in targer user.
