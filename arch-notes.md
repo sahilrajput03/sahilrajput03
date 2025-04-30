@@ -598,6 +598,7 @@ yay -S google-chrome skypeforlinux-stable-bin visual-studio-code-bin mongodb-com
 
 # Make nvm accessible via cli
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+source /usr/share/nvm/init-nvm.sh
 # For NVM notes, please refer - https://github.com/sahilrajput03/nvm-autoswitching/blob/main/README.md
 
 
