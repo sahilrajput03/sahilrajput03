@@ -30,7 +30,7 @@ Now you can run this script on remote computer directly from local machine by ru
 ssh pi 'bash' < a.sh
 ```
 
-## Directly running a command over ssh on a remote computer
+## ❤️ Directly running a command over ssh on a remote computer
 
 ```bash
 ssh linode.root "date >> a.txt"
