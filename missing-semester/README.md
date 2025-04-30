@@ -30,6 +30,12 @@ Now you can run this script on remote computer directly from local machine by ru
 ssh pi 'bash' < a.sh
 ```
 
+## Directly running a command over ssh on a remote computer
+
+```bash
+ssh linode.root "date >> a.txt"
+```
+
 # LECTURE 1 - Shell
 
 The tripple dots in the manua pages means the there could be zero or
