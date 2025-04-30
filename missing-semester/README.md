@@ -13,7 +13,7 @@
 
 # Quick Notes:
 
-## Run a script over ssh on a remote computer
+## ❤️ Run a script over ssh on a remote computer
 
 File `a.sh`
 
