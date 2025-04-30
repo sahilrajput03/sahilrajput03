@@ -15,20 +15,19 @@
 
 ## ❤️ Run a script over ssh on a remote computer
 
-File `a.sh`
+Src: [Stackoverflow Answer](https://stackoverflow.com/a/2732991/10012446)
+
+Create a file `a.sh` on local system:
 
 ```bash
-cat a.sh
-# Output
 #!/bin/bash
 echo $(date) >> /tmp/a
 ```
 
-**Executing**
+Now you can run this script on remote computer directly from local machine by running:
 
 ```bash
 ssh pi 'bash' < a.sh
-# src: https://stackoverflow.com/a/2732991/10012446
 ```
 
 # LECTURE 1 - Shell
