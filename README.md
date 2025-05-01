@@ -893,9 +893,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Good Printable Webpages:
   - All MDN Pages: [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
   - Articles from - Harvard: Professional & Executive Development Blog: [Click here](https://professional.dce.harvard.edu/blog/)
-- Learn Lionde: [Click here](https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.0#heading=h.z1kvvf6hoh5n)
-- Learn cloud-init: [Click here](https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.c85m83vqctv9#heading=h.dqq51vq0kvum)
-
+- Learn Linode: <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.0#heading=h.z1kvvf6hoh5n" search-title="Learn Linode">Click here</a>
+- Learn cloud-init: <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.c85m83vqctv9#heading=h.dqq51vq0kvum" search-title="Learn cloud-init">Click here</a>
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
