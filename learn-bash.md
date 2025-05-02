@@ -4,6 +4,7 @@ _RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic 
 
 **Quick Links:**
 
+- Lear Bash (my autodocs file tutorials): [Click here](https://github.com/sahilrajput03/learning-bash/blob/main/README.md)
 - ❤️❤️❤️❤️ Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0#heading=h.xd4w27931f3h)
 - **WatchAll: [Click here](https://github.com/sahilrajput03/watchAll)**
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
