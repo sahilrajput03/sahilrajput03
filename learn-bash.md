@@ -289,6 +289,7 @@ sudo rm /usr/bin/c.sh
 ```bash
 #!/bin/bash
 
+# Enables debug mode that prints each command (with arguments) to the terminal as it's executed
 set -x
 
 # Run tailwindcss with watch mode and go to background
