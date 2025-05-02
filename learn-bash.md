@@ -285,22 +285,6 @@ sudo ln -s ./c.sh /usr/bin/c.sh
 sudo rm /usr/bin/c.sh
 ```
 
-## Good use of `trap` command
-
-```bash
-#!/bin/bash
-
-# Enables debug mode that prints each command (with arguments) to the terminal as it's executed
-set -x
-
-# Run tailwindcss with watch mode and go to background
-tailwindcss -w -i ./app/static/src/main.css -o ./app/static/dist/main.css --minify &
-
-flask run
-
-trap 'pkill -ef tailwind' exit
-```
-
 ## what is `set -x`
 
 Source: [Stackoverflow answer here](https://stackoverflow.com/a/36273740/10012446)
@@ -2468,6 +2452,23 @@ echo Bye
 # Source: https://stackoverflow.com/a/31202968/10012446
 # Source2: https://bash.cyberciti.biz/guide/How_to_clear_trap#:~:text=Enter%20number%20(%2D9999%20to%20exit)%20%3A%20999%20999%20is%20an,exit)%20%3A%20%2D9999%20Bye!
 ```
+
+**Good use of `trap` command**
+
+```bash
+#!/bin/bash
+
+# Enables debug mode that prints each command (with arguments) to the terminal as it's executed
+set -x
+
+# Run tailwindcss with watch mode and go to background
+tailwindcss -w -i ./app/static/src/main.css -o ./app/static/dist/main.css --minify &
+
+flask run
+
+trap 'pkill -f tailwind' exit
+```
+
 
 **Usage of `dirname` and `basename`:**
 
