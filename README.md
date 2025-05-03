@@ -9,6 +9,10 @@
 	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
 </div>
 
+<div align="right">
+	<a target="_blank" style="font-style: italic;" href="http://192.168.18.122:8080/">Open WebUI (Local)</a>
+</div>
+
 <h1 align="center">Sahil Rajput</h1>
 
 <h6 align="center">A crazy spirit</h6>
