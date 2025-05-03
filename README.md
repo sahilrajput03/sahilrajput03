@@ -899,6 +899,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
   - Articles from - Harvard: Professional & Executive Development Blog: [Click here](https://professional.dce.harvard.edu/blog/)
 - Learn Linode: <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.0#heading=h.z1kvvf6hoh5n" search-title="Learn Linode">Click here</a>
 - Learn cloud-init: <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.c85m83vqctv9#heading=h.dqq51vq0kvum" search-title="Learn cloud-init">Click here</a>
+- Learn Open WebUI: [Click here](https://docs.google.com/document/d/1JJ7aBCTXtxqxOicD0dFGL0PlLQT-imqi8DX20wqkwis/edit?tab=t.0#heading=h.v1caooirt9mi)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
