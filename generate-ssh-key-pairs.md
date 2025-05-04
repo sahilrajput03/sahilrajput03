@@ -23,7 +23,7 @@ ssh-keygen -f myfile.ppk
 # myfile.ppk  myfile.ppk.pub
 ```
 
-## What does the confirm fingerprint message mean when we connect for the first time to a server?
+## ❤️ What does the confirm fingerprint message mean when we connect for the first time to a server?
 
 When we connect to a server via ssh for the first time we see following message 
 
