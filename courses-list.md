@@ -151,6 +151,7 @@
   - [Piyush Garg Dev](https://www.youtube.com/@piyushgargdev) (#India) - (YouTube Subs: 200k)
   - [https://www.youtube.com/@aru_code](https://www.youtube.com/@aru_code)
   - [Varun Mayya](https://www.youtube.com/@VarunMayya) \| Techology (#India)
+  - [Hussein Nasser](https://www.youtube.com/@hnasr) \| Technology (#India)
   - Recommended by Aliasgar:
       - Code With Antonio: [Click here](https://www.youtube.com/@codewithantonio)
       - Coding With Dawid: [Click here](https://www.youtube.com/@CodingWithDawid)
