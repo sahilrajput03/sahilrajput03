@@ -577,6 +577,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
 	- Learn Systemd: [Click here](https://docs.google.com/document/d/1aOpEVHh8_3Z3bEP8J-2RiGITiN25tg_d35p8v4zUZWE/edit)
 	- **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
+	- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/generate-ssh-key-pairs.md){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
 	- **Learn CLI binaries:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cli-binary.md)
 	- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 	- **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
@@ -781,7 +782,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Gist: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-gist.md){: search-title="Learn Gist"}
 - Learn streaming mp3 file: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-streaming.md){: search-title="Learn streaming mp3 file"}
 - LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d){: search-title="LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤"}
-- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/generate-ssh-key-pairs.md){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
 - Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk){: search-title="Learn GTK (GUI Development in C, Linux)"}
 - Why you should not text your girlfriend?: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-you-should-not-text-your-girlfriend-much.md){: search-title="Why you should not text your girlfriend?"}
 - Learn Anydesk: [Click here](learn-anydesk.md){: search-title="Learn Anydesk"}
