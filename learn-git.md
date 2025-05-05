@@ -350,7 +350,7 @@ git add . && git commit --amend --no-edit      # Amend last commit as it is(but 
 ````bash
 git branch temp                   # Make a backup branch of current branch's status.
 git reset --hard HEAD             # Get to the desired/last commit where you didn't have node_modules.
-git merge --no-ff temp            # Merge without making a commit.
+git merge --no-commit --no-ff temp            # Merge without making a commit.
 git rm --cached -r .              # Now remove everything(_node_modules_) coz ```git merge --no-ff``` re-added everything to the the staging area.
 echo node_modules >> .gitignore
 git add . && git commit -m 'My new commit without node_modules.'
