@@ -1644,10 +1644,11 @@ Source: https://wiki.archlinux.org/title/SSHFS
 **Example test:**
 
 ```bash
-mkdir one two
-ls
-# Output:
-one  two
+# create directory on remote machine
+mkdir one
+
+# create directory on host machine
+mkdir two
 
 # Mounting remote server's directory (one) to host machine (two)
 sshfs own:test/test-sshfs/one ./two
@@ -1655,15 +1656,13 @@ sshfs own:test/test-sshfs/one ./two
 # create file in remote machine:
 touch one/file1.txt
 ls two/
-# Output:
-file1.txt
+# Output: file1.txt
 
 # create file in host machine:
 touch two/file2.txt
 
 ls one/
-# Output:
-file1.txt  file2.txt
+# Output: file1.txt  file2.txt
 
 # Unmounting
 fusermount3 -u two/
