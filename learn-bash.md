@@ -5,6 +5,7 @@ _RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic 
 **Quick Links:**
 
 - Learn Bash (my autodocs file tutorials): [Click here](https://github.com/sahilrajput03/learning-bash/blob/main/README.md)
+- Copy file/folder to/from remote server using `scp` over ssh - [Refer Missing Semester Notes](https://github.com/sahilrajput03/sahilrajput03/tree/main/missing-semester)
 - ❤️❤️❤️❤️ Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0#heading=h.xd4w27931f3h)
 - **WatchAll: [Click here](https://github.com/sahilrajput03/watchAll)**
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
@@ -1426,12 +1427,6 @@ shuf -i 1-10 -n 2
 #              treat each number LO through HI as an input line
 #       -n, --head-count=COUNT
 #              output at most COUNT lines
-```
-
-## Copy file/folder from remote server using `scp` (via `ssh`)
-
-```bash
-scp tsp:copy.png .
 ```
 
 ## Using sed using `missing-semester`
