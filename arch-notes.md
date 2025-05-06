@@ -1621,24 +1621,31 @@ perf stat ls
 
 ## installed `sshfs`
 
+Tags: `#mout remote`, `#mount over ssh`, `#mimic remote folder`, `#mimic remote drive`, `#folder mount with ssh`.
+
 - Github: [github.com/libfuse/sshfs](https://github.com/libfuse/sshfs) (4.5k*)
 
 **More Tools: `rsync` and `scp` to copy files b/w host and remote server.** You can refer [previous experience here](https://github.com/sahilrajput03/sahilrajput03/tree/main/missing-semester).
 
 Mount remote machine path to local directory using `sshfs`, amazing mounting tool! `sshfs` uses ssh protocol to do this. Also `sshfs` recognises your `.ssh/config` file thus you can make use of aliases very well as I have used `own` alias for my own system.
 
-#mout remote, #mount over ssh, #mimic remote folder, #mimic remote drive, #folder mount with ssh.
-
-
-
 ```bash
+# For archlinux
 sudo pacman -S sshfs
+# For Installing sshfs in macos, please refer you *Learn MacOS Google Doc*
+
 
 # Usage - Mount remote directory on host machine
-sshfs myuser@mycomputer:/remote/path /local/path -C -p 9876
-
+sshfs remoteuser@remotehostname:/remote/path /local/path -C -p 9876
 # Unmounting (src: https://wiki.archlinux.org/title/SSHFS)
 fusermount3 -u mountpoint/
+
+
+# Source: Linode's File Transfer Demonstration YouTube Video - https://www.youtube.com/watch?v=lMC5VNoZFhg
+# ❤️ Usage in MacOS:
+sshfs -o idmap=user linode.root:/root ~/remote/linode-root
+# For unmounting
+umount ./linode-1
 ```
 
 **Example test:**
