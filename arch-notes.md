@@ -1643,7 +1643,7 @@ fusermount3 -u mountpoint/
 
 # Source: Linode's File Transfer Demonstration YouTube Video - https://www.youtube.com/watch?v=lMC5VNoZFhg
 # ❤️ Usage in MacOS:
-sshfs -o idmap=user linode.root:/root ~/remote/linode-root
+sshfs -o idmap=user linode.root:/root ~/Documents/Remote/linode-root
 # For unmounting
 umount ./linode-1
 ```
