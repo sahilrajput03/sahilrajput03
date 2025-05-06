@@ -1645,7 +1645,7 @@ fusermount3 -u mountpoint/
 # ❤️ Usage in MacOS:
 sshfs -o idmap=user linode.root:/root ~/Documents/Remote/linode-root
 # For unmounting
-umount ./linode-1
+umount ~/Documents/Remote/linode-root
 ```
 
 **Example test:**
