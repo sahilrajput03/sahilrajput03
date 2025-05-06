@@ -1632,20 +1632,13 @@ Mount remote machine path to local directory using `sshfs`, amazing mounting too
 ```bash
 # For archlinux
 sudo pacman -S sshfs
-# For Installing sshfs in macos, please refer you *Learn MacOS Google Doc*
+# ❤️ For Installing sshfs and its usage in macos, please refer you *Learn MacOS Google Doc*
 
 
 # Usage - Mount remote directory on host machine
 sshfs remoteuser@remotehostname:/remote/path /local/path -C -p 9876
 # Unmounting (src: https://wiki.archlinux.org/title/SSHFS)
 fusermount3 -u mountpoint/
-
-
-# Source: Linode's File Transfer Demonstration YouTube Video - https://www.youtube.com/watch?v=lMC5VNoZFhg
-# ❤️ Usage in MacOS:
-sshfs -o idmap=user linode.root:/root ~/Documents/Remote/linode-root
-# For unmounting
-umount ~/Documents/Remote/linode-root
 ```
 
 **Example test:**
