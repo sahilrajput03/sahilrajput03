@@ -47,8 +47,8 @@
 
 #### Blogs
 
-- <a href="https://github.com/sahilrajput03/config/" target="_blank">linux config</a>
 - <a href="https://sahilrajput.com" target="_blank">sahilrajput.com</a>
+- <a href="https://github.com/sahilrajput03/config/" target="_blank">linux config</a>
 - <a href="https://sahilrajput03.github.io/" target="_blank">sahilrajput03.github.io</a>
 - <a href="https://sahilrajput03.github.io/docs" target="_blank">Docs</a>
 - <a href="https://sahilrajput03.github.io/uses" target="_blank">Uses</a> - Curated list of sofwares for Windows
