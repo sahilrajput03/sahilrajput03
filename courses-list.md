@@ -3,6 +3,7 @@
 ***85% of below listed courses are 100% free and available to all.***
 
 **TODO:**
+- YouTube Channle for Accounts - [Acounts Funda](https://www.youtube.com/@AccountsFunda)
 - ❤️ Networking and Streams - James Halliday: [Click here](https://frontendmasters.com/courses/networking-streams/)
 - Ramada Js (js library for helper functions like lodash) Course on YouTube: [Click here](https://www.youtube.com/playlist?list=PLrhzvIcii6GMeyUfpn-o5xVCH3_UykrzI)
 - [mooc.fi/en/courses/?tag=en](https://www.mooc.fi/en/courses/?tag=en)
@@ -151,6 +152,7 @@
   - [Piyush Garg Dev](https://www.youtube.com/@piyushgargdev) (#India) - (YouTube Subs: 200k)
   - [https://www.youtube.com/@aru_code](https://www.youtube.com/@aru_code)
   - [Varun Mayya](https://www.youtube.com/@VarunMayya) \| Techology (#India)
+  - [Hussein Nasser](https://www.youtube.com/@hnasr) \| Technology (#India)
   - Recommended by Aliasgar:
       - Code With Antonio: [Click here](https://www.youtube.com/@codewithantonio)
       - Coding With Dawid: [Click here](https://www.youtube.com/@CodingWithDawid)

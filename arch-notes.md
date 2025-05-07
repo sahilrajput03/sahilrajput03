@@ -5,6 +5,7 @@
 - Move my files from https://github.com/sahilrajput03/my_bin repo to my current notes.
 
 **Quick Links:**
+- Learn Bash: [Click here](https://github.com/sahilrajput03/learning-bash)
 - MANJARO:
 	- Manjaro pacman update issues Notes in Google Doc: [Click here](https://docs.google.com/document/d/1DY9H2ahQbg7wMEVyKKJvJm7bNBS0-dy97gK6ZvSn1gc/edit?tab=t.0#heading=h.bjq9i04dl4fe)
 	- Open system settings in Manjaro: Run command in terminal - `system-settings`
@@ -32,6 +33,18 @@
 - [Claude.ai](https://claude.ai/chat/e6c4b718-ebb0-453c-91b3-f6e2975787fe)
 	- [I tried on macbook but I couldn't do it propertly because in macbook I feel lot of configurations need to be done].
 		- You can check some config files in the bottom of this ssh config file - `sudo code /etc/ssh/sshd_config` (from [chatGPT](https://chatgpt.com/c/67cfdb88-b4bc-8007-9ad2-e5e439f5bf76)) but the issue with that I couldn't connect with vscode-ssh way probably because I was trying the easy way via - `ForceCommand /bin/bash -c "cd /Users/user1/Documents && /bin/bash"` and I need to propertly set it up as mentioned in the claudeai's prompt above instead. TODO_LATER: I'll try this later again when I have motivation to do this and for now I don't have any purpose to solve via this.
+
+## ❤️ Updating archlinux for existing users
+
+From: [https://archlinux.org/download](https://archlinux.org/download/)
+
+[Check this page to help update mirrors.](https://archlinux.org/mirrorlist/)
+
+## Recover default `.bashrc` file in archlinux from skel directory
+
+```sh
+cp /etc/skel/.bashrc .
+```
 
 ## Crontab Formats
 
@@ -592,6 +605,7 @@ yay -S google-chrome skypeforlinux-stable-bin visual-studio-code-bin mongodb-com
 
 # Make nvm accessible via cli
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+source /usr/share/nvm/init-nvm.sh
 # For NVM notes, please refer - https://github.com/sahilrajput03/nvm-autoswitching/blob/main/README.md
 
 
@@ -1607,33 +1621,34 @@ perf stat ls
 
 ## installed `sshfs`
 
-**More Tools: `rsync` and `scp` to copy files b/w host and remote server.** You can refer [previous experience here](https://github.com/sahilrajput03/sahilrajput03/blob/master/missing-semester/LECTURE5.md).
+Tags: `#mout remote`, `#mount over ssh`, `#mimic remote folder`, `#mimic remote drive`, `#folder mount with ssh`.
+
+- Github: [github.com/libfuse/sshfs](https://github.com/libfuse/sshfs) (4.5k*)
+
+**More Tools: `rsync` and `scp` to copy files b/w host and remote server.** You can refer [previous experience here](https://github.com/sahilrajput03/sahilrajput03/tree/main/missing-semester).
 
 Mount remote machine path to local directory using `sshfs`, amazing mounting tool! `sshfs` uses ssh protocol to do this. Also `sshfs` recognises your `.ssh/config` file thus you can make use of aliases very well as I have used `own` alias for my own system.
 
-#mout remote, #mount over ssh, #mimic remote folder, #mimic remote drive, #folder mount with ssh.
-
 ```bash
+# For archlinux
 sudo pacman -S sshfs
+# ❤️ For Installing sshfs and its usage in macos, please refer you *Learn MacOS Google Doc*
 
-# 4.5k stars @github: https://github.com/libfuse/sshfs
 
-# Usage:
-# Mounting:
-sshfs myuser@mycomputer:/remote/path /local/path -C -p 9876
-
-# Unmounting:
+# Usage - Mount remote directory on host machine
+sshfs remoteuser@remotehostname:/remote/path /local/path -C -p 9876
+# Unmounting (src: https://wiki.archlinux.org/title/SSHFS)
 fusermount3 -u mountpoint/
-Source: https://wiki.archlinux.org/title/SSHFS
 ```
 
 **Example test:**
 
 ```bash
-mkdir one two
-ls
-# Output:
-one  two
+# create directory on remote machine
+mkdir one
+
+# create directory on host machine
+mkdir two
 
 # Mounting remote server's directory (one) to host machine (two)
 sshfs own:test/test-sshfs/one ./two
@@ -1641,15 +1656,13 @@ sshfs own:test/test-sshfs/one ./two
 # create file in remote machine:
 touch one/file1.txt
 ls two/
-# Output:
-file1.txt
+# Output: file1.txt
 
 # create file in host machine:
 touch two/file2.txt
 
 ls one/
-# Output:
-file1.txt  file2.txt
+# Output: file1.txt  file2.txt
 
 # Unmounting
 fusermount3 -u two/

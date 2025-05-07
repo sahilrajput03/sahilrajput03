@@ -9,6 +9,10 @@
 	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
 </div>
 
+<div align="right">
+	<a target="_blank" style="font-style: italic;" href="http://192.168.18.122:8080/">Open WebUI (Local)</a>
+</div>
+
 <h1 align="center">Sahil Rajput</h1>
 
 <h6 align="center">A crazy spirit</h6>
@@ -567,11 +571,19 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - Linux:
-	- **Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md) (#ngrok, #tailscale)
+	- **Learn Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md) (#ngrok, #tailscale)
 	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
 		- **Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash)  (with autodocs readme)
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
 	- Learn Systemd: [Click here](https://docs.google.com/document/d/1aOpEVHh8_3Z3bEP8J-2RiGITiN25tg_d35p8v4zUZWE/edit)
+	- **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
+	- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/generate-ssh-key-pairs.md){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
+	- **Learn CLI binaries:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cli-binary.md)
+	- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
+	- **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
+	- **Vim-notes:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/vim.md)
+- **Learn Vscode:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vscode.md)
+	- Using Vslive Share: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vs-live-share.md){: search-title="Using Vslive Share"}
 - **Book logs:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/courses-list.md)
@@ -598,14 +610,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Perl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-perl.md)
 - **Learn qutebrowser:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/qutebrowser.md)
 - **Learn Urdu:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-urdu/readme.md)
-- **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
-- **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
-- **Learn CLI binaries:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cli-binary.md)
-- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 - **Url shorteners:** [Bitly](https://bitly.com/)
-- **Vim-notes:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/vim.md)
-- **Learn Vscode:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vscode.md)
-	- Using Vslive Share: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vs-live-share.md){: search-title="Using Vslive Share"}
 - **Learn Photoshop:**[Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-photoshop.md)
 - **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
 - **Why telegram (not whatsapp):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-telegram.md)
@@ -649,7 +654,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn Vercel Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vercel.md)
 		- ❤️ VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 	- Learn Heroku Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-heroku.md)
-- **Learn User Management and Permissions** - [Click here](https://docs.google.com/document/d/1peofLDv8DlPUg_88r9RnB7rkrPcVLH12Fm7sG44JT0E/edit?tab=t.0#heading=h.e6i7bkol4bkr)
+- **Learn User Management and Permissions** - [Click here](https://docs.google.com/document/d/1peofLDv8DlPUg_88r9RnB7rkrPcVLH12Fm7sG44JT0E/edit?tab=t.0#heading=h.e6i7bkol4bkr) (Tags: #User Permissions)
 - **Learn using nvm, bcoz WHY NOT?**: [Click here](https://github.com/sahilrajput03/nvm-autoswitching/)
 - **Favourite youtube channels**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/courses-list.md#awesome-tech-youtube-channels)
 - **Learn WebRTC:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-webrtc.md)
@@ -777,7 +782,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Gist: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-gist.md){: search-title="Learn Gist"}
 - Learn streaming mp3 file: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-streaming.md){: search-title="Learn streaming mp3 file"}
 - LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d){: search-title="LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤"}
-- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/generate-ssh-key-pairs.md){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
 - Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk){: search-title="Learn GTK (GUI Development in C, Linux)"}
 - Why you should not text your girlfriend?: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-you-should-not-text-your-girlfriend-much.md){: search-title="Why you should not text your girlfriend?"}
 - Learn Anydesk: [Click here](learn-anydesk.md){: search-title="Learn Anydesk"}
@@ -893,7 +897,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Good Printable Webpages:
   - All MDN Pages: [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
   - Articles from - Harvard: Professional & Executive Development Blog: [Click here](https://professional.dce.harvard.edu/blog/)
-
+- Learn Linode: <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.0#heading=h.z1kvvf6hoh5n" search-title="Learn Linode">Click here</a>
+- Learn cloud-init: <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.c85m83vqctv9#heading=h.dqq51vq0kvum" search-title="Learn cloud-init">Click here</a>
+- Learn Open WebUI: [Click here](https://docs.google.com/document/d/1JJ7aBCTXtxqxOicD0dFGL0PlLQT-imqi8DX20wqkwis/edit?tab=t.0#heading=h.v1caooirt9mi)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.

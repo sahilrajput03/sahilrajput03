@@ -13,22 +13,27 @@
 
 # Quick Notes:
 
-## Run a script over ssh on a remote computer
+## ❤️ Run a script over ssh on a remote computer
 
-File `a.sh`
+Src: [Stackoverflow Answer](https://stackoverflow.com/a/2732991/10012446)
+
+Create a file `a.sh` on local system:
 
 ```bash
-cat a.sh
-# Output
 #!/bin/bash
 echo $(date) >> /tmp/a
 ```
 
-**Executing**
+Now you can run this script on remote computer directly from local machine by running:
 
 ```bash
 ssh pi 'bash' < a.sh
-# src: https://stackoverflow.com/a/2732991/10012446
+```
+
+## ❤️ Directly running a command over ssh on a remote computer
+
+```bash
+ssh linode.root "date >> a.txt"
 ```
 
 # LECTURE 1 - Shell
@@ -857,7 +862,9 @@ ssh-keygen -o -a 100 -t ed25519
 ### COPY OUR (NEW) GENERATED PUBLIC KEY TO TARGET REMOTE SERVER:
 ssh-copy-id array@arch-os # It will use the first valid public key it finds from these locations: ~/.ssh/id_rsa.pub, ~/.ssh/id_dsa.pub, ~/.ssh/id_ecdsa.pub, ~/.ssh/id_ed25519.pub, ~/.ssh/id_xmss.pub
 # OR  (Note: I prefer to use below command always because we explicitly provide which public key should be copied to `.ssh/authorized_keys` on target machine.)
-ssh-copy-id -i .ssh/id_ed25519 foobar@remote # Appends the public key to the end of `.ssh/authorized_keys` on target machine.
+ssh-copy-id -i .ssh/id_ed25519.pub foobar@remote # Appends the public key to the end of `.ssh/authorized_keys` on target machine.
+# OR (below command is same as above command):
+ssh-copy-id -i .ssh/id_ed25519 foobar@remote
 # Other ways to copy specified public key to `authorized_keys` file on target machine  via `tee` command:
 cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip "cat > .ssh/authorized_keys" # To overwrite the `authorized_keys` file on target machine with the public key
 cat ~/.ssh/id_ed25519.pub | ssh user@hostname_or_ip "cat >> .ssh/authorized_keys" # To append the public key in the `authorized_keys` file on target machine
@@ -897,12 +904,17 @@ scp myFile linode:myFile
 # LEARN: 1: If "~/myFile" is a directory in remote machine then the file `myFile` will be pasted inside that folder.
 # LEARN: 2: If "~/myFile" doesn't exist in remote target then file will be created there (overwritten if file with same name already present).
 
+# 1.4 Copy multiple files
+scp ~/.ssh/myKeys/linode-april-2025.ppk* linode.root:/home/user1/.ssh/myKeys/
+
 # 2.1 Copy to an absolute path
 scp myFile linode:/tmp
 # Learn: File will be created inside /tmp folder in targer user.
 
-# 3. Copy from remote machine to local machine in current folder
+# 3.1 Copy from remote machine to local machine in current folder
 scp linode:~/.bashrc .
+# 3.2 Copy files of a directory to an existing folder in local machine [TESTED - Does not delete files other than which needs to be overwritten]
+scp -r "linode:~/.ssh/myKeys/*" ~/test1
 
 # 4. Syntax for using user with hostname directly:
 scp myFile array@arch-os:myFile

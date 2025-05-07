@@ -4,6 +4,8 @@ _RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic 
 
 **Quick Links:**
 
+- Learn Bash (my autodocs file tutorials): [Click here](https://github.com/sahilrajput03/learning-bash/blob/main/README.md)
+- Copy file/folder to/from remote server using `scp` over ssh - [Refer Missing Semester Notes](https://github.com/sahilrajput03/sahilrajput03/tree/main/missing-semester)
 - ❤️❤️❤️❤️ Process Signals - SIGNINT, SIGTERM, SIGKILL: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0#heading=h.xd4w27931f3h)
 - **WatchAll: [Click here](https://github.com/sahilrajput03/watchAll)**
 - **Learn systemd service files: [Click here](learn-systemd-service-files.md)**
@@ -282,21 +284,6 @@ sudo ln -s ./c.sh /usr/bin/c.sh
 
 # REMOVING SOFT LINKS
 sudo rm /usr/bin/c.sh
-```
-
-## Good use of `trap` command
-
-```bash
-#!/bin/bash
-
-set -x
-
-# Run tailwindcss with watch mode and go to background
-tailwindcss -w -i ./app/static/src/main.css -o ./app/static/dist/main.css --minify &
-
-flask run
-
-trap 'pkill -ef tailwind' exit
 ```
 
 ## what is `set -x`
@@ -1442,12 +1429,6 @@ shuf -i 1-10 -n 2
 #              output at most COUNT lines
 ```
 
-## Copy file/folder from remote server using `scp` (via `ssh`)
-
-```bash
-scp tsp:copy.png .
-```
-
 ## Using sed using `missing-semester`
 
 vyom's related question: https://stackoverflow.com/a/73010590/10012446
@@ -2466,6 +2447,23 @@ echo Bye
 # Source: https://stackoverflow.com/a/31202968/10012446
 # Source2: https://bash.cyberciti.biz/guide/How_to_clear_trap#:~:text=Enter%20number%20(%2D9999%20to%20exit)%20%3A%20999%20999%20is%20an,exit)%20%3A%20%2D9999%20Bye!
 ```
+
+**Good use of `trap` command**
+
+```bash
+#!/bin/bash
+
+# Enables debug mode that prints each command (with arguments) to the terminal as it's executed
+set -x
+
+# Run tailwindcss with watch mode and go to background
+tailwindcss -w -i ./app/static/src/main.css -o ./app/static/dist/main.css --minify &
+
+flask run
+
+trap 'pkill -f tailwind' exit
+```
+
 
 **Usage of `dirname` and `basename`:**
 
