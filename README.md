@@ -584,7 +584,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Using Vslive Share: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vs-live-share.md){: search-title="Using Vslive Share"}
 - **Book logs:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
-- **Courses:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/courses-list.md)
+- **Courses:** [Click here](https://docs.google.com/document/d/1rPTCIyUKA950XF4j0rQwZ_kUPL5liDX55vVnMvJgjfU/edit?tab=t.0#heading=h.bdv0cmaink4i)
 - **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
 - **FSO contribution:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
 - Learning mongo and mongoosejs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
