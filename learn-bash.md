@@ -1,3 +1,7 @@
+# 🚀🚀🚀 In PROCESS OF MIGRATION TO [THIS DOC](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.0#heading=h.z9nhm6c5om48)
+
+# ⚠️⚠️⚠️ DO NOT EDIT THIS DOC (starting from 10 May 2025) ⚠️⚠️⚠️
+
 # Learning bash
 
 _RTFM, Basic instinct to figure out somthing with a cli tool is to have a basic instinct to do `man cli-name` and read through it._
