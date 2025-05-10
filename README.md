@@ -569,7 +569,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - Linux:
-	- **Learn Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md) (#ngrok, #tailscale)
+	- **Learn Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.0) (#ngrok, #tailscale)
 	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
 		- **Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash)  (with autodocs readme)
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
