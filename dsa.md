@@ -1,6 +1,6 @@
 # Going over DSA
 
-[1](https://www.linkedin.com/posts/karan-saxena-466b07190_in-my-2nd-year-of-college-i-almost-gave-activity-7309939012260057088-9as-?utm_source=share&utm_medium=member_android&rcm=ACoAACnjF3MBGCxXzo_PNOui5bJf0HrPBLfTN08), [2](https://www.linkedin.com/posts/sai-ram-somanaboina_dsa-cheatsheet-i-wish-i-had-when-i-was-preparing-activity-7317549499638239232-mYKS/?utm_source=share&utm_medium=member_android&rcm=ACoAACnjF3MBGCxXzo_PNOui5bJf0HrPBLfTN08).
+[1](https://www.linkedin.com/posts/karan-saxena-466b07190_in-my-2nd-year-of-college-i-almost-gave-activity-7309939012260057088-9as-?utm_source=share&utm_medium=member_android&rcm=ACoAACnjF3MBGCxXzo_PNOui5bJf0HrPBLfTN08), [2](https://www.linkedin.com/posts/sai-ram-somanaboina_dsa-cheatsheet-i-wish-i-had-when-i-was-preparing-activity-7317549499638239232-mYKS/?utm_source=share&utm_medium=member_android&rcm=ACoAACnjF3MBGCxXzo_PNOui5bJf0HrPBLfTN08), [3](https://www.linkedin.com/posts/rajatgajbhiye_if-youre-solving-100s-of-problems-and-still-activity-7322832021565726720-hqDz/?utm_source=share&utm_medium=member_android&rcm=ACoAACnjF3MBGCxXzo_PNOui5bJf0HrPBLfTN08)
 
 
 # Why DSA based interviews are stupid ?
