@@ -7,7 +7,7 @@ w# Learn Javascript
 
 ## namings (Tags: #name)
 
-[Source](https://www.linkedin.com/posts/danielmoka_clean-code-tip-prefix-your-booleans-heres-activity-7317426180607950849-r5wh/?utm_source=share&utm_medium=member_android&rcm=ACoAACnjF3MBGCxXzo_PNOui5bJf0HrPBLfTN08)
+[Source](https://www.linkedin.com/posts/danielmoka_clean-code-tip-prefix-your-booleans-heres-activity-7317426180607950849-r5wh/?utm_source=share&utm_medium=member_android&rcm=ACoAACnjF3MBGCxXzo_PNOui5bJf0HrPBLfTN08), [Article](https://craftbettersoftware.com/p/use-booleans-like-a-pro)
 
 ![image](https://github.com/user-attachments/assets/832c87b6-2855-4873-97b2-7016fe7999c2)
 
