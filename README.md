@@ -569,8 +569,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - Linux:
-	- **Learn Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md) (#ngrok, #tailscale)
-	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
+	- **Learn Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.0) (#ngrok, #tailscale)
+	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.e75nn9rhxa2x#heading=h.v67slhjr85f1)
 		- **Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash)  (with autodocs readme)
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
 	- Learn Systemd: [Click here](https://docs.google.com/document/d/1aOpEVHh8_3Z3bEP8J-2RiGITiN25tg_d35p8v4zUZWE/edit)
@@ -687,7 +687,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Travis:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-travis.md)
 - **Learn Socket.io/Websockets:** [Click here](https://github.com/sahilrajput03/learn-websockets)
 - **Public Journal:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/public-journal.md)
-- **Learn React:** [Click here](https://github.com/sahilrajput03/learn-react)
+- **Learn React:** [Github Repository](https://github.com/sahilrajput03/learn-react), ❤️[Google Doc](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0#heading=h.pzs518kfcp54)
 - **Learn React Native**: [Click here](https://github.com/sahilrajput03/learn-react-native){: search-title="Learn React Native"}
 - ❤️Funny Loading Messages: <a href="https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32" search-title="Funny Loading Messages">Click here</a>
 - ❤️Meme makers: <a href="https://docs.google.com/document/d/14WQUE71-JsCF2sVOgVbsrxtbJgvw_AfnGrbx9V0YR4g/edit?tab=t.0" search-title="Meme makers">Click here</a>
@@ -831,7 +831,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Sanskrit:** <a href="https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit" search-title="Learn Sanskrit">Click here</a>
 - SBI Bank Cyber Security Guidelines, Hindi: <a href="https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit" search-title="SBI Bank Cyber Security Guidelines, Hindi">Click here</a>
 - Learn Python Repo: <a href="https://github.com/sahilrajput03/learn-python" search-title="Learn Python - Github Repo">Click here</a>
-	- Learn Python Doc: <a href="https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji" search-title="Learn Python - Doc">Click here</a> (inprocess of migration)
+	- Learn Python Doc: <a href="https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji" search-title="Learn Python - Doc">Click here</a>
 - Learn Outlook: <a href="https://docs.google.com/document/d/1YpexQLJNdNrQhjidRt38bC49hcgiIO_hAPqfGSEds8Y/edit#heading=h.2mmi0x1sciq7" search-title="Learn Outlook">Click here</a>
 - Learn Adobe Acrobat Reader: <a href="https://docs.google.com/document/d/1H66PnT3q8uUXEdSePyw89X4E5UpaTeXEYEGo03LUeig/edit#heading=h.faibccl9c26h" search-title="Learn Adobe Acrobat Reader">Click here</a>
 - Learn Cloudinary: <a href="https://docs.google.com/document/d/1a2lUrjw_Yb83VS1vdbY4VdRRXGZ_gU6WLnNv3v9z_Ic/edit?tab=t.0" search-title="Learn Cloudinary">Click here</a>
