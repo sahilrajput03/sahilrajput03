@@ -896,7 +896,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
   - All MDN Pages: [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
   - Articles from - Harvard: Professional & Executive Development Blog: [Click here](https://professional.dce.harvard.edu/blog/)
 - Learn Linode: <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.0#heading=h.z1kvvf6hoh5n" search-title="Learn Linode">Click here</a>
-- Learn cloud-init: <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.c85m83vqctv9#heading=h.dqq51vq0kvum" search-title="Learn cloud-init">Click here</a>
+	- Learn cloud-init: <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.c85m83vqctv9#heading=h.dqq51vq0kvum" search-title="Learn cloud-init">Click here</a>
+	- Learn LXD (Lightweight open source virtualisation with LXD): <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.g150r5yx5vsi#heading=h.sj47ws98mdbu" search-title="Learn LXD (Lightweight open source virtualisation with LXD)">Click here</a>
 - Learn Open WebUI: [Click here](https://docs.google.com/document/d/1JJ7aBCTXtxqxOicD0dFGL0PlLQT-imqi8DX20wqkwis/edit?tab=t.0#heading=h.v1caooirt9mi)
 
 ```md
