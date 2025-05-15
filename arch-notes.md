@@ -2061,24 +2061,7 @@ cd ~/github/fzf**<TAB>
 
 ## Installed `nginx`
 
-```bash
-sudo pacman -S nginx
-sudo systemctl status ngingx # Shoudl show not active
-sudo systemctl start nginx # To start the server
-
-#Now you can access server via browsing:
-http://localhost/ or http://127.0.0.1
-
-# FYI: You can browse old working configs and your own docs @
-- https://github.com/sahilrajput03/vanilla-clustering-with-fastify/tree/main/nginx
-- https://github.com/sahilrajput03/dockerHelsinki (search for `nginx.conf` files)
-```
-
-```bash
-#Important files and config file paths:
-vi /usr/share/nginx/html/index.html
-sudoCode /etc/nginx/nginx.conf
-```
+**Content updated in the new Google Doc on 14 may, 2025.**
 
 ## Installed `ab` i.e., `Apache HTTP server benchmarking tool`
 

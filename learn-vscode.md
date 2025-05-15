@@ -218,6 +218,7 @@ Consider using a `.vscode/tasks.json` file (you can autogenerate this file with 
 - ❤️ UUID Generator: [Click here](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator)
 - ❤️ advanced-new-file: [Click here](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
 - ❤️ vscode-pdf: [Click here](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+- ❤️ NGINX Configuration Language Support: [Click here](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf)
 
 ![image](https://user-images.githubusercontent.com/31458531/202106832-5ce4fdc5-b644-42dd-b252-297f3d647426.png)
 
