@@ -33,7 +33,8 @@
 </h6>
 
 <h6 align="right">
-	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput03.github.io/vocab-files/vocab">web-cached</a>, <a href="https://sahilrajput.com/vocab.html">web-doc</a>, <a href="http://localhost:8081/vocab">local</a>),
+	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput03.github.io/vocab-files/vocab">View Cached 🚀</a>, <a href="https://sahilrajput.com/vocab.html">Web (iframe)</a>, <a href="http://localhost:8081/vocab">localhost</a>),
+	<a href="https://docs.google.com/document/d/1q_AmG0bIxX2WjN_wyMUv_Y7kOEtnW2y6--4M8QWlcZE/edit?tab=t.0#heading=h.1ahwoj105swe">❤️ Book Recommendations by Sahil Rajput</a>,
 	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>,
 	<a href="https://svelte.monktechnoworld.com/glass-slideshow">Glass Thoughts</a>,
 	<a href="https://sahilrajput.com/help-me-grow">Help me grow feedback</a>
@@ -582,7 +583,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Vim-notes:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/vim.md)
 - **Learn Vscode:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vscode.md)
 	- Using Vslive Share: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vs-live-share.md){: search-title="Using Vslive Share"}
-- **Book logs:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/book-logs/README.md)
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses:** [Click here](https://docs.google.com/document/d/1rPTCIyUKA950XF4j0rQwZ_kUPL5liDX55vVnMvJgjfU/edit?tab=t.0#heading=h.bdv0cmaink4i)
 - **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
