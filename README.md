@@ -45,7 +45,7 @@
 	<a href="https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.ikhvinwu2trf">MacOS Vscode Shortcuts</a>, 
 	<a href="#unit-conversions">Unit Conversions</a>,
 	<a href="#transcribe-convert-download">Transcribe/Convert/Download</a>,
-	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a>
+	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a>,
 	<a href="/links">Short Links</a>
 </h6>
 
@@ -483,7 +483,7 @@ It's gonna boost both your immune system and calmness in a compound effect each 
 
 Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Continent)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Continental_models-Australia.gif" width="600" />
+<img src="./site-assets/continents.gif" width="600" />
 
 **Quick Links:**
 
