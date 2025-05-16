@@ -46,6 +46,7 @@
 	<a href="#unit-conversions">Unit Conversions</a>,
 	<a href="#transcribe-convert-download">Transcribe/Convert/Download</a>,
 	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a>
+	<a href="/links">Short Links</a>
 </h6>
 
 <div align="right">
