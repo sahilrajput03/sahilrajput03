@@ -1231,63 +1231,7 @@ lines=$(wc -l $(dirname $0)/must-can |  awk '{print $1}')
 
 ## print commands automatically before running them:
 
-**way0-BEST**
-
-Use manual echo logs to do it!
-
-**way1**
-
-```
-myFun(){
-trap 'echo "+ $BASH_COMMAND"' DEBUG
-# my commands here..
-# my commands here..
-
-trap - DEBUG
-}
-
-# THIS WORKS GOOD THOUGH!
-# trap - DEBUG is to reset the environment.
-# DRAWBACK: trap - DEBUG is printed as well.
-```
-
-**way2**
-
-```
-set -x;
-command1;
-command2;
-set +x;
-
-# FYI: THIS IS NOT WORKING GOOD(prints clutters as well) ACCORDING TO MY ENVIONMENT! ~Sahil
-# set +x is to reset the environment.
-# DRAWBACK: set +x is printed as well.
-```
-
-**way3**
-
-`-v` is move verbose as compared to `-x`
-
-```
-set -v;
-command1;
-command2;
-set +v;
-
-# FYI: THIS IS NOT WORKING GOOD(prints clutters as well) ACCORDING TO MY ENVIONMENT! ~Sahil
-# set +v is to reset the environment.
-# DRAWBACK: set +v is printed as well.
-```
-
-**way4**
-
-We can use `-x` or `-v` when calling the shebang in any script as well:
-
-```bash
-#!/bin/bash -x
-# or
-#!/bin/bash -v
-```
+MOVED TO DOC ALREADY, 18 MAY 2025
 
 ## record your terminal sessions the right way
 
