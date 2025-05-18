@@ -2376,42 +2376,7 @@ fi
 
 **Usage of `trap COMMAND SIGNAL`**
 
-Source: [AMMAAZZIINGG guide](https://www.linuxjournal.com/content/bash-trap-command) to full usage of `trap` command..
-
-```bash
-#!/bin/bash
-trap 'rm abc.txt' exit
-# 1. Will remove abc.txt file on pressing ctrl+c.
-touch abc.txt
-echo Created a file abc.txt
-sleep 5
-echo Bye
-# 2. After exiting the program the file abc.txt will be deleted anyway.
-
-# Set a function to be executed in the trap commands ?
-# Source: https://stackoverflow.com/a/3338302/10012446
-
-# Reset trap command:
-# Source: https://stackoverflow.com/a/31202968/10012446
-# Source2: https://bash.cyberciti.biz/guide/How_to_clear_trap#:~:text=Enter%20number%20(%2D9999%20to%20exit)%20%3A%20999%20999%20is%20an,exit)%20%3A%20%2D9999%20Bye!
-```
-
-**Good use of `trap` command**
-
-```bash
-#!/bin/bash
-
-# Enables debug mode that prints each command (with arguments) to the terminal as it's executed
-set -x
-
-# Run tailwindcss with watch mode and go to background
-tailwindcss -w -i ./app/static/src/main.css -o ./app/static/dist/main.css --minify &
-
-flask run
-
-trap 'pkill -f tailwind' exit
-```
-
+*❤️Moved to learning-bash github repo.*
 
 **Usage of `dirname` and `basename`:**
 
