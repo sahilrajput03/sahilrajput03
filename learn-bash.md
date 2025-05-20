@@ -1231,63 +1231,7 @@ lines=$(wc -l $(dirname $0)/must-can |  awk '{print $1}')
 
 ## print commands automatically before running them:
 
-**way0-BEST**
-
-Use manual echo logs to do it!
-
-**way1**
-
-```
-myFun(){
-trap 'echo "+ $BASH_COMMAND"' DEBUG
-# my commands here..
-# my commands here..
-
-trap - DEBUG
-}
-
-# THIS WORKS GOOD THOUGH!
-# trap - DEBUG is to reset the environment.
-# DRAWBACK: trap - DEBUG is printed as well.
-```
-
-**way2**
-
-```
-set -x;
-command1;
-command2;
-set +x;
-
-# FYI: THIS IS NOT WORKING GOOD(prints clutters as well) ACCORDING TO MY ENVIONMENT! ~Sahil
-# set +x is to reset the environment.
-# DRAWBACK: set +x is printed as well.
-```
-
-**way3**
-
-`-v` is move verbose as compared to `-x`
-
-```
-set -v;
-command1;
-command2;
-set +v;
-
-# FYI: THIS IS NOT WORKING GOOD(prints clutters as well) ACCORDING TO MY ENVIONMENT! ~Sahil
-# set +v is to reset the environment.
-# DRAWBACK: set +v is printed as well.
-```
-
-**way4**
-
-We can use `-x` or `-v` when calling the shebang in any script as well:
-
-```bash
-#!/bin/bash -x
-# or
-#!/bin/bash -v
-```
+MOVED TO DOC ALREADY, 18 MAY 2025
 
 ## record your terminal sessions the right way
 
@@ -2432,42 +2376,7 @@ fi
 
 **Usage of `trap COMMAND SIGNAL`**
 
-Source: [AMMAAZZIINGG guide](https://www.linuxjournal.com/content/bash-trap-command) to full usage of `trap` command..
-
-```bash
-#!/bin/bash
-trap 'rm abc.txt' exit
-# 1. Will remove abc.txt file on pressing ctrl+c.
-touch abc.txt
-echo Created a file abc.txt
-sleep 5
-echo Bye
-# 2. After exiting the program the file abc.txt will be deleted anyway.
-
-# Set a function to be executed in the trap commands ?
-# Source: https://stackoverflow.com/a/3338302/10012446
-
-# Reset trap command:
-# Source: https://stackoverflow.com/a/31202968/10012446
-# Source2: https://bash.cyberciti.biz/guide/How_to_clear_trap#:~:text=Enter%20number%20(%2D9999%20to%20exit)%20%3A%20999%20999%20is%20an,exit)%20%3A%20%2D9999%20Bye!
-```
-
-**Good use of `trap` command**
-
-```bash
-#!/bin/bash
-
-# Enables debug mode that prints each command (with arguments) to the terminal as it's executed
-set -x
-
-# Run tailwindcss with watch mode and go to background
-tailwindcss -w -i ./app/static/src/main.css -o ./app/static/dist/main.css --minify &
-
-flask run
-
-trap 'pkill -f tailwind' exit
-```
-
+*❤️Moved to learning-bash github repo.*
 
 **Usage of `dirname` and `basename`:**
 
