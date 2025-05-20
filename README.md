@@ -739,8 +739,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Css Design Trail**: [Click here](https://github.com/sahilrajput03/cssDesignTrail){: search-title="Css Design Trail"}
 	- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md){: search-title="Learn Bootstrap"}
 	- Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md){: search-title="Learn Styled Components"}
-- **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit){: search-title="Learn Figma"}
-	- Website Designs: [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.5uug71mi22eb){: search-title="Website Designs"}
+- **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit){: search-title="Learn Figma (Website Designs ❤️)"} (#Website Designs ❤️)
 - **Learn FigJam:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-figjam.md)
 - Learn Elastic Search: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-elastic-search.md){: search-title="Learn Elastic Search"}
 - Learn Storybook: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-storybook.md){: search-title="Learn Storybook"}
