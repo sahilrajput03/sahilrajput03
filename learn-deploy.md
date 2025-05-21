@@ -134,12 +134,13 @@ And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on..,
 ❤️For working example of below generated certificated, [you can check here](https://github.com/sahilrajput03/https-using-certbot).
 
 Quick Links:
+
 - Certbot is powered by [LetsEncrypt](https://letsencrypt.org/getting-started/).
 - Another fee ssl provider for lifetime is [sslforfree.com](https://www.sslforfree.com/)
 - **Q. How many ssl certificates can I produce using `certbot`:**
-	- _Ans:_ No Limit (or atleast enough for [personal use](<https://letsencrypt.org/docs/rate-limits/#:~:text=The%20main%20limit%20is%20Certificates,Domain%20(50%20per%20week).>))
+  - _Ans:_ No Limit (or atleast enough for [personal use](<https://letsencrypt.org/docs/rate-limits/#:~:text=The%20main%20limit%20is%20Certificates,Domain%20(50%20per%20week).>))
 - **Q. Why doesn't my domain doesn’t work without ‘www.’?**
-	- _Ans:_ You can't use `CNAME` record but `A` record to resolve the issue. [Reference from FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
+  - _Ans:_ You can't use `CNAME` record but `A` record to resolve the issue. [Reference from FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
 
 **Generating SSL Certificates:**
 
