@@ -131,15 +131,41 @@ And that maps all ports, i.e., if I have port mapped 80, 3001, 3002 and so on..,
 
 ## Getting ssl certificate setup with express
 
-For working example of below generated certificated, [you can check here](https://github.com/sahilrajput03/https-using-certbot).
+❤️For working example of below generated certificated, [you can check here](https://github.com/sahilrajput03/https-using-certbot).
+
+Quick Links:
+- Certbot is powered by [LetsEncrypt](https://letsencrypt.org/getting-started/).
+- Another fee ssl provider for lifetime is [sslforfree.com](https://www.sslforfree.com/)
+- **Q. How many ssl certificates can I produce using `certbot`:**
+	- _Ans:_ No Limit (or atleast enough for [personal use](<https://letsencrypt.org/docs/rate-limits/#:~:text=The%20main%20limit%20is%20Certificates,Domain%20(50%20per%20week).>))
+- **Q. Why doesn't my domain doesn’t work without ‘www.’?**
+	- _Ans:_ You can't use `CNAME` record but `A` record to resolve the issue. [Reference from FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
+
+**Generating SSL Certificates:**
+
+**Note: Below generated certificate is valid for 90 days and you can renew the certificate manually or you can set it to auto update using [their own solution for that as guided here](https://certbot.org/renewal-setup). Check above src in the code to find how to setup autonew ssl certificates.**
 
 ```bash
 # src: https://archlinux.org/packages/community/any/certbot/
 pacman -S certbot
 
-# Usage
-# NOTE1: Make sure that you have mapped your desired domains to current machine via ddns domain (or <have'n tried this way though> direct A record to your public ip)
-# NOTE2: Make sure no app is running at port 80 till the below certificate generation process is complete.
+# ⚠️ ⚠️ Before following any of the following ways:
+#    1. Make sure you stop nginx before running certbot because
+#           certbot needs to host files momentarily on port 80 to verify the
+#           domain and you can do this by running - `systemctl stop nginx`.
+#           Also, ensure that no other app is listening on port 80 as well.
+#     2. Make sure you have mapped your desired domains to this machine,
+#           either using a DDNS domain or (although untested) by setting a
+#           direct A record pointing to your public IP.
+
+# ******* USAGE *******
+# ✅ WAY 1: Non interactive way:
+#     1. In below command `--no-eff-email` is to supress confirmation
+#           of this prompt - https://github.com/certbot/certbot/issues/9462
+# sudo certbot certonly --standalone --email sahilrajput03@gmail.com --agree-tos --no-eff-email -d api.mypot.in -d api-staging.mypot.in
+
+
+# ✅ WAY 2: Use interactive way:
 sudo certbot certonly --standalone
 # src: Official certbot Docs: https://certbot.eff.org/instructions?ws=other&os=arch
 
@@ -151,21 +177,8 @@ sudo certbot certonly --standalone
 # https://www.fixedlife.ml/
 ```
 
+Sample Usage (screenshot):
 ![image](https://user-images.githubusercontent.com/31458531/165331369-51cf0fee-7195-4fda-8998-6b314325885f.png)
-
-Above certificate is valid for 90 days and you can renew the certificate manually or you can set it to auto update using their own solution for that. Check above src in the code to find how to setup autonew ssl certificates.
-
-Fyi: Certbot is powered by [LetsEncrypt](https://letsencrypt.org/getting-started/).
-
-Another fee ssl provider for lifetime is [sslforfree.com](https://www.sslforfree.com/)
-
-**Q. How many ssl certificates can I produce using `certbot`:**
-
-_Short Answer:_ No Limit (or atleast enough for [personal use](<https://letsencrypt.org/docs/rate-limits/#:~:text=The%20main%20limit%20is%20Certificates,Domain%20(50%20per%20week).>))
-
-**Q. Why doesn't my domain doesn’t work without ‘www.’?**
-
-_Short answer:_ You can't use `CNAME` record but `A` record to resolve the issue. [Reference from FREENOM Docs - Click here](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=40)
 
 ## What is DDNS ?
 
