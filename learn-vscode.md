@@ -8,6 +8,10 @@
 - Set **git-bash** as default terminal for vscode: Add `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"` to **settings.json**.
 - VsCode for Web (Official): [Click here](https://code.visualstudio.com/docs/editor/vscode-web)
 
+## Using Github Autopilot Settings in VSCode
+
+![image](https://github.com/user-attachments/assets/83096d25-20b2-4f28-9ece-c19f29a6826d)
+
 ## External browser for opening links can now be set in vscode
 
 Check this setting in vscode: `workbench.externalBrowser`
