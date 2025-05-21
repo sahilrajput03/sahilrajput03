@@ -88,6 +88,7 @@
 		- Faster Usage than markdown.
 		- There is syntax language to be learned.
 		- Editable on Google Doc app on mobile.
+	- 🚀 If you're want to edit markdown you can use typora or obsidian to edit files in WYSIWYG experience.
 - You only loose information which you don't want to make accessible.
 - **Why AWS** (any cloud) over Raspberry pi
 	- Raspberry pi needs re-installation of OS if linux gets messed up.
