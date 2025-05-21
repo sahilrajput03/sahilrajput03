@@ -770,7 +770,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Flameshot: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-flameshot.md){: search-title="Learn Flameshot"}
 - **Learn Capacitor:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-capacitor.md){: search-title="Learn Capacitor"}
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md){: search-title="Learn Android"}
-- Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/11RhQBo-wzvzVdUFe3RwAjhnuTGqSk8hRS5EGyv1lUGE/edit){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
+- Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/1yUaJp0BtPbT9pAuIZ8pUxmer_W-9qXoE7rNpnLuPLQA/edit?tab=t.juqaf7ck3yrz#heading=h.g09cwp7crv6x){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md){: search-title="Learn ChatGPT (My Notes)"}
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main){: search-title="Learn PWA/TWA/WebAPK (Progressive Web Applications)"}
 - Learn Remix: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-remix.md){: search-title="Learn Remix"}
