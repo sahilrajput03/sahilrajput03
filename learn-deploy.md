@@ -178,8 +178,12 @@ sudo certbot certonly --standalone
 # https://www.fixedlife.ml/
 ```
 
-Sample Usage (screenshot):
+Sample Usage with screenshot 1:
 ![image](https://user-images.githubusercontent.com/31458531/165331369-51cf0fee-7195-4fda-8998-6b314325885f.png)
+
+Sample Usage with screenshot 2:
+![image](https://github.com/user-attachments/assets/7c0b2181-04ae-4174-b24a-e451babafab8)
+
 
 ## What is DDNS ?
 
