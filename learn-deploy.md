@@ -163,7 +163,7 @@ pacman -S certbot
 # ✅ WAY 1: Non interactive way:
 #     1. In below command `--no-eff-email` is to supress confirmation
 #           of this prompt - https://github.com/certbot/certbot/issues/9462
-# sudo certbot certonly --standalone --email sahilrajput03@gmail.com --agree-tos --no-eff-email -d api.mypot.in -d api-staging.mypot.in
+sudo certbot certonly --standalone --email sahilrajput03@gmail.com --agree-tos --no-eff-email -d api.mypot.in -d api-staging.mypot.in
 # Note: I included more domains to existing ssl certificate files simply by running below command:
 sudo certbot certonly --standalone --email sahilrajput03@gmail.com --agree-tos --no-eff-email -d api.mypot.in -d api-staging.mypot.in -d mypot.in -d staging.mypot.in
 
