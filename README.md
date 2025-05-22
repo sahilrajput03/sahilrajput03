@@ -507,6 +507,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
 	- Premium Services - [hume.ai](https://www.hume.ai/pricing), [elevenlabs.io](https://elevenlabs.io/pricing).
 - Video Cutter: [online-video-cutter.com](https://online-video-cutter.com/)
+	- ❤️🚀 Locally using `Handbrake` (very fast): Follow as suggested in this screenshot.
+	![image](https://github.com/user-attachments/assets/cfeec9ba-c9f0-430b-86a6-a820058b0d0e)
 - Speech to Text: *(#speechtotext, #speech-to-text)*
 	- [dictation.io/speech](https://dictation.io/speech) (web)
  	- ❤️ WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
