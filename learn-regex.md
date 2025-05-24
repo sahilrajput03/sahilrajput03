@@ -1,4 +1,4 @@
-# learning regex
+# Learn Regex
 
 **Quick Links:**
 - ❤️ Learn Regular Expressions with simple, interactive exercises: [Click here](https://regexone.com)
