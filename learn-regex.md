@@ -140,8 +140,18 @@ From chat-gpt:
 
 ## Match for one of two words
 
-Source: [Click here](https://stackoverflow.com/questions/6863518/regex-match-one-of-two-words)
+Source: [Stackoverflow Answer](https://stackoverflow.com/questions/6863518/regex-match-one-of-two-words)
 
+```txt
+# way 1
+/^(apple|banana)$/
+
+# way 2
+apple|banana
+
+# way 3
+(?:apple|banana)
+```
 
 ## ❤️ COURSE - RegexOne
 
