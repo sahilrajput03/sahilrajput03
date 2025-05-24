@@ -1,5 +1,7 @@
 # Learn Regex
 
+## TODO: Move this to google doc and move examples to learn-javascript repo instead with tests.
+
 **Quick Links:**
 - ❤️ Learn Regular Expressions with simple, interactive exercises: [Click here](https://regexone.com)
     - See the notes of this course in the end of this page.
