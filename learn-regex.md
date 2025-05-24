@@ -37,7 +37,6 @@ Note: Above regex is used by Rishabh Chawla to only include special characters `
 #1 To change double quotes to single quotes in a file with vscode
 (: )("(.+)")
 $1'$3'
-
 e.g., let a = "b"     is changed to     let a = 'b' ✅
 
 
