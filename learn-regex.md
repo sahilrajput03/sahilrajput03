@@ -9,7 +9,7 @@
     - Source: [Extendsclass.com](https://extendsclass.com)
 - (Todo: try it) [https://regexlearn.com/learn/regex101](https://regexlearn.com/learn/regex101)
 
-## Amazon regex thing is
+## Include special characters `.?!;:`, alpha numeric text and there should be no new line character
 
 `^(?!.*[\r\n])[a-zA-Z0-9.?!;:]*$`
 
