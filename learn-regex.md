@@ -148,9 +148,7 @@ From chat-gpt:
 Source: [Click here](https://stackoverflow.com/questions/6863518/regex-match-one-of-two-words)
 
 
-
-
-## FROM COURSE
+## COURSE - https://regexone.com
 
 **Lesson1**:
 
