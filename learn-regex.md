@@ -1,14 +1,9 @@
 # learning regex
 
-**TODO: DO THE \` tick markings in all the text.**
-
-***W3Schools.com - Regex Reference***: https://www.w3schools.com/jsref/jsref_obj_regexp.asp
-
-Course: RegexOne - Learn Regular Expressions with simple, interactive exercises.
-
-Source: https://regexone.com/
-
 **Quick Links:**
+- ❤️ Learn Regular Expressions with simple, interactive exercises: [Click here](https://regexone.com)
+    - See the notes of this course in the end of this page.
+- W3Schools.com - Regex Reference: https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 - **Regex debugger**: https://regex101.com/
 - Awesome Regex Debugger by Cyril Bois: [https://extendsclass.com/regex-tester.html](https://extendsclass.com/regex-tester.html)
     - Source: [Extendsclass.com](https://extendsclass.com)
@@ -18,7 +13,7 @@ Source: https://regexone.com/
 
 `^(?!.*[\r\n])[a-zA-Z0-9.?!;:]*$`
 
-Note: Above regex is used by rishabh to only include special characters `.?!;:`, alpha numeric text and there should be no new line character.
+Note: Above regex is used by Rishabh Chawla to only include special characters `.?!;:`, alpha numeric text and there should be no new line character.
 
 ## Amazing re-Eric, using capture groups
 
@@ -148,7 +143,11 @@ From chat-gpt:
 Source: [Click here](https://stackoverflow.com/questions/6863518/regex-match-one-of-two-words)
 
 
-## COURSE - https://regexone.com
+## ❤️ COURSE - RegexOne
+
+**RegexOne - Learn Regular Expressions with simple, interactive exercises.**
+
+Source: https://regexone.com
 
 **Lesson1**:
 
