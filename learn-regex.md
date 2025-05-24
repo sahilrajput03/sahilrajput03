@@ -3,7 +3,7 @@
 **Quick Links:**
 - ❤️ Learn Regular Expressions with simple, interactive exercises: [Click here](https://regexone.com)
     - See the notes of this course in the end of this page.
-- W3Schools.com - Regex Reference: https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+- W3Schools.com - Regex Reference: [Click here](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 - **Regex debugger**: https://regex101.com/
 - Awesome Regex Debugger by Cyril Bois: [https://extendsclass.com/regex-tester.html](https://extendsclass.com/regex-tester.html)
     - Source: [Extendsclass.com](https://extendsclass.com)
