@@ -9,6 +9,22 @@
     - Source: [Extendsclass.com](https://extendsclass.com)
 - (Todo: try it) [https://regexlearn.com/learn/regex101](https://regexlearn.com/learn/regex101)
 
+## Random
+
+- Q. What is .* in simple terms?
+  - Ans. It means literally no text or any text. Yo!!
+- Q. With the use of parentheses and question mark we can do like: `(someText)?`
+    - This means "zero or one someText".
+- Q. What would be `/[0-9]{3}/.test('my 789 text')` javascript?
+    - Ans. true coz we are mathing three instance of a digit, yo!
+- Q. What is + used for ?
+    - n+ Matches any string that contains at least one n
+- Q. How does `,` works in `{}` operator for regex when --- 1st case: `[0-9]{2}` and 2nd case: `[0-9]{2,}` against text : **asdf2342asdf**
+    - **_Results_**:
+        1. `23` only.
+        2. it matches `2342` coz we have like `{2,}` which means match atleast 2 or more occurence of any digit. Yikes!
+- LEARN: `^` matches beginning of line and `$` matches end of the line.
+
 ## Include special characters `.?!;:`, alpha numeric text and there should be no new line character
 
 `^(?!.*[\r\n])[a-zA-Z0-9.?!;:]*$`
@@ -120,23 +136,6 @@ From chat-gpt:
   <summary>See chat gpt response by expanding this.</summary>
     <img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/fed1fbbc-8c78-4ace-bc0d-568df12c78d5" alt="drawing"/>
 </details>
-
-## random*
-  - Q. What is .* in simple terms?
-    Ans. It means literally no text or any text. Yo!!
-  - Q. With the use of parentheses and question mark we can do like: `(someText)?`
-    This means "zero or one someText".
-  - Q. What would be `/[0-9]{3}/.test('my 789 text')` javascript?
-     Ans. true coz we are mathing three instance of a digit, yo!
-  - Q. What is + used for ?
-    n+ Matches any string that contains at least one n
-  - Q. How , works in `{}` operator ?
-    For regex, 1st case: `[0-9]{2}` and 2nd case: `[0-9]{2,}` against text : **asdf2342asdf**
-    **_Result_**:
-    1. `23` only.
-    2. it matches `2342` coz we have like `{2,}` which means match atleast 2 or more occurence of any digit. Yikes!
-  - LEARN: `^` matches beginning of line and `$` matches end of the line.
-
 
 ## Match for one of two words
 
