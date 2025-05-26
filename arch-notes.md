@@ -139,47 +139,7 @@ cat /etc/shells
 
 ## Fixed bug of time not syncing on system startup (and also on reboot).
 
-Src: [Answer on Reddit ](https://www.reddit.com/r/archlinux/comments/iehv82/my_time_isnt_synchronized_help/)
-
-```bash
-timedatectl
-# Output
-    Local time: Mon 2024-07-22 08:07:04 IST
-           Universal time: Mon 2024-07-22 02:37:04 UTC
-                 RTC time: Thu 2023-05-04 20:53:33
-                Time zone: Asia/Kolkata (IST, +0530)
-System clock synchronized: no
-              NTP service: inactive
-          RTC in local TZ: no
-```
-
-**Note:** The NTP service in above logs is `inactive` and we can enable it via:
-
-```bash
-# Enable ntp service
-sudo timedatectl set-ntp true
-```
-
-We can verify if NTP service is now active via `timedatectl` command now:
-
-```bash
-# The NTP service should be active now, we can verify it via:
-timedatectl
-# Output of timedatectl (after running sudo timedatectl set-ntp true command)
-  Local time: Mon 2024-07-22 08:13:07 IST
-           Universal time: Mon 2024-07-22 02:43:07 UTC
-                 RTC time: Mon 2024-07-22 02:43:07
-                Time zone: Asia/Kolkata (IST, +0530)
-System clock synchronized: yes
-              NTP service: active
-          RTC in local TZ: no
-```
-
-We can also verify it via:
-
-```bash
-systemctl status systemd-timesyncd.service
-```
+*Moved to Google Doc on 26 May 2025.*
 
 ## Lx appearance
 
@@ -690,18 +650,6 @@ alias red='redshift -P -O'
 # Usage: redReset
 redshift -x
 ```
-
-## My time wont sync with network time
-
-[Click here](https://forum.manjaro.org/t/my-time-wont-sync-with-network-time/93959)
-
-```bash
-// This command should start the time sync service.
-systemctl start systemd-timesyncd.service
-```
-
-![image](https://user-images.githubusercontent.com/31458531/231935406-1e618dff-e71b-4451-bc45-aec27d6ebdd9.png)
-
 
 ## wifi doesn't start on boot? (manjaro problem)
 
