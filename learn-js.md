@@ -1,4 +1,4 @@
-w# Learn Javascript
+# Learn Javascript
 
 **Quick Links:**
 - Js-Conf-2022: [Click here](notes-js-conf-2022.md)
