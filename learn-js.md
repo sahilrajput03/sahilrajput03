@@ -5,6 +5,14 @@
 - A place to find the best open source projects related to the web platform: JS, HTML, CSS, but also TypeScript, Node.js, Deno, Bun: [bestofjs.org](https://bestofjs.org)
 - Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 
+## Start http server
+
+`npx http-server .`
+
+Output:
+
+![image](https://github.com/user-attachments/assets/44b2dc94-5413-4920-8d68-05d42b53c2b0)
+
 ## ❤️ Profiling in nodejs
 
 Awesome short video on YouTube: [Click here](https://youtu.be/n31Lraf9sLw)
