@@ -903,6 +903,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn LXD (Lightweight open source virtualisation with LXD): <a href="https://docs.google.com/document/d/1xpGpSkBjxQUNMau9c4fvTAoT0L906EQFzq6zzlQ9TAg/edit?tab=t.g150r5yx5vsi#heading=h.sj47ws98mdbu" search-title="Learn LXD (Lightweight open source virtualisation with LXD)">Click here</a>
 - Learn Open WebUI: [Click here](https://docs.google.com/document/d/1JJ7aBCTXtxqxOicD0dFGL0PlLQT-imqi8DX20wqkwis/edit?tab=t.0#heading=h.v1caooirt9mi)
 - ❤️ Learn Husky (git hooks): [Click here](https://docs.google.com/document/d/18clx-fC9SYUBZC85Tk0ZyldIARNfCvQJTbQUPDS7Pjs/edit?tab=t.0)
+- Learn Jenkins: [Click here](https://docs.google.com/document/d/1PpG_kmDHT-QI8A9BW89OklL8S1whsxUzHdohQJSSqBQ/edit?tab=t.0)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
