@@ -78,7 +78,7 @@
 - You do not rise to the level of your goals. You fall to the level of your systems.
 - YAGNI principle: You aren't gonna need it. Don't over engineer and assume that everything must be fully customizable and flexible. This is something that software engineers run often into: making highly customizable solutions for the sake of unwanted ("un-needed") flexibility. It can be more difficult to maintain and evolve.
 - Talent (quality/perfection) < Hardwork < **Consistency**
-- Ips: 192.168.1.4 (a), 192.168.1.21 (d), 192.168.1.11 (r)
+- Ips: 192.168.(18,0).2 (apple), 192.168.(18,0).X (dell), 192.168.(18,0).X (r)
 - You only loose information which you don't want to make accessible.
 - **Kyle Simpson:** I think the biggest problem with learning JavaScript right now is that it's so distracting to see such a broad and complex ecosystem where almost every week somebody's coming out with a whole new pattern a new framework a new way of doing things so the goal posts keep moving for you and you learn new things and think “I learned just enough and I'm on the right track” and then you find out that everybody else is learning or doing something different and my advice for that is to just pick one thing and focus on it and instead of trying to feel like you have to learn every single thing all at once nobody can do that.
 - Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
