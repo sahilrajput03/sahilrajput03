@@ -269,26 +269,13 @@ source "$(dirname -- "${BASH_SOURCE[0]}")/variables.sh"
 
 ![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/435656d9-8546-45c1-90f6-3ae500c41239)
 
+## softlink vs. hardlink
+
+Moved to Google Doc on 28 May 2025.
+
 ## Using softlink to create a binary link in `/usr/bin` directory to make binaris available from everywhere
 
-⚠️⚠️ Please don't use soft links for any of your scripts because its impossible get path of `script` when you run a symlink (NOTE - `PATH_TO_DIRECTORY_OF_THIS_SCRIPT="$(dirname -- "${BASH_SOURCE[0]}")"` gives path the symlink and not the actualy script we are running. Thus always use functions with static paths to files/directories for referncing those. ⚠️⚠️
-
-```bash
-# example 1
-# Make a soft link of `docker-compose` to /usr/bin directory
-sudo ln -s /usr/local/lib/docker/cli-plugins/docker-compose /usr/bin/docker-compose
-
-# example 2 (TIP: Always use absolute paths while making soft links):
-sudo ln -s /home/array/test/c.sh /usr/bin/c.sh
-
-# YOU SHOULD NOT DO IT THIS WAY:
-cd ~/test/
-sudo ln -s ./c.sh /usr/bin/c.sh
-# ALERT: THIS IS BAD BECOZ `ln` COMMAND EXPECTED YOU TO PASS ALL PATHS AS ABSOLUTE PATH ONLY! THUS ABOVE COMMAND WOULD MAKE A BAD SOFT LINK WHICH WON'T WORK.
-
-# REMOVING SOFT LINKS
-sudo rm /usr/bin/c.sh
-```
+Moved to Google Doc on 28 May 2025.
 
 ## what is `set -x`
 
@@ -494,34 +481,6 @@ for i in {1..100}; do echo "$i"; sleep 0.3; done
 # SO basically in vim's freeze (which is basically complete terminal freeze) you just need to press ctrl+q to get back.
 ```
 
-## softlink vs. hardlink
-
-Source: https://stackoverflow.com/a/185915/10012446
-
-I would point you to Wikipedia:
-
-[Symbolic link](http://en.wikipedia.org/wiki/Symbolic_link)
-[Hard link](http://en.wikipedia.org/wiki/Hard_link)
-
-A few points:
-
-- Symlinks, unlike hard links, can work cross filesystems (most of the time).
-- Symlinks can point to directories.
-- Hard links point to a file and enable you to refer to the same file with more than one name.
-- As long as there is at least one link, the data is still available.
-
-```bash
-ln -s myfile newLinkNameHere
-
-ls -l myFile newLinkNameHere
-# Output:
-# .rw-r--r-- 0 array 30 Apr 15:52 myFile
-# lrwxrwxrwx 6 array 30 Apr 15:52 newLinkNameHere -> myFile
-
-# FYI:
-# myFile can be folder as well.
-# newLinkNameHere will be created automatically.
-```
 
 ## Want a random temp file in `/tmp/` directory?
 
