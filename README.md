@@ -80,20 +80,26 @@
 - Talent (quality/perfection) < Hardwork < **Consistency**
 - Ips: 192.168.1.4 (a), 192.168.1.21 (d), 192.168.1.11 (r)
 - You only loose information which you don't want to make accessible.
-- **Why AWS** (any cloud) over Raspberry pi
-	- Raspberry pi needs re-installation of OS if linux gets messed up.
-	- Raspberry pi needs additional installation of docker/k3s
-	- Raspberry pi needs to be handled over broadband (router settings) via port forwarding to make it accessible over internet.
-	- Raspberry pi would need static ip (monthly paid) or any other no-ip service to make the dynamic ip actually work for any project to work over longer duration of times.
-	- Raspberry pi would need to be setuped for access over ssh.
-	- Raspberry pi is strictly dependent on factors like:
-		- internet conectivity over broadband
-		- electricity on site
-	- No fucking wires
-- **Why raspberry pi** over AWS?
-	- Cheaper in cost i.e., you would save cost around 8-10 thousand probably as if it were hosted on aws as you can host multiple applications on 8GB raspberry pi.
-- Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
 - **Kyle Simpson:** I think the biggest problem with learning JavaScript right now is that it's so distracting to see such a broad and complex ecosystem where almost every week somebody's coming out with a whole new pattern a new framework a new way of doing things so the goal posts keep moving for you and you learn new things and think “I learned just enough and I'm on the right track” and then you find out that everybody else is learning or doing something different and my advice for that is to just pick one thing and focus on it and instead of trying to feel like you have to learn every single thing all at once nobody can do that.
+- Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
+
+### ☁️ VPS vs. 🔌 Raspberrypi
+
+VPS (Virtual Private Server) means Linode, AWS, Azure, GCP etc.
+
+**Why VPS** over Raspberry pi?
+1. Raspberry pi needs re-installation of OS if linux gets messed up.
+2. Raspberry pi needs additional installation of docker/k3s
+3. Raspberry pi needs to be handled over broadband (router settings) via port forwarding to make it accessible over internet.
+4. Raspberry pi would need static ip (monthly paid) or any other no-ip service to make the dynamic ip actually work for any project to work over longer duration of times.
+5. Raspberry pi would need to be setuped for access over ssh.
+6. Raspberry pi is strictly dependent on factors like:
+	- internet conectivity over broadband
+	- electricity on site
+7. No fucking wires.
+
+**Why raspberry pi over VPS?**
+1. Cheaper in cost i.e., you would save cost around 8-10 thousand probably as if it were hosted on aws as you can host multiple applications on 8GB raspberry pi.
 
 ### 📑 Why Google Docs over any other publishing tools
 
