@@ -79,17 +79,6 @@
 - YAGNI principle: You aren't gonna need it. Don't over engineer and assume that everything must be fully customizable and flexible. This is something that software engineers run often into: making highly customizable solutions for the sake of unwanted ("un-needed") flexibility. It can be more difficult to maintain and evolve.
 - Talent (quality/perfection) < Hardwork < **Consistency**
 - Ips: 192.168.1.4 (a), 192.168.1.21 (d), 192.168.1.11 (r)
-- I prefer making notes in Google Doc rather than in markdown or any other software like notion because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc (WYSIWYG):
-	- *Below are some features of Google Doc that you might helpful too:*
-		- Notes are about more about note making experience than to refer notes. In Google Docs the experience of notes making is awesome.
-		- give people exclusive acces using email for read or write permissions 
-		- can be published to web via direct link using "Publish to web" feature. You can find it here "File > Share feature > Publish to web".
-		- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document. This could be really helpful thing particularly for non coders. You can get the embed code for the document by going to "File > Share feature > Embed". Here is an [example](https://sahilrajput.com/vocab.html) which you can check and you can actually view the source code of the html page via `option + cmd + u` (macos) or `ctrl + u` (on mac/linux).
-		- Faster editing process than markdown.
-		- Better editing experience than markdown.
-		- There is syntax language to be learned if you use markdown.
-		- Google Doc is editable on Google Doc with awesome experience.
-	- 🚀 If you're want to edit markdown you can use typora or obsidian to edit files in WYSIWYG experience.
 - You only loose information which you don't want to make accessible.
 - **Why AWS** (any cloud) over Raspberry pi
 	- Raspberry pi needs re-installation of OS if linux gets messed up.
@@ -106,6 +95,19 @@
 - Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
 - **Kyle Simpson:** I think the biggest problem with learning JavaScript right now is that it's so distracting to see such a broad and complex ecosystem where almost every week somebody's coming out with a whole new pattern a new framework a new way of doing things so the goal posts keep moving for you and you learn new things and think “I learned just enough and I'm on the right track” and then you find out that everybody else is learning or doing something different and my advice for that is to just pick one thing and focus on it and instead of trying to feel like you have to learn every single thing all at once nobody can do that.
 
+### Why Google Docs?
+
+I prefer making notes in Google Doc rather than in markdown or any other software like notion, medium, substack, wordpress blog, bogger (from Google) etc because I am very much satified by the features provided by Google Doc and I already know how to use Google Doc (WYSIWYG):
+	- *Below are some features of Google Doc that you might helpful too:*
+		- Notes are about more about note making experience than to refer notes. In Google Docs the experience of notes making is awesome.
+		- give people exclusive acces using email for read or write permissions 
+		- can be published to web via direct link using "Publish to web" feature. You can find it here "File > Share feature > Publish to web".
+		- can be embedded in websites, this is particularly useful when you want some content to be automatically updated which is present in a google document. This could be really helpful thing particularly for non coders. You can get the embed code for the document by going to "File > Share feature > Embed". Here is an [example](https://sahilrajput.com/vocab.html) which you can check and you can actually view the source code of the html page via `option + cmd + u` (macos) or `ctrl + u` (on mac/linux).
+		- Faster editing process than markdown.
+		- Better editing experience than markdown.
+		- There is syntax language to be learned if you use markdown.
+		- Google Doc is editable on Google Doc with awesome experience.
+	- 🚀 If you're want to edit markdown you can use typora or obsidian to edit files in WYSIWYG experience.
 
 ## 🥕🍎 In command `ts-node-dev --transpile-only tg.ts` what does the flag do `--transpile-only`? (ChatGPT)
 
