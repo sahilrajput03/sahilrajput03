@@ -11,7 +11,7 @@
 
 <h1 align="center">Sahil Rajput</h1>
 
-<h6 align="center">A crazy spirit</h6>
+<h6 align="center">A crazy spirit, Namer, Live in heart.</h6>
 
 <!-- STARTS-HERE ---- SEARCH FUNCTIONALITY -->
 <!-- NOTE: script tag for `searchLinksUtil.js` file in shown as it is on github's readme's page and it looks very dirty at the top of the page --- thus I'm putting the script tag at middle of the page to prevent showing it at the top. You can search it via "searchLinksUtil.js" -->
