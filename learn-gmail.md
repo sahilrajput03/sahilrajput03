@@ -7,6 +7,13 @@ All Gmail Shortcuts: [Click here](https://support.google.com/mail/answer/6594)
     - You must have the reading pane set to "No split".
     - Click on any email to open it and now copy the url from the browser.
 
+## Make gmail to handle `mailto:` links in chrome
+
+Please check instructions on this page: [Source](https://support.google.com/chrome/thread/57026170?hl=en&msgid=57286094)
+
+![image](https://github.com/user-attachments/assets/f5ed8b6c-272a-4279-b798-960fe4d489d2)
+
+
 ## ❤️ MACOS - Brilliant Gmail shortcuts
 
 - `Enter` (open email)
