@@ -9,6 +9,10 @@
 - Auto Youtube Quality
 - Metamask
 
+## ❤️ Content Shift Score
+
+![image](https://github.com/user-attachments/assets/cac0ecad-8067-4316-88ee-ab0865b2e4a9)
+
 ## Gemini usage made easy with chrome
 
 ![image](https://github.com/user-attachments/assets/6117e2ba-300d-4bd8-bb37-6e7b9c31ff55)
