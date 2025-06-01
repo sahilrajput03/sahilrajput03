@@ -9,6 +9,10 @@
 - Auto Youtube Quality
 - Metamask
 
+## Customize chrome bar
+
+![image](https://github.com/user-attachments/assets/59a0eea7-355c-4eb2-9278-a1a1a303779e)
+
 ## ❤️ Content Shift Score
 
 ![image](https://github.com/user-attachments/assets/cac0ecad-8067-4316-88ee-ab0865b2e4a9)
