@@ -126,6 +126,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
 - ❤️ Custom Css For Website: [Click here](https://chromewebstore.google.com/detail/custom-css-by-denis/cemphncflepgmgfhcdegkbkekifodacd)
   - ❤️ I am using this to hide chats in the left side menu by adding - `#LeftColumn{	visibility: hidden; }` on `https://web.telegram.org` to help distraction.
 - ChatGPT search: [Click here](https://chromewebstore.google.com/detail/ChatGPT%20search/ejcfepkfckglbgocfkanmcdngdijcgld)
+  - ❌ ^^ Not recommended because it messes up your current new tab's beautiful background image. Seems like you have that only when you keep your default search engine as google [TESTED].
 
 
 ## Update default page zoom level and page font size
