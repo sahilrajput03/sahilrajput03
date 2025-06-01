@@ -121,6 +121,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
   - Inspiration: Reddit - How do you download videos from websites that don't allow it? [Click here](https://www.reddit.com/r/DataHoarder/comments/n5yi5m/how_do_you_download_videos_from_websites_that/)
 - ❤️ Custom Css For Website: [Click here](https://chromewebstore.google.com/detail/custom-css-by-denis/cemphncflepgmgfhcdegkbkekifodacd)
   - ❤️ I am using this to hide chats in the left side menu by adding - `#LeftColumn{	visibility: hidden; }` on `https://web.telegram.org` to help distraction.
+- ChatGPT search: [Click here](https://chromewebstore.google.com/detail/ChatGPT%20search/ejcfepkfckglbgocfkanmcdngdijcgld)
 
 
 ## Update default page zoom level and page font size
