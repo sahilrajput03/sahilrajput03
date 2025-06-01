@@ -9,7 +9,7 @@
 - Auto Youtube Quality
 - Metamask
 
-## Customize chrome bar
+## ❤️ Customize toolbar
 
 ![image](https://github.com/user-attachments/assets/59a0eea7-355c-4eb2-9278-a1a1a303779e)
 
