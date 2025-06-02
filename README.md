@@ -414,6 +414,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - 1337x: [proxied](https://freeproxy.io/o.php?u=http://1337x.to), [https://1337x.to](https://1337x.to/)
 - thepiratebay: [proxied](https://freeproxy.io/o.php?u=https://thepiratebay.org), [https://thepiratebay.org](https://thepiratebay.org)
 - torrentgalaxy: [proxied](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/), [https://torrentgalaxy.to/](https://torrentgalaxy.to/)
+- [https://uflix.cc](https://uflix.cc/) (for tor browser only)
 
 # Tech Journal & Blogging: [Click here](tech.html) \| [Old feed](https://github.com/sahilrajput03/sahilrajput03/blob/main/feed.md)
 
