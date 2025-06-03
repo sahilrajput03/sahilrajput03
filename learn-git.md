@@ -4,6 +4,10 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+### Merge dev branch to main branch without checking out main branch first?
+
+Not possible, please do it by first cheking out main branch!
+
 ### You can forcefully add a ingored file/folder in git
 
 ```bash
