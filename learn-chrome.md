@@ -4,6 +4,7 @@
 - Chrome Extensions: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions)
 - ❤️ Docs | File System Access: [Click here](https://developer.chrome.com/docs/capabilities/web-apis/file-system-access)
 - Docs | Chrome DevTools: [Click here](https://developer.chrome.com/docs/devtools/?utm_source=devtools)
+  - ❤️ Github: [github.com/ChromeDevTools/devtools-frontend](https://github.com/ChromeDevTools/devtools-frontend)
 
 **Currently Disabled Extensions:** *(becoz of too much memory usage analysed from Google Chrome inbuilt task manager)*
 - Grammarly
