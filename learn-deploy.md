@@ -165,7 +165,7 @@ pacman -S certbot
 #           of this prompt - https://github.com/certbot/certbot/issues/9462
 sudo certbot certonly --standalone --email sahilrajput03@gmail.com --agree-tos --no-eff-email -d api.mypot.in -d api-staging.mypot.in
 # Note: I included more domains to existing ssl certificate files simply by running below command:
-sudo certbot certonly --standalone --email sahilrajput03@gmail.com --agree-tos --no-eff-email -d api.mypot.in -d api-staging.mypot.in -d mypot.in -d staging.mypot.in -d webhook.mypot.in
+sudo certbot certonly --standalone --email sahilrajput03@gmail.com --agree-tos --no-eff-email -d api.mypot.in -d api-staging.mypot.in -d mypot.in -d staging.mypot.in -d webhook.mypot.in -d dev.mypot.in -d api-dev.mypot.in
 # 🎉 Note: I tried to generate wildcard domains handling but failed -- though I instantly reliased this is not what I actually want because I might want to utilise certain subdomains for other usage in future.
 
 
