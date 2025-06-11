@@ -117,6 +117,8 @@ I prefer making notes in Google Doc rather than in markdown or any other softwar
 
 *🚀 If still you want to use markdown --- prefer these tools as they help to edit markdown with WYSWYG (What you see is what you get) way:*
 1. [Obsidian](https://obsidian.md)
+	1. USAGE: From the top bar in your macOS and go to  **File > Open Vault...**  and then from Obsidian welcome popup you can choose **Open folder as vault** and select your desired folder to open it. 
+	2. TIP: Please add `.obsidian` to your `.gitignore` file of the project so obsidian files are ignored.
 2. [Typora](https://typora.io/)
 3. VS Code's Edit with live preview: *[NOTE: This is very buggy experience as of now 28 May 2025.]*
 
