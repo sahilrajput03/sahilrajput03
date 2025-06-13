@@ -6,7 +6,13 @@
 - Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 - [jsconsole.com](https://jsconsole.com) (by remy)
 
-## Start http server
+
+## Symbol usage
+
+- https://chatgpt.com/share/684bc505-4868-8007-a3ae-736110abf488
+	- source: https://github.com/vercel/ai/blob/main/packages/ai/errors/no-such-tool-error.ts
+
+## Start http file server
 
 `npx http-server .`
 
