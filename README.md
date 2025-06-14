@@ -46,6 +46,7 @@
 	<a href="#unit-conversions">Unit Conversions</a>,
 	<a href="#transcribe-convert-download">Transcribe/Convert/Download</a>,
 	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a>,
+	<a href="https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0">Movies & Tv Series</a>,
 	<a href="/links">⭐️Short Links</a>
 </h6>
 
@@ -607,9 +608,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses:** [Click here](https://docs.google.com/document/d/1rPTCIyUKA950XF4j0rQwZ_kUPL5liDX55vVnMvJgjfU/edit?tab=t.0#heading=h.bdv0cmaink4i)
 - **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
-- **FSO contribution:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
 - Learning mongo and mongoosejs: [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/master)
-	- **Learn mongo-cli:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/master/learn-mongo-cli.md)
 - **Hindi:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-curl.md)
@@ -631,9 +630,11 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Urdu:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-urdu/readme.md)
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Learn Photoshop:**[Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-photoshop.md)
-- **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
-- **Why telegram (not whatsapp):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-telegram.md)
-- **Telegram Groups:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/telegram-groups.md)
+- **✅Telegram:**
+	- **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
+	- **Why telegram (not whatsapp):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-telegram.md)
+	- **Telegram Groups:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/telegram-groups.md)
+	- **FSO contribution (Ex. 11.18 - Telegram Bot Notification on deployment):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
 - Learn BitBucket \| Pipelines \| Bitbucket API: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bitbucket.md)
 - **Learn Google Development:**
 	- Learn Google Play Console: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-playconsole.md)
