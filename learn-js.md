@@ -10,7 +10,7 @@
 ## Open debugger/inspector in nodejs process via code
 
 - ✅Another way to open is via - `kill -SIGUSR1 32617`. (source: [official docs](https://nodejs.org/en/learn/getting-started/debugging))
-- ✅Debug using chrome debugger window: [Click here](https://nodejs.org/en/learn/getting-started/debugging#chrome-devtools-55-microsoft-edge), *Tldr: Simply visit: [chrome://inspect/#devices](chrome://inspect/#devices) in any Chromium-based browser ✅.*
+- ✅Debug using chrome debugger window: [Click here](https://nodejs.org/en/learn/getting-started/debugging#chrome-devtools-55-microsoft-edge), *Tldr: Simply visit: [chrome://inspect/#devices](chrome://inspect/#devices) in any Chromium-based browser ✅. And make sure "Discover network targets" is checked and then you can select your process from the below list to start seeing logs and add checkpoint in your code in the "Source" tab.*
 
 ```js
 const inspector = require('inspector');
