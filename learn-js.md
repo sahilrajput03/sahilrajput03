@@ -7,6 +7,35 @@
 - [jsconsole.com](https://jsconsole.com) (by remy)
 
 
+## Open debugger/inspector in nodejs process via code
+
+- ✅Another way to open is via - `kill -SIGUSR1 32617`. (source: [official docs](https://nodejs.org/en/learn/getting-started/debugging))
+
+```js
+const inspector = require('inspector');
+
+console.log('hello from:', process.pid);
+
+// Start inspector after 1 second
+setTimeout(() => {
+    inspector.open(9229, '127.0.0.1', true);
+    console.log('Debugger opened ✅.');
+}, 1_000);
+
+// After 5 seconds and stop-start the inspector again.
+setTimeout(() => {
+    inspector.close();
+    console.log('Debugger closed 🛑.');
+    inspector.open(9229, '127.0.0.1', true);
+    console.log('Debugger opened again ✅ 🚀.');
+}, 5_000);
+
+// Keep the server for 100 seconds.
+setTimeout(() => {
+    console.log('heyyy');
+}, 100_000);
+```
+
 ## Symbol usage
 
 [From ChatGPT](https://chatgpt.com/share/684bc505-4868-8007-a3ae-736110abf488), [source](https://github.com/vercel/ai/blob/main/packages/ai/errors/no-such-tool-error.ts).
