@@ -608,7 +608,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses:** [Click here](https://docs.google.com/document/d/1rPTCIyUKA950XF4j0rQwZ_kUPL5liDX55vVnMvJgjfU/edit?tab=t.0#heading=h.bdv0cmaink4i)
 - **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
-- ❤️Learning mongo and mongoosejs:
+- ❤️Learning mongosh and mongoosejs:
 	- **Notes:**
 		- **❤️Main Readme:** *(This file)*
 		- **❤️Learn Mongodb Doc: [Click here](https://docs.google.com/document/d/1OT6IMR600VjWteJ-kqM0jVQuqQQw308hkh3enZnu9tQ/edit?tab=t.0)** [Tags: `#mongodump`, `#mongorestore`, `#mongosh`, `#bsondump`]
