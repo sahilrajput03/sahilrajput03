@@ -10,6 +10,7 @@
 ## Open debugger/inspector in nodejs process via code
 
 - ✅Another way to open is via - `kill -SIGUSR1 32617`. (source: [official docs](https://nodejs.org/en/learn/getting-started/debugging))
+- ✅Debug using chrome debugger window: [Click here](https://nodejs.org/en/learn/getting-started/debugging#chrome-devtools-55-microsoft-edge)
 
 ```js
 const inspector = require('inspector');
