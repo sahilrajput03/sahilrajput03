@@ -610,7 +610,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
 - ❤️Learning mongosh and mongoosejs:
 	- **Notes:**
-		- **❤️Main Readme:** *(This file)*
+		- **❤️Main Readme:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/main)
 		- **❤️Learn Mongodb Doc: [Click here](https://docs.google.com/document/d/1OT6IMR600VjWteJ-kqM0jVQuqQQw308hkh3enZnu9tQ/edit?tab=t.0)** [Tags: `#mongodump`, `#mongorestore`, `#mongosh`, `#bsondump`]
 		- **❤️Learn mongoosejs:** [Click here](./mongoosejs-with-flash-runner-cli/test1.test.js) (`mongoosejs-with-flash-runner-cli`)
 		- **❤️Learn mongosh:** [Click here](./mongosh-scripts-with-watcher/README.md) (`mongosh-scripts-with-watcher`)
