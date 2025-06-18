@@ -4,6 +4,10 @@
 - Github Docs Repository: [https://github.com/github/docs](https://github.com/github/docs), [package.json](https://github.com/github/docs/blob/main/package.json)
 - Older notes: [https://sahilrajput03.github.io/Git_and_GitHub.html](https://sahilrajput03.github.io/Git_and_GitHub.html)
 
+### Why commit names are in present tense instead of past tense?
+
+[ChatGPT](https://chatgpt.com/c/6774d3e1-facc-8007-8313-0c39d5fb7c97)
+
 ### Merge dev branch to main branch without checking out main branch first?
 
 Not possible, please do it by first cheking out main branch!
