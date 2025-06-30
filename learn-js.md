@@ -6,6 +6,21 @@
 - Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 - [jsconsole.com](https://jsconsole.com) (by remy)
 
+## Using conditions in switch statement
+
+```js
+switch (true) {
+  case (x === 1 || x === 2):
+    console.log("x is 1 or 2");
+    break;
+  case (x > 5 && x < 10):
+    console.log("x is between 6 and 9");
+    break;
+  default:
+    console.log("Other");
+}
+```
+
 ## De Morgan’s Laws
 
 *Learn: Below applies to more than 2 enties as well e.g., A, B and C (or more).*
