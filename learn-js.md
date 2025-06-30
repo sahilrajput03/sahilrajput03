@@ -6,6 +6,14 @@
 - Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 - [jsconsole.com](https://jsconsole.com) (by remy)
 
+## De Morgan’s Laws
+
+*Learn: Below applies to more than 2 enties as well e.g., A, B and C (or more).*
+
+```
+!(A || B) is equivalent to !A && !B
+!(A && B) is equivalent to !A || !B
+```
 
 ## Open debugger/inspector in nodejs process via code
 
