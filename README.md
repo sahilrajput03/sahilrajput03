@@ -889,6 +889,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - ❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend: <a href="https://docs.google.com/document/d/15PieWH56pzC5Uh7WlCZit4nGOqfetmGi1aNqlmLymh4/edit?tab=t.0" search-title="❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend">Click here</a>
 - Learn OneCard: <a href="https://docs.google.com/document/d/1pT_FQOE30KTWwcuYdYT-ZjQACIm4ozKbbM6s76Lfsqs/edit?tab=t.0" search-title="Learn OneCard">Click here</a>
 - qr generators: <a href="https://docs.google.com/document/d/1neH211qetPGM9-WpeiQE1WSoIRo_TqdHYK7BudqVIC0/edit?tab=t.0" search-title="qr generators">Click here</a>
+  - ❤️ [zxpsuper.github.io/qrcode-with-logos](https://zxpsuper.github.io/qrcode-with-logos)
 - Get words from book (in Learn Expressjs repo): <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
 - Learn Openai (github repository): <a href="https://github.com/sahilrajput03/learn-openai" search-title="Learn Openai (github repository)">Click here</a>
 - Learn npm: <a href="https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0" search-title="Learn npm">Click here</a>
