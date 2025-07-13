@@ -62,6 +62,13 @@
 <br />
 <br />
 
+## r/Piracy
+
+- [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
+	- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
+
+## More
+
 - Development tips:
 	- Get summary of any video in any language in Google Gemini. ❤️
 	- Use VsCode' default markdown preview to edit markdown files.
