@@ -738,6 +738,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Npm libaries I recommend:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-npm-libraries.md){: search-title="Npm libaries I recommend"}
 - **Learn Mailservers:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/mail-server.md){: search-title="Learn Mailservers"}
 - Why DSA based interviews are stupid?: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/dsa.md){: search-title="Why DSA based interviews are stupid?"}
+- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa){: search-title="DSA in Javascript, Course"}
 - **Javascript:**
 	- **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md){: search-title="Learn Javascript (#lodash)"} (`#lodash`)
 		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
@@ -756,7 +757,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
 		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
-	- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa){: search-title="DSA in Javascript, Course"}
 	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/@ts-check.md){: search-title="Typescript typechecking in javascript files with jsdoc"}
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx){: search-title="Nginx config files"}
