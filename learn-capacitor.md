@@ -5,6 +5,7 @@
 - TODO: Test this plugin to test background task (e.g, to call an api every 5 mins): [Click here](https://github.com/angeloraso/capacitor-background-mode/tree/main)
   - [https://dontkillmyapp.com](https://dontkillmyapp.com)
   - TODO: Test if you can play some audio in the notification handler in capacitor? If possible then you can download the audio and play the audio as your need in your personal ai assistant thing.
+- https://whatwebcando.today
 
 **Quick Links:**
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
