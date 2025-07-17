@@ -62,6 +62,13 @@
 <br />
 <br />
 
+## r/Piracy
+
+- [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
+	- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
+
+## More
+
 - Development tips:
 	- Get summary of any video in any language in Google Gemini. ❤️
 	- Use VsCode' default markdown preview to edit markdown files.
@@ -434,6 +441,8 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- For videos not having subtitles the above method won't work though you can use OpenAi's STT api. You can first download the m4a audio file of the youtube video by downloading the audio file from this site - [https://www.multidownloader.net](https://www.multidownloader.net). *Note: OpenAi's STT supports m4a format as input file 😇*
 - Convert ogg to mp3 (for source for openai's STT): [Check Learn bash page](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
 - Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
+  - ❤️mp4 to gif: [https://cloudconvert.com/](https://cloudconvert.com/)
+    - ❤️Created animated logo: [canva.com/create/logos/animated](https://www.canva.com/create/logos/animated)
 - Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
@@ -443,6 +452,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Download YouTube Videos:
 	- [Cobalt.tools](https://cobalt.tools/) ([github](https://github.com/imputnet/cobalt))
 	- Use wikihow - Download vidro from youtube.com
+- Remove background from an image: [Click here](https://www.remove.bg/upload)
 
 ##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork ([Doc](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit#heading=h.e38aiba2an6c))
 
@@ -728,6 +738,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Npm libaries I recommend:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-npm-libraries.md){: search-title="Npm libaries I recommend"}
 - **Learn Mailservers:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/mail-server.md){: search-title="Learn Mailservers"}
 - Why DSA based interviews are stupid?: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/dsa.md){: search-title="Why DSA based interviews are stupid?"}
+- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa){: search-title="DSA in Javascript, Course"}
 - **Javascript:**
 	- **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md){: search-title="Learn Javascript (#lodash)"} (`#lodash`)
 		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
@@ -746,7 +757,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
 		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
-	- **DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa){: search-title="DSA in Javascript, Course"}
 	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/@ts-check.md){: search-title="Typescript typechecking in javascript files with jsdoc"}
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx){: search-title="Nginx config files"}
@@ -850,7 +860,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Sanskrit:** <a href="https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit" search-title="Learn Sanskrit">Click here</a>
 - SBI Bank Cyber Security Guidelines, Hindi: <a href="https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit" search-title="SBI Bank Cyber Security Guidelines, Hindi">Click here</a>
 - Learn Python Repo: <a href="https://github.com/sahilrajput03/learn-python" search-title="Learn Python - Github Repo">Click here</a>
-	- Learn Python Doc: <a href="https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit#heading=h.elar82jwg5ji" search-title="Learn Python - Doc">Click here</a>
+	- Learn Python Doc: <a href="https://docs.google.com/document/d/1A3uFSiQv_FtVT9IAJ6fB2gxJwdjMEMLsDE6sSNZTnn8/edit" search-title="Learn Python - Doc">Click here</a>
 - Learn Outlook: <a href="https://docs.google.com/document/d/1YpexQLJNdNrQhjidRt38bC49hcgiIO_hAPqfGSEds8Y/edit#heading=h.2mmi0x1sciq7" search-title="Learn Outlook">Click here</a>
 - Learn Adobe Acrobat Reader: <a href="https://docs.google.com/document/d/1H66PnT3q8uUXEdSePyw89X4E5UpaTeXEYEGo03LUeig/edit#heading=h.faibccl9c26h" search-title="Learn Adobe Acrobat Reader">Click here</a>
 - Learn Cloudinary: <a href="https://docs.google.com/document/d/1a2lUrjw_Yb83VS1vdbY4VdRRXGZ_gU6WLnNv3v9z_Ic/edit?tab=t.0" search-title="Learn Cloudinary">Click here</a>
@@ -887,6 +897,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - ❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend: <a href="https://docs.google.com/document/d/15PieWH56pzC5Uh7WlCZit4nGOqfetmGi1aNqlmLymh4/edit?tab=t.0" search-title="❤️⭐ Monorepo vs. Polyrepo, Why to have separate backend-frontend npm projects instead of a single npm project for frontend-backend">Click here</a>
 - Learn OneCard: <a href="https://docs.google.com/document/d/1pT_FQOE30KTWwcuYdYT-ZjQACIm4ozKbbM6s76Lfsqs/edit?tab=t.0" search-title="Learn OneCard">Click here</a>
 - qr generators: <a href="https://docs.google.com/document/d/1neH211qetPGM9-WpeiQE1WSoIRo_TqdHYK7BudqVIC0/edit?tab=t.0" search-title="qr generators">Click here</a>
+  - ❤️ [zxpsuper.github.io/qrcode-with-logos](https://zxpsuper.github.io/qrcode-with-logos)
 - Get words from book (in Learn Expressjs repo): <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
 - Learn Openai (github repository): <a href="https://github.com/sahilrajput03/learn-openai" search-title="Learn Openai (github repository)">Click here</a>
 - Learn npm: <a href="https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0" search-title="Learn npm">Click here</a>
@@ -922,6 +933,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Jenkins: [Click here](https://docs.google.com/document/d/1PpG_kmDHT-QI8A9BW89OklL8S1whsxUzHdohQJSSqBQ/edit?tab=t.0)
 - ❤️ Learn Remote Debugging Tool - Chii and Eruda: [Click here](https://docs.google.com/document/d/1vwH9UlkHKdPQlI81l3ksozAgL33Shd3eHMjhOR7esAM/edit?tab=t.0)
 - ❤️ Estimated Time (ET) & Task Deadline(TD) for Tasks and Project: [Click here](https://docs.google.com/document/d/1y1zX6WO7SfgxoX0Fe9tjMZhFspqYhoHayqSAiUWSVaw/edit?tab=t.0#heading=h.7bl2gjocpl5c)
+- ❤️Learn Razorpay: [Click here](https://docs.google.com/document/d/1ExXrRMalD2i-ZBc2mOFSTh47asqkP8MRNiVtAW3lvlc/edit?tab=t.154p77cbsbnz)
+- Learn Ruby on Rails: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
