@@ -181,15 +181,15 @@ It is installed by default in manjaro but if you're using archlinux then you can
 
 ## Running github pages locally
 
-**Moved to Google doc on 17 July 2025**
+**Moved to Google doc on 17 July 2025 ✅**
 
 ## Install Jekyll on archlinux
 
-**Moved to Google doc on 17 July 2025**
+**Moved to Google doc on 17 July 2025 ✅**
 
 ## Install Ruby on Archlinux
 
-**Moved to Google doc on 17 July 2025**
+**Moved to Google doc on 17 July 2025 ✅**
 
 ## Kitty Config File (Tags: kitty)
 
