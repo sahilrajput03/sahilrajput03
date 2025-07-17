@@ -6,6 +6,7 @@
   - [https://dontkillmyapp.com](https://dontkillmyapp.com)
   - TODO: Test if you can play some audio in the notification handler in capacitor? If possible then you can download the audio and play the audio as your need in your personal ai assistant thing.
 - https://whatwebcando.today
+- Thee ways to open Simulator in MacOS: [Click here](https://chatgpt.com/c/68795cf0-3f8c-8007-8401-38163b32b90b) [ChatGPT]
 
 **Quick Links:**
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md)
