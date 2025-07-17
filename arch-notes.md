@@ -187,7 +187,7 @@ It is installed by default in manjaro but if you're using archlinux then you can
 
 **Moved to Google doc on 17 July 2025**
 
-# Install Ruby on Archlinux
+## Install Ruby on Archlinux
 
 **Moved to Google doc on 17 July 2025**
 
