@@ -181,75 +181,15 @@ It is installed by default in manjaro but if you're using archlinux then you can
 
 ## Running github pages locally
 
-You might need to create gem file because by default github repos doesn't have but under the hood when the website is deployed; github actions installs ruby, bundler, jekyll, other necessary dependencies in the deployment pipeline.
-
-<img src="https://github.com/sahilrajput03/sahilrajput03/assets/31458531/ae5aed94-c284-4029-99c5-c6309b149dca" size="500" />
-
-We can generate the gem file like this:
-
-```bash
-bundle init
-# insatll gems (ruby libraries)
-bundle install
-```
-
-A `Gemfile` will be created by above command with following text:
-
-```bash
-# frozen_string_literal: true
-
-source "https://rubygems.org"
-
-# gem "rails"
-```
-
-We add jekyll to the project i.e, update to `Gemfile` is by running  `bundle add jekyll`. 
-
-Also, you may use `bundle install` to install the depencies of ruby project to install ruby libraries defined in `Gemfile`.
-
-**Install Jekyll, source -** https://stackoverflow.com/a/78101514
-
-```
-# Install Jekyll
-bundle add jekyll
-```
-
-**Run jekyll development server**
-
-```bash
-jekyll serve --livereload
-```
+**Moved to Google doc on 17 July 2025**
 
 ## Install Jekyll on archlinux
 
-Requirements: Ruby must be installed. (search for "Install Ruby on Archlinux" section on this page).
-
-```bash
-gem update --user-install
-gem install jekyll --user-install
-
-jekyll -v
-# Output:
-jekyll 4.3.3
-```
+**Moved to Google doc on 17 July 2025**
 
 # Install Ruby on Archlinux
 
-Source: [Click here](https://gist.github.com/bast/9f5c2843d3e9bc4744e7016b56d8fe8e)
-
-```bash
-sudo pacman -S ruby ruby-rdoc gcc make
-
-gem update --user-install
-gem install jekyll --user-install
-```
-
-Add below to `.bashrc` file:
-
-```bash
-ruby_path=".local/share/gem/ruby/3.0.0/bin/"
-export PATH="$ruby_path:$PATH"
-```
+**Moved to Google doc on 17 July 2025**
 
 ## Kitty Config File (Tags: kitty)
 
