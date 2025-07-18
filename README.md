@@ -70,6 +70,7 @@
 ## More
 
 - Development tips:
+	- Making notes is good for long term memory and a little bit for short term memory because you tend to rely on written material. But overall its really great thing to make notes.
 	- Get summary of any video in any language in Google Gemini. ❤️
 	- Use VsCode' default markdown preview to edit markdown files.
 	- Always keep a REPL on of nodejs for fast testing. ~ Sahil
