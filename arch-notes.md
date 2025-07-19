@@ -315,46 +315,11 @@ yay -S activitywatch-bin
 
 ## ❤️ Stop using `youtube-dl` and use `yt-dlp`
 
-- Amazing reddit post: [Click here](https://www.reddit.com/r/archlinux/comments/119hsoj/stop_using_youtubedl_and_use_ytdlp_instead/)
-- Archlinux Wiki Page: [Click here](https://wiki.archlinux.org/title/Yt-dlp)
-
-`yt-dlp` is a command-line program that lets you easily download videos and audio from more than a thousand websites. See the list of supported sites.
-
-Note: `yt-dlp` is a fork of youtube-dl that was created after the parent project became stagnant. The upstream youtube-dl[dead link 2023-09-16 ⓘ] can still be installed as youtube-dlAUR; commands on this page should still work, but check the list of differences.
-
-```bash
-pacman -S yt-dlp
-
-# for usage, please refer - https://wiki.archlinux.org/title/Yt-dlp
-
-
-#### Common Usage (from: https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file) ####
-# Download 1080p video with audio form youtube
-yt-dlp -f "bestvideo[height=1080]+bestaudio" "<YouTube-URL>"
-```
-
-TOOD: Checkout some gui software as well for much better usage (refer same above archlinux page) -
-
-![image](https://github.com/sahilrajput03/sahilrajput03/assets/31458531/71315aa2-2b82-480c-9d7e-1059ab224320)
+*Moved to Google Doc on 19 July 2025.*
 
 ## `youtube-dl` and ❤️ `youtube-dl-gui`
 
-youtube-dl-guil:
-- Github (6k*): [Click here](https://github.com/jely2002/youtube-dl-gui)
-
-```bash
-sudo pacman -S youtube-dl
-```
-
-
-```bash
-# for gui (LEARN: yay fails to install this as mentioned by a user on the AUR page - https://aur.archlinux.org/packages/youtube-dl-gui:
-git clone https://aur.archlinux.org/youtube-dl-gui.git
-cd youtube-dl-gui
-makepkg -si
-# Usage:
-youtube-dl-gui
-```
+*Moved to Google Doc on 19 July 2025.*
 
 ## install `mpv` player(its good player for streaming youtube videos(it internally uses `youtube-dl`)) and `youtube-dl`
 
