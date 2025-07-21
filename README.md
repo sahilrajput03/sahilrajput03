@@ -66,6 +66,7 @@
 
 - [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
 	- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
+		-  Anna's Archive: *Influence, The Whole Elephant Revealed*
 
 ## More
 
