@@ -66,10 +66,12 @@
 
 - [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
 	- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
+		-  Anna's Archive: *Influence, The Whole Elephant Revealed*
 
 ## More
 
 - Development tips:
+	- Making notes is good for long term memory and a little bit for short term memory because you tend to rely on written material. But overall its really great thing to make notes.
 	- Get summary of any video in any language in Google Gemini. ❤️
 	- Use VsCode' default markdown preview to edit markdown files.
 	- Always keep a REPL on of nodejs for fast testing. ~ Sahil
@@ -437,7 +439,9 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 #### Transcribe, Convert, Download
 
 - Text Wrap, Line Break Online (e.g., say comments to wrap after 80 chars): [Click here](https://www.joydeepdeb.com/tools/line-break.html)
-- Transcribe youtube video or shorts: [https://rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
+- Transcribe youtube video or shorts:
+	- [downloadyoutubesubtitles.com](https://www.downloadyoutubesubtitles.com)
+	- [rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
 	- For videos not having subtitles the above method won't work though you can use OpenAi's STT api. You can first download the m4a audio file of the youtube video by downloading the audio file from this site - [https://www.multidownloader.net](https://www.multidownloader.net). *Note: OpenAi's STT supports m4a format as input file 😇*
 - Convert ogg to mp3 (for source for openai's STT): [Check Learn bash page](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
 - Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)

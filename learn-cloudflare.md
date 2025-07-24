@@ -25,6 +25,19 @@ As soon as sign up on google is clicked we are redirected to this page:
 
 <img src="https://github.com/user-attachments/assets/cc41e7fb-8e0a-4d54-9971-29704853dcde" alt="drawing" width="300"/>
 
+### 3. https://annas-archive.li
+
+When we click on **"Option #1: Slow Partner Server #1 (slightly faster but with waitlist)"** on the download page.
+
+<img width="700" height="1618" alt="image" src="https://github.com/user-attachments/assets/62e85bf0-8573-4d09-b139-bda5c8d170ec" />
+
+### 4. 1337x.to
+
+I experienced this in tor browser.
+
+<img width="700" height="1264" alt="image" src="https://github.com/user-attachments/assets/7bd3b9a0-c22e-4a1d-a900-cac0e835957a" />
+
+
 ## Polish
   - Activate Polish Docs: [Click here](https://developers.cloudflare.com/images/polish/activate-polish/)
 
