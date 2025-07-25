@@ -67,7 +67,7 @@
 - [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
 	- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
 		-  Anna's Archive: *Influence, The Whole Elephant Revealed*
-- **Link preview is also known as? (ChatGPT)**
+- **Link preview is also known as? (ChatGPT)**: These terms refer to the automatic display of a snippet (title, description, image) when a URL is shared in apps like WhatsApp, Facebook, Slack, etc.
 	- URL preview
 	- Webpage preview
 	- Link unfurling
