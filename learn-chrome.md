@@ -130,6 +130,7 @@ To disable these logs completely on `localhost` you can simply go to the extensi
   - ❤️ I am using this to hide chats in the left side menu by adding - `#LeftColumn{	visibility: hidden; }` on `https://web.telegram.org` to help distraction.
 - ChatGPT search: [Click here](https://chromewebstore.google.com/detail/ChatGPT%20search/ejcfepkfckglbgocfkanmcdngdijcgld)
   - ❌ ^^ Not recommended because it messes up your current new tab's beautiful background image. Seems like you have that only when you keep your default search engine as google [TESTED].
+- ❤️ Hide x Twitter Elements: [Click here](https://chromewebstore.google.com/detail/hide-x-twitter-elements/bkjfgbniifclpfjdpbjcebndlimfkkeg)
 
 
 ## Update default page zoom level and page font size
