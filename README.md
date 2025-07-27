@@ -794,6 +794,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Jira: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-jira.md){: search-title="Learn Jira"}
 - Learn RxJs: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-rxjs.md){: search-title="Learn RxJs"}
 - ❤️ Learn Vitejs, VitePress, Vitest: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0){: search-title="❤️ Learn Vitejs, VitePress, Vitest"}
+- ❤️ Learn electron: [Click here](https://github.com/sahilrajput03/learn-electron)
 - Learn Luxon (DateTime): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-luxon.md){: search-title="Learn Luxon (DateTime)"}
 - Learn `Chalk` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chalkjs.md){: search-title="Learn `Chalk` (node library)"}
 - Learn `Colors` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-colors-npm.md){: search-title="Learn `Colors` (node library)"}
