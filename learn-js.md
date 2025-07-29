@@ -6,7 +6,7 @@
 - Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 - [jsconsole.com](https://jsconsole.com) (by remy)
 
-## ❤️ Using `$` and `$$` in browser as syntax sugar for `document.querySelector` and `document.querySelectorAll` respectively
+## ❤️ (available only in devtool) Using `$` and `$$` in browser as syntax sugar for `document.querySelector` and `document.querySelectorAll` respectively
 
 [Source (ChatGPT)](https://chatgpt.com/c/687136b5-c2ec-8007-9919-5e6120fd39a2)
 
