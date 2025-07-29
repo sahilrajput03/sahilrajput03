@@ -529,13 +529,12 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Use Chrome Mobile's feature of "Listen to this page". Its awesome because it offers highlight of text while reading and changing speed of reading as well.
 	- Use OpenAI Playground or OpenAI's API
 	- Learn Coqui: [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
-	- [https://revoicer.com](https://revoicer.com)
 	- Download from ChatGPT's prompt directly via chrome extension: [AudioTTS - Simple Text to Speech Downloader](https://chromewebstore.google.com/detail/audiotts-simple-text-to-s/lhbdjaomnaobfljmhkmcfhhnihaaangh) *(Note to Sahil: I have kept this extension disabled to avoid unnecessary downloads from any website anytime, so feel free to enable it again temporarily)*
 	- 💫Text to speech (also has openai's AI text to speech): [ttsmp3.com](https://ttsmp3.com) [1000 tokens limit/day]
 	- For downloading small clips you can probably use chrome extension - [Chrome Audio Capture](https://chromewebstore.google.com/detail/chrome-audio-capture/kfokdmfpdnokpmpbjhjbcabgligoelgp) to download from below two sites because they don't allow download in their free plan yet. *(for commercial use -- I advise to get a premium plan to help support them)*
 		- [murf.ai/text-to-speech](https://murf.ai/text-to-speech)
 		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
-	- Premium Services - [hume.ai](https://www.hume.ai/pricing), [elevenlabs.io](https://elevenlabs.io/pricing).
+	- Premium Services - [hume.ai](https://www.hume.ai/pricing), [elevenlabs.io](https://elevenlabs.io/pricing), [revoicer.com](https://revoicer.com)
 - Video Cutter: [online-video-cutter.com](https://online-video-cutter.com/)
 	- ❤️🚀 Locally using `Handbrake` (very fast): Follow as suggested in this screenshot.
 	![image](https://github.com/user-attachments/assets/cfeec9ba-c9f0-430b-86a6-a820058b0d0e)
