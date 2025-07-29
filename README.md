@@ -33,7 +33,7 @@
 </h6>
 
 <h6 align="right">
-	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput03.github.io/vocab-files/vocab">Fast🚀</a>, <a href="https://sahilrajput.com/vocab.html">iframe</a>, <a href="http://localhost:8081/vocab">Debug</a>),
+	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput03.github.io/vocab-files/vocab">Fast🚀</a>, <a href="https://sahilrajput.com/vocab.html">iframe</a>),
 	<a href="https://docs.google.com/document/d/1q_AmG0bIxX2WjN_wyMUv_Y7kOEtnW2y6--4M8QWlcZE/edit?tab=t.0#heading=h.1ahwoj105swe">❤️ Book Recommendations</a>,
 	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>,
 	<a href="https://sveltev5.vercel.app/glass-slideshow">Glass Thoughts</a>,
@@ -67,6 +67,12 @@
 - [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
 	- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
 		-  Anna's Archive: *Influence, The Whole Elephant Revealed*
+- **Link preview is also known as? (ChatGPT)**: These terms refer to the automatic display of a snippet (title, description, image) when a URL is shared in apps like WhatsApp, Facebook, Slack, etc.
+	- URL preview
+	- Webpage preview
+	- Link unfurling
+	- Meta preview
+	- Rich link preview
 
 ## More
 
@@ -519,10 +525,13 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Newspaper Feed: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-newspaper-analysis.md)
 - TamronHallShow (Journalist): [@TamronHallShow](https://www.youtube.com/@TamronHallShow/videos)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
-- TTS:
+- ❤️ Text To Spech (TTS):
+	- Use Chrome Mobile's feature of "Listen to this page". Its awesome because it offers highlight of text while reading and changing speed of reading as well.
+	- Use OpenAI Playground or OpenAI's API
+	- Learn Coqui: [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
+	- [https://revoicer.com](https://revoicer.com)
 	- Download from ChatGPT's prompt directly via chrome extension: [AudioTTS - Simple Text to Speech Downloader](https://chromewebstore.google.com/detail/audiotts-simple-text-to-s/lhbdjaomnaobfljmhkmcfhhnihaaangh) *(Note to Sahil: I have kept this extension disabled to avoid unnecessary downloads from any website anytime, so feel free to enable it again temporarily)*
-	- **💫 Convert text to mp3:** [ttsmp3.com](https://ttsmp3.com/)
-	- Text to speech (also has openai's AI text to speech): [ttsmp3.com](https://ttsmp3.com) [1000 tokens limit/day]
+	- 💫Text to speech (also has openai's AI text to speech): [ttsmp3.com](https://ttsmp3.com) [1000 tokens limit/day]
 	- For downloading small clips you can probably use chrome extension - [Chrome Audio Capture](https://chromewebstore.google.com/detail/chrome-audio-capture/kfokdmfpdnokpmpbjhjbcabgligoelgp) to download from below two sites because they don't allow download in their free plan yet. *(for commercial use -- I advise to get a premium plan to help support them)*
 		- [murf.ai/text-to-speech](https://murf.ai/text-to-speech)
 		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
@@ -536,11 +545,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- ❤️ Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
 	- speechelo.com: [Click here](https://speechelo.com)
 	- [turboscribe.ai](https://turboscribe.ai)
-- Text To Spech (TTS):
-	- Use Chrome Mobile's feature of "Listen to this page". Its awesome because it offers highlight of text while reading and changing speed of reading as well.
-	- Use OpenAI Playground or OpenAI's API
-	- Learn Coqui: [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
-	- [https://revoicer.com](https://revoicer.com)
 - Learn NFC:
 	- Link: [1](https://www.youtube.com/shorts/rqoUHzrWrU0), [2](https://www.youtube.com/shorts/kqds9w9BF-0?feature=share), [3](https://www.youtube.com/shorts/Mp9oZTlDhI8?feature=share), [4](https://www.youtube.com/shorts/vi3vwWKiS94?feature=share)
 
@@ -788,6 +792,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Jira: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-jira.md){: search-title="Learn Jira"}
 - Learn RxJs: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-rxjs.md){: search-title="Learn RxJs"}
 - ❤️ Learn Vitejs, VitePress, Vitest: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0){: search-title="❤️ Learn Vitejs, VitePress, Vitest"}
+- ❤️ Learn electron: [Click here](https://github.com/sahilrajput03/learn-electron)
 - Learn Luxon (DateTime): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-luxon.md){: search-title="Learn Luxon (DateTime)"}
 - Learn `Chalk` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chalkjs.md){: search-title="Learn `Chalk` (node library)"}
 - Learn `Colors` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-colors-npm.md){: search-title="Learn `Colors` (node library)"}
