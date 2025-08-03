@@ -62,6 +62,10 @@
 <br />
 <br />
 
+## Pre prompting
+
+It is the raw input text notes you write with hand which you give to any LLM to instruct it to generate prompt for specific output.
+
 ## r/Piracy
 
 - [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
