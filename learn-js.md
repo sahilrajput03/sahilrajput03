@@ -6,6 +6,14 @@
 - Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 - [jsconsole.com](https://jsconsole.com) (by remy)
 
+## Make an event listener remove after being its invoked so the click handler is only executed once only
+
+```js
+// Start interval only after a user gesture
+// 		`once`: A boolean value indicating that the listener should be invoked at most once after being added. If true, the listener would be automatically removed when invoked. If not specified, defaults to false.
+window.addEventListener('click', startAudioInterval, { once: true });
+```
+
 ## ❤️ (available only in devtool) Using `$` and `$$` in browser as syntax sugar for `document.querySelector` and `document.querySelectorAll` respectively
 
 [Source (ChatGPT)](https://chatgpt.com/c/687136b5-c2ec-8007-9919-5e6120fd39a2)
