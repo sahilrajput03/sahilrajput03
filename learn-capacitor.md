@@ -28,14 +28,32 @@
   - [https://ionicframework.com/docs/components](https://ionicframework.com/docs/components)
     -  ❤️ SVELTE's Port of Ionic Component UI [github.comTommertom/svelte-ionic-app](https://github.com/Tommertom/svelte-ionic-app)
     - Wesite: [https://ionic-svelte.firebaseapp.com/components/Slides](https://ionic-svelte.firebaseapp.com/components/Slides)
+- **🚀Capacitor Docs, Issues:**
+  - TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
+  - Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
+  - Using HTTPS scheme for capacitor app - Docs: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
+    - How to run Capacitor webView with https in IOS: [Click here](https://github.com/ionic-team/capacitor/discussions/3714)
 
-**Capacitor Docs, Issues:**
-- TODO: PWA - Capacitor First Class Support: [Click here](https://capacitorjs.com/docs/web/progressive-web-apps)
-- Helpful Youtube video for capacitor: Creating Capacitor Local Notifications with Sound, Icons & Action Buttons: [Click here](https://www.youtube.com/watch?v=bww4a4B43tM)
-- Using HTTPS scheme for capacitor app - Docs: [Click here](https://capacitorjs.com/docs/vscode/build-and-run#using-https)
-  - How to run Capacitor webView with https in IOS: [Click here](https://github.com/ionic-team/capacitor/discussions/3714)
+## Is appstore not there in iphone simulator in macos?
 
-**CapAwesome:**
+*From ChatGPT: [Click here](https://chatgpt.com/c/688f6d00-22a0-8325-a440-e21ea7e321c2)*
+
+**Correct — the App Store is not available in the iOS Simulator on macOS.**
+
+**Why?**
+
+The simulator is designed primarily for testing your own apps, not for accessing the full iOS environment.
+
+The App Store app requires actual Apple ID authentication and a real device context, which the simulator doesn’t provide.
+
+*Alternatives:*
+- To test App Store-related functionality (like in-app purchases or StoreKit), use StoreKit Test configuration in Xcode.
+
+To test real App Store behavior, you must use a physical iPhone or iPad.
+
+Let me know if you're trying to test something specific.
+
+## CapAwesome
 
 Capawesome follows the sponsorware release strategy, that enables developers to be compensated for their open-source work with fewer downsides than traditional open-source funding models. This means that new plugins are first exclusively released to sponsors as part of Insiders. ([source - Sponsos > Insiders](https://capawesome.io/sponsors/insiders/#how-to-become-an-insider))
 
