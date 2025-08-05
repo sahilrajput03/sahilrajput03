@@ -621,11 +621,11 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
 - ❤️Learning mongosh and mongoosejs:
 	- **Notes:**
-		- **❤️Main Readme:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/main)
 		- **❤️Learn Mongodb Doc: [Click here](https://docs.google.com/document/d/1OT6IMR600VjWteJ-kqM0jVQuqQQw308hkh3enZnu9tQ/edit?tab=t.0)** [Tags: `#mongodump`, `#mongorestore`, `#mongosh`, `#bsondump`]
-		- **❤️Learn mongoosejs:** [test1.test.js](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/main/mongoosejs-with-flash-runner-cli/test1.test.js) (`mongoosejs-with-flash-runner-cli`)
-		- **❤️Learn mongosh:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/main/mongosh-scripts-with-watcher/README.md) (`mongosh-scripts-with-watcher`)
-		- **❤️Learn backup and restore mongodb:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/main/backup-and-restore) (`backup-and-restore`)
+		- **❤️Repo - learning-monogo-and-mongoosejs:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/main)
+			- **❤️Learn mongoosejs:** [test1.test.js](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/main/mongoosejs-with-flash-runner-cli/test1.test.js) (`mongoosejs-with-flash-runner-cli`)
+			- **❤️Learn mongosh:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/main/mongosh-scripts-with-watcher/README.md) (`mongosh-scripts-with-watcher`)
+			- **❤️Learn backup and restore mongodb:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/main/backup-and-restore) (`backup-and-restore`)
 - **Hindi:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hindi.md)
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-curl.md)
