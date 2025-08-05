@@ -639,7 +639,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
 - **Learn Gmail:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
-	- ❤️Official Go playground: [Click here](https://go.dev/play/)
+	- ❤️Official Go playground: [go.dev/play](https://go.dev/play)
 - **Learn Regex:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-regex.md)
 - **Learn Markdown:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-markdown.md)
 - **Learn Perl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-perl.md)
