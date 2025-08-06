@@ -1,8 +1,9 @@
 # Learn Luxon
 
 **Quick Links:**
-- ❤️moment vs. luxon on npmtrends.com: https://npmtrends.com/luxon-vs-moment-vs-moment-timezone
-- Luxon - Full Sheet: [Click here](https://moment.github.io/luxon/demo/global.html)
+- ❤️Luxon - Full Sheet: [Click here](https://moment.github.io/luxon/demo/global.html)
+- 🚀Learn Date in Javascript: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-javascript-date.md)
+- moment vs. luxon on npmtrends.com: [Click here](https://npmtrends.com/luxon-vs-moment-vs-moment-timezone)
 
 Tip: You can run below commands in browser console on site: https://moment.github.io/luxon/
 
