@@ -3,18 +3,17 @@
 Q. What is epoch time? Ans. **Basically the number of milliseconds since midnight, 1970-01-01.**
 
 ```js
-// Unix timestamp in milliseconds
+// ❤️ Current time in unix timestamp in milliseconds
 k = Date.now() // 1674254700963
 
-// making 
+// ❤️ Make date object from unix timestamp
 dateObject = new Date(k)
 
-// date object to epoch time
+// ❤️ Get unix timestamp from a date object
 l = dateObject.getTime() // 1674254700963
 
-// testing
-l === k
-true
+console.log(l === k)
+// Output: true
 ```
 
 
