@@ -619,10 +619,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses:** [Click here](https://docs.google.com/document/d/1rPTCIyUKA950XF4j0rQwZ_kUPL5liDX55vVnMvJgjfU/edit?tab=t.0#heading=h.bdv0cmaink4i)
 - **Enlightment:** [Cick here](https://github.com/sahilrajput03/sahilrajput03/blob/main/enlightenment.md)
-- ❤️Learning mongosh and mongoosejs:
-	- **Notes:**
-		- **❤️Main Readme:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/main)
-		- **❤️Learn Mongodb Doc: [Click here](https://docs.google.com/document/d/1OT6IMR600VjWteJ-kqM0jVQuqQQw308hkh3enZnu9tQ/edit?tab=t.0)** [Tags: `#mongodump`, `#mongorestore`, `#mongosh`, `#bsondump`]
+- **MongoDB, `mongoose`:**
+	- **❤️Learn Mongodb Doc: [Click here](https://docs.google.com/document/d/1OT6IMR600VjWteJ-kqM0jVQuqQQw308hkh3enZnu9tQ/edit?tab=t.0)** [Tags: `#mongodump`, `#mongorestore`, `#mongosh`, `#bsondump`]
+	- **❤️learning-monogo-and-mongoosejs - Github Repo:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/main)
 		- **❤️Learn mongoosejs:** [test1.test.js](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/main/mongoosejs-with-flash-runner-cli/test1.test.js) (`mongoosejs-with-flash-runner-cli`)
 		- **❤️Learn mongosh:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/blob/main/mongosh-scripts-with-watcher/README.md) (`mongosh-scripts-with-watcher`)
 		- **❤️Learn backup and restore mongodb:** [Click here](https://github.com/sahilrajput03/learning-monogo-and-mongoosejs/tree/main/backup-and-restore) (`backup-and-restore`)
@@ -640,6 +639,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
 - **Learn Gmail:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
+	- ❤️Official Go playground: [go.dev/play](https://go.dev/play)
 - **Learn Regex:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-regex.md)
 - **Learn Markdown:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-markdown.md)
 - **Learn Perl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-perl.md)
@@ -753,7 +753,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md){: search-title="Learn Javascript (#lodash)"} (`#lodash`)
 		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
 		- Learn Javascript Date: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-javascript-date.md){: search-title="Learn Javascript Date"}
-	- ❤️ Learn Jest/expect, Luxon (DateTime): [Click here](https://docs.google.com/document/d/1PU8G6tpEYLJxXMgHoK5c37UFMbSXtENzpyIOohVsD_I/edit?tab=t.0){: search-title="Learn Jest/expect"}
+	- ❤️ Learn Jest, Expect, Fishery, Luxon (DateTime): [Click here](https://docs.google.com/document/d/1PU8G6tpEYLJxXMgHoK5c37UFMbSXtENzpyIOohVsD_I/edit?tab=t.0){: search-title="Learn Jest/expect, fishery, luxon (DateTime)"}
 	- ❤️ **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs"}
 		- ❤️ Learn mocha: [Doc](https://docs.google.com/document/d/19lJnR9d93wplsKpdd7pfqqXUgKTWL2HZNYyo64mkFSE/edit?tab=t.0), [learn-express/learn-mocha](https://github.com/sahilrajput03/learn-express/blob/main/learn-mocha/README.md)
 		- ❤️ Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node"}
