@@ -462,7 +462,9 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 - Soundcloud Downloader: [Click here](https://sclouddownloader.net/)
 - Srt to text: [Click here](https://gotranscript.com/subtitle-converter)
-- Create forms easily: [tally.so](https://tally.so)
+- Create forms easily:
+	- [tally.so](https://tally.so)
+	- [typeform.com](https://www.typeform.com/) (used by Pieter Levels for fundraising for his book "Make" even before start writing the book).
 - Download YouTube Videos:
 	- [Cobalt.tools](https://cobalt.tools/) ([github](https://github.com/imputnet/cobalt))
 	- Use wikihow - Download vidro from youtube.com
