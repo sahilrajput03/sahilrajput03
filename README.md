@@ -947,6 +947,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - ❤️ Estimated Time (ET) & Task Deadline(TD) for Tasks and Project: [Click here](https://docs.google.com/document/d/1y1zX6WO7SfgxoX0Fe9tjMZhFspqYhoHayqSAiUWSVaw/edit?tab=t.0#heading=h.7bl2gjocpl5c)
 - ❤️Learn Razorpay: [Click here](https://docs.google.com/document/d/1ExXrRMalD2i-ZBc2mOFSTh47asqkP8MRNiVtAW3lvlc/edit?tab=t.154p77cbsbnz)
 - Learn Ruby on Rails: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails)
+- Learn php: [Click here](https://github.com/sahilrajput03/learning-php)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
