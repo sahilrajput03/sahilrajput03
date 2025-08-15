@@ -948,7 +948,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - ❤️Learn Razorpay: [Click here](https://docs.google.com/document/d/1ExXrRMalD2i-ZBc2mOFSTh47asqkP8MRNiVtAW3lvlc/edit?tab=t.154p77cbsbnz)
 - Learn Ruby on Rails: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails)
 - Learn php: [Click here](https://github.com/sahilrajput03/learning-php)
-- Learn zapier: [From ChatGPT](https://chatgpt.com/c/689f7bef-2090-8323-8f6e-2de8135110cd) (zapier.com) (suggested resource from Pieter Levels in his book - "make")
+- Learn zapier: [From ChatGPT](https://chatgpt.com/c/689f7bef-2090-8323-8f6e-2de8135110cd) (zapier.com) (suggested resource from Pieter Levels in his book - "make", pg. 67)
+- Olark: [Click here](https://www.olark.com/) *(platform like Tawk, suggested by Pieter Levels in his book - "make", pg. 67)*
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
