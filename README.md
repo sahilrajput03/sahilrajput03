@@ -62,15 +62,13 @@
 <br />
 <br />
 
-## Pre prompting
+## Notes of August 2025
 
-It is the raw input text notes you write with hand which you give to any LLM to instruct it to generate prompt for specific output.
-
-## r/Piracy
-
-- [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
-	- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
-		-  Anna's Archive: *Influence, The Whole Elephant Revealed*
+- Pre prompting: It is the raw input text notes you write with hand which you give to any LLM to instruct it to generate prompt for specific output.
+- r/Piracy
+	- [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
+		- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
+			-  Anna's Archive: *Influence, The Whole Elephant Revealed*
 - **Link preview is also known as? (ChatGPT)**: These terms refer to the automatic display of a snippet (title, description, image) when a URL is shared in apps like WhatsApp, Facebook, Slack, etc.
 	- URL preview
 	- Webpage preview
