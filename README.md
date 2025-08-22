@@ -769,6 +769,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
 	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/@ts-check.md){: search-title="Typescript typechecking in javascript files with jsdoc"}
+	- Get words from book (in Learn Expressjs repo): <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx){: search-title="Nginx config files"}
   - Reverse proxy with `express-http-proxy` (npm library): [sahilrajput03/reverseProxy](https://github.com/sahilrajput03/reverseProxy){: search-title="Reverse proxy with `express-http-proxy` (npm library)"}
 - **Leetcode: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-leetcode.md)**{: search-title="Leetcode"}
@@ -908,7 +909,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn OneCard: <a href="https://docs.google.com/document/d/1pT_FQOE30KTWwcuYdYT-ZjQACIm4ozKbbM6s76Lfsqs/edit?tab=t.0" search-title="Learn OneCard">Click here</a>
 - qr generators: <a href="https://docs.google.com/document/d/1neH211qetPGM9-WpeiQE1WSoIRo_TqdHYK7BudqVIC0/edit?tab=t.0" search-title="qr generators">Click here</a>
   - ❤️ [zxpsuper.github.io/qrcode-with-logos](https://zxpsuper.github.io/qrcode-with-logos)
-- Get words from book (in Learn Expressjs repo): <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
 - Learn Openai (github repository): <a href="https://github.com/sahilrajput03/learn-openai" search-title="Learn Openai (github repository)">Click here</a>
 - Learn npm: <a href="https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0" search-title="Learn npm">Click here</a>
 - Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: <a href="https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0" search-title="Libraries and tools available for creating application walkthroughs or guided tours for frontend applications">Click here</a>
