@@ -852,7 +852,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Shark Tank Season 1 - Youtube: <a href="https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w" search-title="Shark Tank Season 1 - Youtube">Click here</a>
 	- Shiv Mahapuran - Youtube: <a href="https://www.youtube.com/playlist?list=PL57F01972FF119B66" search-title="Shiv Mahapuran - Youtube">Click here</a>
 - Learn `Xournal`: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md#installed-xournalpp-pp-means--ie-xournal" search-title="Learn `Xournal`">Click here</a>
-- Learn Hyperlocal Farm: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hyperlocal-farms.md" search-title="Learn Hyperlocal Farm">Click here</a>
+- Learn Hyperlocal Farm (#plantation, #crops, #food): <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hyperlocal-farms.md" search-title="Learn Hyperlocal Farm">Click here</a>
 - Learn Airbnb: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-airbnb.md" search-title="Learn Airbnb">Click here</a>
 - TODO: Do the flutter codelab. 💣💣
 - Learn Microfrontend: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-microfrontend.md" search-title="Learn Microfrontend">Click here</a>
