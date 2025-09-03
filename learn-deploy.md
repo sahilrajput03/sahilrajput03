@@ -6,6 +6,7 @@
 - Learn Heroku Deployment: [Click here](./learn-heroku.md)
 - ❤️ Google Doc - Hosting Charges - Backend & Databases (mongodb, etc): [Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 - [fly.io](https://fly.io/)
+- Hostinger - Linux commands: [Click here](https://www.hostinger.com/in/tutorials/linux-commands)
 
 ## Managing live traffic handling in akamai or any other linux
 
