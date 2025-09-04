@@ -923,8 +923,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Privacy Page Examples: (Tags: #TOS)
 	- Meta/Facebook:
 	 	- Meta Terms for WhatsApp Business: [whatsapp.com/legal/meta-terms-whatsapp-business](https://www.whatsapp.com/legal/meta-terms-whatsapp-business)
+			- Policy on Government and Political Use: [business.whatsapp.com/policy?#policy_on_government_and_political_use](https://business.whatsapp.com/policy?#policy_on_government_and_political_use)
 		- Meta Hosting Terms for Cloud API: [facebook.com/legal/Meta-Hosting-Terms-Cloud-API](https://www.facebook.com/legal/Meta-Hosting-Terms-Cloud-API)
-	- Google - Terms of Service: [policies.google.com/terms](https://policies.google.com/terms)
+ 	- Google - Terms of Service: [policies.google.com/terms](https://policies.google.com/terms)
 	- Telegram Privacy Policy [telegram.org/privacy](https://telegram.org/privacy)
 	- Recaho: [Click here](https://www.recaho.com/qrCodePhotoMenu) (click on Terms and Conditions the page)
 	- coqui.ai: [coqui.ai/privacy](https://coqui.ai/privacy)
