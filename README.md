@@ -921,8 +921,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn `tiged` (alternate of degit): <a href="https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0" search-title="Learn `tiged` (alternate of degit) (uses a tag)">Click here</a>
 - ❤️ running-files-in-browser: <a href="https://github.com/sahilrajput03/running-files-in-browser" search-title="running-files-in-browser (#Running files in browser)">Click here</a>
 - Privacy Page Examples: (Tags: #TOS)
-	- Meta Terms for WhatsApp Business: [whatsapp.com/legal/meta-terms-whatsapp-business](https://www.whatsapp.com/legal/meta-terms-whatsapp-business)
-	- Meta Hosting Terms for Cloud API: [facebook.com/legal/Meta-Hosting-Terms-Cloud-API](https://www.facebook.com/legal/Meta-Hosting-Terms-Cloud-API)
+	- Meta/Facebook:
+	 	- Meta Terms for WhatsApp Business: [whatsapp.com/legal/meta-terms-whatsapp-business](https://www.whatsapp.com/legal/meta-terms-whatsapp-business)
+		- Meta Hosting Terms for Cloud API: [facebook.com/legal/Meta-Hosting-Terms-Cloud-API](https://www.facebook.com/legal/Meta-Hosting-Terms-Cloud-API)
 	- Google - Terms of Service: [policies.google.com/terms](https://policies.google.com/terms)
 	- Telegram Privacy Policy [telegram.org/privacy](https://telegram.org/privacy)
 	- Recaho: [Click here](https://www.recaho.com/qrCodePhotoMenu) (click on Terms and Conditions the page)
