@@ -8,7 +8,12 @@
 - [fly.io](https://fly.io/)
 - Hostinger:
   - Linux commands: [Click here](https://www.hostinger.com/in/tutorials/linux-commands)
-  - Files Management: [Click here](https://www.hostinger.com/support/files-management)
+  - **Files Management**: [Click here](https://www.hostinger.com/support/files-management)
+    - Editing files with File Manager is done awesomely by going to **Websites > (select website) > Files > File Manager**.
+      - You can open folders via double click.
+      - You can open and save any file (editing PHP file is so awesome) with `ctrl+s` directly.
+      - When uploading multiple files/folders via "File Manager" by drag and drop from "Finder", you'll be asked to "Contine" (skip) or "Replace" method for files with same name already existing for **ONLY ONCE** and the same decision will be applied to all files. [TESTED]
+  - ❤️ How to Set Up Remote MySQL Access in Hostinger Docs: [Click here](https://www.hostinger.com/support/1583546-how-to-set-up-remote-mysql-access-in-hostinger)
 
 ## Managing live traffic handling in akamai or any other linux
 
