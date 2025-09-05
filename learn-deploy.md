@@ -6,9 +6,9 @@
 - Learn Heroku Deployment: [Click here](./learn-heroku.md)
 - ❤️ Google Doc - Hosting Charges - Backend & Databases (mongodb, etc): [Click here](https://docs.google.com/document/d/1Mzfe1j8GS4IQZRjzDZeDW4pMV8zX6ysj2wK7oteEJjQ/edit?usp=sharing)
 - [fly.io](https://fly.io/)
-- Hostinger:
+- **Hostinger:**
   - Linux commands: [Click here](https://www.hostinger.com/in/tutorials/linux-commands)
-  - **Files Management**: [Click here](https://www.hostinger.com/support/files-management)
+  - Files Management: [Click here](https://www.hostinger.com/support/files-management)
     - Editing files with File Manager is done awesomely by going to **Websites > (select website) > Files > File Manager**.
       - You can open folders via double click.
       - You can open and save any file (editing PHP file is so awesome) with `ctrl+s` directly.
