@@ -9,13 +9,14 @@
 # Simple ssh keys generation:
 ssh-keygen
 
-# Specify file name `myfile.ppk` and `myfile.ppk.pub`, these files are private key and public key respectively.
+# Specifying filename, produces `myfile.ppk` and `myfile.ppk.pub` files, these are private key and public key respectively.
+#   Default algorithm is `ED25519` on macOS [Tested on 6 Sept 2025]
 ssh-keygen -f myfile.ppk
 
 # Using Ed25519 Algorithm (Elliptic Curve Digital Signature Algorithm, 255-bit key) which is smaller, faster, equally or more secure over RSA. (Inspiration: Github Docs)
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
-# Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+# Note: On a legacy system that doesn't support the Ed25519 algorithm, you can definitely use RSA algorithm as shown below:
 #   Also, `-t rsa` → specifies the algorithm type (RSA) AND `-b 4096` → sets the key length to 4096 bits (stronger than the older default of 2048 and still considered secure for most uses today)
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
