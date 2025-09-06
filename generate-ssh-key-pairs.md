@@ -20,7 +20,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
-**Check default algoright used by `ssh-keygen`:**
+**Check default algoright used by `ssh-keygen` on your system:**
 
 - On a modern system, you’ll get:
   - Algorithm: Ed25519
