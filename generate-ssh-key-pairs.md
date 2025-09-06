@@ -5,6 +5,8 @@
   - Extract public key (ssh public key) from private key file using `openssl`: [Click here](https://stackoverflow.com/a/5246045/10012446)
 - Read how private-public [keys work together here](https://www.devco.net/archives/2006/02/13/public_-_private_key_encryption_using_openssl.php).
 
+**🚀✅NOTE: Please use a convention of naming your key files prefixing with `ssh-` (like ssh-github, ssh-gitlab) because its perfectly clear what these files are to you.**
+
 ```bash
 # Simple ssh keys generation:
 ssh-keygen
