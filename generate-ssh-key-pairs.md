@@ -20,6 +20,27 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
+**Check default algoright used by `ssh-keygen`:**
+
+- On a modern system, you’ll get:
+  - Algorithm: Ed25519
+  - Files: myfile (private), myfile.pub (public)
+- On an older system, you’ll get:
+  - Algorithm: RSA (2048-bit by default unless you set -b)
+
+We produce a dummy key file and check its fingerprint to find the default algorigthm used:
+
+```sh
+# Check default algorith of your ssl
+ssh-keygen -f /tmp/testkey -N ""
+
+# Get fingerprint from file, it can be either private or public key file as both produce same output. (TESTED)
+ssh-keygen -lf /tmp/testkey
+# Output: 256 SHA256:7tV10WEIK9OrPYsUtSlAJIqf4y4bdsmORnAfzgKyRCM apple@apples-MacBook-Pro.local (ED25519)
+```
+
+From the output of fingerprint we get that `ED25519` is **the default algorithm used by `ssh-keygen` on my macbook. (6 Sept 2025)**
+
 ## ❤️ What does the confirm fingerprint message mean when we connect for the first time to a server?
 
 When we connect to a server via ssh for the first time we see following message 
