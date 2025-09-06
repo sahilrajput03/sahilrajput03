@@ -12,9 +12,8 @@ ssh-keygen
 # Specify file name `myfile.ppk` and `myfile.ppk.pub`, these files are private key and public key respectively.
 ssh-keygen -f myfile.ppk
 
-# Generating ssh keys using github recommended algorithm:
+# Using Ed25519 Algorithm (Elliptic Curve Digital Signature Algorithm, 255-bit key) which is smaller, faster, equally or more secure over RSA. (Inspiration: Github Docs)
 ssh-keygen -t ed25519 -C "your_email@example.com"
-
 
 # Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
 #   Also, `-t rsa` → specifies the algorithm type (RSA) AND `-b 4096` → sets the key length to 4096 bits (stronger than the older default of 2048 and still considered secure for most uses today)
