@@ -8,21 +8,17 @@
 ```bash
 # Simple ssh keys generation:
 ssh-keygen
-#Note if you give filename as myfile, then output will be: myfile and myfile.pub, where myfile is private key and myfile.pub is public key.
 
+# Specify file name `myfile.ppk` and `myfile.ppk.pub`, these files are private key and public key respectively.
+ssh-keygen -f myfile.ppk
 
 # Generating ssh keys using github recommended algorithm:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
 
 # Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+#   Also, `-t rsa` → specifies the algorithm type (RSA) AND `-b 4096` → sets the key length to 4096 bits (stronger than the older default of 2048 and still considered secure for most uses today)
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-
-
-# Generate myfile.ppk and myfile.ppk.pub (With no prompts for filename, and do set passphrase in prompts):
-ssh-keygen -f myfile.ppk
-# Output: Two files will be generated i.e, priv key and public key respectively.
-# myfile.ppk  myfile.ppk.pub
 ```
 
 ## ❤️ What does the confirm fingerprint message mean when we connect for the first time to a server?
