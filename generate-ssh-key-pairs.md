@@ -1,7 +1,9 @@
 
 ## Generating ssh key pairs
 
-**Learn a public key is always contained inside the private key, you can get that public key using openssl anytime. Read extracting public key and ssh-public key generation from private file in cli at https://stackoverflow.com/a/5246045/10012446.** Read how private-public [keys work together here](https://www.devco.net/archives/2006/02/13/public_-_private_key_encryption_using_openssl.php).
+- Learn: Learn a **public key is always contained inside the private key**, you can get that public key using openssl anytime.
+- Extract public key (ssh public key) from private key file using `openssl`: [Click here](https://stackoverflow.com/a/5246045/10012446)
+- Read how private-public [keys work together here](https://www.devco.net/archives/2006/02/13/public_-_private_key_encryption_using_openssl.php).
 
 ```bash
 # Simple ssh keys generation:
