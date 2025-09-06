@@ -39,7 +39,7 @@ ssh-keygen -lf /tmp/testkey
 # Output: 256 SHA256:7tV10WEIK9OrPYsUtSlAJIqf4y4bdsmORnAfzgKyRCM apple@apples-MacBook-Pro.local (ED25519)
 ```
 
-From the output of fingerprint we get that `ED25519` is **the default algorithm used by `ssh-keygen` on my macbook. (6 Sept 2025)**
+From the fingerprint (output of above command), we see that `ED25519` is **the default algorithm used by `ssh-keygen` on my macbook. (6 Sept 2025)**
 
 ## ❤️ What does the confirm fingerprint message mean when we connect for the first time to a server?
 
