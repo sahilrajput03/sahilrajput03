@@ -5,8 +5,6 @@
   - Extract public key (ssh public key) from private key file using `openssl`: [Click here](https://stackoverflow.com/a/5246045/10012446)
 - Read how private-public [keys work together here](https://www.devco.net/archives/2006/02/13/public_-_private_key_encryption_using_openssl.php).
 
-**🚀✅NOTE: Please use a convention of naming your key files prefixing with `ssh-` (like ssh-github, ssh-gitlab) because its perfectly clear what these files are to you.**
-
 ```bash
 # Simple ssh keys generation:
 ssh-keygen
@@ -42,6 +40,20 @@ ssh-keygen -lf /tmp/testkey
 ```
 
 From the fingerprint (output of above command), we see that **`ED25519` is the default algorithm used by `ssh-keygen` on my macbook. (6 Sept 2025)**
+
+## 🚀✅ IMPORTANT: Prefer prefixing key filenames with `ssh-` like ssh-github, ssh-gitlab
+
+Because its perfectly clear what these files are to you.
+
+Why?
+- Because `.ppk`  is is PuTTY’s private key format (used on Windows with PuTTY, Pageant, WinSCP, etc.).
+- OpenSSH (Linux/macOS, modern Git for Windows) does not use `.ppk` — it uses raw OpenSSH or PEM format.
+
+If you name a file something.ppk, it may confuse future you (or teammates) into thinking it’s a PuTTY key, not an OpenSSH key.
+
+- OpenSSH convention
+  - Private keys → no extension (e.g., id_ed25519)
+  - Public keys → .pub extension (e.g., id_ed25519.pub)
 
 ## ❤️ What does the confirm fingerprint message mean when we connect for the first time to a server?
 
