@@ -11,7 +11,7 @@ ssh-keygen
 #Note if you give filename as myfile, then output will be: myfile and myfile.pub, where myfile is private key and myfile.pub is public key.
 
 
-# Generating ssh kyes using github recommended algorithm:
+# Generating ssh keys using github recommended algorithm:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
 
