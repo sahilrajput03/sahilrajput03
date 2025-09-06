@@ -612,7 +612,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
 	- Learn Systemd: [Click here](https://docs.google.com/document/d/1aOpEVHh8_3Z3bEP8J-2RiGITiN25tg_d35p8v4zUZWE/edit) ❤️ (most popular background process manager)
 	- **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
-	- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](https://docs.google.com/document/d/11_Gc4hjrtj1xs4Cxm6NeitjFSYfr_EoNU5C84FJpskU/edit?tab=t.0){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
+	- Learn SSH: [Click here](https://docs.google.com/document/d/11_Gc4hjrtj1xs4Cxm6NeitjFSYfr_EoNU5C84FJpskU/edit?tab=t.0){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"} *(Tags: #learn `ssh-keygen`, #generate ssh key pairs, #generating ssh key)*
 	- **Learn CLI binaries:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cli-binary.md)
 	- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 	- **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
