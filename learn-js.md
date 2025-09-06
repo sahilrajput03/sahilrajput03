@@ -6,6 +6,10 @@
 - Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 - [jsconsole.com](https://jsconsole.com) (by remy)
 
+## ❤️ `window.find` in browser
+
+`window.find('myText')` highlights `myText` and if you run it again it will find next word and returns `false` when there is no next result.
+
 ## Make an event listener remove after being its invoked so the click handler is only executed once only
 
 ```js

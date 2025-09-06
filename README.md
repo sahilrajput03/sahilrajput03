@@ -62,15 +62,16 @@
 <br />
 <br />
 
-## Pre prompting
+## Notes of August 2025
 
-It is the raw input text notes you write with hand which you give to any LLM to instruct it to generate prompt for specific output.
+<img width="600" height="544" alt="image" src="https://github.com/user-attachments/assets/c1148ee1-444f-4580-af6d-508c635ed4d3" />
 
-## r/Piracy
 
-- [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
-	- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
-		-  Anna's Archive: *Influence, The Whole Elephant Revealed*
+- Pre prompting: It is the raw input text notes you write with hand which you give to any LLM to instruct it to generate prompt for specific output.
+- r/Piracy
+	- [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
+		- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
+			-  Anna's Archive: *Influence, The Whole Elephant Revealed*
 - **Link preview is also known as? (ChatGPT)**: These terms refer to the automatic display of a snippet (title, description, image) when a URL is shared in apps like WhatsApp, Facebook, Slack, etc.
 	- URL preview
 	- Webpage preview
@@ -462,7 +463,9 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 - Soundcloud Downloader: [Click here](https://sclouddownloader.net/)
 - Srt to text: [Click here](https://gotranscript.com/subtitle-converter)
-- Create forms easily: [tally.so](https://tally.so)
+- Create forms easily:
+	- [tally.so](https://tally.so)
+	- [typeform.com](https://www.typeform.com/) (used by Pieter Levels for fundraising for his book "Make" even before start writing the book, pg. 68).
 - Download YouTube Videos:
 	- [Cobalt.tools](https://cobalt.tools/) ([github](https://github.com/imputnet/cobalt))
 	- Use wikihow - Download vidro from youtube.com
@@ -603,13 +606,13 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
 - Linux:
-	- **Learn Archlinux Notes, #ArchLinux, #Arch linux:** [Click here](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.0) (#ngrok, #tailscale)
-	- **Bash Coding, # Bash Programming, # Learning Bash:** [Click here](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.e75nn9rhxa2x#heading=h.v67slhjr85f1)
+	- **❤️Learn Arch Linux:** [Click here](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.0) (Tags: #archlinux, #ngrok, #tailscale)
+	- **❤️Learn Bash:** [Click here](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.e75nn9rhxa2x#heading=h.v67slhjr85f1) (Tags: #learn bash, #learning bash, #bash programming, #bash coding)
 		- **Learn Bash**: [github.com/sahilrajput03/learning-bash](https://github.com/sahilrajput03/learning-bash)  (with autodocs readme)
 	- Learn KVM: [Click here](https://docs.google.com/document/d/1DnasbjTtdT44wsWCQxQWVvTRLACRX1yalBiuRYN_Eg4/edit#heading=h.oji92iddl8v)
 	- Learn Systemd: [Click here](https://docs.google.com/document/d/1aOpEVHh8_3Z3bEP8J-2RiGITiN25tg_d35p8v4zUZWE/edit) ❤️ (most popular background process manager)
 	- **Learn Missing Semester (Notes):** [Click here](./missing-semester/)
-	- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/generate-ssh-key-pairs.md){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
+	- Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key): [Click here](https://docs.google.com/document/d/11_Gc4hjrtj1xs4Cxm6NeitjFSYfr_EoNU5C84FJpskU/edit?tab=t.0){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"}
 	- **Learn CLI binaries:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cli-binary.md)
 	- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 	- **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
@@ -687,7 +690,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
      	- [lovable.dev](https://lovable.dev/)
     - [webflow.com](https://webflow.com/)
       - **Learn Webflow:** - [Click here](https://docs.google.com/document/d/1Y3XydED5IhfUVO1hZHAYOVvO0vP3wrMuFrKpmltLzXc/edit?tab=t.0)
-- **Learn Deployment** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-deploy.md) (#ssl, #https, #certificates)
+- **Learn Deployment** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-deploy.md) (#ssl, #https, #certificates, #hostinger)
 	- Learn Vercel Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vercel.md)
 		- ❤️ VERCEL: Official Demo of Client Side Rendering, Server Side Rendering, Static Site Generation and Incremental Static Regeneration: [Click here](https://csr-ssr-ssg-ssr.vercel.app/)
 	- Learn Heroku Deployment: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-heroku.md)
@@ -754,9 +757,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
 		- Learn Javascript Date: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-javascript-date.md){: search-title="Learn Javascript Date"}
 	- ❤️ Learn Jest, Expect, Fishery, Luxon (DateTime): [Click here](https://docs.google.com/document/d/1PU8G6tpEYLJxXMgHoK5c37UFMbSXtENzpyIOohVsD_I/edit?tab=t.0){: search-title="Learn Jest/expect, fishery, luxon (DateTime)"}
-	- ❤️ **Learn Expressjs:** [Click here](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs"}
+	- ❤️ **Learn Expressjs:** [❤️Google Doc](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0#heading=h.dv7500gv0vc2){: search-title="Learn Expressjs (Google Doc)"}, [Github Repo](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs (Github Repo)"}
 		- ❤️ Learn mocha: [Doc](https://docs.google.com/document/d/19lJnR9d93wplsKpdd7pfqqXUgKTWL2HZNYyo64mkFSE/edit?tab=t.0), [learn-express/learn-mocha](https://github.com/sahilrajput03/learn-express/blob/main/learn-mocha/README.md)
-		- ❤️ Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node"}
+		- ❤️ Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node, Learn NodeJs"} (Tags: System notifications with nodejs)
 			- Few topics covered in above project's readme:
 				- `spawn` vs. `fork` vs. `worker_threads`
 					- `spawn` child process (preffered for non js programs)
@@ -767,6 +770,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
 		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
+		- ❤️ Get words from book: <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
 	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
 	- **Typescript typechecking in javascript files with jsdoc:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/@ts-check.md){: search-title="Typescript typechecking in javascript files with jsdoc"}
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx){: search-title="Nginx config files"}
@@ -848,7 +852,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Shark Tank Season 1 - Youtube: <a href="https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w" search-title="Shark Tank Season 1 - Youtube">Click here</a>
 	- Shiv Mahapuran - Youtube: <a href="https://www.youtube.com/playlist?list=PL57F01972FF119B66" search-title="Shiv Mahapuran - Youtube">Click here</a>
 - Learn `Xournal`: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md#installed-xournalpp-pp-means--ie-xournal" search-title="Learn `Xournal`">Click here</a>
-- Learn Hyperlocal Farm: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hyperlocal-farms.md" search-title="Learn Hyperlocal Farm">Click here</a>
+- Learn Hyperlocal Farm: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hyperlocal-farms.md" search-title="Learn Hyperlocal Farm">Click here</a> (#plantation, #crops, #food)
 - Learn Airbnb: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-airbnb.md" search-title="Learn Airbnb">Click here</a>
 - TODO: Do the flutter codelab. 💣💣
 - Learn Microfrontend: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-microfrontend.md" search-title="Learn Microfrontend">Click here</a>
@@ -908,7 +912,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn OneCard: <a href="https://docs.google.com/document/d/1pT_FQOE30KTWwcuYdYT-ZjQACIm4ozKbbM6s76Lfsqs/edit?tab=t.0" search-title="Learn OneCard">Click here</a>
 - qr generators: <a href="https://docs.google.com/document/d/1neH211qetPGM9-WpeiQE1WSoIRo_TqdHYK7BudqVIC0/edit?tab=t.0" search-title="qr generators">Click here</a>
   - ❤️ [zxpsuper.github.io/qrcode-with-logos](https://zxpsuper.github.io/qrcode-with-logos)
-- Get words from book (in Learn Expressjs repo): <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
 - Learn Openai (github repository): <a href="https://github.com/sahilrajput03/learn-openai" search-title="Learn Openai (github repository)">Click here</a>
 - Learn npm: <a href="https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0" search-title="Learn npm">Click here</a>
 - Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: <a href="https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0" search-title="Libraries and tools available for creating application walkthroughs or guided tours for frontend applications">Click here</a>
@@ -917,11 +920,16 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Algolia: <a href="https://docs.google.com/document/d/1WMaQCZ4rf4xs5mwJtBITiIwrJySLomLO_4YuNmK1X4k/edit?tab=t.0#heading=h.tdd10xy6k6gb" search-title="Learn Algolia">Click here</a>
 - Learn `tiged` (alternate of degit): <a href="https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0" search-title="Learn `tiged` (alternate of degit) (uses a tag)">Click here</a>
 - ❤️ running-files-in-browser: <a href="https://github.com/sahilrajput03/running-files-in-browser" search-title="running-files-in-browser (#Running files in browser)">Click here</a>
-- Privacy Page Examples:
-	- Telegram Privacy Policy https://telegram.org/privacy
+- Privacy Page Examples: (Tags: #TOS)
+	- Meta/Facebook:
+	 	- Meta Terms for WhatsApp Business: [whatsapp.com/legal/meta-terms-whatsapp-business](https://www.whatsapp.com/legal/meta-terms-whatsapp-business)
+			- Policy on Government and Political Use: [business.whatsapp.com/policy?#policy_on_government_and_political_use](https://business.whatsapp.com/policy?#policy_on_government_and_political_use)
+		- Meta Hosting Terms for Cloud API: [facebook.com/legal/Meta-Hosting-Terms-Cloud-API](https://www.facebook.com/legal/Meta-Hosting-Terms-Cloud-API)
+ 	- Google - Terms of Service: [policies.google.com/terms](https://policies.google.com/terms)
+	- Telegram Privacy Policy [telegram.org/privacy](https://telegram.org/privacy)
 	- Recaho: [Click here](https://www.recaho.com/qrCodePhotoMenu) (click on Terms and Conditions the page)
 	- coqui.ai: [coqui.ai/privacy](https://coqui.ai/privacy)
-	- Linode: [Click here](https://www.linode.com/legal/)
+	- Linode: [linode.com/legal](https://www.linode.com/legal)
  - ❤️ Watch youtube with friends (Tags: #watch youtube together, #watch together, #watch videos together): [Click here](https://docs.google.com/document/d/1nwVkznZWRmZ54rAF47EZxPeisB_ewWeVJ8FiKRfMX8w/edit?tab=t.0#heading=h.6o93yg7tpo0z)
 - ❤️❤️❤️❤️  Process Signals: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0)
 	- 🙂 SIGTERM(15)[DEFAULT when you run `kill PID`, Trigger Graceful shutdown]
@@ -945,6 +953,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - ❤️ Estimated Time (ET) & Task Deadline(TD) for Tasks and Project: [Click here](https://docs.google.com/document/d/1y1zX6WO7SfgxoX0Fe9tjMZhFspqYhoHayqSAiUWSVaw/edit?tab=t.0#heading=h.7bl2gjocpl5c)
 - ❤️Learn Razorpay: [Click here](https://docs.google.com/document/d/1ExXrRMalD2i-ZBc2mOFSTh47asqkP8MRNiVtAW3lvlc/edit?tab=t.154p77cbsbnz)
 - Learn Ruby on Rails: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails)
+- Learn php: [Click here](https://github.com/sahilrajput03/learning-php)
+- Learn zapier: [From ChatGPT](https://chatgpt.com/c/689f7bef-2090-8323-8f6e-2de8135110cd) (zapier.com) (suggested resource from Pieter Levels in his book - "make", pg. 67)
+- Olark: [Click here](https://www.olark.com/) *(platform like Tawk, suggested by Pieter Levels in his book - "make", pg. 67)*
+- Learn Bun: [Click here](https://docs.google.com/document/d/17bC0pmNsMlEuytkuhUBgFcrMzTTxfg85mhj_upTu3XA/edit?tab=t.0)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
