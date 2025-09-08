@@ -362,6 +362,9 @@ Mass
 Currency
 ========
 **For fastest conversion from dollar to inr you can simply multiply by 100 (~84 ₹/$).**
+Also,
+- 100 cents = 1 dollar = 1 buck
+(Tags: #dollars, #bucks)
 
 $ to ₹ Conversion factor: 83 ₹/$
 ₹ to $ Conversion factor: 0.012 $/₹
