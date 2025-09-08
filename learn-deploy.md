@@ -14,6 +14,8 @@
       - You can open and save any file (editing PHP file is so awesome) with `ctrl+s` directly.
       - When uploading multiple files/folders via "File Manager" by drag and drop from "Finder", you'll be asked to "Contine" (skip) or "Replace" method for files with same name already existing for **ONLY ONCE** and the same decision will be applied to all files. [TESTED]
   - ❤️ How to Set Up Remote MySQL Access in Hostinger Docs: [Click here](https://www.hostinger.com/support/1583546-how-to-set-up-remote-mysql-access-in-hostinger) [Tested]
+  - VPS Charges: [Click here](https://www.hostinger.com/in/vps-hosting#pricing)
+    - Is Node.js Supported at Hostinger?: [Click here](https://www.hostinger.com/support/1583661-is-node-js-supported-at-hostinger/)
 
 ## Managing live traffic handling in akamai or any other linux
 
