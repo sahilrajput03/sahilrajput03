@@ -960,6 +960,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn zapier: [From ChatGPT](https://chatgpt.com/c/689f7bef-2090-8323-8f6e-2de8135110cd) (zapier.com) (suggested resource from Pieter Levels in his book - "make", pg. 67)
 - Olark: [Click here](https://www.olark.com/) *(platform like Tawk, suggested by Pieter Levels in his book - "make", pg. 67)*
 - Learn Bun: [Click here](https://docs.google.com/document/d/17bC0pmNsMlEuytkuhUBgFcrMzTTxfg85mhj_upTu3XA/edit?tab=t.0)
+- WhatsApp Cloud API: *Refer your Daily Planner* (Tags: WhatsApp Bot, #whatsapp api)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
