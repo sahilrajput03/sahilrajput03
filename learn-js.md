@@ -6,6 +6,12 @@
 - Notes of learning Javascript from State of Javascript 2021: [Click here](./learn-state-of-javascript.md)
 - [jsconsole.com](https://jsconsole.com) (by remy)
 
+## js-confuser
+
+- https://js-confuser.com
+- Playground: https://js-confuser.com/editor
+- NPM: `npm i js-confuser` ([npm](https://www.npmjs.com/package/js-confuser))
+
 ## ❤️ `window.find` in browser
 
 `window.find('myText')` highlights `myText` and if you run it again it will find next word and returns `false` when there is no next result.
