@@ -163,7 +163,7 @@ pacman -S certbot
 # ⚠️ ⚠️ Before following any of the following ways:
 #    1. Make sure you stop nginx before running certbot because
 #           certbot needs to host files momentarily on port 80 to verify the
-#           domain and you can do this by running - `systemctl stop nginx`.
+#           domain and you can do this by running - `sudo systemctl stop nginx`.
 #           Also, ensure that no other app is listening on port 80 as well.
 #     2. Make sure you have mapped your desired domains to this machine,
 #           either using a DDNS domain or (although untested) by setting a
