@@ -192,6 +192,19 @@ cat /dev/null
 - **Learn Javascript:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-js.md)
 
 ```js
+Nullish coalescing operator (??)
+================================
+The nullish coalescing (??) operator is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+
+const foo = null ?? "default string";
+console.log(foo);
+// Expected output: "default string"
+
+const baz = 0 ?? 42;
+console.log(baz);
+// Expected output: 0
+
+
 SLEEP FUNCTION
 ==============
 await new Promise(r => setTimeout(r, 2000))
