@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && rm -rf ../thoughts-principles && cp -r dist ../thoughts-principles",
+    "build": "tsc && vite build && npm run clean_build_folder && cp -r dist ../",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clean_build_folder": "cd .. && find . -maxdepth 1 ! -name '.' ! -name 'thoughts-principles-frontend' -exec rm -rf {} +",
+    "dry___clean_build_folder": "cd .. && find . -maxdepth 1 ! -name '.' ! -name 'thoughts-principles-frontend' -exec echo {} +",
+    "inspiration__of_folder_structure_and_clean_build_command": "https://chatgpt.com/c/68d3b2de-704c-832d-ab46-2d61edd98080"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.1",
