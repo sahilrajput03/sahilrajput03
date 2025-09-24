@@ -1,4 +1,4 @@
-# Thoughts & Principles
+# Thoughts & Principles Frontend (React)
 
 ## How to publish new thoughts?
 

@@ -7,14 +7,14 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-    # Runs the workflow only when files under the thoughts-principles-react directory are changed
+    # Runs the workflow only when files under below specified directory are changed
     paths:
-      - 'thoughts-principles-react/**'
+      - 'thoughts-principles/thoughts-principles-frontend/**'
   pull_request:
     branches: [ main ]
-    # Runs the workflow only when files under the thoughts-principles-react directory are changed
+    # Runs the workflow only when files under below specified directory are changed
     paths:
-      - 'thoughts-principles-react/**'
+      - 'thoughts-principles/thoughts-principles-frontend/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,8 +29,8 @@ jobs:
     # Set defaults for all steps in a job
     defaults:
       run:
-        # Changes the working directory to the thoughts-principles-react directory (Docs: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_iddefaultsrun)
-        working-directory: ./thoughts-principles-react
+        # Changes the working directory below specifed path (Docs: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_iddefaultsrun)
+        working-directory: ./thoughts-principles/thoughts-principles-frontend
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -48,7 +48,7 @@ jobs:
       # Commits the changes with the specified message
       - name: Commit changes
         run: |
-          # Go to parent directory of default `working-directory` i.e., here it is parent of `./thoughts-principles-react`
+          # Go to parent directory of default `working-directory`
           cd ..
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
