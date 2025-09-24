@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && npm run clean_build_folder && cp -r dist ../",
+    "build": "tsc && vite build && npm run clean_build_folder && cp -r dist/* ..",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "clean_build_folder": "cd .. && find . -maxdepth 1 ! -name '.' ! -name 'thoughts-principles-frontend' -exec rm -rf {} +",
