@@ -1,4 +1,4 @@
-- Aristotle thoughts - [google images](https://www.google.com/search?num=10&newwindow=1&sca_esv=9c416a9b5188b002&sxsrf=AHTn8zruVI_OU1tmMknobHQ6WByl4bSCKQ:1737823617365&q=aristotle+thoughts&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBs5KbvfUChveCKqCmofFTOmkNOxr9C3wSBM2FopsNumV9Tvi66xCAHUFf7DERH3YI3RFdNWVmjRqJEyVAw379QArhro7rACUW4d2FStHsx3Uuor5Un7HT6jMWsE5_eF16j2iqLHFOIIUNu8t1Lla6u9Aq5OIGdU2m68_ni_9LcwwxxFpwA&sa=X&ved=2ahUKEwifvZS7qZGLAxVRT2wGHe9HFmYQtKgLegQIERAB&biw=1600&bih=812&dpr=1.8).
+- Aristotle thoughts - [Google images](https://www.google.com/search?num=10&newwindow=1&sca_esv=9c416a9b5188b002&sxsrf=AHTn8zruVI_OU1tmMknobHQ6WByl4bSCKQ:1737823617365&q=aristotle+thoughts&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBs5KbvfUChveCKqCmofFTOmkNOxr9C3wSBM2FopsNumV9Tvi66xCAHUFf7DERH3YI3RFdNWVmjRqJEyVAw379QArhro7rACUW4d2FStHsx3Uuor5Un7HT6jMWsE5_eF16j2iqLHFOIIUNu8t1Lla6u9Aq5OIGdU2m68_ni_9LcwwxxFpwA&sa=X&ved=2ahUKEwifvZS7qZGLAxVRT2wGHe9HFmYQtKgLegQIERAB&biw=1600&bih=812&dpr=1.8).
 
 - It is just like you can not leave your view point. They can't lose their view point too. ~ Sahil
 
