@@ -9,12 +9,12 @@ on:
     branches: [ main ]
     # Runs the workflow only when files under below specified directory are changed
     paths:
-      - 'thoughts-principles/thoughts-principles-frontend/**'
+      - 'thoughts/thoughts-frontend/**'
   pull_request:
     branches: [ main ]
     # Runs the workflow only when files under below specified directory are changed
     paths:
-      - 'thoughts-principles/thoughts-principles-frontend/**'
+      - 'thoughts/thoughts-frontend/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
     defaults:
       run:
         # Changes the working directory below specifed path (Docs: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_iddefaultsrun)
-        working-directory: ./thoughts-principles/thoughts-principles-frontend
+        working-directory: ./thoughts/thoughts-frontend
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
