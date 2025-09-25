@@ -946,6 +946,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 				- No limit for number of sites ✅
 				- Sync with GitHub or GitLab
 				- **Publish with a gitbook.io domain**
+		- (Deprecated) [https://github.com/GitbookIO/gitbook-cli](https://github.com/GitbookIO/gitbook-cli)
 	- Learn - **Read the Docs**: <a href="https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md" search-title="Learn Read the Docs">Click here</a> (TLDR; **Please use vitepress instead**)
 - **❤️ Learn Vitejs, VitePress, Vitest**: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0){: search-title="❤️ Learn Vitejs, VitePress, Vitest"}
 - Learn nps: <a href="https://docs.google.com/document/d/1EcbKSm-csGMfun5SBLhgc1HQeDUzX2zRf_4oAZRRzbs/edit?tab=t.0" search-title="Learn nps">Click here</a>
