@@ -941,6 +941,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **❤️Documentation Tools**:
 	- Learn **VitePress** [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0)
 	- Learn **Gitbook**:
+		- *How to run a gitbook [like this](https://github.com/sahilrajput03/refactoring-ui-summary-good-ui) (ChatGPT): [Click here](https://chatgpt.com/c/68d500da-1c7c-832e-b4fb-c6500809d518)*
 		- Pricing: [Click here](https://www.gitbook.com/pricing) **(tldr; Premium needed only if you want to add custom domain)**
 			- Free plan
 				- No limit for number of sites ✅
