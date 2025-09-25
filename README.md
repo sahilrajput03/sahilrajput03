@@ -939,7 +939,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn npm: <a href="https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0" search-title="Learn npm">Click here</a>
 - Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: <a href="https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0" search-title="Libraries and tools available for creating application walkthroughs or guided tours for frontend applications">Click here</a>
 - **❤️Documentation Tools**:
-	- **VitePress** [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0)
+	- Learn **VitePress** [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0)
 	- Learn **Gitbook**:
 		- Pricing: [Click here](https://www.gitbook.com/pricing) **(tldr; Premium needed only if you want to add custom domain)**
 			- Free plan
