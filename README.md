@@ -938,15 +938,16 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Openai (github repository): <a href="https://github.com/sahilrajput03/learn-openai" search-title="Learn Openai (github repository)">Click here</a>
 - Learn npm: <a href="https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0" search-title="Learn npm">Click here</a>
 - Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: <a href="https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0" search-title="Libraries and tools available for creating application walkthroughs or guided tours for frontend applications">Click here</a>
-- **Documentation Tools**:
-	- Learn - **Read the Docs**: <a href="https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md" search-title="Learn Read the Docs">Click here</a> (TLDR; **Please use vitepress instead**)
+- **❤️Documentation Tools**:
+	- **VitePress** [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0)
+**Please use vitepress instead**)
 	- Learn **Gitbook**:
 		- Pricing: [Click here](https://www.gitbook.com/pricing) **(tldr; Premium needed only if you want to add custom domain)**
 			- Free plan
 				- No limit for number of sites ✅
 				- Sync with GitHub or GitLab
 				- **Publish with a gitbook.io domain**
-	- **VitePress** *(refer below link of Learn Vitejs, VitePress, Vitest)*
+	- Learn - **Read the Docs**: <a href="https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md" search-title="Learn Read the Docs">Click here</a> (TLDR; 
 - **❤️ Learn Vitejs, VitePress, Vitest**: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0){: search-title="❤️ Learn Vitejs, VitePress, Vitest"}
 - Learn nps: <a href="https://docs.google.com/document/d/1EcbKSm-csGMfun5SBLhgc1HQeDUzX2zRf_4oAZRRzbs/edit?tab=t.0" search-title="Learn nps">Click here</a>
 - Learn Algolia: <a href="https://docs.google.com/document/d/1WMaQCZ4rf4xs5mwJtBITiIwrJySLomLO_4YuNmK1X4k/edit?tab=t.0#heading=h.tdd10xy6k6gb" search-title="Learn Algolia">Click here</a>
