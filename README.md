@@ -983,6 +983,12 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Bun: [Click here](https://docs.google.com/document/d/17bC0pmNsMlEuytkuhUBgFcrMzTTxfg85mhj_upTu3XA/edit?tab=t.0)
 - WhatsApp Cloud API: *Refer your Daily Planner* (Tags: WhatsApp Bot, #whatsapp api)
 - Learn Digital Marketing: [Click here](https://docs.google.com/document/d/1SPJ0Dvv8I0EThOcaqockdVcIxEEyPTGj-6EP_ZQG8zc/edit?tab=t.0)
+- Learn gitbook:
+	- Pricing: [Click here](https://www.gitbook.com/pricing) **(tldr; Premium needed only if you want to add custom domain)**
+		- Free plan
+			- No limit for number of sites ✅
+			- Sync with GitHub or GitLab
+			- Publish with a gitbook.io domain
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
