@@ -62,6 +62,11 @@
 <br />
 <br />
 
+## Notes of Sept 2025
+
+- **What is better, - or _ in filename?** [Click here](https://chatgpt.com/c/68d4daa3-d064-832b-baee-badd55a0f109) (ChatGPT)
+	- *When is space not good?* (check above link)
+
 ## Notes of August 2025
 
 <img width="600" height="544" alt="image" src="https://github.com/user-attachments/assets/c1148ee1-444f-4580-af6d-508c635ed4d3" />
