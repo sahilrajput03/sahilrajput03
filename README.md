@@ -995,6 +995,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Digital Marketing: [Click here](https://docs.google.com/document/d/1SPJ0Dvv8I0EThOcaqockdVcIxEEyPTGj-6EP_ZQG8zc/edit?tab=t.0)
 - JSON-RPC: [Click here](https://www.jsonrpc.org/)
 	- Awesome - Text to Video: [xtranormal.com](https://www.xtranormal.com/)
+ - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
