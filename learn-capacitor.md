@@ -75,10 +75,9 @@ Capawesome follows the sponsorware release strategy, that enables developers to 
   - Android Developers > Develop > Reference | Manifest.permission: [Click here](https://developer.android.com/reference/android/Manifest.permission#MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL)
   - [YouTube Search - Foreground Service](https://www.youtube.com/results?search_query=foreround+service+android)
   - CapAwesome - Foreground Service Plugin: [Click here](https://capawesome.io/plugins/android-foreground-service/)
-
-**Implementing Push notifications in Capacitor:**
-- Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
-- Install updates into apps without needing to update app from playstore: [https://capawesome.io/cloud/live-updates/](https://capawesome.io/cloud/live-updates/)
+- **Implementing Push notifications in Capacitor:**
+  - Article from CapAwesome: [Click here](https://capawesome.io/blog/the-push-notifications-guide-for-capacitor/)
+  - Install updates into apps without needing to update app from playstore: [https://capawesome.io/cloud/live-updates/](https://capawesome.io/cloud/live-updates/)
 
 ## We can use android widget with capacitor
 
