@@ -819,7 +819,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md){: search-title="Learn Paypal Subscription And Database Schema"}
 - Learn Kdenlive (video editor): [Click here](https://docs.google.com/document/d/1Vsh1w57wuiJpFavR4md4H-F7thS-X5b174Uv2iCTe2U/edit){: search-title="Learn Kdenlive (video editor)"}
 - Learn storyboook: [Click here](https://github.com/sahilrajput03/learn-react/tree/main/learn-storybook){: search-title="Learn storyboook"}
-- Friends Github Profiles: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/friends-github.md){: search-title="Friends Github Profiles"}
+- Friends, Developer Connections: [Click here](https://sahilrajput.com/friends){: search-title="Friends, Developer Connections"}
 - Learn Jira: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-jira.md){: search-title="Learn Jira"}
 - Learn RxJs: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-rxjs.md){: search-title="Learn RxJs"}
 - ❤️ Learn electron: [Click here](https://github.com/sahilrajput03/learn-electron)
