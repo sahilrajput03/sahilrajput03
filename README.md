@@ -27,7 +27,7 @@
 	<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Dhyaan/Meditation</a>,
 	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
 	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
-	<a href="https://sahilrajput.com/thoughts-principles">Thoughts & Principles</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts-principles-react/src/thoughts.md">md</a>),
+	<a href="https://sahilrajput.com/thoughts">Thoughts</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts/thoughts-frontend/src/thoughts.md">md</a>),
 	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>,
 	<a href="/celebration-by-simplebeing.html">Celebration by Simplebeing</a>
 </h6>
@@ -61,6 +61,11 @@
 
 <br />
 <br />
+
+## Notes of Sept 2025
+
+- **What is better, - or _ in filename?** [Click here](https://chatgpt.com/c/68d4daa3-d064-832b-baee-badd55a0f109) (ChatGPT)
+	- When is space not good? *(check above link)*
 
 ## Notes of August 2025
 
@@ -634,7 +639,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Learn SSH: [Click here](https://docs.google.com/document/d/11_Gc4hjrtj1xs4Cxm6NeitjFSYfr_EoNU5C84FJpskU/edit?tab=t.0){: search-title="Learn `ssh-keygen` - Generate ssh key pairs (#generating ssh key)"} *(Tags: #learn `ssh-keygen`, #generate ssh key pairs, #generating ssh key)*
 	- **Learn CLI binaries:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cli-binary.md)
 	- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
-	- **Learn SOPS:** - [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
+	- **Learn SOPS:** [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
 	- **Vim-notes:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/vim.md)
 - **Learn Vscode:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vscode.md)
 	- Using Vslive Share: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vs-live-share.md){: search-title="Using Vslive Share"}
@@ -817,7 +822,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Friends Github Profiles: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/friends-github.md){: search-title="Friends Github Profiles"}
 - Learn Jira: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-jira.md){: search-title="Learn Jira"}
 - Learn RxJs: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-rxjs.md){: search-title="Learn RxJs"}
-- ❤️ Learn Vitejs, VitePress, Vitest: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0){: search-title="❤️ Learn Vitejs, VitePress, Vitest"}
 - ❤️ Learn electron: [Click here](https://github.com/sahilrajput03/learn-electron)
 - Learn `Chalk` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chalkjs.md){: search-title="Learn `Chalk` (node library)"}
 - Learn `Colors` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-colors-npm.md){: search-title="Learn `Colors` (node library)"}
@@ -934,7 +938,18 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Openai (github repository): <a href="https://github.com/sahilrajput03/learn-openai" search-title="Learn Openai (github repository)">Click here</a>
 - Learn npm: <a href="https://docs.google.com/document/d/1COC4fBLeQ1iCm0pVIiily_YqdaP2EI991bDEss5KqkU/edit?tab=t.0" search-title="Learn npm">Click here</a>
 - Libraries and tools available for creating application walkthroughs or guided tours for frontend applications during sign-up or onboarding processes: <a href="https://docs.google.com/document/d/1OPwv8ER_RNXAP0O_aYVQ40GxQl2VFuuzcSLjPMmIeDQ/edit?tab=t.0" search-title="Libraries and tools available for creating application walkthroughs or guided tours for frontend applications">Click here</a>
-- Learn Read the Docs (please use vitepress instead): <a href="https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md" search-title="Learn Read the Docs">Click here</a>
+- **❤️Documentation Tools**:
+	- Learn **VitePress** [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0)
+	- Learn **Gitbook**:
+		- *How to run a gitbook [like this](https://github.com/sahilrajput03/refactoring-ui-summary-good-ui) (ChatGPT): [Click here](https://chatgpt.com/c/68d500da-1c7c-832e-b4fb-c6500809d518)*
+		- Pricing: [Click here](https://www.gitbook.com/pricing) **(tldr; Premium needed only if you want to add custom domain)**
+			- Free plan
+				- No limit for number of sites ✅
+				- Sync with GitHub or GitLab
+				- **Publish with a gitbook.io domain**
+		- (Deprecated) [https://github.com/GitbookIO/gitbook-cli](https://github.com/GitbookIO/gitbook-cli)
+	- Learn - **Read the Docs**: <a href="https://github.com/sahilrajput03/python-docs/blob/main/README_NOTES.md" search-title="Learn Read the Docs">Click here</a> (TLDR; **Please use vitepress instead**)
+- **❤️ Learn Vitejs, VitePress, Vitest**: [Click here](https://docs.google.com/document/d/1EgtttfgHaw3vKx5cbVPZ7qgzDi3-DokBVFm16HdpWx0/edit?tab=t.0){: search-title="❤️ Learn Vitejs, VitePress, Vitest"}
 - Learn nps: <a href="https://docs.google.com/document/d/1EcbKSm-csGMfun5SBLhgc1HQeDUzX2zRf_4oAZRRzbs/edit?tab=t.0" search-title="Learn nps">Click here</a>
 - Learn Algolia: <a href="https://docs.google.com/document/d/1WMaQCZ4rf4xs5mwJtBITiIwrJySLomLO_4YuNmK1X4k/edit?tab=t.0#heading=h.tdd10xy6k6gb" search-title="Learn Algolia">Click here</a>
 - Learn `tiged` (alternate of degit): <a href="https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0" search-title="Learn `tiged` (alternate of degit) (uses a tag)">Click here</a>
@@ -978,6 +993,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Bun: [Click here](https://docs.google.com/document/d/17bC0pmNsMlEuytkuhUBgFcrMzTTxfg85mhj_upTu3XA/edit?tab=t.0)
 - WhatsApp Cloud API: *Refer your Daily Planner* (Tags: WhatsApp Bot, #whatsapp api)
 - Learn Digital Marketing: [Click here](https://docs.google.com/document/d/1SPJ0Dvv8I0EThOcaqockdVcIxEEyPTGj-6EP_ZQG8zc/edit?tab=t.0)
+- JSON-RPC: [Click here](https://www.jsonrpc.org/)
+	- Awesome - Text to Video: [xtranormal.com](https://www.xtranormal.com/)
+ - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
