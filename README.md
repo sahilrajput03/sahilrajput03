@@ -996,6 +996,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - JSON-RPC: [Click here](https://www.jsonrpc.org/)
 	- Awesome - Text to Video: [xtranormal.com](https://www.xtranormal.com/)
  - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
+- ❤️Learn Web Notifications: (Andorid used for below testing: Poco M4 Pro 5G)
+	- https://www.bennish.net/web-notifications.html (Works on desktop, **NOT** on Android)
+ 	- https://cleverpush.com/en/test-notifications/ (Does **NOT** work on desktop, works on Android)
+  	- https://pushalert.co/demo (Works on desktop AND works on Android)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
