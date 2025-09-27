@@ -1001,6 +1001,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- https://www.bennish.net/web-notifications.html (Works on desktop, **NOT** on Android)
  	- https://cleverpush.com/en/test-notifications/ (Does **NOT** work on desktop, works on Android)
   	- https://pushalert.co/demo (Works on desktop AND works on Android)
+- Learn Numerology: [Click here](https://docs.google.com/document/d/12pf3QMIW3h9WN476wjFSriiKkR1n8jrkTHgw-ohaizE/edit?tab=t.0)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
