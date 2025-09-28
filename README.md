@@ -67,6 +67,31 @@
 - **What is better, - or _ in filename?** [Click here](https://chatgpt.com/c/68d4daa3-d064-832b-baee-badd55a0f109) (ChatGPT)
 	- When is space not good? *(check above link)*
 
+ - **The Y cominator problem:** (source: [ChatGPT](https://chatgpt.com/c/68d91c99-91ec-832e-88bd-519db9c11f64))
+
+ ```js
+const Y = fun => {
+    const f = x => {
+        return fun(v => {
+            return x(x)(v);
+        });
+    };
+
+    return (f)(f);
+};
+
+// Factorial
+const factorial = Y(recursiveFun => {
+    return n => {
+        // Note: `n` is a variable that represents the position (or index)
+        //          of a term in the sequence.
+        return n === 0 ? 1 : n * recursiveFun(n - 1);
+    };
+});
+
+console.log(factorial(5)); // 120
+```
+
 ## Notes of August 2025
 
 <img width="600" height="544" alt="image" src="https://github.com/user-attachments/assets/c1148ee1-444f-4580-af6d-508c635ed4d3" />
