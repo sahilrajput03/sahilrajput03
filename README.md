@@ -67,7 +67,7 @@
 - **What is better, - or _ in filename?** [Click here](https://chatgpt.com/c/68d4daa3-d064-832b-baee-badd55a0f109) (ChatGPT)
 	- When is space not good? *(check above link)*
 
- - **The Y cominator problem:** (source: [ChatGPT](https://chatgpt.com/c/68d91c99-91ec-832e-88bd-519db9c11f64))
+ - **The Y cominator problem:** (source: [ChatGPT](https://chatgpt.com/c/68d916d2-02b4-8325-8d9d-626cdbb34c52)) (Why `y combinator` named `y combinator`?)
 
  ```js
 const Y = fun => {
