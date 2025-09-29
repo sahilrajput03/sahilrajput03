@@ -92,6 +92,8 @@ const factorial = Y(recursiveFun => {
 console.log(factorial(5)); // 120
 ```
 
+- What does utm_source stands for? [ChatGPT](https://chatgpt.com/c/68da9f8a-f7a8-8328-b71e-8753b24743af)
+
 ## Notes of August 2025
 
 <img width="600" height="544" alt="image" src="https://github.com/user-attachments/assets/c1148ee1-444f-4580-af6d-508c635ed4d3" />
