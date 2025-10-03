@@ -852,7 +852,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - ❤️ Learn electron: [Click here](https://github.com/sahilrajput03/learn-electron)
 - Learn `Chalk` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chalkjs.md){: search-title="Learn `Chalk` (node library)"}
 - Learn `Colors` (node library): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-colors-npm.md){: search-title="Learn `Colors` (node library)"}
-- Learn Spirituality: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-spirituality.md){: search-title="Learn Spirituality"}
 - Learn Skype: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-skype.md){: search-title="Learn Skype"}
 - Learn SEO, react-helmet: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-seo.md){: search-title="Learn SEO, react-helmet"}
 - Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-leaflet.md){: search-title="Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓)"}
