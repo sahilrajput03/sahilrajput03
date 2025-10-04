@@ -5,7 +5,7 @@
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
 
-<div align="right">
+<div>
 	<a target="_blank" style="font-style: italic;" href="http://192.168.18.2:8080">Family Server</a>
 </div>
 
