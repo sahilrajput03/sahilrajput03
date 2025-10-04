@@ -784,7 +784,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Youtube Hacks:**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/youtube-hacks.md)
 - **Learn Travis:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-travis.md)
 - **Learn Socket.io/Websockets:** [Click here](https://github.com/sahilrajput03/learn-websockets)
-- **Public Journal:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/public-journal.md)
 - **Learn React:** [Github Repository](https://github.com/sahilrajput03/learn-react), ❤️[Google Doc](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0#heading=h.pzs518kfcp54)
 - **Learn React Native**: [Click here](https://github.com/sahilrajput03/learn-react-native){: search-title="Learn React Native"}
 - ❤️Funny Loading Messages: <a href="https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32" search-title="Funny Loading Messages">Click here</a>
