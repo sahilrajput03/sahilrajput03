@@ -6,11 +6,11 @@
 <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
 
 <div align="right">
-	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
+	<a target="_blank" style="font-style: italic;" href="http://192.168.18.2:8080">Family Server</a>
 </div>
 
 <div align="right">
-	<a target="_blank" style="font-style: italic;" href="http://192.168.18.2:8080">Edit this page</a>
+	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
 </div>
 
 <h1 align="center">Sahil Rajput</h1>
