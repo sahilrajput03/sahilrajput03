@@ -5,12 +5,13 @@
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
 
-<div>
-	<a target="_blank" style="font-style: italic;" href="http://192.168.18.2:8080">Family Server</a>
-</div>
-
-<div align="right">
-	<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
+<div style="display: flex; justify-content: space-between;">
+	<div>
+		<a target="_blank" style="font-style: italic;" href="http://192.168.18.2:8080">Family Server</a>
+	</div>
+	<div>
+		<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
+	</div>
 </div>
 
 <h1 align="center">Sahil Rajput</h1>
