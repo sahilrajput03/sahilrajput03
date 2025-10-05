@@ -160,6 +160,10 @@ Quick Links:
 # src: https://archlinux.org/packages/community/any/certbot/
 pacman -S certbot
 
+## ❤️❤️❤️
+## ❤️❤️❤️ I have created bash function for quick usage - lc.zzz.update-ssl-certs-on-linode
+## ❤️❤️❤️
+
 # ⚠️ ⚠️ Before following any of the following ways:
 #    1. Make sure you stop nginx before running certbot because
 #           certbot needs to host files momentarily on port 80 to verify the
