@@ -1033,6 +1033,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
  	- https://cleverpush.com/en/test-notifications/ (Does **NOT** work on desktop, works on Android)
   	- https://pushalert.co/demo (Works on desktop AND works on Android)
 - Learn Numerology: [Click here](https://docs.google.com/document/d/12pf3QMIW3h9WN476wjFSriiKkR1n8jrkTHgw-ohaizE/edit?tab=t.0)
+- npm packages:
+	- backend: [Learn Express Doc](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0)
+ 	- frontend: [Learn React Doc](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
