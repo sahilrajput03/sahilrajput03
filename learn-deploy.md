@@ -177,6 +177,9 @@ sudo certbot certonly --standalone --email sahilrajput03@gmail.com --agree-tos -
 # Note: I included more domains to existing ssl certificate files simply by running below command:
 sudo certbot certonly --standalone --email sahilrajput03@gmail.com --agree-tos --no-eff-email -d api.mypot.in -d api-staging.mypot.in -d mypot.in -d staging.mypot.in -d webhook.mypot.in -d dev.mypot.in -d api-dev.mypot.in -d chii.mypot.in -d ai.mypot.in
 # 🎉 Note: I tried to generate wildcard domains handling but failed -- though I instantly reliased this is not what I actually want because I might want to utilise certain subdomains for other usage in future.
+# 🛑 NOTE: I tried to add ssl for bare ip address as well i.e, by appending `-d 192.46.209.170` to above command but I got following error:
+#         ERROR - `Requested name 192.46.209.170 is an IP address. The Let's Encrypt certificate authority will not issue certificates for a bare IP address.`
+
 
 
 # ✅ WAY 2: Use interactive way:
