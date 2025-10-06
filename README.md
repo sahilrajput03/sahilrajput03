@@ -523,6 +523,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- [typeform.com](https://www.typeform.com/) (used by Pieter Levels for fundraising for his book "Make" even before start writing the book, pg. 68).
 - Download YouTube Videos:
 	- [yt1d.com](https://yt1d.com)
+	- [en1.savefrom.net](https://en1.savefrom.net)
 	- [Cobalt.tools](https://cobalt.tools/) ([github](https://github.com/imputnet/cobalt))
 	- Use wikihow - Download vidro from youtube.com
 - Remove background from an image: [Click here](https://www.remove.bg/upload)
@@ -755,7 +756,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Favourite youtube channels**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/courses-list.md#awesome-tech-youtube-channels)
 - **Learn WebRTC:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-webrtc.md)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
-- **Useful Android App:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/free-lancing.md)
 - Learn Upwork (private repository): [Click here](https://github.com/sahilrajput03/learn-upwork){: search-title="Learn Upwork (private repository)"}
 - **Docker:**
@@ -866,6 +866,14 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Flameshot: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-flameshot.md){: search-title="Learn Flameshot"}
 - **Learn Capacitor:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-capacitor.md){: search-title="Learn Capacitor"}
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md){: search-title="Learn Android"}
+- Development on Android with Termux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
+- **Useful Android App:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/usefult-android-apps.md)
+- ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
+- ❤️Learn Web Notifications: (Andorid used for below testing: Poco M4 Pro 5G) *(Tags: Push notifications)*
+	- MDN Docs: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API)
+	- https://www.bennish.net/web-notifications.html (Works on desktop, **NOT** on Android)
+ 	- https://cleverpush.com/en/test-notifications/ (Does **NOT** work on desktop, works on Android)
+  	- https://pushalert.co/demo (Works on desktop AND works on Android)
 - Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/1yUaJp0BtPbT9pAuIZ8pUxmer_W-9qXoE7rNpnLuPLQA/edit?tab=t.juqaf7ck3yrz#heading=h.g09cwp7crv6x){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md){: search-title="Learn ChatGPT (My Notes)"}
 - Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main){: search-title="Learn PWA/TWA/WebAPK (Progressive Web Applications)"}
@@ -957,7 +965,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Markdown Autodocs: <a href="https://docs.google.com/document/d/1kg532M0dHBGgLTuRvc5RznHdRJX_P259rlyof6784Vg/edit?tab=t.0" search-title="Learn Markdown Autodocs">Click here</a>
 - ❤️ Learn Code Runner: <a href="https://docs.google.com/document/d/1xLXMFJSQide-kGKkkDRA2sjpApDR-eBlddl0cWyZJOE/edit?tab=t.0#heading=h.i48pxvjshf90" search-title="❤️ Learn Code Runner">Click here</a>
 - asciinema.org - Record and share your terminal sessions, the simple way: <a href="https://asciinema.org" search-title="asciinema.org - Record and share your terminal sessions, the simple way.">Click here</a>
-- Development on Android with Temux: <a href="https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r" search-title="Development on Android with Temux">Click here</a>
 - Learn Medusa: <a href="https://docs.google.com/document/d/165AHcMpImHilElvtQQCXaOINBgAIOJDQDhIzilCi5bI/edit?tab=t.0" search-title="Learn Medusa">Click here</a>
 - Learn pnpm: <a href="https://docs.google.com/document/d/1LkIzHHBajGRGiOn1Zd3-S4frKyl8zCttUxg6Qv6cUxY/edit?tab=t.0#heading=h.fkuov2w06tv0" search-title="Learn pnpm">Click here</a>
 - Learn PostgresSQL, SQLite (+prisma), MySQL: <a href="https://github.com/sahilrajput03/learning_sql/tree/main" search-title="Learn PostgresSQL and SQLite (+prisma)">Click here</a> 
@@ -1004,7 +1011,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn pm2: [Click here](https://docs.google.com/document/d/1f1_6fMv2B5TbGpWoMHdZQ2irZ8IRZCKH37k_SUpQvAI/edit?tab=t.0)
 - Learn rendering pdf in a website: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
 - Learn wordpress development: [Doc](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0), [Github](https://github.com/sahilrajput03/learn-wordpress-development)
-- Development on Android with Termux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
 - Good Printable Webpages:
   - All MDN Pages: [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
   - Articles from - Harvard: Professional & Executive Development Blog: [Click here](https://professional.dce.harvard.edu/blog/)
@@ -1026,12 +1032,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Digital Marketing: [Click here](https://docs.google.com/document/d/1SPJ0Dvv8I0EThOcaqockdVcIxEEyPTGj-6EP_ZQG8zc/edit?tab=t.0)
 - JSON-RPC: [Click here](https://www.jsonrpc.org/)
 	- Awesome - Text to Video: [xtranormal.com](https://www.xtranormal.com/)
- - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
-- ❤️Learn Web Notifications: (Andorid used for below testing: Poco M4 Pro 5G) *(Tags: Push notifications)*
-	- MDN Docs: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API)
-	- https://www.bennish.net/web-notifications.html (Works on desktop, **NOT** on Android)
- 	- https://cleverpush.com/en/test-notifications/ (Does **NOT** work on desktop, works on Android)
-  	- https://pushalert.co/demo (Works on desktop AND works on Android)
 - Learn Numerology: [Click here](https://docs.google.com/document/d/12pf3QMIW3h9WN476wjFSriiKkR1n8jrkTHgw-ohaizE/edit?tab=t.0)
 - npm packages:
 	- backend: [Learn Express Doc](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0)
