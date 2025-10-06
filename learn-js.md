@@ -1,6 +1,7 @@
 # Learn Javascript
 
 **Quick Links:**
+- ❤️❤️ Pre-birth Notes: [sahilrajput03.github.io](https://sahilrajput03.github.io/)
 - ❤️ Learn Javascript Date: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-javascript-date.md){: search-title="Learn Javascript Date"}
 - Js-Conf-2022: [Click here](notes-js-conf-2022.md)
 - A place to find the best open source projects related to the web platform: JS, HTML, CSS, but also TypeScript, Node.js, Deno, Bun: [bestofjs.org](https://bestofjs.org)
