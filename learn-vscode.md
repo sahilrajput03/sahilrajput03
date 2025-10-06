@@ -223,6 +223,7 @@ Consider using a `.vscode/tasks.json` file (you can autogenerate this file with 
 - ❤️ advanced-new-file: [Click here](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
 - ❤️ vscode-pdf: [Click here](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 - ❤️ NGINX Configuration Language Support: [Click here](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf)
+- ❤️ turbo-console-log: [Click here](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 
 ![image](https://user-images.githubusercontent.com/31458531/202106832-5ce4fdc5-b644-42dd-b252-297f3d647426.png)
 
