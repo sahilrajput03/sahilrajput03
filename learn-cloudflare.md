@@ -13,6 +13,11 @@ Cloudflare bot prevention on signups/forms: [https://blog.cloudflare.com/turnsti
      - For React:
        - @marsidev/react-turnstile: [npm](https://www.npmjs.com/package/@marsidev/react-turnstile), [github](https://github.com/marsidev/react-turnstile), [Demo](https://react-turnstile.vercel.app/basic)
 
+**Cobalt uses turnstile:**
+
+<img width="2788" height="1614" alt="image" src="https://github.com/user-attachments/assets/4db2019f-82d3-4b28-a912-0ea52690af03" />
+
+
 ## Sites using cloudflare
 
 ### 1. Openai uses cloudflare and it showed error like this on 23 Jan 2025**
