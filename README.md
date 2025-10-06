@@ -673,7 +673,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **PopOS Notes:** [sahilrajput03/my_bin/blob/master/notes/linux-notes.txt](https://github.com/sahilrajput03/my_bin/blob/master/notes/linux-notes.txt)
 	- **Learn SOPS:** [Click here](https://github.com/sahilrajput03/devopswithkubernetes/tree/main/learn-sops)
 	- **Vim-notes:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/vim.md)
-- **Learn Vscode:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vscode.md)
+- **Learn Vscode:** [Click here](https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.kzus0jlf648n)
 	- Using Vslive Share: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-vs-live-share.md){: search-title="Using Vslive Share"}
 - **Config** Files Repo: [Click here](https://github.com/sahilrajput03/config)
 - **Courses:** [Click here](https://docs.google.com/document/d/1rPTCIyUKA950XF4j0rQwZ_kUPL5liDX55vVnMvJgjfU/edit?tab=t.0#heading=h.bdv0cmaink4i)
