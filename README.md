@@ -756,7 +756,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Favourite youtube channels**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/courses-list.md#awesome-tech-youtube-channels)
 - **Learn WebRTC:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-webrtc.md)
 - **Learn Nextjs:** [Click here](https://github.com/sahilrajput03/nextjs-examples-testing)
-- **Useful Android App:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/usefult-android-apps.md)
 - **Learn Freelancing:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/free-lancing.md)
 - Learn Upwork (private repository): [Click here](https://github.com/sahilrajput03/learn-upwork){: search-title="Learn Upwork (private repository)"}
 - **Docker:**
@@ -868,6 +867,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Capacitor:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-capacitor.md){: search-title="Learn Capacitor"}
 - **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md){: search-title="Learn Android"}
 - Development on Android with Termux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
+- **Useful Android App:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/usefult-android-apps.md)
 - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
 - ❤️Learn Web Notifications: (Andorid used for below testing: Poco M4 Pro 5G) *(Tags: Push notifications)*
 	- MDN Docs: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API)
