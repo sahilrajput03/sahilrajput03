@@ -30,6 +30,18 @@ window.addEventListener('click', startAudioInterval, { once: true });
 
 [Source (ChatGPT)](https://chatgpt.com/c/687136b5-c2ec-8007-9919-5e6120fd39a2)
 
+For usage in browser please use:
+
+```js
+<script>
+  const $ = document.querySelector.bind(document);
+  const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
+
+  const el = $('#my-element'); // works
+  const items = $$('.item'); // works
+</script>
+```
+
 ## Using conditions in switch statement
 
 ```js
