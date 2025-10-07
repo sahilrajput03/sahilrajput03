@@ -26,11 +26,11 @@
 window.addEventListener('click', startAudioInterval, { once: true });
 ```
 
-## ❤️ (available only in devtool) Using `$` and `$$` in browser as syntax sugar for `document.querySelector` and `document.querySelectorAll` respectively
+## ❤️ Using `$` and `$$` in browser as syntax sugar for `document.querySelector` and `document.querySelectorAll` respectively
 
-[Source (ChatGPT)](https://chatgpt.com/c/687136b5-c2ec-8007-9919-5e6120fd39a2)
+[Source (ChatGPT)](https://chatgpt.com/c/687136b5-c2ec-8007-9919-5e6120fd39a2).
 
-For usage in browser please use:
+By default $ and $$ are only available only in devtool but you can add them in vanilla js as well via ([ChatGPT](https://chatgpt.com/c/68e41350-21a8-8323-bbc8-f3f481e11f20)):
 
 ```js
 <script>
