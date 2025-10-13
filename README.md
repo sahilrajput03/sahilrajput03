@@ -1030,7 +1030,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Ruby on Rails: [Click here](https://github.com/sahilrajput03/learn-rubyOnRails)
 - Learn php: [Click here](https://github.com/sahilrajput03/learning-php)
 - Learn zapier: [From ChatGPT](https://chatgpt.com/c/689f7bef-2090-8323-8f6e-2de8135110cd) (zapier.com) (suggested resource from Pieter Levels in his book - "make", pg. 67)
-- Olark: [Click here](https://www.olark.com/) *(platform like Tawk, suggested by Pieter Levels in his book - "make", pg. 67)*
+- Customer Service:
+	- Olark: [Click here](https://www.olark.com/) *(platform like Tawk, suggested by Pieter Levels in his book - "make", pg. 67)*
+	- Intercom: [Click here](https://www.intercom.com) *(Used by AiSensy for ai chatbot, seems amazing to me❤️)*
+	- Zendesk: [Click here](https://www.zendesk.com) *Another AI Agent service)
 - Learn Bun: [Click here](https://docs.google.com/document/d/17bC0pmNsMlEuytkuhUBgFcrMzTTxfg85mhj_upTu3XA/edit?tab=t.0)
 - WhatsApp Cloud API: *Refer your Daily Planner* (Tags: WhatsApp Bot, #whatsapp api)
 - Learn Digital Marketing: [Click here](https://docs.google.com/document/d/1SPJ0Dvv8I0EThOcaqockdVcIxEEyPTGj-6EP_ZQG8zc/edit?tab=t.0)
