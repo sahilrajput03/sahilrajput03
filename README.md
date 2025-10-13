@@ -8,7 +8,9 @@
 <div style="display: flex; justify-content: space-between;">
 	<div>
 		<a target="_blank" style="font-style: italic;" href="http://192.168.18.2:8080">Family Server</a>
+		<br />
 		<a target="_blank" style="font-style: italic;" href="https://www.youtube.com/playlist?list=PL6Rtnh6YJK7b_uvjq89Qkc9v53P4_RFlc">TempYouTubeLink - Playlist</a>
+		<br />
 		<a target="_blank" style="font-style: italic;" href="https://www.youtube.com/watch?v=VO9o-q7cb54">TempYouTubeLink - Video</a>
 	</div>
 	<div>
