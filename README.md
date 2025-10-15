@@ -210,7 +210,7 @@ cat /dev/null
 !!(() => {})
 ```
 
-## Text Better
+## ❤️Text Better
 
 **Some profound reasons why to text better?**
 
