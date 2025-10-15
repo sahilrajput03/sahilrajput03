@@ -30,6 +30,8 @@
 
 #### Packages published @ `npm.com`/`yarnpkg.com`
 
+*❤️Any package can be accessed via a short link via: [https://npm.im/rpc-middleware](https://npm.im/rpc-middleware)*
+
 - <a href="https://www.npmjs.com/package/rpc-middleware" target="_blank">rpc-middleware for ExpressJs</a> - A rpc specification based nodejs/expressjs middleware
 - <a href="https://www.npmjs.com/package/usewhat" target="_blank">useWhat</a> - Dead simple REACT state management solution
 - <a href="https://www.npmjs.com/package/usestatem" target="_blank">useStateM</a> - Namespace based [immer](https://immerjs.github.io/immer/) based REACT state management solution
