@@ -849,7 +849,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn FigJam:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-figjam.md)
 - Learn Elastic Search: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-elastic-search.md){: search-title="Learn Elastic Search"}
 - Learn Storybook: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-storybook.md){: search-title="Learn Storybook"}
-- Learn Eslint: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-eslint.md){: search-title="Learn Eslint"}
+- Learn Eslint: [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.a76iz83ke569#heading=h.m92yaywhja27){: search-title="Learn Eslint"}
 - Learn Prettier: [Click here](https://docs.google.com/document/d/1T-VclkyzwAxoJ519c5P9xRrn0ZjRtQF-Ueu1GviMJYo/edit?tab=t.0){: search-title="Learn Prettier"}
 - Learn Chrome: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md){: search-title="Learn Chrome"}
 	- Chrome Extensions (internal link in above doc): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions){: search-title="Chrome Extensions (inside Learn Chrome Doc)"}
