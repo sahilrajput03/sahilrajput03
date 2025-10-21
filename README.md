@@ -75,6 +75,7 @@
 
 - ❤️ [filesize.md](filesize.md)
 - My first illustration using Pen tool using Figma: [Click here](https://www.figma.com/design/EXjoqkip1Xtvhy3vVGrwkk/Learn-Illustrations--Pen-Tool-?node-id=0-1&p=f&t=kglNWeFHcT60FlsB-0).
+	- Notes added to [Learn figma doc](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.jiufbtfa1hsa).
 
 <img src="./illustrations/girl1.svg"/>
 
