@@ -42,7 +42,7 @@
 </h6>
 
 <h6 align="right">
-	<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Vocab Doc</a> (<a href="https://sahilrajput03.github.io/vocab-files/vocab">Fast🚀</a>, <a href="https://sahilrajput.com/vocab.html">iframe</a>),
+	<a href="https://sahilrajput03.github.io/vocab-files/vocab">Vocab</a> (<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Doc</a>),
 	<a href="https://docs.google.com/document/d/1q_AmG0bIxX2WjN_wyMUv_Y7kOEtnW2y6--4M8QWlcZE/edit?tab=t.0#heading=h.1ahwoj105swe">❤️ Book Recommendations</a>,
 	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>,
 	<a href="https://sveltev5.vercel.app/glass-slideshow">Glass Thoughts</a>,
@@ -1047,6 +1047,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - npm packages:
 	- backend: [Learn Express Doc](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0)
  	- frontend: [Learn React Doc](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0)
+- Learn ANSI Common Lisp Doc: [Click here](https://docs.google.com/document/d/1RwyJIq2BK2aAg6gppS-dchKL2pX-6wmWBBDorLKj8aw/edit?tab=t.0#heading=h.6pdh5zv510ur)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
