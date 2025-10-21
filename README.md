@@ -74,6 +74,9 @@
 ## Notes of Oct 2025
 
 - ❤️ [filesize.md](filesize.md)
+- My first illustration using Pen tool using Figma: [Click here](https://www.figma.com/design/EXjoqkip1Xtvhy3vVGrwkk/Learn-Illustrations--Pen-Tool-?node-id=0-1&p=f&t=kglNWeFHcT60FlsB-0).
+
+<img src="./illustrations/girl1.svg"/>
 
 ## Notes of Sept 2025
 
