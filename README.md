@@ -796,7 +796,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Travis:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-travis.md)
 - **Learn Socket.io/Websockets:** [Click here](https://github.com/sahilrajput03/learn-websockets)
 - **Learn React:** [Github Repository](https://github.com/sahilrajput03/learn-react), ❤️[Google Doc](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0#heading=h.pzs518kfcp54)
-	- Learn React Query: <a href="https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.m1wx5mlfo8st#heading=h.f8f1fm1aeb" search-title="Learn React Query">Click here</a>
+	- Learn React Query: <a href="https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.m1wx5mlfo8st#heading=h.f8f1fm1aeb" search-title="Learn React Query">Click here</a> *(Tags: `react-query`)*
 - **Learn React Native**: [Click here](https://github.com/sahilrajput03/learn-react-native){: search-title="Learn React Native"}
 - ❤️Funny Loading Messages: <a href="https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32" search-title="Funny Loading Messages">Click here</a>
 - ❤️Meme makers: <a href="https://docs.google.com/document/d/14WQUE71-JsCF2sVOgVbsrxtbJgvw_AfnGrbx9V0YR4g/edit?tab=t.0" search-title="Meme makers">Click here</a>
