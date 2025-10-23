@@ -806,7 +806,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Benchmarks - New react project size - **vite:** 41mb, **bun:** 70mb, **cna:** 187mb, **cra:** 335mb *(Date: 10 Jul, 2022)*
 - **Weird Problems:** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/weird-problems.md){: search-title="Weird Problems"}
 - **Intro Guides to Platforms:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/intro-guide-to-platforms.md){: search-title="Intro Guides to Platforms"}
-- **Learn axios:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-axios.md){: search-title="Learn axios"}
+- **Learn axios:** [Click here](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.i55h1tu7inku#heading=h.fk7lg6nr8jgk){: search-title="Learn axios"}
 - **Learn nestjs:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-nestjs.md){: search-title="Learn nestjs"}
 - **Learn push notificaitons:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-push-notifications.md){: search-title="Learn push notificaitons"}
 - **Learn heroku webhooks:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-web-hooks.md){: search-title="Learn heroku webhooks"}
