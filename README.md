@@ -796,6 +796,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Travis:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-travis.md)
 - **Learn Socket.io/Websockets:** [Click here](https://github.com/sahilrajput03/learn-websockets)
 - **Learn React:** [Github Repository](https://github.com/sahilrajput03/learn-react), ❤️[Google Doc](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0#heading=h.pzs518kfcp54)
+	- Learn React Query: <a href="https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.m1wx5mlfo8st#heading=h.f8f1fm1aeb" search-title="Learn React Query">Click here</a>
 - **Learn React Native**: [Click here](https://github.com/sahilrajput03/learn-react-native){: search-title="Learn React Native"}
 - ❤️Funny Loading Messages: <a href="https://gist.github.com/meain/6440b706a97d2dd71574769517e7ed32" search-title="Funny Loading Messages">Click here</a>
 - ❤️Meme makers: <a href="https://docs.google.com/document/d/14WQUE71-JsCF2sVOgVbsrxtbJgvw_AfnGrbx9V0YR4g/edit?tab=t.0" search-title="Meme makers">Click here</a>
@@ -917,7 +918,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Charge battery when it hits below 30% and stop charging when it reaches 80%: <a href="https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/" search-title="Reddit - Charge battery when it hits below 30% and stop charging when it reaches 80%">1</a>, <a href="https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life" search-title="Quora - Charge battery when it hits below 30% and stop charging when it reaches 80%">2</a>
 - Learn RaspberryPi: <a href="https://github.com/sahilrajput03/learn-raspberry" search-title="Learn RaspberryPi">Click here</a>
 	- learn-raspberryPi (github repo) (backuped files): <a href="https://github.com/sahilrajput03/learn-raspberrypi" search-title="learn-raspberryPi (github repo) (backuped files)">Click here</a>
-- Learn React Query: <a href="https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e" search-title="Learn React Query">Click here</a>
 - Learn Sandpack: <a href="https://github.com/sahilrajput03/learn-sandpack">Click here</a> (<a href="https://learn-sandpack.vercel.app/" search-title="Learn Sandpack">view live</a>)
 - 🚀🚀 Learn Jekyll and running github pages locally: <a href="https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md" search-title="🚀🚀 Learn Jekyll and running github pages locally">Click here</a>
 - Media:
