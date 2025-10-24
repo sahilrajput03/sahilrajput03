@@ -18,7 +18,7 @@
 #### Projects & Services
 
 - <a href="https://ragatime.github.io" target="_blank">ragatime.github.io</a>, <a href="https://github.com/ragatime/ragatime.github.io/" target="_blank">Github Repository</a>
-- <a href="https://ai.mypot.in" target="_blank">https://ai.mypot.in</a>, <a href="https://github.com/sahilrajput03/learn-svelte/tree/main/new-ai-sdk" target="_blank">Github Repository</a>
+- <a href="https://ai.mypot.in" target="_blank">ai.mypot.in</a>, <a href="https://github.com/sahilrajput03/learn-svelte/tree/main/new-ai-sdk" target="_blank">Github Repository</a>
 - <a href="https://sveltev5.vercel.app" target="_blank">sveltev5.vercel.app</a>, <a href="https://github.com/sahilrajput03/learn-svelte" target="_blank">Github Repository</a>
 - <a href="https://github.com/sahilrajput03/patientor-project-typescript-express-react" target="_blank">patientor-project-typescript-express-react - Github Repository</a>
 - <a href="https://github.com/sahilrajput03/lifestyleinfo-wellness-weight-tracking-app" target="_blank">lifestyleinfo-wellness-weight-tracking-app - Github Repository</a>
