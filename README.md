@@ -790,7 +790,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Indus valley Reports:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-indus-valley-reports.md)
 - **Avalon Meta:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/avalon-meta.md)
 - **Learn Hasura:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hasura.md)
-- **OneGraph:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-one-graph.md)
+- **OneGraph:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-one-graph.md) (Tags: #graphql, #one graph)
 - **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), [Another article @ apollo](https://www.apollographql.com/blog/graphql/pagination/understanding-pagination-rest-graphql-and-relay/), Inspiration - Kaltsoon's Sequelize Cursor based pagination npm package: [Click here](https://github.com/Kaltsoon/sequelize-cursor-pagination)
 - **Youtube Hacks:**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/youtube-hacks.md)
 - **Learn Travis:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-travis.md)
