@@ -46,7 +46,7 @@
 	<a href="https://docs.google.com/document/d/1q_AmG0bIxX2WjN_wyMUv_Y7kOEtnW2y6--4M8QWlcZE/edit?tab=t.0#heading=h.1ahwoj105swe">❤️ Book Recommendations</a>,
 	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>,
 	<a href="https://sveltev5.vercel.app/glass-slideshow">Glass Thoughts</a>,
-	<a href="https://sahilrajput.com/help-me-grow">Help me grow feedback</a>
+	<a href="https://sahilrajput.com/grow">Help me grow feedback</a>
 </h6>
 
 <h6 align="right">
