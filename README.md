@@ -667,7 +667,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 ## References:
 
 - Contact me: [Click here](/me)
-- My Works: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-works.md)
+- My Works: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/works.md)
 - Fullstackopen Course (#FSO): [Github.com/sahilrajput03/fullstackopen](https://github.com/sahilrajput03/fullstackopen), [fullstackopen.com/en](https://fullstackopen.com/en/)
 - **Blockchain Development:**
 	- Blockchain Portfolio: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/blockchain_portfolio.md)
@@ -790,7 +790,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Indus valley Reports:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-indus-valley-reports.md)
 - **Avalon Meta:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/avalon-meta.md)
 - **Learn Hasura:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-hasura.md)
-- **OneGraph:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-one-graph.md)
+- **OneGraph:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-one-graph.md) (Tags: #graphql, #one graph)
 - **Cursor Based Pagination vs. Offset based Pagination:** [Click here](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), [Another article @ apollo](https://www.apollographql.com/blog/graphql/pagination/understanding-pagination-rest-graphql-and-relay/), Inspiration - Kaltsoon's Sequelize Cursor based pagination npm package: [Click here](https://github.com/Kaltsoon/sequelize-cursor-pagination)
 - **Youtube Hacks:**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/youtube-hacks.md)
 - **Learn Travis:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-travis.md)
@@ -1057,6 +1057,8 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn `tiged` (alternate of degit): [Click here](https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0){: search-title="Learn `tiged` (alternate of degit)"}
 - Learn `tiged` (alternate of degit): <a href="https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0" search-title="Learn `tiged` (alternate of degit) (uses a tag)">Click here</a>
 ```
+- ❤️How to get help in coding:
+	- FullStackOpen.com: [Click here](https://fullstackopen.com/en/part0/general_info#how-to-get-help-in-discord)
 
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
