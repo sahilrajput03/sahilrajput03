@@ -521,7 +521,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- [downloadyoutubesubtitles.com](https://www.downloadyoutubesubtitles.com)
 	- [rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
 	- For videos not having subtitles the above method won't work though you can use OpenAi's STT api. You can first download the m4a audio file of the youtube video by downloading the audio file from this site - [https://www.multidownloader.net](https://www.multidownloader.net). *Note: OpenAi's STT supports m4a format as input file 😇*
-- Convert ogg to mp3 (for source for openai's STT): [Check Learn bash page](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bash.md)
+- Convert ogg to mp3 (for source for openai's STT): [Learn Bash Doc](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.e75nn9rhxa2x#heading=h.v67slhjr85f1)
 - Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
   - ❤️mp4 to gif: [https://cloudconvert.com/](https://cloudconvert.com/)
     - ❤️Created animated logo: [canva.com/create/logos/animated](https://www.canva.com/create/logos/animated)
