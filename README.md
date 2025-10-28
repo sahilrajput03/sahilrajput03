@@ -825,7 +825,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
 		- Learn Javascript Date: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-javascript-date.md){: search-title="Learn Javascript Date"}
 	- ❤️ Learn Jest, Expect, Fishery, Luxon (DateTime): [Click here](https://docs.google.com/document/d/1PU8G6tpEYLJxXMgHoK5c37UFMbSXtENzpyIOohVsD_I/edit?tab=t.0){: search-title="Learn Jest/expect, fishery, luxon (DateTime)"}
-	- ❤️ **Learn Expressjs:** [❤️Google Doc](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0#heading=h.dv7500gv0vc2){: search-title="Learn Expressjs (Google Doc)"}, [Github Repo](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs (Github Repo)"} *(Tags: #chalk)*
+	- ❤️ **Learn Expressjs:** [❤️Google Doc](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0#heading=h.dv7500gv0vc2){: search-title="Learn Expressjs (Google Doc)"}, [Github Repo](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs (Github Repo)"} *(Tags: #chalk, #learn nodemon)*
 		- ❤️ Learn mocha: [Doc](https://docs.google.com/document/d/19lJnR9d93wplsKpdd7pfqqXUgKTWL2HZNYyo64mkFSE/edit?tab=t.0), [learn-express/learn-mocha](https://github.com/sahilrajput03/learn-express/blob/main/learn-mocha/README.md)
 		- ❤️ Learn Node: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/learn-node){: search-title="Learn Node, Learn NodeJs"} (Tags: System notifications with nodejs)
 			- Few topics covered in above project's readme:
@@ -1017,7 +1017,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- 🙂 SIGTERM(15)[DEFAULT when you run `kill PID`, Trigger Graceful shutdown]
 	- 🔪 SIGKILL(9)[Forceful killing , `kill -9 PID`, Cannot be handled by program]
 	- ⚠️ SIGINT(2)[Terminate program by default, can be handled by program, **`Ctrl+c`**, `kill -2 PID`]
-- Learn nodemon: [Click here](https://docs.google.com/document/d/1x2VFYiR9O2sTGj64WFNulsYd0NxRgrjd8EQkuEHFZy4/edit?tab=t.0)
 - Learn pm2: [Click here](https://docs.google.com/document/d/1f1_6fMv2B5TbGpWoMHdZQ2irZ8IRZCKH37k_SUpQvAI/edit?tab=t.0)
 - Learn rendering pdf in a website: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
 - Learn wordpress development: [Doc](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0), [Github](https://github.com/sahilrajput03/learn-wordpress-development)
