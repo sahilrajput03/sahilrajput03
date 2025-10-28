@@ -940,7 +940,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn AWS (Amazon Web Services): <a href="https://docs.google.com/document/d/1cyxau6M3dstUIWs9U9ARQwRG9VaGSZL-1a0-DmNbxps/edit#heading=h.st3h0wewxb10" search-title="Learn AWS (Amazon Web Services)">Click here</a>
 - Status Page Technologies:
 	- statuspage by atlassian: [Click here](https://www.atlassian.com/software/statuspage){: search-title="Status Page Service by Atlassian"}
- 		- Used by OpenAI: [Click here](https://status.openai.com/uptime){: search-title="OpenAI - Status Page"}
+ 		- Used by OpenAI: [Click here](https://status.openai.com/uptime){: search-title="OpenAI - Status Page"} (Uses - https://incident.io/pricing)
  	- Other alternatives of *statuspage* - Google Search: <a href="https://www.google.com/search?q=status+page+like+services" search-title="Other alternatives of *statuspage* - Google Search">Click here</a>
 - **Learn Sanskrit:** <a href="https://docs.google.com/document/d/1dSTyoamZ-Pec-xIGwFPM6hkMSw3Nk-6B93FdX2iK8fU/edit" search-title="Learn Sanskrit">Click here</a>
 - SBI Bank Cyber Security Guidelines, Hindi: <a href="https://docs.google.com/document/d/1tb_tI6COZf78ME-LgCNbdXh7GT1k_WeR7-p7yqXfm5I/edit" search-title="SBI Bank Cyber Security Guidelines, Hindi">Click here</a>
