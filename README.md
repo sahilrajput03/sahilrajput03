@@ -1013,7 +1013,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- coqui.ai: [coqui.ai/privacy](https://coqui.ai/privacy)
 	- Linode: [linode.com/legal](https://www.linode.com/legal)
  - ❤️ Watch youtube with friends (Tags: #watch youtube together, #watch together, #watch videos together): [Click here](https://docs.google.com/document/d/1nwVkznZWRmZ54rAF47EZxPeisB_ewWeVJ8FiKRfMX8w/edit?tab=t.0#heading=h.6o93yg7tpo0z)
-- ❤️❤️❤️❤️  Process Signals: [Click here](https://docs.google.com/document/d/17Hi8uflq0FDrPjHA76I0Uxgiya579kn9p9JSs2Po8AU/edit?tab=t.0)
+- ❤️❤️❤️❤️  Process Signals: [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.bzks2lvu72f5#heading=h.tm42zb9edcgh)
 	- 🙂 SIGTERM(15)[DEFAULT when you run `kill PID`, Trigger Graceful shutdown]
 	- 🔪 SIGKILL(9)[Forceful killing , `kill -9 PID`, Cannot be handled by program]
 	- ⚠️ SIGINT(2)[Terminate program by default, can be handled by program, **`Ctrl+c`**, `kill -2 PID`]
