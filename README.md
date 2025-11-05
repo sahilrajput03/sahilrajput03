@@ -414,8 +414,8 @@ Length
 1 km ≈ 0.62 miles (precisely 0.621371)
 1 mile ≈ 1.61 km (precisely 1.60934)
 
-10^⁶ = 1 Million = 10 Lakh
-10^⁹ = 1 Billion = 100 Crore
+10^⁶  = 1 Million  = 10 Lakh
+10^⁹  = 1 Billion  = 100 Crore
 10^¹² = 1 Trillion = 100k Crore  =  100 Thousand Crore  =  1 Lakh Crore
 
 Mass
