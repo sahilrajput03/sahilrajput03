@@ -433,9 +433,9 @@ Also,
 $ to ₹ Conversion factor: 83 ₹/$
 ₹ to $ Conversion factor: 0.012 $/₹
 
-$ 1 Million  = ₹ 8.3 Crore
-$ 1 Billion  = ₹ 8.3k Crore
-$ 1 Trillion = ₹ 83 Lakh Crore = ₹ 8300k Crore
+$ 1 Million  = ₹ 10 Cr	 			~ (8.3 Crore)
+$ 1 Billion  = ₹ 10k Cr				~ (8.3k Crore)
+$ 1 Trillion = ₹ 100 Lakh Cr		~ (83 Lakh Crore)  = ₹ 8,300k Crore
 
 Conversion Trick For $ and ₹
 ============================
