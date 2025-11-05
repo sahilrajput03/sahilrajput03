@@ -405,9 +405,9 @@ Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 
 A small scale is 15cm long.
 
+**Length**
+
 ```txt
-Length 			
-======
 1 ft ≈ 30.48 cm
 1 m ≈ 3.3 ft (precisely 3.28084)
 1 m ≈ 39.4 inch (precisely 39.3701)
@@ -417,34 +417,30 @@ Length
 10^⁶  = 1 Million  = 10 Lakh
 10^⁹  = 1 Billion  = 100 Crore
 10^¹² = 1 Trillion = 100k Crore  =  100 Thousand Crore  =  1 Lakh Crore
+```
 
-Mass
-====
+**Mass**
+
+```txt
 1 kg ≈ 2.2 lbs (pounds)
 1 lbs ≈ 0.45 kg
+```
 
-Currency
-========
-**For fastest conversion from dollar to inr you can simply multiply by 100 (~84 ₹/$).**
-Also,
+**❤️Currency** 
+
+*(Tags: #dollars, #bucks)*
+
+*For fastest conversion from dollar to inr you can simply multiply by 100 (~84 ₹/$).*
+
 - 100 cents = 1 dollar = 1 buck
-(Tags: #dollars, #bucks)
+- Conversion factor
+	- $ to ₹ Conversion factor: 88 ₹/$
+	- ₹ to $ Conversion factor: 0.011 $/₹
 
-$ to ₹ Conversion factor: 83 ₹/$
-₹ to $ Conversion factor: 0.012 $/₹
-
-$ 1 Million  = ₹ 10 Cr	 			~ (8.3 Crore)
-$ 1 Billion  = ₹ 10k Cr				~ (8.3k Crore)
-$ 1 Trillion = ₹ 100 Lakh Cr		~ (83 Lakh Crore)  = ₹ 8,300k Crore
-
-Conversion Trick For $ and ₹
-============================
-1. To convert $ to ₹ we can multiply the value with 10 and 8 in sequence. (Refer ^1 at bottom)
-2. To convert ₹ to $ we can divide the value with 10 and 8 in sequence (Refer ^1 at bottom)
-
-References
-==========
-^1: 10 and 8.3 are multiplicative factors of 83 because 10 x 8.3 equals 83.
+```txt
+$ 1 Million  = ₹ 10 Cr	 			~ (8.8 Crore)
+$ 1 Billion  = ₹ 10k Cr				~ (8.8k Crore)
+$ 1 Trillion = ₹ 100 Lakh Cr		~ (88 Lakh Crore)  = ₹ 8,800k Crore
 ```
 
 
