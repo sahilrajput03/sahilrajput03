@@ -809,7 +809,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn heroku webhooks:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-web-hooks.md){: search-title="Learn heroku webhooks"}
 - **Learn Twilio** [Click here](https://docs.google.com/document/d/1cUv_ofHediEo_VbUt63qrm3XXxrn6QMVjfQd3o9pbEA/edit?tab=t.0#heading=h.j4kdrmy99caa){: search-title="Learn Twilio"}
 - **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-why-websites-first-not-mobile-apps.md){: search-title="Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps"}
-- **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md){: search-title="Learn Typescript"}
+- **Learn Typescript:** [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.z5fsf1uvmyy4#heading=h.x2uh6tk077mc){: search-title="Learn Typescript"}
 - **Learn postman:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-postman.md){: search-title="Learn postman"}
 - **Learn redux-toolkit:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-redux-toolkit.md){: search-title="Learn redux-toolkit"}
 - **Learn stripe:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-stripe.md){: search-title="Learn stripe"}
