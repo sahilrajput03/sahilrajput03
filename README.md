@@ -405,46 +405,42 @@ Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 
 A small scale is 15cm long.
 
+**Length**
+
 ```txt
-Length 			
-======
 1 ft ≈ 30.48 cm
 1 m ≈ 3.3 ft (precisely 3.28084)
 1 m ≈ 39.4 inch (precisely 39.3701)
 1 km ≈ 0.62 miles (precisely 0.621371)
 1 mile ≈ 1.61 km (precisely 1.60934)
 
-10^⁶ = 1 Million = 10 Lakh
-10^⁹ = 1 Billion = 100 Crore
+10^⁶  = 1 Million  = 10 Lakh
+10^⁹  = 1 Billion  = 100 Crore
 10^¹² = 1 Trillion = 100k Crore  =  100 Thousand Crore  =  1 Lakh Crore
+```
 
-Mass
-====
+**Mass**
+
+```txt
 1 kg ≈ 2.2 lbs (pounds)
 1 lbs ≈ 0.45 kg
+```
 
-Currency
-========
-**For fastest conversion from dollar to inr you can simply multiply by 100 (~84 ₹/$).**
-Also,
+**❤️Currency** 
+
+*(Tags: #dollars, #bucks)*
+
+*For fastest conversion from dollar to inr you can simply multiply by 100 (~84 ₹/$).*
+
 - 100 cents = 1 dollar = 1 buck
-(Tags: #dollars, #bucks)
+- Conversion factor
+	- $ to ₹ Conversion factor: 88 ₹/$
+	- ₹ to $ Conversion factor: 0.011 $/₹
 
-$ to ₹ Conversion factor: 83 ₹/$
-₹ to $ Conversion factor: 0.012 $/₹
-
-$ 1 Million  = ₹ 8.3 Crore
-$ 1 Billion  = ₹ 8.3k Crore
-$ 1 Trillion = ₹ 83 Lakh Crore = ₹ 8300k Crore
-
-Conversion Trick For $ and ₹
-============================
-1. To convert $ to ₹ we can multiply the value with 10 and 8 in sequence. (Refer ^1 at bottom)
-2. To convert ₹ to $ we can divide the value with 10 and 8 in sequence (Refer ^1 at bottom)
-
-References
-==========
-^1: 10 and 8.3 are multiplicative factors of 83 because 10 x 8.3 equals 83.
+```txt
+$ 1 Million  = ₹ 10 Cr	 			~ (8.8 Crore)
+$ 1 Billion  = ₹ 10k Cr				~ (8.8k Crore)
+$ 1 Trillion = ₹ 100 Lakh Cr		~ (88 Lakh Crore)  = ₹ 8,800k Crore
 ```
 
 
@@ -602,7 +598,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - TamronHallShow (Journalist): [@TamronHallShow](https://www.youtube.com/@TamronHallShow/videos)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 - ❤️ Text To Spech (TTS):
-	- Use Chrome Mobile's feature of "Listen to this page". Its awesome because it offers highlight of text while reading and changing speed of reading as well.
+	- Use Chrome Mobile's feature of **"Listen to this page"**. Its awesome because it offers highlight of text while reading and changing speed of reading as well.
 	- Use OpenAI Playground or OpenAI's API
 	- Learn Coqui: [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
 	- Download from ChatGPT's prompt directly via chrome extension: [AudioTTS - Simple Text to Speech Downloader](https://chromewebstore.google.com/detail/audiotts-simple-text-to-s/lhbdjaomnaobfljmhkmcfhhnihaaangh) *(Note to Sahil: I have kept this extension disabled to avoid unnecessary downloads from any website anytime, so feel free to enable it again temporarily)*
@@ -813,7 +809,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn heroku webhooks:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-web-hooks.md){: search-title="Learn heroku webhooks"}
 - **Learn Twilio** [Click here](https://docs.google.com/document/d/1cUv_ofHediEo_VbUt63qrm3XXxrn6QMVjfQd3o9pbEA/edit?tab=t.0#heading=h.j4kdrmy99caa){: search-title="Learn Twilio"}
 - **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-why-websites-first-not-mobile-apps.md){: search-title="Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps"}
-- **Learn Typescript:** [Click here](https://github.com/sahilrajput03/learn-typescript/blob/main/README.md){: search-title="Learn Typescript"}
+- **Learn Typescript:** [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.z5fsf1uvmyy4#heading=h.x2uh6tk077mc){: search-title="Learn Typescript"}
 - **Learn postman:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-postman.md){: search-title="Learn postman"}
 - **Learn redux-toolkit:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-redux-toolkit.md){: search-title="Learn redux-toolkit"}
 - **Learn stripe:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-stripe.md){: search-title="Learn stripe"}
