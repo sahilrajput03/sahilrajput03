@@ -13,6 +13,11 @@ Cloudflare bot prevention on signups/forms: [https://blog.cloudflare.com/turnsti
      - For React:
        - @marsidev/react-turnstile: [npm](https://www.npmjs.com/package/@marsidev/react-turnstile), [github](https://github.com/marsidev/react-turnstile), [Demo](https://react-turnstile.vercel.app/basic)
 
+**Meat uses recaptcha by google:**
+
+<img width="1428" height="1674" alt="image" src="https://github.com/user-attachments/assets/69e5cbc0-b7f2-4d40-9c18-7c93a6e0af65" />
+
+
 **Cobalt uses turnstile:**
 
 <img width="2788" height="1614" alt="image" src="https://github.com/user-attachments/assets/4db2019f-82d3-4b28-a912-0ea52690af03" />

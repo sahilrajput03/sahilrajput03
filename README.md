@@ -809,7 +809,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn heroku webhooks:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-web-hooks.md){: search-title="Learn heroku webhooks"}
 - **Learn Twilio** [Click here](https://docs.google.com/document/d/1cUv_ofHediEo_VbUt63qrm3XXxrn6QMVjfQd3o9pbEA/edit?tab=t.0#heading=h.j4kdrmy99caa){: search-title="Learn Twilio"}
 - **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-why-websites-first-not-mobile-apps.md){: search-title="Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps"}
-- **Learn Typescript:** [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.z5fsf1uvmyy4#heading=h.x2uh6tk077mc){: search-title="Learn Typescript"}
+- **Learn Typescript:** [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.z5fsf1uvmyy4#heading=h.x2uh6tk077mc){: search-title="Learn Typescript"} *Tags: #Typescript typechecking in javascript files with jsdoc*
 - **Learn postman:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-postman.md){: search-title="Learn postman"}
 - **Learn redux-toolkit:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-redux-toolkit.md){: search-title="Learn redux-toolkit"}
 - **Learn stripe:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-stripe.md){: search-title="Learn stripe"}
@@ -836,7 +836,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
 		- ❤️ Get words from book: <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
 	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
-	- **Typescript typechecking in javascript files with jsdoc:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/@ts-check.md){: search-title="Typescript typechecking in javascript files with jsdoc"}
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx){: search-title="Nginx config files"}
   - Reverse proxy with `express-http-proxy` (npm library): [sahilrajput03/reverseProxy](https://github.com/sahilrajput03/reverseProxy){: search-title="Reverse proxy with `express-http-proxy` (npm library)"}
 - **Leetcode: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-leetcode.md)**{: search-title="Leetcode"}
@@ -1045,6 +1044,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- backend: [Learn Express Doc](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0)
  	- frontend: [Learn React Doc](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0)
 - Learn ANSI Common Lisp Doc: [Click here](https://docs.google.com/document/d/1RwyJIq2BK2aAg6gppS-dchKL2pX-6wmWBBDorLKj8aw/edit?tab=t.0#heading=h.6pdh5zv510ur)
+- Learn Agreement Making: [Click here](https://docs.google.com/document/d/1YGXdDYN1Un9YdFfHvc5HIYDf0lMV7qgHVLek06amNcU/edit?tab=t.0)
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
