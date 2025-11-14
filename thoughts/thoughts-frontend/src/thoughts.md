@@ -186,7 +186,7 @@
 
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
 
-- Discipline is choosing what you want most over what you want now. ~ Sahil (inspired from Unknown)
+- Discipline is choosing what you want most over what you want now. ~ Sahil
 
 - Law is nothing else but the best reason of wise men applied for ages to the transactions and business of mankind. ~ Abraham Lincon
 
