@@ -238,7 +238,7 @@ Error generating stack: `+i.message+`
 
 - Anything is possible when we break the big tasks down into smaller, manageable ones! :) ~Eric
 
-- Discipline is choosing between what you want now, and what you want most. ~ Abraham Lincon
+- Discipline is choosing what you want most over what you want now. ~ Sahil (inspired from Unknown)
 
 - Law is nothing else but the best reason of wise men applied for ages to the transactions and business of mankind. ~ Abraham Lincon
 
