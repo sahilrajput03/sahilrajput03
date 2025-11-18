@@ -1,6 +1,6 @@
-# Epoch time (or Unix timestamp in milliseconds) made simple
+# Epoch time = Unix timestamp
 
-Q. What is epoch time? Ans. **Basically the number of milliseconds since midnight, 1970-01-01.**
+Q. What is Epoch time? Ans. **The number of milliseconds since midnight, 1970-01-01.**
 
 ```js
 // ❤️ Current time in unix timestamp in milliseconds
