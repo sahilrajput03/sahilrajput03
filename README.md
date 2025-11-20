@@ -1045,6 +1045,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
  	- frontend: [Learn React Doc](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0)
 - Learn ANSI Common Lisp Doc: [Click here](https://docs.google.com/document/d/1RwyJIq2BK2aAg6gppS-dchKL2pX-6wmWBBDorLKj8aw/edit?tab=t.0#heading=h.6pdh5zv510ur)
 - Learn Agreement Making: [Click here](https://docs.google.com/document/d/1YGXdDYN1Un9YdFfHvc5HIYDf0lMV7qgHVLek06amNcU/edit?tab=t.0)
+- countingdownto.com: *(Tags: #Countdown, #dday)*
+	- https://countingdownto.com/?c=6720497
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
