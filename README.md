@@ -1047,6 +1047,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Agreement Making: [Click here](https://docs.google.com/document/d/1YGXdDYN1Un9YdFfHvc5HIYDf0lMV7qgHVLek06amNcU/edit?tab=t.0)
 - countingdownto.com: *(Tags: #Countdown, #dday)*
 	- https://countingdownto.com/?c=6720497
+- https://www.carbonads.net (mongoosejs.com shows ads via carbon, I love these beautiful ads).
 
 ```md
 Comparison of kramdown attribute markup vs. plain html markup: Both looks equally good to me.
