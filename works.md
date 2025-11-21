@@ -37,6 +37,7 @@
 
 *❤️Any package can be accessed via a short link via: [https://npm.im/rpc-middleware](https://npm.im/rpc-middleware)*
 
+- TODO: I can add a npm banner which shows install command, curent version, last updated and total downloads of the npm library as its done on the top of the readme of this [github repo](https://github.com/winstonjs/winston).
 - <a href="https://www.npmjs.com/package/rpc-middleware" target="_blank">rpc-middleware for ExpressJs</a> - A rpc specification based nodejs/expressjs middleware
 - <a href="https://www.npmjs.com/package/usewhat" target="_blank">useWhat</a> - Dead simple REACT state management solution
 - <a href="https://www.npmjs.com/package/usestatem" target="_blank">useStateM</a> - Namespace based [immer](https://immerjs.github.io/immer/) based REACT state management solution
