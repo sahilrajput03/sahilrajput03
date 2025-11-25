@@ -863,7 +863,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn RxJs: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-rxjs.md){: search-title="Learn RxJs"}
 - ❤️ Learn electron: [Click here](https://github.com/sahilrajput03/learn-electron)
 - Learn Skype: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-skype.md){: search-title="Learn Skype"}
-- Learn SEO, react-helmet: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-seo.md){: search-title="Learn SEO, react-helmet"}
+- Learn SEO, react-helmet: [Click here](https://github.com/sahilrajput03/react-seo-demo/tree/main){: search-title="Learn SEO, react-helmet"}
 - Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-leaflet.md){: search-title="Learn Leaflet (Opensource Maps library, Github: 37k*, Npm: 0.7m ↓)"}
 - Validation Library:
 	- Learn Zod: [Click here](https://github.com/sahilrajput03/learn-zod){: search-title="Learn Zod"}
