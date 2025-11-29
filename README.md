@@ -718,9 +718,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Photoshop:**[Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-photoshop.md)
 - **✅Telegram:**
 	- **Learn Telegram Bot Requests:** [Click Here](https://github.com/sahilrajput03/telegram-bot-requests)
-	- **Why telegram (not whatsapp):** [Click here](https://sahilrajput.com/essays)
-	- **Telegram Groups:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/telegram-groups.md)
-	- **FSO contribution (Ex. 11.18 - Telegram Bot Notification on deployment):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
+	- Why telegram (not whatsapp): [Click here](https://sahilrajput.com/essays)
+	- Telegram Groups: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/telegram-groups.md)
+	- FSO contribution (Ex. 11.18 - Telegram Bot Notification on deployment): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
 - Learn BitBucket \| Pipelines \| Bitbucket API: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bitbucket.md)
 - **Learn Google Development:**
 	- Learn Google Play Console: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-playconsole.md)
