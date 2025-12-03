@@ -15,7 +15,7 @@ pre {
   background-color: #e7e7e763 !important;
 }
 
-/* * STARTS-HERE ---- DARK MOE STYLES BELOW ---- */
+/* * STARTS-HERE ---- DARK MODE STYLES BELOW ---- */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #222;
@@ -42,7 +42,7 @@ pre {
     border: 1px solid #666;
   }
 }
-/* * ENDS-HERE ---- DARK MOE STYLES BELOW ---- */
+/* * ENDS-HERE ---- DARK MODE STYLES BELOW ---- */
 
 /* * STARTS-HERE Search Feature Related Design */
 .search-container {
@@ -74,3 +74,19 @@ pre {
   }
 }
 /* * ENDS-HERE Search Feature Related Design */
+
+
+
+
+/* * STARTS-HERE - Black and White Text Combination When Selecting Text */
+::selection {
+  background-color: black;
+  color: white;
+}
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    background-color: white;
+    color: black;
+  }
+}
+/* * ENDS-HERE - Black and White Text Combination When Selecting Text */
