@@ -510,7 +510,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 #### Sahil's Vocabulary 🚶: [Click here](vocab.html) | [Doc](https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit)
 
-#### Transcribe, Convert, Download
+#### Transcribe, Convert, Download, TTS, STT
 
 - Text Wrap, Line Break Online (e.g., say comments to wrap after 80 chars): [Click here](https://www.joydeepdeb.com/tools/line-break.html)
 - Transcribe youtube video or shorts:
@@ -536,6 +536,23 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- [Cobalt.tools](https://cobalt.tools/) ([github](https://github.com/imputnet/cobalt))
 	- Use wikihow - Download vidro from youtube.com
 - Remove background from an image: [Click here](https://www.remove.bg/upload)
+- **❤️ Text To Spech (TTS):**
+	- Use Chrome Mobile's feature of **"Listen to this page"**. Its awesome because it offers highlight of text while reading and changing speed of reading as well.
+	- Use OpenAI Playground or OpenAI's API
+	- Learn Coqui: [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
+	- Download from ChatGPT's prompt directly via chrome extension: [AudioTTS - Simple Text to Speech Downloader](https://chromewebstore.google.com/detail/audiotts-simple-text-to-s/lhbdjaomnaobfljmhkmcfhhnihaaangh) *(Note to Sahil: I have kept this extension disabled to avoid unnecessary downloads from any website anytime, so feel free to enable it again temporarily)*
+	- 💫Text to speech (also has openai's AI text to speech): [ttsmp3.com](https://ttsmp3.com) [1000 tokens limit/day]
+	- For downloading small clips you can probably use chrome extension - [Chrome Audio Capture](https://chromewebstore.google.com/detail/chrome-audio-capture/kfokdmfpdnokpmpbjhjbcabgligoelgp) to download from below two sites because they don't allow download in their free plan yet. *(for commercial use -- I advise to get a premium plan to help support them)*
+		- [murf.ai/text-to-speech](https://murf.ai/text-to-speech)
+		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
+	- Premium Services - [hume.ai](https://www.hume.ai/pricing), [elevenlabs.io](https://elevenlabs.io/pricing), [revoicer.com](https://revoicer.com)
+- **Speech to Text:** *(#speechtotext, #speech-to-text)*
+	- ❤️ mp3 to text: https://turboscribe.ai (3 transcription/day)
+	- Live: [dictation.io/speech](https://dictation.io/speech) (web)
+ 	- ❤️ WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
+	- ❤️ Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
+	- speechelo.com: [Click here](https://speechelo.com)
+	- [turboscribe.ai](https://turboscribe.ai)
 
 ##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork ([Doc](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit#heading=h.e38aiba2an6c))
 
@@ -598,25 +615,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Newspaper Feed: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-newspaper-analysis.md)
 - TamronHallShow (Journalist): [@TamronHallShow](https://www.youtube.com/@TamronHallShow/videos)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
-- ❤️ Text To Spech (TTS):
-	- Use Chrome Mobile's feature of **"Listen to this page"**. Its awesome because it offers highlight of text while reading and changing speed of reading as well.
-	- Use OpenAI Playground or OpenAI's API
-	- Learn Coqui: [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
-	- Download from ChatGPT's prompt directly via chrome extension: [AudioTTS - Simple Text to Speech Downloader](https://chromewebstore.google.com/detail/audiotts-simple-text-to-s/lhbdjaomnaobfljmhkmcfhhnihaaangh) *(Note to Sahil: I have kept this extension disabled to avoid unnecessary downloads from any website anytime, so feel free to enable it again temporarily)*
-	- 💫Text to speech (also has openai's AI text to speech): [ttsmp3.com](https://ttsmp3.com) [1000 tokens limit/day]
-	- For downloading small clips you can probably use chrome extension - [Chrome Audio Capture](https://chromewebstore.google.com/detail/chrome-audio-capture/kfokdmfpdnokpmpbjhjbcabgligoelgp) to download from below two sites because they don't allow download in their free plan yet. *(for commercial use -- I advise to get a premium plan to help support them)*
-		- [murf.ai/text-to-speech](https://murf.ai/text-to-speech)
-		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
-	- Premium Services - [hume.ai](https://www.hume.ai/pricing), [elevenlabs.io](https://elevenlabs.io/pricing), [revoicer.com](https://revoicer.com)
 - Video Cutter: [online-video-cutter.com](https://online-video-cutter.com/)
 	- ❤️🚀 Locally using `Handbrake` (very fast): Follow as suggested in this screenshot.
 	![image](https://github.com/user-attachments/assets/cfeec9ba-c9f0-430b-86a6-a820058b0d0e)
-- Speech to Text: *(#speechtotext, #speech-to-text)*
-	- [dictation.io/speech](https://dictation.io/speech) (web)
- 	- ❤️ WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
-	- ❤️ Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
-	- speechelo.com: [Click here](https://speechelo.com)
-	- [turboscribe.ai](https://turboscribe.ai)
 - Learn NFC:
 	- Link: [1](https://www.youtube.com/shorts/rqoUHzrWrU0), [2](https://www.youtube.com/shorts/kqds9w9BF-0?feature=share), [3](https://www.youtube.com/shorts/Mp9oZTlDhI8?feature=share), [4](https://www.youtube.com/shorts/vi3vwWKiS94?feature=share)
 
