@@ -546,7 +546,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 		- [murf.ai/text-to-speech](https://murf.ai/text-to-speech)
 		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
 	- Premium Services - [hume.ai](https://www.hume.ai/pricing), [elevenlabs.io](https://elevenlabs.io/pricing), [revoicer.com](https://revoicer.com)
-- **Speech to Text:** *(#speechtotext, #speech-to-text)*
+- **❤️ Speech to Text (STT):** *(#speechtotext, #speech-to-text)*
 	- ❤️ mp3 to text: https://turboscribe.ai (3 transcription/day)
 	- Live: [dictation.io/speech](https://dictation.io/speech) (web)
  	- ❤️ WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
