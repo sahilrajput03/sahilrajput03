@@ -17,6 +17,7 @@
 
 #### Projects & Services
 
+- SQLite MCP as a Service (Maas)
 - <a href="https://github.com/sahilrajput03/learn-electron/tree/main/project1" target="_blank">Intelligent Assistant (Desktop App) - Github Repository</a>
 - <a href="https://ragatime.github.io" target="_blank">ragatime.github.io</a>, <a href="https://github.com/ragatime/ragatime.github.io/" target="_blank">Github Repository</a>
 - <a href="https://ai.mypot.in" target="_blank">ai.mypot.in</a>, <a href="https://github.com/sahilrajput03/learn-svelte/tree/main/new-ai-sdk" target="_blank">Github Repository</a>
