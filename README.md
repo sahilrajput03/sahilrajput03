@@ -1079,7 +1079,9 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 	- Convert the kramdown to html when i give you and keep the search-title attribute as it is and do not return anything else.
 
 
-Learn: If you click on the bottom border (grey colored) of this player it will play the audio as well. This is needed because browser wants some click event from the user to play some audio.
+<div>Please click once in the empty area of in the bottom gray border area to enable audio 🎶. <div>
+
+<i>Learn: <span style="color: red;">Clicking in the slide show (or using arrows or slide number) stops autoplay of slide show.</span> <b>To play again tap the <u>three-dots-icon > Autoplay > Play</u></b>.</i>
 
 
 <!-- Please refer file `failed-google-slides.html` -->
