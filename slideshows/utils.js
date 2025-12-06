@@ -22,6 +22,15 @@ export function playVideo(video) {
     });
 }
 
+export function playAudio(audio) {
+    return new Promise((resolve, reject) => {
+        audio.addEventListener("ended", (evt) => resolve(), { once: true });
+        audio.addEventListener("error", (evt) => { console.log('audio-error-1?', audio.error); resolve({ error: true }); }, { once: true });
+        audio.play().catch((error) => { console.log('audio-error-2', error); resolve({ error: true }); });
+    });
+}
+
+
 export function addGoToFullscreenButton() {
     const html = `<div class="goToFullscreenContainer"><button id="goToFullscreen">Go Fullscreen</button></div>`;
     // Insert html on top inside `body` element

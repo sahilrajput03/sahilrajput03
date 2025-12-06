@@ -8,6 +8,8 @@
 </head>
 
 <body>
+
+    <div><span id="slideCounter">1</span>/n</div>
     <div id="slideshow"></div>
 
     <!-- For style testing on desktop and mobile) -->
@@ -18,7 +20,7 @@
         const $ = document.querySelector.bind(document);
         const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
 
-        import { preloadImage, sleep, playVideo, addGoToFullscreenButton, addEnableAudioButton } from "./utils.js";
+        import { preloadImage, sleep, playVideo, addGoToFullscreenButton, addEnableAudioButton, playAudio } from "./utils.js";
 
         addGoToFullscreenButton();
         addEnableAudioButton();
@@ -28,8 +30,8 @@
         const slides = [
             {
                 image: "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg",
-                duration: 3000,
-                audio: './slideshows/asset-audios/img-1-description.mp3'
+                duration: 3000, // Note: Length of audio overrides this duration.
+                audio: './asset-audios/img-1-description.mp3'
             },
             {
                 // video: "https://github.com/RagaTime/ragatime-files/blob/main/slideshow-assets/cities/1.mp4?raw=true",
@@ -56,13 +58,6 @@
             }
         ];
 
-        const audio = document.createElement('audio');
-        audio.src = './asset-audios/img-1-description.mp3';
-        audio.controls = true; // optional, shows play/pause buttons
-        document.body.appendChild(audio);
-        audio.play().catch(err => console.error('Audio playback failed:', err));
-
-
         main();
         async function main() {
             // Preload images
@@ -80,13 +75,18 @@
             const controls = document.createElement("div");
             controls.className = 'slideshow-controls-container';
             controls.innerHTML = `
-        <button id="prevBtn">⏮️</button>
+        <button id="restartBtn">⏮️</button>
+        <button id="prevBtn">⬅️</button>
         <button id="pauseBtn">⏸️</button>
-        <button id="nextBtn">⏭️</button>
+        <button id="nextBtn">➡️</button>
     `;
             document.body.prepend(controls);
 
             // Event handlers
+            $('#restartBtn').addEventListener('click', () => {
+                current = 0;
+                showSlide();
+            });
             $("#prevBtn").addEventListener("click", () => {
                 current = (current - 1 + slides.length) % slides.length;
                 // paused = true; // Use this option if you want to pause on click on "Next" button
@@ -106,11 +106,23 @@
 
             // Function to display slide
             async function showSlide() {
+                $('#slideCounter').innerHTML = current + 1;
                 container.innerHTML = "";   // remove previous image
                 const slide = slides[current];
                 if (slide.image) {
                     container.appendChild(slide.image);
-                    await sleep(slide.duration || defaultDelay);
+                    if (slide.audio) {
+                        const audio = document.createElement('audio');
+                        audio.src = slide.audio;
+                        audio.controls = true; // show/hide controls
+                        container.appendChild(audio);
+                        const result = await playAudio(audio);
+                        if (result?.error) { await sleep(defaultDelay); }
+                    } else if (slide.duration) {
+                        await sleep(slide.duration);
+                    } else {
+                        await sleep(defaultDelay);
+                    }
                 } else if (slide.video) {
                     const video = document.createElement("video");
                     video.src = slide.video;
@@ -133,6 +145,13 @@
     </script>
 
     <style>
+        #slideshow {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         #slideshow>img {
             width: 100%;
             max-height: 80vh;
@@ -141,6 +160,12 @@
         #slideshow>video {
             width: 100%;
             max-height: 75vh;
+        }
+
+        #slideshow>audio {
+            width: 100%;
+            max-width: 450px;
+            margin-top: 10px;
         }
 
         /* For quick testing of video sizes for images & videos */
@@ -157,7 +182,7 @@
         .goToFullscreenContainer {
             display: flex;
             justify-content: center;
-            margin-bottom: 15px;
+            /* margin-bottom: 15px; */
         }
 
         .slideshow-controls-container {
@@ -166,10 +191,7 @@
             margin-bottom: 10px;
         }
 
-        #pauseBtn {
-            margin: 0px 10px;
-        }
-
+        #restartBtn,
         #prevBtn,
         #pauseBtn,
         #nextBtn {
@@ -177,6 +199,7 @@
             border-radius: 5px;
             border-color: lightblue;
             outline: none;
+            margin: 0 5px;
         }
 
         #goToFullscreen {
@@ -184,6 +207,10 @@
             border-radius: 5px;
             border-color: lightblue;
             outline: none;
+        }
+
+        div:has(#slideCounter) {
+            text-align: end;
         }
     </style>
 </body>
