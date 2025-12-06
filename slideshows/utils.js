@@ -47,3 +47,20 @@ export function addGoToFullscreenButton() {
         }
     });
 }
+
+export function addEnableAudioButton() {
+    const html = `<button id="enableAudio" style="margin-bottom: 10px;">Enable audio</button>`;
+    document.body.insertAdjacentHTML("afterbegin", html);
+
+    // Check if user has interacted
+    let userInteracted = false;
+    // We detect any click anywhere on page to enable audio
+    document.addEventListener('click', function initInteraction() {
+        if (!userInteracted) {
+            userInteracted = true;
+            $('#enableAudio').textContent = 'Audio Enabled ✅';
+            $('#enableAudio').disabled = true;
+        }
+        document.removeEventListener('click', initInteraction);
+    });
+}

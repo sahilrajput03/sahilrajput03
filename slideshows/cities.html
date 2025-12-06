@@ -18,21 +18,23 @@
         const $ = document.querySelector.bind(document);
         const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
 
-        import { preloadImage, sleep, playVideo, addGoToFullscreenButton } from "./utils.js";
+        import { preloadImage, sleep, playVideo, addGoToFullscreenButton, addEnableAudioButton } from "./utils.js";
 
         addGoToFullscreenButton();
+        addEnableAudioButton();
 
         // Images - https://www.pexels.com/search/big%20size/
         // Videos - https://www.pexels.com/video
         const slides = [
             {
                 image: "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg",
-                duration: 3000
+                duration: 3000,
+                audio: './slideshows/asset-audios/img-1-description.mp3'
             },
             {
                 // video: "https://github.com/RagaTime/ragatime-files/blob/main/slideshow-assets/cities/1.mp4?raw=true",
-                // video: './asset-videos/1.mp4', // For video urls of local video file
-                video: "https://files.mypot.in/slideshow-assets/cities/1.mp4",
+                video: './asset-videos/1.mp4', // For video urls of local video file
+                // video: "https://files.mypot.in/slideshow-assets/cities/1.mp4",
                 duration: null // videos play as long as they have not ended
             },
             {
@@ -40,8 +42,8 @@
                 duration: 3000
             },
             {
-                // video: './asset-videos/2.mp4', // For video urls of local video file
-                video: "https://files.mypot.in/slideshow-assets/cities/2.mp4",
+                video: './asset-videos/2.mp4', // For video urls of local video file
+                // video: "https://files.mypot.in/slideshow-assets/cities/2.mp4",
                 duration: null // videos play as long as they have not ended
             },
             {
@@ -53,6 +55,13 @@
                 duration: 3000
             }
         ];
+
+        const audio = document.createElement('audio');
+        audio.src = './asset-audios/img-1-description.mp3';
+        audio.controls = true; // optional, shows play/pause buttons
+        document.body.appendChild(audio);
+        audio.play().catch(err => console.error('Audio playback failed:', err));
+
 
         main();
         async function main() {
