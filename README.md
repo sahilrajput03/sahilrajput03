@@ -1079,7 +1079,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 	- Convert the kramdown to html when i give you and keep the search-title attribute as it is and do not return anything else.
 
 
-Learn: If you click on the border of this player it will play the audio as well. This is needed because browser wants some click event from the user to play some audio.
+Learn: If you click on the bottom border (grey colored) of this player it will play the audio as well. This is needed because browser wants some click event from the user to play some audio.
 
 <iframe
     src="https://docs.google.com/presentation/d/e/2PACX-1vTDS14szJGSaxpXcUQKVhbqEi8_kfoImc319_CkbMCUFAUXqO28PNmeMcdBq2Wn74oGtydnD2sMDXgH/pubembed?start=true&loop=true&delayms=3000"
