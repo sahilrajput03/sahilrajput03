@@ -20,8 +20,9 @@ export function playVideo(video) {
 }
 
 export function addGoToFullscreenButton() {
-    // Using HTML string directly
-    document.body.insertAdjacentHTML("afterbegin", `<div class="goToFullscreenContainer"><button id="goToFullscreen">Go Fullscreen</button></div>`);
+    const html = `<div class="goToFullscreenContainer"><button id="goToFullscreen">Go Fullscreen</button></div>`;
+    // Insert html on top inside `body` element
+    document.body.insertAdjacentHTML("afterbegin", html);
 
     document.getElementById("goToFullscreen").addEventListener("click", async () => {
         const elem = document.getElementById("slideshow");
