@@ -15,6 +15,9 @@
     <!-- <video autoplay muted controls src='./assets-cities/2.mp4'></video> -->
 
     <script type="module">
+        const $ = document.querySelector.bind(document);
+        const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
+
         import { preloadImage, sleep, playVideo, addGoToFullscreenButton } from "./utils.js";
 
         addGoToFullscreenButton();
@@ -57,7 +60,7 @@
             // const loadedImgs = await Promise.all(slides.map(s => s.image).map(preloadImage)); for (const i in slides) { slides[i].image = loadedImgs[i]; }
             // console.log("🚀 ~ loadedImgs:", loadedImgs);
             console.log("All images loaded ✅", slides.map(s => s.image));
-            const container = document.getElementById("slideshow");
+            const container = $("#slideshow");
             let current = 0;
             container.appendChild(slides[current].image);
             const defaultDelay = 4000;

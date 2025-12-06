@@ -1,4 +1,7 @@
 // @ts-nocheck
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
+
 export function preloadImage(src) {
     return new Promise((resolve, reject) => {
         const img = new Image();
@@ -24,8 +27,8 @@ export function addGoToFullscreenButton() {
     // Insert html on top inside `body` element
     document.body.insertAdjacentHTML("afterbegin", html);
 
-    document.getElementById("goToFullscreen").addEventListener("click", async () => {
-        const elem = document.getElementById("slideshow");
+    $("#goToFullscreen").addEventListener("click", async () => {
+        const elem = $("#slideshow");
         if (elem.requestFullscreen) {
             elem.requestFullscreen();
         } else if (elem.webkitRequestFullscreen) { // Safari
