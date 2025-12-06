@@ -25,14 +25,14 @@ export function playVideo(video) {
 export function playAudio(audio) {
     return new Promise((resolve, reject) => {
         audio.addEventListener("ended", (evt) => resolve(), { once: true });
-        audio.addEventListener("error", (evt) => { console.log('audio-error-1?', audio.error); resolve({ error: true }); }, { once: true });
-        audio.play().catch((error) => { console.log('audio-error-2', error); resolve({ error: true }); });
+        audio.addEventListener("error", (evt) => { console.log('❌ audio-error-1?', audio.error); resolve({ error: true }); }, { once: true });
+        audio.play().catch((error) => { console.log('❌ audio-error-2', error); resolve({ error: true }); });
     });
 }
 
 
 export function addGoToFullscreenButton() {
-    const html = `<div class="goToFullscreenContainer"><button id="goToFullscreen">Go Fullscreen</button></div>`;
+    const html = `<div class="goToFullscreenContainer"><button id="goToFullscreen">⛶ Fullscreen</button></div>`;
     // Insert html on top inside `body` element
     document.body.insertAdjacentHTML("afterbegin", html);
 
@@ -57,18 +57,17 @@ export function addGoToFullscreenButton() {
     });
 }
 
-export function addEnableAudioButton() {
-    const html = `<button id="enableAudio" style="margin-bottom: 10px;">Enable audio</button>`;
+export function showNeedsUserGestureToEnableAudio() {
+    const html = `<div id="enableAudio" style="margin-bottom: 10px; color: deeppink;">This slideshow has audio, please click anywhere to enable audio.</div>`;
     document.body.insertAdjacentHTML("afterbegin", html);
 
     // Check if user has interacted
-    let userInteracted = false;
+    window.userInteracted = false;
     // We detect any click anywhere on page to enable audio
     document.addEventListener('click', function initInteraction() {
         if (!userInteracted) {
             userInteracted = true;
-            $('#enableAudio').textContent = 'Audio Enabled ✅';
-            $('#enableAudio').disabled = true;
+            $('#enableAudio').style.visibility = 'hidden';
         }
         document.removeEventListener('click', initInteraction);
     });
