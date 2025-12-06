@@ -1076,3 +1076,9 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 
 - **⭐️PROMPTS FOR GROQ**
 	- Convert the kramdown to html when i give you and keep the search-title attribute as it is and do not return anything else.
+
+
+<iframe
+    src="https://docs.google.com/presentation/d/e/2PACX-1vTDS14szJGSaxpXcUQKVhbqEi8_kfoImc319_CkbMCUFAUXqO28PNmeMcdBq2Wn74oGtydnD2sMDXgH/pubembed?start=true&loop=true&delayms=3000"
+    frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true"
+    webkitallowfullscreen="true"></iframe>
