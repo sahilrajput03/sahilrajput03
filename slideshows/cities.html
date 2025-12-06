@@ -11,8 +11,13 @@
     <div class="goToFullscreenContainer"><button id="goToFullscreen">Go Fullscreen</button></div>
     <div id="slideshow"></div>
 
+
+    <!-- For style testing on desktop and mobile) -->
+    <!-- <video autoplay muted controls src='./assets-cities/1.mp4'></video> -->
+    <!-- <video autoplay muted controls src='./assets-cities/2.mp4'></video> -->
+
     <script type="module">
-        import { preloadImage } from "./utils.js";
+        import { preloadImage, sleep, playVideo } from "./utils.js";
 
         document.getElementById("goToFullscreen").addEventListener("click", () => {
             const elem = document.getElementById("slideshow");
@@ -25,16 +30,26 @@
             }
         });
 
-
         // Images - https://www.pexels.com/search/big%20size/
+        // Videos - https://www.pexels.com/video
         const slides = [
+
             {
                 image: "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg",
                 duration: 3000
             },
             {
+                video: "https://github.com/RagaTime/ragatime-files/blob/main/slideshow-assets/cities/1.mp4?raw=true",
+                // video: './assets-cities/1.mp4', // For video urls of local video file
+                duration: null // videos play as long as they have not ended
+            },
+            {
                 image: "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg",
                 duration: 3000
+            },
+            {
+                video: "https://github.com/RagaTime/ragatime-files/blob/main/slideshow-assets/cities/2.mp4?raw=true",
+                duration: null // videos play as long as they have not ended
             },
             {
                 image: "https://images.pexels.com/photos/1388069/pexels-photo-1388069.jpeg",
@@ -49,7 +64,7 @@
         main();
         async function main() {
             // Learn: Use below statement to sequentially load images
-            for (const i in slides) { slides[i].image = await preloadImage(slides[i].image); }
+            for (const i in slides) { if (slides[i].image) { slides[i].image = await preloadImage(slides[i].image); } }
             // Learn: Use below statement to parallely load images
             // const loadedImgs = await Promise.all(slides.map(s => s.image).map(preloadImage)); for (const i in slides) { slides[i].image = loadedImgs[i]; }
             // console.log("🚀 ~ loadedImgs:", loadedImgs);
@@ -57,19 +72,45 @@
             const container = document.getElementById("slideshow");
             let current = 0;
             container.appendChild(slides[current].image);
-            const defaultDelay = 1000;
+            const defaultDelay = 4000;
             const loop = true;
             while (true) {
+                console.log('while-hell?');
                 container.innerHTML = "";               // remove previous image
                 current = (current + 1) % slides.length; // Learn: The modulo operator wraps the index back to 0 when it reaches the end.
-                container.appendChild(slides[current].image);
-                await new Promise((res) => setTimeout(res, slides[current].duration || defaultDelay));
+                const slide = slides[current];
+                if (slide.image) {
+                    container.appendChild(slide.image);
+                    await sleep(slide.duration || defaultDelay);
+                } else if (slide.video) {
+                    const video = document.createElement("video");
+                    video.src = slide.video;
+                    Object.assign(video, { autoplay: true, muted: true, controls: true, });
+                    video.controls = false; // temporarliy disabling controls for clean view
+                    container.appendChild(video);
+                    await playVideo(video); // wait until video finishes
+                }
             }
         }
     </script>
 
     <style>
+        img {
+            width: 100%;
+            max-height: 90vh;
+        }
+
         #slideshow>img {
+            width: 100%;
+            max-height: 90vh;
+        }
+
+        #slideshow>video {
+            width: 100%;
+            max-height: 90vh;
+        }
+
+        video {
             width: 100%;
             max-height: 90vh;
         }
