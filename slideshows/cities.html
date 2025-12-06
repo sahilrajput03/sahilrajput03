@@ -8,8 +8,6 @@
 </head>
 
 <body>
-
-    <div><span id="slideCounter">1</span>/<span id="slideCounterTotal">1</span></div>
     <div id="slideshow"></div>
 
     <!-- For style testing on desktop and mobile) -->
@@ -22,7 +20,6 @@
 
         import { preloadImage, sleep, playVideo, addGoToFullscreenButton, showNeedsUserGestureToEnableAudio, playAudio } from "./utils.js";
 
-        addGoToFullscreenButton();
         showNeedsUserGestureToEnableAudio();
 
 
@@ -62,7 +59,6 @@
                 duration: 3000
             }
         ];
-        $('#slideCounterTotal').innerHTML = slides.length;
 
         main();
         async function main() {
@@ -84,12 +80,21 @@
             const controls = document.createElement("div");
             controls.className = 'slideshow-controls-container';
             controls.innerHTML = `
-        <button id="restartBtn">⏮️</button>
-        <button id="prevBtn">⬅️</button>
-        <button id="pauseBtn">⏸️</button>
-        <button id="nextBtn">➡️</button>
+            <div></div>
+            <div style="display: flex;">
+                <button id="restartBtn">⏮️</button>
+                <button id="prevBtn">⬅️</button>
+                <button id="pauseBtn">⏸️</button>
+                <button id="nextBtn">➡️</button>
+                <div class="goToFullscreenContainer"><button id="goToFullscreen">⛶</button></div>
+            </div>
+            <div><span id="slideCounter">1</span>/<span id="slideCounterTotal">1</span></div>
     `;
             document.body.prepend(controls);
+            // This can only be done after fullscreen element has been aded to dom.
+            addGoToFullscreenButton();
+            // This can only be done after slideCounterTotal element has been aded to dom.
+            $('#slideCounterTotal').innerHTML = slides.length;
 
             async function setSlide(_current) {
                 paused = true;
@@ -220,7 +225,8 @@
 
         .slideshow-controls-container {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
             margin-bottom: 10px;
         }
 
