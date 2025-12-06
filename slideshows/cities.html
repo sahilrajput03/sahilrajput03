@@ -110,6 +110,7 @@
                 const slide = slides[current];
                 if (slide.image) {
                     container.appendChild(slide.image);
+                    await sleep(slide.duration || defaultDelay);
                 } else if (slide.video) {
                     const video = document.createElement("video");
                     video.src = slide.video;
@@ -123,8 +124,6 @@
             while (true) {
                 if (!paused) {
                     await showSlide();
-                    const slide = slides[current];
-                    if (slide.image) await sleep(slide.duration || defaultDelay);
                     current = (current + 1) % slides.length; // Learn: The modulo operator (%) wraps the index back to 0 when it reaches the end.
                 } else {
                     await sleep(200); // small delay while paused
