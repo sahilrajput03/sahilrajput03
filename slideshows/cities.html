@@ -30,8 +30,9 @@
                 duration: 3000
             },
             {
-                video: "https://github.com/RagaTime/ragatime-files/blob/main/slideshow-assets/cities/1.mp4?raw=true",
-                // video: './assets-cities/1.mp4', // For video urls of local video file
+                // video: "https://github.com/RagaTime/ragatime-files/blob/main/slideshow-assets/cities/1.mp4?raw=true",
+                // video: './asset-videos/1.mp4', // For video urls of local video file
+                video: "https://files.mypot.in/slideshow-assets/cities/1.mp4",
                 duration: null // videos play as long as they have not ended
             },
             {
@@ -39,7 +40,8 @@
                 duration: 3000
             },
             {
-                video: "https://github.com/RagaTime/ragatime-files/blob/main/slideshow-assets/cities/2.mp4?raw=true",
+                // video: './asset-videos/2.mp4', // For video urls of local video file
+                video: "https://files.mypot.in/slideshow-assets/cities/2.mp4",
                 duration: null // videos play as long as they have not ended
             },
             {
@@ -54,7 +56,7 @@
 
         main();
         async function main() {
-            // Learn: Use below statement to sequentially load images
+            // Preload images
             for (const i in slides) { if (slides[i].image) { slides[i].image = await preloadImage(slides[i].image); } }
             // Learn: Use below statement to parallely load images
             // const loadedImgs = await Promise.all(slides.map(s => s.image).map(preloadImage)); for (const i in slides) { slides[i].image = loadedImgs[i]; }
@@ -62,35 +64,67 @@
             console.log("All images loaded ✅", slides.map(s => s.image));
             const container = $("#slideshow");
             let current = 0;
-            container.appendChild(slides[current].image);
             const defaultDelay = 4000;
-            const loop = true;
-            while (true) {
-                console.log('while-hell?');
-                container.innerHTML = "";               // remove previous image
-                current = (current + 1) % slides.length; // Learn: The modulo operator wraps the index back to 0 when it reaches the end.
+            let paused = false;
+
+            // Create control buttons
+            const controls = document.createElement("div");
+            controls.className = 'slideshow-controls-container';
+            controls.innerHTML = `
+        <button id="prevBtn">⏮️</button>
+        <button id="pauseBtn">⏸️</button>
+        <button id="nextBtn">⏭️</button>
+    `;
+            document.body.prepend(controls);
+
+            // Event handlers
+            $("#prevBtn").addEventListener("click", () => {
+                current = (current - 1 + slides.length) % slides.length;
+                // paused = true; // Use this option if you want to pause on click on "Next" button
+                showSlide();
+            });
+            $("#pauseBtn").addEventListener("click", () => {
+                console.log('paused-before?', paused);
+                paused = !paused;
+                console.log('paused-after?', paused);
+                pauseBtn.textContent = paused ? "▶️" : "⏸️";
+            });
+            $("#nextBtn").addEventListener("click", () => {
+                current = (current + 1) % slides.length;
+                // paused = true; // Use this option if you want to pause on click on "Previous" button
+                showSlide();
+            });
+
+            // Function to display slide
+            async function showSlide() {
+                container.innerHTML = "";   // remove previous image
                 const slide = slides[current];
                 if (slide.image) {
                     container.appendChild(slide.image);
-                    await sleep(slide.duration || defaultDelay);
                 } else if (slide.video) {
                     const video = document.createElement("video");
                     video.src = slide.video;
-                    Object.assign(video, { autoplay: true, muted: true, controls: true, });
-                    video.controls = false; // temporarliy disabling controls for clean view
+                    Object.assign(video, { autoplay: true, muted: true, controls: false });
                     container.appendChild(video);
                     await playVideo(video); // wait until video finishes
+                }
+            }
+
+            // Loop through slides
+            while (true) {
+                if (!paused) {
+                    await showSlide();
+                    const slide = slides[current];
+                    if (slide.image) await sleep(slide.duration || defaultDelay);
+                    current = (current + 1) % slides.length; // Learn: The modulo operator (%) wraps the index back to 0 when it reaches the end.
+                } else {
+                    await sleep(200); // small delay while paused
                 }
             }
         }
     </script>
 
     <style>
-        img {
-            width: 100%;
-            max-height: 90vh;
-        }
-
         #slideshow>img {
             width: 100%;
             max-height: 90vh;
@@ -98,18 +132,50 @@
 
         #slideshow>video {
             width: 100%;
-            max-height: 90vh;
+            max-height: 75vh;
         }
 
-        video {
+        /* For quick testing of video sizes for images & videos */
+        /* img {
             width: 100%;
             max-height: 90vh;
         }
+        video {
+            width: 100%;
+            max-height: 90vh;
+        } */
+
 
         .goToFullscreenContainer {
             display: flex;
             justify-content: center;
             margin-bottom: 15px;
+        }
+
+        .slideshow-controls-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        #pauseBtn {
+            margin: 0px 10px;
+        }
+
+        #prevBtn,
+        #pauseBtn,
+        #nextBtn {
+            padding: 5px 20px;
+            border-radius: 5px;
+            border-color: lightblue;
+            outline: none;
+        }
+
+        #goToFullscreen {
+            padding: 5px 20px;
+            border-radius: 5px;
+            border-color: lightblue;
+            outline: none;
         }
     </style>
 </body>
