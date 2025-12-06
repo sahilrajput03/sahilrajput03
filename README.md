@@ -1083,5 +1083,5 @@ Learn: If you click on the bottom border (grey colored) of this player it will p
 
 <iframe
     src="https://docs.google.com/presentation/d/e/2PACX-1vTDS14szJGSaxpXcUQKVhbqEi8_kfoImc319_CkbMCUFAUXqO28PNmeMcdBq2Wn74oGtydnD2sMDXgH/pubembed?start=true&loop=true&delayms=3000"
-    frameborder="0" width="380" height="299" allowfullscreen="true" mozallowfullscreen="true"
+    frameborder="0" width="350" height="299" allowfullscreen="true" mozallowfullscreen="true"
     webkitallowfullscreen="true"></iframe>
