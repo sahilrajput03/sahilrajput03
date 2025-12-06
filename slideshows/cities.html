@@ -8,10 +8,23 @@
 </head>
 
 <body>
+    <div class="goToFullscreenContainer"><button id="goToFullscreen">Go Fullscreen</button></div>
     <div id="slideshow"></div>
 
     <script type="module">
         import { preloadImage } from "./utils.js";
+
+        document.getElementById("goToFullscreen").addEventListener("click", () => {
+            const elem = document.getElementById("slideshow");
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { // Safari
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { // Old IE
+                elem.msRequestFullscreen();
+            }
+        });
+
 
         // Images - https://www.pexels.com/search/big%20size/
         const slides = [
@@ -33,11 +46,6 @@
             }
         ];
 
-
-        // TODO: I must move the logic of this player outside to be able to re-use same logic to make more slideshows effectively.
-        // TODO: I must move the logic of this player outside to be able to re-use same logic to make more slideshows effectively.
-        // TODO: I must move the logic of this player outside to be able to re-use same logic to make more slideshows effectively.
-        // TODO: I must move the logic of this player outside to be able to re-use same logic to make more slideshows effectively.
         main();
         async function main() {
             // Learn: Use below statement to sequentially load images
@@ -64,6 +72,12 @@
         #slideshow>img {
             width: 100%;
             max-height: 90vh;
+        }
+
+        .goToFullscreenContainer {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
         }
     </style>
 
