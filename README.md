@@ -1079,12 +1079,14 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 	- Convert the kramdown to html when i give you and keep the search-title attribute as it is and do not return anything else.
 
 
-<div>Please click once in the empty area of in the bottom gray border area to enable audio 🎶. <div>
 
-<i>Learn: <span style="color: red;">Clicking in the slide show (or using arrows or slide number) stops autoplay of slide show.</span> <b>To play again tap the <u>three-dots-icon > Autoplay > Play</u></b>.</i>
+***
 
+**Sample Slideshow:**
+- <div>Please click once in the empty area of in the bottom gray border area to enable audio 🎶. <div>
+- <i>Learn: <span style="color: red;">Clicking in the slide show (or using arrows or slide number) stops autoplay of slide show.</span> <b>To play again tap the <u>three-dots-icon > Autoplay > Play</u></b>.</i>
 
-<!-- Please refer file `failed-google-slides.html` -->
+<!-- Please refer file `slideshows/google-slides-1.html` -->
 <iframe
     src="https://docs.google.com/presentation/d/e/2PACX-1vTDS14szJGSaxpXcUQKVhbqEi8_kfoImc319_CkbMCUFAUXqO28PNmeMcdBq2Wn74oGtydnD2sMDXgH/pubembed?start=true&loop=true&delayms=3000"
     frameborder="0" width="350" height="299" allowfullscreen="true" mozallowfullscreen="true"
