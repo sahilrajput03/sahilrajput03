@@ -1,7 +1,7 @@
 # Learning Markdown
 
 **Quick Links:**
-- You may practise markdown with live updates at [marked.js.org/demo/](https://marked.js.org/demo/)
+- ❤️ Markdown Playground: [marked.js.org/demo/](https://marked.js.org/demo/)
   - Js Library: `do-markdownit`: [Demo](https://www.digitalocean.com/community/markdown), [Github](https://github.com/digitalocean/do-markdownit), [npm](https://www.npmjs.com/package/@digitalocean/do-markdownit).
 - You can also refer syntax from [learnxinyminutes.com](https://learnxinyminutes.com/) for [markdown here](https://learnxinyminutes.com/docs/markdown/).
 - GitHub Flavored Markdown Spec: https://github.github.com/gfm
