@@ -11,19 +11,25 @@ export function preloadImage(src) {
     });
 }
 
-export const sleep = async (durationMs) => await new Promise((res) => setTimeout(res, durationMs));
+export const sleep = (durationMs) => new Promise((res) => {
+    window.resolveSleep = res;
+    setTimeout(res, durationMs);
+});
 
 // We need this so we return only when video has finished playing.
 export function playVideo(video) {
     return new Promise((resolve, reject) => {
-        video.addEventListener("ended", resolve);
-        video.addEventListener("error", reject);
-        video.play().catch(reject);
+        window.finishPlaybacOfAlreadyPlayingVideo = resolve;
+        window.playAudioOfMutedVideo = () => { video.muted = false; };
+        video.addEventListener("ended", (evt) => resolve());
+        video.addEventListener("error", (evt) => { console.log('❌ video-error-1?'); });
+        video.play().catch((error) => { console.log('❌ video-error-2', error); resolve({ error: true }); });
     });
 }
 
 export function playAudio(audio) {
     return new Promise((resolve, reject) => {
+        window.finishPlaybacOfAlreadyPlayingAudio = resolve;
         audio.addEventListener("ended", (evt) => resolve(), { once: true });
         audio.addEventListener("error", (evt) => { console.log('❌ audio-error-1?', audio.error); resolve({ error: true }); }, { once: true });
         audio.play().catch((error) => { console.log('❌ audio-error-2', error); resolve({ error: true }); });
@@ -32,7 +38,7 @@ export function playAudio(audio) {
 
 
 export function addGoToFullscreenButton() {
-    const html = `<div class="goToFullscreenContainer"><button id="goToFullscreen">⛶ Fullscreen</button></div>`;
+    const html = `<div class="goToFullscreenContainer"><button id="goToFullscreen">⛶</button></div>`;
     // Insert html on top inside `body` element
     document.body.insertAdjacentHTML("afterbegin", html);
 
@@ -68,6 +74,7 @@ export function showNeedsUserGestureToEnableAudio() {
         if (!userInteracted) {
             userInteracted = true;
             $('#enableAudio').style.visibility = 'hidden';
+            window.playAudioOfMutedVideo?.();
         }
         document.removeEventListener('click', initInteraction);
     });

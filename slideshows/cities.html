@@ -66,6 +66,9 @@
 
         main();
         async function main() {
+            // ! Only for debugging..
+            // await sleep(3_000);
+
             // Preload images
             for (const i in slides) { if (slides[i].image) { slides[i].image = await preloadImage(slides[i].image); } }
             // Learn: Use below statement to parallely load images
@@ -88,31 +91,51 @@
     `;
             document.body.prepend(controls);
 
+            async function setSlide(_current) {
+                paused = true;
+                // Stop awaiting of already playing audio or video
+                window.finishPlaybacOfAlreadyPlayingVideo?.();
+                window.finishPlaybacOfAlreadyPlayingAudio?.();
+                window.resolveSleep?.(); // To resolve any currently running `await sleep(..)` immediately.
+                await sleep(200);
+                console.log("🚀 ~ current=_current:", _current);
+                current = _current;
+                await showSlide();
+                if (!statusOfPauseBtn) {
+                    paused = false;     // start the while loop again
+                }
+            }
+
             // Event handlers
             $('#restartBtn').addEventListener('click', () => {
-                current = 0;
-                showSlide();
+                setSlide(0);
             });
             $("#prevBtn").addEventListener("click", () => {
-                current = (current - 1 + slides.length) % slides.length;
-                // paused = true; // Use this option if you want to pause on click on "Next" button
-                showSlide();
+                setSlide((current - 1 + slides.length) % slides.length);
             });
-            $("#pauseBtn").addEventListener("click", () => {
+            var statusOfPauseBtn = false; // initial status of pause button
+            const updatePauseBtnLabel = () => pauseBtn.textContent = paused ? "▶️" : "⏸️";
+            $("#pauseBtn").addEventListener("click", async () => {
+                if (statusOfPauseBtn !== paused) {
+                    // Sync pause button status if they not in sync
+                    statusOfPauseBtn = paused;
+                    updatePauseBtnLabel();
+                    return;
+                }
                 console.log('paused-before?', paused);
                 paused = !paused;
+                statusOfPauseBtn = paused;
                 console.log('paused-after?', paused);
-                pauseBtn.textContent = paused ? "▶️" : "⏸️";
+                updatePauseBtnLabel();
             });
-            $("#nextBtn").addEventListener("click", () => {
-                current = (current + 1) % slides.length;
-                // paused = true; // Use this option if you want to pause on click on "Previous" button
-                showSlide();
+            $("#nextBtn").addEventListener("click", async () => {
+                setSlide((current + 1) % slides.length);
             });
 
             // Function to display slide
             async function showSlide() {
                 $('#slideCounter').innerHTML = current + 1;
+                console.log("🚀 ~ current:", current);
                 container.innerHTML = "";   // remove previous image
                 const slide = slides[current];
                 if (slide.image) {
@@ -125,6 +148,7 @@
                         console.log('play-audio-before');
                         const result = await playAudio(audio);
                         console.log('play-audio-after ❤️');
+                        // This is to keep image showing when there was no user-interaction leading to error in playing audio.
                         if (result?.error) { await sleep(defaultDelay); }
                     } else {
                         await sleep(slide.duration || defaultDelay);
@@ -138,16 +162,15 @@
                     await playVideo(video); // wait until video finishes
                 }
             }
-
             // Loop through slides
             while (true) {
-                console.log('while-hell?');
                 if (!paused) {
                     console.log('playing-slide');
                     await showSlide();
                     console.log('playing-slide- ✅');
                     current = (current + 1) % slides.length; // Learn: The modulo operator (%) wraps the index back to 0 when it reaches the end.
                 } else {
+                    console.log('🔴while-loop-blocked');
                     await sleep(200); // small delay while paused
                 }
             }
