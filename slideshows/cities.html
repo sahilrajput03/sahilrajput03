@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="slideshow"></div>
+
+    <script type="module">
+        import { preloadImage } from "./utils.js";
+
+        // Images - https://www.pexels.com/search/big%20size/
+        const slides = [
+            {
+                image: "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg",
+                duration: 3000
+            },
+            {
+                image: "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg",
+                duration: 3000
+            },
+            {
+                image: "https://images.pexels.com/photos/1388069/pexels-photo-1388069.jpeg",
+                duration: 3000
+            },
+            {
+                image: "https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg",
+                duration: 3000
+            }
+        ];
+
+
+        // TODO: I must move the logic of this player outside to be able to re-use same logic to make more slideshows effectively.
+        // TODO: I must move the logic of this player outside to be able to re-use same logic to make more slideshows effectively.
+        // TODO: I must move the logic of this player outside to be able to re-use same logic to make more slideshows effectively.
+        // TODO: I must move the logic of this player outside to be able to re-use same logic to make more slideshows effectively.
+        main();
+        async function main() {
+            // Learn: Use below statement to sequentially load images
+            for (const i in slides) { slides[i].image = await preloadImage(slides[i].image); }
+            // Learn: Use below statement to parallely load images
+            // const loadedImgs = await Promise.all(slides.map(s => s.image).map(preloadImage)); for (const i in slides) { slides[i].image = loadedImgs[i]; }
+            // console.log("🚀 ~ loadedImgs:", loadedImgs);
+            console.log("All images loaded ✅", slides.map(s => s.image));
+            const container = document.getElementById("slideshow");
+            let current = 0;
+            container.appendChild(slides[current].image);
+            const defaultDelay = 1000;
+            const loop = true;
+            while (true) {
+                container.innerHTML = "";               // remove previous image
+                current = (current + 1) % slides.length; // Learn: The modulo operator wraps the index back to 0 when it reaches the end.
+                container.appendChild(slides[current].image);
+                await new Promise((res) => setTimeout(res, slides[current].duration || defaultDelay));
+            }
+        }
+    </script>
+
+    <style>
+        #slideshow>img {
+            width: 100%;
+            max-height: 90vh;
+        }
+    </style>
+
+</body>
+
+</html>

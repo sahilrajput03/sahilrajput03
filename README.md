@@ -1081,6 +1081,8 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 
 Learn: If you click on the bottom border (grey colored) of this player it will play the audio as well. This is needed because browser wants some click event from the user to play some audio.
 
+
+<!-- Please refer file `failed-google-slides.html` -->
 <iframe
     src="https://docs.google.com/presentation/d/e/2PACX-1vTDS14szJGSaxpXcUQKVhbqEi8_kfoImc319_CkbMCUFAUXqO28PNmeMcdBq2Wn74oGtydnD2sMDXgH/pubembed?start=true&loop=true&delayms=3000"
     frameborder="0" width="350" height="299" allowfullscreen="true" mozallowfullscreen="true"

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="loadBtn">Load iFrame</button>
+
+    <div id="container"></div>
+
+    <script>
+        document.getElementById("loadBtn").addEventListener("click", function () {
+            const iframe = document.createElement("iframe");
+            // * Note: Below link properties which you can customize - `start=true&loop=true&delayms=3000`
+            iframe.src = "https://docs.google.com/presentation/d/e/2PACX-1vTDS14szJGSaxpXcUQKVhbqEi8_kfoImc319_CkbMCUFAUXqO28PNmeMcdBq2Wn74oGtydnD2sMDXgH/pubembed?start=true&loop=true&delayms=3000";
+            iframe.width = "350"; // fits best for my pocom4 device
+            iframe.height = "299";
+            iframe.style.border = "1px solid #ccc";
+            // Below properties are inspired from predefined properties on the iframe tag generated from "Google Slides > Publish to web" feature.
+            iframe.frameborder = "0";
+            iframe.allowfullscreen = "true";
+            iframe.mozallowfullscreen = "true";
+            iframe.webkitallowfullscreen = "true";
+
+
+            document.getElementById("container").appendChild(iframe);
+        });
+    </script>
+</body>
+
+</html>
