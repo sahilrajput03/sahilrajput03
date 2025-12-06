@@ -8,32 +8,20 @@
 </head>
 
 <body>
-    <div class="goToFullscreenContainer"><button id="goToFullscreen">Go Fullscreen</button></div>
     <div id="slideshow"></div>
-
 
     <!-- For style testing on desktop and mobile) -->
     <!-- <video autoplay muted controls src='./assets-cities/1.mp4'></video> -->
     <!-- <video autoplay muted controls src='./assets-cities/2.mp4'></video> -->
 
     <script type="module">
-        import { preloadImage, sleep, playVideo } from "./utils.js";
+        import { preloadImage, sleep, playVideo, addGoToFullscreenButton } from "./utils.js";
 
-        document.getElementById("goToFullscreen").addEventListener("click", () => {
-            const elem = document.getElementById("slideshow");
-            if (elem.requestFullscreen) {
-                elem.requestFullscreen();
-            } else if (elem.webkitRequestFullscreen) { // Safari
-                elem.webkitRequestFullscreen();
-            } else if (elem.msRequestFullscreen) { // Old IE
-                elem.msRequestFullscreen();
-            }
-        });
+        addGoToFullscreenButton();
 
         // Images - https://www.pexels.com/search/big%20size/
         // Videos - https://www.pexels.com/video
         const slides = [
-
             {
                 image: "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg",
                 duration: 3000
