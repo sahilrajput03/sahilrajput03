@@ -62,8 +62,7 @@ function addGoToFullscreenButton() {
 async function showNeedsUserGestureToEnableAudio() {
     const html = `<div id="enableAudio" style="text-align: center; color: deeppink;">This slideshow has audio, please click anywhere to enable audio.</div>`;
 
-    // Check if user has interacted
-    // We are not setting it `false` because it is possible that user might have interacted in previous page for e.g, use is on /sldeshows and then opened the link of /slideshows/cities .
+    // We are not setting `userInteracted=false` for its initial value because it is possible that user might have interacted in previous page for e.g, use is on /sldeshows and then opened the link of /slideshows/cities .
     window.userInteracted = await hasUserInteracted();
     if (!userInteracted) {
         document.body.insertAdjacentHTML("afterbegin", html);
