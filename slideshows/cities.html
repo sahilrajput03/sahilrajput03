@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -61,74 +62,6 @@
     </script>
 
     <style>
-        #slideshow {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #slideshow>img {
-            width: 100%;
-            max-height: 80vh;
-        }
-
-        #slideshow>video {
-            width: 100%;
-            max-height: 75vh;
-        }
-
-        #slideshow>audio {
-            width: 100%;
-            max-width: 450px;
-            margin-top: 10px;
-        }
-
-        /* For quick testing of video sizes for images & videos */
-        /* img {
-            width: 100%;
-            max-height: 80vh;
-        }
-        video {
-            width: 100%;
-            max-height: 90vh;
-        } */
-
-
-        .goToFullscreenContainer {
-            display: flex;
-            justify-content: center;
-            /* margin-bottom: 15px; */
-        }
-
-        .slideshow-controls-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-
-        #restartBtn,
-        #prevBtn,
-        #pauseBtn,
-        #nextBtn {
-            padding: 5px 20px;
-            border-radius: 5px;
-            border-color: lightblue;
-            outline: none;
-            margin: 0 5px;
-        }
-
-        #goToFullscreen {
-            padding: 5px 20px;
-            border-radius: 5px;
-            border-color: lightblue;
-            outline: none;
-        }
-
-        div:has(#slideCounter) {
-            text-align: end;
-        }
     </style>
 </body>
 
