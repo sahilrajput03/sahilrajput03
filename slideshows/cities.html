@@ -96,8 +96,13 @@
             // This can only be done after slideCounterTotal element has been aded to dom.
             $('#slideCounterTotal').innerHTML = slides.length;
 
-            const updatePauseBtnLabel = () => pauseBtn.textContent = paused ? "▶️" : "⏸️";
+            const updatePauseBtn = () => {
+                statusOfPauseBtn = paused;
+                pauseBtn.textContent = paused ? "▶️" : "⏸️";
+            };
+            var wasPausedBeforeControlsBtnClick = null;
             async function setSlide(_current) {
+                wasPausedBeforeControlsBtnClick = paused;
                 paused = true;
                 // Stop awaiting of already playing audio or video
                 window.finishPlaybacOfAlreadyPlayingVideo?.();
@@ -107,10 +112,7 @@
                 console.log("🚀 ~ setSlide - current=_current:", _current);
                 current = _current;
                 paused = false;     // start the while loop again
-                statusOfPauseBtn = false;
-                updatePauseBtnLabel();
             }
-
             // Learn: When current video is finished and we're paused: we do not change the index.
             const getNextSlideIndex = () => (current + (isWhileLoopInPausedBlock ? 0 : 1)) % slides.length;
 
@@ -123,17 +125,10 @@
             $("#nextBtn").addEventListener("click", () => { setSlide(getNextSlideIndex()); });
             var statusOfPauseBtn = false; // initial status of pause button
             $("#pauseBtn").addEventListener("click", async () => {
-                if (statusOfPauseBtn !== paused) {
-                    // Sync pause button status if they not in sync
-                    statusOfPauseBtn = paused;
-                    updatePauseBtnLabel();
-                    return;
-                }
                 console.log('paused-before?', paused);
                 paused = !paused;
-                statusOfPauseBtn = paused;
                 console.log('paused-after?', paused);
-                updatePauseBtnLabel();
+                updatePauseBtn();
             });
 
 
@@ -172,6 +167,12 @@
             while (true) {
                 var isWhileLoopInPausedBlock = paused;
                 if (!paused) {
+                    if (wasPausedBeforeControlsBtnClick) {
+                        wasPausedBeforeControlsBtnClick = false;
+                        console.log("✅✅✅ ~ wasPausedBeforeControlsBtnClick:", wasPausedBeforeControlsBtnClick);
+                        paused = true;
+                        updatePauseBtn();
+                    }
                     console.log('playing-slide');
                     await showSlide();
                     console.log('playing-slide- ✅');
