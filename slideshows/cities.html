@@ -111,7 +111,10 @@
                 updatePauseBtnLabel();
             }
 
+            // Learn: When current video is finished and we're paused: we do not change the index.
             const getNextSlideIndex = () => (current + (isWhileLoopInPausedBlock ? 0 : 1)) % slides.length;
+
+            // Learn: When current video is finished and we're paused: we decrement slideIndex by 2 to back to last to last slide becaue the `current` has changed to `nextSlideIndex` already.
             const getPreviousSlideIndex = () => (current - (isWhileLoopInPausedBlock ? 2 : 1) + slides.length) % slides.length;
 
             // Event handlers
