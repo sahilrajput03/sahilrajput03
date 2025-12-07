@@ -111,10 +111,13 @@
                 updatePauseBtnLabel();
             }
 
+            const getNextSlideIndex = () => (current + (isWhileLoopInPausedBlock ? 0 : 1)) % slides.length;
+            const getPreviousSlideIndex = () => (current - (isWhileLoopInPausedBlock ? 2 : 1) + slides.length) % slides.length;
+
             // Event handlers
             $('#restartBtn').addEventListener('click', () => { setSlide(0); });
-            $("#prevBtn").addEventListener("click", () => { setSlide((current - 1 + slides.length) % slides.length); });
-            $("#nextBtn").addEventListener("click", () => { setSlide((current + 1) % slides.length); });
+            $("#prevBtn").addEventListener("click", () => { setSlide(getPreviousSlideIndex()); });
+            $("#nextBtn").addEventListener("click", () => { setSlide(getNextSlideIndex()); });
             var statusOfPauseBtn = false; // initial status of pause button
             $("#pauseBtn").addEventListener("click", async () => {
                 if (statusOfPauseBtn !== paused) {
