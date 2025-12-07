@@ -18,7 +18,7 @@
         const $ = document.querySelector.bind(document);
         const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
 
-        import { preloadImage, sleep, playVideo, addGoToFullscreenButton, showNeedsUserGestureToEnableAudio, playAudio } from "./utils.js";
+        import { preloadImage, sleep, playVideo, addGoToFullscreenButton, showNeedsUserGestureToEnableAudio, playAudio, waitSync } from "./utils.js";
 
         showNeedsUserGestureToEnableAudio();
 
@@ -102,22 +102,18 @@
                 window.finishPlaybacOfAlreadyPlayingVideo?.();
                 window.finishPlaybacOfAlreadyPlayingAudio?.();
                 window.resolveSleep?.(); // To resolve any currently running `await sleep(..)` immediately.
-                await sleep(200);
-                console.log("🚀 ~ current=_current:", _current);
+                await waitSync(() => isWhileLoopInPausedBlock);
+                console.log("🚀 ~ setSlide - current=_current:", _current);
                 current = _current;
-                await showSlide();
                 if (!statusOfPauseBtn) {
                     paused = false;     // start the while loop again
                 }
             }
 
             // Event handlers
-            $('#restartBtn').addEventListener('click', () => {
-                setSlide(0);
-            });
-            $("#prevBtn").addEventListener("click", () => {
-                setSlide((current - 1 + slides.length) % slides.length);
-            });
+            $('#restartBtn').addEventListener('click', () => { setSlide(0); });
+            $("#prevBtn").addEventListener("click", () => { setSlide((current - 1 + slides.length) % slides.length); });
+            $("#nextBtn").addEventListener("click", () => { setSlide((current + 1) % slides.length); });
             var statusOfPauseBtn = false; // initial status of pause button
             const updatePauseBtnLabel = () => pauseBtn.textContent = paused ? "▶️" : "⏸️";
             $("#pauseBtn").addEventListener("click", async () => {
@@ -133,14 +129,12 @@
                 console.log('paused-after?', paused);
                 updatePauseBtnLabel();
             });
-            $("#nextBtn").addEventListener("click", async () => {
-                setSlide((current + 1) % slides.length);
-            });
+
 
             // Function to display slide
             async function showSlide() {
                 $('#slideCounter').innerHTML = current + 1;
-                console.log("🚀 ~ current:", current);
+                console.log("🚀 ~ showSlide - current:", current);
                 container.innerHTML = "";   // remove previous image
                 const slide = slides[current];
                 if (slide.image) {
@@ -157,6 +151,7 @@
                         if (result?.error) { await sleep(defaultDelay); }
                     } else {
                         await sleep(slide.duration || defaultDelay);
+                        console.log('❤️image sleep finished now!!');
                     }
                 } else if (slide.video) {
                     const video = document.createElement("video");
@@ -169,6 +164,7 @@
             }
             // Loop through slides
             while (true) {
+                var isWhileLoopInPausedBlock = paused;
                 if (!paused) {
                     console.log('playing-slide');
                     await showSlide();
