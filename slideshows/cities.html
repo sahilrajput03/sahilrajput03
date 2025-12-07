@@ -96,6 +96,7 @@
             // This can only be done after slideCounterTotal element has been aded to dom.
             $('#slideCounterTotal').innerHTML = slides.length;
 
+            const updatePauseBtnLabel = () => pauseBtn.textContent = paused ? "▶️" : "⏸️";
             async function setSlide(_current) {
                 paused = true;
                 // Stop awaiting of already playing audio or video
@@ -105,9 +106,9 @@
                 await waitSync(() => isWhileLoopInPausedBlock);
                 console.log("🚀 ~ setSlide - current=_current:", _current);
                 current = _current;
-                if (!statusOfPauseBtn) {
-                    paused = false;     // start the while loop again
-                }
+                paused = false;     // start the while loop again
+                statusOfPauseBtn = false;
+                updatePauseBtnLabel();
             }
 
             // Event handlers
@@ -115,7 +116,6 @@
             $("#prevBtn").addEventListener("click", () => { setSlide((current - 1 + slides.length) % slides.length); });
             $("#nextBtn").addEventListener("click", () => { setSlide((current + 1) % slides.length); });
             var statusOfPauseBtn = false; // initial status of pause button
-            const updatePauseBtnLabel = () => pauseBtn.textContent = paused ? "▶️" : "⏸️";
             $("#pauseBtn").addEventListener("click", async () => {
                 if (statusOfPauseBtn !== paused) {
                     // Sync pause button status if they not in sync
