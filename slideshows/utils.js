@@ -12,10 +12,10 @@ export async function renderSlideShow(selector, slides) {
 
     let paused = false;
     let statusOfPauseBtn = false; // initial status of pause button
-    let finishPlaybacOfAlreadyPlayingVideo = null;
-    let finishPlaybacOfAlreadyPlayingAudio = null;
-    let resolveSleep = null;
-    let playAudioOfMutedVideo = null;
+    let finishPlaybacOfAlreadyPlayingVideoFn = null;
+    let finishPlaybacOfAlreadyPlayingAudioFn = null;
+    let resolveSleepFn = null;
+    let playAudioOfMutedVideoFn = null;
     let userInteracted = null;
 
     showNeedsUserGestureToEnableAudio();
@@ -59,9 +59,9 @@ export async function renderSlideShow(selector, slides) {
         wasPausedBeforeControlsBtnClick = paused;
         paused = true;
         // Stop awaiting of already playing audio or video
-        finishPlaybacOfAlreadyPlayingVideo?.();
-        finishPlaybacOfAlreadyPlayingAudio?.();
-        resolveSleep?.(); // To resolve any currently running `await sleep(..)` immediately.
+        finishPlaybacOfAlreadyPlayingVideoFn?.();
+        finishPlaybacOfAlreadyPlayingAudioFn?.();
+        resolveSleepFn?.(); // To resolve any currently running `await sleep(..)` immediately.
         await waitSync(() => isWhileLoopInPausedBlock);
         console.log("🚀 ~ setSlide - current=_current:", _current);
         current = _current;
@@ -140,7 +140,7 @@ export async function renderSlideShow(selector, slides) {
     //      Learn: These are IMPURE FUNCTIONS. Please put any pure function outside of the `renderSlideshow` function.
     function sleep(durationMs) {
         return new Promise((res) => {
-            resolveSleep = res;
+            resolveSleepFn = res;
             setTimeout(res, durationMs);
         });
     };
@@ -148,8 +148,8 @@ export async function renderSlideShow(selector, slides) {
     // We need this so we return only when video has finished playing.
     function playVideo(video) {
         return new Promise((resolve, reject) => {
-            finishPlaybacOfAlreadyPlayingVideo = resolve;
-            playAudioOfMutedVideo = () => { video.muted = false; };
+            finishPlaybacOfAlreadyPlayingVideoFn = resolve;
+            playAudioOfMutedVideoFn = () => { video.muted = false; };
             video.addEventListener("ended", (evt) => resolve());
             video.addEventListener("error", (evt) => { console.log('❌ video-error-1?'); });
             video.play().catch((error) => { console.log('❌ video-error-2', error); resolve({ error: true }); });
@@ -158,7 +158,7 @@ export async function renderSlideShow(selector, slides) {
 
     function playAudio(audio) {
         return new Promise((resolve, reject) => {
-            finishPlaybacOfAlreadyPlayingAudio = resolve;
+            finishPlaybacOfAlreadyPlayingAudioFn = resolve;
             audio.addEventListener("ended", (evt) => resolve(), { once: true });
             audio.addEventListener("error", (evt) => { console.log('❌ audio-error-1?', audio.error); resolve({ error: true }); }, { once: true });
             audio.play().catch((error) => { console.log('❌ audio-error-2', error); resolve({ error: true }); });
@@ -198,7 +198,7 @@ export async function renderSlideShow(selector, slides) {
             if (!userInteracted) {
                 userInteracted = true;
                 $(`${selector} #enableAudio`).style.visibility = 'hidden';
-                playAudioOfMutedVideo?.();
+                playAudioOfMutedVideoFn?.();
             }
             document.removeEventListener('click', initInteraction);
         });
