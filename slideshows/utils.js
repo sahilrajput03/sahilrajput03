@@ -2,6 +2,10 @@
 const $ = document.querySelector.bind(document); const $$ = document.querySelectorAll.bind(document);
 
 export async function renderSlideShow(selector, slides) {
+    const slideshowContainer = $(selector);
+    // Learn: Below class is used to assign styles via `styles.css` file.
+    slideshowContainer.className = 'slideshow-container';
+
     let finishPlaybacOfAlreadyPlayingVideo = null;
     let finishPlaybacOfAlreadyPlayingAudio = null;
     let resolveSleep = null;
@@ -18,9 +22,6 @@ export async function renderSlideShow(selector, slides) {
     // const loadedImgs = await Promise.all(slides.map(s => s.image).map(preloadImage)); for (const i in slides) { slides[i].image = loadedImgs[i]; }
     // console.log("🚀 ~ loadedImgs:", loadedImgs);
     console.log("All images loaded ✅", slides.map(s => s.image));
-    const slideshowContainer = $(selector);
-    // Learn: Below class is used to assign styles via `styles.css` file.
-    slideshowContainer.className = 'slideshow-container';
     let current = 0;
     const defaultDelay = 4000;
     let paused = false;
