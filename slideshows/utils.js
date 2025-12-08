@@ -3,10 +3,15 @@ const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
 
 export async function renderSlideShow(slides) {
+    let finishPlaybacOfAlreadyPlayingVideo = null;
+    let finishPlaybacOfAlreadyPlayingAudio = null;
+    let resolveSleep = null;
+    let playAudioOfMutedVideo = null;
+    let userInteracted = null;
+
     showNeedsUserGestureToEnableAudio();
 
-    // ! Only for debugging..
-    // await sleep(3_000);
+    // await sleep(3_000); // For debugging only..
 
     // Preload images
     for (const i in slides) { if (slides[i].image) { slides[i].image = await preloadImage(slides[i].image); } }
@@ -42,14 +47,14 @@ export async function renderSlideShow(slides) {
         statusOfPauseBtn = paused;
         pauseBtn.textContent = paused ? "▶️" : "⏸️";
     };
-    var wasPausedBeforeControlsBtnClick = null;
+    let wasPausedBeforeControlsBtnClick = null;
     async function setSlide(_current) {
         wasPausedBeforeControlsBtnClick = paused;
         paused = true;
         // Stop awaiting of already playing audio or video
-        window.finishPlaybacOfAlreadyPlayingVideo?.();
-        window.finishPlaybacOfAlreadyPlayingAudio?.();
-        window.resolveSleep?.(); // To resolve any currently running `await sleep(..)` immediately.
+        finishPlaybacOfAlreadyPlayingVideo?.();
+        finishPlaybacOfAlreadyPlayingAudio?.();
+        resolveSleep?.(); // To resolve any currently running `await sleep(..)` immediately.
         await waitSync(() => isWhileLoopInPausedBlock);
         console.log("🚀 ~ setSlide - current=_current:", _current);
         current = _current;
@@ -124,7 +129,77 @@ export async function renderSlideShow(slides) {
             await sleep(200); // small delay while paused
         }
     }
+
+    // Utility Functions.
+    //      Learn: These are Impure functions. Please put any pure function outside of the `renderSlideshow` function.
+    function sleep(durationMs) {
+        return new Promise((res) => {
+            resolveSleep = res;
+            setTimeout(res, durationMs);
+        });
+    };
+
+    // We need this so we return only when video has finished playing.
+    function playVideo(video) {
+        return new Promise((resolve, reject) => {
+            finishPlaybacOfAlreadyPlayingVideo = resolve;
+            playAudioOfMutedVideo = () => { video.muted = false; };
+            video.addEventListener("ended", (evt) => resolve());
+            video.addEventListener("error", (evt) => { console.log('❌ video-error-1?'); });
+            video.play().catch((error) => { console.log('❌ video-error-2', error); resolve({ error: true }); });
+        });
+    }
+
+    function playAudio(audio) {
+        return new Promise((resolve, reject) => {
+            finishPlaybacOfAlreadyPlayingAudio = resolve;
+            audio.addEventListener("ended", (evt) => resolve(), { once: true });
+            audio.addEventListener("error", (evt) => { console.log('❌ audio-error-1?', audio.error); resolve({ error: true }); }, { once: true });
+            audio.play().catch((error) => { console.log('❌ audio-error-2', error); resolve({ error: true }); });
+        });
+    }
+
+    function addGoToFullscreenButton() {
+        $("#goToFullscreen").addEventListener("click", async () => {
+            const elem = $("#slideshow");
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { // Safari
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { // Old IE
+                elem.msRequestFullscreen();
+            }
+            // Lock orientation to landscape
+            if (screen.orientation && screen.orientation.lock) {
+                try {
+                    await screen.orientation.lock("landscape");
+                } catch (err) {
+                    console.warn("Orientation lock failed:", err);
+                }
+            }
+        });
+    }
+
+    async function showNeedsUserGestureToEnableAudio() {
+        const html = `<div id="enableAudio" style="text-align: center; color: deeppink;">This slideshow has audio, please click anywhere to enable audio.</div>`;
+        // We are not setting `userInteracted=false` for its initial value because it is possible that user might have interacted in previous page for e.g, use is on /sldeshows and then opened the link of /slideshows/cities .
+        userInteracted = await hasUserInteracted();
+        if (!userInteracted) {
+            document.body.insertAdjacentHTML("afterbegin", html);
+        }
+        // We detect any click anywhere on page to enable audio
+        document.addEventListener('click', function initInteraction() {
+            if (!userInteracted) {
+                userInteracted = true;
+                $('#enableAudio').style.visibility = 'hidden';
+                playAudioOfMutedVideo?.();
+            }
+            document.removeEventListener('click', initInteraction);
+        });
+    }
 }
+
+// Below functions are Pure functions
 
 function preloadImage(src) {
     return new Promise((resolve, reject) => {
@@ -132,73 +207,6 @@ function preloadImage(src) {
         img.src = src;
         img.onload = () => resolve(img); // Learn: `Image` is returned
         img.onerror = reject;
-    });
-}
-
-const sleep = (durationMs) => new Promise((res) => {
-    window.resolveSleep = res;
-    setTimeout(res, durationMs);
-});
-
-// We need this so we return only when video has finished playing.
-function playVideo(video) {
-    return new Promise((resolve, reject) => {
-        window.finishPlaybacOfAlreadyPlayingVideo = resolve;
-        window.playAudioOfMutedVideo = () => { video.muted = false; };
-        video.addEventListener("ended", (evt) => resolve());
-        video.addEventListener("error", (evt) => { console.log('❌ video-error-1?'); });
-        video.play().catch((error) => { console.log('❌ video-error-2', error); resolve({ error: true }); });
-    });
-}
-
-function playAudio(audio) {
-    return new Promise((resolve, reject) => {
-        window.finishPlaybacOfAlreadyPlayingAudio = resolve;
-        audio.addEventListener("ended", (evt) => resolve(), { once: true });
-        audio.addEventListener("error", (evt) => { console.log('❌ audio-error-1?', audio.error); resolve({ error: true }); }, { once: true });
-        audio.play().catch((error) => { console.log('❌ audio-error-2', error); resolve({ error: true }); });
-    });
-}
-
-
-function addGoToFullscreenButton() {
-    $("#goToFullscreen").addEventListener("click", async () => {
-        const elem = $("#slideshow");
-        if (elem.requestFullscreen) {
-            elem.requestFullscreen();
-        } else if (elem.webkitRequestFullscreen) { // Safari
-            elem.webkitRequestFullscreen();
-        } else if (elem.msRequestFullscreen) { // Old IE
-            elem.msRequestFullscreen();
-        }
-
-        // Lock orientation to landscape
-        if (screen.orientation && screen.orientation.lock) {
-            try {
-                await screen.orientation.lock("landscape");
-            } catch (err) {
-                console.warn("Orientation lock failed:", err);
-            }
-        }
-    });
-}
-
-async function showNeedsUserGestureToEnableAudio() {
-    const html = `<div id="enableAudio" style="text-align: center; color: deeppink;">This slideshow has audio, please click anywhere to enable audio.</div>`;
-
-    // We are not setting `userInteracted=false` for its initial value because it is possible that user might have interacted in previous page for e.g, use is on /sldeshows and then opened the link of /slideshows/cities .
-    window.userInteracted = await hasUserInteracted();
-    if (!userInteracted) {
-        document.body.insertAdjacentHTML("afterbegin", html);
-    }
-    // We detect any click anywhere on page to enable audio
-    document.addEventListener('click', function initInteraction() {
-        if (!userInteracted) {
-            userInteracted = true;
-            $('#enableAudio').style.visibility = 'hidden';
-            window.playAudioOfMutedVideo?.();
-        }
-        document.removeEventListener('click', initInteraction);
     });
 }
 
