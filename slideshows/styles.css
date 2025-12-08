@@ -63,6 +63,7 @@
     outline: none;
 }
 
+/* Select `div` which has children as `id="slideCounter"` */
 div:has(#slideCounter) {
     text-align: end;
 }
