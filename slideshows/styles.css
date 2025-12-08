@@ -1,21 +1,21 @@
-#slideshow {
+.slideshow-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#slideshow>img {
+.slideshow-container>img {
     width: 100%;
     max-height: 80vh;
 }
 
-#slideshow>video {
+.slideshow-container>video {
     width: 100%;
     max-height: 75vh;
 }
 
-#slideshow>audio {
+.slideshow-container>audio {
     width: 100%;
     max-width: 450px;
     margin-top: 10px;

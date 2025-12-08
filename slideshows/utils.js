@@ -19,6 +19,8 @@ export async function renderSlideShow(selector, slides) {
     // console.log("🚀 ~ loadedImgs:", loadedImgs);
     console.log("All images loaded ✅", slides.map(s => s.image));
     const slideshowContainer = $(selector); //// "#slideshow" ❤️
+    // Learn: Below class is used to assign styles via `styles.css` file.
+    slideshowContainer.className = 'slideshow-container';
     let current = 0;
     const defaultDelay = 4000;
     let paused = false;
