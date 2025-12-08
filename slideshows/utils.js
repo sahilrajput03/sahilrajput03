@@ -10,6 +10,7 @@ export async function renderSlideShow(selector, slides) {
     slidesContainer.className = 'slides-container';
     slideshowContainer.prepend(slidesContainer);
 
+    let paused = false;
     let statusOfPauseBtn = false; // initial status of pause button
     let finishPlaybacOfAlreadyPlayingVideo = null;
     let finishPlaybacOfAlreadyPlayingAudio = null;
@@ -29,7 +30,6 @@ export async function renderSlideShow(selector, slides) {
     console.log("All images loaded ✅", slides.map(s => s.image));
     let current = 0;
     const defaultDelay = 4000;
-    let paused = false;
 
     // Create control buttons
     const controls = document.createElement("div");
