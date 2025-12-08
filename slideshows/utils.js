@@ -1,6 +1,5 @@
 // @ts-nocheck
-const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
+const $ = document.querySelector.bind(document); const $$ = document.querySelectorAll.bind(document);
 
 export async function renderSlideShow(slides) {
     let finishPlaybacOfAlreadyPlayingVideo = null;
