@@ -9,15 +9,14 @@
 </head>
 
 <body>
-    <div id="slideshow"></div>
+    <div id="slideshow1"></div>
 
     <!-- For style testing on desktop and mobile) -->
     <!-- <video autoplay muted controls src='./assets-cities/1.mp4'></video> -->
     <!-- <video autoplay muted controls src='./assets-cities/2.mp4'></video> -->
 
     <script type="module">
-        const $ = document.querySelector.bind(document);
-        const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
+        const $ = document.querySelector.bind(document); const $$ = document.querySelectorAll.bind(document);
 
         import { renderSlideShow } from "./utils.js";
 
@@ -58,7 +57,7 @@
             }
         ];
 
-        renderSlideShow("#slideshow", slides);
+        renderSlideShow("#slideshow1", slides);
     </script>
 
     <style>
