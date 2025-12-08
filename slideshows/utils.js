@@ -18,7 +18,7 @@ export async function renderSlideShow(slides) {
     // const loadedImgs = await Promise.all(slides.map(s => s.image).map(preloadImage)); for (const i in slides) { slides[i].image = loadedImgs[i]; }
     // console.log("🚀 ~ loadedImgs:", loadedImgs);
     console.log("All images loaded ✅", slides.map(s => s.image));
-    const container = $("#slideshow");
+    const slideshowContainer = $("#slideshow");
     let current = 0;
     const defaultDelay = 4000;
     let paused = false;
@@ -82,15 +82,15 @@ export async function renderSlideShow(slides) {
     async function showSlide() {
         $('#slideCounter').innerHTML = current + 1;
         console.log("🚀 ~ showSlide - current:", current);
-        container.innerHTML = "";   // remove previous image
+        slideshowContainer.innerHTML = "";   // remove previous image
         const slide = slides[current];
         if (slide.image) {
-            container.appendChild(slide.image);
+            slideshowContainer.appendChild(slide.image);
             if (slide.audio) {
                 const audio = document.createElement('audio');
                 audio.src = slide.audio;
                 audio.controls = true; // show/hide controls
-                container.appendChild(audio);
+                slideshowContainer.appendChild(audio);
                 console.log('play-audio-before');
                 const result = await playAudio(audio);
                 console.log('play-audio-after ❤️');
@@ -105,7 +105,7 @@ export async function renderSlideShow(slides) {
             video.src = slide.video;
             // Note: If user has not interacted the video does NOT play at all when `muted: false` so we must play video without audio when user has not yet interacted.
             Object.assign(video, { autoplay: true, muted: userInteracted ? false : true, controls: true });
-            container.appendChild(video);
+            slideshowContainer.appendChild(video);
             await playVideo(video); // wait until video finishes
         }
     }
@@ -160,13 +160,12 @@ export async function renderSlideShow(slides) {
 
     function addGoToFullscreenButton() {
         $("#goToFullscreen").addEventListener("click", async () => {
-            const elem = $("#slideshow");
-            if (elem.requestFullscreen) {
-                elem.requestFullscreen();
-            } else if (elem.webkitRequestFullscreen) { // Safari
-                elem.webkitRequestFullscreen();
-            } else if (elem.msRequestFullscreen) { // Old IE
-                elem.msRequestFullscreen();
+            if (slideshowContainer.requestFullscreen) {
+                slideshowContainer.requestFullscreen();
+            } else if (slideshowContainer.webkitRequestFullscreen) { // Safari
+                slideshowContainer.webkitRequestFullscreen();
+            } else if (slideshowContainer.msRequestFullscreen) { // Old IE
+                slideshowContainer.msRequestFullscreen();
             }
             // Lock orientation to landscape
             if (screen.orientation && screen.orientation.lock) {
