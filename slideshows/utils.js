@@ -131,7 +131,7 @@ export async function renderSlideShow(slides) {
     }
 
     // Utility Functions.
-    //      Learn: These are Impure functions. Please put any pure function outside of the `renderSlideshow` function.
+    //      Learn: These are IMPURE FUNCTIONS. Please put any pure function outside of the `renderSlideshow` function.
     function sleep(durationMs) {
         return new Promise((res) => {
             resolveSleep = res;
