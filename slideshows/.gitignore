@@ -1,2 +1,5 @@
-asset-videos
-asset-audios
+# assets-cities/*.mp4
+# assets-cities/*.mp3
+
+*.mp4
+*.mp3
