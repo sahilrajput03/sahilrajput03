@@ -1,21 +1,21 @@
-.slideshow-container {
+.slides-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.slideshow-container>img {
+.slides-container>img {
     width: 100%;
     max-height: 80vh;
 }
 
-.slideshow-container>video {
+.slides-container>video {
     width: 100%;
     max-height: 75vh;
 }
 
-.slideshow-container>audio {
+.slides-container>audio {
     width: 100%;
     max-width: 450px;
     margin-top: 10px;
@@ -48,19 +48,13 @@
 #restartBtn,
 #prevBtn,
 #pauseBtn,
-#nextBtn {
-    padding: 5px 20px;
-    border-radius: 5px;
-    border-color: lightblue;
-    outline: none;
-    margin: 0 5px;
-}
-
+#nextBtn,
 #goToFullscreen {
     padding: 5px 20px;
     border-radius: 5px;
     border-color: lightblue;
     outline: none;
+    margin: 0 5px;
 }
 
 /* Select `div` which has children as `id="slideCounter"` */

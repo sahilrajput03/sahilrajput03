@@ -6,6 +6,11 @@ export async function renderSlideShow(selector, slides) {
     // Learn: Below class is used to assign styles via `styles.css` file.
     slideshowContainer.className = 'slideshow-container';
 
+    const slidesContainer = document.createElement("div");
+    slidesContainer.className = 'slides-container';
+    slideshowContainer.prepend(slidesContainer);
+
+    let statusOfPauseBtn = false; // initial status of pause button
     let finishPlaybacOfAlreadyPlayingVideo = null;
     let finishPlaybacOfAlreadyPlayingAudio = null;
     let resolveSleep = null;
@@ -39,11 +44,11 @@ export async function renderSlideShow(selector, slides) {
                 <div class="goToFullscreenContainer"><button id="goToFullscreen">⛶</button></div>
             </div>
             <div><span id="slideCounter">1</span>/<span id="slideCounterTotal">1</span></div>`;
-    document.body.prepend(controls);
+    slideshowContainer.prepend(controls);
     // This can only be done after fullscreen element has been aded to dom.
     addGoToFullscreenButton();
     // This can only be done after slideCounterTotal element has been aded to dom.
-    $('#slideCounterTotal').innerHTML = slides.length;
+    $(`${selector} #slideCounterTotal`).innerHTML = slides.length;
 
     const updatePauseBtn = () => {
         statusOfPauseBtn = paused;
@@ -69,11 +74,10 @@ export async function renderSlideShow(selector, slides) {
     const getPreviousSlideIndex = () => (current - (isWhileLoopInPausedBlock ? 2 : 1) + slides.length) % slides.length;
 
     // Event handlers
-    $('#restartBtn').addEventListener('click', () => { setSlide(0); });
-    $("#prevBtn").addEventListener("click", () => { setSlide(getPreviousSlideIndex()); });
-    $("#nextBtn").addEventListener("click", () => { setSlide(getNextSlideIndex()); });
-    var statusOfPauseBtn = false; // initial status of pause button
-    $("#pauseBtn").addEventListener("click", async () => {
+    $(`${selector} #restartBtn`).addEventListener('click', () => { setSlide(0); });
+    $(`${selector} #prevBtn`).addEventListener("click", () => { setSlide(getPreviousSlideIndex()); });
+    $(`${selector} #nextBtn`).addEventListener("click", () => { setSlide(getNextSlideIndex()); });
+    $(`${selector} #pauseBtn`).addEventListener("click", async () => {
         console.log('paused-before?', paused);
         paused = !paused;
         console.log('paused-after?', paused);
@@ -83,17 +87,17 @@ export async function renderSlideShow(selector, slides) {
 
     // Function to display slide
     async function showSlide() {
-        $('#slideCounter').innerHTML = current + 1;
+        $(`${selector} #slideCounter`).innerHTML = current + 1;
         console.log("🚀 ~ showSlide - current:", current);
-        slideshowContainer.innerHTML = "";   // remove previous image
+        slidesContainer.innerHTML = "";   // remove previous image
         const slide = slides[current];
         if (slide.image) {
-            slideshowContainer.appendChild(slide.image);
+            slidesContainer.appendChild(slide.image);
             if (slide.audio) {
                 const audio = document.createElement('audio');
                 audio.src = slide.audio;
                 audio.controls = true; // show/hide controls
-                slideshowContainer.appendChild(audio);
+                slidesContainer.appendChild(audio);
                 console.log('play-audio-before');
                 const result = await playAudio(audio);
                 console.log('play-audio-after ❤️');
@@ -108,7 +112,7 @@ export async function renderSlideShow(selector, slides) {
             video.src = slide.video;
             // Note: If user has not interacted the video does NOT play at all when `muted: false` so we must play video without audio when user has not yet interacted.
             Object.assign(video, { autoplay: true, muted: userInteracted ? false : true, controls: true });
-            slideshowContainer.appendChild(video);
+            slidesContainer.appendChild(video);
             await playVideo(video); // wait until video finishes
         }
     }
@@ -162,13 +166,14 @@ export async function renderSlideShow(selector, slides) {
     }
 
     function addGoToFullscreenButton() {
-        $("#goToFullscreen").addEventListener("click", async () => {
-            if (slideshowContainer.requestFullscreen) {
-                slideshowContainer.requestFullscreen();
-            } else if (slideshowContainer.webkitRequestFullscreen) { // Safari
-                slideshowContainer.webkitRequestFullscreen();
-            } else if (slideshowContainer.msRequestFullscreen) { // Old IE
-                slideshowContainer.msRequestFullscreen();
+        $(`${selector} #goToFullscreen`).addEventListener("click", async () => {
+            const el = slideshowContainer;
+            if (el.requestFullscreen) {
+                el.requestFullscreen();
+            } else if (el.webkitRequestFullscreen) { // Safari
+                el.webkitRequestFullscreen();
+            } else if (el.msRequestFullscreen) { // Old IE
+                el.msRequestFullscreen();
             }
             // Lock orientation to landscape
             if (screen.orientation && screen.orientation.lock) {
@@ -192,7 +197,7 @@ export async function renderSlideShow(selector, slides) {
         document.addEventListener('click', function initInteraction() {
             if (!userInteracted) {
                 userInteracted = true;
-                $('#enableAudio').style.visibility = 'hidden';
+                $(`${selector} #enableAudio`).style.visibility = 'hidden';
                 playAudioOfMutedVideo?.();
             }
             document.removeEventListener('click', initInteraction);
