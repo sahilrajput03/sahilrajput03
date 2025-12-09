@@ -214,7 +214,7 @@ cat /dev/null
 !!(() => {})
 ```
 
-## ❤️Text Better
+## ❤️How to text better?
 
 **Some profound reasons why to text better?**
 
