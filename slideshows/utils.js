@@ -52,7 +52,7 @@ export async function renderSlideShow(selector, slides) {
 
     const updatePauseBtn = () => {
         statusOfPauseBtn = paused;
-        pauseBtn.textContent = paused ? "▶️" : "⏸️";
+        $(`${selector} #pauseBtn`).textContent = paused ? "▶️" : "⏸️";
     };
     let wasPausedBeforeControlsBtnClick = null;
     async function setSlide(_current) {

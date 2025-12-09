@@ -10,6 +10,8 @@
 
 <body>
     <div id="slideshow1"></div>
+    <hr style="margin: 20px 0px;" />
+    <div id="slideshow2"></div>
 
     <!-- For style testing on desktop and mobile) -->
     <!-- <video autoplay muted controls src='./assets-cities/1.mp4'></video> -->
@@ -59,6 +61,7 @@
         ];
 
         renderSlideShow("#slideshow1", slides);
+        renderSlideShow("#slideshow2", [slides[3], slides[5], slides[6]]);
     </script>
 
     <style>
