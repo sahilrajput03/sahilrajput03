@@ -191,7 +191,7 @@ export async function renderSlideShow(selector, slides) {
         // We are not setting `userInteracted=false` for its initial value because it is possible that user might have interacted in previous page for e.g, use is on /sldeshows and then opened the link of /slideshows/cities .
         userInteracted = await hasUserInteracted();
         if (!userInteracted) {
-            document.body.insertAdjacentHTML("afterbegin", html);
+            slideshowContainer.insertAdjacentHTML("afterbegin", html);
         }
         // We detect any click anywhere on page to enable audio
         document.addEventListener('click', function initInteraction() {
