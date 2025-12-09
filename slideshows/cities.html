@@ -27,7 +27,7 @@
 
         // Images - https://www.pexels.com/search/big%20size/
         // Videos - https://www.pexels.com/video
-        const slides = [
+        const slides1 = [
             {
                 image: "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg",
                 duration: 3000, // Note: Length of audio overrides this duration.
@@ -60,8 +60,24 @@
             }
         ];
 
-        renderSlideShow("#slideshow1", slides);
-        renderSlideShow("#slideshow2", [slides[3], slides[5], slides[6]]);
+        // Learn: I'm using totally new images for `slideshow2` (slides2) because I get error from most of the times from pexels probably because of too many requests for same image if i use same above images for slideshow2.
+        const slides2 = [
+            {
+                image: "https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg",
+                duration: 3000
+            },
+            {
+                image: 'https://images.pexels.com/photos/2220336/pexels-photo-2220336.jpeg',
+                duration: 4000
+            },
+            {
+                image: 'https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg',
+                duration: 3000
+            }
+        ];
+
+        renderSlideShow("#slideshow1", slides1);
+        renderSlideShow("#slideshow2", slides2);
     </script>
 
     <style>
