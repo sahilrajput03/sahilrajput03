@@ -63,7 +63,7 @@
 	Website: <a href="https://sahilrajput.com">sahilrajput.com</a><br/>
 	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a><br/>
 	Android App:  <a href="/apk/Tech_Blog_by_Sahil_Rajput_base.apk">Tech Blog by Sahil Rajput</a><br/>
-	YouTube Playlists:  <a href="https://www.youtube.com/@SahilRajput03/playlists">youtube.com/@sahilrajput03/playlists</a>
+	YouTube:  <a href="https://www.youtube.com/@SahilRajput03/playlists">youtube.com/@sahilrajput03/playlists</a>
 	<!-- OLD PlayStore link -->
 	<!-- Play Store:  <a href="https://play.google.com/store/apps/details?id=com.sahilrajput.twa">Tech Blog by Sahil Rajput</a> -->
 </div>
