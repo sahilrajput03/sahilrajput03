@@ -55,7 +55,6 @@ _Source: [chatGPT](https://chatgpt.com/c/68e3cf3f-1218-8320-b917-fbd5821615a7)_
 - 4.0K learn-one-graph.md
 - 4.0K learn-paypal-subscription-and-database-schema.md
 - 4.0K learn-photoshop.md
-- 4.0K learn-push-notifications.md
 - 4.0K learn-redux-toolkit.md
 - 4.0K learn-remix.md
 - 4.0K learn-rxjs.md

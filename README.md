@@ -652,7 +652,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Intro Guides to Platforms:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/intro-guide-to-platforms.md){: search-title="Intro Guides to Platforms"}
 - **Learn axios:** [Click here](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.i55h1tu7inku#heading=h.fk7lg6nr8jgk){: search-title="Learn axios"}
 - **Learn nestjs:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-nestjs.md){: search-title="Learn nestjs"}
-- **Learn push notificaitons:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-push-notifications.md){: search-title="Learn push notificaitons"}
 - **Learn heroku webhooks:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-web-hooks.md){: search-title="Learn heroku webhooks"}
 - **Learn Twilio** [Click here](https://docs.google.com/document/d/1cUv_ofHediEo_VbUt63qrm3XXxrn6QMVjfQd3o9pbEA/edit?tab=t.0#heading=h.j4kdrmy99caa){: search-title="Learn Twilio"}
 - **Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-why-websites-first-not-mobile-apps.md){: search-title="Learn: Why people want their service (restaurant, hotel, etc ) available first on website and only then on mobile native apps"}
