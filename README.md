@@ -724,11 +724,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Development on Android with Termux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
 - **Useful Android App:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/usefult-android-apps.md)
 - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
-- ❤️Learn Web Notifications: (Andorid used for below testing: Poco M4 Pro 5G) *(Tags: Push notifications)*
-	- MDN Docs: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API)
-	- https://www.bennish.net/web-notifications.html (Works on desktop, **NOT** on Android)
- 	- https://cleverpush.com/en/test-notifications/ (Does **NOT** work on desktop, works on Android)
-  	- https://pushalert.co/demo (Works on desktop AND works on Android)
+- ❤️Learn Web Notifications: (Andorid used for below testing: Poco M4 Pro 5G) *(Tags: Push notifications)* [Click here](https://github.com/sahilrajput03/learn-express/tree/main/node-push-notifications)
 - Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/1yUaJp0BtPbT9pAuIZ8pUxmer_W-9qXoE7rNpnLuPLQA/edit?tab=t.juqaf7ck3yrz#heading=h.g09cwp7crv6x){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md){: search-title="Learn ChatGPT (My Notes)"}
 - Learn Remix: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-remix.md){: search-title="Learn Remix"}
