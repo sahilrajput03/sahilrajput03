@@ -375,6 +375,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- [typeform.com](https://www.typeform.com/) (used by Pieter Levels for fundraising for his book "Make" even before start writing the book, pg. 68).
 	- [www.medallia.com](https://www.medallia.com/) (Used in to get feedback on the quality of support provided in Meta Business Account in Direct Support. A form link was sent to me on email so I can provide them feedback, the quality is good.)
 - Download YouTube Videos:
+	- [vidssave.com/home](vidssave.com/home)
 	- [yt1d.com](https://yt1d.com)
 	- [en1.savefrom.net](https://en1.savefrom.net)
 	- [Cobalt.tools](https://cobalt.tools/) ([github](https://github.com/imputnet/cobalt))
