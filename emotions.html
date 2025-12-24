@@ -115,31 +115,44 @@
             }
         };
 
-        const app = document.getElementById("app");
+        const d = document;
+
+        const app = d.getElementById("app");
 
         Object.entries(emotionsData).forEach(([category, emotions]) => {
-            const heading = document.createElement("div"); // Earlier it was "h2" from chatGPT.
+            const SECTION = d.createElement("div");
+            SECTION.style.cssText = `
+                margin-right: 10px;
+            `;
+
+            const heading = d.createElement("div"); // Earlier it was "h2" from chatGPT.
             heading.textContent = category;
             heading.style.cssText = `
                 font-weight: bold;
                 text-decoration: underline;
             `;
+            SECTION.appendChild(heading);
 
-            const ul = document.createElement("ul");
+            if (category === 'Negative Emotions') {
+                const cancelCancel = d.createElement("div");
+                cancelCancel.innerText = '❌CANCEL - CANCEL';
+                cancelCancel.style.cssText = `
+                    color: red;
+                    font-weight: bold;
+                `;
+                SECTION.appendChild(cancelCancel);
+            }
 
+            const ul = d.createElement("ul");
             Object.entries(emotions).forEach(([en, hi]) => {
-                const li = document.createElement("li");
+                const li = d.createElement("li");
                 li.innerHTML = `<span class="en">${hi}</span> → <span class="hi">${en}</span>`;
                 ul.appendChild(li);
             });
+            SECTION.appendChild(ul);
 
-            const section = document.createElement("div");
-            section.style.cssText = `
-            margin-right: 10px;
-            `;
-            section.appendChild(heading);
-            section.appendChild(ul);
-            app.appendChild(section);
+            // Append `SECTION` to `#app`
+            app.appendChild(SECTION);
         });
     </script>
 
