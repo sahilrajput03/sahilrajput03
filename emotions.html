@@ -37,7 +37,15 @@
 
         .hi {
             color: #555;
-            margin-left: 6px;
+            margin-left: 0px;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-height: 100vh;
+            align-content: flex-start;
         }
     </style>
 </head>
@@ -125,8 +133,13 @@
                 ul.appendChild(li);
             });
 
-            app.appendChild(heading);
-            app.appendChild(ul);
+            const section = document.createElement("div");
+            section.style.cssText = `
+            margin-right: 10px;
+            `;
+            section.appendChild(heading);
+            section.appendChild(ul);
+            app.appendChild(section);
         });
     </script>
 
