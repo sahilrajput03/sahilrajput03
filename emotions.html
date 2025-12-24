@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- src: https://chatgpt.com/c/694beaa5-b99c-8321-93e7-412ce03a715f -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotions List</title>
+    <style>
+        :root {
+            font-size: 14px;
+        }
+
+        body {
+            font-family: sans-serif;
+            padding: 5px;
+        }
+
+        h2 {
+            margin-top: 24px;
+        }
+
+        ul {
+            margin-left: 5px;
+            padding-left: 10px;
+            margin-top: 0;
+        }
+
+        li {
+            margin: 0;
+        }
+
+        .en {
+            font-weight: 600;
+        }
+
+        .hi {
+            color: #555;
+            margin-left: 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app"></div>
+
+    <script>
+        const emotionsData = {
+            "Core Emotions": {
+                "Joy": "आनंद",
+                "Sadness": "दुःख",
+                "Anger": "क्रोध",
+                "Fear": "भय",
+                "Surprise": "आश्चर्य",
+                "Disgust": "घृणा",
+                "Love": "प्रेम"
+            },
+            "Positive Emotions": {
+                "Happiness": "खुशी",
+                "Contentment": "संतोष",
+                "Peace": "शांति",
+                "Calm": "ठहराव",
+                "Pleasure": "आनंद",
+                "Delight": "हर्ष",
+                "Excitement": "उत्साह",
+                "Gratitude": "कृतज्ञता",
+                "Hope": "आशा",
+                "Pride": "गर्व",
+                "Confidence": "आत्मविश्वास",
+                "Affection": "स्नेह",
+                "Compassion": "करुणा",
+                "Empathy": "सहानुभूति",
+                "Trust": "विश्वास",
+                "Admiration": "प्रशंसा",
+                "Relief": "राहत",
+                "Satisfaction": "संतुष्टि",
+                "Inspiration": "प्रेरणा",
+                "Bliss": "परमानंद",
+                "Serenity": "निर्मल शांति",
+                "Cheerfulness": "उल्लास"
+            },
+            "Negative Emotions": {
+                "Grief": "शोक",
+                "Depression": "अवसाद",
+                "Loneliness": "अकेलापन",
+                "Hopelessness": "निराशा",
+                "Despair": "हताशा",
+                "Guilt": "अपराधबोध",
+                "Shame": "लज्जा",
+                "Regret": "पश्चाताप",
+                "Rage": "प्रचंड क्रोध",
+                "Hatred": "द्वेष",
+                "Jealousy": "ईर्ष्या",
+                "Envy": "जलन",
+                "Anxiety": "चिंता",
+                "Worry": "फिक्र",
+                "Panic": "घबराहट",
+                "Insecurity": "असुरक्षा",
+                "Frustration": "कुंठा",
+                "Resentment": "नाराज़गी",
+                "Bitterness": "कटुता",
+                "Humiliation": "अपमान",
+                "Embarrassment": "संकोच",
+                "Sadness": "उदासी"
+            }
+        };
+
+        const app = document.getElementById("app");
+
+        Object.entries(emotionsData).forEach(([category, emotions]) => {
+            const heading = document.createElement("div"); // Earlier it was "h2" from chatGPT.
+            heading.textContent = category;
+            heading.style.cssText = `
+                font-weight: bold;
+                text-decoration: underline;
+            `;
+
+            const ul = document.createElement("ul");
+
+            Object.entries(emotions).forEach(([en, hi]) => {
+                const li = document.createElement("li");
+                li.innerHTML = `<span class="en">${hi}</span> → <span class="hi">${en}</span>`;
+                ul.appendChild(li);
+            });
+
+            app.appendChild(heading);
+            app.appendChild(ul);
+        });
+    </script>
+
+</body>
+
+</html>
