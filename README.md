@@ -375,6 +375,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 	- [typeform.com](https://www.typeform.com/) (used by Pieter Levels for fundraising for his book "Make" even before start writing the book, pg. 68).
 	- [www.medallia.com](https://www.medallia.com/) (Used in to get feedback on the quality of support provided in Meta Business Account in Direct Support. A form link was sent to me on email so I can provide them feedback, the quality is good.)
 - Download YouTube Videos:
+	- [vidssave.com/home](vidssave.com/home)
 	- [yt1d.com](https://yt1d.com)
 	- [en1.savefrom.net](https://en1.savefrom.net)
 	- [Cobalt.tools](https://cobalt.tools/) ([github](https://github.com/imputnet/cobalt))
@@ -689,8 +690,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Css Design Trail**: [Click here](https://docs.google.com/document/d/1KsgIW760hNu3JSQx4AaWleXdmelOLZRE7cbgbOeNw9U/edit?tab=t.0#heading=h.22he9brwetc0){: search-title="Css Design Trail"} (#cssDesignTrail), [Github Repo](https://github.com/sahilrajput03/cssDesignTrail/tree/master)
 	- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md){: search-title="Learn Bootstrap"}
 	- Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md){: search-title="Learn Styled Components"}
-	- ❤️Course - Flexbox Zombies: [Click here](https://docs.google.com/document/d/10YBMv3ty6Zher1lb7k63O-TVF9YfReGvdPGRbhMZf00/edit?tab=t.0#heading=h.1touzqiywbc8)
-	- ❤️Course - Grid Garden: [Click here](https://docs.google.com/document/d/1sQ_7y-ERCGosxrvv9PWlBaecOz3BqUNf5tTBiABNlf8/edit?tab=t.0#heading=h.i301cv2gx7bg)
+	- ❤️Course - Flexbox Zombies: [Click here](https://docs.google.com/document/d/1KsgIW760hNu3JSQx4AaWleXdmelOLZRE7cbgbOeNw9U/edit?tab=t.pp6x8uathec2#heading=h.1touzqiywbc8)
+	- ❤️Course - Grid Garden: [Click here](https://docs.google.com/document/d/1KsgIW760hNu3JSQx4AaWleXdmelOLZRE7cbgbOeNw9U/edit?tab=t.g6ebe2pgyow4#heading=h.9w0y0p2x18n3)
 - **Learn Tailwindcss:** [Click here](https://docs.google.com/document/d/1396RvrxYznLLas5_cTLCY1eNh6HZ2mlFtwdLF8gx0Ug/edit?tab=t.0)
 - **Learn Figma:** [Click here](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit){: search-title="Learn Figma (Website Designs ❤️)"} (#Website Designs ❤️)
 - **Learn FigJam:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-figjam.md)
@@ -723,7 +724,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Development on Android with Termux: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
 - **Useful Android App:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/usefult-android-apps.md)
 - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
-- ❤️Learn Web Notifications: (Andorid used for below testing: Poco M4 Pro 5G) *(Tags: Push notifications)* [Click here](https://github.com/sahilrajput03/learn-express/tree/main/node-push-notifications)
+- ❤️Learn Web Notifications: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/node-push-notifications) *(Tags: Push notifications)*
 - Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/1yUaJp0BtPbT9pAuIZ8pUxmer_W-9qXoE7rNpnLuPLQA/edit?tab=t.juqaf7ck3yrz#heading=h.g09cwp7crv6x){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md){: search-title="Learn ChatGPT (My Notes)"}
 - Learn Remix: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-remix.md){: search-title="Learn Remix"}
@@ -899,8 +900,10 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn `tiged` (alternate of degit): [Click here](https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0){: search-title="Learn `tiged` (alternate of degit)"}
 - Learn `tiged` (alternate of degit): <a href="https://docs.google.com/document/d/1IEAkO2rUKV-fwVI4_6cqVuHvQq0zKkJyTmgKDa89WQo/edit?tab=t.0" search-title="Learn `tiged` (alternate of degit) (uses a tag)">Click here</a>
 ```
-- ❤️How to get help in coding:
+- ❤️ How to get help in coding:
 	- FullStackOpen.com: [Click here](https://fullstackopen.com/en/part0/general_info#how-to-get-help-in-discord)
+- ❤️ Frequency Music Doc: [Click here](https://docs.google.com/document/d/1OrAYzLLd48K2OMt0HOaq2zZr2GzUHB84PeMhBUyg2ik/edit?tab=t.0)
+- ❤️ Law of Attraction Doc: [Click here](https://docs.google.com/document/d/1wiDf0_s8HVXQ8M9h88W6YleimSPDR-WGlP6FP8bTaWs/edit?tab=t.ccxf0e15inp3)
 
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
