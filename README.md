@@ -891,7 +891,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Agreement Making: [Click here](https://docs.google.com/document/d/1YGXdDYN1Un9YdFfHvc5HIYDf0lMV7qgHVLek06amNcU/edit?tab=t.0)
 - countingdownto.com: *(Tags: #Countdown, #dday)*
 	- https://countingdownto.com/?c=6720497
-- https://www.carbonads.net (mongoosejs.com shows ads via carbon, I love these beautiful ads).
+- Ads:
+	- https://www.carbonads.net (mongoosejs.com shows ads via carbon, I love these beautiful ads).
+	- MDN has its own ads: [Click here](https://developer.mozilla.org/en-US/advertising)
 - Learn Reasoning: [Click here](https://docs.google.com/document/d/1ITJVTKyzMnvibsFGeUWrL1LzV7G5t3mnH2-11RLw_d8/edit?tab=t.0)
 - Learn Abacus: [Click here](https://docs.google.com/document/d/1P_qVMq0EW_OQjcRxv99cycbB8i433fBqhxZMDZauVQY/edit?tab=t.0#heading=h.fj1gjk5413d7)
 
