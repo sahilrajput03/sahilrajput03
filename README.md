@@ -366,6 +366,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
   - ❤️mp4 to gif: [https://cloudconvert.com/](https://cloudconvert.com/)
     - ❤️Created animated logo: [canva.com/create/logos/animated](https://www.canva.com/create/logos/animated)
 - Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
+- Convert pdf to text using library `pdfjs-dist`: [Click here](https://github.com/sahilrajput03/qr-solution-frontend/blob/main/src/pdf-to-text.test.js)
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 - Soundcloud Downloader: [Click here](https://sclouddownloader.net/)
@@ -891,7 +892,9 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Agreement Making: [Click here](https://docs.google.com/document/d/1YGXdDYN1Un9YdFfHvc5HIYDf0lMV7qgHVLek06amNcU/edit?tab=t.0)
 - countingdownto.com: *(Tags: #Countdown, #dday)*
 	- https://countingdownto.com/?c=6720497
-- https://www.carbonads.net (mongoosejs.com shows ads via carbon, I love these beautiful ads).
+- Ads:
+	- https://www.carbonads.net (mongoosejs.com shows ads via carbon, I love these beautiful ads).
+	- MDN has its own ads: [Click here](https://developer.mozilla.org/en-US/advertising)
 - Learn Reasoning: [Click here](https://docs.google.com/document/d/1ITJVTKyzMnvibsFGeUWrL1LzV7G5t3mnH2-11RLw_d8/edit?tab=t.0)
 - Learn Abacus: [Click here](https://docs.google.com/document/d/1P_qVMq0EW_OQjcRxv99cycbB8i433fBqhxZMDZauVQY/edit?tab=t.0#heading=h.fj1gjk5413d7)
 
@@ -904,6 +907,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 	- FullStackOpen.com: [Click here](https://fullstackopen.com/en/part0/general_info#how-to-get-help-in-discord)
 - ❤️ Frequency Music Doc: [Click here](https://docs.google.com/document/d/1OrAYzLLd48K2OMt0HOaq2zZr2GzUHB84PeMhBUyg2ik/edit?tab=t.0)
 - ❤️ Law of Attraction Doc: [Click here](https://docs.google.com/document/d/1wiDf0_s8HVXQ8M9h88W6YleimSPDR-WGlP6FP8bTaWs/edit?tab=t.ccxf0e15inp3)
+- Learn IDB (indexeddb in browser): [Click here](https://github.com/sahilrajput03/qr-solution-frontend/blob/main/src/learn-indexedDB.html)
 
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
