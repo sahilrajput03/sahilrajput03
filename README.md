@@ -561,7 +561,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn Markdown:** [Click here](https://docs.google.com/document/d/1R8aAe8MvdabvqQhe-6B4C8phR_-O7PFtjl6amaT9ynQ/edit?tab=t.0#heading=h.eimnxlcp20m7)
 - **Learn Perl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-perl.md)
 - **Learn qutebrowser:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/qutebrowser.md)
-- **Learn Urdu:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-urdu/readme.md)
+- **Learn Urdu:** [Click here](https://docs.google.com/document/d/1S75bOoPohg2JWhSJLcHtT6ipw1aUpq6wxvj8vppF-Ik/edit?tab=t.0#heading=h.as37s88j5mrc)
 - **Url shorteners:** [Bitly](https://bitly.com/)
 - **Learn Photoshop:**[Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-photoshop.md)
 - **✅Telegram:**
