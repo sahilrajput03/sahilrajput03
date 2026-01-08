@@ -1,5 +1,7 @@
 ## Exercise 11.18 Alternative version for Telegram
 
+*(8 Jan 2025: I noticed that a group's id is changed automatically and thus the sending messages to that group doesn't work anymore as we get error `{ name: 'AxiosError', message: 'Request failed with status code 400' }` because the group was upgraded to a super group as [I checked with ChatGPT here](https://chatgpt.com/c/695f5611-4210-8323-afbe-c64f874a2698).*
+
 The Telegram version of this exercise is provided by [Sahil Rajput](https://github.com/sahilrajput03)
 
 NB: In case you end up having a lot of workflows running simultaneously (when you push a commit) in your github actions tab, you can disable all workflows except the one you are currently working on, as shown in the figure.
