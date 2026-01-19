@@ -700,8 +700,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Storybook: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-storybook.md){: search-title="Learn Storybook"}
 - Learn Eslint: [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.a76iz83ke569#heading=h.m92yaywhja27){: search-title="Learn Eslint"}
 - Learn Prettier: [Click here](https://docs.google.com/document/d/1T-VclkyzwAxoJ519c5P9xRrn0ZjRtQF-Ueu1GviMJYo/edit?tab=t.0){: search-title="Learn Prettier"}
-- Learn Chrome: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md){: search-title="Learn Chrome"}
-	- Chrome Extensions (internal link in above doc): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-chrome.md#chrome-extensions){: search-title="Chrome Extensions (inside Learn Chrome Doc)"}
+- Learn Chrome: [Click here](https://docs.google.com/document/d/1fAzO2SqqI4ROskp8S8SByt15zuGHqxXuFWGaNhYh8E0/edit?tab=t.0#heading=h.fnlk41kw2ytu){: search-title="Learn Chrome"}
+	- Chrome Extensions (internal link in above doc): [Click here](https://docs.google.com/document/d/1fAzO2SqqI4ROskp8S8SByt15zuGHqxXuFWGaNhYh8E0/edit?tab=t.0#heading=h.337xzuqykeno){: search-title="Chrome Extensions (inside Learn Chrome Doc)"}
 - Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-trpc.md){: search-title="Learn Trpc (Spoiler: Do not use trpc in any personal or production project ever)"}
 - Learn Paypal: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-paypal.md){: search-title="Learn Paypal"}
 - Learn Paypal Subscription And Database Schema: [Click here](learn-paypal-subscription-and-database-schema.md){: search-title="Learn Paypal Subscription And Database Schema"}
