@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <a id="hoverLink" href="https://sahilrajput.com">sahilrajput.com</a>
   <a href="https://sahilrajput.com/essays">/essays</a>
   <a href="https://sahilrajput.com/essaysp">/essaysp (public)</a>
   <a href="https://sahilrajput.com/books">/books</a>
@@ -29,9 +30,22 @@
   <a href="https://sahilrajput.com/n">/n (नीति)</a>
   <a href="https://sahilrajput.com/e">/e (english phrases)</a>
 
+  <script>
+    const elements = document.querySelectorAll('a');
+    // console.log("🚀 ~ elements:", elements);
+    elements.forEach(element => {
+      element.addEventListener("mouseenter", () => {
+        // window.location.href = element.href; // This replaces history so browser back button doesn't work.
+        window.location.assign(element.href); // ✅ This adds to history so browser back buton DOES work.
+      });
+    });
+
+  </script>
+
   <style>
     a {
       display: block;
+      width: fit-content;
       margin-bottom: 15px;
       /* Learn: Do not center or right align because that makes reading the links harder. (16 Jan 2026) */
       /* text-align: center; */
