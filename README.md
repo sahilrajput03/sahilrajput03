@@ -724,7 +724,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Android:
 	- **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md){: search-title="Learn Android"}
 	- **Development on Android with Termux**: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
-	- **Favorite Android App:** [Click here](https://docs.google.com/document/d/1m2RrhfVs5znjhg-CUoUjzmOVu2kZOgLdjw74rdKwttI/edit?tab=t.0#heading=h.3uc2ke93uyrf)
+	- **Favorite Android Apps:** [Click here](https://docs.google.com/document/d/1m2RrhfVs5znjhg-CUoUjzmOVu2kZOgLdjw74rdKwttI/edit?tab=t.0#heading=h.3uc2ke93uyrf)
 - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
 - ❤️Learn Web Notifications: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/node-push-notifications) *(Tags: Push notifications)*
 - Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/1yUaJp0BtPbT9pAuIZ8pUxmer_W-9qXoE7rNpnLuPLQA/edit?tab=t.juqaf7ck3yrz#heading=h.g09cwp7crv6x){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
