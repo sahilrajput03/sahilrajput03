@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <div style="font-style: italic; color: gray; position: fixed; right: 10px;">Hide links via `h` key.</div>
+  <div style="font-style: italic; color: gray; position: fixed; right: 10px;">Hide `h`</div>
   <a id="hoverLink" href="https://sahilrajput.com">sahilrajput.com</a>
   <a href="https://sahilrajput.com/essays">/essays</a>
   <a href="https://sahilrajput.com/essaysp">/essaysp (public)</a>
@@ -44,21 +44,25 @@
     // });
 
 
-    let areLinksHidden = false;
-    function hideAllLinks() {
-      areLinksHidden = !areLinksHidden;
+    let areLinksHidden = !!localStorage.getItem('linksHidden');
+    console.log("🚀 ~ areLinksHidden:", areLinksHidden);
+
+    function syncLinksVisibility() {
+      areLinksHidden = !!localStorage.getItem('linksHidden');
       document.querySelectorAll('a').forEach(a => {
         if (areLinksHidden) a.classList.add('hidden');
         else a.classList.remove('hidden');
       });
     }
+    syncLinksVisibility();
 
     // Code inspired from cmm+k shortcut on your website sahilrajput.com.
     document.addEventListener('keydown', function (event) {
       if (event.key === 'h') {
         // if ((event.ctrlKey || event.metaKey) && event.key === 'h') {
         event.preventDefault(); // Prevents browser's default behavior
-        hideAllLinks();
+        localStorage.setItem('linksHidden', areLinksHidden ? '' : 'true');
+        syncLinksVisibility();
       }
     });
   </script>
