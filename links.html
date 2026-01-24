@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <div style="font-style: italic; color: gray; position: fixed; right: 10px;">Hide links via `h` key.</div>
   <a id="hoverLink" href="https://sahilrajput.com">sahilrajput.com</a>
   <a href="https://sahilrajput.com/essays">/essays</a>
   <a href="https://sahilrajput.com/essaysp">/essaysp (public)</a>
@@ -41,6 +42,25 @@
     //     window.location.assign(element.href); // ✅ This adds to history so browser back buton DOES work.
     //   });
     // });
+
+
+    let areLinksHidden = false;
+    function hideAllLinks() {
+      areLinksHidden = !areLinksHidden;
+      document.querySelectorAll('a').forEach(a => {
+        if (areLinksHidden) a.classList.add('hidden');
+        else a.classList.remove('hidden');
+      });
+    }
+
+    // Code inspired from cmm+k shortcut on your website sahilrajput.com.
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'h') {
+        // if ((event.ctrlKey || event.metaKey) && event.key === 'h') {
+        event.preventDefault(); // Prevents browser's default behavior
+        hideAllLinks();
+      }
+    });
   </script>
 
   <style>
@@ -77,6 +97,10 @@
 
     hr {
       margin: 30px 0px;
+    }
+
+    .hidden {
+      display: none;
     }
   </style>
 
