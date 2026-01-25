@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Links</title>
+</head>
+
+<body>
+  <!-- Pattern for longer vibration -->
+  <!-- <button onclick="navigator.vibrate(200, 100, 200, 100, 400)">Japa</button> -->
+
+  <!-- Single value for single vibration -->
+  <button id="counter" style="height: 90vh; width: 90vw;">0</button>
+
+  <script>
+    const btn = document.querySelector('#counter');
+    btn.addEventListener('click', () => {
+      console.log('value?', btn.innerHTML);
+      btn.innerHTML++;
+
+      // if (btn.innerHTML === '2') { // for testing
+      if (btn.innerHTML === '108') {
+        console.log('got value 2?');
+        navigator.vibrate([100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]);
+      } else {
+        navigator.vibrate(50);
+      }
+    })
+  </script>
+
+  <style>
+    #counter {
+      display: block;
+      margin: auto;
+      border-color: gray;
+      border-width: 0px;
+      border-radius: 20px;
+    }
+  </style>
+
+</html>
