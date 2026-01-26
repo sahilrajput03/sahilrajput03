@@ -90,17 +90,18 @@
       // private
       let _value;
       // For once in lifetime of app setup defautl values in local storage.
-      const isLocalStorageNotInitialized = localStorage.getItem(localStorageKey);
-      if (isLocalStorageNotInitialized) {
+      const isLocalStorageInitialized = localStorage.getItem(localStorageKey);
+      if (isLocalStorageInitialized) {
         _value = JSON.parse(localStorage.getItem(localStorageKey));
       } else {
+        _value = initialValue;
         localStorage.setItem(localStorageKey, JSON.stringify(initialValue));
       }
       return {
         get value() { return _value; },
         set value(v) {
-          localStorage.setItem(localStorageKey, JSON.stringify(v));
           _value = v;
+          localStorage.setItem(localStorageKey, JSON.stringify(v));
         }
       };
     }
