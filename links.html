@@ -86,26 +86,26 @@
     //   });
     // });
 
-    function createPersisted(initialValue) {
+    function createPersisted(localStorageKey, initialValue) {
       // private
       let _value;
       // For once in lifetime of app setup defautl values in local storage.
-      const isLocalStorageNotInitialized = localStorage.getItem('areLinksHidden');
+      const isLocalStorageNotInitialized = localStorage.getItem(localStorageKey);
       if (isLocalStorageNotInitialized) {
-        _value = JSON.parse(localStorage.getItem('areLinksHidden'));
+        _value = JSON.parse(localStorage.getItem(localStorageKey));
       } else {
-        localStorage.setItem('areLinksHidden', JSON.stringify(initialValue));
+        localStorage.setItem(localStorageKey, JSON.stringify(initialValue));
       }
       return {
         get value() { return _value; },
         set value(v) {
-          localStorage.setItem('areLinksHidden', JSON.stringify(v));
+          localStorage.setItem(localStorageKey, JSON.stringify(v));
           _value = v;
         }
       };
     }
     // p stands for 'persisted'
-    const areLinksHidden = createPersisted(false);
+    const areLinksHidden = createPersisted('areLinksHidden', false);
     console.log("🚀 ~ (page load) areLinksHidden:", areLinksHidden.value);
 
     function setLinksVisibility(show) {
