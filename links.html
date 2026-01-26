@@ -86,26 +86,44 @@
     //   });
     // });
 
+    function createPersistedState(initialValue) {
+      // private
+      let _value;
+      // For once in lifetime of app setup defautl values in local storage.
+      const isLocalStorageNotInitialized = localStorage.getItem('areLinksHidden');
+      if (isLocalStorageNotInitialized) {
+        _value = localStorage.getItem('areLinksHidden') === '1';
+      } else {
+        localStorage.setItem('areLinksHidden', initialValue ? '1' : '0');
+      }
+      return {
+        get value() { return _value; },
+        set value(v) {
+          localStorage.setItem('areLinksHidden', v ? '1' : '0');
+          _value = v;
+        }
+      };
+    }
+    // p stands for 'persisted'
+    const areLinksHidden = createPersistedState(false);
+    console.log("🚀 ~ (page load) areLinksHidden:", areLinksHidden.value);
 
-    let areLinksHidden = !!localStorage.getItem('linksHidden');
-    console.log("🚀 ~ areLinksHidden:", areLinksHidden);
-
-    function syncLinksVisibility() {
-      areLinksHidden = !!localStorage.getItem('linksHidden');
+    function setLinksVisibility(show) {
       document.querySelectorAll('a').forEach(a => {
-        if (areLinksHidden) a.classList.add('hidden');
+        if (show) a.classList.add('hidden');
         else a.classList.remove('hidden');
       });
     }
-    syncLinksVisibility();
+    setLinksVisibility(areLinksHidden.value);
 
     // Code inspired from cmm+k shortcut on your website sahilrajput.com.
     document.addEventListener('keydown', function (event) {
       if (event.key === 'h') {
         // if ((event.ctrlKey || event.metaKey) && event.key === 'h') {
         event.preventDefault(); // Prevents browser's default behavior
-        localStorage.setItem('linksHidden', areLinksHidden ? '' : '1');
-        syncLinksVisibility();
+        areLinksHidden.value = !areLinksHidden.value;
+        console.log("🚀 ~ p.areLinksHidden:", areLinksHidden.value);
+        setLinksVisibility(areLinksHidden.value);
       }
     });
   </script>
