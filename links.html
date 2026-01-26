@@ -86,7 +86,7 @@
     //   });
     // });
 
-    function createPersistedState(initialValue) {
+    function createPersistedBooleanState(initialValue) {
       // private
       let _value;
       // For once in lifetime of app setup defautl values in local storage.
@@ -105,7 +105,7 @@
       };
     }
     // p stands for 'persisted'
-    const areLinksHidden = createPersistedState(false);
+    const areLinksHidden = createPersistedBooleanState(false);
     console.log("🚀 ~ (page load) areLinksHidden:", areLinksHidden.value);
 
     function setLinksVisibility(show) {
