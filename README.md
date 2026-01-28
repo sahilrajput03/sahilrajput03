@@ -764,7 +764,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Shark Tank Season 1 - Youtube: <a href="https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w" search-title="Shark Tank Season 1 - Youtube">Click here</a>
 	- Shiv Mahapuran - Youtube: <a href="https://www.youtube.com/playlist?list=PL57F01972FF119B66" search-title="Shiv Mahapuran - Youtube">Click here</a>
 - Learn `Xournal`: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/arch-notes.md#installed-xournalpp-pp-means--ie-xournal" search-title="Learn `Xournal`">Click here</a>
-- Learn Hyperlocal Farm: <a href="https://docs.google.com/document/d/1qm3S7SGHRGEM-w_ezwNM2FvCNI0g5KjAsX6osjz8xMY/edit?tab=t.ru1w03sib1ni#heading=h.ed1i6s3qh7kf" search-title="Learn Hyperlocal Farm">Click here</a> (#plantation, #crops, #food)
+- Learn Plantation: [Click here](https://docs.google.com/document/d/1qm3S7SGHRGEM-w_ezwNM2FvCNI0g5KjAsX6osjz8xMY/edit?tab=t.0#heading=h.m6ux68izqyo3)
+	- Learn Hyperlocal Farm: <a href="https://docs.google.com/document/d/1qm3S7SGHRGEM-w_ezwNM2FvCNI0g5KjAsX6osjz8xMY/edit?tab=t.ru1w03sib1ni#heading=h.ed1i6s3qh7kf" search-title="Learn Hyperlocal Farm">Click here</a> (#plantation, #crops, #food)
 - Learn Airbnb: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-airbnb.md" search-title="Learn Airbnb">Click here</a>
 - TODO: Do the flutter codelab. 💣💣
 - Learn Microfrontend: <a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-microfrontend.md" search-title="Learn Microfrontend">Click here</a>
@@ -911,6 +912,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - ❤️ Law of Attraction Doc: [Click here](https://docs.google.com/document/d/1wiDf0_s8HVXQ8M9h88W6YleimSPDR-WGlP6FP8bTaWs/edit?tab=t.ccxf0e15inp3)
 - Learn IDB (indexeddb in browser): [Click here](https://github.com/sahilrajput03/qr-solution-frontend/blob/main/src/learn-indexedDB.html)
 - Learn Game Theory: [Click here](https://docs.google.com/document/d/1rn62c3st-pP9il0fI1VG6Onel-m89fnaCvB6DQRXluo/edit?tab=t.0#heading=h.atj23bhfa1ru)
+- Learn Body Language: [Click here](https://docs.google.com/document/d/1wHUC9cnBCM9mn0UfmCjQlRiyJBC4he1wB_3QHCErF-I/edit?tab=t.0)
 
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
