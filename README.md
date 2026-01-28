@@ -571,7 +571,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- FSO contribution (Ex. 11.18 - Telegram Bot Notification on deployment): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
 - Learn BitBucket \| Pipelines \| Bitbucket API: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bitbucket.md)
 - **Learn Google Development:**
-	- Learn Google Play Console: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-playconsole.md)
+	- Learn Google Play Console: [Click here](https://docs.google.com/document/d/1KtIn7M7YhA-ezcuJ9Wgb-l4WpT5fnSNXl9Zrpli6meE/edit?tab=t.dslr5jrd3lpw#heading=h.e3bzl4pl9b3d)
 	- Learn Google Cloud Platform (Google Cloud Console): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-cloud.md)
 		- Console APIs via Oauth2 with Postman: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-console-apis-via-oauth2.md)
 	- Learn Login with Google: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-auth.md)
