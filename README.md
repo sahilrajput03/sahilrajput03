@@ -911,6 +911,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - ❤️ Law of Attraction Doc: [Click here](https://docs.google.com/document/d/1wiDf0_s8HVXQ8M9h88W6YleimSPDR-WGlP6FP8bTaWs/edit?tab=t.ccxf0e15inp3)
 - Learn IDB (indexeddb in browser): [Click here](https://github.com/sahilrajput03/qr-solution-frontend/blob/main/src/learn-indexedDB.html)
 - Learn Game Theory: [Click here](https://docs.google.com/document/d/1rn62c3st-pP9il0fI1VG6Onel-m89fnaCvB6DQRXluo/edit?tab=t.0#heading=h.atj23bhfa1ru)
+- Learn Body Language: [Click here](https://docs.google.com/document/d/1wHUC9cnBCM9mn0UfmCjQlRiyJBC4he1wB_3QHCErF-I/edit?tab=t.0)
 
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
