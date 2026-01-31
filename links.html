@@ -51,7 +51,21 @@
   </style>
 
   <div style="font-style: italic; color: gray; position: fixed; right: 10px;">Safe Mode (h)</div>
-  <a id="hoverLink" href="https://sahilrajput.com">sahilrajput.com</a>
+  <a id="hoverLink" href="https://sahilrajput.com">sahilrajput.com (s)</a>
+  <a id="hoverLink" href="https://chatgpt.com">chatgpt.com (c)</a>
+  <a id="hoverLink"
+    href="https://docs.google.com/document/d/1N6RnvOSk8RHOylSIqdUPIgeFuvdiQGOFqPPkz6V1cMc/edit?tab=t.0#heading=h.eswtv9bzeis1">Daily
+    Planner (Videos) (d)</a>
+  <a id="hoverLink"
+    href="https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0">Movies,
+    Seasons & TV Series (m)</a>
+
+  <a id="hoverLink"
+    href="https://docs.google.com/document/d/1_nlp7AaPG1Xl9yoxeiC5cp2uJwYvoaoUF17ZNRUEfi4/edit?tab=t.0">Business (b)</a>
+
+
+  <hr />
+
   <a href="https://sahilrajput.com/essays">/essays</a>
   <a href="https://sahilrajput.com/essaysp">/essaysp (public)</a>
   <a href="https://sahilrajput.com/books">/books</a>
@@ -117,14 +131,27 @@
     }
     setLinksVisibility(areLinksHidden.value);
 
+    const shortcuts = {
+      a: 'https://sahilrajput.com/a',
+      c: 'https://chatgpt.com',
+      s: 'https://sahilrajput.com',
+      d: 'https://docs.google.com/document/d/1N6RnvOSk8RHOylSIqdUPIgeFuvdiQGOFqPPkz6V1cMc/edit?tab=t.0#heading=h.eswtv9bzeis1',
+      m: 'https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0',
+      b: 'https://docs.google.com/document/d/1_nlp7AaPG1Xl9yoxeiC5cp2uJwYvoaoUF17ZNRUEfi4/edit?tab=t.0'
+    };
+
     // Code inspired from cmm+k shortcut on your website sahilrajput.com.
     document.addEventListener('keydown', function (event) {
       if (event.key === 'h') {
         // if ((event.ctrlKey || event.metaKey) && event.key === 'h') {
-        event.preventDefault(); // Prevents browser's default behavior
+        // event.preventDefault(); // Prevents browser's default behavior
         areLinksHidden.value = !areLinksHidden.value;
         console.log("🚀 ~ p.areLinksHidden:", areLinksHidden.value);
         setLinksVisibility(areLinksHidden.value);
+      } else {
+        if (shortcuts[event.key]) {
+          window.location = shortcuts[event.key];
+        }
       }
     });
   </script>
