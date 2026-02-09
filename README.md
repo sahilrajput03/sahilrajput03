@@ -358,6 +358,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 - Text Wrap, Line Break Online (e.g., say comments to wrap after 80 chars): [Click here](https://www.joydeepdeb.com/tools/line-break.html)
 - Transcribe youtube video or shorts:
+	- [downsub.com](https://downsub.com/)
 	- [downloadyoutubesubtitles.com](https://www.downloadyoutubesubtitles.com)
 	- [rushtechhub.com/youtube-transcript/](https://rushtechhub.com/youtube-transcript/)
 	- For videos not having subtitles the above method won't work though you can use OpenAi's STT api. You can first download the m4a audio file of the youtube video by downloading the audio file from this site - [https://www.multidownloader.net](https://www.multidownloader.net). *Note: OpenAi's STT supports m4a format as input file 😇*
