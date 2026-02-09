@@ -1,0 +1,38 @@
+a {
+    display: block;
+    width: fit-content;
+    margin-bottom: 15px;
+    /* Learn: Do not center or right align because that makes reading the links harder. (16 Jan 2026) */
+    /* text-align: center; */
+    color: deeppink;
+}
+
+a:active {
+    color: white;
+    background-color: black;
+    /* Change to any color you want */
+}
+
+body {
+    margin-top: 50px;
+    width: fit-content;
+    margin-left: 250px;
+}
+
+@media (max-width: 600px) {
+
+    /* Below applies to mobile */
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.125rem;
+    }
+}
+
+hr {
+    margin: 30px 0px;
+}
+
+.hidden {
+    display: none;
+}
