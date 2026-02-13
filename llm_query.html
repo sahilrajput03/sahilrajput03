@@ -16,10 +16,11 @@
     <button onclick="queryLLM('grok')">Query Grok</button>
     <button onclick="queryLLM('perplexity')">Query Perplexity</button>
     <button onclick="queryLLM('google')">Query Google</button>
+    <button onclick="queryLLM('claude')">Query Claude</button>
 
     <br />
     <br />
-    Note: Claude and Gemini doesn't support url based query yet.
+    Note: Gemini doesn't support url based query yet.
 
     <script>
         function queryLLM(llm) {
@@ -44,6 +45,9 @@
                     break;
                 case 'google':
                     url = `https://www.google.com/search?udm=50&aep=11&q=${encodedQuery}`;
+                    break;
+                case 'claude':
+                    url = `https://claude.ai/new?q=${encodedQuery}`;
                     break;
                 default:
                     alert('Unknown LLM');
