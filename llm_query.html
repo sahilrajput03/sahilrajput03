@@ -17,6 +17,7 @@
     <button onclick="queryLLM('perplexity')">Query Perplexity</button>
     <button onclick="queryLLM('google')">Query Google</button>
     <button onclick="queryLLM('claude')">Query Claude</button>
+    <button onclick="queryLLM('youtube')">Query YouTube</button>
 
     <br />
     <br />
@@ -48,6 +49,9 @@
                     break;
                 case 'claude':
                     url = `https://claude.ai/new?q=${encodedQuery}`;
+                    break;
+                case 'youtube':
+                    url = `https://www.youtube.com/results?search_query=${encodedQuery}`;
                     break;
                 default:
                     alert('Unknown LLM');
