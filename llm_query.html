@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LLM Multi-Query</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        input[type="text"] { width: 50%; padding: 10px; margin-bottom: 10px; }
+        button { padding: 10px 15px; margin-right: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Query Multiple LLMs</h1>
+    <input type="text" id="queryInput" placeholder="Enter your query here">
+    <br>
+    <button onclick="queryLLM('chatgpt')">Query ChatGPT</button>
+    <button onclick="queryLLM('grok')">Query Grok</button>
+    <button onclick="queryLLM('perplexity')">Query Perplexity</button>
+    <button onclick="queryLLM('google')">Query Google</button>
+
+    <br />
+    <br />
+    Note: Claude and Gemini doesn't support url based query yet.
+
+    <script>
+        function queryLLM(llm) {
+            const query = document.getElementById('queryInput').value;
+            if (!query) {
+                alert('Please enter a query.');
+                return;
+            }
+
+            let url = '';
+            const encodedQuery = encodeURIComponent(query);
+
+            switch (llm) {
+                case 'chatgpt':
+                    url = `https://chatgpt.com/?prompt=${encodedQuery}`;
+                    break;
+                case 'grok':
+                    url = `https://x.com/i/grok?text=${encodedQuery}`;
+                    break;
+                case 'perplexity':
+                    url = `https://www.perplexity.ai/search/new?q=${encodedQuery}`;
+                    break;
+                case 'google':
+                    url = `https://www.google.com/search?udm=50&aep=11&q=${encodedQuery}`;
+                    break;
+                default:
+                    alert('Unknown LLM');
+                    return;
+            }
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
