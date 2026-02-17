@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Multi-Query</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 20px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            border-radius: 15px;
+            padding: 10px 15px;
+            margin-right: 10px;
+            cursor: pointer;
+            box-shadow: none;
+            outline: none;
+            border: 1px solid deeppink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ChatAI</h1>
+    <input type="text" id="queryInput" placeholder="Enter your query here" autofocus>
+    <br>
+    <button style="background: #f2d7db;" onclick="appendToQueryInput()">Read
+        from that
+        url</button>
+    <br />
+    <br />
+    <div style="display: flex; flex-wrap: wrap; gap: 13px;">
+        <button onclick="queryLLM('chatgpt')">Query ChatGPT</button>
+        <button onclick="queryLLM('grok')">Query Grok</button>
+        <button onclick="queryLLM('perplexity')">Query Perplexity</button>
+        <button onclick="queryLLM('google')">Query Google</button>
+        <button onclick="queryLLM('claude')">Query Claude</button>
+        <button onclick="queryLLM('youtube')">Query YouTube</button>
+    </div>
+
+    <br />
+    <br />
+    Note: Gemini doesn't support url based query yet.
+
+    <script>
+        async function appendToQueryInput() {
+            if (location.origin === 'file://') {
+                alert('Learn: Since you are serving this file over file:// protocol you will be asked for clipboard permission each time. \n\n❤️Solution: (Read #COMMENT-101 in file `links.html`) In file links.html, AFTER YOU ARE DONE YOUR DEVELOPMENT OF THIS PAGE, disable the commented url again - https://sahilrajput.com/chatai');
+            }
+            const queryInput = document.getElementById('queryInput');
+            if (queryInput) {
+                // https://chatgpt.com/c/6994538e-e898-83a9-b8c4-a637dcd56396
+                // const text = await navigator.clipboard.readText();
+                // console.log(text);
+                const suffixText = ' Read from that url so I can ask questions about it and do not output anything until I ask questions.';
+                if (queryInput.value.includes(suffixText)) {
+                    console.log('✅ already added to input.');
+                } else {
+                    queryInput.value += suffixText;
+                }
+            }
+        }
+
+        function queryLLM(llm) {
+            const query = document.getElementById('queryInput').value;
+            if (!query) {
+                alert('Please enter a query.');
+                return;
+            }
+
+            let url = '';
+            const encodedQuery = encodeURIComponent(query);
+
+            switch (llm) {
+                case 'chatgpt':
+                    url = `https://chatgpt.com/?prompt=${encodedQuery}`;
+                    break;
+                case 'grok':
+                    url = `https://x.com/i/grok?text=${encodedQuery}`;
+                    break;
+                case 'perplexity':
+                    url = `https://www.perplexity.ai/search/new?q=${encodedQuery}`;
+                    break;
+                case 'google':
+                    url = `https://www.google.com/search?udm=50&aep=11&q=${encodedQuery}`;
+                    break;
+                case 'claude':
+                    url = `https://claude.ai/new?q=${encodedQuery}`;
+                    break;
+                case 'youtube':
+                    url = `https://www.youtube.com/results?search_query=${encodedQuery}`;
+                    break;
+                default:
+                    alert('Unknown LLM');
+                    return;
+            }
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+
+</html>
