@@ -18,7 +18,7 @@
 #### Projects & Services
 
 - filedb.js ([private](https://github.com/sahilrajput03/config/blob/main/snips/js-node/filedb.js))
-- SQLite MCP as a Service (SQLite Maas) (private - [1](https://github.com/sahilrajput03/learn-openai/blob/main/tts-stt-google-genai/mcp-server-client/cc-mcp3-sqlite-stdioMcp.js), [2](https://github.com/sahilrajput03/learn-openai/blob/main/tts-stt-google-genai/mcp-server-client/cc-mcp4-sqlite-sseMcp.js))
+- SQLite MCP as a Service (SQLite Maas) (private - [stdioMcp](https://github.com/sahilrajput03/learn-openai/blob/main/tts-stt-google-genai/mcp-server-client/cc-mcp3-sqlite-stdioMcp.js), [sseMcp](https://github.com/sahilrajput03/learn-openai/blob/main/tts-stt-google-genai/mcp-server-client/cc-mcp4-sqlite-sseMcp.js))
 - <a href="https://github.com/sahilrajput03/learn-electron/tree/main/project1" target="_blank">Intelligent Assistant (Desktop App) - Github Repository</a>
 - <a href="https://ragatime.github.io" target="_blank">ragatime.github.io</a>, <a href="https://github.com/ragatime/ragatime.github.io/" target="_blank">Github Repository</a>
 - <a href="https://ai.mypot.in" target="_blank">ai.mypot.in</a>, <a href="https://github.com/sahilrajput03/learn-svelte/tree/main/new-ai-sdk" target="_blank">Github Repository</a>
