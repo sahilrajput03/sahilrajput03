@@ -1,6 +1,8 @@
 ## Exercise 11.18 Alternative version for Telegram
 
-*(8 Jan 2025: I noticed that a group's id is changed automatically and thus the sending messages to that group doesn't work anymore as we get error `{ name: 'AxiosError', message: 'Request failed with status code 400' }` because the group was upgraded to a super group as [I checked with ChatGPT here](https://chatgpt.com/c/695f5611-4210-8323-afbe-c64f874a2698). After chanigng the group id to the updated group id, sending messages started working again.*
+*(⭐️16 Feb 2025: Found a way to get your userid by simply messaging to this bot - @userinfobot)*
+
+*(⭐️8 Jan 2025: I noticed that a group's id is changed automatically and thus the sending messages to that group doesn't work anymore as we get error `{ name: 'AxiosError', message: 'Request failed with status code 400' }` because the group was upgraded to a super group as [I checked with ChatGPT here](https://chatgpt.com/c/695f5611-4210-8323-afbe-c64f874a2698). After chanigng the group id to the updated group id, sending messages started working again.*
 
 The Telegram version of this exercise is provided by [Sahil Rajput](https://github.com/sahilrajput03)
 
