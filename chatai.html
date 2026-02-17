@@ -64,9 +64,9 @@
             const queryInput = document.getElementById('queryInput');
             if (queryInput) {
                 // https://chatgpt.com/c/6994538e-e898-83a9-b8c4-a637dcd56396
-                // const text = await navigator.clipboard.readText();
-                // console.log(text);
-                const suffixText = ' Read from that url so I can ask questions about it and do not output anything until I ask questions.';
+                const text = await navigator.clipboard.readText();
+                console.log(text);
+                const suffixText = text + ' Read from that url so I can ask questions about it and do not output anything until I ask questions.';
                 if (queryInput.value.includes(suffixText)) {
                     console.log('✅ already added to input.');
                 } else {
