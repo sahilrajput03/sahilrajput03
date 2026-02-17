@@ -33,8 +33,8 @@
   <a href="https://sahilrajput.com/breathe">/breathe</a>
   <a href="https://sahilrajput.com/grow">/grow</a>
   <a href="https://sahilrajput.com/movies">/movies</a>
-  <a href="https://sahilrajput.com/vocab">/vocab</a>
-  <a href="https://sahilrajput.com/vocabd">/vocabd (doc)</a>
+  <a href="https://sahilrajput.com/vocab">/vocab (vw)</a>
+  <a href="https://sahilrajput.com/vocabd">/vocabd (doc) (vd)</a>
   <a href="https://sahilrajput.com/hypnosis">/hypnosis</a>
   <a href="https://sahilrajput.com/friends">/friends</a>
   <a href="https://sahilrajput.com/works">/works</a>
@@ -94,25 +94,73 @@
 
     const shortcuts = {
       a: 'https://sahilrajput.com/a',
-      c: 'https://chatgpt.com',
-      s: 'https://sahilrajput.com',
-      d: 'https://docs.google.com/document/d/1N6RnvOSk8RHOylSIqdUPIgeFuvdiQGOFqPPkz6V1cMc/edit?tab=t.0#heading=h.eswtv9bzeis1',
-      m: 'https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0',
       b: 'https://docs.google.com/document/d/1_nlp7AaPG1Xl9yoxeiC5cp2uJwYvoaoUF17ZNRUEfi4/edit?tab=t.0',
+      c: 'https://chatgpt.com',
+      d: 'https://docs.google.com/document/d/1N6RnvOSk8RHOylSIqdUPIgeFuvdiQGOFqPPkz6V1cMc/edit?tab=t.0#heading=h.eswtv9bzeis1',
       l: 'llm_query.html',
+      m: 'https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0',
+      s: 'https://sahilrajput.com',
+      v: {
+        w: 'vocab.html',
+        d: 'vocabd.html'
+      }
     };
+
+    let multiCharShortcut = '';
+
+    function goToUrl(url) {
+      window.location = url;
+    }
 
     // Code inspired from cmm+k shortcut on your website sahilrajput.com.
     document.addEventListener('keydown', function (event) {
-      if (event.key === 'h') {
-        // if ((event.ctrlKey || event.metaKey) && event.key === 'h') {
+      const { key } = event;
+      if (key === 'Meta') {
+        // ignore meta key
+      } else if (key === 'h') {
+        // if ((event.ctrlKey || event.metaKey) && key === 'h') {
         // event.preventDefault(); // Prevents browser's default behavior
         areLinksHidden.value = !areLinksHidden.value;
         console.log("🚀 ~ p.areLinksHidden:", areLinksHidden.value);
         setLinksVisibility(areLinksHidden.value);
+      } else if (multiCharShortcut) {
+        multiCharShortcut += key;
+        console.log("🚀 ~ multiCharShortcut (2)?", multiCharShortcut);
+        let url;
+        console.log('for loop? (k)');
+        for (let i = 0; i < multiCharShortcut.length; i++) {
+          const k = multiCharShortcut?.[i];
+          console.log('\tk?', k);
+          if (!url) {
+            url = shortcuts?.[k];
+          } else {
+            url = url?.[k];
+          }
+          console.log('\turl?', url);
+          if (typeof url === 'string') {
+            console.log('🔴 breaking for loop');
+            break;
+          };
+        }
+        if (url) {
+          console.log(`✅ goToUrl(${url})`);
+          goToUrl(url);
+          // Below reset is helpful for testing by commenting goToUrl(`..`)).
+          multiCharShortcut = '';
+        } else {
+          alert(multiCharShortcut + ' shortcut does not exist.');
+          multiCharShortcut = '';
+        }
       } else {
-        if (shortcuts[event.key]) {
-          window.location = shortcuts[event.key];
+        if (shortcuts[key]) {
+          if (typeof shortcuts[key] === 'string') {
+            goToUrl(shortcuts[key]);
+          } else {
+            multiCharShortcut += key;
+            console.log("🚀 ~ multiCharShortcut (1)?", multiCharShortcut);
+          }
+        } else {
+          console.log('❌ shortcut not in list yet.');
         }
       }
     });
