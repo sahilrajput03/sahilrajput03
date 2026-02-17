@@ -9,7 +9,9 @@
 </head>
 
 <body>
-  <div style="font-style: italic; color: gray; position: fixed; right: 10px;">Safe Mode (h)</div>
+  <div style="font-style: italic; color: gray; position: fixed; right: 10px; top: 10px;">Safe Mode (h)</div>
+  <div style="font-style: italic; color: gray; position: fixed; right: 10px; top: 40px;">Clear (Esc)
+  </div>
   <a id="hoverLink" href="https://sahilrajput.com">sahilrajput.com (s)</a>
   <a href="llm_query.html">LLM Query (l)</a>
   <a id="hoverLink" href="https://chatgpt.com">chatgpt.com (c)</a>
@@ -35,6 +37,7 @@
   <a href="https://sahilrajput.com/movies">/movies</a>
   <a href="https://sahilrajput.com/vocab">/vocab (vw)</a>
   <a href="https://sahilrajput.com/vocabd">/vocabd (doc) (vd)</a>
+  <a href="https://example.com">example.com (vza)</a>
   <a href="https://sahilrajput.com/hypnosis">/hypnosis</a>
   <a href="https://sahilrajput.com/friends">/friends</a>
   <a href="https://sahilrajput.com/works">/works</a>
@@ -101,8 +104,12 @@
       m: 'https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0',
       s: 'https://sahilrajput.com',
       v: {
+        d: 'vocabd.html',
         w: 'vocab.html',
-        d: 'vocabd.html'
+        // Shortcut vza works too! ⭐️
+        z: {
+          a: 'https://example.com'
+        }
       }
     };
 
@@ -115,7 +122,11 @@
     // Code inspired from cmm+k shortcut on your website sahilrajput.com.
     document.addEventListener('keydown', function (event) {
       const { key } = event;
-      if (key === 'Meta') {
+      // console.log("🚀 ~ key?", key);
+      if (key === 'Escape') {
+        multiCharShortcut = '';
+        console.log('✅ Cleared multiCharShortcut');
+      } else if (key === 'Meta') {
         // ignore meta key
       } else if (key === 'h') {
         // if ((event.ctrlKey || event.metaKey) && key === 'h') {
@@ -126,31 +137,7 @@
       } else if (multiCharShortcut) {
         multiCharShortcut += key;
         console.log("🚀 ~ multiCharShortcut (2)?", multiCharShortcut);
-        let url;
-        console.log('for loop? (k)');
-        for (let i = 0; i < multiCharShortcut.length; i++) {
-          const k = multiCharShortcut?.[i];
-          console.log('\tk?', k);
-          if (!url) {
-            url = shortcuts?.[k];
-          } else {
-            url = url?.[k];
-          }
-          console.log('\turl?', url);
-          if (typeof url === 'string') {
-            console.log('🔴 breaking for loop');
-            break;
-          };
-        }
-        if (url) {
-          console.log(`✅ goToUrl(${url})`);
-          goToUrl(url);
-          // Below reset is helpful for testing by commenting goToUrl(`..`)).
-          multiCharShortcut = '';
-        } else {
-          alert(multiCharShortcut + ' shortcut does not exist.');
-          multiCharShortcut = '';
-        }
+        runMultiCharShortcut();
       } else {
         if (shortcuts[key]) {
           if (typeof shortcuts[key] === 'string') {
@@ -164,6 +151,38 @@
         }
       }
     });
+
+    function runMultiCharShortcut() {
+      let url;
+      console.log('for loop? (k)');
+      for (let i = 0; i < multiCharShortcut.length; i++) {
+        const k = multiCharShortcut?.[i];
+        console.log('\tk?', k);
+        if (!url) {
+          url = shortcuts?.[k];
+        } else {
+          url = url?.[k];
+        }
+        console.log('\turl?', url);
+        if (typeof url === 'string') {
+          console.log('🔴 breaking for loop');
+          break;
+        };
+      }
+      if (url) {
+        if (typeof url === 'string') {
+          console.log(`✅ goToUrl(${url})`);
+          goToUrl(url);
+          // Below reset is helpful for testing by commenting goToUrl(`..`)).
+          multiCharShortcut = '';
+        } else {
+          console.log('⏰ waiting for next key...');
+        }
+      } else {
+        alert(multiCharShortcut + ' shortcut does not exist.');
+        multiCharShortcut = '';
+      }
+    }
   </script>
 </body>
 
