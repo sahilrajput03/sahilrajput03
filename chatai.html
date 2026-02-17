@@ -38,9 +38,9 @@
     <h1>ChatAI</h1>
     <input type="text" id="queryInput" placeholder="Enter your query here" autofocus>
     <br>
-    <button style="background: #f2d7db;" onclick="appendToQueryInput()">Read
-        from that
-        url</button>
+    <button style="background: #f2d7db;" onclick="appendToQueryInput()">
+        Read url from clipboard → Ask
+    </button>
     <br />
     <br />
     <div style="display: flex; flex-wrap: wrap; gap: 13px;">
@@ -58,7 +58,8 @@
 
     <script>
         async function appendToQueryInput() {
-            if (location.origin === 'file://') {
+            const isServedFromFile = location.origin === 'file://';
+            if (isServedFromFile) {
                 alert('Learn: Since you are serving this file over file:// protocol you will be asked for clipboard permission each time. \n\n❤️Solution: (Read #COMMENT-101 in file `links.html`) In file links.html, AFTER YOU ARE DONE YOUR DEVELOPMENT OF THIS PAGE, disable the commented url again - https://sahilrajput.com/chatai');
             }
             const queryInput = document.getElementById('queryInput');
