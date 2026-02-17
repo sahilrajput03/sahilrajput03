@@ -17,7 +17,7 @@
 
 #### Projects & Services
 
-- filedb.js ([private](https://github.com/sahilrajput03/config/blob/c69306f31f4891f20696eda7d37d0518b239d64a/snips/js-node/filedb.js))
+- filedb.js ([private](https://github.com/sahilrajput03/config/blob/main/snips/js-node/filedb.js))
 - SQLite MCP as a Service (SQLite Maas)
 - <a href="https://github.com/sahilrajput03/learn-electron/tree/main/project1" target="_blank">Intelligent Assistant (Desktop App) - Github Repository</a>
 - <a href="https://ragatime.github.io" target="_blank">ragatime.github.io</a>, <a href="https://github.com/ragatime/ragatime.github.io/" target="_blank">Github Repository</a>
