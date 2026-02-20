@@ -50,6 +50,7 @@
         <button onclick="queryLLM('google')">Query Google</button>
         <button onclick="queryLLM('claude')">Query Claude</button>
         <button onclick="queryLLM('youtube')">Query YouTube</button>
+        <button onclick="queryLLM('my_github_repos')">Query My Github Repos</button>
     </div>
 
     <br />
@@ -104,6 +105,9 @@
                     break;
                 case 'youtube':
                     url = `https://www.youtube.com/results?search_query=${encodedQuery}`;
+                    break;
+                case 'my_github_repos':
+                    url = `https://github.com/sahilrajput03?tab=repositories&q=telegram&type=source&language=&sort=${encodedQuery}`;
                     break;
                 default:
                     alert('Unknown LLM');
