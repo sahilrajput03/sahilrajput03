@@ -381,6 +381,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Remove background from an image: [Click here](https://www.remove.bg/upload)
 - **❤️ Text To Spech (TTS):**
 	- Use Chrome Mobile's feature of **"Listen to this page"**. Its awesome because it offers highlight of text while reading and changing speed of reading as well.
+		- Use Chrome Browser (Desktop), right click in empty area and choose "Open in reading mode".
 	- Use OpenAI Playground or OpenAI's API
 	- Learn Coqui: [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
 	- Download from ChatGPT's prompt directly via chrome extension: [AudioTTS - Simple Text to Speech Downloader](https://chromewebstore.google.com/detail/audiotts-simple-text-to-s/lhbdjaomnaobfljmhkmcfhhnihaaangh) *(Note to Sahil: I have kept this extension disabled to avoid unnecessary downloads from any website anytime, so feel free to enable it again temporarily)*
