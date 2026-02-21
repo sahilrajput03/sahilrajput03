@@ -26,6 +26,8 @@ graph TD
 
 ## Why `mermaidjs` ?
 
+Live mermaid renderer: https://mermaid.live
+
 Ans. Making diagrams with code is like don't give a fuck about design but logic flow.
 
 ### Using mermaid
