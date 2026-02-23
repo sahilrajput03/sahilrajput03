@@ -730,7 +730,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Remix: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-remix.md){: search-title="Learn Remix"}
 - Learn Audacity: [Click here](https://docs.google.com/document/d/1RB2Kc2O3_mbiZcrCOcXwQZNOG3d48-1cWNz8t88llyE/edit){: search-title="Learn Audacity"}
 - Learn i3: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-i3.md){: search-title="Learn i3"}
-- Learn Cloudflare: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cloudflare.md){: search-title="Learn Cloudflare"}
+- Learn Cloudflare: [Click here](https://docs.google.com/document/d/1hQkA01Szvox9uEhEyAEPN9tA9nLbSvP45EJTpcgL3wA/edit?tab=t.0#heading=h.dxiuhjudhbk9){: search-title="Learn Cloudflare"}
 - Learn Gist: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-gist.md){: search-title="Learn Gist"}
 - Learn streaming mp3 file: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-streaming.md){: search-title="Learn streaming mp3 file"}
 - LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d){: search-title="LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤"}
