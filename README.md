@@ -362,10 +362,13 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
   - ❤️mp4 to gif: [https://cloudconvert.com/](https://cloudconvert.com/)
     - ❤️Created animated logo: [canva.com/create/logos/animated](https://www.canva.com/create/logos/animated)
-- Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
-- Convert pdf to text using library `pdfjs-dist`: [Click here](https://github.com/sahilrajput03/qr-solution-frontend/blob/main/src/pdf-to-text.test.js)
-- Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
+- pdf:
+	- Get particular page from a pdf using CLI: [ChatGPT](https://chatgpt.com/c/699aa549-52d4-8324-b683-cb736b00b1cd)
+	- Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
+	- Convert pdf to text using library `pdfjs-dist`: [Click here](https://github.com/sahilrajput03/qr-solution-frontend/blob/main/src/pdf-to-text.test.js)
+	- Learn rendering pdf in a website: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
 - Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
+- Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
 - Soundcloud Downloader: [Click here](https://sclouddownloader.net/)
 - Srt to text: [Click here](https://gotranscript.com/subtitle-converter)
 - Create forms easily:
@@ -858,7 +861,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- 🔪 SIGKILL(9)[Forceful killing , `kill -9 PID`, Cannot be handled by program]
 	- ⚠️ SIGINT(2)[Terminate program by default, can be handled by program, **`Ctrl+c`**, `kill -2 PID`]
 - Learn pm2: [Click here](https://docs.google.com/document/d/1f1_6fMv2B5TbGpWoMHdZQ2irZ8IRZCKH37k_SUpQvAI/edit?tab=t.0)
-- Learn rendering pdf in a website: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
 - Learn wordpress development: [Doc](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0), [Github](https://github.com/sahilrajput03/learn-wordpress-development)
 - Good Printable Webpages:
   - All MDN Pages: [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
