@@ -381,6 +381,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Remove background from an image: [Click here](https://www.remove.bg/upload)
 - **❤️ Text To Spech (TTS):**
 	- Use Chrome Mobile's feature of **"Listen to this page"**. Its awesome because it offers highlight of text while reading and changing speed of reading as well.
+		- Use Chrome Browser (Desktop), right click in empty area and choose "Open in reading mode".
 	- Use OpenAI Playground or OpenAI's API
 	- Learn Coqui: [Click here](https://docs.google.com/document/d/1vLChB48hYVlwu6bhwT7aIJB2yF9mankkKmN56P3XWTo/edit?tab=t.0)
 	- Download from ChatGPT's prompt directly via chrome extension: [AudioTTS - Simple Text to Speech Downloader](https://chromewebstore.google.com/detail/audiotts-simple-text-to-s/lhbdjaomnaobfljmhkmcfhhnihaaangh) *(Note to Sahil: I have kept this extension disabled to avoid unnecessary downloads from any website anytime, so feel free to enable it again temporarily)*
@@ -677,7 +678,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 				- Is unix socket same as nodejs sockets? Be concise. (ChatGPT)
 					- Difference between sockets vs. web sockets. Be concise. (ChatGPT)
 		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
-		- **Learn Login flow (bcrypt):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
+		- **Learn Login flow (bcrypt) (#mermaid):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
 		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
 		- ❤️ Get words from book: <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
 	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
@@ -729,7 +730,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn Remix: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-remix.md){: search-title="Learn Remix"}
 - Learn Audacity: [Click here](https://docs.google.com/document/d/1RB2Kc2O3_mbiZcrCOcXwQZNOG3d48-1cWNz8t88llyE/edit){: search-title="Learn Audacity"}
 - Learn i3: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-i3.md){: search-title="Learn i3"}
-- Learn Cloudflare: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-cloudflare.md){: search-title="Learn Cloudflare"}
+- Learn Cloudflare: [Click here](https://docs.google.com/document/d/1hQkA01Szvox9uEhEyAEPN9tA9nLbSvP45EJTpcgL3wA/edit?tab=t.0#heading=h.dxiuhjudhbk9){: search-title="Learn Cloudflare"}
 - Learn Gist: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-gist.md){: search-title="Learn Gist"}
 - Learn streaming mp3 file: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-streaming.md){: search-title="Learn streaming mp3 file"}
 - LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d){: search-title="LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤"}
