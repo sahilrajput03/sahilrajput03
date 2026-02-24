@@ -754,6 +754,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn LinkedIn: [Click here](learn-linkedin.md){: search-title="Learn LinkedIn"}
 - Learn Ubuntu: [Click here](https://docs.google.com/document/d/1eDQQOdAXI2ihob4qvysJMdphUeUdeizZXN1V90QHXeA/edit){: search-title="Learn Ubuntu"}
 - Learn macOS: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?pli=1){: search-title="Learn macOS (Sahil)"}
+	- Learn launchd: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?tab=t.kgbinfl2m3ki#heading=h.vmjnctexzt5a)
 	- Learn macOS - Samaksh: [Click here](https://docs.google.com/document/d/1N310qOwvRuu1K3zzpChj3Tt6qPMhtFQ7W2RGSSIrw8U/edit#heading=h.ggwji2r8315h){: search-title="Learn macOS - Samaksh"}
 - Learn making hardcover from paperback books: <a href="https://docs.google.com/document/d/14abXkjtuNyZAQW2QZMUxIcQmfEK7i3IZxaT_0NC7C0k/edit#heading=h.prohzhw7w5zw" search-title="Learn making hardcover from paperback books">Click here</a>
 - Charge battery when it hits below 30% and stop charging when it reaches 80%: <a href="https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/" search-title="Reddit - Charge battery when it hits below 30% and stop charging when it reaches 80%">1</a>, <a href="https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life" search-title="Quora - Charge battery when it hits below 30% and stop charging when it reaches 80%">2</a>
