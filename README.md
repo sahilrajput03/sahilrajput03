@@ -67,6 +67,10 @@
 <br />
 <br />
 
+## Notes of March 2026
+
+- ❤️ [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains](https://www.youtube.com/watch?v=0xS68sl2D70)
+
 ## Notes of Oct 2025
 
 - ❤️ [filesize.md](filesize.md)
