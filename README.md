@@ -67,6 +67,10 @@
 <br />
 <br />
 
+## Notes of March 2026
+
+- ❤️ [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains](https://www.youtube.com/watch?v=0xS68sl2D70)
+
 ## Notes of Oct 2025
 
 - ❤️ [filesize.md](filesize.md)
@@ -362,10 +366,13 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - Convert markdown to docx converter: [cloudconvert.com](https://cloudconvert.com/md-to-docx) *(tested on Feed.md file - works well).* Others: [1](https://mconverter.eu/convert/markdown/docx/), [2](https://products.aspose.app/html/conversion/md-to-docx), [3](https://www.vertopal.com/en/convert/markdown-to-docx)
   - ❤️mp4 to gif: [https://cloudconvert.com/](https://cloudconvert.com/)
     - ❤️Created animated logo: [canva.com/create/logos/animated](https://www.canva.com/create/logos/animated)
-- Convert pdf to docx (for usage with google docs): [https://pdf2docx.com/](https://pdf2docx.com/)
-- Convert pdf to text using library `pdfjs-dist`: [Click here](https://github.com/sahilrajput03/qr-solution-frontend/blob/main/src/pdf-to-text.test.js)
+- pdf:
+	- Get particular page from a pdf using CLI: [ChatGPT](https://chatgpt.com/c/699aa549-52d4-8324-b683-cb736b00b1cd)
+	- Convert pdf to docx (for usage with google docs): [pdf2docx.com](https://pdf2docx.com/)
+	- Convert pdf to text using library `pdfjs-dist`: [Click here](https://github.com/sahilrajput03/qr-solution-frontend/blob/main/src/pdf-to-text.test.js)
+	- Learn rendering pdf in a website - Doc: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
+	- Combine multiple pdfs to single pdf: [ilovepdf.com](https://www.ilovepdf.com)
 - Record voice in mp3 (for source for openai's STT or Translate): [online-voice-recorder.com](https://online-voice-recorder.com/)
-- Combine multiple pdfs to single pdf: [Click here](https://www.ilovepdf.com/)
 - Soundcloud Downloader: [Click here](https://sclouddownloader.net/)
 - Srt to text: [Click here](https://gotranscript.com/subtitle-converter)
 - Create forms easily:
@@ -751,6 +758,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn LinkedIn: [Click here](learn-linkedin.md){: search-title="Learn LinkedIn"}
 - Learn Ubuntu: [Click here](https://docs.google.com/document/d/1eDQQOdAXI2ihob4qvysJMdphUeUdeizZXN1V90QHXeA/edit){: search-title="Learn Ubuntu"}
 - Learn macOS: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?pli=1){: search-title="Learn macOS (Sahil)"}
+	- Learn launchd: [Click here](https://docs.google.com/document/d/1d4Tq28JC17lFqkoz3lqodACnOlCihFj-MnzNb2Vcqd8/edit?tab=t.kgbinfl2m3ki#heading=h.vmjnctexzt5a)
 	- Learn macOS - Samaksh: [Click here](https://docs.google.com/document/d/1N310qOwvRuu1K3zzpChj3Tt6qPMhtFQ7W2RGSSIrw8U/edit#heading=h.ggwji2r8315h){: search-title="Learn macOS - Samaksh"}
 - Learn making hardcover from paperback books: <a href="https://docs.google.com/document/d/14abXkjtuNyZAQW2QZMUxIcQmfEK7i3IZxaT_0NC7C0k/edit#heading=h.prohzhw7w5zw" search-title="Learn making hardcover from paperback books">Click here</a>
 - Charge battery when it hits below 30% and stop charging when it reaches 80%: <a href="https://www.reddit.com/r/samsung/comments/116wjww/is_it_better_to_charge_to_80_or_100/" search-title="Reddit - Charge battery when it hits below 30% and stop charging when it reaches 80%">1</a>, <a href="https://www.quora.com/Is-it-good-to-charge-your-phone-to-100-for-a-good-battery-life" search-title="Quora - Charge battery when it hits below 30% and stop charging when it reaches 80%">2</a>
@@ -854,11 +862,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Linode: [linode.com/legal](https://www.linode.com/legal)
  - ❤️ Watch youtube with friends (Tags: #watch youtube together, #watch together, #watch videos together): [Click here](https://docs.google.com/document/d/1nwVkznZWRmZ54rAF47EZxPeisB_ewWeVJ8FiKRfMX8w/edit?tab=t.0#heading=h.6o93yg7tpo0z)
 - ❤️❤️❤️❤️  Process Signals: [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.bzks2lvu72f5#heading=h.tm42zb9edcgh)
-	- 🙂 SIGTERM(15)[DEFAULT when you run `kill PID`, Trigger Graceful shutdown]
-	- 🔪 SIGKILL(9)[Forceful killing , `kill -9 PID`, Cannot be handled by program]
-	- ⚠️ SIGINT(2)[Terminate program by default, can be handled by program, **`Ctrl+c`**, `kill -2 PID`]
 - Learn pm2: [Click here](https://docs.google.com/document/d/1f1_6fMv2B5TbGpWoMHdZQ2irZ8IRZCKH37k_SUpQvAI/edit?tab=t.0)
-- Learn rendering pdf in a website: [Click here](https://docs.google.com/document/d/1jgZigS-UxccEEwL88_jfRw5ASD_lkwPfbxSI-wju0Ic/edit?tab=t.0)
 - Learn wordpress development: [Doc](https://docs.google.com/document/d/16GdXBSDFBl1T9A_SJa1ITBGB1VBN0aAQ-VAoBpyEcXM/edit?tab=t.0), [Github](https://github.com/sahilrajput03/learn-wordpress-development)
 - Good Printable Webpages:
   - All MDN Pages: [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
