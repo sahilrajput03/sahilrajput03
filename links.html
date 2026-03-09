@@ -138,6 +138,7 @@
       p: {
         g: 'https://sahilrajput.com/pg',
       },
+      // r: 'DO NOT USE THIS BECAUSE IT INTERFERES WITH CMD+R TO REFRESH THE PAGE. I USE IT ALL THE TIME.',
       s: 'https://sahilrajput.com',
       v: {
         d: 'vocabd.html',
@@ -149,8 +150,12 @@
       },
       w: {
         t: 'https://web.telegram.org/a',
-      }
+      },
     };
+
+    if (shortcuts['r']) {
+      alert('Please do not use `r` key as it intereferes with `cmd+r` to refresh the page which I use to reload the page all the time.');
+    }
 
     let multiCharShortcut = '';
 
