@@ -33,3 +33,10 @@ echo "{a: 10, b: 20, name: 'sahil'}" | obj-json | jq
 }
 
 ```
+
+
+## One liner code for getting STDIN input in nodejs program?
+
+```js
+echo "hello world" | node -e "process.stdin.on('data', d => console.log(d.toString().trim()))"
+```
