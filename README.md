@@ -575,7 +575,29 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Telegram Groups: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/telegram-groups.md)
 	- FSO contribution (Ex. 11.18 - Telegram Bot Notification on deployment): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-fso-contribution.md)
 - Learn BitBucket \| Pipelines \| Bitbucket API: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-bitbucket.md)
+- **Javascript:**
+	- **Learn Javascript:** [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.3h5bga5u7t1e#heading=h.jvztvl5dilwd){: search-title="Learn Javascript (#lodash, #babel, #learn js)"} (`#lodash`, `#debounce`, `#throttle`, `#learn js`)
+		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
+		- Learn Javascript Date: [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.ti1walfa93tg#heading=h.oy8j1nluxilo){: search-title="Learn Javascript Date, Learn Date"}
+	- ❤️ Learn Jest, Expect, Fishery, Luxon (DateTime): [Click here](https://docs.google.com/document/d/1PU8G6tpEYLJxXMgHoK5c37UFMbSXtENzpyIOohVsD_I/edit?tab=t.0){: search-title="Learn Jest/expect, fishery, luxon (DateTime)"}
+	- ❤️ **Learn Expressjs:** [❤️Google Doc](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0#heading=h.dv7500gv0vc2){: search-title="Learn Expressjs (Google Doc)"}, [Github Repo](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs (Github Repo)"} *(Tags: #chalk, #learn nodemon)*
+		- ❤️ Learn mocha: [Doc](https://docs.google.com/document/d/19lJnR9d93wplsKpdd7pfqqXUgKTWL2HZNYyo64mkFSE/edit?tab=t.0), [learn-express/learn-mocha](https://github.com/sahilrajput03/learn-express/blob/main/learn-mocha/README.md)
+		- ❤️ Learn Node: [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.ky7afdo4xtp7#heading=h.9nwt5trhda1t){: search-title="Learn Node, Learn NodeJs"} (Tags: System notifications with nodejs)
+			- Few topics covered in above project's readme:
+				- `spawn` vs. `fork` vs. `worker_threads`
+					- `spawn` child process (preffered for non js programs)
+					- `fork` child process (preffered for js programs)
+					- `worker_threads` (preffered for multi threading in same process for cpu intensive tasks)
+				- Is unix socket same as nodejs sockets? Be concise. (ChatGPT)
+					- Difference between sockets vs. web sockets. Be concise. (ChatGPT)
+		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
+		- **Learn Login flow (bcrypt) (#mermaid):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
+		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
+		- ❤️ Get words from book: <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
+	- **❤️DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa){: search-title="DSA in Javascript, Course"} (Tags: #algorithms)
+	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
 - **Learn Google Development:**
+	- ❤️Learn Web Notifications: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/node-push-notifications) *(Tags: Push notifications)*
 	- Learn Google Play Console: [Click here](https://docs.google.com/document/d/1KtIn7M7YhA-ezcuJ9Wgb-l4WpT5fnSNXl9Zrpli6meE/edit?tab=t.dslr5jrd3lpw#heading=h.e3bzl4pl9b3d)
 	- Learn Google Cloud Platform (Google Cloud Console): [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-cloud.md)
 		- Console APIs via Oauth2 with Postman: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-console-apis-via-oauth2.md)
@@ -668,27 +690,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - **Learn stripe:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-stripe.md){: search-title="Learn stripe"}
 - **Npm libaries I recommend:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-npm-libraries.md){: search-title="Npm libaries I recommend"}
 - **Learn Mailservers:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/mail-server.md){: search-title="Learn Mailservers"}
-- **❤️DSA in Javascript, Course:** [Click here](https://github.com/sahilrajput03/learn-dsa){: search-title="DSA in Javascript, Course"} (Tags: #algorithms)
-- **Javascript:**
-	- **Learn Javascript:** [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.3h5bga5u7t1e#heading=h.jvztvl5dilwd){: search-title="Learn Javascript (#lodash, #babel, #learn js)"} (`#lodash`, `#debounce`, `#throttle`, `#learn js`)
-		- **Learn Proxy in Javascript (sahilrajput03/js-object-proxy):** [Click here](https://github.com/sahilrajput03/js-object-proxy){: search-title="Learn Proxy in Javascript (sahilrajput03/js-object-proxy)"}
-		- Learn Javascript Date: [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.ti1walfa93tg#heading=h.oy8j1nluxilo){: search-title="Learn Javascript Date, Learn Date"}
-	- ❤️ Learn Jest, Expect, Fishery, Luxon (DateTime): [Click here](https://docs.google.com/document/d/1PU8G6tpEYLJxXMgHoK5c37UFMbSXtENzpyIOohVsD_I/edit?tab=t.0){: search-title="Learn Jest/expect, fishery, luxon (DateTime)"}
-	- ❤️ **Learn Expressjs:** [❤️Google Doc](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0#heading=h.dv7500gv0vc2){: search-title="Learn Expressjs (Google Doc)"}, [Github Repo](https://github.com/sahilrajput03/learning_expressjs){: search-title="Learn Expressjs (Github Repo)"} *(Tags: #chalk, #learn nodemon)*
-		- ❤️ Learn mocha: [Doc](https://docs.google.com/document/d/19lJnR9d93wplsKpdd7pfqqXUgKTWL2HZNYyo64mkFSE/edit?tab=t.0), [learn-express/learn-mocha](https://github.com/sahilrajput03/learn-express/blob/main/learn-mocha/README.md)
-		- ❤️ Learn Node: [Click here](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.ky7afdo4xtp7#heading=h.9nwt5trhda1t){: search-title="Learn Node, Learn NodeJs"} (Tags: System notifications with nodejs)
-			- Few topics covered in above project's readme:
-				- `spawn` vs. `fork` vs. `worker_threads`
-					- `spawn` child process (preffered for non js programs)
-					- `fork` child process (preffered for js programs)
-					- `worker_threads` (preffered for multi threading in same process for cpu intensive tasks)
-				- Is unix socket same as nodejs sockets? Be concise. (ChatGPT)
-					- Difference between sockets vs. web sockets. Be concise. (ChatGPT)
-		- **Learn nodejs or any other development in containers with debugger support (#Docker):** [Click here](https://github.com/sahilrajput03/learn-express/tree/main/development-in-docker-container){: search-title="Learn nodejs or any other development in containers with debugger support (#Docker)"}
-		- **Learn Login flow (bcrypt) (#mermaid):** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/learn-login-flow.md){: search-title="Learn Login flow (bcrypt)"}
-		- ❤️ Jwt & Bcrypt Tests: [Click here](https://github.com/sahilrajput03/learn-express/blob/main/authorization/README.md){: search-title="❤️ Jwt & Bcrypt Tests"}
-		- ❤️ Get words from book: <a href="https://github.com/sahilrajput03/learn-express/tree/main/get-words-from-book-text" search-title="Get words from book (in Learn Expressjs repo)">Click here</a>
-	- **Convert javascript object to json - cli tool** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/obj-json.md){: search-title="Convert javascript object to json - cli tool"}
 - **Nginx config files:** [Click here](https://github.com/sahilrajput03/config/tree/main/etc/nginx){: search-title="Nginx config files"}
   - Reverse proxy with `express-http-proxy` (npm library): [sahilrajput03/reverseProxy](https://github.com/sahilrajput03/reverseProxy){: search-title="Reverse proxy with `express-http-proxy` (npm library)"}
 - **Leetcode: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-leetcode.md)**{: search-title="Leetcode"}
@@ -731,7 +732,6 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- **Development on Android with Termux**: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
 	- **Favorite Android Apps:** [Click here](https://docs.google.com/document/d/1m2RrhfVs5znjhg-CUoUjzmOVu2kZOgLdjw74rdKwttI/edit?tab=t.0#heading=h.3uc2ke93uyrf)
 - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
-- ❤️Learn Web Notifications: [Click here](https://github.com/sahilrajput03/learn-express/tree/main/node-push-notifications) *(Tags: Push notifications)*
 - Learn Artificial Intelligence Development (prompting, etc): [Click here](https://docs.google.com/document/d/1yUaJp0BtPbT9pAuIZ8pUxmer_W-9qXoE7rNpnLuPLQA/edit?tab=t.juqaf7ck3yrz#heading=h.g09cwp7crv6x){: search-title="Learn Artificial Intelligence Development (prompting, etc)"}
 - Learn ChatGPT (My Notes): [Click here](learn-chatgpt.md){: search-title="Learn ChatGPT (My Notes)"}
 - Learn Remix: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-remix.md){: search-title="Learn Remix"}
