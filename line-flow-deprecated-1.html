@@ -422,10 +422,6 @@
 
 <div class="drag-indicator" id="drag-indicator">⬆</div>
 
-<script type="module">
-  import sbd from 'https://cdn.jsdelivr.net/npm/sbd@1.0.19/+esm';
-  window.sbd = sbd; // Expose globally for easier access in other script block
-</script>
 <script>
   // ── STATE ──
   let lines = [];
@@ -457,11 +453,18 @@
 
   // ── PARSE TEXT ──
   function parseText(raw) {
-    if (!raw.trim()) return [];
-    return sbd.sentences(raw, {
-      newline_boundaries: true,
-      sanitize: true
-    }).map(s => s.trim()).filter(Boolean);
+    // Split by newlines first, then by sentence-ending punctuation
+    const byNewlines = raw.split(/\n+/).map(s => s.trim()).filter(Boolean);
+    const result = [];
+    byNewlines.forEach(chunk => {
+      // Split long chunks into sentences
+      const sentences = chunk.match(/[^.!?]+[.!?]+[\s]*/g) || [chunk];
+      sentences.forEach(s => {
+        const trimmed = s.trim();
+        if (trimmed.length > 0) result.push(trimmed);
+      });
+    });
+    return result;
   }
 
   // ── TEXTAREA EVENTS ──
