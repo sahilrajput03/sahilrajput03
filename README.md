@@ -487,6 +487,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Hardware:
 	-  Laptops:
 		- [MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)](https://support.apple.com/en-in/111339)
+			- Processor: 👉 Intel i7-1068NG7 = 10th Generation (Ice Lake) (checked via command `sysctl -n machdep.cpu.brand_string`)
 		- [Dell Latitude 5400](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
 			- OS: Manjaro, Kernel Version: 6.1.51-1-MANJARO (`uname -r`)
 			- Terminal Emulator([?](https://en.wikipedia.org/wiki/Terminal_emulator)): [Kitty](https://sw.kovidgoyal.net/kitty/)
