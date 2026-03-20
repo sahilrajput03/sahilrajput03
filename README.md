@@ -487,9 +487,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Hardware:
 	-  Laptops:
 		- [MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)](https://support.apple.com/en-in/111339)
-			- Processor: 👉 Intel i7-1068NG7 = 10th Generation (Ice Lake) (checked via command `sysctl -n machdep.cpu.brand_string`)
+			- Processor: **10th Generation (Ice Lake) Intel Core i7-1068NG7 processor** (checked via command `sysctl -n machdep.cpu.brand_string`)
 		- [Dell Latitude 5400](https://dl.dell.com/topicspdf/latitude-14-5400-laptop_owners-manual2_en-us.pdf)
 			- OS: Manjaro, Kernel Version: 6.1.51-1-MANJARO (`uname -r`)
+			- Processor: **8th Gen Intel Core i7-8665U processor** (8 MB cache, 4 core count/8 threads, 1.9 GHz to 4.8 GHz, 15 W TDP, vPro)
 			- Terminal Emulator([?](https://en.wikipedia.org/wiki/Terminal_emulator)): [Kitty](https://sw.kovidgoyal.net/kitty/)
 		- [HP Notebook - 15-ac179tx](https://support.hp.com/in-en/document/c04919819)
 		- [Raspberry Pi 4 model-b](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), Processor: `Quad core ARM Cortex-A72 processor`, Specification page [here](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/).
