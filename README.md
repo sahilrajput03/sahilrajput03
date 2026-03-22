@@ -27,7 +27,7 @@
 <!-- ENDS-HERE ---- SEARCH FUNCTIONALITY -->
 
 
-<h6 align="left">
+<h6 align="right">
 	<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Shunya, Param Dhyaan, Meditation, VBT</a>,
 	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
 	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
@@ -36,7 +36,7 @@
 	<a href="/celebration-by-simplebeing.html">Celebration by Simplebeing</a>
 </h6>
 
-<h6 align="left">
+<h6 align="right">
 	<a href="https://sahilrajput.com/essays">Essays</a>,
 	<a href="https://sahilrajput03.github.io/vocab-files/vocab">Vocab</a> (<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Doc</a>),
 	<a href="https://docs.google.com/document/d/1q_AmG0bIxX2WjN_wyMUv_Y7kOEtnW2y6--4M8QWlcZE/edit?tab=t.0#heading=h.1ahwoj105swe">❤️ Book Recommendations</a>,
@@ -45,7 +45,7 @@
 	<a href="https://sahilrajput.com/grow">Help me grow feedback</a>
 </h6>
 
-<h6 align="left">
+<h6 align="right">
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
 	<a href="https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.ikhvinwu2trf">MacOS Vscode Shortcuts</a>, 
 	<a href="#unit-conversions">Unit Conversions</a>,
@@ -55,7 +55,7 @@
 	<a href="/links">⭐️Links</a>
 </h6>
 
-<div align="left">
+<div align="right">
 	Website: <a href="https://sahilrajput.com">sahilrajput.com</a><br/>
 	Github: <a href="https://github.com/sahilrajput03/sahilrajput03">github.com/sahilrajput03/sahilrajput03</a><br/>
 	Android App:  <a href="/apk/Tech_Blog_by_Sahil_Rajput_base.apk">Tech Blog by Sahil Rajput</a><br/>
