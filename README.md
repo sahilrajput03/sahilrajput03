@@ -401,6 +401,9 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
 	- Premium Services - [hume.ai](https://www.hume.ai/pricing), [elevenlabs.io](https://elevenlabs.io/pricing), [revoicer.com](https://revoicer.com)
 - **❤️ Speech to Text (STT):** *(#speechtotext, #speech-to-text)*
+	- ❤️ [speechify.com/voice-typing-dictation](https://speechify.com/voice-typing-dictation)
+		- ❤️ Awesome Playstore App - [Click here](https://play.google.com/store/apps/details?id=com.cliffweitzman.speechify2&hl=en_IN)
+   - They offer web interface for STT (above link) and they also claim to have desktop app as well for macos in above link as well.
 	- ❤️ mp3 to text: https://turboscribe.ai (3 transcription/day)
 	- Live: [dictation.io/speech](https://dictation.io/speech) (web)
  	- ❤️ WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
