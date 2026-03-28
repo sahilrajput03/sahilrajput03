@@ -924,6 +924,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn Game Theory: [Click here](https://docs.google.com/document/d/1rn62c3st-pP9il0fI1VG6Onel-m89fnaCvB6DQRXluo/edit?tab=t.0#heading=h.atj23bhfa1ru)
 - Learn Body Language: [Click here](https://docs.google.com/document/d/1wHUC9cnBCM9mn0UfmCjQlRiyJBC4he1wB_3QHCErF-I/edit?tab=t.0)
 - Learn Kent C Dodds: [Click here](https://docs.google.com/document/d/1WA_QDlf1d-esra2EaioIZAhKN4R1sY18jO7TMDAROzA/edit?tab=t.0)
+- Learn Printing Code: [Click here](https://docs.google.com/document/d/1aN2x7V12ir78oeFka5Y3ymlwnChe1YsQHTvPBQJcjsE/edit?tab=t.0)
 
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
