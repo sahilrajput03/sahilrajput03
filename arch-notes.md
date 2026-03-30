@@ -1872,45 +1872,7 @@ sudo pacman -S fish
 
 ## Installed `fzf`
 
-**THIS HAS 42k stars on github. Yo!**
-
-Source: https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
-
-**HIGHLIGHTS: [AMAZING article](https://betterprogramming.pub/boost-your-command-line-productivity-with-fuzzy-finder-985aa162ba5d) MUST READ**
-
-**_fzf love_**
-
-```txt
-ctrl+c #Cd into searched folder
-ctrl+t #Search for file/folder
-ctrl+r #Search command history
-```
-
-?? I don't remember how I installed it lately..
-
-Usage is pretty awesome!!
-
-```bash
-# Files under the current directory
-# - You can select multiple items with TAB key
-vim **<TAB>
-
-# Files under parent directory
-vim ../**<TAB>
-
-# Files under parent directory that match `fzf`
-vim ../fzf**<TAB>
-
-# Files under your home directory
-vim ~/**<TAB>
-
-
-# Directories under current directory (single-selection)
-cd **<TAB>
-
-# Directories under ~/github that match `fzf`
-cd ~/github/fzf**<TAB>
-```
+**Content updated in the new Google Doc on 28 March, 2026.**
 
 ## Installed `nginx`
 

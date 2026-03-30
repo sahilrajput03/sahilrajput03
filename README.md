@@ -49,7 +49,7 @@
 	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
 	<a href="https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.ikhvinwu2trf">MacOS Vscode Shortcuts</a>, 
 	<a href="#unit-conversions">Unit Conversions</a>,
-	<a href="#transcribe-convert-download">Transcribe/Convert/Download</a>,
+	<a href="#transcribe-convert-download-tts-stt">Transcribe/Convert/Download</a>,
 	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a>,
 	<a href="https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0">Movies & Tv Series</a>,
 	<a href="/links">⭐️Links</a>
@@ -401,12 +401,16 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 		- [naturalreaders.com/online](https://www.naturalreaders.com/online/)
 	- Premium Services - [hume.ai](https://www.hume.ai/pricing), [elevenlabs.io](https://elevenlabs.io/pricing), [revoicer.com](https://revoicer.com)
 - **❤️ Speech to Text (STT):** *(#speechtotext, #speech-to-text)*
+	- ❤️ [speechify.com/voice-typing-dictation](https://speechify.com/voice-typing-dictation)
+		- ❤️ Awesome Playstore App - [Click here](https://play.google.com/store/apps/details?id=com.cliffweitzman.speechify2&hl=en_IN)
+   - They offer web interface for STT (above link) and they also claim to have desktop app as well for macos in above link as well.
 	- ❤️ mp3 to text: https://turboscribe.ai (3 transcription/day)
 	- Live: [dictation.io/speech](https://dictation.io/speech) (web)
  	- ❤️ WhisperAI - AI driven Speech-to-text  (chrome extension for google doc): [Click here](https://chromewebstore.google.com/detail/whisperai-ai-driven-speec/klhcnkknganbneegjihbcfjoifiomhfn?hl=en), Start/Stop Shortcut: `ctrl+space`
 	- ❤️ Voice In: [Click here](https://chromewebstore.google.com/detail/voice-in-speech-to-text-d/pjnefijmagpdjfhhkpljicbbpicelgko), [English Voice Commands](https://dictanote.co/voicein/voicecommands/en/), Start/Stop Shortcut: `option+L`
 	- speechelo.com: [Click here](https://speechelo.com)
 	- [turboscribe.ai](https://turboscribe.ai)
+- Image Sequence to Video: [Click here](https://clideo.com/image-sequence-to-video) (cool stuff)
 
 ##  ❤️ 🫁 Reset Immune System - Wim Hof Method & Breathwork ([Doc](https://docs.google.com/document/d/1A7KHk-nDwzqyXCpJlDGo_MH9LbqR_xSfr1xf3ou3on8/edit#heading=h.e38aiba2an6c))
 
@@ -920,6 +924,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn Game Theory: [Click here](https://docs.google.com/document/d/1rn62c3st-pP9il0fI1VG6Onel-m89fnaCvB6DQRXluo/edit?tab=t.0#heading=h.atj23bhfa1ru)
 - Learn Body Language: [Click here](https://docs.google.com/document/d/1wHUC9cnBCM9mn0UfmCjQlRiyJBC4he1wB_3QHCErF-I/edit?tab=t.0)
 - Learn Kent C Dodds: [Click here](https://docs.google.com/document/d/1WA_QDlf1d-esra2EaioIZAhKN4R1sY18jO7TMDAROzA/edit?tab=t.0)
+- Learn Printing Code: [Click here](https://docs.google.com/document/d/1aN2x7V12ir78oeFka5Y3ymlwnChe1YsQHTvPBQJcjsE/edit?tab=t.0)
 
 
 <p align="right" style="font-style: italic;font-size: 0.6rem;">Made using Jekyll Template - <a target="_blank" href="https://github.com/abhinavs/moonwalk">abhinavs/moonwalk</a></p>
