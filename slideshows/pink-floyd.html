@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Floyd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="slideshow1"></div>
+    <hr style="margin: 20px 0px;" />
+    <div id="slideshow2"></div>
+
+
+    <!-- Learn: `type="module"` is necessary to use `import` syntax inside the script. -->
+    <script type="module">
+        const $ = document.querySelector.bind(document); const $$ = document.querySelectorAll.bind(document);
+
+        const isProd = location.hostname === 'sahilrajput.com';
+
+        import { renderSlideShow } from "./utils.js";
+
+        // Learn: How to upload files to files.mypot.in? Refer this - https://files.mypot.in/HOW_TO_UPLOAD_FILES_HERE.txt
+
+        const slides1 = [
+            {
+                image: "https://files.mypot.in/slideshow-assets/pink-floyd-1/pink-floyd-wallpaper-1.jpg",
+                duration: 3000,
+                audio: 'https://files.mypot.in/slideshow-assets/pink-floyd-1/pink-floyd-slideshow-audio-1.mp3'
+            },
+            {
+                image: "https://files.mypot.in/slideshow-assets/pink-floyd-1/pink-floyd-wallpaper-2.jpeg",
+                duration: 3000,
+                audio: 'https://files.mypot.in/slideshow-assets/pink-floyd-1/pink-floyd-slideshow-audio-2.mp3'
+            },
+        ];
+        renderSlideShow("#slideshow1", slides1);
+    </script>
+
+    <style>
+    </style>
+</body>
+
+</html>
