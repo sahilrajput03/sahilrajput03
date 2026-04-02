@@ -1,6 +1,6 @@
 #### Blogs
 
-- <a href="blog.sahilrajput.com" target="_blank">blog.sahilrajput.com</a>
+- <a href="blog.sahilrajput.com" target="_blank">blog.sahilrajput.com</a> (Github: [sahilrajput03/sahilrajput.ml](https://github.com/sahilrajput03/sahilrajput.ml))
 - <a href="https://sahilrajput.com" target="_blank">sahilrajput.com</a>
 - <a href="https://sahilrajput03.github.io" target="_blank">sahilrajput03.github.io</a>
   - <a href="https://sahilrajput03.github.io/docs" target="_blank">Docs</a>
