@@ -1,0 +1,8 @@
+"Cancel" Button in create document UI.
+  dom.cancelCreateDoc, #btn-cancel-create-doc, 
+
+"CREATE DOCUMENT" button
+  dom.btnShowCreate -> showCreatePanel(), #btn-show-create, 
+
+"Save Document" button.
+  dom.btnCreateDoc -> createDocument(), #btn-create-doc

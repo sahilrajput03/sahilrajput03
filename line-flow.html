@@ -702,6 +702,7 @@
           <button class="btn-start" id="btn-start" disabled>Start reading</button>
           <button class="btn-secondary" id="btn-create-doc">Save document</button>
           <button class="text-btn" id="btn-fill-doc-sample" type="button">Sample document</button>
+          <button class="text-btn" id="btn-cancel-create-doc" type="button">Cancel</button>
         </div>
       </div>
       </div>
@@ -924,6 +925,7 @@
     doneStats: document.getElementById('done-stats'),
     dragIndicator: document.getElementById('drag-indicator'),
     createFeedback: document.getElementById('create-feedback'),
+    cancelCreateDoc: document.getElementById('btn-cancel-create-doc'),
   };
 
   const state = {
@@ -1469,6 +1471,7 @@
       setFeedback(dom.createFeedback, 'Document saved. It is now in your feed.', 'success');
       refreshFeed();
       hideCreatePanel();
+      dom.btnShowCreate.classList.remove('hidden');
     } catch (error) {
       setFeedback(dom.createFeedback, error.message, 'error');
     }
@@ -1652,6 +1655,18 @@
     if (now - lastTap < 300) e.preventDefault();
     lastTap = now;
   }, { passive: false });
+
+  dom.cancelCreateDoc.addEventListener('click', e => {
+    document.getElementById('doc-create-card').classList.add('hidden');
+    dom.btnShowCreate.classList.remove('hidden'); 
+
+    // clear form details:
+    dom.docTitle.value = '';
+    dom.docDescription.value = '';
+    dom.docTags.value = '';
+    dom.textInput.value = '';
+    updateWordCount();
+  })
 
   const init = () => {
     const session = getSession();
