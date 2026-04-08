@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>LineFlow — One Line at a Time</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0d0d0d;
+    --surface: #161616;
+    --line: #1f1f1f;
+    --text: #f0ebe3;
+    --muted: #5a5550;
+    --accent: #c8a96e;
+    --accent2: #7e9e8f;
+    --danger: #c06060;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-mono: 'DM Mono', monospace;
+  }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-display);
+    -webkit-tap-highlight-color: transparent;
+    touch-action: none;
+  }
+
+  /* ── SCREENS ── */
+  .screen { position: absolute; inset: 0; display: flex; flex-direction: column; }
+  .screen.hidden { display: none; }
+
+  /* ── INPUT SCREEN ── */
+  #input-screen {
+    padding: 0;
+    background: var(--bg);
+  }
+
+  .input-header {
+    padding: 3rem 2rem 1.5rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .logo {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+  }
+
+  .tagline {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--muted);
+    letter-spacing: 0.15em;
+  }
+
+  .input-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem 2rem;
+    gap: 1rem;
+    overflow: hidden;
+  }
+
+  textarea {
+    flex: 1;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    color: var(--text);
+    font-family: var(--font-display);
+    font-size: 1rem;
+    line-height: 1.7;
+    padding: 1.25rem;
+    resize: none;
+    outline: none;
+    transition: border-color 0.2s;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  textarea:focus { border-color: var(--accent); }
+  textarea::placeholder { color: var(--muted); font-style: italic; }
+
+  .input-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .word-count {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+
+  .btn-start {
+    background: var(--accent);
+    color: #1a1208;
+    border: none;
+    border-radius: 2px;
+    padding: 0.75rem 1.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 400;
+  }
+
+  .btn-start:active { transform: scale(0.97); background: #b8995e; }
+  .btn-start:disabled { opacity: 0.3; cursor: not-allowed; }
+
+  /* ── READER SCREEN ── */
+  #reader-screen {
+    background: var(--bg);
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .reader-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.75rem 0;
+  }
+
+  .btn-back {
+    background: none;
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    color: var(--muted);
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 0.45rem 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-back:active { border-color: var(--accent); color: var(--accent); }
+
+  .progress-info {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+  }
+
+
+  /* ── MAIN READING ZONE ── */
+  .reading-zone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Prev line ghost - hidden */
+  .line-ghost { display: none; }
+
+  /* Current line */
+  .line-display {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .line-number-badge {
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    letter-spacing: 0.25em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    opacity: 0.7;
+  }
+
+  @keyframes exitUp        { from{transform:translateY(0);opacity:1} to{transform:translateY(-60px);opacity:0} }
+  @keyframes exitDown      { from{transform:translateY(0);opacity:1} to{transform:translateY(60px);opacity:0} }
+  @keyframes enterFromBelow{ from{transform:translateY(60px);opacity:0} to{transform:translateY(0);opacity:1} }
+  @keyframes enterFromAbove{ from{transform:translateY(-60px);opacity:0} to{transform:translateY(0);opacity:1} }
+
+  .line-text {
+    font-family: var(--font-display);
+    font-size: clamp(1.3rem, 5vw, 1.85rem);
+    line-height: 1.5;
+    color: var(--text);
+    letter-spacing: 0.01em;
+  }
+
+  .line-text.exit-up        { animation: exitUp 0.09s ease forwards; }
+  .line-text.exit-down      { animation: exitDown 0.09s ease forwards; }
+  .line-text.enter-from-below { animation: enterFromBelow 0.09s ease forwards; }
+  .line-text.enter-from-above { animation: enterFromAbove 0.09s ease forwards; }
+
+  /* Decorative accent line */
+  .accent-line {
+    width: 2.5rem;
+    height: 1px;
+    background: var(--accent);
+    margin: 1.5rem auto 0;
+    opacity: 0.5;
+  }
+
+  /* ── SWIPE HINT ── */
+  .swipe-hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0 2rem 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hint-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    opacity: 0.35;
+  }
+
+  .hint-arrow {
+    font-size: 1rem;
+    color: var(--muted);
+  }
+
+  .hint-label {
+    font-family: var(--font-mono);
+    font-size: 0.5rem;
+    letter-spacing: 0.2em;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
+  .hint-divider {
+    width: 1px;
+    height: 1.5rem;
+    background: var(--line);
+  }
+
+  /* ── BOTTOM NAV ── */
+  .reader-bottom {
+    padding: 1rem 1.75rem 2.5rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .nav-btn {
+    flex: 1;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    color: var(--text);
+    font-family: var(--font-mono);
+    font-size: 1.1rem;
+    padding: 0.85rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-btn:active { background: var(--line); transform: scale(0.97); }
+  .nav-btn:disabled { opacity: 0.2; cursor: not-allowed; transform: none; }
+  .nav-btn.primary { border-color: var(--accent); color: var(--accent); }
+
+  /* ── DONE SCREEN ── */
+  #done-screen {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    gap: 1.5rem;
+  }
+
+  .done-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .done-title {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .done-sub {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--muted);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .done-stats {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 1.25rem 2rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    line-height: 2;
+    margin: 0.5rem 0;
+  }
+
+  .done-stats span { color: var(--text); }
+
+  .btn-restart {
+    background: none;
+    border: 1px solid var(--accent);
+    border-radius: 2px;
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding: 0.85rem 2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-restart:active { background: var(--accent); color: #1a1208; }
+
+  /* ── DRAG VISUAL ── */
+  .drag-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    font-size: 2.5rem;
+    opacity: 0;
+    transition: opacity 0.1s;
+    z-index: 100;
+  }
+
+  .drag-indicator.show { opacity: 0.15; }
+</style>
+</head>
+<body>
+
+<!-- INPUT SCREEN -->
+<div id="input-screen" class="screen">
+  <div class="input-header">
+    <div class="logo">LineFlow</div>
+    <div class="tagline">One line. Full presence.</div>
+  </div>
+  <div class="input-body">
+    <textarea id="text-input" placeholder="Paste or type your text here…&#10;&#10;Each sentence or line will be shown one at a time. Swipe up to advance, swipe down to go back." spellcheck="false"></textarea>
+    <div class="input-footer">
+      <div class="word-count" id="word-count">0 lines</div>
+      <button class="btn-start" id="btn-start" disabled>Begin →</button>
+    </div>
+  </div>
+</div>
+
+<!-- READER SCREEN -->
+<div id="reader-screen" class="screen hidden">
+  <div class="reader-top">
+    <button class="btn-back" id="btn-back">← Edit</button>
+  </div>
+
+  <div class="reading-zone" id="reading-zone">
+    <div class="line-ghost" id="line-ghost"></div>
+    <div class="line-display">
+      <div class="line-number-badge" id="line-badge">LINE 1</div>
+      <div class="line-text" id="line-text"></div>
+      <div class="accent-line"></div>
+    </div>
+  </div>
+  <div class="swipe-hint" id="swipe-hint">
+    <div class="hint-item">
+      <div class="hint-arrow">↑</div>
+      <div class="hint-label">Next</div>
+    </div>
+    <div class="hint-divider"></div>
+    <div class="hint-item">
+      <div class="hint-arrow">↓</div>
+      <div class="hint-label">Back</div>
+    </div>
+  </div>
+  <div class="reader-bottom">
+    <button class="nav-btn" id="btn-prev">←</button>
+    <button class="nav-btn primary" id="btn-next">→</button>
+  </div>
+</div>
+
+<!-- DONE SCREEN -->
+<div id="done-screen" class="screen hidden">
+  <div class="done-icon">✦</div>
+  <div class="done-title">Finished</div>
+  <div class="done-sub">Reading complete</div>
+  <div class="done-stats" id="done-stats"></div>
+  <button class="btn-restart" id="btn-restart">Read Again</button>
+  <button class="btn-restart" id="btn-new" style="border-color:var(--muted);color:var(--muted)">New Text</button>
+</div>
+
+<div class="drag-indicator" id="drag-indicator">⬆</div>
+
+<script type="module">
+  import sbd from 'https://cdn.jsdelivr.net/npm/sbd@1.0.19/+esm';
+  window.sbd = sbd; // Expose globally for easier access in other script block
+</script>
+<script>
+  // ── STATE ──
+  let lines = [];
+  let current = 0;
+  let startTime = null;
+  let touchStartY = 0;
+  let touchStartX = 0;
+  let isDragging = false;
+
+  // ── ELEMENTS ──
+  const inputScreen  = document.getElementById('input-screen');
+  const readerScreen = document.getElementById('reader-screen');
+  const doneScreen   = document.getElementById('done-screen');
+  const textarea     = document.getElementById('text-input');
+  const wordCount    = document.getElementById('word-count');
+  const btnStart     = document.getElementById('btn-start');
+  const btnBack      = document.getElementById('btn-back');
+  const btnPrev      = document.getElementById('btn-prev');
+  const btnNext      = document.getElementById('btn-next');
+  const btnRestart   = document.getElementById('btn-restart');
+  const btnNew       = document.getElementById('btn-new');
+  const lineText     = document.getElementById('line-text');
+  const lineBadge    = document.getElementById('line-badge');
+  const lineGhost    = document.getElementById('line-ghost');
+  const progressInfo = null;
+  const doneStats    = document.getElementById('done-stats');
+  const dragIndicator= document.getElementById('drag-indicator');
+  const swipeHint    = document.getElementById('swipe-hint');
+
+  // ── PARSE TEXT ──
+  function parseText(raw) {
+    if (!raw.trim()) return [];
+    return sbd.sentences(raw, {
+      newline_boundaries: true,
+      sanitize: true
+    }).map(s => s.trim()).filter(Boolean);
+  }
+
+  // ── TEXTAREA EVENTS ──
+  textarea.addEventListener('input', () => {
+    const parsed = parseText(textarea.value);
+    wordCount.textContent = parsed.length === 1 ? '1 line' : `${parsed.length} lines`;
+    btnStart.disabled = parsed.length === 0;
+  });
+
+  // ── START ──
+  btnStart.addEventListener('click', () => {
+    lines = parseText(textarea.value);
+    if (!lines.length) return;
+    current = 0;
+    startTime = Date.now();
+    show(readerScreen);
+    // Hide hint after 4s
+    setTimeout(() => { swipeHint.style.opacity = '0'; swipeHint.style.transition = 'opacity 0.5s'; }, 4000);
+    renderLine(null);
+  });
+
+  // ── SCREEN MANAGEMENT ──
+  function show(screen) {
+    [inputScreen, readerScreen, doneScreen].forEach(s => s.classList.add('hidden'));
+    screen.classList.remove('hidden');
+  }
+
+  // ── RENDER ──
+  function renderLine(direction) {
+    const line = lines[current];
+    lineBadge.textContent = `LINE ${current + 1}`;
+    btnPrev.disabled = current === 0;
+
+    if (direction === null) {
+      lineText.textContent = line;
+      return;
+    }
+
+    // Animate out, then swap content and animate in
+    const exitClass  = direction === 'next' ? 'exit-up'          : 'exit-down';
+    const enterClass = direction === 'next' ? 'enter-from-below' : 'enter-from-above';
+
+    lineText.classList.remove('exit-up','exit-down','enter-from-below','enter-from-above');
+    lineText.classList.add(exitClass);
+
+    setTimeout(() => {
+      lineText.classList.remove('exit-up','exit-down','enter-from-below','enter-from-above');
+      lineText.textContent = line;
+      lineText.classList.add(enterClass);
+    }, 90);
+  }
+
+  function goNext() {
+    if (current < lines.length - 1) {
+      current++;
+      renderLine('next');
+    } else {
+      showDone();
+    }
+  }
+
+  function goPrev() {
+    if (current > 0) {
+      current--;
+      renderLine('prev');
+    }
+  }
+
+  function showDone() {
+    const elapsed = Math.round((Date.now() - startTime) / 1000);
+    const mins = Math.floor(elapsed / 60);
+    const secs = elapsed % 60;
+    const timeStr = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
+    doneStats.innerHTML = `Lines read&nbsp;&nbsp;<span>${lines.length}</span><br>Time spent&nbsp;&nbsp;<span>${timeStr}</span>`;
+    show(doneScreen);
+  }
+
+  // ── BUTTON NAV ──
+  btnNext.addEventListener('click', goNext);
+  btnPrev.addEventListener('click', goPrev);
+
+  btnBack.addEventListener('click', () => {
+    show(inputScreen);
+    swipeHint.style.opacity = '1';
+  });
+
+  btnRestart.addEventListener('click', () => {
+    current = 0;
+    startTime = Date.now();
+    show(readerScreen);
+    renderLine(null);
+  });
+
+  btnNew.addEventListener('click', () => {
+    textarea.value = '';
+    wordCount.textContent = '0 lines';
+    btnStart.disabled = true;
+    show(inputScreen);
+    swipeHint.style.opacity = '1';
+  });
+
+  // ── TOUCH / SWIPE ──
+  const zone = document.getElementById('reading-zone');
+
+  zone.addEventListener('touchstart', e => {
+    touchStartY = e.touches[0].clientY;
+    touchStartX = e.touches[0].clientX;
+    isDragging = false;
+  }, { passive: true });
+
+  zone.addEventListener('touchmove', e => {
+    const dy = e.touches[0].clientY - touchStartY;
+    const dx = e.touches[0].clientX - touchStartX;
+    if (Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 10) {
+      isDragging = true;
+      dragIndicator.textContent = dy < 0 ? '⬆' : '⬇';
+      dragIndicator.classList.add('show');
+    }
+  }, { passive: true });
+
+  zone.addEventListener('touchend', e => {
+    dragIndicator.classList.remove('show');
+    if (!isDragging) return;
+    const dy = e.changedTouches[0].clientY - touchStartY;
+    if (Math.abs(dy) > 40) {
+      if (dy < 0) goNext(); // swipe up → next
+      else goPrev();         // swipe down → prev
+    }
+    isDragging = false;
+  }, { passive: true });
+
+  // ── KEYBOARD ──
+  document.addEventListener('keydown', e => {
+    if (readerScreen.classList.contains('hidden')) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); goNext(); }
+    if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') { e.preventDefault(); goPrev(); }
+  });
+
+  // ── READER DOUBLE-TAP prevention (zoom) ──
+  let lastTap = 0;
+  document.addEventListener('touchend', e => {
+    const now = Date.now();
+    if (now - lastTap < 300) e.preventDefault();
+    lastTap = now;
+  }, { passive: false });
+</script>
+</body>
+</html>

@@ -983,7 +983,7 @@
       state.token = session.token;
     state.user = session.user;
   }
-    dom.authStatus.textContent = state.user ? `${state.user.name} (@${state.user.username})` : 'Not signed in';
+  dom.authStatus.textContent = state.user ? `Logged in as ${state.user.username}` : 'Not signed in';
   dom.btnLogout.style.display = state.user ? 'inline-flex' : 'none';
   dom.btnCreateDoc.disabled = !state.user;
   dom.btnShowCreate.disabled = !state.user;
@@ -1542,11 +1542,7 @@
       refreshFeed();
     }
     updateWordCount();
-    if (!session || !session.token) {
-      showSignupScreen();
-    } else {
-      hideAuthScreens();
-    }
+    showSignupScreen();
     dom.btnShowCreate.disabled = true;
     showScreen('placeholder');
   };

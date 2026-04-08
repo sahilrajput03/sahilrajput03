@@ -90,12 +90,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    transition: opacity 0.2s ease;
-  }
-
-  .panel-card.hidden,
-  .hidden {
-    display: none;
   }
 
   .card-title-row {
@@ -639,10 +633,7 @@
       </div>
     </section>
 
-    <div class="control-row">
-      <button class="btn-start" id="btn-show-create" disabled>Create Document</button>
-    </div>
-    <section class="panel-card hidden" id="doc-create-card">
+    <section class="panel-card" id="doc-create-card">
       <div class="card-title-row">
         <h2>Create Document</h2>
       </div>
@@ -854,7 +845,6 @@
     docTags: document.getElementById('doc-tags'),
     docVisibility: document.getElementById('doc-visibility'),
     btnCreateDoc: document.getElementById('btn-create-doc'),
-    btnShowCreate: document.getElementById('btn-show-create'),
     textInput: document.getElementById('text-input'),
     wordCount: document.getElementById('word-count'),
     btnStart: document.getElementById('btn-start'),
@@ -943,21 +933,6 @@
     dom.authVerifyScreen.classList.remove('hidden');
   };
 
-  const hideAuthScreens = () => {
-    dom.authSignupScreen.classList.add('hidden');
-    dom.authVerifyScreen.classList.add('hidden');
-  };
-
-  const showCreatePanel = () => {
-    document.getElementById('doc-create-card').classList.remove('hidden');
-    dom.btnShowCreate.disabled = true;
-  };
-
-  const hideCreatePanel = () => {
-    document.getElementById('doc-create-card').classList.add('hidden');
-    dom.btnShowCreate.disabled = !state.user;
-  };
-
   const setFeedback = (element, message, type = 'info') => {
     element.textContent = message;
     element.className = `feedback ${type}`;
@@ -981,12 +956,11 @@
     } else {
       localStorage.setItem(SESSION_KEY, JSON.stringify(session));
       state.token = session.token;
-    state.user = session.user;
-  }
-    dom.authStatus.textContent = state.user ? `${state.user.name} (@${state.user.username})` : 'Not signed in';
-  dom.btnLogout.style.display = state.user ? 'inline-flex' : 'none';
-  dom.btnCreateDoc.disabled = !state.user;
-  dom.btnShowCreate.disabled = !state.user;
+      state.user = session.user;
+    }
+    dom.authStatus.textContent = state.user ? `Logged in as ${state.user.username}` : 'Not signed in';
+    dom.btnLogout.style.display = state.user ? 'inline-flex' : 'none';
+    dom.btnCreateDoc.disabled = !state.user;
   };
 
   const getHeaders = extra => {
@@ -1379,7 +1353,6 @@
       await apiRequest('/documents/create', { method: 'POST', body: payload });
       setFeedback(dom.createFeedback, 'Document saved. It is now in your feed.', 'success');
       refreshFeed();
-      hideCreatePanel();
     } catch (error) {
       setFeedback(dom.createFeedback, error.message, 'error');
     }
@@ -1429,7 +1402,6 @@
       setFeedback(dom.authFeedback, 'Verified. Token saved locally.', 'success');
       dom.otpValue.value = '';
       refreshFeed();
-      hideAuthScreens();
     } catch (error) {
       setFeedback(dom.authFeedback, error.message, 'error');
     }
@@ -1447,7 +1419,6 @@
     resetUpdateForm();
     showSignupScreen();
     setFeedback(dom.authFeedback, 'Logged out.', 'info');
-    hideCreatePanel();
   };
 
   dom.textInput.addEventListener('input', () => {
@@ -1459,7 +1430,6 @@
   });
 
   dom.btnCreateDoc.addEventListener('click', createDocument);
-  dom.btnShowCreate.addEventListener('click', showCreatePanel);
   dom.btnSearch.addEventListener('click', searchContent);
   dom.btnRefreshFeed.addEventListener('click', refreshFeed);
   dom.btnSendOtp.addEventListener('click', handleSendOtp);
@@ -1542,12 +1512,7 @@
       refreshFeed();
     }
     updateWordCount();
-    if (!session || !session.token) {
-      showSignupScreen();
-    } else {
-      hideAuthScreens();
-    }
-    dom.btnShowCreate.disabled = true;
+    showSignupScreen();
     showScreen('placeholder');
   };
 
