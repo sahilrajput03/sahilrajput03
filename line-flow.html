@@ -92,6 +92,17 @@
     gap: 0.75rem;
     transition: opacity 0.2s ease;
   }
+ 
+  .update-cta {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .update-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
 
   .panel-card.hidden,
   .hidden {
@@ -663,7 +674,8 @@
     </section>
 
     <div class="control-row">
-      <button class="btn-start" id="btn-show-create" disabled>Create Document</button>
+      <button class="btn-start" id="btn-show-create" disabled>CREATE DOCUMENT</button>
+      <button class="btn-start" id="btn-show-update" disabled>UPDATE DOCUMENT</button>
     </div>
     <section class="panel-card hidden" id="doc-create-card">
       <div class="card-title-row">
@@ -699,61 +711,64 @@
         <div class="word-count-row">
           <span id="word-count">0 lines</span>
         <div class="reader-controls">
-          <button class="btn-start" id="btn-start" disabled>Start reading</button>
-          <button class="btn-secondary" id="btn-create-doc">Save document</button>
-          <button class="text-btn" id="btn-fill-doc-sample" type="button">Sample document</button>
-          <button class="text-btn" id="btn-cancel-create-doc" type="button">Cancel</button>
+          <button class="btn-start" id="btn-create-doc">Save document</button>
+          <button class="btn-secondary" id="btn-start" disabled>Start reading</button>
+          <button class="btn-secondary" id="btn-fill-doc-sample" type="button">Fill Sample document</button>
+          <button class="btn-secondary" id="btn-cancel-create-doc" type="button">Cancel</button>
         </div>
       </div>
       </div>
     </section>
 
-    <section class="panel-card" id="doc-update-card">
+    <section class="panel-card hidden" id="doc-update-card">
       <div class="card-title-row">
         <h2>Update Document</h2>
         <span class="muted" id="selected-doc-detected">No document selected</span>
       </div>
-      <div class="feedback info" id="update-feedback"></div>
-      <div class="field">
-        <span>Document ID</span>
-        <input id="selected-doc-id" type="text" readonly placeholder="Select a document from feed/search">
-      </div>
-      <div class="field-grid">
-        <label class="field">
-          <span>Title</span>
-          <input id="update-title" type="text" placeholder="Title">
+      <div class="update-form" id="update-form">
+        <div class="feedback info" id="update-feedback"></div>
+        <div class="field">
+          <span>Document ID</span>
+          <input id="selected-doc-id" type="text" readonly placeholder="Select a document from feed/search">
+        </div>
+        <div class="field-grid">
+          <label class="field">
+            <span>Title</span>
+            <input id="update-title" type="text" placeholder="Title">
+          </label>
+          <label class="field">
+            <span>Description</span>
+            <input id="update-description" type="text" placeholder="Description">
+          </label>
+        </div>
+        <div class="field">
+          <span>Text</span>
+          <textarea id="update-text"></textarea>
+        </div>
+        <div class="field-grid">
+          <label class="field">
+            <span>Tags</span>
+            <input id="update-tags" type="text" placeholder="tag1, tag2">
+          </label>
+          <label class="field">
+            <span>Visibility</span>
+            <select id="update-visibility">
+              <option value="private">Private</option>
+              <option value="public">Public</option>
+              <option value="unlisted">Unlisted</option>
+              <option value="followers">Followers</option>
+            </select>
+          </label>
+        </div>
+        <label class="field" style="flex-direction:row; align-items:center; gap:0.5rem;">
+          <input id="update-is-finished" type="checkbox">
+          <span>Mark as finished</span>
         </label>
-        <label class="field">
-          <span>Description</span>
-          <input id="update-description" type="text" placeholder="Description">
-        </label>
-      </div>
-      <div class="field">
-        <span>Text</span>
-        <textarea id="update-text"></textarea>
-      </div>
-      <div class="field-grid">
-        <label class="field">
-          <span>Tags</span>
-          <input id="update-tags" type="text" placeholder="tag1, tag2">
-        </label>
-        <label class="field">
-          <span>Visibility</span>
-          <select id="update-visibility">
-            <option value="private">Private</option>
-            <option value="public">Public</option>
-            <option value="unlisted">Unlisted</option>
-            <option value="followers">Followers</option>
-          </select>
-        </label>
-      </div>
-      <label class="field" style="flex-direction:row; align-items:center; gap:0.5rem;">
-        <input id="update-is-finished" type="checkbox">
-        <span>Mark as finished</span>
-      </label>
-      <div class="reader-controls">
-        <button class="btn-secondary" id="btn-load-selected" disabled>Load into reader</button>
-        <button class="btn-start" id="btn-update-doc" disabled>Save updates</button>
+        <div class="reader-controls">
+          <button class="btn-secondary" id="btn-load-selected" disabled>Load into reader</button>
+          <button class="btn-start" id="btn-update-doc" disabled>Save updates</button>
+          <button class="btn-secondary" id="btn-cancel-updte-doc">Cancel</button>
+        </div>
       </div>
     </section>
 
@@ -900,6 +915,8 @@
     updateIsFinished: document.getElementById('update-is-finished'),
     btnUpdateDoc: document.getElementById('btn-update-doc'),
     btnLoadSelected: document.getElementById('btn-load-selected'),
+    btnShowUpdate: document.getElementById('btn-show-update'),
+    updateForm: document.getElementById('update-form'),
     updateFeedback: document.getElementById('update-feedback'),
     searchInput: document.getElementById('search-input'),
     searchType: document.getElementById('search-type'),
@@ -1013,9 +1030,29 @@
     dom.btnShowCreate.disabled = !state.user;
   };
 
+  const showUpdatePanel = () => {
+    if (dom.btnShowUpdate.disabled) return;
+    dom.btnShowUpdate.classList.add('hidden');
+    // dom.updateForm.classList.remove('hidden');
+    document.getElementById('doc-update-card').classList.remove('hidden');
+    document.getElementById('doc-create-card').classList.add('hidden');
+  };
+
+  const hideUpdatePanel = () => {
+    // dom.updateForm.classList.add('hidden');
+    document.getElementById('doc-update-card').classList.add('hidden');
+    dom.btnShowUpdate.classList.remove('hidden');
+    document.getElementById('doc-create-card').classList.add('hidden');
+  };
+
   const setFeedback = (element, message, type = 'info') => {
     element.textContent = message;
     element.className = `feedback ${type}`;
+
+    setTimeout(() => {
+      element.textContent = '';
+      element.className = `feedback`;
+    }, 5_000);
   };
 
   const SAMPLE_USER_DETAILS = {
@@ -1229,6 +1266,7 @@
     dom.updateIsFinished.checked = false;
     dom.btnUpdateDoc.disabled = true;
     dom.btnLoadSelected.disabled = true;
+    hideUpdatePanel();
   };
 
   const selectDocument = doc => {
@@ -1243,6 +1281,7 @@
     dom.updateVisibility.value = doc.visibility || 'private';
     dom.updateIsFinished.checked = Boolean(doc.isFinished);
     dom.btnUpdateDoc.disabled = !(state.user && safeId(doc.userId) === state.user.userId);
+    dom.btnShowUpdate.disabled = dom.btnUpdateDoc.disabled;
     dom.btnLoadSelected.disabled = !state.user;
   };
 
@@ -1421,6 +1460,8 @@
       await refreshFeed();
       const updated = state.feedDocs.find(doc => safeId(doc._id) === safeId(state.selectedDoc._id));
       if (updated) selectDocument(updated);
+      hideUpdatePanel();
+      document.getElementById('doc-update-card').classList.add('hidden');
     } catch (error) {
       setFeedback(dom.updateFeedback, error.message, 'error');
     }
@@ -1539,6 +1580,9 @@
       };
       saveSession({ token: data.data.token, user });
       setFeedback(dom.authFeedback, 'Verified. Token saved locally.', 'success');
+      setTimeout(() => {
+        setFeedback(dom.authFeedback, '', 'info');
+      }, 5000);
       dom.otpValue.value = '';
       refreshFeed();
       hideAuthScreens();
@@ -1591,6 +1635,7 @@
     if (state.selectedDoc) startReadingFromDoc(state.selectedDoc);
   });
   dom.btnUpdateDoc.addEventListener('click', updateDocument);
+  dom.btnShowUpdate.addEventListener('click', showUpdatePanel);
 
   dom.btnPrev.addEventListener('click', goPrev);
   dom.btnNext.addEventListener('click', goNext);
@@ -1668,11 +1713,21 @@
     updateWordCount();
   })
 
+  document.getElementById('btn-cancel-updte-doc').addEventListener('click', () => {
+    document.getElementById('doc-update-card').classList.add('hidden');
+    dom.btnShowUpdate.classList.remove('hidden');
+  })
+  document.getElementById('doc-update-card').addEventListener('click', e => {
+
+  });
+
   const init = () => {
     const session = getSession();
     if (session && session.token) {
       saveSession(session);
       refreshFeed();
+
+      // dom.btnShowUpdate.disabled = false;
     }
     updateWordCount();
     if (!session || !session.token) {

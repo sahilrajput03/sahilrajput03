@@ -1,8 +1,55 @@
+UI - CREATE DOCUMENT
+
+#doc-create-card
+
+"FILL SAMPLE DOCUMENT" Button
+dom.btnFillDocSample
+#btn-fill-doc-sample
+fillSampleDocument()
+
 "Cancel" Button in create document UI.
-  dom.cancelCreateDoc, #btn-cancel-create-doc, 
+dom.cancelCreateDoc
+#btn-cancel-create-doc, 
+.addEventListener()
 
 "CREATE DOCUMENT" button
-  dom.btnShowCreate -> showCreatePanel(), #btn-show-create, 
+dom.btnShowCreate
+#btn-show-create
+showCreatePanel()
 
-"Save Document" button.
-  dom.btnCreateDoc -> createDocument(), #btn-create-doc
+"Save Document" button
+dom.btnCreateDoc
+#btn-create-doc
+createDocument()
+
+-----------------------------
+UI - UPDATE DOCUMENT
+
+#doc-create-card
+
+"UPDATE DOCUMENT" button
+dom.btnShowUpdate
+#btn-show-update
+showUpdatePanel()
+
+"Form - Update Document"
+dom.updateForm 
+NO_EVENT_LISTENER
+
+"SAVE UPDATES" Button
+dom.btnUpdateDoc
+#btn-update-doc
+
+"Cancel" button in Update Document form.
+#btn-cancel-updte-doc
+
+-----
+--- ❤️ ❤️ ❤️ CARDS ❤️ ❤️ ❤️ ---
+
+
+----
+
+Hide/Show Element
+==================
+Hide: el.classList.add('hidden')
+Show: el.classList.remove('hidden')
