@@ -656,8 +656,8 @@
       </div>
       <div class="auth-screen hidden" id="auth-login-screen">
         <div class="field">
-          <span>Email</span>
-          <input id="login-email" type="email" placeholder="you@email.com">
+          <span>Username or Email</span>
+          <input id="login-email" type="email" placeholder="username or you@email.com">
         </div>
         <button class="btn-start" id="btn-login-send-otp" type="button">Send login OTP</button>
         <div class="muted" style="font-size:0.6rem; letter-spacing:0.25em;">OTP will be sent to your registered email.</div>
@@ -791,7 +791,6 @@
           </select>
         </label>
       </div>
-      <button class="btn-start" id="btn-search">Search</button>
       <div class="search-results" id="search-results">
         <div class="search-section">
           <p class="muted">Document results</p>
@@ -1467,26 +1466,39 @@
     }
   };
 
-  const searchContent = async () => {
-    if (!state.token) {
-      setFeedback(dom.searchFeedback, 'Log in to search.', 'error');
-      return;
-    }
-    const query = dom.searchInput.value.trim();
-    if (!query) {
-      setFeedback(dom.searchFeedback, 'Enter keywords to search.', 'error');
-      return;
-    }
-    setFeedback(dom.searchFeedback, 'Searching…', 'info');
-    try {
-      const type = dom.searchType.value;
-      const data = await apiRequest(`/search?q=${encodeURIComponent(query)}&type=${type}&limit=12`);
-      renderSearchResults(data.data.documents, data.data.users);
-      setFeedback(dom.searchFeedback, 'Search complete.', 'success');
-    } catch (error) {
-      setFeedback(dom.searchFeedback, error.message, 'error');
-    }
+  let debounceTimer;
+
+  const handleSearchInput = () => {
+    clearTimeout(debounceTimer);
+
+    debounceTimer = setTimeout(async () => {
+      if (!state.token) {
+        setFeedback(dom.searchFeedback, 'Log in to search.', 'error');
+        return;
+      }
+
+      const query = dom.searchInput.value.trim();
+      if (!query) {
+        setFeedback(dom.searchFeedback, 'Enter keywords to search.', 'error');
+        return;
+      }
+
+      setFeedback(dom.searchFeedback, 'Searching…', 'info');
+
+      try {
+        const type = dom.searchType.value;
+        const data = await apiRequest(
+          `/search?q=${encodeURIComponent(query)}&type=${type}&limit=12`
+        );
+
+        renderSearchResults(data.data.documents, data.data.users);
+        setFeedback(dom.searchFeedback, 'Search complete.', 'success');
+      } catch (error) {
+        setFeedback(dom.searchFeedback, error.message, 'error');
+      }
+    }, 200);
   };
+  dom.searchInput.addEventListener('input', handleSearchInput);
 
   const createDocument = async () => {
     if (!state.token) {
@@ -1620,7 +1632,6 @@
 
   dom.btnCreateDoc.addEventListener('click', createDocument);
   dom.btnShowCreate.addEventListener('click', showCreatePanel);
-  dom.btnSearch.addEventListener('click', searchContent);
   dom.btnRefreshFeed.addEventListener('click', refreshFeed);
   dom.btnSendOtp.addEventListener('click', handleSendOtp);
   dom.btnFillSample.addEventListener('click', fillSampleDetails);
