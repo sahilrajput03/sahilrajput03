@@ -1,3 +1,12 @@
+#### Blogs
+
+- <a href="blog.sahilrajput.com" target="_blank">blog.sahilrajput.com</a> (Github: [sahilrajput03/sahilrajput.ml](https://github.com/sahilrajput03/sahilrajput.ml))
+- <a href="https://sahilrajput.com" target="_blank">sahilrajput.com</a>
+- <a href="https://sahilrajput03.github.io" target="_blank">sahilrajput03.github.io</a>
+  - <a href="https://sahilrajput03.github.io/docs" target="_blank">Docs</a>
+  - <a href="https://sahilrajput03.github.io/uses" target="_blank">Uses</a> - Curated list of sofwares for Windows
+- <a href="https://jaadojinntk2.blogspot.com" target="_blank">jaadojinntk2.blogspot.com</a>
+
 #### Techonologies
 <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
@@ -54,15 +63,6 @@
 - <a href="https://www.npmjs.com/package/flash-runner" target="_blank">flash-runner</a> - Single worker test runner
 - <a href="https://www.npmjs.com/package/context-maker" target="_blank">context-maker</a> - Provides simple use of context api for react
 - <a href="https://www.npmjs.com/package/sahilrajput03-logger" target="_blank">sahilrajput03-logger</a> - A request logger middleware and general logging tool for server in nodejs/express for coloured output (Why? A. morgan prints single coloured logs)
-
-
-#### Blogs
-
-- <a href="https://sahilrajput.com" target="_blank">sahilrajput.com</a>
-- <a href="https://sahilrajput03.github.io" target="_blank">sahilrajput03.github.io</a>
-  - <a href="https://sahilrajput03.github.io/docs" target="_blank">Docs</a>
-  - <a href="https://sahilrajput03.github.io/uses" target="_blank">Uses</a> - Curated list of sofwares for Windows
-- <a href="https://jaadojinntk2.blogspot.com" target="_blank">jaadojinntk2.blogspot.com</a>
 
 #### Codesandboxes and Codepens
 
