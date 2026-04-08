@@ -1000,8 +1000,9 @@
   };
 
   const showCreatePanel = () => {
+    dom.btnShowCreate.classList.add('hidden');
     document.getElementById('doc-create-card').classList.remove('hidden');
-    dom.btnShowCreate.disabled = true;
+    dom.btnShowCreate.disabled = !state.user;
   };
 
   const hideCreatePanel = () => {
@@ -1663,7 +1664,7 @@
     } else {
       hideAuthScreens();
     }
-    dom.btnShowCreate.disabled = true;
+    dom.btnShowCreate.disabled = false;
     showScreen('placeholder');
   };
 
