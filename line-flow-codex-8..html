@@ -885,7 +885,6 @@
     docVisibility: document.getElementById('doc-visibility'),
     btnCreateDoc: document.getElementById('btn-create-doc'),
     btnShowCreate: document.getElementById('btn-show-create'),
-    btnFillDocSample: document.getElementById('btn-fill-doc-sample'),
     textInput: document.getElementById('text-input'),
     wordCount: document.getElementById('word-count'),
     btnStart: document.getElementById('btn-start'),
@@ -1020,27 +1019,11 @@
     email: 'sahilrajput03@gmail.com',
   };
 
-  const SAMPLE_DOCUMENT_DETAILS = {
-    title: 'Title 1',
-    description: 'Sample Description',
-    tags: 'tag1',
-    text: 'Line1. Line2.',
-  };
-
   const fillSampleDetails = () => {
     dom.signupName.value = SAMPLE_USER_DETAILS.name;
     dom.signupUsername.value = SAMPLE_USER_DETAILS.username;
     dom.signupEmail.value = SAMPLE_USER_DETAILS.email;
     setFeedback(dom.authFeedback, 'Sample details applied.', 'info');
-  };
-
-  const fillSampleDocument = () => {
-    dom.docTitle.value = SAMPLE_DOCUMENT_DETAILS.title;
-    dom.docDescription.value = SAMPLE_DOCUMENT_DETAILS.description;
-    dom.docTags.value = SAMPLE_DOCUMENT_DETAILS.tags;
-    dom.textInput.value = SAMPLE_DOCUMENT_DETAILS.text;
-    updateWordCount();
-    setFeedback(dom.createFeedback, 'Sample document populated.', 'info');
   };
 
   const getSession = () => {
@@ -1579,7 +1562,6 @@
   dom.btnLoginSendOtp.addEventListener('click', handleLoginSendOtp);
   dom.btnLogout.addEventListener('click', handleLogout);
   dom.btnChangeAccount.addEventListener('click', handleChangeAccount);
-  dom.btnFillDocSample.addEventListener('click', fillSampleDocument);
   dom.authToggleRegister.addEventListener('click', showSignupScreen);
   dom.authToggleLogin.addEventListener('click', showLoginScreen);
   dom.btnLoadSelected.addEventListener('click', () => {
