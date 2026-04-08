@@ -1035,6 +1035,12 @@
     }
   };
 
+  const setAuthToggleVisibility = visible => {
+    const display = visible ? '' : 'none';
+    dom.authToggleRegister.style.display = display;
+    dom.authToggleLogin.style.display = display;
+  };
+
   const saveSession = session => {
     if (!session) {
       localStorage.removeItem(SESSION_KEY);
@@ -1043,12 +1049,13 @@
     } else {
       localStorage.setItem(SESSION_KEY, JSON.stringify(session));
       state.token = session.token;
-    state.user = session.user;
-  }
+      state.user = session.user;
+    }
     dom.authStatus.textContent = state.user ? `${state.user.name} (@${state.user.username})` : 'Not signed in';
-  dom.btnLogout.style.display = state.user ? 'inline-flex' : 'none';
-  dom.btnCreateDoc.disabled = !state.user;
-  dom.btnShowCreate.disabled = !state.user;
+    dom.btnLogout.style.display = state.user ? 'inline-flex' : 'none';
+    dom.btnCreateDoc.disabled = !state.user;
+    dom.btnShowCreate.disabled = !state.user;
+    setAuthToggleVisibility(!state.user);
   };
 
   const getHeaders = extra => {
@@ -1505,6 +1512,7 @@
         userId: safeId(data.data.user.userId),
         username: data.data.user.username,
         email: data.data.user.email,
+        name: data.data.user.name || data.data.user.username,
       };
       saveSession({ token: data.data.token, user });
       setFeedback(dom.authFeedback, 'Verified. Token saved locally.', 'success');
