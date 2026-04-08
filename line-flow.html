@@ -657,7 +657,7 @@
       <div class="auth-screen hidden" id="auth-login-screen">
         <div class="field">
           <span>Username or Email</span>
-          <input id="login-email" type="email" placeholder="username or you@email.com">
+          <input id="login-username-or-email" type="email" placeholder="username or you@email.com">
         </div>
         <button class="btn-start" id="btn-login-send-otp" type="button">Send login OTP</button>
         <div class="muted" style="font-size:0.6rem; letter-spacing:0.25em;">OTP will be sent to your registered email.</div>
@@ -891,7 +891,7 @@
     btnChangeAccount: document.getElementById('btn-change-account'),
     authToggleRegister: document.getElementById('btn-auth-register'),
     authToggleLogin: document.getElementById('btn-auth-login'),
-    loginEmail: document.getElementById('login-email'),
+    loginUsernameOrEmail: document.getElementById('login-username-or-email'),
     authLoginScreen: document.getElementById('auth-login-screen'),
     btnLoginSendOtp: document.getElementById('btn-login-send-otp'),
     docTitle: document.getElementById('doc-title'),
@@ -1552,16 +1552,16 @@
   };
 
   const handleLoginSendOtp = async () => {
-    const email = dom.loginEmail.value.trim();
-    if (!email) {
+    const loginUsernameOrEmail = dom.loginUsernameOrEmail.value.trim();
+    if (!loginUsernameOrEmail) {
       setFeedback(dom.authFeedback, 'Enter an email to receive OTP.', 'error');
       return;
     }
     setFeedback(dom.authFeedback, 'Sending login OTP…', 'info');
     try {
-      await apiRequest('/users/login', { method: 'POST', body: { username: email } });
-      state.pendingUsername = email;
-      dom.otpUsernameDisplay.textContent = email;
+      await apiRequest('/users/login', { method: 'POST', body: { username: loginUsernameOrEmail } });
+      state.pendingUsername = loginUsernameOrEmail;
+      dom.otpUsernameDisplay.textContent = loginUsernameOrEmail;
       dom.otpValue.value = '';
       showVerifyScreen();
       setFeedback(dom.authFeedback, 'OTP sent. Enter the code below.', 'success');
