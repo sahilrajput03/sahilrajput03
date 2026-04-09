@@ -878,73 +878,73 @@
   const SESSION_KEY = 'lineflow_session';
 
   const dom = {
-    signupName: document.getElementById('signup-name'),
-    signupUsername: document.getElementById('signup-username'),
-    signupEmail: document.getElementById('signup-email'),
-    btnSendOtp: document.getElementById('btn-send-otp'),
-    btnFillSample: document.getElementById('btn-fill-sample'),
-    otpValue: document.getElementById('otp-value'),
-    btnVerifyOtp: document.getElementById('btn-verify-otp'),
-    authStatus: document.getElementById('auth-status'),
-    authFeedback: document.getElementById('auth-feedback'),
-    btnLogout: document.getElementById('btn-logout'),
-    authSignupScreen: document.getElementById('auth-signup-screen'),
-    authVerifyScreen: document.getElementById('auth-verify-screen'),
-    otpUsernameDisplay: document.getElementById('otp-username-display'),
-    btnChangeAccount: document.getElementById('btn-change-account'),
-    authToggleRegister: document.getElementById('btn-auth-register'),
-    authToggleLogin: document.getElementById('btn-auth-login'),
-    loginUsernameOrEmail: document.getElementById('login-username-or-email'),
-    authLoginScreen: document.getElementById('auth-login-screen'),
-    btnLoginSendOtp: document.getElementById('btn-login-send-otp'),
-    docTitle: document.getElementById('doc-title'),
-    docDescription: document.getElementById('doc-description'),
-    docTags: document.getElementById('doc-tags'),
-    docVisibility: document.getElementById('doc-visibility'),
-    btnCreateDoc: document.getElementById('btn-create-doc'),
-    btnShowCreate: document.getElementById('btn-show-create'),
-    btnFillDocSample: document.getElementById('btn-fill-doc-sample'),
-    textInput: document.getElementById('text-input'),
-    wordCount: document.getElementById('word-count'),
-    btnStart: document.getElementById('btn-start'),
-    selectedDocId: document.getElementById('selected-doc-id'),
-    selectedDocLabel: document.getElementById('selected-doc-detected'),
-    updateTitle: document.getElementById('update-title'),
-    updateDescription: document.getElementById('update-description'),
-    updateText: document.getElementById('update-text'),
-    updateTags: document.getElementById('update-tags'),
-    updateVisibility: document.getElementById('update-visibility'),
-    updateIsFinished: document.getElementById('update-is-finished'),
-    btnUpdateDoc: document.getElementById('btn-update-doc'),
-    btnLoadSelected: document.getElementById('btn-load-selected'),
-    btnShowUpdate: document.getElementById('btn-show-update'),
-    updateForm: document.getElementById('update-form'),
-    updateFeedback: document.getElementById('update-feedback'),
-    searchInput: document.getElementById('search-input'),
-    searchType: document.getElementById('search-type'),
-    btnSearch: document.getElementById('btn-search'),
-    searchFeedback: document.getElementById('search-feedback'),
-    searchDocs: document.getElementById('search-docs'),
-    searchUsers: document.getElementById('search-users'),
-    feedList: document.getElementById('feed-list'),
-    feedFeedback: document.getElementById('feed-feedback'),
-    btnRefreshFeed: document.getElementById('btn-refresh-feed'),
-    placeholderScreen: document.getElementById('placeholder-screen'),
-    readerScreen: document.getElementById('reader-screen'),
-    doneScreen: document.getElementById('done-screen'),
-    btnBack: document.getElementById('btn-back'),
-    btnPrev: document.getElementById('btn-prev'),
-    btnNext: document.getElementById('btn-next'),
-    btnRestart: document.getElementById('btn-restart'),
-    btnNew: document.getElementById('btn-new'),
-    readingZone: document.getElementById('reading-zone'),
-    lineText: document.getElementById('line-text'),
-    lineBadge: document.getElementById('line-badge'),
-    swipeHint: document.getElementById('swipe-hint'),
-    doneStats: document.getElementById('done-stats'),
-    dragIndicator: document.getElementById('drag-indicator'),
-    createFeedback: document.getElementById('create-feedback'),
-    cancelCreateDoc: document.getElementById('btn-cancel-create-doc'),
+    signupName: $('#signup-name'),
+    signupUsername: $('#signup-username'),
+    signupEmail: $('#signup-email'),
+    btnSendOtp: $('#btn-send-otp'),
+    btnFillSample: $('#btn-fill-sample'),
+    otpValue: $('#otp-value'),
+    btnVerifyOtp: $('#btn-verify-otp'),
+    authStatus: $('#auth-status'),
+    authFeedback: $('#auth-feedback'),
+    btnLogout: $('#btn-logout'),
+    authSignupScreen: $('#auth-signup-screen'),
+    authVerifyScreen: $('#auth-verify-screen'),
+    otpUsernameDisplay: $('#otp-username-display'),
+    btnChangeAccount: $('#btn-change-account'),
+    authToggleRegister: $('#btn-auth-register'),
+    authToggleLogin: $('#btn-auth-login'),
+    loginUsernameOrEmail: $('#login-username-or-email'),
+    authLoginScreen: $('#auth-login-screen'),
+    btnLoginSendOtp: $('#btn-login-send-otp'),
+    docTitle: $('#doc-title'),
+    docDescription: $('#doc-description'),
+    docTags: $('#doc-tags'),
+    docVisibility: $('#doc-visibility'),
+    btnCreateDoc: $('#btn-create-doc'),
+    btnShowCreate: $('#btn-show-create'),
+    btnFillDocSample: $('#btn-fill-doc-sample'),
+    textInput: $('#text-input'),
+    wordCount: $('#word-count'),
+    btnStart: $('#btn-start'),
+    selectedDocId: $('#selected-doc-id'),
+    selectedDocLabel: $('#selected-doc-detected'),
+    updateTitle: $('#update-title'),
+    updateDescription: $('#update-description'),
+    updateText: $('#update-text'),
+    updateTags: $('#update-tags'),
+    updateVisibility: $('#update-visibility'),
+    updateIsFinished: $('#update-is-finished'),
+    btnUpdateDoc: $('#btn-update-doc'),
+    btnLoadSelected: $('#btn-load-selected'),
+    btnShowUpdate: $('#btn-show-update'),
+    updateForm: $('#update-form'),
+    updateFeedback: $('#update-feedback'),
+    searchInput: $('#search-input'),
+    searchType: $('#search-type'),
+    btnSearch: $('#btn-search'),
+    searchFeedback: $('#search-feedback'),
+    searchDocs: $('#search-docs'),
+    searchUsers: $('#search-users'),
+    feedList: $('#feed-list'),
+    feedFeedback: $('#feed-feedback'),
+    btnRefreshFeed: $('#btn-refresh-feed'),
+    placeholderScreen: $('#placeholder-screen'),
+    readerScreen: $('#reader-screen'),
+    doneScreen: $('#done-screen'),
+    btnBack: $('#btn-back'),
+    btnPrev: $('#btn-prev'),
+    btnNext: $('#btn-next'),
+    btnRestart: $('#btn-restart'),
+    btnNew: $('#btn-new'),
+    readingZone: $('#reading-zone'),
+    lineText: $('#line-text'),
+    lineBadge: $('#line-badge'),
+    swipeHint: $('#swipe-hint'),
+    doneStats: $('#done-stats'),
+    dragIndicator: $('#drag-indicator'),
+    createFeedback: $('#create-feedback'),
+    cancelCreateDoc: $('#btn-cancel-create-doc'),
   };
 
   const state = {
@@ -1023,12 +1023,12 @@
 
   const showCreatePanel = () => {
     dom.btnShowCreate.classList.add('hidden');
-    document.getElementById('doc-create-card').classList.remove('hidden');
+    $('#doc-create-card').classList.remove('hidden');
     dom.btnShowCreate.disabled = !state.user;
   };
 
   const hideCreatePanel = () => {
-    document.getElementById('doc-create-card').classList.add('hidden');
+    $('#doc-create-card').classList.add('hidden');
     dom.btnShowCreate.disabled = !state.user;
   };
 
@@ -1036,15 +1036,15 @@
     if (dom.btnShowUpdate.disabled) return;
     dom.btnShowUpdate.classList.add('hidden');
     // dom.updateForm.classList.remove('hidden');
-    document.getElementById('doc-update-card').classList.remove('hidden');
-    document.getElementById('doc-create-card').classList.add('hidden');
+    $('#doc-update-card').classList.remove('hidden');
+    $('#doc-create-card').classList.add('hidden');
   };
 
   const hideUpdatePanel = () => {
     // dom.updateForm.classList.add('hidden');
-    document.getElementById('doc-update-card').classList.add('hidden');
+    $('#doc-update-card').classList.add('hidden');
     dom.btnShowUpdate.classList.remove('hidden');
-    document.getElementById('doc-create-card').classList.add('hidden');
+    $('#doc-create-card').classList.add('hidden');
   };
 
   const setFeedback = (element, message, type = 'info') => {
@@ -1463,7 +1463,7 @@
       const updated = state.feedDocs.find(doc => safeId(doc._id) === safeId(state.selectedDoc._id));
       if (updated) selectDocument(updated);
       hideUpdatePanel();
-      document.getElementById('doc-update-card').classList.add('hidden');
+      $('#doc-update-card').classList.add('hidden');
     } catch (error) {
       setFeedback(dom.updateFeedback, error.message, 'error');
     }
@@ -1716,7 +1716,7 @@
   }, { passive: false });
 
   dom.cancelCreateDoc.addEventListener('click', e => {
-    document.getElementById('doc-create-card').classList.add('hidden');
+    $('#doc-create-card').classList.add('hidden');
     dom.btnShowCreate.classList.remove('hidden'); 
 
     // clear form details:
@@ -1727,11 +1727,11 @@
     updateWordCount();
   })
 
-  document.getElementById('btn-cancel-updte-doc').addEventListener('click', () => {
-    document.getElementById('doc-update-card').classList.add('hidden');
+  $('#btn-cancel-updte-doc').addEventListener('click', () => {
+    $('#doc-update-card').classList.add('hidden');
     dom.btnShowUpdate.classList.remove('hidden');
   })
-  document.getElementById('doc-update-card').addEventListener('click', e => {
+  $('#doc-update-card').addEventListener('click', e => {
 
   });
 
