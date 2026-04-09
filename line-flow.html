@@ -616,15 +616,20 @@
   }
 
   textarea#search-input {
-    min-height: 40px;
+    min-height: auto;
     resize: none;
     overflow: hidden;
   }
-@media (max-width:500px) {
-  textarea#search-input {
-    min-height: 80px;
+  @media (max-width:500px) {
+    textarea#search-input {
+      min-height: auto;
+    }
   }
-}
+
+  #login-username-or-email {
+    min-height: auto;
+    resize: none;
+  }
 
 </style>
 </head>
@@ -669,7 +674,7 @@
       <div class="auth-screen hidden" id="auth-login-screen">
         <div class="field">
           <span>Username or Email</span>
-          <input id="login-username-or-email" type="email" placeholder="username or you@email.com">
+          <textarea rows="1" id="login-username-or-email" type="email" placeholder="username / you@email.com"></textarea>
         </div>
         <button class="btn-start" id="btn-login-send-otp" type="button">Send login OTP</button>
         <div class="muted" style="font-size:0.6rem; letter-spacing:0.25em;">OTP will be sent to your registered email.</div>
@@ -791,7 +796,7 @@
       <div class="field-grid">
         <label class="field">
           <span>Query</span>
-          <textarea id="search-input" type="text" placeholder="People and Document (title, description and tags)" rows="1"></textarea>
+          <textarea id="search-input" type="text" placeholder="People & Document (title, description and tags)"></textarea>
         </label>
         <label class="field">
           <span>Type</span>
@@ -1013,6 +1018,7 @@
   const showLoginScreen = () => {
     setAuthMode('login');
     dom.authLoginScreen.classList.remove('hidden');
+    dom.loginUsernameOrEmail.focus()
     dom.authSignupScreen.classList.add('hidden');
     dom.authVerifyScreen.classList.add('hidden');
     state.pendingUsername = null;
@@ -1485,7 +1491,11 @@
 
   let debounceTimer;
 
-  const handleSearchInput = () => {
+  const handleSearchInput = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault(); // ⛔ stop newline in textarea
+    }
+
     clearTimeout(debounceTimer);
 
     debounceTimer = setTimeout(async () => {
@@ -1517,7 +1527,7 @@
       }
     }, 200);
   };
-  dom.searchInput.addEventListener('input', handleSearchInput);
+  dom.searchInput.addEventListener('keydown', handleSearchInput);
 
   const createDocument = async () => {
     if (!state.token) {
@@ -1585,12 +1595,20 @@
       dom.otpValue.value = '';
       showVerifyScreen();
       setFeedback(dom.authFeedback, 'OTP sent. Enter the code below.', 'success');
+      dom.otpValue.focus();
     } catch (error) {
       setFeedback(dom.authFeedback, error.message, 'error');
     } finally {
       dom.btnLoginSendOtp.disabled = false;
     }
   };
+
+  dom.loginUsernameOrEmail.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault(); // ⛔ stop newline in textarea
+      handleLoginSendOtp()
+    }
+  });
 
   const handleVerifyOtp = async () => {
     const username = state.pendingUsername;
@@ -1624,6 +1642,13 @@
       setFeedback(dom.authFeedback, error.message, 'error');
     }
   };
+
+  dom.otpValue.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      handleVerifyOtp()
+    }
+  });
+
 
   const handleChangeAccount = () => {
     state.pendingUsername = null;
