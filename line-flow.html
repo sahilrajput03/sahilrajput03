@@ -614,6 +614,18 @@
     border-color: var(--accent);
     color: var(--accent);
   }
+
+  textarea#search-input {
+    min-height: 40px;
+    resize: none;
+    overflow: hidden;
+  }
+@media (max-width:500px) {
+  textarea#search-input {
+    min-height: 80px;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -779,7 +791,7 @@
       <div class="field-grid">
         <label class="field">
           <span>Query</span>
-          <input id="search-input" type="text" placeholder="Search people or documents">
+          <textarea id="search-input" type="text" placeholder="People and Document (title, description and tags)" rows="1"></textarea>
         </label>
         <label class="field">
           <span>Type</span>
