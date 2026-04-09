@@ -1332,6 +1332,7 @@
     dom.btnUpdateDoc.disabled = !(state.user && safeId(doc.userId) === state.user.userId);
     dom.btnLoadSelected.disabled = !state.user;
     showUpdatePanel()
+    // Learn: I have added `scroll-margin-top` css to `#doc-update-card` to handle the scroll position by adding specified margin from top.
     $('#doc-update-card').scrollIntoView({
       behavior: 'smooth',
       block: 'start'
