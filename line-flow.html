@@ -21,7 +21,12 @@
     --font-mono: 'DM Mono', monospace;
   }
 
-  html, body {
+  html{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
     height: 100%;
     background: var(--bg);
     color: var(--text);
@@ -36,7 +41,7 @@
   }
 
   #app-shell {
-    width: min(1400px, 100%);
+    width: 80dvw;
     display: grid;
     grid-template-columns: minmax(280px, 360px) 1fr;
     gap: 1rem;
@@ -47,6 +52,11 @@
   @media (max-width: 1024px) {
     #app-shell {
       grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 600px) {
+    #app-shell {
+      width: 100dvw;
     }
   }
 
@@ -331,7 +341,7 @@
   }
 
   #reader-panel {
-    min-height: 600px;
+    height: 93dvh;
     position: relative;
     overflow: hidden;
     touch-action: none;
@@ -835,7 +845,7 @@
     </section>
   </section>
 
-  <section id="reader-panel" class="panel hidden">
+  <section id="reader-panel" class="hidden">
     <div id="reader-stack">
       <div id="placeholder-screen" class="screen placeholder-screen">
         <div class="placeholder-grid">
@@ -846,7 +856,7 @@
 
       <div id="reader-screen" class="screen hidden">
         <div class="reader-top">
-          <button class="btn-back" id="btn-back">← Back to controls</button>
+          <button class="btn-back" id="btn-back">ｘ Close</button>
         </div>
         <div class="reading-zone" id="reading-zone">
           <div class="line-display">
