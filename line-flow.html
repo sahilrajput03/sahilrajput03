@@ -657,6 +657,10 @@
   #doc-update-card {
     scroll-margin-top: 15px;
   }
+  #reader-screen {
+    /* This is to maintain 1.25 rem padding on the body tag so screen doesn't flickr. */
+    scroll-margin-top: 1.25rem;
+  }
 </style>
 </head>
 <body>
@@ -1244,7 +1248,7 @@
 
     // We wait for some time before keyboard is closed so that scrollIntoView doesn't mess up scroll position on chrome in android. [TESTED]
     await new Promise(resolve => setTimeout(resolve, 300));
-    $('#reading-zone').scrollIntoView({
+    $('#reader-screen').scrollIntoView({
       behavior: 'smooth',
       block: 'start'
     });
