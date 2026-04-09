@@ -251,11 +251,6 @@
     color: var(--muted);
   }
 
-  .reader-controls {
-    display: flex;
-    gap: 0.5rem;
-  }
-
   .search-results {
     display: flex;
     flex-direction: column;
@@ -641,8 +636,20 @@
     resize: none;
   }
 
+
+  .reader-controls {
+    display: flex;
+    gap: 0.5rem;
+  }
+
   @media (max-width: 640px) {
     .reader-controls {
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 990px) {
+    .reader-controls{
       flex-direction: column;
     }
   }
