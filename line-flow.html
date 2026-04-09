@@ -1793,6 +1793,11 @@
     $('#doc-update-card').classList.add('hidden');
   })
 
+  $('#placeholder-screen').addEventListener('click', () => {
+    // scroll to top (useful for mobile because up and down gesture are blocked text scrolling feature)
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
   const init = () => {
     const session = getSession();
     if (session && session.token) {
