@@ -802,7 +802,7 @@
           </select>
         </label>
       </div>
-      <div class="search-results" id="search-results">
+      <div class="search-results" id="search-results" style="display: none;">
         <div class="search-section">
           <p class="muted">Document results</p>
           <div id="search-docs"></div>
@@ -1493,7 +1493,8 @@
 
       const query = dom.searchInput.value.trim();
       if (!query) {
-        setFeedback(dom.searchFeedback, 'Enter keywords to search.', 'error');
+        setFeedback(dom.searchFeedback, '', 'error');
+        $('#search-results').style.display = 'none';
         return;
       }
 
@@ -1505,6 +1506,7 @@
           `/search?q=${encodeURIComponent(query)}&type=${type}&limit=12`
         );
 
+        $('#search-results').style.display = 'flex';
         renderSearchResults(data.data.documents, data.data.users);
         setFeedback(dom.searchFeedback, 'Search complete.', 'success');
       } catch (error) {
