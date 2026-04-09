@@ -669,8 +669,10 @@
         <h2>Account</h2>
         <button class="text-btn" id="btn-logout" style="display:none;">Logout</button>
       </div>
-      <p class="muted" id="auth-status">Not signed in</p>
-      <div class="feedback info" id="auth-feedback"></div>
+      <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+        <div class="muted" id="auth-status">Not signed in</div>
+        <div class="feedback info" id="auth-feedback"></div>
+      </div>
       <div class="auth-toggle">
         <button class="btn-secondary active" id="btn-auth-register" type="button">Register</button>
         <button class="btn-secondary" id="btn-auth-login" type="button">Login</button>
