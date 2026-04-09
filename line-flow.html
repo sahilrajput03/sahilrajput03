@@ -631,6 +631,12 @@
     resize: none;
   }
 
+  @media (max-width: 640px) {
+    .reader-controls {
+      flex-direction: column;
+    }
+  }
+
 </style>
 </head>
 <body>
@@ -666,10 +672,10 @@
             <span>Email</span>
             <input id="signup-email" type="email" placeholder="you@email.com">
           </label>
+          <div class="muted" style="font-size:0.6rem; letter-spacing:0.25em;">You will receive a one-time code via email.</div>
         </div>
         <button class="btn-start" id="btn-send-otp">Send OTP</button>
         <button class="btn-secondary" id="btn-fill-sample" type="button">Fill sample details</button>
-        <div class="muted" style="font-size:0.6rem; letter-spacing:0.25em;">You will receive a one-time code via email.</div>
       </div>
       <div class="auth-screen hidden" id="auth-login-screen">
         <div class="field">
@@ -726,13 +732,13 @@
         <textarea id="text-input" spellcheck="false" placeholder="Write or paste the document here…"></textarea>
         <div class="word-count-row">
           <span id="word-count">0 lines</span>
+        </div>
         <div class="reader-controls">
           <button class="btn-start" id="btn-create-doc">Save document</button>
           <button class="btn-secondary" id="btn-start" disabled>Start reading</button>
           <button class="btn-secondary" id="btn-fill-doc-sample" type="button">Fill Sample document</button>
           <button class="btn-secondary" id="btn-cancel-create-doc" type="button">Cancel</button>
         </div>
-      </div>
       </div>
     </section>
 
@@ -1013,6 +1019,9 @@
     dom.authVerifyScreen.classList.add('hidden');
     state.pendingUsername = null;
     dom.otpUsernameDisplay.textContent = 'OTP sent to —';
+    $('#search-card').classList.add('hidden')
+    $('#feed-card').classList.add('hidden')
+    $('#reader-panel').classList.add('hidden')
   };
 
   const showLoginScreen = () => {
