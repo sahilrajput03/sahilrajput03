@@ -675,7 +675,6 @@
 
     <div class="control-row">
       <button class="btn-start" id="btn-show-create" disabled>CREATE DOCUMENT</button>
-      <button class="btn-start" id="btn-show-update" disabled>UPDATE DOCUMENT</button>
     </div>
     <section class="panel-card hidden" id="doc-create-card">
       <div class="card-title-row">
@@ -917,7 +916,6 @@
     updateIsFinished: $('#update-is-finished'),
     btnUpdateDoc: $('#btn-update-doc'),
     btnLoadSelected: $('#btn-load-selected'),
-    btnShowUpdate: $('#btn-show-update'),
     updateForm: $('#update-form'),
     updateFeedback: $('#update-feedback'),
     searchInput: $('#search-input'),
@@ -1033,8 +1031,6 @@
   };
 
   const showUpdatePanel = () => {
-    if (dom.btnShowUpdate.disabled) return;
-    dom.btnShowUpdate.classList.add('hidden');
     // dom.updateForm.classList.remove('hidden');
     $('#doc-update-card').classList.remove('hidden');
     $('#doc-create-card').classList.add('hidden');
@@ -1043,7 +1039,6 @@
   const hideUpdatePanel = () => {
     // dom.updateForm.classList.add('hidden');
     $('#doc-update-card').classList.add('hidden');
-    dom.btnShowUpdate.classList.remove('hidden');
     $('#doc-create-card').classList.add('hidden');
   };
 
@@ -1283,8 +1278,12 @@
     dom.updateVisibility.value = doc.visibility || 'private';
     dom.updateIsFinished.checked = Boolean(doc.isFinished);
     dom.btnUpdateDoc.disabled = !(state.user && safeId(doc.userId) === state.user.userId);
-    dom.btnShowUpdate.disabled = dom.btnUpdateDoc.disabled;
     dom.btnLoadSelected.disabled = !state.user;
+    showUpdatePanel()
+    $('#doc-update-card').scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
   };
 
   const renderFeed = docs => {
@@ -1346,7 +1345,7 @@
             <div class="card-actions">
               <button class="text-btn" data-search-action="read" data-search-index="${index}">Read</button>
               <button class="text-btn" data-search-action="copy" data-search-index="${index}">Copy</button>
-              <button class="text-btn" data-search-action="edit" data-search-index="${index}">Select</button>
+              <button class="text-btn" data-search-action="edit" data-search-index="${index}">Edit</button>
             </div>
           </div>
         `;
@@ -1649,7 +1648,6 @@
     if (state.selectedDoc) startReadingFromDoc(state.selectedDoc);
   });
   dom.btnUpdateDoc.addEventListener('click', updateDocument);
-  dom.btnShowUpdate.addEventListener('click', showUpdatePanel);
 
   dom.btnPrev.addEventListener('click', goPrev);
   dom.btnNext.addEventListener('click', goNext);
@@ -1729,19 +1727,13 @@
 
   $('#btn-cancel-updte-doc').addEventListener('click', () => {
     $('#doc-update-card').classList.add('hidden');
-    dom.btnShowUpdate.classList.remove('hidden');
   })
-  $('#doc-update-card').addEventListener('click', e => {
-
-  });
 
   const init = () => {
     const session = getSession();
     if (session && session.token) {
       saveSession(session);
       refreshFeed();
-
-      // dom.btnShowUpdate.disabled = false;
     }
     updateWordCount();
     if (!session || !session.token) {
