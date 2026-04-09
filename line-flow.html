@@ -61,6 +61,11 @@
     box-shadow: 0 20px 50px rgba(0,0,0,0.45);
   }
 
+  .panel-card.hidden,
+  .hidden {
+    display: none;
+  }
+
   .panel-heading {
     display: flex;
     flex-direction: column;
@@ -102,11 +107,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-  }
-
-  .panel-card.hidden,
-  .hidden {
-    display: none;
   }
 
   .card-title-row {
@@ -783,7 +783,7 @@
       </div>
     </section>
 
-    <section class="panel-card" id="search-card">
+    <section class="panel-card hidden" id="search-card">
       <div class="card-title-row">
         <h2>Search</h2>
       </div>
@@ -814,7 +814,7 @@
       </div>
     </section>
 
-    <section class="panel-card" id="feed-card">
+    <section class="panel-card hidden" id="feed-card">
       <div class="card-title-row">
         <h2>Your Feed</h2>
         <button class="text-btn" id="btn-refresh-feed">Refresh</button>
@@ -824,7 +824,7 @@
     </section>
   </section>
 
-  <section id="reader-panel" class="panel">
+  <section id="reader-panel" class="panel hidden">
     <div id="reader-stack">
       <div id="placeholder-screen" class="screen placeholder-screen">
         <div class="placeholder-grid">
@@ -1029,6 +1029,9 @@
     dom.authSignupScreen.classList.add('hidden');
     dom.authLoginScreen.classList.add('hidden');
     dom.authVerifyScreen.classList.add('hidden');
+    $('#search-card').classList.remove('hidden')
+    $('#feed-card').classList.remove('hidden')
+    $('#reader-panel').classList.remove('hidden')
   };
 
   const showCreatePanel = () => {
@@ -1573,6 +1576,7 @@
       setFeedback(dom.authFeedback, 'Enter an email to receive OTP.', 'error');
       return;
     }
+    dom.btnLoginSendOtp.disabled = true;
     setFeedback(dom.authFeedback, 'Sending login OTP…', 'info');
     try {
       await apiRequest('/users/login', { method: 'POST', body: { username: loginUsernameOrEmail } });
@@ -1583,6 +1587,8 @@
       setFeedback(dom.authFeedback, 'OTP sent. Enter the code below.', 'success');
     } catch (error) {
       setFeedback(dom.authFeedback, error.message, 'error');
+    } finally {
+      dom.btnLoginSendOtp.disabled = false;
     }
   };
 
