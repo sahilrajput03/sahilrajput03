@@ -1236,11 +1236,18 @@
     persistReadPosition();
   };
 
-  const startReadingFromDoc = doc => {
+  const startReadingFromDoc = async doc => {
     if (!doc) return;
     dom.textInput.value = doc.text || '';
     updateWordCount();
     startReadingFromText(dom.textInput.value, safeId(doc._id));
+
+    // We wait for some time before keyboard is closed so that scrollIntoView doesn't mess up scroll position on chrome in android. [TESTED]
+    await new Promise(resolve => setTimeout(resolve, 300));
+    $('#reading-zone').scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
   };
 
   const renderLine = direction => {
