@@ -723,7 +723,7 @@
     </section>
 
     <div class="control-row">
-      <button class="btn-start" id="btn-show-create" disabled>CREATE DOCUMENT</button>
+      <button class="btn-start hidden" id="btn-show-create" disabled>CREATE DOCUMENT</button>
     </div>
     <section class="panel-card hidden" id="doc-create-card">
       <div class="card-title-row">
@@ -755,7 +755,7 @@
       </div>
       <div class="field">
         <span>Text</span>
-        <textarea id="text-input" spellcheck="false" placeholder="Write or paste the document here…"></textarea>
+        <textarea value="line1. line2." id="text-input" spellcheck="false" placeholder="Write or paste the document here…">Line 1 . Line 2 .</textarea>
         <div class="word-count-row">
           <span id="word-count">0 lines</span>
         </div>
@@ -906,6 +906,7 @@
         <div class="reader-controls">
           <button class="btn-restart" id="btn-restart">Replay</button>
           <button class="btn-restart" id="btn-new">New text</button>
+          <button class="btn-restart" id="btn-close">Close</button>
         </div>
       </div>
     </div>
@@ -1048,6 +1049,7 @@
     $('#search-card').classList.add('hidden')
     $('#feed-card').classList.add('hidden')
     $('#reader-panel').classList.add('hidden')
+    dom.btnShowCreate.classList.add('hidden'); // Hide "CREATE DOCUMENT" button.
   };
 
   const showLoginScreen = () => {
@@ -1073,6 +1075,7 @@
     $('#search-card').classList.remove('hidden')
     $('#feed-card').classList.remove('hidden')
     $('#reader-panel').classList.remove('hidden')
+    dom.btnShowCreate.classList.remove('hidden'); // Show "CREATE DOCUMENT" button.
   };
 
   const showCreatePanel = () => {
@@ -1245,14 +1248,17 @@
     dom.textInput.value = doc.text || '';
     updateWordCount();
     startReadingFromText(dom.textInput.value, safeId(doc._id));
+    lazyScrollToReaderPanel()
+  };
 
+  async function lazyScrollToReaderPanel() {
     // We wait for some time before keyboard is closed so that scrollIntoView doesn't mess up scroll position on chrome in android. [TESTED]
     await new Promise(resolve => setTimeout(resolve, 300));
     $('#reader-screen').scrollIntoView({
       behavior: 'smooth',
       block: 'start'
     });
-  };
+  }
 
   const renderLine = direction => {
     const line = state.lines[state.current];
@@ -1717,6 +1723,7 @@
 
   dom.btnStart.addEventListener('click', () => {
     startReadingFromText(dom.textInput.value);
+    lazyScrollToReaderPanel()
   });
 
   dom.btnCreateDoc.addEventListener('click', createDocument);
@@ -1738,9 +1745,11 @@
 
   dom.btnPrev.addEventListener('click', goPrev);
   dom.btnNext.addEventListener('click', goNext);
-  dom.btnBack.addEventListener('click', () => {
-    showScreen('placeholder');
-    dom.swipeHint.style.opacity = '1';
+  [dom.btnBack, $('#btn-close')].forEach(el => {
+    el?.addEventListener?.('click', () => {
+      showScreen('placeholder');
+      dom.swipeHint.style.opacity = '1';
+    });
   });
   dom.btnRestart.addEventListener('click', () => {
     if (!state.lines.length) return;
@@ -1758,6 +1767,10 @@
     state.lines = [];
     state.current = 0;
     state.currentReadingDocId = null;
+    $('#doc-create-card').scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
   });
 
   let touchStartY = 0;
