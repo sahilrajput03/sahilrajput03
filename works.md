@@ -26,6 +26,8 @@
 
 #### Projects & Services
 
+- LineFlow - A platform for readers to read text line by line - [sahilrajput.com/line-flow](https://sahilrajput.com/line-flow)
+- A small, pesonal user agent manger CLI - `sdm` (systemd manager) for Linux's `systemd` ([private](https://github.com/sahilrajput03/config/blob/main/_linode/sdm))
 - A small, pesonal user agent manger CLI - `udm` (user daemon manager) for MacOS's `launchd` ([private](https://github.com/sahilrajput03/config/blob/main/launchd-files/userDaemonManager.js))
 - filedb.js ([private](https://github.com/sahilrajput03/config/blob/main/snips/js-node/filedb.js))
 - SQLite MCP as a Service (SQLite Maas) (private - [stdioMcp](https://github.com/sahilrajput03/learn-openai/blob/main/tts-stt-google-genai/mcp-server-client/cc-mcp3-sqlite-stdioMcp.js), [sseMcp](https://github.com/sahilrajput03/learn-openai/blob/main/tts-stt-google-genai/mcp-server-client/cc-mcp4-sqlite-sseMcp.js))
