@@ -1006,7 +1006,7 @@
     current: 0,
     startTime: null,
     lastDirection: null,
-    pendingUsername: null,
+    pendingUsernameOrEmail: null,
     authMode: 'register',
   };
 
@@ -1043,7 +1043,7 @@
     dom.authSignupScreen.classList.remove('hidden');
     dom.authLoginScreen.classList.add('hidden');
     dom.authVerifyScreen.classList.add('hidden');
-    state.pendingUsername = null;
+    state.pendingUsernameOrEmail = null;
     dom.otpUsernameDisplay.textContent = 'OTP sent to —';
     $('#search-card').classList.add('hidden')
     $('#feed-card').classList.add('hidden')
@@ -1056,7 +1056,7 @@
     dom.loginUsernameOrEmail.focus()
     dom.authSignupScreen.classList.add('hidden');
     dom.authVerifyScreen.classList.add('hidden');
-    state.pendingUsername = null;
+    state.pendingUsernameOrEmail = null;
     dom.otpUsernameDisplay.textContent = 'OTP sent to —';
   };
 
@@ -1613,7 +1613,7 @@
     setFeedback(dom.authFeedback, 'Sending OTP…', 'info');
     try {
       await apiRequest('/users/create', { method: 'POST', body: { name, username, email } });
-      state.pendingUsername = username;
+      state.pendingUsernameOrEmail = username;
       dom.otpUsernameDisplay.textContent = username;
       dom.otpValue.value = '';
       showVerifyScreen();
@@ -1632,8 +1632,8 @@
     dom.btnLoginSendOtp.disabled = true;
     setFeedback(dom.authFeedback, 'Sending login OTP…', 'info');
     try {
-      await apiRequest('/users/login', { method: 'POST', body: { username: loginUsernameOrEmail } });
-      state.pendingUsername = loginUsernameOrEmail;
+      await apiRequest('/users/login', { method: 'POST', body: { usernameOrEmail: loginUsernameOrEmail } });
+      state.pendingUsernameOrEmail = loginUsernameOrEmail;
       dom.otpUsernameDisplay.textContent = loginUsernameOrEmail;
       dom.otpValue.value = '';
       showVerifyScreen();
@@ -1654,9 +1654,8 @@
   });
 
   const handleVerifyOtp = async () => {
-    const username = state.pendingUsername;
     const otp = dom.otpValue.value.trim();
-    if (!username) {
+    if (!state.pendingUsernameOrEmail) {
       setFeedback(dom.authFeedback, 'Send OTP before verifying.', 'error');
       return;
     }
@@ -1666,7 +1665,7 @@
     }
     setFeedback(dom.authFeedback, 'Verifying…', 'info');
     try {
-      const data = await apiRequest('/users/verify-otp', { method: 'POST', body: { username, otp: Number(otp) } });
+      const data = await apiRequest('/users/verify-otp', { method: 'POST', body: { usernameOrEmail: state.pendingUsernameOrEmail, otp: Number(otp) } });
       const user = {
         userId: safeId(data.data.user.userId),
         username: data.data.user.username,
@@ -1694,7 +1693,7 @@
 
 
   const handleChangeAccount = () => {
-    state.pendingUsername = null;
+    state.pendingUsernameOrEmail = null;
     dom.otpValue.value = '';
     if (state.authMode === 'login') {
       showLoginScreen();
