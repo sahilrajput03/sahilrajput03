@@ -764,7 +764,7 @@
       </div>
       <div class="field">
         <span>Text</span>
-        <textarea value="line1. line2." id="text-input" spellcheck="false" placeholder="Write or paste the document here…">Line 1 . Line 2 .</textarea>
+        <textarea value="line1. line2." id="text-input" spellcheck="false" placeholder="Write or paste the document here…"></textarea>
         <div class="word-count-row">
           <span id="word-count">0 lines</span>
         </div>
@@ -1249,6 +1249,7 @@
     state.currentReadingDocId = documentId;
     dom.lineText.textContent = parsed[0];
     dom.lineBadge.textContent = `LINE 1`;
+    $('#reader-panel').classList.remove('hidden');
     showScreen('reader');
     hideSwipeHint();
     renderLine(null);
@@ -1858,6 +1859,8 @@
       hideAuthScreens();
     }
     dom.btnShowCreate.disabled = false;
+
+    dom.textInput.value = isDev ? 'This line one. This is line two.': ''
   };
 
   init();
