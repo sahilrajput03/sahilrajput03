@@ -1396,7 +1396,11 @@
         const doc = state.feedDocs[idx];
         if (!doc) return;
         if (action === 'load') startReadingFromDoc(doc);
-        if (action === 'copy') copyDocument(safeId(doc._id));
+        if (action === 'copy') {
+          button.textContent = 'COPIED';
+          button.disabled = true;
+          copyDocument(safeId(doc._id));
+        }
         if (action === 'edit') selectDocument(doc);
       });
     });
@@ -1436,7 +1440,11 @@
           const doc = state.searchDocs[idx];
           if (!doc) return;
           if (action === 'read') startReadingFromDoc(doc);
-          if (action === 'copy') copyDocument(safeId(doc._id));
+          if (action === 'copy') {
+            button.textContent = 'COPIED';
+            button.disabled = true;
+            copyDocument(safeId(doc._id));
+          }
           if (action === 'edit') selectDocument(doc);
         });
       });
