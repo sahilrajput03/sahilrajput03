@@ -924,7 +924,7 @@
     const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
 
   const isDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname.startsWith('192.168.');
-  const API_BASE = `https://api${!isDev ? "-dev": ""}.mypot.in/api/v1/line-flow`;
+  const API_BASE = `https://api${isDev ? "-dev": ""}.mypot.in/api/v1/line-flow`;
   const SESSION_KEY = 'lineflow_session';
 
   const dom = {

@@ -5,5 +5,8 @@
   },
   "[plaintext]": {
     "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.formatOnSave": false
   }
 }
