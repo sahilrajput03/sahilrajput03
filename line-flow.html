@@ -397,29 +397,7 @@
 
   .screen.hidden { display: none; }
 
-  .placeholder-screen {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2rem;
-  }
-
-  .placeholder-title {
-    font-size: 1rem;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: 0.5rem;
-  }
-
-  .placeholder-sub {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.2em;
-    color: var(--muted);
-  }
-
-  @keyframes exitUp        { from{transform:translateY(0);opacity:1} to{transform:translateY(-60px);opacity:0} }
+   @keyframes exitUp        { from{transform:translateY(0);opacity:1} to{transform:translateY(-60px);opacity:0} }
   @keyframes exitDown      { from{transform:translateY(0);opacity:1} to{transform:translateY(60px);opacity:0} }
   @keyframes enterFromBelow{ from{transform:translateY(60px);opacity:0} to{transform:translateY(0);opacity:1} }
   @keyframes enterFromAbove{ from{transform:translateY(-60px);opacity:0} to{transform:translateY(0);opacity:1} }
@@ -634,12 +612,6 @@
     height: 1px;
     background: var(--line);
     margin: 0.35rem 0;
-  }
-
-  .placeholder-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
   }
 
   .control-row {
@@ -900,13 +872,6 @@
 
   <section id="reader-panel" class="hidden">
     <div id="reader-stack">
-      <div id="placeholder-screen" class="screen placeholder-screen">
-        <div class="placeholder-grid">
-          <div class="placeholder-title">Ready to flow?</div>
-          <div class="placeholder-sub">Create or choose a document, load it, then read one line at a time.</div>
-        </div>
-      </div>
-
       <div id="reader-screen" class="screen hidden">
         <div class="reader-top">
           <button class="btn-back" id="btn-back">ｘ Close</button>
@@ -1015,7 +980,6 @@
     feedList: $('#feed-list'),
     feedFeedback: $('#feed-feedback'),
     btnRefreshFeed: $('#btn-refresh-feed'),
-    placeholderScreen: $('#placeholder-screen'),
     readerScreen: $('#reader-screen'),
     doneScreen: $('#done-screen'),
     btnBack: $('#btn-back'),
@@ -1065,10 +1029,9 @@
   };
 
   const showScreen = screen => {
-    [dom.placeholderScreen, dom.readerScreen, dom.doneScreen].forEach(el => el.classList.add('hidden'));
+    [dom.readerScreen, dom.doneScreen].forEach(el => el.classList.add('hidden'));
     if (screen === 'reader') dom.readerScreen.classList.remove('hidden');
     if (screen === 'done') dom.doneScreen.classList.remove('hidden');
-    if (screen === 'placeholder') dom.placeholderScreen.classList.remove('hidden');
   };
 
   const setAuthMode = mode => {
@@ -1112,7 +1075,6 @@
     dom.authVerifyScreen.classList.add('hidden');
     $('#search-card').classList.remove('hidden')
     $('#feed-card').classList.remove('hidden')
-    $('#reader-panel').classList.remove('hidden')
     dom.btnShowCreate.classList.remove('hidden'); // Show "CREATE DOCUMENT" button.
   };
 
@@ -1295,6 +1257,7 @@
 
   const startReadingFromDoc = async doc => {
     if (!doc) return;
+    $('#reader-panel').classList.remove('hidden')
     dom.textInput.value = doc.text || '';
     updateWordCount();
     startReadingFromText(dom.textInput.value, safeId(doc._id));
@@ -1800,7 +1763,7 @@
   dom.btnNext.addEventListener('click', goNext);
   [dom.btnBack, $('#btn-close')].forEach(el => {
     el?.addEventListener?.('click', () => {
-      showScreen('placeholder');
+      $('#reader-panel').classList.add('hidden')
       dom.swipeHint.style.opacity = '1';
     });
   });
@@ -1813,9 +1776,9 @@
     persistReadPosition();
   });
   dom.btnNew.addEventListener('click', () => {
+    $('#reader-panel').classList.add('hidden')
     dom.textInput.value = '';
     updateWordCount();
-    showScreen('placeholder');
     dom.swipeHint.style.opacity = '1';
     state.lines = [];
     state.current = 0;
@@ -1895,14 +1858,6 @@
       hideAuthScreens();
     }
     dom.btnShowCreate.disabled = false;
-    showScreen('placeholder');
-
-    ['click', 'touchstart', 'touchmove', 'touchend', 'touchcancel'].forEach(event => {
-      $('#placeholder-screen').addEventListener(event, (e) => {
-        // scroll to top (useful for mobile because up and down gesture are blocked text scrolling feature)
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-    });
   };
 
   init();
