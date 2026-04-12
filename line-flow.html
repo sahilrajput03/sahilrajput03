@@ -1385,6 +1385,7 @@
             <button class="text-btn" data-feed-action="load" data-feed-index="${index}">Read</button>
             <button class="text-btn" data-feed-action="copy" data-feed-index="${index}">Copy</button>
             ${owned ? `<button class="text-btn" data-feed-action="edit" data-feed-index="${index}">Edit</button>` : ''}
+            ${owned ? `<button class="text-btn" data-feed-action="delete" data-feed-index="${index}">Delete</button>` : ''}
           </div>
         </div>
       `;
@@ -1402,6 +1403,7 @@
           copyDocument(safeId(doc._id));
         }
         if (action === 'edit') selectDocument(doc);
+        if (action === 'delete') deleteDocument(safeId(doc._id));
       });
     });
   };
@@ -1418,6 +1420,7 @@
           ? `<div class="chip-bar">${doc.tags.map(tag => `<span class="chip">${tag}</span>`).join('')}</div>`
           : '';
         const visibilityMarkup = formatVisibility(doc.visibility);
+        const owned = state.user && safeId(doc.userId) === state.user.userId;
         return `
           <div class="result-card">
             <div class="line-1"></div>
@@ -1428,7 +1431,8 @@
             <div class="card-actions">
               <button class="text-btn" data-search-action="read" data-search-index="${index}">Read</button>
               <button class="text-btn" data-search-action="copy" data-search-index="${index}">Copy</button>
-              <button class="text-btn" data-search-action="edit" data-search-index="${index}">Edit</button>
+              ${owned ? `<button class="text-btn" data-search-action="edit" data-search-index="${index}">Edit</button>` : ''}
+              ${owned ? `<button class="text-btn" data-search-action="delete" data-search-index="${index}">Delete</button>` : ''}
             </div>
           </div>
         `;
@@ -1446,6 +1450,7 @@
             copyDocument(safeId(doc._id));
           }
           if (action === 'edit') selectDocument(doc);
+          if (action === 'delete') deleteDocument(safeId(doc._id));
         });
       });
     }
@@ -1499,6 +1504,24 @@
       await apiRequest(`/documents/${documentId}/copy`, { method: 'POST', body: {} });
       setFeedback(dom.createFeedback, 'Document copied. Check your feed.', 'success');
       refreshFeed();
+    } catch (error) {
+      setFeedback(dom.createFeedback, error.message, 'error');
+    }
+  };
+
+  const deleteDocument = async documentId => {
+    if (!state.token) {
+      setFeedback(dom.searchFeedback, 'Log in to delete documents.', 'error');
+      return;
+    }
+    if (!confirm('Are you sure you want to delete this document? This action cannot be undone.')) {
+      return;
+    }
+    try {
+      await apiRequest(`/documents/${documentId}`, { method: 'DELETE' });
+      setFeedback(dom.createFeedback, 'Document deleted successfully.', 'success');
+      refreshFeed();
+      resetUpdateForm();
     } catch (error) {
       setFeedback(dom.createFeedback, error.message, 'error');
     }
