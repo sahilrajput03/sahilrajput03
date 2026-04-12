@@ -311,6 +311,43 @@
     text-transform: uppercase;
   }
 
+  .visibility-badge {
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.65rem;
+    font-family: var(--font-mono);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid;
+  }
+
+  .visibility-badge.private {
+    background: rgba(192,96,96,0.12);
+    border-color: rgba(192,96,96,0.4);
+    color: #d89a9a;
+  }
+
+  .visibility-badge.public {
+    background: rgba(126,158,143,0.12);
+    border-color: rgba(126,158,143,0.4);
+    color: #8eb89e;
+  }
+
+  .visibility-badge.followers {
+    background: rgba(200,169,110,0.12);
+    border-color: rgba(200,169,110,0.4);
+    color: #d4bc7f;
+  }
+
+  .visibility-badge.unlisted {
+    background: rgba(150,130,100,0.12);
+    border-color: rgba(150,130,100,0.4);
+    color: #a89070;
+  }
+
   .doc-card .card-actions,
   .result-card .card-actions {
     display: flex;
@@ -1226,6 +1263,18 @@
     }).map(s => s.trim()).filter(Boolean);
   };
 
+  const formatVisibility = visibility => {
+    const visibilityMap = {
+      private: { icon: '🔒', label: 'Private' },
+      public: { icon: '🌐', label: 'Public' },
+      followers: { icon: '👥', label: 'Followers' },
+      unlisted: { icon: '📋', label: 'Unlisted' },
+    };
+    const vis = visibility?.toLowerCase() || 'private';
+    const config = visibilityMap[vis] || visibilityMap.private;
+    return `<span class="visibility-badge ${vis}">${config.icon} ${config.label}</span>`;
+  };
+
   const startReadingFromText = (content, documentId = null) => {
     const parsed = parseText(content);
     if (!parsed.length) {
@@ -1369,12 +1418,13 @@
       const tagsMarkup = Array.isArray(doc.tags) && doc.tags.length
         ? `<div class="chip-bar">${doc.tags.map(tag => `<span class="chip">${tag}</span>`).join('')}</div>`
         : '';
+      const visibilityMarkup = formatVisibility(doc.visibility);
       return `
         <div class="doc-card">
           <div class="line-1">${owned ? 'Your document' : `Author: ${ownerId}`}</div>
           <div class="line-2">${doc.title || 'Untitled'}</div>
           <div class="line-3">${doc.description || 'No description'}</div>
-          ${tagsMarkup}
+          <div class="chip-bar">${visibilityMarkup}${tagsMarkup ? tagsMarkup.replace('<div class="chip-bar">', '').replace('</div>', '') : ''}</div>
           <div class="card-actions">
             <button class="text-btn" data-feed-action="load" data-feed-index="${index}">Read</button>
             <button class="text-btn" data-feed-action="copy" data-feed-index="${index}">Copy</button>
@@ -1407,9 +1457,11 @@
         const tagsMarkup = Array.isArray(doc.tags) && doc.tags.length
           ? `<div class="chip-bar">${doc.tags.map(tag => `<span class="chip">${tag}</span>`).join('')}</div>`
           : '';
+        const visibilityMarkup = formatVisibility(doc.visibility);
         return `
           <div class="result-card">
-            <div class="line-1">${doc.visibility || 'private'}</div>
+            <div class="line-1"></div>
+            <div class="chip-bar">${visibilityMarkup}</div>
             <div class="line-2">${doc.title || 'Untitled'}</div>
             <div>${doc.description || 'No description'}</div>
             ${tagsMarkup}
