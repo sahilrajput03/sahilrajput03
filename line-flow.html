@@ -1249,6 +1249,7 @@
     state.currentReadingDocId = documentId;
     dom.lineText.textContent = parsed[0];
     dom.lineBadge.textContent = `LINE 1`;
+    $('#control-panel').classList.add('hidden');
     $('#reader-panel').classList.remove('hidden');
     showScreen('reader');
     hideSwipeHint();
@@ -1765,6 +1766,7 @@
   [dom.btnBack, $('#btn-close')].forEach(el => {
     el?.addEventListener?.('click', () => {
       $('#reader-panel').classList.add('hidden')
+      $('#control-panel').classList.remove('hidden');
       dom.swipeHint.style.opacity = '1';
     });
   });
@@ -1778,6 +1780,7 @@
   });
   dom.btnNew.addEventListener('click', () => {
     $('#reader-panel').classList.add('hidden')
+    $('#control-panel').classList.remove('hidden');
     dom.textInput.value = '';
     updateWordCount();
     dom.swipeHint.style.opacity = '1';
