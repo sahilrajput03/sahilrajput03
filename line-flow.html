@@ -1234,6 +1234,13 @@
     return `<span class="visibility-badge ${vis}">${config.icon} ${config.label}</span>`;
   };
 
+  const formatAuthorLabel = doc => {
+    if (!doc) return 'Unknown author';
+    const name = doc.user?.name || 'Unknown author';
+    const username = doc.user?.username ? `@${doc.user.username}` : 'Unknown username';
+    return `${name} · ${username}`;
+  };
+
   const startReadingFromText = (content, documentId = null) => {
     const parsed = parseText(content);
     if (!parsed.length) {
@@ -1377,13 +1384,14 @@
     dom.feedList.innerHTML = docs.map((doc, index) => {
       const ownerId = safeId(doc.userId);
       const owned = state.user && ownerId === state.user.userId;
+      const authorLabel = formatAuthorLabel(doc);
       const tagsMarkup = Array.isArray(doc.tags) && doc.tags.length
         ? `<div class="chip-bar">${doc.tags.map(tag => `<span class="chip">${tag}</span>`).join('')}</div>`
         : '';
       const visibilityMarkup = formatVisibility(doc.visibility);
       return `
         <div class="doc-card">
-          <div class="line-1">${owned ? 'Your document' : `Author: ${ownerId}`}</div>
+          <div class="line-1">${owned ? 'You • ' : 'Author • '}${authorLabel}</div>
           <div class="line-2">${doc.title || 'Untitled'}</div>
           <div class="line-3">${doc.description || 'No description'}</div>
           <div class="chip-bar">${visibilityMarkup}${tagsMarkup ? tagsMarkup.replace('<div class="chip-bar">', '').replace('</div>', '') : ''}</div>
@@ -1422,6 +1430,7 @@
       dom.searchDocs.innerHTML = '<p class="muted">No documents found.</p>';
     } else {
       dom.searchDocs.innerHTML = docs.map((doc, index) => {
+        const authorLabel = formatAuthorLabel(doc);
         const tagsMarkup = Array.isArray(doc.tags) && doc.tags.length
           ? `<div class="chip-bar">${doc.tags.map(tag => `<span class="chip">${tag}</span>`).join('')}</div>`
           : '';
@@ -1429,7 +1438,7 @@
         const owned = state.user && safeId(doc.userId) === state.user.userId;
         return `
           <div class="result-card">
-            <div class="line-1"></div>
+            <div class="line-1">${owned ? 'You • ' : 'Author • '}${authorLabel}</div>
             <div class="chip-bar">${visibilityMarkup}</div>
             <div class="line-2">${doc.title || 'Untitled'}</div>
             <div>${doc.description || 'No description'}</div>
