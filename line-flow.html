@@ -917,7 +917,13 @@
     const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
 
   const isDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname.startsWith('192.168.');
-  const API_BASE = `https://api${isDev ? "-dev": ""}.mypot.in/api/v1/line-flow`;
+  // const API_HOST = `https://api${isDev ? "-dev": ""}.mypot.in`;
+  // Note: I am using localhost instead of api-dev.mypot.in for
+  //       development untile my broadband starts working again.
+  const API_HOST = isDev ? `http://localhost:8080`: `https://api.mypot.in`;
+  const API_SLUG = '/api/v1/line-flow'
+  const API_BASE = API_HOST + API_SLUG
+
   const SESSION_KEY = 'lineflow_session';
 
   const dom = {
@@ -1398,7 +1404,7 @@
         if (!doc) return;
         if (action === 'load') startReadingFromDoc(doc);
         if (action === 'copy') {
-          button.textContent = 'COPIED';
+          button.textContent = 'COPIED ✅';
           button.disabled = true;
           copyDocument(safeId(doc._id));
         }
@@ -1475,7 +1481,7 @@
           const idx = Number(button.dataset.userIndex);
           const user = state.searchUsers[idx];
           if (!user) return;
-          followUser(safeId(user.userId));
+          followUser(safeId(user._id));
         });
       });
     }
@@ -1493,6 +1499,7 @@
     } catch (error) {
       setFeedback(dom.searchFeedback, error.message, 'error');
     }
+    $('#search-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   const copyDocument = async documentId => {
