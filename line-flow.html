@@ -287,6 +287,15 @@
     font-family: var(--font-display);
   }
 
+  .doc-card .line-4,
+  .result-card .line-4 {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: var(--muted);
+    text-transform: none;
+  }
+
   .chip-bar {
     display: flex;
     flex-wrap: wrap;
@@ -1241,6 +1250,21 @@
     return `${name} · ${username}`;
   };
 
+  const documentTimestampFormatter = new Intl.DateTimeFormat('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+  });
+
+  const formatDocumentTimestamp = createdAt => {
+    if (!createdAt) return '';
+    const parsed = new Date(createdAt);
+    if (Number.isNaN(parsed.getTime())) return '';
+    return documentTimestampFormatter.format(parsed);
+  };
+
   const startReadingFromText = (content, documentId = null) => {
     const parsed = parseText(content);
     if (!parsed.length) {
@@ -1389,11 +1413,14 @@
         ? `<div class="chip-bar">${doc.tags.map(tag => `<span class="chip">${tag}</span>`).join('')}</div>`
         : '';
       const visibilityMarkup = formatVisibility(doc.visibility);
+      const createdAtLine = formatDocumentTimestamp(doc.createdAt);
+      const createdAtMarkup = createdAtLine ? `<div class="line-4">Created · ${createdAtLine}</div>` : '';
       return `
         <div class="doc-card">
           <div class="line-1">${owned ? 'You • ' : 'Author • '}${authorLabel}</div>
           <div class="line-2">${doc.title || 'Untitled'}</div>
           <div class="line-3">${doc.description || 'No description'}</div>
+          ${createdAtMarkup}
           <div class="chip-bar">${visibilityMarkup}${tagsMarkup ? tagsMarkup.replace('<div class="chip-bar">', '').replace('</div>', '') : ''}</div>
           <div class="card-actions">
             <button class="text-btn" data-feed-action="load" data-feed-index="${index}">Read</button>
@@ -1436,11 +1463,14 @@
           : '';
         const visibilityMarkup = formatVisibility(doc.visibility);
         const owned = state.user && safeId(doc.userId) === state.user.userId;
+        const createdAtLine = formatDocumentTimestamp(doc.createdAt);
+        const createdAtMarkup = createdAtLine ? `<div class="line-4">Created · ${createdAtLine}</div>` : '';
         return `
           <div class="result-card">
             <div class="line-1">${owned ? 'You • ' : 'Author • '}${authorLabel}</div>
             <div class="chip-bar">${visibilityMarkup}</div>
             <div class="line-2">${doc.title || 'Untitled'}</div>
+            ${createdAtMarkup}
             <div>${doc.description || 'No description'}</div>
             ${tagsMarkup}
             <div class="card-actions">
