@@ -65,6 +65,7 @@
   }
 
   .panel-card.hidden,
+  .auth-toggle.hidden,
   .hidden {
     display: none;
   }
@@ -716,7 +717,7 @@
         <div class="muted" id="auth-status">Not signed in</div>
         <div class="feedback info" id="auth-feedback"></div>
       </div>
-      <div class="auth-toggle">
+      <div class="auth-toggle" id="btn-auth-toggle">
         <button class="btn-secondary active" id="btn-auth-register" type="button">Register</button>
         <button class="btn-secondary" id="btn-auth-login" type="button">Login</button>
       </div>
@@ -1077,6 +1078,7 @@
   };
 
   const setAuthMode = mode => {
+    $('#btn-auth-toggle').classList.remove('hidden');
     state.authMode = mode;
     dom.authToggleRegister.classList.toggle('active', mode === 'register');
     dom.authToggleLogin.classList.toggle('active', mode === 'login');
@@ -1115,6 +1117,8 @@
     dom.authSignupScreen.classList.add('hidden');
     dom.authLoginScreen.classList.add('hidden');
     dom.authVerifyScreen.classList.add('hidden');
+    $('#btn-auth-toggle').classList.add('hidden');
+
     $('#search-card').classList.remove('hidden')
     $('#feed-card').classList.remove('hidden')
     dom.btnShowCreate.classList.remove('hidden'); // Show "CREATE DOCUMENT" button.
