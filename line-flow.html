@@ -635,6 +635,27 @@
     color: var(--accent);
   }
 
+  .feed-card-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .feed-view-switch {
+    display: flex;
+    gap: 0.3rem;
+  }
+
+  .feed-view-switch .btn-secondary {
+    padding: 0.45rem 0.85rem;
+    font-size: 0.6rem;
+  }
+
+  .feed-view-switch .btn-secondary.active {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
   textarea#search-input {
     min-height: auto;
     resize: none;
@@ -868,8 +889,14 @@
 
     <section class="panel-card hidden" id="feed-card">
       <div class="card-title-row">
-        <h2>Your Feed</h2>
-        <button class="text-btn" id="btn-refresh-feed">Refresh</button>
+        <h2 id="feed-heading">My Feed</h2>
+        <div class="feed-card-actions">
+          <div class="feed-view-switch">
+            <button class="btn-secondary active" type="button" data-feed-view="feed">My Feed</button>
+            <button class="btn-secondary" type="button" data-feed-view="mine">My Docs</button>
+          </div>
+          <button class="text-btn" id="btn-refresh-feed">Refresh</button>
+        </div>
       </div>
       <div class="feedback info" id="feed-feedback"></div>
       <div id="feed-list"></div>
@@ -991,6 +1018,8 @@
     searchUsers: $('#search-users'),
     feedList: $('#feed-list'),
     feedFeedback: $('#feed-feedback'),
+    feedHeading: $('#feed-heading'),
+    feedToggleButtons: document.querySelectorAll('[data-feed-view]'),
     btnRefreshFeed: $('#btn-refresh-feed'),
     readerScreen: $('#reader-screen'),
     doneScreen: $('#done-screen'),
@@ -1023,6 +1052,7 @@
     lastDirection: null,
     pendingUsernameOrEmail: null,
     authMode: 'register',
+    activeFeedView: 'feed',
   };
 
   const parseTags = value => value
@@ -1113,11 +1143,13 @@
     $('#doc-create-card').classList.add('hidden');
   };
 
+  let feedbackCleanupCallbackTimeoutId = null;
   const setFeedback = (element, message, type = 'info') => {
+    clearTimeout(feedbackCleanupCallbackTimeoutId)
     element.textContent = message;
     element.className = `feedback ${type}`;
 
-    setTimeout(() => {
+    feedbackCleanupCallbackTimeoutId = setTimeout(() => {
       element.textContent = '';
       element.className = `feedback`;
     }, 5_000);
@@ -1269,6 +1301,21 @@
     const parsed = new Date(createdAt);
     if (Number.isNaN(parsed.getTime())) return '';
     return documentTimestampFormatter.format(parsed);
+  };
+
+  const FEED_VIEWS = {
+    feed: { label: 'My Feed', endpoint: '/documents/feed?limit=20' },
+    mine: { label: 'My Docs', endpoint: '/documents/mine?limit=20' },
+  };
+
+  const setActiveFeedView = view => {
+    const viewConfig = FEED_VIEWS[view];
+    if (!viewConfig) return;
+    state.activeFeedView = view;
+    dom.feedHeading.textContent = viewConfig.label;
+    dom.feedToggleButtons.forEach(button => {
+      button.classList.toggle('active', button.dataset.feedView === view);
+    });
   };
 
   const startReadingFromText = (content, documentId = null) => {
@@ -1579,15 +1626,19 @@
     }
   };
 
-  const refreshFeed = async () => {
+  const getFeedConfig = view => FEED_VIEWS[view] || FEED_VIEWS[state.activeFeedView] || FEED_VIEWS.feed;
+
+  const refreshFeed = async (view = state.activeFeedView) => {
+    const feedConfig = getFeedConfig(view);
+    if (!feedConfig) return;
     if (!state.token) {
-      setFeedback(dom.feedFeedback, 'Log in to see your feed.', 'error');
+      setFeedback(dom.feedFeedback, 'Log in to view documents.', 'error');
       return;
     }
     try {
-      const data = await apiRequest('/documents/feed?limit=20');
-      renderFeed(data.data.docs);
-      setFeedback(dom.feedFeedback, 'Feed refreshed.', 'info');
+      const data = await apiRequest(feedConfig.endpoint);
+      renderFeed(data.data.documents);
+      setFeedback(dom.feedFeedback, `${feedConfig.label} refreshed.`, 'info');
     } catch (error) {
       setFeedback(dom.feedFeedback, error.message, 'error');
     }
@@ -1821,6 +1872,14 @@
   dom.btnCreateDoc.addEventListener('click', createDocument);
   dom.btnShowCreate.addEventListener('click', showCreatePanel);
   dom.btnRefreshFeed.addEventListener('click', refreshFeed);
+  (dom.feedToggleButtons || []).forEach(button => {
+    button.addEventListener('click', () => {
+      const view = button.dataset.feedView;
+      if (!view) return;
+      setActiveFeedView(view);
+      refreshFeed(view);
+    });
+  });
   dom.btnSendOtp.addEventListener('click', handleSendOtp);
   dom.btnFillSample.addEventListener('click', fillSampleDetails);
   dom.btnVerifyOtp.addEventListener('click', handleVerifyOtp);
@@ -1935,6 +1994,7 @@
     } else {
       hideAuthScreens();
     }
+    setActiveFeedView(state.activeFeedView);
     dom.btnShowCreate.disabled = false;
 
     dom.textInput.value = isDev ? 'This line one. This is line two.': ''
