@@ -1355,17 +1355,7 @@
     dom.textInput.value = doc.text || '';
     updateWordCount();
     startReadingFromText(dom.textInput.value, safeId(doc._id));
-    lazyScrollToReaderPanel()
   };
-
-  async function lazyScrollToReaderPanel() {
-    // We wait for some time before keyboard is closed so that scrollIntoView doesn't mess up scroll position on chrome in android. [TESTED]
-    await new Promise(resolve => setTimeout(resolve, 300));
-    $('#reader-screen').scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
-  }
 
   const renderLine = direction => {
     const line = state.lines[state.current];
@@ -1878,7 +1868,6 @@
 
   dom.btnStart.addEventListener('click', () => {
     startReadingFromText(dom.textInput.value);
-    lazyScrollToReaderPanel()
   });
 
   dom.btnCreateDoc.addEventListener('click', createDocument);
