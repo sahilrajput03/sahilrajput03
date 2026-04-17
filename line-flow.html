@@ -1156,6 +1156,7 @@
     feedbackCleanupCallbackTimeoutId = setTimeout(() => {
       element.textContent = '';
       element.className = `feedback`;
+      feedbackCleanupCallbackTimeoutId = null
     }, 5_000);
   };
 
@@ -1623,8 +1624,8 @@
     }
     try {
       await apiRequest(`/documents/${documentId}`, { method: 'DELETE' });
-      setFeedback(dom.createFeedback, 'Document deleted successfully.', 'success');
-      refreshFeed();
+      await refreshFeed();
+      setFeedback(dom.feedFeedback, 'Document deleted successfully.', 'success');
       resetUpdateForm();
     } catch (error) {
       setFeedback(dom.createFeedback, error.message, 'error');
