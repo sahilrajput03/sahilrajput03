@@ -1496,7 +1496,7 @@
         if (!doc) return;
         if (action === 'load') startReadingFromDoc(doc);
         if (action === 'copy') {
-          button.textContent = 'COPIED ✅';
+          button.textContent = 'Copied to My Docs ✅';
           button.disabled = true;
           copyDocument(safeId(doc._id));
         }
@@ -1605,10 +1605,11 @@
     }
     try {
       await apiRequest(`/documents/${documentId}/copy`, { method: 'POST', body: {} });
-      setFeedback(dom.createFeedback, 'Document copied. Check your feed.', 'success');
-      refreshFeed();
+      setFeedback(dom.feedFeedback, 'Copied to My Docs ✅', 'success');
+      // Learn: We do not want to refresh feed because it looks like a refersh glitch instead of a feature.
+      // refreshFeed();
     } catch (error) {
-      setFeedback(dom.createFeedback, error.message, 'error');
+      setFeedback(dom.feedFeedback, error.message, 'error');
     }
   };
 
