@@ -1329,18 +1329,23 @@
     });
   };
 
-  const startReadingFromText = (content, documentId = null) => {
+  const getResumeLineIndex = (doc, lineCount) => {
+    const rawPosition = Number(doc?.lastReadPosition);
+    if (!Number.isFinite(rawPosition)) return 0;
+    const maxIndex = Math.max(0, lineCount - 1);
+    return Math.min(Math.max(0, Math.floor(rawPosition)), maxIndex);
+  };
+
+  const startReadingFromText = (content, documentId = null, startPosition = 0) => {
     const parsed = parseText(content);
     if (!parsed.length) {
       setFeedback(dom.createFeedback, 'Add some text first.', 'error');
       return;
     }
     state.lines = parsed;
-    state.current = 0;
+    state.current = Math.min(Math.max(0, Math.floor(startPosition)), parsed.length - 1);
     state.startTime = Date.now();
     state.currentReadingDocId = documentId;
-    dom.lineText.textContent = parsed[0];
-    dom.lineBadge.textContent = `LINE 1`;
     $('#control-panel').classList.add('hidden');
     $('#reader-panel').classList.remove('hidden');
     showScreen('reader');
@@ -1354,7 +1359,8 @@
     $('#reader-panel').classList.remove('hidden')
     dom.textInput.value = doc.text || '';
     updateWordCount();
-    startReadingFromText(dom.textInput.value, safeId(doc._id));
+    const resumeLineIndex = getResumeLineIndex(doc, parseText(dom.textInput.value).length);
+    startReadingFromText(dom.textInput.value, safeId(doc._id), resumeLineIndex);
   };
 
   const renderLine = direction => {
