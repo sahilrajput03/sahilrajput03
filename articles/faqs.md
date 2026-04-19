@@ -17,7 +17,7 @@
 
 **Q. When does scaling problem occur and how to fix it?**
 
-👉🏻 When minimum of 10k users visit your site at the same time (1 second).
+👉🏻 When minimum of 10k users visit your site at the same time in 1 second (roughly).
 
 1min = 6 lakhs visits
 
