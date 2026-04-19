@@ -5,12 +5,11 @@
 <!-- Import local stylesheet  -->
 <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
 
-<div style="display: flex; justify-content: space-between;">
-	<div>
-		<a href="./links-family-watch">Family Watch Links</a>
-	</div>
-	<div>
+<div>
+	<div style="text-align: right;">
 		<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
+		<br>
+		<a style="font-style: italic;" href="./links-family-watch">TV Links</a>
 	</div>
 </div>
 
