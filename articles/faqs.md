@@ -13,7 +13,7 @@
 
 **Q. What if my hobby project crashed if thousands of people start visiting my website?**
 
-👉🏻 This is called scaling issue. Check next FAQ to know how to fix it.
+👉🏻 This is called scaling issue. Check next FAQ to estimate when it occurs and how to fix it.
 
 **Q. When does scaling problem occur and how to fix it?**
 
