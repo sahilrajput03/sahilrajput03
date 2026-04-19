@@ -6,4 +6,6 @@ include: [".well-known"]
 # We must exclude `node_modules` otherwise jekyll compiles the node_modules code as well and thus fails when we run `bundle exec jekyll serve --livereload` command.
 exclude: 
  - "thoughts/thoughts-frontend/node_modules/*"
-remote_theme: abhinavs/moonwalk
+
+# Removing this theme because its not good but keeping here in case I need to test any other theme in future.
+# remote_theme: abhinavs/moonwalk
