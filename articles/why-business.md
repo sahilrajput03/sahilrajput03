@@ -1,4 +1,4 @@
-# Why Business? 👋
+# Why Business? 🚀
 
 26 Oct 2025
 
