@@ -7,7 +7,7 @@
 
 <div style="display: flex; justify-content: space-between;">
 	<div>
-		<a style="font-style: italic;" href="./links-family-watch">Family Watch Links</a>
+		<a href="./links-family-watch">Family Watch Links</a>
 	</div>
 	<div>
 		<a target="_blank" style="font-style: italic;" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/README.md">Edit this page</a>
@@ -15,12 +15,6 @@
 </div>
 
 <h1 align="center">Sahil Rajput</h1>
-
-THIS IS FOR TEST - THIS IS FOR TEST - THIS IS FOR TEST - THIS IS FOR TEST - 
-
-THIS IS FOR TEST - THIS IS FOR TEST - THIS IS FOR TEST - THIS IS FOR TEST - 
-
-THIS IS FOR TEST - THIS IS FOR TEST - THIS IS FOR TEST - THIS IS FOR TEST - 
 
 <h6 align="center">Crazy Spirit, Namer, Live in heart, Dangerously insatiable curiosity</h6>
 
