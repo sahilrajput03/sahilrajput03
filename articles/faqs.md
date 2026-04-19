@@ -23,7 +23,7 @@
 
 1hour = 60 min = 60 lakhs visits
 
-This means that your hobby projects can handle RS 60 lakh visits in 1 hour and you can tell the same to any business person.
+This means that your hobby projects can handle 60 lakh visits in 1 hour and you can tell the same to any business person.
 
 Most of the businesses do not have this requirement, like 90% in my experience (or opinion). For the rest of 10%, you'll need expert to help you fix those issues, no doubt about it.
 
