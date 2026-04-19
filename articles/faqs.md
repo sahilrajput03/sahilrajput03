@@ -28,7 +28,7 @@ Most of the businesses do not have this requirement, like 90% in my experience (
 
 **Q. Time blocking/constraints trait?**
 
-👉🏻 A really good traid followed by A (my friend). This helps in predictiveness I guess, I noticed in my friend.
+👉🏻 A really good trait followed by A (my friend). This helps in predictiveness I guess, I noticed in my friend.
 
 **Q. Is degree/job important to earn money?**
 
