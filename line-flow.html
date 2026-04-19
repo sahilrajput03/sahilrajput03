@@ -1054,6 +1054,8 @@
     searchUsers: [],
     currentReadingDocId: null,
     currentReadingDocUserId: null,
+    currentReadingIntroAlertShown: false,
+    sessionLinesRead: 0,
     lines: [],
     current: 0,
     startTime: null,
@@ -1364,6 +1366,23 @@
     }
   };
 
+  const showNonOwnedReadingNotice = () => {
+    alert(
+      'The progress will not be saved for this session because reading progress is saved only for the documents you own. To create your own copy of this document, use the COPY button to copy it to "My Docs" and start reading that document instead.\n\nHappy reading ✨'
+    );
+  };
+
+  const getSessionLinesRead = () => {
+    return state.sessionLinesRead;
+  };
+
+  const closeReaderPanel = () => {
+    alert(`Congrats you read ${getSessionLinesRead()} lines in this session.`);
+    $('#reader-panel').classList.add('hidden');
+    $('#control-panel').classList.remove('hidden');
+    dom.swipeHint.style.opacity = '1';
+  };
+
   const startReadingFromText = (content, documentId = null, startPosition = 0, documentUserId = null) => {
     const parsed = parseText(content);
     if (!parsed.length) {
@@ -1375,6 +1394,8 @@
     state.startTime = Date.now();
     state.currentReadingDocId = documentId;
     state.currentReadingDocUserId = safeId(documentUserId) || null;
+    state.currentReadingIntroAlertShown = false;
+    state.sessionLinesRead = parsed.length ? 1 : 0;
     $('#control-panel').classList.add('hidden');
     $('#reader-panel').classList.remove('hidden');
     showScreen('reader');
@@ -1391,6 +1412,10 @@
     const canResume = isOwnedByCurrentUser(doc);
     const resumeLineIndex = canResume ? getResumeLineIndex(doc, parseText(dom.textInput.value).length) : 0;
     startReadingFromText(dom.textInput.value, safeId(doc._id), resumeLineIndex, safeId(doc.userId));
+    if (!canResume && !state.currentReadingIntroAlertShown) {
+      state.currentReadingIntroAlertShown = true;
+      showNonOwnedReadingNotice();
+    }
   };
 
   const renderLine = direction => {
@@ -1442,6 +1467,7 @@
       return;
     }
     state.current += 1;
+    state.sessionLinesRead += 1;
     renderLine('next');
     persistReadPosition();
   };
@@ -1449,6 +1475,7 @@
   const goPrev = () => {
     if (state.current === 0) return;
     state.current -= 1;
+    state.sessionLinesRead += 1;
     renderLine('prev');
     persistReadPosition();
   };
@@ -1934,11 +1961,7 @@
   dom.btnPrev.addEventListener('click', goPrev);
   dom.btnNext.addEventListener('click', goNext);
   [dom.btnBack, $('#btn-close')].forEach(el => {
-    el?.addEventListener?.('click', () => {
-      $('#reader-panel').classList.add('hidden')
-      $('#control-panel').classList.remove('hidden');
-      dom.swipeHint.style.opacity = '1';
-    });
+    el?.addEventListener?.('click', closeReaderPanel);
   });
   dom.btnRestart.addEventListener('click', () => {
     if (!state.lines.length) return;
