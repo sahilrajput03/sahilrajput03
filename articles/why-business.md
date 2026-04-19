@@ -2,7 +2,7 @@
 
 26 Oct 2025
 
-I'm fed up with working on projects which I don't have full control of. I crave the “true feeling” of working on a project which: 
+I'm fed up with working on projects which I don't have full control of. Control here means I have full flexibility and abiliry to unleash my capacity in as many domains as possible. I crave the “true feeling” of working on a project which: 
 
 - I am responsible for complete control & responsibility in terms of project delivery and software quality.
 - I can take responsibility for selling directly to people (customers or other businesses).
