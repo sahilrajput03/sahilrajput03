@@ -1053,6 +1053,7 @@
     searchDocs: [],
     searchUsers: [],
     currentReadingDocId: null,
+    currentReadingDocUserId: null,
     lines: [],
     current: 0,
     startTime: null,
@@ -1336,7 +1337,34 @@
     return Math.min(Math.max(0, Math.floor(rawPosition)), maxIndex);
   };
 
-  const startReadingFromText = (content, documentId = null, startPosition = 0) => {
+  const isOwnedByCurrentUser = doc => {
+    return Boolean(state.user && safeId(doc?.userId) === state.user.userId);
+  };
+
+  const fetchDocumentById = async documentId => {
+    if (!documentId) return null;
+    const response = await apiRequest(`/documents/${documentId}`);
+    return response?.data?.document || null;
+  };
+
+  const openDocumentById = async (documentId, action, feedbackEl) => {
+    try {
+      const fullDoc = await fetchDocumentById(documentId);
+      if (!fullDoc) {
+        setFeedback(feedbackEl, 'Could not load the document.', 'error');
+        return;
+      }
+      if (action === 'read') {
+        startReadingFromDoc(fullDoc);
+      } else if (action === 'edit') {
+        selectDocument(fullDoc);
+      }
+    } catch (err) {
+      setFeedback(feedbackEl, err.message || 'Could not load the document.', 'error');
+    }
+  };
+
+  const startReadingFromText = (content, documentId = null, startPosition = 0, documentUserId = null) => {
     const parsed = parseText(content);
     if (!parsed.length) {
       setFeedback(dom.createFeedback, 'Add some text first.', 'error');
@@ -1346,6 +1374,7 @@
     state.current = Math.min(Math.max(0, Math.floor(startPosition)), parsed.length - 1);
     state.startTime = Date.now();
     state.currentReadingDocId = documentId;
+    state.currentReadingDocUserId = safeId(documentUserId) || null;
     $('#control-panel').classList.add('hidden');
     $('#reader-panel').classList.remove('hidden');
     showScreen('reader');
@@ -1359,8 +1388,9 @@
     $('#reader-panel').classList.remove('hidden')
     dom.textInput.value = doc.text || '';
     updateWordCount();
-    const resumeLineIndex = getResumeLineIndex(doc, parseText(dom.textInput.value).length);
-    startReadingFromText(dom.textInput.value, safeId(doc._id), resumeLineIndex);
+    const canResume = isOwnedByCurrentUser(doc);
+    const resumeLineIndex = canResume ? getResumeLineIndex(doc, parseText(dom.textInput.value).length) : 0;
+    startReadingFromText(dom.textInput.value, safeId(doc._id), resumeLineIndex, safeId(doc.userId));
   };
 
   const renderLine = direction => {
@@ -1397,7 +1427,7 @@
   };
 
   const persistReadPosition = () => {
-    if (!state.currentReadingDocId || !state.token) return;
+    if (!state.currentReadingDocId || !state.token || safeId(state.currentReadingDocUserId) !== state.user?.userId) return;
     apiRequest(`/documents/${state.currentReadingDocId}/read-position`, {
       method: 'PATCH',
       body: { lastReadPosition: state.current },
@@ -1497,13 +1527,13 @@
         const idx = Number(button.dataset.feedIndex);
         const doc = state.feedDocs[idx];
         if (!doc) return;
-        if (action === 'load') startReadingFromDoc(doc);
+        if (action === 'load') openDocumentById(safeId(doc._id), 'read', dom.feedFeedback);
         if (action === 'copy') {
           button.textContent = 'Copied to My Docs ✅';
           button.disabled = true;
           copyDocument(safeId(doc._id));
         }
-        if (action === 'edit') selectDocument(doc);
+        if (action === 'edit') openDocumentById(safeId(doc._id), 'edit', dom.feedFeedback);
         if (action === 'delete') deleteDocument(safeId(doc._id));
       });
     });
@@ -1548,13 +1578,13 @@
           const idx = Number(button.dataset.searchIndex);
           const doc = state.searchDocs[idx];
           if (!doc) return;
-          if (action === 'read') startReadingFromDoc(doc);
+          if (action === 'read') openDocumentById(safeId(doc._id), 'read', dom.searchFeedback);
           if (action === 'copy') {
             button.textContent = 'COPIED';
             button.disabled = true;
             copyDocument(safeId(doc._id));
           }
-          if (action === 'edit') selectDocument(doc);
+          if (action === 'edit') openDocumentById(safeId(doc._id), 'edit', dom.searchFeedback);
           if (action === 'delete') deleteDocument(safeId(doc._id));
         });
       });
