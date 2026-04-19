@@ -805,7 +805,7 @@
         <div class="reader-controls">
           <button class="btn-start" id="btn-create-doc">Save document</button>
           <button class="btn-secondary" id="btn-start" disabled>Start reading</button>
-          <button class="btn-secondary" id="btn-fill-doc-sample" type="button">Fill Sample document</button>
+          <button class="btn-secondary hidden" id="btn-fill-doc-sample" type="button">Fill Sample document</button>
           <button class="btn-secondary" id="btn-cancel-create-doc" type="button">Cancel</button>
         </div>
       </div>
@@ -1044,6 +1044,8 @@
     createFeedback: $('#create-feedback'),
     cancelCreateDoc: $('#btn-cancel-create-doc'),
   };
+
+  dom.btnFillDocSample?.classList.toggle('hidden', !isDev);
 
   const state = {
     token: null,
