@@ -11,7 +11,7 @@ Those are major reasons but there are other reasons as well like —
 
 - To work on projects which are meaningful to me. At this time of life, I want to work most on both customer utility, sales and  business development.
 - I’m bored of coding so maybe doing business will spice up my software journey and hopefully life.
-- I’m tired of fixing codebases of other projects.
+- I’m tired of fixing codebases of other people.
 - I want to write frontend code of applications in Svelte.
 - I don't want to work with react because I don't like:
 	- default state management with useState though solutions like Zustand and all Polimander’s state management solutions seem much better to me. (Svelte has a brilliant baked-in solution).
