@@ -15,7 +15,7 @@
 
 👉🏻 This is called scaling issue. Check next FAQ to know how to fix it.
 
-**Q. When does scaling problem occur?**
+**Q. When does scaling problem occur and how to fix it?**
 
 👉🏻 When minimum of 10k users visit your site at the same time (1 second).
 
@@ -23,7 +23,7 @@
 
 1hour = 60 min = 60 lakhs visits
 
-Most of the businesses do not have this requirement, like 90% in my experience (or opinion).
+Most of the businesses do not have this requirement, like 90% in my experience (or opinion). For the rest of 10%, you'll need expert to help you fix those issues, no doubt about it.
 
 
 **Q. Who goes to sell things? I go to them to sell or they come to me to buy software?**
