@@ -716,7 +716,6 @@
 
     <section class="panel-card" id="auth-card">
       <div class="card-title-row">
-        <h2>Account</h2>
         <button class="text-btn" id="btn-logout" style="display:none;">Logout</button>
       </div>
       <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
@@ -865,7 +864,6 @@
 
     <section class="panel-card hidden" id="search-card">
       <div class="card-title-row">
-        <h2>Search</h2>
       </div>
       <div class="feedback info" id="search-feedback"></div>
       <div class="field-grid">
@@ -896,7 +894,6 @@
 
     <section class="panel-card hidden" id="feed-card">
       <div class="card-title-row">
-        <h2 id="feed-heading">My Feed</h2>
         <div class="feed-card-actions">
           <div class="feed-view-switch">
             <button class="btn-secondary active" type="button" data-feed-view="feed">My Feed</button>
@@ -1025,7 +1022,6 @@
     searchUsers: $('#search-users'),
     feedList: $('#feed-list'),
     feedFeedback: $('#feed-feedback'),
-    feedHeading: $('#feed-heading'),
     feedToggleButtons: document.querySelectorAll('[data-feed-view]'),
     btnRefreshFeed: $('#btn-refresh-feed'),
     readerScreen: $('#reader-screen'),
@@ -1328,7 +1324,6 @@
     const viewConfig = FEED_VIEWS[view];
     if (!viewConfig) return;
     state.activeFeedView = view;
-    dom.feedHeading.textContent = viewConfig.label;
     dom.feedToggleButtons.forEach(button => {
       button.classList.toggle('active', button.dataset.feedView === view);
     });
