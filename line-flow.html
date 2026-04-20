@@ -1574,13 +1574,13 @@
         return `
           <div class="result-card">
             <div class="line-1">${owned ? 'You • ' : 'Author • '}${authorLabel}</div>
-            <div class="chip-bar">${visibilityMarkup}</div>
             <div class="line-2">${doc.title || 'Untitled'}</div>
-            ${createdAtMarkup}
             <div>${doc.description || 'No description'}</div>
+            ${createdAtMarkup}
+            <div class="chip-bar">${visibilityMarkup}</div>
             ${tagsMarkup}
             <div class="card-actions">
-              <button class="text-btn" data-search-action="read" data-search-index="${index}">Read</button>
+              <button class="text-btn" style="border: 1px solid var(--accent2);" data-search-action="read" data-search-index="${index}">Read</button>
               <button class="text-btn" data-search-action="copy" data-search-index="${index}">Copy</button>
               ${owned ? `<button class="text-btn" data-search-action="edit" data-search-index="${index}">Edit</button>` : ''}
               ${owned ? `<button class="text-btn" data-search-action="delete" data-search-index="${index}">Delete</button>` : ''}
