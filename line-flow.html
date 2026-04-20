@@ -323,7 +323,7 @@
   .visibility-badge {
     border-radius: 999px;
     padding: 0.2rem 0.7rem;
-    font-size: 0.65rem;
+    font-size: 0.55rem;
     font-family: var(--font-mono);
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1529,7 +1529,7 @@
           ${createdAtMarkup}
           <div class="chip-bar">${visibilityMarkup}${tagsMarkup ? tagsMarkup.replace('<div class="chip-bar">', '').replace('</div>', '') : ''}</div>
           <div class="card-actions">
-            <button class="text-btn" data-feed-action="load" data-feed-index="${index}">Read</button>
+            <button class="text-btn" style="border: 1px solid var(--accent2);" data-feed-action="load" data-feed-index="${index}">Read</button>
             <button class="text-btn" data-feed-action="copy" data-feed-index="${index}">Copy</button>
             ${owned ? `<button class="text-btn" data-feed-action="edit" data-feed-index="${index}">Edit</button>` : ''}
             ${owned ? `<button class="text-btn" data-feed-action="delete" data-feed-index="${index}">Delete</button>` : ''}
