@@ -127,12 +127,6 @@
     color: var(--text);
   }
 
-  @media (max-width: 500px) {
-    #feed-card > .card-title-row{
-      flex-direction: column;
-    }
-  }
-
   .muted {
     color: var(--muted);
     font-family: var(--font-mono);
@@ -715,12 +709,12 @@
     </div>
 
     <section class="panel-card" id="auth-card">
-      <div class="card-title-row">
-        <button class="text-btn" id="btn-logout" style="display:none;">Logout</button>
-      </div>
       <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
         <div class="muted" id="auth-status">Not signed in</div>
         <div class="feedback info" id="auth-feedback"></div>
+      </div>
+      <div class="card-title-row" style="justify-content: flex-end;">
+        <button class="text-btn" style="padding: 3px" id="btn-logout" style="display:none;">Logout</button>
       </div>
       <div class="auth-toggle" id="btn-auth-toggle">
         <button class="btn-secondary active" id="btn-auth-register" type="button">Register</button>
@@ -863,8 +857,6 @@
     </section>
 
     <section class="panel-card hidden" id="search-card">
-      <div class="card-title-row">
-      </div>
       <div class="feedback info" id="search-feedback"></div>
       <div class="field-grid">
         <label class="field">
@@ -893,7 +885,7 @@
     </section>
 
     <section class="panel-card hidden" id="feed-card">
-      <div class="card-title-row">
+      <div class="card-title-row" style="justify-content: center;">
         <div class="feed-card-actions">
           <div class="feed-view-switch">
             <button class="btn-secondary active" type="button" data-feed-view="feed">My Feed</button>
