@@ -1117,14 +1117,23 @@
     dom.authLoginScreen.classList.add('hidden');
     dom.authVerifyScreen.classList.add('hidden');
     $('#btn-auth-toggle').classList.add('hidden');
-
-    $('#search-card').classList.remove('hidden')
-    $('#feed-card').classList.remove('hidden')
+    showSearchAndFeedPanels(true)
     dom.btnShowCreate.classList.remove('hidden'); // Show "CREATE DOCUMENT" button.
+  };
+
+  const showSearchAndFeedPanels = (show=true) => {
+    if (show) {
+      $('#search-card').classList.remove('hidden');
+      $('#feed-card').classList.remove('hidden');
+    } else {
+      $('#search-card').classList.add('hidden');
+      $('#feed-card').classList.add('hidden');
+    }
   };
 
   const showCreatePanel = () => {
     dom.btnShowCreate.classList.add('hidden');
+    showSearchAndFeedPanels(false);
     $('#doc-create-card').classList.remove('hidden');
     dom.btnShowCreate.disabled = !state.user;
   };
@@ -1136,6 +1145,7 @@
 
   const showUpdatePanel = () => {
     // dom.updateForm.classList.remove('hidden');
+    showSearchAndFeedPanels(false);
     $('#doc-update-card').classList.remove('hidden');
     $('#doc-create-card').classList.add('hidden');
   };
