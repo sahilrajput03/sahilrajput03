@@ -55,8 +55,7 @@ Hide/Show Element
 ==================
 Hide: el.classList.add('hidden')
 Show: el.classList.remove('hidden')
-
-
+Show/Hide in single statement: el.classList.toggle('hidden', hide[=true/false])
 
 
 -----------
