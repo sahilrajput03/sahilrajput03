@@ -711,11 +711,9 @@
     <section class="panel-card" id="auth-card">
       <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
         <div class="muted" id="auth-status">Not signed in</div>
-        <div class="feedback info" id="auth-feedback"></div>
+        <button class="text-btn hidden" style="padding: 3px" id="btn-logout" style="display:none;">Logout</button>
       </div>
-      <div class="card-title-row" style="justify-content: flex-end;">
-        <button class="text-btn" style="padding: 3px" id="btn-logout" style="display:none;">Logout</button>
-      </div>
+      <div class="feedback info" id="auth-feedback"></div>
       <div class="auth-toggle" id="btn-auth-toggle">
         <button class="btn-secondary active" id="btn-auth-register" type="button">Register</button>
         <button class="btn-secondary" id="btn-auth-login" type="button">Login</button>
@@ -857,10 +855,12 @@
     </section>
 
     <section class="panel-card hidden" id="search-card">
-      <div class="feedback info" id="search-feedback"></div>
       <div class="field-grid">
         <label class="field">
-          <span>Query</span>
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>Search</div>
+            <div class="feedback info" id="search-feedback"></div>
+          </div>
           <textarea id="search-input" type="text" placeholder="People & Document (title, description and tags)"></textarea>
         </label>
         <label class="field">
@@ -1117,19 +1117,16 @@
     dom.authLoginScreen.classList.add('hidden');
     dom.authVerifyScreen.classList.add('hidden');
     $('#btn-auth-toggle').classList.add('hidden');
+    dom.btnLogout.classList.remove('hidden');
     showSearchAndFeedPanels(true)
     dom.btnShowCreate.classList.remove('hidden'); // Show "CREATE DOCUMENT" button.
   };
 
-  const showSearchAndFeedPanels = (show=true) => {
-    if (show) {
-      $('#search-card').classList.remove('hidden');
-      $('#feed-card').classList.remove('hidden');
-    } else {
-      $('#search-card').classList.add('hidden');
-      $('#feed-card').classList.add('hidden');
-    }
-  };
+  function showSearchAndFeedPanels(show=true) {
+    const hide = !show;
+    $('#search-card').classList.toggle('hidden', hide);
+    $('#feed-card').classList.toggle('hidden', hide);
+  }
 
   const showCreatePanel = () => {
     dom.btnShowCreate.classList.add('hidden');
@@ -1225,7 +1222,7 @@
       state.user = session.user;
     }
     dom.authStatus.textContent = state.user ? `${state.user.name} (@${state.user.username})` : 'Not signed in';
-    dom.btnLogout.style.display = state.user ? 'inline-flex' : 'none';
+    dom.btnLogout.classList.toggle('hidden', !state.user);
     dom.btnCreateDoc.disabled = !state.user;
     dom.btnShowCreate.disabled = !state.user;
     setAuthToggleVisibility(!state.user);
@@ -1739,7 +1736,7 @@
       const updated = state.feedDocs.find(doc => safeId(doc._id) === safeId(state.selectedDoc._id));
       if (updated) selectDocument(updated);
       hideUpdatePanel();
-      $('#doc-update-card').classList.add('hidden');
+      showSearchAndFeedPanels();
     } catch (error) {
       setFeedback(dom.updateFeedback, error.message, 'error');
     }
@@ -1809,6 +1806,7 @@
       setFeedback(dom.createFeedback, 'Document saved. It is now in your feed.', 'success');
       refreshFeed();
       hideCreatePanel();
+      showSearchAndFeedPanels();
       dom.btnShowCreate.classList.remove('hidden');
     } catch (error) {
       setFeedback(dom.createFeedback, error.message, 'error');
@@ -2028,6 +2026,7 @@
   dom.cancelCreateDoc.addEventListener('click', e => {
     $('#doc-create-card').classList.add('hidden');
     dom.btnShowCreate.classList.remove('hidden'); 
+    showSearchAndFeedPanels(true)
 
     // clear form details:
     dom.docTitle.value = '';
@@ -2039,6 +2038,7 @@
 
   $('#btn-cancel-updte-doc').addEventListener('click', () => {
     $('#doc-update-card').classList.add('hidden');
+    showSearchAndFeedPanels(true)
   })
 
   const init = () => {
