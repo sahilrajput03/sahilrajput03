@@ -1,5 +1,7 @@
 # Changelog
 
+*Inspiration of creating this Changelog: [ChatGPT](https://chatgpt.com/c/69e84184-6d78-83e8-90d1-1c116efe6453)*
+
 ## v1.0.0
 - Initial release
 - Basic reading feature introduced
