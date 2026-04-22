@@ -1,5 +1,7 @@
 # Lineflow SURGERY
 
+**LEARN: I have not added is reading progress while reading because I don't like seeing reading progress as it needs your thinking and it's just some percentage that you are trying to achieve.**
+
 - [ ] PWA for easy access by my friends on both desktop and mobile.
 - [ ] Whenever "doc-create-card" or "doc-update-card" is shown please hide "search-card" and "feed-card".
 <!-- FUTURE -->
