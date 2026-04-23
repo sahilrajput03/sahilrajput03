@@ -1,5 +1,7 @@
 # Lineflow SURGERY
 
+**Links: [Future Todos](./_FUTURE)**, **[Done Todos](./_DONE)**
+
 **LEARN: I have not added is reading progress while reading because I don't like seeing reading progress as it needs your thinking and it's just some percentage that you are trying to achieve.**
 
 - [ ] PWA for easy access by my friends on both desktop and mobile.

@@ -1,5 +1,7 @@
 <!-- Reverse chronology order -->
 
+**Links: [Future Todos](./_FUTURE)**, **[Done Todos](./_DONE)**
+
 - [x] VSCode Extension for LineFlow
 
 - [x] Fix the line number continuation issue via using `lastReadPosition`.
