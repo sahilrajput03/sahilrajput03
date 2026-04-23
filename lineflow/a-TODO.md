@@ -1,8 +1,10 @@
 {% include lineflow-links.md %} 
 
-## SURGERY (Current Todos)
+**Note:**
+- I have not added reading progress while reading because I don't like seeing reading progress as it needs your thinking and it's just some percentage that you are trying to achieve.
+- There is this file which I made to remember the dom elements in frontend for myself: `~/Documents/github_repos/sahilrajput03/line-flow.notes.txt`
 
-**LEARN: I have not added is reading progress while reading because I don't like seeing reading progress as it needs your thinking and it's just some percentage that you are trying to achieve.**
+## SURGERY (Current Todos)
 
 - [ ] PWA for easy access by my friends on both desktop and mobile.
 - [ ] Hide line number wala feature simply by having a toogle on the ui to hide/show the line number in the reading panel.
@@ -24,6 +26,3 @@
   -  % completion status of self
   - % completion status of other users
 
-
-- There is this file which I made to remember the dom elements in frontend for myself:
-  `~/Documents/github_repos/sahilrajput03/line-flow.notes.txt`

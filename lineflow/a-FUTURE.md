@@ -1,14 +1,6 @@
 {% include lineflow-links.md %} 
 
-## Future Todos
-
-**LLM Chats:**
-
-- [ChatGPT](https://chatgpt.com/c/69dbb626-7354-83e8-8f14-431bdd1443c8) (private)
-
-**❤️Check ongoing [TODOS](https://github.com/sahilrajput03/sahilrajput03/blob/main/line-flow/_TODO.md) and [DONE](https://github.com/sahilrajput03/sahilrajput03/blob/main/line-flow/_DONE.md) features..**
-
-**More Todos:**
+## Future
 
 1. Add black and white theme mode.  
 2. Add addiction controller or may be other tasks reminder to this app in future becoz it can be too much addictive for me to spend hours in a day.  
