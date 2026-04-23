@@ -1,6 +1,6 @@
 # Lineflow - SURGERY (Current Todos)
 
-**Links: [Future Todos](./FUTURE)**, **[Done Todos](./DONE)**
+**Links: [Future Todos](./a-FUTURE)**, **[Done Todos](./a-DONE)**
 
 **LEARN: I have not added is reading progress while reading because I don't like seeing reading progress as it needs your thinking and it's just some percentage that you are trying to achieve.**
 
