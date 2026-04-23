@@ -9,3 +9,9 @@ exclude:
 
 # Removing this theme because its not good but keeping here in case I need to test any other theme in future.
 # remote_theme: abhinavs/moonwalk
+
+# By default files starting with `_` are ignored for rendering unless explicitly added like below:
+include:
+  - lineflow/_DONE.md
+  - lineflow/_TODO.md
+  - lineflow/_FUTURE.md
