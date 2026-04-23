@@ -2,7 +2,7 @@
 
 <!-- Reverse chronology order -->
 
-**Links: **[Current Todos](./a-TODO)**, [Future Todos](./a-FUTURE)**
+{% include lineflow-links.md %} 
 
 - [x] VSCode Extension for LineFlow
 
