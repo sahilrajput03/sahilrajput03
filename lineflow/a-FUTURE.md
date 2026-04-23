@@ -1,6 +1,6 @@
 # **Lineflow - Future Todos**
 
-**Links: [Current Todos](./_TODO)**, **[Done Todos](./_DONE)**
+**Links: [Current Todos](./TODO)**, **[Done Todos](./DONE)**
 
 Please create an [issue here](https://github.com/sahilrajput03/sahilrajput03/issues/new) for any feedback or feature request. I would be happy to discuss it. Thanks.
 
