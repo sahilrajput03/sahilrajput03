@@ -4,8 +4,8 @@
   "description": "```bash echo Hello world! > /dev/null cat /dev/null ```",
   "main": "index.js",
   "scripts": {
-    "version": "auto-changelog -p && git add CHANGELOG.md",
-    "cl": "auto-changelog --commit-limit false"
+    "start": "nps",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/sahilrajput03/sahilrajput03#readme",
   "dependencies": {
     "auto-changelog": "^2.4.0"
+  },
+  "devDependencies": {
+    "nps": "^5.10.0"
   }
 }
