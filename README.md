@@ -773,7 +773,8 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Learn RaspberryPi: <a href="https://github.com/sahilrajput03/learn-raspberry" search-title="Learn RaspberryPi">Click here</a>
 	- learn-raspberryPi (github repo) (backuped files): <a href="https://github.com/sahilrajput03/learn-raspberrypi" search-title="learn-raspberryPi (github repo) (backuped files)">Click here</a>
 - Learn Sandpack: <a href="https://github.com/sahilrajput03/learn-sandpack">Click here</a> (<a href="https://learn-sandpack.vercel.app/" search-title="Learn Sandpack">view live</a>)
-- 🚀🚀 Learn Jekyll and running github pages locally: <a href="https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md" search-title="🚀🚀 Learn Jekyll and running github pages locally">Click here</a>
+- 🚀🚀 Learn Jekyll: <a href="https://github.com/sahilrajput03/learn-rubyOnRails/blob/main/README-new.md" search-title="🚀🚀 Learn Jekyll and running github pages locally">Click here</a> *(Tags: Running github pages locally)*
+	- **Learn Liquid:** [Click here](https://docs.google.com/document/d/1R8aAe8MvdabvqQhe-6B4C8phR_-O7PFtjl6amaT9ynQ/edit?tab=t.2qsiveckahqj#heading=h.a6k4ps6fijex)
 - Media:
 	- Shark Tank Season 1 - Youtube: <a href="https://www.youtube.com/playlist?list=PLzufeTFnhupwqGc-IVUPwviLVP0gsx8_w" search-title="Shark Tank Season 1 - Youtube">Click here</a>
 	- Shiv Mahapuran - Youtube: <a href="https://www.youtube.com/playlist?list=PL57F01972FF119B66" search-title="Shiv Mahapuran - Youtube">Click here</a>
