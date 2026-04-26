@@ -17,18 +17,12 @@
 
       {{ content }}
 
-      {% if site.github.private != true and site.github.license %}
+      <!-- Learn: I removed `and site.github.license` from below if condition because I don't have or need any license on my site code yet. -->
+      {% if site.github.private != true %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
         This site is open source. {% github_edit_link "Improve this page" %}.
       </div>
       {% endif %}
-
-      <!-- For testing variable values: -->
-       <br/>
-      {% if site.github.private != true %} !site.github.private  {% endif %}
-      {% if site.github.license %} site.github.license {% endif %}
-      <br />
-      {% github_edit_link "Improve this page" %}.
 
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
