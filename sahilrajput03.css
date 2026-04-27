@@ -90,3 +90,11 @@ pre {
   }
 }
 /* * ENDS-HERE - Black and White Text Combination When Selecting Text */
+
+
+/* Below CSS is for usage by /_includes/lineflow-links.md */
+a.active {
+  font-weight: bold;
+  color: #d63384; /* or whatever highlight */
+  text-decoration: underline;
+}
