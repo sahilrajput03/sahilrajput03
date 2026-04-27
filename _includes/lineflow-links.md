@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ '/lineflow-links.css' | relative_url }}">
+
 # Lineflow
 
 Quick Links: [Current Todos](./a-TODO), [Future Todos](./a-FUTURE), [Done Todos](./a-DONE), [Private ChatGPT Chat](https://chatgpt.com/c/69dbb626-7354-83e8-8f14-431bdd1443c8)

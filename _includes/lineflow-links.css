@@ -1,0 +1,6 @@
+a.active {
+    font-weight: bold;
+    color: #d63384;
+    /* or whatever highlight */
+    text-decoration: underline;
+}
