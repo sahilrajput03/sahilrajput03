@@ -1,4 +1,6 @@
-<link rel="stylesheet" href="{{ '/lineflow-links.css' | relative_url }}">
+<style>
+{% include lineflow-links.css %}
+</style>
 
 # Lineflow
 
