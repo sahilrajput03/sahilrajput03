@@ -2,4 +2,4 @@
 
 ## Reviews
 
-- Vinay Parashar: Super, Ultra & Lazer Focus utility for decent readers.
+- Vinay Parashar: Super, Ultra, high & Lazer Focus utility for decent readers.
