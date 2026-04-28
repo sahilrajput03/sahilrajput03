@@ -10,6 +10,8 @@
 - [ ] PWA for easy access by my friends on both desktop and mobile.
 - [ ] Creating a new document sometimes shows content of previous document instead of empty content.
 - [ ] Fix the number of lines read bug especially when you go once forward and then backward thus it counts them as separate lines read instead of of just 1 line.
+- [ ] Show the Followed text after following a user.
+- [ ] Show view to see following and followers of self and other users (Check how other social media platforms do this).
 - [ ] Make the logout time if token for lineflow as 1 month becoz 1 week is too low.
 - [ ] Hide line number wala feature simply by having a toogle on the ui to hide/show the line number in the reading panel. I see that the reason I like to have the lines number is also because it's developer friendly as it helps debugging.
 - FUTURE: Add a big button to simply open your last reading doc as it will.
