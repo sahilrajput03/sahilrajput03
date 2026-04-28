@@ -18,6 +18,8 @@
 - [ ] AI tranalation feature of the sentence.
 - **NOTE: I must add the hindi reading feature only when I myself have some good text to read in hindi.**
   - [ ] Hindi text reading feature - User can upload hindi document and for that it will load the hindi parser to calculate the lines because probably sbd doesn't parser hindi text line by line properly. I can make custom parser for hindi probably. This would work by studying the encoding as "en", "hi", etc.
+  - Hindi content:
+    - [Google Search - Hindi Stories](https://www.google.com/search?q=hindi+stories&oq=hindi+stories&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQIxgnGIAEGIoFMgoIAhAAGIAEGMcFMgoIAxAAGIAEGMcFMgoIBBAAGIAEGMcFMgoIBRAAGIAEGMcFMgoIBhAAGIAEGMcFMgcIBxAAGIAEMgcICBAAGIAEMgoICRAAGIAEGMcF0gEIMTczNWowajSoAgCwAgA&sourceid=chrome&ie=UTF-8), [hindikahani.hindi-kavita.com](https://hindikahani.hindi-kavita.com/Bulbul-Aur-Amrood-Karamjit-Singh-Gathwala.php)
 - [ ] BONUS: NUMBER OF LINES AND NUMBER OF LINES PROGRESS FOR SELF DOCUMENTS:
   - [ ] Store and show the total number of lines of each doc in the doc UI. This should be stored in db at the time of adding a document and also at the time of updating the document. Also show the number of lines you have read - only for documents which belongs to you.
 - [ ] CONDITIONAL: DO WHEN READ PROGRESS IS TRACKED FOR EVERY DOCUMENT:
