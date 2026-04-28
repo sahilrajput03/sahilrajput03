@@ -357,6 +357,31 @@
     color: #a89070;
   }
 
+  .document-status-badge {
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.55rem;
+    font-family: var(--font-mono);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid;
+  }
+
+  .document-status-badge.finished {
+    background: rgba(185, 241, 140, 0.12);
+    border-color: rgba(185, 241, 140, 0.4);
+    color: #b9f18c;
+  }
+
+  .document-status-badge.unfinished {
+    background: rgba(90, 85, 80, 0.12);
+    border-color: rgba(90, 85, 80, 0.4);
+    color: var(--muted);
+  }
+
   .doc-card .card-actions,
   .result-card .card-actions {
     display: flex;
@@ -1294,6 +1319,16 @@
     return `<span class="visibility-badge ${vis}">${config.icon} ${config.label}</span>`;
   };
 
+  const formatFinishedStatus = isFinished => {
+    const finished = Boolean(isFinished);
+    return `<span class="document-status-badge ${finished ? 'finished' : 'unfinished'}">${finished ? '✓ Finished' : '• In Progress'}</span>`;
+  };
+
+  const formatTagChips = tags => {
+    if (!Array.isArray(tags) || !tags.length) return '';
+    return tags.map(tag => `<span class="chip">${tag}</span>`).join('');
+  };
+
   const formatAuthorLabel = doc => {
     if (!doc) return 'Unknown author';
     const name = doc.user?.name || 'Unknown author';
@@ -1524,10 +1559,9 @@
       const ownerId = safeId(doc.userId);
       const owned = state.user && ownerId === state.user.userId;
       const authorLabel = formatAuthorLabel(doc);
-      const tagsMarkup = Array.isArray(doc.tags) && doc.tags.length
-        ? `<div class="chip-bar">${doc.tags.map(tag => `<span class="chip">${tag}</span>`).join('')}</div>`
-        : '';
+      const statusMarkup = formatFinishedStatus(doc.isFinished);
       const visibilityMarkup = formatVisibility(doc.visibility);
+      const tagsMarkup = formatTagChips(doc.tags);
       const createdAtLine = formatDocumentTimestamp(doc.createdAt);
       const createdAtMarkup = createdAtLine ? `<div class="line-4">Created · ${createdAtLine}</div>` : '';
       return `
@@ -1536,7 +1570,7 @@
           <div class="line-2">${doc.title || 'Untitled'}</div>
           <div class="line-3">${doc.description || 'No description'}</div>
           ${createdAtMarkup}
-          <div class="chip-bar">${visibilityMarkup}${tagsMarkup ? tagsMarkup.replace('<div class="chip-bar">', '').replace('</div>', '') : ''}</div>
+          <div class="chip-bar">${statusMarkup}${visibilityMarkup}${tagsMarkup}</div>
           <div class="card-actions">
             <button class="text-btn" style="border: 1px solid var(--accent2);" data-feed-action="load" data-feed-index="${index}">Read</button>
             <button class="text-btn" data-feed-action="copy" data-feed-index="${index}">Copy</button>
@@ -1573,9 +1607,8 @@
     } else {
       dom.searchDocs.innerHTML = docs.map((doc, index) => {
         const authorLabel = formatAuthorLabel(doc);
-        const tagsMarkup = Array.isArray(doc.tags) && doc.tags.length
-          ? `<div class="chip-bar">${doc.tags.map(tag => `<span class="chip">${tag}</span>`).join('')}</div>`
-          : '';
+        const statusMarkup = formatFinishedStatus(doc.isFinished);
+        const tagsMarkup = formatTagChips(doc.tags);
         const visibilityMarkup = formatVisibility(doc.visibility);
         const owned = state.user && safeId(doc.userId) === state.user.userId;
         const createdAtLine = formatDocumentTimestamp(doc.createdAt);
@@ -1586,8 +1619,7 @@
             <div class="line-2">${doc.title || 'Untitled'}</div>
             <div>${doc.description || 'No description'}</div>
             ${createdAtMarkup}
-            <div class="chip-bar">${visibilityMarkup}</div>
-            ${tagsMarkup}
+            <div class="chip-bar">${statusMarkup}${visibilityMarkup}${tagsMarkup}</div>
             <div class="card-actions">
               <button class="text-btn" style="border: 1px solid var(--accent2);" data-search-action="read" data-search-index="${index}">Read</button>
               <button class="text-btn" data-search-action="copy" data-search-index="${index}">Copy</button>
