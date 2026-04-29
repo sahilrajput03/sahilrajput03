@@ -6,9 +6,7 @@
 
 ## Prompt
 
-```
 // Please write the code to get all text from element having class - "course-container" but i want to not get content of any pre tag and instead have like "[CODE_SNIPPET_HERE]". Please ignore the content of element with class "scroll-navigation-container". Please add a new line character after block html element like div but not for inline elements like span. For link tags please append to link's text "[LINK_HERE]". For img tags please treat them as block tags such that a new line is there before and after the image tag and replace it with text "[IMAGE_HERE]".
-```
 
 ## Code Generated
 
