@@ -9,7 +9,9 @@
 
 - [ ] PWA for easy access by my friends on both desktop and mobile.
 - [ ] Creating a new document sometimes shows content of previous document instead of empty content.
+- [ ] Using the arrow keys on edit document page triggers read-position API.
 - [ ] Fix the number of lines read bug especially when you go once forward and then backward thus it counts them as separate lines read instead of of just 1 line.
+- [ ] By keeping arrows key presed it app-wide rate limiter is triggered to disable the API totally, should I do something about it? Like call the read-position API using a debounced call to limit immediate API call?
 - [ ] Show the Followed text after following a user.
 - [ ] Show view to see following and followers of self and other users (Check how other social media platforms do this).
 - [ ] Make the logout time if token for lineflow as 1 month becoz 1 week is too low.
