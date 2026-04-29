@@ -3,6 +3,7 @@
 - I gave this below prompt to chrome's dev tools AI and it generated good code and it worked.
 - Note: Using `//` is necessary and use `cmd+shift+i` to trigger generate code via LLM.
 - Please run code after the prompt directly in browser console to generate lineflow compatible text output.
+- **Check lineflow compatible content:** [Click here](https://github.com/sahilrajput03/sahilrajput03/tree/main/lineflow/fso)
 
 ## Prompt
 
