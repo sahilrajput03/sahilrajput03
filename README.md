@@ -908,6 +908,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - Ads:
 	- https://www.carbonads.net (mongoosejs.com shows ads via carbon, I love these beautiful ads).
 	- MDN has its own ads: [Click here](https://developer.mozilla.org/en-US/advertising)
+ 	- Indian companies which provides ads? [ChatGPT](https://chatgpt.com/c/69f35f81-2734-83e8-826d-991c07de619b)
 - Learn Reasoning: [Click here](https://docs.google.com/document/d/1ITJVTKyzMnvibsFGeUWrL1LzV7G5t3mnH2-11RLw_d8/edit?tab=t.0)
 - Learn Abacus: [Click here](https://docs.google.com/document/d/1P_qVMq0EW_OQjcRxv99cycbB8i433fBqhxZMDZauVQY/edit?tab=t.0#heading=h.fj1gjk5413d7)
 - Learn Yarn: [Click here](https://gist.github.com/sahilrajput03/91691c60b52b1b3fe9992a45fa802b8d)
