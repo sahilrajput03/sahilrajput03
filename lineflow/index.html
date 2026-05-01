@@ -767,7 +767,8 @@
           <div class="muted" style="font-size:0.6rem; letter-spacing:0.25em;">You will receive a one-time code via email.</div>
         </div>
         <button class="btn-start" id="btn-send-otp">Send OTP</button>
-        <button class="btn-secondary" id="btn-fill-sample" type="button">Fill sample details</button>
+        <button class="btn-secondary" id="btn-fill-sample-1" type="button">Fill sample details `User 1`</button>
+        <button class="btn-secondary" id="btn-fill-sample-2" type="button">Fill sample details `Sahil`</button>
       </div>
       <div class="auth-screen hidden" id="auth-login-screen">
         <div class="field">
@@ -1001,7 +1002,8 @@
     signupUsername: $('#signup-username'),
     signupEmail: $('#signup-email'),
     btnSendOtp: $('#btn-send-otp'),
-    btnFillSample: $('#btn-fill-sample'),
+    btnFillSample1: $('#btn-fill-sample-1'),
+    btnFillSample2: $('#btn-fill-sample-2'),
     otpValue: $('#otp-value'),
     btnVerifyOtp: $('#btn-verify-otp'),
     authStatus: $('#auth-status'),
@@ -1198,10 +1200,15 @@
     }, 5_000);
   };
 
-  const SAMPLE_USER_DETAILS = {
+  const SAMPLE_USER_USER1_DETAILS = {
     name: 'Sahil Rajput',
     username: 'sahil',
     email: 'sahilrajput03@gmail.com',
+  };
+  const SAMPLE_USER_SAHIL_DETAILS = {
+    name: 'User 1',
+    username: 'user1',
+    email: 'user1@gmail.com',
   };
 
   const SAMPLE_DOCUMENT_DETAILS = {
@@ -1211,10 +1218,10 @@
     text: 'Line1. Line2.',
   };
 
-  const fillSampleDetails = () => {
-    dom.signupName.value = SAMPLE_USER_DETAILS.name;
-    dom.signupUsername.value = SAMPLE_USER_DETAILS.username;
-    dom.signupEmail.value = SAMPLE_USER_DETAILS.email;
+  const fillSampleDetails = (sampleUserDetails) => {
+    dom.signupName.value = sampleUserDetails.name;
+    dom.signupUsername.value = sampleUserDetails.username;
+    dom.signupEmail.value = sampleUserDetails.email;
     setFeedback(dom.authFeedback, 'Sample details applied.', 'info');
   };
 
@@ -1981,7 +1988,8 @@
     });
   });
   dom.btnSendOtp.addEventListener('click', handleSendOtp);
-  dom.btnFillSample.addEventListener('click', fillSampleDetails);
+  dom.btnFillSample1.addEventListener('click', () => fillSampleDetails(SAMPLE_USER_SAHIL_DETAILS));
+  dom.btnFillSample2.addEventListener('click', () => fillSampleDetails(SAMPLE_USER_USER1_DETAILS));
   dom.btnVerifyOtp.addEventListener('click', handleVerifyOtp);
   dom.btnLoginSendOtp.addEventListener('click', handleLoginSendOtp);
   dom.btnLogout.addEventListener('click', handleLogout);
