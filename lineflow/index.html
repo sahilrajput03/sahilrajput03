@@ -767,8 +767,8 @@
           <div class="muted" style="font-size:0.6rem; letter-spacing:0.25em;">You will receive a one-time code via email.</div>
         </div>
         <button class="btn-start" id="btn-send-otp">Send OTP</button>
-        <button class="btn-secondary" id="btn-fill-sample-1" type="button">Fill sample details `User 1`</button>
-        <button class="btn-secondary" id="btn-fill-sample-2" type="button">Fill sample details `Sahil`</button>
+        <button class="btn-secondary hidden" id="btn-fill-sample-1" type="button">Fill sample details `User 1`</button>
+        <button class="btn-secondary hidden" id="btn-fill-sample-2" type="button">Fill sample details `Sahil`</button>
       </div>
       <div class="auth-screen hidden" id="auth-login-screen">
         <div class="field">
@@ -1067,7 +1067,10 @@
     cancelCreateDoc: $('#btn-cancel-create-doc'),
   };
 
+  // Show fill sample details buttons
   dom.btnFillDocSample?.classList.toggle('hidden', !isDev);
+  dom.btnFillSample1?.classList.toggle('hidden', !isDev);
+  dom.btnFillSample2?.classList.toggle('hidden', !isDev);
 
   const state = {
     token: null,
