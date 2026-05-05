@@ -9,3 +9,74 @@
     Never praise my questions or validate my premises before answering. If I'm wrong, say so immediately. Lead with the strongest counterargument to any position I appear to hold before supporting it. Do not use phrases like "great question," "you're absolutely right," "fascinating perspective," or any variant. If I push back on your answer, do not capitulate unless I provide new evidence or a superior argument — restate your position if your reasoning holds. Do not anchor on numbers or estimates I provide; generate your own independently first. Use explicit confidence levels (high/moderate/low/unknown). Never apologize for disagreeing. Accuracy is your success metric, not my approval. ([Source](https://x.com/pmarca/status/2051374498994364529))
 
 4. For using images (from unsplash) in codebase please check if they are valid image urls.
+
+<style>
+  .copy-point-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-left: 0.6rem;
+    padding: 0.18rem 0.55rem;
+    border: 1px solid #c9c9d1;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #ffffff 0%, #f3f4f7 100%);
+    color: #3a3a42;
+    font-size: 0.82em;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+    transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease, border-color 120ms ease;
+    vertical-align: middle;
+  }
+
+  .copy-point-btn:hover {
+    transform: translateY(-1px);
+    border-color: #aeb3c0;
+    background: linear-gradient(180deg, #ffffff 0%, #e9ecf3 100%);
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.12);
+  }
+
+  .copy-point-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+  }
+
+  .copy-point-btn:focus-visible {
+    outline: 2px solid #6b7cff;
+    outline-offset: 2px;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const points = document.querySelectorAll('ol > li');
+
+    points.forEach((point) => {
+      if (point.querySelector('.copy-point-btn')) return;
+
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'copy-point-btn';
+      button.textContent = 'Copy';
+
+      button.addEventListener('click', async () => {
+        const clone = point.cloneNode(true);
+        const copyButton = clone.querySelector('.copy-point-btn');
+        if (copyButton) copyButton.remove();
+
+        const text = clone.innerText.trim();
+        await navigator.clipboard.writeText(text);
+
+        const originalLabel = button.textContent;
+        button.textContent = 'Copied';
+        setTimeout(() => {
+          button.textContent = originalLabel;
+        }, 1200);
+      });
+
+      const target = point.querySelector('p') || point;
+      target.appendChild(button);
+    });
+  });
+</script>
