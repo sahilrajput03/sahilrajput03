@@ -928,6 +928,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn Kent C Dodds: [Click here](https://docs.google.com/document/d/1WA_QDlf1d-esra2EaioIZAhKN4R1sY18jO7TMDAROzA/edit?tab=t.0)
 - Learn Printing Code: [Click here](https://docs.google.com/document/d/1aN2x7V12ir78oeFka5Y3ymlwnChe1YsQHTvPBQJcjsE/edit?tab=t.0)
 - Learn Development of VS Code Extensions: [lineflow-vs-code-extension](https://github.com/sahilrajput03/lineflow-vs-code-extension)
+- Learn nodegui: [Click here](https://github.com/sahilrajput03/learn-nodegui)
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
 
