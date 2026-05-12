@@ -736,7 +736,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - ❤️ Learn PWA/TWA/WebAPK (Progressive Web Applications): [Click here](https://github.com/sahilrajput03/pwa-to-apk-using-twa/tree/main){: search-title="Learn PWA/TWA/WebAPK (Progressive Web Applications)"}
 - **Learn Capacitor:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-capacitor.md){: search-title="Learn Capacitor"}
 - Android:
-	- **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/blob/main/Readme.md){: search-title="Learn Android"}
+	- **Learn Android:** [Click here](https://github.com/sahilrajput03/learning_android/tree/main){: search-title="Learn Android"}
 	- **Development on Android with Termux**: [Click here](https://docs.google.com/document/d/1pc7cMCXI1TFuUs1alpxZh6KBSgILpV6NmdmsLicvwfQ/edit?tab=t.0#heading=h.4y47i2ps7c5r)
 	- **Favorite Android Apps:** [Click here](https://docs.google.com/document/d/1m2RrhfVs5znjhg-CUoUjzmOVu2kZOgLdjw74rdKwttI/edit?tab=t.0#heading=h.3uc2ke93uyrf)
 - ❤️ Learn Automate (andorid automation app): [Click here](https://docs.google.com/document/d/11Fyoox3T8T1y-TYNR69Y7y91YRkzt6dsfd6WVADYqeI/edit?tab=t.0)
