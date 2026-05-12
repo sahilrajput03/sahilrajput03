@@ -24,6 +24,6 @@
 		- The world is a complex place, it’s made up of people.
 		- Independent modules.
 		- AI is not taking job, it’s the bad economic time happening today. AI might take over some jobs some day but it’s not happening today. 
-		- Personality Issues: https://chatgpt.com/c/6a0308e6-1224-83ec-9f01-6ed4affc62b8
+		- Personality Issues: [ChatGPT](https://chatgpt.com/c/6a0308e6-1224-83ec-9f01-6ed4affc62b8)
 		- Technologically has dramatically improved in his time too.
 
