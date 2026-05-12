@@ -9,3 +9,5 @@
 [Prompts](prompts)
 
 [Poetry](poetry)
+
+[Podcast of Kent and Don Norman](don-norman-podcast)
