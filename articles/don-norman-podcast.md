@@ -12,9 +12,7 @@
 		- A scientist never fails. Say when they are working on something for 2-3 years and they do not succeed they do not say “I failed” but they say “But I learned a lot.”.
 		- Designing great products still haven’t changed, the same fundamentals still apply.
 		- ChatGPT: The term “Norman door” comes from Don Norman, and it’s discussed in his book The Design of Everyday Things. A “Norman door” is basically a badly designed door that gives the wrong cues — like a pull handle on a door you’re supposed to push. The idea became popular through Norman’s writing and talks on human-centered design.
-		    
 		- If I tell you that computers will be 1000 times more powerful than today, and ask you what does that mean you could do? And the answer is that you won’t have any idea.  
-		    
 		- If it fails, you do something else and eventually you hit the jackpot.
 		- A lot of my good friends who have done successful things will tell me how they made 5 or 6 failures first.
 		- **Kent:** You just have not to be afraid of failing.
