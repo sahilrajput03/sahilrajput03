@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>Posts</h1>
+
+<ul style="margin-bottom: 100px;">
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+
+
+{% capture myMarkdown %}
+**Tips:**
+- Helpful [ChatGPT](https://chatgpt.com/c/6a0771af-d5a4-83ec-b391-9ba096afa7f2) (Private)
+- Each post will be rendered in format of _layout/post.html
+- Each post is put in _posts folder with filename must start with date like 2026-05-16-some-article-slug-here.md.
+- Clear cache of jekyll server (while developing locally): 
+  ```bash
+  CTRL+C
+  rm -rf _site .jekyll-cache .sass-cache
+  bundle exec jekyll serve --livereload
+  ```
+
+{% endcapture %}
+
+{{ myMarkdown | markdownify }}

@@ -13,3 +13,5 @@
 [Podcast of Kent and Don Norman](don-norman-podcast)
 
 [Founders at work](founders-at-work)
+
+[Jekyl Posts](./../posts)
