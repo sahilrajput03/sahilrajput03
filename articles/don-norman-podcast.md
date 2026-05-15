@@ -18,7 +18,7 @@
 		- **Kent:** You just have not to be afraid of failing.
 		- **Don: Don’t call it failing, call it a learning experience.**
 		- **You love your work. But if you want to put impact to the world you gotta stop loving it.**  
-		- Takes away from what they care about. Not everybody should do that and we need someone in everyfield to do that because then people listen to you as you move up the ranks. (52:23)
+		- Takes away from what they care about. Not everybody should do that and we need someone in every field to do that because then people listen to you as you move up the ranks. (52:23)
 		- The world is a complex place, it’s made up of people.
 		- Independent modules.
 		- AI is not taking job, it’s the bad economic time happening today. AI might take over some jobs some day but it’s not happening today. 

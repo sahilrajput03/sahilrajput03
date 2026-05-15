@@ -4,6 +4,7 @@
 
 <!-- Reverse chronology order -->
 
+- [x] Fix the bug of quickly going next lines which blocks the API calls and throws error of 403.
 - [x] Add A+ and A- button on bottom to increase or decrease the font-size lively and store this to local storage and pick the value on page load and do show the font size in rem like: A+ A- (1.5 rem) in light color. ❤️
 - [x] VSCode Extension for LineFlow
 - [x] Fix the line number continuation issue via using `lastReadPosition`.
