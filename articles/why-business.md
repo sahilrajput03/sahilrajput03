@@ -21,4 +21,8 @@ Those are major reasons but there are other reasons as well like —
 
 I carefully used the term **"business**" here though the term **“startup”** is very much common for people trying a business. I personally don't like the term and Ashner Grover puts this in words better than me — “There is no such thing as a startup and  Dhandha (business) is something that makes profit.”
 
+**Am I late in doing business?**
+
+Sometimes I think that may be I am not doing the right thing and the projects I am doing might fail. And when I see that other people have started business at different ages and it might have been late for me that I should have stafted earlier? The peope I see are - Paul Graham, Elon Musk, DHH, Pieter Levels, Pieter Steinberger, Bill Gates, Vitalik Butlin (and other people as I have talked in my Business document and I see that everyone has done business at their timeline i.e., there is no fixed right time to do it. From Paul Graham I realized the sooner the better but still its better late than never in my case and actually I am not late but at the right time i.e., before 30 I am having a somewhat working business already. ❤️) 
+
 Thanks.
