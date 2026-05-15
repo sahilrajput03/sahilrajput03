@@ -13,3 +13,5 @@
 [Podcast of Kent and Don Norman](don-norman-podcast)
 
 [Founders at work](founders-at-work)
+
+[Indian Eminent People](indian-eminent-people.md)
