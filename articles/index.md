@@ -15,3 +15,5 @@
 [Founders at work](founders-at-work)
 
 [Jekyl Posts](./../posts)
+
+[Indian Eminent People](indian-eminent-people.md)
