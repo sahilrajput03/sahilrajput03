@@ -13,3 +13,12 @@ exclude:
 
 # Removing this theme because its not good but keeping here in case I need to test any other theme in future.
 # remote_theme: abhinavs/moonwalk
+
+# Learn: Default value of future is false as it allows to
+#        create future posts but they will not be published
+#        until the date is reached. Setting it to true will
+#        publish future posts immediately, which is not
+#        desired in most cases. Hence, keeping it false.
+# future: false
+
+timezone: Asia/Kolkata
