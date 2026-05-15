@@ -1,4 +1,4 @@
-# India Eminent People
+# Indian Eminent People
 
 - Acharya Prashant Tripathi
 - Arvind Kejriwal
