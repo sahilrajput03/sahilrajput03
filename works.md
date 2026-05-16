@@ -1,6 +1,8 @@
 #### Blogs
 
-- <a href="blog.sahilrajput.com" target="_blank">blog.sahilrajput.com</a> (Github: [sahilrajput03/sahilrajput.ml](https://github.com/sahilrajput03/sahilrajput.ml))
+- [Essays](https://sahilrajput.com/articles)
+- [Tech Journal - Google Doc](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.0#heading=h.9ytzjv2dvgp4)
+- <a href="blog.sahilrajput.com" target="_blank">blog.sahilrajput.com</a> ([Github - sahilrajput03/sahilrajput.ml](https://github.com/sahilrajput03/sahilrajput.ml))
 - <a href="https://sahilrajput.com" target="_blank">sahilrajput.com</a>
 - <a href="https://sahilrajput03.github.io" target="_blank">sahilrajput03.github.io</a>
   - <a href="https://sahilrajput03.github.io/docs" target="_blank">Docs</a>
