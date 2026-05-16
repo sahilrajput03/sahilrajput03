@@ -20,6 +20,6 @@
 
 [Indian Eminent People](indian-eminent-people)
 
-[Tech Journal - Google Doc](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.0#heading=h.9ytzjv2dvgp4)
+[Tech Journal - Doc](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.0#heading=h.9ytzjv2dvgp4)
 
 [Private](https://docs.google.com/document/d/1LPDCtgWXv3Xg6wgPq5jEkblY36r-sxaLr4J62uFPvcs/edit?tab=t.0#heading=h.nwdxqe9b7ye7)
