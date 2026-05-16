@@ -1,5 +1,7 @@
 # Essays 👋
 
+[Works](./../works)
+
 [Why business](why-business)
 
 [FAQs](faqs)
@@ -16,4 +18,6 @@
 
 [Jekyl Posts](./../posts)
 
-[Indian Eminent People](indian-eminent-people.md)
+[Indian Eminent People](indian-eminent-people)
+
+[Tech Journal - Google Doc](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.0#heading=h.9ytzjv2dvgp4)
