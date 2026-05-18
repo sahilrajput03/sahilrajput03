@@ -3,15 +3,25 @@ file then you'll be able to get HRM support. FOR NOW YOU HAVE TO HARD REFRESH TH
 PAGE IN BROWER via ctrl+shift+r  :(  :(  :(   :(
 */
 
+:root {
+  --text: black;
+  --bg: white;
+  --lightLink: deeppink;
+  /* Inspiration from https://overreacted.io/ */
+}
+body{
+  color: var(--text);
+  background-color: var(--bg);
+}
+
 a {
-  color: deeppink;
+  color: var(--lightLink);
   text-decoration: underline;
 }
 
 a:active {
     color: white;
     background-color: black;
-    /* Change to any color you want */
 }
 
 /* Code snippet's background color */
@@ -23,21 +33,14 @@ pre {
 
 /* * STARTS-HERE ---- DARK MODE STYLES BELOW ---- */
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #222;
-    color: #fff;
-  }
-
-  /* Style links in dark mode */
-  a {
-    color: deeppink;
-    text-decoration: underline;
+  :root {
+    --text: white;
+    --bg: #222;
   }
 
   a:active {
       color: black;
       background-color: white;
-      /* Change to any color you want */
   }
 
   /* Code snippet's background color */
