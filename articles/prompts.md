@@ -9,6 +9,8 @@
 
 4. For using images (from unsplash) in codebase please check if they are valid image urls.
 
+5. Read from that url so I can ask questions about it and do not output anything until I ask questions.
+
 Footnotes: ([Source of 3](https://x.com/pmarca/status/2051374498994364529))
 
 <style>
