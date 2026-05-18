@@ -10,5 +10,5 @@ Files *default.html* and *page.html* works [TESTED].
 2. And then modified them as per my need.
 
 - `default.html`
-    - It is layout for all markdown files including the posts.
+    - It is layout for all markdown files including the home page, pages and posts.
     - It is not used for any .html file and thus I must import the site's main css file manually as I have done in file `./links.html`.
