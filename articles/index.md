@@ -24,4 +24,6 @@
 
 [Naval on Artificial Intelligence](naval-on-ai.md)
 
+[Towards a Generalist Programmer](./generalist-programmer.md)
+
 [Private](https://docs.google.com/document/d/1LPDCtgWXv3Xg6wgPq5jEkblY36r-sxaLr4J62uFPvcs/edit?tab=t.0#heading=h.nwdxqe9b7ye7)
