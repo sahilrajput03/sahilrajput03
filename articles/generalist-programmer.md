@@ -19,7 +19,7 @@ I graduated from college in 2019 and I started learning programming in 2020. I d
 - C++ — [Click here](https://github.com/sahilrajput03/learning_cpp)
 - Java — [Click here](https://github.com/sahilrajput03/learning_java)
 - PHP — [Click here](https://github.com/sahilrajput03/learning-php)
-- Ruby on Rails — [Click here](https://github.com/sahilrajput03/learn-rubyOnRails)
+- Ruby (via Ruby on Rails) — [Click here](https://github.com/sahilrajput03/learn-rubyOnRails)
 - Flutter / Dart — [Click here](https://github.com/sahilrajput03/learn-flutter)
 - YAML — [Click here](https://docs.google.com/document/d/1c7hwOgDxTdmq7r8zizRB41laZckAQMCDqKiZyunu3vY/edit#heading=h.upp303fp6kd0)
 - Liquid — [Click here](https://docs.google.com/document/d/1R8aAe8MvdabvqQhe-6B4C8phR_-O7PFtjl6amaT9ynQ/edit?tab=t.2qsiveckahqj#heading=h.a6k4ps6fijex)
