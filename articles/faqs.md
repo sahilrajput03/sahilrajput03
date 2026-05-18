@@ -1,5 +1,7 @@
 # FAQ's
 
+*Date: 19 April 2026*
+
 **Q. Are my communication skills good enough (ready/sufficient) to start my own business?**
 
 👉🏻 If you can talk to any person who is doing any kind of business of any size, literally any size, then YES ✅, your communication skills are indeed good enough, ready and sufficient.

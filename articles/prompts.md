@@ -1,5 +1,7 @@
 # Prompts
 
+*Date: 6 May 2026*
+
 1. Be concise
 
 2. Ask me questions one by one to help me.
