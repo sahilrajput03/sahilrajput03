@@ -8,6 +8,12 @@ a {
   text-decoration: underline;
 }
 
+a:active {
+    color: white;
+    background-color: black;
+    /* Change to any color you want */
+}
+
 /* Code snippet's background color */
 .highlight,
 .language-txt,
@@ -26,6 +32,12 @@ pre {
   a {
     color: deeppink;
     text-decoration: underline;
+  }
+
+  a:active {
+      color: black;
+      background-color: white;
+      /* Change to any color you want */
   }
 
   /* Code snippet's background color */
