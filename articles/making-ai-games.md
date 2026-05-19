@@ -9,3 +9,6 @@ I used Clade (website) and `codex` on terminal to generate this game with prompt
 Result:
 - App made with Claude: <a href="https://sahilrajput.com/dotfocus/1" target="_blank">Click here</a>
 - App made with Codex: <a href="https://sahilrajput.com/dotfocus/2" target="_blank">Click here</a>
+
+**Why?**
+- Inspiration: [https://aidungeon.com](https://aidungeon.co)
