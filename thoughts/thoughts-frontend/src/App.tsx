@@ -93,7 +93,7 @@ function App() {
       </div>
 
       <div className='footnotes'>
-        Source: <a href="https://github.com/sahilrajput03/sahilrajput03/tree/master/thoughts-principles-react">
+        Source: <a href="https://github.com/sahilrajput03/sahilrajput03/tree/master/thoughts/thoughts-frontend" target="_blank" rel="noopener noreferrer">
           Click here
         </a>
       </div>
