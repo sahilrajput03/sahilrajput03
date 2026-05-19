@@ -4,7 +4,7 @@
 - Take help from prompts.md file to see how to add js here. I used codex for the task though.
  -->
 
-*The articles are listed in reverse chronological order (latest first).*
+*The essays are listed in reverse chronological order (latest first).*
 
 - [Towards a Generalist Programmer](generalist-programmer.md)
 - [Naval on Artificial Intelligence](naval-on-ai.md)
