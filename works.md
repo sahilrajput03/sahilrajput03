@@ -33,6 +33,8 @@
 - A small, pesonal user agent manger CLI - `udm` (user daemon manager) for MacOS's `launchd` ([private](https://github.com/sahilrajput03/config/blob/main/launchd-files/userDaemonManager.js))
 - filedb.js ([private](https://github.com/sahilrajput03/config/blob/main/snips/js-node/filedb.js))
 - SQLite MCP as a Service (SQLite Maas) (private - [stdioMcp](https://github.com/sahilrajput03/learn-openai/blob/main/tts-stt-google-genai/mcp-server-client/cc-mcp3-sqlite-stdioMcp.js), [sseMcp](https://github.com/sahilrajput03/learn-openai/blob/main/tts-stt-google-genai/mcp-server-client/cc-mcp4-sqlite-sseMcp.js))
+- ❤️ A meditation session based on 5.5 breaths/min: [sahilrajput.com/breathe](https://sahilrajput.com/breathe)
+- ❤️ ChatAI -  - A dynamic search engine: [sahilrajput.com/chatai](https://sahilrajput.com/chatai)
 - <a href="https://github.com/sahilrajput03/learn-electron/tree/main/project1" target="_blank">Intelligent Assistant (Desktop App) - Github Repository</a>
 - <a href="https://ragatime.github.io" target="_blank">ragatime.github.io</a>, <a href="https://github.com/ragatime/ragatime.github.io/" target="_blank">Github Repository</a>
 - <a href="https://ai.mypot.in" target="_blank">ai.mypot.in</a>, <a href="https://github.com/sahilrajput03/learn-svelte/tree/main/new-ai-sdk" target="_blank">Github Repository</a>
