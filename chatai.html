@@ -50,6 +50,7 @@
         <button onclick="queryLLM('google')">Query Google</button>
         <button onclick="queryLLM('claude')">Query Claude</button>
         <button onclick="queryLLM('youtube')">Query YouTube</button>
+        <button onclick="queryLLM('google_docs')">Query Google Docs</button>
         <button onclick="queryLLM('my_github_repos')">Query My Github Repos</button>
     </div>
 
@@ -100,6 +101,9 @@
                 case 'google':
                     url = `https://www.google.com/search?udm=50&aep=11&q=${encodedQuery}`;
                     break;
+                case 'google_docs':
+                    url = `https://docs.google.com/document/u/0/?q=${encodedQuery}`;
+                    break;
                 case 'claude':
                     url = `https://claude.ai/new?q=${encodedQuery}`;
                     break;
@@ -107,7 +111,7 @@
                     url = `https://www.youtube.com/results?search_query=${encodedQuery}`;
                     break;
                 case 'my_github_repos':
-                    url = `https://github.com/sahilrajput03?tab=repositories&q=telegram&type=source&language=&sort=${encodedQuery}`;
+                    url = `https://github.com/sahilrajput03?tab=repositories&q=${encodedQuery}&type=source&language=&sort=`;
                     break;
                 default:
                     alert('Unknown LLM');
