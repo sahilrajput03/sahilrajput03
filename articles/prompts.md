@@ -13,6 +13,8 @@
 
 5. Read from that url so I can ask questions about it and do not output anything until I ask questions.
 
+6. Whenever you finish please use `say` cli to say message aloud to me so I'm alerted when you're done. Usage: `say -v Rishi -r 200 "Hi"`
+
 Footnotes: ([Source of 3](https://x.com/pmarca/status/2051374498994364529))
 
 <style>

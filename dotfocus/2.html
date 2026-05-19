@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Dot Focus</title>
+  <style>
+    :root {
+      --bg: #081120;
+      --bg2: #111b34;
+      --panel: rgba(11, 18, 34, 0.82);
+      --panel-strong: rgba(15, 23, 42, 0.96);
+      --line: rgba(255, 255, 255, 0.12);
+      --text: #e8eefc;
+      --muted: #9fb0d0;
+      --accent: #8be9fd;
+      --good: #67e8a0;
+      --warn: #fbbf24;
+      --danger: #fb7185;
+      --shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+      --radius: 24px;
+      --dot-size: 64px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at top left, rgba(139, 233, 253, 0.16), transparent 30%),
+        radial-gradient(circle at top right, rgba(251, 113, 133, 0.10), transparent 24%),
+        radial-gradient(circle at bottom center, rgba(103, 232, 160, 0.12), transparent 28%),
+        linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+      user-select: none;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 36px 36px;
+      mask-image: radial-gradient(circle at center, black 45%, transparent 100%);
+      pointer-events: none;
+      opacity: 0.5;
+    }
+
+    .app {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: env(safe-area-inset-top) 14px env(safe-area-inset-bottom);
+    }
+
+    .hud {
+      position: relative;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      align-items: stretch;
+      margin-top: 10px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+    }
+
+    .stat {
+      padding: 12px 14px;
+      min-height: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 4px;
+    }
+
+    .label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+
+    .value {
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+    }
+
+    .subvalue {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .timer {
+      color: #dbeafe;
+    }
+
+    .stage {
+      position: absolute;
+      inset: 0;
+      padding-top: 102px;
+      padding-bottom: 232px;
+    }
+
+    .playfield {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 30px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.08);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)),
+        radial-gradient(circle at top, rgba(255,255,255,0.05), transparent 35%);
+    }
+
+    .dot {
+      position: absolute;
+      width: var(--dot-size);
+      height: var(--dot-size);
+      border-radius: 50%;
+      border: 0;
+      display: grid;
+      place-items: center;
+      box-shadow:
+        0 12px 24px rgba(0,0,0,0.34),
+        inset 0 1px 0 rgba(255,255,255,0.25);
+      transform: translate(-50%, -50%) scale(1);
+      transition: transform 120ms ease, opacity 140ms ease;
+      cursor: pointer;
+      color: rgba(255,255,255,0.92);
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    .dot:active {
+      transform: translate(-50%, -50%) scale(0.92);
+    }
+
+    .dot.pop {
+      transform: translate(-50%, -50%) scale(0.2);
+      opacity: 0;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+      z-index: 20;
+      background: linear-gradient(180deg, rgba(3, 7, 18, 0.22), rgba(3, 7, 18, 0.56));
+    }
+
+    .panel {
+      width: min(100%, 420px);
+      background: var(--panel-strong);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 30px;
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    .title {
+      margin: 0;
+      font-size: 34px;
+      line-height: 0.98;
+      letter-spacing: -0.06em;
+    }
+
+    .lede {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .metric {
+      padding: 12px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .metric .label {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .metric .value {
+      font-size: 24px;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    button.action {
+      appearance: none;
+      border: 0;
+      border-radius: 18px;
+      min-height: 52px;
+      padding: 0 16px;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      color: #081120;
+      background: linear-gradient(135deg, #8be9fd, #67e8a0);
+      box-shadow: 0 14px 30px rgba(103, 232, 160, 0.22);
+    }
+
+    button.secondary {
+      color: var(--text);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.10);
+      box-shadow: none;
+    }
+
+    .history {
+      position: absolute;
+      left: 14px;
+      right: 14px;
+      bottom: calc(env(safe-area-inset-bottom) + 12px);
+      z-index: 10;
+      padding: 14px;
+      max-height: 208px;
+      overflow: auto;
+    }
+
+    .history h2 {
+      margin: 0 0 10px;
+      font-size: 14px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .entry {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      padding: 10px 0;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .entry:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    .entry .when {
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .entry .score {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--accent);
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+      padding-bottom: 4px;
+    }
+
+    .flash {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0;
+      background: radial-gradient(circle at center, rgba(103,232,160,0.16), transparent 42%);
+      transition: opacity 220ms ease;
+    }
+
+    .flash.show {
+      opacity: 1;
+    }
+
+    @media (min-width: 700px) {
+      .app {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      .stage {
+        padding-bottom: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="hud">
+      <div class="card stat">
+        <div class="label">Score</div>
+        <div class="value" id="score">0</div>
+        <div class="subvalue" id="hitsText">0 taps</div>
+      </div>
+      <div class="card stat">
+        <div class="label">Time</div>
+        <div class="value timer" id="timeLeft">60</div>
+        <div class="subvalue">seconds remaining</div>
+      </div>
+      <div class="card stat">
+        <div class="label">Misses</div>
+        <div class="value" id="misses">0</div>
+        <div class="subvalue" id="accuracyText">100% accuracy</div>
+      </div>
+    </div>
+
+    <div class="stage">
+      <div class="playfield card" id="playfield" aria-label="Dot tapping play area">
+        <div class="flash" id="flash"></div>
+      </div>
+    </div>
+
+    <div class="history card" id="historyPanel">
+      <h2>Saved Sessions</h2>
+      <div id="historyList"></div>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <div class="panel">
+        <h1 class="title">Dot Focus</h1>
+        <p class="lede">
+          Tap the colored dots as quickly as you can for 60 seconds. Each tap removes a dot and spawns a new one elsewhere.
+          Your score is saved with the date and time after every run.
+        </p>
+        <div class="metrics">
+          <div class="metric">
+            <span class="label">Session</span>
+            <div class="value">60s</div>
+          </div>
+          <div class="metric">
+            <span class="label">Goal</span>
+            <div class="value">Tap</div>
+          </div>
+          <div class="metric">
+            <span class="label">Mode</span>
+            <div class="value">Solo</div>
+          </div>
+        </div>
+        <div class="controls">
+          <button class="action" id="startBtn">Start Session</button>
+          <button class="action secondary" id="clearBtn">Clear History</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const DURATION = 60;
+      const DOT_COUNT = 3;
+      const DOT_SIZE = 64;
+      const HISTORY_KEY = "dot-focus-history-v1";
+      const COLORS = [
+        "#ef4444",
+        "#f97316",
+        "#f59e0b",
+        "#22c55e",
+        "#14b8a6",
+        "#06b6d4",
+        "#3b82f6",
+        "#8b5cf6",
+        "#ec4899"
+      ];
+
+      const playfield = document.getElementById("playfield");
+      const overlay = document.getElementById("overlay");
+      const startBtn = document.getElementById("startBtn");
+      const clearBtn = document.getElementById("clearBtn");
+      const scoreEl = document.getElementById("score");
+      const timeLeftEl = document.getElementById("timeLeft");
+      const missesEl = document.getElementById("misses");
+      const hitsTextEl = document.getElementById("hitsText");
+      const accuracyTextEl = document.getElementById("accuracyText");
+      const historyList = document.getElementById("historyList");
+      const flash = document.getElementById("flash");
+
+      let dots = [];
+      let playing = false;
+      let score = 0;
+      let misses = 0;
+      let startedAt = 0;
+      let endAt = 0;
+      let timerId = null;
+      let rafId = null;
+      let history = loadHistory();
+
+      function loadHistory() {
+        try {
+          const raw = localStorage.getItem(HISTORY_KEY);
+          const parsed = raw ? JSON.parse(raw) : [];
+          return Array.isArray(parsed) ? parsed : [];
+        } catch {
+          return [];
+        }
+      }
+
+      function saveHistory() {
+        localStorage.setItem(HISTORY_KEY, JSON.stringify(history.slice(0, 20)));
+      }
+
+      function renderHistory() {
+        historyList.innerHTML = "";
+        if (!history.length) {
+          const empty = document.createElement("div");
+          empty.className = "empty";
+          empty.textContent = "No saved sessions yet. Finish a run to create your first data point.";
+          historyList.appendChild(empty);
+          return;
+        }
+
+        history.slice(0, 8).forEach((item) => {
+          const row = document.createElement("div");
+          row.className = "entry";
+
+          const left = document.createElement("div");
+          left.innerHTML = `<div class="when">${formatDateTime(item.when)}</div>`;
+
+          const right = document.createElement("div");
+          right.className = "score";
+          right.textContent = `${item.score}`;
+
+          row.appendChild(left);
+          row.appendChild(right);
+          historyList.appendChild(row);
+        });
+      }
+
+      function formatDateTime(value) {
+        const date = new Date(value);
+        return new Intl.DateTimeFormat(undefined, {
+          month: "short",
+          day: "2-digit",
+          year: "numeric",
+          hour: "numeric",
+          minute: "2-digit"
+        }).format(date);
+      }
+
+      function randomColor() {
+        return COLORS[Math.floor(Math.random() * COLORS.length)];
+      }
+
+      function rand(min, max) {
+        return Math.random() * (max - min) + min;
+      }
+
+      function updateStats() {
+        scoreEl.textContent = String(score);
+        missesEl.textContent = String(misses);
+        hitsTextEl.textContent = `${score} tap${score === 1 ? "" : "s"}`;
+        const attempts = score + misses;
+        const accuracy = attempts ? Math.round((score / attempts) * 100) : 100;
+        accuracyTextEl.textContent = `${accuracy}% accuracy`;
+      }
+
+      function flashScreen() {
+        flash.classList.add("show");
+        window.clearTimeout(flash._t);
+        flash._t = window.setTimeout(() => flash.classList.remove("show"), 120);
+      }
+
+      function spawnDot() {
+        const dot = document.createElement("button");
+        dot.type = "button";
+        dot.className = "dot";
+        dot.setAttribute("aria-label", "Tap dot");
+        dot.style.background = `radial-gradient(circle at 30% 25%, rgba(255,255,255,0.52), transparent 24%), linear-gradient(135deg, ${randomColor()}, rgba(0,0,0,0.14))`;
+        dot.textContent = "";
+        placeDot(dot);
+
+        dot.addEventListener("pointerdown", (event) => {
+          event.preventDefault();
+          if (!playing) return;
+          removeDot(dot, true);
+          score += 1;
+          updateStats();
+          flashScreen();
+          spawnDot();
+        });
+
+        playfield.appendChild(dot);
+        dots.push(dot);
+      }
+
+      function placeDot(dot) {
+        const rect = playfield.getBoundingClientRect();
+        const pad = DOT_SIZE / 2 + 10;
+        const x = rand(pad, Math.max(pad, rect.width - pad));
+        const y = rand(pad, Math.max(pad, rect.height - pad));
+        dot.style.left = `${x}px`;
+        dot.style.top = `${y}px`;
+      }
+
+      function removeDot(dot, animated) {
+        dots = dots.filter((item) => item !== dot);
+        if (animated) {
+          dot.classList.add("pop");
+          window.setTimeout(() => dot.remove(), 120);
+        } else {
+          dot.remove();
+        }
+      }
+
+      function refillDots() {
+        while (dots.length < DOT_COUNT && playing) {
+          spawnDot();
+        }
+      }
+
+      function clearDots() {
+        dots.forEach((dot) => dot.remove());
+        dots = [];
+      }
+
+      function startSession() {
+        if (playing) return;
+
+        score = 0;
+        misses = 0;
+        startedAt = Date.now();
+        endAt = startedAt + DURATION * 1000;
+        playing = true;
+        overlay.style.display = "none";
+        updateStats();
+        clearDots();
+        for (let i = 0; i < DOT_COUNT; i += 1) spawnDot();
+        tick();
+
+        timerId = window.setInterval(() => {
+          const left = Math.max(0, Math.ceil((endAt - Date.now()) / 1000));
+          timeLeftEl.textContent = String(left);
+          if (left <= 0) endSession();
+        }, 120);
+      }
+
+      function endSession() {
+        if (!playing) return;
+        playing = false;
+        window.clearInterval(timerId);
+        cancelAnimationFrame(rafId);
+        clearDots();
+        timeLeftEl.textContent = "0";
+
+        const attempts = score + misses;
+        const accuracy = attempts ? Math.round((score / attempts) * 100) : 100;
+        const focusScore = Math.max(0, Math.round(score * (accuracy / 100)));
+
+        history.unshift({
+          when: new Date().toISOString(),
+          score: focusScore,
+          taps: score,
+          misses,
+          accuracy
+        });
+        history = history.slice(0, 20);
+        saveHistory();
+        renderHistory();
+
+        overlay.style.display = "grid";
+        overlay.querySelector(".title").textContent = "Session Complete";
+        overlay.querySelector(".lede").textContent =
+          `Your focus score is ${focusScore}. You tapped ${score} dots with ${misses} misses at ${accuracy}% accuracy.`;
+        startBtn.textContent = "Play Again";
+      }
+
+      function tick() {
+        if (!playing) return;
+        const left = Math.max(0, Math.ceil((endAt - Date.now()) / 1000));
+        timeLeftEl.textContent = String(left);
+        refillDots();
+        if (left <= 0) {
+          endSession();
+          return;
+        }
+        rafId = requestAnimationFrame(tick);
+      }
+
+      playfield.addEventListener("pointerdown", (event) => {
+        if (!playing) return;
+        if (event.target === playfield) {
+          misses += 1;
+          updateStats();
+          flashScreen();
+        }
+      });
+
+      startBtn.addEventListener("click", () => {
+        overlay.querySelector(".title").textContent = "Dot Focus";
+        overlay.querySelector(".lede").textContent =
+          "Tap the colored dots as quickly as you can for 60 seconds. Each tap removes a dot and spawns a new one elsewhere. Your score is saved with the date and time after every run.";
+        startBtn.textContent = "Start Session";
+        startSession();
+      });
+
+      clearBtn.addEventListener("click", () => {
+        history = [];
+        saveHistory();
+        renderHistory();
+      });
+
+      window.addEventListener("resize", () => {
+        dots.forEach(placeDot);
+      });
+
+      overlay.addEventListener("pointerdown", (event) => {
+        if (event.target === overlay) event.preventDefault();
+      });
+
+      updateStats();
+      renderHistory();
+      timeLeftEl.textContent = String(DURATION);
+    })();
+  </script>
+</body>
+</html>
