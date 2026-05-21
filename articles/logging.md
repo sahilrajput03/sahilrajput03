@@ -18,7 +18,7 @@ console.log('[Scheduler]');
 console.log('[OpenAI]');
 
 console.log('[Auth] User login started', { userId });
-console.error('[DB] Query failed', { err, sql });
+console.log('[DB] Query failed', { err, query });
 ```
 
 **TODO: Some reads for myself:**
