@@ -44,5 +44,5 @@ Most of the businesses do not have this requirement, like 90% in my experience (
 **Q. What is scalability issue in software?**
 
 👉🏻 There are two types of scalability issues i.e., compute scalability and codebase scalability.
-1. Compute Scalability issue means ability to run software for more people
+1. Compute scalability issue means ability to run software for more people
 2. Codebase scalability (Manageability): Ability to write more code in manageable way in future.
