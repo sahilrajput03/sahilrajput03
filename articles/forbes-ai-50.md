@@ -5,4 +5,6 @@
 My Notes:
 - ...
 
-How I found out about this? By reading the Wikipedia page of [LangChain](https://en.wikipedia.org/wiki/LangChain).
+**Q. How I found out about this?**
+
+👉🏻 Wikipedia page of [LangChain](https://en.wikipedia.org/wiki/LangChain)
