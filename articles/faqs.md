@@ -41,7 +41,7 @@ Most of the businesses do not have this requirement, like 90% in my experience (
 
 👉🏻 No. You can earn money without degree and without job but you do need proof of work to show to people to build transparency (trust) and attract customers into buying your product.
 
-**Q. What is scalability issue in softwares?**
+**Q. What is scalability issue in software?**
 
 👉🏻 There are two types of scalability issues i.e., compute scalability and codability scalability.
 1. Compute Scalability issue means ability to run software for more people
