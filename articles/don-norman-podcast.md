@@ -1,6 +1,6 @@
 # Podcast of Kent and Don Norman
 
-*Date: 12 May 2026*
+12 May 2026
 
 *Shared to me by Samaksh Grover.*
 

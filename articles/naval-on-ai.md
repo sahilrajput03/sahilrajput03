@@ -1,6 +1,6 @@
 # Naval on Artificial Intelligence
 
-*Date: 17 May 2026, (Source: [ChatGPT](https://chatgpt.com/c/6a098b57-9314-83ec-bf52-fbd686932e17))*
+17 May 2026 (Source: [ChatGPT](https://chatgpt.com/c/6a098b57-9314-83ec-bf52-fbd686932e17))
 
 Naval Ravikant generally talks about AI as a massive “leverage multiplier” rather than just a tool.
 

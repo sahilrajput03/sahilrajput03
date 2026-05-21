@@ -1,6 +1,6 @@
 # Founders at work
 
-*Date: 14 May 2026*
+14 May 2026
 
 **Q. Out of 32 interviews, how many are technical person?**
 

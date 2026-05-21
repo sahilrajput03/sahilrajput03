@@ -1,6 +1,6 @@
 # Towards a Generalist programmer
 
-*Date: 18 May 2026*
+18 May 2026
 
 <!-- How I found about the word "Generalist programmer"?
     https://chatgpt.com/c/6a0aebfd-04f0-83e8-b698-0703d07dca65 -->

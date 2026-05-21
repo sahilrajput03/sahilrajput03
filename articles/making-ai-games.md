@@ -1,6 +1,6 @@
 # Making AI Games
 
-*Date: 19 May 2026*
+19 May 2026
 
 I used Clade (website) and `codex` on terminal to generate this game with prompt:
 

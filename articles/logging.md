@@ -1,6 +1,6 @@
 # Good logging
 
-*Date: 21 May 2026*
+21 May 2026
 
 Is it a thing?
 

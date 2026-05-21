@@ -1,6 +1,6 @@
 # Prompts
 
-*Date: 6 May 2026*
+6 May 2026
 
 1. Be concise
 

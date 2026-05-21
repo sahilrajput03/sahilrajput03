@@ -1,6 +1,6 @@
 # **Poetry**
 
-*Date: 6 May 2026*
+6 May 2026
 
 **Source:**
 

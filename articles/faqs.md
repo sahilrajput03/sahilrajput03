@@ -1,6 +1,6 @@
 # FAQ's
 
-*Date: 19 April 2026*
+19 April 2026
 
 **Q. Are my communication skills good enough (ready/sufficient) to start my own business?**
 
