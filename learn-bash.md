@@ -1458,7 +1458,7 @@ tail -n10 #Gets last 10 lines
 
 ## `sort` and `uniq` tool is linux
 
-**Moved to Google Doc on 5 Dec 2025.**
+**Moved to Google Doc on 21 May 2025.**
 
 ## Playing with commands to represent directiory
 
