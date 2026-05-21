@@ -29,7 +29,6 @@ This means that your hobby projects can handle 60 lakh visits in 1 hour and you 
 
 Most of the businesses do not have this requirement, like 90% in my experience (or opinion). For the rest of 10%, you'll need expert to help you fix those issues, no doubt about it.
 
-
 **Q. Who goes to sell things? I go to them to sell or they come to me to buy software?**
 
 👉🏻 Do 1st and 2nd will happen automatically.
@@ -41,3 +40,9 @@ Most of the businesses do not have this requirement, like 90% in my experience (
 **Q. Is degree/job important to earn money?**
 
 👉🏻 No. You can earn money without degree and without job but you do need proof of work to show to people to build transparency (trust) and attract customers into buying your product.
+
+**Q. What is scalability issue in softwares?**
+
+👉🏻 There are two types of scalability issues i.e., compute scalability and codability scalability.
+1. Compute Scalability issue means ability to run software for more people
+2. Codability scalability (Manageability): Ability to write more code in manageable way in future.
