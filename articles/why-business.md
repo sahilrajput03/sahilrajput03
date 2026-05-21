@@ -1,6 +1,6 @@
 # Why Business? 🚀
 
-*Date: 26 October 2025*
+26 October 2025
 
 I'm fed up with working on projects which I don't have full control of. Control here means to have full flexibility and ability to unleash my capacity in as many domains as possible. I crave the “true feeling” of working on a project which: 
 
