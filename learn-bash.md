@@ -1458,63 +1458,7 @@ tail -n10 #Gets last 10 lines
 
 ## `sort` and `uniq` tool is linux
 
-```bash
-$ cat test.txt
-z
-y
-x
-b
-a
-
-# Simple sorting with sort cli:
-$ sort test.txt
-a
-b
-x
-y
-z
-```
-
-```bash
-$ cat test.txt
-z
-y
-y
-y
-y
-x
-b
-a
-a
-a
-a
-a
-
-$ sort test.txt | uniq
-a
-b
-x
-y
-z
-
-# Count the duplicate occurences as well with -c option in uniq cli:
-$ sort test.txt | uniq -c
-      5 a
-      1 b
-      1 x
-      4 y
-      1 z
-
-
-# We can sort these entries by their count nubmers as well:
-# FYI: I modified the duplicate entries so thats why the duplicate count has changed like that:
-$ sort test.txt | uniq -c | sort
-      1 x
-      2 a
-      3 z
-      4 y
-      6 b
-```
+**Moved to Google Doc on 21 May 2025.**
 
 ## Playing with commands to represent directiory
 
