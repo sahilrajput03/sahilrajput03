@@ -127,12 +127,6 @@ console.log(factorial(5)); // 120
 
 ## More
 
-- Development tips:
-	- Making notes is good for long term memory and a little bit for short term memory because you tend to rely on written material. But overall its really great thing to make notes.
-	- Get summary of any video in any language in Google Gemini. ❤️
-	- Use VsCode' default markdown preview to edit markdown files.
-	- Always keep a REPL on of nodejs for fast testing. ~ Sahil
-	- HTTP Statuses: [Learn Express](https://docs.google.com/document/d/17XV7gFZ2_rsPGg8uoDY8B1_fB06jsMuHx3O8gS3V6Q0/edit?tab=t.0#heading=h.yvdn9vtmve6c)
 - Learn Aryuveda: [Click here](https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0)
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
 	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
