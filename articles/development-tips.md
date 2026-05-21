@@ -12,6 +12,7 @@
     - Loop → repeats continuously
 - Always keep a REPL (Read–Eval–Print Loop) on of nodejs for fast testing by running `node` on your terminal.
     - You can load a js file in repl by running: `.load 1.js` and you can get value of any variable's value in the REPL mode by using the name of variable. Example:
+
     ```js
     // Source: https://chatgpt.com/c/6a0f14b7-0098-83ec-962f-c95fb32c609e
     /* Note: Please add below 4 lines of code to your ~/.bashrc file.
@@ -21,7 +22,6 @@
     }
     */
 
-    const boats = ['abc', 'def'];
     let cars = ['bmw', 'mercedes'];
     const bikes = ['ducati', 'splender'];
 
