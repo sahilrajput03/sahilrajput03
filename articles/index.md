@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Good Logging](./logging)
 - [Making AI Games](making-ai-games)
 - [Towards a Generalist Programmer](generalist-programmer.md)
 - [Naval on Artificial Intelligence](naval-on-ai.md)
