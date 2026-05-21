@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Forbes AI 50 List](forbes-ai-50)
 - [3 Physical Spaces You Need](3-spaces)
 - [Good Logging](./logging)
 - [Making AI Games](making-ai-games)
