@@ -1,6 +1,8 @@
 # Forbes AI 50 List 
 
-[forbes.com/lists/ai50](https://www.forbes.com/lists/ai50)
+👉🏻 [forbes.com/lists/ai50](https://www.forbes.com/lists/ai50)
+
+🚀 Another intersting page: [forbes.com/lists](https://www.forbes.com/lists)
 
 My Notes:
 - ...
