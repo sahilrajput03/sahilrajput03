@@ -50,6 +50,9 @@
 - <a href="https://github.com/sahilrajput03/learn-rpc-middlewares/tree/main/my-rpc" target="_blank">Demo of `rpc-middleware` (Github Respository)</a> (CURRENTLY NOT DEPLOYED)
 - <a href="https://device-width-react.vercel.app/" target="_blank">Device Width React</a>, <a href="https://github.com/sahilrajput03/device-width-react" target="_blank">Github Repository</a>
 - <a href="https://github.com/sahilrajput03/obj-json" target="_blank">Js Object to JSON via STDIN (Standard Input) (Github Repository)</a>
+- <a href="https://sahilrajput.com/thoughts" target="_blank">sahilrajput.com/thoughts</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/tree/main/thoughts/thoughts-frontend" target="_blank">Code</a>)
+
+https://github.com/sahilrajput03/sahilrajput03/tree/main/thoughts/thoughts-frontend
 
 #### Packages published @ `npm.com`/`yarnpkg.com`
 
