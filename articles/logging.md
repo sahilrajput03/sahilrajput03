@@ -13,11 +13,10 @@ console.log("got it");
 console.log("123123");
 
 // ✅ GOOD LOGGING
-console.log('[TelegramBot]');
-console.log('[Scheduler]');
-console.log('[OpenAI]');
-
-console.log('[Auth] User login started', { userId });
+console.log('[APP] Server started at port', port)
+console.log('[TelegramBot] msg?', msg);
+console.log('[Gemini] response?', response);
+console.log('[Auth] User login started:', { userId });
 console.log('[DB] Query failed', { err, query });
 ```
 
