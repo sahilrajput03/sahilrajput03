@@ -8,7 +8,9 @@
 <!-- Extracting links from my website - sahilrajput.com
     https://chatgpt.com/c/6a0aea8b-eb38-83e9-b827-c40c3de0526e -->
 
-I graduated from college in 2019 and I started learning programming in 2020. I did a course from https://fullstackopen.com/en and it helped a lot to learn javascript/typescript. I learned early in the course that having a workable knowledge of Bash for writing automation scripts could be a really useful skill. In next 5 years I eventually tried to learn different programming languages for one reason or or another which I do not recally exactly at the moment. Bu the interesting thing is that I make notes when try to learn anything. Here is a list of my notes/github repos of learning different programming languages. I am a typescript developer and I try as much as possible to stay away from code written in other languages because mastering more language is a very time taking task for me. Interestingly few of my friends and many more others on internet claim themselves a generalist programmer.
+I graduated from college in 2019 and I started learning programming in 2020. I did a course from [fullstackopen.com/en](https://fullstackopen.com/en) and it helped a lot to learn javascript/typescript. I learned early in the course that having a workable knowledge of Bash for writing automation scripts could be a really useful skill. In next 5 years I eventually tried to learn different programming languages for one reason or or another which I do not recally exactly at the moment.
+
+But the interesting thing is that I make notes when try to learn anything. Here is a list of my notes/github repos of learning different programming languages. I am a typescript developer and I try as much as possible to stay away from code written in other languages because mastering more language is a very time taking task for me. Interestingly few of my friends and many more others on internet claim themselves a generalist programmer.
 
 - Bash — [Click here](https://github.com/sahilrajput03/learning-bash)
 - Go — [Click here](https://github.com/sahilrajput03/learn_go)
