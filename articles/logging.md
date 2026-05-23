@@ -7,12 +7,12 @@ Is it a thing?
 **YES, YES, YES!**
 
 ```js
-// ❌ bad logging
+// ❌ Bad logging
 console.log("here");
 console.log("got it");
 console.log("123123");
 
-// ✅ GOOD LOGGING
+// ✅ Good Logging
 console.log('[APP] Server started at port', port)
 console.log('[TelegramBot] msg?', msg);
 console.log('[Gemini] response?', response);
