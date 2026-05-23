@@ -13,11 +13,11 @@ console.log("got it");
 console.log("123123");
 
 // ✅ Good Logging
-console.log('[APP] Server started at port', port)
+console.log('[APP] Server started at port:', port)
 console.log('[TelegramBot] msg?', msg);
 console.log('[Gemini] response?', response);
 console.log('[Auth] User login started:', { userId });
-console.log('[DB] Query failed', { err, query });
+console.log('[DB] Query failed?', { err, query });
 
 // 🔥 Use \t (or two spaces) as prefix in for indentation as it can help you where in nested function logging
 console.log('\t[Cron] remind-task-a', new Date());
