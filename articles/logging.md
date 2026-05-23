@@ -7,7 +7,7 @@ Is it a thing?
 **YES, YES, YES!**
 
 ```js
-// ❌ Bad logging
+// ❌ Bad Logging
 console.log("here");
 console.log("got it");
 console.log("123123");
