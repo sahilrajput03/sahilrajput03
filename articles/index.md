@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Executing execution](executing-execution)
 - [Musk on AI](musk-on-ai)
 - [Deveopment Tips](development-tips)
 - [Forbes AI 50 List](forbes-ai-50)
