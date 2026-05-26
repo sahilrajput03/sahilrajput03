@@ -7,6 +7,7 @@
 *The essays are listed in reverse chronological order (latest first).*
 
 - [Executing execution](executing-execution)
+- [Military Sleep Method](military-sleep-method)
 - [Musk on AI](musk-on-ai)
 - [Deveopment Tips](development-tips)
 - [Forbes AI 50 List](forbes-ai-50)
