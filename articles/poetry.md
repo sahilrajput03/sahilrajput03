@@ -7,6 +7,7 @@
 - [amarujala.com/kavya](https://www.amarujala.com/kavya)  
 - [rekhta.org](http://rekhta.org)  
   - [वसीम बरेलवी](https://www.rekhta.org/poets/waseem-barelvi/ghazals?lang=hi)
+  - [धूमिल](https://www.hindwi.org/poets/dhumil/kavita)
 
 **Favorites:**
 
