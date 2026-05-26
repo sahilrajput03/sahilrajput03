@@ -1,5 +1,7 @@
 # Executing execution
 
+23 May 2026
+
 Execution is not something which can be mastered because it is dynamic. It changes pretty quickly. But the good thing is if you keep on executing more and more, eventually you'll fall into a scoped flow zone, and that makes you feel that you can do without much planning and it feels that ideas come in baked form, mini form, directly executable form, which you can execute without need to think.
 
 Execution and flow mode may seem opposite ends as the former is active thing and the latter feels passive, or automatic. Yin & yang. They are not opposites, they complete each other. They are complementry. The Masculine and feminine completes each other. Realizing oneness.
