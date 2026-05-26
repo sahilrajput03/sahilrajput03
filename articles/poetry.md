@@ -16,11 +16,8 @@
    नयी उम्रों की ख़ुदमुख़्तारियों को कौन समझाए ।  
    कहाँ से बच के चलना है कहाँ जाना ज़रूरी है।।
 
-    - *Vocab:* **ख़ुद-मुख़्तार** \= स्वतंत्र, आज़ाद, अपनी मर्जी के मालिक, अपने फैसले खुद लेना, अपनी जिंदगी अपनी शर्तों पर जीना, मनमानी करनेवाला, स्वाधीन, स्वेच्छाचारी, निरंकुश;
-      - autonomous, independent, self-governed, or sovereign
-    - *Full Poem at [Rekhta by Waseem Barelvi](https://www.rekhta.org/ghazals/mohabbat-naa-samajh-hotii-hai-samjhaanaa-zaruurii-hai-waseem-barelvi-ghazals?lang=hi)*  
-    - *[Narrated by वसीम बरेलवी \- YouTube](https://www.youtube.com/shorts/1-VZ0jBRP5A)*
-    - *[Narrated by Vikas Divyakirti \- YouTube](https://www.youtube.com/shorts/CYlLpPUHow4)*
+    - *Vocab:* **ख़ुद-मुख़्तार** \= स्वतंत्र, आज़ाद, अपनी मर्जी के मालिक, अपने फैसले खुद लेना, अपनी जिंदगी अपनी शर्तों पर जीना, मनमानी करनेवाला, स्वाधीन, स्वेच्छाचारी, निरंकुश; autonomous, independent, self-governed, or sovereign.
+    - *[Full Poem at Rekhta by Waseem Barelvi](https://www.rekhta.org/ghazals/mohabbat-naa-samajh-hotii-hai-samjhaanaa-zaruurii-hai-waseem-barelvi-ghazals?lang=hi), [Narrated by वसीम बरेलवी](https://www.youtube.com/shorts/1-VZ0jBRP5A), [Narrated by Vikas Divyakirti](https://www.youtube.com/shorts/CYlLpPUHow4)*  
 
 1. ❤️याद रख सिकंदर के हौसले तो आली थे,  
    जब गया था दुनिया से दोनों हाथ खाली थे।
