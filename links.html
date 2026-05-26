@@ -12,6 +12,7 @@
 <body>
   <div style="font-style: italic; color: gray; position: fixed; right: 10px; top: 10px;">Safe Mode (h)</div>
   <div style="font-style: italic; color: gray; position: fixed; right: 10px; top: 40px;">Clear (Esc)</div>
+  <div id="unhide" style="font-style: italic; color: gray; position: fixed; right: 10px; top: 70px;"> ?</div>
 
   <div class="links-container">
     <a id="tantra" href="https://sahilrajput.com/t">तंत्र (t)</a>
@@ -156,6 +157,10 @@
     setInterval(() => {
       setLinksContainerVisibility(true);
     }, 20_000);
+
+    $('#unhide').addEventListener('click', () => {
+      setLinksContainerVisibility(false);
+    });
 
     const shortcuts = {
       a: {
