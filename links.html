@@ -139,12 +139,23 @@
     const isLinksContainerHidden = createPersisted('areLinksHidden', false);
     console.log("🚀 ~ (page load) isLinksContainerHidden:", isLinksContainerHidden.value);
 
+    // `show` is boolean
     function setLinksContainerVisibility(show) {
+      isLinksContainerHidden.value = show;
       const el = document.querySelector('.links-container');
       if (show) el.classList.add('hidden');
       else el.classList.remove('hidden');
     }
     setLinksContainerVisibility(isLinksContainerHidden.value);
+
+    //  🔴  🔴  🔴  🔴 EXPERIMENT AREA 🔴  🔴  🔴  🔴 
+    //  🔴  🔴  🔴  🔴 EXPERIMENT AREA 🔴  🔴  🔴  🔴 
+    //  🔴  🔴  🔴  🔴 EXPERIMENT AREA 🔴  🔴  🔴  🔴 
+    //  🔴  🔴  🔴  🔴 EXPERIMENT AREA 🔴  🔴  🔴  🔴 
+    // Hide links container after 20 seconds of inactivity of page load.
+    setInterval(() => {
+      setLinksContainerVisibility(true);
+    }, 20_000);
 
     const shortcuts = {
       a: {
@@ -231,9 +242,7 @@
       } else if (key === 'h') {
         // if ((event.ctrlKey || event.metaKey) && key === 'h') {
         // event.preventDefault(); // Prevents browser's default behavior
-        isLinksContainerHidden.value = !isLinksContainerHidden.value;
-        console.log("🚀 ~ isLinksContainerHidden:", isLinksContainerHidden.value);
-        setLinksContainerVisibility(isLinksContainerHidden.value);
+        setLinksContainerVisibility(!isLinksContainerHidden.value);
       } else if (multiCharShortcut) {
         multiCharShortcut += key;
         console.log("🚀 ~ multiCharShortcut (2)?", multiCharShortcut);
