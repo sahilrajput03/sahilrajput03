@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Understanding](understanding)
 - [Executing execution](executing-execution)
 - [Military Sleep Method](military-sleep-method)
 - [Musk on AI](musk-on-ai)
