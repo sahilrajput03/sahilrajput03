@@ -1,4 +1,4 @@
-# The Military Method
+# Military Sleep Method
 
 22 May 2026 (Source: Gemini)
 
