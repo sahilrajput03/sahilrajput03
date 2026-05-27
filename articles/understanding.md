@@ -1,6 +1,6 @@
 # What is it called when we truly understand the meaning of the words
 
-27 May 2026
+27 May 2026 (Source: Sahil, [Priavte ChatGPT](https://chatgpt.com/c/6a16a11e-6f04-8324-8503-1ece62cde1a9))
 
 **Greater Meaning, Higher Meaing, Deeper Meaning, True Meaning.** ~ Sahil
 
