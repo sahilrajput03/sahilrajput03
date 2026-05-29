@@ -15,7 +15,10 @@
 
 6. Whenever you finish please use `say` cli to say message aloud to me so I'm alerted when you're done. Usage: `say -v Rishi -r 200 "Hi"`
 
-Footnotes: ([Source of 3](https://x.com/pmarca/status/2051374498994364529))
+7. Think step by step.
+
+- Footnotes: ([Source of 3](https://x.com/pmarca/status/2051374498994364529))
+- Footnotes: (Source of 7: [0](https://www.promptingguide.ai/techniques/cot?utm_source=chatgpt.com), [1](https://masterprompting.net/blog/chain-of-thought-prompting-guide), [2](https://masterprompting.net/guides/chain-of-thought?utm_source=chatgpt.com))
 
 <style>
   .copy-point-btn {
