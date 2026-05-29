@@ -1,5 +1,7 @@
 # missing-semester
 
+## TODO: Move the content of this to a google doc for easier editing in future.
+
 - [LECTURE 1 - Shell](#lecture-1---shell)
 - [LECTURE 2 - Shell Tools and Scripting](#lecture-2---shell-tools-and-scripting)
 - [LECTURE 3 - Editors (Vim)](#lecture-3---editors-vim)
