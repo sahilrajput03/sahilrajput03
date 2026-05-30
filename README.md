@@ -347,6 +347,7 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 
 #### Transcribe, Convert, Download, TTS, STT
 
+- ❤️ Epub to text converter: [https://cloudconvert.com/epub-to-txt](https://cloudconvert.com/epub-to-txt)
 - Text Wrap, Line Break Online (e.g., say comments to wrap after 80 chars): [Click here](https://www.joydeepdeb.com/tools/line-break.html)
 - Transcribe youtube video or shorts:
 	- [downsub.com](https://downsub.com/)
