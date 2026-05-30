@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Pieter Thiel first invesment in Facebook](./thiel-facebook-investment.md)
 - [Deaddict](deaddict)
 - [Lineflow Secret Hacks](lineflow-secret-hacks)
 - [Understanding](understanding)
