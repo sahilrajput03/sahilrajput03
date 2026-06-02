@@ -35,10 +35,15 @@
 
       <a id="logs" href="https://docs.google.com/document/d/1N6RnvOSk8RHOylSIqdUPIgeFuvdiQGOFqPPkz6V1cMc/edit?tab=t.les2royyxy2k#heading=h.hpn8ghx0pnca"
         style="margin-left: 5px;">xl [logs]</a>
+ 
+      <a id="money" href="https://docs.google.com/document/d/1N6RnvOSk8RHOylSIqdUPIgeFuvdiQGOFqPPkz6V1cMc/edit?tab=t.cx1gr0pi8r9k#heading=h.ix4dj0nbksfn"
+        style="margin-left: 5px;">mon [money]</a>
+
+
     </div>
     <a id="books" href="https://docs.google.com/document/d/1gZMmhLFNHZeAOFXbxMsCOKoG07xATlEqrAadryYNTOQ/edit?tab=t.0#heading=h.vs3frmio3zx3">bo [books]</a>
     <a id="poetry" href="https://sahilrajput.com/articles/poetry">po [Poems]</a>
-    <a id="movies" href="https://sahilrajput.com/movies">/movies (m)</a>
+    <a id="movies" href="https://sahilrajput.com/movies">/movies (mov)</a>
     <a id="github_repos" href="https://github.com/sahilrajput03?tab=repositories&type=source">github repos (gr)</a>
     <a id="business" href="https://docs.google.com/document/d/1_nlp7AaPG1Xl9yoxeiC5cp2uJwYvoaoUF17ZNRUEfi4/edit?tab=t.0">
       business (bu)
@@ -190,7 +195,12 @@
         // f: 'lineflow.html', // This is not useful anymore as I run `serve` to run lineflow project from now.
         f: $('#lineflow').href,
       },
-      m: $('#movies').href,
+      m: {
+        o: {
+          v: $('#movies').href,
+          n: $('#money').href,
+        }
+      },
       n: $('#neeti').href,
       p: {
         o: $('#poetry').href,
