@@ -5,7 +5,7 @@
 Peter Thiel was Facebook's first outside investor.
 
 * **Investment date:** August 2004
-* **Amount invested:** **$500,000** (often reported as $500,001)
+* **Amount invested:** **$500,000** (often reported as $500,001 = **₹2.25 crore** (₹44–45 per US dollar))
 * **Stake received:** **10.2% of Facebook**
 * **Facebook valuation at the time:** About **$4.9 million**
 * **Structure:** Initially a convertible loan that later converted into equity
