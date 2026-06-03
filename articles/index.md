@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [How to be fully focussed on my work goals?](fully-focussed.md)
 - [try-catch-then-catch](https://gist.github.com/sahilrajput03/cca866fef192e7728d64d983219b9467)
 - [Pieter Thiel first invesment in Facebook](thiel-facebook-investment.md)
 - [Deaddict](deaddict)
