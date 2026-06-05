@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YAML → JSON</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0a0a0f;
+    --panel: #111118;
+    --border: #1e1e2e;
+    --accent: #f0e040;
+    --accent2: #40e0f0;
+    --text: #d0d0e0;
+    --muted: #555570;
+    --error: #f05060;
+    --success: #40f090;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  /* Grid background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(240,224,64,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(240,224,64,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  header {
+    position: relative;
+    z-index: 1;
+    padding: 28px 40px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: 3px;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .logo span {
+    color: var(--accent2);
+  }
+
+  .tagline {
+    font-size: 0.65rem;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .toolbar {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 40px;
+    border-bottom: 1px solid var(--border);
+    background: rgba(17,17,24,0.8);
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    padding: 7px 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid var(--muted);
+    background: transparent;
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.15s;
+    clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
+  }
+
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
+  .btn.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #000;
+  }
+  .btn.primary:hover { background: #fff; border-color: #fff; }
+
+  .btn.secondary {
+    border-color: var(--accent2);
+    color: var(--accent2);
+  }
+  .btn.secondary:hover { background: var(--accent2); color: #000; }
+
+  .spacer { flex: 1; }
+
+  .status-badge {
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+    padding: 4px 12px;
+    border: 1px solid;
+    opacity: 0;
+    transition: opacity 0.3s;
+    clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
+  }
+  .status-badge.show { opacity: 1; }
+  .status-badge.ok { border-color: var(--success); color: var(--success); }
+  .status-badge.err { border-color: var(--error); color: var(--error); }
+
+  .editors {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex: 1;
+    min-height: 0;
+    height: calc(100vh - 130px);
+  }
+
+  .pane {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .pane:last-child { border-right: none; }
+
+  .pane-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .pane-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .pane-dot.blue { background: var(--accent2); }
+
+  .pane-label { color: var(--muted); }
+  .pane-count { margin-left: auto; color: var(--muted); font-size: 0.6rem; }
+
+  textarea, .output-area {
+    flex: 1;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    line-height: 1.7;
+    padding: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    tab-size: 2;
+  }
+
+  textarea::placeholder { color: var(--muted); }
+
+  textarea:focus {
+    background: #0d0d14;
+  }
+
+  .output-area {
+    white-space: pre;
+    cursor: default;
+    position: relative;
+  }
+
+  .output-area.error-state {
+    color: var(--error);
+  }
+
+  .output-area.empty-state {
+    color: var(--muted);
+    font-style: italic;
+    white-space: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+  }
+
+  /* Indent highlighting for JSON output */
+  .json-key { color: var(--accent2); }
+  .json-string { color: var(--success); }
+  .json-number { color: #f09040; }
+  .json-bool { color: #c080f0; }
+  .json-null { color: var(--muted); }
+
+  .divider {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    padding: 8px 10px;
+    color: var(--accent);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    pointer-events: none;
+  }
+
+  @media (max-width: 700px) {
+    header { padding: 20px; }
+    .toolbar { padding: 10px 16px; }
+    .editors { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; height: calc(100vh - 140px); }
+    .pane { border-right: none; border-bottom: 1px solid var(--border); }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">YAML<span>→</span>JSON</div>
+  <div class="tagline">Instant Converter</div>
+</header>
+
+<div class="toolbar">
+  <button class="btn primary" onclick="convert()">▶ Convert</button>
+  <button class="btn" onclick="clearAll()">✕ Clear</button>
+  <button class="btn" onclick="loadExample()">⊞ Example</button>
+  <button class="btn secondary" onclick="copyOutput()">⎘ Copy JSON</button>
+  <div class="spacer"></div>
+  <div class="status-badge" id="status"></div>
+</div>
+
+<div class="editors">
+  <div class="pane">
+    <div class="pane-header">
+      <div class="pane-dot"></div>
+      <span class="pane-label">YAML Input</span>
+      <span class="pane-count" id="yaml-lines">—</span>
+    </div>
+    <textarea id="yaml-input" placeholder="Paste your YAML here..." spellcheck="false" oninput="onYamlInput()"></textarea>
+  </div>
+
+  <div class="pane">
+    <div class="pane-header">
+      <div class="pane-dot blue"></div>
+      <span class="pane-label">JSON Output</span>
+      <span class="pane-count" id="json-lines">—</span>
+    </div>
+    <div class="output-area empty-state" id="json-output">
+      JSON will appear here after conversion.
+    </div>
+  </div>
+</div>
+
+<script>
+  const yamlInput = document.getElementById('yaml-input');
+  const jsonOutput = document.getElementById('json-output');
+  const statusEl = document.getElementById('status');
+  let convertTimeout;
+
+  function showStatus(msg, type) {
+    statusEl.textContent = msg;
+    statusEl.className = `status-badge show ${type}`;
+    clearTimeout(window._statusTimer);
+    window._statusTimer = setTimeout(() => {
+      statusEl.classList.remove('show');
+    }, 2500);
+  }
+
+  function onYamlInput() {
+    const lines = yamlInput.value.split('\n').length;
+    document.getElementById('yaml-lines').textContent = yamlInput.value.trim() ? `${lines} lines` : '—';
+    clearTimeout(convertTimeout);
+    convertTimeout = setTimeout(convert, 600);
+  }
+
+  function convert() {
+    const yaml = yamlInput.value.trim();
+    if (!yaml) {
+      jsonOutput.className = 'output-area empty-state';
+      jsonOutput.innerHTML = 'JSON will appear here after conversion.';
+      document.getElementById('json-lines').textContent = '—';
+      return;
+    }
+
+    try {
+      const parsed = jsyaml.load(yaml);
+      const json = JSON.stringify(parsed, null, 2);
+      const highlighted = syntaxHighlight(json);
+      jsonOutput.className = 'output-area';
+      jsonOutput.innerHTML = highlighted;
+      const lines = json.split('\n').length;
+      document.getElementById('json-lines').textContent = `${lines} lines`;
+      showStatus('✓ Valid', 'ok');
+    } catch (e) {
+      jsonOutput.className = 'output-area error-state';
+      jsonOutput.textContent = `Error: ${e.message}`;
+      document.getElementById('json-lines').textContent = '—';
+      showStatus('✗ Error', 'err');
+    }
+  }
+
+  function syntaxHighlight(json) {
+    return json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, match => {
+        if (/^"/.test(match)) {
+          if (/:$/.test(match)) return `<span class="json-key">${match}</span>`;
+          return `<span class="json-string">${match}</span>`;
+        }
+        if (/true|false/.test(match)) return `<span class="json-bool">${match}</span>`;
+        if (/null/.test(match)) return `<span class="json-null">${match}</span>`;
+        return `<span class="json-number">${match}</span>`;
+      });
+  }
+
+  function clearAll() {
+    yamlInput.value = '';
+    jsonOutput.className = 'output-area empty-state';
+    jsonOutput.innerHTML = 'JSON will appear here after conversion.';
+    document.getElementById('yaml-lines').textContent = '—';
+    document.getElementById('json-lines').textContent = '—';
+  }
+
+  function loadExample() {
+    yamlInput.value = `# Server configuration
+server:
+  host: localhost
+  port: 8080
+  debug: true
+
+database:
+  engine: postgresql
+  name: myapp_db
+  credentials:
+    user: admin
+    password: secret123
+  pool:
+    min: 2
+    max: 10
+
+features:
+  - name: auth
+    enabled: true
+  - name: analytics
+    enabled: false
+
+tags:
+  - production
+  - v2
+  - stable`;
+    onYamlInput();
+  }
+
+  function copyOutput() {
+    const text = jsonOutput.textContent;
+    if (!text || jsonOutput.classList.contains('empty-state') || jsonOutput.classList.contains('error-state')) {
+      showStatus('Nothing to copy', 'err');
+      return;
+    }
+    navigator.clipboard.writeText(text).then(() => showStatus('✓ Copied!', 'ok')).catch(() => showStatus('Copy failed', 'err'));
+  }
+
+  // Keyboard shortcut: Ctrl+Enter to convert
+  document.addEventListener('keydown', e => {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') { e.preventDefault(); convert(); }
+  });
+</script>
+</body>
+</html>
