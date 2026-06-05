@@ -6,7 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
-- [fear?](fear)
+- [Fear](fear)
 - [Work Hard, Eat Hardest](work-hard-eat-hardest)
 - [How to be fully focussed on my work goals?](fully-focussed)
 - [try-catch-then-catch](https://gist.github.com/sahilrajput03/cca866fef192e7728d64d983219b9467)
