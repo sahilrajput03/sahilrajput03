@@ -925,6 +925,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn Croner: [Click here](https://github.com/sahilrajput03/telegram-bot-requests/tree/main/learn-croner)
 - Paint: [jspaint.app](https://jspaint.app)
 - Learn commander: [Click here](https://github.com/sahilrajput03/learn-openai/tree/main/tts-stt-google-genai/agentx/learn-commander)
+- ❤️ Ancient Indian texts, Epic (Itihasa), Purana (mythological text), Mahabharat - Google Doc: [Click here](https://docs.google.com/document/d/1TjqEEAIxIdJ64_pN_EssAehSh9eoQLyu_qBQWiVt9EY/edit?tab=t.0#heading=h.jztl4rax2982)
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
 
