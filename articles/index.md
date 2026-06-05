@@ -6,10 +6,11 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [fear?](fear)
 - [Work Hard, Eat Hardest](work-hard-eat-hardest)
-- [How to be fully focussed on my work goals?](fully-focussed.md)
+- [How to be fully focussed on my work goals?](fully-focussed)
 - [try-catch-then-catch](https://gist.github.com/sahilrajput03/cca866fef192e7728d64d983219b9467)
-- [Pieter Thiel first invesment in Facebook](thiel-facebook-investment.md)
+- [Pieter Thiel first invesment in Facebook](thiel-facebook-investment)
 - [Deaddict](deaddict)
 - [Lineflow Secret Hacks](lineflow-secret-hacks)
 - [Understanding](understanding)
