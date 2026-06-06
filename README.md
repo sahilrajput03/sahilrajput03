@@ -292,10 +292,6 @@ Source: [Click here](https://www.youtube.com/shorts/m5SMBtF1QGs)
 
 ![social-media-game](https://github.com/user-attachments/assets/9ff89485-1199-4635-aef5-d76fcb0050d9)
 
-## Superprof .co.in: [Click here](https://www.superprof.co.in)
-
-## Indiamart .com: [Click here](https://www.indiamart.com/)
-
 ## English and Hindi Typing Courses
 
 - English: [Click here](https://sarkariselection.com/Typing/English-Typing-Test)
