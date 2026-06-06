@@ -32,6 +32,7 @@
 - [Prompts](prompts)
 - [FAQs](faqs)
 - [Why business](why-business)
+- [🫁 Reset Immune System - Wim Hof Method & Breathwork](wim-hoff)
 
 **Timeless**
 
