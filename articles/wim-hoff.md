@@ -24,3 +24,8 @@
 **Why Wim Hoff breathing?**
 
 It's gonna boost both your immune system and calmness in a compound effect each day throughout life.
+
+**Breathing Videos by James Nestor**
+
+- ❤️ Breathing Videos: [Click here](https://www.mrjamesnestor.com/breathing-videos)
+- ❤️ Interesting Page of *James Nestor - Wikipedia: [Click here](https://en.wikipedia.org/wiki/James_Nestor)*

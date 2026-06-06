@@ -262,12 +262,6 @@ $ 1 Trillion = ₹ 100 Lakh Cr		~ (88 Lakh Crore)  = ₹ 8,800k Crore
 
 [Click here](https://en.wikipedia.org/wiki/Royal_Society_Prizes_for_Science_Books)
 
-# Breathing Videos by James Nestor
-
-❤️ Breathing Videos: [Click here](https://www.mrjamesnestor.com/breathing-videos)
-
-❤️ Interesting Page of *James Nestor - Wikipedia: [Click here](https://en.wikipedia.org/wiki/James_Nestor)*
-
 ## Document Order & Titles Notice for Google Docs
 
 - This document is organized in reverse chronological order, with the most recent entries appearing first and earlier entries following in descending order.
