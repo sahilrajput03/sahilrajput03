@@ -393,11 +393,6 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - I learned a system for remembering everything: [Click here](https://www.youtube.com/watch?v=Rvey9g0VgY0)
 - Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
 
-#### Original & Curated Articles
-
-- **Thoughts & Principles:** [Click here](https://sahilrajput.com/thoughts) *([md](https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts/thoughts-frontend/src/thoughts.md)) (#thoughts, Life's Cheatcodes)*
-- Office Ethics, Social rules, Single big mistake I do often: [Click here](https://docs.google.com/document/d/1-XBXV-im_X1WRPzytJtqSZ5lmvHkx7mxCWIuRuQDXkU/edit#heading=h.ak3mr22v37vs)
-
 #### Continents
 
 Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Continent)
@@ -470,6 +465,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 
 - Contact me: [Click here](/me)
 - My Works: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/works.md)
+- Thoughts & Principles: [Click here](https://sahilrajput.com/thoughts) *([md](https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts/thoughts-frontend/src/thoughts.md)) (#thoughts, Life's Cheatcodes)*
 - Fullstackopen Course (#FSO): [Github.com/sahilrajput03/fullstackopen](https://github.com/sahilrajput03/fullstackopen), [fullstackopen.com/en](https://fullstackopen.com/en/)
 - **Blockchain Development:**
 	- Blockchain Portfolio: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/blockchain_portfolio.md)
