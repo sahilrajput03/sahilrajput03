@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Text better](text-better)
 - [Fear](fear)
 - [Work Hard, Eat Hardest](work-hard-eat-hardest)
 - [How to be fully focussed on my work goals?](fully-focussed)
