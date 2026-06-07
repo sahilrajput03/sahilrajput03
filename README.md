@@ -829,7 +829,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - countingdownto.com: *(Tags: #Countdown, #dday)*
 	- https://countingdownto.com/?c=6720497
 - Ads:
-	- https://www.carbonads.net (mongoosejs.com shows ads via carbon, I love these beautiful ads).
+	- https://www.carbonads.net (Used by mongoosejs.com, revealjs.com, I love these beautiful ads).
 	- MDN has its own ads: [Click here](https://developer.mozilla.org/en-US/advertising)
  	- Indian companies which provides ads? [ChatGPT](https://chatgpt.com/c/69f35f81-2734-83e8-826d-991c07de619b)
 - Learn Reasoning: [Click here](https://docs.google.com/document/d/1ITJVTKyzMnvibsFGeUWrL1LzV7G5t3mnH2-11RLw_d8/edit?tab=t.0)
