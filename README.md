@@ -857,6 +857,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Paint: [jspaint.app](https://jspaint.app)
 - Learn commander: [Click here](https://github.com/sahilrajput03/learn-openai/tree/main/tts-stt-google-genai/agentx/learn-commander)
 - ❤️ Ancient Indian texts, Epic (Itihasa), Purana (mythological text), Mahabharat - Google Doc: [Click here](https://docs.google.com/document/d/1TjqEEAIxIdJ64_pN_EssAehSh9eoQLyu_qBQWiVt9EY/edit?tab=t.0#heading=h.jztl4rax2982)
+- ❤️❤️Slideshow Library revealjs via HTML: [Click here](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0#heading=h.nop48556e6lj)
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
 
