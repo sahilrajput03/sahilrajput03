@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Marketing Etymology](marketing-etymology)
 - [Text better](text-better)
 - [Fear](fear)
 - [Work Hard, Eat Hardest](work-hard-eat-hardest)
