@@ -20,7 +20,6 @@ A fun detail: Thiel reportedly approved the investment very quickly after meetin
 [3]: https://www.youtube.com/watch?v=i5rylpVT0kg&utm_source=chatgpt.com "Peter Thiel explains how he became the first investor in Facebook - YouTube"
 
 
-
 **Did thiel sold shares?**
 
 Yes. Peter Thiel sold most of his Facebook shares over time.
@@ -32,3 +31,40 @@ Key points:
 * By around **2022**, regulatory filings indicated that Thiel no longer held a significant stake in Facebook's parent company, Meta Platforms.
 
 Even after selling, his original ~$500,000 investment generated returns exceeding **$1 billion**, making it one of the most successful venture investments ever.
+
+***
+
+**FB valuation y/y since founded** ([ChatGPT Private](https://chatgpt.com/c/6a25c2f7-b47c-83e9-9514-fd12d318c173))
+
+Facebook's valuation grew extremely fast even before it went public.
+
+| Year           |                               Estimated Valuation |
+| -------------- | ------------------------------------------------: |
+| 2004 (founded) |                                Essentially $0–$5M |
+| 2005           |                           ~$100M ([Wikipedia][1]) |
+| 2006           |                       ~$500M–$1B ([Wikipedia][1]) |
+| 2007           |     ~$15B (Microsoft investment) ([Wikipedia][1]) |
+| 2009           |    ~$10B–$15B (secondary market) ([Wikipedia][1]) |
+| 2010           |                       ~$23B–$41B ([Wikipedia][1]) |
+| 2011           | ~$50B–$100B private-market estimates ([arXiv][2]) |
+| 2012 IPO       |                          **$104B** ([HISTORY][3]) |
+| 2014           |     **$200B+** market cap ([RT International][4]) |
+| 2017           |                **$500B+** market cap ([Axios][5]) |
+| 2021 peak      |                       **~$1T+** market cap (Meta) |
+| 2026           |          Roughly **$1.8–2.0T+** market cap (Meta) |
+
+A rough visualization:
+
+```
+2004    $0
+2007    $15B
+2012    $104B
+2014    $200B
+2017    $500B
+2021    $1T
+2026    ~$2T
+```
+
+One of the most famous jumps was Microsoft's 2007 investment of $240 million for a 1.6% stake, which implied a valuation of about **$15 billion** for a company that was only 3 years old. ([Wikipedia][1])
+
+Today that 1.6% stake would theoretically be worth tens of billions of dollars.
