@@ -35,6 +35,9 @@
 - [Why business](why-business)
 - [🫁 Reset Immune System - Wim Hof Method & Breathwork, Breathing Videos by James Nestor](wim-hoff)
 - [Selling](selling)
+- [📑 Why Google Docs over any other publishing tools](google-docs)
+- [☁️ VPS vs. 🔌 Raspberrypi](vps-vs-raspberrypi)
+
 
 **Timeless**
 
