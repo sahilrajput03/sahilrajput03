@@ -6,6 +6,8 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Naming](naming)
+- [AI](ai)
 - [Marketing Etymology](marketing-etymology)
 - [Text better](text-better)
 - [Fear](fear)
@@ -37,6 +39,9 @@
 - [Selling](selling)
 - [📑 Why Google Docs over any other publishing tools](google-docs)
 - [☁️ VPS vs. 🔌 Raspberrypi](vps-vs-raspberrypi)
+- [Celebration by Simplebeing](https://sahilrajput.com/celebration-by-simplebeing.html)
+- [Y Combinator Naming](y-combinator-naming)
+- [Units](units)
 
 
 **Timeless**

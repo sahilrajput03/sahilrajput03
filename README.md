@@ -22,33 +22,31 @@
 <!-- ENDS-HERE ---- SEARCH FUNCTIONALITY -->
 
 
-<h6 align="right">
-	<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Shunya, Param Dhyaan, Meditation, VBT</a>,
-	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a>,
-	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a>,
-	<a href="https://sahilrajput.com/thoughts">Thoughts</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts/thoughts-frontend/src/thoughts.md">md</a>),
-	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>,
-	<a href="/celebration-by-simplebeing.html">Celebration by Simplebeing</a>
+<h6 align="center">
+	<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Shunya, Param Dhyaan, Meditation, VBT</a> |
+	<a href="https://sahilrajput.com/grow">Help me grow feedback</a> |
+	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a> |
+	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a> |
+	<a href="https://sahilrajput.com/thoughts">Thoughts</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts/thoughts-frontend/src/thoughts.md">md</a>) |
+	<a href="https://docs.google.com/document/d/16J3DPO-bn1yIEkXIe6HJqrrqIM2TXBhr1tXgV2VEKxc/edit">Lifestyle</a>
 </h6>
 
-<h6 align="right">
-	<a href="https://sahilrajput.com/lf">LineFlow</a>,
-	<a href="https://sahilrajput.com/articles">Essays (new)</a>,
-	<a href="https://sahilrajput.com/essays">Essays (Private)</a>,
-	<a href="https://sahilrajput03.github.io/vocab-files/vocab">Vocab</a> (<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Doc</a>),
-	<a href="https://docs.google.com/document/d/1q_AmG0bIxX2WjN_wyMUv_Y7kOEtnW2y6--4M8QWlcZE/edit?tab=t.0#heading=h.1ahwoj105swe">❤️ Book Recommendations</a>,
-	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a>,
-	<a href="https://sveltev5.vercel.app/glass-slideshow">Glass Thoughts</a>,
-	<a href="https://sahilrajput.com/grow">Help me grow feedback</a>
+<h6 align="center">
+	<a href="https://sahilrajput.com/lf">LineFlow</a> |
+	<a href="https://sahilrajput.com/articles">Essays (new)</a> |
+	<a href="https://sahilrajput.com/essays">Essays (Private)</a> |
+	<a href="https://sahilrajput03.github.io/vocab-files/vocab">Vocab</a> (<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Doc</a>) |
+	<a href="https://docs.google.com/document/d/1q_AmG0bIxX2WjN_wyMUv_Y7kOEtnW2y6--4M8QWlcZE/edit?tab=t.0#heading=h.1ahwoj105swe">❤️ Book Recommendations</a> |
+	<a href="https://svelte.monktechnoworld.com">svelte.monktechnoworld.com</a> |
+	<a href="https://sveltev5.vercel.app/glass-slideshow">Glass Thoughts</a>
 </h6>
 
-<h6 align="right">
-	<a href="#javascript-cheatsheet---sahil">JS CheatSheet</a>,
-	<a href="https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.ikhvinwu2trf">MacOS Vscode Shortcuts</a>, 
-	<a href="#unit-conversions">Unit Conversions</a>,
-	<a href="#transcribe-convert-download-tts-stt">Transcribe/Convert/Download</a>,
-	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a>,
-	<a href="https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0">Movies & Tv Series</a>,
+<h6 align="center">
+	<a href="https://docs.google.com/document/d/1xgL7mcIY0QsWgH_27DAlEF4w2FXHIelz6Zq852XCDIg/edit?tab=t.0#heading=h.ikhvinwu2trf">MacOS Vscode Shortcuts</a> |
+	<a href="#unit-conversions">Unit Conversions</a> |
+	<a href="#transcribe-convert-download-tts-stt">Transcribe/Convert/Download</a> |
+	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a> |
+	<a href="https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0">Movies & Tv Series</a> |
 	<a href="/links">⭐️Links</a>
 </h6>
 
@@ -64,70 +62,26 @@
 <br />
 <br />
 
-## Notes of March 2026
 
-- ❤️ [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains](https://www.youtube.com/watch?v=0xS68sl2D70)
+## Notes
 
-## Notes of Oct 2025
-
-- ❤️ [filesize.md](filesize.md)
-- My first illustration using Pen tool using Figma: [Click here](https://www.figma.com/design/EXjoqkip1Xtvhy3vVGrwkk/Learn-Illustrations--Pen-Tool-?node-id=0-1&p=f&t=kglNWeFHcT60FlsB-0).
-	- Notes added to [Learn figma doc](https://docs.google.com/document/d/1zt9YwENq2tRhh4lmTtct6P_fyx7Y-zH2VC5vyUkR4oU/edit?tab=t.0#heading=h.jiufbtfa1hsa).
-
-<img src="./illustrations/girl1.svg"/>
-
-## Notes of Sept 2025
-
-- **What is better, - or _ in filename?** [Click here](https://chatgpt.com/c/68d4daa3-d064-832b-baee-badd55a0f109) (ChatGPT)
-	- When is space not good? *(check above link)*
-
- - **Why `y combinator` named `y combinator`?** (source: [ChatGPT](https://chatgpt.com/c/68d916d2-02b4-8325-8d9d-626cdbb34c52)) *(The Y cominator problem)*
-
- ```js
-const Y = fun => {
-    const f = x => {
-        return fun(v => {
-            return x(x)(v);
-        });
-    };
-
-    return (f)(f);
-};
-
-// Factorial
-const factorial = Y(recursiveFun => {
-    return n => {
-        // Note: `n` is a variable that represents the position (or index)
-        //          of a term in the sequence.
-        return n === 0 ? 1 : n * recursiveFun(n - 1);
-    };
-});
-
-console.log(factorial(5)); // 120
-```
-
+- Proxy Sites of Torrent Sites
+	- [freeproxy.io](https://freeproxy.io/) (earlier `sitenable.com`)
+		- 1337x: [proxied](https://freeproxy.io/o.php?u=http://1337x.to), [https://1337x.to](https://1337x.to/)
+		- thepiratebay: [proxied](https://freeproxy.io/o.php?u=https://thepiratebay.org), [https://thepiratebay.org](https://thepiratebay.org)
+		- torrentgalaxy: [proxied](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/), [https://torrentgalaxy.to/](https://torrentgalaxy.to/)
+	- [https://uflix.cc](https://uflix.cc/) (for tor browser only)
+- **Tech Journal & Blogging:** [Click here](tech.html) \| [Old feed](https://github.com/sahilrajput03/sahilrajput03/blob/main/feed.md)
+- **General Blogging:** [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.fjrkl2aasat#heading=h.n9bge0scwmnc)
 - What does utm_source stands for? [ChatGPT](https://chatgpt.com/c/68da9f8a-f7a8-8328-b71e-8753b24743af)
-
-## Notes of August 2025
-
-<img width="600" height="544" alt="image" src="https://github.com/user-attachments/assets/c1148ee1-444f-4580-af6d-508c635ed4d3" />
-
-
-- Pre prompting: It is the raw input text notes you write with hand which you give to any LLM to instruct it to generate prompt for specific output.
-- r/Piracy
-	- [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
-		- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
-			-  Anna's Archive: *Influence, The Whole Elephant Revealed*
-- **Link preview is also known as? (ChatGPT)**: These terms refer to the automatic display of a snippet (title, description, image) when a URL is shared in apps like WhatsApp, Facebook, Slack, etc.
-	- URL preview
-	- Webpage preview
-	- Link unfurling
-	- Meta preview
-	- Rich link preview
-
-## More
-
+- Reddit:
+	- r/Piracy
+		- [megathread](https://www.reddit.com/r/Piracy/wiki/megathread)
+			- [books](https://www.reddit.com/r/Piracy/wiki/megathread/books/)
+				-  Anna's Archive: *Influence, The Whole Elephant Revealed*
 - Learn Aryuveda: [Click here](https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0)
+- [Units](./articles/units)
+	- *Tags: conversion, metre, foot, feet, centimeter, length, mass, currency, dollar, buck.*
 - "Imagine a world in which every single person on the planet has free access to the sum of all human knowledge." ~ [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales), Founder of Wikipedia
 	- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) - Wikipedia
 - Relying on complex tools to manage and build your system is going to hurt the end-users. "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding. — Aaron Griffin ([wikipedia](https://en.wikipedia.org/wiki/Arch_Linux))
@@ -143,12 +97,10 @@ console.log(factorial(5)); // 120
 - You only loose information which you don't want to make accessible.
 - **Kyle Simpson:** I think the biggest problem with learning JavaScript right now is that it's so distracting to see such a broad and complex ecosystem where almost every week somebody's coming out with a whole new pattern a new framework a new way of doing things so the goal posts keep moving for you and you learn new things and think “I learned just enough and I'm on the right track” and then you find out that everybody else is learning or doing something different and my advice for that is to just pick one thing and focus on it and instead of trying to feel like you have to learn every single thing all at once nobody can do that.
 - Get private code learning/work support for javascript, nodejs, react and mongodb @ 500 Rs. (6$) per hour by reaching at hello@sahilrajput.com
+- **Online Markets I use:** Flikart, Amazon, Zomato, Blinkit, Blinkit Lit, Swiggy, Zepto, Bigbasket, IndiaMART
+- **Public Clipboard:** [Click here](https://docs.google.com/document/d/1jMZ0jPnSLbkJEJR8vm8mO6JhUoctfa1f5k6tTfpajfY/edit?tab=t.0)
+- Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
 
-## 🥕🍎 In command `ts-node-dev --transpile-only tg.ts` what does the flag do `--transpile-only`? (ChatGPT)
-
-The `--transpile-only` flag in the `ts-node-dev` command tells TypeScript Node (`ts-node`) to skip type checking when running the TypeScript code. Normally, TypeScript checks the types as it compiles the code, which can slow down the process.
-
-When using `--transpile-only`, TypeScript only transpiles the code (i.e., converts TypeScript to JavaScript) without performing any type checks. This can make the development process faster, especially in situations where you rely on external tools (like an IDE or a separate build step) to handle type checking.
 
 <hr />
 
@@ -166,69 +118,6 @@ cat /dev/null
 !!(() => {})
 ```
 
-**Online Markets I use:**
-- Flikart, Amazon, Zomato, Blinkit, Blinkit Lit, Swiggy, Zepto, Bigbasket, IndiaMART
-
-**Public Clipboard:** [Click here](https://docs.google.com/document/d/1jMZ0jPnSLbkJEJR8vm8mO6JhUoctfa1f5k6tTfpajfY/edit?tab=t.0)
-
-Superscript Numbers: ⁰¹²³⁴⁵⁶⁷⁸⁹
-
-#### Unit Conversions
-
-<i>Tags: #metre, #foot, #feet, #centimeter</i>
-
-A small scale is 15cm long.
-
-**Length**
-
-```txt
-1 ft ≈ 30.48 cm
-1 m ≈ 3.3 ft (precisely 3.28084)
-1 m ≈ 39.4 inch (precisely 39.3701)
-1 km ≈ 0.62 miles (precisely 0.621371)
-1 mile ≈ 1.61 km (precisely 1.60934)
-
-10^⁶  = 1 Million  = 10 Lakh
-10^⁹  = 1 Billion  = 100 Crore
-10^¹² = 1 Trillion = 100k Crore  =  100 Thousand Crore  =  1 Lakh Crore
-```
-
-**Mass**
-
-```txt
-1 kg ≈ 2.2 lbs (pounds)
-1 lbs ≈ 0.45 kg
-```
-
-**❤️Currency** 
-
-*(Tags: #dollars, #bucks)*
-
-*For fastest conversion from dollar to inr you can simply multiply by 100 (~84 ₹/$).*
-
-- 100 cents = 1 dollar = 1 buck
-- Conversion factor
-	- $ to ₹ Conversion factor: 88 ₹/$
-	- ₹ to $ Conversion factor: 0.011 $/₹
-
-```txt
-$ 1 Million  = ₹ 10 Cr	 			~ (8.8 Crore)
-$ 1 Billion  = ₹ 10k Cr				~ (8.8k Crore)
-$ 1 Trillion = ₹ 100 Lakh Cr		~ (88 Lakh Crore)  = ₹ 8,800k Crore
-```
-
-# Royal Society Prizes for Science Books
-
-*Breath by James Nestor is the finalist for the year 2021.*
-
-[Click here](https://en.wikipedia.org/wiki/Royal_Society_Prizes_for_Science_Books)
-
-## Document Order & Titles Notice for Google Docs
-
-- This document is organized in reverse chronological order, with the most recent entries appearing first and earlier entries following in descending order.
-- This document is organized in chronological order, with the earliest entries appearing first and more recent entries following in ascending order.
-- <Note: A document must have two titles such that titles appear in the outline. Thus do not remove this.>
-
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/RAX_I4AgjiU" title="8 Hours of Relaxing Campfire by a Lake at Sunset in 4k UHD, Stress Relief, Meditation &amp; Deep Sleep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- Import local javascript (note: defer is necessary here) (ChatGPT)  -->
@@ -236,6 +125,17 @@ $ 1 Trillion = ₹ 100 Lakh Cr		~ (88 Lakh Crore)  = ₹ 8,800k Crore
 
 
 ![social-media-game](https://github.com/user-attachments/assets/9ff89485-1199-4635-aef5-d76fcb0050d9)
+
+- **Continents:** (Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Continent))
+
+<img src="./site-assets/continents.gif" width="600" />
+
+## Document Order & Titles Notice for Google Docs
+
+- This document is organized in reverse chronological order, with the most recent entries appearing first and earlier entries following in descending order.
+- This document is organized in chronological order, with the earliest entries appearing first and more recent entries following in ascending order.
+- <Note: A document must have two titles such that titles appear in the outline. Thus do not remove this.>
+
 
 ## English and Hindi Typing Courses
 
@@ -246,19 +146,6 @@ $ 1 Trillion = ₹ 100 Lakh Cr		~ (88 Lakh Crore)  = ₹ 8,800k Crore
 *Note: Mangal is part of the Unicode standard, which means it supports a wide range of Devanagari characters and is more compatible with modern software and devices.*
 
 *❤️ Note: Learn Typing on Mobile: [Click here](https://sarkariselection.com/ComputerTypingOnMobile))*
-
-# Proxy Sites of Torrent Sites
-
-Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
-
-- 1337x: [proxied](https://freeproxy.io/o.php?u=http://1337x.to), [https://1337x.to](https://1337x.to/)
-- thepiratebay: [proxied](https://freeproxy.io/o.php?u=https://thepiratebay.org), [https://thepiratebay.org](https://thepiratebay.org)
-- torrentgalaxy: [proxied](https://freeproxy.io/o.php?u=https://torrentgalaxy.to/), [https://torrentgalaxy.to/](https://torrentgalaxy.to/)
-- [https://uflix.cc](https://uflix.cc/) (for tor browser only)
-
-# Tech Journal & Blogging: [Click here](tech.html) \| [Old feed](https://github.com/sahilrajput03/sahilrajput03/blob/main/feed.md)
-
-# General Blogging: [Click here](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.fjrkl2aasat#heading=h.n9bge0scwmnc)
 
 #### Trademarks: OneUniverse, Same Roof
 
@@ -338,12 +225,6 @@ Source: [Click here](https://freeproxy.io/) (earlier `sitenable.com`)
 - I learned a system for remembering everything: [Click here](https://www.youtube.com/watch?v=Rvey9g0VgY0)
 - Minimalist Rule by Warikoo: [Click here](https://www.youtube.com/watch?v=FBxS4VMyWjI)
 
-#### Continents
-
-Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Continent)
-
-<img src="./site-assets/continents.gif" width="600" />
-
 **Quick Links:**
 
 - English:
@@ -357,10 +238,10 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 - TamronHallShow (Journalist): [@TamronHallShow](https://www.youtube.com/@TamronHallShow/videos)
 - Get length of any youtube playlist: [Click here](https://ytplaylist-length.netlify.app/)
 - Video Cutter: [online-video-cutter.com](https://online-video-cutter.com/)
-	- ❤️🚀 Locally using `Handbrake` (very fast): Follow as suggested in this screenshot.
-	![image](https://github.com/user-attachments/assets/cfeec9ba-c9f0-430b-86a6-a820058b0d0e)
+	- [Locally via Handbrake](https://docs.google.com/document/d/1GhjGnQIuqRchhNP0ynuaQ4KF-m0wmuIIeIzIi5elVPw/edit?tab=t.0#heading=h.s9dyld60h8bg)
 - Learn NFC:
 	- Link: [1](https://www.youtube.com/shorts/rqoUHzrWrU0), [2](https://www.youtube.com/shorts/kqds9w9BF-0?feature=share), [3](https://www.youtube.com/shorts/Mp9oZTlDhI8?feature=share), [4](https://www.youtube.com/shorts/vi3vwWKiS94?feature=share)
+- Learn Handbrake: [Click here](https://docs.google.com/document/d/1GhjGnQIuqRchhNP0ynuaQ4KF-m0wmuIIeIzIi5elVPw/edit?tab=t.0#heading=h.fot7s6jkxs9a)
 
 **More:**
 
@@ -416,6 +297,7 @@ Source: Continent - Wikipedia:  [Click here](https://en.wikipedia.org/wiki/Conti
 	- Blockchain Portfolio: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/blockchain_portfolio.md)
 	- **Learn blockchain: - [Click here](https://github.com/sahilrajput03/learn-blockchain)**
 - **Ask me anything:** [Click here](https://github.com/sahilrajput03/askMeAnything)
+- ❤️ [filesize.md](filesize.md)
 - Linux:
 	- **❤️Learn Arch Linux:** [Click here](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.0) (Tags: #archlinux, #ngrok, #tailscale, #htop)
 		- **❤️Learn Bash:** [Click here](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.e75nn9rhxa2x#heading=h.v67slhjr85f1) (Tags: #learn bash, #learning bash, #bash programming, #bash coding)
@@ -819,6 +701,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn commander: [Click here](https://github.com/sahilrajput03/learn-openai/tree/main/tts-stt-google-genai/agentx/learn-commander)
 - ❤️ Ancient Indian texts, Epic (Itihasa), Purana (mythological text), Mahabharat - Google Doc: [Click here](https://docs.google.com/document/d/1TjqEEAIxIdJ64_pN_EssAehSh9eoQLyu_qBQWiVt9EY/edit?tab=t.0#heading=h.jztl4rax2982)
 - ❤️❤️Slideshow Library revealjs via HTML: [Click here](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0#heading=h.nop48556e6lj)
+- Learn Mark Twain: [Click here](https://docs.google.com/document/d/1sixg-QgY64MCZPqJUGJc4fg2UCCw2aQ0JRj2t_bzrYg/edit?tab=t.0#heading=h.uw7td31428bz)
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
 
@@ -832,15 +715,3 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - **⭐️PROMPTS FOR GROQ**
 	- Convert the kramdown to html when i give you and keep the search-title attribute as it is and do not return anything else.
 
-***
-
-**Sample Slideshow:**
-- <div>Please click once in the empty area of in the bottom gray border area to enable audio 🎶. <div>
-- <i>Learn: <span style="color: red;">Clicking in the slide show (or using arrows or slide number) stops autoplay of slide show.</span> <b>To play again tap the <u>three-dots-icon > Autoplay > Play</u></b>.</i>
-
-<!-- Note: Below link properties which you can customize - `start=true&loop=true&delayms=3000` -->
-<!-- You can also refer file `slideshows/google-slides-1.html` -->
-<iframe
-    src="https://docs.google.com/presentation/d/e/2PACX-1vTDS14szJGSaxpXcUQKVhbqEi8_kfoImc319_CkbMCUFAUXqO28PNmeMcdBq2Wn74oGtydnD2sMDXgH/pubembed?start=true&loop=true&delayms=3000"
-    frameborder="0" width="350" height="299" allowfullscreen="true" mozallowfullscreen="true"
-    webkitallowfullscreen="true"></iframe>
