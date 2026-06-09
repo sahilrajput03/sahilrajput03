@@ -25,7 +25,7 @@
 - [Deveopment Tips](development-tips)
 - [Forbes AI 50 List](forbes-ai-50)
 - [3 Physical Spaces You Need](3-spaces)
-- [Good Logging](./logging)
+- [Good Logging](logging)
 - [Making AI Games](making-ai-games)
 - [Towards a Generalist Programmer](generalist-programmer.md)
 - [Naval on Artificial Intelligence](naval-on-ai.md)
