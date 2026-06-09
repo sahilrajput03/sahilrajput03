@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Confidence and Superiority](confidence-and-superiority)
 - [Naming](naming)
 - [AI](ai)
 - [Marketing Etymology](marketing-etymology)
