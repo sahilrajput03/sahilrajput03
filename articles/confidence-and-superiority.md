@@ -1,5 +1,7 @@
 # What is difference b/w superiority and competition?
 
+9 June 2026 (Source: ChatGPT)
+
 The difference is mainly in **focus**:
 
 * **Competition** = trying to do better than others.
