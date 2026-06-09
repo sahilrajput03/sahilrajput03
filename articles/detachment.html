@@ -57,7 +57,7 @@
 
 	<script>
 		async function main() {
-			const isFemale = await Swal.fire({
+			const result = await Swal.fire({
 				title: 'The other person is...',
 				showDenyButton: true,
 				showCancelButton: false,
@@ -70,11 +70,12 @@
 					// 		width wrong (or some other issue) which results
 					// 		in smaller font-size of the current slide.
 					console.log('Swal is fully closed');
-					renderSlidshow();
+					// console.log('Result value:', result.value);
+					renderSlidshow(result.value);
 				}
 			});
 
-			function renderSlidshow() {
+			function renderSlidshow(isFemale) {
 				const quotes = [
 					"I am not his, he is not mine.",
 					"I am not responsible for him, he is not responsible for me.",
