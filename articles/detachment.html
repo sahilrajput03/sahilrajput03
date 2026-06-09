@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>reveal.js</title>
+
+	<!-- Disabling below in favor of CDN's links. -->
+	<!-- <link rel="stylesheet" href="dist/reset.css" /> -->
+	<!-- <link rel="stylesheet" href="dist/reveal.css" /> -->
+	<!-- <link rel="stylesheet" href="dist/theme/black.css" /> -->
+
+	<!-- ❤️ Github Issue about CDN: https://github.com/hakimel/reveal.js/issues/3894 -->
+	<!-- Urls copied manually from this page: https://cdn.jsdelivr.net/npm/reveal.js/ -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reset.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/theme/black.css">
+
+
+
+	<!-- Theme used for syntax highlighted code -->
+	<!-- <link rel="stylesheet" href="dist/plugin/highlight/monokai.css" /> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight/monokai.css" />
+
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<!-- <section>slide 1</section>
+			<section>slide 2</section> -->
+		</div>
+	</div>
+
+	<!-- Disabling below in favor of CDN's links. -->
+	<!-- <script src="dist/reveal.js"></script> -->
+	<!-- <script src="dist/plugin/notes.js"></script> -->
+	<!-- <script src="dist/plugin/markdown.js"></script> -->
+	<!-- <script src="dist/plugin/highlight.js"></script> -->
+
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/notes.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/markdown.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight.js"></script>
+
+	<script>
+		const gender = confirm("Is the other person female?");
+		const quotes = [
+			"I am not his's, he is not mine.",
+			"I am not responsible for him, he is not responsible for me.",
+			"What he thinks and does is not in my hand; and what I think and do is not in his hand.",
+			"Mera ussey lena dena kya hai, uska mujhse lena dena kya hai?",
+			"Tum mere liye kuch nahi ho, mai tumhare liye kuch nahi hun."
+		].map(q => gender ? q.replace(/he/g, 'she').replace(/him/g, 'her').replace(/his/g, 'her') : q);
+
+		const slides = document.querySelector('.slides');
+
+		slides.innerHTML += quotes
+			.map(text => `<section>${text}</section>`)
+			.join('');
+
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			loop: true, // ! This is to loop the presentation.
+			// transitionSpeed: 'fast', // ! This is to make the transition between slides faster.
+			transition: 'none', // ! This is to remove the transition between slides.
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+		});
+	</script>
+</body>
+
+</html>
