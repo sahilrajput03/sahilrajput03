@@ -11,10 +11,12 @@ That’s often called **comprehension** — especially deep comprehension.
 Depending on the nuance, people also say:
 
 * **Understanding** — the general term.
+* **Comprehension** — understanding the meaning.
 * **Semantic understanding** — understanding the meaning behind words, not just the words themselves.
-* **Internalization** — when the meaning really sinks in and becomes part of you.
-* **Insight** — when the meaning suddenly becomes clear at a deeper level.
+* **Internalization** — when the meaning really sinks in and becomes part of you, making the meaning part of your thinking or behavior.
+* **Insight** — when the meaning suddenly becomes clear at a deeper level, seeing a deeper truth or implication.
 * **Realization** — when words stop being abstract and become experientially true.
 * **Grasping the essence** — understanding beyond literal wording.
+* **Assimilation** — absorbing and integrating the meaning.
 
 For example, many people *know* the sentence “time is precious,” but only later truly *realize* it. That shift is more than reading words — it’s internalized understanding.
