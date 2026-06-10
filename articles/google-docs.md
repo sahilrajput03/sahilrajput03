@@ -2,7 +2,7 @@
 
 2024
 
-I prefer making notes in Google Doc rather than in markdown or any other software like notion, medium, substack, wordpress blog, blogger.com (from Google), etc because I am very much satified by the features provided by Google Doc and I already very well familiar with Google Doc (WYSIWYG = "What You See Is What You Get").
+I prefer making notes in Google Doc rather than in markdown or any other software like notion, medium, substack, wordpress blog, blogger.com (from Google), etc because I am very much satified by the features provided by Google Doc and I am already very well familiar with Google Doc (WYSIWYG = "What You See Is What You Get").
 
 **How is Google Docs helpful?**
 1. Notes are about more about note making than to refer to them later notes, though the latter important but not more than the former. In Google Docs the experience of notes making is awesome.
