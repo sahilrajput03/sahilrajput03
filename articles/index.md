@@ -38,7 +38,7 @@
 - [Why business](why-business)
 - [🫁 Reset Immune System - Wim Hof Method & Breathwork, Breathing Videos by James Nestor](wim-hoff)
 - [Selling](selling)
-- [📑 Why Google Docs over any other publishing tools](google-docs)
+- [📑 Why Google Docs over any other publishing tools?](google-docs)
 - [☁️ VPS vs. 🔌 Raspberrypi](vps-vs-raspberrypi)
 - [Celebration by Simplebeing](https://sahilrajput.com/celebration-by-simplebeing.html)
 - [Y Combinator Naming](y-combinator-naming)
