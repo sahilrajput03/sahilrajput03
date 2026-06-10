@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>Detachment</title>
+
+	<!-- Disabling below in favor of CDN's links. -->
+	<!-- <link rel="stylesheet" href="dist/reset.css" /> -->
+	<!-- <link rel="stylesheet" href="dist/reveal.css" /> -->
+	<!-- <link rel="stylesheet" href="dist/theme/black.css" /> -->
+
+	<!-- ❤️ Github Issue about CDN: https://github.com/hakimel/reveal.js/issues/3894 -->
+	<!-- Urls copied manually from this page: https://cdn.jsdelivr.net/npm/reveal.js/ -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reset.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/theme/black.css">
+
+
+
+	<!-- Theme used for syntax highlighted code -->
+	<!-- <link rel="stylesheet" href="dist/plugin/highlight/monokai.css" /> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight/monokai.css" />
+
+</head>
+
+<body>
+	<style>
+		body {
+			/* Note: We are setting background black so that the
+					 background when swal's modal is shown we see black background. */
+			background: black;
+		}
+	</style>
+	<div class="reveal">
+		<div class="slides">
+			<!-- <section>slide 1</section>
+			<section>slide 2</section> -->
+		</div>
+	</div>
+
+	<!-- Disabling below in favor of CDN's links. -->
+	<!-- <script src="dist/reveal.js"></script> -->
+	<!-- <script src="dist/plugin/notes.js"></script> -->
+	<!-- <script src="dist/plugin/markdown.js"></script> -->
+	<!-- <script src="dist/plugin/highlight.js"></script> -->
+
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/notes.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/markdown.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight.js"></script>
+
+	<!-- ChatGPT: https://chatgpt.com/c/6a2822e0-7a70-83e8-bf8e-4f73dceaa662 -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	<script>
+		async function main() {
+			const result = await Swal.fire({
+				title: 'The other person is...',
+				showDenyButton: true,
+				showCancelButton: false,
+				confirmButtonText: 'Female',
+				denyButtonText: 'Male',
+				allowOutsideClick: false,
+				didClose: () => {
+					// Learn: I'm rendering after swal is fully closed
+					// 		because otherwise reveal.js get the container's
+					// 		width wrong (or some other issue) which results
+					// 		in smaller font-size of the current slide.
+					console.log('Swal is fully closed');
+					// console.log('Result value:', result.value);
+					renderSlidshow(result.value);
+				}
+			});
+
+			function renderSlidshow(isFemale) {
+				const quotes = [
+					"I am not his, he is not mine.",
+					"I am not responsible for him, he is not responsible for me.",
+					"What he thinks and does is not in my hand; and what I think and do is not in his hand.",
+					"मेरा उससे लेना-देना क्या है, उसका मुझसे लेना-देना क्या है?",
+					"तुम मेरे लिए कुछ नहीं हो, मैं तुम्हारे लिए कुछ नहीं हूँ।"
+				].map(q => isFemale ? q.replace(/he/g, 'she').replace(/him/g, 'her').replace(/his/g, 'her') : q);
+
+				const slides = document.querySelector('.slides');
+
+				slides.innerHTML += quotes
+					.map(text => `<section>${text}</section>`)
+					.join('');
+
+				// More info about initialization & config:
+				// - https://revealjs.com/initialization/
+				// - https://revealjs.com/config/
+				Reveal.initialize({
+					hash: true,
+					loop: true, // ! This is to loop the presentation.
+					// transitionSpeed: 'fast', // ! This is to make the transition between slides faster.
+					// Source: https://revealjs.com/transitions/
+					transition: 'none', // ! This is to remove the transition between slides.
+					// transition: 'fade',
+					// transition: 'slide', // default
+					// transition: 'convex',
+					// transition: 'concave',
+					// transition: 'zoom',
+
+
+					// Note: Why use `scrollActivationWidth`? Because I'm seeing on
+					// 		mobile that i do not see next and previous slide
+					// 		controls and also I see a glitch that i'm able to
+					// 		scroll the slides vertically, why?
+					// Solution: DeepWiki: https://deepwiki.com/search/im-seeing-on-mobile-that-i-do_46daecbb-7e05-4598-b394-ed592862c621?mode=fast
+					scrollActivationWidth: null, // or a very small number like 100  
+
+					// Learn about plugins: https://revealjs.com/plugins/
+					plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+				});
+			}
+
+		}
+		main()	
+	</script>
+</body>
+
+</html>
