@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Efficacy, Effectiveness & Efficiency in softwares](eee)
 - [Confidence and Superiority](confidence-and-superiority)
 - [Naming](naming)
 - [AI](ai)
