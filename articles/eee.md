@@ -12,3 +12,4 @@ Example (a search feature):
 - Effectiveness: Still returns correct results with 10M records, concurrent users, messy input.
 - Efficiency: Does it query in O(log n) or O(n²)? RAM usage? Response time at scale?
 
+In SE, you often nail efficacy in dev, lose effectiveness in prod, and only optimize efficiency at scale. That's basically the engineering lifecycle.
