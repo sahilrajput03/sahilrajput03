@@ -326,12 +326,12 @@ cat /dev/null
 - **Learn Curl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-curl.md)
 - Git & Github:
 	- **Learn Git:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-git.md)
+		- How to write commit messages: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-git.md#how-to-write-commit-messages)
 	- **Leanr Git Large File Storage (LFS):** [Click here](https://docs.google.com/document/d/1HFKzirTi9qran6kXTgV6uZaqalOF_wwCsPuL-u0e0ew/edit?tab=t.0#heading=h.r53gdoqrdh0h)
 	- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)
 		- **Learn act:** [Click here](https://docs.google.com/document/d/1BcGk9VR4KrBxgqBY1mrfOZEwI7N4gfD780t5R6dQHxc/edit)
 		- **Github Actions:** [Click here](https://docs.google.com/document/d/1OAbVQ4Vpyh_KpDhoojZHDc1RqRGNdh327rTl6u50tUs/edit?tab=t.0#heading=h.3oy9evxq5szk)
 		- **CI/CD tool:** Github Actions , CircleCI, Travis, [Cloud Build](https://cloud.google.com/cloud-build) (Google, Deploying to GKE guide [here](https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-gke).)
-	- How to write commit messages: [Click here](how-to-write-commit-messages.md)
 - **My Github Templates:** [Click here](https://github.com/sahilrajput03?tab=repositories&q=&type=template)
 - **Learn Gmail:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-gmail.md)
 - **Learn Go:** [Click here](https://github.com/sahilrajput03/learn_go)
