@@ -33,7 +33,8 @@
 
 <h6 align="center">
 	<a href="https://sahilrajput.com/lf">LineFlow</a> |
-	<a href="https://sahilrajput.com/articles">Essays (new)</a> |
+	<a href="/articles">Essays (new)</a> |
+	<a href="/articles/prayers">Prayers</a> |
 	<a href="https://sahilrajput.com/essays">Essays (Private)</a> |
 	<a href="https://sahilrajput03.github.io/vocab-files/vocab">Vocab</a> (<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Doc</a>) |
 	<a href="https://docs.google.com/document/d/1q_AmG0bIxX2WjN_wyMUv_Y7kOEtnW2y6--4M8QWlcZE/edit?tab=t.0#heading=h.1ahwoj105swe">❤️ Book Recommendations</a> |
@@ -107,13 +108,9 @@
 
 <hr />
 
-```txt
-ॐ सर्वे भवन्तु सुखिनः			Om Sarve Bhavantu Sukhinah)			- Om, May All be Happy,
-सर्वे सन्तु निरामयाः । 			Sarve Santu Niraamayaah) 			- May All be Free from Illness.
-सर्वे भद्राणि पश्यन्तु 			Sarve Bhadraanni Pashyantu)			- May All See what is Auspicious,
-मा कश्चिद्दुःखभाग्भवेत् । 		Maa Kashcid-Duhkha-Bhaag-Bhavet)		- May no one Suffer.
-ॐ शान्तिः शान्तिः शान्तिः ॥ 		Om Shaantih Shaantih Shaantih)			- Om Peace, Peace, Peace.
-```
+{% include prayer.md %} 
+
+***
 
 ```bash
 echo Hello world! > /dev/null
