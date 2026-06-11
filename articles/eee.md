@@ -1,4 +1,4 @@
-# efficacy, effectiveness & efficiency in softwares
+# Efficacy, Effectiveness & Efficiency in Softwares
 
 12 June 2026 (Source: Claude)
 
