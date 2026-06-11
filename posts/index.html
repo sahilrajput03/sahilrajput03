@@ -22,9 +22,8 @@ layout: default
 - Each post is put in _posts folder with filename must start with date like `2026-05-16-some-article-slug-here.md`.
 - Clear cache of jekyll server (while developing locally): 
   ```bash
-  CTRL+C
+  # Stop the existing server if running already via CTRL+C and then run below command and start the server again:
   rm -rf _site .jekyll-cache .sass-cache
-  bundle exec jekyll serve --livereload
   ```
 
 {% endcapture %}
