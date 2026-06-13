@@ -54,3 +54,53 @@ A simple analogy:
 
 * **Expression** = a noun/value ("5", "John", "true")
 * **Statement** = a sentence/instruction ("Store 5 in x", "Print John")
+
+
+### Is console.log("Hello") part of if statement?
+
+Yes.
+
+In this code:
+
+```js
+if (name === "Sahil") {
+  console.log("Hello");
+}
+```
+
+The `if` statement consists of:
+
+1. The condition:
+
+   ```js
+   name === "Sahil"
+   ```
+
+   (an expression)
+
+2. The body:
+
+   ```js
+   {
+     console.log("Hello");
+   }
+   ```
+
+   (a block containing one statement)
+
+`console.log("Hello");` is its own **statement**, but it is also **part of the body of the `if` statement**.
+
+You can think of it hierarchically:
+
+```text
+If Statement
+├─ Condition: name === "Sahil"
+└─ Body (Block Statement)
+   └─ Expression Statement
+      └─ console.log("Hello")
+```
+
+So `console.log("Hello");` is both:
+
+* a statement by itself, and
+* a statement contained within the `if` statement.
