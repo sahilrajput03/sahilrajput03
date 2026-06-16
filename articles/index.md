@@ -6,7 +6,8 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
-- [Statement and Expression in Programming](statement-expressions.md)
+- ❤️ [Work Music](work-music)
+- [Statement and Expression in Programming](statement-expressions)
 - [Efficacy, Effectiveness & Efficiency in Softwares](eee)
 - [Confidence and Superiority](confidence-and-superiority)
 - [Naming](naming)
