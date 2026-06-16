@@ -1,5 +1,7 @@
 # Work Music
 
+16 June 2026 (Source: [ChatGPT](https://chatgpt.com/c/6a316abf-cd38-83ee-bb28-08a79933527c))
+
 - [Brian Eno - Ambient 1: Music for Airports - Full Album](https://www.youtube.com/watch?v=vNwYtllyt3Q) (48 mins)
 - [Channel - LofiGirl](https://www.youtube.com/@LofiGirl)
     - [Lofi hip hop radio 📚 beats to relax/study to](https://www.youtube.com/watch?v=X4VbdwhkE10)
