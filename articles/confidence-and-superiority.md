@@ -45,3 +45,11 @@ What's usually healthier is **confidence**:
 * Superiority complex: "I'm better than others."
 
 You can be highly ambitious, skilled, and proud of your achievements without needing to see other people as inferior.
+
+***
+
+I'm better than most != superiority.
+
+***
+
+Comparison and competition are destruction. 
