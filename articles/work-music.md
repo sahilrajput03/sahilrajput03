@@ -8,5 +8,5 @@
     - [synthwave radio 🌌 beats to chill/game to](https://www.youtube.com/watch?v=4xDzrJKXOOY)
 - [Channel - Lofi Girl Guitar](https://www.youtube.com/@LofiGirl-Guitar)
     - [Jason Masoud - Crystal Tears - guitar/study music](youtube.com/watch?v=Lsv6B0rQVQoG)
-- *TODO: Explore more channels from this page.*
+- *TODO: Explore more channels from the above mentioned Youtube Channels and the music mentioned in the ChatGPT link.*
 
