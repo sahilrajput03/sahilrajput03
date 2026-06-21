@@ -274,7 +274,7 @@ cat /dev/null
 	- Developer Surveys: 
 		- Jamstack 2022: [Click here](https://jamstack.org/survey/2022/)
 		- StackOverflow Survey [2019](https://insights.stackoverflow.com/survey/2019), [2020](https://insights.stackoverflow.com/survey/2020), [2021](https://insights.stackoverflow.com/survey/2021), [2022](https://survey.stackoverflow.co/2022/), [2023](https://survey.stackoverflow.co/2023/), [2024](https://survey.stackoverflow.co/2024)
-		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [2022](https://2022.stateofjs.com/en-US/), [All Previous Surveys](https://stateofjs.com/en-us/)
+		- The State of JS: [2021](https://2021.stateofjs.com/en-US/), [2022](https://2022.stateofjs.com/en-US/), [2023](https://2023.stateofjs.com/en-US), [2024](https://2024.stateofjs.com/en-US), [2025](https://2025.stateofjs.com/en-US/features/) [All Previous Surveys](https://stateofjs.com/en-us/)
 			- **Learn from State of Javascript 2021:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-state-of-javascript.md)
   - Tech Magazines:
 	- Analytics India Magazine: [Click here](https://twitter.com/Analyticsindiam)
