@@ -17,3 +17,4 @@
     - ❤️Source: [nownownow.com](https://nownownow.com) (❤️About: [nownownow.com/about](https://nownownow.com/about) )
         - https://ansharora.in/blog
 - **TODO_SAHIL: Explore more blogs from [nownownow.com](https://nownownow.com) and [bearblog.dev/discover](https://bearblog.dev/discover) website.**
+- **TOOD_READ: [Re: Deleting my "Now" Page](https://lwgrs.bearblog.dev/re-deleting-now-page)**
