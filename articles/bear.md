@@ -16,3 +16,4 @@
 - [Claude](https://claude.ai/chat/450ca306-f164-4ef3-b404-02c86064f835)
     - ❤️Source: [nownownow.com](https://nownownow.com) (❤️About: [nownownow.com/about](https://nownownow.com/about) )
         - https://ansharora.in/blog
+- **TODO_SAHIL: Explore more blogs from [nownownow.com](https://nownownow.com) and [bearblog.dev/discover](https://bearblog.dev/discover) website.**
