@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- ❤️ [bearblog.dev](bear)
 - [⭕ Publishing articles superfast from mobile or desktop](fast)
 - ❤️ [Work Music](work-music)
 - [Statement and Expression in Programming](statement-expressions)
