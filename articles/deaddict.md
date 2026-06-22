@@ -5,6 +5,7 @@
 **Mobile:**
 - [YourHour - Screen Time Control](https://play.google.com/store/apps/details?id=com.mindefy.phoneaddiction.mobilepe&hl=en_IN)
 - Use "Bedtime mode" feature and schedule it so that your screen becomes black and white at specified time i.e., 8pm to 8am.
+- Disable YouTube App so the is no YouTube. You must only use YouTube via this url - https://ytsearch.com . This allows you to use YouTube without its home page feed.
 
 **Desktop:**
 - YouTube: [Unhook](https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid?hl=en)
