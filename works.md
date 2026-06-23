@@ -7,7 +7,7 @@
 5. Lineflow - A Reading Platform
 6. New Blogging Platform *(Name to be Decided)*
 
-#### Blogs
+#### 📝 Blogs
 
 - [Essays](https://sahilrajput.com/articles)
 - [Tech Journal - Google Doc](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.0#heading=h.9ytzjv2dvgp4)
@@ -18,7 +18,7 @@
   - <a href="https://sahilrajput03.github.io/uses" target="_blank">Uses</a> - Curated list of sofwares for Windows
 - <a href="https://jaadojinntk2.blogspot.com" target="_blank">Jaado Jinn (Retired Project)</a>
 
-#### Techonologies
+#### ⚡️ Techonologies
 <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
 <img src="https://img.shields.io/badge/material%20ui%20-%230081CB.svg?&style=for-the-badge&logo=material-ui&logoColor=white"/>
@@ -35,7 +35,7 @@
 - Blockchain Portfolio: <a href="https://sahilrajput.com/blockchain_portfolio" target="_blank">sahilrajput.com/blockchain_portfolio</a>
 - Contact Me: <a href="https://sahilrajput.com/me" target="_blank">sahilrajput.com/me</a>
 
-#### Projects & Services
+#### Other Projects & Services
 
 - LineFlow - A platform for readers to read text line by line - [sahilrajput.com/line-flow](https://sahilrajput.com/line-flow)
 - A small, pesonal user agent manger CLI - `sdm` (systemd manager) for Linux's `systemd` ([private](https://github.com/sahilrajput03/config/blob/main/_linode/sdm))
