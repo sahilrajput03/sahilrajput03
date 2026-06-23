@@ -1,3 +1,12 @@
+#### ❤️ Current Projects
+
+1. QR Menu Solution
+2. FOS (Food Ordering System)
+3. WAA (WhatsApp AI Agent)
+4. AgentX - Telegram AI Agent
+5. Lineflow - A Reading Platform
+6. New Blogging Platform *(Name to be Decided)*
+
 #### Blogs
 
 - [Essays](https://sahilrajput.com/articles)
