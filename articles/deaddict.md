@@ -12,3 +12,14 @@
 - YouTube: [Unhook](https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid?hl=en)
 - Twitter: [Twitter/X Feed Blocker](https://chromewebstore.google.com/detail/twitterx-feed-blocker/iofjnhbihgjfhdldcnlmjbfmighljfob?hl=en)
 - LinkedIn: [Distraction free for Linkedin](https://chromewebstore.google.com/detail/distraction-free-for-link/kigfnbfbpfpgphbocdkmeablbgdbpfke)
+
+***
+
+**Q. Do above services destroy economy?***
+
+In true they create economies in real.
+
+Why?
+- They allow people get content for money. E.g, youtube subscription, linkedin premium, twitter premium, etc.
+- They allow marketing of other products i.e, showing ads thus other people are able to sell more.
+
