@@ -1,3 +1,7 @@
+Contact Me: <a href="https://sahilrajput.com/me" target="_blank">sahilrajput.com/me</a>
+
+*Blockchain Portfolio: <a href="https://sahilrajput.com/blockchain_portfolio" target="_blank">sahilrajput.com/blockchain_portfolio</a>*
+  
 #### ❤️ Current Projects
 
 1. QR Menu Solution
@@ -30,12 +34,7 @@
 <img alt="GitHub Actions" src="https://img.shields.io/badge/github%20actions%20-%232671E5.svg?&style=for-the-badge&logo=github%20actions&logoColor=white"/>
 <img alt="Debian" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
 
-#### Some Links
-
-- Blockchain Portfolio: <a href="https://sahilrajput.com/blockchain_portfolio" target="_blank">sahilrajput.com/blockchain_portfolio</a>
-- Contact Me: <a href="https://sahilrajput.com/me" target="_blank">sahilrajput.com/me</a>
-
-#### Other Projects & Services
+#### 👨🏻‍💻 Other Projects & Services
 
 - LineFlow - A platform for readers to read text line by line - [sahilrajput.com/line-flow](https://sahilrajput.com/line-flow)
 - A small, pesonal user agent manger CLI - `sdm` (systemd manager) for Linux's `systemd` ([private](https://github.com/sahilrajput03/config/blob/main/_linode/sdm))
@@ -63,7 +62,7 @@
 
 https://github.com/sahilrajput03/sahilrajput03/tree/main/thoughts/thoughts-frontend
 
-#### Packages published @ `npm.com`/`yarnpkg.com`
+#### 📦 Packages published @ `npm.com`/`yarnpkg.com`
 
 *❤️Any package can be accessed via a short link via: [https://npm.im/rpc-middleware](https://npm.im/rpc-middleware)*
 
@@ -82,13 +81,13 @@ https://github.com/sahilrajput03/sahilrajput03/tree/main/thoughts/thoughts-front
 - <a href="https://www.npmjs.com/package/context-maker" target="_blank">context-maker</a> - Provides simple use of context api for react
 - <a href="https://www.npmjs.com/package/sahilrajput03-logger" target="_blank">sahilrajput03-logger</a> - A request logger middleware and general logging tool for server in nodejs/express for coloured output (Why? A. morgan prints single coloured logs)
 
-#### Codesandboxes and Codepens
+#### 🎉 Codesandboxes and Codepens
 
 - <a href="https://codesandbox.io/u/sahilrajput03" target="_blank">Sahil Rajput @codesandbox</a>
 - <a href="https://codesandbox.io/u/tannerlinsley/sandboxes" target="_blank">Tanner Linsley @ codesandbox</a>
 - <a href="https://codepen.io/kevinpowell" target="_blank">Kevin Powell @ codepen</a>
 
-#### Social Handles
+#### 🫂 Social Handles
 
 [Stackoverflow](https://stackoverflow.com/users/10012446/sahil-rajput)
 
