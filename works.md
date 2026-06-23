@@ -16,7 +16,7 @@
 - <a href="https://sahilrajput03.github.io" target="_blank">sahilrajput03.github.io</a>
   - <a href="https://sahilrajput03.github.io/docs" target="_blank">Docs</a>
   - <a href="https://sahilrajput03.github.io/uses" target="_blank">Uses</a> - Curated list of sofwares for Windows
-- <a href="https://jaadojinntk2.blogspot.com" target="_blank">jaadojinntk2.blogspot.com</a>
+- <a href="https://jaadojinntk2.blogspot.com" target="_blank">Jaado Jinn (Retired Project)</a>
 
 #### Techonologies
 <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
