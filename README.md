@@ -703,6 +703,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - ❤️❤️Slideshow Library revealjs via HTML: [Click here](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0#heading=h.nop48556e6lj)
 - Learn Mark Twain: [Click here](https://docs.google.com/document/d/1sixg-QgY64MCZPqJUGJc4fg2UCCw2aQ0JRj2t_bzrYg/edit?tab=t.0#heading=h.uw7td31428bz)
 - ❤️bearblog.dev: [http://sahilrajput.com/articles/bear](http://sahilrajput.com/articles/bear), [bearblog.dev](https://bearblog.dev)
+- Learn OpenTalk (Private): [Click here](https://docs.google.com/document/d/1BnH6vQzsASjJi-YsOJ31q3kxQD_mXTCwZq3c3kIz97U/edit?tab=t.0)
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
 
