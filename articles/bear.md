@@ -5,11 +5,11 @@
 **Official:**
 - [https://bearblog.dev](bearblog.dev)
     - Feed: [bearblog.dev/discover](https://bearblog.dev/discover)
-- https://docs.bearblog.dev
-- Creator of bearblog.dev: [herman.bearblog.dev/blog](https://herman.bearblog.dev/blog)
-    - ***TODO: ADD 5 MORE ARTICLES FROM HERMAN TO LINEFLOW***
-- Github: https://github.com/HermanMartinus/bearblog
-    - Contributions Page on Github: [CONTRIBUTIONS.md](https://github.com/HermanMartinus/bearblog/blob/master/CONTRIBUTIONS.md)
+    - Blog: https://docs.bearblog.dev
+    - Creator of bearblog.dev: [herman.bearblog.dev/blog](https://herman.bearblog.dev/blog)
+        - ***TODO: ADD 5 MORE ARTICLES FROM HERMAN TO LINEFLOW***
+    - Github: https://github.com/HermanMartinus/bearblog
+        - Contributions Page on Github: [CONTRIBUTIONS.md](https://github.com/HermanMartinus/bearblog/blob/master/CONTRIBUTIONS.md)
 
 
 **How I found it?**
