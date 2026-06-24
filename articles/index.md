@@ -16,6 +16,7 @@
 - [AI](ai)
 - [Marketing Etymology](marketing-etymology)
 - [Text better](text-better)
+- [Why you should not text your girlfriend much](why-you-should-not-text-your-girlfriend-much)
 - [Fear](fear)
 - [Work Hard, Eat Hardest](work-hard-eat-hardest)
 - [How to be fully focussed on my work goals?](fully-focussed)
