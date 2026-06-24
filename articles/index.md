@@ -49,6 +49,9 @@
 - [Celebration by Simplebeing](https://sahilrajput.com/celebration-by-simplebeing.html)
 - [Y Combinator Naming](y-combinator-naming)
 - [Units](units)
+
+**Slideshow**
+
 - [Detachment](detachment.html)
 - [Dhyaan Prepping](dhyaan-prepping.html)
 
