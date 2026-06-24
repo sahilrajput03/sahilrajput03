@@ -5,8 +5,21 @@
 **Mobile:**
 - [YourHour - Screen Time Control](https://play.google.com/store/apps/details?id=com.mindefy.phoneaddiction.mobilepe&hl=en_IN)
 - Use "Bedtime mode" feature and schedule it so that your screen becomes black and white at specified time i.e., 8pm to 8am.
+- Disable YouTube App so there is no YouTube App on your device. You must only use YouTube via this url - [ytsearch.com](https://ytsearch.com). This allows you to use YouTube without its home page feed.
+- TODO_SAHIL: Add the process of disabling javascript of m.youtube.com in your browser so it doesn't open by default.
 
 **Desktop:**
 - YouTube: [Unhook](https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid?hl=en)
 - Twitter: [Twitter/X Feed Blocker](https://chromewebstore.google.com/detail/twitterx-feed-blocker/iofjnhbihgjfhdldcnlmjbfmighljfob?hl=en)
 - LinkedIn: [Distraction free for Linkedin](https://chromewebstore.google.com/detail/distraction-free-for-link/kigfnbfbpfpgphbocdkmeablbgdbpfke)
+
+***
+
+**Q. Do above services destroy economy?***
+
+In true they create economies in real.
+
+Why?
+- They allow people get content for money. E.g, youtube subscription, linkedin premium, twitter premium, etc.
+- They allow marketing of other products i.e, showing ads thus other people are able to sell more.
+

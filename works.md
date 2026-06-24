@@ -1,4 +1,17 @@
-#### Blogs
+Contact Me: <a href="https://sahilrajput.com/me" target="_blank">sahilrajput.com/me</a>
+
+*Blockchain Portfolio: <a href="https://sahilrajput.com/blockchain_portfolio" target="_blank">sahilrajput.com/blockchain_portfolio</a>*
+  
+#### ❤️ Current Projects
+
+1. QR Menu Solution
+2. FOS (Food Ordering System)
+3. WAA (WhatsApp AI Agent)
+4. AgentX - Telegram AI Agent
+5. Lineflow - A Reading Platform
+6. New Blogging Platform *(Name to be Decided)*
+
+#### 📝 Blogs
 
 - [Essays](https://sahilrajput.com/articles)
 - [Tech Journal - Google Doc](https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.0#heading=h.9ytzjv2dvgp4)
@@ -7,9 +20,9 @@
 - <a href="https://sahilrajput03.github.io" target="_blank">sahilrajput03.github.io</a>
   - <a href="https://sahilrajput03.github.io/docs" target="_blank">Docs</a>
   - <a href="https://sahilrajput03.github.io/uses" target="_blank">Uses</a> - Curated list of sofwares for Windows
-- <a href="https://jaadojinntk2.blogspot.com" target="_blank">jaadojinntk2.blogspot.com</a>
+- <a href="https://jaadojinntk2.blogspot.com" target="_blank">Jaado Jinn (Retired Project)</a>
 
-#### Techonologies
+#### ⚡️ Techonologies
 <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
 <img src="https://img.shields.io/badge/material%20ui%20-%230081CB.svg?&style=for-the-badge&logo=material-ui&logoColor=white"/>
@@ -21,12 +34,7 @@
 <img alt="GitHub Actions" src="https://img.shields.io/badge/github%20actions%20-%232671E5.svg?&style=for-the-badge&logo=github%20actions&logoColor=white"/>
 <img alt="Debian" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
 
-#### Some Links
-
-- Blockchain Portfolio: <a href="https://sahilrajput.com/blockchain_portfolio" target="_blank">sahilrajput.com/blockchain_portfolio</a>
-- Contact Me: <a href="https://sahilrajput.com/me" target="_blank">sahilrajput.com/me</a>
-
-#### Projects & Services
+#### 👨🏻‍💻 Other Projects & Services
 
 - LineFlow - A platform for readers to read text line by line - [sahilrajput.com/line-flow](https://sahilrajput.com/line-flow)
 - A small, pesonal user agent manger CLI - `sdm` (systemd manager) for Linux's `systemd` ([private](https://github.com/sahilrajput03/config/blob/main/_linode/sdm))
@@ -54,7 +62,7 @@
 
 https://github.com/sahilrajput03/sahilrajput03/tree/main/thoughts/thoughts-frontend
 
-#### Packages published @ `npm.com`/`yarnpkg.com`
+#### 📦 Packages published @ `npm.com`/`yarnpkg.com`
 
 *❤️Any package can be accessed via a short link via: [https://npm.im/rpc-middleware](https://npm.im/rpc-middleware)*
 
@@ -73,13 +81,13 @@ https://github.com/sahilrajput03/sahilrajput03/tree/main/thoughts/thoughts-front
 - <a href="https://www.npmjs.com/package/context-maker" target="_blank">context-maker</a> - Provides simple use of context api for react
 - <a href="https://www.npmjs.com/package/sahilrajput03-logger" target="_blank">sahilrajput03-logger</a> - A request logger middleware and general logging tool for server in nodejs/express for coloured output (Why? A. morgan prints single coloured logs)
 
-#### Codesandboxes and Codepens
+#### 🎉 Codesandboxes and Codepens
 
 - <a href="https://codesandbox.io/u/sahilrajput03" target="_blank">Sahil Rajput @codesandbox</a>
 - <a href="https://codesandbox.io/u/tannerlinsley/sandboxes" target="_blank">Tanner Linsley @ codesandbox</a>
 - <a href="https://codepen.io/kevinpowell" target="_blank">Kevin Powell @ codepen</a>
 
-#### Social Handles
+#### 🫂 Social Handles
 
 [Stackoverflow](https://stackoverflow.com/users/10012446/sahil-rajput)
 
