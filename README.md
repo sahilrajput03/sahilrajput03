@@ -516,7 +516,7 @@ cat /dev/null
 - Learn streaming mp3 file: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-streaming.md){: search-title="Learn streaming mp3 file"}
 - LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤: [Click here](https://gist.github.com/sahilrajput03/e4a8370456e55260864f732b16f9878d){: search-title="LoveApi, Official Github Api, Official Gist Api & Other Apis ♡ ♥ ❤"}
 - Learn GTK (GUI Development in C, Linux): [Click here](https://github.com/sahilrajput03/learn-gtk){: search-title="Learn GTK (GUI Development in C, Linux)"}
-- Why you should not text your girlfriend?: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/why-you-should-not-text-your-girlfriend-much.md){: search-title="Why you should not text your girlfriend?"}
+- Why you should not text your girlfriend?: [Click here](./articles/why-you-should-not-text-your-girlfriend-much){: search-title="Why you should not text your girlfriend?"}
 - Learn Anydesk: [Click here](learn-anydesk.md){: search-title="Learn Anydesk"}
 - My youtube video ids: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/my-youtube-video-ids.md){: search-title="My youtube video ids"}
 - Learn Amazon Product Advertising API: [Click here](learn-amazon-product-advertising-api.md){: search-title="Learn Amazon Product Advertising API"}
