@@ -34,20 +34,35 @@
 			background: black;
 		}
 		
-.top-right-btn {
-    color: white;
-    background: black;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 9999;
-}
+		/* Top Bar and its buttons style */
+		.top-bar {
+			display: flex;
+			padding: 20px;
+			justify-content: space-between;
+			box-sizing: border-box;
+			position: absolute;
+			width: 100%;
+			z-index: 100;
+		}
+
+		.edit-link {
+			color: white;
+			display: inline-block;
+		}
+		
+		.top-right-btn {
+			color: white;
+			background: transparent;
+			border: none;
+			text-decoration: underline;
+			font-size: 1rem;
+		}
 	</style>
 	
-
-<a href="https://github.com/sahilrajput03/sahilrajput03/edit/main/articles/detachment.html" style="color: white; margin: 20px; display: inline-block;" target="_blank" rel="noopener noreferrer">Edit</a>
-
-<button onclick="alert('❤️I can edit this file live on mobile by running the server via `serve` command on Termux and update the file via Markor App.')" class="top-right-btn">Tip</button>
+	<div class="top-bar">
+		<a class="edit-link" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/articles/detachment.html"  target="_blank" rel="noopener noreferrer">Edit</a>
+		<button onclick="alert('❤️I can edit this file live on mobile by running the server via `serve` command on Termux and update the file via Markor App.')" class="top-right-btn">Tip</button>
+	</div>
 
 	<div class="reveal">
 		<div class="slides">
