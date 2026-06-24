@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<!-- File copied from: `articles/affirm.html` -->
+	<title>Affirmations</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reset.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight/monokai.css" />
+
+</head>
+
+<body>
+	<style>
+		body {
+			/* Note: We are setting background black so that the
+					 background when swal's modal is shown we see black background. */
+			background: black;
+		}
+
+
+		/* Top Bar and its buttons style */
+		.top-bar {
+			display: flex;
+			padding: 20px;
+			justify-content: space-between;
+			box-sizing: border-box;
+			position: absolute;
+			width: 100%;
+			z-index: 100;
+		}
+
+		.edit-link {
+			color: white;
+			display: inline-block;
+		}
+
+		.top-right-btn {
+			color: white;
+			background: transparent;
+			border: none;
+			text-decoration: underline;
+			font-size: 1rem;
+		}
+	</style>
+
+	<div class="top-bar">
+		<a class="edit-link" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/articles/affirm.html"
+			target="_blank" rel="noopener noreferrer">Edit</a>
+		<button
+			onclick="alert('❤️I can edit this file live on mobile by running the server via `serve` command on Termux and update the file via Markor App.')"
+			class="top-right-btn">Tip</button>
+	</div>
+
+
+	<div class="reveal">
+		<div class="slides">
+			<!-- <section>slide 1</section>
+			<section>slide 2</section> -->
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/notes.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/markdown.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight.js"></script>
+
+	<!-- ChatGPT: https://chatgpt.com/c/6a2822e0-7a70-83e8-bf8e-4f73dceaa662 -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	<script>
+		const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
+
+		async function main() {
+			renderSlidshow();
+			function renderSlidshow() {
+				// ❤️ ❤️ ❤️ ChatGPT Used for Affirm (11 June, 2026): https://chatgpt.com/c/6a29a8c9-a44c-83e9-9b99-b175710e9699
+				const affirms = [
+					"Aside from Dhyaan/Tantra techniques, there are some essential preparation activities which act as catalyst to the process, which are:",
+					"a) Put the phone to airplane mode to make your session undisturbable.",
+					"b) Bath in morning (twice or multiple times helps to calibrate more).",
+					"c) 3 times food in a day.",
+					"i) 2 rotis (or more as per need) twice and 1 roti in the last meal, before sleep.",
+					//
+					"d) Items checklist:",
+					"i) Warm (in winters) water bottle + 1 Glass.",
+					"ii) Spittoon, if you feel the need.",
+					"iii) Keep 1 bottle of oil for head massage if needed (Sarson, Coconut, etc). Keep one pocket bottle in your bag as it helps when you are away from home.",
+					// 
+					"e) EVENING:",
+					"i) Eat dinner at 7 pm sharp.",
+					"ii) Exercise (Unleash routine), 3-5 days a week.",
+					"iii) Sleep clothless at night if clothes feel somewhat uncomfortable especially when clothless feels more comfortable.",
+					"iv) Try to read textual content from paper, print it if you have it in digital form.",
+					"v) If you need help in nasal decongestion then take steam 🧖‍♂️🧖‍♀️.",
+					"vi) If digestion aid is needed, drink Ajawain-Jeera-Saunf-Adrak Chai for digestion, or ajwain+salt+shakkar+1 spoon water syrup and chew well for most effectiveness.",
+					// 
+					"f) Stay away from any person if you feel negativity from them (no matter what your relationship is with them) - जहां दिखे भागो / पीठ करके बैठो .",
+					// 
+					"g) 3 Times dhyaan in a day (any below practise) (set timer for this and do at least 15 mins or more each time) and do in —",
+					"i) Siddhasana + Padmasana as per need of the body,",
+					"ii) Mudra (Gyaan or Chin Mudra)",
+					"iii) Use empty earphones. Very helpful at all times in the day as well, not just during dyaan/tantra.",
+					"iv) Breathing from mouth is totally fine *if* nasal breathing is blocking your breath flow or concentration.",
+					// 
+					".",
+					deepBreathe,
+					"Take care, bye 👋!",
+				];
+
+				const slides = document.querySelector('.slides');
+
+				slides.innerHTML += affirms
+					.map(text => `<section>${text}</section>`)
+					.join('');
+
+				// More info about initialization & config:
+				// - https://revealjs.com/initialization/
+				// - https://revealjs.com/config/
+				Reveal.initialize({
+					hash: true,
+					// loop: true, // ! This is to loop the presentation.
+					// transitionSpeed: 'fast', // ! This is to make the transition between slides faster.
+					// Source: https://revealjs.com/transitions/
+					transition: 'none', // ! This is to remove the transition between slides.
+					// transition: 'fade',
+					// transition: 'slide', // default
+					// transition: 'convex',
+					// transition: 'concave',
+					// transition: 'zoom',
+
+
+					// Note: Why use `scrollActivationWidth`? Because I'm seeing on
+					// 		mobile that i do not see next and previous slide
+					// 		controls and also I see a glitch that i'm able to
+					// 		scroll the slides vertically, why?
+					// Solution: DeepWiki: https://deepwiki.com/search/im-seeing-on-mobile-that-i-do_46daecbb-7e05-4598-b394-ed592862c621?mode=fast
+					scrollActivationWidth: null, // or a very small number like 100  
+
+					// Learn about plugins: https://revealjs.com/plugins/
+					plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+				});
+			}
+
+		}
+		main()	
+	</script>
+</body>
+
+</html>
