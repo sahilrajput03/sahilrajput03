@@ -38,7 +38,7 @@
 - [Indian Eminent People](indian-eminent-people)
 - [Founders at work](founders-at-work)
 - [Podcast of Kent and Don Norman](don-norman-podcast)
-- [Poetry](poetry)
+- [❤️Poetry](poetry)
 - [Prompts](prompts)
 - [FAQs](faqs)
 - [Why business](why-business)
