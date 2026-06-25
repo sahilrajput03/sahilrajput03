@@ -431,7 +431,7 @@ cat /dev/null
 - **JS Conf 2022:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/notes-js-conf-2022.md)
 - **Unreal Engine Game Deveopment - Game and Experience Design by Varun Mayya**: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/game-development.md)
 - **Food, Diet Plan, Proteins:** [Click here](https://docs.google.com/document/d/1iLl-g8UoypLcXANbiaTp4Y4fqiPw1ulybeK5gdjgV40/edit?usp=sharing)
-- **Learn Obs:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-obs.md)
+- **Learn Obs:** [Click here](learn-obs)
 - **Challau.com metaverse:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/challau-metaverse.md)
 - **Drafts:** [Click here](./drafts)
 - **Indus valley Reports:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-indus-valley-reports.md)
