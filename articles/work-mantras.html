@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- File copied from: `articles/affirm.html` -->
+    <title>Work Mantras</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/theme/black.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight/monokai.css" />
+
+</head>
+
+<body>
+    <style>
+        body {
+            /* Note: We are setting background black so that the
+					 background when swal's modal is shown we see black background. */
+            background: black;
+        }
+
+
+        /* Top Bar and its buttons style */
+        .top-bar {
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            box-sizing: border-box;
+            position: absolute;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .edit-link {
+            color: white;
+            display: inline-block;
+        }
+
+        .top-right-btn {
+            color: white;
+            background: transparent;
+            border: none;
+            text-decoration: underline;
+            font-size: 1rem;
+        }
+    </style>
+
+    <div class="top-bar">
+        <a class="edit-link" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/articles/work-mantras.html"
+            target="_blank" rel="noopener noreferrer">Edit</a>
+        <button
+            onclick="alert('❤️I can edit this file live on mobile by running the server via `serve` command on Termux and update the file via Markor App.')"
+            class="top-right-btn">Tip</button>
+    </div>
+
+
+    <div class="reveal">
+        <div class="slides">
+            <!-- <section>slide 1</section>
+			<section>slide 2</section> -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/notes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight.js"></script>
+
+    <!-- ChatGPT: https://chatgpt.com/c/6a2822e0-7a70-83e8-bf8e-4f73dceaa662 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
+
+        async function main() {
+            renderSlidshow();
+            function renderSlidshow() {
+                // ❤️ ❤️ ❤️ ChatGPT Used for Affirm (11 June, 2026): https://chatgpt.com/c/6a29a8c9-a44c-83e9-9b99-b175710e9699
+                const affirms = [
+                    "Fal ki chinta kiye bina karm karo - Karm Yog ❤️",
+                    "❤️❤️ Overworking is nothing but lobh (लोभ), darr & moh.",
+                    "Use Focusmate to enjoy company while working. It's awesome.",
+                    "Use focus music from the Downloads folder to enjoy work sometimes.",
+                    "Do it in micro steps.",
+                    "Kaam karna nhi hai DEKHNA hai, usi se kaam hona shuru ho jata hai.",
+                    'When not doing work - "There is no work."',
+                    "I'll just read over what I've got so far. ~ Paul Graham (Article - Great Work).",
+                    "Coffee at 12pm is a must.",
+                    "123 and 321 (lol).",
+                    "Just start working after you wake up. ~ Ratan",
+                    "☕ Coffee in the morning. ✅",
+                    '❤️ "Don\'t let something you\'re good at define who you are." ~ Bret Taylor',
+                    "Business - The infinite war.",
+                    "Jo hua acha hua. Jo hona hai woh bhi accha hi hona hai.",
+                    'Sirf "ek kaam" karna h mujhe. (jo tumhara next task hai).',
+                    `❤️To start your work on a day when you don't feel like working, you need to sincerely and honestly ask yourself - “Why do I not want to work right now?” → “It is boring.” → "Why is it boring?" → “What makes it boring?” → “I don't know why it's boring” → "Not knowing what I need to work on now makes it boring." → "Let's find out exactly what I need to work on and have it in front of you.”`,
+                    // ".",
+                    // deepBreathe,
+                    // "Take care, bye 👋!",
+                ];
+
+                const slides = document.querySelector('.slides');
+
+                slides.innerHTML += affirms
+                    .map(text => `<section>${text}</section>`)
+                    .join('');
+
+                // More info about initialization & config:
+                // - https://revealjs.com/initialization/
+                // - https://revealjs.com/config/
+                Reveal.initialize({
+                    hash: true,
+                    loop: true, // ! This is to loop the presentation.
+                    // transitionSpeed: 'fast', // ! This is to make the transition between slides faster.
+                    // Source: https://revealjs.com/transitions/
+                    transition: 'none', // ! This is to remove the transition between slides.
+                    // transition: 'fade',
+                    // transition: 'slide', // default
+                    // transition: 'convex',
+                    // transition: 'concave',
+                    // transition: 'zoom',
+
+
+                    // Note: Why use `scrollActivationWidth`? Because I'm seeing on
+                    // 		mobile that i do not see next and previous slide
+                    // 		controls and also I see a glitch that i'm able to
+                    // 		scroll the slides vertically, why?
+                    // Solution: DeepWiki: https://deepwiki.com/search/im-seeing-on-mobile-that-i-do_46daecbb-7e05-4598-b394-ed592862c621?mode=fast
+                    scrollActivationWidth: null, // or a very small number like 100  
+
+                    // Learn about plugins: https://revealjs.com/plugins/
+                    plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+                });
+            }
+
+        }
+        main()	
+    </script>
+</body>
+
+</html>
