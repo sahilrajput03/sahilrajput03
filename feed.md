@@ -1934,11 +1934,6 @@ Learn: Endpoint caching is possible for get requests only (trpc uses get request
 
 ![image](https://user-images.githubusercontent.com/31458531/170722678-3ccf5362-0ace-4f04-a850-c539d04d933c.png)
 
-## Cronjob recommended service
-
-![image](https://user-images.githubusercontent.com/31458531/170722376-2243331e-8fa5-4388-8db8-e1ac7853f4b7.png)
-
-
 ## What is save-exact in .npmrc ?
 
 Source: https://stackoverflow.com/a/64507176/10012446
