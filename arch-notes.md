@@ -51,32 +51,7 @@ cp /etc/skel/.bashrc .
 
 ## Crontab Formats
 
-```txt
-*     *     *     *     *     command_to_run
--     -     -     -     -
-|     |     |     |     |
-|     |     |     |     +----- Day of week (0 - 7) (Sunday=0 or 7)
-|     |     |     +------- Month (1 - 12)
-|     |     +--------- Day of month (1 - 31)
-|     +----------- Hour (0 - 23)
-+------------- Minute (0 - 59)
-
-
-✅ EXAMPLE CRONTAB ENTRIES
-=======================
-Every minute
-* * * * * /path/to/script.sh
-* * * * * date > ~/.crontabTest.txt
-
-Every day at 7:30 AM
-30 7 * * * /path/to/script.sh
-
-Every Monday at 1:00 PM
-0 13 * * 1 /path/to/script.sh
-
-Every 5 minutes
-*/5 * * * * /path/to/script.sh
-```
+*Moved to Google Doc on 26 June 2026.*
 
 ## I just added this to my alias in macos to list ssh profiles easily
 
