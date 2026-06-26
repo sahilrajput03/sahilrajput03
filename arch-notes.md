@@ -2092,43 +2092,7 @@ mutt -s 'MySubject' sahilrajput03@gmail.com < myFile.txt
 
 ## Installed crontab in archlinux
 
-Source: https://unix.stackexchange.com/a/261871/504112
-
-Cron docs @ archlinux: https://wiki.archlinux.org/title/cron
-
-````bash
-sudo pacman -Syu cronie
-
-# enable service
-systemctl enable --now cronie.service
-
-# get status of cronjob service
-systemctl status --now cronie.service
-
-# Help of `crontab` cli tool
-crontab -h
-# OUTPUT
-# crontab: invalid option -- 'h'
-# crontab: usage error: unrecognized option
-# usage:  crontab [-u user] file
-#         crontab [ -u user ] [ -i ] { -e | -l | -r }
-#                 (default operation is replace, per 1003.2)
-#         -e      (edit user's crontab)
-#         -l      (list user's crontab)
-#         -r      (delete user's crontab)
-#         -i      (prompt before deleting user's crontab)
-
-
-# For editing cron files
-# NOTE: Make sure yo have EDITOR variable set in ~/.bashrc i.e,	export EDITOR=/usr/bin/vim
-crontab -e
-
-# For viewing current cron jobs
-crontab -l
-
-# SAMPLE
-@reboot sleep 60;/home/pi/Documents/skype-bot-with-heroku-webhook-for-build-notifications/skype-bot/scriptRaspiHTTPS.sh
-````
+*Moved to Google Doc on 26 June 2026.*
 
 ## Installed workrave in archlinux
 
