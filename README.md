@@ -696,7 +696,8 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn Development of VS Code Extensions: [lineflow-vs-code-extension](https://github.com/sahilrajput03/lineflow-vs-code-extension)
 - Learn nodegui: [Click here](https://github.com/sahilrajput03/learn-nodegui)
 - My Dream Launcher Specs (Android) - Google Doc: [Click here](https://docs.google.com/document/d/1u0aKkVkGHGrQoiHn-p8u-UMvMtL5ooHVHr5Ljtuj_as/edit?tab=t.0)
-- Learn Croner: [Click here](https://github.com/sahilrajput03/telegram-bot-requests/tree/main/learn-croner)
+- [❤️Learn Cron - Doc](https://docs.google.com/document/d/1o2UE4d3E5nMvfoaQP2_3G-dPjjf1719h8uLRltn3C1w/edit?tab=t.x265rwramzvj#heading=h.exwjg4tynceb)
+	- Learn Croner (code): [Click here](https://github.com/sahilrajput03/telegram-bot-requests/tree/main/learn-croner)
 - Paint: [jspaint.app](https://jspaint.app)
 - Learn commander: [Click here](https://github.com/sahilrajput03/learn-openai/tree/main/tts-stt-google-genai/agentx/learn-commander)
 - ❤️ Ancient Indian texts, Epic (Itihasa), Purana (mythological text), Mahabharat - Google Doc: [Click here](https://docs.google.com/document/d/1TjqEEAIxIdJ64_pN_EssAehSh9eoQLyu_qBQWiVt9EY/edit?tab=t.0#heading=h.jztl4rax2982)
@@ -704,6 +705,8 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn Mark Twain: [Click here](https://docs.google.com/document/d/1sixg-QgY64MCZPqJUGJc4fg2UCCw2aQ0JRj2t_bzrYg/edit?tab=t.0#heading=h.uw7td31428bz)
 - ❤️bearblog.dev: [http://sahilrajput.com/articles/bear](http://sahilrajput.com/articles/bear), [bearblog.dev](https://bearblog.dev)
 - Learn OpenTalk (Private): [Click here](https://docs.google.com/document/d/1BnH6vQzsASjJi-YsOJ31q3kxQD_mXTCwZq3c3kIz97U/edit?tab=t.0)
+- Gophers Images: [Click here](https://github.com/marcusolsson/gophers)
+	- Source: Reference mentioned on the bottom of [this site](https://pocketbase.io/)
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
 
