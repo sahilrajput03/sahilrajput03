@@ -1921,47 +1921,7 @@ paplay --list-file-formats
 
 Source1: https://www.tecmint.com/linux-more-command-and-less-command-examples
 
-Source2: https://www.tecmint.com/view-contents-of-file-in-linux/
-
-Source3: Archlinux's [cron docs](https://wiki.archlinux.org/title/cron).
-
-## Using crontab
-
-- Running some task on boot(after reboot):
-
-Source: https://stackoverflow.com/a/56374472/10012446
-
-```bash
-# the trick of sleeping for 60 seconds actually works, Sahil
-@reboot sleep 60;/path__to__my__script.sh
-```
-
-Source: https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/, Source: https://www.tecmint.com/online-cron-job-generator-and-tester-for-linux/
-
-````bash
-# Use below command to access crontab:
-crontab -l #List current user's crontab jobs. (or you can use: cat /var/spool/cron/array)
-crontab -e #Edt crontab entries of current user.
-
-# My example crontab jobs!! ~Sahil [below jobs will run every single minute].
-* * * * * ~/scripts-in-use/beepSound.sh
-* * * * * date >> ~/my-cron-task-log.txt
-# ^^ these commands will execute in every 60 seconds and actually it ticks on 0th second of every minute of the system clock.
-
-## FYI: WOW:: You can check with ```date``` to check the current time with current seconds to know when text in cc.text file will be appended coz command gets executed on 0th second in every minute! Yikes!!
-````
-
-#### Debug crontab's command when your jobs aren't running at all or something else is not working as expected ?? ~Sahil
-
-Source: https://serverfault.com/a/449652
-
-```bash
-Capture the output yourself
-You can redirect stdout and stderr to a file. The exact syntax for capturing output may vary depending on what shell cron is using. Here are two examples which save all output to a file at /tmp/mycommand.log:
-
-1 2 * * * /path/to/your/command &>/tmp/mycommand.log
-1 2 * * * /path/to/your/command >/tmp/mycommand.log 2>&1
-```
+Source2: https://www.tecmint.com/view-contents-of-file-in-linux
 
 **Usage of `xargs`: [Source](https://www.tecmint.com/xargs-command-examples/).**
 
