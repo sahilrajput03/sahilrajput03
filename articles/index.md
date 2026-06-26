@@ -54,8 +54,6 @@
 **Slideshow**
 
 - [Detachment](detachment.html)
-- [Dhyaan Prepping](dhyaan-prepping.html)
-- [Work Mantras](work-mantras)
 
 **Timeless**
 
