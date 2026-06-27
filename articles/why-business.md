@@ -2,6 +2,15 @@
 
 26 October 2025
 
+Q. What is Business? **👉🏻 Business = Profit = Equity = Team making profits**
+
+Q. Business Success? 👉🏻 **Business Success = Revenue + Revenue Growth Rate**
+-  *[ChatGPT Private](https://chatgpt.com/c/6a3f9567-efec-83e8-adf5-627f15069feb)*
+	- Revenue tells you where the business is today.
+	- Growth rate tells you where the business is going.
+
+**Why business?**
+
 I'm fed up with working on projects which I don't have full control of. Control here means to have full flexibility and ability to unleash my capacity in as many domains as possible. I crave the “true feeling” of working on a project which: 
 
 - I am responsible for complete control & responsibility in terms of project delivery and software quality.
