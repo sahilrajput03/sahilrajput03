@@ -702,6 +702,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn commander: [Click here](https://github.com/sahilrajput03/learn-openai/tree/main/tts-stt-google-genai/agentx/learn-commander)
 - ❤️ Ancient Indian texts, Epic (Itihasa), Purana (mythological text), Mahabharat - Google Doc: [Click here](https://docs.google.com/document/d/1TjqEEAIxIdJ64_pN_EssAehSh9eoQLyu_qBQWiVt9EY/edit?tab=t.0#heading=h.jztl4rax2982)
 - ❤️❤️Slideshow Library revealjs via HTML: [Click here](https://docs.google.com/document/d/1OgimIPsmCXVlR2B6HI3YSbkDGqyYGwhaCpqOToeKSJg/edit?tab=t.0#heading=h.nop48556e6lj)
+	- ❤️Learn slidev *(another mindblowing slideshow library)*: [Github Repo](https://github.com/sahilrajput03/learn-slidev) *(made in Vuejs)*
 - Learn Mark Twain: [Click here](https://docs.google.com/document/d/1sixg-QgY64MCZPqJUGJc4fg2UCCw2aQ0JRj2t_bzrYg/edit?tab=t.0#heading=h.uw7td31428bz)
 - ❤️bearblog.dev: [http://sahilrajput.com/articles/bear](http://sahilrajput.com/articles/bear), [bearblog.dev](https://bearblog.dev)
 - Learn OpenTalk (Private): [Click here](https://docs.google.com/document/d/1BnH6vQzsASjJi-YsOJ31q3kxQD_mXTCwZq3c3kIz97U/edit?tab=t.0)
