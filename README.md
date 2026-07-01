@@ -583,7 +583,7 @@ cat /dev/null
 - Learn Ayurveda: <a href="https://docs.google.com/document/d/1_zy8T0siCeCuL0rGksUuEBy4ZYg7uZTW9BR-y85UBR0/edit?tab=t.0" search-title="Learn Ayurveda">Click here</a>
 - Learn Dyaan/Meditation: <a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.tc9ukx6oxone" search-title="Learn Dyaan/Meditation">Click here</a>
 	- Learn Heartfullness: <a href="https://docs.google.com/document/d/1WPbWXvXWyJTcpFLigm52cOa90IwAp1nI8aZ8FgUj-CQ/edit?tab=t.0" search-title="Learn Heartfullness">Click here</a>
-- Glass Thoughts: <a href="https://sveltev5.vercel.app/glass" search-title="Glass Thoughts">Click here</a>
+- Glass Thoughts: <a href="https://sveltev5.vercel.app/glass-slideshow" search-title="Glass Thoughts">Click here</a>
 - Learn Accessibility: <a href="https://docs.google.com/document/d/1FsP4uZQl3oMRb9LKOuU1jzrvEvigce-NyllIXp2LweQ/edit?tab=t.0#heading=h.xl4iqlcuuql3" search-title="Learn Accessibility">Click here</a>
 - Learn `.editorconfig` file : <a href="https://editorconfig.org/" search-title="Learn `.editorconfig` file">Click here</a>
 	- Formal Specification (mentioned on above site): [Click here](https://spec.editorconfig.org)
