@@ -9,4 +9,5 @@
 - [Channel - Lofi Girl Guitar](https://www.youtube.com/@LofiGirl-Guitar)
     - [Jason Masoud - Crystal Tears - guitar/study music](youtube.com/watch?v=Lsv6B0rQVQoG)
 - *TODO: Explore more channels from the above mentioned Youtube Channels and the music mentioned in the ChatGPT link.*
+- *TODO: Do todos of [my old Music,Visuals Google Doc](https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit?tab=t.0#heading=h.f9ex4brnvd7x)*
 
