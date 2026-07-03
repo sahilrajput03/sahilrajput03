@@ -50,6 +50,7 @@
 - [Celebration by Simplebeing](https://sahilrajput.com/celebration-by-simplebeing.html)
 - [Y Combinator Naming](y-combinator-naming)
 - [Units](units)
+- [List of SI prefixes](si)
 
 **Slideshow**
 
