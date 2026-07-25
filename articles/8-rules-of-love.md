@@ -30,3 +30,5 @@ These stages are cumulative yet flexible—one can return to earlier stages as n
 8. Love again and again — Broaden the practice of love beyond romantic partnership to include family, friends, community, and a more universal sense of connection.
 
 Throughout, the book stresses that love is learned and practiced deliberately. It includes reflective exercises such as letter-writing and meditation aligned with each stage to help internalize the principles. The overall message is that becoming a more mature lover begins with self-understanding and extends outward through intentional effort, mutual growth, and the capacity both to stay and to let go when required.
+
+[https://mypot.in/todos](https://mypot.in/todos)
