@@ -6,7 +6,8 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
-- [Repress vs. Supress](./repress-supress)
+- [Summary of Book - 8 rules of Love ~ Jay Shetty](8-rules-of-love)
+- [Repress vs. Supress](repress-supress)
 - ❤️ [bearblog.dev](bear)
 - [⭕ Publishing articles superfast from mobile or desktop](fast)
 - ❤️ [Work Music](work-music)
