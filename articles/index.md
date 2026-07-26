@@ -6,6 +6,7 @@
 
 *The essays are listed in reverse chronological order (latest first).*
 
+- [Credibility](credibility.md)
 - [Summary of Book - 8 rules of Love ~ Jay Shetty](8-rules-of-love)
 - [Repress vs. Supress](repress-supress)
 - ❤️ [bearblog.dev](bear)
