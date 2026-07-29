@@ -708,6 +708,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 - Learn OpenTalk (Private): [Click here](https://docs.google.com/document/d/1BnH6vQzsASjJi-YsOJ31q3kxQD_mXTCwZq3c3kIz97U/edit?tab=t.0)
 - Gophers Images: [Click here](https://github.com/marcusolsson/gophers)
 	- Source: Reference mentioned on the bottom of [this site](https://pocketbase.io/)
+- ❤️Learn Chrome Extension Development: [Click here](https://github.com/sahilrajput03/learn-chrome-extensions)
 
 ***Note to Sahil: Search Index done from bottom till "Learn React Native" link (moving upwards).***
 
