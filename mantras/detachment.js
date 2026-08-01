@@ -1,5 +1,34 @@
 // @ts-nocheck
 
+const getQuotes = isFemale => [
+    "Ahankaar: Huin kon main?",
+    "I do not attach to people.",
+    "I only talk for 9 mins at maximum to him.",
+    "I am not his, he is not mine.",
+    "I am not responsible for him, he is not responsible for me.",
+    "He is not my responsibility, I am not his responsibility.",
+    "What he thinks and does is not in my hand; and what I think and do is not in his hand.",
+    "मेरा उससे लेना-देना क्या है, उसका मुझसे लेना-देना क्या है?",
+    "तुम मेरे लिए कुछ नहीं हो, मैं तुम्हारे लिए कुछ नहीं हूँ।",
+    "I am not his type, he is not my type.",
+    "Bas yrr, chor ab.",
+    "Kitni urja dega ussey, thori apne paas bhi rakh apne liye.",
+    "Chala gya toh chala gya!",
+    "Baad mei! Baad mei dekhte hain.",
+    "Choro yrr, jaane do.",
+    "Tum apne raaste, hum apne raste.",
+    "He is GONE FOR GOOD. 🙂",
+].map(q => isFemale ? q
+    .replace(/\bHe\b/g, 'She')
+    .replace(/\bhe\b/g, 'she') // replace direct works and not the substrings inside words (ChatGPT: https://chatgpt.com/c/6a45622e-37f8-83ee-8526-8eb42948df33)
+    .replace(/him/g, 'her')
+    .replace(/his/g, 'her')
+    .replace(/Chala/g, 'Chali')
+    .replace(/chala/g, 'chali')
+    .replace(/gya/g, 'gyi')
+    : q);
+console.log(getQuotes(true)); // for female (Use false for male affirms)
+
 async function main() {
     // Updte title
     document.title = 'Detachment Mantras';
@@ -32,36 +61,9 @@ async function main() {
     });
 
     function renderSlidshow(isFemale) {
-        const quotes = [
-            "Ahankaar: Huin kon main?",
-            "I do not attach to people.",
-            "I only talk for 9 mins at maximum to him.",
-            "I am not his, he is not mine.",
-            "I am not responsible for him, he is not responsible for me.",
-            "He is not my responsibility, I am not his responsibility.",
-            "What he thinks and does is not in my hand; and what I think and do is not in his hand.",
-            "मेरा उससे लेना-देना क्या है, उसका मुझसे लेना-देना क्या है?",
-            "तुम मेरे लिए कुछ नहीं हो, मैं तुम्हारे लिए कुछ नहीं हूँ।",
-            "I am not his type, he is not my type.",
-            "Bas yrr, chor ab.",
-            "Kitni urja dega ussey, thori apne paas bhi rakh apne liye.",
-            "Chala gya toh chala gya!",
-            "Baad mei! Baad mei dekhte hain.",
-            "Choro yrr, jaane do.",
-            "Tum apne raaste, hum apne raste.",
-            "He is GONE FOR GOOD. 🙂",
-        ].map(q => isFemale ? q
-            .replace(/\bHe\b/g, 'She')
-            .replace(/\bhe\b/g, 'she') // replace direct works and not the substrings inside words (ChatGPT: https://chatgpt.com/c/6a45622e-37f8-83ee-8526-8eb42948df33)
-            .replace(/him/g, 'her')
-            .replace(/his/g, 'her')
-            .replace(/Chala/g, 'Chali')
-            .replace(/chala/g, 'chali')
-            .replace(/gya/g, 'gyi')
-            : q);
-        console.log(quotes);
-
         const slides = document.querySelector('.slides');
+
+        let quotes = getQuotes(isFemale);
 
         slides.innerHTML += quotes
             .map(text => `<section>${text}</section>`)
