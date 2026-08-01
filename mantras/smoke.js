@@ -7,7 +7,7 @@ async function main() {
     document.title = 'Smoke Trigger Transform';
 
     // Update edit link
-    document.querySelector('#edit-link').href = "https://google.com";
+    document.querySelector('#edit-link').href = "https://github.com/sahilrajput03/sahilrajput03/blob/main/mantras/smoke.js";
     renderSlidshow();
     function renderSlidshow() {
         // ❤️ ❤️ ❤️ ChatGPT Used for Affirm (11 June, 2026): https://chatgpt.com/c/6a29a8c9-a44c-83e9-9b99-b175710e9699

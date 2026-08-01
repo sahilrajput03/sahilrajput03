@@ -7,7 +7,7 @@ async function main() {
     document.title = 'Affirmations';
 
     // Update edit link
-    document.querySelector('#edit-link').href = "https://google.com";
+    document.querySelector('#edit-link').href = "https://github.com/sahilrajput03/sahilrajput03/blob/main/mantras/affirm.js";
 
 
     renderSlidshow();
