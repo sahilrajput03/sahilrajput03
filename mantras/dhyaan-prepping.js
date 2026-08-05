@@ -4,6 +4,11 @@ const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
 
 // ❤️ ❤️ ❤️ ChatGPT Used for Affirm (11 June, 2026): https://chatgpt.com/c/6a29a8c9-a44c-83e9-9b99-b175710e9699
 const affirms = [
+    "Ek nirnaya lene ke liye ek saans hi kaafi hai. Dhaan se saans lekr uss ek saans tak poncho.",
+    "Saans hi kaafi hai dhyan badhaane ke liye. Padmasana ya Siddhasana mei baitho aur dhyaan ekatrit karo, kendrit hoyo, aasaan aur boht romanchak hai.",
+    "Padmasana activates spinal cord energies and Siddhassna transfers spinal cord energies to brain. ❤️",
+    "Sit in padmasana and do a dhyaan session (vbt-1) if you feel energyless or tired. ❤️ ",
+
     "Aside from Dhyaan/Tantra techniques, there are some essential preparation activities which act as catalyst to the process, which are:",
     "Listen to Rajneesh anytime.",
     "Do padmasana as it literally concentrates the energies in your spine making you more DRIVEN and POWERFUL.",
