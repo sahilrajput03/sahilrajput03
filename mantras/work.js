@@ -6,11 +6,15 @@ const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
 const affirms = [
     "I love myself ❤️.",
 
+    "If you fee work is super exciting then realise that it will become super boring very soon if you don't work on it, vice-versa, in both conditions you can't work❤️. Ati-kmi-bimaari. Realize this and get out this ati-kmi-bimaari. <span style='font-size: 0.75rem'>(extremism, उग्रवाद, अतिवाद, चरमपंथ)</span>",
+    "Only one step at a time but if you have more time then you can experiment lightly on preparing for next step.",
+    "Dont talk; WRITE, BUILD, MAKE, DEVELOP!<br/>Dont talk; WRITE, BUILD, MAKE, DEVELOP!<br/>Dont talk; WRITE, BUILD, MAKE, DEVELOP!",
+
     "Sit in padmasana on floor on a cloth to harness/uplift your spinal cord energies. (5mins to 30 mins)",
     'If you have no task to write, simply write "Write down the task."',
     "Kaam kar rhe ho aur hosle buland hain toh sab hota hai.",
 
-    "For who you are doing anything? Do it for the god, universe. Devote it to god.",
+    "For who you are doing anything?<br/><br/>Do it for the god, universe.<br/><br/>Devote it to god.",
     "<div style='font-size: 2rem;'>Arijit - I witnessed a lot of changes I understood that I have to be free from my thoughts And, if I have to be free from my thoughts, then I have to be, you know I have to be cancelling out my association with my work because if I start associating myself with my work, then I would expect some result and that will create a thought; and if it is a success then I'll be happy and, if it is a failure then I'll be sad. And this will keep going on and on. And, until we depart, you know So, for that I need…; If I am really genuinely wanting to do something and not get associated with it that means I want to do this for somebody else whom I love, otherwise, I won't be able to, so 'Tatwamasi (Foundation)' is the best way I could do that.</div> <span style='font-size: 0.75rem'>~ Arijit's Podcast (Refer my Arijit Doc)</span>",
     "Detach from anybody who’s causing hard to your work via detach mantras here.",
     "Dhyaan is POWER!",
