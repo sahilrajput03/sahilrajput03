@@ -6,7 +6,7 @@ const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
 const affirms = [
     "I love myself ❤️.",
 
-    "If you fee work is super exciting then realise that it will become super boring very soon if you don't work on it, vice-versa, in both conditions you can't work❤️. Ati-kmi-bimaari. Realize this and get out this ati-kmi-bimaari. <span style='font-size: 0.75rem'>(extremism, उग्रवाद, अतिवाद, चरमपंथ)</span>",
+    "If you fee work is super exciting then realise that it will become super boring very soon if you don't work on it, vice-versa, in both conditions you can't work❤️. Ati-kmi-रोग. Realize this and get out this ati-kmi-bimaari. <span style='font-size: 0.75rem'>(extremism, उग्रवाद, अतिवाद, चरमपंथ)</span>",
     "Only one step at a time but if you have more time then you can experiment lightly on preparing for next step.",
     "Dont talk; WRITE, BUILD, MAKE, DEVELOP!<br/>Dont talk; WRITE, BUILD, MAKE, DEVELOP!<br/>Dont talk; WRITE, BUILD, MAKE, DEVELOP!",
 
