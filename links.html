@@ -18,6 +18,14 @@
     <a id="home" href="https://sahilrajput.com">sahilrajput.com (s)</a>
     <a id="prayers" href="https://sahilrajput.com/articles/prayers">prayers (pr)</a>
     <a id="tantra" href="https://sahilrajput.com/t">तंत्र (t)</a>
+
+    <div style="display: flex; flex-wrap: wrap;">
+      ❤️<a id="articles" href="https://sahilrajput.com/articles">/articles [apu]</a>,
+      <div style="margin-left: 10px;" style="margin-left: 10px;">
+        <a id="articles-private" href="https://sahilrajput.com/articles-private"> /articles-private [apr]</a>
+      </div>
+    </div>
+
     <a id="chatai" href="chatai.html">chatAi (ca)</a>
     <a id="chatgpt" href="https://chatgpt.com">chatgpt.com (cg)</a>
 
@@ -91,11 +99,6 @@
     <hr />
 
     <a id="google_keep" href="https://keep.google.com/u/0/#label/.%F0%9F%A7%A8Play%2FWork%2FCreation">/keep (k)</a>
-    <a id="articles" href="https://sahilrajput.com/articles">/articles (ar ❤️)</a>
-    <div style="margin-left: 10px;" style="display: flex; flex-wrap: wrap; padding-bottom: 15px; gap: 20px;">
-      <a id="essays-new" href="https://github.com/sahilrajput03/essays/blob/main/README.md">Private Essay (*NEW) (es ❤️),</a>
-      <a id="essays" href="https://sahilrajput.com/articles-pr"> Private Essays (/essays)</a>
-    </div>
     <a href="https://blog.sahilrajput.com">blog.sahilrajput.com (old blog)</a>
     <a href="https://docs.google.com/document/d/18ci6kbQse3vwl3OoIXLee1ACkHNwN1Bj03l3Zs2PVtI/edit?tab=t.0#heading=h.9ytzjv2dvgp4">Tech Journal (Google Doc)</a> 
     <a href="https://sahilrajput.com/books">/books</a>
@@ -191,7 +194,10 @@
     const shortcuts = {
       a: {
         f: $('#affirmations').href,
-        r: $('#articles').href,
+        p: {
+          u: $('#articles').href,
+          r: $('#articles-private').href
+        }
       },
       b: {
         u: $('#business').href,
@@ -208,7 +214,6 @@
       // c: 'chatai.html',
       // d: { },
       e: {
-        s: $('#essays-new').href,
         x: $('#exercise').href,
       },
       g: {
