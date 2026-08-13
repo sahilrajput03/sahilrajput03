@@ -1,5 +1,9 @@
 # Prayers
 
+[Islam, Islamic Prayers, Quran ❤️](https://docs.google.com/document/d/108yMjdOolr1uJyHGV6uAyW6avsIW2AP0_vqge42xF-w/edit?usp=drive_web&ouid=115934040160586535115)
+
+***
+
 सभी सुखी हों।
 
 सभी निरोग और स्वस्थ रहें।
