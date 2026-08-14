@@ -4,6 +4,11 @@
 
 **Why?**
 
+- Because it shows that you care for the person that you have crafted a message for them, its special thing. 
+- Because it shows your creativity.
+- It shows your beauty. You are a beautiful person.
+- It shows what you truly feel.
+- It allows transparency.
 - Preserves Relationships: Clear texting prevents unnecessary misunderstandings, which can quietly damage trust or cause friction.
 - Reflects Emotional Intelligence: Thoughtful communication shows you care how your words affect others—a sign of maturity and empathy.
 - Saves Time and Energy: One well-written message can avoid a back-and-forth of clarifications, saving both people effort.
