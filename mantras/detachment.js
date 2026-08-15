@@ -34,7 +34,7 @@ async function main() {
     document.title = 'Detachment Mantras';
 
     // Update edit link
-    document.querySelector('#edit-link').href = "https://github.com/sahilrajput03/sahilrajput03/blob/main/mantras/detachment.js";
+    document.querySelector('#edit-link').href = "https://github.com/sahilrajput03/sahilrajput03/edit/main/mantras/detachment.js";
 
     // @ts-ignore
     const result = await Swal.fire({

@@ -57,7 +57,7 @@ async function main() {
     document.title = 'Smoke Trigger Transform';
 
     // Update edit link
-    document.querySelector('#edit-link').href = "https://github.com/sahilrajput03/sahilrajput03/blob/main/mantras/smoke.js";
+    document.querySelector('#edit-link').href = "https://github.com/sahilrajput03/sahilrajput03/edit/main/mantras/smoke.js";
     renderSlidshow();
     function renderSlidshow() {
         const slides = document.querySelector('.slides');

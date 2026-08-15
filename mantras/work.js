@@ -96,7 +96,7 @@ async function main() {
     document.title = 'Work Mantras';
 
     // Update edit link
-    document.querySelector('#edit-link').href = "https://github.com/sahilrajput03/sahilrajput03/blob/main/mantras/work.js";
+    document.querySelector('#edit-link').href = "https://github.com/sahilrajput03/sahilrajput03/edit/main/mantras/work.js";
 
     renderSlidshow();
     function renderSlidshow() {
