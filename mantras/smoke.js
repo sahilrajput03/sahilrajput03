@@ -5,6 +5,8 @@ const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
 // ❤️ ❤️ ❤️ ChatGPT Used for Affirm (11 June, 2026): https://chatgpt.com/c/6a29a8c9-a44c-83e9-9b99-b175710e9699
 const affirms = [
 
+    "Stay away from sustained headaches by quitting smoking.",
+
     "Do not smoke because then your immune system will get too much excited at night leading to sleeping late that leads you to wake up late next morning with swollen sinuses and thus you COMPLETELY 🔴 FUCK UP A NEW DAY VERY BADLY.",
     "I am feeling so much rejuvenating juices of my body now that I have NOT smoked for past 2 days. ❤️ (1 Aug 2026).",
     "Smoke promises relaxation but in real it actually takes it away.",
