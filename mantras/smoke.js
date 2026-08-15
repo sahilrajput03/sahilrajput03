@@ -29,7 +29,7 @@ const slides = [
     "Drink Black Coffee. <span style='font-size: 0.75rem'>~ Deaddiction Center’s Practitioner on OpenTalk</span>",
     "Break the cigarette if you can't control the urge at all. Consider this like you have the character of your best self character who fights with the worst you character.",
     "Feel the hell your spirit is trapped in and fucking cry.",
-    "Get an empty pack of cigs and put a cigs in it with the labels Dad, Mom, Sister, Wife, Friends and people in the world. This is a technique for self-binding that acts as a symbol of restraint.",
+    "Break the cigs and keep them. This is a technique for self-binding that acts as a symbol of restraint.",
     "I have to go with more knowledge from Dopamine Nation because she’s an expert than to follow my own guidance for anything to help relieve my smoking habit.",
     "Don’t think about it at all and switch to a new topic. ~ Law of Attraction",
     "Read some book via Line Flow - sahilrajput.com/line-flow",
