@@ -20,7 +20,7 @@ const slides = [
     "Smoking kills brain's focus ability, brain's enery and brain's neural networks (patterns of learning).",
     "Smoke karke baad mei punah bohot paschatap (paschaat mei tap, anutaap) hoga, jab sharirik aur maansik durbalta, kamjori aur bimaari ho chuki hogi. (Lec. 50 - ESD)",
     "Tu jaanta bhi nahi hai kitne saare dukhon ki jad hai smoking.",
-    "The benefits of leaving smoking is really tremendously satisfying as you are much more relaxed than ever that you could feel while smoking continuously over days. And it feels that how the hell do you do get ever trapped in smoking as habit.",
+    "The benefits of leaving smoking is really tremendously satisfying as you are much more relaxed than ever that you could feel while smoking continuously over days. And it feels that how the hell do you do get ever trapped in smoking as habit.\nAnd in real it's not quitting smoking that helps you, its the fucking smoking itself that is killing you! ",
     "It's killing a lot of energy and intelligence in your body that you can't imagine without leaving smoking.",
     "Smoking thins the cortex. (<a target='_blank' href='https://monicawilde.com/wild-antidote-for-smoking/'>Article</a>)",
 
