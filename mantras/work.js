@@ -6,6 +6,12 @@ const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
 const affirms = [
     "I love myself ❤️.",
 
+    "Do your work in a अनन्तासन (side-reclining pose / Sleeping Vishnu Pose) 🙂.",
+    "❤️❤️Do not drink sugar added tea at all, take tea right after breakfast! It's awesome! SUGAR IS THE DEVIL. 👿",
+    "❤️Akaran karo kaam sab, निश्चिंतरूपेण, निश्चिंत रूप से.",
+    "Excitement upr-upr ki energy hai. Dhyana karo 12 (or 15 or 20 mins) to realise your balanced self. Dhyaan is really really powerful to set you in relaxed working mode.",
+
+
     "If you fee work is super exciting then realise that it will become super boring very soon if you don't work on it, vice-versa, in both conditions you can't work❤️. Ati-kmi-रोग. Realize this and get out this ati-kmi-bimaari. <span style='font-size: 0.75rem'>(extremism, उग्रवाद, अतिवाद, चरमपंथ)</span>",
     "Only one step at a time but if you have more time then you can experiment lightly on preparing for next step.",
     "Dont talk; WRITE, BUILD, MAKE, DEVELOP!<br/>Dont talk; WRITE, BUILD, MAKE, DEVELOP!<br/>Dont talk; WRITE, BUILD, MAKE, DEVELOP!",

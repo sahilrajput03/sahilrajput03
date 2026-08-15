@@ -6,6 +6,20 @@ const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
 const affirms = [
     "Aside from Dhyaan/Tantra techniques, there are some essential preparation activities which act as catalyst to the process, which are:",
 
+    "Dhyaan sirf saans lene pe.",
+    "❤️Use “a-flute/1. buddha’s flute” to do dhyaan when you feel hard to do dhyaan.",
+    "Dhyaan ki charam avastha hai khud se purn roop se jud jana. Bhakti ki charam avastha hai parmatma mei leen ho jana. ❤️",
+    "Parmatma (Sampraday) chaiye insaano ko insaano se jodne ke liye, indaaniyat zinda rahe iske liye.",
+    "Ladkiaan aur kaamvasna bas urja aur samay ki barbaadi hai.",
+    "Feel and use the lower backside brain (ear to ear back side section of the skull) to do dhyaan and calm down.",
+    "Saanson ke peeche jo hai uspe dhyaan do. Saanson ke piche jo hai wahan se urja aati hai. Dhairya aur aur aaraam se ussey jano, ek naye aayam mei utaroge.",
+    "Dhyaan saans ki dhara pe.",
+    "Hosh nahin bhoolna hai.",
+    "Sabse badi galti - Behoshi.",
+    "Khana nahi bhoolna hai.",
+    "Hosh nahi khona hai. Behosh nahi hona hai.",
+
+
     "Siddhanasa and padmasana are necessary (संजीवनी बूटी).",
     "Saans ki pratiksha karo, dhairya rakho, dheeraj rakho.",
     "Man chanchal hai, don't focus on negatives, it will go away naturally.",
