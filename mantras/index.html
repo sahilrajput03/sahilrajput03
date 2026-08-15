@@ -80,10 +80,21 @@
         .mantra-button {
             margin-top: 10px;
         }
+
+        .login-btn, .logout-btn {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            color: white;
+            background: transparent;
+            border: 1px solid white;
+            padding: 5px 10px;
+        }
     </style>
 
     <div class="top-bar">
-        <a id="edit-link" class="edit-link" target="_blank" rel="noopener noreferrer" href="https://github.com/sahilrajput03/sahilrajput03/edit/main/mantras/index.html">Edit</a>
+        <a id="edit-link" class="edit-link" target="_blank" rel="noopener noreferrer"
+            href="https://github.com/sahilrajput03/sahilrajput03/edit/main/mantras/index.html">Edit</a>
         <button
             onclick="alert('❤️ You can easily edit and preview both Markdown and HTML files (including Reveal.js presentations) directly in the Markor app on Android. Alternatively, you can run the serve command in Termux to start a local server.')"
             class="top-right-btn">Tip</button>
@@ -97,6 +108,9 @@
 			<section>slide 2</section> -->
         </div>
     </div>
+
+    <button hidden class="login-btn" id="login-btn" onclick="login()"> Login </button>
+    <button hidden class="logout-btn" id="logout-btn" onclick="logout()"> Logout </button>
 
     <!-- Disabling below in favor of CDN's links. -->
     <!-- <script src="dist/reveal.js"></script> -->
@@ -113,10 +127,44 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
+        const $ = document.querySelector.bind(document);
+        const $$ = document.querySelectorAll.bind(document); // optional for multiple elements
+
+        const dom = {
+            loginBtn: $('#login-btn'),
+            logoutBtn: $('#logout-btn')
+        }
+
         const params = new URLSearchParams(location.search);
         const firstParamKey = [...params.keys()]?.[0]; // e.g., 'd' when you go to `/?d`
         console.log("🚀 ~ firstParamKey?", firstParamKey);
 
+        // Show login button if apiKey is not present in localStorage
+        dom.loginBtn.hidden = Boolean(localStorage.getItem('apiKey'))
+        dom.logoutBtn.hidden = !Boolean(localStorage.getItem('apiKey'))
+
+        function login() {
+            const username = prompt("Username");
+            if (!username) { alert("Username is required."); return; }
+
+            const password = prompt("Password");
+            if (!password) { alert("Password is required."); return; }
+
+            const apiKey = username + ":" + password;
+            localStorage.setItem("apiKey", apiKey);
+
+            dom.loginBtn.hidden = true;
+            dom.logoutBtn.hidden = false;
+        }
+        function logout() {
+            localStorage.setItem("apiKey", '');
+
+            dom.loginBtn.hidden = false;
+            dom.logoutBtn.hidden = true;
+            alert('Logged out successfully.');
+        }
+
+        // Loading mantra scripts based on query params. If no matching param, show buttons to select mantra.
         const queryParamToMantraDetailsMap = {
             d: { name: 'Detachment', script: 'detachment.js' },
             a: { name: 'Affirmations', script: 'affirm.js' },
@@ -128,6 +176,8 @@
         const mantraDetails = queryParamToMantraDetailsMap[firstParamKey];
         if (mantraDetails) {
             loadScript(mantraDetails.script);
+            // Hide both login and logout buttons when a mantra is loaded, as the user is already in the mantra view.
+            dom.loginBtn.hidden = dom.logoutBtn.hidden = true;
         } else {
             // document.body.innerHTML = '<h1 style="color: red; text-align: center; margin-top: 50px;">Sorry, no matching mantra found!</h1>';
 
@@ -140,7 +190,7 @@
                     // This loads the html page with the query param, which will then load the corresponding script.
                     location.search = `?${key}`;
                 };
-                document.querySelector('.mantra-buttons').appendChild(button);
+                $('.mantra-buttons').appendChild(button);
             }
         }
 
