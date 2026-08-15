@@ -2,7 +2,7 @@
 
 const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
 
-const affirms = [
+const slides = [
     // General Affirmations:
     "❤️I sleep early, I wake up early.",
     "I love to feel this awesome liveliness when I wake up early.",
@@ -124,6 +124,8 @@ const affirms = [
     "Take care, bye 👋!",
 ];
 
+var slidesEl;
+
 async function main() {
     // Updte title
     document.title = 'Affirmations';
@@ -136,9 +138,9 @@ async function main() {
     function renderSlidshow() {
         // ❤️ ❤️ ❤️ ChatGPT Used for Affirm (11 June, 2026): https://chatgpt.com/c/6a29a8c9-a44c-83e9-9b99-b175710e9699
 
-        const slides = document.querySelector('.slides');
+        slidesEl = document.querySelector('.slides');
 
-        slides.innerHTML += affirms
+        slidesEl.innerHTML += slides
             .map(text => `<section>${text}</section>`)
             .join('');
 
@@ -147,7 +149,7 @@ async function main() {
         // - https://revealjs.com/config/
         Reveal.initialize({
             hash: true,
-            // loop: true, // ! This is to loop the presentation.
+            loop: true, // ! This is to loop the presentation.
             // transitionSpeed: 'fast', // ! This is to make the transition between slides faster.
             // Source: https://revealjs.com/transitions/
             transition: 'none', // ! This is to remove the transition between slides.
@@ -168,6 +170,14 @@ async function main() {
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
         });
+
+        // Note: I tried `import {} from 'zzz-utils.js' but that requires that I
+        //       use a proper https server because opening the HTML directly as
+        //       file://..., modules runs into CORS/security issues. So I'm preferrign
+        //       to import the script like this actually.
+        const script = document.createElement('script');
+        script.src = 'zzz-utils.js';
+        document.head.appendChild(script);
     }
 
 }

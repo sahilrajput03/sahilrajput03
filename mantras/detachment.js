@@ -1,6 +1,9 @@
 // @ts-nocheck
 
-const getQuotes = isFemale => [
+// Learn: `slides` is set dynamically when `isFemale` is asked from user.
+let slides = [];
+
+const getSlides = isFemale => [
     "Ahankaar: Huin kon main?",
     "I do not attach to people.",
     "I only talk for 9 mins at maximum to him.",
@@ -18,6 +21,7 @@ const getQuotes = isFemale => [
     "Choro yrr, jaane do.",
     "Tum apne raaste, hum apne raste.",
     "He is GONE FOR GOOD. 🙂",
+    "Take care, bye 👋!",
 ].map(q => isFemale ? q
     .replace(/\bHe\b/g, 'She')
     .replace(/\bhe\b/g, 'she') // replace direct works and not the substrings inside words (ChatGPT: https://chatgpt.com/c/6a45622e-37f8-83ee-8526-8eb42948df33)
@@ -27,7 +31,9 @@ const getQuotes = isFemale => [
     .replace(/chala/g, 'chali')
     .replace(/gya/g, 'gyi')
     : q);
-console.log(getQuotes(true)); // for female (Use false for male affirms)
+console.log(getSlides(true)); // for female (Use false for male affirms)
+
+var slidesEl;
 
 async function main() {
     // Updte title
@@ -61,11 +67,11 @@ async function main() {
     });
 
     function renderSlidshow(isFemale) {
-        const slides = document.querySelector('.slides');
+        slidesEl = document.querySelector('.slides');
 
-        let quotes = getQuotes(isFemale);
+        slides = getSlides(isFemale);
 
-        slides.innerHTML += quotes
+        slidesEl.innerHTML += slides
             .map(text => `<section>${text}</section>`)
             .join('');
 
@@ -95,6 +101,11 @@ async function main() {
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
         });
+
+        // Read comments in affirm.js to know why I'm using this way instead of directly importing via `import` on top of this file.
+        const script = document.createElement('script');
+        script.src = 'zzz-utils.js';
+        document.head.appendChild(script);
     }
 
 }

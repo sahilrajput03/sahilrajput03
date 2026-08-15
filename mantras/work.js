@@ -3,7 +3,7 @@
 const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
 
 // ❤️ ❤️ ❤️ ChatGPT Used for Affirm (11 June, 2026): https://chatgpt.com/c/6a29a8c9-a44c-83e9-9b99-b175710e9699
-const affirms = [
+const slides = [
     "I love myself ❤️.",
 
     "Do your work in a अनन्तासन (side-reclining pose / Sleeping Vishnu Pose) 🙂.",
@@ -88,8 +88,10 @@ const affirms = [
     "If you are not making mistakes that means you are not trying hard enough.",
     // ".",
     // deepBreathe,
-    // "Take care, bye 👋!",
+    "Take care, bye 👋!",
 ];
+
+var slidesEl;
 
 async function main() {
     // Updte title
@@ -100,9 +102,9 @@ async function main() {
 
     renderSlidshow();
     function renderSlidshow() {
-        const slides = document.querySelector('.slides');
+        slidesEl = document.querySelector('.slides');
 
-        slides.innerHTML += affirms
+        slidesEl.innerHTML += slides
             .map(text => `<section>${text}</section>`)
             .join('');
 
@@ -132,6 +134,11 @@ async function main() {
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
         });
+
+        // Read comments in affirm.js to know why I'm using this way instead of directly importing via `import` on top of this file.
+        const script = document.createElement('script');
+        script.src = 'zzz-utils.js';
+        document.head.appendChild(script);
     }
 
 }

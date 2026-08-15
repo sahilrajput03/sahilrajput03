@@ -3,7 +3,7 @@
 const deepBreathe = "❤️ Take 3 slow deep breaths. Inhale... Exhale...";
 
 // ❤️ ❤️ ❤️ ChatGPT Used for Affirm (11 June, 2026): https://chatgpt.com/c/6a29a8c9-a44c-83e9-9b99-b175710e9699
-const affirms = [
+const slides = [
     "Aside from Dhyaan/Tantra techniques, there are some essential preparation activities which act as catalyst to the process, which are:",
 
     "Dhyaan sirf saans lene pe.",
@@ -69,6 +69,8 @@ const affirms = [
     "Take care, bye 👋!",
 ];
 
+var slidesEl;
+
 async function main() {
     // Updte title
     document.title = 'Dhyaan Prepping';
@@ -79,9 +81,9 @@ async function main() {
 
     renderSlidshow();
     function renderSlidshow() {
-        const slides = document.querySelector('.slides');
+        slidesEl = document.querySelector('.slides');
 
-        slides.innerHTML += affirms
+        slidesEl.innerHTML += slides
             .map(text => `<section>${text}</section>`)
             .join('');
 
@@ -90,7 +92,7 @@ async function main() {
         // - https://revealjs.com/config/
         Reveal.initialize({
             hash: true,
-            // loop: true, // ! This is to loop the presentation.
+            loop: true, // ! This is to loop the presentation.
             // transitionSpeed: 'fast', // ! This is to make the transition between slides faster.
             // Source: https://revealjs.com/transitions/
             transition: 'none', // ! This is to remove the transition between slides.
@@ -111,6 +113,11 @@ async function main() {
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
         });
+
+        // Read comments in affirm.js to know why I'm using this way instead of directly importing via `import` on top of this file.
+        const script = document.createElement('script');
+        script.src = 'zzz-utils.js';
+        document.head.appendChild(script);
     }
 
 }
