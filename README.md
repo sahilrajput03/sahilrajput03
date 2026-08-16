@@ -325,7 +325,7 @@ cat /dev/null
 - **Jokes:** [Click here](https://xkcd.com/)
 - **Learn Curl:** [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-curl.md)
 - Git & Github:
-	- **Learn Git:** [Click here](learn-git.md)
+	- **Learn Git:** [Click here](https://docs.google.com/document/d/1V-0L8I2REy13HndTLzcvnSRjuOV4xa0W8TEheWaDX68/edit?tab=t.0#heading=h.rhb378pitj27)
 		- How to write commit messages: [Click here](learn-git.md#how-to-write-commit-messages)
 	- **Leanr Git Large File Storage (LFS):** [Click here](https://docs.google.com/document/d/1HFKzirTi9qran6kXTgV6uZaqalOF_wwCsPuL-u0e0ew/edit?tab=t.0#heading=h.r53gdoqrdh0h)
 	- **Learn GitHub:** [Click here](https://docs.google.com/document/d/1ViGPyzq_EY94KkBiOBBZjmcQJ2HlAL6OwmkwvsDskHQ/edit)

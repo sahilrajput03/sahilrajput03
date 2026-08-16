@@ -1,3 +1,5 @@
+# THIS FILE IS [MOVED TO THIS DOC](https://docs.google.com/document/d/1V-0L8I2REy13HndTLzcvnSRjuOV4xa0W8TEheWaDX68/edit?tab=t.0#heading=h.rhb378pitj27).
+
 # Learn git
 
 **Quick Links:**
