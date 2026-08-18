@@ -79,7 +79,7 @@ const slides = [
     "Jo hua acha hua. Jo hona hai woh bhi accha hi hona hai.",
     'Sirf "ek kaam" karna h mujhe. (jo tumhara next task hai).',
     `❤️To start your work on a day when you don't feel like working, you need to sincerely and honestly ask yourself - “Why do I not want to work right now?” → “It is boring.” → "Why is it boring?" → “What makes it boring?” → “I don't know why it's boring” → "Not knowing what I need to work on now makes it boring." → "Let's find out exactly what I need to work on and have it in front of you.”`,
-    "Balance your ACTIVE & PASSIVE ACTIVITIES time spending. <a target='_blank' href='https://docs.google.com/document/d/1LPDCtgWXv3Xg6wgPq5jEkblY36r-sxaLr4J62uFPvcs/edit?tab=t.5irr21jl90kd#heading=h.x6uslpwxkfmi'>Click here to view your list of activities here.</a>",
+    "Balance your ACTIVE & PASSIVE ACTIVITIES time spending. <a target='_blank' href='https://docs.google.com/document/d/1RYrQnHboTBh678sdIEYt6Otq0HbHxyGA2mJmHiKnPRw/edit?tab=t.0#heading=h.x6uslpwxkfmi'>Click here to view your list of activities here.</a>",
     "Keep your strategy and goals SUPER PRIVATE ⭕️ because the energies must be applied at pin-point on the work itself with laser focus rather than spreading/wasting its energy when you talk about it to other people.",
     "This is easy task. This philosophy gets your work started, getting you into flow mode.❤️",
     "Pain & Problems are blessings in disguise.",
