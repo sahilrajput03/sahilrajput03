@@ -4,7 +4,7 @@
 - Take help from prompts.md file to see how to add js here. I used codex for the task though.
  -->
 
-*The essays are listed in reverse chronological order (latest first).*
+*From my personal essays in reverse chronological order (latest first)*
 
 - [Summary of Book - 8 rules of Love ~ Jay Shetty](8-rules-of-love)
 - [Repress vs. Supress](repress-supress)
