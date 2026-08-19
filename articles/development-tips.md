@@ -1,4 +1,4 @@
-# Deveopment Tips
+# Development Tips
 
 21 May 2026
 

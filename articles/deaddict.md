@@ -1,4 +1,4 @@
-# Deaddict
+# Digital Deaddict
 
 31 May 2026
 

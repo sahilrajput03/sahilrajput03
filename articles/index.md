@@ -24,13 +24,12 @@
 - [How to be fully focussed on my work goals?](fully-focussed)
 - [try-catch-then-catch](https://gist.github.com/sahilrajput03/cca866fef192e7728d64d983219b9467)
 - [Pieter Thiel first invesment in Facebook](thiel-facebook-investment)
-- [Deaddict](deaddict)
-- [Lineflow Secret Hacks](lineflow-secret-hacks)
+- [Digital Deaddict](deaddict)
 - [Understanding](understanding)
 - [Executing execution](executing-execution)
 - [Military Sleep Method](military-sleep-method)
 - [Musk on AI](musk-on-ai)
-- [Deveopment Tips](development-tips)
+- [Development Tips](development-tips)
 - [Forbes AI 50 List](forbes-ai-50)
 - [3 Physical Spaces You Need](3-spaces)
 - [Good Logging](logging)
@@ -50,12 +49,8 @@
 - [☁️ VPS vs. 🔌 Raspberrypi](vps-vs-raspberrypi)
 - [Celebration by Simplebeing](https://sahilrajput.com/celebration-by-simplebeing.html)
 - [Y Combinator Naming](y-combinator-naming)
-- [Units](units)
+- [Unit Conversions](units)
 - [List of SI prefixes](si)
-
-**Slideshow**
-
-- [Detachment](detachment.html)
 
 **Timeless**
 

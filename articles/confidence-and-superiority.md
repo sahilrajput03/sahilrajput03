@@ -1,4 +1,4 @@
-# What is difference b/w superiority and competition?
+# What is the difference b/w superiority and competition?
 
 9 June 2026 (Source: ChatGPT)
 
