@@ -9,7 +9,6 @@ Contact Me: <a href="https://sahilrajput.com/me" target="_blank">sahilrajput.com
 3. WAA (WhatsApp AI Agent)
 4. AgentX - Telegram AI Agent
 5. Lineflow - A Reading Platform
-6. New Blogging Platform *(Name to be Decided)*
 
 #### 📝 Blogs
 
