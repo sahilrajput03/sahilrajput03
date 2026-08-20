@@ -81,7 +81,8 @@
             margin-top: 10px;
         }
 
-        .login-btn, .logout-btn {
+        .login-btn,
+        .logout-btn {
             position: absolute;
             bottom: 20px;
             right: 20px;
@@ -91,9 +92,6 @@
             padding: 5px 10px;
         }
     </style>
-
-
-    <b style="color: red; background-color: white; font-size: 2rem; width: 100%;">NOTE: I now maintain my mantras in my Google Drive as of 20 Aug 2026.</b>
 
     <div class="top-bar">
         <a id="edit-link" class="edit-link" target="_blank" rel="noopener noreferrer"
@@ -136,15 +134,15 @@
         const dom = {
             loginBtn: $('#login-btn'),
             logoutBtn: $('#logout-btn')
-        }
+        };
 
         const params = new URLSearchParams(location.search);
         const firstParamKey = [...params.keys()]?.[0]; // e.g., 'd' when you go to `/?d`
         console.log("🚀 ~ firstParamKey?", firstParamKey);
 
         // Show login button if apiKey is not present in localStorage
-        dom.loginBtn.hidden = Boolean(localStorage.getItem('apiKey'))
-        dom.logoutBtn.hidden = !Boolean(localStorage.getItem('apiKey'))
+        dom.loginBtn.hidden = Boolean(localStorage.getItem('apiKey'));
+        dom.logoutBtn.hidden = !Boolean(localStorage.getItem('apiKey'));
 
         function login() {
             const username = prompt("Username");
@@ -170,10 +168,13 @@
         // Loading mantra scripts based on query params. If no matching param, show buttons to select mantra.
         const queryParamToMantraDetailsMap = {
             d: { name: 'Detachment', script: 'detachment.js' },
-            a: { name: 'Affirmations', script: 'affirm.js' },
-            dh: { name: 'Dhyaan Prepping', script: 'dhyaan-prepping.js' },
-            w: { name: 'Work', script: 'work.js' },
-            s: { name: 'Smoke', script: 'smoke.js' }
+            // ⭕️ ⭕️ ⭕️ ⭕️
+            // **** I now maintain my mantras in my Google Drive as of 20 Aug 2026, so the below mantras are commented out. **
+            // ⭕️ ⭕️ ⭕️ ⭕️
+            // a: { name: 'Affirmations', script: 'affirm.js' },
+            // dh: { name: 'Dhyaan Prepping', script: 'dhyaan-prepping.js' },
+            // w: { name: 'Work', script: 'work.js' },
+            // s: { name: 'Smoke', script: 'smoke.js' }
         };
 
         const mantraDetails = queryParamToMantraDetailsMap[firstParamKey];
@@ -195,6 +196,11 @@
                 };
                 $('.mantra-buttons').appendChild(button);
             }
+
+            const note = document.createElement('b');
+            note.textContent = 'NOTE: I now maintain my mantras in my Google Drive as of 20 Aug 2026 so I have removed (commented) those other mantras.';
+            note.style.cssText = 'font-weight: bold; color: red; background-color: white; font-size: 1rem; width: 100%;';
+            document.body.append(note);
         }
 
         // Older manual script loading logic
