@@ -58,14 +58,7 @@ const slides = [
     "Fal ki chinta kiye bina karm karo - Karm Yog ❤️",
     "❤️❤️ Overworking is nothing but lobh (लोभ), darr & moh.",
     "Keep your peripheral vision distraction less. You should always face towards a wall so that you don't see people coming in or going out because they cause visual distraction.",
-    `<div style='text-align: left;'>
-                        <div style='font-weight: bold; text-align: center; text-decoration: underline;'>To chill your hearing instincts, use:</div>
-                        1. MX Player > '__Osho Meditation Music ❤️' <br/>
-                        2. MX Player > '_a-work, 40hz focus music, Lofi ❤️' <br/>
-                        3. MacOS: ~/Documents/❤️work-music <br/>
-                        4. <a href='https://www.youtube.com/playlist?list=PLBfwD_NnDB3r7I3a61OUDMALiPkAVMHV-'>YouTube Playlist: ❤️Work, Code, Peace Music</a> <br/>
-                        5. Article: <a href='https://sahilrajput.com/articles/work-music'>Work Music</a>. <br/> <br/>
-                        This is to literally remove noise i.e., undesrable sounds when you want to work.</div>`,
+    `Checkout <a href='https://docs.google.com/document/d/12xfjq7UAvmu165uQqzQlflrf3SoXRcR5eEB_jx0s56Y/edit?tab=t.0'>Work Music here</a>.`,
     "Use Focusmate to enjoy company while working. It's awesome.",
     "Do it in micro steps.",
     "Kaam karna nhi hai DEKHNA hai, usi se kaam hona shuru ho jata hai.",
