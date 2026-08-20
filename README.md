@@ -686,7 +686,7 @@ Comparison of kramdown attribute markup vs. plain html markup: Both looks equall
 ```
 - ❤️ How to get help in coding:
 	- FullStackOpen.com: [Click here](https://fullstackopen.com/en/part0/general_info#how-to-get-help-in-discord)
-- ❤️ Frequency Music Doc: [Click here](https://docs.google.com/document/d/1OrAYzLLd48K2OMt0HOaq2zZr2GzUHB84PeMhBUyg2ik/edit?tab=t.0)
+- ❤️ Frequency Music Doc: [Click here](https://docs.google.com/document/d/12xfjq7UAvmu165uQqzQlflrf3SoXRcR5eEB_jx0s56Y/edit?tab=t.m5belwoskuhk#heading=h.yflodtu5grli)
 - ❤️ Law of Attraction Doc: [Click here](https://docs.google.com/document/d/1wiDf0_s8HVXQ8M9h88W6YleimSPDR-WGlP6FP8bTaWs/edit?tab=t.ccxf0e15inp3)
 - Learn IDB (indexeddb in browser): [Click here](https://github.com/sahilrajput03/qr-solution-frontend/blob/main/src/learn-indexedDB.html)
 - Learn Game Theory: [Click here](https://docs.google.com/document/d/1rn62c3st-pP9il0fI1VG6Onel-m89fnaCvB6DQRXluo/edit?tab=t.0#heading=h.atj23bhfa1ru)
