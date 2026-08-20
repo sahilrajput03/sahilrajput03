@@ -25,7 +25,7 @@
 <h6 align="center">
 	<a href="https://docs.google.com/document/d/1gjb_VQAV9SODX8AsubtNXX4qtmTUBOqwkbbZTjP3stQ/edit?tab=t.0#heading=h.cw5xpkdnurh4">Shunya, Param Dhyaan, Meditation, VBT</a> |
 	<a href="https://sahilrajput.com/grow">Help me grow feedback</a> |
-	<a href="https://docs.google.com/document/d/1j1n5Zjfrlk7wAv23wTjQBDkyv3yxEdEhI136mhYT6U0/edit">Music & Visuals</a> |
+	<a href="https://docs.google.com/document/d/12xfjq7UAvmu165uQqzQlflrf3SoXRcR5eEB_jx0s56Y/edit?usp=sharing">Music & Visuals</a> |
 	<a href="https://docs.google.com/document/d/1Ow1lzgoaEwd1Q9ewOtFgsOt6hQhsqWo_CFmss38xGHM/edit">Blog Recommendations</a> |
 	<a href="https://sahilrajput.com/thoughts">Thoughts</a> (<a href="https://github.com/sahilrajput03/sahilrajput03/blob/main/thoughts/thoughts-frontend/src/thoughts.md">md</a>) |
 	<a href="https://sahilrajput.com/meet">🙏🏻Meet</a>
