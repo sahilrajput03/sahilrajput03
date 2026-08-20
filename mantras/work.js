@@ -58,7 +58,7 @@ const slides = [
     "Fal ki chinta kiye bina karm karo - Karm Yog ❤️",
     "❤️❤️ Overworking is nothing but lobh (लोभ), darr & moh.",
     "Keep your peripheral vision distraction less. You should always face towards a wall so that you don't see people coming in or going out because they cause visual distraction.",
-    `<a href='https://docs.google.com/document/d/12xfjq7UAvmu165uQqzQlflrf3SoXRcR5eEB_jx0s56Y/edit?tab=t.0'>Work Music</a>`,
+    `Checkout <a href='https://docs.google.com/document/d/12xfjq7UAvmu165uQqzQlflrf3SoXRcR5eEB_jx0s56Y/edit?tab=t.0'>Work Music here</a>.`,
     "Use Focusmate to enjoy company while working. It's awesome.",
     "Do it in micro steps.",
     "Kaam karna nhi hai DEKHNA hai, usi se kaam hona shuru ho jata hai.",
