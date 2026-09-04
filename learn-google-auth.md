@@ -7,6 +7,8 @@
 
 ## Recenlty my google cloud project was suspended
 
+**UPDATE 4 Sept, 2026: My account [is reinstantiated as per this email and I tested it, it works](https://mail.google.com/mail/u/0/#inbox/FMfcgzQhWLKQmgldbbVxwdPjkCMCgLCM).**
+
 This resulted in my Login with Google throwing error like - "The OAuth client was disabled." I searched for this in [ChatGPT](https://chatgpt.com/c/6a99428d-9288-83e9-8eb4-b0ee900a9510) here. Also, check another [ChatGPT](https://chatgpt.com/c/6a9944c9-b610-83e8-9746-f3043f6acbc5) I used to appeal to it. I was asked to make an appeal when I opened "Google Cloud Console" and also in an email received on 24 Aug 2026 in my Gmail.
 
 ## ❤️ Login with google with svelte + expressjs (latest)
