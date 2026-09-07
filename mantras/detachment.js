@@ -6,7 +6,7 @@ let slides = [];
 const getSlides = isFemale => [
     "Ahankaar: Huin kon main?",
     "I do not attach to people.",
-    "I only talk for 9 mins at maximum to him.",
+    "I only talk for 5 mins at maximum to him.",
     "I am not his, he is not mine.",
     "I am not responsible for him, he is not responsible for me.",
     "He is not my responsibility, I am not his responsibility.",
