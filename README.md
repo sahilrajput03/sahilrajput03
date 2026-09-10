@@ -33,7 +33,7 @@
 
 <h6 align="center">
 	<a href="https://sahilrajput.com/lf">LineFlow</a> |
-	<a href="/articles">Essays (new)</a> |
+	<a href="/articles">Essays</a> |
 	<a href="/articles/prayers">Prayers</a> |
 	<a href="https://sahilrajput.com/articles-private">Essays (Private)</a> |
 	<a href="https://sahilrajput03.github.io/vocab-files/vocab">Vocab</a> (<a href="https://docs.google.com/document/d/1cOuji7fDKKQBDMEI9oSPH62HddnO_TxY_58g_EfH1L0/edit">Doc</a>) |

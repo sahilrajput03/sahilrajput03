@@ -6,6 +6,7 @@
 
 *From my personal essays in reverse chronological order (latest first)*
 
+- [विपरीत करणी (Legs-Up-the-Wall): Benefits & Uses - Google Doc](https://docs.google.com/document/d/19wug7Imb4F5wDfNA0M_78M2XehmA9ANWAki09qBd9zA/edit?usp=sharing)
 - [Summary of Book - 8 rules of Love ~ Jay Shetty](8-rules-of-love)
 - [Repress vs. Supress](repress-supress)
 - ❤️ [bearblog.dev](bear)
