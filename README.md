@@ -384,7 +384,8 @@ cat /dev/null
 	- Learn Google Calendar: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/learn-google-calendar.md)
 	- Learn Google Office Utility Tools (Docs, Sheets, Slides): [Click here](https://docs.google.com/document/d/1CvC-N3daE9P8k2d-joGwLtRez9Vm4La0o23w1xCLJOw/edit)
 		- Tags: `Learn google docs`
-	- Learn Google Maps: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
+	- Learn Google Maps API: [Click here](https://docs.google.com/document/d/1VKi8Khsb5fE0XcZGS5-Dn2kCEHahsaWs6MBPePLJ9LI/edit?tab=t.0)
+	- Learn Google Maps Android App: [Click here](https://docs.google.com/document/d/16dJSXZqb8SvjBi9DmpUHuUvtT3GR_EVeJ3uwR6Bslvk/edit#heading=h.5z2stpluvd27)
 - **Open Source Apps from All over the world** - [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/main/open-source-apps.md)
 - *Nocode tools vs. Low Code Tools:*
       - No-code tools require no programming skills to build applications, offering visual interfaces for users to drag and drop elements to create software.
