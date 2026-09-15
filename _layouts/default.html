@@ -2,6 +2,17 @@
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
+		<!-- & Adapt height of page dynamically as per view port
+		  visibility for e.g., when keyboard is opened on chrome
+		  android platform - Added
+		  `interactive-widget=resizes-content` on suggestion from:
+		  https://claude.ai/chat/63e27ec5-30a0-4a00-a661-d3f64f1f40b3
+		  -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, interactive-widget=resizes-content"
+		/>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,7 +24,8 @@
     <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
   </head>
   <body>
-    <div class="container-lg px-3 my-5 markdown-body">
+    <!-- Added `min-height: 100dvh;`-->
+    <div class="container-lg px-3 py-5 markdown-body" style="min-height: 100dvh; display: flex; flex-direction: column;">
       {% if site.title and site.title != page.title %}
       <div><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></div>
       {% endif %}
@@ -22,7 +34,7 @@
 
       <!-- Learn: I removed `and site.github.license` from below if condition because I don't have or need any license on my site code yet. -->
       {% if site.github.private != true %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+      <div class="border-top border-gray-light pt-3 text-right text-gray" style="margin-top: auto;">
         This site is open source. {% github_edit_link "Improve this page" %}.
       </div>
       {% endif %}
