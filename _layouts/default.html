@@ -37,12 +37,34 @@
       gesture bar) settle, causing bottom content to overflow off-screen
       until a resize/reflow is triggered. See: https://claude.ai/chat/f712cb86-49bb-4ece-af0c-c0bed2c2df72 -->
     <script>
-      window.addEventListener('load', () => {
+      function fixDvh() {
         const el = document.querySelector('.container-lg');
+        if (!el) return;
         el.style.minHeight = '0';
         el.offsetHeight; // force reflow
         el.style.minHeight = '100dvh';
+      }
+
+      // Try immediately, then again after a short delay to catch
+      // late system-bar settling in the TWA shell.
+      window.addEventListener('load', () => {
+        fixDvh();
+        setTimeout(fixDvh, 300);
+        setTimeout(fixDvh, 1000);
       });
+
+      // Re-run whenever the TWA becomes visible again (e.g. resumed
+      // from background), since system bars can re-settle then too.
+      // document.addEventListener('visibilitychange', () => {
+      //   if (document.visibilityState === 'visible') {
+      //     setTimeout(fixDvh, 100);
+      //   }
+      // });
+
+      // window.addEventListener('resize', fixDvh);
+      // if (window.visualViewport) {
+      //   window.visualViewport.addEventListener('resize', fixDvh);
+      // }
     </script>
   </body>
 </html>
