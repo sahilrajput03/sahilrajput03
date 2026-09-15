@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="{{ '/sahilrajput03.css' | relative_url }}">
   </head>
   <body>
-    <!-- Added `min-height: 100dvh;`-->
     <div class="container-lg px-3 py-5 markdown-body" style="min-height: 100dvh; display: flex; flex-direction: column;">
       {% if site.title and site.title != page.title %}
       <div><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></div>
@@ -32,10 +31,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
 
-    <!-- Force a reflow to recompute `100dvh` after page load, since Android
+    <!-- & Force a reflow to recompute `100dvh` after page load, since Android
       TWA/Chrome sometimes computes dvh before system bars (status/nav/
       gesture bar) settle, causing bottom content to overflow off-screen
-      until a resize/reflow is triggered. See: https://claude.ai/chat/f712cb86-49bb-4ece-af0c-c0bed2c2df72 -->
+      until a resize/reflow is triggered.
+
+      See: https://claude.ai/chat/f712cb86-49bb-4ece-af0c-c0bed2c2df72
+      -->
     <script>
       function fixDvh() {
         const el = document.querySelector('.container-lg');
