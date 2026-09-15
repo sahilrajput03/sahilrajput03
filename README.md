@@ -48,6 +48,7 @@
 	<a href="#transcribe-convert-download-tts-stt">Transcribe/Convert/Download</a> |
 	<a href="#english-and-hindi-typing-courses">English/Hindi Typing Courses</a> |
 	<a href="https://docs.google.com/document/d/1cgmpPTtfn2HYwINmlLsvEduhNnuRHzZy6pumVfuNFZg/edit?tab=t.0#heading=h.mimk1zr17cs0">Movies & Tv Series</a> |
+	<a href="/home">Home</a> |
 	<a href="/links">⭐️Links</a>
 </h6>
 
