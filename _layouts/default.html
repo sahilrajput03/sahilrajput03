@@ -2,6 +2,11 @@
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Disabling this infavor of my new "viewport" tag. -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
 		<!-- & Adapt height of page dynamically as per view port
 		  visibility for e.g., when keyboard is opened on chrome
 		  android platform - Added
@@ -12,9 +17,6 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1, interactive-widget=resizes-content"
 		/>
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
