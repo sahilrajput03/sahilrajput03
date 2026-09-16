@@ -15,7 +15,7 @@
 
   <button id="clear-page-load-data" type="button">Clear load count and history</button>
 
-  <div>Page load history</div>
+  <div style="margin-top: 2rem; font-weight: bold; text-decoration: underline;">Page load history</div>
   <p id="page-load-history-empty" hidden>No page loads recorded yet.</p>
   <ol id="page-load-history" class="page-load-history" aria-live="polite"></ol>
 </section>
