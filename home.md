@@ -286,7 +286,7 @@
     const render = () => {
       taskList.replaceChildren();
 
-      tasks.forEach((task) => {
+      [...tasks].sort((firstTask, secondTask) => Number(secondTask.running) - Number(firstTask.running)).forEach((task) => {
         const row = document.createElement('div');
         row.className = `pomodoro-task${task.running ? ' is-running' : ''}`;
 
