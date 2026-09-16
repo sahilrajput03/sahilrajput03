@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="play-audio-button" type="button">Play pomodoro sound</button>
+  <audio id="pomodoro-audio" src="./media/pomodoro-completed.wav" preload="auto"></audio>
+  <p id="audio-log" role="status" aria-live="polite">Waiting for playback...</p>
+
+  <script>
+    const playButton = document.getElementById('play-audio-button');
+    const pomodoroAudio = document.getElementById('pomodoro-audio');
+    const audioLog = document.getElementById('audio-log');
+    let lowerVolumeTimeout;
+    let restoreVolumeTimeout;
+
+    playButton.addEventListener('click', () => {
+      clearTimeout(lowerVolumeTimeout);
+      clearTimeout(restoreVolumeTimeout);
+
+      pomodoroAudio.volume = 1;
+      pomodoroAudio.currentTime = 0;
+      pomodoroAudio.play();
+      audioLog.textContent = 'Audio started at full volume. Waiting for 10-second timeout...';
+
+      lowerVolumeTimeout = setTimeout(() => {
+        pomodoroAudio.volume = 0.1;
+        audioLog.textContent = '10-second timeout fired: volume set to 0.1. Waiting for 20-second timeout...';
+      }, 10_000);
+
+      restoreVolumeTimeout = setTimeout(() => {
+        pomodoroAudio.volume = 1;
+        audioLog.textContent = '20-second timeout fired: volume restored to 1.';
+      }, 20_000);
+    });
+  </script>
+</body>
+</html>
