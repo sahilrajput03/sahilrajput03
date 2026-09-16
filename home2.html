@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Timer</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: #111827; }
+    main { width: min(90vw, 360px); padding: 2rem; border-radius: 1rem; background: #1f2937; text-align: center; box-shadow: 0 20px 45px #0006; }
+    h1 { margin-top: 0; }
+    #display { margin: 1.25rem 0; font-size: 3.25rem; font-variant-numeric: tabular-nums; }
+    input, button { font: inherit; padding: .7rem .9rem; border-radius: .5rem; border: 0; }
+    input { width: 5rem; }
+    button { cursor: pointer; background: #60a5fa; color: #111827; font-weight: 700; }
+    button:disabled { cursor: not-allowed; opacity: .55; }
+    #status { min-height: 1.5rem; color: #cbd5e1; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Timer</h1>
+    <label>Minutes <input id="minutes" type="number" min="0.01" step="0.01" value="25"></label>
+    <p id="display" aria-live="polite">25:00</p>
+    <button id="startButton" type="button">Start timer</button>
+    <button id="stopButton" type="button" disabled>Stop</button>
+    <p id="status">Ready</p>
+  </main>
+
+  <audio id="timerAudio" preload="auto"></audio>
+
+  <script>
+    const audio = document.getElementById('timerAudio');
+    const minutesInput = document.getElementById('minutes');
+    const display = document.getElementById('display');
+    const status = document.getElementById('status');
+    const startButton = document.getElementById('startButton');
+    const stopButton = document.getElementById('stopButton');
+    const silentSrc = './media/silence.mp3';
+    const alarmSrc = './media/pomodoro-completed.wav';
+    let timerId;
+    let endTime;
+
+    function formatTime(milliseconds) {
+      const totalSeconds = Math.max(0, Math.ceil(milliseconds / 1000));
+      return `${String(Math.floor(totalSeconds / 60)).padStart(2, '0')}:${String(totalSeconds % 60).padStart(2, '0')}`;
+    }
+
+    function stopTimer(message = 'Stopped') {
+      clearInterval(timerId);
+      timerId = undefined;
+      audio.pause();
+      audio.currentTime = 0;
+      startButton.disabled = false;
+      stopButton.disabled = true;
+      status.textContent = message;
+    }
+
+    function startTimer(durationMs) {
+      clearInterval(timerId);
+      endTime = Date.now() + durationMs;
+      audio.src = silentSrc;
+      audio.loop = true;
+      audio.volume = 0.01;
+      audio.play().catch(() => {
+        status.textContent = 'Timer is running (browser blocked background audio).';
+      });
+
+      if ('mediaSession' in navigator && 'MediaMetadata' in window) {
+        navigator.mediaSession.metadata = new MediaMetadata({ title: 'Timer running', artist: 'Simple Timer' });
+      }
+
+      startButton.disabled = true;
+      stopButton.disabled = false;
+      status.textContent = 'Timer running';
+
+      const check = () => {
+        const remaining = endTime - Date.now();
+        display.textContent = formatTime(remaining);
+        if (remaining <= 0) {
+          clearInterval(timerId);
+          timerId = undefined;
+          audio.loop = false;
+          audio.src = alarmSrc;
+          audio.volume = 1;
+          audio.play().catch(() => { status.textContent = 'Timer complete — audio could not play.'; });
+          startButton.disabled = false;
+          stopButton.disabled = true;
+          status.textContent = 'Timer complete!';
+        }
+      };
+
+      check();
+      timerId = setInterval(check, 250);
+    }
+
+    function updateDisplay() {
+      const minutes = Number(minutesInput.value);
+      if (!timerId && Number.isFinite(minutes) && minutes > 0) display.textContent = formatTime(minutes * 60_000);
+    }
+
+    startButton.addEventListener('click', () => {
+      const minutes = Number(minutesInput.value);
+      if (!Number.isFinite(minutes) || minutes <= 0) {
+        status.textContent = 'Enter a duration greater than zero.';
+        minutesInput.focus();
+        return;
+      }
+      startTimer(minutes * 60_000);
+    });
+    stopButton.addEventListener('click', () => stopTimer());
+    minutesInput.addEventListener('input', updateDisplay);
+  </script>
+</body>
+</html>
