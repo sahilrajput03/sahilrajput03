@@ -2,7 +2,24 @@
 
 ***
 
+<section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
+  <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
+  <div id="pomodoro-task-list" aria-live="polite"></div>
+
+  <form id="add-pomodoro-task-form">
+    <input id="new-pomodoro-task-name" type="text" placeholder="Task name" aria-label="Task name" required>
+    <button type="submit">Add task</button>
+  </form>
+
+  <div class="pomodoro-duration" aria-label="Pomodoro duration">
+    <label>Duration: <input id="pomodoro-minutes" type="number" min="0" value="25" aria-label="Minutes"> min</label>
+    <label><input id="pomodoro-seconds" type="number" min="0" max="59" value="0" aria-label="Seconds"> sec</label>
+  </div>
+
+</section>
+
 <section class="page-load-tracker" aria-labelledby="page-load-tracker-title">
+  <hr>
   <div style="font-weight: bold;" id="page-load-tracker-title">Launcher Page Refresh Behavior (Testing)</div>
 
   <div id="page-load-notification" class="page-load-notification" role="status" aria-live="polite">
@@ -142,6 +159,200 @@
         window.clearInterval(countdownTimer);
         notificationElement.hidden = true;
       }
+    }, 1000);
+  })();
+</script>
+
+<style>
+  .pomodoro-tasks {
+    margin-bottom: 2rem;
+    color: #8c959f;
+  }
+
+  .pomodoro-tasks form,
+  .pomodoro-duration,
+  .pomodoro-task {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .pomodoro-tasks input[type="number"] {
+    width: 4.5rem;
+  }
+
+  #pomodoro-task-list {
+    margin-bottom: 1rem;
+  }
+
+  .pomodoro-task-name {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .pomodoro-task-time {
+    white-space: nowrap;
+  }
+
+  .pomodoro-tasks button {
+    color: inherit;
+  }
+</style>
+
+<script>
+  (() => {
+    const storageKey = 'home-pomodoro-tasks';
+    const settingsKey = 'home-pomodoro-duration';
+    const taskForm = document.getElementById('add-pomodoro-task-form');
+    const taskNameInput = document.getElementById('new-pomodoro-task-name');
+    const minutesInput = document.getElementById('pomodoro-minutes');
+    const secondsInput = document.getElementById('pomodoro-seconds');
+    const taskList = document.getElementById('pomodoro-task-list');
+
+    const readStoredValue = (key, fallback) => {
+      try {
+        return JSON.parse(localStorage.getItem(key)) ?? fallback;
+      } catch {
+        return fallback;
+      }
+    };
+
+    let tasks = readStoredValue(storageKey, []);
+    if (!Array.isArray(tasks)) tasks = [];
+
+    const savedDuration = readStoredValue(settingsKey, { minutes: 25, seconds: 0 });
+    minutesInput.value = Math.max(0, Number(savedDuration.minutes) || 0);
+    secondsInput.value = Math.min(59, Math.max(0, Number(savedDuration.seconds) || 0));
+
+    const save = () => {
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(tasks));
+        localStorage.setItem(settingsKey, JSON.stringify({
+          minutes: Number(minutesInput.value) || 0,
+          seconds: Number(secondsInput.value) || 0
+        }));
+      } catch {
+        // The current session remains usable if localStorage is unavailable.
+      }
+    };
+
+    const getDurationInSeconds = () => {
+      const minutes = Math.max(0, Number.parseInt(minutesInput.value, 10) || 0);
+      const seconds = Math.min(59, Math.max(0, Number.parseInt(secondsInput.value, 10) || 0));
+      minutesInput.value = minutes;
+      secondsInput.value = seconds;
+      return (minutes * 60) + seconds;
+    };
+
+    const formatTime = (totalSeconds) => {
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+      return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+    };
+
+    const getRemainingSeconds = (task) => {
+      if (!task.running || !task.endsAt) return task.remainingSeconds || 0;
+      return Math.max(0, Math.ceil((task.endsAt - Date.now()) / 1000));
+    };
+
+    const completeFinishedTasks = () => {
+      let changed = false;
+      tasks.forEach((task) => {
+        if (task.running && getRemainingSeconds(task) === 0) {
+          task.running = false;
+          task.endsAt = null;
+          task.remainingSeconds = getDurationInSeconds();
+          task.pomodoros = (task.pomodoros || 0) + 1;
+          changed = true;
+        }
+      });
+      return changed;
+    };
+
+    const render = () => {
+      taskList.replaceChildren();
+
+      tasks.forEach((task) => {
+        const row = document.createElement('div');
+        row.className = 'pomodoro-task';
+
+        const name = document.createElement('input');
+        name.className = 'pomodoro-task-name';
+        name.value = task.name;
+        name.setAttribute('aria-label', 'Rename task');
+        name.addEventListener('input', () => {
+          const newName = name.value.trim();
+          if (newName) task.name = newName;
+          else name.value = task.name;
+          save();
+        });
+
+        const timer = document.createElement('span');
+        timer.className = 'pomodoro-task-time';
+        timer.textContent = formatTime(getRemainingSeconds(task));
+
+        const count = document.createElement('span');
+        count.textContent = `P. ${task.pomodoros || 0}`;
+
+        const control = document.createElement('button');
+        control.type = 'button';
+        control.textContent = task.running ? 'Stop' : 'Start';
+        control.addEventListener('click', () => {
+          if (task.running) {
+            task.remainingSeconds = getRemainingSeconds(task);
+            task.running = false;
+            task.endsAt = null;
+          } else {
+            const duration = task.remainingSeconds || getDurationInSeconds();
+            if (duration === 0) return;
+            task.remainingSeconds = duration;
+            task.running = true;
+            task.endsAt = Date.now() + (duration * 1000);
+          }
+          save();
+          render();
+        });
+
+        row.append(name, timer, count, control);
+        taskList.appendChild(row);
+      });
+    };
+
+    taskForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const name = taskNameInput.value.trim();
+      const duration = getDurationInSeconds();
+      if (!name || duration === 0) return;
+
+      tasks.push({
+        id: `${Date.now()}-${Math.random()}`,
+        name,
+        pomodoros: 0,
+        remainingSeconds: duration,
+        running: false,
+        endsAt: null
+      });
+      taskNameInput.value = '';
+      save();
+      render();
+    });
+
+    [minutesInput, secondsInput].forEach((input) => {
+      input.addEventListener('change', () => {
+        getDurationInSeconds();
+        save();
+      });
+    });
+
+    completeFinishedTasks();
+    save();
+    render();
+
+    window.setInterval(() => {
+      const changed = completeFinishedTasks();
+      if (changed) save();
+      if (tasks.some((task) => task.running) || changed) render();
     }, 1000);
   })();
 </script>
