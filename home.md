@@ -302,7 +302,37 @@
 
         const timer = document.createElement('span');
         timer.className = 'pomodoro-task-time';
-        timer.textContent = formatTime(getRemainingSeconds(task));
+        const remainingSeconds = getRemainingSeconds(task);
+
+        if (task.running) {
+          timer.textContent = formatTime(remainingSeconds);
+        } else {
+          const minutes = document.createElement('input');
+          minutes.type = 'number';
+          minutes.min = '0';
+          minutes.value = Math.floor(remainingSeconds / 60);
+          minutes.setAttribute('aria-label', `${task.name} minutes`);
+
+          const seconds = document.createElement('input');
+          seconds.type = 'number';
+          seconds.min = '0';
+          seconds.max = '59';
+          seconds.value = remainingSeconds % 60;
+          seconds.setAttribute('aria-label', `${task.name} seconds`);
+
+          const updateTaskDuration = () => {
+            const duration = (Math.max(0, Number.parseInt(minutes.value, 10) || 0) * 60)
+              + Math.min(59, Math.max(0, Number.parseInt(seconds.value, 10) || 0));
+            task.durationSeconds = duration;
+            task.remainingSeconds = duration;
+            save();
+            render();
+          };
+
+          minutes.addEventListener('change', updateTaskDuration);
+          seconds.addEventListener('change', updateTaskDuration);
+          timer.append(minutes, document.createTextNode(':'), seconds);
+        }
 
         const count = document.createElement('span');
         count.textContent = `P. ${task.pomodoros || 0}`;
