@@ -5,6 +5,7 @@
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
   <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
   <div id="pomodoro-task-list" aria-live="polite"></div>
+  <audio id="pomodoro-completed-audio" src="{{ '/media/pomodoro-completed.wav' | relative_url }}" preload="auto"></audio>
 
   <hr style="height: 0.1rem">
 
@@ -221,6 +222,7 @@
     const minutesInput = document.getElementById('pomodoro-minutes');
     const secondsInput = document.getElementById('pomodoro-seconds');
     const taskList = document.getElementById('pomodoro-task-list');
+    const completionAudio = document.getElementById('pomodoro-completed-audio');
 
     const readStoredValue = (key, fallback) => {
       try {
@@ -277,6 +279,8 @@
           task.durationSeconds = task.durationSeconds || getDurationInSeconds();
           task.remainingSeconds = task.durationSeconds;
           task.pomodoros = (task.pomodoros || 0) + 1;
+          completionAudio.currentTime = 0;
+          completionAudio.play().catch(() => {});
           changed = true;
         }
       });
