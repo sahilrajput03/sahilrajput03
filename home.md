@@ -369,6 +369,7 @@
         const remainingSeconds = getRemainingSeconds(task);
 
         if (task.running) {
+          timer.dataset.taskId = task.id;
           timer.textContent = formatTime(remainingSeconds);
         } else {
           const minutes = document.createElement('input');
@@ -481,10 +482,21 @@
     save();
     render();
 
+    const updateRunningTimers = () => {
+      taskList.querySelectorAll('.pomodoro-task-time[data-task-id]').forEach((timer) => {
+        const task = tasks.find((savedTask) => savedTask.id === timer.dataset.taskId);
+        if (task?.running) timer.textContent = formatTime(getRemainingSeconds(task));
+      });
+    };
+
     window.setInterval(() => {
       const changed = completeFinishedTasks();
-      if (changed) save();
-      if (tasks.some((task) => task.running) || changed) render();
+      if (changed) {
+        save();
+        render();
+      } else {
+        updateRunningTimers();
+      }
     }, 1000);
   })();
 </script>
