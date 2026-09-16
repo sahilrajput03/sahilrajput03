@@ -3,14 +3,14 @@
 ***
 
 <section class="page-load-tracker" aria-labelledby="page-load-tracker-title">
-  <div style="font-weight: bold;" id="page-load-tracker-title">Launcher Load Behavior Testing</div>
+  <div style="font-weight: bold;" id="page-load-tracker-title">Launcher Page Refresh Behavior (Testing)</div>
 
   <div id="page-load-notification" class="page-load-notification" role="status" aria-live="polite">
     Page loaded! (<strong id="page-load-countdown">10</strong> seconds)
   </div>
 
   <p class="page-load-count">
-    This page has been loaded <strong id="page-load-count-value">0</strong> times on this device.
+    Refreshes: <strong id="page-load-count-value">0</strong>
   </p>
 
   <button id="clear-page-load-data" type="button">Clear load count and history</button>
