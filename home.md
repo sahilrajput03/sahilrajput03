@@ -184,7 +184,14 @@
 
   .pomodoro-tasks input[type="number"] {
     width: 3ch;
+    appearance: textfield;
     field-sizing: content;
+  }
+
+  .pomodoro-tasks input[type="number"]::-webkit-inner-spin-button,
+  .pomodoro-tasks input[type="number"]::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
   }
 
   #pomodoro-task-list {
