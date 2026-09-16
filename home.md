@@ -23,6 +23,7 @@
 <style>
   .page-load-tracker {
     max-width: 42rem;
+    color: #8c959f;
   }
 
   .page-load-notification {
@@ -32,7 +33,11 @@
     border: 1px solid #1f883d;
     border-radius: 6px;
     background: #dafbe1;
-    color: #116329;
+    color: inherit;
+  }
+
+  .page-load-tracker button {
+    color: inherit;
   }
 
   .page-load-history {
