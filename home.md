@@ -2,6 +2,8 @@
 
 [Home2](./home2)
 
+[Home3](./home3)
+
 ***
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">

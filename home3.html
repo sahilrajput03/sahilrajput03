@@ -7,7 +7,7 @@
 </head>
 <body>
   <button id="play-audio-button" type="button">Play pomodoro sound</button>
-  <audio id="pomodoro-audio" src="./media/pomodoro-completed.wav" preload="auto"></audio>
+  <audio id="pomodoro-audio" src="./media/pomodoro-completed.wav" preload="auto" loop></audio>
   <p id="audio-log" role="status" aria-live="polite">Waiting for playback...</p>
 
   <script>
@@ -27,14 +27,14 @@
       audioLog.textContent = 'Audio started at full volume. Waiting for 10-second timeout...';
 
       lowerVolumeTimeout = setTimeout(() => {
-        pomodoroAudio.volume = 0.1;
-        audioLog.textContent = '10-second timeout fired: volume set to 0.1. Waiting for 20-second timeout...';
+        pomodoroAudio.volume = 0.0001;
+        audioLog.textContent = '10-second timeout fired: volume set to 0.0001. Waiting for 20-second timeout...';
       }, 10_000);
 
       restoreVolumeTimeout = setTimeout(() => {
         pomodoroAudio.volume = 1;
-        audioLog.textContent = '20-second timeout fired: volume restored to 1.';
-      }, 20_000);
+        audioLog.textContent = '120-second timeout fired: volume restored to 1.';
+      }, 120_000);
     });
   </script>
 </body>
