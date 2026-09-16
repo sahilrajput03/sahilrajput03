@@ -193,6 +193,13 @@
     flex: 1;
   }
 
+  .pomodoro-task.is-running {
+    padding: 0.4rem;
+    border-left: 3px solid #ffb6d9;
+    border-radius: 4px;
+    background: #fff0f7;
+  }
+
   .pomodoro-task-time {
     white-space: nowrap;
   }
@@ -280,7 +287,7 @@
 
       tasks.forEach((task) => {
         const row = document.createElement('div');
-        row.className = 'pomodoro-task';
+        row.className = `pomodoro-task${task.running ? ' is-running' : ''}`;
 
         const name = document.createElement('input');
         name.className = 'pomodoro-task-name';
