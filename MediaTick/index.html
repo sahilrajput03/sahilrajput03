@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Background Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Real Background Timer ⏳</h1>
+    <h2 id="timer">00:00</h2>
+
+    <input type="number" id="customTime" placeholder="Seconds">
+    <button onclick="startCustomTimer()">Start Custom Timer</button>
+    <button onclick="pauseTimer()">Pause</button>
+    <button onclick="resetTimer()">Reset</button>
+
+    <!-- Silent audio to keep the music bar visible -->
+    <audio id="silentAudio" loop>
+        <source src="https://cdn.glitch.global/16c2e168-5f80-4256-858b-ebbfd77da240/5-seconds-of-silence.mp3?v=1739673346964" type="audio/mp3">
+    </audio>
+
+    <!-- Alarm sound; starts with the same silent MP3 and will be swapped later -->
+    <audio id="alarmAudio" loop>
+        <source src="https://cdn.glitch.global/16c2e168-5f80-4256-858b-ebbfd77da240/5-seconds-of-silence.mp3?v=1739673346964" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
