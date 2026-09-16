@@ -4,7 +4,7 @@
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
   <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
-  <button id="stop-pomodoro-audio" type="button">Stop audio</button>
+  <button id="stop-pomodoro-audio" type="button" hidden>Stop audio</button>
   <div id="pomodoro-task-list" aria-live="polite"></div>
   <audio id="pomodoro-completed-audio" src="{{ '/media/pomodoro-completed.wav' | relative_url }}" preload="auto"></audio>
 
@@ -212,6 +212,12 @@
     border-radius: 4px;
     color: inherit;
   }
+
+  #stop-pomodoro-audio {
+    border-color: #ff1744;
+    background: #ff1744;
+    color: #fff;
+  }
 </style>
 
 <script>
@@ -226,28 +232,29 @@
     const completionAudio = document.getElementById('pomodoro-completed-audio');
     const stopAudioButton = document.getElementById('stop-pomodoro-audio');
     let completionAudioTimer;
-    let completionPlaysRemaining = 0;
+    let isCompletionAudioPlaying = false;
 
     const stopCompletionAudio = () => {
       window.clearTimeout(completionAudioTimer);
-      completionPlaysRemaining = 0;
+      isCompletionAudioPlaying = false;
       completionAudio.pause();
       completionAudio.currentTime = 0;
+      stopAudioButton.hidden = true;
     };
 
     const playCompletionAudio = () => {
       stopCompletionAudio();
-      completionPlaysRemaining = 3;
+      isCompletionAudioPlaying = true;
+      stopAudioButton.hidden = false;
 
       const playNext = () => {
-        if (completionPlaysRemaining === 0) return;
-        completionPlaysRemaining -= 1;
+        if (!isCompletionAudioPlaying) return;
         completionAudio.currentTime = 0;
         completionAudio.play().catch(stopCompletionAudio);
       };
 
       completionAudio.onended = () => {
-        if (completionPlaysRemaining > 0) {
+        if (isCompletionAudioPlaying) {
           completionAudioTimer = window.setTimeout(playNext, 5000);
         }
       };
