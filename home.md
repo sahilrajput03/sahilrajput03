@@ -4,6 +4,7 @@
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
   <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
+  <button id="stop-pomodoro-audio" type="button">Stop audio</button>
   <div id="pomodoro-task-list" aria-live="polite"></div>
   <audio id="pomodoro-completed-audio" src="{{ '/media/pomodoro-completed.wav' | relative_url }}" preload="auto"></audio>
 
@@ -223,6 +224,38 @@
     const secondsInput = document.getElementById('pomodoro-seconds');
     const taskList = document.getElementById('pomodoro-task-list');
     const completionAudio = document.getElementById('pomodoro-completed-audio');
+    const stopAudioButton = document.getElementById('stop-pomodoro-audio');
+    let completionAudioTimer;
+    let completionPlaysRemaining = 0;
+
+    const stopCompletionAudio = () => {
+      window.clearTimeout(completionAudioTimer);
+      completionPlaysRemaining = 0;
+      completionAudio.pause();
+      completionAudio.currentTime = 0;
+    };
+
+    const playCompletionAudio = () => {
+      stopCompletionAudio();
+      completionPlaysRemaining = 3;
+
+      const playNext = () => {
+        if (completionPlaysRemaining === 0) return;
+        completionPlaysRemaining -= 1;
+        completionAudio.currentTime = 0;
+        completionAudio.play().catch(stopCompletionAudio);
+      };
+
+      completionAudio.onended = () => {
+        if (completionPlaysRemaining > 0) {
+          completionAudioTimer = window.setTimeout(playNext, 5000);
+        }
+      };
+
+      playNext();
+    };
+
+    stopAudioButton.addEventListener('click', stopCompletionAudio);
 
     const readStoredValue = (key, fallback) => {
       try {
@@ -279,8 +312,7 @@
           task.durationSeconds = task.durationSeconds || getDurationInSeconds();
           task.remainingSeconds = task.durationSeconds;
           task.pomodoros = (task.pomodoros || 0) + 1;
-          completionAudio.currentTime = 0;
-          completionAudio.play().catch(() => {});
+          playCompletionAudio();
           changed = true;
         }
       });
