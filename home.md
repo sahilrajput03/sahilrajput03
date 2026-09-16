@@ -6,7 +6,7 @@
   <div style="font-weight: bold;" id="page-load-tracker-title">Launcher Load Behavior Testing</div>
 
   <div id="page-load-notification" class="page-load-notification" role="status" aria-live="polite">
-    Page loaded! This notification will disappear in <strong id="page-load-countdown">10</strong> seconds.
+    Page loaded! (<strong id="page-load-countdown">10</strong> seconds)
   </div>
 
   <p class="page-load-count">
