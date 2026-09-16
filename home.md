@@ -6,6 +6,8 @@
   <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
   <div id="pomodoro-task-list" aria-live="polite"></div>
 
+  <hr style="height: 0.1rem">
+
   <form id="add-pomodoro-task-form">
     <input id="new-pomodoro-task-name" type="text" placeholder="Task name" aria-label="Task name" required>
     <button type="submit">Add task</button>
