@@ -264,7 +264,8 @@
         if (task.running && getRemainingSeconds(task) === 0) {
           task.running = false;
           task.endsAt = null;
-          task.remainingSeconds = getDurationInSeconds();
+          task.durationSeconds = task.durationSeconds || getDurationInSeconds();
+          task.remainingSeconds = task.durationSeconds;
           task.pomodoros = (task.pomodoros || 0) + 1;
           changed = true;
         }
@@ -331,6 +332,7 @@
         id: `${Date.now()}-${Math.random()}`,
         name,
         pomodoros: 0,
+        durationSeconds: duration,
         remainingSeconds: duration,
         running: false,
         endsAt: null
