@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Timer</title>
+  <link rel="preload" href="./media/pomodoro-completed.wav" as="audio" type="audio/wav">
   <style>
     :root { color-scheme: dark; font-family: system-ui, sans-serif; }
     body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: #111827; }
@@ -19,7 +20,7 @@
 </head>
 <body>
   <main>
-    <h1>Timer</h1>
+    <h1>Timer v0.2</h1>
     <label>Minutes <input id="minutes" type="number" min="0.01" step="0.01" value="25"></label>
     <p id="display" aria-live="polite">25:00</p>
     <button id="startButton" type="button">Start timer</button>
@@ -27,17 +28,17 @@
     <p id="status">Ready</p>
   </main>
 
-  <audio id="timerAudio" preload="auto"></audio>
+  <audio id="timerAudio" src="./media/silence.mp3" preload="auto"></audio>
+  <audio id="alarmAudio" src="./media/pomodoro-completed.wav" preload="auto"></audio>
 
   <script>
     const audio = document.getElementById('timerAudio');
+    const alarmAudio = document.getElementById('alarmAudio');
     const minutesInput = document.getElementById('minutes');
     const display = document.getElementById('display');
     const status = document.getElementById('status');
     const startButton = document.getElementById('startButton');
     const stopButton = document.getElementById('stopButton');
-    const silentSrc = './media/silence.mp3';
-    const alarmSrc = './media/pomodoro-completed.wav';
     let timerId;
     let endTime;
 
@@ -51,6 +52,8 @@
       timerId = undefined;
       audio.pause();
       audio.currentTime = 0;
+      alarmAudio.pause();
+      alarmAudio.currentTime = 0;
       startButton.disabled = false;
       stopButton.disabled = true;
       status.textContent = message;
@@ -59,7 +62,8 @@
     function startTimer(durationMs) {
       clearInterval(timerId);
       endTime = Date.now() + durationMs;
-      audio.src = silentSrc;
+      alarmAudio.pause();
+      alarmAudio.currentTime = 0;
       audio.loop = true;
       audio.volume = 0.01;
       audio.play().catch(() => {
@@ -80,10 +84,10 @@
         if (remaining <= 0) {
           clearInterval(timerId);
           timerId = undefined;
-          audio.loop = false;
-          audio.src = alarmSrc;
-          audio.volume = 1;
-          audio.play().catch(() => { status.textContent = 'Timer complete — audio could not play.'; });
+          audio.pause();
+          audio.currentTime = 0;
+          alarmAudio.currentTime = 0;
+          alarmAudio.play().catch(() => { status.textContent = 'Timer complete — audio could not play.'; });
           startButton.disabled = false;
           stopButton.disabled = true;
           status.textContent = 'Timer complete!';
