@@ -1,0 +1,1 @@
+**These home2 and home3 were used to test play media files reliably after the android device has been locked atleast upto 2 mins but I failed to make it work using all AI's like ChatGPT, Claude and Grok.**
