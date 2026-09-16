@@ -198,6 +198,8 @@
   }
 
   .pomodoro-tasks button {
+    border: 1px solid #8c959f;
+    border-radius: 4px;
     color: inherit;
   }
 </style>
@@ -317,7 +319,17 @@
           render();
         });
 
-        row.append(name, timer, count, control);
+        const deleteButton = document.createElement('button');
+        deleteButton.type = 'button';
+        deleteButton.textContent = 'x';
+        deleteButton.setAttribute('aria-label', `Delete ${task.name}`);
+        deleteButton.addEventListener('click', () => {
+          tasks = tasks.filter((savedTask) => savedTask.id !== task.id);
+          save();
+          render();
+        });
+
+        row.append(name, timer, count, control, deleteButton);
         taskList.appendChild(row);
       });
     };
