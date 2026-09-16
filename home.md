@@ -26,6 +26,7 @@
   }
 
   .page-load-notification {
+    display: inline-block;
     margin: 1rem 0;
     padding: 0.8rem 1rem;
     border: 1px solid #1f883d;
