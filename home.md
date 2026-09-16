@@ -336,6 +336,8 @@
         endsAt: null
       });
       taskNameInput.value = '';
+      minutesInput.value = 25;
+      secondsInput.value = 0;
       save();
       render();
     });
