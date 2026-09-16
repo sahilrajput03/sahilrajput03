@@ -214,6 +214,10 @@
     white-space: nowrap;
   }
 
+  .pomodoro-task.is-running .pomodoro-task-time {
+    color: #ff1744;
+  }
+
   .pomodoro-tasks button {
     border: 1px solid #8c959f;
     border-radius: 4px;
