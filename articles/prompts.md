@@ -17,6 +17,8 @@
 
 7. Think step by step.
 
+8. Check [`AGENTS.md`](/AGENTS.md) for AI Agents like Code, Claude Code, etc.
+
 Footnotes:
 - Source of 3: [1](https://x.com/pmarca/status/2051374498994364529)
 - Source of 7: [ChatGPT (Private)](https://chatgpt.com/c/6a19d153-2498-83e9-a12a-0055b31f81cc), [1](https://www.promptingguide.ai/techniques/cot?utm_source=chatgpt.com), [2](https://masterprompting.net/blog/chain-of-thought-prompting-guide), [3](https://masterprompting.net/guides/chain-of-thought?utm_source=chatgpt.com)
