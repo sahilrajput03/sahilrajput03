@@ -319,6 +319,19 @@
           render();
         });
 
+        const resetButton = document.createElement('button');
+        resetButton.type = 'button';
+        resetButton.textContent = '↻';
+        resetButton.setAttribute('aria-label', `Reset ${task.name} timer`);
+        resetButton.addEventListener('click', () => {
+          task.running = false;
+          task.endsAt = null;
+          task.durationSeconds = task.durationSeconds || getDurationInSeconds();
+          task.remainingSeconds = task.durationSeconds;
+          save();
+          render();
+        });
+
         const deleteButton = document.createElement('button');
         deleteButton.type = 'button';
         deleteButton.textContent = 'x';
@@ -329,7 +342,7 @@
           render();
         });
 
-        row.append(name, timer, count, control, deleteButton);
+        row.append(name, timer, count, control, resetButton, deleteButton);
         taskList.appendChild(row);
       });
     };
