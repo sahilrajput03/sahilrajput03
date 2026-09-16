@@ -181,7 +181,8 @@
   }
 
   .pomodoro-tasks input[type="number"] {
-    width: 4.5rem;
+    width: 3ch;
+    field-sizing: content;
   }
 
   #pomodoro-task-list {
@@ -195,9 +196,9 @@
 
   .pomodoro-task.is-running {
     padding: 0.4rem;
-    border-left: 3px solid #ffb6d9;
+    border-left: 3px solid #ff8fc5;
     border-radius: 4px;
-    background: #fff0f7;
+    background: #ffe0ef;
   }
 
   .pomodoro-task-time {
