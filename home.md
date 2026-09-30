@@ -180,6 +180,10 @@
     margin-top: 0.5rem;
   }
 
+  .pomodoro-task {
+    flex-wrap: wrap;
+  }
+
   .pomodoro-tasks input[type="number"] {
     width: 3ch;
     appearance: textfield;
@@ -197,8 +201,13 @@
   }
 
   .pomodoro-task-name {
-    min-width: 0;
-    flex: 1;
+    flex: 0 0 100%;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 2.25rem;
+    resize: none;
+    overflow: hidden;
+    overflow-wrap: anywhere;
   }
 
   .pomodoro-task.is-running {
@@ -350,15 +359,21 @@
         const row = document.createElement('div');
         row.className = `pomodoro-task${task.running ? ' is-running' : ''}`;
 
-        const name = document.createElement('input');
+        const name = document.createElement('textarea');
         name.className = 'pomodoro-task-name';
+        name.rows = 1;
         name.value = task.name;
         name.setAttribute('aria-label', 'Rename task');
+        const resizeTaskName = () => {
+          name.style.height = 'auto';
+          name.style.height = `${name.scrollHeight}px`;
+        };
         name.addEventListener('input', () => {
           const newName = name.value.trim();
           if (newName) task.name = newName;
           else name.value = task.name;
           save();
+          resizeTaskName();
         });
 
         const timer = document.createElement('span');
@@ -443,6 +458,7 @@
 
         row.append(name, timer, count, control, resetButton, deleteButton);
         taskList.appendChild(row);
+        window.requestAnimationFrame(resizeTaskName);
       });
     };
 
