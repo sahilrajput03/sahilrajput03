@@ -1,11 +1,5 @@
 [Links](./links)
 
-[Home2](./home2)
-
-[Home3](./home3)
-
-***
-
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
   <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
   <button id="stop-pomodoro-audio" type="button" hidden>Stop audio</button>
@@ -24,27 +18,26 @@
     <label>Duration: <input id="pomodoro-minutes" type="number" min="0" value="25" aria-label="Minutes"> min</label>
     <label><input id="pomodoro-seconds" type="number" min="0" max="59" value="0" aria-label="Seconds"> sec</label>
   </div>
-
 </section>
 
-<section class="page-load-tracker" aria-labelledby="page-load-tracker-title">
-  <hr>
-  <div style="font-weight: bold;" id="page-load-tracker-title">Launcher Page Refresh Behavior (Testing)</div>
-
-  <div id="page-load-notification" class="page-load-notification" role="status" aria-live="polite">
-    Page loaded! (<strong id="page-load-countdown">10</strong> seconds)
-  </div>
-
-  <p class="page-load-count">
-    Refreshes: <strong id="page-load-count-value">0</strong>
-  </p>
-
-  <button id="clear-page-load-data" type="button">Clear load count and history</button>
-
-  <div style="margin-top: 2rem; font-weight: bold; text-decoration: underline;">Page load history</div>
-  <p id="page-load-history-empty" hidden>No page loads recorded yet.</p>
-  <ol id="page-load-history" class="page-load-history" aria-live="polite"></ol>
-</section>
+<details>
+  <summary>More</summary>
+  <a href="/home2">Home2</a>
+  <a href="/home3">Home3</a>
+  <section class="page-load-tracker" aria-labelledby="page-load-tracker-title">
+    <div style="font-weight: bold;" id="page-load-tracker-title">Launcher Page Refresh Behavior (Testing)</div>
+    <div id="page-load-notification" class="page-load-notification" role="status" aria-live="polite">
+      Page loaded! (<strong id="page-load-countdown">10</strong> seconds)
+    </div>
+    <p class="page-load-count">
+      Refreshes: <strong id="page-load-count-value">0</strong>
+    </p>
+    <button id="clear-page-load-data" type="button">Clear load count and history</button>
+    <div style="margin-top: 2rem; font-weight: bold; text-decoration: underline;">Page load history</div>
+    <p id="page-load-history-empty" hidden>No page loads recorded yet.</p>
+    <ol id="page-load-history" class="page-load-history" aria-live="polite"></ol>
+  </section>
+</details>
 
 <style>
   .page-load-tracker {
