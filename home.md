@@ -1,4 +1,4 @@
-[Links](./links)
+[Links](./links), [Mantras](https://drive.google.com/drive/folders/1kmPAs_oBGtVJh_1jvqZed6BqEUa8uWjC)
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
   <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
