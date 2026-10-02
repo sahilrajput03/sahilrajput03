@@ -173,30 +173,38 @@
         }
       };
     }
-    const isLinksContainerHidden = createPersisted('areLinksHidden', false);
-    console.log("🚀 ~ (page load) isLinksContainerHidden:", isLinksContainerHidden.value);
+    const linksContainerVisibility = createPersisted('linksContainerVisibility', false);
 
-    // `show` is boolean
     function setLinksContainerVisibility(show) {
-      isLinksContainerHidden.value = show;
+      console.log("🚀 ~ show?", show)
+      linksContainerVisibility.value = show;
       const el = document.querySelector('.links-container');
-      if (show) el.classList.add('hidden');
-      else el.classList.remove('hidden');
+      if (show) {
+        el.classList.remove('hidden');
+      } else {
+        el.classList.add('hidden');
+      }
     }
-    setLinksContainerVisibility(isLinksContainerHidden.value);
+    setLinksContainerVisibility(linksContainerVisibility.value);
 
-    //  🔴  🔴  🔴  🔴 EXPERIMENT AREA 🔴  🔴  🔴  🔴 
-    //  🔴  🔴  🔴  🔴 EXPERIMENT AREA 🔴  🔴  🔴  🔴 
-    //  🔴  🔴  🔴  🔴 EXPERIMENT AREA 🔴  🔴  🔴  🔴 
-    //  🔴  🔴  🔴  🔴 EXPERIMENT AREA 🔴  🔴  🔴  🔴 
     // Hide links container after 20 seconds of inactivity of page load.
-    setInterval(() => {
-      setLinksContainerVisibility(true);
-    }, 20_000);
+    let hideLinksTimeout
+    function createHideLinksTimeout() {
+      clearTimeout(hideLinksTimeout)
+      hideLinksTimeout = setTimeout(() => {
+        // console.log('interval fired..')
+        setLinksContainerVisibility(false);
+      }, 20_000)
+    }
 
-    $('#unhide').addEventListener('click', () => {
-      setLinksContainerVisibility(false);
-    });
+    createHideLinksTimeout();
+
+    function toggleLinksContainerVisibility() {
+      setLinksContainerVisibility(!linksContainerVisibility.value);
+      createHideLinksTimeout();
+    }
+
+    $('#unhide').addEventListener('click', toggleLinksContainerVisibility);
 
     const shortcuts = {
       a: {
@@ -298,7 +306,7 @@
       } else if (key === 'h') {
         // if ((event.ctrlKey || event.metaKey) && key === 'h') {
         // event.preventDefault(); // Prevents browser's default behavior
-        setLinksContainerVisibility(!isLinksContainerHidden.value);
+        toggleLinksContainerVisibility()
       } else if (multiCharShortcut) {
         multiCharShortcut += key;
         console.log("🚀 ~ multiCharShortcut (2)?", multiCharShortcut);
