@@ -4,7 +4,8 @@
 <details style="margin-bottom: 10px;">
   <summary>More</summary>
   <a href="https://drive.google.com/drive/folders/1kmPAs_oBGtVJh_1jvqZed6BqEUa8uWjC">Mantras</a>,
-  <a href="https://drive.google.com/drive/u/0/folders/1_DT_8NO5SccdMao0CFK_FA5RIi7ej27o">People</a>
+  <a href="https://drive.google.com/drive/u/0/folders/1_DT_8NO5SccdMao0CFK_FA5RIi7ej27o">People</a>,
+  <a href=https://docs.google.com/document/d/1KcvsQqwDewaJvFqQD-4nBWN4j8iT2_bMr9-Ml8_MdWE/edit?usp=drivesdk">Neeti Vocab</a>
 </details>
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
