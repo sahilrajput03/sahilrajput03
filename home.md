@@ -27,6 +27,12 @@
     <label>Duration: <input id="pomodoro-minutes" type="number" min="0" value="25" aria-label="Minutes"> min</label>
     <label><input id="pomodoro-seconds" type="number" min="0" max="59" value="0" aria-label="Seconds"> sec</label>
   </div>
+
+  <br/>
+  <br/>
+
+  <button id="choose-pomodoro-alarm-file" type="button">Choose alarm JSON</button>
+  <span id="pomodoro-alarm-file-status" role="status" aria-live="polite"></span>
 </section>
 
 <details>
@@ -261,10 +267,157 @@
     const secondsInput = document.getElementById('pomodoro-seconds');
     const taskList = document.getElementById('pomodoro-task-list');
     const completionAudio = document.getElementById('pomodoro-completed-audio');
+    const chooseAlarmFileButton = document.getElementById('choose-pomodoro-alarm-file');
     const stopAudioButton = document.getElementById('stop-pomodoro-audio');
     const completedTaskName = document.getElementById('pomodoro-completed-task-name');
+    const alarmFileStatus = document.getElementById('pomodoro-alarm-file-status');
     let completionAudioTimer;
     let isCompletionAudioPlaying = false;
+    let alarmFileHandle;
+    let alarmEntries = [];
+    let alarmWriteQueue = Promise.resolve();
+
+    const openAlarmHandleDatabase = () => new Promise((resolve, reject) => {
+      const request = indexedDB.open('home-pomodoro-storage', 1);
+      request.onupgradeneeded = () => request.result.createObjectStore('handles');
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error);
+    });
+
+    const saveAlarmFileHandle = async (handle) => {
+      const database = await openAlarmHandleDatabase();
+      await new Promise((resolve, reject) => {
+        const transaction = database.transaction('handles', 'readwrite');
+        transaction.objectStore('handles').put(handle, 'alarm-file');
+        transaction.oncomplete = resolve;
+        transaction.onerror = () => reject(transaction.error);
+      });
+      database.close();
+    };
+
+    const getSavedAlarmFileHandle = async () => {
+      const database = await openAlarmHandleDatabase();
+      const handle = await new Promise((resolve, reject) => {
+        const request = database.transaction('handles').objectStore('handles').get('alarm-file');
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+      database.close();
+      return handle;
+    };
+
+    const readAlarmFile = async () => {
+      if (!alarmFileHandle) return;
+      const file = await alarmFileHandle.getFile();
+      try {
+        const data = JSON.parse(await file.text());
+        alarmEntries = Array.isArray(data.alarms) ? data.alarms : [];
+      } catch {
+        alarmEntries = [];
+      }
+    };
+
+    const writeAlarmFile = async () => {
+      if (!alarmFileHandle) return;
+      const writable = await alarmFileHandle.createWritable();
+      await writable.write(`${JSON.stringify({ alarms: alarmEntries }, null, 2)}\n`);
+      await writable.close();
+    };
+
+    const queueAlarmFileWrite = () => {
+      alarmWriteQueue = alarmWriteQueue
+        .then(writeAlarmFile)
+        .catch(() => {
+          alarmFileStatus.textContent = 'Could not update alarm JSON file.';
+        });
+      return alarmWriteQueue;
+    };
+
+    const addAlarmEntry = (task) => {
+      alarmEntries = alarmEntries.filter((entry) => entry.taskId !== task.id);
+      alarmEntries.push({
+        taskId: task.id,
+        taskName: task.name,
+        targetAlarmTime: new Date(task.endsAt).toISOString()
+      });
+      queueAlarmFileWrite();
+    };
+
+    const removeAlarmEntry = (taskId) => {
+      alarmEntries = alarmEntries.filter((entry) => entry.taskId !== taskId);
+      queueAlarmFileWrite();
+    };
+
+    const removePassedAlarmEntries = () => {
+      const now = Date.now();
+      alarmEntries = alarmEntries.filter((entry) => {
+        const targetTime = Date.parse(entry.targetAlarmTime);
+        return Number.isNaN(targetTime) || targetTime > now;
+      });
+      queueAlarmFileWrite();
+    };
+
+    chooseAlarmFileButton.addEventListener('click', async () => {
+      if (!window.showSaveFilePicker) {
+        alarmFileStatus.textContent = 'File System Access API is not supported in this browser.';
+        return;
+      }
+
+      try {
+        alarmFileHandle = await window.showSaveFilePicker({
+          suggestedName: 'pomodoro-alarms.json',
+          types: [{
+            description: 'JSON files',
+            accept: { 'application/json': ['.json'] }
+          }]
+        });
+        await saveAlarmFileHandle(alarmFileHandle);
+        await readAlarmFile();
+        await queueAlarmFileWrite();
+        alarmFileStatus.textContent = 'Alarm JSON file connected.';
+      } catch (error) {
+        if (error.name !== 'AbortError') alarmFileStatus.textContent = 'Could not connect alarm JSON file.';
+      }
+    });
+
+    const restoreAlarmFileHandle = async () => {
+      if (!window.indexedDB) return;
+
+      try {
+        const savedHandle = await getSavedAlarmFileHandle();
+        if (!savedHandle) return;
+
+        alarmFileHandle = savedHandle;
+        const permission = await savedHandle.queryPermission({ mode: 'readwrite' });
+        if (permission !== 'granted') {
+          alarmFileStatus.textContent = 'Start a task to grant alarm file permission.';
+          return;
+        }
+
+        await readAlarmFile();
+        alarmFileStatus.textContent = 'Alarm JSON file connected.';
+      } catch {
+        alarmFileStatus.textContent = 'Tap Choose alarm JSON to reconnect the file.';
+      }
+    };
+
+    const ensureAlarmFilePermission = async () => {
+      if (!alarmFileHandle) return false;
+
+      try {
+        const permission = await alarmFileHandle.requestPermission({ mode: 'readwrite' });
+        if (permission !== 'granted') return false;
+
+        await readAlarmFile();
+        alarmFileStatus.textContent = 'Alarm JSON file connected.';
+        return true;
+      } catch {
+        alarmFileStatus.textContent = 'Could not access alarm JSON file.';
+        return false;
+      }
+    };
+
+    restoreAlarmFileHandle();
 
     const stopCompletionAudio = () => {
       window.clearTimeout(completionAudioTimer);
@@ -297,7 +450,10 @@
       playNext();
     };
 
-    stopAudioButton.addEventListener('click', stopCompletionAudio);
+    stopAudioButton.addEventListener('click', () => {
+      stopCompletionAudio();
+      removePassedAlarmEntries();
+    });
 
     const readStoredValue = (key, fallback) => {
       try {
@@ -426,17 +582,25 @@
         const control = document.createElement('button');
         control.type = 'button';
         control.textContent = task.running ? 'Stop' : 'Start';
-        control.addEventListener('click', () => {
+        control.addEventListener('click', async () => {
           if (task.running) {
             task.remainingSeconds = getRemainingSeconds(task);
             task.running = false;
             task.endsAt = null;
+            const canWriteAlarm = alarmFileHandle
+              ? await ensureAlarmFilePermission()
+              : false;
+            if (canWriteAlarm) removeAlarmEntry(task.id);
           } else {
+            const canWriteAlarm = alarmFileHandle
+              ? await ensureAlarmFilePermission()
+              : false;
             const duration = task.remainingSeconds || getDurationInSeconds();
             if (duration === 0) return;
             task.remainingSeconds = duration;
             task.running = true;
             task.endsAt = Date.now() + (duration * 1000);
+            if (canWriteAlarm) addAlarmEntry(task);
           }
           save();
           render();
