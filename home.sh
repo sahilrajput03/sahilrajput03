@@ -7,7 +7,7 @@ FILE=/storage/emulated/0/Documents/my-launcher/pomodoro-alarms.json
 MP3="$HOME/alarm.wav"
 PID=""
 
-stop() { [ -n "$PID" ] && kill "$PID" 2>/dev/null; PID=""; }
+stop() { [ -n "$PID" ] && { pkill -P "$PID" 2>/dev/null; kill "$PID" 2>/dev/null; }; PID=""; }
 trap 'stop; exit' INT TERM EXIT
 
 while true; do
