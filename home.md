@@ -250,6 +250,10 @@
     color: inherit;
   }
 
+  #add-pomodoro-task-form button {
+    font-size: 0.9rem;
+  }
+
   #stop-pomodoro-audio {
     border-color: #ff1744;
     background: #ff1744;
