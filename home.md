@@ -20,7 +20,8 @@
 
   <form id="add-pomodoro-task-form">
     <input id="new-pomodoro-task-name" type="text" placeholder="Task name" aria-label="Task name" required>
-    <button type="submit">Add task</button>
+    <button type="submit" id="add-pomodoro-task-button">Add task</button>
+    <button type="submit" id="start-pomodoro-task-button">Start task</button>
   </form>
 
   <div class="pomodoro-duration" aria-label="Pomodoro duration">
@@ -670,13 +671,20 @@
       });
     };
 
-    taskForm.addEventListener('submit', (event) => {
+    taskForm.addEventListener('submit', async (event) => {
       event.preventDefault();
       const name = taskNameInput.value.trim();
       const duration = getDurationInSeconds();
       if (!name || duration === 0) return;
 
-      tasks.push({
+      const shouldStart = Boolean(
+        event.submitter && (
+          event.submitter.id === 'start-pomodoro-task-button' ||
+          event.submitter.textContent.trim().toLowerCase().includes('start')
+        )
+      );
+
+      const newTask = {
         id: `${Date.now()}-${Math.random()}`,
         name,
         pomodoros: 0,
@@ -684,7 +692,18 @@
         remainingSeconds: duration,
         running: false,
         endsAt: null
-      });
+      };
+
+      if (shouldStart) {
+        const canWriteAlarm = alarmFileHandle
+          ? await ensureAlarmFilePermission()
+          : false;
+        newTask.running = true;
+        newTask.endsAt = Date.now() + (duration * 1000);
+        if (canWriteAlarm) addAlarmEntry(newTask);
+      }
+
+      tasks.push(newTask);
       taskNameInput.value = '';
       minutesInput.value = 25;
       secondsInput.value = 0;
