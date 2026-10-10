@@ -1,1 +1,0 @@
-// inotifywait -m -e close_write /storage/emulated/0/Documents/my-launcher/pomodoro-alarms.json
