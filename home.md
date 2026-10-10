@@ -34,7 +34,7 @@
   <button id="choose-pomodoro-alarm-file" type="button">Choose alarm JSON</button>
   <span id="pomodoro-alarm-file-status" role="status" aria-live="polite"></span>
   <div style="margin-top: 0.5rem;">
-    <label><input id="pomodoro-audio-toggle" type="checkbox" checked> Play audio</label>
+    <label><input id="pomodoro-audio-toggle" type="checkbox" checked> Play audio (via web)</label>
   </div>
 </section>
 

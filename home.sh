@@ -1,5 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # Source: https://claude.ai/chat/57b2b95a-a1ff-4fe6-9078-c7a0bfb12c84
+#     Q. In script does the while loop keeps running every 0.3 seconds?
+#     Ans. No. The loop spends nearly all its time blocked inside inotifywait.
+
 FILE=/storage/emulated/0/Documents/my-launcher/pomodoro-alarms.json
 MP3="$HOME/alarm.wav"
 PID=""
