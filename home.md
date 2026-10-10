@@ -335,10 +335,23 @@
 
     const addAlarmEntry = (task) => {
       alarmEntries = alarmEntries.filter((entry) => entry.taskId !== task.id);
+      const targetDate = new Date(task.endsAt);
+      const istParts = Object.fromEntries(new Intl.DateTimeFormat('en-IN', {
+        timeZone: 'Asia/Kolkata',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: true
+      }).formatToParts(targetDate).map(({ type, value }) => [type, value]));
+
       alarmEntries.push({
         taskId: task.id,
         taskName: task.name,
-        targetAlarmTime: new Date(task.endsAt).toISOString()
+        targetAlarmTime: targetDate.toISOString(),
+        targetAlarmTimeIST: `${istParts.day} ${istParts.month} ${istParts.year}, ${istParts.hour}:${istParts.minute}:${istParts.second} ${istParts.dayPeriod} IST`
       });
       queueAlarmFileWrite();
     };
