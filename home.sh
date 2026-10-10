@@ -20,7 +20,7 @@ while true; do
   if [ -n "$next" ] && [ "$next" -le "$now" ]; then
     # an alarm is due: play (once), loop until the file changes
     if [ -z "$PID" ] || ! kill -0 "$PID" 2>/dev/null; then
-      ( while true; do mpv --no-video --really-quiet "$AUDIO"; sleep 3; done ) &
+      ( while true; do mpv --no-video --really-quiet "$MP3"; sleep 3; done ) &
       PID=$!
     fi
   else
