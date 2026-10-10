@@ -33,6 +33,9 @@
 
   <button id="choose-pomodoro-alarm-file" type="button">Choose alarm JSON</button>
   <span id="pomodoro-alarm-file-status" role="status" aria-live="polite"></span>
+  <div style="margin-top: 0.5rem;">
+    <label><input id="pomodoro-audio-toggle" type="checkbox" checked> Play audio</label>
+  </div>
 </section>
 
 <details>
@@ -261,10 +264,12 @@
   (() => {
     const storageKey = 'home-pomodoro-tasks';
     const settingsKey = 'home-pomodoro-duration';
+    const audioEnabledKey = 'home-pomodoro-audio-enabled';
     const taskForm = document.getElementById('add-pomodoro-task-form');
     const taskNameInput = document.getElementById('new-pomodoro-task-name');
     const minutesInput = document.getElementById('pomodoro-minutes');
     const secondsInput = document.getElementById('pomodoro-seconds');
+    const audioToggle = document.getElementById('pomodoro-audio-toggle');
     const taskList = document.getElementById('pomodoro-task-list');
     const completionAudio = document.getElementById('pomodoro-completed-audio');
     const chooseAlarmFileButton = document.getElementById('choose-pomodoro-alarm-file');
@@ -442,6 +447,7 @@
     };
 
     const playCompletionAudio = (taskName) => {
+      if (!audioToggle.checked) return;
       stopCompletionAudio();
       isCompletionAudioPlaying = true;
       stopAudioButton.hidden = false;
@@ -482,6 +488,20 @@
     const savedDuration = readStoredValue(settingsKey, { minutes: 25, seconds: 0 });
     minutesInput.value = Math.max(0, Number(savedDuration.minutes) || 0);
     secondsInput.value = Math.min(59, Math.max(0, Number(savedDuration.seconds) || 0));
+
+    const savedAudioEnabled = readStoredValue(audioEnabledKey, true);
+    audioToggle.checked = Boolean(savedAudioEnabled);
+
+    audioToggle.addEventListener('change', () => {
+      try {
+        localStorage.setItem(audioEnabledKey, JSON.stringify(audioToggle.checked));
+      } catch {
+        // Ignore storage errors
+      }
+      if (!audioToggle.checked) {
+        stopCompletionAudio();
+      }
+    });
 
     const save = () => {
       try {
