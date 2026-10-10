@@ -447,12 +447,13 @@
     };
 
     const playCompletionAudio = (taskName) => {
-      if (!audioToggle.checked) return;
       stopCompletionAudio();
       isCompletionAudioPlaying = true;
       stopAudioButton.hidden = false;
       completedTaskName.textContent = `(${taskName})`;
       completedTaskName.hidden = false;
+
+      if (!audioToggle.checked) return;
 
       const playNext = () => {
         if (!isCompletionAudioPlaying) return;
@@ -499,7 +500,8 @@
         // Ignore storage errors
       }
       if (!audioToggle.checked) {
-        stopCompletionAudio();
+        completionAudio.pause();
+        completionAudio.currentTime = 0;
       }
     });
 
