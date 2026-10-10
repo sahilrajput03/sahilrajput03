@@ -272,6 +272,7 @@
     color: #8c959f;
     padding: 0 0.2rem;
     touch-action: none;
+    margin-left: auto;
   }
 
   .pomodoro-drag-handle:active {
@@ -822,7 +823,7 @@
           render();
         });
 
-        row.append(handle, name, timer, count, control, resetButton, deleteButton);
+        row.append(name, timer, count, control, resetButton, deleteButton, handle);
         taskList.appendChild(row);
         window.requestAnimationFrame(resizeTaskName);
       });
