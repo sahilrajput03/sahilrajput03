@@ -4,6 +4,7 @@
 #     Ans. No. The loop spends nearly all its time blocked inside inotifywait.
 
 FILE=/storage/emulated/0/Documents/my-launcher/pomodoro-alarms.json
+# Sound text suggestions: https://chatgpt.com/c/6aca182b-aa7c-83ec-8401-b11246c075cc
 MP3="$HOME/alarm.wav"
 PID=""
 
