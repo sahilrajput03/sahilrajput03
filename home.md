@@ -263,6 +263,32 @@
   #pomodoro-completed-task-name {
     color: #ff1744;
   }
+
+  .pomodoro-drag-handle {
+    cursor: grab;
+    user-select: none;
+    font-size: 1.1rem;
+    line-height: 1;
+    color: #8c959f;
+    padding: 0 0.2rem;
+    touch-action: none;
+  }
+
+  .pomodoro-drag-handle:active {
+    cursor: grabbing;
+  }
+
+  .pomodoro-task.is-dragging {
+    opacity: 0.4;
+  }
+
+  .pomodoro-task.drag-over-above {
+    border-top: 2px solid #ff8fc5;
+  }
+
+  .pomodoro-task.drag-over-below {
+    border-bottom: 2px solid #ff8fc5;
+  }
 </style>
 
 <script>
@@ -560,9 +586,136 @@
     const render = () => {
       taskList.replaceChildren();
 
-      [...tasks].sort((firstTask, secondTask) => Number(secondTask.running) - Number(firstTask.running)).forEach((task) => {
+      const runningTasks = tasks.filter((t) => t.running);
+      const idleTasks = tasks.filter((t) => !t.running);
+      const sortedTasks = [...runningTasks, ...idleTasks];
+
+      sortedTasks.forEach((task) => {
         const row = document.createElement('div');
         row.className = `pomodoro-task${task.running ? ' is-running' : ''}`;
+        row.dataset.taskId = task.id;
+        row.draggable = true;
+
+        const handle = document.createElement('span');
+        handle.className = 'pomodoro-drag-handle';
+        handle.textContent = '⋮⋮';
+        handle.title = 'Drag to reorder';
+        handle.setAttribute('aria-label', `Drag handle for ${task.name}`);
+
+        row.addEventListener('dragstart', (event) => {
+          event.dataTransfer.setData('text/plain', task.id);
+          event.dataTransfer.effectAllowed = 'move';
+          row.classList.add('is-dragging');
+        });
+
+        row.addEventListener('dragend', () => {
+          row.classList.remove('is-dragging');
+          taskList.querySelectorAll('.pomodoro-task').forEach((r) => {
+            r.classList.remove('drag-over-above', 'drag-over-below');
+          });
+        });
+
+        row.addEventListener('dragover', (event) => {
+          event.preventDefault();
+          event.dataTransfer.dropEffect = 'move';
+          const bounding = row.getBoundingClientRect();
+          const offset = event.clientY - bounding.top;
+          if (offset < bounding.height / 2) {
+            row.classList.add('drag-over-above');
+            row.classList.remove('drag-over-below');
+          } else {
+            row.classList.add('drag-over-below');
+            row.classList.remove('drag-over-above');
+          }
+        });
+
+        row.addEventListener('dragleave', () => {
+          row.classList.remove('drag-over-above', 'drag-over-below');
+        });
+
+        row.addEventListener('drop', (event) => {
+          event.preventDefault();
+          row.classList.remove('drag-over-above', 'drag-over-below');
+          const draggedId = event.dataTransfer.getData('text/plain');
+          if (!draggedId || draggedId === task.id) return;
+
+          const draggedIndex = tasks.findIndex((t) => t.id === draggedId);
+          if (draggedIndex === -1) return;
+
+          const [draggedTask] = tasks.splice(draggedIndex, 1);
+          let targetIndex = tasks.findIndex((t) => t.id === task.id);
+
+          const bounding = row.getBoundingClientRect();
+          const offset = event.clientY - bounding.top;
+          if (offset >= bounding.height / 2) {
+            targetIndex += 1;
+          }
+
+          tasks.splice(targetIndex, 0, draggedTask);
+          save();
+          render();
+        });
+
+        let activeTouchRow = null;
+
+        handle.addEventListener('touchstart', () => {
+          activeTouchRow = row;
+          row.classList.add('is-dragging');
+        }, { passive: true });
+
+        handle.addEventListener('touchmove', (event) => {
+          if (!activeTouchRow) return;
+          const touch = event.touches[0];
+          const targetElement = document.elementFromPoint(touch.clientX, touch.clientY);
+          const targetRow = targetElement ? targetElement.closest('.pomodoro-task') : null;
+
+          taskList.querySelectorAll('.pomodoro-task').forEach((r) => {
+            r.classList.remove('drag-over-above', 'drag-over-below');
+          });
+
+          if (targetRow && targetRow !== row) {
+            const bounding = targetRow.getBoundingClientRect();
+            const offset = touch.clientY - bounding.top;
+            if (offset < bounding.height / 2) {
+              targetRow.classList.add('drag-over-above');
+            } else {
+              targetRow.classList.add('drag-over-below');
+            }
+          }
+        }, { passive: true });
+
+        handle.addEventListener('touchend', (event) => {
+          if (!activeTouchRow) return;
+          row.classList.remove('is-dragging');
+          activeTouchRow = null;
+
+          const touch = event.changedTouches[0];
+          const targetElement = document.elementFromPoint(touch.clientX, touch.clientY);
+          const targetRow = targetElement ? targetElement.closest('.pomodoro-task') : null;
+
+          if (targetRow && targetRow !== row) {
+            const targetTaskId = targetRow.dataset.taskId;
+            const draggedIndex = tasks.findIndex((t) => t.id === task.id);
+            let targetIndex = tasks.findIndex((t) => t.id === targetTaskId);
+
+            if (draggedIndex !== -1 && targetIndex !== -1) {
+              const [draggedTask] = tasks.splice(draggedIndex, 1);
+              const bounding = targetRow.getBoundingClientRect();
+              const offset = touch.clientY - bounding.top;
+              if (offset >= bounding.height / 2) {
+                targetIndex += 1;
+              }
+              tasks.splice(targetIndex, 0, draggedTask);
+              save();
+              render();
+              return;
+            }
+          }
+
+          taskList.querySelectorAll('.pomodoro-task').forEach((r) => {
+            r.classList.remove('drag-over-above', 'drag-over-below');
+          });
+        });
 
         const name = document.createElement('textarea');
         name.className = 'pomodoro-task-name';
@@ -669,7 +822,7 @@
           render();
         });
 
-        row.append(name, timer, count, control, resetButton, deleteButton);
+        row.append(handle, name, timer, count, control, resetButton, deleteButton);
         taskList.appendChild(row);
         window.requestAnimationFrame(resizeTaskName);
       });
