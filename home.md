@@ -4,10 +4,12 @@
 <details style="margin-bottom: 10px;">
   <summary>More</summary>
   <a href="https://drive.google.com/drive/u/0/folders/1_DT_8NO5SccdMao0CFK_FA5RIi7ej27o">People</a>,
-  <a href="https://docs.google.com/document/d/1KcvsQqwDewaJvFqQD-4nBWN4j8iT2_bMr9-Ml8_MdWE/edit?usp=drivesdk">Neeti Vocab</a>,
+  <a href="https://docs.google.com/document/d/1KcvsQqwDewaJvFqQD-4nBWN4j8iT2_bMr9-Ml8_MdWE/edit?usp=drivesdk">Neeti Vocab</a>, <br/>
+  <a id="tg-aau-coach">Aau - Coach 🚀</a>,
   <a href="https://drive.google.com/drive/folders/1YfGOPeb3EN0oe1pFxRXoajc66kJxXalC">Essays</a>,
-    <a href="https://drive.google.com/drive/folders/1kmPAs_oBGtVJh_1jvqZed6BqEUa8uWjC">Mantras</a>
+  <a href="https://drive.google.com/drive/folders/1kmPAs_oBGtVJh_1jvqZed6BqEUa8uWjC">Mantras</a>
 </details>
+
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
   <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
@@ -89,6 +91,9 @@
 
 <script>
   (() => {
+    const link = document.getElementById('tg-aau-coach');
+    link.href =  (window.innerWidth < 600) ? 'tg://resolve?domain=aau3bot' : 'https://t.me/aau3bot';
+
     const storageKeys = {
       count: 'home-page-load-count',
       history: 'home-page-load-history'
