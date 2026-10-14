@@ -37,6 +37,7 @@ Contact Me: <a href="https://sahilrajput.com/me" target="_blank">sahilrajput.com
 
 - LineFlow - A platform for readers to read text line by line - [sahilrajput.com/line-flow](https://sahilrajput.com/line-flow)
 - A small, pesonal user agent manger CLI - `sdm` (systemd manager) for Linux's `systemd` ([private](https://github.com/sahilrajput03/config/blob/main/_linode/sdm))
+- Mutiple Apps via PWA: [multiapp.mypot.in](https://multiapp.mypot.in)
 - A small, pesonal user agent manger CLI - `udm` (user daemon manager) for MacOS's `launchd` ([private](https://github.com/sahilrajput03/config/blob/main/launchd-files/userDaemonManager.js))
 - ❤️ `fileDBProxy` - A utility to bind a file to a variable using WeakMap and Proxy. (Private: Used in `qr-solution` project)
 - ❤️ `fileDB` ([private](https://github.com/sahilrajput03/config/blob/main/snips/js-node/filedb.js))
