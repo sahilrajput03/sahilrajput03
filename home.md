@@ -309,6 +309,10 @@
     cursor: grabbing;
   }
 
+  .pomodoro-move-to-top {
+    margin-left: 10px;
+  }
+
   .pomodoro-task.is-dragging {
     opacity: 0.4;
   }
@@ -633,9 +637,10 @@
     const render = () => {
       taskList.replaceChildren();
 
-      const runningTasks = tasks.filter((t) => t.running);
-      const idleTasks = tasks.filter((t) => !t.running);
-      const sortedTasks = [...runningTasks, ...idleTasks];
+      const topTask = tasks.find((t) => t.moveToTop);
+      const runningTasks = tasks.filter((t) => t !== topTask && t.running);
+      const idleTasks = tasks.filter((t) => t !== topTask && !t.running);
+      const sortedTasks = [...(topTask ? [topTask] : []), ...runningTasks, ...idleTasks];
 
       sortedTasks.forEach((task) => {
         const row = document.createElement('div');
@@ -648,6 +653,20 @@
         handle.textContent = '⋮⋮';
         handle.title = 'Drag to reorder';
         handle.setAttribute('aria-label', `Drag handle for ${task.name}`);
+
+        const moveToTopButton = document.createElement('button');
+        moveToTopButton.type = 'button';
+        moveToTopButton.className = 'pomodoro-move-to-top';
+        moveToTopButton.textContent = '↑';
+        moveToTopButton.title = 'Move to top';
+        moveToTopButton.setAttribute('aria-label', `Move ${task.name} to top`);
+        moveToTopButton.addEventListener('click', () => {
+          tasks.forEach((savedTask) => {
+            savedTask.moveToTop = savedTask.id === task.id;
+          });
+          save();
+          render();
+        });
 
         row.addEventListener('dragstart', (event) => {
           event.dataTransfer.setData('text/plain', task.id);
@@ -689,6 +708,9 @@
           const draggedIndex = tasks.findIndex((t) => t.id === draggedId);
           if (draggedIndex === -1) return;
 
+          tasks.forEach((savedTask) => {
+            savedTask.moveToTop = false;
+          });
           const [draggedTask] = tasks.splice(draggedIndex, 1);
           let targetIndex = tasks.findIndex((t) => t.id === task.id);
 
@@ -746,6 +768,9 @@
             let targetIndex = tasks.findIndex((t) => t.id === targetTaskId);
 
             if (draggedIndex !== -1 && targetIndex !== -1) {
+              tasks.forEach((savedTask) => {
+                savedTask.moveToTop = false;
+              });
               const [draggedTask] = tasks.splice(draggedIndex, 1);
               const bounding = targetRow.getBoundingClientRect();
               const offset = touch.clientY - bounding.top;
@@ -879,7 +904,7 @@
           render();
         });
 
-        row.append(name, timer, count, control, resetButton, deleteButton, handle);
+        row.append(name, timer, count, control, resetButton, deleteButton, moveToTopButton, handle);
         taskList.appendChild(row);
         window.requestAnimationFrame(resizeTaskName);
       });
