@@ -15,6 +15,7 @@
   <div id="pomodoro-task-header">
     <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
     <button id="clear-stale-alarms" type="button">Clear stale</button>
+    <button id="create-pomodoro-task" type="button" aria-label="Create task" title="Create task">+</button>
   </div>
   <button id="stop-pomodoro-audio" type="button" hidden>Stop audio</button>
   <span id="pomodoro-completed-task-name" hidden></span>
@@ -233,9 +234,19 @@
     gap: 0.5rem;
   }
 
+  #pomodoro-tasks-title {
+    margin-right: auto;
+  }
+
   #clear-stale-alarms {
     padding: 0.15rem 0.4rem;
     font-size: 0.75rem;
+  }
+
+  #create-pomodoro-task {
+    padding: 0 0.35rem;
+    font-size: 1rem;
+    line-height: 1.2;
   }
 
   .pomodoro-task-name {
@@ -252,7 +263,7 @@
     padding: 0.4rem;
     border-left: 3px solid #ff8fc5;
     border-radius: 4px;
-    background: #ffe0ef;
+    background: #ffbcdd;
   }
 
   .pomodoro-task-time {
@@ -318,6 +329,7 @@
     const audioEnabledKey = 'home-pomodoro-audio-enabled';
     const taskForm = document.getElementById('add-pomodoro-task-form');
     const taskNameInput = document.getElementById('new-pomodoro-task-name');
+    const createTaskButton = document.getElementById('create-pomodoro-task');
     const minutesInput = document.getElementById('pomodoro-minutes');
     const secondsInput = document.getElementById('pomodoro-seconds');
     const audioToggle = document.getElementById('pomodoro-audio-toggle');
@@ -333,6 +345,11 @@
     let alarmFileHandle;
     let alarmEntries = [];
     let alarmWriteQueue = Promise.resolve();
+
+    createTaskButton.addEventListener('click', () => {
+      taskNameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      taskNameInput.focus({ preventScroll: true });
+    });
 
     const openAlarmHandleDatabase = () => new Promise((resolve, reject) => {
       const request = indexedDB.open('home-pomodoro-storage', 1);
