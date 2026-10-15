@@ -1,0 +1,1 @@
+For development of home.md file I used codex -> gemini -> copilot.

@@ -415,7 +415,7 @@
 
     const removeAlarmEntry = (taskId) => {
       alarmEntries = alarmEntries.filter((entry) => entry.taskId !== taskId);
-      queueAlarmFileWrite();
+      return queueAlarmFileWrite();
     };
 
     const removePassedAlarmEntries = () => {
@@ -846,7 +846,16 @@
         deleteButton.type = 'button';
         deleteButton.textContent = 'x';
         deleteButton.setAttribute('aria-label', `Delete ${task.name}`);
-        deleteButton.addEventListener('click', () => {
+        deleteButton.addEventListener('click', async () => {
+          if (alarmFileHandle) {
+            const canWriteAlarm = await ensureAlarmFilePermission();
+            if (canWriteAlarm) {
+              await removeAlarmEntry(task.id);
+            } else {
+              alarmFileStatus.textContent = 'Could not remove task alarm from the JSON file.';
+            }
+          }
+
           tasks = tasks.filter((savedTask) => savedTask.id !== task.id);
           save();
           render();
