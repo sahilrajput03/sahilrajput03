@@ -12,7 +12,10 @@
 
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
-  <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
+  <div id="pomodoro-task-header">
+    <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
+    <button id="clear-stale-alarms" type="button">Clear stale</button>
+  </div>
   <button id="stop-pomodoro-audio" type="button" hidden>Stop audio</button>
   <span id="pomodoro-completed-task-name" hidden></span>
   <div id="pomodoro-task-list" aria-live="polite"></div>
@@ -224,6 +227,17 @@
     margin-bottom: 1rem;
   }
 
+  #pomodoro-task-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  #clear-stale-alarms {
+    padding: 0.15rem 0.4rem;
+    font-size: 0.75rem;
+  }
+
   .pomodoro-task-name {
     flex: 0 0 100%;
     width: 100%;
@@ -311,6 +325,7 @@
     const completionAudio = document.getElementById('pomodoro-completed-audio');
     const chooseAlarmFileButton = document.getElementById('choose-pomodoro-alarm-file');
     const stopAudioButton = document.getElementById('stop-pomodoro-audio');
+    const clearStaleAlarmsButton = document.getElementById('clear-stale-alarms');
     const completedTaskName = document.getElementById('pomodoro-completed-task-name');
     const alarmFileStatus = document.getElementById('pomodoro-alarm-file-status');
     let completionAudioTimer;
@@ -509,6 +524,15 @@
 
     stopAudioButton.addEventListener('click', () => {
       stopCompletionAudio();
+      removePassedAlarmEntries();
+    });
+
+    clearStaleAlarmsButton.addEventListener('click', async () => {
+      if (!alarmFileHandle) {
+        alarmFileStatus.textContent = 'Choose alarm JSON before clearing stale alarms.';
+        return;
+      }
+      if (!await ensureAlarmFilePermission()) return;
       removePassedAlarmEntries();
     });
 
