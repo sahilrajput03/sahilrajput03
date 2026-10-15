@@ -637,10 +637,16 @@
     const render = () => {
       taskList.replaceChildren();
 
-      const topTask = tasks.find((t) => t.moveToTop);
-      const runningTasks = tasks.filter((t) => t !== topTask && t.running);
-      const idleTasks = tasks.filter((t) => t !== topTask && !t.running);
-      const sortedTasks = [...(topTask ? [topTask] : []), ...runningTasks, ...idleTasks];
+      const topRunningTask = tasks.find((t) => t.moveToTop && t.running);
+      const topIdleTask = tasks.find((t) => t.moveToTop && !t.running);
+      const runningTasks = tasks.filter((t) => t !== topRunningTask && t.running);
+      const idleTasks = tasks.filter((t) => t !== topIdleTask && !t.running);
+      const sortedTasks = [
+        ...(topRunningTask ? [topRunningTask] : []),
+        ...runningTasks,
+        ...(topIdleTask ? [topIdleTask] : []),
+        ...idleTasks
+      ];
 
       sortedTasks.forEach((task) => {
         const row = document.createElement('div');
