@@ -824,6 +824,7 @@
             task.running = true;
             task.endsAt = Date.now() + (duration * 1000);
             if (canWriteAlarm) addAlarmEntry(task);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
           }
           save();
           render();
@@ -905,6 +906,7 @@
       secondsInput.value = 0;
       save();
       render();
+      if (shouldStart) window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     [minutesInput, secondsInput].forEach((input) => {
