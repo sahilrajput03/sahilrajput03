@@ -11,6 +11,9 @@
 </details>
 
 
+<a href="/ex">Code `qr-solution`</a>
+
+
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
   <div id="pomodoro-task-header">
     <div id="pomodoro-tasks-title"><strong>Tasks</strong></div>
