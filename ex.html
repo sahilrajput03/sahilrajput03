@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Browser Code Explorer</title>
     <style>
-      :root { color-scheme: dark; --bg: #1e1e1e; --panel: #181818; --panel-2: #252526; --border: #3c3c3c; --text: #cccccc; --muted: #858585; --active: #37373d; --blue: #007fd4; --danger: #f48771; }
+      :root { color-scheme: dark; --bg: #1e1e1e; --panel: #181818; --panel-2: #252526; --border: #3c3c3c; --text: #cccccc; --muted: #858585; --active: #37373d; --blue: #007fd4; --danger: #f48771; --editor-font-size: 14px; }
       * { box-sizing: border-box; }
       body { margin: 0; min-height: 100dvh; background: var(--bg); color: var(--text); font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; overflow: hidden; }
       button, input { font: inherit; }
@@ -34,12 +34,14 @@
       .tab { flex: 0 0 auto; max-width: 220px; min-height: 36px; display: flex; align-items: center; gap: 7px; padding: 0 4px 0 12px; color: #aaa; background: #2d2d2d; border-right: 1px solid var(--border); }
       .tab.active { color: #fff; background: var(--bg); border-top: 1px solid var(--blue); }.tab-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
       .dirty { color: white; font-size: 15px; }.tab-close { width: 32px; height: 32px; background: transparent; border-radius: 3px; color: #aaa; font-size: 18px; }.tab-close:hover { background: #444; color: white; }
-      .editor-wrap { min-height: 0; flex: 1; position: relative; overflow: hidden; }.cm-editor { height: 100%; max-height: 100%; }.cm-scroller { height: 100%; overflow: auto; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .editor-wrap { min-height: 0; flex: 1; position: relative; overflow: hidden; }.cm-editor { height: 100%; max-height: 100%; }.cm-scroller { height: 100%; overflow: auto; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: var(--editor-font-size); }
+      .mobile-font-control { display: none; font-size: 15px; font-weight: 700; }
+      .save-label { display: none; }
       .welcome { height: 100%; display: grid; place-items: center; padding: 24px; text-align: center; color: var(--muted); }.welcome h1 { margin: 0 0 8px; font-size: 24px; color: #ddd; }.welcome p { max-width: 400px; margin: 0 0 18px; }
       .modal-backdrop { position: fixed; inset: 0; z-index: 10; display: grid; place-items: start center; padding: max(8vh, env(safe-area-inset-top)) 16px 16px; background: #0008; }.modal { width: min(680px, 100%); overflow: hidden; border: 1px solid #555; border-radius: 6px; background: #252526; box-shadow: 0 20px 60px #0009; }.search-input { width: 100%; height: 52px; padding: 0 16px; border: 0; border-bottom: 1px solid var(--border); background: #3c3c3c; color: white; }.results { max-height: min(55dvh, 440px); overflow: auto; }.result { width: 100%; min-height: 54px; padding: 8px 14px; background: transparent; text-align: left; }.result.selected, .result:hover { background: #094771; }.result-name, .result-path { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }.result-path { color: #b6b6b6; font-size: 12px; }.empty-results { padding: 22px; color: var(--muted); text-align: center; }
       .notice { position: fixed; left: 50%; bottom: max(18px, env(safe-area-inset-bottom)); z-index: 20; transform: translateX(-50%); max-width: min(92vw, 560px); padding: 10px 14px; border-radius: 4px; background: #333; box-shadow: 0 4px 18px #0008; }.notice.error { background: #6e2921; }
       [hidden] { display: none !important; }
-      @media (max-width: 767px) { #app { display: block; }.main { height: 100dvh; }.editor-wrap, .cm-scroller { touch-action: pan-y pinch-zoom; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }.sidebar { position: fixed; z-index: 5; inset: 0 auto 0 0; width: min(86vw, 330px); transform: translateX(-102%); transition: transform .18s ease; box-shadow: 5px 0 20px #0008; }.sidebar.open { transform: translateX(0); }.toolbar { padding: 6px 8px; }.shortcut { display: none; }.folder-name { max-width: 38vw; }.icon-button, .tab-close { min-width: 44px; min-height: 44px; }.tabs { min-height: 44px; }.tab { min-height: 44px; }.modal-backdrop { padding: max(4vh, env(safe-area-inset-top)) 10px 10px; }.modal { max-height: 92dvh; }.search-input { height: 56px; } }
+      @media (max-width: 767px) { #app { display: block; }.main { height: 100dvh; }.editor-wrap, .cm-scroller { touch-action: pan-x pan-y pinch-zoom; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }.sidebar { position: fixed; z-index: 5; inset: 0 auto 0 0; width: min(86vw, 330px); transform: translateX(-102%); transition: transform .18s ease; box-shadow: 5px 0 20px #0008; }.sidebar.open { transform: translateX(0); }.toolbar { padding: 6px 8px; }.shortcut, .folder-name, .save-symbol { display: none; }.mobile-font-control { display: grid; place-items: center; }.save-label { display: inline; font-size: 13px; font-weight: 700; }.icon-button, .tab-close { min-width: 44px; min-height: 44px; }.tabs { min-height: 44px; }.tab { min-height: 44px; }.modal-backdrop { padding: max(4vh, env(safe-area-inset-top)) 10px 10px; }.modal { max-height: 92dvh; }.search-input { height: 56px; } }
     </style>
   </head>
   <body>
@@ -51,7 +53,7 @@
       <main class="main">
         <header class="toolbar">
           <div class="toolbar-left"><button class="icon-button" id="toggle-sidebar" aria-label="Open explorer">☰</button><button class="primary" id="open-folder">Open Folder</button><button class="secondary" id="reconnect-folder" hidden>Reconnect</button><span class="folder-name" id="folder-name">No folder selected</span></div>
-          <div class="toolbar-right"><button class="icon-button" id="search-button" aria-label="Quick open files" title="Quick Open (Ctrl/Cmd + P)">⌕</button><button class="icon-button" id="save-button" aria-label="Save active file" title="Save (Ctrl/Cmd + S)">⌘</button><span class="shortcut">Ctrl/Cmd+P · Ctrl/Cmd+S</span></div>
+          <div class="toolbar-right"><button class="icon-button mobile-font-control" id="decrease-font" aria-label="Decrease editor font size" title="Decrease font size">A−</button><button class="icon-button mobile-font-control" id="increase-font" aria-label="Increase editor font size" title="Increase font size">A+</button><button class="icon-button" id="search-button" aria-label="Quick open files" title="Quick Open (Ctrl/Cmd + P)">⌕</button><button class="icon-button" id="save-button" aria-label="Save active file" title="Save (Ctrl/Cmd + S)"><span class="save-symbol">⌘</span><span class="save-label">Save</span></button><span class="shortcut">Ctrl/Cmd+P · Ctrl/Cmd+S</span></div>
         </header>
         <div class="tabs" id="tabs" aria-label="Open files"></div>
         <section class="editor-wrap" id="editor-wrap"><div class="welcome" id="welcome"><div><h1>Browser Code Explorer</h1><p>Select a local folder to search, open, edit, and save files directly from your browser.</p><button class="primary" id="welcome-open">Open Folder</button></div></div></section>
@@ -83,10 +85,15 @@
       const ignoredDirectories = new Set(['node_modules', '.git', 'dist', 'build', '.next', 'coverage']);
       const databaseName = 'browser-code-explorer';
       const handleStoreName = 'settings';
+      const fontSizeStorageKey = 'browser-code-explorer-font-size';
+      const minimumFontSize = 11;
+      const maximumFontSize = 28;
       let noticeTimer;
 
 
       function showNotice(message, error = false) { const el = $('#notice'); el.textContent = message; el.className = `notice${error ? ' error' : ''}`; el.hidden = false; clearTimeout(noticeTimer); noticeTimer = setTimeout(() => el.hidden = true, 3800); }
+      function savedFontSize() { const value = Number.parseInt(localStorage.getItem(fontSizeStorageKey), 10); return Number.isFinite(value) ? Math.min(maximumFontSize, Math.max(minimumFontSize, value)) : 14; }
+      function setEditorFontSize(size) { const nextSize = Math.min(maximumFontSize, Math.max(minimumFontSize, size)); document.documentElement.style.setProperty('--editor-font-size', `${nextSize}px`); localStorage.setItem(fontSizeStorageKey, String(nextSize)); state.editor?.requestMeasure(); showNotice(`Editor font: ${nextSize}px`); }
       function extension(path) { const name = path.split('/').pop(); const dot = name.lastIndexOf('.'); return dot > 0 ? name.slice(dot + 1).toLowerCase() : ''; }
       function languageFor(file) { const ext = file.extension; if (['ts', 'tsx'].includes(ext)) return javascript({ typescript: true, jsx: ext === 'tsx' }); if (['js', 'jsx', 'mjs', 'cjs'].includes(ext)) return javascript({ jsx: ['jsx'].includes(ext) }); if (ext === 'json') return json(); if (['html', 'htm', 'svg'].includes(ext)) return html(); if (['css', 'scss', 'less'].includes(ext)) return css(); if (['md', 'mdx'].includes(ext)) return markdown(); return []; }
       function activeTab() { return state.openTabs.find(tab => tab.file.id === state.activeId); }
@@ -127,13 +134,14 @@
       function openSearch() { if (!state.files.length) { showNotice('Open a folder first.', true); return; } state.selectedResult = 0; $('#search-modal').hidden = false; $('#search-input').value = ''; renderResults(); requestAnimationFrame(() => $('#search-input').focus()); }
       function closeSearch() { $('#search-modal').hidden = true; }
 
-      $('#open-folder').onclick = chooseFolder; $('#welcome-open').onclick = chooseFolder; $('#reconnect-folder').onclick = () => restoreLastFolder(true); $('#search-button').onclick = openSearch; $('#save-button').onclick = saveActive; $('#toggle-sidebar').onclick = () => $('#sidebar').classList.toggle('open'); $('#close-sidebar').onclick = () => $('#sidebar').classList.remove('open');
+      $('#open-folder').onclick = chooseFolder; $('#welcome-open').onclick = chooseFolder; $('#reconnect-folder').onclick = () => restoreLastFolder(true); $('#decrease-font').onclick = () => setEditorFontSize(savedFontSize() - 1); $('#increase-font').onclick = () => setEditorFontSize(savedFontSize() + 1); $('#search-button').onclick = openSearch; $('#save-button').onclick = saveActive; $('#toggle-sidebar').onclick = () => $('#sidebar').classList.toggle('open'); $('#close-sidebar').onclick = () => $('#sidebar').classList.remove('open');
       $('#fallback-folder').onchange = event => { const files = [...event.target.files].map(file => ({ id: file.webkitRelativePath || file.name, name: file.name, relativePath: file.webkitRelativePath || file.name, extension: extension(file.name), fallbackFile: file })); setFiles(files, files[0]?.relativePath.split('/')[0] || 'Selected folder', true); event.target.value = ''; };
       $('#search-input').oninput = () => { state.selectedResult = 0; renderResults(); };
       $('#search-input').onkeydown = event => { const results = state.currentResults || []; if (event.key === 'ArrowDown') { event.preventDefault(); state.selectedResult = Math.min(state.selectedResult + 1, results.length - 1); renderResults(); } else if (event.key === 'ArrowUp') { event.preventDefault(); state.selectedResult = Math.max(state.selectedResult - 1, 0); renderResults(); } else if (event.key === 'Enter' && results[state.selectedResult]) { closeSearch(); openFile(results[state.selectedResult]); } else if (event.key === 'Escape') closeSearch(); };
       $('#search-modal').onclick = event => { if (event.target === $('#search-modal')) closeSearch(); };
       window.addEventListener('keydown', event => { if ((event.metaKey || event.ctrlKey) && event.code === 'KeyP') { event.preventDefault(); event.stopPropagation(); openSearch(); } if ((event.metaKey || event.ctrlKey) && event.code === 'KeyS') { event.preventDefault(); event.stopPropagation(); saveActive(); } if (event.key === 'Escape') { closeSearch(); $('#sidebar').classList.remove('open'); } }, { capture: true });
       window.addEventListener('beforeunload', event => { snapshotActiveTab(); if (state.openTabs.some(tab => tab.dirty)) { event.preventDefault(); event.returnValue = ''; } });
+      document.documentElement.style.setProperty('--editor-font-size', `${savedFontSize()}px`);
       updateExplorerTitle();
       void restoreLastFolder();
     </script>
