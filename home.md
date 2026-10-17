@@ -640,16 +640,9 @@
     const render = () => {
       taskList.replaceChildren();
 
-      const topRunningTask = tasks.find((t) => t.moveToTop && t.running);
-      const topIdleTask = tasks.find((t) => t.moveToTop && !t.running);
-      const runningTasks = tasks.filter((t) => t !== topRunningTask && t.running);
-      const idleTasks = tasks.filter((t) => t !== topIdleTask && !t.running);
-      const sortedTasks = [
-        ...(topRunningTask ? [topRunningTask] : []),
-        ...runningTasks,
-        ...(topIdleTask ? [topIdleTask] : []),
-        ...idleTasks
-      ];
+      const runningTasks = tasks.filter((t) => t.running);
+      const idleTasks = tasks.filter((t) => !t.running);
+      const sortedTasks = [...runningTasks, ...idleTasks];
 
       sortedTasks.forEach((task) => {
         const row = document.createElement('div');
@@ -670,9 +663,12 @@
         moveToTopButton.title = 'Move to top';
         moveToTopButton.setAttribute('aria-label', `Move ${task.name} to top`);
         moveToTopButton.addEventListener('click', () => {
-          tasks.forEach((savedTask) => {
-            savedTask.moveToTop = savedTask.id === task.id;
-          });
+          const taskGroup = task.running ? runningTasks : idleTasks;
+          const reorderedGroup = [task, ...taskGroup.filter((groupTask) => groupTask.id !== task.id)];
+          tasks = task.running
+            ? [...reorderedGroup, ...idleTasks]
+            : [...runningTasks, ...reorderedGroup];
+          tasks.forEach((savedTask) => delete savedTask.moveToTop);
           save();
           render();
         });
@@ -717,9 +713,6 @@
           const draggedIndex = tasks.findIndex((t) => t.id === draggedId);
           if (draggedIndex === -1) return;
 
-          tasks.forEach((savedTask) => {
-            savedTask.moveToTop = false;
-          });
           const [draggedTask] = tasks.splice(draggedIndex, 1);
           let targetIndex = tasks.findIndex((t) => t.id === task.id);
 
@@ -777,9 +770,6 @@
             let targetIndex = tasks.findIndex((t) => t.id === targetTaskId);
 
             if (draggedIndex !== -1 && targetIndex !== -1) {
-              tasks.forEach((savedTask) => {
-                savedTask.moveToTop = false;
-              });
               const [draggedTask] = tasks.splice(draggedIndex, 1);
               const bounding = targetRow.getBoundingClientRect();
               const offset = touch.clientY - bounding.top;
