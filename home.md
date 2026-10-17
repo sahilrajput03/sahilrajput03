@@ -11,7 +11,7 @@
 </details>
 
 
-<a href="/ex">Code `qr-solution`</a>
+<a href="/ex">Web Code Explorer</a>
 
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
