@@ -11,7 +11,8 @@
 </details>
 
 
-<a href="/ex">Web Code Explorer</a>
+<a href="/ex">Web Code Explorer</a>,
+<a href="/file-explorer">File Explorer</a>
 
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">

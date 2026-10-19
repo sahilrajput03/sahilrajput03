@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>SFTP File Explorer</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="SFTP File Explorer home">
+        <span class="brand-mark" aria-hidden="true">F</span>
+        <span>SFTP File Explorer</span>
+      </a>
+      <span class="security-note">Connection details are saved for this tab</span>
+      <div id="connected-controls" class="connected-controls hidden">
+        <span id="connected-account" class="connected-account" role="status"></span>
+        <button class="button button-outline disconnect-icon-button" id="connection-disconnect-button" type="button" aria-label="Disconnect" title="Disconnect">
+          <svg class="disconnect-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3v9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M7.05 5.7a9 9 0 1 0 9.9 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="connection-card" aria-label="SFTP connection">
+      <div class="section-heading">
+        <div class="connection-header-actions">
+          <span id="connection-status" class="status-pill" role="status">Not connected</span>
+        </div>
+      </div>
+
+      <form id="connection-form">
+        <div class="form-grid">
+          <label class="field field-host">
+            <span>Host</span>
+            <input name="host" autocomplete="url" placeholder="sftp.example.com" required>
+          </label>
+          <label class="field field-port">
+            <span>Port</span>
+            <input name="port" type="number" min="1" max="65535" value="22" required>
+          </label>
+          <label class="field field-user">
+            <span>Username</span>
+            <input name="username" autocomplete="username" required>
+          </label>
+          <label class="field field-method">
+            <span>Authentication</span>
+            <select name="authMethod" id="auth-method">
+              <option value="password">Password</option>
+              <option value="privateKey">Private key</option>
+            </select>
+          </label>
+          <label class="field field-password" id="password-field">
+            <span>Password</span>
+            <input name="password" type="password" autocomplete="current-password">
+          </label>
+          <label class="field field-key hidden" id="private-key-field">
+            <span>Private key</span>
+            <textarea name="privateKey" rows="3" autocomplete="off" spellcheck="false" placeholder="Paste your private key"></textarea>
+          </label>
+          <label class="field field-passphrase hidden" id="passphrase-field">
+            <span>Key passphrase <span class="optional">(optional)</span></span>
+            <input name="passphrase" type="password" autocomplete="off">
+          </label>
+        </div>
+        <div class="connection-actions">
+          <p class="helper-text">Credentials are kept in this tab's session storage for automatic reconnect. Disconnect clears them.</p>
+          <div class="connection-buttons">
+            <button class="button button-quiet" id="fill-sample-button" type="button">Fill sample</button>
+            <button class="button button-primary" id="connect-button" type="submit">Connect</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section id="browser-panel" class="browser-card hidden" aria-label="File browser">
+      <div class="browser-heading">
+        <div class="toolbar">
+          <button class="button button-quiet" id="refresh-button" type="button" title="Reload the current folder from the server">↻ <span>Refresh</span></button>
+          <button class="button button-quiet" id="new-folder-button" type="button">＋ <span>Folder</span></button>
+          <button class="button button-quiet" id="new-file-button" type="button">＋ <span>File</span></button>
+          <button class="button button-quiet" id="upload-button" type="button">↑ <span>Upload</span></button>
+          <input id="upload-input" type="file" hidden multiple>
+        </div>
+      </div>
+
+      <nav id="breadcrumbs" class="breadcrumbs" aria-label="Current folder"></nav>
+      <div id="browser-message" class="browser-status" role="status"></div>
+      <div class="file-list-wrap">
+        <table class="file-list">
+          <thead>
+            <tr><th scope="col">Name</th><th scope="col">Modified</th><th scope="col">Size</th><th scope="col"><span class="visually-hidden">Actions</span></th></tr>
+          </thead>
+          <tbody id="file-list"></tbody>
+        </table>
+        <div id="empty-state" class="empty-state hidden">
+          <span class="empty-icon" aria-hidden="true">□</span>
+          <strong>This folder is empty</strong>
+          <span>Create a file or folder to get started.</span>
+        </div>
+      </div>
+    </section>
+
+    <p id="app-message" class="app-message" role="status" aria-live="polite"></p>
+    <footer>Connected files are served directly by your SFTP server. Refresh to fetch the latest remote version.</footer>
+  </main>
+
+  <dialog id="editor-dialog" class="editor-dialog">
+    <form method="dialog" class="dialog-close-form">
+      <button class="icon-button" aria-label="Close editor" value="cancel">×</button>
+    </form>
+    <div class="editor-heading">
+      <div>
+        <h2><button class="editor-title-button" id="editor-title" type="button" aria-label="Rename file" title="Rename file">Edit file</button></h2>
+      </div>
+      <div class="editor-toolbar">
+        <button class="button button-quiet" id="reload-file-button" type="button" aria-label="Reload file from server" title="Reload file">
+          <span class="reload-file-icon" aria-hidden="true">↻</span>
+          <span class="reload-spinner" aria-hidden="true"></span>
+        </button>
+        <details class="action-menu editor-action-menu">
+          <summary class="action-menu-trigger" aria-label="More file actions" title="More file actions">
+            <svg class="more-actions-icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="12" cy="19" r="1.8"/></svg>
+          </summary>
+          <div class="action-menu-items">
+            <button class="action-menu-item" id="rename-file-button" type="button">Rename</button>
+            <button class="action-menu-item" id="download-file-button" type="button">Download</button>
+            <button class="action-menu-item danger" id="delete-file-button" type="button">Delete</button>
+          </div>
+        </details>
+        <button class="button button-primary" id="save-file-button" type="button">Save</button>
+      </div>
+    </div>
+    <div id="editor-message" class="inline-message hidden" role="status"></div>
+    <label class="field editor-content-field">
+      <span class="visually-hidden">File contents</span>
+      <textarea id="file-content" spellcheck="false" autocomplete="off"></textarea>
+    </label>
+  </dialog>
+</body>
+</html>
