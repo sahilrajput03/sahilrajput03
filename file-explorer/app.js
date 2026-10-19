@@ -1,5 +1,7 @@
-// const API_BASE = 'https://api.mypot.in/api/v1/file-explorer' // for production
-const API_BASE = 'https://api-dev.mypot.in/api/v1/file-explorer'
+const isDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname.startsWith('192.168.');
+// const isDev = false;
+
+const API_BASE = `https://api${isDev ? "-dev": ""}.mypot.in/api/v1/file-explorer`;
 const LAST_CONNECTION_KEY = 'file-explorer-last-connection'
 const LAST_VIEW_KEY = 'file-explorer-last-view'
 
