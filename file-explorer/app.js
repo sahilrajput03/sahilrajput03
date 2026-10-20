@@ -296,9 +296,8 @@ async function connectSftp(connection) {
       await openEditor(lastView.file.path, lastView.file.name, true)
     }
   } catch (error) {
+    setConnected(false)
     showMessage(appMessage, error.message)
-    button.disabled = false
-    button.textContent = 'Connect'
   }
 }
 
@@ -350,6 +349,7 @@ function restoreLastConnection() {
     return
   }
   restoreConnectionFields(saved)
+  document.querySelector('.connection-card').classList.add('hidden')
   void connectSftp(saved)
 }
 
