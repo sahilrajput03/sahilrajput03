@@ -1,5 +1,12 @@
 # File Explorer
 
+Notes by Sahil:
+
+**Q. Why I am using sshfs instead of directly using file APIs of nodejs to create/read/update/delete files/folders:**
+ - I can connect to any server not just my own mypot.in server via just ss credentials (password or rsa key both).
+
+---
+
 A responsive, static browser UI for managing files on an SFTP server. The frontend calls the `fileExplorerRouter` in the QR Solution backend; `ssh2-sftp-client` runs only in that Node.js backend.
 
 ## Run locally
