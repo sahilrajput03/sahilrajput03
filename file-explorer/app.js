@@ -119,13 +119,14 @@ function renderEntries(entries) {
     const modified = escapeHtml(formatDate(entry.modifyTime))
     const size = entry.isDirectory ? '—' : escapeHtml(formatSize(entry.size || 0))
     const icon = entry.isDirectory ? '▰' : '▤'
+    const openAction = entry.isDirectory ? 'open' : 'edit-text'
     return `<tr>
       <td><button class="file-name-button" type="button" data-action="${entry.isDirectory ? 'open' : 'edit-text'}" data-path="${path}" data-name="${name}" data-directory="${entry.isDirectory}">
         <span class="file-icon${entry.isDirectory ? ' directory' : ''}" aria-hidden="true">${icon}</span>
         <span class="file-label">${name}</span>
       </button></td>
-      <td><button class="file-meta-button" type="button" aria-label="Open ${name}, modified ${modified}" data-action="edit-text" data-path="${path}" data-name="${name}">${modified}<span class="mobile-file-size">${size}</span></button></td>
-      <td><button class="file-meta-button file-size-button" type="button" aria-label="Open ${name}, size ${size}" data-action="edit-text" data-path="${path}" data-name="${name}">${size}</button></td>
+      <td><button class="file-meta-button" type="button" aria-label="Open ${name}, modified ${modified}" data-action="${openAction}" data-path="${path}" data-name="${name}" data-directory="${entry.isDirectory}">${modified}<span class="mobile-file-size">${size}</span></button></td>
+      <td><button class="file-meta-button file-size-button" type="button" aria-label="Open ${name}, size ${size}" data-action="${openAction}" data-path="${path}" data-name="${name}" data-directory="${entry.isDirectory}">${size}</button></td>
       <td><div class="row-actions">
         <details class="action-menu row-action-menu">
           <summary class="action-menu-trigger" aria-label="More actions for ${name}" title="More actions">${moreActionsIcon}</summary>
@@ -367,6 +368,7 @@ fileList.addEventListener('click', async event => {
   if (!button) return
   button.closest('.action-menu')?.removeAttribute('open')
   const { action, path, name } = button.dataset
+  if (button.dataset.directory === 'true' && ['open', 'edit', 'edit-text'].includes(action)) return loadDirectory(path)
   if (action === 'open') return loadDirectory(path)
   if (action === 'edit') return openEditor(path, name)
   if (action === 'edit-text') return openEditor(path, name, true)
