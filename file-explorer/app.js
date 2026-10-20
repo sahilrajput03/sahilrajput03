@@ -174,7 +174,6 @@ function setConnected(connected) {
   form.classList.toggle('hidden', connected)
   connectionStatus.classList.toggle('connected', false)
   connectionStatus.textContent = 'Not connected'
-  document.querySelector('.security-note').classList.toggle('hidden', connected)
   const connectedControls = document.querySelector('#connected-controls')
   connectedControls.classList.toggle('hidden', !connected)
   const account = document.querySelector('#connected-account')

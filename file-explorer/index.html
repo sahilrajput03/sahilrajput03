@@ -15,7 +15,6 @@
         <span class="brand-mark" aria-hidden="true">F</span>
         <span>SFTP File Explorer</span>
       </a>
-      <span class="security-note">Connection details are saved for this tab</span>
       <div id="connected-controls" class="connected-controls hidden">
         <span id="connected-account" class="connected-account" role="status"></span>
         <button class="button button-outline disconnect-icon-button" id="connection-disconnect-button" type="button" aria-label="Disconnect" title="Disconnect">
@@ -69,7 +68,6 @@
           </label>
         </div>
         <div class="connection-actions">
-          <p class="helper-text">Credentials are kept in this tab's session storage for automatic reconnect. Disconnect clears them.</p>
           <div class="connection-buttons">
             <button class="button button-quiet" id="fill-sample-button" type="button">Fill sample</button>
             <button class="button button-primary" id="connect-button" type="submit">Connect</button>
@@ -107,7 +105,6 @@
     </section>
 
     <p id="app-message" class="app-message" role="status" aria-live="polite"></p>
-    <footer>Connected files are served directly by your SFTP server. Refresh to fetch the latest remote version.</footer>
   </main>
 
   <dialog id="editor-dialog" class="editor-dialog">
