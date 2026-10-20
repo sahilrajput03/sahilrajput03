@@ -185,7 +185,7 @@ function setConnected(connected) {
 
 function saveLastConnection(connection) {
   try {
-    sessionStorage.setItem(LAST_CONNECTION_KEY, JSON.stringify(connection))
+    localStorage.setItem(LAST_CONNECTION_KEY, JSON.stringify(connection))
   } catch (error) {
     console.error('Unable to save the SFTP connection for this tab session.', error)
     showMessage(appMessage, 'Connected, but this browser could not save the connection for automatic reconnect.')
@@ -194,8 +194,8 @@ function saveLastConnection(connection) {
 
 function clearLastConnection() {
   try {
-    sessionStorage.removeItem(LAST_CONNECTION_KEY)
-    sessionStorage.removeItem(LAST_VIEW_KEY)
+    localStorage.removeItem(LAST_CONNECTION_KEY)
+    localStorage.removeItem(LAST_VIEW_KEY)
   } catch (error) {
     console.error('Unable to clear the saved SFTP connection.', error)
     showMessage(appMessage, 'Unable to clear the saved connection from this browser tab.')
@@ -204,7 +204,7 @@ function clearLastConnection() {
 
 function getLastView(connection) {
   try {
-    const saved = JSON.parse(sessionStorage.getItem(LAST_VIEW_KEY) || 'null')
+    const saved = JSON.parse(localStorage.getItem(LAST_VIEW_KEY) || 'null')
     if (
       saved?.host === connection.host &&
       saved?.username === connection.username &&
@@ -221,7 +221,7 @@ function getLastView(connection) {
 function saveLastView(path, file = null) {
   if (!activeConnection) return
   try {
-    sessionStorage.setItem(LAST_VIEW_KEY, JSON.stringify({
+    localStorage.setItem(LAST_VIEW_KEY, JSON.stringify({
       host: activeConnection.host,
       username: activeConnection.username,
       port: activeConnection.port,
@@ -332,7 +332,7 @@ form.addEventListener('submit', async event => {
 function restoreLastConnection() {
   let saved
   try {
-    const serialized = sessionStorage.getItem(LAST_CONNECTION_KEY)
+    const serialized = localStorage.getItem(LAST_CONNECTION_KEY)
     if (!serialized) return
     saved = JSON.parse(serialized)
   } catch (error) {
