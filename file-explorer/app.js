@@ -120,7 +120,7 @@ function renderEntries(entries) {
     const size = entry.isDirectory ? '—' : escapeHtml(formatSize(entry.size || 0))
     const icon = entry.isDirectory ? '▰' : '▤'
     const openAction = entry.isDirectory ? 'open' : 'edit-text'
-    return `<tr>
+    return `<tr data-row-action="${openAction}" data-path="${path}" data-name="${name}">
       <td><button class="file-name-button" type="button" data-action="${entry.isDirectory ? 'open' : 'edit-text'}" data-path="${path}" data-name="${name}" data-directory="${entry.isDirectory}">
         <span class="file-icon${entry.isDirectory ? ' directory' : ''}" aria-hidden="true">${icon}</span>
         <span class="file-label">${name}</span>
@@ -365,7 +365,13 @@ breadcrumbs.addEventListener('click', event => {
 
 fileList.addEventListener('click', async event => {
   const button = event.target.closest('[data-action]')
-  if (!button) return
+  if (!button) {
+    if (event.target.closest('.row-actions, .action-menu')) return
+    const row = event.target.closest('tr[data-row-action]')
+    if (!row) return
+    if (row.dataset.rowAction === 'open') return loadDirectory(row.dataset.path)
+    return openEditor(row.dataset.path, row.dataset.name, true)
+  }
   button.closest('.action-menu')?.removeAttribute('open')
   const { action, path, name } = button.dataset
   if (button.dataset.directory === 'true' && ['open', 'edit', 'edit-text'].includes(action)) return loadDirectory(path)

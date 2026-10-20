@@ -115,6 +115,7 @@ h2 { margin: 0; font-size: 18px; letter-spacing: -.02em; }
 .file-list { width: 100%; border-collapse: collapse; text-align: left; }
 .file-list th { padding: 12px 18px; color: #9099a9; background: #fbfcfe; font-size: 10px; font-weight: 750; letter-spacing: .06em; text-transform: uppercase; }
 .file-list td { padding: 12px 18px; border-top: 1px solid #f0f2f5; color: #6c768a; font-size: 12px; }
+.file-list tr[data-row-action] { cursor: pointer; }
 .file-list tr:hover td { background: #fcfcff; }
 .file-list th:first-child, .file-list td:first-child { padding-left: 22px; }
 .file-list th:last-child, .file-list td:last-child { padding-right: 22px; }
