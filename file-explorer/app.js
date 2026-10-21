@@ -31,6 +31,25 @@ let forceTextMode = false
 let originalContents = ''
 let activeConnection
 let saveFeedbackTimer
+let suppressCloseHistoryBack = false
+
+function setExplorerHistory(path, file = null, mode = 'push') {
+  const state = { fileExplorer: true, path, file }
+  if (mode === 'replace') history.replaceState(state, '')
+  else if (mode === 'push') history.pushState(state, '')
+}
+
+async function navigateDirectory(path) {
+  if (path === currentPath) return
+  if (await loadDirectory(path)) setExplorerHistory(path)
+}
+
+function handleEditorSaveShortcut(event) {
+  if (!event.metaKey || event.ctrlKey || event.key.toLowerCase() !== 's' || !editorDialog.open) return
+  event.preventDefault()
+  const saveButton = document.querySelector('#save-file-button')
+  if (!saveButton.disabled) saveButton.click()
+}
 
 const moreActionsIcon = '<svg class="more-actions-icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="12" cy="19" r="1.8"/></svg>'
 
@@ -285,6 +304,7 @@ async function connectSftp(connection) {
     form.elements.passphrase.value = ''
     setConnected(true)
     const requestedPath = lastView && isWithinHome(lastView.path) ? lastView.path : homePath
+    setExplorerHistory(requestedPath, null, 'replace')
     let loaded = await loadDirectory(requestedPath)
     if (!loaded && requestedPath !== homePath) loaded = await loadDirectory(homePath)
     if (
@@ -358,9 +378,20 @@ restoreLastConnection()
 
 document.querySelector('#refresh-button').addEventListener('click', () => loadDirectory(currentPath))
 
+window.addEventListener('popstate', event => {
+  const state = event.state
+  if (!state?.fileExplorer || !isWithinHome(state.path)) return
+
+  if (editorDialog.open && !state.file) {
+    suppressCloseHistoryBack = true
+    editorDialog.close()
+  }
+  if (state.path !== currentPath) void loadDirectory(state.path)
+})
+
 breadcrumbs.addEventListener('click', event => {
   const button = event.target.closest('[data-path]')
-  if (button) loadDirectory(button.dataset.path)
+  if (button) void navigateDirectory(button.dataset.path)
 })
 
 fileList.addEventListener('click', async event => {
@@ -369,13 +400,15 @@ fileList.addEventListener('click', async event => {
     if (event.target.closest('.row-actions, .action-menu')) return
     const row = event.target.closest('tr[data-row-action]')
     if (!row) return
-    if (row.dataset.rowAction === 'open') return loadDirectory(row.dataset.path)
+    if (row.dataset.rowAction === 'open') return navigateDirectory(row.dataset.path)
     return openEditor(row.dataset.path, row.dataset.name, true)
   }
   button.closest('.action-menu')?.removeAttribute('open')
   const { action, path, name } = button.dataset
-  if (button.dataset.directory === 'true' && ['open', 'edit', 'edit-text'].includes(action)) return loadDirectory(path)
-  if (action === 'open') return loadDirectory(path)
+  if (button.dataset.directory === 'true' && ['open', 'edit', 'edit-text'].includes(action)) {
+    return navigateDirectory(path)
+  }
+  if (action === 'open') return navigateDirectory(path)
   if (action === 'edit') return openEditor(path, name)
   if (action === 'edit-text') return openEditor(path, name, true)
   if (action === 'download') return downloadFile(path, name, button)
@@ -490,6 +523,8 @@ async function openEditor(path, name, forceText = false) {
   document.querySelector('#download-file-button').classList.remove('hidden')
   showMessage(editorMessage, '')
   editorDialog.showModal()
+  document.addEventListener('keydown', handleEditorSaveShortcut)
+  setExplorerHistory(currentPath, { path, name })
   saveLastView(currentPath, { path, name })
   try {
     const loaded = await reloadEditorFile()
@@ -499,7 +534,15 @@ async function openEditor(path, name, forceText = false) {
   }
 }
 
-editorDialog.addEventListener('close', () => saveLastView(currentPath))
+editorDialog.addEventListener('close', () => {
+  document.removeEventListener('keydown', handleEditorSaveShortcut)
+  saveLastView(currentPath)
+  if (suppressCloseHistoryBack) {
+    suppressCloseHistoryBack = false
+    return
+  }
+  if (history.state?.fileExplorer && history.state.file) history.back()
+})
 
 async function reloadEditorFile() {
   const saveButton = document.querySelector('#save-file-button')
