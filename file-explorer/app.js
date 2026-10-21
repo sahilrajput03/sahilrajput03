@@ -51,6 +51,11 @@ function handleEditorSaveShortcut(event) {
   if (!saveButton.disabled) saveButton.click()
 }
 
+document.addEventListener('click', event => {
+  if (event.target.closest('.action-menu')) return
+  document.querySelectorAll('.action-menu[open]').forEach(menu => menu.removeAttribute('open'))
+})
+
 const moreActionsIcon = '<svg class="more-actions-icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="12" cy="19" r="1.8"/></svg>'
 
 function showMessage(element, message, success = false) {
@@ -395,6 +400,14 @@ breadcrumbs.addEventListener('click', event => {
 })
 
 fileList.addEventListener('click', async event => {
+  const menuTrigger = event.target.closest('.row-action-menu > summary')
+  if (menuTrigger) {
+    fileList.querySelectorAll('.row-action-menu[open]').forEach(menu => {
+      if (menu !== menuTrigger.parentElement) menu.removeAttribute('open')
+    })
+    return
+  }
+
   const button = event.target.closest('[data-action]')
   if (!button) {
     if (event.target.closest('.row-actions, .action-menu')) return
@@ -536,6 +549,7 @@ async function openEditor(path, name, forceText = false) {
 
 editorDialog.addEventListener('close', () => {
   document.removeEventListener('keydown', handleEditorSaveShortcut)
+  editorDialog.querySelector('.editor-action-menu')?.removeAttribute('open')
   saveLastView(currentPath)
   if (suppressCloseHistoryBack) {
     suppressCloseHistoryBack = false
