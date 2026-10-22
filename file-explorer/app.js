@@ -4,6 +4,24 @@ const isDev = window.location.hostname === 'localhost' || window.location.hostna
 const API_BASE = `https://api${isDev ? "-dev": ""}.mypot.in/api/v1/file-explorer`;
 const LAST_CONNECTION_KEY = 'file-explorer-last-connection'
 const LAST_VIEW_KEY = 'file-explorer-last-view'
+const AUTO_SAVE_KEY = 'file-explorer-auto-save'
+
+function getAutoSavePreference() {
+  try {
+    return localStorage.getItem(AUTO_SAVE_KEY) === 'true'
+  } catch (error) {
+    console.error('Unable to read the autosave preference.', error)
+    return false
+  }
+}
+
+function saveAutoSavePreference(enabled) {
+  try {
+    localStorage.setItem(AUTO_SAVE_KEY, String(enabled))
+  } catch (error) {
+    console.error('Unable to save the autosave preference.', error)
+  }
+}
 
 const form = document.querySelector('#connection-form')
 const connectionStatus = document.querySelector('#connection-status')
@@ -39,7 +57,7 @@ let activeMarkerPath = ''
 let editorReadOnly = false
 let markerReleasePromise = Promise.resolve()
 let suppressCloseHistoryBack = false
-let autoSaveEnabled = false
+let autoSaveEnabled = getAutoSavePreference()
 let autoSaveTimer
 let saveStatusTimer
 let saveInProgress = false
@@ -892,6 +910,7 @@ document.querySelector('#save-file-button').addEventListener('click', async () =
 
 document.querySelector('#toggle-autosave-button').addEventListener('click', () => {
   autoSaveEnabled = !autoSaveEnabled
+  saveAutoSavePreference(autoSaveEnabled)
   updateAutoSaveUi()
   document.querySelector('.editor-action-menu')?.removeAttribute('open')
   if (autoSaveEnabled) scheduleAutoSave()
