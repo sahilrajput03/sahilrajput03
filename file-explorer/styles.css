@@ -162,11 +162,18 @@ footer { margin-top: 8px; color: #8490a3; font-size: 11px; text-align: center; }
 .editor-dialog { position: fixed; inset: 0; width: 100vw; height: 100vh; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 8px; border: 0; border-radius: 0; color: var(--ink); box-shadow: none; }
 .editor-dialog[open] { display: flex; flex-direction: column; gap: 4px; }
 .editor-dialog::backdrop { background: #fff; }
+.file-conflict-dialog { width: min(440px, calc(100% - 32px)); padding: 22px; border: 1px solid var(--line); border-radius: 14px; color: var(--ink); box-shadow: 0 18px 60px rgb(24 35 65 / 24%); }
+.file-conflict-dialog::backdrop { background: rgb(17 24 39 / 38%); }
+.file-conflict-dialog h2 { margin: 0; font-size: 17px; }
+.file-conflict-dialog p { margin: 12px 0 20px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.file-conflict-actions { display: flex; flex-direction: column; gap: 8px; }
+.file-conflict-actions .button { white-space: normal; }
 .dialog-close-form { position: absolute; z-index: 1; top: 8px; right: 8px; }
 .icon-button { width: 32px; height: 32px; border: 0; border-radius: 8px; color: #667085; background: #f5f6f9; font-size: 21px; }
 .editor-heading { min-height: 42px; flex: 0 0 42px; padding-right: 36px; }
 .editor-heading > div:first-child { min-width: 0; flex: 1; }
 .editor-heading h2 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.editor-mode-indicator { display: inline-block; margin-top: 2px; color: #69758a; font-size: 10px; font-weight: 650; }
 .editor-title-button { max-width: 100%; overflow: hidden; padding: 0; border: 0; color: inherit; background: transparent; font: inherit; letter-spacing: inherit; text-align: left; text-overflow: ellipsis; white-space: nowrap; -webkit-tap-highlight-color: transparent; }
 .editor-title-button:focus:not(:focus-visible) { outline: none; }
 .editor-title-button:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
@@ -201,6 +208,7 @@ footer { margin-top: 8px; color: #8490a3; font-size: 11px; text-align: center; }
   .field-host, .field-user, .field-password, .field-key { grid-column: 1 / -1; }
   .field-port { grid-column: 1 / -1; }
   .field-method { grid-column: 1 / -1; }
+  .field-device { grid-column: 1 / -1; }
   .field-passphrase { grid-column: 1 / -1; }
   .connection-actions { align-items: flex-start; }
   .browser-heading { align-items: flex-start; flex-direction: column; padding: 2px 17px; }

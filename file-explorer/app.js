@@ -14,8 +14,12 @@ const browserMessage = document.querySelector('#browser-message')
 const appMessage = document.querySelector('#app-message')
 const emptyState = document.querySelector('#empty-state')
 const editorDialog = document.querySelector('#editor-dialog')
+const fileConflictDialog = document.querySelector('#file-conflict-dialog')
+const fileConflictMessage = document.querySelector('#file-conflict-message')
+const takeOverFileButton = document.querySelector('#take-over-file-button')
 const editorMessage = document.querySelector('#editor-message')
 const editorTitle = document.querySelector('#editor-title')
+const editorModeIndicator = document.querySelector('#editor-mode-indicator')
 const editorContent = document.querySelector('#file-content')
 const uploadInput = document.querySelector('#upload-input')
 
@@ -30,6 +34,10 @@ let activeFilePath = ''
 let forceTextMode = false
 let originalContents = ''
 let activeConnection
+let deviceName = ''
+let activeMarkerPath = ''
+let editorReadOnly = false
+let markerReleasePromise = Promise.resolve()
 let suppressCloseHistoryBack = false
 let autoSaveEnabled = false
 let autoSaveTimer
@@ -60,7 +68,8 @@ function updateAutoSaveUi() {
   const saveButton = document.querySelector('#save-file-button')
   toggle.textContent = autoSaveEnabled ? 'Disable autosave' : 'Enable autosave'
   toggle.setAttribute('aria-pressed', String(autoSaveEnabled))
-  saveButton.classList.toggle('hidden', autoSaveEnabled)
+  toggle.classList.toggle('hidden', editorReadOnly)
+  saveButton.classList.toggle('hidden', autoSaveEnabled || editorReadOnly)
 }
 
 function showSaveIndicator(status) {
@@ -115,7 +124,9 @@ async function request(endpoint, options = {}, query = {}) {
       const result = await response.json()
       if (result.message) message = result.message
     } catch {}
-    throw new Error(message)
+    const error = new Error(message)
+    error.status = response.status
+    throw error
   }
   return response
 }
@@ -293,10 +304,82 @@ function isWithinHome(path) {
     (path === homePath || path.startsWith(homePath === '/' ? '/' : `${homePath}/`))
 }
 
+function markerPathFor(filePath) {
+  return `${filePath}.isOpen`
+}
+
+function showFileConflict(filePath, otherDeviceName) {
+  const filename = filePath.split('/').at(-1)
+  fileConflictMessage.textContent = `File is already open on ${otherDeviceName}.`
+  takeOverFileButton.textContent = `Delete ${filename}.isOpen and open file`
+  return new Promise(resolve => {
+    const handleClose = () => {
+      fileConflictDialog.removeEventListener('close', handleClose)
+      resolve(fileConflictDialog.returnValue || 'cancel')
+    }
+    fileConflictDialog.addEventListener('close', handleClose)
+    fileConflictDialog.showModal()
+  })
+}
+
+async function readFileMarker(path) {
+  const response = await request('/file', {}, { path })
+  return (await response.text()).trim()
+}
+
+async function deleteRemoteFile(path) {
+  await request('/entry', { method: 'DELETE' }, { path })
+}
+
+async function releaseFileMarker(path, keepalive = false) {
+  const response = await request('/file', { keepalive }, { path })
+  const markerOwner = (await response.text()).trim()
+  if (markerOwner === deviceName) await request('/entry', { method: 'DELETE', keepalive }, { path })
+}
+
+async function createFileMarker(path) {
+  await request('/text-file', {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ path, content: deviceName, create: true })
+  })
+}
+
+async function acquireFileMarker(filePath) {
+  await markerReleasePromise
+  const markerPath = markerPathFor(filePath)
+  const markerName = markerPath.split('/').at(-1)
+  const parentPath = filePath.slice(0, filePath.lastIndexOf('/')) || '/'
+
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const response = await request('/list', {}, { path: parentPath })
+    const entries = await response.json()
+    const markerExists = entries.some(entry => entry.name === markerName)
+    if (markerExists) {
+      const existingDeviceName = await readFileMarker(markerPath)
+      if (existingDeviceName !== deviceName) {
+        const choice = await showFileConflict(filePath, existingDeviceName || 'an unknown device')
+        if (choice === 'readonly') return 'readonly'
+        if (choice !== 'takeover') return 'cancel'
+      }
+      await deleteRemoteFile(markerPath)
+    }
+
+    try {
+      await createFileMarker(markerPath)
+      return 'edit'
+    } catch (error) {
+      if (error.status !== 409 || attempt === 2) throw error
+    }
+  }
+  throw new Error('Could not open this file. Please try again.')
+}
+
 function restoreConnectionFields(connection) {
   form.elements.host.value = connection.host
   form.elements.port.value = String(connection.port)
   form.elements.username.value = connection.username
+  form.elements.deviceName.value = connection.deviceName || ''
   form.elements.authMethod.value = connection.authMethod
   form.elements.password.value = connection.password || ''
   form.elements.privateKey.value = connection.privateKey || ''
@@ -309,6 +392,8 @@ async function connectSftp(connection) {
   button.disabled = true
   button.textContent = 'Connecting…'
   showMessage(appMessage, '')
+  connection.deviceName = connection.deviceName.trim()
+  deviceName = connection.deviceName
 
   const body = {
     host: connection.host,
@@ -376,10 +461,16 @@ form.addEventListener('submit', async event => {
     host: String(values.get('host')).trim(),
     port: Number(values.get('port')),
     username: String(values.get('username')).trim(),
+    deviceName: String(values.get('deviceName')).trim(),
     authMethod: String(values.get('authMethod')),
     password: String(values.get('password') || ''),
     privateKey: String(values.get('privateKey') || ''),
     passphrase: String(values.get('passphrase') || '')
+  }
+  if (!connection.deviceName) {
+    showMessage(appMessage, 'Enter a device name to continue.')
+    form.elements.deviceName.focus()
+    return
   }
   await connectSftp(connection)
 })
@@ -405,6 +496,11 @@ function restoreLastConnection() {
     return
   }
   restoreConnectionFields(saved)
+  if (typeof saved.deviceName !== 'string' || !saved.deviceName.trim()) {
+    showMessage(appMessage, 'Please enter a device name to reconnect.')
+    form.elements.deviceName.focus()
+    return
+  }
   document.querySelector('.connection-card').classList.add('hidden')
   void connectSftp(saved)
 }
@@ -554,19 +650,36 @@ function isTextType(contentType, name) {
 }
 
 async function openEditor(path, name, forceText = false) {
+  let mode
+  try {
+    mode = await acquireFileMarker(path)
+  } catch (error) {
+    await releaseFileMarker(markerPathFor(path)).catch(() => {})
+    showMessage(browserMessage, error.message)
+    return
+  }
+  if (mode === 'cancel') return
+
   clearTimeout(autoSaveTimer)
   showSaveIndicator('')
   activeFilePath = path
+  editorReadOnly = mode === 'readonly'
+  activeMarkerPath = editorReadOnly ? '' : markerPathFor(path)
   forceTextMode = forceText
   originalContents = ''
   editorTitle.textContent = name
+  editorTitle.disabled = editorReadOnly
+  editorModeIndicator.classList.toggle('hidden', !editorReadOnly)
   editorContent.value = ''
   editorContent.disabled = false
+  editorContent.readOnly = editorReadOnly
   document.querySelector('#save-file-button').disabled = true
   document.querySelector('#save-file-button').textContent = 'Save'
   updateAutoSaveUi()
   document.querySelector('#reload-file-button').classList.remove('hidden')
   document.querySelector('#download-file-button').classList.remove('hidden')
+  document.querySelector('#rename-file-button').classList.toggle('hidden', editorReadOnly)
+  document.querySelector('#delete-file-button').classList.toggle('hidden', editorReadOnly)
   showMessage(editorMessage, '')
   editorDialog.showModal()
   document.addEventListener('keydown', handleEditorSaveShortcut)
@@ -581,11 +694,21 @@ async function openEditor(path, name, forceText = false) {
 }
 
 editorDialog.addEventListener('close', () => {
+  const markerPath = activeMarkerPath
+  activeMarkerPath = ''
+  if (markerPath && !editorReadOnly) {
+    markerReleasePromise = releaseFileMarker(markerPath)
+      .catch(error => showMessage(browserMessage, error.message))
+  }
   clearTimeout(autoSaveTimer)
   clearTimeout(saveStatusTimer)
   showSaveIndicator('')
   document.removeEventListener('keydown', handleEditorSaveShortcut)
   editorDialog.querySelector('.editor-action-menu')?.removeAttribute('open')
+  editorReadOnly = false
+  editorContent.readOnly = false
+  editorTitle.disabled = false
+  editorModeIndicator.classList.add('hidden')
   saveLastView(currentPath)
   if (suppressCloseHistoryBack) {
     suppressCloseHistoryBack = false
@@ -618,7 +741,7 @@ async function reloadEditorFile() {
     const contents = await response.text()
     editorContent.value = contents
     originalContents = contents
-    saveButton.disabled = false
+    saveButton.disabled = editorReadOnly
     showMessage(editorMessage, '')
     return true
   } finally {
@@ -651,20 +774,48 @@ async function renameOpenFile(button) {
   }
 
   button.disabled = true
+  let markerMoved = false
+  let previousMarkerPath = ''
+  let nextMarkerPath = ''
   try {
     const parentPath = activeFilePath.slice(0, activeFilePath.lastIndexOf('/')) || '/'
     const newPath = joinPath(parentPath, filename)
+    previousMarkerPath = activeMarkerPath
+    nextMarkerPath = previousMarkerPath ? markerPathFor(newPath) : ''
+    if (previousMarkerPath) {
+      await request('/rename', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ path: previousMarkerPath, newPath: nextMarkerPath })
+      })
+      markerMoved = true
+    }
     await request('/rename', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ path: activeFilePath, newPath })
     })
+    if (markerMoved) activeMarkerPath = nextMarkerPath
     activeFilePath = newPath
     editorTitle.textContent = filename
     await loadDirectory(currentPath)
     saveLastView(currentPath, { path: activeFilePath, name: filename })
     showMessage(editorMessage, '')
   } catch (error) {
+    if (markerMoved) {
+      try {
+        await request('/rename', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ path: nextMarkerPath, newPath: previousMarkerPath })
+        })
+      } catch (restoreError) {
+        activeMarkerPath = nextMarkerPath
+        showMessage(editorMessage, `Rename failed and the open marker could not be restored: ${restoreError.message}`)
+        button.disabled = false
+        return
+      }
+    }
     showMessage(editorMessage, error.message)
   } finally {
     button.disabled = false
@@ -801,5 +952,12 @@ document.querySelector('#connection-disconnect-button').addEventListener('click'
 window.addEventListener('pagehide', () => {
   if (!sessionToken) return
   const headers = new Headers({ 'x-sftp-session': sessionToken })
-  fetch(apiUrl('/disconnect'), { method: 'POST', headers, keepalive: true }).catch(() => {})
+  const disconnect = () => fetch(apiUrl('/disconnect'), { method: 'POST', headers, keepalive: true }).catch(() => {})
+  if (activeMarkerPath && !editorReadOnly) {
+    releaseFileMarker(activeMarkerPath, true)
+      .catch(() => {})
+      .finally(disconnect)
+  } else {
+    disconnect()
+  }
 })

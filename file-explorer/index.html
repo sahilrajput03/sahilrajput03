@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111827">
   <title>SFTP File Explorer</title>
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./app.js?cache-bust=v4" defer></script>
+  <link rel="stylesheet" href="./styles.css?cache-bust=v5">
+  <script src="./app.js?cache-bust=v5" defer></script>
 </head>
 <body>
    <main class="app-shell">
@@ -46,6 +46,10 @@
           <label class="field field-user">
             <span>Username</span>
             <input name="username" autocomplete="username" required>
+          </label>
+          <label class="field field-device">
+            <span>Device Name</span>
+            <input name="deviceName" autocomplete="off" required placeholder="e.g. Work laptop">
           </label>
           <label class="field field-method">
             <span>Authentication</span>
@@ -114,6 +118,7 @@
     <div class="editor-heading">
       <div>
         <h2><button class="editor-title-button" id="editor-title" type="button" aria-label="Rename file" title="Rename file">Edit file</button></h2>
+        <span id="editor-mode-indicator" class="editor-mode-indicator hidden">Read-only</span>
       </div>
       <div class="editor-toolbar">
         <span id="save-indicator" class="save-indicator hidden" role="status" aria-label="File save status"></span>
@@ -140,6 +145,14 @@
       <span class="visually-hidden">File contents</span>
       <textarea id="file-content" spellcheck="false" autocomplete="off"></textarea>
     </label>
+  </dialog>
+  <dialog id="file-conflict-dialog" class="file-conflict-dialog">
+    <h2>File is already open</h2>
+    <p id="file-conflict-message"></p>
+    <form method="dialog" class="file-conflict-actions">
+      <button class="button button-primary" type="submit" value="readonly" autofocus>Open in read-only mode</button>
+      <button class="button button-outline" id="take-over-file-button" type="submit" value="takeover"></button>
+    </form>
   </dialog>
 </body>
 </html>
