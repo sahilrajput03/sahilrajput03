@@ -716,6 +716,7 @@ editorDialog.addEventListener('close', () => {
   activeMarkerPath = ''
   if (markerPath && !editorReadOnly) {
     markerReleasePromise = releaseFileMarker(markerPath)
+      .then(() => sessionToken && currentPath ? loadDirectory(currentPath) : undefined)
       .catch(error => showMessage(browserMessage, error.message))
   }
   clearTimeout(autoSaveTimer)
