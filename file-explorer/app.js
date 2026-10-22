@@ -30,8 +30,12 @@ let activeFilePath = ''
 let forceTextMode = false
 let originalContents = ''
 let activeConnection
-let saveFeedbackTimer
 let suppressCloseHistoryBack = false
+let autoSaveEnabled = false
+let autoSaveTimer
+let saveStatusTimer
+let saveInProgress = false
+let saveIndicatorStatus = ''
 
 function setExplorerHistory(path, file = null, mode = 'push') {
   const state = { fileExplorer: true, path, file }
@@ -49,6 +53,32 @@ function handleEditorSaveShortcut(event) {
   event.preventDefault()
   const saveButton = document.querySelector('#save-file-button')
   if (!saveButton.disabled) saveButton.click()
+}
+
+function updateAutoSaveUi() {
+  const toggle = document.querySelector('#toggle-autosave-button')
+  const saveButton = document.querySelector('#save-file-button')
+  toggle.textContent = autoSaveEnabled ? 'Disable autosave' : 'Enable autosave'
+  toggle.setAttribute('aria-pressed', String(autoSaveEnabled))
+  saveButton.classList.toggle('hidden', autoSaveEnabled)
+}
+
+function showSaveIndicator(status) {
+  const indicator = document.querySelector('#save-indicator')
+  clearTimeout(saveStatusTimer)
+  saveIndicatorStatus = status
+  indicator.classList.toggle('hidden', !status)
+  indicator.classList.toggle('is-success', status === 'success')
+  indicator.classList.toggle('is-error', status === 'error')
+  indicator.setAttribute('aria-label', status === 'success' ? 'File saved' : status === 'error' ? 'File save failed' : 'File save status')
+  indicator.title = status === 'success' ? 'Saved' : status === 'error' ? 'Save failed' : ''
+  if (status === 'success') saveStatusTimer = setTimeout(() => showSaveIndicator(''), 2000)
+}
+
+function scheduleAutoSave() {
+  clearTimeout(autoSaveTimer)
+  if (!autoSaveEnabled || editorContent.value === originalContents) return
+  autoSaveTimer = setTimeout(() => { void saveEditorFile(true) }, 1000)
 }
 
 document.addEventListener('click', event => {
@@ -524,6 +554,8 @@ function isTextType(contentType, name) {
 }
 
 async function openEditor(path, name, forceText = false) {
+  clearTimeout(autoSaveTimer)
+  showSaveIndicator('')
   activeFilePath = path
   forceTextMode = forceText
   originalContents = ''
@@ -532,6 +564,7 @@ async function openEditor(path, name, forceText = false) {
   editorContent.disabled = false
   document.querySelector('#save-file-button').disabled = true
   document.querySelector('#save-file-button').textContent = 'Save'
+  updateAutoSaveUi()
   document.querySelector('#reload-file-button').classList.remove('hidden')
   document.querySelector('#download-file-button').classList.remove('hidden')
   showMessage(editorMessage, '')
@@ -548,6 +581,9 @@ async function openEditor(path, name, forceText = false) {
 }
 
 editorDialog.addEventListener('close', () => {
+  clearTimeout(autoSaveTimer)
+  clearTimeout(saveStatusTimer)
+  showSaveIndicator('')
   document.removeEventListener('keydown', handleEditorSaveShortcut)
   editorDialog.querySelector('.editor-action-menu')?.removeAttribute('open')
   saveLastView(currentPath)
@@ -595,6 +631,7 @@ async function reloadEditorFile() {
 
 document.querySelector('#reload-file-button').addEventListener('click', async () => {
   if (editorContent.value !== originalContents && !window.confirm('Discard your unsaved edits and reload the latest server version?')) return
+  clearTimeout(autoSaveTimer)
   try {
     await reloadEditorFile()
   } catch (error) {
@@ -664,26 +701,55 @@ document.querySelector('#delete-file-button').addEventListener('click', async ev
   }
 })
 
-document.querySelector('#save-file-button').addEventListener('click', async () => {
+async function saveEditorFile(isAutoSave) {
+  if (saveInProgress || editorContent.value === originalContents) return false
+
   const button = document.querySelector('#save-file-button')
+  const contents = editorContent.value
+  saveInProgress = true
   button.disabled = true
   button.classList.remove('saved')
-  clearTimeout(saveFeedbackTimer)
   try {
     await request('/text-file', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ path: activeFilePath, content: editorContent.value })
+      body: JSON.stringify({ path: activeFilePath, content: contents })
     })
-    originalContents = editorContent.value
-    button.classList.add('saved')
-    saveFeedbackTimer = setTimeout(() => button.classList.remove('saved'), 1000)
+    originalContents = contents
+    showSaveIndicator('success')
+    showMessage(editorMessage, '')
+    if (!isAutoSave) {
+      button.classList.add('saved')
+      setTimeout(() => button.classList.remove('saved'), 1000)
+    }
     await loadDirectory(currentPath)
+    return true
   } catch (error) {
+    showSaveIndicator('error')
     showMessage(editorMessage, error.message)
+    return false
   } finally {
+    saveInProgress = false
     button.disabled = false
+    if (autoSaveEnabled && editorDialog.open && editorContent.value !== originalContents) scheduleAutoSave()
   }
+}
+
+document.querySelector('#save-file-button').addEventListener('click', async () => {
+  await saveEditorFile(false)
+})
+
+document.querySelector('#toggle-autosave-button').addEventListener('click', () => {
+  autoSaveEnabled = !autoSaveEnabled
+  updateAutoSaveUi()
+  document.querySelector('.editor-action-menu')?.removeAttribute('open')
+  if (autoSaveEnabled) scheduleAutoSave()
+  else clearTimeout(autoSaveTimer)
+})
+
+editorContent.addEventListener('input', () => {
+  if (saveIndicatorStatus === 'success') showSaveIndicator('')
+  if (autoSaveEnabled) scheduleAutoSave()
 })
 
 document.querySelector('#download-file-button').addEventListener('click', event => {

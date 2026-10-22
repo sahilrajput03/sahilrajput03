@@ -116,6 +116,7 @@
         <h2><button class="editor-title-button" id="editor-title" type="button" aria-label="Rename file" title="Rename file">Edit file</button></h2>
       </div>
       <div class="editor-toolbar">
+        <span id="save-indicator" class="save-indicator hidden" role="status" aria-label="File save status"></span>
         <button class="button button-quiet" id="reload-file-button" type="button" aria-label="Reload file from server" title="Reload file">
           <span class="reload-file-icon" aria-hidden="true">↻</span>
           <span class="reload-spinner" aria-hidden="true"></span>
@@ -125,6 +126,7 @@
             <svg class="more-actions-icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="12" cy="19" r="1.8"/></svg>
           </summary>
           <div class="action-menu-items">
+            <button class="action-menu-item" id="toggle-autosave-button" type="button" aria-pressed="false">Enable autosave</button>
             <button class="action-menu-item" id="rename-file-button" type="button">Rename</button>
             <button class="action-menu-item" id="download-file-button" type="button">Download</button>
             <button class="action-menu-item danger" id="delete-file-button" type="button">Delete</button>

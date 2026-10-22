@@ -171,6 +171,9 @@ footer { margin-top: 8px; color: #8490a3; font-size: 11px; text-align: center; }
 .editor-title-button:focus:not(:focus-visible) { outline: none; }
 .editor-title-button:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 .editor-toolbar { display: flex; flex: 0 0 auto; flex-wrap: nowrap; gap: 4px; }
+.save-indicator { width: 9px; height: 9px; flex: 0 0 9px; align-self: center; border-radius: 50%; }
+.save-indicator.is-success { background: #18804c; }
+.save-indicator.is-error { background: #c43e53; }
 .editor-toolbar #reload-file-button { display: inline-flex; width: 38px; min-width: 38px; align-items: center; justify-content: center; padding: 0; }
 .reload-spinner { display: none; width: 14px; height: 14px; border: 2px solid #d8dbe3; border-top-color: #626b7b; border-radius: 50%; animation: reload-spin .7s linear infinite; }
 #reload-file-button.is-loading .reload-file-icon { display: none; }
