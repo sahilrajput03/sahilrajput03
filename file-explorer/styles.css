@@ -104,7 +104,7 @@ h2 { margin: 0; font-size: 18px; letter-spacing: -.02em; }
 .button-outline { border-color: #dfe3eb; color: #4b566b; background: #fff; }
 .button-outline:hover { background: #f8f9fc; }
 
-.browser-card { margin-top: 0; overflow: visible; }
+.browser-card { margin-top: 0; overflow: visible; padding-top: 12px; }
 .browser-heading { padding: 2px 22px; }
 .toolbar { display: flex; flex-wrap: wrap; gap: 5px; }
 .toolbar .button { min-height: 30px; padding: 0 5px; }
