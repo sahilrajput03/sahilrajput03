@@ -43,20 +43,22 @@
     </button>
     <br />
     <br />
+    <div>Query with:</div>
     <div style="display: flex; flex-wrap: wrap; gap: 13px;">
-        <button onclick="queryLLM('chatgpt')">Query ChatGPT</button>
-        <button onclick="queryLLM('grok')">Query Grok</button>
-        <button onclick="queryLLM('perplexity')">Query Perplexity</button>
-        <button onclick="queryLLM('google')">Query Google</button>
-        <button onclick="queryLLM('claude')">Query Claude</button>
-        <button onclick="queryLLM('youtube')">Query YouTube</button>
-        <button onclick="queryLLM('google_docs')">Query Google Docs</button>
-        <button onclick="queryLLM('my_github_repos')">Query My Github Repos</button>
+        <button onclick="queryLLM('chatgpt')">ChatGPT</button>
+        <button onclick="queryLLM('claude')">Claude</button>
+        <button onclick="queryLLM('gemini')">*Gemini</button>
+        <button onclick="queryLLM('grok')">Grok</button>
+        <button onclick="queryLLM('perplexity')">Perplexity</button>
+        <button onclick="queryLLM('google')">Google Search</button>
+        <button onclick="queryLLM('youtube')">YouTube</button>
+        <button onclick="queryLLM('google_docs')">Google Docs</button>
+        <button onclick="queryLLM('my_github_repos')">My Github Repos</button>
     </div>
 
     <br />
     <br />
-    <div style="color: gray; font-style: italic;"> *Note: Gemini doesn't support url based query yet. </div>
+    <div style="color: gray; font-style: italic;"> *Gemini doesn't support url based query yet. </div>
 
     <script>
         async function appendToQueryInput() {
@@ -79,39 +81,35 @@
         }
 
         function queryLLM(llm) {
-            const query = document.getElementById('queryInput').value;
-            if (!query) {
-                alert('Please enter a query.');
-                return;
-            }
-
             let url = '';
-            const encodedQuery = encodeURIComponent(query);
 
             switch (llm) {
                 case 'chatgpt':
-                    url = `https://chatgpt.com/?prompt=${encodedQuery}`;
+                    url = 'https://chatgpt.com/';
+                    break;
+                case 'gemini':
+                    url = 'https://gemini.google.com/';
                     break;
                 case 'grok':
-                    url = `https://x.com/i/grok?text=${encodedQuery}`;
+                    url = 'https://x.com/i/grok';
                     break;
                 case 'perplexity':
-                    url = `https://www.perplexity.ai/search/new?q=${encodedQuery}`;
+                    url = 'https://www.perplexity.ai/';
                     break;
                 case 'google':
-                    url = `https://www.google.com/search?udm=50&aep=11&q=${encodedQuery}`;
+                    url = 'https://www.google.com/';
                     break;
                 case 'google_docs':
-                    url = `https://docs.google.com/document/u/0/?q=${encodedQuery}`;
+                    url = 'https://docs.google.com/document/u/0/';
                     break;
                 case 'claude':
-                    url = `https://claude.ai/new?q=${encodedQuery}`;
+                    url = 'https://claude.ai/new';
                     break;
                 case 'youtube':
-                    url = `https://www.youtube.com/results?search_query=${encodedQuery}`;
+                    url = 'https://www.youtube.com/';
                     break;
                 case 'my_github_repos':
-                    url = `https://github.com/sahilrajput03?tab=repositories&q=${encodedQuery}&type=source&language=&sort=`;
+                    url = 'https://github.com/sahilrajput03?tab=repositories';
                     break;
                 default:
                     alert('Unknown LLM');
