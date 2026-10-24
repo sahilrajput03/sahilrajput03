@@ -81,35 +81,44 @@
         }
 
         function queryLLM(llm) {
+            if (llm === 'gemini') {
+                window.open('https://gemini.google.com/', '_blank');
+                return;
+            }
+
+            const query = document.getElementById('queryInput').value;
+            if (!query) {
+                alert('Please enter a query.');
+                return;
+            }
+
             let url = '';
+            const encodedQuery = encodeURIComponent(query);
 
             switch (llm) {
                 case 'chatgpt':
-                    url = 'https://chatgpt.com/';
-                    break;
-                case 'gemini':
-                    url = 'https://gemini.google.com/';
+                    url = `https://chatgpt.com/?prompt=${encodedQuery}`;
                     break;
                 case 'grok':
-                    url = 'https://x.com/i/grok';
+                    url = `https://x.com/i/grok?text=${encodedQuery}`;
                     break;
                 case 'perplexity':
-                    url = 'https://www.perplexity.ai/';
+                    url = `https://www.perplexity.ai/search/new?q=${encodedQuery}`;
                     break;
                 case 'google':
-                    url = 'https://www.google.com/';
+                    url = `https://www.google.com/search?udm=50&aep=11&q=${encodedQuery}`;
                     break;
                 case 'google_docs':
-                    url = 'https://docs.google.com/document/u/0/';
+                    url = `https://docs.google.com/document/u/0/?q=${encodedQuery}`;
                     break;
                 case 'claude':
-                    url = 'https://claude.ai/new';
+                    url = `https://claude.ai/new?q=${encodedQuery}`;
                     break;
                 case 'youtube':
-                    url = 'https://www.youtube.com/';
+                    url = `https://www.youtube.com/results?search_query=${encodedQuery}`;
                     break;
                 case 'my_github_repos':
-                    url = 'https://github.com/sahilrajput03?tab=repositories';
+                    url = `https://github.com/sahilrajput03?tab=repositories&q=${encodedQuery}&type=source&language=&sort=`;
                     break;
                 default:
                     alert('Unknown LLM');
