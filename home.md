@@ -7,7 +7,7 @@
   <a href="https://docs.google.com/document/d/1KcvsQqwDewaJvFqQD-4nBWN4j8iT2_bMr9-Ml8_MdWE/edit?usp=drivesdk">Neeti Vocab</a>, <br/>
   <a id="tg-aau-coach">Aau - Coach 🚀</a>,
   <a href="https://drive.google.com/drive/folders/1YfGOPeb3EN0oe1pFxRXoajc66kJxXalC">Essays</a>,
-  <a href="https://drive.google.com/drive/folders/1kmPAs_oBGtVJh_1jvqZed6BqEUa8uWjC">Mantras</a>
+  <a href="https://drive.google.com/drive/folders/1hWJoX49yG1wbrKPNigWMz-mYZkJ6EMXc">Mantras</a>
 </details>
 
 
