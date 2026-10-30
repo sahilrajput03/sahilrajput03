@@ -12,7 +12,9 @@
 
 
 <a href="/ex">Web Code Explorer</a>,
-<a href="/file-explorer">File Explorer</a>
+<a href="/file-explorer">File Explorer</a>,
+<a href="/file-explorer">Crepe Editor (Feature-rich Milkdown Editor)</a>
+
 
 
 <section class="pomodoro-tasks" aria-labelledby="pomodoro-tasks-title">
