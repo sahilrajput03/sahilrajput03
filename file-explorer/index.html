@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111827">
   <title>SFTP File Explorer</title>
-  <link rel="stylesheet" href="./styles.css?cache-bust=v5">
-  <script src="./app.js?cache-bust=v5" defer></script>
+  <link rel="stylesheet" href="./styles.css?cache-bust=v6">
+  <script src="./app.js?cache-bust=v6" defer></script>
 </head>
 <body>
    <main class="app-shell">
@@ -132,6 +132,11 @@
           </summary>
           <div class="action-menu-items">
             <button class="action-menu-item" id="toggle-autosave-button" type="button" aria-pressed="false">Enable autosave</button>
+            <div class="font-size-control" role="group" aria-label="Editor font size">
+              <button class="font-size-button" id="decrease-font-size-button" type="button" aria-label="Decrease font size" title="Decrease font size">−</button>
+              <span id="editor-font-size-value" aria-live="polite"></span>
+              <button class="font-size-button" id="increase-font-size-button" type="button" aria-label="Increase font size" title="Increase font size">+</button>
+            </div>
             <button class="action-menu-item" id="rename-file-button" type="button">Rename</button>
             <button class="action-menu-item" id="download-file-button" type="button">Download</button>
             <button class="action-menu-item danger" id="delete-file-button" type="button">Delete</button>

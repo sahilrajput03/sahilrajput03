@@ -5,6 +5,9 @@ const API_BASE = `https://api${isDev ? "-dev": ""}.mypot.in/api/v1/file-explorer
 const LAST_CONNECTION_KEY = 'file-explorer-last-connection'
 const LAST_VIEW_KEY = 'file-explorer-last-view'
 const AUTO_SAVE_KEY = 'file-explorer-auto-save'
+const EDITOR_FONT_SIZE_KEY = 'file-explorer-editor-font-size'
+const MIN_EDITOR_FONT_SIZE = 8
+const MAX_EDITOR_FONT_SIZE = 32
 
 function getAutoSavePreference() {
   try {
@@ -20,6 +23,16 @@ function saveAutoSavePreference(enabled) {
     localStorage.setItem(AUTO_SAVE_KEY, String(enabled))
   } catch (error) {
     console.error('Unable to save the autosave preference.', error)
+  }
+}
+
+function getEditorFontSize() {
+  try {
+    const saved = Number(localStorage.getItem(EDITOR_FONT_SIZE_KEY))
+    return Number.isInteger(saved) && saved >= MIN_EDITOR_FONT_SIZE && saved <= MAX_EDITOR_FONT_SIZE ? saved : 12
+  } catch (error) {
+    console.error('Unable to read the editor font size.', error)
+    return 12
   }
 }
 
@@ -39,6 +52,9 @@ const editorMessage = document.querySelector('#editor-message')
 const editorTitle = document.querySelector('#editor-title')
 const editorModeIndicator = document.querySelector('#editor-mode-indicator')
 const editorContent = document.querySelector('#file-content')
+const editorFontSizeValue = document.querySelector('#editor-font-size-value')
+const decreaseFontSizeButton = document.querySelector('#decrease-font-size-button')
+const increaseFontSizeButton = document.querySelector('#increase-font-size-button')
 const uploadInput = document.querySelector('#upload-input')
 
 editorDialog.addEventListener('mousedown', event => {
@@ -58,10 +74,32 @@ let editorReadOnly = false
 let markerReleasePromise = Promise.resolve()
 let suppressCloseHistoryBack = false
 let autoSaveEnabled = getAutoSavePreference()
+let editorFontSize = getEditorFontSize()
 let autoSaveTimer
 let saveStatusTimer
 let saveInProgress = false
 let saveIndicatorStatus = ''
+
+function updateEditorFontSize() {
+  editorContent.style.fontSize = `${editorFontSize}px`
+  editorFontSizeValue.textContent = `${editorFontSize}px`
+  decreaseFontSizeButton.disabled = editorFontSize <= MIN_EDITOR_FONT_SIZE
+  increaseFontSizeButton.disabled = editorFontSize >= MAX_EDITOR_FONT_SIZE
+}
+
+function changeEditorFontSize(amount) {
+  const nextSize = Math.min(MAX_EDITOR_FONT_SIZE, Math.max(MIN_EDITOR_FONT_SIZE, editorFontSize + amount))
+  if (nextSize === editorFontSize) return
+  editorFontSize = nextSize
+  updateEditorFontSize()
+  try {
+    localStorage.setItem(EDITOR_FONT_SIZE_KEY, String(editorFontSize))
+  } catch (error) {
+    console.error('Unable to save the editor font size.', error)
+  }
+}
+
+updateEditorFontSize()
 
 function setExplorerHistory(path, file = null, mode = 'push') {
   const state = { fileExplorer: true, path, file }
@@ -917,6 +955,9 @@ document.querySelector('#toggle-autosave-button').addEventListener('click', () =
   if (autoSaveEnabled) scheduleAutoSave()
   else clearTimeout(autoSaveTimer)
 })
+
+decreaseFontSizeButton.addEventListener('click', () => changeEditorFontSize(-1))
+increaseFontSizeButton.addEventListener('click', () => changeEditorFontSize(1))
 
 editorContent.addEventListener('input', () => {
   if (saveIndicatorStatus === 'success') showSaveIndicator('')

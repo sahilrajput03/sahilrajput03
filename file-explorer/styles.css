@@ -144,6 +144,10 @@ h2 { margin: 0; font-size: 18px; letter-spacing: -.02em; }
 .action-menu-item:hover { background: #f1f0ff; }
 .action-menu-item.danger { color: var(--danger); }
 .action-menu-item.danger:hover { background: #fff0f2; }
+.font-size-control { display: grid; min-height: 38px; grid-template-columns: 36px 1fr 36px; align-items: center; gap: 8px; padding: 2px 8px; color: var(--muted); font-size: 12px; text-align: center; }
+.font-size-button { height: 30px; border: 1px solid var(--line); border-radius: 6px; color: var(--ink); background: #fff; font-size: 17px; line-height: 1; }
+.font-size-button:hover:not(:disabled) { color: var(--primary); background: #f1f0ff; }
+.font-size-button:disabled { cursor: default; opacity: .45; }
 .editor-action-menu > .action-menu-items { top: calc(100% + 4px); bottom: auto; }
 .editor-action-menu .action-menu-trigger { width: 38px; height: 38px; }
 .editor-action-menu .more-actions-icon { width: 20px; height: 20px; }
@@ -191,7 +195,7 @@ footer { margin-top: 8px; color: #8490a3; font-size: 11px; text-align: center; }
 }
 .editor-dialog .inline-message { flex: 0 0 auto; margin: 0; padding: 4px 8px; }
 .editor-content-field { min-height: 0; flex: 1; margin: 0; }
-.editor-content-field textarea { flex: 1; min-height: 0; height: 100%; resize: none; padding: 8px; border-radius: 4px; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; line-height: 1.55; tab-size: 2; }
+.editor-content-field textarea { flex: 1; min-height: 0; height: 100%; resize: none; padding: 8px; border-radius: 4px; color: #000; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; line-height: 1.55; tab-size: 2; }
 .hidden { display: none !important; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; clip-path: inset(50%); }
 
