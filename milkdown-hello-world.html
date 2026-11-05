@@ -94,6 +94,21 @@
         font-size: 13px;
       }
 
+      #reset-editor {
+        position: fixed;
+        right: 8px;
+        bottom: 8px;
+        z-index: 1001;
+        padding: 4px 7px;
+        border: 1px solid #d4d6dc;
+        border-radius: 6px;
+        background: #fff;
+        color: #555b66;
+        font: 11px/1.2 system-ui, sans-serif;
+        cursor: pointer;
+        box-shadow: 0 1px 4px rgb(0 0 0 / 12%);
+      }
+
       .error {
         padding: 16px;
         border: 1px solid #f2c3c3;
@@ -108,18 +123,46 @@
     <main>
       <div id="editor" aria-label="Markdown editor"></div>
     </main>
+    <button id="reset-editor" type="button" title="Restore the default sample">Reset</button>
 
     <script type="module">
+      const STORAGE_KEY = 'milkdown-hello-world-content-v1'
+      const DEFAULT_CONTENT = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae augue sed massa consequat facilisis. Integer feugiat, neque at interdum luctus, justo erat tincidunt nisi, vitae volutpat sapien sem a erat. Curabitur non magna sed lorem vulputate consequat. Sed euismod, velit vel commodo posuere, sapien nibh fermentum mi, at tristique ipsum lacus sed arcu. Donec tempor, lectus non aliquet blandit, enim eros consequat nunc, vitae dignissim mauris erat id justo. Vivamus quis neque eget urna tincidunt finibus. Suspendisse potenti. Nam a lectus vitae augue faucibus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at lectus nec sem malesuada feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sed consectetur nulla. Duis vel sem id erat ullamcorper sodales. Aliquam erat volutpat. Etiam at libero velit. Nulla facilisi. Donec sed urna in justo interdum pellentesque. Morbi non ante ac erat placerat fringilla. Phasellus euismod, augue non tempor interdum, neque dolor eleifend magna, a aliquam massa nibh id erat. Quisque sit amet sapien at tortor varius dapibus. Nam vel tellus quis neque tincidunt vehicula. Ut vitae quam ut nulla convallis tincidunt.\n\n###### Heading 6\nThis is simple text.\n\n##### Heading 5\nThis is simple text.\n\n#### Heading 4\nThis is simple text.\n\n### Heading 3\nThis is simple text.\n\n## Heading 2\nThis is simple text.\n\n# Heading 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.`
+      let initialContent = DEFAULT_CONTENT
+      try {
+        initialContent = localStorage.getItem(STORAGE_KEY) ?? DEFAULT_CONTENT
+      } catch (error) {
+        console.warn('Could not read saved editor content:', error)
+      }
+
+      document.querySelector('#reset-editor').addEventListener('click', () => {
+        try {
+          localStorage.setItem(STORAGE_KEY, DEFAULT_CONTENT)
+        } catch (error) {
+          console.warn('Could not save default editor content:', error)
+        }
+        location.reload()
+      })
+
       const editorRoot = document.querySelector('#editor')
 
       try {
         const { Crepe } = await import('https://esm.sh/@milkdown/crepe@7.23.0?bundle')
         const crepe = new Crepe({
           root: editorRoot,
-          defaultValue: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae augue sed massa consequat facilisis. Integer feugiat, neque at interdum luctus, justo erat tincidunt nisi, vitae volutpat sapien sem a erat. Curabitur non magna sed lorem vulputate consequat. Sed euismod, velit vel commodo posuere, sapien nibh fermentum mi, at tristique ipsum lacus sed arcu. Donec tempor, lectus non aliquet blandit, enim eros consequat nunc, vitae dignissim mauris erat id justo. Vivamus quis neque eget urna tincidunt finibus. Suspendisse potenti. Nam a lectus vitae augue faucibus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at lectus nec sem malesuada feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sed consectetur nulla. Duis vel sem id erat ullamcorper sodales. Aliquam erat volutpat. Etiam at libero velit. Nulla facilisi. Donec sed urna in justo interdum pellentesque. Morbi non ante ac erat placerat fringilla. Phasellus euismod, augue non tempor interdum, neque dolor eleifend magna, a aliquam massa nibh id erat. Quisque sit amet sapien at tortor varius dapibus. Nam vel tellus quis neque tincidunt vehicula. Ut vitae quam ut nulla convallis tincidunt.\n\n###### Heading 6\nThis is simple text.\n\n##### Heading 5\nThis is simple text.\n\n#### Heading 4\nThis is simple text.\n\n### Heading 3\nThis is simple text.\n\n## Heading 2\nThis is simple text.\n\n# Heading 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.`,
+          defaultValue: initialContent,
         })
 
         await crepe.create()
+        crepe.on((listener) => {
+          listener.markdownUpdated((_ctx, markdown) => {
+            try {
+              localStorage.setItem(STORAGE_KEY, markdown)
+            } catch (error) {
+              console.warn('Could not save editor content:', error)
+            }
+          })
+        })
 
         // Apply to the rendered node so theme styles cannot reintroduce top spacing.
         const proseMirror = editorRoot.querySelector('.ProseMirror')
