@@ -180,6 +180,31 @@
         font-size: 13px;
       }
 
+      #page-scroll-controls {
+        position: fixed;
+        right: 8px;
+        bottom: 40px;
+        z-index: 1001;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      #page-scroll-controls button {
+        display: grid;
+        width: 28px;
+        height: 28px;
+        place-items: center;
+        padding: 0;
+        border: 1px solid #d4d6dc;
+        border-radius: 6px;
+        background: #fff;
+        color: #555b66;
+        font: 16px/1 system-ui, sans-serif;
+        cursor: pointer;
+        box-shadow: 0 1px 4px rgb(0 0 0 / 12%);
+      }
+
       #reset-editor {
         position: fixed;
         right: 8px;
@@ -219,6 +244,10 @@
       </details>
       <div id="editor" aria-label="Markdown editor"></div>
     </main>
+    <div id="page-scroll-controls" aria-label="Page scrolling">
+      <button id="scroll-to-top" type="button" aria-label="Scroll to top" title="Scroll to top">↑</button>
+      <button id="scroll-to-bottom" type="button" aria-label="Scroll to bottom" title="Scroll to bottom">↓</button>
+    </div>
     <button id="reset-editor" type="button" title="Restore the default sample">Reset</button>
 
     <script type="module">
@@ -313,6 +342,14 @@
           console.warn('Could not save default editor content:', error)
         }
         location.reload()
+      })
+
+      document.querySelector('#scroll-to-top').addEventListener('click', () => {
+        (document.scrollingElement || document.documentElement).scrollTo({ top: 0, behavior: 'smooth' })
+      })
+      document.querySelector('#scroll-to-bottom').addEventListener('click', () => {
+        const pageScroller = document.scrollingElement || document.documentElement
+        pageScroller.scrollTo({ top: pageScroller.scrollHeight, behavior: 'smooth' })
       })
 
       const editorRoot = document.querySelector('#editor')
