@@ -61,6 +61,90 @@
         line-height: 1.6;
       }
 
+      #editor-toc {
+        flex: 0 0 auto;
+        margin: 8px;
+        border: 1px solid #e4e6eb;
+        border-radius: 10px;
+        background: #fff;
+      }
+
+      #editor-toc summary {
+        padding: 9px 12px;
+        color: #30343b;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+
+      #toc-scroll-wrap { position: relative; }
+
+      #editor-toc-list {
+        max-height: 28vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        scrollbar-width: none;
+        margin: 0;
+        padding: 0 16px 10px 12px;
+        list-style: none;
+      }
+
+      #editor-toc-list::-webkit-scrollbar { display: none; }
+
+      #editor-toc-list.is-expanded {
+        max-height: none;
+        overflow: visible;
+      }
+
+      #toc-scrollbar-track {
+        position: absolute;
+        top: 0;
+        right: 5px;
+        bottom: 10px;
+        width: 6px;
+        border-radius: 6px;
+        background: #edf0f4;
+        touch-action: none;
+        cursor: pointer;
+      }
+
+      #toc-scrollbar-track[hidden] { display: none; }
+
+      #toc-scrollbar-thumb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 18px;
+        border-radius: inherit;
+        background: #8d95a3;
+      }
+
+      #toc-view-toggle {
+        margin: 0 12px 6px;
+        padding: 4px 8px;
+        border: 1px solid #d8dbe2;
+        border-radius: 6px;
+        background: #f8f9fb;
+        color: #555b66;
+        font: 11px/1.3 system-ui, sans-serif;
+        cursor: pointer;
+      }
+
+      #editor-toc-list li { margin: 2px 0; }
+
+      #editor-toc-list a {
+        display: inline-block;
+        padding: 3px 0;
+        color: #555b66;
+        font-family: inherit;
+        font-size: 13px;
+        line-height: 1.4;
+        text-decoration: none;
+      }
+
+      #editor-toc-list a:hover { color: #4f5bd5; text-decoration: underline; }
+
       #editor {
         flex: 1;
         min-height: 0;
@@ -121,12 +205,94 @@
   </head>
   <body>
     <main>
+      <details id="editor-toc">
+        <summary>Table of Contents (TOC)</summary>
+        <nav aria-label="Table of contents">
+          <button id="toc-view-toggle" type="button" aria-pressed="false">Show all</button>
+          <div id="toc-scroll-wrap">
+            <ul id="editor-toc-list"></ul>
+            <div id="toc-scrollbar-track" aria-hidden="true"><div id="toc-scrollbar-thumb"></div></div>
+          </div>
+        </nav>
+      </details>
       <div id="editor" aria-label="Markdown editor"></div>
     </main>
     <button id="reset-editor" type="button" title="Restore the default sample">Reset</button>
 
     <script type="module">
       const STORAGE_KEY = 'milkdown-hello-world-content-v1'
+      const TOC_OPEN_KEY = 'milkdown-hello-world-toc-open-v1'
+      const TOC_EXPANDED_KEY = 'milkdown-hello-world-toc-expanded-v1'
+      const tocContainer = document.querySelector('#editor-toc')
+      const tocList = document.querySelector('#editor-toc-list')
+      const tocViewToggle = document.querySelector('#toc-view-toggle')
+      const tocScrollbarTrack = document.querySelector('#toc-scrollbar-track')
+      const tocScrollbarThumb = document.querySelector('#toc-scrollbar-thumb')
+      let tocExpanded = false
+      try {
+        const savedOpen = localStorage.getItem(TOC_OPEN_KEY)
+        if (savedOpen !== null) tocContainer.open = savedOpen === 'true'
+        tocExpanded = localStorage.getItem(TOC_EXPANDED_KEY) === 'true'
+      } catch (error) {
+        console.warn('Could not read saved TOC preferences:', error)
+      }
+
+      const updateTocScrollbar = () => {
+        const hasOverflow = tocList.scrollHeight > tocList.clientHeight + 1
+        tocScrollbarTrack.hidden = tocExpanded || !hasOverflow
+        if (!hasOverflow || tocExpanded) return
+
+        const trackHeight = tocScrollbarTrack.clientHeight
+        const thumbHeight = Math.max(18, trackHeight * tocList.clientHeight / tocList.scrollHeight)
+        const maxThumbTop = trackHeight - thumbHeight
+        const scrollRatio = tocList.scrollTop / (tocList.scrollHeight - tocList.clientHeight)
+        tocScrollbarThumb.style.height = `${thumbHeight}px`
+        tocScrollbarThumb.style.transform = `translateY(${maxThumbTop * scrollRatio}px)`
+      }
+
+      const applyTocView = () => {
+        tocList.classList.toggle('is-expanded', tocExpanded)
+        tocViewToggle.textContent = tocExpanded ? 'Show less' : 'Show all'
+        tocViewToggle.setAttribute('aria-pressed', String(tocExpanded))
+        requestAnimationFrame(updateTocScrollbar)
+      }
+      applyTocView()
+      tocList.addEventListener('scroll', updateTocScrollbar, { passive: true })
+      window.addEventListener('resize', updateTocScrollbar)
+      tocScrollbarTrack.addEventListener('pointerdown', (event) => {
+        const rect = tocScrollbarTrack.getBoundingClientRect()
+        const thumbHeight = tocScrollbarThumb.getBoundingClientRect().height
+        const targetTop = Math.max(0, Math.min(rect.height - thumbHeight, event.clientY - rect.top - thumbHeight / 2))
+        const ratio = targetTop / (rect.height - thumbHeight)
+        tocList.scrollTop = ratio * (tocList.scrollHeight - tocList.clientHeight)
+        tocScrollbarTrack.setPointerCapture(event.pointerId)
+        event.preventDefault()
+      })
+      tocScrollbarTrack.addEventListener('pointermove', (event) => {
+        if (!tocScrollbarTrack.hasPointerCapture(event.pointerId)) return
+        const rect = tocScrollbarTrack.getBoundingClientRect()
+        const thumbHeight = tocScrollbarThumb.getBoundingClientRect().height
+        const targetTop = Math.max(0, Math.min(rect.height - thumbHeight, event.clientY - rect.top - thumbHeight / 2))
+        tocList.scrollTop = targetTop / (rect.height - thumbHeight) * (tocList.scrollHeight - tocList.clientHeight)
+      })
+      tocContainer.addEventListener('toggle', () => {
+        requestAnimationFrame(updateTocScrollbar)
+        try {
+          localStorage.setItem(TOC_OPEN_KEY, String(tocContainer.open))
+        } catch (error) {
+          console.warn('Could not save TOC open state:', error)
+        }
+      })
+      tocViewToggle.addEventListener('click', () => {
+        tocExpanded = !tocExpanded
+        applyTocView()
+        try {
+          localStorage.setItem(TOC_EXPANDED_KEY, String(tocExpanded))
+        } catch (error) {
+          console.warn('Could not save TOC view state:', error)
+        }
+      })
+
       const DEFAULT_CONTENT = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae augue sed massa consequat facilisis. Integer feugiat, neque at interdum luctus, justo erat tincidunt nisi, vitae volutpat sapien sem a erat. Curabitur non magna sed lorem vulputate consequat. Sed euismod, velit vel commodo posuere, sapien nibh fermentum mi, at tristique ipsum lacus sed arcu. Donec tempor, lectus non aliquet blandit, enim eros consequat nunc, vitae dignissim mauris erat id justo. Vivamus quis neque eget urna tincidunt finibus. Suspendisse potenti. Nam a lectus vitae augue faucibus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at lectus nec sem malesuada feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sed consectetur nulla. Duis vel sem id erat ullamcorper sodales. Aliquam erat volutpat. Etiam at libero velit. Nulla facilisi. Donec sed urna in justo interdum pellentesque. Morbi non ante ac erat placerat fringilla. Phasellus euismod, augue non tempor interdum, neque dolor eleifend magna, a aliquam massa nibh id erat. Quisque sit amet sapien at tortor varius dapibus. Nam vel tellus quis neque tincidunt vehicula. Ut vitae quam ut nulla convallis tincidunt.\n\n###### Heading 6\nThis is simple text.\n\n##### Heading 5\nThis is simple text.\n\n#### Heading 4\nThis is simple text.\n\n### Heading 3\nThis is simple text.\n\n## Heading 2\nThis is simple text.\n\n# Heading 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.`
       let initialContent = DEFAULT_CONTENT
       try {
@@ -153,7 +319,36 @@
           defaultValue: initialContent,
         })
 
+        const refreshToc = () => {
+          const headings = editorRoot.querySelectorAll('.ProseMirror h1, .ProseMirror h2, .ProseMirror h3, .ProseMirror h4, .ProseMirror h5, .ProseMirror h6')
+          const slugCounts = new Map()
+          tocList.replaceChildren()
+          headings.forEach((heading, index) => {
+            const title = heading.textContent.trim() || '(empty heading)'
+            const baseSlug = title
+              .normalize('NFKD')
+              .replace(/[\u0300-\u036f]/g, '')
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, '-')
+              .replace(/^-|-$/g, '') || `heading-${index + 1}`
+            const occurrence = (slugCounts.get(baseSlug) || 0) + 1
+            slugCounts.set(baseSlug, occurrence)
+            const id = occurrence === 1 ? baseSlug : `${baseSlug}-#${occurrence}`
+            heading.id = id
+
+            const item = document.createElement('li')
+            item.style.paddingLeft = `${(Number(heading.tagName.slice(1)) - 1) * 12}px`
+            const link = document.createElement('a')
+            link.href = `#${id}`
+            link.textContent = title
+            item.appendChild(link)
+            tocList.appendChild(item)
+          })
+          requestAnimationFrame(updateTocScrollbar)
+        }
+
         await crepe.create()
+        refreshToc()
         crepe.on((listener) => {
           listener.markdownUpdated((_ctx, markdown) => {
             try {
@@ -161,6 +356,7 @@
             } catch (error) {
               console.warn('Could not save editor content:', error)
             }
+            requestAnimationFrame(refreshToc)
           })
         })
 
