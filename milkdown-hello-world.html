@@ -120,6 +120,8 @@
         background: #8d95a3;
       }
 
+      #toc-view-toggle[hidden] { display: none; }
+
       #toc-view-toggle {
         margin: 0 12px 6px;
         padding: 4px 8px;
@@ -238,7 +240,10 @@
       }
 
       const updateTocScrollbar = () => {
+        const fixedHeight = window.innerHeight * 0.28
+        const exceedsFixedHeight = tocList.scrollHeight > fixedHeight + 1
         const hasOverflow = tocList.scrollHeight > tocList.clientHeight + 1
+        tocViewToggle.hidden = !exceedsFixedHeight
         tocScrollbarTrack.hidden = tocExpanded || !hasOverflow
         if (!hasOverflow || tocExpanded) return
 
